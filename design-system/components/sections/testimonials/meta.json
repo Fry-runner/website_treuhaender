@@ -26,6 +26,11 @@
     "Bench: Trustpilot tiles with faces",
     "Osome: '92% recommend' + photo+quote cards"
   ],
+  "benchmarks": [
+    "Pennylane — video-testimonial carousel + dual badges",
+    "Mercury — portrait + blockquote cards",
+    "Betterment — rating 4.8 (78.1K) in hero"
+  ],
   "designLanguage": {
     "any": "Named quote cards + aggregate rating badge.",
     "soft": "Rounded cards w/ avatar, soft shadow, carousel.",

@@ -24,6 +24,10 @@
   "realWorld": [
     "All built sites: token-driven inputs"
   ],
+  "benchmarks": [
+    "Stripe — refined inputs",
+    "bexio — clean fields"
+  ],
   "designLanguage": {
     "soft": "rounded-xl, soft focus ring.",
     "swiss": "rounded-sm, signal focus.",

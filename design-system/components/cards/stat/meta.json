@@ -25,6 +25,11 @@
     "bexio '100,000+ KMU'",
     "Divisia '500+ Mandate'"
   ],
+  "benchmarks": [
+    "Mercury — metrics band",
+    "Wealthfront — $95B+/1.4M+",
+    "Vercel — perf metrics"
+  ],
   "designLanguage": {
     "any": "Number + label + caption.",
     "soft": "Accent number, rounded panel.",

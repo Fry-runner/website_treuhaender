@@ -27,6 +27,11 @@
     "Collective: dark rectangular 'Get started'",
     "Run my Accounts: navy pill 'Offerte' in nav"
   ],
+  "benchmarks": [
+    "Vanta — solid navy 'Get a demo' ×5",
+    "Pilot — purple monospace pills",
+    "Linear — dark primary"
+  ],
   "designLanguage": {
     "editorial": "Navy fill, sharp/rounded-md, uppercase mono label + arrow.",
     "swiss": "Signal-red/anthracite fill, rounded-sm, tracked uppercase label.",

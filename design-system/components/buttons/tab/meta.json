@@ -21,6 +21,11 @@
   "realWorld": [
     "Boost: calendar/form tabs in contact"
   ],
+  "benchmarks": [
+    "Pilot — monospace uppercase pills",
+    "Stripe/Qonto — solid primary + text secondary",
+    "Linear — dark primary + → link"
+  ],
   "designLanguage": {
     "any": "Accent border-b active.",
     "swiss": "Sharp, signal underline."

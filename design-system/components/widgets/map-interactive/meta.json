@@ -22,6 +22,11 @@
     "Nexova: 8-city CH map",
     "Rürup: animated DE-CH nodes"
   ],
+  "benchmarks": [
+    "Wise — hero FX calculator",
+    "Digits — interactive product console hero",
+    "Betterment/Selma — FAQ accordion close"
+  ],
   "designLanguage": {
     "swiss": "Abstract CH SVG, signal nodes.",
     "warm": "Zürich street lines."

@@ -29,6 +29,11 @@
     "Rürup/Boost: masked grid",
     "UdS: faint gridlines"
   ],
+  "benchmarks": [
+    "Stripe — minigl gradient wave",
+    "Vercel — single mesh gradient",
+    "Digits — animated video hero"
+  ],
   "designLanguage": {
     "soft": "Flowing ribbons.",
     "swiss": "Masked technical grid.",

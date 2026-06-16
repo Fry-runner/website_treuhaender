@@ -22,6 +22,11 @@
     "Findea/Osome/Avalon: footer newsletter",
     "common alongside blog/news"
   ],
+  "benchmarks": [
+    "Mercury — inline email in hero",
+    "Wise — calculator before signup",
+    "Betterment — short form + reassurance copy"
+  ],
   "designLanguage": {
     "any": "Email field + subscribe.",
     "soft": "Rounded field, pill subscribe."

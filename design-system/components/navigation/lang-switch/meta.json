@@ -25,6 +25,10 @@
     "Accounto/PMPG/Controva: DE/EN toggle",
     "Osome/Karbon: region switch in footer (UK/SG/…)"
   ],
+  "benchmarks": [
+    "bexio/Selma — language toggle",
+    "Wise/Qonto — region + language selector"
+  ],
   "designLanguage": {
     "any": "Segmented pill toggle.",
     "soft": "Rounded chips.",

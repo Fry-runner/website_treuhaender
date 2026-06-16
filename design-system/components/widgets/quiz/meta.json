@@ -22,6 +22,11 @@
     "UdS: 3-step service quiz",
     "Statzinger/Osome: persona-routing logic"
   ],
+  "benchmarks": [
+    "Wise — hero FX calculator",
+    "Digits — interactive product console hero",
+    "Betterment/Selma — FAQ accordion close"
+  ],
   "designLanguage": {
     "any": "Stepper + progress + result card."
   }

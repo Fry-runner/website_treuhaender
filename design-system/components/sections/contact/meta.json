@@ -29,6 +29,11 @@
     "Boost: tabbed calendar/booking + form",
     "Run my Accounts: dual path 'Grobofferte' + 'Gespräch'"
   ],
+  "benchmarks": [
+    "bexio/Selma — booking-first",
+    "Mercury — minimal inline capture",
+    "CH norm — office card + map"
+  ],
   "designLanguage": {
     "any": "Form + address/phone/hours cards + map.",
     "soft": "Rounded inputs, pill submit, soft card.",

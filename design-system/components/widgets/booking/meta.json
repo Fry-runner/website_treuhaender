@@ -22,6 +22,11 @@
     "Boost: booking wizard",
     "Nexova/Findea: 'Termin buchen' primary path"
   ],
+  "benchmarks": [
+    "Wise — hero FX calculator",
+    "Digits — interactive product console hero",
+    "Betterment/Selma — FAQ accordion close"
+  ],
   "designLanguage": {
     "any": "Stepper + slot grid.",
     "soft": "Rounded slots, pill next."

@@ -24,6 +24,11 @@
   "realWorld": [
     "All built sites: lucide-react"
   ],
+  "benchmarks": [
+    "Stripe/Digits — signature gradient",
+    "Gusto/Carta — illustration system",
+    "Pilot — ledger-grid texture @8–20%"
+  ],
   "designLanguage": {
     "any": "One lucide icon family."
   }

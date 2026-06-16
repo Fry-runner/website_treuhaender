@@ -29,6 +29,11 @@
     "Tureva: language-capabilities box",
     "Boost: LinkedIn pill"
   ],
+  "benchmarks": [
+    "Vanta — SOC2/ISO/GDPR badges in footer",
+    "Selma — FINMA/OSFIN badges in footer",
+    "bexio — Unternehmer/Treuhänder columns"
+  ],
   "designLanguage": {
     "any": "Inline footer widgets.",
     "warm": "Ticking Zürich clock."

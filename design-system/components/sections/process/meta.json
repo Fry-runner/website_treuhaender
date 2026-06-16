@@ -25,6 +25,11 @@
     "Boost: clickable numbered cards with active ring 01–03",
     "Onboarding framing common: 'Onboarding → wir übernehmen → Echtzeit-Zahlen'"
   ],
+  "benchmarks": [
+    "Puzzle — time-based speed cards",
+    "Selma — 5-step how-it-works w/ illustrations",
+    "Pilot — onboarding steps"
+  ],
   "designLanguage": {
     "editorial": "Numbered cards + arrow connectors, hairlines.",
     "soft": "Rounded step cards, active accent ring.",

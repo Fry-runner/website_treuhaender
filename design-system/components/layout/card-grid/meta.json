@@ -24,6 +24,11 @@
   "realWorld": [
     "3-col services dominant; 4-col features; 2-col big pillars"
   ],
+  "benchmarks": [
+    "Vanta — 6-col",
+    "Stripe — product card grid",
+    "bexio — 4-col"
+  ],
   "designLanguage": {
     "any": "Responsive card grid.",
     "soft": "Gap-rich rounded grid.",

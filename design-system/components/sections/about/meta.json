@@ -28,6 +28,11 @@
     "STG Zürich: heritage narrative replaces imagery",
     "Rürup: narrative + portrait split"
   ],
+  "benchmarks": [
+    "Pilot — warm↔cool bg spectrum",
+    "Linear/Vercel — one screenshot per section",
+    "Stripe — restrained section rhythm"
+  ],
   "designLanguage": {
     "editorial": "Prose + offset-framed portrait, serif lead-in.",
     "swiss": "Prose + credential portrait frame, sharp.",

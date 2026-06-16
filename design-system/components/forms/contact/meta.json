@@ -26,6 +26,11 @@
     "Run my Accounts: 'Grobofferte' form",
     "Statzinger: 'Erstgespräch' form"
   ],
+  "benchmarks": [
+    "Mercury — inline capture",
+    "Betterment — short form + reassurance",
+    "CH norm — form + office card"
+  ],
   "designLanguage": {
     "any": "Mono labels, accent focus, send icon.",
     "soft": "Rounded fields, pill submit.",

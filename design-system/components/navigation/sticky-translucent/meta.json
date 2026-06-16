@@ -27,6 +27,11 @@
     "Magic Heidi/bexio/Pilot/Osome/Karbon: sticky blurred bars",
     "STG / Controva / Accounto / Fineac: NON-sticky, opaque (classic tier)"
   ],
+  "benchmarks": [
+    "All 20 — sticky shell",
+    "Vercel — event callout bar",
+    "Linear — Docs/Login/Sign up cluster"
+  ],
   "designLanguage": {
     "editorial": "Wordmark + subtitle, thin hairline, serif-adjacent links.",
     "swiss": "Wordmark, sharp, pulse-dot status, grotesk links.",

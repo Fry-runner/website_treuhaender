@@ -21,6 +21,11 @@
   "realWorld": [
     "Boost: delete/cancel in inquiry tracker"
   ],
+  "benchmarks": [
+    "Pilot — monospace uppercase pills",
+    "Stripe/Qonto — solid primary + text secondary",
+    "Linear — dark primary + → link"
+  ],
   "designLanguage": {
     "any": "Red text + icon, no fill."
   }

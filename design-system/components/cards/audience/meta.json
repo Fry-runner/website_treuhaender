@@ -25,6 +25,11 @@
     "Osome: 3-persona carousel",
     "Nexova: 12 industry cards"
   ],
+  "benchmarks": [
+    "Vanta — 6-col icon-top feature cards",
+    "Linear/Vercel — hairline-border cards",
+    "bexio/Numarics — soft-shadow rounded cards"
+  ],
   "designLanguage": {
     "swiss": "Mono index label, sharp.",
     "soft": "Rounded icon circle, vibrant.",

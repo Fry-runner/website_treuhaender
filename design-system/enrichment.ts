@@ -1068,3 +1068,89 @@ export const animationEnrichment: Record<string, string> = {
   "widgets/cookie-consent": "Slides up from the bottom on first visit; dismiss slides out; settings opens a scale-in modal.",
   "forms/newsletter-signup": "Field focus transition; submit → success swap; confirmation banner fades in.",
 };
+
+// ===========================================================================
+// BENCHMARKS  (best-in-class sightings among 20 OUTSTANDING ADJACENT sites —
+//   bookkeeping/accounting SaaS, SME fintech, trust/compliance, wealth, UI-craft.
+//   Distinct from `realWorld` (CH Treuhänder sightings): this is "how the best
+//   sites in the world do it." Keyed by slot / element id / addition id. See
+//   references/sites.ts for the full per-site analysis. Merged as meta.benchmarks.
+// ===========================================================================
+export const benchmarkEnrichment: Record<string, string[]> = {
+  // ---- SECTIONS (by slot) ----
+  hero: ["Wise — live calculator in hero", "Vanta — 'Trust is everything' + 16k logos", "bexio — 4.0/1930 reviews + 100k KMU in hero", "Mercury — inline email + screenshots behind"],
+  intro: ["Stripe — restrained positioning", "Mercury — 'Radically different banking'", "Linear — single feel-statement"],
+  services: ["Numarics — service grid = payroll/VAT/tax deliverables", "Vanta — 6-card feature grid", "Qonto — icon-left feature cards"],
+  stats: ["Mercury — 300K+/1-in-3/$20B+/4.9 metrics band", "Linear — '33,000 teams'", "Wealthfront — $95B+/1.4M+"],
+  values: ["bexio — Zeit sparen / Swiss-Made / Support pillars", "Pilot — problem/solution pillars", "Qonto — benefit triad"],
+  audience: ["Numarics — life-stage entry cards", "bexio — Für Unternehmer / Für Treuhänder", "Gusto/Pennylane — audience self-segmentation"],
+  team: ["Gusto — people photography", "Mercury — founder quote", "boutique CH norm — owner profile"],
+  process: ["Puzzle — time-based speed cards", "Selma — 5-step how-it-works w/ illustrations", "Pilot — onboarding steps"],
+  pricing: ["Wise — competitor price comparison", "Selma — vs Bank vs Robo table", "Ramp — pricing + implementation checklist"],
+  partners: ["Selma — Swiss press logos (HZ/FuW/SRF)", "Wealthfront — Forbes/Bankrate award logos", "bexio — partner logo strip"],
+  faq: ["Betterment — FAQ accordion close", "Puzzle — FAQ accordion", "Selma — FAQ before footer"],
+  testimonials: ["Pennylane — video-testimonial carousel + dual badges", "Mercury — portrait + blockquote cards", "Betterment — rating 4.8 (78.1K) in hero"],
+  cta: ["Mercury — dual final CTA", "Vanta — 'Meet the new standard for trust'", "All — pre-footer CTA band standard"],
+  contact: ["bexio/Selma — booking-first", "Mercury — minimal inline capture", "CH norm — office card + map"],
+
+  // ---- SCRAPED ADDITIONS (by full id) ----
+  "sections/trust-bar": ["Vanta — SOC2/ISO badges as permanent furniture", "Selma — FINMA/OSFIN badges", "Stripe/Notion — marquee logo wall under hero"],
+  "sections/blog-teaser": ["bexio — 4 blog cards", "Pilot — resources section", "Pennylane — resource hub"],
+  "widgets/client-portal-login": ["bexio — Login + dashboard", "Numarics — cockpit/DocuBox portal"],
+  "widgets/cookie-consent": ["EU/CH norm — Cookiebot/Usercentrics-style"],
+
+  // ---- NAVIGATION ----
+  "nav.sticky-translucent": ["All 20 — sticky shell", "Vercel — event callout bar", "Linear — Docs/Login/Sign up cluster"],
+  "nav.dropdown": ["bexio — Für Unternehmer/Treuhänder mega-menu", "Wise — dropdowns with imagery", "Stripe — product mega-menu"],
+  "nav.lang-switch": ["bexio/Selma — language toggle", "Wise/Qonto — region + language selector"],
+
+  // ---- BUTTONS ----
+  "btn.primary-solid": ["Vanta — solid navy 'Get a demo' ×5", "Pilot — purple monospace pills", "Linear — dark primary"],
+  "btn.outline": ["Qonto — outline 'Find the right plan'", "bexio — secondary video CTA", "Betterment — outline secondary"],
+  "btn.link-arrow": ["Stripe — underlined text + →", "Linear — → link secondary", "Notion — text + → secondary"],
+  "btn.pill": ["Pilot — full pills", "Qonto — rounded CTAs", "Selma — rounded primary"],
+  "btn.bloom-cta": ["Digits — saturated green premium", "Ramp — lime savings accent", "Tureva (repo) — green bloom"],
+
+  // ---- CARDS ----
+  "card.service-tile": ["Vanta — 6-col feature cards", "Numarics — service grid", "Qonto — icon-left cards"],
+  "card.feature-pillar": ["bexio — feature cards w/ screenshots", "Linear — sequential feature anchors"],
+  "card.stat": ["Mercury — metrics band", "Wealthfront — $95B+/1.4M+", "Vercel — perf metrics"],
+  "card.team": ["Mercury — portrait testimonial cards", "Gusto — people photography", "Pennylane — headshot + title + logo"],
+  "card.partner": ["Vanta — compliance badges", "Selma — press logos", "bexio — partner logos"],
+  "card.pricing": ["Ramp — pricing cards", "Selma — tier comparison", "Wise — fee transparency"],
+  "card.callout": ["Ramp — benefit callouts", "Vanta — recognition callout"],
+
+  // ---- FORMS ----
+  "form.contact": ["Mercury — inline capture", "Betterment — short form + reassurance", "CH norm — form + office card"],
+  "form.input": ["Stripe — refined inputs", "bexio — clean fields"],
+
+  // ---- WIDGETS ----
+  "widget.calculator": ["Wise — hero FX calculator", "Ramp — savings calculator", "repo — price/finance widgets"],
+  "widget.accordion": ["Puzzle/Betterment/Selma — FAQ accordion"],
+
+  // ---- DECORATION ----
+  "decor.logo-mark": ["Linear/Vercel — minimal marks", "Digits — green D mark", "Stripe — wordmark"],
+  "decor.bg-animated": ["Stripe — minigl gradient wave", "Vercel — single mesh gradient", "Digits — animated video hero"],
+  "decor.divider": ["Pennylane — gradient dividers", "Linear — hairline structure", "repo — TurevaLines"],
+  "decor.icon-box": ["Vanta/Qonto — icon-led cards", "Numarics — custom SVG icons"],
+  "decor.accent-bar": ["repo presets — eyebrow bars", "Stripe — gradient underline accents"],
+
+  // ---- LAYOUT ----
+  "layout.grid-split": ["Pilot — split hero", "Betterment/Selma — split hero", "Carta — split"],
+  "layout.hairline-grid": ["Linear — hairline borders", "Vercel — hairline structure"],
+  "layout.section-rhythm": ["Mercury — generous whitespace", "Stripe — 8px grid restraint", "Pilot — bg spectrum"],
+  "layout.card-grid": ["Vanta — 6-col", "Stripe — product card grid", "bexio — 4-col"],
+};
+
+/** Fallback benchmarks per category, for elements without a specific entry. */
+export const benchmarkCategoryDefaults: Record<string, string[]> = {
+  section: ["Pilot — warm↔cool bg spectrum", "Linear/Vercel — one screenshot per section", "Stripe — restrained section rhythm"],
+  navigation: ["bexio — sticky + Kostenlos testen", "Stripe/Qonto — logo·menu·dual-CTA", "Linear — Docs/Login/Sign up cluster"],
+  footer: ["Vanta — SOC2/ISO/GDPR badges in footer", "Selma — FINMA/OSFIN badges in footer", "bexio — Unternehmer/Treuhänder columns"],
+  button: ["Pilot — monospace uppercase pills", "Stripe/Qonto — solid primary + text secondary", "Linear — dark primary + → link"],
+  card: ["Vanta — 6-col icon-top feature cards", "Linear/Vercel — hairline-border cards", "bexio/Numarics — soft-shadow rounded cards"],
+  form: ["Mercury — inline email in hero", "Wise — calculator before signup", "Betterment — short form + reassurance copy"],
+  widget: ["Wise — hero FX calculator", "Digits — interactive product console hero", "Betterment/Selma — FAQ accordion close"],
+  decoration: ["Stripe/Digits — signature gradient", "Gusto/Carta — illustration system", "Pilot — ledger-grid texture @8–20%"],
+  layout: ["Stripe — 8px grid + restraint", "Pilot — pin-lines over boxes", "Mercury — generous whitespace"],
+};

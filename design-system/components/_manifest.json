@@ -43,6 +43,12 @@
       "Warringsholz: split copy + founder portrait, 'Kompetent. Persönlich. Digital.'",
       "STG Zürich: type-only heritage hero 'Uns vertrauen Generationen. Seit 1906'"
     ],
+    "benchmarks": [
+      "Wise — live calculator in hero",
+      "Vanta — 'Trust is everything' + 16k logos",
+      "bexio — 4.0/1930 reviews + 100k KMU in hero",
+      "Mercury — inline email + screenshots behind"
+    ],
     "designLanguage": {
       "editorial": "Serif H1, wide whitespace, numbered or tracked eyebrow, text-link / all-caps CTA, optional pull-quote aside.",
       "swiss": "Grotesk H1 on faint masked-grid bg, pulse-dot availability badge, two sharp solid CTAs, left-aligned.",
@@ -78,6 +84,11 @@
       "Controva: 'The figures have to add up.' reduced statement",
       "Boost: max-w-3xl serif positioning line",
       "Tureva: 5/7 split statement + feature chips"
+    ],
+    "benchmarks": [
+      "Stripe — restrained positioning",
+      "Mercury — 'Radically different banking'",
+      "Linear — single feel-statement"
     ],
     "designLanguage": {
       "editorial": "Serif statement, hairline above/below, lots of air.",
@@ -134,6 +145,11 @@
       "Controva: no cards — divided text list of 7 services",
       "Nexova: 6 service cards each with 'ab CHF X' price"
     ],
+    "benchmarks": [
+      "Numarics — service grid = payroll/VAT/tax deliverables",
+      "Vanta — 6-card feature grid",
+      "Qonto — icon-left feature cards"
+    ],
     "designLanguage": {
       "editorial": "Bordered divided tiles (divide-x/divide-y hairlines), icon-in-box, uppercase title, arrow link.",
       "swiss": "Sharp flat cards or 2 large feature pillars with CheckCircle checklist + outline CTA.",
@@ -171,6 +187,11 @@
       "Bench: '35,000+ owners', '$200M+ saved'",
       "Divisia (CH baseline): 20+ years · 500+ mandates · 1 language · ZH"
     ],
+    "benchmarks": [
+      "Mercury — 300K+/1-in-3/$20B+/4.9 metrics band",
+      "Linear — '33,000 teams'",
+      "Wealthfront — $95B+/1.4M+"
+    ],
     "designLanguage": {
       "editorial": "Bordered, divided, centered numbers; restrained.",
       "soft": "Tinted panel, rounded, accent numbers.",
@@ -203,6 +224,11 @@
     "realWorld": [
       "Recurring CH four: 100% digital · transparente Preise · persönliche Betreuung · vollständig compliant (Nexova, Divisia)",
       "LPS Treuhand: numbered 01/02/03 value system with SVG icons"
+    ],
+    "benchmarks": [
+      "bexio — Zeit sparen / Swiss-Made / Support pillars",
+      "Pilot — problem/solution pillars",
+      "Qonto — benefit triad"
     ],
     "designLanguage": {
       "editorial": "3-col divide-x hairlines, dot + H4 + muted body.",
@@ -241,6 +267,11 @@
       "STG Zürich: heritage narrative replaces imagery",
       "Rürup: narrative + portrait split"
     ],
+    "benchmarks": [
+      "Pilot — warm↔cool bg spectrum",
+      "Linear/Vercel — one screenshot per section",
+      "Stripe — restrained section rhythm"
+    ],
     "designLanguage": {
       "editorial": "Prose + offset-framed portrait, serif lead-in.",
       "swiss": "Prose + credential portrait frame, sharp.",
@@ -274,6 +305,11 @@
     "realWorld": [
       "Controva: named partner Damiana Campagna + 'I look forward to meeting you personally'",
       "Rürup: hero + bio split + qualifications grid + pull-quote"
+    ],
+    "benchmarks": [
+      "Pilot — warm↔cool bg spectrum",
+      "Linear/Vercel — one screenshot per section",
+      "Stripe — restrained section rhythm"
     ],
     "designLanguage": {
       "swiss": "Sharp portrait frame, signal-red credential badges, grotesk name.",
@@ -310,6 +346,11 @@
       "Nexova: 12 industry verticals (Startups, IT, Medical, NGOs, …)",
       "Osome: 3-persona rotating 'Who we help' carousel",
       "Pilot: cycling persona/CFO scenarios"
+    ],
+    "benchmarks": [
+      "Numarics — life-stage entry cards",
+      "bexio — Für Unternehmer / Für Treuhänder",
+      "Gusto/Pennylane — audience self-segmentation"
     ],
     "designLanguage": {
       "swiss": "Mono-indexed client-group cells, sharp.",
@@ -349,6 +390,11 @@
       "UdS: 4/8 profile rows + bio + tag chips",
       "PMPG: '330+ colleagues' framing"
     ],
+    "benchmarks": [
+      "Gusto — people photography",
+      "Mercury — founder quote",
+      "boutique CH norm — owner profile"
+    ],
     "designLanguage": {
       "soft": "Rounded cards, coloured monogram, role pill.",
       "warm": "Hairline profile rows, ink-blue role tag.",
@@ -381,6 +427,11 @@
     "realWorld": [
       "Boost: clickable numbered cards with active ring 01–03",
       "Onboarding framing common: 'Onboarding → wir übernehmen → Echtzeit-Zahlen'"
+    ],
+    "benchmarks": [
+      "Puzzle — time-based speed cards",
+      "Selma — 5-step how-it-works w/ illustrations",
+      "Pilot — onboarding steps"
     ],
     "designLanguage": {
       "editorial": "Numbered cards + arrow connectors, hairlines.",
@@ -417,6 +468,11 @@
       "Nexova: per-service 'ab CHF X' inline pricing",
       "Boost: 3-col cards, calculator-driven recommended ring"
     ],
+    "benchmarks": [
+      "Wise — competitor price comparison",
+      "Selma — vs Bank vs Robo table",
+      "Ramp — pricing + implementation checklist"
+    ],
     "designLanguage": {
       "editorial": "Bordered cards, serif price, restrained recommended tint.",
       "soft": "Rounded cards, vibrant recommended ring, pill CTA.",
@@ -452,6 +508,11 @@
       "Karbon: clustered G2/Capterra/GetApp + '18 Consecutive Quarters'",
       "CH certs: TREUHAND SUISSE, EXPERTsuisse, RAB; software bexio/Abacus/Sage/DATEV"
     ],
+    "benchmarks": [
+      "Selma — Swiss press logos (HZ/FuW/SRF)",
+      "Wealthfront — Forbes/Bankrate award logos",
+      "bexio — partner logo strip"
+    ],
     "designLanguage": {
       "any": "Greyscale equal-height logo row.",
       "editorial": "Hairline-framed small partner cards with key/value footer.",
@@ -483,6 +544,11 @@
     "realWorld": [
       "Canonical CH set: Was macht ein Treuhänder? · Kosten? · Vertrag? · wirklich digital? · Regionen? · Datenschutz?",
       "Statzinger: FAQ + comparison framing"
+    ],
+    "benchmarks": [
+      "Betterment — FAQ accordion close",
+      "Puzzle — FAQ accordion",
+      "Selma — FAQ before footer"
     ],
     "designLanguage": {
       "any": "Stacked Q/A cards or single-open accordion.",
@@ -519,6 +585,11 @@
       "Rürup: giant faint Quote watermark + italic philosophy line",
       "Controva: named-partner personal quote"
     ],
+    "benchmarks": [
+      "Pilot — warm↔cool bg spectrum",
+      "Linear/Vercel — one screenshot per section",
+      "Stripe — restrained section rhythm"
+    ],
     "designLanguage": {
       "editorial": "Serif italic, faint watermark, airy.",
       "swiss": "Grotesk quote, signal-colour rule.",
@@ -552,6 +623,11 @@
       "Statzinger: testimonial carousel + Google 4.9/50 badge",
       "Bench: Trustpilot tiles with faces",
       "Osome: '92% recommend' + photo+quote cards"
+    ],
+    "benchmarks": [
+      "Pennylane — video-testimonial carousel + dual badges",
+      "Mercury — portrait + blockquote cards",
+      "Betterment — rating 4.8 (78.1K) in hero"
     ],
     "designLanguage": {
       "any": "Named quote cards + aggregate rating badge.",
@@ -591,6 +667,11 @@
       "Gruber Renger: lime CTA repeated 5+ times at section ends",
       "Tureva: scroll-driven bloom on the nearest CTA"
     ],
+    "benchmarks": [
+      "Mercury — dual final CTA",
+      "Vanta — 'Meet the new standard for trust'",
+      "All — pre-footer CTA band standard"
+    ],
     "designLanguage": {
       "editorial": "Inverted navy card, serif headline, blue button.",
       "swiss": "Sharp decorated band, signal-red solid button.",
@@ -629,6 +710,11 @@
       "Boost: tabbed calendar/booking + form",
       "Run my Accounts: dual path 'Grobofferte' + 'Gespräch'"
     ],
+    "benchmarks": [
+      "bexio/Selma — booking-first",
+      "Mercury — minimal inline capture",
+      "CH norm — office card + map"
+    ],
     "designLanguage": {
       "any": "Form + address/phone/hours cards + map.",
       "soft": "Rounded inputs, pill submit, soft card.",
@@ -666,6 +752,11 @@
       "Rürup: abstract DE-CH SVG with animated nodes",
       "UdS: custom Zürich line-map"
     ],
+    "benchmarks": [
+      "Pilot — warm↔cool bg spectrum",
+      "Linear/Vercel — one screenshot per section",
+      "Stripe — restrained section rhythm"
+    ],
     "designLanguage": {
       "swiss": "Abstract DE-CH SVG, signal nodes, sharp.",
       "warm": "Hand-built Zürich street lines on paper.",
@@ -700,6 +791,11 @@
     "realWorld": [
       "Magic Heidi/bexio/Pilot/Osome/Karbon: sticky blurred bars",
       "STG / Controva / Accounto / Fineac: NON-sticky, opaque (classic tier)"
+    ],
+    "benchmarks": [
+      "All 20 — sticky shell",
+      "Vercel — event callout bar",
+      "Linear — Docs/Login/Sign up cluster"
     ],
     "designLanguage": {
       "editorial": "Wordmark + subtitle, thin hairline, serif-adjacent links.",
@@ -736,6 +832,11 @@
       "Rürup/UdS/Tureva: animated underline",
       "Boost: static accent underline"
     ],
+    "benchmarks": [
+      "bexio — sticky + Kostenlos testen",
+      "Stripe/Qonto — logo·menu·dual-CTA",
+      "Linear — Docs/Login/Sign up cluster"
+    ],
     "designLanguage": {
       "any": "Sliding underline.",
       "swiss": "Signal-colour bar.",
@@ -765,6 +866,11 @@
     "realWorld": [
       "bexio: two-tier audience nav (Unternehmer / Treuhänder) + dropdowns",
       "Pilot/Osome/London/Karbon: multi-column mega-menus"
+    ],
+    "benchmarks": [
+      "bexio — Für Unternehmer/Treuhänder mega-menu",
+      "Wise — dropdowns with imagery",
+      "Stripe — product mega-menu"
     ],
     "designLanguage": {
       "any": "Title+subtext dropdown panel.",
@@ -799,6 +905,10 @@
       "Accounto/PMPG/Controva: DE/EN toggle",
       "Osome/Karbon: region switch in footer (UK/SG/…)"
     ],
+    "benchmarks": [
+      "bexio/Selma — language toggle",
+      "Wise/Qonto — region + language selector"
+    ],
     "designLanguage": {
       "any": "Segmented pill toggle.",
       "soft": "Rounded chips.",
@@ -831,6 +941,11 @@
     "realWorld": [
       "All built sites + most SaaS: animated drawer with full-width CTA"
     ],
+    "benchmarks": [
+      "bexio — sticky + Kostenlos testen",
+      "Stripe/Qonto — logo·menu·dual-CTA",
+      "Linear — Docs/Login/Sign up cluster"
+    ],
     "designLanguage": {
       "any": "Height drawer, full-width CTA.",
       "soft": "Rounded items.",
@@ -860,6 +975,11 @@
     "animation": "Static — or a one-time slide-in on first load.",
     "realWorld": [
       "UdS: ink-blue 1.5px signature bar"
+    ],
+    "benchmarks": [
+      "bexio — sticky + Kostenlos testen",
+      "Stripe/Qonto — logo·menu·dual-CTA",
+      "Linear — Docs/Login/Sign up cluster"
     ],
     "designLanguage": {
       "warm": "Ink-blue hairline bar.",
@@ -896,6 +1016,11 @@
       "Findea: 'Made with ❤️ in Winterthur'",
       "Karbon/Osome: region switch lives here",
       "All built sites: offices + sitemap + legal + © year"
+    ],
+    "benchmarks": [
+      "Vanta — SOC2/ISO/GDPR badges in footer",
+      "Selma — FINMA/OSFIN badges in footer",
+      "bexio — Unternehmer/Treuhänder columns"
     ],
     "designLanguage": {
       "editorial": "3-col brand/sitemap/network, hairlines.",
@@ -935,6 +1060,11 @@
       "Tureva: language-capabilities box",
       "Boost: LinkedIn pill"
     ],
+    "benchmarks": [
+      "Vanta — SOC2/ISO/GDPR badges in footer",
+      "Selma — FINMA/OSFIN badges in footer",
+      "bexio — Unternehmer/Treuhänder columns"
+    ],
     "designLanguage": {
       "any": "Inline footer widgets.",
       "warm": "Ticking Zürich clock."
@@ -968,6 +1098,11 @@
       "Gruber Renger: lime rounded 'Erstgespräch buchen' repeated 5+×",
       "Collective: dark rectangular 'Get started'",
       "Run my Accounts: navy pill 'Offerte' in nav"
+    ],
+    "benchmarks": [
+      "Vanta — solid navy 'Get a demo' ×5",
+      "Pilot — purple monospace pills",
+      "Linear — dark primary"
     ],
     "designLanguage": {
       "editorial": "Navy fill, sharp/rounded-md, uppercase mono label + arrow.",
@@ -1004,6 +1139,11 @@
       "Karbon: outlined 'Take a Tour' beside 'Book a Demo'",
       "Pilot: outline/ghost secondary"
     ],
+    "benchmarks": [
+      "Qonto — outline 'Find the right plan'",
+      "bexio — secondary video CTA",
+      "Betterment — outline secondary"
+    ],
     "designLanguage": {
       "swiss": "Sharp border → signal fill invert.",
       "soft": "Pill border → vibrant fill.",
@@ -1039,6 +1179,11 @@
       "Pilot: arrow text-links repeated under features",
       "London Accountants: 'Read More' on every service card"
     ],
+    "benchmarks": [
+      "Stripe — underlined text + →",
+      "Linear — → link secondary",
+      "Notion — text + → secondary"
+    ],
     "designLanguage": {
       "any": "Mono uppercase + arrow translate.",
       "editorial": "Serif-adjacent, hairline underline.",
@@ -1070,6 +1215,11 @@
       "UdS: .hover-underline-anim nav + links",
       "Controva: minimal inline links",
       "STG Zürich: blue text links"
+    ],
+    "benchmarks": [
+      "Pilot — monospace uppercase pills",
+      "Stripe/Qonto — solid primary + text secondary",
+      "Linear — dark primary + → link"
     ],
     "designLanguage": {
       "warm": "Ink-blue, scaleX underline.",
@@ -1103,6 +1253,11 @@
     "realWorld": [
       "bexio, Accounto, Osome, Pilot, Karbon, Magic Heidi: pill CTAs throughout"
     ],
+    "benchmarks": [
+      "Pilot — full pills",
+      "Qonto — rounded CTAs",
+      "Selma — rounded primary"
+    ],
     "designLanguage": {
       "soft": "Vibrant fill pill, title-case.",
       "any": "Neutral rounded-full."
@@ -1131,6 +1286,11 @@
     "realWorld": [
       "Tureva: .cta-btn-interactive lime bloom tied to scroll observer"
     ],
+    "benchmarks": [
+      "Digits — saturated green premium",
+      "Ramp — lime savings accent",
+      "Tureva (repo) — green bloom"
+    ],
     "designLanguage": {
       "soft": "Lime rounded-full, rgba bloom shadow."
     }
@@ -1157,6 +1317,11 @@
     "animation": "Active underline slides between tabs (layout spring ~300ms); panel cross-fades.",
     "realWorld": [
       "Boost: calendar/form tabs in contact"
+    ],
+    "benchmarks": [
+      "Pilot — monospace uppercase pills",
+      "Stripe/Qonto — solid primary + text secondary",
+      "Linear — dark primary + → link"
     ],
     "designLanguage": {
       "any": "Accent border-b active.",
@@ -1190,6 +1355,11 @@
       "All built sites: carousel arrows, modal close, mobile hamburger",
       "Pilot/Bench/Statzinger: testimonial carousel arrows"
     ],
+    "benchmarks": [
+      "Pilot — monospace uppercase pills",
+      "Stripe/Qonto — solid primary + text secondary",
+      "Linear — dark primary + → link"
+    ],
     "designLanguage": {
       "any": "Icon in subtle bordered/round container."
     }
@@ -1216,6 +1386,11 @@
     "animation": "Hover deepens red (~150ms); optional shake on a destructive confirm.",
     "realWorld": [
       "Boost: delete/cancel in inquiry tracker"
+    ],
+    "benchmarks": [
+      "Pilot — monospace uppercase pills",
+      "Stripe/Qonto — solid primary + text secondary",
+      "Linear — dark primary + → link"
     ],
     "designLanguage": {
       "any": "Red text + icon, no fill."
@@ -1246,6 +1421,11 @@
     "realWorld": [
       "Gruber Renger: 'Zum Rechnungswesen' whole-card click",
       "bexio, Karbon, Osome, Warringsholz: clickable service tiles"
+    ],
+    "benchmarks": [
+      "Pilot — monospace uppercase pills",
+      "Stripe/Qonto — solid primary + text secondary",
+      "Linear — dark primary + → link"
     ],
     "designLanguage": {
       "any": "Full card link, hover border/lift.",
@@ -1280,6 +1460,11 @@
       "bexio: 4-col, icon top-left, hover-shadow lift",
       "Nexova: price line on each tile"
     ],
+    "benchmarks": [
+      "Vanta — 6-col feature cards",
+      "Numarics — service grid",
+      "Qonto — icon-left cards"
+    ],
     "designLanguage": {
       "editorial": "Sharp hairline cell, icon-in-box, uppercase title.",
       "swiss": "Flat bordered, signal hover border.",
@@ -1313,6 +1498,10 @@
       "Rürup: 2 feature pillars w/ checklist + outline CTA",
       "Magic Heidi/bexio: feature blocks with checklists"
     ],
+    "benchmarks": [
+      "bexio — feature cards w/ screenshots",
+      "Linear — sequential feature anchors"
+    ],
     "designLanguage": {
       "swiss": "Sharp, corner badge, signal checks.",
       "editorial": "Bordered, navy checks, serif title."
@@ -1344,6 +1533,11 @@
       "Bench '$200M+'",
       "bexio '100,000+ KMU'",
       "Divisia '500+ Mandate'"
+    ],
+    "benchmarks": [
+      "Mercury — metrics band",
+      "Wealthfront — $95B+/1.4M+",
+      "Vercel — perf metrics"
     ],
     "designLanguage": {
       "any": "Number + label + caption.",
@@ -1378,6 +1572,11 @@
       "UdS: STANDORT/FOKUS/GRÜNDUNG plate",
       "Tureva: registry card"
     ],
+    "benchmarks": [
+      "Vanta — 6-col icon-top feature cards",
+      "Linear/Vercel — hairline-border cards",
+      "bexio/Numarics — soft-shadow rounded cards"
+    ],
     "designLanguage": {
       "warm": "Hairline rows on paper, ink accent bar.",
       "soft": "Rounded, mid-gray labels."
@@ -1408,6 +1607,11 @@
       "Osome: highlighted plan",
       "Pilot/Bench: tiered plans"
     ],
+    "benchmarks": [
+      "Ramp — pricing cards",
+      "Selma — tier comparison",
+      "Wise — fee transparency"
+    ],
     "designLanguage": {
       "soft": "Rounded, vibrant recommended ring, pill CTA.",
       "editorial": "Bordered, serif price.",
@@ -1437,6 +1641,11 @@
     "realWorld": [
       "Run my Accounts: award/cert badges",
       "CH: TREUHAND SUISSE / EXPERTsuisse / RAB + bexio/Abacus"
+    ],
+    "benchmarks": [
+      "Vanta — compliance badges",
+      "Selma — press logos",
+      "bexio — partner logos"
     ],
     "designLanguage": {
       "editorial": "Hairline card + key/value footer.",
@@ -1470,6 +1679,11 @@
       "Osome: 3-persona carousel",
       "Nexova: 12 industry cards"
     ],
+    "benchmarks": [
+      "Vanta — 6-col icon-top feature cards",
+      "Linear/Vercel — hairline-border cards",
+      "bexio/Numarics — soft-shadow rounded cards"
+    ],
     "designLanguage": {
       "swiss": "Mono index label, sharp.",
       "soft": "Rounded icon circle, vibrant.",
@@ -1502,6 +1716,11 @@
       "Tureva: monogram + role pill",
       "UdS: profile rows + tags"
     ],
+    "benchmarks": [
+      "Mercury — portrait testimonial cards",
+      "Gusto — people photography",
+      "Pennylane — headshot + title + logo"
+    ],
     "designLanguage": {
       "soft": "Rounded card, coloured monogram.",
       "warm": "Hairline row, ink role tag.",
@@ -1533,6 +1752,11 @@
     "realWorld": [
       "Rürup/Tureva/UdS: office cards with contact rows",
       "Nexova: 8 city cards"
+    ],
+    "benchmarks": [
+      "Vanta — 6-col icon-top feature cards",
+      "Linear/Vercel — hairline-border cards",
+      "bexio/Numarics — soft-shadow rounded cards"
     ],
     "designLanguage": {
       "any": "Bordered contact rows.",
@@ -1569,6 +1793,10 @@
       "Rürup: red left-border callout",
       "Boost/UdS: top-accent tinted callouts"
     ],
+    "benchmarks": [
+      "Ramp — benefit callouts",
+      "Vanta — recognition callout"
+    ],
     "designLanguage": {
       "swiss": "Signal-red left border.",
       "warm": "Rose/blue tint, sharp.",
@@ -1601,6 +1829,11 @@
       "Tureva/UdS/Rürup: cert + registry chips",
       "Magic Heidi: 'Swiss-Made Software' eyebrow chip"
     ],
+    "benchmarks": [
+      "Vanta — 6-col icon-top feature cards",
+      "Linear/Vercel — hairline-border cards",
+      "bexio/Numarics — soft-shadow rounded cards"
+    ],
     "designLanguage": {
       "any": "Mono uppercase bordered chip.",
       "soft": "Rounded pill chip."
@@ -1631,6 +1864,11 @@
     "realWorld": [
       "Boost/Tureva/UdS: inquiry tracker rows"
     ],
+    "benchmarks": [
+      "Vanta — 6-col icon-top feature cards",
+      "Linear/Vercel — hairline-border cards",
+      "bexio/Numarics — soft-shadow rounded cards"
+    ],
     "designLanguage": {
       "any": "Bordered row + status badge."
     }
@@ -1657,6 +1895,11 @@
     "animation": "Spring scale-in on reveal with a Sparkles pop; CTAs fade up after.",
     "realWorld": [
       "UdS: quiz result card with verdict + CTAs"
+    ],
+    "benchmarks": [
+      "Vanta — 6-col icon-top feature cards",
+      "Linear/Vercel — hairline-border cards",
+      "bexio/Numarics — soft-shadow rounded cards"
     ],
     "designLanguage": {
       "any": "Tinted card, icon + verdict.",
@@ -1688,6 +1931,11 @@
     "animation": "Slide-down + fade in; auto-dismiss fade-out after ~4–5s.",
     "realWorld": [
       "All built sites: form success/error banners"
+    ],
+    "benchmarks": [
+      "Vanta — 6-col icon-top feature cards",
+      "Linear/Vercel — hairline-border cards",
+      "bexio/Numarics — soft-shadow rounded cards"
     ],
     "designLanguage": {
       "any": "Emerald/red inline banner with icon."
@@ -1721,6 +1969,11 @@
       "Run my Accounts: 'Grobofferte' form",
       "Statzinger: 'Erstgespräch' form"
     ],
+    "benchmarks": [
+      "Mercury — inline capture",
+      "Betterment — short form + reassurance",
+      "CH norm — form + office card"
+    ],
     "designLanguage": {
       "any": "Mono labels, accent focus, send icon.",
       "soft": "Rounded fields, pill submit.",
@@ -1752,6 +2005,10 @@
     "animation": "Focus border/ring transition ~150ms; floating label rises 200ms (if used); optional shake on invalid.",
     "realWorld": [
       "All built sites: token-driven inputs"
+    ],
+    "benchmarks": [
+      "Stripe — refined inputs",
+      "bexio — clean fields"
     ],
     "designLanguage": {
       "soft": "rounded-xl, soft focus ring.",
@@ -1785,6 +2042,11 @@
     "realWorld": [
       "All built sites: empty-check + banners"
     ],
+    "benchmarks": [
+      "Mercury — inline email in hero",
+      "Wise — calculator before signup",
+      "Betterment — short form + reassurance copy"
+    ],
     "designLanguage": {
       "any": "Red error / emerald success banner."
     }
@@ -1813,6 +2075,11 @@
     "animation": "New tracker row slides in; delete collapses height.",
     "realWorld": [
       "Boost/Tureva/UdS: inquiry persistence"
+    ],
+    "benchmarks": [
+      "Mercury — inline email in hero",
+      "Wise — calculator before signup",
+      "Betterment — short form + reassurance copy"
     ],
     "designLanguage": {
       "any": "Tracker rows + status badges."
@@ -1848,6 +2115,11 @@
       "All built sites: DSGVO/nDSG consent note",
       "Findea/Osome: newsletter signup"
     ],
+    "benchmarks": [
+      "Mercury — inline email in hero",
+      "Wise — calculator before signup",
+      "Betterment — short form + reassurance copy"
+    ],
     "designLanguage": {
       "any": "Checkbox + small-print consent."
     }
@@ -1875,6 +2147,11 @@
     "animation": "Backdrop fade + dialog scale-in (0.96→1, 200–250ms); close reverses; body scroll lock.",
     "realWorld": [
       "Boost/Rürup: legal modals"
+    ],
+    "benchmarks": [
+      "Wise — hero FX calculator",
+      "Digits — interactive product console hero",
+      "Betterment/Selma — FAQ accordion close"
     ],
     "designLanguage": {
       "any": "Blur backdrop, scale-in dialog."
@@ -1904,6 +2181,9 @@
     "realWorld": [
       "Rürup/Tureva: accordions",
       "Findea: expandable service cards"
+    ],
+    "benchmarks": [
+      "Puzzle/Betterment/Selma — FAQ accordion"
     ],
     "designLanguage": {
       "any": "Plus/Minus, height motion.",
@@ -1937,6 +2217,11 @@
       "Boost: calendar/form tabs",
       "UdS: sidebar service selector"
     ],
+    "benchmarks": [
+      "Wise — hero FX calculator",
+      "Digits — interactive product console hero",
+      "Betterment/Selma — FAQ accordion close"
+    ],
     "designLanguage": {
       "any": "Tab/selector + panel.",
       "warm": "Sidebar list + animated detail w/ accent bar."
@@ -1965,6 +2250,11 @@
     "realWorld": [
       "Boost: booking wizard",
       "Nexova/Findea: 'Termin buchen' primary path"
+    ],
+    "benchmarks": [
+      "Wise — hero FX calculator",
+      "Digits — interactive product console hero",
+      "Betterment/Selma — FAQ accordion close"
     ],
     "designLanguage": {
       "any": "Stepper + slot grid.",
@@ -1996,6 +2286,11 @@
       "Nexova: 'Preisrechner' CTA",
       "Findea: cost framing"
     ],
+    "benchmarks": [
+      "Wise — hero FX calculator",
+      "Ramp — savings calculator",
+      "repo — price/finance widgets"
+    ],
     "designLanguage": {
       "any": "Slider → highlighted card.",
       "soft": "Vibrant track + bloom result."
@@ -2025,6 +2320,11 @@
       "UdS: 3-step service quiz",
       "Statzinger/Osome: persona-routing logic"
     ],
+    "benchmarks": [
+      "Wise — hero FX calculator",
+      "Digits — interactive product console hero",
+      "Betterment/Selma — FAQ accordion close"
+    ],
     "designLanguage": {
       "any": "Stepper + progress + result card."
     }
@@ -2052,6 +2352,11 @@
     "realWorld": [
       "UdS: FinanceSimulator",
       "Magic Heidi: live QR-bill mockup as showpiece"
+    ],
+    "benchmarks": [
+      "Wise — hero FX calculator",
+      "Digits — interactive product console hero",
+      "Betterment/Selma — FAQ accordion close"
     ],
     "designLanguage": {
       "any": "Sliders → live SVG verdict.",
@@ -2081,6 +2386,11 @@
     "realWorld": [
       "Tureva: nearest-CTA bloom highlighter"
     ],
+    "benchmarks": [
+      "Wise — hero FX calculator",
+      "Digits — interactive product console hero",
+      "Betterment/Selma — FAQ accordion close"
+    ],
     "designLanguage": {
       "soft": "Lime bloom on active CTA."
     }
@@ -2109,6 +2419,11 @@
       "Nexova: 8-city CH map",
       "Rürup: animated DE-CH nodes"
     ],
+    "benchmarks": [
+      "Wise — hero FX calculator",
+      "Digits — interactive product console hero",
+      "Betterment/Selma — FAQ accordion close"
+    ],
     "designLanguage": {
       "swiss": "Abstract CH SVG, signal nodes.",
       "warm": "Zürich street lines."
@@ -2136,6 +2451,11 @@
     "animation": "Digits update every second (optional flip/cross-fade).",
     "realWorld": [
       "UdS: live Zürich time"
+    ],
+    "benchmarks": [
+      "Wise — hero FX calculator",
+      "Digits — interactive product console hero",
+      "Betterment/Selma — FAQ accordion close"
     ],
     "designLanguage": {
       "warm": "Mono Zürich clock.",
@@ -2168,6 +2488,11 @@
       "Boost: ∞",
       "Tureva: double-T",
       "STG: SVG wordmark"
+    ],
+    "benchmarks": [
+      "Linear/Vercel — minimal marks",
+      "Digits — green D mark",
+      "Stripe — wordmark"
     ],
     "designLanguage": {
       "any": "Inline SVG mark.",
@@ -2203,6 +2528,11 @@
       "UdS: 'Strich' line motif",
       "Tureva: TurevaLines",
       "Accounto: SVG section-divider patterns"
+    ],
+    "benchmarks": [
+      "Pennylane — gradient dividers",
+      "Linear — hairline structure",
+      "repo — TurevaLines"
     ],
     "designLanguage": {
       "warm": "'Strich' hairline + label.",
@@ -2241,6 +2571,11 @@
       "Rürup/Boost: masked grid",
       "UdS: faint gridlines"
     ],
+    "benchmarks": [
+      "Stripe — minigl gradient wave",
+      "Vercel — single mesh gradient",
+      "Digits — animated video hero"
+    ],
     "designLanguage": {
       "soft": "Flowing ribbons.",
       "swiss": "Masked technical grid.",
@@ -2271,6 +2606,10 @@
     "animation": "Grows width (scaleX 0→1) on reveal (~300ms ease-out).",
     "realWorld": [
       "Boost/Tureva/UdS: accent bars under eyebrows"
+    ],
+    "benchmarks": [
+      "repo presets — eyebrow bars",
+      "Stripe — gradient underline accents"
     ],
     "designLanguage": {
       "any": "Accent underline bar.",
@@ -2304,6 +2643,11 @@
       "Rürup: pulse-dot hero badge",
       "Boost/UdS: status dots"
     ],
+    "benchmarks": [
+      "Stripe/Digits — signature gradient",
+      "Gusto/Carta — illustration system",
+      "Pilot — ledger-grid texture @8–20%"
+    ],
     "designLanguage": {
       "any": "Pinging dot.",
       "swiss": "Green availability ping.",
@@ -2335,6 +2679,10 @@
     "realWorld": [
       "Boost/Rürup: bordered icon boxes on service tiles"
     ],
+    "benchmarks": [
+      "Vanta/Qonto — icon-led cards",
+      "Numarics — custom SVG icons"
+    ],
     "designLanguage": {
       "editorial": "Hairline box, navy icon.",
       "swiss": "Sharp box, signal icon."
@@ -2363,6 +2711,11 @@
     "animation": "Fade-in with its card; hover reveals an overlay.",
     "realWorld": [
       "Tureva/UdS: monogram avatars"
+    ],
+    "benchmarks": [
+      "Stripe/Digits — signature gradient",
+      "Gusto/Carta — illustration system",
+      "Pilot — ledger-grid texture @8–20%"
     ],
     "designLanguage": {
       "soft": "Rounded coloured monogram.",
@@ -2394,6 +2747,11 @@
       "Rürup: offset portrait frame + credential overlay",
       "Warringsholz: founder portrait"
     ],
+    "benchmarks": [
+      "Stripe/Digits — signature gradient",
+      "Gusto/Carta — illustration system",
+      "Pilot — ledger-grid texture @8–20%"
+    ],
     "designLanguage": {
       "swiss": "Sharp offset frame, signal caption.",
       "editorial": "Navy frame, serif caption."
@@ -2422,6 +2780,11 @@
     "animation": "Parallax-drift on scroll; fades in behind the text.",
     "realWorld": [
       "Rürup: giant faint Quote glyph"
+    ],
+    "benchmarks": [
+      "Stripe/Digits — signature gradient",
+      "Gusto/Carta — illustration system",
+      "Pilot — ledger-grid texture @8–20%"
     ],
     "designLanguage": {
       "editorial": "Faint serif glyph.",
@@ -2455,6 +2818,11 @@
       "Rürup: DE-CH abstract",
       "UdS: Zürich streets"
     ],
+    "benchmarks": [
+      "Stripe/Digits — signature gradient",
+      "Gusto/Carta — illustration system",
+      "Pilot — ledger-grid texture @8–20%"
+    ],
     "designLanguage": {
       "swiss": "Abstract CH lines.",
       "warm": "Zürich street map."
@@ -2485,6 +2853,11 @@
     "animation": "No intrinsic motion — inherits its host element's animation.",
     "realWorld": [
       "All built sites: lucide-react"
+    ],
+    "benchmarks": [
+      "Stripe/Digits — signature gradient",
+      "Gusto/Carta — illustration system",
+      "Pilot — ledger-grid texture @8–20%"
     ],
     "designLanguage": {
       "any": "One lucide icon family."
@@ -2517,6 +2890,11 @@
     "realWorld": [
       "All built sites + references: 1200–1280px container"
     ],
+    "benchmarks": [
+      "Stripe — 8px grid + restraint",
+      "Pilot — pin-lines over boxes",
+      "Mercury — generous whitespace"
+    ],
     "designLanguage": {
       "any": "Centered max-w container.",
       "editorial": "Narrower text measure for prose."
@@ -2548,6 +2926,11 @@
     "animation": "No intrinsic motion — governs spacing, not motion.",
     "realWorld": [
       "Airy py-20/24 on premium looks; tighter py-12 on swiss"
+    ],
+    "benchmarks": [
+      "Mercury — generous whitespace",
+      "Stripe — 8px grid restraint",
+      "Pilot — bg spectrum"
     ],
     "designLanguage": {
       "editorial": "py-20 airy.",
@@ -2582,6 +2965,11 @@
     "realWorld": [
       "Hero/about/contact across all sites use 12-col splits"
     ],
+    "benchmarks": [
+      "Pilot — split hero",
+      "Betterment/Selma — split hero",
+      "Carta — split"
+    ],
     "designLanguage": {
       "any": "12-col asymmetric split."
     }
@@ -2612,6 +3000,11 @@
     "realWorld": [
       "3-col services dominant; 4-col features; 2-col big pillars"
     ],
+    "benchmarks": [
+      "Vanta — 6-col",
+      "Stripe — product card grid",
+      "bexio — 4-col"
+    ],
     "designLanguage": {
       "any": "Responsive card grid.",
       "soft": "Gap-rich rounded grid.",
@@ -2641,6 +3034,10 @@
     "animation": "Cells fade-in on reveal; hover tints an individual cell ~200ms.",
     "realWorld": [
       "Boost: divided service/stat grids"
+    ],
+    "benchmarks": [
+      "Linear — hairline borders",
+      "Vercel — hairline structure"
     ],
     "designLanguage": {
       "editorial": "Hairline-divided ledger box.",
@@ -2673,6 +3070,11 @@
     "realWorld": [
       "All built sites: white↔tinted alternation"
     ],
+    "benchmarks": [
+      "Stripe — 8px grid + restraint",
+      "Pilot — pin-lines over boxes",
+      "Mercury — generous whitespace"
+    ],
     "designLanguage": {
       "any": "White↔surface alternation.",
       "warm": "Paper↔white bands."
@@ -2704,6 +3106,11 @@
     "realWorld": [
       "All built sites: motion/react transitions"
     ],
+    "benchmarks": [
+      "Stripe — 8px grid + restraint",
+      "Pilot — pin-lines over boxes",
+      "Mercury — generous whitespace"
+    ],
     "designLanguage": {
       "any": "Fade/slide reveals.",
       "soft": "Expressive spring.",
@@ -2734,6 +3141,11 @@
     "realWorld": [
       "64% of scraped CH sites have a blog/news area",
       "Findea/Osome/Pilot/Bench: resource/blog hubs"
+    ],
+    "benchmarks": [
+      "bexio — 4 blog cards",
+      "Pilot — resources section",
+      "Pennylane — resource hub"
     ],
     "designLanguage": {
       "soft": "Rounded image-top cards.",
@@ -2767,6 +3179,11 @@
       "TREUHAND SUISSE / EXPERTsuisse / RAB + bexio/Abacus/Sage/DATEV",
       "Karbon: G2/Capterra cluster"
     ],
+    "benchmarks": [
+      "Vanta — SOC2/ISO badges as permanent furniture",
+      "Selma — FINMA/OSFIN badges",
+      "Stripe/Notion — marquee logo wall under hero"
+    ],
     "designLanguage": {
       "any": "Greyscale logo strip.",
       "swiss": "Sharp award grid.",
@@ -2797,6 +3214,11 @@
       "34% of scraped CH sites",
       "aawi/PMPG: jobs/careers"
     ],
+    "benchmarks": [
+      "Pilot — warm↔cool bg spectrum",
+      "Linear/Vercel — one screenshot per section",
+      "Stripe — restrained section rhythm"
+    ],
     "designLanguage": {
       "any": "Roles list or hiring band."
     }
@@ -2824,6 +3246,10 @@
     "realWorld": [
       "16% of scraped CH sites",
       "bexio/Pilot/Bench/Collective: 'Log in' separate from 'Get started'"
+    ],
+    "benchmarks": [
+      "bexio — Login + dashboard",
+      "Numarics — cockpit/DocuBox portal"
     ],
     "designLanguage": {
       "any": "Outlined Login in nav.",
@@ -2854,6 +3280,9 @@
     "realWorld": [
       "Required for all CH/EU sites; explicit tooling on ~6% of scraped"
     ],
+    "benchmarks": [
+      "EU/CH norm — Cookiebot/Usercentrics-style"
+    ],
     "designLanguage": {
       "any": "Bottom banner, accept/settings."
     }
@@ -2881,6 +3310,11 @@
     "realWorld": [
       "Findea/Osome/Avalon: footer newsletter",
       "common alongside blog/news"
+    ],
+    "benchmarks": [
+      "Mercury — inline email in hero",
+      "Wise — calculator before signup",
+      "Betterment — short form + reassurance copy"
     ],
     "designLanguage": {
       "any": "Email field + subscribe.",

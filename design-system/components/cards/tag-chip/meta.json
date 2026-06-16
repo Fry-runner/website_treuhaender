@@ -24,6 +24,11 @@
     "Tureva/UdS/Rürup: cert + registry chips",
     "Magic Heidi: 'Swiss-Made Software' eyebrow chip"
   ],
+  "benchmarks": [
+    "Vanta — 6-col icon-top feature cards",
+    "Linear/Vercel — hairline-border cards",
+    "bexio/Numarics — soft-shadow rounded cards"
+  ],
   "designLanguage": {
     "any": "Mono uppercase bordered chip.",
     "soft": "Rounded pill chip."

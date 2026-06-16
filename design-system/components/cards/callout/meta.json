@@ -27,6 +27,10 @@
     "Rürup: red left-border callout",
     "Boost/UdS: top-accent tinted callouts"
   ],
+  "benchmarks": [
+    "Ramp — benefit callouts",
+    "Vanta — recognition callout"
+  ],
   "designLanguage": {
     "swiss": "Signal-red left border.",
     "warm": "Rose/blue tint, sharp.",

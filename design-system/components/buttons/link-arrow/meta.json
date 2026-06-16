@@ -26,6 +26,11 @@
     "Pilot: arrow text-links repeated under features",
     "London Accountants: 'Read More' on every service card"
   ],
+  "benchmarks": [
+    "Stripe — underlined text + →",
+    "Linear — → link secondary",
+    "Notion — text + → secondary"
+  ],
   "designLanguage": {
     "any": "Mono uppercase + arrow translate.",
     "editorial": "Serif-adjacent, hairline underline.",

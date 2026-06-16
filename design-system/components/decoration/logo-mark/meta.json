@@ -25,6 +25,11 @@
     "Tureva: double-T",
     "STG: SVG wordmark"
   ],
+  "benchmarks": [
+    "Linear/Vercel — minimal marks",
+    "Digits — green D mark",
+    "Stripe — wordmark"
+  ],
   "designLanguage": {
     "any": "Inline SVG mark.",
     "soft": "Rounded geometric glyph.",

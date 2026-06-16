@@ -24,6 +24,11 @@
   "realWorld": [
     "All built sites: form success/error banners"
   ],
+  "benchmarks": [
+    "Vanta — 6-col icon-top feature cards",
+    "Linear/Vercel — hairline-border cards",
+    "bexio/Numarics — soft-shadow rounded cards"
+  ],
   "designLanguage": {
     "any": "Emerald/red inline banner with icon."
   }

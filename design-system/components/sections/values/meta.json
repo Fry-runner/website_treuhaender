@@ -25,6 +25,11 @@
     "Recurring CH four: 100% digital · transparente Preise · persönliche Betreuung · vollständig compliant (Nexova, Divisia)",
     "LPS Treuhand: numbered 01/02/03 value system with SVG icons"
   ],
+  "benchmarks": [
+    "bexio — Zeit sparen / Swiss-Made / Support pillars",
+    "Pilot — problem/solution pillars",
+    "Qonto — benefit triad"
+  ],
   "designLanguage": {
     "editorial": "3-col divide-x hairlines, dot + H4 + muted body.",
     "swiss": "Sharp cells, signal-colour bullet, tight.",

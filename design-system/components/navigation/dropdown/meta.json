@@ -22,6 +22,11 @@
     "bexio: two-tier audience nav (Unternehmer / Treuhänder) + dropdowns",
     "Pilot/Osome/London/Karbon: multi-column mega-menus"
   ],
+  "benchmarks": [
+    "bexio — Für Unternehmer/Treuhänder mega-menu",
+    "Wise — dropdowns with imagery",
+    "Stripe — product mega-menu"
+  ],
   "designLanguage": {
     "any": "Title+subtext dropdown panel.",
     "soft": "Rounded panel, soft shadow.",

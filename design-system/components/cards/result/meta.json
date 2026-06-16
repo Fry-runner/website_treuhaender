@@ -21,6 +21,11 @@
   "realWorld": [
     "UdS: quiz result card with verdict + CTAs"
   ],
+  "benchmarks": [
+    "Vanta — 6-col icon-top feature cards",
+    "Linear/Vercel — hairline-border cards",
+    "bexio/Numarics — soft-shadow rounded cards"
+  ],
   "designLanguage": {
     "any": "Tinted card, icon + verdict.",
     "soft": "Rounded, vibrant tint."

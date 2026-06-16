@@ -24,6 +24,11 @@
     "Boost: calendar/form tabs",
     "UdS: sidebar service selector"
   ],
+  "benchmarks": [
+    "Wise — hero FX calculator",
+    "Digits — interactive product console hero",
+    "Betterment/Selma — FAQ accordion close"
+  ],
   "designLanguage": {
     "any": "Tab/selector + panel.",
     "warm": "Sidebar list + animated detail w/ accent bar."

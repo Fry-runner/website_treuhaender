@@ -23,6 +23,9 @@
     "Rürup/Tureva: accordions",
     "Findea: expandable service cards"
   ],
+  "benchmarks": [
+    "Puzzle/Betterment/Selma — FAQ accordion"
+  ],
   "designLanguage": {
     "any": "Plus/Minus, height motion.",
     "soft": "Rounded panels.",

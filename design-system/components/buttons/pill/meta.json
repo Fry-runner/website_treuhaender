@@ -24,6 +24,11 @@
   "realWorld": [
     "bexio, Accounto, Osome, Pilot, Karbon, Magic Heidi: pill CTAs throughout"
   ],
+  "benchmarks": [
+    "Pilot — full pills",
+    "Qonto — rounded CTAs",
+    "Selma — rounded primary"
+  ],
   "designLanguage": {
     "soft": "Vibrant fill pill, title-case.",
     "any": "Neutral rounded-full."

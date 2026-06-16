@@ -24,6 +24,11 @@
     "TREUHAND SUISSE / EXPERTsuisse / RAB + bexio/Abacus/Sage/DATEV",
     "Karbon: G2/Capterra cluster"
   ],
+  "benchmarks": [
+    "Vanta — SOC2/ISO badges as permanent furniture",
+    "Selma — FINMA/OSFIN badges",
+    "Stripe/Notion — marquee logo wall under hero"
+  ],
   "designLanguage": {
     "any": "Greyscale logo strip.",
     "swiss": "Sharp award grid.",

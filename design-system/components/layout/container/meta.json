@@ -25,6 +25,11 @@
   "realWorld": [
     "All built sites + references: 1200–1280px container"
   ],
+  "benchmarks": [
+    "Stripe — 8px grid + restraint",
+    "Pilot — pin-lines over boxes",
+    "Mercury — generous whitespace"
+  ],
   "designLanguage": {
     "any": "Centered max-w container.",
     "editorial": "Narrower text measure for prose."

@@ -24,6 +24,11 @@
   "realWorld": [
     "All built sites + most SaaS: animated drawer with full-width CTA"
   ],
+  "benchmarks": [
+    "bexio — sticky + Kostenlos testen",
+    "Stripe/Qonto — logo·menu·dual-CTA",
+    "Linear — Docs/Login/Sign up cluster"
+  ],
   "designLanguage": {
     "any": "Height drawer, full-width CTA.",
     "soft": "Rounded items.",

@@ -23,6 +23,11 @@
     "Nexova: 'Preisrechner' CTA",
     "Findea: cost framing"
   ],
+  "benchmarks": [
+    "Wise — hero FX calculator",
+    "Ramp — savings calculator",
+    "repo — price/finance widgets"
+  ],
   "designLanguage": {
     "any": "Slider → highlighted card.",
     "soft": "Vibrant track + bloom result."

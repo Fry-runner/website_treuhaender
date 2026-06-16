@@ -24,6 +24,11 @@
     "Controva: minimal inline links",
     "STG Zürich: blue text links"
   ],
+  "benchmarks": [
+    "Pilot — monospace uppercase pills",
+    "Stripe/Qonto — solid primary + text secondary",
+    "Linear — dark primary + → link"
+  ],
   "designLanguage": {
     "warm": "Ink-blue, scaleX underline.",
     "editorial": "Navy, subtle.",

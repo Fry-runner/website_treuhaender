@@ -27,6 +27,11 @@
     "Karbon: clustered G2/Capterra/GetApp + '18 Consecutive Quarters'",
     "CH certs: TREUHAND SUISSE, EXPERTsuisse, RAB; software bexio/Abacus/Sage/DATEV"
   ],
+  "benchmarks": [
+    "Selma — Swiss press logos (HZ/FuW/SRF)",
+    "Wealthfront — Forbes/Bankrate award logos",
+    "bexio — partner logo strip"
+  ],
   "designLanguage": {
     "any": "Greyscale equal-height logo row.",
     "editorial": "Hairline-framed small partner cards with key/value footer.",

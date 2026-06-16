@@ -27,6 +27,11 @@
     "Boost: max-w-3xl serif positioning line",
     "Tureva: 5/7 split statement + feature chips"
   ],
+  "benchmarks": [
+    "Stripe — restrained positioning",
+    "Mercury — 'Radically different banking'",
+    "Linear — single feel-statement"
+  ],
   "designLanguage": {
     "editorial": "Serif statement, hairline above/below, lots of air.",
     "soft": "Geometric statement + rounded icon feature-chips row.",

@@ -23,6 +23,11 @@
     "Rürup: offset portrait frame + credential overlay",
     "Warringsholz: founder portrait"
   ],
+  "benchmarks": [
+    "Stripe/Digits — signature gradient",
+    "Gusto/Carta — illustration system",
+    "Pilot — ledger-grid texture @8–20%"
+  ],
   "designLanguage": {
     "swiss": "Sharp offset frame, signal caption.",
     "editorial": "Navy frame, serif caption."

@@ -23,6 +23,10 @@
   "realWorld": [
     "Boost/Tureva/UdS: accent bars under eyebrows"
   ],
+  "benchmarks": [
+    "repo presets — eyebrow bars",
+    "Stripe — gradient underline accents"
+  ],
   "designLanguage": {
     "any": "Accent underline bar.",
     "swiss": "Signal-colour bar.",

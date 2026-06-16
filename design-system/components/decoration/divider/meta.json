@@ -27,6 +27,11 @@
     "Tureva: TurevaLines",
     "Accounto: SVG section-divider patterns"
   ],
+  "benchmarks": [
+    "Pennylane — gradient dividers",
+    "Linear — hairline structure",
+    "repo — TurevaLines"
+  ],
   "designLanguage": {
     "warm": "'Strich' hairline + label.",
     "soft": "Flowing line graphic.",

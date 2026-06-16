@@ -24,6 +24,11 @@
   "realWorld": [
     "All built sites: empty-check + banners"
   ],
+  "benchmarks": [
+    "Mercury — inline email in hero",
+    "Wise — calculator before signup",
+    "Betterment — short form + reassurance copy"
+  ],
   "designLanguage": {
     "any": "Red error / emerald success banner."
   }

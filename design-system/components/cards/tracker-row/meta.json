@@ -23,6 +23,11 @@
   "realWorld": [
     "Boost/Tureva/UdS: inquiry tracker rows"
   ],
+  "benchmarks": [
+    "Vanta — 6-col icon-top feature cards",
+    "Linear/Vercel — hairline-border cards",
+    "bexio/Numarics — soft-shadow rounded cards"
+  ],
   "designLanguage": {
     "any": "Bordered row + status badge."
   }

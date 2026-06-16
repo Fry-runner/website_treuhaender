@@ -29,6 +29,11 @@
     "Karbon/Osome: region switch lives here",
     "All built sites: offices + sitemap + legal + © year"
   ],
+  "benchmarks": [
+    "Vanta — SOC2/ISO/GDPR badges in footer",
+    "Selma — FINMA/OSFIN badges in footer",
+    "bexio — Unternehmer/Treuhänder columns"
+  ],
   "designLanguage": {
     "editorial": "3-col brand/sitemap/network, hairlines.",
     "swiss": "12-col offices + sitemap + RAB badge, sharp.",

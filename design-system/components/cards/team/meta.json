@@ -24,6 +24,11 @@
     "Tureva: monogram + role pill",
     "UdS: profile rows + tags"
   ],
+  "benchmarks": [
+    "Mercury — portrait testimonial cards",
+    "Gusto — people photography",
+    "Pennylane — headshot + title + logo"
+  ],
   "designLanguage": {
     "soft": "Rounded card, coloured monogram.",
     "warm": "Hairline row, ink role tag.",

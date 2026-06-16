@@ -24,6 +24,11 @@
   "realWorld": [
     "Hero/about/contact across all sites use 12-col splits"
   ],
+  "benchmarks": [
+    "Pilot — split hero",
+    "Betterment/Selma — split hero",
+    "Carta — split"
+  ],
   "designLanguage": {
     "any": "12-col asymmetric split."
   }

@@ -28,6 +28,11 @@
     "All built sites: DSGVO/nDSG consent note",
     "Findea/Osome: newsletter signup"
   ],
+  "benchmarks": [
+    "Mercury — inline email in hero",
+    "Wise — calculator before signup",
+    "Betterment — short form + reassurance copy"
+  ],
   "designLanguage": {
     "any": "Checkbox + small-print consent."
   }

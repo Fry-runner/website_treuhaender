@@ -47,6 +47,11 @@
     "Controva: no cards — divided text list of 7 services",
     "Nexova: 6 service cards each with 'ab CHF X' price"
   ],
+  "benchmarks": [
+    "Numarics — service grid = payroll/VAT/tax deliverables",
+    "Vanta — 6-card feature grid",
+    "Qonto — icon-left feature cards"
+  ],
   "designLanguage": {
     "editorial": "Bordered divided tiles (divide-x/divide-y hairlines), icon-in-box, uppercase title, arrow link.",
     "swiss": "Sharp flat cards or 2 large feature pillars with CheckCircle checklist + outline CTA.",

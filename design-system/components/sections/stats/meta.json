@@ -28,6 +28,11 @@
     "Bench: '35,000+ owners', '$200M+ saved'",
     "Divisia (CH baseline): 20+ years · 500+ mandates · 1 language · ZH"
   ],
+  "benchmarks": [
+    "Mercury — 300K+/1-in-3/$20B+/4.9 metrics band",
+    "Linear — '33,000 teams'",
+    "Wealthfront — $95B+/1.4M+"
+  ],
   "designLanguage": {
     "editorial": "Bordered, divided, centered numbers; restrained.",
     "soft": "Tinted panel, rounded, accent numbers.",

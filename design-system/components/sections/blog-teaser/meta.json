@@ -23,6 +23,11 @@
     "64% of scraped CH sites have a blog/news area",
     "Findea/Osome/Pilot/Bench: resource/blog hubs"
   ],
+  "benchmarks": [
+    "bexio — 4 blog cards",
+    "Pilot — resources section",
+    "Pennylane — resource hub"
+  ],
   "designLanguage": {
     "soft": "Rounded image-top cards.",
     "editorial": "Hairline cards, serif titles.",

@@ -22,6 +22,11 @@
   "realWorld": [
     "UdS: ink-blue 1.5px signature bar"
   ],
+  "benchmarks": [
+    "bexio — sticky + Kostenlos testen",
+    "Stripe/Qonto — logo·menu·dual-CTA",
+    "Linear — Docs/Login/Sign up cluster"
+  ],
   "designLanguage": {
     "warm": "Ink-blue hairline bar.",
     "editorial": "Navy hairline bar."

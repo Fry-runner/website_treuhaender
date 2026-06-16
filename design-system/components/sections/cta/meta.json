@@ -29,6 +29,11 @@
     "Gruber Renger: lime CTA repeated 5+ times at section ends",
     "Tureva: scroll-driven bloom on the nearest CTA"
   ],
+  "benchmarks": [
+    "Mercury — dual final CTA",
+    "Vanta — 'Meet the new standard for trust'",
+    "All — pre-footer CTA band standard"
+  ],
   "designLanguage": {
     "editorial": "Inverted navy card, serif headline, blue button.",
     "swiss": "Sharp decorated band, signal-red solid button.",

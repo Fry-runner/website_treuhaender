@@ -27,6 +27,11 @@
     "Nexova: per-service 'ab CHF X' inline pricing",
     "Boost: 3-col cards, calculator-driven recommended ring"
   ],
+  "benchmarks": [
+    "Wise — competitor price comparison",
+    "Selma — vs Bank vs Robo table",
+    "Ramp — pricing + implementation checklist"
+  ],
   "designLanguage": {
     "editorial": "Bordered cards, serif price, restrained recommended tint.",
     "soft": "Rounded cards, vibrant recommended ring, pill CTA.",

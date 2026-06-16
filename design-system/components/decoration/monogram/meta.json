@@ -22,6 +22,11 @@
   "realWorld": [
     "Tureva/UdS: monogram avatars"
   ],
+  "benchmarks": [
+    "Stripe/Digits — signature gradient",
+    "Gusto/Carta — illustration system",
+    "Pilot — ledger-grid texture @8–20%"
+  ],
   "designLanguage": {
     "soft": "Rounded coloured monogram.",
     "warm": "Square ink monogram."

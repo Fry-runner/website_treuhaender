@@ -24,6 +24,11 @@
   "realWorld": [
     "All built sites: motion/react transitions"
   ],
+  "benchmarks": [
+    "Stripe — 8px grid + restraint",
+    "Pilot — pin-lines over boxes",
+    "Mercury — generous whitespace"
+  ],
   "designLanguage": {
     "any": "Fade/slide reveals.",
     "soft": "Expressive spring.",

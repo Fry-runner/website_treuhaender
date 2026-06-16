@@ -24,6 +24,11 @@
     "Gruber Renger: 'Zum Rechnungswesen' whole-card click",
     "bexio, Karbon, Osome, Warringsholz: clickable service tiles"
   ],
+  "benchmarks": [
+    "Pilot — monospace uppercase pills",
+    "Stripe/Qonto — solid primary + text secondary",
+    "Linear — dark primary + → link"
+  ],
   "designLanguage": {
     "any": "Full card link, hover border/lift.",
     "soft": "Rounded card lifts on hover.",

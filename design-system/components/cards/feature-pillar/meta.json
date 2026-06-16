@@ -24,6 +24,10 @@
     "Rürup: 2 feature pillars w/ checklist + outline CTA",
     "Magic Heidi/bexio: feature blocks with checklists"
   ],
+  "benchmarks": [
+    "bexio — feature cards w/ screenshots",
+    "Linear — sequential feature anchors"
+  ],
   "designLanguage": {
     "swiss": "Sharp, corner badge, signal checks.",
     "editorial": "Bordered, navy checks, serif title."

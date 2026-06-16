@@ -26,6 +26,11 @@
     "Karbon: outlined 'Take a Tour' beside 'Book a Demo'",
     "Pilot: outline/ghost secondary"
   ],
+  "benchmarks": [
+    "Qonto — outline 'Find the right plan'",
+    "bexio — secondary video CTA",
+    "Betterment — outline secondary"
+  ],
   "designLanguage": {
     "swiss": "Sharp border → signal fill invert.",
     "soft": "Pill border → vibrant fill.",

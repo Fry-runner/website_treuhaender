@@ -22,6 +22,11 @@
     "UdS: FinanceSimulator",
     "Magic Heidi: live QR-bill mockup as showpiece"
   ],
+  "benchmarks": [
+    "Wise — hero FX calculator",
+    "Digits — interactive product console hero",
+    "Betterment/Selma — FAQ accordion close"
+  ],
   "designLanguage": {
     "any": "Sliders → live SVG verdict.",
     "soft": "Vibrant wave, playful."

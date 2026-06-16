@@ -25,6 +25,11 @@
     "All built sites: carousel arrows, modal close, mobile hamburger",
     "Pilot/Bench/Statzinger: testimonial carousel arrows"
   ],
+  "benchmarks": [
+    "Pilot — monospace uppercase pills",
+    "Stripe/Qonto — solid primary + text secondary",
+    "Linear — dark primary + → link"
+  ],
   "designLanguage": {
     "any": "Icon in subtle bordered/round container."
   }

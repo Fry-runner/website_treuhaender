@@ -23,6 +23,11 @@
     "Osome: highlighted plan",
     "Pilot/Bench: tiered plans"
   ],
+  "benchmarks": [
+    "Ramp — pricing cards",
+    "Selma — tier comparison",
+    "Wise — fee transparency"
+  ],
   "designLanguage": {
     "soft": "Rounded, vibrant recommended ring, pill CTA.",
     "editorial": "Bordered, serif price.",

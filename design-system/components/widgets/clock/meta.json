@@ -21,6 +21,11 @@
   "realWorld": [
     "UdS: live Zürich time"
   ],
+  "benchmarks": [
+    "Wise — hero FX calculator",
+    "Digits — interactive product console hero",
+    "Betterment/Selma — FAQ accordion close"
+  ],
   "designLanguage": {
     "warm": "Mono Zürich clock.",
     "any": "Mono local time."

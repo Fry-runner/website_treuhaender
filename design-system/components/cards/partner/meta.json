@@ -22,6 +22,11 @@
     "Run my Accounts: award/cert badges",
     "CH: TREUHAND SUISSE / EXPERTsuisse / RAB + bexio/Abacus"
   ],
+  "benchmarks": [
+    "Vanta — compliance badges",
+    "Selma — press logos",
+    "bexio — partner logos"
+  ],
   "designLanguage": {
     "editorial": "Hairline card + key/value footer.",
     "any": "Greyscale logo cell."

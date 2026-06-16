@@ -25,6 +25,11 @@
     "UdS: STANDORT/FOKUS/GRÜNDUNG plate",
     "Tureva: registry card"
   ],
+  "benchmarks": [
+    "Vanta — 6-col icon-top feature cards",
+    "Linear/Vercel — hairline-border cards",
+    "bexio/Numarics — soft-shadow rounded cards"
+  ],
   "designLanguage": {
     "warm": "Hairline rows on paper, ink accent bar.",
     "soft": "Rounded, mid-gray labels."

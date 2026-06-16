@@ -28,6 +28,11 @@
     "Rürup: abstract DE-CH SVG with animated nodes",
     "UdS: custom Zürich line-map"
   ],
+  "benchmarks": [
+    "Pilot — warm↔cool bg spectrum",
+    "Linear/Vercel — one screenshot per section",
+    "Stripe — restrained section rhythm"
+  ],
   "designLanguage": {
     "swiss": "Abstract DE-CH SVG, signal nodes, sharp.",
     "warm": "Hand-built Zürich street lines on paper.",

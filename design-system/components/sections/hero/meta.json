@@ -42,6 +42,12 @@
     "Warringsholz: split copy + founder portrait, 'Kompetent. Persönlich. Digital.'",
     "STG Zürich: type-only heritage hero 'Uns vertrauen Generationen. Seit 1906'"
   ],
+  "benchmarks": [
+    "Wise — live calculator in hero",
+    "Vanta — 'Trust is everything' + 16k logos",
+    "bexio — 4.0/1930 reviews + 100k KMU in hero",
+    "Mercury — inline email + screenshots behind"
+  ],
   "designLanguage": {
     "editorial": "Serif H1, wide whitespace, numbered or tracked eyebrow, text-link / all-caps CTA, optional pull-quote aside.",
     "swiss": "Grotesk H1 on faint masked-grid bg, pulse-dot availability badge, two sharp solid CTAs, left-aligned.",

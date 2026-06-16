@@ -26,6 +26,11 @@
     "Rürup/UdS/Tureva: animated underline",
     "Boost: static accent underline"
   ],
+  "benchmarks": [
+    "bexio — sticky + Kostenlos testen",
+    "Stripe/Qonto — logo·menu·dual-CTA",
+    "Linear — Docs/Login/Sign up cluster"
+  ],
   "designLanguage": {
     "any": "Sliding underline.",
     "swiss": "Signal-colour bar.",

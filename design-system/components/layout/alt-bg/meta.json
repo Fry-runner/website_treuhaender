@@ -24,6 +24,11 @@
   "realWorld": [
     "All built sites: white↔tinted alternation"
   ],
+  "benchmarks": [
+    "Stripe — 8px grid + restraint",
+    "Pilot — pin-lines over boxes",
+    "Mercury — generous whitespace"
+  ],
   "designLanguage": {
     "any": "White↔surface alternation.",
     "warm": "Paper↔white bands."

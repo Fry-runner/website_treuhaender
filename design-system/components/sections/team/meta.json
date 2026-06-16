@@ -29,6 +29,11 @@
     "UdS: 4/8 profile rows + bio + tag chips",
     "PMPG: '330+ colleagues' framing"
   ],
+  "benchmarks": [
+    "Gusto — people photography",
+    "Mercury — founder quote",
+    "boutique CH norm — owner profile"
+  ],
   "designLanguage": {
     "soft": "Rounded cards, coloured monogram, role pill.",
     "warm": "Hairline profile rows, ink-blue role tag.",

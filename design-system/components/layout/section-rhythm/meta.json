@@ -25,6 +25,11 @@
   "realWorld": [
     "Airy py-20/24 on premium looks; tighter py-12 on swiss"
   ],
+  "benchmarks": [
+    "Mercury — generous whitespace",
+    "Stripe — 8px grid restraint",
+    "Pilot — bg spectrum"
+  ],
   "designLanguage": {
     "editorial": "py-20 airy.",
     "soft": "py-20 airy.",

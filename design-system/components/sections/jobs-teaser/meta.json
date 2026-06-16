@@ -22,6 +22,11 @@
     "34% of scraped CH sites",
     "aawi/PMPG: jobs/careers"
   ],
+  "benchmarks": [
+    "Pilot — warm↔cool bg spectrum",
+    "Linear/Vercel — one screenshot per section",
+    "Stripe — restrained section rhythm"
+  ],
   "designLanguage": {
     "any": "Roles list or hiring band."
   }

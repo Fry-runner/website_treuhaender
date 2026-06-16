@@ -24,6 +24,11 @@
     "Canonical CH set: Was macht ein Treuhänder? · Kosten? · Vertrag? · wirklich digital? · Regionen? · Datenschutz?",
     "Statzinger: FAQ + comparison framing"
   ],
+  "benchmarks": [
+    "Betterment — FAQ accordion close",
+    "Puzzle — FAQ accordion",
+    "Selma — FAQ before footer"
+  ],
   "designLanguage": {
     "any": "Stacked Q/A cards or single-open accordion.",
     "soft": "Rounded accordion, vibrant active state.",

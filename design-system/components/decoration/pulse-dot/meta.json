@@ -24,6 +24,11 @@
     "Rürup: pulse-dot hero badge",
     "Boost/UdS: status dots"
   ],
+  "benchmarks": [
+    "Stripe/Digits — signature gradient",
+    "Gusto/Carta — illustration system",
+    "Pilot — ledger-grid texture @8–20%"
+  ],
   "designLanguage": {
     "any": "Pinging dot.",
     "swiss": "Green availability ping.",

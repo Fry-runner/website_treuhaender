@@ -23,6 +23,11 @@
   "realWorld": [
     "Boost/Tureva/UdS: inquiry persistence"
   ],
+  "benchmarks": [
+    "Mercury — inline email in hero",
+    "Wise — calculator before signup",
+    "Betterment — short form + reassurance copy"
+  ],
   "designLanguage": {
     "any": "Tracker rows + status badges."
   }

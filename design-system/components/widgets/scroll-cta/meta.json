@@ -21,6 +21,11 @@
   "realWorld": [
     "Tureva: nearest-CTA bloom highlighter"
   ],
+  "benchmarks": [
+    "Wise — hero FX calculator",
+    "Digits — interactive product console hero",
+    "Betterment/Selma — FAQ accordion close"
+  ],
   "designLanguage": {
     "soft": "Lime bloom on active CTA."
   }

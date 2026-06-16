@@ -25,6 +25,11 @@
     "bexio: 4-col, icon top-left, hover-shadow lift",
     "Nexova: price line on each tile"
   ],
+  "benchmarks": [
+    "Vanta — 6-col feature cards",
+    "Numarics — service grid",
+    "Qonto — icon-left cards"
+  ],
   "designLanguage": {
     "editorial": "Sharp hairline cell, icon-in-box, uppercase title.",
     "swiss": "Flat bordered, signal hover border.",

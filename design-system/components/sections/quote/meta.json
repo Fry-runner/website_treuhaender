@@ -27,6 +27,11 @@
     "Rürup: giant faint Quote watermark + italic philosophy line",
     "Controva: named-partner personal quote"
   ],
+  "benchmarks": [
+    "Pilot — warm↔cool bg spectrum",
+    "Linear/Vercel — one screenshot per section",
+    "Stripe — restrained section rhythm"
+  ],
   "designLanguage": {
     "editorial": "Serif italic, faint watermark, airy.",
     "swiss": "Grotesk quote, signal-colour rule.",

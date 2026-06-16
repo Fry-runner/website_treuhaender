@@ -25,6 +25,11 @@
     "Controva: named partner Damiana Campagna + 'I look forward to meeting you personally'",
     "Rürup: hero + bio split + qualifications grid + pull-quote"
   ],
+  "benchmarks": [
+    "Pilot — warm↔cool bg spectrum",
+    "Linear/Vercel — one screenshot per section",
+    "Stripe — restrained section rhythm"
+  ],
   "designLanguage": {
     "swiss": "Sharp portrait frame, signal-red credential badges, grotesk name.",
     "editorial": "Serif name, airy bio, numbered qualifications.",

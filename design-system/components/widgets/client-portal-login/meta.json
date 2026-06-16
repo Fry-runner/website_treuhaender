@@ -22,6 +22,10 @@
     "16% of scraped CH sites",
     "bexio/Pilot/Bench/Collective: 'Log in' separate from 'Get started'"
   ],
+  "benchmarks": [
+    "bexio — Login + dashboard",
+    "Numarics — cockpit/DocuBox portal"
+  ],
   "designLanguage": {
     "any": "Outlined Login in nav.",
     "swiss": "Sharp ghost login.",

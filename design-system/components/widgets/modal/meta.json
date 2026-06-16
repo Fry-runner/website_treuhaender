@@ -22,6 +22,11 @@
   "realWorld": [
     "Boost/Rürup: legal modals"
   ],
+  "benchmarks": [
+    "Wise — hero FX calculator",
+    "Digits — interactive product console hero",
+    "Betterment/Selma — FAQ accordion close"
+  ],
   "designLanguage": {
     "any": "Blur backdrop, scale-in dialog."
   }

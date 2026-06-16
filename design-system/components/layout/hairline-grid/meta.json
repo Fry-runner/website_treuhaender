@@ -22,6 +22,10 @@
   "realWorld": [
     "Boost: divided service/stat grids"
   ],
+  "benchmarks": [
+    "Linear — hairline borders",
+    "Vercel — hairline structure"
+  ],
   "designLanguage": {
     "editorial": "Hairline-divided ledger box.",
     "warm": "Hairlines on paper."

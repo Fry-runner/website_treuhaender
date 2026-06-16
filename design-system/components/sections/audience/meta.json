@@ -28,6 +28,11 @@
     "Osome: 3-persona rotating 'Who we help' carousel",
     "Pilot: cycling persona/CFO scenarios"
   ],
+  "benchmarks": [
+    "Numarics — life-stage entry cards",
+    "bexio — Für Unternehmer / Für Treuhänder",
+    "Gusto/Pennylane — audience self-segmentation"
+  ],
   "designLanguage": {
     "swiss": "Mono-indexed client-group cells, sharp.",
     "soft": "Rounded icon cards, 3-col, vibrant.",

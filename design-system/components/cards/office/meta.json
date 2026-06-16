@@ -24,6 +24,11 @@
     "Rürup/Tureva/UdS: office cards with contact rows",
     "Nexova: 8 city cards"
   ],
+  "benchmarks": [
+    "Vanta — 6-col icon-top feature cards",
+    "Linear/Vercel — hairline-border cards",
+    "bexio/Numarics — soft-shadow rounded cards"
+  ],
   "designLanguage": {
     "any": "Bordered contact rows.",
     "warm": "Hairline on paper.",

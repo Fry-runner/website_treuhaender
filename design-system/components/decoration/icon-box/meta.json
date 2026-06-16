@@ -23,6 +23,10 @@
   "realWorld": [
     "Boost/Rürup: bordered icon boxes on service tiles"
   ],
+  "benchmarks": [
+    "Vanta/Qonto — icon-led cards",
+    "Numarics — custom SVG icons"
+  ],
   "designLanguage": {
     "editorial": "Hairline box, navy icon.",
     "swiss": "Sharp box, signal icon."

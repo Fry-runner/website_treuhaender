@@ -21,6 +21,11 @@
   "realWorld": [
     "Tureva: .cta-btn-interactive lime bloom tied to scroll observer"
   ],
+  "benchmarks": [
+    "Digits — saturated green premium",
+    "Ramp — lime savings accent",
+    "Tureva (repo) — green bloom"
+  ],
   "designLanguage": {
     "soft": "Lime rounded-full, rgba bloom shadow."
   }
