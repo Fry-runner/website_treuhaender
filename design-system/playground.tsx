@@ -14,6 +14,8 @@ import type { SiteContent } from "./content/types";
 import active from "./content/examples/active.json";
 import { InventoryBrowser } from "./InventoryBrowser";
 import { planSite } from "./variants/select";
+import { composeSite, pageTypes } from "./pages";
+import { archetypes, type ArchetypeId } from "./blueprints";
 
 const content = active as unknown as SiteContent;
 
@@ -67,7 +69,52 @@ const VariantsDemo = () => {
   );
 };
 
-type View = "site" | "inventory" | "variants";
+const SitemapDemo = () => {
+  const arches = Object.keys(archetypes) as ArchetypeId[];
+  const card: React.CSSProperties = { border: "1px solid #e5e7eb", borderRadius: 8, padding: 16, background: "#fff" };
+  return (
+    <div style={{ fontFamily: "system-ui, sans-serif", padding: 24, display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(320px,1fr))", gap: 16, background: "#fafafa" }}>
+      <div style={{ gridColumn: "1 / -1", fontFamily: "ui-monospace, monospace", fontSize: "0.8rem", color: "#444" }}>
+        composeSite() — the multi-page structure each business-model archetype assembles for <b>{content.meta.firm}</b>:
+      </div>
+      {arches.map((a) => {
+        const pages = composeSite(a, content, { includeOptional: true });
+        return (
+          <div key={a} style={card}>
+            <div style={{ fontWeight: 700, marginBottom: 2 }}>{archetypes[a].name}</div>
+            <div style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.7rem", color: "#888", marginBottom: 12 }}>
+              {a} · {pages.length} pages · {archetypes[a].reference}
+            </div>
+            <ol style={{ margin: 0, paddingLeft: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: 6 }}>
+              {pages.map((p, i) => (
+                <li key={i} style={{ display: "flex", gap: 10, alignItems: "baseline", fontSize: "0.82rem" }}>
+                  <code style={{ background: "#f1f5f9", padding: "1px 6px", borderRadius: 4, fontSize: "0.72rem", whiteSpace: "nowrap" }}>{p.slug}</code>
+                  <span style={{ fontWeight: 600 }}>{p.title}</span>
+                  <span style={{ color: "#94a3b8", fontSize: "0.7rem" }}>
+                    {p.pageType}{p.presence !== "always" ? ` · ${p.presence}` : ""} · {p.sections.length} sections
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        );
+      })}
+      <div style={{ gridColumn: "1 / -1", ...card }}>
+        <div style={{ fontWeight: 700, marginBottom: 8 }}>Page-type catalog ({Object.keys(pageTypes).length})</div>
+        {Object.values(pageTypes).map((pt) => (
+          <div key={pt.id} style={{ display: "flex", gap: 10, fontSize: "0.8rem", padding: "3px 0", borderTop: "1px solid #f1f5f9" }}>
+            <span style={{ width: 120, fontWeight: 600 }}>{pt.name}</span>
+            <span style={{ width: 90, color: "#64748b", fontFamily: "ui-monospace, monospace", fontSize: "0.7rem" }}>seo:{pt.attributes.seoWeight}</span>
+            <span style={{ width: 110, color: "#94a3b8", fontSize: "0.72rem" }}>{pt.repeat ?? "single"}</span>
+            <span style={{ color: "#475569", fontSize: "0.78rem" }}>{pt.attributes.purpose}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+type View = "site" | "inventory" | "variants" | "sitemap";
 
 const Tabs: React.FC<{ view: View; setView: (v: View) => void }> = ({ view, setView }) => {
   const tab = (active: boolean): React.CSSProperties => ({
@@ -85,6 +132,7 @@ const Tabs: React.FC<{ view: View; setView: (v: View) => void }> = ({ view, setV
         Treuhand design system
       </span>
       <button style={tab(view === "site")} onClick={() => setView("site")}>Generated site</button>
+      <button style={tab(view === "sitemap")} onClick={() => setView("sitemap")}>Sitemap</button>
       <button style={tab(view === "variants")} onClick={() => setView("variants")}>Variants</button>
       <button style={tab(view === "inventory")} onClick={() => setView("inventory")}>Inventory specs</button>
     </div>
@@ -96,7 +144,7 @@ const App = () => {
   return (
     <div>
       <Tabs view={view} setView={setView} />
-      {view === "site" ? <SiteDemo /> : view === "variants" ? <VariantsDemo /> : <InventoryBrowser />}
+      {view === "site" ? <SiteDemo /> : view === "sitemap" ? <SitemapDemo /> : view === "variants" ? <VariantsDemo /> : <InventoryBrowser />}
     </div>
   );
 };
