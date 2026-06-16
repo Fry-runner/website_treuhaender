@@ -269,16 +269,17 @@
     "name": "Section: partners",
     "variants": [
       "small partner cards 2/4-col (boost)",
-      "12-cell award grid + inverted CTA cell (boost)"
+      "12-cell award grid + inverted CTA cell (boost)",
+      "certification logo strip (Treuhand Suisse, Expert Suisse, Swiss GAAP FER)",
+      "software partner badges (bexio / Abacus / KLARA / Xero)"
     ],
     "fromBuiltSites": [
       "boost"
     ],
     "styleAffinity": [
-      "editorial",
       "any"
     ],
-    "priority": "optional",
+    "priority": "common",
     "entryIds": [
       "partners.strip-grid"
     ]
@@ -322,6 +323,25 @@
     "priority": "common",
     "entryIds": [
       "quote.blockquote"
+    ]
+  },
+  "sections/testimonials": {
+    "slot": "testimonials",
+    "category": "section",
+    "name": "Section: testimonials",
+    "variants": [
+      "2-4 named quote cards (person·company·city)",
+      "aggregate rating / review badge",
+      "metric + quotes combo",
+      "logo + quote"
+    ],
+    "fromBuiltSites": [],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "entryIds": [
+      "testimonials.social-proof"
     ]
   },
   "sections/cta": {
@@ -458,17 +478,18 @@
     "name": "Language switcher",
     "variants": [
       "pill DE/EN toggle (tureva)",
-      "Globe toggle mobile (tureva)"
+      "Globe toggle mobile (tureva)",
+      "DE/FR/IT/EN dropdown"
     ],
-    "structure": "rounded-full segmented toggle, active = filled chip",
+    "structure": "rounded-full segmented toggle or dropdown, active = filled chip",
     "fromBuiltSites": [
       "tureva"
     ],
     "styleAffinity": [
       "any"
     ],
-    "priority": "common",
-    "notes": "Important for CH bilingual sites; only Tureva implements it."
+    "priority": "core",
+    "notes": "BRIEFING §7 + §8.2 — PROMOTED TO CORE. Bilingual (DE/EN min, often +FR/IT) is table-stakes for CH; only 1 of 4 built sites has it."
   },
   "navigation/mobile-drawer": {
     "id": "nav.mobile-drawer",
@@ -1637,25 +1658,6 @@
     ],
     "priority": "common",
     "notes": null
-  },
-  "sections/testimonials": {
-    "id": "sections/testimonials",
-    "category": "section",
-    "name": "Testimonials / reviews",
-    "variants": [
-      "quote cards",
-      "star-rating row",
-      "Google-reviews embed",
-      "logo + quote"
-    ],
-    "structure": "grid/carousel of client quotes with name/role/rating; or embedded Google rating badge",
-    "fromBuiltSites": [],
-    "styleAffinity": [
-      "any"
-    ],
-    "priority": "common",
-    "discoveredIn": "scraped",
-    "prevalence": "28% of scraped sites; absent in built templates"
   },
   "sections/blog-teaser": {
     "id": "sections/blog-teaser",

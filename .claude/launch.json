@@ -24,6 +24,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["--prefix", "Unter-Dem-Strich", "run", "dev", "--", "--port=3004", "--host=0.0.0.0"],
       "port": 3004
+    },
+    {
+      "name": "DS-Playground",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "design-system", "run", "dev", "--", "--port=3010", "--host=0.0.0.0"],
+      "port": 3010
     }
   ]
 }

@@ -4,15 +4,16 @@
   "name": "Language switcher",
   "variants": [
     "pill DE/EN toggle (tureva)",
-    "Globe toggle mobile (tureva)"
+    "Globe toggle mobile (tureva)",
+    "DE/FR/IT/EN dropdown"
   ],
-  "structure": "rounded-full segmented toggle, active = filled chip",
+  "structure": "rounded-full segmented toggle or dropdown, active = filled chip",
   "fromBuiltSites": [
     "tureva"
   ],
   "styleAffinity": [
     "any"
   ],
-  "priority": "common",
-  "notes": "Important for CH bilingual sites; only Tureva implements it."
+  "priority": "core",
+  "notes": "BRIEFING §7 + §8.2 — PROMOTED TO CORE. Bilingual (DE/EN min, often +FR/IT) is table-stakes for CH; only 1 of 4 built sites has it."
 }

@@ -27,7 +27,7 @@ export type ComponentCategory =
 export type Slot =
   | "hero" | "intro" | "services" | "stats" | "values" | "about" | "profile"
   | "team" | "audience" | "process" | "pricing" | "partners" | "faq"
-  | "quote" | "cta" | "contact" | "map" | "legal";
+  | "testimonials" | "quote" | "cta" | "contact" | "map" | "legal";
 
 export type StyleAffinity = "any" | "editorial" | "swiss" | "soft" | "warm";
 
@@ -61,6 +61,7 @@ export const sections: InventoryEntry[] = [
     variants: ["max-w-4xl centered stack + 2 buttons (tureva)", "numbered mono eyebrow inner-page (boost)"],
     structure: "single centered column: eyebrow + large display H1 + subtitle + CTA row",
     sources: ["boost", "tureva"], styleAffinity: ["soft", "editorial", "any"], priority: "core",
+    notes: "BRIEFING §3 — headline = client BENEFIT not service list; include an in-hero trust nibble (rating/review count or '1000+ KMU') and two CTAs (primary book, secondary explore). Default ON.",
   },
   {
     id: "hero.text-left", category: "section", slot: "hero",
@@ -96,6 +97,7 @@ export const sections: InventoryEntry[] = [
     variants: ["3-col clickable h-80 (tureva)", "5-tile lg:grid-cols-5 (uds)", "2-col bento (ruerup intl)"],
     structure: "header row (eyebrow+H2 [+ hint/CTA]) over N-col card grid; cards clickable to detail",
     sources: ["tureva", "uds", "ruerup"], styleAffinity: ["soft", "warm", "swiss"], priority: "core",
+    notes: "BRIEFING §3 — CH differentiator: put transparent price 'ab CHF X/Monat' on the card where the business model allows (digital firms). Boutique firms may omit. Make inline-pricing a default-on toggle.",
   },
   {
     id: "services.feature-pillars", category: "section", slot: "services",
@@ -191,10 +193,13 @@ export const sections: InventoryEntry[] = [
   },
   {
     id: "partners.strip-grid", category: "section", slot: "partners",
-    name: "Partner / award / logo strip",
-    variants: ["small partner cards 2/4-col (boost)", "12-cell award grid + inverted CTA cell (boost)"],
-    structure: "grid of small cards (category eyebrow + name [+ status pill]); optional inverted CTA cell",
-    sources: ["boost"], styleAffinity: ["editorial", "any"], priority: "optional",
+    name: "Partner / certification / logo strip",
+    variants: ["small partner cards 2/4-col (boost)", "12-cell award grid + inverted CTA cell (boost)",
+               "certification logo strip (Treuhand Suisse, Expert Suisse, Swiss GAAP FER)",
+               "software partner badges (bexio / Abacus / KLARA / Xero)"],
+    structure: "horizontal strip / grid of greyscale logos (or text chips), often above footer or under hero",
+    sources: ["boost"], styleAffinity: ["any"], priority: "common",
+    notes: "BRIEFING §5 + §8.4 — CH trust currency. Seed certifications from design-system/content/ch.ts (chCertifications, softwarePartners).",
   },
   {
     id: "faq.list", category: "section", slot: "faq",
@@ -209,6 +214,15 @@ export const sections: InventoryEntry[] = [
     variants: ["giant faint watermark + italic quote (ruerup)", "bordered centered blockquote + line motif (uds)"],
     structure: "top/bottom bordered band, large italic display quote, attribution, optional decorative watermark",
     sources: ["ruerup", "uds"], styleAffinity: ["editorial", "warm", "swiss"], priority: "common",
+  },
+  {
+    id: "testimonials.social-proof", category: "section", slot: "testimonials",
+    name: "Social proof / testimonials",
+    variants: ["2-4 named quote cards (person·company·city)", "aggregate rating / review badge",
+               "metric + quotes combo", "logo + quote"],
+    structure: "section header + named testimonial cards + an aggregate metric/review badge; link to case study where possible",
+    sources: [], styleAffinity: ["any"], priority: "core",
+    notes: "BRIEFING §8.1 — first-class slot. Universal in reference sites; was previously split across quote/partners/stats. Named quotes (person+company+city) beat anonymous; pair with a metric (e.g. '92% recommend', '1000+ KMU').",
   },
   {
     id: "cta.band", category: "section", slot: "cta",
@@ -261,10 +275,10 @@ export const navigation: InventoryEntry[] = [
   {
     id: "nav.lang-switch", category: "navigation",
     name: "Language switcher",
-    variants: ["pill DE/EN toggle (tureva)", "Globe toggle mobile (tureva)"],
-    structure: "rounded-full segmented toggle, active = filled chip",
-    sources: ["tureva"], styleAffinity: ["any"], priority: "common",
-    notes: "Important for CH bilingual sites; only Tureva implements it.",
+    variants: ["pill DE/EN toggle (tureva)", "Globe toggle mobile (tureva)", "DE/FR/IT/EN dropdown"],
+    structure: "rounded-full segmented toggle or dropdown, active = filled chip",
+    sources: ["tureva"], styleAffinity: ["any"], priority: "core",
+    notes: "BRIEFING §7 + §8.2 — PROMOTED TO CORE. Bilingual (DE/EN min, often +FR/IT) is table-stakes for CH; only 1 of 4 built sites has it.",
   },
   {
     id: "nav.mobile-drawer", category: "navigation",

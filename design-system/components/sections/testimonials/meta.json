@@ -1,19 +1,19 @@
 {
-  "id": "sections/testimonials",
+  "slot": "testimonials",
   "category": "section",
-  "name": "Testimonials / reviews",
+  "name": "Section: testimonials",
   "variants": [
-    "quote cards",
-    "star-rating row",
-    "Google-reviews embed",
+    "2-4 named quote cards (person·company·city)",
+    "aggregate rating / review badge",
+    "metric + quotes combo",
     "logo + quote"
   ],
-  "structure": "grid/carousel of client quotes with name/role/rating; or embedded Google rating badge",
   "fromBuiltSites": [],
   "styleAffinity": [
     "any"
   ],
-  "priority": "common",
-  "discoveredIn": "scraped",
-  "prevalence": "28% of scraped sites; absent in built templates"
+  "priority": "core",
+  "entryIds": [
+    "testimonials.social-proof"
+  ]
 }

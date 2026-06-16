@@ -4,16 +4,17 @@
   "name": "Section: partners",
   "variants": [
     "small partner cards 2/4-col (boost)",
-    "12-cell award grid + inverted CTA cell (boost)"
+    "12-cell award grid + inverted CTA cell (boost)",
+    "certification logo strip (Treuhand Suisse, Expert Suisse, Swiss GAAP FER)",
+    "software partner badges (bexio / Abacus / KLARA / Xero)"
   ],
   "fromBuiltSites": [
     "boost"
   ],
   "styleAffinity": [
-    "editorial",
     "any"
   ],
-  "priority": "optional",
+  "priority": "common",
   "entryIds": [
     "partners.strip-grid"
   ]
