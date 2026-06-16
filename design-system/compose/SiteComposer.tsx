@@ -69,6 +69,10 @@ export const SiteComposer: React.FC<SiteComposerProps> = ({ content, archetype, 
     services: (c) => { const C = sectionComponent("services", plan) ?? Services; return <C content={c.services} />; },
     cta: (c) => { const C = sectionComponent("cta", plan) ?? CtaBand; return <C content={c.cta} />; },
     testimonials: (c) => { const C = sectionComponent("testimonials", plan) ?? Testimonials; return <C content={c.testimonials} />; },
+    values: (c) => { const C = sectionComponent("values", plan) ?? Values; return <C content={c.values} />; },
+    stats: (c) => { const C = sectionComponent("stats", plan) ?? Stats; return <C content={c.stats} />; },
+    team: (c) => { const C = sectionComponent("team", plan) ?? Team; return <C content={c.team} />; },
+    faq: (c) => { const C = sectionComponent("faq", plan) ?? Faq; return <C content={c.faq} />; },
   };
   const sequence = composeHomepage(arch);
   return (

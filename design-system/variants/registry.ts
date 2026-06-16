@@ -15,11 +15,20 @@ import { HeroGradient } from "../structures/HeroGradient";
 import { HeroImageCentered, HeroImageSplit, HeroImageFull } from "../structures/HeroImage";
 import { Services } from "../structures/Services";
 import { ServicesBordered } from "../structures/ServicesBordered";
+import { ServicesAccordion } from "../structures/ServicesAccordion";
 import { CtaBand } from "../structures/CtaBand";
 import { CtaSplit } from "../structures/CtaSplit";
 import { CtaGradient } from "../structures/CtaGradient";
 import { Testimonials } from "../structures/Testimonials";
 import { TestimonialsCarousel } from "../structures/TestimonialsCarousel";
+import { Values } from "../structures/Values";
+import { ValuesCards } from "../structures/ValuesCards";
+import { Stats } from "../structures/Stats";
+import { StatsPanel } from "../structures/StatsPanel";
+import { Team } from "../structures/Team";
+import { TeamRows } from "../structures/TeamRows";
+import { Faq } from "../structures/Faq";
+import { FaqGrid } from "../structures/FaqGrid";
 
 export interface VariantDef<P> {
   id: string;
@@ -61,6 +70,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
   services: [
     { id: "services/cards", component: Services, looks: ["soft"] },                 // rounded shadowed cards
     { id: "services/bordered", component: ServicesBordered, looks: ["editorial", "swiss", "warm"] }, // hairline grid
+    { id: "services/accordion", component: ServicesAccordion, looks: ["swiss", "editorial"] }, // single-open list
   ],
   cta: [
     { id: "cta/centered", component: CtaBand, looks: ["any"] },
@@ -70,6 +80,22 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
   testimonials: [
     { id: "testimonials/grid", component: Testimonials, looks: ["editorial", "swiss", "warm"] },
     { id: "testimonials/carousel", component: TestimonialsCarousel, looks: ["soft"] }, // slider
+  ],
+  values: [
+    { id: "values/columns", component: Values, looks: ["editorial", "swiss"] },     // divided columns band
+    { id: "values/cards", component: ValuesCards, looks: ["soft", "warm"] },         // card grid
+  ],
+  stats: [
+    { id: "stats/divided", component: Stats, looks: ["editorial", "swiss", "warm"] }, // bordered band
+    { id: "stats/panel", component: StatsPanel, looks: ["soft"] },                    // tinted panel
+  ],
+  team: [
+    { id: "team/cards", component: Team, looks: ["soft", "warm"] },                  // monogram cards
+    { id: "team/rows", component: TeamRows, looks: ["editorial", "swiss"] },         // list rows
+  ],
+  faq: [
+    { id: "faq/accordion", component: Faq, looks: ["any"] },                         // single-open accordion
+    { id: "faq/grid", component: FaqGrid, looks: ["editorial", "swiss"] },           // static 2-col
   ],
 };
 

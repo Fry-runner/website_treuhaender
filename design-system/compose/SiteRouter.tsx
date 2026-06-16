@@ -98,17 +98,17 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content, archetype, seed
         const it = content.services.items.find((x) => x.title === page.item);
         return it ? <ServiceBody key={i} title={it.title} summary={it.summary} bullets={it.bullets ?? SERVICE_BULLETS} body={it.body} /> : null;
       }
-      case "team": return <Team key={i} content={content.team} more={moreFor("team", "Team kennenlernen")} />;
+      case "team": { const C = sectionComponent("team", plan) ?? Team; return <C key={i} content={content.team} more={moreFor("team", "Team kennenlernen")} />; }
       case "pricing": return <Pricing key={i} content={content.pricing} more={moreFor("pricing", "Alle Pakete")} />;
       case "related": return (
         <Related key={i} heading="Das könnte Sie auch interessieren"
           items={content.services.items.filter((x) => x.title !== page.item).slice(0, 3)}
           onPick={(t) => navigate(`/leistungen/${slugify(t)}`)} />
       );
-      case "values": return <Values key={i} content={content.values} />;
-      case "stats": return <Stats key={i} content={content.stats} />;
+      case "values": { const C = sectionComponent("values", plan) ?? Values; return <C key={i} content={content.values} />; }
+      case "stats": { const C = sectionComponent("stats", plan) ?? Stats; return <C key={i} content={content.stats} />; }
       case "testimonials": { const C = sectionComponent("testimonials", plan) ?? Testimonials; return <C key={i} content={content.testimonials} />; }
-      case "faq": return <Faq key={i} content={content.faq} />;
+      case "faq": { const C = sectionComponent("faq", plan) ?? Faq; return <C key={i} content={content.faq} />; }
       case "cta": { const C = sectionComponent("cta", plan) ?? CtaBand; return <C key={i} content={content.cta} />; }
       case "contact": return <Contact key={i} content={content.contact} />;
       case "partners": return <TrustBar key={i} label={content.trust.label} items={content.trust.items} />;
