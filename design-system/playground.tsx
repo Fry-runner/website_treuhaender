@@ -32,8 +32,8 @@ const contrastLook = presetList.find((p) => p.meta.id !== pickedLook)!.meta.id;
 
 const SiteDemo = () => (
   <div style={{ fontFamily: "system-ui, sans-serif" }}>
-    <Bar text={`Generated website · ${content.meta.firm}`} sub={`${content.meta.domain} · ${content.meta.archetype} · swiss-clean · multi-page — click the nav / footer links`} />
-    <SiteRouter content={content} lookId="swiss-clean" />
+    <Bar text={`Generated website · ${content.meta.firm}`} sub={`${content.meta.domain} · ${content.meta.archetype} · swiss-clean · real images · multi-page`} />
+    <SiteRouter content={content} lookId="swiss-clean" heroId="hero/image-full" />
   </div>
 );
 

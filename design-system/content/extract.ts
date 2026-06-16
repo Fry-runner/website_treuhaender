@@ -8,7 +8,7 @@
  *
  * Usage: node --experimental-strip-types extract.ts <slug>
  */
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { archetypes, type ArchetypeId } from "../blueprints.ts";
 import { chCertifications, softwarePartners, whyUsPillars, canonicalFaq } from "./ch.ts";
@@ -74,6 +74,25 @@ function fixEncoding(s: string): string {
     return /[ÃÂ][-¿]/.test(r) ? s : r; // accept only if mojibake is gone
   } catch { return s; }
 }
+/** Pick the best real photo from the scraped assets and copy it to public/images/<slug>/. */
+function pickHeroImage(): string | undefined {
+  const manifest: any[] = site.assets?.manifest || [];
+  const imgs = manifest.filter((a) => a.ok && /image\/(jpeg|png|webp)/.test(a.content_type || "")
+    && !/logo|icon|favicon|sprite|placeholder|avatar|badge/i.test(a.file || a.url || "")
+    && (a.bytes || 0) > 45000 && (a.bytes || 0) < 4_000_000);
+  if (!imgs.length) return undefined;
+  const score = (a: any) => (/hero|banner|slider|header|\bbg\b|background|zuerich|zurich|titel|about|ueber/i.test(a.file || "") ? 1 : 0);
+  imgs.sort((a, b) => (score(b) - score(a)) || ((b.bytes || 0) - (a.bytes || 0)));
+  const src = join(ROOT, "scraper", "output", slug, imgs[0].file);
+  if (!existsSync(src)) return undefined;
+  const ext = (imgs[0].file.match(/\.(jpe?g|png|webp)$/i) || [".jpg"])[0];
+  const destDir = join(import.meta.dirname, "..", "public", "images", slug);
+  mkdirSync(destDir, { recursive: true });
+  copyFileSync(src, join(destDir, `hero${ext}`));
+  return `/images/${slug}/hero${ext}`;
+}
+const heroImage = pickHeroImage();
+
 const h1: string = fixEncoding((home.headings?.h1 || [])[0] || "");
 const desc: string = fixEncoding(home.meta?.description || "");
 const heroHeadlineReal = h1 && h1.length > 8 && h1.length < 90 && h1.toLowerCase() !== firm.toLowerCase();
@@ -119,6 +138,7 @@ const content: SiteContent = {
     asideLabel: "Mandantenstimme",
     asideQuote: "Endlich ein Treuhänder, der mitdenkt statt nur abzurechnen.",
     asideAttribution: `— KMU-Kunde, ${c}`,
+    image: heroImage,
   },
   services: { eyebrow: "Leistungen", heading: "Alles aus einer Hand.", items: services() },
   values: { eyebrow: "Warum wir", heading: "Ihr Vorteil.", items: whyUsPillars.map((p) => ({ title: p.title, body: p.body })) },

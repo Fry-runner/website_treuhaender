@@ -22,6 +22,7 @@ export interface HeroContent {
   asideLabel: string;
   asideQuote: string;
   asideAttribution: string;
+  image?: string; // real hero photo (from scraped assets), used by image-bg heroes
 }
 
 export const HeroSplit: React.FC<{ content: HeroContent }> = ({ content }) => (

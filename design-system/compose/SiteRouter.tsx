@@ -46,13 +46,15 @@ export interface SiteRouterProps {
   archetype?: ArchetypeId;
   seed?: number;
   lookId?: string;
+  /** Force a specific hero variant id (else the selector picks one). */
+  heroId?: string;
 }
 
-export const SiteRouter: React.FC<SiteRouterProps> = ({ content, archetype, seed, lookId }) => {
+export const SiteRouter: React.FC<SiteRouterProps> = ({ content, archetype, seed, lookId, heroId }) => {
   const arch = (archetype ?? (content.meta.archetype as ArchetypeId)) || "boutique";
   const plan = planSite(content, { seed, lookId });
   const look = presets[plan.lookId] ?? presets[content.meta.lookId];
-  const Hero = heroById(plan.heroId).component;
+  const Hero = heroById(heroId ?? plan.heroId).component;
 
   const pages = composeSite(arch, content, { includeOptional: true });
   const [slug, setSlug] = useState("/");
