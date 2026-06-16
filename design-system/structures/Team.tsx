@@ -1,13 +1,13 @@
 import React from "react";
 import { Container } from "./primitives";
-import { SectionHead } from "./SectionHead";
+import { SectionHead, type MoreLink } from "./SectionHead";
 import type { TeamContent } from "../content/types";
 
 /** Team grid with monogram avatars + role + bio. Token-only. */
-export const Team: React.FC<{ content: TeamContent }> = ({ content }) => (
+export const Team: React.FC<{ content: TeamContent; more?: MoreLink }> = ({ content, more }) => (
   <section style={{ background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
-      <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
+      <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.2rem" }}>
         {content.members.map((m, i) => (
           <div key={i} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", overflow: "hidden", display: "flex", flexDirection: "column" }}>

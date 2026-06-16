@@ -67,19 +67,28 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content, archetype, seed
 
   const crumb = (p: ResolvedPage) => (p.pageType === "service-detail" ? "Home / Leistungen" : p.pageType === "legal" ? "Home" : "Home");
 
+  // Teaser logic: on the HOME page, a section becomes a preview with a button to
+  // its dedicated subpage — but only if that subpage exists in the sitemap.
+  const isHome = page.pageType === "home";
+  const moreFor = (type: string, label: string) => {
+    if (!isHome) return undefined;
+    const target = pages.find((p) => p.pageType === type);
+    return target ? { label, href: target.slug } : undefined;
+  };
+
   const renderSlot = (s: string, i: number): React.ReactNode => {
     switch (s) {
       case "nav": return <Nav key={i} content={navContent} />;
       case "footer": return <Footer key={i} content={content.footer} />;
       case "hero": return <Hero key={i} content={content.hero} />;
       case "page-header": return <PageHeader key={i} eyebrow={pageTypes[page.pageType]?.name ?? "Seite"} title={page.title} breadcrumb={crumb(page)} />;
-      case "services": { const C = sectionComponent("services", plan) ?? Services; return <C key={i} content={content.services} />; }
+      case "services": { const C = sectionComponent("services", plan) ?? Services; return <C key={i} content={content.services} more={moreFor("services", "Alle Leistungen")} />; }
       case "service-body": {
         const it = content.services.items.find((x) => x.title === page.item);
         return it ? <ServiceBody key={i} title={it.title} summary={it.summary} bullets={it.bullets ?? SERVICE_BULLETS} body={it.body} /> : null;
       }
-      case "team": return <Team key={i} content={content.team} />;
-      case "pricing": return <Pricing key={i} content={content.pricing} />;
+      case "team": return <Team key={i} content={content.team} more={moreFor("team", "Team kennenlernen")} />;
+      case "pricing": return <Pricing key={i} content={content.pricing} more={moreFor("pricing", "Alle Pakete")} />;
       case "related": return (
         <Related key={i} heading="Das könnte Sie auch interessieren"
           items={content.services.items.filter((x) => x.title !== page.item).slice(0, 3)}

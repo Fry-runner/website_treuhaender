@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Button } from "./primitives";
-import { SectionHead } from "./SectionHead";
+import { SectionHead, type MoreLink } from "./SectionHead";
 import type { PricingContent } from "../content/types";
 
 /** Pricing tiers; recommended tier highlighted with a ring + tint. Token-only. */
-export const Pricing: React.FC<{ content: PricingContent }> = ({ content }) => (
+export const Pricing: React.FC<{ content: PricingContent; more?: MoreLink }> = ({ content, more }) => (
   <section style={{ background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
-      <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
+      <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.tiers.length}, minmax(0,1fr))`, gap: "1.2rem", alignItems: "start" }}>
         {content.tiers.map((t, i) => (
           <div key={i} style={{
