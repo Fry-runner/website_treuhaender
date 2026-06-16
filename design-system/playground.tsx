@@ -123,33 +123,7 @@ const SitemapDemo = () => {
   );
 };
 
-// --- all 50 generated firms, loaded from the batch-extracted content JSONs ---
-const firmModules = import.meta.glob("./content/examples/*.json", { eager: true });
-const firms = Object.entries(firmModules)
-  .filter(([p]) => !p.endsWith("active.json"))
-  .map(([p, mod]) => ({ slug: p.split("/").pop()!.replace(".json", ""), content: ((mod as any).default ?? mod) as SiteContent }))
-  .sort((a, b) => a.content.meta.firm.localeCompare(b.content.meta.firm));
-
-const FirmPicker = () => {
-  const [i, setI] = useState(0);
-  const firm = firms[i];
-  return (
-    <div style={{ fontFamily: "system-ui, sans-serif" }}>
-      <div style={{ padding: "10px 24px", background: "#0b0b0c", color: "#fff", display: "flex", gap: 14, alignItems: "center", flexWrap: "wrap", position: "sticky", top: 44, zIndex: 40 }}>
-        <span style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.08em", opacity: 0.6 }}>
-          Batch · {firms.length} generated sites
-        </span>
-        <select value={i} onChange={(e) => setI(+e.target.value)} style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.78rem", padding: "5px 10px", borderRadius: 8, border: "1px solid rgba(255,255,255,0.3)", background: "#fff", color: "#0b0b0c", maxWidth: 380 }}>
-          {firms.map((f, idx) => <option key={f.slug} value={idx}>{f.content.meta.firm} — {f.content.meta.archetype}</option>)}
-        </select>
-        <span style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.7rem", opacity: 0.55 }}>{firm.slug} · look {firm.content.meta.lookId}</span>
-      </div>
-      <SiteRouter key={firm.slug} content={firm.content} />
-    </div>
-  );
-};
-
-type View = "site" | "all50" | "inventory" | "variants" | "sitemap";
+type View = "site" | "inventory" | "variants" | "sitemap";
 
 const Tabs: React.FC<{ view: View; setView: (v: View) => void }> = ({ view, setView }) => {
   const tab = (active: boolean): React.CSSProperties => ({
@@ -167,7 +141,6 @@ const Tabs: React.FC<{ view: View; setView: (v: View) => void }> = ({ view, setV
         Treuhand design system
       </span>
       <button style={tab(view === "site")} onClick={() => setView("site")}>Generated site</button>
-      <button style={tab(view === "all50")} onClick={() => setView("all50")}>All {firms.length}</button>
       <button style={tab(view === "sitemap")} onClick={() => setView("sitemap")}>Sitemap</button>
       <button style={tab(view === "variants")} onClick={() => setView("variants")}>Variants</button>
       <button style={tab(view === "inventory")} onClick={() => setView("inventory")}>Inventory specs</button>
@@ -180,7 +153,7 @@ const App = () => {
   return (
     <div>
       <Tabs view={view} setView={setView} />
-      {view === "site" ? <SiteDemo /> : view === "all50" ? <FirmPicker /> : view === "sitemap" ? <SitemapDemo /> : view === "variants" ? <VariantsDemo /> : <InventoryBrowser />}
+      {view === "site" ? <SiteDemo /> : view === "sitemap" ? <SitemapDemo /> : view === "variants" ? <VariantsDemo /> : <InventoryBrowser />}
     </div>
   );
 };
