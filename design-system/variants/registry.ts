@@ -11,10 +11,12 @@ import type { PrimaryStyle } from "../structures/primitives";
 import { HeroSplit } from "../structures/HeroSplit";
 import { HeroCentered } from "../structures/HeroCentered";
 import { HeroTextLeft } from "../structures/HeroTextLeft";
+import { HeroGradient } from "../structures/HeroGradient";
 import { Services } from "../structures/Services";
 import { ServicesBordered } from "../structures/ServicesBordered";
 import { CtaBand } from "../structures/CtaBand";
 import { CtaSplit } from "../structures/CtaSplit";
+import { CtaGradient } from "../structures/CtaGradient";
 import { Testimonials } from "../structures/Testimonials";
 import { TestimonialsCarousel } from "../structures/TestimonialsCarousel";
 
@@ -30,6 +32,7 @@ export const heroVariants: VariantDef<HeroContent>[] = [
   { id: "hero/split",     component: HeroSplit,    looks: ["editorial", "warm"],          note: "split text + aside quote/credential" },
   { id: "hero/centered",  component: HeroCentered, looks: ["soft", "swiss"],              note: "centered benefit + in-hero rating badge" },
   { id: "hero/text-left", component: HeroTextLeft, looks: ["swiss", "warm", "editorial"], note: "type-only, left-aligned on tinted band" },
+  { id: "hero/gradient",  component: HeroGradient, looks: ["soft", "swiss"],              note: "premium animated mesh-gradient (Stripe/Vercel pattern)" },
 ];
 
 /** Primary-button looks (rendered via PrimaryStyle context). */
@@ -53,6 +56,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
   cta: [
     { id: "cta/centered", component: CtaBand, looks: ["any"] },
     { id: "cta/split", component: CtaSplit, looks: ["swiss", "warm", "editorial"] },
+    { id: "cta/gradient", component: CtaGradient, looks: ["soft", "swiss"] }, // premium gradient band
   ],
   testimonials: [
     { id: "testimonials/grid", component: Testimonials, looks: ["editorial", "swiss", "warm"] },
