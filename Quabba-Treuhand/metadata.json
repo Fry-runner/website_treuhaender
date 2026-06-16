@@ -1,0 +1,6 @@
+{
+  "name": "Quabba Treuhand",
+  "description": "Minimalistiske und premium Webpräsenz für Quabba Treuhand in Zürich — Treuhand, Beratung und Organisation seit 1993.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
