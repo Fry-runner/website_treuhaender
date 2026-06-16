@@ -11,6 +11,7 @@ import { presets } from "../tokens";
 import type { SiteContent } from "../content/types";
 import { planSite, heroById, sectionComponent } from "../variants/select";
 import { PrimaryStyleProvider } from "../structures/primitives";
+import { Reveal } from "../motion/Reveal";
 
 import { Nav } from "../structures/Nav";
 import { HeroSplit } from "../structures/HeroSplit";
@@ -75,7 +76,11 @@ export const SiteComposer: React.FC<SiteComposerProps> = ({ content, archetype, 
       <PrimaryStyleProvider value={plan.primaryStyle}>
         {sequence.map((s, i) => {
           const r = slotRender[s.slot];
-          return r ? <React.Fragment key={i}>{r(content)}</React.Fragment> : null;
+          if (!r) return null;
+          const node = r(content);
+          return s.slot === "nav" || s.slot === "footer"
+            ? <React.Fragment key={i}>{node}</React.Fragment>
+            : <Reveal key={i}>{node}</Reveal>;
         })}
       </PrimaryStyleProvider>
     </div>

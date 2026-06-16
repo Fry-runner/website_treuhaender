@@ -46,6 +46,9 @@ export function applyLook(t: DesignTokens): LookVars {
     "--ds-gutter": t.spacing.gutter,
     "--ds-duration": `${t.motion.durationMs}ms`,
     "--ds-ease": t.motion.easing,
+    // scroll-reveal distance/duration scale with the look's motion intensity
+    "--ds-reveal-dist": t.motion.intensity === "subtle" ? "10px" : t.motion.intensity === "expressive" ? "26px" : "18px",
+    "--ds-reveal-dur": t.motion.intensity === "subtle" ? "500ms" : t.motion.intensity === "expressive" ? "640ms" : "560ms",
     // also set the inherited base so children read sensible defaults
     background: "var(--ds-bg)",
     color: "var(--ds-text)",

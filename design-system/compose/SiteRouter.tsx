@@ -13,6 +13,7 @@ import { presets } from "../tokens";
 import { planSite, heroById, sectionComponent } from "../variants/select";
 import { PrimaryStyleProvider } from "../structures/primitives";
 import { NavigationContext } from "./nav-context";
+import { Reveal } from "../motion/Reveal";
 import type { SiteContent } from "../content/types";
 
 import { Nav } from "../structures/Nav";
@@ -112,7 +113,12 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content, archetype, seed
     <div style={applyLook(look)}>
       <PrimaryStyleProvider value={plan.primaryStyle}>
         <NavigationContext.Provider value={navigate}>
-          {page.sections.map((s, i) => renderSlot(s, i))}
+          {page.sections.map((s, i) => {
+            const node = renderSlot(s, i);
+            if (!node) return null;
+            // nav is sticky — wrapping it in a transform would break sticky; render raw
+            return s === "nav" || s === "footer" ? <React.Fragment key={i}>{node}</React.Fragment> : <Reveal key={i}>{node}</Reveal>;
+          })}
         </NavigationContext.Provider>
       </PrimaryStyleProvider>
     </div>
