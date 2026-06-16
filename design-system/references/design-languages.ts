@@ -62,7 +62,7 @@ export const designLanguages: Record<string, DesignLanguage> = {
     corners: "moderate radius", elevation: "light borders + subtle shadow",
     motion: "subtle, premium", imagery: "art-directed, color-graded photography or isometric illustration",
     exemplars: ["Mercury", "Carta", "Gusto", "Stripe (restraint)"],
-    presets: ["boost-editorial", "uds-warm-editorial"],
+    presets: ["boost-editorial", "uds-warm-editorial", "quabba-editorial"],
     bestFor: "Established advisory / wealth-leaning firm projecting gravitas and longevity",
   },
   "data-precise": {
@@ -73,7 +73,7 @@ export const designLanguages: Record<string, DesignLanguage> = {
     corners: "minimal rounding", elevation: "near-shadowless, typography-driven, hairline rules",
     motion: "light, interactive (calculators, comparison tables)", imagery: "charts, comparison tables, real figures",
     exemplars: ["Wise", "Vercel", "Ramp"],
-    presets: ["ruerup-swiss"],
+    presets: ["ruerup-swiss", "zueri-swiss"],
     bestFor: "Pricing-transparent / calculator-driven fiduciary emphasizing clarity and numbers",
   },
   "swiss-clean": {
@@ -84,7 +84,7 @@ export const designLanguages: Record<string, DesignLanguage> = {
     corners: "moderate rounding", elevation: "light card shadows",
     motion: "moderate (carousels, hover)", imagery: "real product UI + customer photography + credential badges",
     exemplars: ["bexio", "Numarics", "Selma"],
-    presets: ["ruerup-swiss", "boost-editorial"],
+    presets: ["ruerup-swiss", "boost-editorial", "zueri-swiss"],
     bestFor: "Default for most CH KMU fiduciaries — directly mirrors the best Swiss SME platforms",
   },
 };
@@ -95,4 +95,6 @@ export const presetToLanguages: Record<string, string[]> = {
   "ruerup-swiss": ["swiss-clean", "data-precise", "dark-premium"],
   "tureva-soft": ["soft-friendly", "fintech-clean"],
   "uds-warm-editorial": ["editorial-trust", "soft-friendly"],
+  "quabba-editorial": ["editorial-trust", "swiss-clean"],
+  "zueri-swiss": ["swiss-clean", "data-precise", "editorial-trust"],
 };

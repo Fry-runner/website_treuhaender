@@ -1,11 +1,13 @@
 /**
  * Design Token Schema
  * ===================
- * Extracted from the four built Treuhänder template sites
- * (Boost-Consulting, Steuerberatung-Andreas-Rürup, Tureva, Unter-Dem-Strich).
+ * Extracted from the six built Treuhänder template sites
+ * (Boost-Consulting, Steuerberatung-Andreas-Rürup, Tureva, Unter-Dem-Strich,
+ * Quabba-Treuhand, Züri-Treuhand) plus two reference-synthesized presets
+ * (swiss-clean, dark-premium).
  *
- * This file defines ONE schema (the `DesignTokens` type) plus four concrete
- * instances ("presets") — one per built site. Every preset is an internally
+ * This file defines ONE schema (the `DesignTokens` type) plus concrete
+ * instances ("presets") — one per built site + the synthesized two. Every preset is an internally
  * coherent visual language. Components in the generator read tokens from the
  * ACTIVE preset only, which is what guarantees a cohesive look.
  *
@@ -365,15 +367,106 @@ export const darkPremium: DesignTokens = {
   raw: { "--accent-lavender": "#6E79F2", "--font-sans": "Inter", "--font-display": "Space Grotesk" },
 };
 
+/** Quabba Treuhand — editorial graphite-on-white, restrained Swiss-red accent, hairline borders, scroll color-shifts. */
+export const quabba: DesignTokens = {
+  meta: {
+    id: "quabba-editorial",
+    name: "Quabba Editorial Red",
+    mood: "Editorial graphite-on-white with a restrained Swiss-red accent; all-Inter with mono micro-labels, hairline borders, scroll-triggered color-shift reveals and a hand-drawn signature line.",
+    source: "Quabba-Treuhand",
+    derived: ["color.surface (#F7F8F8 tint of gray-light)", "color.primaryFg (#FFFFFF)", "color.primarySoft (#FCEBEC tint)", "color.secondaryFg (#22272B)", "font.mono (Tailwind default mono stack)"],
+  },
+  tags: { tone: "formal", warmth: "neutral", corner: "sharp", density: "airy",
+          contrast: "high", era: "timeless", accentEnergy: "medium" },
+  color: {
+    bg: "#FFFFFF", surface: "#F7F8F8", text: "#22272B", textMuted: "#7C868C",
+    border: "#E9ECEC", primary: "#D91A21", primaryFg: "#FFFFFF", primarySoft: "#FCEBEC",
+    secondary: "#E39699", secondaryFg: "#22272B",
+  },
+  font: {
+    body: '"Inter", ui-sans-serif, system-ui, sans-serif',
+    heading: '"Inter", ui-sans-serif, system-ui, sans-serif',
+    mono: 'ui-monospace, SFMono-Regular, Menlo, "Liberation Mono", monospace',
+    headingRole: "display-grotesk",
+  },
+  type: {
+    displayMax: "7xl", headlineWeight: "bold", bodyWeight: "normal",
+    headlineTracking: "tight",
+    eyebrow: { uppercase: true, tracking: "widest", weight: "bold" },
+  },
+  radius: { base: "sm", pill: "full", scale: "sharp" },
+  shadow: { elevation: "flat", card: "none" },
+  spacing: { sectionY: "py-24", rhythm: "airy", containerMax: "1280px", gutter: "1.5rem" },
+  motion: { durationMs: 600, easing: "cubic-bezier(0.22,1,0.36,1)", intensity: "expressive" },
+  background: { treatment: "flat-white", blur: true, bloom: "rgba(217,26,33,0.16)" },
+  raw: {
+    "--color-brand-violet": "#D91A21",
+    "--color-brand-coral": "#E39699",
+    "--color-brand-graphite": "#22272B",
+    "--color-brand-gray-light": "#E9ECEC",
+    "--color-brand-gray-medium": "#7C868C",
+    "--font-sans": "Inter",
+    "--font-display": "Inter",
+    "--font-heading": "Inter",
+  },
+};
+
+/** Züri Treuhand — Swiss-clean deep-blue on white; Space Grotesk display + Playfair serif accents + mono figures. */
+export const zueri: DesignTokens = {
+  meta: {
+    id: "zueri-swiss",
+    name: "Züri Swiss Blue",
+    mood: "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
+    source: "Züri-Treuhand",
+    derived: ["color.primaryFg (#FFFFFF)", "color.primarySoft (#EAF1F8 tint)", "color.secondaryFg (#FFFFFF)", "color.textMuted (#737373 neutral-500)"],
+  },
+  tags: { tone: "formal", warmth: "cool", corner: "sharp", density: "normal",
+          contrast: "high", era: "timeless", accentEnergy: "medium" },
+  color: {
+    bg: "#FFFFFF", surface: "#F9FAFB", text: "#333333", textMuted: "#737373",
+    border: "#EAEAEA", primary: "#084687", primaryFg: "#FFFFFF", primarySoft: "#EAF1F8",
+    secondary: "#0B549F", secondaryFg: "#FFFFFF",
+  },
+  font: {
+    body: '"Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif',
+    heading: '"Space Grotesk", "Inter", system-ui, sans-serif',
+    mono: '"JetBrains Mono", ui-monospace, Menlo, monospace',
+    headingRole: "display-grotesk",
+  },
+  type: {
+    displayMax: "7xl", headlineWeight: "bold", bodyWeight: "light",
+    headlineTracking: "tight",
+    eyebrow: { uppercase: true, tracking: "widest", weight: "bold" },
+  },
+  radius: { base: "sm", pill: "full", scale: "sharp" },
+  shadow: { elevation: "subtle", card: "sm" },
+  spacing: { sectionY: "py-16", rhythm: "normal", containerMax: "1280px", gutter: "1.5rem" },
+  motion: { durationMs: 400, easing: "cubic-bezier(0.4,0,0.2,1)", intensity: "subtle" },
+  background: { treatment: "flat-white", blur: true },
+  raw: {
+    "--color-brand-blue": "#084687",
+    "--color-accent-blue": "#0b549f",
+    "--color-charcoal": "#333333",
+    "--color-soft-gray": "#F9FAFB",
+    "--color-border-gray": "#EAEAEA",
+    "--font-sans": "Inter",
+    "--font-serif": "Playfair Display",
+    "--font-display": "Space Grotesk",
+    "--font-mono": "JetBrains Mono",
+  },
+};
+
 export const presets: Record<string, DesignTokens> = {
   [boostConsulting.meta.id]: boostConsulting,
   [ruerup.meta.id]: ruerup,
   [tureva.meta.id]: tureva,
   [unterDemStrich.meta.id]: unterDemStrich,
+  [quabba.meta.id]: quabba,
+  [zueri.meta.id]: zueri,
   [swissClean.meta.id]: swissClean,
   [darkPremium.meta.id]: darkPremium,
 };
 
 export const presetList: DesignTokens[] = [
-  boostConsulting, ruerup, tureva, unterDemStrich, swissClean, darkPremium,
+  boostConsulting, ruerup, tureva, unterDemStrich, quabba, zueri, swissClean, darkPremium,
 ];

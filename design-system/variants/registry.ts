@@ -105,6 +105,8 @@ export const presetAffinity: Record<string, StyleAffinity> = {
   "ruerup-swiss": "swiss",
   "tureva-soft": "soft",
   "uds-warm-editorial": "warm",
+  "quabba-editorial": "editorial",
+  "zueri-swiss": "swiss",
   "swiss-clean": "swiss",
   "dark-premium": "swiss",
 };
