@@ -1,13 +1,10 @@
 import React from "react";
 import { Container } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
-import { useNavigate } from "../compose/nav-context";
-import { slugify } from "../pages";
 import type { ServicesContent } from "../content/types";
 
 /** Services variant: zero-gap hairline-divided grid (editorial/swiss feel). */
-export const ServicesBordered: React.FC<{ content: ServicesContent; more?: MoreLink }> = ({ content, more }) => {
-  const navigate = useNavigate();
+export const ServicesBordered: React.FC<{ content: ServicesContent; more?: MoreLink; onPick?: (title: string) => void }> = ({ content, more, onPick }) => {
   const cols = Math.min(content.items.length, 3);
   return (
     <section style={{ background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
@@ -15,8 +12,8 @@ export const ServicesBordered: React.FC<{ content: ServicesContent; more?: MoreL
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
         <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, minmax(0,1fr))`, border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
           {content.items.map((s, i) => (
-            <article key={i} onClick={() => navigate(`/leistungen/${slugify(s.title)}`)} style={{
-              padding: "1.6rem", cursor: "pointer", display: "flex", flexDirection: "column", gap: "0.6rem",
+            <article key={i} onClick={onPick ? () => onPick(s.title) : undefined} style={{
+              padding: "1.6rem", cursor: onPick ? "pointer" : "default", display: "flex", flexDirection: "column", gap: "0.6rem",
               borderLeft: i % cols === 0 ? "none" : "1px solid var(--ds-border)",
               borderTop: i >= cols ? "1px solid var(--ds-border)" : "none",
             }}>

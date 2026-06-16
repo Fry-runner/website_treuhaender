@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "./primitives";
-import { SectionHead } from "./SectionHead";
+import { SectionHead, type MoreLink } from "./SectionHead";
 import type { PostsContent } from "../content/types";
 
 const FALLBACK: PostsContent = {
@@ -13,10 +13,10 @@ const FALLBACK: PostsContent = {
 };
 
 /** Blog/insights list, driven by the firm's posts content. */
-export const BlogList: React.FC<{ content?: PostsContent }> = ({ content = FALLBACK }) => (
+export const BlogList: React.FC<{ content?: PostsContent; more?: MoreLink }> = ({ content = FALLBACK, more }) => (
   <section style={{ background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
-      <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
+      <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.2rem" }}>
         {content.items.map((post, i) => (
           <article key={i} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", overflow: "hidden", display: "flex", flexDirection: "column" }}>

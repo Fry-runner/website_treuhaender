@@ -77,13 +77,23 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content, archetype, seed
     return target ? { label, href: target.slug } : undefined;
   };
 
+  // Service cards deep-link only where the target exists: detail page > overview > inert.
+  const hasServiceDetail = pages.some((p) => p.pageType === "service-detail");
+  const hasServicesOverview = pages.some((p) => p.pageType === "services");
+  const servicePick = hasServiceDetail
+    ? (t: string) => navigate(`/leistungen/${slugify(t)}`)
+    : hasServicesOverview
+    ? () => navigate("/leistungen")
+    : undefined;
+
   const renderSlot = (s: string, i: number): React.ReactNode => {
     switch (s) {
       case "nav": return <Nav key={i} content={navContent} />;
       case "footer": return <Footer key={i} content={content.footer} />;
       case "hero": return <Hero key={i} content={content.hero} />;
       case "page-header": return <PageHeader key={i} eyebrow={pageTypes[page.pageType]?.name ?? "Seite"} title={page.title} breadcrumb={crumb(page)} />;
-      case "services": { const C = sectionComponent("services", plan) ?? Services; return <C key={i} content={content.services} more={moreFor("services", "Alle Leistungen")} />; }
+      case "services": { const C = sectionComponent("services", plan) ?? Services; return <C key={i} content={content.services} more={moreFor("services", "Alle Leistungen")} onPick={servicePick} />; }
+      case "blog": return <BlogList key={i} content={content.posts} more={moreFor("blog", "Alle Beiträge")} />;
       case "service-body": {
         const it = content.services.items.find((x) => x.title === page.item);
         return it ? <ServiceBody key={i} title={it.title} summary={it.summary} bullets={it.bullets ?? SERVICE_BULLETS} body={it.body} /> : null;

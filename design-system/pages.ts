@@ -156,9 +156,16 @@ export function composeSite(
     if (!pt) continue;
 
     if (pt.id === "home") {
+      const homeSlots = composeHomepage(archetype).map((s) => s.slot) as string[];
+      // inject a blog teaser before the final CTA, only if the site has a blog page
+      const hasBlog = refs.some((r) => r.pageType === "blog" && (r.presence !== "optional" || opts.includeOptional));
+      if (hasBlog && !homeSlots.includes("blog")) {
+        const at = homeSlots.indexOf("cta");
+        homeSlots.splice(at >= 0 ? at : homeSlots.length, 0, "blog");
+      }
       out.push({
         pageType: "home", slug: "/", title: content?.meta.firm ?? "Home",
-        sections: composeHomepage(archetype).map((s) => s.slot), presence: ref.presence,
+        sections: homeSlots, presence: ref.presence,
       });
     } else if (pt.repeat === "perService") {
       const items = content?.services.items ?? [];
