@@ -1,10 +1,10 @@
 {
   "meta": {
-    "firm": "SEBONA Treuhand",
-    "domain": "sebona-treuhand.ch",
+    "firm": "KMU Treuhandexperte GmbH",
+    "domain": "kmu-trex.ch",
     "archetype": "swiss-digital",
     "lookId": "tureva-soft",
-    "sourceUrl": "https://sebona-treuhand.ch/",
+    "sourceUrl": "https://www.kmu-trex.ch/",
     "placeholders": [
       "hero.aside",
       "testimonials",
@@ -25,7 +25,7 @@
     ]
   },
   "nav": {
-    "brand": "SEBONA Treuhand",
+    "brand": "KMU Treuhandexperte GmbH",
     "links": [
       {
         "label": "Home",
@@ -46,20 +46,19 @@
     ],
     "cta": "Termin buchen",
     "languages": [
-      "de",
-      "en"
+      "de"
     ]
   },
   "hero": {
-    "eyebrow": "Treuhand · Kloten",
-    "titleLead": "Buchhaltung: Persönlich. Modern. Verlässlich.",
+    "eyebrow": "Treuhand · Thalwil",
+    "titleLead": "Ihr Treuhandbüro in Thalwil",
     "titleAccent": "",
-    "lede": "Persönlicher Treuhand-Partner für KMU in Zürich, Zug und Schwyz. Buchhaltung, Steuererklärungen, Domizilservice. Erstgespräch kostenfrei – ab CHF 150.",
+    "lede": "Die KMU Treuhandexperte GmbH ist Ihr Ansprechpartner am linken Zürichseeufer, wenn es um Steuerberatungen, Ihre Finanzbuchhaltung, das Lohnwesen und Firmengründungen geht.: Home",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Mandantenstimme",
     "asideQuote": "Endlich ein Treuhänder, der mitdenkt statt nur abzurechnen.",
-    "asideAttribution": "— KMU-Kunde, Kloten"
+    "asideAttribution": "— KMU-Kunde, Thalwil"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -160,9 +159,9 @@
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
       {
-        "name": "SEBONA Team",
+        "name": "KMU Team",
         "role": "Geschäftsführung",
-        "initials": "SE",
+        "initials": "KM",
         "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
       },
       {
@@ -253,19 +252,19 @@
         "quote": "Schneller Onboarding, klare Zahlen in Echtzeit. Wir würden nie zurückwechseln.",
         "person": "M. Keller",
         "company": "Keller Bau GmbH",
-        "city": "Kloten"
+        "city": "Thalwil"
       },
       {
         "quote": "Transparente Preise und ein fester Ansprechpartner. Genau das hat gefehlt.",
         "person": "S. Brunner",
         "company": "Brunner Consulting",
-        "city": "Kloten"
+        "city": "Thalwil"
       },
       {
         "quote": "Digital, aber persönlich. Steuern sind endlich kein Stress mehr.",
         "person": "L. Frei",
         "company": "Frei Architektur",
-        "city": "Kloten"
+        "city": "Thalwil"
       }
     ]
   },
@@ -280,7 +279,7 @@
         "label": "Betreute Mandate"
       },
       {
-        "value": "2",
+        "value": "1",
         "label": "Sprachen"
       },
       {
@@ -293,7 +292,6 @@
     "label": "Mitglied · Zertifiziert",
     "items": [
       "eidg. Diplom/Fachausweis",
-      "swissaccounting",
       "bexio",
       "Abacus"
     ]
@@ -341,14 +339,15 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "phone": "+41 43 883 90 60",
+      "phone": "044 536 12 65",
+      "email": "info@kmu-trex.ch",
       "hours": "Mo–Fr 08:00–17:00"
     },
     "formCta": "Nachricht senden"
   },
   "footer": {
-    "brand": "SEBONA Treuhand",
-    "tagline": "Ihr Treuhandpartner in Kloten – Buchhaltung, Steuern und Beratung für KMU.",
+    "brand": "KMU Treuhandexperte GmbH",
+    "tagline": "Ihr Treuhandpartner in Thalwil – Buchhaltung, Steuern und Beratung für KMU.",
     "columns": [
       {
         "title": "Sitemap",
@@ -361,9 +360,9 @@
       {
         "title": "Standort",
         "links": [
-          "Kloten",
-          "+41 43 883 90 60",
-          "info@…"
+          "Thalwil",
+          "044 536 12 65",
+          "info@kmu-trex.ch"
         ]
       },
       {

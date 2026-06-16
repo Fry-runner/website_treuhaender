@@ -1,10 +1,10 @@
 {
   "meta": {
-    "firm": "SEBONA Treuhand",
-    "domain": "sebona-treuhand.ch",
-    "archetype": "swiss-digital",
-    "lookId": "tureva-soft",
-    "sourceUrl": "https://sebona-treuhand.ch/",
+    "firm": "Interconsulta",
+    "domain": "interconsulta.ch",
+    "archetype": "boutique",
+    "lookId": "ruerup-swiss",
+    "sourceUrl": "https://www.interconsulta.ch/",
     "placeholders": [
       "hero.aside",
       "testimonials",
@@ -25,7 +25,7 @@
     ]
   },
   "nav": {
-    "brand": "SEBONA Treuhand",
+    "brand": "Interconsulta",
     "links": [
       {
         "label": "Home",
@@ -46,20 +46,19 @@
     ],
     "cta": "Termin buchen",
     "languages": [
-      "de",
-      "en"
+      "de"
     ]
   },
   "hero": {
-    "eyebrow": "Treuhand · Kloten",
-    "titleLead": "Buchhaltung: Persönlich. Modern. Verlässlich.",
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Willkommen bei Interconsulta .",
     "titleAccent": "",
-    "lede": "Persönlicher Treuhand-Partner für KMU in Zürich, Zug und Schwyz. Buchhaltung, Steuererklärungen, Domizilservice. Erstgespräch kostenfrei – ab CHF 150.",
+    "lede": "Willkommen bei Interconsulta in ZÃ¼rich. Wir sind Ihr Partner fÃ¼r Treuhand, Revisionen, Steuerberatung, Buchhaltung, Unternehmensberatung und Mehrwertsteuer.",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Mandantenstimme",
     "asideQuote": "Endlich ein Treuhänder, der mitdenkt statt nur abzurechnen.",
-    "asideAttribution": "— KMU-Kunde, Kloten"
+    "asideAttribution": "— KMU-Kunde, Zürich"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -160,9 +159,9 @@
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
       {
-        "name": "SEBONA Team",
+        "name": "Interconsulta Team",
         "role": "Geschäftsführung",
-        "initials": "SE",
+        "initials": "IN",
         "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
       },
       {
@@ -253,19 +252,19 @@
         "quote": "Schneller Onboarding, klare Zahlen in Echtzeit. Wir würden nie zurückwechseln.",
         "person": "M. Keller",
         "company": "Keller Bau GmbH",
-        "city": "Kloten"
+        "city": "Zürich"
       },
       {
         "quote": "Transparente Preise und ein fester Ansprechpartner. Genau das hat gefehlt.",
         "person": "S. Brunner",
         "company": "Brunner Consulting",
-        "city": "Kloten"
+        "city": "Zürich"
       },
       {
         "quote": "Digital, aber persönlich. Steuern sind endlich kein Stress mehr.",
         "person": "L. Frei",
         "company": "Frei Architektur",
-        "city": "Kloten"
+        "city": "Zürich"
       }
     ]
   },
@@ -280,7 +279,7 @@
         "label": "Betreute Mandate"
       },
       {
-        "value": "2",
+        "value": "1",
         "label": "Sprachen"
       },
       {
@@ -292,8 +291,8 @@
   "trust": {
     "label": "Mitglied · Zertifiziert",
     "items": [
-      "eidg. Diplom/Fachausweis",
-      "swissaccounting",
+      "TREUHAND|SUISSE",
+      "RAB/zugel. Revisor",
       "bexio",
       "Abacus"
     ]
@@ -341,14 +340,15 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "phone": "+41 43 883 90 60",
+      "phone": "+41 41 711 70 70",
+      "email": "info@interconsulta.ch",
       "hours": "Mo–Fr 08:00–17:00"
     },
     "formCta": "Nachricht senden"
   },
   "footer": {
-    "brand": "SEBONA Treuhand",
-    "tagline": "Ihr Treuhandpartner in Kloten – Buchhaltung, Steuern und Beratung für KMU.",
+    "brand": "Interconsulta",
+    "tagline": "Ihr Treuhandpartner in Zürich – Buchhaltung, Steuern und Beratung für KMU.",
     "columns": [
       {
         "title": "Sitemap",
@@ -361,9 +361,9 @@
       {
         "title": "Standort",
         "links": [
-          "Kloten",
-          "+41 43 883 90 60",
-          "info@…"
+          "Zürich",
+          "+41 41 711 70 70",
+          "info@interconsulta.ch"
         ]
       },
       {

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "firm": "SEBONA Treuhand",
-    "domain": "sebona-treuhand.ch",
-    "archetype": "swiss-digital",
-    "lookId": "tureva-soft",
-    "sourceUrl": "https://sebona-treuhand.ch/",
+    "firm": "Treuhandfinanz / Treuhänder Zürich",
+    "domain": "treuhaender-zuerich.com",
+    "archetype": "boutique",
+    "lookId": "ruerup-swiss",
+    "sourceUrl": "https://www.treuhaender-zuerich.com/",
     "placeholders": [
       "hero.aside",
       "testimonials",
@@ -25,7 +25,7 @@
     ]
   },
   "nav": {
-    "brand": "SEBONA Treuhand",
+    "brand": "Treuhandfinanz / Treuhänder Zürich",
     "links": [
       {
         "label": "Home",
@@ -46,20 +46,19 @@
     ],
     "cta": "Termin buchen",
     "languages": [
-      "de",
-      "en"
+      "de"
     ]
   },
   "hero": {
-    "eyebrow": "Treuhand · Kloten",
-    "titleLead": "Buchhaltung: Persönlich. Modern. Verlässlich.",
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Treuhänder Zürich. Das erfahrene schweizer Treuhandbüro.",
     "titleAccent": "",
-    "lede": "Persönlicher Treuhand-Partner für KMU in Zürich, Zug und Schwyz. Buchhaltung, Steuererklärungen, Domizilservice. Erstgespräch kostenfrei – ab CHF 150.",
+    "lede": "Treuhandfinanz© ist Ihr erfahrenes Treuhandbüro Schweiz. Ihr kompetenter Treuhänder Zürich ... Buchhaltung, Jahresabschluss, Steuern & Löhne",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Mandantenstimme",
     "asideQuote": "Endlich ein Treuhänder, der mitdenkt statt nur abzurechnen.",
-    "asideAttribution": "— KMU-Kunde, Kloten"
+    "asideAttribution": "— KMU-Kunde, Zürich"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -160,9 +159,9 @@
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
       {
-        "name": "SEBONA Team",
+        "name": "Treuhandfinanz Team",
         "role": "Geschäftsführung",
-        "initials": "SE",
+        "initials": "TR",
         "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
       },
       {
@@ -253,19 +252,19 @@
         "quote": "Schneller Onboarding, klare Zahlen in Echtzeit. Wir würden nie zurückwechseln.",
         "person": "M. Keller",
         "company": "Keller Bau GmbH",
-        "city": "Kloten"
+        "city": "Zürich"
       },
       {
         "quote": "Transparente Preise und ein fester Ansprechpartner. Genau das hat gefehlt.",
         "person": "S. Brunner",
         "company": "Brunner Consulting",
-        "city": "Kloten"
+        "city": "Zürich"
       },
       {
         "quote": "Digital, aber persönlich. Steuern sind endlich kein Stress mehr.",
         "person": "L. Frei",
         "company": "Frei Architektur",
-        "city": "Kloten"
+        "city": "Zürich"
       }
     ]
   },
@@ -280,7 +279,7 @@
         "label": "Betreute Mandate"
       },
       {
-        "value": "2",
+        "value": "1",
         "label": "Sprachen"
       },
       {
@@ -292,8 +291,11 @@
   "trust": {
     "label": "Mitglied · Zertifiziert",
     "items": [
-      "eidg. Diplom/Fachausweis",
-      "swissaccounting",
+      "TREUHAND|SUISSE",
+      "EXPERTsuisse",
+      "Swiss GAAP FER",
+      "veb.ch / SwissAccounting",
+      "RAB – zugelassener Revisor",
       "bexio",
       "Abacus"
     ]
@@ -341,14 +343,15 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "phone": "+41 43 883 90 60",
+      "phone": "+41 (0)58 502 85 00",
+      "email": "info@treuhandfinanz.ch",
       "hours": "Mo–Fr 08:00–17:00"
     },
     "formCta": "Nachricht senden"
   },
   "footer": {
-    "brand": "SEBONA Treuhand",
-    "tagline": "Ihr Treuhandpartner in Kloten – Buchhaltung, Steuern und Beratung für KMU.",
+    "brand": "Treuhandfinanz / Treuhänder Zürich",
+    "tagline": "Ihr Treuhandpartner in Zürich – Buchhaltung, Steuern und Beratung für KMU.",
     "columns": [
       {
         "title": "Sitemap",
@@ -361,9 +364,9 @@
       {
         "title": "Standort",
         "links": [
-          "Kloten",
-          "+41 43 883 90 60",
-          "info@…"
+          "Zürich",
+          "+41 (0)58 502 85 00",
+          "info@treuhandfinanz.ch"
         ]
       },
       {

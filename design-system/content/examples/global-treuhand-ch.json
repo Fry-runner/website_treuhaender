@@ -1,10 +1,10 @@
 {
   "meta": {
-    "firm": "SEBONA Treuhand",
-    "domain": "sebona-treuhand.ch",
+    "firm": "Global-Treuhand GmbH",
+    "domain": "global-treuhand.ch",
     "archetype": "swiss-digital",
     "lookId": "tureva-soft",
-    "sourceUrl": "https://sebona-treuhand.ch/",
+    "sourceUrl": "https://www.global-treuhand.ch/",
     "placeholders": [
       "hero.aside",
       "testimonials",
@@ -20,12 +20,11 @@
       "contact.phone",
       "nav.languages",
       "trust.items",
-      "hero.headline",
       "hero.lede"
     ]
   },
   "nav": {
-    "brand": "SEBONA Treuhand",
+    "brand": "Global-Treuhand GmbH",
     "links": [
       {
         "label": "Home",
@@ -46,20 +45,19 @@
     ],
     "cta": "Termin buchen",
     "languages": [
-      "de",
-      "en"
+      "de"
     ]
   },
   "hero": {
-    "eyebrow": "Treuhand · Kloten",
-    "titleLead": "Buchhaltung: Persönlich. Modern. Verlässlich.",
-    "titleAccent": "",
-    "lede": "Persönlicher Treuhand-Partner für KMU in Zürich, Zug und Schwyz. Buchhaltung, Steuererklärungen, Domizilservice. Erstgespräch kostenfrei – ab CHF 150.",
+    "eyebrow": "Treuhand · Wallisellen",
+    "titleLead": "Ihre Finanzen,",
+    "titleAccent": "klar geführt.",
+    "lede": "Wir fokussieren uns auf die Buchführung für kleine bis mittlere Unternehmen in Kloten & Umgebung. Wenn Sie zufrieden sind, sind wir es auch.",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Mandantenstimme",
     "asideQuote": "Endlich ein Treuhänder, der mitdenkt statt nur abzurechnen.",
-    "asideAttribution": "— KMU-Kunde, Kloten"
+    "asideAttribution": "— KMU-Kunde, Wallisellen"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -160,9 +158,9 @@
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
       {
-        "name": "SEBONA Team",
+        "name": "Global-Treuhand Team",
         "role": "Geschäftsführung",
-        "initials": "SE",
+        "initials": "GL",
         "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
       },
       {
@@ -253,19 +251,19 @@
         "quote": "Schneller Onboarding, klare Zahlen in Echtzeit. Wir würden nie zurückwechseln.",
         "person": "M. Keller",
         "company": "Keller Bau GmbH",
-        "city": "Kloten"
+        "city": "Wallisellen"
       },
       {
         "quote": "Transparente Preise und ein fester Ansprechpartner. Genau das hat gefehlt.",
         "person": "S. Brunner",
         "company": "Brunner Consulting",
-        "city": "Kloten"
+        "city": "Wallisellen"
       },
       {
         "quote": "Digital, aber persönlich. Steuern sind endlich kein Stress mehr.",
         "person": "L. Frei",
         "company": "Frei Architektur",
-        "city": "Kloten"
+        "city": "Wallisellen"
       }
     ]
   },
@@ -280,7 +278,7 @@
         "label": "Betreute Mandate"
       },
       {
-        "value": "2",
+        "value": "1",
         "label": "Sprachen"
       },
       {
@@ -293,7 +291,6 @@
     "label": "Mitglied · Zertifiziert",
     "items": [
       "eidg. Diplom/Fachausweis",
-      "swissaccounting",
       "bexio",
       "Abacus"
     ]
@@ -341,14 +338,15 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "phone": "+41 43 883 90 60",
+      "phone": "+41 44 523 69 99",
+      "email": "info@global-treuhand.ch",
       "hours": "Mo–Fr 08:00–17:00"
     },
     "formCta": "Nachricht senden"
   },
   "footer": {
-    "brand": "SEBONA Treuhand",
-    "tagline": "Ihr Treuhandpartner in Kloten – Buchhaltung, Steuern und Beratung für KMU.",
+    "brand": "Global-Treuhand GmbH",
+    "tagline": "Ihr Treuhandpartner in Wallisellen – Buchhaltung, Steuern und Beratung für KMU.",
     "columns": [
       {
         "title": "Sitemap",
@@ -361,9 +359,9 @@
       {
         "title": "Standort",
         "links": [
-          "Kloten",
-          "+41 43 883 90 60",
-          "info@…"
+          "Wallisellen",
+          "+41 44 523 69 99",
+          "info@global-treuhand.ch"
         ]
       },
       {

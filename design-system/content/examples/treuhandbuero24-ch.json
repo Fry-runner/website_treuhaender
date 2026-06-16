@@ -1,10 +1,10 @@
 {
   "meta": {
-    "firm": "SEBONA Treuhand",
-    "domain": "sebona-treuhand.ch",
-    "archetype": "swiss-digital",
-    "lookId": "tureva-soft",
-    "sourceUrl": "https://sebona-treuhand.ch/",
+    "firm": "Treuhandbüro24 Zürich",
+    "domain": "treuhandbuero24.ch",
+    "archetype": "boutique",
+    "lookId": "ruerup-swiss",
+    "sourceUrl": "https://www.treuhandbuero24.ch/",
     "placeholders": [
       "hero.aside",
       "testimonials",
@@ -25,7 +25,7 @@
     ]
   },
   "nav": {
-    "brand": "SEBONA Treuhand",
+    "brand": "Treuhandbüro24 Zürich",
     "links": [
       {
         "label": "Home",
@@ -46,20 +46,19 @@
     ],
     "cta": "Termin buchen",
     "languages": [
-      "de",
-      "en"
+      "de"
     ]
   },
   "hero": {
-    "eyebrow": "Treuhand · Kloten",
-    "titleLead": "Buchhaltung: Persönlich. Modern. Verlässlich.",
+    "eyebrow": "Treuhand · Aargau",
+    "titleLead": "Herzlich Willkommen bei Treuhandbüro24!",
     "titleAccent": "",
-    "lede": "Persönlicher Treuhand-Partner für KMU in Zürich, Zug und Schwyz. Buchhaltung, Steuererklärungen, Domizilservice. Erstgespräch kostenfrei – ab CHF 150.",
+    "lede": "Bei Treuhandbüro24 findest Du günstige Dienstleistungen im Bereich Steuererklärung Ausfüllen Lassen, Steuerberatung und Buchhaltung Schweiz!",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Mandantenstimme",
     "asideQuote": "Endlich ein Treuhänder, der mitdenkt statt nur abzurechnen.",
-    "asideAttribution": "— KMU-Kunde, Kloten"
+    "asideAttribution": "— KMU-Kunde, Aargau"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -110,17 +109,6 @@
         ]
       },
       {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
@@ -160,9 +148,9 @@
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
       {
-        "name": "SEBONA Team",
+        "name": "Treuhandbüro24 Team",
         "role": "Geschäftsführung",
-        "initials": "SE",
+        "initials": "TR",
         "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
       },
       {
@@ -253,19 +241,19 @@
         "quote": "Schneller Onboarding, klare Zahlen in Echtzeit. Wir würden nie zurückwechseln.",
         "person": "M. Keller",
         "company": "Keller Bau GmbH",
-        "city": "Kloten"
+        "city": "Aargau"
       },
       {
         "quote": "Transparente Preise und ein fester Ansprechpartner. Genau das hat gefehlt.",
         "person": "S. Brunner",
         "company": "Brunner Consulting",
-        "city": "Kloten"
+        "city": "Aargau"
       },
       {
         "quote": "Digital, aber persönlich. Steuern sind endlich kein Stress mehr.",
         "person": "L. Frei",
         "company": "Frei Architektur",
-        "city": "Kloten"
+        "city": "Aargau"
       }
     ]
   },
@@ -280,7 +268,7 @@
         "label": "Betreute Mandate"
       },
       {
-        "value": "2",
+        "value": "1",
         "label": "Sprachen"
       },
       {
@@ -292,8 +280,7 @@
   "trust": {
     "label": "Mitglied · Zertifiziert",
     "items": [
-      "eidg. Diplom/Fachausweis",
-      "swissaccounting",
+      "RAB/zugel. Revisor",
       "bexio",
       "Abacus"
     ]
@@ -341,14 +328,14 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "phone": "+41 43 883 90 60",
+      "phone": "+41326237191",
       "hours": "Mo–Fr 08:00–17:00"
     },
     "formCta": "Nachricht senden"
   },
   "footer": {
-    "brand": "SEBONA Treuhand",
-    "tagline": "Ihr Treuhandpartner in Kloten – Buchhaltung, Steuern und Beratung für KMU.",
+    "brand": "Treuhandbüro24 Zürich",
+    "tagline": "Ihr Treuhandpartner in Aargau – Buchhaltung, Steuern und Beratung für KMU.",
     "columns": [
       {
         "title": "Sitemap",
@@ -361,8 +348,8 @@
       {
         "title": "Standort",
         "links": [
-          "Kloten",
-          "+41 43 883 90 60",
+          "Aargau",
+          "+41326237191",
           "info@…"
         ]
       },

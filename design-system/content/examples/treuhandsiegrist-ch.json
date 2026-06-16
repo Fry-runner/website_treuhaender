@@ -1,10 +1,10 @@
 {
   "meta": {
-    "firm": "SEBONA Treuhand",
-    "domain": "sebona-treuhand.ch",
-    "archetype": "swiss-digital",
-    "lookId": "tureva-soft",
-    "sourceUrl": "https://sebona-treuhand.ch/",
+    "firm": "Swiss Treuhand Siegrist GmbH",
+    "domain": "treuhandsiegrist.ch",
+    "archetype": "boutique",
+    "lookId": "ruerup-swiss",
+    "sourceUrl": "https://www.treuhandsiegrist.ch/",
     "placeholders": [
       "hero.aside",
       "testimonials",
@@ -25,7 +25,7 @@
     ]
   },
   "nav": {
-    "brand": "SEBONA Treuhand",
+    "brand": "Swiss Treuhand Siegrist GmbH",
     "links": [
       {
         "label": "Home",
@@ -46,20 +46,19 @@
     ],
     "cta": "Termin buchen",
     "languages": [
-      "de",
-      "en"
+      "de"
     ]
   },
   "hero": {
-    "eyebrow": "Treuhand · Kloten",
-    "titleLead": "Buchhaltung: Persönlich. Modern. Verlässlich.",
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "TREUHAND MIT UNTERNEHMERISCHER SICHTWEISE",
     "titleAccent": "",
-    "lede": "Persönlicher Treuhand-Partner für KMU in Zürich, Zug und Schwyz. Buchhaltung, Steuererklärungen, Domizilservice. Erstgespräch kostenfrei – ab CHF 150.",
+    "lede": "Treuhand und Buchhaltung\r\n\r\n\r\n\r\nEffiziente und schnelle Abwicklungen ohne unnötige Zusätze. Dies sagen unsere Kunden über unsere Tätigkeit im Treuhandwesen. Wir betreuen Kunden aus Zürich resp. der ganzen Schweiz, Deutschland, Österreich und anderen EU Ländern.\r\n\r\nMehr Erfahren",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Mandantenstimme",
     "asideQuote": "Endlich ein Treuhänder, der mitdenkt statt nur abzurechnen.",
-    "asideAttribution": "— KMU-Kunde, Kloten"
+    "asideAttribution": "— KMU-Kunde, Zürich"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -160,9 +159,9 @@
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
       {
-        "name": "SEBONA Team",
+        "name": "Swiss Team",
         "role": "Geschäftsführung",
-        "initials": "SE",
+        "initials": "SW",
         "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
       },
       {
@@ -253,19 +252,19 @@
         "quote": "Schneller Onboarding, klare Zahlen in Echtzeit. Wir würden nie zurückwechseln.",
         "person": "M. Keller",
         "company": "Keller Bau GmbH",
-        "city": "Kloten"
+        "city": "Zürich"
       },
       {
         "quote": "Transparente Preise und ein fester Ansprechpartner. Genau das hat gefehlt.",
         "person": "S. Brunner",
         "company": "Brunner Consulting",
-        "city": "Kloten"
+        "city": "Zürich"
       },
       {
         "quote": "Digital, aber persönlich. Steuern sind endlich kein Stress mehr.",
         "person": "L. Frei",
         "company": "Frei Architektur",
-        "city": "Kloten"
+        "city": "Zürich"
       }
     ]
   },
@@ -280,7 +279,7 @@
         "label": "Betreute Mandate"
       },
       {
-        "value": "2",
+        "value": "1",
         "label": "Sprachen"
       },
       {
@@ -292,8 +291,11 @@
   "trust": {
     "label": "Mitglied · Zertifiziert",
     "items": [
-      "eidg. Diplom/Fachausweis",
-      "swissaccounting",
+      "TREUHAND|SUISSE",
+      "EXPERTsuisse",
+      "Swiss GAAP FER",
+      "veb.ch / SwissAccounting",
+      "RAB – zugelassener Revisor",
       "bexio",
       "Abacus"
     ]
@@ -341,14 +343,15 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "phone": "+41 43 883 90 60",
+      "phone": "+41 43 818 69 15",
+      "email": "",
       "hours": "Mo–Fr 08:00–17:00"
     },
     "formCta": "Nachricht senden"
   },
   "footer": {
-    "brand": "SEBONA Treuhand",
-    "tagline": "Ihr Treuhandpartner in Kloten – Buchhaltung, Steuern und Beratung für KMU.",
+    "brand": "Swiss Treuhand Siegrist GmbH",
+    "tagline": "Ihr Treuhandpartner in Zürich – Buchhaltung, Steuern und Beratung für KMU.",
     "columns": [
       {
         "title": "Sitemap",
@@ -361,8 +364,8 @@
       {
         "title": "Standort",
         "links": [
-          "Kloten",
-          "+41 43 883 90 60",
+          "Zürich",
+          "+41 43 818 69 15",
           "info@…"
         ]
       },

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "firm": "SEBONA Treuhand",
-    "domain": "sebona-treuhand.ch",
+    "firm": "Schweizerische Treuhandgesellschaft Revision AG",
+    "domain": "stg-revision.ch",
     "archetype": "swiss-digital",
     "lookId": "tureva-soft",
-    "sourceUrl": "https://sebona-treuhand.ch/",
+    "sourceUrl": "https://www.stg-revision.ch/",
     "placeholders": [
       "hero.aside",
       "testimonials",
@@ -25,7 +25,7 @@
     ]
   },
   "nav": {
-    "brand": "SEBONA Treuhand",
+    "brand": "Schweizerische Treuhandgesellschaft Revision AG",
     "links": [
       {
         "label": "Home",
@@ -47,19 +47,20 @@
     "cta": "Termin buchen",
     "languages": [
       "de",
-      "en"
+      "en",
+      "fr"
     ]
   },
   "hero": {
-    "eyebrow": "Treuhand · Kloten",
-    "titleLead": "Buchhaltung: Persönlich. Modern. Verlässlich.",
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Willkommen bei uns",
     "titleAccent": "",
-    "lede": "Persönlicher Treuhand-Partner für KMU in Zürich, Zug und Schwyz. Buchhaltung, Steuererklärungen, Domizilservice. Erstgespräch kostenfrei – ab CHF 150.",
+    "lede": "Willkommen - Die Schweizerische Treuhandgesellschaft bietet Ihnen umfassende Beratungsleistungen von höchster Qualität und das aus einer Hand.",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Mandantenstimme",
     "asideQuote": "Endlich ein Treuhänder, der mitdenkt statt nur abzurechnen.",
-    "asideAttribution": "— KMU-Kunde, Kloten"
+    "asideAttribution": "— KMU-Kunde, Zürich"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -160,9 +161,9 @@
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
       {
-        "name": "SEBONA Team",
+        "name": "Schweizerische Team",
         "role": "Geschäftsführung",
-        "initials": "SE",
+        "initials": "SC",
         "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
       },
       {
@@ -253,19 +254,19 @@
         "quote": "Schneller Onboarding, klare Zahlen in Echtzeit. Wir würden nie zurückwechseln.",
         "person": "M. Keller",
         "company": "Keller Bau GmbH",
-        "city": "Kloten"
+        "city": "Zürich"
       },
       {
         "quote": "Transparente Preise und ein fester Ansprechpartner. Genau das hat gefehlt.",
         "person": "S. Brunner",
         "company": "Brunner Consulting",
-        "city": "Kloten"
+        "city": "Zürich"
       },
       {
         "quote": "Digital, aber persönlich. Steuern sind endlich kein Stress mehr.",
         "person": "L. Frei",
         "company": "Frei Architektur",
-        "city": "Kloten"
+        "city": "Zürich"
       }
     ]
   },
@@ -280,7 +281,7 @@
         "label": "Betreute Mandate"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "Sprachen"
       },
       {
@@ -292,8 +293,9 @@
   "trust": {
     "label": "Mitglied · Zertifiziert",
     "items": [
+      "EXPERTsuisse",
+      "RAB/zugel. Revisor",
       "eidg. Diplom/Fachausweis",
-      "swissaccounting",
       "bexio",
       "Abacus"
     ]
@@ -341,14 +343,15 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "phone": "+41 43 883 90 60",
+      "phone": "+41 31 310 97 02",
+      "email": "christine.perler@stg.ch",
       "hours": "Mo–Fr 08:00–17:00"
     },
     "formCta": "Nachricht senden"
   },
   "footer": {
-    "brand": "SEBONA Treuhand",
-    "tagline": "Ihr Treuhandpartner in Kloten – Buchhaltung, Steuern und Beratung für KMU.",
+    "brand": "Schweizerische Treuhandgesellschaft Revision AG",
+    "tagline": "Ihr Treuhandpartner in Zürich – Buchhaltung, Steuern und Beratung für KMU.",
     "columns": [
       {
         "title": "Sitemap",
@@ -361,9 +364,9 @@
       {
         "title": "Standort",
         "links": [
-          "Kloten",
-          "+41 43 883 90 60",
-          "info@…"
+          "Zürich",
+          "+41 31 310 97 02",
+          "christine.perler@stg.ch"
         ]
       },
       {

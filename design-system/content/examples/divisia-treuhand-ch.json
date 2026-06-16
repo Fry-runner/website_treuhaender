@@ -66,27 +66,69 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht."
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
       },
       {
         "title": "Steuerberatung",
-        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen."
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
       },
       {
         "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt."
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
       },
       {
         "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet."
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV."
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung."
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
       }
     ]
   },
@@ -109,6 +151,94 @@
       {
         "title": "Vollständig compliant",
         "body": "OR, Swiss GAAP FER, MWST und nDSG/DSGVO – alles sauber geregelt."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Divisia Team",
+        "role": "Geschäftsführung",
+        "initials": "DI",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": [
+      {
+        "name": "Starter",
+        "price": "ab CHF 89",
+        "period": "/Monat",
+        "features": [
+          "Laufende Buchhaltung",
+          "MWST-Abrechnung",
+          "Jahresabschluss",
+          "E-Mail-Support"
+        ]
+      },
+      {
+        "name": "KMU",
+        "price": "ab CHF 189",
+        "period": "/Monat",
+        "recommended": true,
+        "features": [
+          "Alles aus Starter",
+          "Lohnadministration",
+          "Steuererklärung",
+          "Persönlicher Ansprechpartner"
+        ]
+      },
+      {
+        "name": "Komplett",
+        "price": "ab CHF 349",
+        "period": "/Monat",
+        "features": [
+          "Alles aus KMU",
+          "Unternehmensberatung",
+          "Budget & Reporting",
+          "Priorisierter Support"
+        ]
+      }
+    ]
+  },
+  "posts": {
+    "eyebrow": "Wissen",
+    "heading": "Aktuelles & Merkblätter.",
+    "items": [
+      {
+        "tag": "Steuern",
+        "title": "Steuererklärung 2026: die 7 häufigsten Fehler",
+        "date": "12.05.2026",
+        "excerpt": "Worauf Sie bei der Steuererklärung achten sollten – und wie Sie Geld sparen."
+      },
+      {
+        "tag": "Buchhaltung",
+        "title": "Digital buchen: so sparen KMU jede Woche Zeit",
+        "date": "28.04.2026",
+        "excerpt": "Mit digitaler Belegerfassung gewinnen Sie Übersicht und Stunden zurück."
+      },
+      {
+        "tag": "MWST",
+        "title": "MWST-Abrechnung Schritt für Schritt erklärt",
+        "date": "09.04.2026",
+        "excerpt": "Die wichtigsten Fristen und Stolperfallen rund um die Mehrwertsteuer."
       }
     ]
   },
