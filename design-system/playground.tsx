@@ -32,8 +32,8 @@ const contrastLook = presetList.find((p) => p.meta.id !== pickedLook)!.meta.id;
 
 const SiteDemo = () => (
   <div style={{ fontFamily: "system-ui, sans-serif" }}>
-    <Bar text={`Generated website · ${content.meta.firm}`} sub={`${content.meta.domain} · ${content.meta.archetype} · multi-page — click the nav / footer links`} />
-    <SiteRouter content={content} />
+    <Bar text={`Generated website · ${content.meta.firm}`} sub={`${content.meta.domain} · ${content.meta.archetype} · swiss-clean · multi-page — click the nav / footer links`} />
+    <SiteRouter content={content} lookId="swiss-clean" />
   </div>
 );
 
@@ -176,7 +176,7 @@ const Tabs: React.FC<{ view: View; setView: (v: View) => void }> = ({ view, setV
 };
 
 const App = () => {
-  const [view, setView] = useState<View>("inventory");
+  const [view, setView] = useState<View>("site");
   return (
     <div>
       <Tabs view={view} setView={setView} />

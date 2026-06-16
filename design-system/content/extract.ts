@@ -66,8 +66,16 @@ function services() {
 }
 
 // --- hero (real headline + lede where possible) ---
-const h1: string = (home.headings?.h1 || [])[0] || "";
-const desc: string = home.meta?.description || "";
+/** Repair UTF-8-as-Latin-1 mojibake (e.g. "WirtschaftsprÃ¼fung" -> "Wirtschaftsprüfung"). */
+function fixEncoding(s: string): string {
+  if (!s || !/[ÃÂ][-¿]/.test(s)) return s;
+  try {
+    const r = Buffer.from(s, "latin1").toString("utf8");
+    return /[ÃÂ][-¿]/.test(r) ? s : r; // accept only if mojibake is gone
+  } catch { return s; }
+}
+const h1: string = fixEncoding((home.headings?.h1 || [])[0] || "");
+const desc: string = fixEncoding(home.meta?.description || "");
 const heroHeadlineReal = h1 && h1.length > 8 && h1.length < 90 && h1.toLowerCase() !== firm.toLowerCase();
 const ledeReal = desc && desc.length > 30;
 
