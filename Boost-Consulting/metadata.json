@@ -1,0 +1,6 @@
+{
+  "name": "Boost Consulting",
+  "description": "Minimalistischer, professioneller B2B-Webauftritt der Boost Consulting GmbH für digitale Treuhand, Buchhaltung- und Unternehmensberatung in der Schweiz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

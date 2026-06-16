@@ -1,0 +1,6 @@
+{
+  "name": "Tureva Treuhand AG",
+  "description": "Minimalist & Premium corporate website for Tureva Treuhand AG in Zurich, providing international fiduciary, accounting, audit, and US/Swiss tax services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

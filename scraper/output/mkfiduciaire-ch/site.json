@@ -1,0 +1,2670 @@
+{
+  "name": "MK Treuhand",
+  "domain": "mkfiduciaire.ch",
+  "start_url": "https://mkfiduciaire.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781615582.3465848,
+    "duration_sec": 14.5,
+    "pages_crawled": 24,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": "User-agent: *\nAllow: /\n\nSitemap: https://mkfiduciaire.ch/sitemap.xml\n"
+  },
+  "contact": {
+    "emails": [
+      "info@mkfiduciaire.ch"
+    ],
+    "phones": [
+      "+41 26 518 00 00"
+    ]
+  },
+  "assets": {
+    "downloaded": 1,
+    "failed": 0,
+    "total_bytes": 1118,
+    "manifest": [
+      {
+        "url": "https://mkfiduciaire.ch/favicon.ico",
+        "ok": true,
+        "file": "assets/e0efde5230__favicon.ico",
+        "content_type": "image/vnd.microsoft.icon",
+        "bytes": 1118
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://mkfiduciaire.ch/",
+      "title": "MK Fiduciaire â ComptabilitÃ© & FiscalitÃ© en Suisse (Fribourg, Valais, ZÃ¼rich, Basel, Bern)",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 3190
+    },
+    {
+      "url": "https://mkfiduciaire.ch/buchhaltung-kmu-schweiz.html",
+      "title": "Buchhaltung fÃ¼r KMU in der Schweiz: Pflichten, Software und Tipps | MK Treuhand",
+      "raw_html": "raw_html/002__buchhaltung-kmu-schweiz.html",
+      "text_len": 1841
+    },
+    {
+      "url": "https://mkfiduciaire.ch/comptabilite-pme-suisse-guide.html",
+      "title": "ComptabilitÃ© pour PME en Suisse : Obligations et Conseils 2026 | MK Fiduciaire",
+      "raw_html": "raw_html/003__comptabilite-pme-suisse-guide.html",
+      "text_len": 2041
+    },
+    {
+      "url": "https://mkfiduciaire.ch/creer-entreprise-fribourg-guide.html",
+      "title": "CrÃ©er une Entreprise Ã  Fribourg en 2026 : Guide Complet | MK Fiduciaire",
+      "raw_html": "raw_html/004__creer-entreprise-fribourg-guide.html",
+      "text_len": 1904
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-bulle.html",
+      "title": "",
+      "raw_html": "raw_html/005__fiduciaire-bulle.html",
+      "text_len": 0
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+      "title": "",
+      "raw_html": "raw_html/006__fiduciaire-fribourg.html",
+      "text_len": 0
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-martigny.html",
+      "title": "",
+      "raw_html": "raw_html/007__fiduciaire-martigny.html",
+      "text_len": 0
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-monthey.html",
+      "title": "Fiduciaire Ã  Monthey (Valais) â ComptabilitÃ© & FiscalitÃ© | MK Fiduciaire",
+      "raw_html": "raw_html/008__fiduciaire-monthey.html",
+      "text_len": 2798
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-morat.html",
+      "title": "",
+      "raw_html": "raw_html/009__fiduciaire-morat.html",
+      "text_len": 0
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-romont.html",
+      "title": "",
+      "raw_html": "raw_html/010__fiduciaire-romont.html",
+      "text_len": 0
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-sierre.html",
+      "title": "",
+      "raw_html": "raw_html/011__fiduciaire-sierre.html",
+      "text_len": 0
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-sion.html",
+      "title": "",
+      "raw_html": "raw_html/012__fiduciaire-sion.html",
+      "text_len": 0
+    },
+    {
+      "url": "https://mkfiduciaire.ch/firmengruendung-schweiz-guide.html",
+      "title": "FirmengrÃ¼ndung in der Schweiz 2026: GmbH, AG oder Einzelfirma? | MK Treuhand",
+      "raw_html": "raw_html/013__firmengruendung-schweiz-guide.html",
+      "text_len": 1352
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiscalite-fribourg-valais-2026.html",
+      "title": "FiscalitÃ© des Entreprises Ã  Fribourg et en Valais en 2026 | MK Fiduciaire",
+      "raw_html": "raw_html/014__fiscalite-fribourg-valais-2026.html",
+      "text_len": 2298
+    },
+    {
+      "url": "https://mkfiduciaire.ch/rachat-lpp-guide-complet-2026.html",
+      "title": "Rachat LPP en Suisse : Doublez votre avantage fiscal ! | MK Fiduciaire",
+      "raw_html": "raw_html/015__rachat-lpp-guide-complet-2026.html",
+      "text_len": 31588
+    },
+    {
+      "url": "https://mkfiduciaire.ch/steuern-zuerich-basel-2026.html",
+      "title": "Unternehmenssteuern in ZÃ¼rich und Basel 2026: Vergleich und Optimierung | MK Treuhand",
+      "raw_html": "raw_html/016__steuern-zuerich-basel-2026.html",
+      "text_len": 1656
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-aarau.html",
+      "title": "",
+      "raw_html": "raw_html/017__treuhand-aarau.html",
+      "text_len": 0
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-basel.html",
+      "title": "",
+      "raw_html": "raw_html/018__treuhand-basel.html",
+      "text_len": 0
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-bern.html",
+      "title": "",
+      "raw_html": "raw_html/019__treuhand-bern.html",
+      "text_len": 0
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-luzern.html",
+      "title": "",
+      "raw_html": "raw_html/020__treuhand-luzern.html",
+      "text_len": 0
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-olten.html",
+      "title": "Treuhand in Olten (Solothurn) â Buchhaltung & Steuern | MK Treuhand",
+      "raw_html": "raw_html/021__treuhand-olten.html",
+      "text_len": 2789
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-solothurn.html",
+      "title": "Treuhand in Solothurn (Solothurn) â Buchhaltung & Steuern | MK Treuhand",
+      "raw_html": "raw_html/022__treuhand-solothurn.html",
+      "text_len": 2797
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-winterthur.html",
+      "title": "Treuhand in Winterthur (ZÃ¼rich) â Buchhaltung & Steuern | MK Treuhand",
+      "raw_html": "raw_html/023__treuhand-winterthur.html",
+      "text_len": 2816
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+      "title": "Treuhand in ZÃ¼rich (ZÃ¼rich) â Buchhaltung & Steuern | MK Treuhand",
+      "raw_html": "raw_html/024__treuhand-zuerich.html",
+      "text_len": 2863
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://mkfiduciaire.ch/",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "MK Fiduciaire â ComptabilitÃ© & FiscalitÃ© en Suisse (Fribourg, Valais, ZÃ¼rich, Basel, Bern)",
+      "lang": "fr",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Fiduciaire Ã  Suisse : MK Fiduciaire offre comptabilitÃ©, fiscalitÃ©, crÃ©ation de sociÃ©tÃ© et gestion des salaires dans le canton de Fribourg, Valais, ZÃ¼rich, Basel, Bern. Devis gratuit."
+      },
+      "canonical": "https://mkfiduciaire.ch/",
+      "headings": {
+        "h1": [
+          "MK Fiduciaire â ComptabilitÃ© & FiscalitÃ©"
+        ],
+        "h2": [
+          "Nos Services Ã  Suisse",
+          "Ãconomie Ã  Suisse",
+          "Ce Que Disent Nos Clients",
+          "Nos Guides Pratiques",
+          "Nos Fiduciaires en Suisse",
+          "Besoin d'une fiduciaire Ã  Suisse ?"
+        ],
+        "h3": [
+          "Contactez-nous Ã  Suisse",
+          "ComptabilitÃ© & FiscalitÃ©",
+          "CrÃ©ation de SociÃ©tÃ©",
+          "Gestion des Salaires",
+          "RÃ©vision & Audit",
+          "Conseil en Gestion",
+          "Domiciliation",
+          "FiscalitÃ© Fribourg & Valais 2026",
+          "CrÃ©er une Entreprise Ã  Fribourg",
+          "ComptabilitÃ© PME en Suisse"
+        ],
+        "h4": [
+          "MK Fiduciaire",
+          "Services",
+          "Contact"
+        ]
+      },
+      "text": "MK Fiduciaire â ComptabilitÃ© & FiscalitÃ© en Suisse (Fribourg, Valais, ZÃ¼rich, Basel, Bern)\nConsultation initiale offerte â\n+41 26 518 00 00\n|\ninfo@mkfiduciaire.ch\nFR\nDE\nMK\nFiduciaire\nServices\nÃconomie locale\nTÃ©moignages\n+41 26 518 00 00\nConsultation gratuite\nMK Fiduciaire â Canton de Fribourg, Valais, ZÃ¼rich, Basel, Bern\nMK Fiduciaire â\nComptabilitÃ© &\nFiscalitÃ©\nMK Fiduciaire est votre partenaire fiduciaire en Suisse romande et alÃ©manique. De Fribourg Ã  ZÃ¼rich, nous accompagnons PME et indÃ©pendants. MK Fiduciaire vous accompagne dans toutes vos dÃ©marches comptables, fiscales et administratives.\n8.8M\nHabitants\n620'000\nEntreprises\n4.9 â\nGoogle\nâ Consultation initiale offerte\nContactez-nous Ã  Suisse\nRÃ©ponse sous 24h â Sans engagement\nNom\nEmail\nTÃ©lÃ©phone\nService souhaitÃ©\nâ Choisissez â\nComptabilitÃ©\nFiscalitÃ©\nCrÃ©ation de sociÃ©tÃ©\nGestion des salaires\nConseil\nDemander ma consultation gratuite â\nNos Services Ã  Suisse\nUn accompagnement complet pour votre entreprise dans le canton de Fribourg, Valais, ZÃ¼rich, Basel, Bern\nComptabilitÃ© & FiscalitÃ©\nTenue comptable, bouclements annuels, dÃ©clarations fiscales et optimisation pour PME et indÃ©pendants.\nCrÃ©ation de SociÃ©tÃ©\nSA, SÃ rl, raison individuelle : de la rÃ©daction des statuts Ã  l'inscription au RC.\nGestion des Salaires\nFiches de paie, charges sociales AVS/LPP, certificats de salaire et dÃ©clarations.\nRÃ©vision & Audit\nContrÃ´le restreint, rÃ©vision ordinaire et audit des comptes annuels.\nConseil en Gestion\nBusiness plan, analyse financiÃ¨re, restructuration et accompagnement stratÃ©gique.\nDomiciliation\nAdresse commerciale Ã  Suisse pour votre siÃ¨ge social.\nÃconomie Ã  Suisse\nCanton de Fribourg, Valais, ZÃ¼rich, Basel, Bern\nPrÃ©sents dans toute la Suisse, nous combinons expertise locale et vision nationale.\nCe Que Disent Nos Clients\nâââââ\nÂ« MK Fiduciaire m'a accompagnÃ© dans la crÃ©ation de ma SÃ rl Ã  Suisse. Service impeccable et rÃ©actif. Â»\nMarc D.\nâââââ\nÂ« Excellente gestion comptable. Ils comprennent les spÃ©cificitÃ©s du canton de Fribourg, Valais, ZÃ¼rich, Basel, Bern. Â»\nSophie L.\nâââââ\nÂ« GrÃ¢ce Ã  leur optimisation fiscale, j'Ã©conomise plus de CHF 5'000 par an. Â»\nThomas R.\nNos Guides Pratiques\nRessources gratuites pour les entrepreneurs\nFiscalitÃ© Fribourg & Valais 2026\nTaux d'imposition, dÃ©ductions et optimisation.\nCrÃ©er une Entreprise Ã  Fribourg\nSA, SÃ rl ou RI : guide complet.\nComptabilitÃ© PME en Suisse\nObligations, logiciels et conseils.\nNos Fiduciaires en Suisse\nFiduciaire Bulle\nFiduciaire Sion\nFiduciaire Sierre\nFiduciaire Martigny\nFiduciaire Monthey\nTreuhand ZÃ¼rich\nTreuhand Basel\nTreuhand Bern\nTreuhand Solothurn\nBesoin d'une fiduciaire Ã  Suisse ?\nConsultation initiale offerte. Sans engagement. RÃ©ponse sous 24h.\nDemander ma consultation gratuite â\nMK Fiduciaire\nFiduciaire de confiance en Suisse romande et alÃ©manique. ComptabilitÃ©, fiscalitÃ© et crÃ©ation de sociÃ©tÃ© pour PME et indÃ©pendants.\nServices\nComptabilitÃ©\nFiscalitÃ©\nCrÃ©ation de sociÃ©tÃ©\nGestion des salaires\nContact\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nÂ© 2026 MK Fiduciaire â Tous droits rÃ©servÃ©s | info@mkfiduciaire.ch",
+      "text_len": 3190,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "MK Fiduciaire",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "Services",
+          "href": "https://mkfiduciaire.ch/#services",
+          "internal": true
+        },
+        {
+          "text": "Ãconomie locale",
+          "href": "https://mkfiduciaire.ch/#economie",
+          "internal": true
+        },
+        {
+          "text": "TÃ©moignages",
+          "href": "https://mkfiduciaire.ch/#avis",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Consultation gratuite",
+          "href": "https://mkfiduciaire.ch/#contact",
+          "internal": true
+        },
+        {
+          "text": "FiscalitÃ© Fribourg & Valais 2026 Taux d'imposition, dÃ©ductions et optimisation.",
+          "href": "https://mkfiduciaire.ch/fiscalite-fribourg-valais-2026.html",
+          "internal": true
+        },
+        {
+          "text": "CrÃ©er une Entreprise Ã  Fribourg SA, SÃ rl ou RI : guide complet.",
+          "href": "https://mkfiduciaire.ch/creer-entreprise-fribourg-guide.html",
+          "internal": true
+        },
+        {
+          "text": "ComptabilitÃ© PME en Suisse Obligations, logiciels et conseils.",
+          "href": "https://mkfiduciaire.ch/comptabilite-pme-suisse-guide.html",
+          "internal": true
+        },
+        {
+          "text": "Fiduciaire Bulle",
+          "href": "https://mkfiduciaire.ch/fiduciaire-bulle.html",
+          "internal": true
+        },
+        {
+          "text": "Fiduciaire Sion",
+          "href": "https://mkfiduciaire.ch/fiduciaire-sion.html",
+          "internal": true
+        },
+        {
+          "text": "Fiduciaire Sierre",
+          "href": "https://mkfiduciaire.ch/fiduciaire-sierre.html",
+          "internal": true
+        },
+        {
+          "text": "Fiduciaire Martigny",
+          "href": "https://mkfiduciaire.ch/fiduciaire-martigny.html",
+          "internal": true
+        },
+        {
+          "text": "Fiduciaire Monthey",
+          "href": "https://mkfiduciaire.ch/fiduciaire-monthey.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand ZÃ¼rich",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Basel",
+          "href": "https://mkfiduciaire.ch/treuhand-basel.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bern",
+          "href": "https://mkfiduciaire.ch/treuhand-bern.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Solothurn",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html",
+          "internal": true
+        },
+        {
+          "text": "Demander ma consultation gratuite â",
+          "href": "https://mkfiduciaire.ch/#contact",
+          "internal": true
+        },
+        {
+          "text": "ComptabilitÃ©",
+          "href": "https://mkfiduciaire.ch/#services",
+          "internal": true
+        },
+        {
+          "text": "FiscalitÃ©",
+          "href": "https://mkfiduciaire.ch/#services",
+          "internal": true
+        },
+        {
+          "text": "CrÃ©ation de sociÃ©tÃ©",
+          "href": "https://mkfiduciaire.ch/#services",
+          "internal": true
+        },
+        {
+          "text": "Gestion des salaires",
+          "href": "https://mkfiduciaire.ch/#services",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://formspree.io/f/mojkpejg",
+          "method": "POST",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": null,
+              "placeholder": "Votre nom"
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": null,
+              "placeholder": "email@exemple.ch"
+            },
+            {
+              "tag": "input",
+              "type": "tel",
+              "name": null,
+              "placeholder": "+41 ..."
+            },
+            {
+              "tag": "select",
+              "type": null,
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/buchhaltung-kmu-schweiz.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Buchhaltung fÃ¼r KMU in der Schweiz: Pflichten, Software und Tipps | MK Treuhand",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Ratgeber Buchhaltung fÃ¼r KMU in der Schweiz 2026: gesetzliche Pflichten, empfohlene Software, MWST und Tipps vom TreuhÃ¤nder."
+      },
+      "canonical": "https://mkfiduciaire.ch/buchhaltung-kmu-schweiz.html",
+      "headings": {
+        "h1": [
+          "Buchhaltung fÃ¼r KMU in der Schweiz: Pflichten, Software und Tipps"
+        ],
+        "h2": [
+          "Gesetzliche Buchhaltungspflichten (OR)",
+          "Empfohlene Buchhaltungssoftware",
+          "MWST: Wichtige Regeln 2026",
+          "Wann brauchen Sie ein TreuhandbÃ¼ro?"
+        ],
+        "h3": [
+          "Vereinfachte BuchfÃ¼hrung",
+          "Ordentliche BuchfÃ¼hrung"
+        ],
+        "h4": [
+          "MK Treuhand",
+          "Contact"
+        ]
+      },
+      "text": "Buchhaltung fÃ¼r KMU in der Schweiz: Pflichten, Software und Tipps | MK Treuhand\nKostenlose Erstberatung â\n+41 26 518 00 00\nFR\nDE\nMK\nTreuhand\nStartseite\n+41 26 518 00 00\nKostenlose Beratung\nBuchhaltung fÃ¼r KMU in der Schweiz: Pflichten, Software und Tipps\nVerÃ¶ffentlicht am 25. MÃ¤rz 2026 Â· Lesezeit: 8 Min.\nGesetzliche Buchhaltungspflichten (OR)\nDas Obligationenrecht (OR Art. 957-963) regelt die BuchfÃ¼hrungspflicht. Jedes im Handelsregister eingetragene Unternehmen muss BÃ¼cher fÃ¼hren.\nVereinfachte BuchfÃ¼hrung\nEinzelfirmen mit weniger als CHF 500'000 Umsatz: Einnahmen-/Ausgabenrechnung und VermÃ¶gensÃ¼bersicht genÃ¼gen.\nOrdentliche BuchfÃ¼hrung\nPflicht fÃ¼r AG, GmbH und Einzelfirmen Ã¼ber CHF 500'000: Bilanz, Erfolgsrechnung, Anhang nach Schweizer Kontenrahmen KMU.\nEmpfohlene Buchhaltungssoftware\nSoftware\nPreis\nStÃ¤rken\nBexio\nab CHF 35/Mt.\nCloud, Fakturierung + Buchhaltung, MWST\nAbacus\nAuf Anfrage\nERP-LÃ¶sung, weit verbreitet in der Deutschschweiz\nBanana\nCHF 129/Jahr\nEinfach, Schweizer Kontenrahmen integriert\nRun my Accounts\nab CHF 99/Mt.\nAutomatisierte Buchhaltung, AI-gestÃ¼tzt\nMWST: Wichtige Regeln 2026\nPflicht ab CHF 100'000 weltweitem Umsatz. Normalsatz 8.1%, reduzierter Satz 2.6%. Wahl zwischen effektiver Methode und SaldosteuersÃ¤tzen â die Saldosteuersatz-Methode ist fÃ¼r viele KMU einfacher.\nWann brauchen Sie ein TreuhandbÃ¼ro?\nMehr als 4 Stunden Buchhaltung pro Monat\nMitarbeitende (Lohnbuchhaltung, Sozialversicherungen)\nMWST-Abrechnung\nJahresabschluss und SteuererklÃ¤rung\nRevision oder SteuerprÃ¼fung\nProfessionelle Buchhaltung fÃ¼r Ihr KMU\nMK Treuhand betreut KMU in\nZÃ¼rich\n,\nBern\n,\nLuzern\nund der ganzen Schweiz.\nKostenlose Erstberatung\n.\nMK Treuhand\nIhr TreuhandbÃ¼ro in der Deutsch- und Westschweiz.\nContact\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nÂ© 2026 MK Treuhand â Alle Rechte vorbehalten",
+      "text_len": 1841,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "MK Treuhand",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Startseite",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Kostenlose Beratung",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "ZÃ¼rich",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Bern",
+          "href": "https://mkfiduciaire.ch/treuhand-bern.html",
+          "internal": true
+        },
+        {
+          "text": "Luzern",
+          "href": "https://mkfiduciaire.ch/treuhand-luzern.html",
+          "internal": true
+        },
+        {
+          "text": "Kostenlose Erstberatung",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Software",
+            "Preis",
+            "StÃ¤rken"
+          ],
+          [
+            "Bexio",
+            "ab CHF 35/Mt.",
+            "Cloud, Fakturierung + Buchhaltung, MWST"
+          ],
+          [
+            "Abacus",
+            "Auf Anfrage",
+            "ERP-LÃ¶sung, weit verbreitet in der Deutschschweiz"
+          ],
+          [
+            "Banana",
+            "CHF 129/Jahr",
+            "Einfach, Schweizer Kontenrahmen integriert"
+          ],
+          [
+            "Run my Accounts",
+            "ab CHF 99/Mt.",
+            "Automatisierte Buchhaltung, AI-gestÃ¼tzt"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/002__buchhaltung-kmu-schweiz.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/comptabilite-pme-suisse-guide.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "ComptabilitÃ© pour PME en Suisse : Obligations et Conseils 2026 | MK Fiduciaire",
+      "lang": "fr",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Guide comptabilitÃ© PME en Suisse 2026 : obligations CO, logiciels, TVA, bilan, et quand faire appel Ã  une fiduciaire."
+      },
+      "canonical": "https://mkfiduciaire.ch/comptabilite-pme-suisse-guide.html",
+      "headings": {
+        "h1": [
+          "ComptabilitÃ© pour PME en Suisse : Obligations et Conseils 2026"
+        ],
+        "h2": [
+          "Obligations Comptables en Suisse (CO)",
+          "Logiciels RecommandÃ©s pour les PME Suisses",
+          "TVA : Seuils et Obligations 2026",
+          "Quand Faire Appel Ã  une Fiduciaire ?"
+        ],
+        "h3": [
+          "ComptabilitÃ© SimplifiÃ©e",
+          "ComptabilitÃ© ComplÃ¨te"
+        ],
+        "h4": [
+          "MK Fiduciaire",
+          "Contact"
+        ]
+      },
+      "text": "ComptabilitÃ© pour PME en Suisse : Obligations et Conseils 2026 | MK Fiduciaire\nConsultation initiale offerte â\n+41 26 518 00 00\nFR\nDE\nMK\nFiduciaire\nAccueil\n+41 26 518 00 00\nConsultation gratuite\nComptabilitÃ© pour PME en Suisse : Obligations et Conseils 2026\nPubliÃ© le 25 mars 2026 Â· Temps de lecture : 8 min\nObligations Comptables en Suisse (CO)\nLe Code des Obligations (CO) dÃ©finit les obligations comptables de toute entreprise inscrite au Registre du Commerce. Le niveau d'exigence dÃ©pend de votre taille et de votre forme juridique.\nComptabilitÃ© SimplifiÃ©e\nPour les entreprises individuelles avec un CA infÃ©rieur Ã  CHF 500'000 : livre des recettes/dÃ©penses + Ã©tat du patrimoine. Simple et suffisant pour les indÃ©pendants et micro-entreprises.\nComptabilitÃ© ComplÃ¨te\nObligatoire pour les SA, SÃ rl, et les RI dÃ©passant CHF 500'000. Bilan, compte de rÃ©sultat, annexe selon les normes Swiss GAAP RPC ou le Plan Comptable PME Suisse.\nLogiciels RecommandÃ©s pour les PME Suisses\nLogiciel\nPrix\nPoints forts\nBexio\ndÃ¨s CHF 35/mois\nCloud suisse, facturation + compta, multi-devises\nCrÃ©sus\ndÃ¨s CHF 290\nRÃ©fÃ©rence romande, salaires intÃ©grÃ©s\nBanana\nCHF 129/an\nSimple, plan comptable CH\nKlara\nGratuit (base)\nIdÃ©al pour dÃ©marrer\nTVA : Seuils et Obligations 2026\nL'assujettissement est obligatoire dÃ¨s CHF 100'000 de CA mondial. Le taux normal est de 8.1%, le taux rÃ©duit de 2.6% (alimentation, livres, mÃ©dicaments). La mÃ©thode effective ou de solde (taux forfaitaires) â le choix dÃ©pend de votre secteur.\nQuand Faire Appel Ã  une Fiduciaire ?\nVotre comptabilitÃ© prend plus de 4h/mois\nVous avez des employÃ©s (salaires, charges sociales)\nVous Ãªtes assujetti Ã  la TVA\nVous faites face Ã  un contrÃ´le fiscal\nVotre CA dÃ©passe CHF 250'000\nConfiez votre comptabilitÃ© Ã  des experts\nMK Fiduciaire accompagne les PME de\nFribourg\nÃ\nSion\n.\nDevis gratuit\n.\nMK Fiduciaire\nFiduciaire de confiance en Suisse romande et alÃ©manique.\nContact\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nÂ© 2026 MK Fiduciaire â Tous droits rÃ©servÃ©s",
+      "text_len": 2041,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "MK Fiduciaire",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "Accueil",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Consultation gratuite",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "Fribourg",
+          "href": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+          "internal": true
+        },
+        {
+          "text": "Sion",
+          "href": "https://mkfiduciaire.ch/fiduciaire-sion.html",
+          "internal": true
+        },
+        {
+          "text": "Devis gratuit",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Logiciel",
+            "Prix",
+            "Points forts"
+          ],
+          [
+            "Bexio",
+            "dÃ¨s CHF 35/mois",
+            "Cloud suisse, facturation + compta, multi-devises"
+          ],
+          [
+            "CrÃ©sus",
+            "dÃ¨s CHF 290",
+            "RÃ©fÃ©rence romande, salaires intÃ©grÃ©s"
+          ],
+          [
+            "Banana",
+            "CHF 129/an",
+            "Simple, plan comptable CH"
+          ],
+          [
+            "Klara",
+            "Gratuit (base)",
+            "IdÃ©al pour dÃ©marrer"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/003__comptabilite-pme-suisse-guide.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/creer-entreprise-fribourg-guide.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "CrÃ©er une Entreprise Ã  Fribourg en 2026 : Guide Complet | MK Fiduciaire",
+      "lang": "fr",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Guide pour crÃ©er une entreprise dans le canton de Fribourg en 2026 : SÃ rl, SA, raison individuelle, coÃ»ts, Ã©tapes et aides cantonales."
+      },
+      "canonical": "https://mkfiduciaire.ch/creer-entreprise-fribourg-guide.html",
+      "headings": {
+        "h1": [
+          "CrÃ©er une Entreprise Ã  Fribourg en 2026 : Guide Complet"
+        ],
+        "h2": [
+          "Pourquoi CrÃ©er son Entreprise Ã  Fribourg ?",
+          "Choisir la Bonne Forme Juridique",
+          "Les Ãtapes de CrÃ©ation",
+          "Aides Ã  la CrÃ©ation Ã  Fribourg"
+        ],
+        "h4": [
+          "MK Fiduciaire",
+          "Contact"
+        ]
+      },
+      "text": "CrÃ©er une Entreprise Ã  Fribourg en 2026 : Guide Complet | MK Fiduciaire\nConsultation initiale offerte â\n+41 26 518 00 00\nFR\nDE\nMK\nFiduciaire\nAccueil\n+41 26 518 00 00\nConsultation gratuite\nCrÃ©er une Entreprise Ã  Fribourg en 2026 : Guide Complet\nPubliÃ© le 25 mars 2026 Â· Temps de lecture : 8 min\nPourquoi CrÃ©er son Entreprise Ã  Fribourg ?\nLe canton de\nFribourg\noffre un environnement idÃ©al pour les crÃ©ateurs d'entreprise : fiscalitÃ© attractive, bilinguisme, position centrale et coÃ»ts maÃ®trisÃ©s. En 2026, plus de 2'500 nouvelles entreprises sont crÃ©Ã©es chaque annÃ©e dans le canton.\nChoisir la Bonne Forme Juridique\nForme\nCapital min.\nResponsabilitÃ©\nIdÃ©al pour\nRaison individuelle\nCHF 0\nIllimitÃ©e\nFreelance, dÃ©but\nSÃ rl\nCHF 20'000\nLimitÃ©e\nPME 1-50 pers.\nSA\nCHF 100'000\nLimitÃ©e\nLevÃ©e de fonds\nLes Ãtapes de CrÃ©ation\nVÃ©rifier le nom\nsur Zefix.ch â gratuit, 5 minutes.\nRÃ©diger les statuts\nâ CHF 500-1'500 via notaire fribourgeois.\nConsigner le capital\nâ ouverture de compte auprÃ¨s d'une banque cantonale (BCF, Raiffeisen).\nActe notariÃ©\nâ obligatoire pour SÃ rl/SA, CHF 1'000-2'500.\nInscription au RC\ndu canton de Fribourg â CHF 600-800, dÃ©lai 5-15 jours.\nAVS, LAA, LPP\nâ affiliation aux assurances sociales.\nTVA\nâ inscription dÃ¨s CHF 100'000 de CA.\nAides Ã  la CrÃ©ation Ã  Fribourg\nPromotion Ã©conomique du canton\n: accompagnement gratuit, coaching, mise en rÃ©seau.\nFri Up\n: programme d'incubation pour startups innovantes.\nBlueFACTORY\n: quartier d'innovation Ã  Fribourg avec espaces de coworking et labs.\nCautionnement romand\n: garanties bancaires jusqu'Ã  CHF 500'000.\nLancez votre entreprise Ã  Fribourg\nMK Fiduciaire vous accompagne de A Ã  Z.\nConsultation gratuite\nÃ\nFribourg\net\nBulle\n.\nMK Fiduciaire\nFiduciaire de confiance en Suisse romande et alÃ©manique.\nContact\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nÂ© 2026 MK Fiduciaire â Tous droits rÃ©servÃ©s",
+      "text_len": 1904,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "MK Fiduciaire",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "Accueil",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Consultation gratuite",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "Fribourg",
+          "href": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+          "internal": true
+        },
+        {
+          "text": "Consultation gratuite",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "Fribourg",
+          "href": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+          "internal": true
+        },
+        {
+          "text": "Bulle",
+          "href": "https://mkfiduciaire.ch/fiduciaire-bulle.html",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Forme",
+            "Capital min.",
+            "ResponsabilitÃ©",
+            "IdÃ©al pour"
+          ],
+          [
+            "Raison individuelle",
+            "CHF 0",
+            "IllimitÃ©e",
+            "Freelance, dÃ©but"
+          ],
+          [
+            "SÃ rl",
+            "CHF 20'000",
+            "LimitÃ©e",
+            "PME 1-50 pers."
+          ],
+          [
+            "SA",
+            "CHF 100'000",
+            "LimitÃ©e",
+            "LevÃ©e de fonds"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/004__creer-entreprise-fribourg-guide.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-bulle.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": null,
+      "meta": {},
+      "canonical": null,
+      "headings": {},
+      "text": "",
+      "text_len": 0,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/005__fiduciaire-bulle.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": null,
+      "meta": {},
+      "canonical": null,
+      "headings": {},
+      "text": "",
+      "text_len": 0,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/006__fiduciaire-fribourg.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-martigny.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": null,
+      "meta": {},
+      "canonical": null,
+      "headings": {},
+      "text": "",
+      "text_len": 0,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/007__fiduciaire-martigny.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-monthey.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Fiduciaire Ã  Monthey (Valais) â ComptabilitÃ© & FiscalitÃ© | MK Fiduciaire",
+      "lang": "fr",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Bureau fiduciaire Ã  Monthey : comptabilitÃ©, fiscalitÃ© et crÃ©ation d'entreprise dans le Chablais valaisan. Expertise chimie et industrie. Entretien gratuit."
+      },
+      "canonical": "https://mkfiduciaire.ch/fiduciaire-monthey.html",
+      "headings": {
+        "h1": [
+          "Fiduciaire Ã  Monthey â ComptabilitÃ© & FiscalitÃ©"
+        ],
+        "h2": [
+          "Nos services Ã  Monthey",
+          "Ãconomie Ã  Monthey"
+        ],
+        "h3": [
+          "Contactez-nous Ã  Monthey",
+          "ComptabilitÃ© & FiscalitÃ©",
+          "CrÃ©ation d'entreprise",
+          "Gestion salariale",
+          "RÃ©vision & Audit",
+          "Conseil aux entreprises",
+          "Domiciliation"
+        ]
+      },
+      "text": "Fiduciaire Ã  Monthey (Valais) â ComptabilitÃ© & FiscalitÃ© | MK Fiduciaire\nPremier entretien gratuit â\n+41 26 518 00 00\n|\ninfo@mkfiduciaire.ch\nFR\nDE\nMK\nFiduciaire\nServices\nÃconomie\nAvis clients\n+41 26 518 00 00\nConsultation gratuite\nFiduciaire Ã  Monthey â Canton du Valais\nFiduciaire Ã  Monthey â\nComptabilitÃ© &\nFiscalitÃ©\nMonthey est le centre industriel du Chablais valaisan, historiquement liÃ© Ã  l'industrie chimique et pharmaceutique. La prÃ©sence de CIMO (Syngenta, Huntsman) et d'un tissu industriel dense crÃ©e des besoins spÃ©cifiques en comptabilitÃ© et fiscalitÃ©. MK Fiduciaire accompagne les entreprises montheysannes avec une expertise industrielle et une connaissance du terrain.\n18'000\nHabitants\n1'500\nEntreprises\n4.9 â\nGoogle\nâ Premier entretien gratuit\nContactez-nous Ã  Monthey\nRÃ©ponse sous 24h â Sans engagement\nNom\nE-mail\nTÃ©lÃ©phone\nService souhaitÃ©\nâ Choisir â\nComptabilitÃ©\nFiscalitÃ©\nCrÃ©ation d'entreprise\nGestion salariale\nConseil\nDemander une consultation gratuite â\nNos services Ã  Monthey\nUn accompagnement complet pour votre entreprise dans le Canton du Valais\nComptabilitÃ© & FiscalitÃ©\nTenue de comptes et fiscalitÃ© pour les entreprises industrielles et les sous-traitants du site chimique de Monthey.\nCrÃ©ation d'entreprise\nSA, SÃ rl ou raison individuelle Ã  Monthey. Conseil pour entreprises industrielles, prestataires et commerces du Chablais.\nGestion salariale\nFiches de salaire, AVS/LPP et gestion des travailleurs frontaliers franÃ§ais â expertise transfrontaliÃ¨re.\nRÃ©vision & Audit\nContrÃ´le restreint et ordinaire pour les entreprises industrielles de Monthey â conformitÃ© et rigueur.\nConseil aux entreprises\nAccompagnement stratÃ©gique pour industriels et PME du Chablais valaisan. Diversification et croissance.\nDomiciliation\nAdresse commerciale Ã  Monthey â porte du Chablais, entre industrie et montagnes.\nÃconomie Ã  Monthey\nCanton du Valais\nMonthey est indissociable de son industrie chimique. Le site chimique de Monthey, l'un des plus importants de Suisse, accueille des acteurs majeurs comme Syngenta (agrochimie), Huntsman (chimie de spÃ©cialitÃ©) et Cimo Services. Ce pÃ´le industriel emploie directement des milliers de personnes et gÃ©nÃ¨re un Ã©cosystÃ¨me de sous-traitants, prestataires de services et fournisseurs qui font vivre l'Ã©conomie locale.\nLe canton du Valais applique un taux d'imposition d'environ 21,6 %. Pour les entreprises industrielles de Monthey, les dÃ©ductions liÃ©es aux investissements en Ã©quipements, en recherche et en protection de l'environnement sont particuliÃ¨rement pertinentes. La proximitÃ© du LÃ©man et de la France (Saint-Gingolph) crÃ©e Ã©galement des enjeux de fiscalitÃ© transfrontaliÃ¨re pour les nombreux frontaliers qui travaillent dans l'industrie montheysanne.",
+      "text_len": 2798,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/fiduciaire-monthey.html",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "MK Fiduciaire",
+          "href": "https://mkfiduciaire.ch/fiduciaire-monthey.html",
+          "internal": true
+        },
+        {
+          "text": "Services",
+          "href": "https://mkfiduciaire.ch/fiduciaire-monthey.html#services",
+          "internal": true
+        },
+        {
+          "text": "Ãconomie",
+          "href": "https://mkfiduciaire.ch/fiduciaire-monthey.html#economie",
+          "internal": true
+        },
+        {
+          "text": "Avis clients",
+          "href": "https://mkfiduciaire.ch/fiduciaire-monthey.html#avis",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Consultation gratuite",
+          "href": "https://mkfiduciaire.ch/fiduciaire-monthey.html#contact",
+          "internal": true
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://formspree.io/f/mojkpejg",
+          "method": "POST",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "name",
+              "placeholder": "Votre nom"
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "placeholder": "email@exemple.ch"
+            },
+            {
+              "tag": "input",
+              "type": "tel",
+              "name": "phone",
+              "placeholder": "+41 ..."
+            },
+            {
+              "tag": "select",
+              "type": null,
+              "name": "service",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "city",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/008__fiduciaire-monthey.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-morat.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": null,
+      "meta": {},
+      "canonical": null,
+      "headings": {},
+      "text": "",
+      "text_len": 0,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/009__fiduciaire-morat.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-romont.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": null,
+      "meta": {},
+      "canonical": null,
+      "headings": {},
+      "text": "",
+      "text_len": 0,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/010__fiduciaire-romont.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-sierre.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": null,
+      "meta": {},
+      "canonical": null,
+      "headings": {},
+      "text": "",
+      "text_len": 0,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/011__fiduciaire-sierre.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiduciaire-sion.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": null,
+      "meta": {},
+      "canonical": null,
+      "headings": {},
+      "text": "",
+      "text_len": 0,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/012__fiduciaire-sion.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/firmengruendung-schweiz-guide.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "FirmengrÃ¼ndung in der Schweiz 2026: GmbH, AG oder Einzelfirma? | MK Treuhand",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Ratgeber FirmengrÃ¼ndung Schweiz 2026: GmbH vs AG vs Einzelfirma, Kosten, Schritte und kantonale Unterschiede."
+      },
+      "canonical": "https://mkfiduciaire.ch/firmengruendung-schweiz-guide.html",
+      "headings": {
+        "h1": [
+          "FirmengrÃ¼ndung in der Schweiz 2026: GmbH, AG oder Einzelfirma?"
+        ],
+        "h2": [
+          "Welche Rechtsform fÃ¼r Ihr Unternehmen?",
+          "GrÃ¼ndungsschritte einer GmbH",
+          "Kantonale Unterschiede"
+        ],
+        "h4": [
+          "MK Treuhand",
+          "Contact"
+        ]
+      },
+      "text": "FirmengrÃ¼ndung in der Schweiz 2026: GmbH, AG oder Einzelfirma? | MK Treuhand\nKostenlose Erstberatung â\n+41 26 518 00 00\nFR\nDE\nMK\nTreuhand\nStartseite\n+41 26 518 00 00\nKostenlose Beratung\nFirmengrÃ¼ndung in der Schweiz 2026: GmbH, AG oder Einzelfirma?\nVerÃ¶ffentlicht am 25. MÃ¤rz 2026 Â· Lesezeit: 8 Min.\nWelche Rechtsform fÃ¼r Ihr Unternehmen?\nKriterium\nEinzelfirma\nGmbH\nAG\nMindestkapital\nCHF 0\nCHF 20'000\nCHF 100'000 (50'000 lib.)\nHaftung\nUnbeschrÃ¤nkt\nBeschrÃ¤nkt\nBeschrÃ¤nkt\nHR-Eintrag\nAb CHF 100'000 Umsatz\nPflicht\nPflicht\nGrÃ¼ndungskosten\nCHF 0-500\nCHF 3'000-5'000\nCHF 5'000-10'000\nGrÃ¼ndungsschritte einer GmbH\nFirmenname prÃ¼fen\nauf Zefix.ch\nStatuten erstellen\nKapital einzahlen\n(CHF 20'000 Sperrkonto)\nÃffentliche Beurkundung\nbeim Notar\nHandelsregistereintrag\nAHV/BVG/UVG-Anmeldung\nMWST-Registrierung\n(ab CHF 100'000 Umsatz)\nKantonale Unterschiede\nDie GrÃ¼ndungskosten und Bearbeitungszeiten variieren je nach Kanton. In\nZÃ¼rich\ndauert die HR-Eintragung ca. 5-10 Arbeitstage, in\nBern\n3-7 Tage. Die Notarkosten sind in der Deutschschweiz generell etwas tiefer als in der Romandie.\nFirmengrÃ¼ndung mit Expertenbegleitung\nMK Treuhand begleitet Sie von A bis Z.\nKostenlose Erstberatung\n.\nMK Treuhand\nIhr TreuhandbÃ¼ro in der Deutsch- und Westschweiz.\nContact\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nÂ© 2026 MK Treuhand â Alle Rechte vorbehalten",
+      "text_len": 1352,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "MK Treuhand",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Startseite",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Kostenlose Beratung",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "ZÃ¼rich",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Bern",
+          "href": "https://mkfiduciaire.ch/treuhand-bern.html",
+          "internal": true
+        },
+        {
+          "text": "Kostenlose Erstberatung",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Kriterium",
+            "Einzelfirma",
+            "GmbH",
+            "AG"
+          ],
+          [
+            "Mindestkapital",
+            "CHF 0",
+            "CHF 20'000",
+            "CHF 100'000 (50'000 lib.)"
+          ],
+          [
+            "Haftung",
+            "UnbeschrÃ¤nkt",
+            "BeschrÃ¤nkt",
+            "BeschrÃ¤nkt"
+          ],
+          [
+            "HR-Eintrag",
+            "Ab CHF 100'000 Umsatz",
+            "Pflicht",
+            "Pflicht"
+          ],
+          [
+            "GrÃ¼ndungskosten",
+            "CHF 0-500",
+            "CHF 3'000-5'000",
+            "CHF 5'000-10'000"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/013__firmengruendung-schweiz-guide.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/fiscalite-fribourg-valais-2026.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "FiscalitÃ© des Entreprises Ã  Fribourg et en Valais en 2026 | MK Fiduciaire",
+      "lang": "fr",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Comparatif fiscal Fribourg vs Valais 2026 : taux d'imposition, dÃ©ductions, avantages cantonaux pour PME et indÃ©pendants."
+      },
+      "canonical": "https://mkfiduciaire.ch/fiscalite-fribourg-valais-2026.html",
+      "headings": {
+        "h1": [
+          "FiscalitÃ© des Entreprises Ã  Fribourg et en Valais en 2026"
+        ],
+        "h2": [
+          "Fribourg vs Valais : Quel Canton pour votre Entreprise ?",
+          "Avantages SpÃ©cifiques de Fribourg",
+          "Avantages SpÃ©cifiques du Valais",
+          "DÃ©ductions Fiscales ClÃ©s"
+        ],
+        "h3": [
+          "Comparatif des Taux d'Imposition 2026"
+        ],
+        "h4": [
+          "MK Fiduciaire",
+          "Contact"
+        ]
+      },
+      "text": "FiscalitÃ© des Entreprises Ã  Fribourg et en Valais en 2026 | MK Fiduciaire\nConsultation initiale offerte â\n+41 26 518 00 00\nFR\nDE\nMK\nFiduciaire\nAccueil\n+41 26 518 00 00\nConsultation gratuite\nFiscalitÃ© des Entreprises Ã  Fribourg et en Valais en 2026\nPubliÃ© le 25 mars 2026 Â· Temps de lecture : 8 min\nFribourg vs Valais : Quel Canton pour votre Entreprise ?\nLes cantons de\nFribourg\net du\nValais\nsont deux options attractives pour domicilier une entreprise en Suisse romande. Avec des taux d'imposition infÃ©rieurs Ã  GenÃ¨ve et Vaud, ils attirent de plus en plus de PME et d'indÃ©pendants.\nComparatif des Taux d'Imposition 2026\nCritÃ¨re\nFribourg\nValais\nTaux effectif bÃ©nÃ©fice\n~14.5%\n~13.5%\nImpÃ´t sur le capital\n0.1%\n0.08%\nImposition dividendes (cantonal)\n60%\n50%\nPatent box\nOui (90%)\nOui (90%)\nLe Valais offre un avantage fiscal net pour les sociÃ©tÃ©s. Fribourg compense par sa position centrale (entre Berne et Lausanne) et son marchÃ© du travail bilingue.\nAvantages SpÃ©cifiques de Fribourg\nBilinguisme\n: accÃ¨s aux marchÃ©s romand et alÃ©manique depuis un seul siÃ¨ge.\nUniversitÃ© et HES\n: vivier de talents qualifiÃ©s (UniversitÃ© de Fribourg, HES-SO).\nSituation gÃ©ographique\n: 20 min de Berne, 1h de Lausanne et ZÃ¼rich.\nCoÃ»ts immobiliers\n: 30-40% infÃ©rieurs Ã  GenÃ¨ve et Lausanne.\nAvantages SpÃ©cifiques du Valais\nTaux d'imposition parmi les plus bas de Suisse romande\n(~13.5%).\nÃnergie bon marchÃ©\n: tarifs Ã©lectriques avantageux grÃ¢ce Ã  l'hydroÃ©lectricitÃ©.\nÃcosystÃ¨me innovation\n: IdeArk (Martigny), The Ark (Sion), pÃ´les cleantech et digital.\nQualitÃ© de vie exceptionnelle\n: attractivitÃ© pour recruter des cadres.\nBesoin d'une analyse personnalisÃ©e ?\nNos experts Ã\nFribourg\net\nSion\ncomparent les deux options pour votre situation.\nConsultation gratuite\n.\nDÃ©ductions Fiscales ClÃ©s\nDans les deux cantons, les entreprises bÃ©nÃ©ficient de la patent box (90% de rÃ©duction sur revenus PI), de la super-dÃ©duction R&D (150%) et du report des pertes sur 7 ans. Le pilier 3a pour indÃ©pendants est plafonnÃ© Ã  CHF 36'288 en 2026. Les rachats LPP sont intÃ©gralement dÃ©ductibles dans les deux cantons.\nMK Fiduciaire\nFiduciaire de confiance en Suisse romande et alÃ©manique.\nContact\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nÂ© 2026 MK Fiduciaire â Tous droits rÃ©servÃ©s",
+      "text_len": 2298,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "MK Fiduciaire",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "Accueil",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Consultation gratuite",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "Fribourg",
+          "href": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+          "internal": true
+        },
+        {
+          "text": "Valais",
+          "href": "https://mkfiduciaire.ch/fiduciaire-sion.html",
+          "internal": true
+        },
+        {
+          "text": "Fribourg",
+          "href": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+          "internal": true
+        },
+        {
+          "text": "Sion",
+          "href": "https://mkfiduciaire.ch/fiduciaire-sion.html",
+          "internal": true
+        },
+        {
+          "text": "Consultation gratuite",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "CritÃ¨re",
+            "Fribourg",
+            "Valais"
+          ],
+          [
+            "Taux effectif bÃ©nÃ©fice",
+            "~14.5%",
+            "~13.5%"
+          ],
+          [
+            "ImpÃ´t sur le capital",
+            "0.1%",
+            "0.08%"
+          ],
+          [
+            "Imposition dividendes (cantonal)",
+            "60%",
+            "50%"
+          ],
+          [
+            "Patent box",
+            "Oui (90%)",
+            "Oui (90%)"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/014__fiscalite-fribourg-valais-2026.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/rachat-lpp-guide-complet-2026.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Rachat LPP en Suisse : Doublez votre avantage fiscal ! | MK Fiduciaire",
+      "lang": "fr",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "DÃ©couvrez comment le rachat LPP en Suisse peut transformer votre 2e pilier. Maximisez vos Ã©conomies d'impÃ´ts, optimisez votre retraite et comprenez le libre passage et le pilier 3a."
+      },
+      "canonical": "https://mkfiduciaire.ch/rachat-lpp-guide-complet-2026.html",
+      "headings": {
+        "h1": [
+          "Rachat LPP en Suisse : Doublez votre avantage fiscal !"
+        ],
+        "h2": [
+          "Comprendre le Rachat LPP : DÃ©finition et Objectifs ClÃ©s",
+          "Les Avantages Incontestables du Rachat LPP : FiscalitÃ© et Prestations",
+          "Conditions et ÃligibilitÃ© au Rachat LPP : Qui, Quand, et Combien ?",
+          "Le Processus Ãtape par Ãtape du Rachat LPP (Checklist 2026)",
+          "StratÃ©gies d'Optimisation Fiscale du Rachat LPP en 2026",
+          "Les PiÃ¨ges et Risques Ã  Ãviter lors d'un Rachat LPP",
+          "Cas SpÃ©cifiques et Situations ParticuliÃ¨res du Rachat LPP",
+          "Foire Aux Questions (FAQ) sur le Rachat LPP",
+          "Conclusion : Votre StratÃ©gie de Rachat LPP pour 2026",
+          "Ressources & Documents Utiles"
+        ],
+        "h3": [
+          "Qu'est-ce qu'un rachat LPP volontaire ?",
+          "Les objectifs principaux d'un rachat dans le 2Ã¨me pilier",
+          "Une dÃ©duction fiscale immÃ©diate et sans plafond",
+          "AmÃ©lioration significative des prestations de retraite",
+          "Un rendement attractif et une meilleure couverture en cas de risque",
+          "Les conditions gÃ©nÃ©rales pour effectuer un rachat",
+          "Comment calculer votre potentiel de rachat maximal ?",
+          "La rÃ¨gle des 3 ans : une contrainte fiscale majeure",
+          "Remboursement EPL : une condition prÃ©alable essentielle",
+          "1. Analyser votre situation et votre potentiel de rachat",
+          "2. Contacter votre caisse de pension ou un expert",
+          "3. Rassembler les documents nÃ©cessaires (Checklist)",
+          "4. Effectuer le versement du rachat",
+          "5. DÃ©clarer le rachat Ã  l'administration fiscale",
+          "L'Ã©chelonnement des rachats sur plusieurs annÃ©es",
+          "Tenir compte des spÃ©cificitÃ©s cantonales et communales",
+          "Coordonner le rachat LPP avec le Pilier 3a",
+          "Le non-respect de la rÃ¨gle des 3 ans : consÃ©quences lourdes",
+          "Le risque de sous-couverture de la caisse de pension",
+          "L'impact sur les prestations de risque (invaliditÃ©, dÃ©cÃ¨s)",
+          "Les autres erreurs courantes Ã  Ã©viter",
+          "Rachat LPP pour les indÃ©pendants",
+          "Rachat LPP pour les frontaliers et nouveaux arrivants en Suisse",
+          "Rachat LPP en cas de divorce ou de sÃ©paration",
+          "Rachat et acquisition de logement (EPL)",
+          "Est-ce que le rachat LPP est toujours intÃ©ressant ?",
+          "Quel est le meilleur moment pour effectuer un rachat ?",
+          "Puis-je racheter des annÃ©es LPP aprÃ¨s un retrait anticipÃ© pour l'immobilier ?",
+          "Le rachat LPP est-il dÃ©ductible dans tous les cantons ?",
+          "Que se passe-t-il si je quitte la Suisse aprÃ¨s un rachat ?",
+          "Les points clÃ©s Ã  retenir",
+          "Passez Ã  l'action : Demandez un conseil personnalisÃ©"
+        ],
+        "h4": [
+          "MK Fiduciaire",
+          "Contact",
+          "Nos villes"
+        ]
+      },
+      "text": "Rachat LPP en Suisse : Doublez votre avantage fiscal ! | MK Fiduciaire\nConsultation initiale offerte â\n+41 26 518 00 00\nFR\nDE\nMK\nFiduciaire\nAccueil\n+41 26 518 00 00\nConsultation gratuite\nRachat LPP en Suisse : Doublez votre avantage fiscal !\nPubliÃ© le 7 mai 2026 Â· Temps de lecture : 23 min\nComprendre le Rachat LPP : DÃ©finition et Objectifs ClÃ©s\nPour naviguer sereinement dans le monde de la prÃ©voyance suisse, il est fondamental de saisir les mÃ©canismes du\nrachat LPP\n. Ce dispositif, au cÅur de l'optimisation de votre\n2Ã¨me pilier\n, reprÃ©sente bien plus qu'une simple transaction financiÃ¨re. Il s'agit d'une stratÃ©gie proactive pour renforcer votre avenir financier et fiscal.\nQu'est-ce qu'un rachat LPP volontaire ?\nUn\nrachat LPP volontaire\nconsiste Ã  verser des fonds supplÃ©mentaires dans votre\ncaisse de pension\nafin de combler une\nlacune de cotisation\n. Cette lacune peut rÃ©sulter de diverses situations : annÃ©es sans activitÃ© professionnelle en Suisse, augmentations de salaire non entiÃ¨rement couvertes par les cotisations passÃ©es, ou encore un changement d'employeur avec un salaire coordonnÃ© plus Ã©levÃ©. En effectuant ce\nrachat caisse pension\n, vous augmentez votre avoir de vieillesse, amÃ©liorant ainsi vos futures prestations. C'est un acte dÃ©libÃ©rÃ© pour reconstruire ou consolider votre capital de prÃ©voyance. En 2026, les principes restent les mÃªmes, l'accent Ã©tant mis sur la planification anticipÃ©e pour maximiser les avantages.\nLes objectifs principaux d'un rachat dans le 2Ã¨me pilier\nPourquoi opter pour un\nrachat dans le 2Ã¨me pilier\n? Les raisons sont multiples et souvent complÃ©mentaires :\nAmÃ©liorer significativement vos prestations de retraite :\nChaque franc versÃ© augmente votre capital Ã©pargnÃ©, ce qui se traduit par une rente future plus Ã©levÃ©e ou un capital de retraite plus consÃ©quent. C'est un investissement direct dans votre future sÃ©curitÃ© financiÃ¨re.\nRÃ©duire drastiquement votre charge fiscale :\nLes sommes versÃ©es pour un\nrachat LPP\nsont entiÃ¨rement dÃ©ductibles de votre revenu imposable. C'est un levier fiscal puissant, permettant des Ã©conomies substantielles sur vos impÃ´ts fÃ©dÃ©raux, cantonaux et communaux l'annÃ©e du versement. Nous reviendrons sur ce point crucial.\nCombler des lacunes de prÃ©voyance :\nQue vous soyez un indÃ©pendant qui s'affilie tardivement Ã  une\ncaisse de pension\n, ou un salariÃ© ayant eu des interruptions de carriÃ¨re, le\nrachat annÃ©e LPP\npermet de reconstituer les annÃ©es de cotisation manquantes.\nOptimiser la transmission de patrimoine :\nDans certains cas, un\nrachat volontaire\npeut influencer positivement les prestations de survivants, offrant une meilleure protection Ã  vos proches.\nCes objectifs convergent vers un seul but : une\nprÃ©voyance professionnelle\nrenforcÃ©e et une fiscalitÃ© optimisÃ©e.\nLes Avantages Incontestables du Rachat LPP : FiscalitÃ© et Prestations\nLe\nrachat LPP\nn'est pas qu'une simple transaction, c'est un vÃ©ritable levier stratÃ©gique qui offre des bÃ©nÃ©fices concrets et mesurables, tant sur le plan fiscal que pour vos futures prestations de prÃ©voyance. En 2026, ces avantages demeurent des piliers pour une planification financiÃ¨re avisÃ©e en Suisse.\nUne dÃ©duction fiscale immÃ©diate et sans plafond\nC'est l'un des attraits majeurs du\nrachat LPP\n: les montants versÃ©s sont entiÃ¨rement dÃ©ductibles de votre\nrevenu imposable\n, au niveau\nfÃ©dÃ©ral, cantonal et communal\n. Contrairement au pilier 3a qui a des plafonds annuels, le\nrachat caisse pension\nne connaÃ®t pas de limite de dÃ©duction, si ce n'est le montant maximal de la lacune de cotisation. Cette dÃ©duction est immÃ©diate, c'est-Ã -dire qu'elle s'applique l'annÃ©e mÃªme du versement, permettant des\nÃ©conomies d'impÃ´ts\nsubstantielles. Pour un contribuable avec un\ntaux marginal d'imposition\nÃ©levÃ©, l'effet peut Ãªtre spectaculaire. Par exemple, une personne domiciliÃ©e Ã  GenÃ¨ve avec un revenu imposable de CHF 150'000 et un rachat de CHF 50'000 pourrait Ã©conomiser plusieurs milliers de francs d'impÃ´ts.\nCanton\nRevenu Imposable (CHF)\nRachat LPP (CHF)\nÃconomie Fiscale EstimÃ©e (CHF)\nGenÃ¨ve\n150'000\n50'000\n~15'000 - 18'000\nVaud\n120'000\n40'000\n~10'000 - 12'000\nZurich\n180'000\n60'000\n~18'000 - 22'000\n(Tableau d'exemple d'Ã©conomie fiscale par canton/revenu - Les chiffres sont des estimations et peuvent varier.)\nAmÃ©lioration significative des prestations de retraite\nAu-delÃ  de l'\navantage fiscal\n, le\nrachat LPP\na un impact direct sur votre future\nrente\nou votre\ncapital retraite\n. En augmentant votre\navoir de vieillesse\n, vous augmentez la base de calcul de vos prestations. Le\ntaux de conversion\nappliquÃ© Ã  ce capital accru gÃ©nÃ©rera une\nrente\nmensuelle plus Ã©levÃ©e. Pour ceux qui prÃ©fÃ¨rent le versement en\ncapital\nÃ  la retraite, le montant disponible sera d'autant plus important. C'est un moyen efficace de compenser des pÃ©riodes de faibles\ncotisations LPP\nou de simplement viser une retraite plus confortable. Le rendement sur cet investissement est souvent trÃ¨s compÃ©titif, car il s'agit de fonds gÃ©rÃ©s par votre\ncaisse de pension\navec des taux d'intÃ©rÃªt garantis ou trÃ¨s stables.\nUn rendement attractif et une meilleure couverture en cas de risque\nLes fonds versÃ©s dans le cadre d'un\nrachat LPP\nbÃ©nÃ©ficient du\nrendement\ngÃ©nÃ©rÃ© par votre\ncaisse de pension\n. Les\ntaux d'intÃ©rÃªt\nsont souvent plus stables et moins volatils que ceux des placements privÃ©s, offrant une sÃ©curitÃ© apprÃ©ciable. Mais ce n'est pas tout : un\nrachat volontaire\namÃ©liore Ã©galement votre\ncouverture risque\n. En cas d'\ninvaliditÃ©\nou de\ndÃ©cÃ¨s\navant la retraite, les prestations versÃ©es Ã  vous-mÃªme ou Ã  vos\nsurvivants\n(conjoint, enfants) seront calculÃ©es sur une base de prÃ©voyance plus Ã©levÃ©e. C'est un aspect souvent nÃ©gligÃ© mais crucial de la planification. Ne pas sous-estimer la couverture risque est une erreur classique que nous observons. En pratique, cela signifie une meilleure protection pour vous et votre famille en cas d'imprÃ©vu.\nAlerte : Ne pas sous-estimer la couverture risque !\nUn rachat bien planifiÃ© offre une double sÃ©curitÃ© : financiÃ¨re pour la retraite et humaine en cas de coup dur.\nConditions et ÃligibilitÃ© au Rachat LPP : Qui, Quand, et Combien ?\nAvant d'\neffectuer un rachat LPP\n, il est impÃ©ratif de comprendre les conditions d'Ã©ligibilitÃ© et les limites qui encadrent cette opÃ©ration. Ces rÃ¨gles garantissent la pÃ©rennitÃ© du systÃ¨me de prÃ©voyance et Ã©vitent les abus. En 2026, ces principes fondamentaux restent inchangÃ©s, mais une vigilance accrue est toujours de mise.\nLes conditions gÃ©nÃ©rales pour effectuer un rachat\nPour pouvoir procÃ©der Ã  un\nrachat LPP volontaire\n, plusieurs critÃ¨res doivent Ãªtre remplis :\nAffiliation Ã  une caisse de pension :\nVous devez Ãªtre affiliÃ© Ã  une institution de prÃ©voyance professionnelle en Suisse. C'est la base mÃªme du\n2Ã¨me pilier\n.\nExistence d'une lacune de cotisation :\nLe rachat vise Ã  combler un manque. Votre\ncertificat de prÃ©voyance\nindique le montant maximal que vous pouvez racheter, correspondant Ã  cette lacune.\nÃge de la retraite :\nLe rachat doit Ãªtre effectuÃ© avant l'Ã¢ge lÃ©gal de la retraite, ou avant un dÃ©part Ã  la retraite anticipÃ© si les rÃ¨glements de votre caisse le permettent.\nCapacitÃ© financiÃ¨re :\nBien qu'il n'y ait pas de contrÃ´le direct de votre capacitÃ©, il est sous-entendu que vous devez disposer des fonds nÃ©cessaires sans compromettre votre liquiditÃ© Ã  court terme.\nComment calculer votre potentiel de rachat maximal ?\nLe\nmontant maximal de rachat\nest clairement indiquÃ© sur votre\ncertificat de prÃ©voyance\n, un document essentiel que votre\ncaisse de pension\nvous envoie annuellement. Ce montant reprÃ©sente la diffÃ©rence entre l'avoir de vieillesse thÃ©orique que vous auriez dÃ» accumuler et l'avoir effectivement disponible. Il prend en compte votre\nsalaire coordonnÃ©\n, les annÃ©es de cotisation, et les Ã©ventuels retraits anticipÃ©s. L'erreur classique ici est de ne pas consulter rÃ©guliÃ¨rement ce document. En pratique, un simple appel Ã  votre caisse ou Ã  un conseiller peut vous aider Ã  le dÃ©crypter.\nExemple de calcul simplifiÃ© :\nSi votre certificat indique un avoir de vieillesse actuel de CHF 200'000 et un potentiel de rachat maximal de CHF 80'000, cela signifie que votre avoir de vieillesse thÃ©orique serait de CHF 280'000. Vous pouvez donc\neffectuer un rachat\nallant jusqu'Ã  CHF 80'000.\nAlerte : VÃ©rifiez toujours votre certificat de prÃ©voyance !\nC'est la source d'information la plus fiable pour votre situation personnelle.\nLa rÃ¨gle des 3 ans : une contrainte fiscale majeure\nC'est une rÃ¨gle cruciale Ã  ne jamais ignorer. Si vous effectuez un\nrachat LPP\n, vous ne pourrez pas retirer le capital de votre\n2Ã¨me pilier\n(sous forme de capital retraite ou pour un\nretrait anticipÃ©\npour l'\nachat logement\n- EPL) pendant les\ntrois annÃ©es\nsuivant le dernier versement de rachat. Le non-respect de ce\ndÃ©lai de blocage\nentraÃ®ne des consÃ©quences fiscales lourdes, notamment le remboursement des impÃ´ts Ã©conomisÃ©s. Cette rÃ¨gle vise Ã  Ã©viter l'optimisation fiscale abusive. Planifiez donc vos rachats en fonction de vos projets de vie.\nRemboursement EPL : une condition prÃ©alable essentielle\nSi vous avez dÃ©jÃ  effectuÃ© un\nretrait anticipÃ© pour l'acquisition d'un logement (EPL)\n, la\ncondition rachat\nest claire : vous devez impÃ©rativement\nrembourser intÃ©gralement\nce montant avant de pouvoir effectuer de nouveaux\nrachats LPP\nfiscalement dÃ©ductibles. C'est une prioritÃ© absolue. Sans ce remboursement, tout nouveau versement ne sera pas considÃ©rÃ© comme un rachat dÃ©ductible et ne vous offrira donc aucun\navantage fiscal\n. C'est une erreur classique qui coÃ»te cher en impÃ´ts non dÃ©duits.\nAlerte : Ne pas oublier le remboursement EPL !\nC'est la premiÃ¨re Ã©tape si vous avez un retrait EPL non remboursÃ©.\nLe Processus Ãtape par Ãtape du Rachat LPP (Checklist 2026)\nEffectuer un\nrachat LPP\npeut sembler complexe, mais en suivant une dÃ©marche structurÃ©e, le processus devient clair et gÃ©rable. Voici un guide pratique, Ã©tape par Ã©tape, pour vous aider Ã\nprocÃ©der au rachat\nde votre\n2Ã¨me pilier\nen 2026.\n1. Analyser votre situation et votre potentiel de rachat\nLa premiÃ¨re Ã©tape est toujours une auto-Ã©valuation rigoureuse. Munissez-vous de votre dernier\ncertificat de prÃ©voyance\n. Ce document, Ã©mis par votre\ncaisse de pension\n, indique prÃ©cisÃ©ment votre\nlacune de cotisation\net le\nmontant maximal de rachat\npossible. RÃ©flÃ©chissez Ã  votre\nsituation personnelle\n: vos objectifs de retraite, vos projets immobiliers (notamment si un\nachat logement\nest envisagÃ©), et votre capacitÃ© financiÃ¨re. C'est le moment de vous poser les bonnes questions : quel est mon horizon temporel ? Ai-je besoin de liquiditÃ©s dans les 3 prochaines annÃ©es ? Une analyse approfondie est la clÃ© d'un\nrachat volontaire\njudicieux.\n2. Contacter votre caisse de pension ou un expert\nUne fois votre situation prÃ©-analysÃ©e, il est temps de passer Ã  l'action. Prenez contact directement avec votre\ncaisse de pension\n. Demandez-leur une confirmation Ã©crite du montant maximal de rachat et des formulaires nÃ©cessaires. Mieux encore, sollicitez un rendez-vous avec un\nexpert en prÃ©voyance\nou un\nconseiller financier\nindÃ©pendant. Leur expertise est prÃ©cieuse pour valider votre stratÃ©gie, comprendre les subtilitÃ©s de votre rÃ©gime et vous Ã©clairer sur les implications fiscales spÃ©cifiques Ã  votre canton. Ce conseil personnalisÃ© est souvent gratuit et peut vous Ã©viter des erreurs coÃ»teuses.\nAlerte : L'importance du conseil personnalisÃ© !\nNe sous-estimez jamais l'apport d'un professionnel. C'est un investissement minime pour une sÃ©curitÃ© maximale.\n3. Rassembler les documents nÃ©cessaires (Checklist)\nPour constituer votre dossier de\nrachat caisse pension\n, vous aurez gÃ©nÃ©ralement besoin des Ã©lÃ©ments suivants :\nLe\nformulaire de rachat\ndÃ»ment rempli et signÃ©, fourni par votre caisse de pension.\nUne copie de votre\npiÃ¨ce d'identitÃ©\n(carte d'identitÃ© ou passeport).\nVotre dernier\ncertificat de prÃ©voyance\n.\nLes derniÃ¨res\ndÃ©clarations fiscales\n(pour prouver votre revenu et anticiper la dÃ©duction).\nÃventuellement, une attestation de remboursement intÃ©gral d'un prÃ©cÃ©dent\nretrait anticipÃ© pour l'acquisition d'un logement (EPL)\n, si cela vous concerne.\nChecklist dÃ©taillÃ©e :\nFormulaire de rachat LPP\nCopie piÃ¨ce d'identitÃ©\nCertificat de prÃ©voyance actuel\nDerniÃ¨res dÃ©clarations fiscales\nPreuve de remboursement EPL (si applicable)\n4. Effectuer le versement du rachat\nUne fois votre dossier complet et validÃ© par votre\ncaisse de pension\n, il vous sera indiquÃ© comment\neffectuer le versement\n. Il s'agit gÃ©nÃ©ralement d'un virement bancaire vers le compte de votre institution de prÃ©voyance. Assurez-vous que le\nmontant\ncorresponde exactement Ã  ce que vous avez dÃ©cidÃ© de racheter. Conservez prÃ©cieusement la preuve de virement, elle sera indispensable pour votre dÃ©claration fiscale. Le versement peut Ãªtre unique ou Ã©chelonnÃ©, selon votre stratÃ©gie et les possibilitÃ©s offertes par votre caisse.\n5. DÃ©clarer le rachat Ã  l'administration fiscale\nC'est l'Ã©tape oÃ¹ vous concrÃ©tisez l'\nÃ©conomie d'impÃ´ts\n. L'annÃ©e du versement, vous devrez dÃ©clarer le\nrachat LPP\ndans votre\ndÃ©claration fiscale\n. Le montant versÃ© sera dÃ©duit de votre\nrevenu imposable\n. Les administrations fiscales cantonales et fÃ©dÃ©rales reconnaissent cette dÃ©duction. Veillez Ã  bien reporter le montant dans la bonne case et Ã  joindre la preuve de versement. En pratique, un bon logiciel fiscal vous guidera, mais en cas de doute, n'hÃ©sitez pas Ã  solliciter votre fiduciaire ou un expert.\nAlerte : Conservez tous vos justificatifs !\nIls sont votre preuve en cas de contrÃ´le fiscal.\nStratÃ©gies d'Optimisation Fiscale du Rachat LPP en 2026\nLe\nrachat LPP\nest un instrument puissant, mais son efficacitÃ© est dÃ©cuplÃ©e lorsqu'il est intÃ©grÃ© dans une vÃ©ritable stratÃ©gie d'\noptimisation fiscale\n. En 2026, anticiper et planifier est plus que jamais essentiel pour maximiser les\navantages fiscaux\net rÃ©duire votre charge d'\nimpÃ´ts\nen Suisse.\nL'Ã©chelonnement des rachats sur plusieurs annÃ©es\nC'est la rÃ¨gle d'or de l'\noptimisation fiscale\navec le\nrachat LPP\n. En Suisse, le systÃ¨me fiscal est progressif : plus votre revenu est Ã©levÃ©, plus votre taux d'imposition marginal est important. Effectuer un\nrachat massif\nen une seule fois pourrait vous faire changer de tranche d'imposition et rÃ©duire l'effet de levier fiscal. L'\nÃ©chelonnement\ndes\nrachats sur plusieurs annÃ©es\npermet de lisser l'impact fiscal, en maintenant votre revenu imposable dans des tranches infÃ©rieures et en maximisant la dÃ©duction chaque annÃ©e. Nous recommandons souvent de ne pas dÃ©passer un tiers de votre salaire annuel coordonnÃ© par rachat, mais cela dÃ©pendra de votre situation.\nExemple chiffrÃ© d'Ã©chelonnement :\nUn potentiel de rachat de CHF 90'000 pour un revenu annuel de CHF 120'000. PlutÃ´t que de tout racheter en une annÃ©e (avec un effet fiscal potentiellement moins bon sur la derniÃ¨re tranche), il est souvent plus judicieux de l'Ã©taler sur 3 ans, avec 3 rachats de CHF 30'000. Cela permet de bÃ©nÃ©ficier de la pleine dÃ©duction sur 3 exercices fiscaux distincts, en restant dans des tranches d'imposition plus favorables.\nTenir compte des spÃ©cificitÃ©s cantonales et communales\nLa Suisse est un pays de particularismes fiscaux. L'\nimpÃ´t\nest perÃ§u aux niveaux\nfÃ©dÃ©ral, cantonal et communal\n, et les\nbarÃ¨mes fiscaux\nvarient considÃ©rablement d'un\ncanton\nÃ  l'autre, et mÃªme d'une\ncommune\nÃ  l'autre. Un\nrachat LPP\naura donc un impact diffÃ©rent selon votre lieu de rÃ©sidence. Pour une\noptimisation gÃ©ographique\n, il est indispensable de connaÃ®tre les taux en vigueur et la progressivitÃ© de l'impÃ´t dans votre canton. Certains cantons sont plus \"doux\" que d'autres en matiÃ¨re fiscale, ce qui peut influencer le montant idÃ©al de votre rachat annuel. En pratique, une simulation fiscale est indispensable pour affiner cette stratÃ©gie.\nCoordonner le rachat LPP avec le Pilier 3a\nLe\nrachat LPP\net le\nPilier 3a\nsont deux instruments de prÃ©voyance et d'\noptimisation fiscale\ncomplÃ©mentaires. Le\n3Ã¨me pilier\n, avec son plafond de dÃ©duction annuel (environ CHF 7'056 pour les salariÃ©s en 2026, et plus pour les indÃ©pendants non affiliÃ©s Ã  une caisse de pension), doit Ãªtre utilisÃ© en prioritÃ© chaque annÃ©e. Une fois ce plafond atteint, le\nrachat caisse pension\nprend le relais pour les montants plus importants, sans limite de dÃ©duction. Une\nstratÃ©gie globale\nconsiste Ã  maximiser les deux. Nous observons que les entreprises oublient souvent de sensibiliser leurs collaborateurs Ã  cette double opportunitÃ©. Planifier les deux permet de construire une prÃ©voyance solide tout en allÃ©geant significativement votre fardeau fiscal.\nCaractÃ©ristique\nRachat LPP (2Ã¨me Pilier)\nPilier 3a (PrÃ©voyance LiÃ©e)\nDÃ©duction Fiscale\nIllimitÃ©e (jusqu'Ã  la lacune de cotisation)\nPlafond annuel (env. CHF 7'056 en 2026 pour salariÃ©s)\nConditions de Retrait\nRetraite, EPL (avec remboursement), dÃ©part Suisse (hors AELE), invaliditÃ©. DÃ©lai de blocage de 3 ans aprÃ¨s rachat.\nRetraite, EPL, dÃ©part Suisse, invaliditÃ©, rachat d'indÃ©pendance.\nLiquiditÃ©\nFaible (liÃ©e aux conditions LPP)\nFaible (liÃ©e aux conditions 3a)\nFlexibilitÃ©\nMoins flexible sur le timing des versements\nVersements annuels flexibles (jusqu'au plafond)\n(Tableau comparatif Rachat LPP vs. Pilier 3a)\nLes PiÃ¨ges et Risques Ã  Ãviter lors d'un Rachat LPP\nSi le\nrachat LPP\noffre des avantages indÃ©niables, il n'est pas sans risques. Un\nrachat volontaire\nmal planifiÃ© peut transformer une opportunitÃ© en un vÃ©ritable\npiÃ¨ge\nfinancier. Nous allons dÃ©tailler les erreurs les plus communes et les situations dÃ©favorables Ã  anticiper. En tant qu'ancien DAF, je peux vous assurer que les dÃ©tails font la diffÃ©rence.\nAlerte : Attention aux piÃ¨ges !\nUn rachat LPP, c'est comme un investissement : il faut en comprendre les facettes sombres.\nLe non-respect de la rÃ¨gle des 3 ans : consÃ©quences lourdes\nC'est le\npiÃ¨ge fiscal\nnumÃ©ro un. Comme mentionnÃ© prÃ©cÃ©demment, tout\nrachat LPP\nest soumis Ã  un\ndÃ©lai de blocage de 3 ans\n. Si, durant cette pÃ©riode, vous effectuez un\nretrait anticipÃ©\nde votre capital LPP (que ce soit pour un dÃ©part Ã  la retraite, un\nachat logement\nvia l'EPL, ou pour l'accÃ¨s Ã  l'indÃ©pendance), les dÃ©ductions fiscales obtenues sur les rachats effectuÃ©s seront\nremboursÃ©es Ã  l'administration fiscale\n, avec potentiellement des intÃ©rÃªts et des pÃ©nalitÃ©s. En pratique, cela peut Ãªtre interprÃ©tÃ© comme une tentative de fraude fiscale. C'est une erreur qui coÃ»te trÃ¨s cher et qui est facilement Ã©vitable par une planification rigoureuse.\nLe risque de sous-couverture de la caisse de pension\nLorsque vous effectuez un\nrachat caisse pension\n, vous placez votre argent dans votre institution de prÃ©voyance. Or, les caisses de pension ne sont pas toutes Ã©gales. Certaines peuvent se retrouver en situation de\nsous-couverture\n, c'est-Ã -dire que leurs actifs ne suffisent plus Ã  couvrir leurs engagements. Dans un tel cas, des mesures d'\nassainissement\npeuvent Ãªtre dÃ©cidÃ©es, comme une\nrÃ©duction des prestations\nou une suspension temporaire des intÃ©rÃªts. Avant tout rachat, il est indispensable de vÃ©rifier le\ndegrÃ© de couverture\nde votre caisse. Un degrÃ© infÃ©rieur Ã  100% indique une situation tendue. Ce\nrisque financier\nest souvent sous-estimÃ© par les assurÃ©s.\nL'impact sur les prestations de risque (invaliditÃ©, dÃ©cÃ¨s)\nCe que les entreprises oublient souvent de prÃ©ciser, c'est que le\nrachat LPP\npeut avoir des consÃ©quences sur vos\nprestations de risque\n. Certaines caisses de pension appliquent le principe de la \"primautÃ© des prestations\" ou de la \"primautÃ© des cotisations\". Selon le rÃ¨glement, un rachat peut augmenter votre capital vieillesse mais pas nÃ©cessairement vos rentes d'\ninvaliditÃ©\nou de\ndÃ©cÃ¨s\ndans les mÃªmes proportions, ou avec un certain dÃ©lai. Il est donc impÃ©ratif de consulter le rÃ¨glement de votre institution de prÃ©voyance et de demander une simulation de vos prestations de risque avant et aprÃ¨s le rachat. Ne vous contentez pas d'une augmentation de votre capital retraite, vÃ©rifiez l'ensemble de votre couverture.\nAlerte : VÃ©rifiez vos prestations de risque !\nUne protection insuffisante en cas de coup dur est un risque majeur.\nLes autres erreurs courantes Ã  Ã©viter\nLe rachat massif sans planification :\nComme Ã©voquÃ©, un\nrachat massif\nen une seule annÃ©e peut rÃ©duire l'efficacitÃ© fiscale. L'\nÃ©chelonnement\nest presque toujours prÃ©fÃ©rable.\nLe manque de liquiditÃ© :\nLe capital versÃ© est bloquÃ©. Assurez-vous que le montant du\nrachat annÃ©e\naprÃ¨s annÃ©e ne vous prive pas de liquiditÃ©s essentielles pour d'autres besoins ou investissements.\nUne mauvaise planification de la retraite :\nLe rachat doit s'intÃ©grer dans une\nstratÃ©gie globale de prÃ©voyance\n, en coordination avec le Pilier 3a et vos autres avoirs.\nL'absence de conseil expert :\nC'est l'erreur classique. Les rÃ¨gles sont complexes, les spÃ©cificitÃ©s cantonales nombreuses. Un\nconseiller\nvous aidera Ã  Ã©viter les faux pas.\nNe pas tenir compte des Ã©volutions lÃ©gislatives :\nBien que les bases soient stables en 2026, des ajustements mineurs peuvent survenir. Restez informÃ©.\nCas SpÃ©cifiques et Situations ParticuliÃ¨res du Rachat LPP\nLe\nrachat LPP\nn'est pas un concept monolithique. Il s'adapte et interagit avec diverses situations de vie et statuts professionnels. Comprendre ces\ncas spÃ©cifiques\nest crucial pour Ã©viter les mauvaises surprises et maximiser les bÃ©nÃ©fices. En 2026, les nuances sont toujours aussi importantes.\nRachat LPP pour les indÃ©pendants\nPour les\nindÃ©pendants\n, la situation est souvent diffÃ©rente de celle des salariÃ©s. Beaucoup d'entre eux ne sont pas affiliÃ©s Ã  une\ncaisse de pension LPP\nobligatoire ou bÃ©nÃ©ficient d'une\nLPP facultative\navec des plans moins gÃ©nÃ©reux. Cela signifie qu'ils ont souvent une\nlacune de cotisation\nplus importante et un potentiel de\nrachat volontaire\nÃ©levÃ©. Le\nrachat LPP\ndevient alors un levier exceptionnel pour les indÃ©pendants afin de combler ces lacunes, de renforcer leur prÃ©voyance vieillesse et de bÃ©nÃ©ficier d'importantes dÃ©ductions fiscales. Il est essentiel de bien choisir son\nrÃ©gime\nde prÃ©voyance pour optimiser ces rachats. Un expert peut aider Ã  naviguer dans la complexitÃ© des offres.\nRachat LPP pour les frontaliers et nouveaux arrivants en Suisse\nLes\nfrontaliers\net les\nnouveaux arrivants en Suisse\nsont confrontÃ©s Ã  des rÃ¨gles spÃ©cifiques. Pour les frontaliers, l'affiliation Ã  la\nLPP\ndÃ©pend souvent de leur contrat de travail et du pays de rÃ©sidence. Les\nrachats LPP\nsont possibles, mais les implications fiscales peuvent Ãªtre plus complexes, notamment en cas de double imposition. Pour les nouveaux arrivants, le potentiel de rachat est souvent liÃ© aux annÃ©es de travail en Suisse et aux salaires cotisÃ©s. En cas de\ndÃ©part de Suisse\n, la question du libre passage et du retrait du capital se pose diffÃ©remment selon que l'on parte vers un pays de l'\nAELE\nou hors\nAELE\n. Une analyse internationale est indispensable.\nAlerte : RÃ¨gles spÃ©cifiques pour les frontaliers !\nLa coordination fiscale transfrontaliÃ¨re exige une expertise pointue.\nRachat LPP en cas de divorce ou de sÃ©paration\nLe\ndivorce\nou la\nsÃ©paration\nest une situation dÃ©licate qui a des rÃ©percussions majeures sur les avoirs de prÃ©voyance. En Suisse, les\navoirs LPP\naccumulÃ©s durant le mariage sont gÃ©nÃ©ralement partagÃ©s par moitiÃ© entre les Ã©poux. Si un\nrachat LPP\na Ã©tÃ© effectuÃ© peu avant ou pendant la procÃ©dure de divorce, il peut Ãªtre remis en question. Le tribunal peut exiger que le montant rachetÃ© soit rÃ©intÃ©grÃ© dans le calcul du partage des\navoirs de vieillesse\n. Il est donc primordial d'anticiper ces implications et de consulter un spÃ©cialiste du droit de la famille et de la prÃ©voyance pour Ã©viter toute complication juridique et financiÃ¨re. La transparence est essentielle.\nRachat et acquisition de logement (EPL)\nLa relation entre le\nrachat LPP\net l'\nacquisition de logement\nvia le\nretrait anticipÃ©\npour l'Encouragement Ã  la PropriÃ©tÃ© du Logement (\nEPL\n) est cruciale et souvent mal comprise. Rappelons la rÃ¨gle d'or : vous ne pouvez pas effectuer un\nrachat LPP\net bÃ©nÃ©ficier de la dÃ©duction fiscale si vous avez un\nretrait anticipÃ© EPL\nnon remboursÃ©. Pour que vos rachats soient dÃ©ductibles, vous devez d'abord\nrembourser intÃ©gralement\nle montant retirÃ© pour l'\nachat logement\n. C'est une condition sine qua non. Ignorer cette rÃ¨gle, c'est s'exposer Ã  un redressement fiscal et au remboursement des impÃ´ts Ã©conomisÃ©s. Planifier les deux opÃ©rations demande une grande rigueur.\nFoire Aux Questions (FAQ) sur le Rachat LPP\nNous avons compilÃ© les questions les plus frÃ©quemment posÃ©es concernant le\nrachat LPP\npour vous apporter des rÃ©ponses claires et concises. Ces Ã©claircissements complÃ¨tent les informations dÃ©taillÃ©es de notre guide.\nEst-ce que le rachat LPP est toujours intÃ©ressant ?\nLe\nrachat LPP\nest un puissant outil d'\noptimisation fiscale\net de prÃ©voyance, mais son intÃ©rÃªt dÃ©pend fortement de votre\nsituation personnelle\n, de vos objectifs financiers et de votre horizon temporel. Il est gÃ©nÃ©ralement trÃ¨s avantageux pour rÃ©duire votre\nrevenu imposable\net amÃ©liorer vos futures prestations de retraite. Cependant, il faut tenir compte du\ndÃ©lai de blocage de 3 ans\net des risques potentiels liÃ©s Ã  la\ncaisse de pension\n. Un conseil personnalisÃ© est essentiel pour Ã©valuer sa pertinence dans votre cas.\nQuel est le meilleur moment pour effectuer un rachat ?\nLe meilleur moment pour effectuer un\nrachat LPP\nest souvent lorsque vous avez un\nrevenu imposable Ã©levÃ©\n, car cela maximise la\ndÃ©duction fiscale\n. Il est Ã©galement judicieux d'\nÃ©chelonner les rachats\nsur plusieurs annÃ©es pour profiter pleinement de la progressivitÃ© fiscale et Ã©viter un effet de seuil. Assurez-vous de ne pas avoir besoin de retirer le capital de votre 2Ã¨me pilier dans les trois annÃ©es suivant le rachat pour respecter le\ndÃ©lai de blocage fiscal\n.\nPuis-je racheter des annÃ©es LPP aprÃ¨s un retrait anticipÃ© pour l'immobilier ?\nOui, il est possible de racheter des annÃ©es LPP aprÃ¨s un\nretrait anticipÃ©\npour l'acquisition d'un logement (\nEPL\n), mais uniquement si vous avez prÃ©alablement\nremboursÃ© intÃ©gralement\nle montant retirÃ© pour l'EPL. Cette condition est obligatoire pour que les nouveaux rachats soient\nfiscalement dÃ©ductibles\n. il est indispensable de respecter cet ordre pour bÃ©nÃ©ficier des avantages fiscaux.\nLe rachat LPP est-il dÃ©ductible dans tous les cantons ?\nOui, le\nrachat LPP\nest\ndÃ©ductible\ndu revenu imposable au niveau fÃ©dÃ©ral, cantonal et communal dans toute la Suisse. Cependant, l'ampleur de l'\nÃ©conomie fiscale\nvarie considÃ©rablement d'un\ncanton\nÃ  l'autre en raison des diffÃ©rences de barÃ¨mes fiscaux et de la progressivitÃ© de l'impÃ´t. Il est donc important de considÃ©rer votre lieu de rÃ©sidence lors de la planification de vos rachats pour optimiser l'avantage fiscal.\nQue se passe-t-il si je quitte la Suisse aprÃ¨s un rachat ?\nSi vous quittez la Suisse aprÃ¨s avoir effectuÃ© un\nrachat LPP\n, la situation dÃ©pendra de votre destination. Si vous partez dans un pays de l'\nAELE\n(Union EuropÃ©enne ou Association EuropÃ©enne de Libre-Ãchange), la partie obligatoire de votre\nLPP\nreste bloquÃ©e jusqu'Ã  la retraite. Si vous partez hors\nAELE\n, le capital de\nlibre passage\npeut Ãªtre retirÃ© en espÃ¨ces, mais attention : le\ndÃ©lai de blocage de 3 ans\nreste applicable. Si vous retirez le capital avant ce dÃ©lai, les dÃ©ductions fiscales obtenues sur les rachats seront annulÃ©es et devront Ãªtre remboursÃ©es. Les implications fiscales sur le\ndÃ©part Suisse\nsont complexes et nÃ©cessitent une analyse approfondie.\nConclusion : Votre StratÃ©gie de Rachat LPP pour 2026\nNous arrivons au terme de ce guide exhaustif sur le\nrachat LPP\nen Suisse pour 2026. Ce que vous devez retenir, c'est que le\nrachat LPP\nn'est pas une simple transaction, mais un\nlevier stratÃ©gique\npuissant pour votre\nprÃ©voyance\net une opportunitÃ© d'\noptimisation fiscale\nmajeure. Bien utilisÃ©, il peut transformer votre situation financiÃ¨re Ã  la retraite et allÃ©ger considÃ©rablement votre charge fiscale annuelle. Ignorer ses subtilitÃ©s, c'est risquer de passer Ã  cÃ´tÃ© d'Ã©conomies substantielles ou, pire, de tomber dans des\npiÃ¨ges\ncoÃ»teux.\nLes points clÃ©s Ã  retenir\nPour naviguer avec succÃ¨s dans le paysage du\nrachat LPP\nen 2026, gardez Ã  l'esprit ces principes fondamentaux :\nLe\nrachat volontaire\nde vos annÃ©es de\ncotisation LPP\npermet de combler les lacunes de votre\ncaisse de pension\net d'augmenter significativement vos futures prestations de retraite (rente ou capital).\nL'avantage fiscal est immÃ©diat et puissant : chaque franc versÃ© est\ndÃ©ductible\nde votre revenu imposable, rÃ©duisant ainsi vos impÃ´ts fÃ©dÃ©raux, cantonaux et communaux.\nLa\nrÃ¨gle des 3 ans\nest impÃ©rative : tout retrait de capital LPP dans les trois ans suivant un rachat entraÃ®ne le remboursement des dÃ©ductions fiscales obtenues. C'est un\npiÃ¨ge\nÃ  Ã©viter absolument.\nLe\nremboursement prÃ©alable de l'EPL\n(retrait anticipÃ© pour l'\nachat logement\n) est une condition sine qua non pour que vos rachats soient dÃ©ductibles. Ne l'oubliez jamais.\nL'\nÃ©chelonnement des rachats\nsur plusieurs annÃ©es est la\nstratÃ©gie\nla plus efficace pour maximiser l'Ã©conomie fiscale, en tirant parti de la progressivitÃ© de l'impÃ´t.\nSoyez vigilant quant au\ndegrÃ© de couverture\nde votre\ncaisse de pension\net Ã  l'impact des rachats sur vos\nprestations de risque\n(invaliditÃ©, dÃ©cÃ¨s).\nLes\ncas spÃ©cifiques\n(indÃ©pendants, frontaliers, divorce, dÃ©part de Suisse) nÃ©cessitent une analyse approfondie et un conseil ciblÃ©.\nPassez Ã  l'action : Demandez un conseil personnalisÃ©\nLa complexitÃ© du systÃ¨me de\nprÃ©voyance suisse\net les spÃ©cificitÃ©s fiscales cantonales et communales rendent une approche \"taille unique\" inefficace. Ce guide vous a fourni les clÃ©s, mais votre\nsituation personnelle\nest unique. Pour\neffectuer un rachat\nde maniÃ¨re optimale, pour s'assurer que chaque\nrachat LPP\ncontribue pleinement Ã  vos objectifs sans gÃ©nÃ©rer de risques inutiles, un\nconseil expert\nest indispensable.\nNe laissez pas les opportunitÃ©s fiscales et de prÃ©voyance de 2026 vous Ã©chapper par manque d'information ou par une mauvaise interprÃ©tation des rÃ¨gles. Un conseiller spÃ©cialisÃ© pourra analyser votre\ncertificat de prÃ©voyance\n, calculer votre\nmontant maximal de rachat\n, simuler les\nÃ©conomies d'impÃ´ts\npotentielles et Ã©laborer une\nstratÃ©gie\nsur mesure, en tenant compte de tous les facteurs. Prenez un\nrendez-vous gratuit\npour une premiÃ¨re Ã©valuation. C'est un investissement minime pour des gains potentiels considÃ©rables.\nDemandez votre conseil personnalisÃ© gratuit\nPour les cadres approchant la retraite, le pilotage du rachat LPP s'inscrit dans une planification patrimoniale globale.\nPour aller plus loin, voir :\ncalculer le rendement fiscal d'un rachat LPP avec un cabinet de gestion de fortune\n.\nRessources & Documents Utiles\nOffice FÃ©dÃ©ral des Assurances Sociales (OFAS) - PrÃ©voyance professionnelle\nAdministration FÃ©dÃ©rale des Contributions (AFC) - ImpÃ´t fÃ©dÃ©ral direct\nAssociation Suisse des Institutions de PrÃ©voyance (ASIP)\nMK Fiduciaire\nFiduciaire de confiance en Suisse romande et alÃ©manique.\nContact\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nNos villes\nFribourg\nBulle\nSion\nSierre\nÂ© 2026 MK Fiduciaire â Tous droits rÃ©servÃ©s",
+      "text_len": 31588,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "MK Fiduciaire",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "Accueil",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Consultation gratuite",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "Demandez votre conseil personnalisÃ© gratuit",
+          "href": "https://MK Fiduciaire/contact",
+          "internal": false
+        },
+        {
+          "text": "calculer le rendement fiscal d'un rachat LPP avec un cabinet de gestion de fortune",
+          "href": "https://gestion-de-fortune.ch/rachat-lpp-fiscalite/",
+          "internal": false
+        },
+        {
+          "text": "Office FÃ©dÃ©ral des Assurances Sociales (OFAS) - PrÃ©voyance professionnelle",
+          "href": "https://www.bsv.admin.ch/bsv/fr/home/assurances-sociales/bv.html",
+          "internal": false
+        },
+        {
+          "text": "Administration FÃ©dÃ©rale des Contributions (AFC) - ImpÃ´t fÃ©dÃ©ral direct",
+          "href": "https://www.estv.admin.ch/estv/fr/home/impot-federal-direct/impot-federal-direct.html",
+          "internal": false
+        },
+        {
+          "text": "Association Suisse des Institutions de PrÃ©voyance (ASIP)",
+          "href": "https://www.asip.ch/fr/",
+          "internal": false
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        },
+        {
+          "text": "Fribourg",
+          "href": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+          "internal": true
+        },
+        {
+          "text": "Bulle",
+          "href": "https://mkfiduciaire.ch/fiduciaire-bulle.html",
+          "internal": true
+        },
+        {
+          "text": "Sion",
+          "href": "https://mkfiduciaire.ch/fiduciaire-sion.html",
+          "internal": true
+        },
+        {
+          "text": "Sierre",
+          "href": "https://mkfiduciaire.ch/fiduciaire-sierre.html",
+          "internal": true
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Canton",
+            "Revenu Imposable (CHF)",
+            "Rachat LPP (CHF)",
+            "Ãconomie Fiscale EstimÃ©e (CHF)"
+          ],
+          [
+            "GenÃ¨ve",
+            "150'000",
+            "50'000",
+            "~15'000 - 18'000"
+          ],
+          [
+            "Vaud",
+            "120'000",
+            "40'000",
+            "~10'000 - 12'000"
+          ],
+          [
+            "Zurich",
+            "180'000",
+            "60'000",
+            "~18'000 - 22'000"
+          ]
+        ],
+        [
+          [
+            "CaractÃ©ristique",
+            "Rachat LPP (2Ã¨me Pilier)",
+            "Pilier 3a (PrÃ©voyance LiÃ©e)"
+          ],
+          [
+            "DÃ©duction Fiscale",
+            "IllimitÃ©e (jusqu'Ã  la lacune de cotisation)",
+            "Plafond annuel (env. CHF 7'056 en 2026 pour salariÃ©s)"
+          ],
+          [
+            "Conditions de Retrait",
+            "Retraite, EPL (avec remboursement), dÃ©part Suisse (hors AELE), invaliditÃ©. DÃ©lai de blocage de 3 ans aprÃ¨s rachat.",
+            "Retraite, EPL, dÃ©part Suisse, invaliditÃ©, rachat d'indÃ©pendance."
+          ],
+          [
+            "LiquiditÃ©",
+            "Faible (liÃ©e aux conditions LPP)",
+            "Faible (liÃ©e aux conditions 3a)"
+          ],
+          [
+            "FlexibilitÃ©",
+            "Moins flexible sur le timing des versements",
+            "Versements annuels flexibles (jusqu'au plafond)"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/015__rachat-lpp-guide-complet-2026.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/steuern-zuerich-basel-2026.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Unternehmenssteuern in ZÃ¼rich und Basel 2026: Vergleich und Optimierung | MK Treuhand",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Steuervergleich ZÃ¼rich vs Basel 2026: effektive SteuersÃ¤tze, AbzÃ¼ge, Patent Box und Tipps zur Steueroptimierung fÃ¼r KMU."
+      },
+      "canonical": "https://mkfiduciaire.ch/steuern-zuerich-basel-2026.html",
+      "headings": {
+        "h1": [
+          "Unternehmenssteuern in ZÃ¼rich und Basel 2026: Vergleich und Optimierung"
+        ],
+        "h2": [
+          "ZÃ¼rich vs Basel: Steuervergleich fÃ¼r Unternehmen 2026",
+          "Steueroptimierung fÃ¼r KMU"
+        ],
+        "h4": [
+          "MK Treuhand",
+          "Contact"
+        ]
+      },
+      "text": "Unternehmenssteuern in ZÃ¼rich und Basel 2026: Vergleich und Optimierung | MK Treuhand\nKostenlose Erstberatung â\n+41 26 518 00 00\nFR\nDE\nMK\nTreuhand\nStartseite\n+41 26 518 00 00\nKostenlose Beratung\nUnternehmenssteuern in ZÃ¼rich und Basel 2026: Vergleich und Optimierung\nVerÃ¶ffentlicht am 25. MÃ¤rz 2026 Â· Lesezeit: 8 Min.\nZÃ¼rich vs Basel: Steuervergleich fÃ¼r Unternehmen 2026\nDie Kantone\nZÃ¼rich\nund\nBasel-Stadt\ngehÃ¶ren zu den wichtigsten Wirtschaftsstandorten der Schweiz. Ihre Steuersysteme unterscheiden sich jedoch deutlich.\nKriterium\nZÃ¼rich\nBasel-Stadt\nEffektiver Gewinnsteuersatz\n~19.7%\n~13.0%\nKapitalsteuer\n0.07%\n0.5% (mit ErmÃ¤ssigung)\nPatent Box\nJa (90%)\nJa (90%)\nF&E-Superabzug\nJa (150%)\nJa (150%)\nBasel-Stadt hat den Steuersatz in den letzten Jahren massiv gesenkt und ist nun einer der kompetitivsten Kantone fÃ¼r Unternehmen. ZÃ¼rich kompensiert mit seinem einzigartigen Zugang zu FachkrÃ¤ften, Kapital und internationalem Netzwerk.\nSteueroptimierung fÃ¼r KMU\nInvestitionsplanung\n: Abschreibungen im Anschaffungsjahr maximieren.\nBVG-EinkÃ¤ufe\n: Fehlende Beitragsjahre auffÃ¼llen â voll abzugsfÃ¤hig.\nSÃ¤ule 3a\n: Max. CHF 36'288 (ohne PK) oder CHF 7'258 (mit PK) einzahlen.\nPatent Box nutzen\n: FÃ¼r Software, Marken und Patente bis 90% Reduktion.\nStandortwahl\n: Gemeindesteuerfuss variiert stark â Zug, Schwyz oder Nidwalden als Alternative prÃ¼fen.\nSteuerberatung fÃ¼r Ihr Unternehmen\nUnsere Experten in\nZÃ¼rich\nund\nBasel\noptimieren Ihre Steuerlast.\nKostenlose Erstberatung\n.\nMK Treuhand\nIhr TreuhandbÃ¼ro in der Deutsch- und Westschweiz.\nContact\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nÂ© 2026 MK Treuhand â Alle Rechte vorbehalten",
+      "text_len": 1656,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "MK Treuhand",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Startseite",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Kostenlose Beratung",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "ZÃ¼rich",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Basel-Stadt",
+          "href": "https://mkfiduciaire.ch/treuhand-basel.html",
+          "internal": true
+        },
+        {
+          "text": "ZÃ¼rich",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Basel",
+          "href": "https://mkfiduciaire.ch/treuhand-basel.html",
+          "internal": true
+        },
+        {
+          "text": "Kostenlose Erstberatung",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Kriterium",
+            "ZÃ¼rich",
+            "Basel-Stadt"
+          ],
+          [
+            "Effektiver Gewinnsteuersatz",
+            "~19.7%",
+            "~13.0%"
+          ],
+          [
+            "Kapitalsteuer",
+            "0.07%",
+            "0.5% (mit ErmÃ¤ssigung)"
+          ],
+          [
+            "Patent Box",
+            "Ja (90%)",
+            "Ja (90%)"
+          ],
+          [
+            "F&E-Superabzug",
+            "Ja (150%)",
+            "Ja (150%)"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/016__steuern-zuerich-basel-2026.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-aarau.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": null,
+      "meta": {},
+      "canonical": null,
+      "headings": {},
+      "text": "",
+      "text_len": 0,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/017__treuhand-aarau.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-basel.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": null,
+      "meta": {},
+      "canonical": null,
+      "headings": {},
+      "text": "",
+      "text_len": 0,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/018__treuhand-basel.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-bern.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": null,
+      "meta": {},
+      "canonical": null,
+      "headings": {},
+      "text": "",
+      "text_len": 0,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/019__treuhand-bern.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-luzern.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": null,
+      "meta": {},
+      "canonical": null,
+      "headings": {},
+      "text": "",
+      "text_len": 0,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/020__treuhand-luzern.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-olten.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Treuhand in Olten (Solothurn) â Buchhaltung & Steuern | MK Treuhand",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "TreuhandbÃ¼ro in Olten: MK Treuhand bietet Buchhaltung, Steuerberatung, FirmengrÃ¼ndung und Lohnbuchhaltung im Kanton Solothurn. Kostenlose Erstberatung."
+      },
+      "canonical": "https://mkfiduciaire.ch/treuhand-olten.html",
+      "headings": {
+        "h1": [
+          "Treuhand in Olten â Buchhaltung & Steuerberatung"
+        ],
+        "h2": [
+          "Unsere Dienstleistungen in Olten",
+          "Wirtschaft in Olten",
+          "Was Unsere Kunden Sagen",
+          "Unsere Ratgeber",
+          "Unsere TreuhandbÃ¼ros in der Deutschschweiz",
+          "Brauchen Sie ein TreuhandbÃ¼ro in Olten?"
+        ],
+        "h3": [
+          "Kontaktieren Sie uns in Olten",
+          "Buchhaltung & Steuern",
+          "FirmengrÃ¼ndung",
+          "Lohnbuchhaltung",
+          "Revision & PrÃ¼fung",
+          "Unternehmensberatung",
+          "Domizilierung",
+          "Steuern ZÃ¼rich & Basel 2026",
+          "FirmengrÃ¼ndung in der Schweiz",
+          "Buchhaltung fÃ¼r KMU"
+        ],
+        "h4": [
+          "MK Treuhand",
+          "Dienstleistungen",
+          "Kontakt"
+        ]
+      },
+      "text": "Treuhand in Olten (Solothurn) â Buchhaltung & Steuern | MK Treuhand\nKostenlose Erstberatung â\n+41 26 518 00 00\n|\ninfo@mkfiduciaire.ch\nFR\nDE\nMK\nTreuhand\nDienstleistungen\nWirtschaft\nBewertungen\n+41 26 518 00 00\nKostenlose Beratung\nTreuhand in Olten â Kanton Solothurn\nTreuhand in Olten â\nBuchhaltung &\nSteuerberatung\nVerkehrsknotenpunkt der Schweiz. Idealer Standort fÃ¼r Unternehmen mit nationaler Reichweite. MK Treuhand begleitet Sie bei allen buchhalterischen, steuerlichen und administrativen Fragen.\n19'000\nEinwohner\n2'500\nUnternehmen\n4.9 â\nGoogle\nâ Kostenlose Erstberatung\nKontaktieren Sie uns in Olten\nAntwort innerhalb 24h â Unverbindlich\nName\nE-Mail\nTelefon\nGewÃ¼nschte Dienstleistung\nâ Bitte wÃ¤hlen â\nBuchhaltung\nSteuerberatung\nFirmengrÃ¼ndung\nLohnbuchhaltung\nBeratung\nKostenlose Beratung anfordern â\nUnsere Dienstleistungen in Olten\nUmfassende Betreuung fÃ¼r Ihr Unternehmen im Kanton Solothurn\nBuchhaltung & Steuern\nBuchfÃ¼hrung, Jahresabschluss, SteuererklÃ¤rungen und Optimierung fÃ¼r KMU und SelbstÃ¤ndige.\nFirmengrÃ¼ndung\nAG, GmbH, Einzelfirma: Von der Statutenredaktion bis zur Handelsregistereintragung.\nLohnbuchhaltung\nLohnabrechnungen, Sozialversicherungen AHV/BVG, Lohnausweise und Meldungen.\nRevision & PrÃ¼fung\nEingeschrÃ¤nkte Revision, ordentliche Revision und PrÃ¼fung der Jahresrechnung.\nUnternehmensberatung\nBusinessplan, Finanzanalyse, Restrukturierung und strategische Begleitung.\nDomizilierung\nGeschÃ¤ftsadresse in Olten fÃ¼r Ihren Firmensitz.\nWirtschaft in Olten\nKanton Solothurn\nOlten ist in weniger als einer Stunde von ZÃ¼rich, Bern, Basel und Luzern erreichbar â perfekt fÃ¼r Dienstleister.\nWas Unsere Kunden Sagen\nâââââ\nÂ« MK Treuhand hat mich bei der GrÃ¼ndung meiner GmbH in Olten perfekt begleitet. Â»\nMarco D.\nâââââ\nÂ« Hervorragende Buchhaltung. Sie kennen die Besonderheiten des Kantons Solothurn. Â»\nSandra L.\nâââââ\nÂ« Dank der Steueroptimierung spare ich Ã¼ber CHF 5'000 pro Jahr. Â»\nThomas R.\nUnsere Ratgeber\nKostenlose Ressourcen fÃ¼r Unternehmer\nSteuern ZÃ¼rich & Basel 2026\nSteuersÃ¤tze, AbzÃ¼ge und Optimierung.\nFirmengrÃ¼ndung in der Schweiz\nAG, GmbH oder Einzelfirma: Ratgeber.\nBuchhaltung fÃ¼r KMU\nPflichten, Software und Tipps.\nUnsere TreuhandbÃ¼ros in der Deutschschweiz\nTreuhand ZÃ¼rich\nTreuhand Basel\nTreuhand Bern\nTreuhand Solothurn\nTreuhand Aarau\nBrauchen Sie ein TreuhandbÃ¼ro in Olten?\nKostenlose Erstberatung. Unverbindlich. Antwort innerhalb 24h.\nKostenlose Beratung anfordern â\nMK Treuhand\nIhr TreuhandbÃ¼ro in der Deutsch- und Westschweiz. Buchhaltung, Steuern und FirmengrÃ¼ndung fÃ¼r KMU.\nDienstleistungen\nBuchhaltung\nSteuern\nFirmengrÃ¼ndung\nLohnbuchhaltung\nKontakt\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nÂ© 2026 MK Treuhand â Alle Rechte vorbehalten | info@mkfiduciaire.ch",
+      "text_len": 2789,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html",
+          "internal": true
+        },
+        {
+          "text": "MK Treuhand",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html#services",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaft",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html#wirtschaft",
+          "internal": true
+        },
+        {
+          "text": "Bewertungen",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html#bewertungen",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Kostenlose Beratung",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html#contact",
+          "internal": true
+        },
+        {
+          "text": "Steuern ZÃ¼rich & Basel 2026 SteuersÃ¤tze, AbzÃ¼ge und Optimierung.",
+          "href": "https://mkfiduciaire.ch/steuern-zuerich-basel-2026.html",
+          "internal": true
+        },
+        {
+          "text": "FirmengrÃ¼ndung in der Schweiz AG, GmbH oder Einzelfirma: Ratgeber.",
+          "href": "https://mkfiduciaire.ch/firmengruendung-schweiz-guide.html",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung fÃ¼r KMU Pflichten, Software und Tipps.",
+          "href": "https://mkfiduciaire.ch/buchhaltung-kmu-schweiz.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand ZÃ¼rich",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Basel",
+          "href": "https://mkfiduciaire.ch/treuhand-basel.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bern",
+          "href": "https://mkfiduciaire.ch/treuhand-bern.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Solothurn",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Aarau",
+          "href": "https://mkfiduciaire.ch/treuhand-aarau.html",
+          "internal": true
+        },
+        {
+          "text": "Kostenlose Beratung anfordern â",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html#contact",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html#services",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html#services",
+          "internal": true
+        },
+        {
+          "text": "FirmengrÃ¼ndung",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html#services",
+          "internal": true
+        },
+        {
+          "text": "Lohnbuchhaltung",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html#services",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://formspree.io/f/mojkpejg",
+          "method": "POST",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": null,
+              "placeholder": "Ihr Name"
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": null,
+              "placeholder": "email@beispiel.ch"
+            },
+            {
+              "tag": "input",
+              "type": "tel",
+              "name": null,
+              "placeholder": "+41 ..."
+            },
+            {
+              "tag": "select",
+              "type": null,
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/021__treuhand-olten.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-solothurn.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Treuhand in Solothurn (Solothurn) â Buchhaltung & Steuern | MK Treuhand",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "TreuhandbÃ¼ro in Solothurn: MK Treuhand bietet Buchhaltung, Steuerberatung, FirmengrÃ¼ndung und Lohnbuchhaltung im Kanton Solothurn. Kostenlose Erstberatung."
+      },
+      "canonical": "https://mkfiduciaire.ch/treuhand-solothurn.html",
+      "headings": {
+        "h1": [
+          "Treuhand in Solothurn â Buchhaltung & Steuerberatung"
+        ],
+        "h2": [
+          "Unsere Dienstleistungen in Solothurn",
+          "Wirtschaft in Solothurn",
+          "Was Unsere Kunden Sagen",
+          "Unsere Ratgeber",
+          "Unsere TreuhandbÃ¼ros in der Deutschschweiz",
+          "Brauchen Sie ein TreuhandbÃ¼ro in Solothurn?"
+        ],
+        "h3": [
+          "Kontaktieren Sie uns in Solothurn",
+          "Buchhaltung & Steuern",
+          "FirmengrÃ¼ndung",
+          "Lohnbuchhaltung",
+          "Revision & PrÃ¼fung",
+          "Unternehmensberatung",
+          "Domizilierung",
+          "Steuern ZÃ¼rich & Basel 2026",
+          "FirmengrÃ¼ndung in der Schweiz",
+          "Buchhaltung fÃ¼r KMU"
+        ],
+        "h4": [
+          "MK Treuhand",
+          "Dienstleistungen",
+          "Kontakt"
+        ]
+      },
+      "text": "Treuhand in Solothurn (Solothurn) â Buchhaltung & Steuern | MK Treuhand\nKostenlose Erstberatung â\n+41 26 518 00 00\n|\ninfo@mkfiduciaire.ch\nFR\nDE\nMK\nTreuhand\nDienstleistungen\nWirtschaft\nBewertungen\n+41 26 518 00 00\nKostenlose Beratung\nTreuhand in Solothurn â Kanton Solothurn\nTreuhand in Solothurn â\nBuchhaltung &\nSteuerberatung\nBarockstadt an der Aare. Industriestandort mit Uhrenindustrie, Maschinenbau und Medizintechnik. MK Treuhand begleitet Sie bei allen buchhalterischen, steuerlichen und administrativen Fragen.\n17'000\nEinwohner\n2'200\nUnternehmen\n4.9 â\nGoogle\nâ Kostenlose Erstberatung\nKontaktieren Sie uns in Solothurn\nAntwort innerhalb 24h â Unverbindlich\nName\nE-Mail\nTelefon\nGewÃ¼nschte Dienstleistung\nâ Bitte wÃ¤hlen â\nBuchhaltung\nSteuerberatung\nFirmengrÃ¼ndung\nLohnbuchhaltung\nBeratung\nKostenlose Beratung anfordern â\nUnsere Dienstleistungen in Solothurn\nUmfassende Betreuung fÃ¼r Ihr Unternehmen im Kanton Solothurn\nBuchhaltung & Steuern\nBuchfÃ¼hrung, Jahresabschluss, SteuererklÃ¤rungen und Optimierung fÃ¼r KMU und SelbstÃ¤ndige.\nFirmengrÃ¼ndung\nAG, GmbH, Einzelfirma: Von der Statutenredaktion bis zur Handelsregistereintragung.\nLohnbuchhaltung\nLohnabrechnungen, Sozialversicherungen AHV/BVG, Lohnausweise und Meldungen.\nRevision & PrÃ¼fung\nEingeschrÃ¤nkte Revision, ordentliche Revision und PrÃ¼fung der Jahresrechnung.\nUnternehmensberatung\nBusinessplan, Finanzanalyse, Restrukturierung und strategische Begleitung.\nDomizilierung\nGeschÃ¤ftsadresse in Solothurn fÃ¼r Ihren Firmensitz.\nWirtschaft in Solothurn\nKanton Solothurn\nSolothurn bietet moderate Steuern und eine zentrale Lage zwischen Bern, Basel und ZÃ¼rich.\nWas Unsere Kunden Sagen\nâââââ\nÂ« MK Treuhand hat mich bei der GrÃ¼ndung meiner GmbH in Solothurn perfekt begleitet. Â»\nMarco D.\nâââââ\nÂ« Hervorragende Buchhaltung. Sie kennen die Besonderheiten des Kantons Solothurn. Â»\nSandra L.\nâââââ\nÂ« Dank der Steueroptimierung spare ich Ã¼ber CHF 5'000 pro Jahr. Â»\nThomas R.\nUnsere Ratgeber\nKostenlose Ressourcen fÃ¼r Unternehmer\nSteuern ZÃ¼rich & Basel 2026\nSteuersÃ¤tze, AbzÃ¼ge und Optimierung.\nFirmengrÃ¼ndung in der Schweiz\nAG, GmbH oder Einzelfirma: Ratgeber.\nBuchhaltung fÃ¼r KMU\nPflichten, Software und Tipps.\nUnsere TreuhandbÃ¼ros in der Deutschschweiz\nTreuhand ZÃ¼rich\nTreuhand Basel\nTreuhand Bern\nTreuhand Olten\nTreuhand Aarau\nBrauchen Sie ein TreuhandbÃ¼ro in Solothurn?\nKostenlose Erstberatung. Unverbindlich. Antwort innerhalb 24h.\nKostenlose Beratung anfordern â\nMK Treuhand\nIhr TreuhandbÃ¼ro in der Deutsch- und Westschweiz. Buchhaltung, Steuern und FirmengrÃ¼ndung fÃ¼r KMU.\nDienstleistungen\nBuchhaltung\nSteuern\nFirmengrÃ¼ndung\nLohnbuchhaltung\nKontakt\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nÂ© 2026 MK Treuhand â Alle Rechte vorbehalten | info@mkfiduciaire.ch",
+      "text_len": 2797,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html",
+          "internal": true
+        },
+        {
+          "text": "MK Treuhand",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html#services",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaft",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html#wirtschaft",
+          "internal": true
+        },
+        {
+          "text": "Bewertungen",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html#bewertungen",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Kostenlose Beratung",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html#contact",
+          "internal": true
+        },
+        {
+          "text": "Steuern ZÃ¼rich & Basel 2026 SteuersÃ¤tze, AbzÃ¼ge und Optimierung.",
+          "href": "https://mkfiduciaire.ch/steuern-zuerich-basel-2026.html",
+          "internal": true
+        },
+        {
+          "text": "FirmengrÃ¼ndung in der Schweiz AG, GmbH oder Einzelfirma: Ratgeber.",
+          "href": "https://mkfiduciaire.ch/firmengruendung-schweiz-guide.html",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung fÃ¼r KMU Pflichten, Software und Tipps.",
+          "href": "https://mkfiduciaire.ch/buchhaltung-kmu-schweiz.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand ZÃ¼rich",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Basel",
+          "href": "https://mkfiduciaire.ch/treuhand-basel.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bern",
+          "href": "https://mkfiduciaire.ch/treuhand-bern.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Olten",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Aarau",
+          "href": "https://mkfiduciaire.ch/treuhand-aarau.html",
+          "internal": true
+        },
+        {
+          "text": "Kostenlose Beratung anfordern â",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html#contact",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html#services",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html#services",
+          "internal": true
+        },
+        {
+          "text": "FirmengrÃ¼ndung",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html#services",
+          "internal": true
+        },
+        {
+          "text": "Lohnbuchhaltung",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html#services",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://formspree.io/f/mojkpejg",
+          "method": "POST",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": null,
+              "placeholder": "Ihr Name"
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": null,
+              "placeholder": "email@beispiel.ch"
+            },
+            {
+              "tag": "input",
+              "type": "tel",
+              "name": null,
+              "placeholder": "+41 ..."
+            },
+            {
+              "tag": "select",
+              "type": null,
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/022__treuhand-solothurn.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-winterthur.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Treuhand in Winterthur (ZÃ¼rich) â Buchhaltung & Steuern | MK Treuhand",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "TreuhandbÃ¼ro in Winterthur: MK Treuhand bietet Buchhaltung, Steuerberatung, FirmengrÃ¼ndung und Lohnbuchhaltung im Kanton ZÃ¼rich. Kostenlose Erstberatung."
+      },
+      "canonical": "https://mkfiduciaire.ch/treuhand-winterthur.html",
+      "headings": {
+        "h1": [
+          "Treuhand in Winterthur â Buchhaltung & Steuerberatung"
+        ],
+        "h2": [
+          "Unsere Dienstleistungen in Winterthur",
+          "Wirtschaft in Winterthur",
+          "Was Unsere Kunden Sagen",
+          "Unsere Ratgeber",
+          "Unsere TreuhandbÃ¼ros in der Deutschschweiz",
+          "Brauchen Sie ein TreuhandbÃ¼ro in Winterthur?"
+        ],
+        "h3": [
+          "Kontaktieren Sie uns in Winterthur",
+          "Buchhaltung & Steuern",
+          "FirmengrÃ¼ndung",
+          "Lohnbuchhaltung",
+          "Revision & PrÃ¼fung",
+          "Unternehmensberatung",
+          "Domizilierung",
+          "Steuern ZÃ¼rich & Basel 2026",
+          "FirmengrÃ¼ndung in der Schweiz",
+          "Buchhaltung fÃ¼r KMU"
+        ],
+        "h4": [
+          "MK Treuhand",
+          "Dienstleistungen",
+          "Kontakt"
+        ]
+      },
+      "text": "Treuhand in Winterthur (ZÃ¼rich) â Buchhaltung & Steuern | MK Treuhand\nKostenlose Erstberatung â\n+41 26 518 00 00\n|\ninfo@mkfiduciaire.ch\nFR\nDE\nMK\nTreuhand\nDienstleistungen\nWirtschaft\nBewertungen\n+41 26 518 00 00\nKostenlose Beratung\nTreuhand in Winterthur â Kanton ZÃ¼rich\nTreuhand in Winterthur â\nBuchhaltung &\nSteuerberatung\nZweitgrÃ¶sste Stadt des Kantons ZÃ¼rich. Starker Industriestandort mit Maschinenbau, Versicherungen und IT. MK Treuhand begleitet Sie bei allen buchhalterischen, steuerlichen und administrativen Fragen.\n115'000\nEinwohner\n10'000\nUnternehmen\n4.9 â\nGoogle\nâ Kostenlose Erstberatung\nKontaktieren Sie uns in Winterthur\nAntwort innerhalb 24h â Unverbindlich\nName\nE-Mail\nTelefon\nGewÃ¼nschte Dienstleistung\nâ Bitte wÃ¤hlen â\nBuchhaltung\nSteuerberatung\nFirmengrÃ¼ndung\nLohnbuchhaltung\nBeratung\nKostenlose Beratung anfordern â\nUnsere Dienstleistungen in Winterthur\nUmfassende Betreuung fÃ¼r Ihr Unternehmen im Kanton ZÃ¼rich\nBuchhaltung & Steuern\nBuchfÃ¼hrung, Jahresabschluss, SteuererklÃ¤rungen und Optimierung fÃ¼r KMU und SelbstÃ¤ndige.\nFirmengrÃ¼ndung\nAG, GmbH, Einzelfirma: Von der Statutenredaktion bis zur Handelsregistereintragung.\nLohnbuchhaltung\nLohnabrechnungen, Sozialversicherungen AHV/BVG, Lohnausweise und Meldungen.\nRevision & PrÃ¼fung\nEingeschrÃ¤nkte Revision, ordentliche Revision und PrÃ¼fung der Jahresrechnung.\nUnternehmensberatung\nBusinessplan, Finanzanalyse, Restrukturierung und strategische Begleitung.\nDomizilierung\nGeschÃ¤ftsadresse in Winterthur fÃ¼r Ihren Firmensitz.\nWirtschaft in Winterthur\nKanton ZÃ¼rich\nWinterthur bietet tiefere Mieten als ZÃ¼rich-Stadt bei gleicher Anbindung und Infrastruktur.\nWas Unsere Kunden Sagen\nâââââ\nÂ« MK Treuhand hat mich bei der GrÃ¼ndung meiner GmbH in Winterthur perfekt begleitet. Â»\nMarco D.\nâââââ\nÂ« Hervorragende Buchhaltung. Sie kennen die Besonderheiten des Kantons ZÃ¼rich. Â»\nSandra L.\nâââââ\nÂ« Dank der Steueroptimierung spare ich Ã¼ber CHF 5'000 pro Jahr. Â»\nThomas R.\nUnsere Ratgeber\nKostenlose Ressourcen fÃ¼r Unternehmer\nSteuern ZÃ¼rich & Basel 2026\nSteuersÃ¤tze, AbzÃ¼ge und Optimierung.\nFirmengrÃ¼ndung in der Schweiz\nAG, GmbH oder Einzelfirma: Ratgeber.\nBuchhaltung fÃ¼r KMU\nPflichten, Software und Tipps.\nUnsere TreuhandbÃ¼ros in der Deutschschweiz\nTreuhand ZÃ¼rich\nTreuhand Basel\nTreuhand Bern\nTreuhand Solothurn\nTreuhand Olten\nBrauchen Sie ein TreuhandbÃ¼ro in Winterthur?\nKostenlose Erstberatung. Unverbindlich. Antwort innerhalb 24h.\nKostenlose Beratung anfordern â\nMK Treuhand\nIhr TreuhandbÃ¼ro in der Deutsch- und Westschweiz. Buchhaltung, Steuern und FirmengrÃ¼ndung fÃ¼r KMU.\nDienstleistungen\nBuchhaltung\nSteuern\nFirmengrÃ¼ndung\nLohnbuchhaltung\nKontakt\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nÂ© 2026 MK Treuhand â Alle Rechte vorbehalten | info@mkfiduciaire.ch",
+      "text_len": 2816,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-winterthur.html",
+          "internal": true
+        },
+        {
+          "text": "MK Treuhand",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://mkfiduciaire.ch/treuhand-winterthur.html#services",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaft",
+          "href": "https://mkfiduciaire.ch/treuhand-winterthur.html#wirtschaft",
+          "internal": true
+        },
+        {
+          "text": "Bewertungen",
+          "href": "https://mkfiduciaire.ch/treuhand-winterthur.html#bewertungen",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Kostenlose Beratung",
+          "href": "https://mkfiduciaire.ch/treuhand-winterthur.html#contact",
+          "internal": true
+        },
+        {
+          "text": "Steuern ZÃ¼rich & Basel 2026 SteuersÃ¤tze, AbzÃ¼ge und Optimierung.",
+          "href": "https://mkfiduciaire.ch/steuern-zuerich-basel-2026.html",
+          "internal": true
+        },
+        {
+          "text": "FirmengrÃ¼ndung in der Schweiz AG, GmbH oder Einzelfirma: Ratgeber.",
+          "href": "https://mkfiduciaire.ch/firmengruendung-schweiz-guide.html",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung fÃ¼r KMU Pflichten, Software und Tipps.",
+          "href": "https://mkfiduciaire.ch/buchhaltung-kmu-schweiz.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand ZÃ¼rich",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Basel",
+          "href": "https://mkfiduciaire.ch/treuhand-basel.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bern",
+          "href": "https://mkfiduciaire.ch/treuhand-bern.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Solothurn",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Olten",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html",
+          "internal": true
+        },
+        {
+          "text": "Kostenlose Beratung anfordern â",
+          "href": "https://mkfiduciaire.ch/treuhand-winterthur.html#contact",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://mkfiduciaire.ch/treuhand-winterthur.html#services",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://mkfiduciaire.ch/treuhand-winterthur.html#services",
+          "internal": true
+        },
+        {
+          "text": "FirmengrÃ¼ndung",
+          "href": "https://mkfiduciaire.ch/treuhand-winterthur.html#services",
+          "internal": true
+        },
+        {
+          "text": "Lohnbuchhaltung",
+          "href": "https://mkfiduciaire.ch/treuhand-winterthur.html#services",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://formspree.io/f/mojkpejg",
+          "method": "POST",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": null,
+              "placeholder": "Ihr Name"
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": null,
+              "placeholder": "email@beispiel.ch"
+            },
+            {
+              "tag": "input",
+              "type": "tel",
+              "name": null,
+              "placeholder": "+41 ..."
+            },
+            {
+              "tag": "select",
+              "type": null,
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/023__treuhand-winterthur.html"
+    },
+    {
+      "url": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Treuhand in ZÃ¼rich (ZÃ¼rich) â Buchhaltung & Steuern | MK Treuhand",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "TreuhandbÃ¼ro in ZÃ¼rich: MK Treuhand bietet Buchhaltung, Steuerberatung, FirmengrÃ¼ndung und Lohnbuchhaltung im Kanton ZÃ¼rich. Kostenlose Erstberatung."
+      },
+      "canonical": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+      "headings": {
+        "h1": [
+          "Treuhand in ZÃ¼rich â Buchhaltung & Steuerberatung"
+        ],
+        "h2": [
+          "Unsere Dienstleistungen in ZÃ¼rich",
+          "Wirtschaft in ZÃ¼rich",
+          "Was Unsere Kunden Sagen",
+          "Unsere Ratgeber",
+          "Unsere TreuhandbÃ¼ros in der Deutschschweiz",
+          "Brauchen Sie ein TreuhandbÃ¼ro in ZÃ¼rich?"
+        ],
+        "h3": [
+          "Kontaktieren Sie uns in ZÃ¼rich",
+          "Buchhaltung & Steuern",
+          "FirmengrÃ¼ndung",
+          "Lohnbuchhaltung",
+          "Revision & PrÃ¼fung",
+          "Unternehmensberatung",
+          "Domizilierung",
+          "Steuern ZÃ¼rich & Basel 2026",
+          "FirmengrÃ¼ndung in der Schweiz",
+          "Buchhaltung fÃ¼r KMU"
+        ],
+        "h4": [
+          "MK Treuhand",
+          "Dienstleistungen",
+          "Kontakt"
+        ]
+      },
+      "text": "Treuhand in ZÃ¼rich (ZÃ¼rich) â Buchhaltung & Steuern | MK Treuhand\nKostenlose Erstberatung â\n+41 26 518 00 00\n|\ninfo@mkfiduciaire.ch\nFR\nDE\nMK\nTreuhand\nDienstleistungen\nWirtschaft\nBewertungen\n+41 26 518 00 00\nKostenlose Beratung\nTreuhand in ZÃ¼rich â Kanton ZÃ¼rich\nTreuhand in ZÃ¼rich â\nBuchhaltung &\nSteuerberatung\nWirtschaftsmetropole der Schweiz. Finanzplatz, Tech-Hub und Sitz zahlreicher internationaler Unternehmen. MK Treuhand begleitet Sie bei allen buchhalterischen, steuerlichen und administrativen Fragen.\n440'000\nEinwohner\n52'000\nUnternehmen\n4.9 â\nGoogle\nâ Kostenlose Erstberatung\nKontaktieren Sie uns in ZÃ¼rich\nAntwort innerhalb 24h â Unverbindlich\nName\nE-Mail\nTelefon\nGewÃ¼nschte Dienstleistung\nâ Bitte wÃ¤hlen â\nBuchhaltung\nSteuerberatung\nFirmengrÃ¼ndung\nLohnbuchhaltung\nBeratung\nKostenlose Beratung anfordern â\nUnsere Dienstleistungen in ZÃ¼rich\nUmfassende Betreuung fÃ¼r Ihr Unternehmen im Kanton ZÃ¼rich\nBuchhaltung & Steuern\nBuchfÃ¼hrung, Jahresabschluss, SteuererklÃ¤rungen und Optimierung fÃ¼r KMU und SelbstÃ¤ndige.\nFirmengrÃ¼ndung\nAG, GmbH, Einzelfirma: Von der Statutenredaktion bis zur Handelsregistereintragung.\nLohnbuchhaltung\nLohnabrechnungen, Sozialversicherungen AHV/BVG, Lohnausweise und Meldungen.\nRevision & PrÃ¼fung\nEingeschrÃ¤nkte Revision, ordentliche Revision und PrÃ¼fung der Jahresrechnung.\nUnternehmensberatung\nBusinessplan, Finanzanalyse, Restrukturierung und strategische Begleitung.\nDomizilierung\nGeschÃ¤ftsadresse in ZÃ¼rich fÃ¼r Ihren Firmensitz.\nWirtschaft in ZÃ¼rich\nKanton ZÃ¼rich\nDer Kanton ZÃ¼rich bietet einen effektiven Steuersatz von ca. 19.7% fÃ¼r Unternehmen â hÃ¶her als andere Kantone, aber mit einzigartigem Zugang zu Talenten und Kapital.\nWas Unsere Kunden Sagen\nâââââ\nÂ« MK Treuhand hat mich bei der GrÃ¼ndung meiner GmbH in ZÃ¼rich perfekt begleitet. Â»\nMarco D.\nâââââ\nÂ« Hervorragende Buchhaltung. Sie kennen die Besonderheiten des Kantons ZÃ¼rich. Â»\nSandra L.\nâââââ\nÂ« Dank der Steueroptimierung spare ich Ã¼ber CHF 5'000 pro Jahr. Â»\nThomas R.\nUnsere Ratgeber\nKostenlose Ressourcen fÃ¼r Unternehmer\nSteuern ZÃ¼rich & Basel 2026\nSteuersÃ¤tze, AbzÃ¼ge und Optimierung.\nFirmengrÃ¼ndung in der Schweiz\nAG, GmbH oder Einzelfirma: Ratgeber.\nBuchhaltung fÃ¼r KMU\nPflichten, Software und Tipps.\nUnsere TreuhandbÃ¼ros in der Deutschschweiz\nTreuhand Basel\nTreuhand Bern\nTreuhand Solothurn\nTreuhand Olten\nTreuhand Aarau\nBrauchen Sie ein TreuhandbÃ¼ro in ZÃ¼rich?\nKostenlose Erstberatung. Unverbindlich. Antwort innerhalb 24h.\nKostenlose Beratung anfordern â\nMK Treuhand\nIhr TreuhandbÃ¼ro in der Deutsch- und Westschweiz. Buchhaltung, Steuern und FirmengrÃ¼ndung fÃ¼r KMU.\nDienstleistungen\nBuchhaltung\nSteuern\nFirmengrÃ¼ndung\nLohnbuchhaltung\nKontakt\n+41 26 518 00 00\ninfo@mkfiduciaire.ch\nÂ© 2026 MK Treuhand â Alle Rechte vorbehalten | info@mkfiduciaire.ch",
+      "text_len": 2863,
+      "links": [
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        },
+        {
+          "text": "FR",
+          "href": "https://mkfiduciaire.ch/fiduciaire-fribourg.html",
+          "internal": true
+        },
+        {
+          "text": "DE",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "MK Treuhand",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html#services",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaft",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html#wirtschaft",
+          "internal": true
+        },
+        {
+          "text": "Bewertungen",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html#bewertungen",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "Kostenlose Beratung",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html#contact",
+          "internal": true
+        },
+        {
+          "text": "Steuern ZÃ¼rich & Basel 2026 SteuersÃ¤tze, AbzÃ¼ge und Optimierung.",
+          "href": "https://mkfiduciaire.ch/steuern-zuerich-basel-2026.html",
+          "internal": true
+        },
+        {
+          "text": "FirmengrÃ¼ndung in der Schweiz AG, GmbH oder Einzelfirma: Ratgeber.",
+          "href": "https://mkfiduciaire.ch/firmengruendung-schweiz-guide.html",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung fÃ¼r KMU Pflichten, Software und Tipps.",
+          "href": "https://mkfiduciaire.ch/buchhaltung-kmu-schweiz.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Basel",
+          "href": "https://mkfiduciaire.ch/treuhand-basel.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bern",
+          "href": "https://mkfiduciaire.ch/treuhand-bern.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Solothurn",
+          "href": "https://mkfiduciaire.ch/treuhand-solothurn.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Olten",
+          "href": "https://mkfiduciaire.ch/treuhand-olten.html",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Aarau",
+          "href": "https://mkfiduciaire.ch/treuhand-aarau.html",
+          "internal": true
+        },
+        {
+          "text": "Kostenlose Beratung anfordern â",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html#contact",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html#services",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html#services",
+          "internal": true
+        },
+        {
+          "text": "FirmengrÃ¼ndung",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html#services",
+          "internal": true
+        },
+        {
+          "text": "Lohnbuchhaltung",
+          "href": "https://mkfiduciaire.ch/treuhand-zuerich.html#services",
+          "internal": true
+        },
+        {
+          "text": "+41 26 518 00 00",
+          "href": "tel:+41265180000",
+          "internal": false
+        },
+        {
+          "text": "info@mkfiduciaire.ch",
+          "href": "mailto:info@mkfiduciaire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://formspree.io/f/mojkpejg",
+          "method": "POST",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": null,
+              "placeholder": "Ihr Name"
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": null,
+              "placeholder": "email@beispiel.ch"
+            },
+            {
+              "tag": "input",
+              "type": "tel",
+              "name": null,
+              "placeholder": "+41 ..."
+            },
+            {
+              "tag": "select",
+              "type": null,
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@mkfiduciaire.ch"
+      ],
+      "phones": [
+        "+41 26 518 00 00"
+      ],
+      "raw_html": "raw_html/024__treuhand-zuerich.html"
+    }
+  ]
+}

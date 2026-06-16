@@ -1,0 +1,6 @@
+{
+  "name": "unter dem strich AG",
+  "description": "Minimalistische & Premium Website der unter dem strich AG für KMUs, Start-ups und Projektentwicklung.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

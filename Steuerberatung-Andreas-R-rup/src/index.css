@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-offwhite: #FFFFFF;
+  --color-brand-anthracite: #1C1C1A;
+  --color-brand-red: #C8102E;
+  --color-brand-green: #1F4E3D;
+  --color-brand-beige: #E5E7EB;
+  --color-brand-grey: #71717A;
+
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-brand-offwhite);
+  color: var(--color-brand-anthracite);
+}

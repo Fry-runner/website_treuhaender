@@ -1,0 +1,3358 @@
+{
+  "name": "Accuratus Treuhand",
+  "domain": "accuratus-treuhand.ch",
+  "start_url": "https://accuratus-treuhand.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781615358.1881151,
+    "duration_sec": 21.9,
+    "pages_crawled": 13,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": "User-agent: *\r\n\r\nSitemap: http://www.accuratus-treuhand.ch/sitemap.xml\r\n"
+  },
+  "contact": {
+    "emails": [
+      "info@campfire.ch",
+      "mail@accuratus-treuhand.ch",
+      "mail@quintessentia-treuhand.ch",
+      "photo@georgeberle.ch",
+      "photo@georgeberle.ch​"
+    ],
+    "phones": [
+      "+41 (0)76 426 66 34",
+      "+41 (0)79 422 77 15",
+      "+41 (0)79 635 55 48",
+      "+41 44 404 70 16",
+      "+41 79 769 7252",
+      "044 404 70 16"
+    ]
+  },
+  "assets": {
+    "downloaded": 24,
+    "failed": 0,
+    "total_bytes": 994782,
+    "manifest": [
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/AbaNinja_Logo.png",
+        "ok": true,
+        "file": "assets/80e69549d2__AbaNinja_Logo.png",
+        "content_type": "image/png",
+        "bytes": 9913
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/AbaWeb.png",
+        "ok": true,
+        "file": "assets/e2e291a9fd__AbaWeb.png",
+        "content_type": "image/png",
+        "bytes": 11039
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "ok": true,
+        "file": "assets/901d35a719__accuratus-logo.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 23561
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/barfussbar.png",
+        "ok": true,
+        "file": "assets/d6a7874271__barfussbar.png",
+        "content_type": "image/png",
+        "bytes": 16635
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/bexio-gold.png",
+        "ok": true,
+        "file": "assets/b492de41d6__bexio-gold.png",
+        "content_type": "image/png",
+        "bytes": 93699
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/bexio-green-claim.png",
+        "ok": true,
+        "file": "assets/1b8a3b0187__bexio-green-claim.png",
+        "content_type": "image/png",
+        "bytes": 19573
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/bildhaueratelier-beat-eschmann.png",
+        "ok": true,
+        "file": "assets/0ecc7e9e79__bildhaueratelier-beat-eschmann.png",
+        "content_type": "image/png",
+        "bytes": 8610
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/illustration.png",
+        "ok": true,
+        "file": "assets/51219fd84e__illustration.png",
+        "content_type": "image/png",
+        "bytes": 13477
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/logo-corino-gmbh.png",
+        "ok": true,
+        "file": "assets/3bc9b96c4f__logo-corino-gmbh.png",
+        "content_type": "image/png",
+        "bytes": 9557
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/logo-tondolo-one-gmbh.png",
+        "ok": true,
+        "file": "assets/bad9d9f7bc__logo-tondolo-one-gmbh.png",
+        "content_type": "image/png",
+        "bytes": 4897
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/logo-treuhand-suisse.gif",
+        "ok": true,
+        "file": "assets/e0ce24a215__logo-treuhand-suisse.gif",
+        "content_type": "image/gif",
+        "bytes": 3813
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/logo_sunconnect.jpg",
+        "ok": true,
+        "file": "assets/24331abd84__logo_sunconnect.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 6492
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/logo_suterplus.jpg",
+        "ok": true,
+        "file": "assets/7147d340fa__logo_suterplus.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 9547
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/mitarbeiter/andrea-header-slider.png",
+        "ok": true,
+        "file": "assets/fc6fcbdeaa__andrea-header-slider.png",
+        "content_type": "image/png",
+        "bytes": 185021
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/mitarbeiter/kerstin-moeri-header-slider.png",
+        "ok": true,
+        "file": "assets/66f98c2c38__kerstin-moeri-header-slider.png",
+        "content_type": "image/png",
+        "bytes": 160558
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/mitarbeiter/rupa-header-slider.png",
+        "ok": true,
+        "file": "assets/c3ec825bc5__rupa-header-slider.png",
+        "content_type": "image/png",
+        "bytes": 140083
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/mitarbeiter/theo-header-slider.png",
+        "ok": true,
+        "file": "assets/a4a9d83b8c__theo-header-slider.png",
+        "content_type": "image/png",
+        "bytes": 133097
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/testimonial_bea-ribaux.png",
+        "ok": true,
+        "file": "assets/070261bc47__testimonial_bea-ribaux.png",
+        "content_type": "image/png",
+        "bytes": 21790
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/img/testimonial_claude-ribaux.png",
+        "ok": true,
+        "file": "assets/1f554b6e36__testimonial_claude-ribaux.png",
+        "content_type": "image/png",
+        "bytes": 22995
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/uploads/andrea-jenze-0.jpg",
+        "ok": true,
+        "file": "assets/c588bbe003__andrea-jenze-0.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 30219
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/uploads/rupa-herger_1500x100-0.jpg",
+        "ok": true,
+        "file": "assets/5c69464402__rupa-herger_1500x100-0.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 14031
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/uploads/team-ne-0.jpg",
+        "ok": true,
+        "file": "assets/df58463670__team-ne-0.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 27537
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/Content/uploads/theo-herg-0.jpg",
+        "ok": true,
+        "file": "assets/f9918fcb13__theo-herg-0.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 27488
+      },
+      {
+        "url": "https://accuratus-treuhand.ch/favicon.ico",
+        "ok": true,
+        "file": "assets/eb8bf395ef__favicon.ico",
+        "content_type": "image/x-icon",
+        "bytes": 1150
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://accuratus-treuhand.ch/",
+      "title": "Accuratus Treuhand Zürich · Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision Treuhandbüro/Treuhänder in Zürich.",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 4926
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/%C3%BCber-uns",
+      "title": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten.",
+      "raw_html": "raw_html/002__C3_BCber-uns.html",
+      "text_len": 6244
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+      "title": "Finanz- und Rechnungswesen: Lohn-Buchhaltung, Personaladministration, Jahresabschluss und vieles mehr als Treuhandbüro/Treuhänder in Zürich",
+      "raw_html": "raw_html/003__finanz-und-rechnungswesen.html",
+      "text_len": 4221
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/impressum",
+      "title": "Impressum",
+      "raw_html": "raw_html/004__impressum.html",
+      "text_len": 1021
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/kontakt",
+      "title": "Ihr Kontakt zu Accuratus Treuhand in Zürich Norastrasse 7, 8004 Zürich",
+      "raw_html": "raw_html/005__kontakt.html",
+      "text_len": 1910
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/leistungen",
+      "title": "Unsere Treuhand-Dienstleistungen: Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision in Zürich",
+      "raw_html": "raw_html/006__leistungen.html",
+      "text_len": 2643
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/steuerberatung",
+      "title": "Steuerberatung: Steuererklärung, Steuerabzug, Steueroptimierung | Accuratus Treuhandbüro Zürich",
+      "raw_html": "raw_html/007__steuerberatung.html",
+      "text_len": 3739
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/wirtschaftspr%C3%BCfung-revision",
+      "title": "Unabhängige Revision/Wirtschaftsprüfung durch Accuratus Treuhand in Zürich",
+      "raw_html": "raw_html/008__wirtschaftspr_C3_BCfung-revision.html",
+      "text_len": 2342
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/online-web-treuhand",
+      "title": "Online Treuhand in Zürich",
+      "raw_html": "raw_html/009__online-web-treuhand.html",
+      "text_len": 4241
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/%C3%BCber-uns",
+      "title": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten.",
+      "raw_html": "raw_html/010__C3_BCber-uns.html",
+      "text_len": 6244
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/datenschutz",
+      "title": "Datenschutzerklärung",
+      "raw_html": "raw_html/011__datenschutz.html",
+      "text_len": 31529
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/%C3%BCber-uns",
+      "title": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten.",
+      "raw_html": "raw_html/012__C3_BCber-uns.html",
+      "text_len": 6244
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/wirtschaftspr%C3%BCfung-revision",
+      "title": "Unabhängige Revision/Wirtschaftsprüfung durch Accuratus Treuhand in Zürich",
+      "raw_html": "raw_html/013__wirtschaftspr_C3_BCfung-revision.html",
+      "text_len": 2342
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://accuratus-treuhand.ch/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Accuratus Treuhand Zürich · Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision Treuhandbüro/Treuhänder in Zürich.",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Accuratus Treuhand – Ihr Partner für  Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision in Zürich.",
+        "og:title": "Accuratus Treuhand Zürich · Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision Treuhandbüro/Treuhänder in Zürich.",
+        "og:description": "Accuratus Treuhand – Ihr Partner für  Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision in Zürich.",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Ihre sensiblen Daten in sicheren Händen: Accuratus-Treuhand"
+        ],
+        "h2": [
+          "Geben Sie uns die Möglichkeit zu beweisen, dass wir Ihr Vertrauen verdient haben.",
+          "Ihr Kontakt zu uns",
+          "Professionalität mit Gütesiegel",
+          "Unsere Dienstleistungen"
+        ],
+        "h3": [
+          "Finanz- und Rechnungswesen",
+          "Steuerberatung",
+          "Online-/Web-Treuhand",
+          "Abacus-Cloud",
+          "ABANINJA",
+          "Bexio",
+          "Live Support"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Accuratus Treuhand Zürich · Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision Treuhandbüro/Treuhänder in Zürich.\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nIhre sensiblen Daten in sicheren Händen:\nAccuratus-Treuhand\nSeit 2001 Ihr Partner für Finanz- und Rechnungswesen, Steuerberatung, Abaweb- und Abaninja-Treuhänder, Bexio-Treuhänder.\nGeben Sie uns die Möglichkeit zu beweisen, dass wir Ihr Vertrauen verdient haben.\nVon der Lohnabrechnung über die Steuererklärung bis hin zum Jahresabschluss: Ihre vertraulichen und sensiblen Daten sind bei uns gut aufgehoben. Denn wir legen höchsten Wert auf Professionalität und Diskretion.\nUnabhängig davon, ob Sie als Privatperson, Selbstständigerwerbende/r oder KMU unsere\nTreuhand-Dienstleistungen\nin Anspruch nehmen,\nob wir Sie einmalig beraten dürfen oder eine langfristige Partnerschaft entsteht: Wir passen unsere Dienstleistungen Ihren individuellen Ansprüchen an und geben für jeden Kunden unser Bestes.\nUnsere Treuhand-Dienstleistungen\nIhr Kontakt zu uns\n«Treue ist tätiges Vertrauen.»\nWerden Sie tätig und nehmen Sie mit uns Kontakt auf.\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nE-Mail schreiben\nKarte vergrössern\nProfessionalität mit Gütesiegel\nAccuratus-Treuhand ist\nMitglied von Treuhand Suisse\n.\nUnsere Dienstleistungen\nFinanz- und Rechnungswesen\nBei Buchhaltung, Lohn- und MWST Unterstützung gesucht?\nDas ist unsere Kernkompetenz.\nBrauchen Sie als Unternehmen oder Start-up Unterstützung in Buchhaltungs­angelegenheiten? Wir sind für Sie da. Jetzt und auch als langfristiger Beratungspartner.\nMehr zu Finanz- und Rechnungswesen\nSteuerberatung\nMachen Sie in Sachen Steuern keine Experimente. Wir kennen uns aus.\nÜbergeben Sie Ihr Steuerdossier an uns Profis. Ärger und Stress bleiben Ihnen erspart. Wir vertreten Ihre Interessen fair, zuverlässig und korrekt.\nMehr zu Steuerberatung\nOnline-/Web-Treuhand\nSoftware in der Cloud zukünftig nutzen. Einfach gemacht.\nSie entscheiden welche Aufgaben Sie selber übernehmen wollen und haben immer und von überall Zugang zu Ihrer Buchhaltung.\nMehr zu Online-Treuhand\nAbacus-Cloud\nAbacus-Cloud Server\nABANINJA\nABANINJA Login\nBexio\nBexio Login\nLive Support\nLive Support starten\nDank Theo Herger und seiner\nAccuratus-Treuhand\nkann ich mich auf mein Kerngeschäft\r\n        konzentrieren. Dies im Wissen, dass Buchhaltung und Steuern jeder Prüfung standhalten. Sein\r\n        umfassendes, praxisnahes Wissen und seine langjährige Erfahrung machen ihn zum idealen Partner\r\n        für mich.\n– Sunconnect GmbH,\r\n            www.sunconnect.ch\nTheo Herger und sein Team begleiten unser Geschäft seit der Gründung. Damit wir uns auf unsere\r\n        Kernkompetenz, die Architektur, konzentrieren können ist es beruhigend einen pflichtbewussten\r\n        Treuhand-Partner an seiner Seite zu wissen. Sie unterstützen uns bei strategischen Entscheiden und\r\n        kümmern sich um die Buchführung, Mehrwertsteuerabrechnung, Jahresabschluss und Steuern.\n– suter plus GmbH,\r\n            www.suterplus.ch\nIn Herrn Herger sowie der\nAccuratus-Treuhand GmbH\ndurfte ich einen verlässlichen und sehr sympathischen Partner finden, \r\nder mich versteht und den ich verstehe. Geldangelegenheiten & Treuhand sind Vertrauenssache – und meine Vertrauen hat Herr Herger bereits beim ersten Kontakt anhaltend gewonnen.\n– Maurizio Tondolo, tondolo.one\nAls Startup-Unternehmen gibt es so vieles, woran zu denken ist. Mit Herrn Herger und seinem Team, habe ich einen Vertrauenspartner gefunden, \r\n        der mich in allen treuhänderischen Fragen verständlich und situationsgerecht begleitet.\n– Katia Corino, corino.ch\nAls Steinbildhauer sind Zahlen nicht so meine Stärke. \r\n        Aus diesem Grund bin ich froh, dass\nAccuratus\nfür mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n– Beat Eschmann, Bildhaueratelier Beat Eschmann GmbH\nAccuratus\nist für uns als KMU seit über 10 Jahren der ideale Partner. \r\n        Unsere Zeitersparnis und die sehr speditive Abwicklung stellen für uns einen direkten Mehrwert bei exzellenter Qualität dar.\n– Claude Ribaux, www.clauderibaux.ch\nAccuratus\nist schnell und effektiv. Die Unterstützung ist immer aufs Wesentliche und Notwendige konzentriert und von der Geschäftspraxis und Strategie des Kunden geleitet.\n– Bea Ribaux, www.bea-ribaux.ch\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 4926,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "Treuhand-Dienstleistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Unsere Treuhand-Dienstleistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "E-Mail schreiben",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Karte vergrössern",
+          "href": "https://www.google.ch/maps/preview#!q=Accuratus-Treuhand+GmbH%2C+Norastrasse%2C+Z%C3%BCrich&data=!4m10!1m9!4m8!1m3!1d55908!2d7.256935!3d47.14963!3m2!1i1680!2i989!4f13.1",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Mehr zu Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Mehr zu Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Mehr zu Online-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Abacus-Cloud Server",
+          "href": "https://abacus.accuratus-treuhand.ch/",
+          "internal": false
+        },
+        {
+          "text": "ABANINJA Login",
+          "href": "https://app.abaninja.ch/login?lang=de",
+          "internal": false
+        },
+        {
+          "text": "Bexio Login",
+          "href": "https://office.bexio.com/",
+          "internal": false
+        },
+        {
+          "text": "Live Support starten",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.solaranlage-sunconnect.ch/",
+          "internal": false
+        },
+        {
+          "text": "– Sunconnect GmbH,\r\n            www.sunconnect.ch",
+          "href": "https://www.solaranlage-sunconnect.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.suterplus.ch/",
+          "internal": false
+        },
+        {
+          "text": "– suter plus GmbH,\r\n            www.suterplus.ch",
+          "href": "https://www.suterplus.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://tondolo.one/",
+          "internal": false
+        },
+        {
+          "text": "– Maurizio Tondolo, tondolo.one",
+          "href": "http://tondolo.one/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.corino.ch/",
+          "internal": false
+        },
+        {
+          "text": "– Katia Corino, corino.ch",
+          "href": "http://www.corino.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.bildhaueratelier.ch",
+          "internal": false
+        },
+        {
+          "text": "– Beat Eschmann, Bildhaueratelier Beat Eschmann GmbH",
+          "href": "http://www.bildhaueratelier.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.clauderibaux.ch",
+          "internal": false
+        },
+        {
+          "text": "– Claude Ribaux, www.clauderibaux.ch",
+          "href": "http://www.clauderibaux.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "– Bea Ribaux, www.bea-ribaux.ch",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "/Content/img/mitarbeiter/theo-header-slider.png",
+          "alt": "Accuratus-Treuhand GmbH - Theo Herger"
+        },
+        {
+          "src": "/Content/img/mitarbeiter/rupa-header-slider.png",
+          "alt": "Accuratus-Treuhand GmbH - Rupa Herger"
+        },
+        {
+          "src": "/Content/img/mitarbeiter/andrea-header-slider.png",
+          "alt": "Accuratus-Treuhand GmbH - Andrea Jenzer"
+        },
+        {
+          "src": "/Content/img/mitarbeiter/kerstin-moeri-header-slider.png",
+          "alt": "Accuratus-Treuhand GmbH - Kerstin Möri"
+        },
+        {
+          "src": "/Content/img/logo-treuhand-suisse.gif",
+          "alt": "Mitglied Treuhand Suisse"
+        },
+        {
+          "src": "/Content/img/bexio-gold.png",
+          "alt": "bexio gold"
+        },
+        {
+          "src": "/Content/img/AbaWeb.png",
+          "alt": "AbaWeb"
+        },
+        {
+          "src": "/Content/img/AbaNinja_Logo.png",
+          "alt": "AbaNinja"
+        },
+        {
+          "src": "/Content/img/logo_sunconnect.jpg",
+          "alt": "Sunconnect GmbH"
+        },
+        {
+          "src": "/Content/img/logo_suterplus.jpg",
+          "alt": "Sunconnect GmbH"
+        },
+        {
+          "src": "/Content/img/logo-tondolo-one-gmbh.png",
+          "alt": "tondolo one gmbh"
+        },
+        {
+          "src": "/Content/img/logo-corino-gmbh.png",
+          "alt": "Corino GmbH"
+        },
+        {
+          "src": "/Content/img/bildhaueratelier-beat-eschmann.png",
+          "alt": "Bildhaueratelier Beat Eschmann GmbH"
+        },
+        {
+          "src": "/Content/img/testimonial_claude-ribaux.png",
+          "alt": "Claude Ribaux"
+        },
+        {
+          "src": "/Content/img/testimonial_bea-ribaux.png",
+          "alt": "Bea Ribaux"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "mail@accuratus-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/%C3%BCber-uns",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten.",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Erfahren Sie mehr über Accuratus Treuhand in Zürich, die Experten hinter den Dienstleistungen, sowie über unsere Kunden. ",
+        "og:title": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten. ",
+        "og:description": "Erfahren Sie mehr über Accuratus Treuhand in Zürich, die Experten hinter den Dienstleistungen, sowie über unsere Kunden. ",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/über-uns",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Das sind WIR",
+          "Unser Team"
+        ],
+        "h2": [
+          "Firmengeschichte und Werte",
+          "Team",
+          "Theo Herger",
+          "Rupa Herger",
+          "Andrea Jenzer-Schoch",
+          "Kerstin Moeri"
+        ],
+        "h3": [
+          "Geschäftsführer Mandatsleiter",
+          "«Wer nichts tut, kann nichts bewegen» (Wilhelm Hasenclever)",
+          "HR-Spezialistin",
+          "Mandatsleiterin Treuhänderin mit eidg. Fachausweis",
+          "Mandatsleiterin Dipl. Treuhandexpertin"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten.\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nDas sind WIR\nFirmengeschichte und Werte\nSeit mehr als 20 Jahren unterstützen wir unsere Kunden fair, zuverlässig und «akkurat». Accuratus-Treuhand GmbH wurde Ende 2001 gegründet. Ein Name für das Unternehmen war schnell gefunden.\n«Accuratus» steht für unsere genaue, sorgfältige und ordentliche Arbeitsweise.\nBei aller Sorgfalt suchen wir für unsere Kunden nach effizienten und digitalen Lösungen. Wir sind sofort nach Mandatserteilung einsatzbereit und flexibel bezüglich Einsatzzeiten.\nDas stete Wachstum der Accuratus-Treuhand GmbH bestätigt uns und unseren Kurs. Viele unserer Kunden begleiten wir seit vielen Jahren. Ein Beweis dafür, dass sich unser persönliches Engagement für unsere Kunden auszahlt.\nWir sind\nMitglied des Schweizerischen Treuhänderverbandes TREUHAND SUISSE.\nTeam\nUnsere Mitarbeitenden verfügen über eidgenössisch anerkannte Fähigkeitsausweise und bilden sich laufend weiter. Unser kleines, effizientes Team stellt im Stellvertretungsfall die gleichbleibende Qualität unserer Arbeit sicher. So vermeiden wir Know-how-Verluste und sorgen für Kontinuität bei Ihnen.\nWir arbeiten:\nzuverlässig\neffizient\ndiskret\nfachlich einwandfrei\nWir leben unsere Berufung.\nUnser Team\nTheo Herger\nGeschäftsführer\nMandatsleiter\nTreuhänder mit eidg. Fachausweis\nZugelassener Revisionsexperte\n«Wer nichts tut, kann nichts bewegen»\n(Wilhelm Hasenclever)\nWenn man seinen Beruf jeden Tag aufs Neue abwechslungsreich und spannend findet, dann weiss man, dass man den richtigen Beruf hat.\nEs ist ein Privileg, dass ich mein über 30-jähriges Know-how täglich für meine Kunden einsetzen darf. Denn schliesslich stehen hinter jeder Buchhaltung und jeder Steuererklärung Menschen. Ich denke, die Kunden spüren und schätzen, wie sehr mir mein Beruf Spass macht und wie sehr ich mich persönlich für sie engagiere. Unsere Kunden wissen, dass sie bei uns nicht nur eine Nummer sind.\nRupa Herger\nHR-Spezialistin\nHuman Resources Fachfrau mit eidg. Fachausweis, Bachelor Psychomotoriktherapeutin\n«Erfahrung ist verstandene Wahrnehmung»\n(Immanuel Kant)\nEs ist schön, dass ich meinen Ehemann und das Team bei den Tätigkeiten unterstützen kann. Meine langjährige Berufserfahrung setze ich beratend und unterstützend ein. Ich halte gerne im Hintergrund die Fäden zusammen, damit im Vordergrund alles rund läuft.\nAndrea Jenzer-Schoch\nMandatsleiterin\nTreuhänderin mit eidg. Fachausweis\n«Das gute Gelingen ist zwar nichts Kleines, fängt aber mit Kleinigkeiten an»\n(Sokrates)\nDie Treuhandbranche ist für mich – auch nach langjähriger Berufserfahrung – ein sehr interessantes und abwechslungsreiches Tätigkeitsgebiet. Nebst den wiederkehrenden Arbeiten, bietet es immer wieder neue und spannende Herausforderungen.\nDazu schätze ich den direkten Kontakt mit unseren Kunden, sowie die Möglichkeit zu haben, in einem kompetenten und gut eingespielten Team tätig zu sein.\nKerstin Moeri\nMandatsleiterin\nDipl. Treuhandexpertin\n«Das Geheimnis des Erfolges ist es, den Standpunkt des anderen zu verstehen\n»\n(Henry Ford)\nSeit November 2017 bin ich ein Teil des Teams der Accuratus-Treuhand GmbH. Insbesondere schätze ich an meinem Beruf die Vielfalt. Jede Buchhaltung, jede Steuererklärung und jeder Kunde ist unterschiedlich und bietet eine neue Herausforderung, was mir die Möglichkeit gibt, mein Wissen stets zu erweitern.\nDie gute und vertrauensvolle Zusammenarbeit mit Ihnen und innerhalb unseres Teams ermöglicht es uns, Sie optimal in Ihren finanziellen Angelegenheiten zu unterstützen.\nDank Theo Herger und seiner\nAccuratus-Treuhand\nkann ich mich auf mein Kerngeschäft\r\n        konzentrieren. Dies im Wissen, dass Buchhaltung und Steuern jeder Prüfung standhalten. Sein\r\n        umfassendes, praxisnahes Wissen und seine langjährige Erfahrung machen ihn zum idealen Partner\r\n        für mich.\n– Sunconnect GmbH,\r\n            www.sunconnect.ch\nTheo Herger und sein Team begleiten unser Geschäft seit der Gründung. Damit wir uns auf unsere\r\n        Kernkompetenz, die Architektur, konzentrieren können ist es beruhigend einen pflichtbewussten\r\n        Treuhand-Partner an seiner Seite zu wissen. Sie unterstützen uns bei strategischen Entscheiden und\r\n        kümmern sich um die Buchführung, Mehrwertsteuerabrechnung, Jahresabschluss und Steuern.\n– suter plus GmbH,\r\n            www.suterplus.ch\nIn Herrn Herger sowie der\nAccuratus-Treuhand GmbH\ndurfte ich einen verlässlichen und sehr sympathischen Partner finden, \r\nder mich versteht und den ich verstehe. Geldangelegenheiten & Treuhand sind Vertrauenssache – und meine Vertrauen hat Herr Herger bereits beim ersten Kontakt anhaltend gewonnen.\n– Maurizio Tondolo, tondolo.one\nAls Startup-Unternehmen gibt es so vieles, woran zu denken ist. Mit Herrn Herger und seinem Team, habe ich einen Vertrauenspartner gefunden, \r\n        der mich in allen treuhänderischen Fragen verständlich und situationsgerecht begleitet.\n– Katia Corino, corino.ch\nAls Steinbildhauer sind Zahlen nicht so meine Stärke. \r\n        Aus diesem Grund bin ich froh, dass\nAccuratus\nfür mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n– Beat Eschmann, Bildhaueratelier Beat Eschmann GmbH\nAccuratus\nist für uns als KMU seit über 10 Jahren der ideale Partner. \r\n        Unsere Zeitersparnis und die sehr speditive Abwicklung stellen für uns einen direkten Mehrwert bei exzellenter Qualität dar.\n– Claude Ribaux, www.clauderibaux.ch\nAccuratus\nist schnell und effektiv. Die Unterstützung ist immer aufs Wesentliche und Notwendige konzentriert und von der Geschäftspraxis und Strategie des Kunden geleitet.\n– Bea Ribaux, www.bea-ribaux.ch\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 6244,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/%C3%BCber-uns#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.solaranlage-sunconnect.ch/",
+          "internal": false
+        },
+        {
+          "text": "– Sunconnect GmbH,\r\n            www.sunconnect.ch",
+          "href": "https://www.solaranlage-sunconnect.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.suterplus.ch/",
+          "internal": false
+        },
+        {
+          "text": "– suter plus GmbH,\r\n            www.suterplus.ch",
+          "href": "https://www.suterplus.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://tondolo.one/",
+          "internal": false
+        },
+        {
+          "text": "– Maurizio Tondolo, tondolo.one",
+          "href": "http://tondolo.one/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.corino.ch/",
+          "internal": false
+        },
+        {
+          "text": "– Katia Corino, corino.ch",
+          "href": "http://www.corino.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.bildhaueratelier.ch",
+          "internal": false
+        },
+        {
+          "text": "– Beat Eschmann, Bildhaueratelier Beat Eschmann GmbH",
+          "href": "http://www.bildhaueratelier.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.clauderibaux.ch",
+          "internal": false
+        },
+        {
+          "text": "– Claude Ribaux, www.clauderibaux.ch",
+          "href": "http://www.clauderibaux.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "– Bea Ribaux, www.bea-ribaux.ch",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "/Content/uploads/theo-herg-0.jpg",
+          "alt": "area-widget-1"
+        },
+        {
+          "src": "/Content/uploads/rupa-herger_1500x100-0.jpg",
+          "alt": "area-widget-13"
+        },
+        {
+          "src": "/Content/uploads/andrea-jenze-0.jpg",
+          "alt": "area-widget-16"
+        },
+        {
+          "src": "/Content/uploads/team-ne-0.jpg",
+          "alt": "area-widget-58"
+        },
+        {
+          "src": "/Content/img/logo_sunconnect.jpg",
+          "alt": "Sunconnect GmbH"
+        },
+        {
+          "src": "/Content/img/logo_suterplus.jpg",
+          "alt": "Sunconnect GmbH"
+        },
+        {
+          "src": "/Content/img/logo-tondolo-one-gmbh.png",
+          "alt": "tondolo one gmbh"
+        },
+        {
+          "src": "/Content/img/logo-corino-gmbh.png",
+          "alt": "Corino GmbH"
+        },
+        {
+          "src": "/Content/img/bildhaueratelier-beat-eschmann.png",
+          "alt": "Bildhaueratelier Beat Eschmann GmbH"
+        },
+        {
+          "src": "/Content/img/testimonial_claude-ribaux.png",
+          "alt": "Claude Ribaux"
+        },
+        {
+          "src": "/Content/img/testimonial_bea-ribaux.png",
+          "alt": "Bea Ribaux"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "mail@accuratus-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/002__C3_BCber-uns.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Finanz- und Rechnungswesen: Lohn-Buchhaltung, Personaladministration, Jahresabschluss und vieles mehr als Treuhandbüro/Treuhänder in Zürich",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Unsere Abteilung Finanz- und Rechnungswesen übernimmt für Sie als Firmengründer und Arbeitgeber Buchhaltung, Lohnbuchhaltung, Personaladministration, Jahresabschluss bis hin zur Sozialversicherungsberatung und Mehrwertsteuerberatung.",
+        "og:title": "Finanz- und Rechnungswesen: Lohn-Buchhaltung, Personaladministration, Jahresabschluss und vieles mehr als Treuhandbüro/Treuhänder in Zürich",
+        "og:description": "Unsere Abteilung Finanz- und Rechnungswesen übernimmt für Sie als Firmengründer und Arbeitgeber Buchhaltung, Lohnbuchhaltung, Personaladministration, Jahresabschluss bis hin zur Sozialversicherungsberatung und Mehrwertsteuerberatung.",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Finanz- und Rechnungswesen"
+        ],
+        "h2": [
+          "Wir machen Ihr Leben als Unternehmer einfacher",
+          "So unterstützen wir Sie",
+          "Nehmen Sie mit uns Kontakt auf"
+        ],
+        "h3": [
+          "Ihre Bücher in unseren Händen",
+          "Unsere Ressourcen für Ihre Personaladministration",
+          "Wir geben Ihnen administrative Starthilfe",
+          "Kontaktieren Sie uns:"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Finanz- und Rechnungswesen: Lohn-Buchhaltung, Personaladministration, Jahresabschluss und vieles mehr als Treuhandbüro/Treuhänder in Zürich\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nFinanz- und Rechnungswesen\nZählen Sie auf uns, wenn es um Ihre Zahlen geht.\nWir machen Ihr Leben als Unternehmer einfacher\nGanz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.\nFirmengründern\ngreifen wir bei den ersten Schritten auf unbekanntem Unternehmer-Terrain unter die Arme:\nWelche buchhalterischen Vorschriften gilt es zu beachten?\nWann muss man Mehrwertsteuer zahlen?\nWelche Sozialversicherungen sind abzuschliessen?\nSobald Sie vom Einzelkämpfer zum\nArbeitgeber\nwerden, nimmt die Komplexität weiter zu:\nWelche Sozialversicherung deckt welche Bedürfnisse ab und welche braucht man?\nWie erstellt man korrekte Lohnabrechnungen?\nWas gibt es für ausländische Mitarbeitende zu beachten?\nHat man diese Punkte im Griff, bleibt eine Frage auch nach vielen Jahren Selbständigkeit relevant:\nWie kann man den Jahresabschluss steuerlich möglichst vorteilhaft gestalten, ohne die gesetzlichen Vorgaben zu verletzen?\n▼ weiter ▼\nSo unterstützen\nwir Sie\nOft ist im Finanz- und Rechnungswesen die Angst gross, Fehler zu machen. Vor allem, wenn Angestellte betroffen sind – z.B. bei Lohnabrechnungen oder bei den Sozialversicherungen.  Accuratus-Treuhand kümmert sich mit professionellem Finanz- und Rechnungswesen schnell um Ihre Bedenken.\nIhre Bücher in unseren Händen\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\nUnsere Ressourcen für Ihre Personaladministration\nAuch die Personaladministration nimmt viele personelle Ressourcen in Anspruch: Ein- und Austritte,\nSozialversicherungen\n, Stammdatenpflege oder\nLohnbuchhaltung\nsind einige Teilaufgaben.\nWir geben Ihnen administrative Starthilfe\nWer eine Firma neu gründet, geht in der Regel ein unternehmerisches Risiko ein. Mit der Unterstützung von Accuratus-Treuhand minimieren Sie dieses: Wir beraten Sie in allen Belangen der Firmengründung – von der Wahl der Rechtsform über den Handelsregistereintrag, dem logischen Aufbau der Buchhaltung bis hin zur Sozialversicherungs- und Mehrwertsteuerberatung.\nUnsere Dienstleistungen im Bereich Finanz- und Rechnungswesen:\nAufbau und Organisation von Buchhaltungen\nlaufende oder periodisch nachgeführte Buchhaltung mittels unserer Abacus-Software-Cloud-Lösungen möglich\nUnterstützung Ihrer eigenen Buchhaltung mit unserem breiten Wissen\nPersonaladministration (Lohnbuchhaltung, Sozialversicherungen, Quellensteuer)\nMehrwertsteuerberatung und Mehrwertsteuerabrechnung\nJahresabschlüsse mit steuerlichen Optimierungen\nUnterstützung bei der Budgetierung\nFlexible und kurzfristige Übernahme von Buchhaltungsaufgaben bei Personalengpässen\nBeratung bei Unternehmensgründungen, -umwandlungen sowie bei der Wahl der optimalen Rechtsform\nOptimierung bestehender Finanz-, Buchführungs- und Controlling-Prozesse\nUnterstützung bei der Nachfolgeplanung\n▼ weiter ▼\nNehmen Sie mit uns Kontakt auf\nUnsere langjährige Erfahrung als Treuhänder in Zürich und Kunden aus vielen Branchen ermöglichen es uns, Ihnen massgeschneiderte Lösungen anzubieten. Unsere Arbeitsweise ist unkompliziert, effizient und gleichzeitig äusserst sorgfältig.\nKontaktieren Sie uns, wir nehmen uns gerne Zeit für Ihre Fragen.\nWeiter zum Kontaktformular\nKontaktieren Sie uns:\n044 404 70 16\nmail@accuratus-treuhand.ch\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 4221,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "▼ weiter ▼",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen#",
+          "internal": true
+        },
+        {
+          "text": "▼ weiter ▼",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen#",
+          "internal": true
+        },
+        {
+          "text": "Weiter zum Kontaktformular",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:0444047016",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "mail@accuratus-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/003__finanz-und-rechnungswesen.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/impressum",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Impressum",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Accuratus Treuhand – Ihr Partner für  Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung und Revision.",
+        "og:title": "Impressum",
+        "og:description": "Accuratus Treuhand – Ihr Partner für  Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung und Revision.",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/impressum",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Impressum"
+        ],
+        "h3": [
+          "Accuratus-Treuhand GmbH",
+          "Konzeption, Design und Umsetzung",
+          "Redaktion",
+          "Fotos",
+          "Icons"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Impressum\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nImpressum\nAccuratus-Treuhand GmbH\nTheo Herger\nNorastrasse 7\n8004 Zürich\nTelefon:\n044/404 70 16\nFax: 044/404 70 05\nmail@accuratus-treuhand.ch\nKonzeption, Design und Umsetzung\nCampfire GmbH\nAgentur für digitales Storytelling\nAlpenstrasse 85\n2502 Biel/Bienne\n+41 (0)79 422 77 15\ninfo@campfire.ch\nwww.campfire.ch\nRedaktion\nAnne Boxleitner\n+41 (0)76 426 66 34\nFotos\nGeorge Eberle\n, Zürich\n+41 (0)79 635 55 48\nphoto@georgeberle.ch\nwww.georgeberle.ch\nIcons\nIcons8\nwww.icons8.com\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 1021,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/impressum#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "044/404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 (0)79 422 77 15",
+          "href": "tel:+41-79-422-77-15",
+          "internal": false
+        },
+        {
+          "text": "info@campfire.ch",
+          "href": "mailto:info@campfire.ch",
+          "internal": false
+        },
+        {
+          "text": "www.campfire.ch",
+          "href": "http://campfire.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 (0)76 426 66 34",
+          "href": "tel:+41-76-426-66-34",
+          "internal": false
+        },
+        {
+          "text": "+41 (0)79 635 55 48",
+          "href": "tel:+41-79-635-55-48",
+          "internal": false
+        },
+        {
+          "text": "photo@georgeberle.ch",
+          "href": "mailto:photo@georgeberle.ch​",
+          "internal": false
+        },
+        {
+          "text": "www.georgeberle.ch",
+          "href": "http://georgeberle.ch",
+          "internal": false
+        },
+        {
+          "text": "www.icons8.com",
+          "href": "http://www.icons8.com",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@campfire.ch",
+        "mail@accuratus-treuhand.ch",
+        "photo@georgeberle.ch",
+        "photo@georgeberle.ch​"
+      ],
+      "phones": [
+        "+41 (0)76 426 66 34",
+        "+41 (0)79 422 77 15",
+        "+41 (0)79 635 55 48",
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/004__impressum.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/kontakt",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Ihr Kontakt zu Accuratus Treuhand in Zürich Norastrasse 7, 8004 Zürich",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Sie suchen ein zuverlässiges Treuhandbüro? Accuratus Treuhand GmbH, Norastrasse 7, 8004 Zürich – Ihr Partner für Finanz- und Rechnungswesen, Steuerberatung und Wirtschaftsprüfung in Zürich. Nehmen Sie mit uns Kontakt auf. ",
+        "og:title": "Ihr Kontakt zu Accuratus Treuhand in Zürich Norastrasse 7, 8004 Zürich ",
+        "og:description": "Sie suchen ein zuverlässiges Treuhandbüro? Accuratus Treuhand GmbH, Norastrasse 7, 8004 Zürich – Ihr Partner für Finanz- und Rechnungswesen, Steuerberatung und Wirtschaftsprüfung in Zürich. Nehmen Sie mit uns Kontakt auf. ",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/kontakt",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h2": [
+          "Wir freuen uns auf Ihre Kontaktaufnahme.",
+          "Ihr Kontakt zu uns"
+        ],
+        "h3": [
+          "Danke für Ihre Nachricht"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Ihr Kontakt zu Accuratus Treuhand in Zürich Norastrasse 7, 8004 Zürich\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nWir freuen uns auf Ihre Kontaktaufnahme.\nSie sind nur eine E-Mail, einen Anruf oder einen Besuch von uns entfernt. Gerne erläutern wir Ihnen in einem unverbindlichen Kennenlerngespräch unsere Treuhand-Dienstleistungen, klären Ihre Bedürfnisse ab und erstellen eine Offerte für Ihren Auftrag.\nUnser Büro ist ideal im Herzen von Zürich gelegen.\nSie kommen mit dem ÖV:\nNehmen Sie die Tramlinien 2 und 3 oder die Buslinien 33, 72 und 83 bis zum Albisriederplatz. Von dort aus sind Sie zu Fuss in 5 Minuten bei uns.\nSie kommen mit dem Auto:\nRund um unser Büro gibt es ausreichend (kostenpflichtige) Parkplätze und Parkplätze in der blauen Zone. Im Parkhaus (Einfahrt via Bienenstrasse) im 3. UG befindet sich ein direkter Zugang zur Norastrasse 7.\nName*\nVorname*\nE-Mail-Adresse*\nTelefonnummer (für Rückrufe)\nIhre Nachricht*\nFormular absenden\nDanke für Ihre Nachricht\nWir haben Ihre Nachricht erhalten und werden Ihre Anfrage in Kürze bearbeiten.\nIhr Kontakt zu uns\nSie erreichen uns telefonisch von Montag bis Freitag von 08:00 Uhr bis 12:00 Uhr und von 13:00 Uhr bis 17:00 Uhr. Selbstverständlich können Sie uns jederzeit eine E-Mail senden. Wir werden uns schnellstmöglich bei Ihnen melden.\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 1910,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/kontakt#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": "/Page/SubmitContactForm",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "Name",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "Firstname",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "Email",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "PhoneNumber",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "Message",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "mail@accuratus-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/005__kontakt.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/leistungen",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Unsere Treuhand-Dienstleistungen: Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision in Zürich",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Die Dienstleistungen des Treuhandbüros Accuratus Treuhand in Zürich umfassen Finanzwesen und Rechnungswesen, Buchhaltung, Lohnbuchhaltung, Mehrwertsteuer, Steuerberatung, Wirtschaftsprüfung/Revision.",
+        "og:title": "Unsere Treuhand-Dienstleistungen: Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision in Zürich",
+        "og:description": "Die Dienstleistungen des Treuhandbüros Accuratus Treuhand in Zürich umfassen Finanzwesen und Rechnungswesen, Buchhaltung, Lohnbuchhaltung, Mehrwertsteuer, Steuerberatung, Wirtschaftsprüfung/Revision.",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/leistungen",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Dank unseren Treuhand-Dienstleistungen bleibt Ihnen der Kopf frei für die wichtigen Dinge."
+        ],
+        "h2": [
+          "Unsere Dienstleistungen umfassen unter anderem:",
+          "Finanz- und Rechnungswesen",
+          "Steuerberatung",
+          "Online-/Web-Treuhand"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Unsere Treuhand-Dienstleistungen: Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision in Zürich\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nDank unseren\nTreuhand-Dienstleistungen\nbleibt Ihnen der Kopf frei für die wichtigen Dinge.\nWir haben den strengen Blick – zumindest was Ihre Zahlen angeht.\nIm Finanz- und Rechnungswesen ebenso wie bei der Steuerberatung.\nSo funktioniert die Digitalisierung auch bei Ihnen.\nUnsere Dienstleistungen umfassen unter anderem:\nAls Steinbildhauer sind Zahlen nicht so meine Stärke. \r\n        Aus diesem Grund bin ich froh, dass\nAccuratus\nfür mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n– Beat Eschmann, Bildhaueratelier Beat Eschmann GmbH\nFinanz- und Rechnungswesen\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\nWir sind für Sie da. Jetzt und auch als langfristiger Beratungspartner.\nMehr zu Finanz- und Rechnungswesen erfahren\nSteuerberatung\nSehen Sie der nächsten Steuerrechnung mit gemischten Gefühlen entgegen? Schieben Sie die Steuererklärung so lange vor sich her, bis es fast zu spät ist? Möchten Sie Ihre Steuererklärung korrekt ausgefüllt wissen? Können Sie eine, zwei oder drei dieser Fragen mit «JA» beantworten, dann sind Sie bei uns richtig.\nÜbergeben Sie Ihr Steuerdossier an uns Profis, Ärger und Stress bleiben Ihnen erspart. Wir vertreten Ihre Interessen fair, zuverlässig und korrekt.\nMehr zu Steuerberatung erfahren\nAccuratus\nist schnell und effektiv. Die Unterstützung ist immer aufs Wesentliche und Notwendige konzentriert und von der Geschäftspraxis und Strategie des Kunden geleitet.\n– Bea Ribaux, www.bea-ribaux.ch\nOnline-/Web-Treuhand\nWie kann ich meine Buchhaltung «digitalisieren» und wer unterstützt mich dabei?\nSie entscheiden, welche Aufgaben Sie selber übernehmen wollen und haben immer und von überall Zugang zu Ihrer Buchhaltung.\nMehr zu Online-Treuhand erfahren\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 2643,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/leistungen#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.bildhaueratelier.ch",
+          "internal": false
+        },
+        {
+          "text": "– Beat Eschmann, Bildhaueratelier Beat Eschmann GmbH",
+          "href": "http://www.bildhaueratelier.ch",
+          "internal": false
+        },
+        {
+          "text": "Mehr zu Finanz- und Rechnungswesen erfahren",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Mehr zu Steuerberatung erfahren",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "– Bea Ribaux, www.bea-ribaux.ch",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "Mehr zu Online-Treuhand erfahren",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "/Content/img/illustration.png",
+          "alt": "Leistungen"
+        },
+        {
+          "src": "/Content/img/bildhaueratelier-beat-eschmann.png",
+          "alt": "Bildhaueratelier Beat Eschmann GmbH"
+        },
+        {
+          "src": "/Content/img/testimonial_bea-ribaux.png",
+          "alt": "Bea Ribaux"
+        },
+        {
+          "src": "/Content/img/bexio-green-claim.png",
+          "alt": "Bexio"
+        },
+        {
+          "src": "/Content/img/AbaWeb.png",
+          "alt": "AbaWeb"
+        },
+        {
+          "src": "/Content/img/AbaNinja_Logo.png",
+          "alt": "AbaNinja"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "mail@accuratus-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/006__leistungen.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/steuerberatung",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Steuerberatung: Steuererklärung, Steuerabzug, Steueroptimierung | Accuratus Treuhandbüro Zürich",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Steuerberatung für juristische und natürliche Personen in Sachen Steuererklärung, Steuerabzüge, Steueroptimierung, Einsprache und Fristen.",
+        "og:title": "Steuerberatung: Steuererklärung, Steuerabzug, Steueroptimierung | Accuratus Treuhandbüro Zürich",
+        "og:description": "Steuerberatung für juristische und natürliche Personen in Sachen Steuererklärung, Steuerabzüge, Steueroptimierung, Einsprache und Fristen.",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/steuerberatung",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Steuerberatung"
+        ],
+        "h2": [
+          "Die Steuererklärung",
+          "So unterstützen wir Sie",
+          "Nehmen Sie mit uns Kontakt auf"
+        ],
+        "h3": [
+          "Unsicherheit",
+          "Änderung der familiären Verhältnisse",
+          "Grundstückgewinnsteuer und Wohneigentum",
+          "Erbschaft",
+          "Fristen und Einsprachen",
+          "Kontaktieren Sie uns:"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Steuerberatung: Steuererklärung, Steuerabzug, Steueroptimierung | Accuratus Treuhandbüro Zürich\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nSteuerberatung\nSteuern zahlen, JA. Zu viele Steuern zahlen, NEIN.\nDie Steuererklärung\nVerzweiflung, Überforderung, Wut – im besten Fall noch Langeweile oder resignierte Ergebenheit sind Gefühle, die viele Menschen mit «Steuererklärung ausfüllen» in Verbindung bringen.\nManch einer entstaubt lieber zum dritten Mal das Bücherregal, wechselt die Autoreifen oder bügelt einen Berg Wäsche, als sich an die Steuererklärung zu setzen. Das muss nicht sein: Denn es gibt Menschen, denen das Jonglieren mit Kinderfreibeträgen, Kapitaleinkünften und Pendlerpauschalen Spass macht: uns.\n▼ weiter ▼\nSo unterstützen\nwir Sie\nDie Steuererklärung in professionelle Hände zu geben, macht aus verschiedenen Gründen Sinn.\nUnsicherheit\nViele Menschen wissen nicht, ob sie zu viele\nSteuern\nzahlen und alle steuerlichen Abzüge geltend machen?\nÄnderung der familiären Verhältnisse\nHeirat, Kinder, Trennung – jeder dieser Lebensabschnitte hat nicht nur für Ihr Leben, sondern auch auf Ihre Steuererklärung Auswirkungen.\nGrundstückgewinnsteuer und Wohneigentum\nDer Kauf einer Wohnung oder eines Hauses beeinflusst Ihre steuerliche Situation ebenso wie der vorteilhafte Verkauf eines Grundstücks\n(Grundstückgewinnsteuer)\n.\nErbschaft\nAuch wenn niemand gerne an den Tod denkt. Es lohnt sich in steuerlicher Hinsicht, sich frühzeitig Gedanken zur Erbschaft zu machen, damit das Erbe möglichst ohne Abzüge bei den Erben ankommt.\nFristen und Einsprachen\nMit unserer Unterstützung verpassen Sie keine Fristen mehr. Wer mit der Einschätzung des zuständigen Steuerbeamten nicht einverstanden ist, dem helfen wir, dagegen vorzugehen.\nIm Rahmen der gesetzlichen Möglichkeiten optimieren wir Ihre Steuererklärung. Selbstverständlich halten wir uns mit Weiterbildungen stets auf dem Laufenden über die aktuelle Steuergesetzlage.\nUnabhängig davon, mit welcher Steuerangelegenheit Sie zu uns kommen: Wir erledigen sie termingerecht, kompetent und «akkurat».\nUnsere Dienstleistungen im Bereich Steuerberatung:\nSteuerberatung für natürliche Personen\nSteuerberatung für juristische Personen\nAusarbeitung sämtlicher Steuererklärungen für die Deutschschweiz inkl. Steuerausscheidungen und Steuerberechnungen\nSteuervergleichsrechnungen und Steuerplanung\nKontrolle der Steuerrechnungen und Steuerveranlagungen\nAusarbeiten von Einsprachen\nSteuervertretung vor Behörden\nAbschlussberatung unter steuerlichen Aspekten\nMehrwertsteuerberatung\nStraflose Selbstanzeigen\n▼ weiter ▼\nNehmen Sie mit uns Kontakt auf\nUnsere langjährige Erfahrung als Treuhänder in Zürich und Kunden aus vielen Branchen ermöglichen es uns, Ihnen massgeschneiderte Lösungen anzubieten. Unsere Arbeitsweise ist unkompliziert, effizient und gleichzeitig äusserst sorgfältig.\nKontaktieren Sie uns, wir nehmen uns gerne Zeit für Ihre Fragen.\nWeiter zum Kontaktformular\nKontaktieren Sie uns:\n044 404 70 16\nmail@accuratus-treuhand.ch\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nAccuratus\nist schnell und effektiv. Die Unterstützung ist immer aufs Wesentliche und Notwendige konzentriert und von der Geschäftspraxis und Strategie des Kunden geleitet.\n– Bea Ribaux, www.bea-ribaux.ch\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 3739,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/steuerberatung#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "▼ weiter ▼",
+          "href": "https://accuratus-treuhand.ch/steuerberatung#",
+          "internal": true
+        },
+        {
+          "text": "▼ weiter ▼",
+          "href": "https://accuratus-treuhand.ch/steuerberatung#",
+          "internal": true
+        },
+        {
+          "text": "Weiter zum Kontaktformular",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:0444047016",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "– Bea Ribaux, www.bea-ribaux.ch",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "/Content/img/testimonial_bea-ribaux.png",
+          "alt": "Bea Ribaux"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "mail@accuratus-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/007__steuerberatung.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/wirtschaftspr%C3%BCfung-revision",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Unabhängige Revision/Wirtschaftsprüfung durch Accuratus Treuhand in Zürich",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Wir führen als Treuhandbüro in Zürich die eingeschränkte Revision für Ihr Unternehmen gemäss aktueller Standards durch und erstatten anschliessend Bericht. ",
+        "og:title": "Unabhängige Revision/Wirtschaftsprüfung durch Accuratus Treuhand in Zürich",
+        "og:description": "Wir führen als Treuhandbüro in Zürich die eingeschränkte Revision für Ihr Unternehmen gemäss aktueller Standards durch und erstatten anschliessend Bericht. ",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/wirtschaftsprüfung-revision",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "In Sachen Wirtschaftsprüfung/​Revision schauen wir ganz genau hin"
+        ],
+        "h2": [
+          "Zwei Augen sehen gut, vier Augen sehen besser",
+          "So unterstützen wir Sie",
+          "Nehmen Sie mit uns Kontakt auf"
+        ],
+        "h3": [
+          "Kontaktieren Sie uns:"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Unabhängige Revision/Wirtschaftsprüfung durch Accuratus Treuhand in Zürich\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nIn Sachen\nWirtschaftsprüfung/​Revision\nschauen wir ganz genau hin\nMit dem Abschluss Ihrer Bilanz beginnt unsere Arbeit. Wir sichten Ihre Buchhaltung und Ihren Jahresabschluss mit Argusaugen und sorgen dafür, dass Sie korrekte Zahlen vorlegen können.\nZwei Augen sehen gut, vier Augen sehen besser\nDiesem Prinzip folgt die Revision/Wirtschaftsprüfung: Selbst bei sorgfältiger Arbeit können Buchhaltungsfehler passieren. Damit diese sich nicht negativ auf Ihren\nJahresabschluss\nauswirken, prüfen wir als\nunabhängige Revisionsstelle\nIhre Buchhaltung professionell und unter Befolgung der gesetzlichen Vorschriften und Standards auf Herz und Nieren.\n▼ weiter ▼\nSo unterstützen\nwir Sie\nAccuratus-Treuhand GmbH ist\nunter der Registernummer 501246 im Revisionsregister der Eidgenössischen Revisionsaufsichtsbehörde (RAB)\nals Revisionsexpertin zugelassen\n.\nTheo Herger, zugelassener Revisionsexperte, führt die eingeschränkte Revision gemäss geltenden Prüfungsstandards durch.\nUnsere Dienstleistungen im Bereich Wirtschaftsprüfung/Revision:\nPrüfung von Jahresabschlüssen\nGründungsprüfungen\nSpezialprüfungen und -analysen\n▼ weiter ▼\nNehmen Sie mit uns Kontakt auf\nUnsere langjährige Erfahrung mit Kunden aus vielen Branchen ermöglicht es uns, Ihnen massgeschneiderte Lösungen anzubieten. Unsere Arbeitsweise ist unkompliziert, effizient und gleichzeitig äusserst sorgfältig.\nKontaktieren Sie uns, wir nehmen uns gerne Zeit für Ihre Fragen.\nWeiter zum Kontaktformular\nKontaktieren Sie uns:\n044 404 70 16\nmail@accuratus-treuhand.ch\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nDie hochprofessionelle, ehrliche und persönliche Revisions­betreuung durch\nAccuratus-Treuhand GmbH\nlässt keine Wünsche übrig!\n– Kerstin Kurer, barfussbar.ch\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 2342,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/wirtschaftspr%C3%BCfung-revision#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "▼ weiter ▼",
+          "href": "https://accuratus-treuhand.ch/wirtschaftspr%C3%BCfung-revision#",
+          "internal": true
+        },
+        {
+          "text": "▼ weiter ▼",
+          "href": "https://accuratus-treuhand.ch/wirtschaftspr%C3%BCfung-revision#",
+          "internal": true
+        },
+        {
+          "text": "Weiter zum Kontaktformular",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:0444047016",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.barfussbar.ch",
+          "internal": false
+        },
+        {
+          "text": "– Kerstin Kurer, barfussbar.ch",
+          "href": "http://www.barfussbar.ch",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "/Content/img/barfussbar.png",
+          "alt": "barfussbar.ch"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "mail@accuratus-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/008__wirtschaftspr_C3_BCfung-revision.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/online-web-treuhand",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Online Treuhand in Zürich",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Wir führen als Treuhandbüro in Zürich die eingeschränkte Revision für Ihr Unternehmen gemäss aktueller Standards durch und erstatten anschliessend Bericht. ",
+        "og:title": "Online Treuhand in Zürich",
+        "og:description": "Wir führen als Treuhandbüro in Zürich die eingeschränkte Revision für Ihr Unternehmen gemäss aktueller Standards durch und erstatten anschliessend Bericht. ",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/online-web-treuhand",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Online-/Web-Treuhand"
+        ],
+        "h2": [
+          "So unterstützen wir Sie",
+          "Nehmen Sie mit uns Kontakt auf"
+        ],
+        "h3": [
+          "Mit uns an Ihrer Seite gelingt Ihnen der stressfreie Einstieg in die Digitalisierung",
+          "AbaWeb",
+          "Bexio",
+          "Weitere Software",
+          "Kontaktieren Sie uns:"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Online Treuhand in Zürich\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nOnline-/Web-Treuhand\nSie entscheiden welche Aufgaben Sie selber übernehmen wollen und haben immer und von überall Zugang zu Ihrer Buchhaltung.\nMit uns an Ihrer Seite gelingt Ihnen der stressfreie Einstieg in die Digitalisierung\nMöchten Sie Ihre Zahlen besser im Griff haben und jederzeit in Ihre Buchhaltung Einblick nehmen können?\nWollen Sie die Buchhaltung teilweise selber übernehmen?\nSind Sie es leid, durch Papierberge auf dem Schreibtisch die Übersicht zu verlieren und möchten Sie eigentlich lieber, die Rechnungen eingescannt digital hinter der Buchung abgelegt haben?\nDann ist eine Online-Buchhaltungssoftware die beste Lösung für Sie.\n▼ weiter ▼\nSo unterstützen\nwir Sie\nEntscheiden Sie selbst, welches Abo und welche Programme Sie benötigen. Wir begleiten Sie gerne beim Einstieg, richten die Software ein und stehen Ihnen für die Schulung zur Seite.\nSie können komplett selbständig arbeiten und uns nur beim Jahresabschluss hinzuziehen oder uns mit weiteren Aufgaben zu Ihrer Entlastung beauftragen. Unsere Zusammenarbeit passen wir Ihren Wünschen und Bedürfnissen an.\nAbaWeb\nAls zertifizierter AbaWeb-Anbieter bieten wir Ihnen für Ihre Buchhaltung eine einfache und sichere Cloud-Lösung an. Sie wählen flexibel Ihr Abo und haben jederzeit Zugriff auf Ihre Daten. Mit AbaWeb lassen sich viele weitere Programme von Abacus Business Software verknüpfen, wie zum Beispiel das Programm zur Auftragsabwicklung und Fakturierung «AbaNinja», die Lohnbuchhaltung «AbaSalary» oder die App «AbaClik» für die automatische Erfassung & Verbuchung von Rechnungen und Spesen.\nSofern Sie bereits bei AbaWeb dabei sind, ist ein Übertrag einfach und unkompliziert. Eine Zugangsberechtigung auf Ihr Portal gibt uns direkt Einblick in Ihre Buchhaltung. So können wir Sie bei Fragen optimal unterstützen.\nwww.abaweb.ch\nBexio\nBexio ist eine cloudbasierte Business-Software-Lösung für Start-ups, KMUs und\r\n                                    Selbstständige. Die gesamten Arbeitsprozesse Ihres Unternehmens sind digitalisiert und\r\n                                    alle\r\n                                    Arbeitsschritte in einem Programm zusammengefasst: Vom Offertwesen bis zum Mahnwesen\r\n                                    inklusive Finanz- und Lohnbuchhaltung.\nDurch offene Schnittstellen ist eine rasche Integration von Fremdprogrammen oder\r\n                                    Webshops\r\n                                    möglich. Die Daten werden dabei auf den Servern von Bexio gespeichert.\nAls Bexio Gold Partner unterstützen wir Sie gerne beim Einstieg und der Weiterführung.\nwww.bexio.com\nWeitere Software\nAuf Wunsch/Anfrage bieten wir Ihnen auch Unterstützung mit anderen\r\n                                    Softwarelösungen.\nUnsere Dienstleistungen im Bereich Online-Portal:\nEinrichten der Software\nSchulung der Mitarbeitenden\nUnterstützung bei der Buchhaltung im Falle von Engpässen\nMWST-Abrechnung erstellen / kontrollieren\nJahresabschluss erstellen\nAuskunft bei diversen Fragen\n▼ weiter ▼\nNehmen Sie mit uns Kontakt auf\nUnsere langjährige Erfahrung als Treuhänder in Zürich und Kunden aus vielen Branchen ermöglichen es uns, Ihnen massgeschneiderte Lösungen anzubieten. Unsere Arbeitsweise ist unkompliziert, effizient und gleichzeitig äusserst sorgfältig.\nKontaktieren Sie uns, wir nehmen uns gerne Zeit für Ihre Fragen.\nWeiter zum Kontaktformular\nKontaktieren Sie uns:\n044 404 70 16\nmail@accuratus-treuhand.ch\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nAccuratus\nist schnell und effektiv. Die Unterstützung ist immer aufs Wesentliche und Notwendige konzentriert und von der Geschäftspraxis und Strategie des Kunden geleitet.\n– Bea Ribaux, www.bea-ribaux.ch\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 4241,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "▼ weiter ▼",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand#",
+          "internal": true
+        },
+        {
+          "text": "www.abaweb.ch",
+          "href": "https://www.abaweb.ch/",
+          "internal": false
+        },
+        {
+          "text": "www.bexio.com",
+          "href": "https://www.bexio.com/",
+          "internal": false
+        },
+        {
+          "text": "▼ weiter ▼",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand#",
+          "internal": true
+        },
+        {
+          "text": "Weiter zum Kontaktformular",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:0444047016",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "– Bea Ribaux, www.bea-ribaux.ch",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "/Content/img/bexio-gold.png",
+          "alt": "bexio gold"
+        },
+        {
+          "src": "/Content/img/testimonial_bea-ribaux.png",
+          "alt": "Bea Ribaux"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "mail@accuratus-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/009__online-web-treuhand.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/%C3%BCber-uns",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten.",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Erfahren Sie mehr über Accuratus Treuhand in Zürich, die Experten hinter den Dienstleistungen, sowie über unsere Kunden. ",
+        "og:title": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten. ",
+        "og:description": "Erfahren Sie mehr über Accuratus Treuhand in Zürich, die Experten hinter den Dienstleistungen, sowie über unsere Kunden. ",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/über-uns",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Das sind WIR",
+          "Unser Team"
+        ],
+        "h2": [
+          "Firmengeschichte und Werte",
+          "Team",
+          "Theo Herger",
+          "Rupa Herger",
+          "Andrea Jenzer-Schoch",
+          "Kerstin Moeri"
+        ],
+        "h3": [
+          "Geschäftsführer Mandatsleiter",
+          "«Wer nichts tut, kann nichts bewegen» (Wilhelm Hasenclever)",
+          "HR-Spezialistin",
+          "Mandatsleiterin Treuhänderin mit eidg. Fachausweis",
+          "Mandatsleiterin Dipl. Treuhandexpertin"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten.\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nDas sind WIR\nFirmengeschichte und Werte\nSeit mehr als 20 Jahren unterstützen wir unsere Kunden fair, zuverlässig und «akkurat». Accuratus-Treuhand GmbH wurde Ende 2001 gegründet. Ein Name für das Unternehmen war schnell gefunden.\n«Accuratus» steht für unsere genaue, sorgfältige und ordentliche Arbeitsweise.\nBei aller Sorgfalt suchen wir für unsere Kunden nach effizienten und digitalen Lösungen. Wir sind sofort nach Mandatserteilung einsatzbereit und flexibel bezüglich Einsatzzeiten.\nDas stete Wachstum der Accuratus-Treuhand GmbH bestätigt uns und unseren Kurs. Viele unserer Kunden begleiten wir seit vielen Jahren. Ein Beweis dafür, dass sich unser persönliches Engagement für unsere Kunden auszahlt.\nWir sind\nMitglied des Schweizerischen Treuhänderverbandes TREUHAND SUISSE.\nTeam\nUnsere Mitarbeitenden verfügen über eidgenössisch anerkannte Fähigkeitsausweise und bilden sich laufend weiter. Unser kleines, effizientes Team stellt im Stellvertretungsfall die gleichbleibende Qualität unserer Arbeit sicher. So vermeiden wir Know-how-Verluste und sorgen für Kontinuität bei Ihnen.\nWir arbeiten:\nzuverlässig\neffizient\ndiskret\nfachlich einwandfrei\nWir leben unsere Berufung.\nUnser Team\nTheo Herger\nGeschäftsführer\nMandatsleiter\nTreuhänder mit eidg. Fachausweis\nZugelassener Revisionsexperte\n«Wer nichts tut, kann nichts bewegen»\n(Wilhelm Hasenclever)\nWenn man seinen Beruf jeden Tag aufs Neue abwechslungsreich und spannend findet, dann weiss man, dass man den richtigen Beruf hat.\nEs ist ein Privileg, dass ich mein über 30-jähriges Know-how täglich für meine Kunden einsetzen darf. Denn schliesslich stehen hinter jeder Buchhaltung und jeder Steuererklärung Menschen. Ich denke, die Kunden spüren und schätzen, wie sehr mir mein Beruf Spass macht und wie sehr ich mich persönlich für sie engagiere. Unsere Kunden wissen, dass sie bei uns nicht nur eine Nummer sind.\nRupa Herger\nHR-Spezialistin\nHuman Resources Fachfrau mit eidg. Fachausweis, Bachelor Psychomotoriktherapeutin\n«Erfahrung ist verstandene Wahrnehmung»\n(Immanuel Kant)\nEs ist schön, dass ich meinen Ehemann und das Team bei den Tätigkeiten unterstützen kann. Meine langjährige Berufserfahrung setze ich beratend und unterstützend ein. Ich halte gerne im Hintergrund die Fäden zusammen, damit im Vordergrund alles rund läuft.\nAndrea Jenzer-Schoch\nMandatsleiterin\nTreuhänderin mit eidg. Fachausweis\n«Das gute Gelingen ist zwar nichts Kleines, fängt aber mit Kleinigkeiten an»\n(Sokrates)\nDie Treuhandbranche ist für mich – auch nach langjähriger Berufserfahrung – ein sehr interessantes und abwechslungsreiches Tätigkeitsgebiet. Nebst den wiederkehrenden Arbeiten, bietet es immer wieder neue und spannende Herausforderungen.\nDazu schätze ich den direkten Kontakt mit unseren Kunden, sowie die Möglichkeit zu haben, in einem kompetenten und gut eingespielten Team tätig zu sein.\nKerstin Moeri\nMandatsleiterin\nDipl. Treuhandexpertin\n«Das Geheimnis des Erfolges ist es, den Standpunkt des anderen zu verstehen\n»\n(Henry Ford)\nSeit November 2017 bin ich ein Teil des Teams der Accuratus-Treuhand GmbH. Insbesondere schätze ich an meinem Beruf die Vielfalt. Jede Buchhaltung, jede Steuererklärung und jeder Kunde ist unterschiedlich und bietet eine neue Herausforderung, was mir die Möglichkeit gibt, mein Wissen stets zu erweitern.\nDie gute und vertrauensvolle Zusammenarbeit mit Ihnen und innerhalb unseres Teams ermöglicht es uns, Sie optimal in Ihren finanziellen Angelegenheiten zu unterstützen.\nDank Theo Herger und seiner\nAccuratus-Treuhand\nkann ich mich auf mein Kerngeschäft\r\n        konzentrieren. Dies im Wissen, dass Buchhaltung und Steuern jeder Prüfung standhalten. Sein\r\n        umfassendes, praxisnahes Wissen und seine langjährige Erfahrung machen ihn zum idealen Partner\r\n        für mich.\n– Sunconnect GmbH,\r\n            www.sunconnect.ch\nTheo Herger und sein Team begleiten unser Geschäft seit der Gründung. Damit wir uns auf unsere\r\n        Kernkompetenz, die Architektur, konzentrieren können ist es beruhigend einen pflichtbewussten\r\n        Treuhand-Partner an seiner Seite zu wissen. Sie unterstützen uns bei strategischen Entscheiden und\r\n        kümmern sich um die Buchführung, Mehrwertsteuerabrechnung, Jahresabschluss und Steuern.\n– suter plus GmbH,\r\n            www.suterplus.ch\nIn Herrn Herger sowie der\nAccuratus-Treuhand GmbH\ndurfte ich einen verlässlichen und sehr sympathischen Partner finden, \r\nder mich versteht und den ich verstehe. Geldangelegenheiten & Treuhand sind Vertrauenssache – und meine Vertrauen hat Herr Herger bereits beim ersten Kontakt anhaltend gewonnen.\n– Maurizio Tondolo, tondolo.one\nAls Startup-Unternehmen gibt es so vieles, woran zu denken ist. Mit Herrn Herger und seinem Team, habe ich einen Vertrauenspartner gefunden, \r\n        der mich in allen treuhänderischen Fragen verständlich und situationsgerecht begleitet.\n– Katia Corino, corino.ch\nAls Steinbildhauer sind Zahlen nicht so meine Stärke. \r\n        Aus diesem Grund bin ich froh, dass\nAccuratus\nfür mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n– Beat Eschmann, Bildhaueratelier Beat Eschmann GmbH\nAccuratus\nist für uns als KMU seit über 10 Jahren der ideale Partner. \r\n        Unsere Zeitersparnis und die sehr speditive Abwicklung stellen für uns einen direkten Mehrwert bei exzellenter Qualität dar.\n– Claude Ribaux, www.clauderibaux.ch\nAccuratus\nist schnell und effektiv. Die Unterstützung ist immer aufs Wesentliche und Notwendige konzentriert und von der Geschäftspraxis und Strategie des Kunden geleitet.\n– Bea Ribaux, www.bea-ribaux.ch\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 6244,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/%C3%BCber-uns#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.solaranlage-sunconnect.ch/",
+          "internal": false
+        },
+        {
+          "text": "– Sunconnect GmbH,\r\n            www.sunconnect.ch",
+          "href": "https://www.solaranlage-sunconnect.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.suterplus.ch/",
+          "internal": false
+        },
+        {
+          "text": "– suter plus GmbH,\r\n            www.suterplus.ch",
+          "href": "https://www.suterplus.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://tondolo.one/",
+          "internal": false
+        },
+        {
+          "text": "– Maurizio Tondolo, tondolo.one",
+          "href": "http://tondolo.one/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.corino.ch/",
+          "internal": false
+        },
+        {
+          "text": "– Katia Corino, corino.ch",
+          "href": "http://www.corino.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.bildhaueratelier.ch",
+          "internal": false
+        },
+        {
+          "text": "– Beat Eschmann, Bildhaueratelier Beat Eschmann GmbH",
+          "href": "http://www.bildhaueratelier.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.clauderibaux.ch",
+          "internal": false
+        },
+        {
+          "text": "– Claude Ribaux, www.clauderibaux.ch",
+          "href": "http://www.clauderibaux.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "– Bea Ribaux, www.bea-ribaux.ch",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "/Content/uploads/theo-herg-0.jpg",
+          "alt": "area-widget-1"
+        },
+        {
+          "src": "/Content/uploads/rupa-herger_1500x100-0.jpg",
+          "alt": "area-widget-13"
+        },
+        {
+          "src": "/Content/uploads/andrea-jenze-0.jpg",
+          "alt": "area-widget-16"
+        },
+        {
+          "src": "/Content/uploads/team-ne-0.jpg",
+          "alt": "area-widget-58"
+        },
+        {
+          "src": "/Content/img/logo_sunconnect.jpg",
+          "alt": "Sunconnect GmbH"
+        },
+        {
+          "src": "/Content/img/logo_suterplus.jpg",
+          "alt": "Sunconnect GmbH"
+        },
+        {
+          "src": "/Content/img/logo-tondolo-one-gmbh.png",
+          "alt": "tondolo one gmbh"
+        },
+        {
+          "src": "/Content/img/logo-corino-gmbh.png",
+          "alt": "Corino GmbH"
+        },
+        {
+          "src": "/Content/img/bildhaueratelier-beat-eschmann.png",
+          "alt": "Bildhaueratelier Beat Eschmann GmbH"
+        },
+        {
+          "src": "/Content/img/testimonial_claude-ribaux.png",
+          "alt": "Claude Ribaux"
+        },
+        {
+          "src": "/Content/img/testimonial_bea-ribaux.png",
+          "alt": "Bea Ribaux"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "mail@accuratus-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/010__C3_BCber-uns.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/datenschutz",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Datenschutzerklärung",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Datenschutzerklärung Accuratus Treuhand",
+        "og:title": "Datenschutzerklärung",
+        "og:description": "Datenschutzerklärung Accuratus Treuhand",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/datenschutz",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Datenschutzerklärung"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Datenschutzerklärung\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nDatenschutzerklärung\nIn dieser Datenschutzerklärung beschreiben wir, die Accuratus-Treuhand GmbH und Quintessentia Treuhand GmbH (nachfolgend Accuratus und/oder Quintessentia, wir oder uns), wie wir Personendaten erheben und bearbeiten. Diese Datenschutzerklärung stellt keine abschliessende Beschreibung dar; allenfalls regeln andere den Datenschutz betreffende Erklärungen spezifische Sachverhalte. Unter Personendaten werden für die Zwecke dieser Datenschutzerklärung alle Angaben verstanden, die sich auf eine bestimmte oder bestimmbare Person beziehen.\n1. Verantwortliche Stelle und Kontakt\nVerantwortlich für die Datenbearbeitungen, die wir hier beschreiben, ist die Accuratus-Treuhand GmH und Quintessentia Treuhand GmbH, soweit im Einzelfall nichts anderes angegeben ist. Anfragen zum Datenschutz können, unter Beilage einer Kopie der ID oder des Passes zur Identifikation des Nutzers, per Brief oder E-Mail an uns gerichtet werden: Accuratus-Treuhand GmbH, Norastrasse 7, Postfach, 8040 Zürich; Tel. +41 44 404 70 16 / mail@accuratus-treuhand.ch oder Quintessentia Treuhand GmbH, Norastrasse 7, Postfach, 8040 Zürich, Tel. +41 79 769 7252 / mail@quintessentia-treuhand.ch .\n2. Erhebung und Bearbeitung von Personendaten\nWir bearbeiten Personendaten insbesondere in den folgenden Kategorien von Bearbeitungen.\nKundendaten von Kunden, für die wir Leistungen erbringen oder erbracht haben.\nPersonendaten, die wir bei der Leistungserbringung indirekt von unseren Kunden erhalten\nhaben.\nBeim Besuch unserer Website\nWenn wir kommunizieren oder ein Besuch stattfindet.\nBei sonstiger vertraglicher Beziehung, z.B. als Lieferant, Dienstleistungserbringer oder Berater.\nBei Bewerbungen\nWenn wir aus gesetzlichen oder regulatorischen Gründen dazu verpflichtet sind.\nWenn wir unsere Sorgfaltspflichten oder sonstige berechtigte Interessen wahrnehmen, z.B. um\nInteressenkonflikte zu vermeiden, Geldwäscherei oder sonstige Risiken zu vermeiden, die Datenrichtigkeit sicherzustellen, die Bonität zu prüfen, die Sicherheit zu gewährleisten oder unsere Rechte durchzusetzen.\nDetailliertere Informationen finden Sie in der Beschreibung der jeweiligen Kategorien von Bearbeitungen in Ziff. 5\n3. Kategorien von Personendaten\nWelche Personendaten wir bearbeiten ist abhängig von Ihrer Beziehung zu uns und vom Zweck, für den wir diese bearbeiten. Wir bearbeiten nebst ihren Kontaktdaten auch weitere Informationen über Sie oder über Personen, die mit Ihnen in einer Beziehung stehen. Bei diesen Informationen kann es sich unter Umständen auch um besonders schützenswerte Personendaten handeln.\nWir sammeln folgende Kategorien von Personendaten, abhängig vom Zweck, für den wir diese bearbeiten:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail)\nKundeninformationen (z.B. Geburtsdatum, Nationalität, Zivilstand, Beruf, Titel,\nStellenbezeichnung, Pass / ID-Nummer, AHV-Nummer)\nRisikobewertungsdaten (z.B. Bonitätsinformationen, Handelsregisterdaten)\nFinanzinformationen (z.B. Daten zu Bankverbindungen)\nMandatsdaten, je nach Auftrag (z.B. Steuerinformationen, Statuten, Protokolle, Projekte, Verträge, Mitarbeitendendaten (z.B. Lohn, Sozialversicherungen), Buchhaltungsdaten, wirtschaftlich Berechtigte, Eigentumsverhältnisse)\nWebseitendaten (z.B. IP-Adresse, Geräteinformation (UDI), Informationen zum Browser, Webseitennutzung (Analyse und Verwendung von Plugins, etc.)\nBewerbungsdaten (z.B. Lebenslauf, Arbeitszeugnisse)\nMarketinginformationen (z.B. Anmeldung Newsletter)\nSicherheits- und Netzwerkdaten (z.B. Besucherlisten, Zutrittskontrollen, Netzwerk- und\nMailscanner, Telefonanruflisten)\nSoweit dies erlaubt ist, entnehmen wir auch öffentlich zugänglichen Quellen (z.B. Betreibungsregister, Grundbücher, Handelsregister, Presse, Internet) gewisse Daten oder erhalten solche von unseren Mandanten und deren Mitarbeitern, von Behörden, (Schieds-)Gerichten und sonstigen Dritten. Nebst den Daten von Ihnen, die Sie uns direkt geben, umfassen die Kategorien von Personendaten, die wir von Dritten über Sie erhalten, insbesondere Angaben aus öffentlichen Registern, Angaben, die wir im Zusammenhang mit behördlichen und gerichtlichen Verfahren erfahren, Angaben im Zusammenhang mit ihren beruflichen Funktionen und Aktivitäten (damit wir z.B. mit Ihrer Hilfe Geschäfte mit Ihrem Arbeitgeber abschliessen und abwickeln können), Angaben über Sie in Korrespondenz und Besprechungen mit Dritten, Bonitätsauskünfte, Angaben über Sie, die uns Personen aus Ihrem Umfeld (Familie, Berater, Rechtsvertreter, etc.) geben, damit wir Verträge mit Ihnen oder unter Einbezug von Ihnen abschliessen oder abwickeln können (z.B. Referenzen, Ihre Adresse für Lieferungen, Vollmachten) Angaben zur Einhaltung gesetzlicher Vorgaben wie etwa der Geldwäschereibekämpfung und Exportrestriktionen, Angaben von Banken, Versicherungen, Vertriebs- und anderen Vertragspartnern von uns zur Inanspruchnahme oder Erbringung von Leistungen durch Sie (z.B. erfolgte Zahlungen, erfolgte Käufe), Angaben aus Medien und Internet zu Ihrer Person (soweit dies im konkreten Fall angezeigt ist, z.B. im Rahmen einer Bewerbung etc.), Ihre Adressen und ggf. Interessen und weitere soziodemographische Daten (für Marketing), Daten im Zusammenhang mit der Benutzung der Website (z.B. IP-Adresse, MAC-Adresse des Smartphones oder Computers, Angaben zu Ihrem Gerät und Einstellungen, Cookies, Datum und Zeit des Besuchs, abgerufene Seiten und Inhalte, benutzte Funktionen, verweisende Website, Standortangaben).\n4. Zwecke der Datenbearbeitung und Rechtsgrundlage\n4.1. Erbringung von Dienstleistungen\nWir bearbeiten in erster Linie die Personendaten, die wir im Rahmen unserer Mandatsbeziehungen mit unseren Kunden und sonstigen Vertragsbeziehungen mit Geschäftspartnern von diesen und weiteren daran beteiligten Personen erhalten.\nBei den Personendaten unserer Kunden handelt es sich insbesondere um folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail, sonstige Kontaktinformationen)\nPersönliche Informationen (z.B. Geburtsdatum, Nationalität, Zivilstand, Beruf, Titel, Stellenbezeichnung, Pass / ID-Nummer, AHV-Nummer, familiäre Verhältnisse, etc.)\nRisikobewertungstdaten (z.B. Bonitätsinformationen, Handelsregisterdaten, Sanktionslisten, spezialisierte Datenbanken, Daten aus dem Internet)\nFinanzinformationen (z.B. Daten zu Bankverbindungen, Investments oder Beteiligungen)\nMandatsdaten, je nach Auftrag z.B. Steuerinformationen, Statuten, Protokolle,\nMitarbeitendendaten (z.B. Lohn, Sozialversicherungen), Buchhaltungsdaten, etc.\nBesonders schützenswerte Personendaten: Unter diesen Personendaten können sich auch\nbesonders schützenswerte Personendaten befinden, wie bspw. Daten zur Gesundheit, zu religiösen Ansichten oder zu Massnahmen der sozialen Hilfe, insbesondere, wenn wir Leistungen im Bereich Lohnverarbeitung oder Buchhaltung erbringen.\nDiese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:\nAbschluss oder Abwicklung eines Vertrages mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfällige Durchsetzung (z.B. Beratung, Treuhand)\nErfüllung einer gesetzlichen Verpflichtung\nWahrung berechtigter Interessen, (z.B. für administrative Zwecke, um unsere Qualität zu\nverbessern, die Sicherheit zu gewährleisten, Risikomanagement zu betreiben, unsere Rechte durchzusetzen, uns gegen Ansprüche zu verteidigen oder um mögliche Interessenkonflikte zu prüfen)\nEinwilligung (z.B. um ihnen Marketinginformationen zuzusenden).\n4.2. Indirekte Datenbearbeitung aus Leistungserbringung\nWenn wir Leistungen für unsere Kunden erbringen, kann es vorkommen, dass wir auch Personendaten bearbeiten, die wir nicht direkt bei den betroffenen Personen erhoben haben oder Personendaten von Drittpersonen. Es handelt sich bei diesen Drittpersonen in der Regel um Mitarbeitende, Kontaktpersonen, Familienmitglieder oder Personen, die aus anderen Gründen mit den Kunden oder den betroffenen Personen in einer Beziehung stehen. Diese Personendaten benötigen wir, um Verträge mit unseren Kunden zu erfüllen. Wir erhalten diese Personendaten von unseren Kunden oder von Dritten, die von unseren Kunden beauftragt werden. Drittpersonen, deren Informationen wir zu diesem Zweck bearbeiten, werden von unseren Kunden darüber informiert, dass wir ihre Daten bearbeiten. Unsere Kunden können dafür auf diese Datenschutzerklärung verweisen.\nBei den Personendaten der Personen, die mit unseren Kunden in einer Beziehung stehen, handelt es sich insbesondere um folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail, sonstige Kontaktinformationen, Marketingdaten)\nPersönliche Informationen (z.B. Geburtsdatum, Nationalität, Zivilstand, Beruf, Titel, Stellenbezeichnung, Pass / ID-Nummer, AHV-Nummer, familiäre Verhältnisse, etc.)\nFinanzinformationen (z.B. Daten zu Bankverbindungen, Investments oder Beteiligungen)\nMandatsdaten, je nach Auftrag z.B. Steuerinformationen, Statuten, Protokolle,\nMitarbeitendendaten (z.B. Lohn, Sozialversicherungen), Buchhaltungsdaten\nBesonders schützenswerte Personendaten: Unter diesen Personendaten können sich auch\nbesonders schützenswerte Personendaten befinden, wie bspw. Daten zur Gesundheit, zu religiösen Ansichten oder zu Massnahmen der sozialen Hilfe, insbesondere, wenn wir Leistungen im Bereich Lohnverarbeitung oder Buchhaltung erbringen.\nDiese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:\nAbschluss oder Abwicklung eines Vertrages mit der betroffenen Person bzw. zugunsten der betroffenen Person (z. B. wenn wir unsere vertraglichen Pflichten wahrnehmen)\nErfüllung einer gesetzlichen Verpflichtung\nWahrung berechtigter Interessen, insbesondere unser Interesse, gegenüber unseren Kunden\neine optimale Leistung zu erbringen.\n4.3. Nutzung unserer Webseite\nUm unsere Webseite zu nutzen, müssen keine Personendaten offengelegt werden. Der Server erfasst jedoch mit jedem Aufruf eine Reihe von Benutzerinformationen, welche vorübergehend in den Logfiles des Servers gespeichert werden.\nBei der Nutzung dieser allgemeinen Informationen findet keine Zuordnung zu einer bestimmten Person statt. Die Erfassung dieser Informationen bzw. Daten ist technisch erforderlich, um unsere Webseite anzuzeigen und dessen Stabilität und Sicherheit zu gewährleisten. Diese Informationen werden zudem erhoben, um die Webseite zu verbessern und ihre Nutzung zu analysieren.\nDabei handelt es sich insbesondere um folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail)\nWeitere Informationen, die sie uns via die Webseite übermitteln\nAutomatisch an uns oder unsere Dienstleister übermittelte technische Informationen,\nInformationen zum Nutzerverhalten oder der Einstellungen der Webseite (z.B. IP-Adresse, UDI, Gerätetyp, Browser, Anzahl Klicks auf der Seite, Öffnen des Newsletters, Klick auf Links, etc.\nDiese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:\nWahrung berechtigter Interessen, (z.B. für administrative Zwecke, um unsere Qualität zu verbessern, Daten zu analysieren oder unsere Dienstleistungen bekannt zu machen)\nEinwilligung (z.B. in die Nutzung von Cookies oder den Newsletter).\n4.4. Teilnahme an Veranstaltungen\nWenn Sie an einer von uns organisierten Veranstaltung teilnehmen, erheben wir Personendaten, um die Veranstaltung zu organisieren, durchzuführen und Ihnen allenfalls nachträglich zusätzliche Informationen zu senden. Wir verwenden Ihre Informationen ebenfalls, um Sie auf weitere Veranstaltungen hinzuweisen. Es kann sein, dass Sie an diesen Veranstaltungen von uns fotografiert oder gefilmt werden und wir dieses Bildmaterial intern oder extern veröffentlichen.\nDabei handelt es sich insbesondere um folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail)\nPersönliche Informationen (z.B. Beruf, Funktion, Titel, Arbeitgeberfirma, Essgewohnheiten)\nBilder oder Videos\nZahlungsinformationen (z.B. Bankverbindung).\nDiese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:\nErfüllung einer vertraglichen Pflicht mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfällige Durchsetzung (Ermöglichung der Teilnahme an der Veranstaltung)\nWahrung berechtigter Interessen (z.B. Durchführung von Veranstaltungen, Verbreitung von Informationen über unsere Veranstaltung, Erbringung von Dienstleistungen, effiziente Organisation)\nEinwilligung (z.B. um ihnen Marketinginformationen zuzusenden oder Bildmaterial zu erstellen).\n4.5. Direkte Kommunikation und Besuche\nWenn Sie mit uns Kontakt aufnehmen (z.B. via Telefon, E-Mail oder Chat) oder wir Sie kontaktieren, bearbeiten wir die dafür notwendigen Personendaten. Wir bearbeiten diese Personendaten ebenfalls, wenn Sie uns besuchen. In diesem Fall kann es sein, dass Sie vor ihrem Besuch oder am Empfang Ihre Kontaktdaten hinterlassen müssen. Diese werden von uns für eine gewisse Zeit aufbewahrt, um unsere Infrastruktur und unsere Informationen zu schützen.\nFür die Durchführung von Telefonkonferenzen, Online-Meetings, Videokonferenzen und/oder Webinare («Online-Meetings») nutzen wir den Dienst «Zoom», «Microsoft Teams» «Team Viewer , «ISL-Online»\nWir bearbeiten dabei insbesondere folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail)\nRanddaten zur Kommunikation (z.B. IP-Adresse, Dauer der Kommunikation,\nKommunikationskanal)\nAufzeichnungen von Gesprächen, z.B. bei Videokonferenzen\nAndere Informationen, die der Nutzer während der Verwendung des Videokonferenzdienstes\nhoch lädt, bereitstellt oder erstellt sowie für die Wartung des bereitgestellten Dienstes verwendete Metadaten Zusätzliche Auskünfte über die Bearbeitung personenbezogener Daten durch «Zoom», «Microsoft Teams», «Team Viewer», «ISL-Online» finden sich in deren Datenschutzerklärungen.\nPersönliche Informationen (z.B. Beruf, Funktion, Titel, Arbeitgeberfirma)\nZeitpunkt und Grund des Besuchs.\nDiese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:\nErfüllung einer vertraglichen Pflicht mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfällige Durchsetzung (Erbringung einer Dienstleistung)\nWahrung berechtigter Interessen (z.B. Sicherheit, Nachvollziehbarkeit sowie Abwicklung und Administration von Kundenbeziehungen).\n4.6. Bewerbungen\nSie können per Post oder über die auf unserer Webseite angegebene E-Mail-Adresse Ihre Bewerbung für eine Stelle bei uns einreichen. Die Bewerbungsunterlagen und sämtliche damit an uns bekanntgegebenen Personendaten werden streng vertraulich behandelt, keinem Dritten bekanntgegeben und nur zum Zweck der Bearbeitung Ihrer Bewerbung für eine Anstellung bei uns bearbeitet. Ohne Ihre gegenteilige Zustimmung wird Ihr Bewerbungsdossier nach dem Abschluss des Bewerbungsverfahrens entweder an Sie zurückgesendet oder gelöscht/vernichtet, soweit es nicht einer gesetzlichen Aufbewahrungspflicht unterliegt. Rechtsgrundlagen für die Bearbeitung Ihrer Daten bilden Ihre Einwilligung, die Erfüllung des Vertrages mit Ihnen und unsere berechtigten Interessen.\nWir bearbeiten dabei insbesondere folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail)\nPersönliche Informationen (z.B. Beruf, Funktion, Titel, Arbeitgeberfirma)\nBewerbungsunterlagen (z.B. Motivationsschreiben, Zeugnisse, Diplome, Lebenslauf)\nBewertungsinformationen (z.B. Beurteilung Personalberater, Referenzauskünfte, Assessments)\nDiese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:\nWahrung berechtigter Interessen (z.B. Anstellung neuer Mitarbeitenden)\nEinwilligung.\n4.7. Lieferanten, Dienstleister, sonstige Vertragspartner\nWenn wir mit Ihnen einen Vertrag schliessen, damit Sie eine Dienstleistung für uns erbringen, bearbeiten wir Personendaten von Ihnen oder Ihren Mitarbeitenden. Diese benötigen wir, um mit Ihnen zu kommunizieren und Ihre Leistungen in Anspruch zu nehmen. Wir bearbeiten diese Personendaten unter Umständen auch um zu prüfen, ob ein Interessenkonflikt im Zusammenhang mit unserer Tätigkeit vorliegen könnte und um sicherzustellen, dass wir mit der Zusammenarbeit keine ungewollten Risiken, z.B. hinsichtlich Geldwäscherei oder Sanktionen eingehen.\nWir bearbeiten dabei insbesondere folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail).\nPersönliche Informationen (z.B. Beruf, Funktion, Titel, Arbeitgeberfirma).\nFinanzinformationen (z.B. Daten zu Bankverbindungen).\nDiese Personendaten bearbeiten wir für die beschriebenen Zwecke gestützt auf die folgenden Rechtsgrundlagen:\nAbschluss oder Abwicklung eines Vertrages mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfällige Durchsetzung\nWahrung berechtigter Interessen, (z.B. Vermeidung von Interessenkonflikten, Schutz des Unternehmens, Durchsetzung von Rechtsansprüchen).\n5. Tracking-Technologien\nWir setzen auf unserer Website Cookies ein. Hierbei handelt es sich um kleine Dateien, die Ihr Browser automatisch erstellt und die auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Seite besuchen.\nIm Cookie werden Informationen abgelegt, die sich jeweils im Zusammenhang mit dem spezifisch eingesetzten Endgerät ergeben. Dies bedeutet jedoch nicht, dass wir dadurch unmittelbar Kenntnis von Ihrer Identität erhalten. Der Einsatz von Cookies dient einerseits dazu, die Nutzung unseres Angebots für Sie angenehmer zu gestalten. So setzen wir sogenannte Session-Cookies ein, um zu erkennen, dass Sie einzelne Seiten unserer Website bereits besucht haben. Diese werden nach Verlassen unserer Seite automatisch gelöscht.\nDarüber hinaus setzen wir ebenfalls zur Optimierung der Benutzerfreundlichkeit temporäre Cookies ein, die für einen bestimmten festgelegten Zeitraum auf Ihrem Endgerät gespeichert werden. Besuchen Sie unsere Seite erneut, um unsere Dienste in Anspruch zu nehmen, wird automatisch erkannt, dass Sie bereits bei uns waren und welche Eingaben und Einstellungen sie getätigt haben, um diese nicht noch einmal eingeben zu müssen. Zum anderen setzten wir Cookies ein, um die Nutzung unserer Website statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebotes für Sie auszuwerten. Diese Cookies ermöglichen es uns, bei einem erneuten Besuch unserer Seite automatisch zu erkennen, dass Sie bereits bei uns waren. Diese Cookies werden nach einer jeweils definierten Zeit automatisch gelöscht.\nDie durch Cookies verarbeiteten Daten sind für die genannten Zwecke erforderlich. Die meisten Browser akzeptieren Cookies automatisch. Sie können Ihren Browser jedoch so konfigurieren, dass keine Cookies auf Ihrem Computer gespeichert werden oder stets ein Hinweis erscheint, bevor ein neues Cookie angelegt wird. Die vollständige Deaktivierung von Cookies kann jedoch dazu führen, dass Sie nicht alle Funktionen unserer Website nutzen können.\n6. Web- und Newsletteranalyse\nUm Aufschluss über die Nutzung unserer Webseite zu erhalten, unser Internet-Angebot zu verbessern sowie Sie auch auf Webseiten von Dritten oder auf Social Media mit Werbung ansprechen zu können, setzen wir folgende Web Analyse-Tools und Re-Targeting-Technologien ein: Google Analytics etc.\nDiese Tools werden von Drittanbietern zur Verfügung gestellt. In der Regel werden die zu diesem Zweck erhobenen Informationen über die Nutzung einer Webseite durch den Einsatz von Cookies oder ähnlichen Technologien an den Server des Drittanbieters übermittelt. Je nach Drittanbieter befinden sich diese Server im Ausland.\nDie Übermittlung der Daten erfolgt normalerweise unter Kürzung der IP-Adressen, wodurch die Identifikation einzelner Endgeräte verhindert wird. Eine Übertragung dieser Informationen durch Drittanbieter findet nur aufgrund gesetzlicher Vorschriften oder im Rahmen der\nAuftragsdatenbearbeitung statt.\n6.1. Google Analytics\nWir nutzen auf unseren Webseiten Google Analytics, den Webanalysedienst der Google LLC, Mountain View, California, USA, zuständig für Europa ist Google Limited Ireland («Google»). Zur Deaktivierung von Google Analytiscs stellt Google unter https://tools.google.com/dlpage/gaoptout?hl=de ein Browser-Plug- In zur Verfügung. Google Analytics verwendet Cookies. Das sind kleine Textdateien, die es möglich machen, auf dem Endgerät des Nutzers spezifische, auf den Nutzer bezogene Informationen zu speichern. Diese ermöglichen eine Analyse der Nutzung unseres Websiteangebotes durch Google. Die durch den Cookie erfassten Informationen über die Nutzung unserer Seiten (einschliesslich Ihrer IP- Adresse) werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Wir weisen darauf hin, dass auf dieser Website Google Analytics um den Code «gat._anonymizeIp();» erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen (sog. IP-Masking) zu gewährleisten. Ist die Anonymisierung aktiv, kürzt Google IP-Adressen innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum, weswegen keine Rückschlüsse auf Ihre Identität möglich sind. Nur in Ausnahmefällen wird die volle IP- Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Google wird unter Umständen ihre IP-Adresse mit anderen Daten von Google in Verbindung bringen. Für Datenübermittlungen in die USA hat sich Google verpflichtet, die EU-Standardvertragsklauseln zu unterzeichnen und einzuhalten. .\n6.2. Google Maps\nAuf unserer Website verwenden wir Google Maps (API) von Google Inc. (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; zuständig für Europa ist Google Limited Ireland, «Google»). Google Maps ist ein Webdienst zur Darstellung von interaktiven (Land-)Karten, um geographische Informationen visuell darzustellen. Über die Nutzung dieses Dienstes wird ihnen unser Standort angezeigt und eine etwaige Anfahrt erleichtert. Bereits beim Aufrufen derjenigen Unterseiten, in die die Karte von Google Maps eingebunden ist, werden Informationen über Ihre Nutzung unserer Website (wie z.B. Ihre IP- Adresse) an Server von Google in den USA übertragen und dort gespeichert. Dies erfolgt unabhängig davon, ob Google ein Nutzerkonto bereitstellt, über das Sie eingeloggt sind, oder ob kein Nutzerkonto besteht. Wenn Sie bei Google eingeloggt sind, werden Ihre Daten direkt ihrem Konto zugeordnet. Wenn Sie die Zuordnung mit Ihrem Profil bei Google nicht wünschen, müssen Sie sich vor Aktivierung des Buttons ausloggen. Google speichert Ihre Daten (selbst für nicht eingeloggte Nutzer) als Nutzungsprofile und wertet diese aus.\nFür Datenübermittlungen in die USA hat sich Google verpflichtet, die EU-Standardvertragsklauseln zu unterzeichnen und einzuhalten.\n6.3. Social Media Plugins\nAuf unserer Webseite werden sogenannte Social Media Plugins («Plugins») von Drittanbietern verwendet. Die Plugins sind anhand des Logos des jeweiligen sozialen Netzwerks erkennbar. Über die Plugins bieten wir Ihnen die Möglichkeit, mit den sozialen Netzwerken und anderen Nutzern zu interagieren. Wir setzen auf unserer Webseite folgende Plugins ein: Facebook, Twitter, LinkedIn, YouTube. Wenn Sie unsere Webseite aufrufen, stellt Ihr Browser eine direkte Verbindung zu den Servern des Drittanbieters her. Der Inhalt des Plugins (z.B. YouTube Videos) wird vom jeweiligen Drittanbieter direkt an Ihren Browser übermittelt und in die Seite eingebunden.\nDie Datenweitergabe zur Anzeige von Inhalten (z.B. Publikationen auf Twitter) erfolgt unabhängig davon, ob Sie ein Konto bei Drittanbieter besitzen und dort eingeloggt sind. Wenn Sie beim Drittanbieter\neingeloggt sind, werden Ihre bei uns erhobenen Daten zudem direkt Ihrem beim Drittanbieter bestehenden Konto zugeordnet. Wenn Sie die Plugins aktivieren werden die Informationen ausserdem in dem sozialen Netzwerk veröffentlicht und dort Ihren Kontakten angezeigt. Zweck und Umfang der Datenerhebung und die weitere Bearbeitung und Nutzung der Daten durch die Drittanbieter sowie ihre diesbezüglichen Rechte und Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre entnehmen Sie bitte den Daten-schutzhinweisen der Drittanbieter. Der Drittanbieter speichert die über Sie erhobenen Daten als Nutzungsprofile und nutzt diese für Zwecke der Werbung, Marktforschung und/oder bedarfsgerechten Gestaltung seiner Website. Eine solche Auswertung erfolgt insbesondere auch für nicht eingeloggte Nutzer zur Darstellung von bedarfsgerechter Werbung und um andere Nutzer des sozialen Netzwerks über Ihre Aktivitäten auf unserer Website zu informieren. Wenn Sie verhindern möchten, dass die Drittanbieter die über unseren Webauftritt gesammelten Daten nicht Ihrem persönlichen Profil in dem jeweiligen sozialen Netzwerk zuordnen, müssen Sie sich vor ihrem Besuch unserer Webseite beim entsprechenden sozialen Netzwerk ausloggen. Sie können das Laden der Plugins auch mit spezialisierten Add-Ons für Ihren Browser wie beispielsweise\n«Ghostery» (https://www.ghostery.com/) oder «NoScript» (http://noscript.net/) komplett verhindern.\n7. DatenweitergabeundDatenübermittlung\nWir geben Ihre Daten nur an Dritte weiter, wenn dies zur Erbringung unserer Leistung notwendig ist, wenn diese Dritten für uns eine Dienstleistung erbringen, wenn wir dazu gesetzlich oder behördlich verpflichtet sind oder wenn wir ein überwiegendes Interesse an der Weitergabe der Personendaten haben. Wir werden Personendaten ebenfalls an Dritte weitergeben, wenn Sie dazu ihre Einwilligung erteilt oder uns dazu aufgefordert haben.\nNicht alle Personendaten werden standardmässig verschlüsselt übermittelt. Sofern nicht explizit mit dem Kunden anders vereinbart, werden Buchhaltungsdaten, Lohnadministrationsdaten, Lohnabrechnungen und -ausweise unverschlüsselt übermittelt.\nFolgende Kategorien von Empfänger können Personendaten von uns erhalten:\nZweigniederlassungen, Tochter- oder Schwestergesellschaften.\nDienstleister (z.B. IT-Dienstleister, Hosting-Provider, Lieferanten, Berater, Rechtsanwälte, Versicherungen).\nDritte im Rahmen unserer gesetzlichen oder vertraglichen Verpflichtungen, Behörden, staatliche Einrichtungen, Gerichte.\nMit Dienstleistern, die in unserem Auftrag Personendaten bearbeiten, schliessen wir Verträge, die diese verpflichten, den Datenschutz zu gewährleisten. Unsere Dienstleister befinden sich mehrheitlich in der Schweiz oder in der EU / im EWR. Gewisse Personendaten können auch in die USA (z.B. Google Analytics-Daten) oder in Ausnahmefällen in andere Länder weltweit übermittelt werden. Sollte eine Datenübermittlung in andere Länder, die über kein angemessenes Datenschutzniveau verfügen, erforderlich sein, erfolgt diese auf Basis der EU-Standardvertragsklauseln (z.B. im Falle von Google) oder anderer geeigneter Instrumente).\n8. Dauer der Aufbewahrung von Personendaten\nWir verarbeiten und speichern Ihre Personendaten, solange es für die Erfüllung unserer vertraglichen und gesetzlichen Pflichten oder sonst die mit der Bearbeitung verfolgten Zwecke erforderlich ist, d.h. also zum Beispiel für die Dauer der gesamten Geschäftsbeziehung (von der Anbahnung, Abwicklung bis zur Beendigung eines Vertrags) sowie darüber hinaus gemäss den gesetzlichen Aufbewahrungs- und Dokumentationspflichten. Dabei ist es möglich, dass Personendaten für die Zeit aufbewahrt werden, in der Ansprüche gegen unser Unternehmen geltend gemacht werden können (d.h. insbesondere während der gesetzlichen Verjährungsfrist) und soweit wir anderweitig gesetzlich dazu verpflichtet sind oder berechtigte\nGeschäftsinteressen dies erfordern (z.B. für Beweis- und Dokumentationszwecke). Sobald Ihre Personendaten für die oben genannten Zwecke nicht mehr erforderlich sind, werden sie grundsätzlich und soweit möglich gelöscht oder anonymisiert. Für betriebliche Daten (z.B. Systemprotokolle, Logs) gelten grundsätzliche kürzere Aufbewahrungsfristen von zwölf Monaten oder weniger.\n9. Datensicherheit\nWir treffen angemessene technische und organisatorische Sicherheitsvorkehrungen zum Schutz Ihrer Personendaten vor unberechtigtem Zugriff und Missbrauch wie etwa der Erlass von Weisungen, Schulungen, IT- und Netzwerksicherheitslösungen, Zugangskontrollen und -beschränkungen, Verschlüsselung von Datenträgern und Übermittlungen, Pseudonymisierung und Kontrollen.\n10. Pflicht zur Bereitstellung von Personendaten\nIm Rahmen unserer Geschäftsbeziehung müssen Sie diejenigen Personendaten bereitstellen, die für die Aufnahme und Durchführung einer Geschäftsbeziehung und der Erfüllung der damit verbundenen vertraglichen Pflichten erforderlich sind (eine gesetzliche Pflicht, uns Daten bereitzustellen, haben Sie in der Regel nicht). Ohne diese Daten werden wir nicht in der Lage sein, einen Vertrag mit Ihnen (oder der Stelle oder Person, die Sie vertreten,) zu schliessen oder diesen abzuwickeln. Auch die Website kann nicht genutzt werden, wenn gewisse Angaben zur Sicherstellung des Datenverkehrs (wie z.B. IP-Adresse) nicht offengelegt werden.\n11. Ihre Rechte\nSie haben im Zusammen mit unserer Bearbeitung von Personendaten die folgenden Rechte:\nRecht auf Auskunft über zu Ihnen bei uns gespeicherte Personendaten, den Zweck der Bearbeitung, die Herkunft sowie über Empfänger oder Kategorien von Empfängern, an die Personendaten weitergegeben werden.\nRecht auf Berichtigung, falls Ihre Daten nicht korrekt oder nicht vollständig sind.\nRecht auf Einschränkung der Bearbeitung Ihrer Personendaten\nRecht, die Löschung der bearbeiteten Personendaten zu verlangen\nRecht auf Datenübertragbarkeit\nRecht einer Datenbearbeitung zu widersprechen oder eine Einwilligung zur Bearbeitung von Personendaten jederzeit ohne Angabe von Gründen zu widerrufen.\nRecht auf Beschwerde an eine zuständige Aufsichtsbehörde, sofern rechtlich vorgesehen.\nUm diese Rechte geltend zu machen, wenden Sie sich an die unter Ziff. 1 angegebene Adresse.\nBitte beachten Sie aber, dass wir uns vorbehalten, unsererseits die gesetzlich vorgesehenen Einschränkungen geltend zu machen, etwa wenn wir zur Aufbewahrung oder Bearbeitung gewisser Daten verpflichtet sind, daran ein überwiegendes Interesse haben (soweit wir uns darauf berufen dürfen) oder sie für die Geltendmachung von Ansprüchen benötigen. Falls Kosten für Sie anfallen, werden wir Sie vorab informieren.\n12. Änderung der Datenschutzerklärung\nWir behalten uns die jederzeitige Änderung dieser Datenschutzerklärung ausdrücklich vor. Letzte Änderung: April 2023\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 31529,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/datenschutz#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "mail@accuratus-treuhand.ch",
+        "mail@quintessentia-treuhand.ch"
+      ],
+      "phones": [
+        "+41 44 404 70 16",
+        "+41 79 769 7252",
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/011__datenschutz.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/%C3%BCber-uns",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten.",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Erfahren Sie mehr über Accuratus Treuhand in Zürich, die Experten hinter den Dienstleistungen, sowie über unsere Kunden. ",
+        "og:title": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten. ",
+        "og:description": "Erfahren Sie mehr über Accuratus Treuhand in Zürich, die Experten hinter den Dienstleistungen, sowie über unsere Kunden. ",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/über-uns",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Das sind WIR",
+          "Unser Team"
+        ],
+        "h2": [
+          "Firmengeschichte und Werte",
+          "Team",
+          "Theo Herger",
+          "Rupa Herger",
+          "Andrea Jenzer-Schoch",
+          "Kerstin Moeri"
+        ],
+        "h3": [
+          "Geschäftsführer Mandatsleiter",
+          "«Wer nichts tut, kann nichts bewegen» (Wilhelm Hasenclever)",
+          "HR-Spezialistin",
+          "Mandatsleiterin Treuhänderin mit eidg. Fachausweis",
+          "Mandatsleiterin Dipl. Treuhandexpertin"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten.\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nDas sind WIR\nFirmengeschichte und Werte\nSeit mehr als 20 Jahren unterstützen wir unsere Kunden fair, zuverlässig und «akkurat». Accuratus-Treuhand GmbH wurde Ende 2001 gegründet. Ein Name für das Unternehmen war schnell gefunden.\n«Accuratus» steht für unsere genaue, sorgfältige und ordentliche Arbeitsweise.\nBei aller Sorgfalt suchen wir für unsere Kunden nach effizienten und digitalen Lösungen. Wir sind sofort nach Mandatserteilung einsatzbereit und flexibel bezüglich Einsatzzeiten.\nDas stete Wachstum der Accuratus-Treuhand GmbH bestätigt uns und unseren Kurs. Viele unserer Kunden begleiten wir seit vielen Jahren. Ein Beweis dafür, dass sich unser persönliches Engagement für unsere Kunden auszahlt.\nWir sind\nMitglied des Schweizerischen Treuhänderverbandes TREUHAND SUISSE.\nTeam\nUnsere Mitarbeitenden verfügen über eidgenössisch anerkannte Fähigkeitsausweise und bilden sich laufend weiter. Unser kleines, effizientes Team stellt im Stellvertretungsfall die gleichbleibende Qualität unserer Arbeit sicher. So vermeiden wir Know-how-Verluste und sorgen für Kontinuität bei Ihnen.\nWir arbeiten:\nzuverlässig\neffizient\ndiskret\nfachlich einwandfrei\nWir leben unsere Berufung.\nUnser Team\nTheo Herger\nGeschäftsführer\nMandatsleiter\nTreuhänder mit eidg. Fachausweis\nZugelassener Revisionsexperte\n«Wer nichts tut, kann nichts bewegen»\n(Wilhelm Hasenclever)\nWenn man seinen Beruf jeden Tag aufs Neue abwechslungsreich und spannend findet, dann weiss man, dass man den richtigen Beruf hat.\nEs ist ein Privileg, dass ich mein über 30-jähriges Know-how täglich für meine Kunden einsetzen darf. Denn schliesslich stehen hinter jeder Buchhaltung und jeder Steuererklärung Menschen. Ich denke, die Kunden spüren und schätzen, wie sehr mir mein Beruf Spass macht und wie sehr ich mich persönlich für sie engagiere. Unsere Kunden wissen, dass sie bei uns nicht nur eine Nummer sind.\nRupa Herger\nHR-Spezialistin\nHuman Resources Fachfrau mit eidg. Fachausweis, Bachelor Psychomotoriktherapeutin\n«Erfahrung ist verstandene Wahrnehmung»\n(Immanuel Kant)\nEs ist schön, dass ich meinen Ehemann und das Team bei den Tätigkeiten unterstützen kann. Meine langjährige Berufserfahrung setze ich beratend und unterstützend ein. Ich halte gerne im Hintergrund die Fäden zusammen, damit im Vordergrund alles rund läuft.\nAndrea Jenzer-Schoch\nMandatsleiterin\nTreuhänderin mit eidg. Fachausweis\n«Das gute Gelingen ist zwar nichts Kleines, fängt aber mit Kleinigkeiten an»\n(Sokrates)\nDie Treuhandbranche ist für mich – auch nach langjähriger Berufserfahrung – ein sehr interessantes und abwechslungsreiches Tätigkeitsgebiet. Nebst den wiederkehrenden Arbeiten, bietet es immer wieder neue und spannende Herausforderungen.\nDazu schätze ich den direkten Kontakt mit unseren Kunden, sowie die Möglichkeit zu haben, in einem kompetenten und gut eingespielten Team tätig zu sein.\nKerstin Moeri\nMandatsleiterin\nDipl. Treuhandexpertin\n«Das Geheimnis des Erfolges ist es, den Standpunkt des anderen zu verstehen\n»\n(Henry Ford)\nSeit November 2017 bin ich ein Teil des Teams der Accuratus-Treuhand GmbH. Insbesondere schätze ich an meinem Beruf die Vielfalt. Jede Buchhaltung, jede Steuererklärung und jeder Kunde ist unterschiedlich und bietet eine neue Herausforderung, was mir die Möglichkeit gibt, mein Wissen stets zu erweitern.\nDie gute und vertrauensvolle Zusammenarbeit mit Ihnen und innerhalb unseres Teams ermöglicht es uns, Sie optimal in Ihren finanziellen Angelegenheiten zu unterstützen.\nDank Theo Herger und seiner\nAccuratus-Treuhand\nkann ich mich auf mein Kerngeschäft\r\n        konzentrieren. Dies im Wissen, dass Buchhaltung und Steuern jeder Prüfung standhalten. Sein\r\n        umfassendes, praxisnahes Wissen und seine langjährige Erfahrung machen ihn zum idealen Partner\r\n        für mich.\n– Sunconnect GmbH,\r\n            www.sunconnect.ch\nTheo Herger und sein Team begleiten unser Geschäft seit der Gründung. Damit wir uns auf unsere\r\n        Kernkompetenz, die Architektur, konzentrieren können ist es beruhigend einen pflichtbewussten\r\n        Treuhand-Partner an seiner Seite zu wissen. Sie unterstützen uns bei strategischen Entscheiden und\r\n        kümmern sich um die Buchführung, Mehrwertsteuerabrechnung, Jahresabschluss und Steuern.\n– suter plus GmbH,\r\n            www.suterplus.ch\nIn Herrn Herger sowie der\nAccuratus-Treuhand GmbH\ndurfte ich einen verlässlichen und sehr sympathischen Partner finden, \r\nder mich versteht und den ich verstehe. Geldangelegenheiten & Treuhand sind Vertrauenssache – und meine Vertrauen hat Herr Herger bereits beim ersten Kontakt anhaltend gewonnen.\n– Maurizio Tondolo, tondolo.one\nAls Startup-Unternehmen gibt es so vieles, woran zu denken ist. Mit Herrn Herger und seinem Team, habe ich einen Vertrauenspartner gefunden, \r\n        der mich in allen treuhänderischen Fragen verständlich und situationsgerecht begleitet.\n– Katia Corino, corino.ch\nAls Steinbildhauer sind Zahlen nicht so meine Stärke. \r\n        Aus diesem Grund bin ich froh, dass\nAccuratus\nfür mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n– Beat Eschmann, Bildhaueratelier Beat Eschmann GmbH\nAccuratus\nist für uns als KMU seit über 10 Jahren der ideale Partner. \r\n        Unsere Zeitersparnis und die sehr speditive Abwicklung stellen für uns einen direkten Mehrwert bei exzellenter Qualität dar.\n– Claude Ribaux, www.clauderibaux.ch\nAccuratus\nist schnell und effektiv. Die Unterstützung ist immer aufs Wesentliche und Notwendige konzentriert und von der Geschäftspraxis und Strategie des Kunden geleitet.\n– Bea Ribaux, www.bea-ribaux.ch\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 6244,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/%C3%BCber-uns#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.solaranlage-sunconnect.ch/",
+          "internal": false
+        },
+        {
+          "text": "– Sunconnect GmbH,\r\n            www.sunconnect.ch",
+          "href": "https://www.solaranlage-sunconnect.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.suterplus.ch/",
+          "internal": false
+        },
+        {
+          "text": "– suter plus GmbH,\r\n            www.suterplus.ch",
+          "href": "https://www.suterplus.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://tondolo.one/",
+          "internal": false
+        },
+        {
+          "text": "– Maurizio Tondolo, tondolo.one",
+          "href": "http://tondolo.one/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.corino.ch/",
+          "internal": false
+        },
+        {
+          "text": "– Katia Corino, corino.ch",
+          "href": "http://www.corino.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.bildhaueratelier.ch",
+          "internal": false
+        },
+        {
+          "text": "– Beat Eschmann, Bildhaueratelier Beat Eschmann GmbH",
+          "href": "http://www.bildhaueratelier.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.clauderibaux.ch",
+          "internal": false
+        },
+        {
+          "text": "– Claude Ribaux, www.clauderibaux.ch",
+          "href": "http://www.clauderibaux.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "– Bea Ribaux, www.bea-ribaux.ch",
+          "href": "http://www.bea-ribaux.ch",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "/Content/uploads/theo-herg-0.jpg",
+          "alt": "area-widget-1"
+        },
+        {
+          "src": "/Content/uploads/rupa-herger_1500x100-0.jpg",
+          "alt": "area-widget-13"
+        },
+        {
+          "src": "/Content/uploads/andrea-jenze-0.jpg",
+          "alt": "area-widget-16"
+        },
+        {
+          "src": "/Content/uploads/team-ne-0.jpg",
+          "alt": "area-widget-58"
+        },
+        {
+          "src": "/Content/img/logo_sunconnect.jpg",
+          "alt": "Sunconnect GmbH"
+        },
+        {
+          "src": "/Content/img/logo_suterplus.jpg",
+          "alt": "Sunconnect GmbH"
+        },
+        {
+          "src": "/Content/img/logo-tondolo-one-gmbh.png",
+          "alt": "tondolo one gmbh"
+        },
+        {
+          "src": "/Content/img/logo-corino-gmbh.png",
+          "alt": "Corino GmbH"
+        },
+        {
+          "src": "/Content/img/bildhaueratelier-beat-eschmann.png",
+          "alt": "Bildhaueratelier Beat Eschmann GmbH"
+        },
+        {
+          "src": "/Content/img/testimonial_claude-ribaux.png",
+          "alt": "Claude Ribaux"
+        },
+        {
+          "src": "/Content/img/testimonial_bea-ribaux.png",
+          "alt": "Bea Ribaux"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "mail@accuratus-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/012__C3_BCber-uns.html"
+    },
+    {
+      "url": "https://accuratus-treuhand.ch/wirtschaftspr%C3%BCfung-revision",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Unabhängige Revision/Wirtschaftsprüfung durch Accuratus Treuhand in Zürich",
+      "lang": null,
+      "meta": {
+        "x-ua-compatible": "IE=edge,chrome=1",
+        "description": "Wir führen als Treuhandbüro in Zürich die eingeschränkte Revision für Ihr Unternehmen gemäss aktueller Standards durch und erstatten anschliessend Bericht. ",
+        "og:title": "Unabhängige Revision/Wirtschaftsprüfung durch Accuratus Treuhand in Zürich",
+        "og:description": "Wir führen als Treuhandbüro in Zürich die eingeschränkte Revision für Ihr Unternehmen gemäss aktueller Standards durch und erstatten anschliessend Bericht. ",
+        "og:type": "website",
+        "og:url": "https://accuratus-treuhand.ch/wirtschaftsprüfung-revision",
+        "og:image": "https://accuratus-treuhand.ch/Content/img/accuratus-logo.jpg",
+        "viewport": "width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "In Sachen Wirtschaftsprüfung/​Revision schauen wir ganz genau hin"
+        ],
+        "h2": [
+          "Zwei Augen sehen gut, vier Augen sehen besser",
+          "So unterstützen wir Sie",
+          "Nehmen Sie mit uns Kontakt auf"
+        ],
+        "h3": [
+          "Kontaktieren Sie uns:"
+        ],
+        "h4": [
+          "Accuratus-Treuhand GmbH"
+        ]
+      },
+      "text": "Unabhängige Revision/Wirtschaftsprüfung durch Accuratus Treuhand in Zürich\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\naccuratus treuhand\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nKontakt\nLive Support\nIn Sachen\nWirtschaftsprüfung/​Revision\nschauen wir ganz genau hin\nMit dem Abschluss Ihrer Bilanz beginnt unsere Arbeit. Wir sichten Ihre Buchhaltung und Ihren Jahresabschluss mit Argusaugen und sorgen dafür, dass Sie korrekte Zahlen vorlegen können.\nZwei Augen sehen gut, vier Augen sehen besser\nDiesem Prinzip folgt die Revision/Wirtschaftsprüfung: Selbst bei sorgfältiger Arbeit können Buchhaltungsfehler passieren. Damit diese sich nicht negativ auf Ihren\nJahresabschluss\nauswirken, prüfen wir als\nunabhängige Revisionsstelle\nIhre Buchhaltung professionell und unter Befolgung der gesetzlichen Vorschriften und Standards auf Herz und Nieren.\n▼ weiter ▼\nSo unterstützen\nwir Sie\nAccuratus-Treuhand GmbH ist\nunter der Registernummer 501246 im Revisionsregister der Eidgenössischen Revisionsaufsichtsbehörde (RAB)\nals Revisionsexpertin zugelassen\n.\nTheo Herger, zugelassener Revisionsexperte, führt die eingeschränkte Revision gemäss geltenden Prüfungsstandards durch.\nUnsere Dienstleistungen im Bereich Wirtschaftsprüfung/Revision:\nPrüfung von Jahresabschlüssen\nGründungsprüfungen\nSpezialprüfungen und -analysen\n▼ weiter ▼\nNehmen Sie mit uns Kontakt auf\nUnsere langjährige Erfahrung mit Kunden aus vielen Branchen ermöglicht es uns, Ihnen massgeschneiderte Lösungen anzubieten. Unsere Arbeitsweise ist unkompliziert, effizient und gleichzeitig äusserst sorgfältig.\nKontaktieren Sie uns, wir nehmen uns gerne Zeit für Ihre Fragen.\nWeiter zum Kontaktformular\nKontaktieren Sie uns:\n044 404 70 16\nmail@accuratus-treuhand.ch\nAccuratus-Treuhand GmbH\nNorastrasse 7, 8004 Zürich\nDie hochprofessionelle, ehrliche und persönliche Revisions­betreuung durch\nAccuratus-Treuhand GmbH\nlässt keine Wünsche übrig!\n– Kerstin Kurer, barfussbar.ch\nIhr Kontakt zu uns\nAccuratus-Treuhand GmbH\nNorastrasse 7\nPostfach\nCH-8040 Zürich\nTelefon:\n044 404 70 16\nmail@accuratus-treuhand.ch\nLeistungen\nFinanz- und Rechnungswesen\nSteuerberatung\nOnline-/Web-Treuhand\nÜber uns\nDas Team\nKontakt\n© 2026 – Accuratus-Treuhand GmbH\nImpressum\nDatenschutzerklärung\nWebsite von Campfire",
+      "text_len": 2342,
+      "links": [
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://accuratus-treuhand.ch/wirtschaftspr%C3%BCfung-revision#",
+          "internal": true
+        },
+        {
+          "text": "accuratus treuhand",
+          "href": "https://accuratus-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/über-uns",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Live Support",
+          "href": "https://www.islonline.com/ch/de/join/",
+          "internal": false
+        },
+        {
+          "text": "▼ weiter ▼",
+          "href": "https://accuratus-treuhand.ch/wirtschaftspr%C3%BCfung-revision#",
+          "internal": true
+        },
+        {
+          "text": "▼ weiter ▼",
+          "href": "https://accuratus-treuhand.ch/wirtschaftspr%C3%BCfung-revision#",
+          "internal": true
+        },
+        {
+          "text": "Weiter zum Kontaktformular",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:0444047016",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "http://www.barfussbar.ch",
+          "internal": false
+        },
+        {
+          "text": "– Kerstin Kurer, barfussbar.ch",
+          "href": "http://www.barfussbar.ch",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 16",
+          "href": "tel:+41-44-404-70-16",
+          "internal": false
+        },
+        {
+          "text": "mail@accuratus-treuhand.ch",
+          "href": "mailto:mail@accuratus-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Leistungen",
+          "href": "https://accuratus-treuhand.ch/leistungen",
+          "internal": true
+        },
+        {
+          "text": "Finanz- und Rechnungswesen",
+          "href": "https://accuratus-treuhand.ch/finanz-und-rechnungswesen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://accuratus-treuhand.ch/steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Online-/Web-Treuhand",
+          "href": "https://accuratus-treuhand.ch/online-web-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns",
+          "internal": true
+        },
+        {
+          "text": "Das Team",
+          "href": "https://accuratus-treuhand.ch/%c3%bcber-uns#team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://accuratus-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://accuratus-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://accuratus-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Website von Campfire",
+          "href": "http://campfire.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "/Content/img/barfussbar.png",
+          "alt": "barfussbar.ch"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "mail@accuratus-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 16"
+      ],
+      "raw_html": "raw_html/013__wirtschaftspr_C3_BCfung-revision.html"
+    }
+  ]
+}

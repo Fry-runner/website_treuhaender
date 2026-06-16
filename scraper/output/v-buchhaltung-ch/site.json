@@ -1,0 +1,1797 @@
+{
+  "name": "V-Buchhaltung",
+  "domain": "v-buchhaltung.ch",
+  "start_url": "https://www.v-buchhaltung.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781616211.261751,
+    "duration_sec": 10.6,
+    "pages_crawled": 8,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": "User-agent: *\n\n\nSitemap: https://www.v-buchhaltung.ch/sitemap.xml"
+  },
+  "contact": {
+    "emails": [
+      "office@vbuchhaltung.ch"
+    ],
+    "phones": [
+      "+41794460030"
+    ]
+  },
+  "assets": {
+    "downloaded": 5,
+    "failed": 1,
+    "total_bytes": 297781,
+    "manifest": [
+      {
+        "url": "https://www.v-buchhaltung.ch",
+        "ok": true,
+        "file": "assets/7931f51ecc__asset",
+        "content_type": "text/html",
+        "bytes": 106875
+      },
+      {
+        "url": "https://www.v-buchhaltung.ch/favicon.ico",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.v-buchhaltung.ch/uploads/56EPnrCV/Kusigerski__msi___jpg.jpg",
+        "ok": true,
+        "file": "assets/6cb2c158d4__Kusigerski__msi___jpg.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 36719
+      },
+      {
+        "url": "https://www.v-buchhaltung.ch/uploads/Fwr9hPSs/logo_vbuchhaltung__msi___png.png",
+        "ok": true,
+        "file": "assets/525ee59978__logo_vbuchhaltung__msi___png.png",
+        "content_type": "image/png",
+        "bytes": 8732
+      },
+      {
+        "url": "https://www.v-buchhaltung.ch/uploads/SjBVdQQE/favicon.ico",
+        "ok": true,
+        "file": "assets/0aeb98c056__favicon.ico",
+        "content_type": "image/x-icon",
+        "bytes": 4286
+      },
+      {
+        "url": "https://www.v-buchhaltung.ch/uploads/xYF2jzv3/buchhaltung-winterthur-2__msi___jpg.jpg",
+        "ok": true,
+        "file": "assets/651cd06875__buchhaltung-winterthur-2__msi___jpg.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 141169
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://www.v-buchhaltung.ch/",
+      "title": "Zuverlässige Buchhaltung in Winterthur | VBuchhaltung",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 5799
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/datenschutz",
+      "title": "Datenschutz | VBuchhaltung",
+      "raw_html": "raw_html/002__datenschutz.html",
+      "text_len": 41819
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/impressum",
+      "title": "Impressum | VBuchhaltung",
+      "raw_html": "raw_html/003__impressum.html",
+      "text_len": 503
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+      "title": "Treuhand Bassersdorf – Effiziente Beratung",
+      "raw_html": "raw_html/004__treuhand-bassersdorf-.html",
+      "text_len": 3069
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+      "title": "Treuhand Dietlikon – Ihre Buchhaltung im Griff",
+      "raw_html": "raw_html/005__treuhand-dietlikon.html",
+      "text_len": 3150
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+      "title": "Treuhand in Oerlikon – Ihr Partner für Finanzen",
+      "raw_html": "raw_html/006__treuhand-oerlikon.html",
+      "text_len": 3338
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+      "title": "Treuhand in Wallisellen: Kompetent & Zuverlässig",
+      "raw_html": "raw_html/007__treuhand-wallisellen.html",
+      "text_len": 3156
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+      "title": "Treuhand Winterthur: Professionelle Buchhaltung & Steuern",
+      "raw_html": "raw_html/008__treuhand-winterthur.html",
+      "text_len": 2998
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.v-buchhaltung.ch/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Zuverlässige Buchhaltung in Winterthur | VBuchhaltung",
+      "lang": "de",
+      "meta": {
+        "keywords": "Buchhaltung",
+        "description": "VBuchhaltung bietet professionelle Buchhaltung. Ich bin erfahren, zuverlässig und auf dem neuesten Stand der aktuellen Gesetze und Vorschriften!",
+        "og:type": "website",
+        "og:title": "Zuverlässige Buchhaltung in Winterthur | VBuchhaltung",
+        "og:url": "https://www.v-buchhaltung.ch/",
+        "og:description": "VBuchhaltung bietet professionelle Buchhaltung. Ich bin erfahren, zuverlässig und auf dem neuesten Stand der aktuellen Gesetze und Vorschriften!",
+        "og:image": "https://www.v-buchhaltung.ch",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "https://www.v-buchhaltung.ch",
+      "headings": {
+        "h1": [
+          "Ihre zuverlässige Buchhaltung in Winterthur"
+        ],
+        "h2": [
+          "Sie haben eine Firma aber keine Zeit Ihre Buchhaltung selber zu erledigen?",
+          "Ich kann Ihnen helfen mit...",
+          "Professionelle Buchhaltung für Ihr Unternehmen",
+          "Kontakt"
+        ],
+        "h3": [
+          "Buchhaltung und Finanzen",
+          "Saläre und Lohnbuchhaltung",
+          "Steuerpflichten",
+          "Vbuchhaltung",
+          "Vertrauen",
+          "Vertretung Ihrer Interessen",
+          "VBuchhaltung"
+        ]
+      },
+      "text": "Zuverlässige Buchhaltung in Winterthur | VBuchhaltung\nZum Inhalt springen\nHome\nDienstleistungen\nLeistungspakete\nÜber mich\nKontakt\nImpressum\nDatenschutz\nTreuhand Bassersdorf\nTreuhand Dietlikon\nTreuhand Oerlikon\nTreuhand Wallisellen\nTreuhand Winterthur\nVBuchhaltung\nIhre zuverlässige Buchhaltung in Winterthur\n\n+41794460030\n\noffice@vbuchhaltung.ch\nKontakt\nMeine Dienstleistungen\nSie haben eine Firma aber keine Zeit Ihre Buchhaltung selber zu erledigen?\nIch begleite Sie gerne auf Ihrem Weg zum Erfolg\nMit unserer langjährigen Erfahrung und unserem hohen Fachwissen stellen wir sicher, dass Sie eine detaillierte und genaue Bewertung Ihrer Immobilie, einen fairen Marktpreis auf der Grundlage einer gründlichen Analyse und einen professionellen Bericht erhalten, den Sie im Verkaufsprozess verwenden können.\nIch kann Ihnen helfen mit...\nBuchhaltung und Finanzen\nDie Verwaltung Ihrer Finanzen wird exakt auf Ihre Bedürfnisse angepasst.\nDas Ziel unseres Unternehmens ist, dass unsere Kunden von individueller Beratung und hochwertige Dienstleistungen profitieren.\nAls Ergebnis unserer Zusammenarbeit können Sie fertige jährlich, vierteljährlich oder monatlich Berichte erhalten.\nFinanzbuchhaltungen inkl. Kreditoren- und Debitorenbuchhaltung (vor Ort oder extern)\nJahresabschlüsse / Zwischenabschlüsse\nMehrwertsteuerabrechnungen\nZahlungsverkehr\nBuchhaltungssoftware Sage Schweiz\nSaläre und Lohnbuchhaltung\nSie und Ihre Mitarbeiter kriegen jeden Monat rechtzeitig Ihre Lohnabrechnungen mit entsprechenden Abzügen betreffend AHV, ALV, KTG und BVG Versicherungen.\nEinrichten der Lohnbuchhaltung\nFühren des Salärwesens (vor Ort oder extern)\nJahres-Lohnmeldungen an die entsprechenden Sozialversicherungen\nLohnausweise\nSalär-Auszahlungen und -Abrechnungen\nQuellensteuerabrechnungen\nSteuerpflichten\nDank unserm schnellen und effizienten Lohnabrechnungen Sie hätten keine Probleme mit Steuerbehörde und Versicherungen, weil wir in ständigen Kontakt mit denen in Kontakt bleiben.\nSteuererklärung schon ab CHF 49\nErstellen der Steuererklärungen für natürliche und juristische Personen (elektronisch und manuell)\nBerechnung der Steuerberatung\nSteuerratung und Steuerplanung\nProfessionelle Buchhaltung für Ihr Unternehmen\nVBuchhaltung verfügt über umfangreiche Erfahrung und ein hohes Mass an Fachwissen im Bereich der Buchhaltung und ist auf dem neuesten Stand der aktuellen Gesetze und Vorschriften. Wir verwenden moderne Instrumente und Methoden, um sicherzustellen, dass Sie eine genaue und zuverlässige Buchhaltung vertrauen können.\nVbuchhaltung\nWir entlasten Sie von der Erstellung Ihrer Steuererklärung. Lassen Sie sich von uns beraten und Steuer sparen! Als eine professionelle und erfahrene Buchhalterin kümmere ich mich darum, dass Ihre Zahlen richtig zugeordnet werden. Damit ersparen Sie sich Ärger und Umtriebe mit den Steuerbehörden und gewinnen so mehr Zeit für Ihr Kerngeschäft.\nVertrauen\nMit Ihrer Vollmacht kann ich direkt mit den Behörden und Steuerämtern für Ihr Geschäft wichtige Prozesse erledigen, und nur mit der richtigen Buchhaltung können auch alle Steuerabzüge geltend gemacht werden.\nDurch eine effiziente und einwandfreie Führung Ihrer Buchhaltung gewinnen Sie einen exzellenten Ruf bei Ihren Kunden und den Steuerbehörden\nVertretung Ihrer Interessen\nMit Ihrer offiziellen Vollmacht werde ich Sie bei den lokalen Behörden vertreten, um die bestmögliche Lösung für Sie und Ihr Unternehmen zu suchen.\nUnsere Buchhaltungspakete – massgeschneidert für Ihren Bedarf\nOb Sie gerade erst gründen oder bereits ein etabliertes Unternehmen führen – professionelle Buchhaltung ist die Grundlage für Ihren geschäftlichen Erfolg. Um Ihnen den Einstieg zu erleichtern und gleichzeitig individuelle Anforderungen zu bedienen, bieten wir zwei auf Ihre Unternehmensform zugeschnittene Leistungspakete an:\nBasic\nIdeal für Gründer, Startups und Kleinunternehmer mit überschaubarem Belegvolumen.\nab CHF 70,-\nAnfragen\nPremium\nFür GmbHs und Unternehmen mit komplexeren Strukturen, mehreren Konten oder Mitarbeitern.\nab CHF 145,-\nAnfragen\nÜber mich\nMein Name ist Vesna Kaplarevic-Kusigerski. Nach dem Abschluss meines Wirtschaftsstudiums in Belgrad 1980 startete ich meine berufliche Laufbahn im Bankensektor, wo ich zehn Jahre in verschiedenen Funktionen tätig war. Seit 1990 lebe und arbeite ich in der Schweiz, wo ich meine Kenntnisse durch Weiterbildungen in den Bereichen Finanzen, Rechnungswesen und Steuern vertieft habe.\nIch verfüge über ein Zertifikat für Finanzführung in der Schweiz und war in zahlreichen mittelständischen und grossen Unternehmen in Zürich und Winterthur in leitender Funktion tätig – mit Schwerpunkt auf Finanzbuchhaltung und Administration.\nAls Geschäftsinhaberin bringe ich nicht nur fundierte Fachkompetenz, sondern auch internationale Erfahrung mit. Neben Deutsch spreche ich Serbisch, Kroatisch, Mazedonisch, Französisch und Englisch – eine wertvolle Grundlage für die Betreuung vielseitiger Kundenkreise.\nHeute stehe ich für zuverlässige, präzise und mehrsprachige Finanzdienstleistungen.\nKontakt\nGanz gleich, ob Sie Ihre Buchhaltung auslagern, Ihre Jahresabschlüsse vorbereiten oder eine betriebswirtschaftliche Auswertung benötigen – ich bin für Sie da.\nVBuchhaltung\nOberer Deutweg 16 e, 8400 Winterthur\n+41794460030\noffice@vbuchhaltung.ch\nName*\nTelefon*\nE-Mail*\nNachricht\nSpam protection\nIch habe die Datenschutzerklärung zur Kenntnis genommen. Ich stimme einer elektronischen Speicherung und Verarbeitung meiner eingegebenen Daten zur Beantwortung meiner Anfrage zu. *\nhCaptcha\nDiese Webseite ist durch hCaptcha geschützt. Es gelten die\nDatenschutz-Bestimmungen\nund\nGeschäftsbedingungen\n.\nBitte akzeptieren Sie Marketing-Cookies, um diese Karte anzuzeigen.\nAccept cookies\nImpressum\n|\nDatenschutz\nTreuhand\nBassersdorf\n|\nDietlikon\n|\nOerlikon\n|\nWallisellen\n|\nWinterthur",
+      "text_len": 5799,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Leistungspakete",
+          "href": "https://www.v-buchhaltung.ch/#leistungspakete",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://www.v-buchhaltung.ch/#uber-mich",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.v-buchhaltung.ch/#kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "+41794460030",
+          "href": "tel:+41794460030",
+          "internal": false
+        },
+        {
+          "text": "office@vbuchhaltung.ch",
+          "href": "mailto:office@vbuchhaltung.ch",
+          "internal": false
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.v-buchhaltung.ch/#kontakt",
+          "internal": true
+        },
+        {
+          "text": "Meine Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Anfragen",
+          "href": "https://www.v-buchhaltung.ch/#kontakt",
+          "internal": true
+        },
+        {
+          "text": "Anfragen",
+          "href": "https://www.v-buchhaltung.ch/#kontakt",
+          "internal": true
+        },
+        {
+          "text": "+41794460030",
+          "href": "tel:+41794460030",
+          "internal": false
+        },
+        {
+          "text": "office@vbuchhaltung.ch",
+          "href": "mailto:office@vbuchhaltung.ch",
+          "internal": false
+        },
+        {
+          "text": "Ich habe die Datenschutzerklärung zur Kenntnis genommen. Ich stimme einer elektronischen Speicherung und Verarbeitung meiner eingegebenen Daten zur Beantwortung meiner Anfrage zu. *",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz-Bestimmungen",
+          "href": "https://hcaptcha.com/privacy",
+          "internal": false
+        },
+        {
+          "text": "Geschäftsbedingungen",
+          "href": "https://hcaptcha.com/terms",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/uploads/Fwr9hPSs/logo_vbuchhaltung__msi___png.png",
+          "width": "220",
+          "height": "66"
+        },
+        {
+          "src": "/uploads/56EPnrCV/Kusigerski__msi___jpg.jpg",
+          "alt": "Inhaberin",
+          "width": "747",
+          "height": "1024"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://www.v-buchhaltung.ch/#global_business",
+          "name": "VBuchhaltung",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Oberer Deutweg 16 e",
+            "addressLocality": "Winterthur",
+            "addressRegion": "Kanton Zürich",
+            "postalCode": "8400",
+            "addressCountry": "CH"
+          },
+          "email": "office@vbuchhaltung.ch",
+          "telephone": "+41794460030",
+          "url": "https://www.v-buchhaltung.ch"
+        }
+      ],
+      "tables": [],
+      "forms": [
+        {
+          "action": null,
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "field_0",
+              "placeholder": "Ihr Name"
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "field_1",
+              "placeholder": "Ihre Telefonnummer"
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "field_2",
+              "placeholder": "Ihre E-Mailadresse"
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "field_3",
+              "placeholder": "Ihre Nachricht an uns"
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "__requestToken",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "26a23fb1",
+              "placeholder": "Lorem ipsum"
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "_ha_seed",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "optin_field_0",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "form_m4339",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "office@vbuchhaltung.ch"
+      ],
+      "phones": [
+        "+41794460030"
+      ],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/datenschutz",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Datenschutz | VBuchhaltung",
+      "lang": "de",
+      "meta": {
+        "description": "Das Vertrauen unserer Nutzerinnen und Nutzer ist für uns von größter Bedeutung, daher verfolgen wir eine strenge Datenschutzpolitik. Lesen Sie, wie wir Ihre Daten verwenden und schützen.",
+        "og:type": "website",
+        "og:title": "Datenschutz | VBuchhaltung",
+        "og:url": "https://www.v-buchhaltung.ch/datenschutz",
+        "og:description": "Das Vertrauen unserer Nutzerinnen und Nutzer ist für uns von größter Bedeutung, daher verfolgen wir eine strenge Datenschutzpolitik. Lesen Sie, wie wir Ihre Daten verwenden und schützen.",
+        "og:image": "https://www.v-buchhaltung.ch",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "https://www.v-buchhaltung.ch/datenschutz",
+      "headings": {
+        "h1": [
+          "Datenschutzerklärung"
+        ],
+        "h2": [
+          "Allgemeiner Hinweis",
+          "Bearbeitung von Personendaten",
+          "Massgebliche Rechtsgrundlagen",
+          "Sicherheitsmassnahmen",
+          "Übermittlung von personenbezogenen Daten",
+          "Datenverarbeitung in Drittländern",
+          "Datenschutzerklärung für Cookies",
+          "Datenschutzerklärung für SSL-/TLS-Verschlüsselung",
+          "Datenschutzerklärung für Server-Log-Files",
+          "Dienste von Dritten",
+          "Datenschutzerklärung für Kontaktformular",
+          "Rechte betroffener Personen",
+          "Datenschutzerklärung für Widerspruch Werbe-Mails",
+          "Datenschutzbestimmungen zu Einsatz und Verwendung von Agendize",
+          "Datenschutzbestimmungen zu Einsatz und Verwendung von Eye-Able®",
+          "Verwendung von Google Maps",
+          "Google Ads",
+          "Einsatz von Google Remarketing",
+          "Datenschutzerklärung für Google Analytics",
+          "Google Tag Manager",
+          "Datenschutzerklärung für Facebook",
+          "Datenschutzerklärung für YouTube",
+          "Hinweis zur Datenweitergabe in die USA",
+          "Urheberrechte",
+          "Allgemeiner Haftungsausschluss",
+          "Änderungen",
+          "Fragen an den Datenschutzbeauftragten"
+        ]
+      },
+      "text": "Datenschutz | VBuchhaltung\nZum Inhalt springen\nHome\nImpressum\nDatenschutz\nTreuhand Bassersdorf\nTreuhand Dietlikon\nTreuhand Oerlikon\nTreuhand Wallisellen\nTreuhand Winterthur\nDatenschutzerklärung\nVerantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:\nVBuchhaltung\nOberer Deutweg 16 e\n8400 Winterthur\nSchweiz\nTelefon:\n+41794460030\nE-Mail: office@vbuchhaltung.ch\nAllgemeiner Hinweis\nGestützt auf Artikel 13 der schweizerischen Bundesverfassung und den datenschutzrechtlichen Bestimmungen des Bundes (Datenschutzgesetz, DSG ) hat jede Person Anspruch auf Schutz ihrer Privatsphäre sowie auf Schutz vor Missbrauch ihrer persönlichen Daten. Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.\nIn Zusammenarbeit mit unseren Hosting-Providern bemühen wir uns, die Datenbanken so gut wie möglich vor fremden Zugriffen, Verlusten, Missbrauch oder vor Fälschung zu schützen.\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.\nDurch die Nutzung dieser Website erklären Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gemäss der nachfolgenden Beschreibung einverstanden. Diese Website kann grundsätzlich ohne Registrierung besucht werden. Dabei werden Daten wie beispielsweise aufgerufene Seiten bzw. Namen der abgerufenen Datei, Datum und Uhrzeit zu statistischen Zwecken auf dem Server gespeichert, ohne dass diese Daten unmittelbar auf Ihre Person bezogen werden. Personenbezogene Daten, insbesondere Name, Adresse oder E-Mail-Adresse werden soweit möglich auf freiwilliger Basis erhoben. Ohne Ihre Einwilligung erfolgt keine Weitergabe der Daten an Dritte.\nBearbeitung von Personendaten\nPersonendaten sind alle Angaben, die sich auf eine bestimmte oder bestimmbare Person beziehen. Eine betroffene Person ist eine Person, über die Personendaten bearbeitet werden. Bearbeiten umfasst jeden Umgang mit Personendaten, unabhängig von den angewandten Mitteln und Verfahren, insbesondere das Aufbewahren, Bekanntgeben, Beschaffen, Löschen, Speichern, Verändern, Vernichten und Verwenden von Personendaten.\nWir bearbeiten Personendaten im Einklang mit dem schweizerischen Datenschutzrecht. Im übrigen bearbeiten wir – soweit und sofern die EU-DSGVO anwendbar ist – Personendaten gemäss folgenden Rechtsgrundlagen im Zusammenhang mit Art. 6 Abs. 1 DSGVO :\nEinwilligung (Art. 6 Abs. 1 S. 1 lit. a. DSGVO)\n- Die betroffene Person hat ihre Einwilligung in die Verarbeitung der sie betreffenden personenbezogenen Daten für einen spezifischen Zweck oder mehrere bestimmte Zwecke gegeben.\nVertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b. DSGVO)\n- Die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder zur Durchführung vorvertraglicher Massnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen.\nRechtliche Verpflichtung (Art. 6 Abs. 1 S. 1 lit. c. DSGVO)\n- Die Verarbeitung ist zur Erfüllung einer rechtlichen Verpflichtung erforderlich, der der Verantwortliche unterliegt.\nSchutz lebenswichtiger Interessen (Art. 6 Abs. 1 S. 1 lit. d. DSGVO)\n- Die Verarbeitung ist erforderlich, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen.\nBerechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO)\n- Die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen.\nBewerbungsverfahren als vorvertragliches bzw. vertragliches Verhältnis (Art. 9 Abs. 2 lit. b DSGVO)\n- Soweit im Rahmen des Bewerbungsverfahrens besondere Kategorien von personenbezogenen Daten im Sinne des Art. 9 Abs. 1 DSGVO (z.B. Gesundheitsdaten, wie Schwerbehinderteneigenschaft oder ethnische Herkunft) bei Bewerbern angefragt werden, damit der Verantwortliche oder die betroffene Person die ihm bzw. ihr aus dem Arbeitsrecht und dem Recht der sozialen Sicherheit und des Sozialschutzes erwachsenden Rechte ausüben und seinen bzw. ihren diesbezüglichen Pflichten nachkommen kann, erfolgt deren Verarbeitung nach Art. 9 Abs. 2 lit. b. DSGVO, im Fall des Schutzes lebenswichtiger Interessen der Bewerber oder anderer Personen gem. Art. 9 Abs. 2 lit. c. DSGVO oder für Zwecke der Gesundheitsvorsorge oder der Arbeitsmedizin, für die Beurteilung der Arbeitsfähigkeit des Beschäftigten, für die medizinische Diagnostik, die Versorgung oder Behandlung im Gesundheits- oder Sozialbereich oder für die Verwaltung von Systemen und Diensten im Gesundheits- oder Sozialbereich gem. Art. 9 Abs. 2 lit. h. DSGVO. Im Fall einer auf freiwilliger Einwilligung beruhenden Mitteilung von besonderen Kategorien von Daten, erfolgt deren Verarbeitung auf Grundlage von Art. 9 Abs. 2 lit. a. DSGVO.\nWir bearbeiten Personendaten für jene Dauer, die für den jeweiligen Zweck oder die jeweiligen Zwecke erforderlich ist. Bei länger dauernden Aufbewahrungspflichten aufgrund von gesetzlichen und sonstigen Pflichten, denen wir unterliegen, schränken wir die Bearbeitung entsprechend ein.\nMassgebliche Rechtsgrundlagen\nNach Massgabe des Art. 13 DSGVO teilen wir Ihnen die Rechtsgrundlagen unserer Datenverarbeitungen mit. Sofern die Rechtsgrundlage in der Datenschutzerklärung nicht genannt wird, gilt Folgendes: Die Rechtsgrundlage für die Einholung von Einwilligungen ist Art. 6 Abs. 1 lit. a und Art. 7 DSGVO, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer Leistungen und Durchführung vertraglicher Massnahmen sowie Beantwortung von Anfragen ist Art. 6 Abs. 1 lit. b DSGVO, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer rechtlichen Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO, und die Rechtsgrundlage für die Verarbeitung zur Wahrung unserer berechtigten Interessen ist Art. 6 Abs. 1 lit. f DSGVO. Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als Rechtsgrundlage.\nSicherheitsmassnahmen\nWir treffen nach Massgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmasses der Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete technische und organisatorische Massnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.\nZu den Massnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen und elektronischen Zugangs zu den Daten als auch des sie betreffenden Zugriffs, der Eingabe, der Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. Des Weiteren haben wir Verfahren eingerichtet, die eine Wahrnehmung von Betroffenenrechten, die Löschung von Daten und Reaktionen auf die Gefährdung der Daten gewährleisten. Ferner berücksichtigen wir den Schutz personenbezogener Daten bereits bei der Entwicklung bzw. Auswahl von Hardware, Software sowie Verfahren entsprechend dem Prinzip des Datenschutzes, durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen.\nÜbermittlung von personenbezogenen Daten\nIm Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor, dass die Daten an andere Stellen, Unternehmen, rechtlich selbstständige Organisationseinheiten oder Personen übermittelt oder sie ihnen gegenüber offengelegt werden. Zu den Empfängern dieser Daten können z.B. mit IT-Aufgaben beauftragte Dienstleister oder Anbieter von Diensten und Inhalten, die in eine Webseite eingebunden werden, gehören. In solchen Fall beachten wir die gesetzlichen Vorgaben und schliessen insbesondere entsprechende Verträge bzw. Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den Empfängern Ihrer Daten ab.\nDatenverarbeitung in Drittländern\nSofern wir Daten in einem Drittland (d.h., ausserhalb der Europäischen Union (EU), des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder die Verarbeitung im Rahmen der Inanspruchnahme von Diensten Dritter oder der Offenlegung bzw. Übermittlung von Daten an andere Personen, Stellen oder Unternehmen stattfindet, erfolgt dies nur im Einklang mit den gesetzlichen Vorgaben.\nVorbehaltlich ausdrücklicher Einwilligung oder vertraglich oder gesetzlich erforderlicher Übermittlung, verarbeiten wir die Daten nur in Drittländern mit einem anerkannten Datenschutzniveau, vertraglicher Verpflichtung durch sogenannte Standardschutzklauseln der EU-Kommission, beim Vorliegen von Zertifizierungen oder verbindlichen internen Datenschutzvorschriften (Art. 44 bis 49 DSGVO, Informationsseite der EU-Kommission:\nhttps://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de\n).\nDatenschutzerklärung für Cookies\nDiese Website verwendet Cookies. Cookies sind Textdateien, die Daten von besuchten Websites oder Domains enthalten und von einem Browser auf dem Computer des Benutzers gespeichert werden. Ein Cookie dient in erster Linie dazu, die Informationen über einen Benutzer während oder nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Zu den gespeicherten Angaben können z.B. die Spracheinstellungen auf einer Webseite, der Loginstatus, ein Warenkorb oder die Stelle, an der ein Video geschaut wurde, gehören. Zu dem Begriff der Cookies zählen wir ferner andere Technologien, die die gleichen Funktionen wie Cookies erfüllen (z.B. wenn Angaben der Nutzer anhand pseudonymer Onlinekennzeichnungen gespeichert werden, auch als \"Nutzer-IDs\" bezeichnet)\nDie folgenden Cookie-Typen und Funktionen werden unterschieden:\nTemporäre Cookies (auch: Session- oder Sitzungs-Cookies)\n: Temporäre Cookies werden spätestens gelöscht, nachdem ein Nutzer ein Online-Angebot verlassen und seinen Browser geschlossen hat.\nPermanente Cookies\n: Permanente Cookies bleiben auch nach dem Schliessen des Browsers gespeichert. So kann beispielsweise der Login-Status gespeichert oder bevorzugte Inhalte direkt angezeigt werden, wenn der Nutzer eine Website erneut besucht. Ebenso können die Interessen von Nutzern, die zur Reichweitenmessung oder zu Marketingzwecken verwendet werden, in einem solchen Cookie gespeichert werden.\nFirst-Party-Cookies\n: First-Party-Cookies werden von uns selbst gesetzt.\nThird-Party-Cookies (auch: Drittanbieter-Cookies)\n: Drittanbieter-Cookies werden hauptsächlich von Werbetreibenden (sog. Dritten) verwendet, um Benutzerinformationen zu verarbeiten.\nNotwendige (auch: essenzielle oder unbedingt erforderliche) Cookies\n: Cookies können zum einen für den Betrieb einer Webseite unbedingt erforderlich sein (z.B. um Logins oder andere Nutzereingaben zu speichern oder aus Gründen der Sicherheit).\nStatistik-, Marketing- und Personalisierung-Cookies\n: Ferner werden Cookies im Regelfall auch im Rahmen der Reichweitenmessung eingesetzt sowie dann, wenn die Interessen eines Nutzers oder sein Verhalten (z.B. Betrachten bestimmter Inhalte, Nutzen von Funktionen etc.) auf einzelnen Webseiten in einem Nutzerprofil gespeichert werden. Solche Profile dienen dazu, den Nutzern z.B. Inhalte anzuzeigen, die ihren potenziellen Interessen entsprechen. Dieses Verfahren wird auch als \"Tracking\", d.h., Nachverfolgung der potenziellen Interessen der Nutzer bezeichnet. Soweit wir Cookies oder \"Tracking\"-Technologien einsetzen, informieren wir Sie gesondert in unserer Datenschutzerklärung oder im Rahmen der Einholung einer Einwilligung.\nHinweise zu Rechtsgrundlagen: Auf welcher Rechtsgrundlage wir Ihre personenbezogenen Daten mithilfe von Cookies verarbeiten, hängt davon ab, ob wir Sie um eine Einwilligung bitten. Falls dies zutrifft und Sie in die Nutzung von Cookies einwilligen, ist die Rechtsgrundlage der Verarbeitung Ihrer Daten die erklärte Einwilligung. Andernfalls werden die mithilfe von Cookies verarbeiteten Daten auf Grundlage unserer berechtigten Interessen (z.B. an einem betriebswirtschaftlichen Betrieb unseres Onlineangebotes und dessen Verbesserung) verarbeitet oder, wenn der Einsatz von Cookies erforderlich ist, um unsere vertraglichen Verpflichtungen zu erfüllen.\nSpeicherdauer: Sofern wir Ihnen keine expliziten Angaben zur Speicherdauer von permanenten Cookies mitteilen (z. B. im Rahmen eines sog. Cookie-Opt-Ins), gehen Sie bitte davon aus, dass die Speicherdauer bis zu zwei Jahre betragen kann.\nAllgemeine Hinweise zum Widerruf und Widerspruch (Opt-Out): Abhängig davon, ob die Verarbeitung auf Grundlage einer Einwilligung oder gesetzlichen Erlaubnis erfolgt, haben Sie jederzeit die Möglichkeit, eine erteilte Einwilligung zu widerrufen oder der Verarbeitung Ihrer Daten durch Cookie-Technologien zu widersprechen (zusammenfassend als \"Opt-Out\" bezeichnet). Sie können Ihren Widerspruch zunächst mittels der Einstellungen Ihres Browsers erklären, z.B., indem Sie die Nutzung von Cookies deaktivieren (wobei hierdurch auch die Funktionsfähigkeit unseres Onlineangebotes eingeschränkt werden kann). Ein Widerspruch gegen den Einsatz von Cookies zu Zwecken des Onlinemarketings kann auch mittels einer Vielzahl von Diensten, vor allem im Fall des Trackings, über die Webseiten\nhttps://optout.aboutads.info\nund\nhttps://www.youronlinechoices.com/\nerklärt werden. Daneben können Sie weitere Widerspruchshinweise im Rahmen der Angaben zu den eingesetzten Dienstleistern und Cookies erhalten.\nVerarbeitung von Cookie-Daten auf Grundlage einer Einwilligung: Wir setzen ein Verfahren zum Cookie-Einwilligungs-Management ein, in dessen Rahmen die Einwilligungen der Nutzer in den Einsatz von Cookies, bzw. der im Rahmen des Cookie-Einwilligungs-Management-Verfahrens genannten Verarbeitungen und Anbieter eingeholt sowie von den Nutzern verwaltet und widerrufen werden können. Hierbei wird die Einwilligungserklärung gespeichert, um deren Abfrage nicht erneut wiederholen zu müssen und die Einwilligung entsprechend der gesetzlichen Verpflichtung nachweisen zu können. Die Speicherung kann serverseitig und/oder in einem Cookie (sogenanntes Opt-In-Cookie, bzw. mithilfe vergleichbarer Technologien) erfolgen, um die Einwilligung einem Nutzer, bzw. dessen Gerät zuordnen zu können. Vorbehaltlich individueller Angaben zu den Anbietern von Cookie-Management-Diensten gelten die folgenden Hinweise: Die Dauer der Speicherung der Einwilligung kann bis zu zwei Jahren betragen. Hierbei wird ein pseudonymer Nutzer-Identifikator gebildet und mit dem Zeitpunkt der Einwilligung, Angaben zur Reichweite der Einwilligung (z. B. welche Kategorien von Cookies und/oder Diensteanbieter) sowie dem Browser, System und verwendeten Endgerät gespeichert.\nVerarbeitete Datenarten: Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten), Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).\nBetroffene Personen: Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).\nRechtsgrundlagen: Einwilligung (Art. 6 Abs. 1 S. 1 lit. a. DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).\nDatenschutzerklärung für SSL-/TLS-Verschlüsselung\nDiese Website nutzt aus Gründen der Sicherheit und zum Schutz der übertragung vertraulicher Inhalte, wie zum Beispiel der Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-/TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von \"http://\" auf \"https://\" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.\nWenn die SSL bzw. TLS Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.\nDatenschutzerklärung für Server-Log-Files\nDer Provider dieser Website erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:\nBrowsertyp und Browserversion\nverwendetes Betriebssystem\nReferrer URL\nHostname des zugreifenden Rechners\nUhrzeit der Serveranfrage\nDiese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zuprüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.\nDienste von Dritten\nDiese Website verwenden allenfalls Google Maps für das Einbetten von Karten, Google Invisible reCAPTCHA für den Schutz gegen Bots und Spam sowie YouTube für das Einbetten von Videos.\nDiese Dienste der amerikanischen Google LLC verwenden unter anderem Cookies und infolgedessen werden Daten an Google in den USA übertragen, wobei wir davon ausgehen, dass in diesem Rahmen kein personenbezogenes Tracking allein durch die Nutzung unserer Website stattfindet.\nGoogle hat sich verpflichtet, einen angemessenen Datenschutz gemäss dem amerikanisch-europäischen und dem amerikanisch-schweizerischen Privacy Shield zu gewährleisten.\nWeitere Informationen finden sich in der\nDatenschutzerklärung von Google\n.\nDatenschutzerklärung für Kontaktformular\nWenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.\nRechte betroffener Personen\nRecht auf Bestätigung\nJede betroffene Person hat das Recht, vom Betreiber der Website eine Bestätigung darüber zu verlangen, ob betroffene Personen betreffende, personenbezogene Daten verarbeitet werden. Möchten Sie dieses Bestätigungsrecht in Anspruch nehmen, können Sie sich hierzu jederzeit an den Datenschutzbeauftragten wenden.\nRecht auf Auskunft\nJede von der Verarbeitung betroffene Person mit personenbezogenen Daten hat das Recht, jederzeit vom Betreiber dieser Website unentgeltliche Auskunft über die zu seiner Person gespeicherten personenbezogenen Daten und eine Kopie dieser Auskunft zu erhalten. Ferner kann gegebenenfalls über folgende Informationen Auskunft gegeben werden:\ndie Verarbeitungszwecke\ndie Kategorien personenbezogener Daten, die verarbeitet werden\ndie Empfänger, gegenüber denen die personenbezogenen Daten offengelegt worden sind oder noch offengelegt werden\nfalls möglich, die geplante Dauer, für die die personenbezogenen Daten gespeichert werden, oder, falls dies nicht möglich ist, die Kriterien für die Festlegung dieser Dauer\ndas Bestehen eines Rechts auf Berichtigung oder Löschung der sie betreffenden personenbezogenen Daten oder auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung\ndas Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde\nwenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden: Alle verfügbaren Informationen über die Herkunft der Daten\nFerner steht der betroffenen Person ein Auskunftsrecht darüber zu, ob personenbezogene Daten an ein Drittland oder an eine internationale Organisation übermittelt wurden. Sofern dies der Fall ist, so steht der betroffenen Person im übrigen das Recht zu, Auskunft über die geeigneten Garantien im Zusammenhang mit der Übermittlung zu erhalten.\nMöchten Sie dieses Auskunftsrecht in Anspruch nehmen, können Sie sich hierzu jederzeit an unseren Datenschutzbeauftragten wenden.\nRecht auf Berichtigung\nJede von der Verarbeitung personenbezogener Daten betroffene Person hat das Recht, die unverzügliche Berichtigung sie betreffender unrichtiger personenbezogener Daten zu verlangen. Ferner steht der betroffenen Person das Recht zu, unter Berücksichtigung der Zwecke der Verarbeitung, die Vervollständigung unvollständiger personenbezogener Daten - auch mittels einer ergänzenden Erklärung - zu verlangen.\nMöchten Sie dieses Berichtigungsrecht in Anspruch nehmen, können Sie sich hierzu jederzeit an unseren Datenschutzbeauftragten wenden.\nRecht auf Löschung (Recht auf Vergessen werden)\nJede von der Verarbeitung personenbezogener Daten betroffene Person hat das Recht, von dem Verantwortlichen dieser Website zu verlangen, dass die sie betreffenden personenbezogenen Daten unverzüglich gelöscht werden, sofern einer der folgenden Gründe zutrifft und soweit die Verarbeitung nicht erforderlich ist:\nDie personenbezogenen Daten wurden für solche Zwecke erhoben oder auf sonstige Weise verarbeitet, für welche sie nicht mehr notwendig sind\nDie betroffene Person widerruft ihre Einwilligung, auf die sich die Verarbeitung stützte, und es fehlt an einer anderweitigen Rechtsgrundlage für die Verarbeitung\nDie betroffene Person legt aus Gründen, die sich aus ihrer besonderen Situation ergeben, Widerspruch gegen die Verarbeitung ein und es liegen keine vorrangigen berechtigten Gründe für die Verarbeitung vor, oder die betroffene Person legt im Falle von Direktwerbung und damit verbundenem Profiling Widerspruch gegen die Verarbeitung ein\nDie personenbezogenen Daten wurden unrechtmässig verarbeitet\nDie Löschung der personenbezogenen Daten ist zur Erfüllung einer rechtlichen Verpflichtung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten erforderlich, dem der Verantwortliche unterliegt\nDie personenbezogenen Daten wurden in Bezug auf angebotene Dienste der Informationsgesellschaft, die einem Kind direkt gemacht wurden, erhoben\nSofern einer der oben genannten Gründe zutrifft und Sie die Löschung von personenbezogenen Daten, die beim Betreiber dieser Website gespeichert sind, veranlassen möchten, können Sie sich hierzu jederzeit an unseren Datenschutzbeauftragten wenden. Der Datenschutzbeauftragte dieser Website wird veranlassen, dass dem Löschverlangen unverzüglich nachgekommen wird.\nRecht auf Einschränkung der Verarbeitung\nJede von der Verarbeitung personenbezogener Daten betroffene Person hat das Recht, von dem Verantwortlichen dieser Website die Einschränkung der Verarbeitung zu verlangen, wenn eine der folgenden Voraussetzungen gegeben ist:\nDie Richtigkeit der personenbezogenen Daten wird von der betroffenen Person bestritten, und zwar für eine Dauer, die es dem Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu überprüfen\nDie Verarbeitung ist unrechtmässig, die betroffene Person lehnt die Löschung der personenbezogenen Daten ab und verlangt stattdessen die Einschränkung der Nutzung der personenbezogenen Daten\nDer Verantwortliche benötigt die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger, die betroffene Person benötigt sie jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen\nDie betroffene Person hat aus Gründen, die sich aus ihrer besonderen Situation ergeben, Widerspruch gegen die Verarbeitung eingelegt und es steht noch nicht fest, ob die berechtigten Gründe des Verantwortlichen gegenüber denen der betroffenen Person überwiegen\nSofern eine der oben genannten Voraussetzungen gegeben ist Sie die Einschränkung von personenbezogenen Daten, die beim Betreiber dieser Website gespeichert sind, verlangen möchten, können Sie sich hierzu jederzeit an unseren Datenschutzbeauftragten wenden. Der Datenschutzbeauftragte dieser Website wird die Einschränkung der Verarbeitung veranlassen.\nRecht auf Datenübertragbarkeit\nJede von der Verarbeitung personenbezogener Daten betroffene Person hat das Recht, die sie betreffenden personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten. Sie hat ausserdem das Recht, dass diese Daten bei Vorliegen der gesetzlichen Voraussetzungen einem anderen Verantwortlichen übermittelt werden.\nFerner hat die betroffene Person das Recht, zu erwirken, dass die personenbezogenen Daten direkt von einem Verantwortlichen an einen anderen Verantwortlichen übermittelt werden, soweit dies technisch machbar ist und sofern hiervon nicht die Rechte und Freiheiten anderer Personen beeinträchtigt werden.\nZur Geltendmachung des Rechts auf Datenübertragbarkeit können Sie sich jederzeit an den vom Betreiber dieser Website bestellten Datenschutzbeauftragten wenden.\nRecht auf Widerspruch\nJede von der Verarbeitung personenbezogener Daten betroffene Person hat das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung sie betreffender personenbezogener Daten, Widerspruch einzulegen.\nDer Betreiber dieser Website verarbeitet die personenbezogenen Daten im Falle des Widerspruchs nicht mehr, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die den Interessen, Rechten und Freiheiten der betroffenen Person überwiegen, oder wenn die Verarbeitung der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen dient.\nZur Ausübung des Rechts auf Widerspruch können Sie sich direkt an den Datenschutzbeauftragten dieser Website wenden.\nRecht auf Widerruf einer datenschutzrechtlichen Einwilligung\nJede von der Verarbeitung personenbezogener Daten betroffene Person hat das Recht, eine abgegebene Einwilligung zur Verarbeitung personenbezogener Daten jederzeit zu widerrufen.\nMöchten Sie Ihr Recht auf Widerruf einer Einwilligung geltend machen, können Sie sich hierzu jederzeit an unseren Datenschutzbeauftragten wenden.\nDatenschutzerklärung für Widerspruch Werbe-Mails\nDer Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.\nDatenschutzbestimmungen zu Einsatz und Verwendung von Agendize\nDer für die Verarbeitung Verantwortliche hat auf dieser Internetseite Komponenten der Unternehmen Agendize SAS und Agendize Services Inc. Agendize ist ein Dienst zur Terminvereinbarung. Der Terminvereinbarungsdienst erweitert den Nutzen der Internetseite, indem eine weitere Kontaktmöglichkeit geschaffen wird. Die Datenerhebung erfolgt zum Zweck der Terminvereinbarung. Betreibergesellschaft von Agendize sind die Agendize SAS, 12 rue Bégand, 10000 Troyes, Frankreich. Folgende Daten werden erhoben:\nAusgewählter Termin (Datum)\nE-Mail-Adresse\nMobilnummer\ngebuchte Leistungen\nfalls von Ihnen angegeben, weitere mitgeteilte Daten\nDie erhobenen Daten werden nach Ablauf des vereinbarten Termins gelöscht. Die geltenden Datenschutzbestimmungen von Agendize können unter\nhttps://www.agendize.com/privacy-policy\nabgerufen werden.\nDatenschutzbestimmungen zu Einsatz und Verwendung von Eye-Able®\nDie Ausspielung von Barrierefreiheitsverbesserungen durch Eye-Able® Access ist ein Angebot der Web Inclusion GmbH, um allen Menschen einen besseren Zugang zu Informationen im Internet zu gewährleisten. Die dafür notwendigen Dateien (JavaScript) werden dafür von einem externen Server geladen. Um Angriffe abzuwehren und unseren Service in nahezu Echtzeit zu Verfügung zu stellen, nutzt Eye-Able® das Content Delivery Network (CDN) von BunnyWay d.o.o. (Cesta komandanta Staneta 4A, 1215 Medvode, Slovenia). Der Einsatz erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Alle übermittelnden Daten und Server verbleiben zu jedem Zeitpunkt in der EU, um eine datenschutzkonforme Verarbeitung nach DSGVO zu ermöglichen. Die Web Inclusion GmbH erfasst oder analysiert dabei zu keinem Zeitpunkt personenbezogenes Nutzerverhalten oder andere personenbezogenen Daten (z.B. IP-Adressen werden in Logs entfernt). Um die datenschutzkonforme Verarbeitung zu gewährleisten, hat die Web Inclusion GmbH Verträge über eine Auftragsverarbeitung mit unseren Hostern abgeschlossen.\nVerwendung von Google Maps\nDiese Website nutzt das Angebot von Google Maps. Dadurch können wir Ihnen interaktive Karten direkt in der Website anzeigen und ermöglichen Ihnen die komfortable Nutzung der Karten-Funktion. Durch den Besuch auf der Website erhält Google die Information, dass Sie die entsprechende Unterseite unserer Website aufgerufen haben. Dies erfolgt unabhängig davon, ob Google ein Nutzerkonto bereitstellt, über das Sie eingeloggt sind, oder ob kein Nutzerkonto besteht. Wenn Sie bei Google eingeloggt sind, werden Ihre Daten direkt Ihrem Konto zugeordnet. Wenn Sie die Zuordnung mit Ihrem Profil bei Google nicht wünschen, müssen Sie sich vor Aktivierung des Buttons ausloggen. Google speichert Ihre Daten als Nutzungsprofile und nutzt sie für Zwecke der Werbung, Marktforschung und/oder bedarfsgerechten Gestaltung seiner Website. Eine solche Auswertung erfolgt insbesondere (selbst für nicht eingeloggte Nutzer) zur Erbringung von bedarfsgerechter Werbung und um andere Nutzer des sozialen Netzwerks über Ihre Aktivitäten auf unserer Website zu informieren. Ihnen steht ein Widerspruchsrecht zu gegen die Bildung dieser Nutzerprofile, wobei Sie sich zur Ausübung dessen an Google richten müssen. Weitere Informationen zu Zweck und Umfang der Datenerhebung und ihrer Verarbeitung durch Google erhalten Sie neben weiteren Informationen zu Ihren diesbezüglichen Rechten und Einstellungsmöglichkeiten zum Schutze Ihrer Privatsphäre unter:\nwww.google.de/intl/de/policies/privacy\n.\nGoogle Ads\nDiese Website nutzt das Google Conversion-Tracking. Sind Sie über eine von Google geschaltete Anzeige auf unsere WebSite gelangt, wird von Google Ads ein Cookie auf Ihrem Rechner gesetzt. Das Cookie für Conversion-Tracking wird gesetzt, wenn ein Nutzer auf eine von Google geschaltete Anzeige klickt. Diese Cookies verlieren nach 30 Tagen ihre Gültigkeit und dienen nicht der persönlichen Identifizierung. Besucht der Nutzer bestimmte Seiten unserer Website und das Cookie ist noch nicht abgelaufen, können wir und Google erkennen, dass der Nutzer auf die Anzeige geklickt hat und zu dieser Seite weitergeleitet wurde. Jeder Google Ads-Kunde erhält ein anderes Cookie. Cookies können somit nicht über die Websites von Ads-Kunden nachverfolgt werden. Die mithilfe des Conversion-Cookies eingeholten Informationen dienen dazu, Conversion-Statistiken für Ads-Kunden zu erstellen, die sich für Conversion-Tracking entschieden haben. Die Kunden erfahren die Gesamtanzahl der Nutzer, die auf ihre Anzeige geklickt haben und zu einer mit einem Conversion-Tracking-Tag versehenen Seite weitergeleitet wurden. Sie erhalten jedoch keine Informationen, mit denen sich Nutzer persönlich identifizieren lassen.\nMöchten Sie nicht am Tracking teilnehmen, können Sie das hierfür erforderliche Setzen eines Cookies ablehnen – etwa per Browser-Einstellung, die das automatische Setzen von Cookies generell deaktiviert oder Ihren Browser so einstellen, dass Cookies von der Domain «googleleadservices.com» blockiert werden.\nBitte beachten Sie, dass Sie die Opt-out-Cookies nicht löschen dürfen, solange Sie keine Aufzeichnung von Messdaten wünschen. Haben Sie alle Ihre Cookies im Browser gelöscht, müssen Sie das jeweilige Opt-out Cookie erneut setzen.\nEinsatz von Google Remarketing\nDiese Website verwendet die Remarketing-Funktion der Google Inc. Die Funktion dient dazu, Websitenbesuchern innerhalb des Google-Werbenetzwerks interessenbezogene Werbeanzeigen zu präsentieren. Im Browser des Websitenbesuchers wird ein sog. „Cookie“ gespeichert, der es ermöglicht, den Besucher wiederzuerkennen, wenn dieser Websiten aufruft, die dem Werbenetzwerk von Google angehören. Auf diesen Seiten können dem Besucher Werbeanzeigen präsentiert werden, die sich auf Inhalte beziehen, die der Besucher zuvor auf Websiten aufgerufen hat, die die Remarketing Funktion von Google verwenden.\nNach eigenen Angaben erhebt Google bei diesem Vorgang keine personenbezogenen Daten. Sollten Sie die Funktion Remarketing von Google dennoch nicht wünschen, können Sie diese grundsätzlich deaktivieren, indem Sie die entsprechenden Einstellungen unter\nhttp://www.google.com/settings/ads\nvornehmen. Alternativ können Sie den Einsatz von Cookies für interessenbezogene Werbung über die Werbenetzwerkinitiative deaktivieren, indem Sie den Anweisungen unter\nhttp://www.networkadvertising.org/managing/opt_out.asp\nfolgen.\nDatenschutzerklärung für Google Analytics\nDiese Website benutzt Google Analytics, einen Webanalysedienst der Google Ireland Limited. Wenn der Verantwortliche für die Datenverarbeitung auf dieser Website ausserhalb des Europäischen Wirtschaftsraumes oder der Schweiz sitzt, dann erfolgt die Google Analytics Datenverarbeitung durch Google LLC. Google LLC und Google Ireland Limited werden nachfolgend \"Google\" genannt.\nÜber die gewonnenen Statistiken können wir unser Angebot verbessern und für Sie als Nutzer interessanter ausgestalten. Diese Website verwendet Google Analytics zudem für eine geräteübergreifende Analyse von Besucherströmen, die über eine User-ID durchgeführt wird. Sofern Sie über ein Google-Benutzerkonto verfügen, können Sie in den dortigen Einstellungen unter \"Meine Daten\", \"persönliche Daten\" die geräteübergreifende Analyse Ihrer Nutzung deaktivieren.\nRechtsgrundlage für die Nutzung von Google Analytics ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Wir weisen Sie darauf hin, dass auf dieser Website Google Analytics um den Code \"_anonymizeIp();\" erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen zu gewährleisten. Dadurch werden IP-Adressen gekürzt weiterverarbeitet, eine Personenbeziehbarkeit kann damit ausgeschlossen werden. Soweit den über Sie erhobenen Daten ein Personenbezug zukommt, wird dieser also sofort ausgeschlossen und die personenbezogenen Daten damit umgehend gelöscht.\nNur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websitenaktivitäten zusammenzustellen und um weitere mit der Websitennutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitenbetreiber zu erbringen.\nGoogle Analytics verwendet Cookies. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren:\nGoogle Analytics deaktivieren\n.\nAusserdem können Sie die Nutzung von Google Analytics auch verhindern, indem sie auf diesen Link klicken:\nGoogle Analytics deaktivieren\n. Hierdurch wird ein sog. opt-out Cookie auf ihrem Datenträger gespeichert, der die Verarbeitung personenbezogener Daten durch Google Analytics verhindert. Bitte beachten Sie, dass bei einem Löschen sämtlicher Cookies auf Ihrem Endgerät auch diese Opt-out-Cookies gelöscht werden, d.h., dass Sie erneut die Opt-out-Cookies setzen müssen, wenn Sie weiterhin diese Form der Datenerhebung verhindern wollen. Die Opt-out-Cookies sind pro Browser und Rechner/Endgerät gesetzt und müssen daher für jeden Browser, Rechner oder anderes Endgerät gesondert aktiviert werden.\nGoogle Tag Manager\nGoogle Tag Manager ist eine Lösung, mit der wir sog. Website-Tags über eine Oberfläche verwalten können und so z.B. Google Analytics sowie andere Google-Marketing-Dienste in unser Onlineangebot einbinden können. Der Tag Manager selbst, welcher die Tags implementiert, verarbeitet keine personenbezogenen Daten der Nutzer. Im Hinblick auf die Verarbeitung der personenbezogenen Daten der Nutzer wird auf die folgenden Angaben zu den Google-Diensten verwiesen. Nutzungsrichtlinien:\nhttps://www.google.com/intl/de/tagmanager/use-policy.html\n.\nDatenschutzerklärung für Facebook\nDiese Website verwendet Funktionen von Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA . Bei Aufruf unserer Seiten mit Facebook-Plug-Ins wird eine Verbindung zwischen Ihrem Browser und den Servern von Facebook aufgebaut. Dabei werden bereits Daten an Facebook übertragen. Besitzen Sie einen Facebook-Account, können diese Daten damit verknüpft werden. Wenn Sie keine Zuordnung dieser Daten zu Ihrem Facebook-Account wünschen, loggen Sie sich bitte vor dem Besuch unserer Seite bei Facebook aus. Interaktionen, insbesondere das Nutzen einer Kommentarfunktion oder das Anklicken eines „Like“- oder „Teilen“-Buttons werden ebenfalls an Facebook weitergegeben. Mehr erfahren Sie unter\nhttps://de-de.facebook.com/about/privacy\n.\nDatenschutzerklärung für YouTube\nAuf dieser Website sind Funktionen des Dienstes \"YouTube\" eingebunden. \"YouTube\" gehört der Google Ireland Limited, einer nach irischem Recht eingetragenen und betriebenen Gesellschaft mit Sitz in Gordon House, Barrow Street, Dublin 4, Irland, welche die Dienste im Europäischen Wirtschaftsraum und der Schweiz betreibt.\nIhre rechtliche Vereinbarung mit \"YouTube\" besteht aus den unter folgendem Link zu entnehmenden Bestimmungen und Bedingungen:\nhttps://www.youtube.com/static?gl=de&template=terms&hl=de\n. Diese Bestimmungen bilden eine rechtlich bindende Vereinbarung zwischen Ihnen und \"YouTube\" bezüglich der Nutzung der Dienste. In der Datenschutzerklärung von Google wird erläutert, wie \"YouTube\" mit Ihren personenbezogenen Daten verfährt und Ihre Daten schützt, wenn Sie den Dienst nutzen.\nHinweis zur Datenweitergabe in die USA\nAuf unserer Website sind unter anderem Tools von Unternehmen mit Sitz in den USA eingebunden. Wenn diese Tools aktiv sind, können Ihre personenbezogenen Daten an die US-Server der jeweiligen Unternehmen weitergegeben werden. Wir weisen darauf hin, dass die USA kein sicherer Drittstaat im Sinne des EU-Datenschutzrechts sind. US-Unternehmen sind dazu verpflichtet, personenbezogene Daten an Sicherheitsbehörden herauszugeben, ohne dass Sie als Betroffener hiergegen gerichtlich vorgehen könnten. Es kann daher nicht ausgeschlossen werden, dass US-Behörden (z.B. Geheimdienste) Ihre auf US-Servern befindlichen Daten zu überwachungszwecken verarbeiten, auswerten und dauerhaft speichern. Wir haben auf diese Verarbeitungstätigkeiten keinen Einfluss.\nUrheberrechte\nDie Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf der Website, gehören ausschliesslich dem Betreiber dieser Website oder den speziell genannten Rechteinhabern. Für die Reproduktion von sämtlichen Dateien, ist die schriftliche Zustimmung des Urheberrechtsträgers im Voraus einzuholen.\nWer ohne Einwilligung des jeweiligen Rechteinhabers eine Urheberrechtsverletzung begeht, kann sich strafbar und allenfalls schadenersatzpflichtig machen.\nAllgemeiner Haftungsausschluss\nAlle Angaben unseres Internetangebotes wurden sorgfältig geprüft. Wir bemühen uns, unser Informationsangebot aktuell, inhaltlich richtig und vollständig anzubieten. Trotzdem kann das Auftreten von Fehlern nicht völlig ausgeschlossen werden, womit wir keine Garantie für Vollständigkeit, Richtigkeit und Aktualität von Informationen auch journalistisch-redaktioneller Art übernehmen können. Haftungsansprüche aus Schäden materieller oder ideeller Art, die durch die Nutzung der angebotenen Informationen verursacht wurden, sind ausgeschlossen, sofern kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.\nDer Herausgeber kann nach eigenem Ermessen und ohne Ankündigung Texte verändern oder löschen und ist nicht verpflichtet, Inhalte dieser Website zu aktualisieren. Die Benutzung bzw. der Zugang zu dieser Website geschieht auf eigene Gefahr des Besuchers. Der Herausgeber, seine Auftraggeber oder Partner sind nicht verantwortlich für Schäden, wie direkte, indirekte, zufällige, vorab konkret zu bestimmende oder Folgeschäden, die angeblich durch den Besuch dieser Website entstanden sind und übernehmen hierfür folglich keine Haftung.\nDer Herausgeber übernimmt ebenfalls keine Verantwortung und Haftung für die Inhalte und die Verfügbarkeit von Website Dritter, die über externe Links dieser Website erreichbar sind. Für den Inhalt der verlinkten Seiten sind ausschliesslich deren Betreiber verantwortlich. Der Herausgeber distanziert sich damit ausdrücklich von allen Inhalten Dritter, die möglicherweise straf- oder haftungsrechtlich relevant sind oder gegen die guten Sitten verstossen.\nÄnderungen\nWir können diese Datenschutzerklärung jederzeit ohne Vorankündigung anpassen. Es gilt die jeweils aktuelle, auf unserer Website publizierte Fassung. Soweit die Datenschutzerklärung Teil einer Vereinbarung mit Ihnen ist, werden wir Sie im Falle einer Aktualisierung über die Änderung per E-Mail oder auf andere geeignete Weise informieren.\nFragen an den Datenschutzbeauftragten\nWenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz zu Beginn der Datenschutzerklärung aufgeführten, verantwortlichen Person in unserer Organisation.\nQuelle:\nSwissAnwalt\nCookieeinstellungen\nImpressum\n|\nDatenschutz\nTreuhand\nBassersdorf\n|\nDietlikon\n|\nOerlikon\n|\nWallisellen\n|\nWinterthur",
+      "text_len": 41819,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de",
+          "href": "https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de",
+          "internal": false
+        },
+        {
+          "text": "https://optout.aboutads.info",
+          "href": "https://optout.aboutads.info",
+          "internal": false
+        },
+        {
+          "text": "https://www.youronlinechoices.com/",
+          "href": "https://www.youronlinechoices.com/",
+          "internal": false
+        },
+        {
+          "text": "Datenschutzerklärung von Google",
+          "href": "https://policies.google.com/privacy?hl=de",
+          "internal": false
+        },
+        {
+          "text": "https://www.agendize.com/privacy-policy",
+          "href": "https://www.agendize.com/privacy-policy",
+          "internal": false
+        },
+        {
+          "text": "www.google.de/intl/de/policies/privacy",
+          "href": "http://www.google.de/intl/de/policies/privacy",
+          "internal": false
+        },
+        {
+          "text": "http://www.google.com/settings/ads",
+          "href": "http://www.google.com/settings/ads",
+          "internal": false
+        },
+        {
+          "text": "http://www.networkadvertising.org/managing/opt_out.asp",
+          "href": "http://www.networkadvertising.org/managing/opt_out.asp",
+          "internal": false
+        },
+        {
+          "text": "Google Analytics deaktivieren",
+          "href": "https://www.swissanwalt.ch/de/gaoptout.aspx",
+          "internal": false
+        },
+        {
+          "text": "Google Analytics deaktivieren",
+          "href": "https://tools.google.com/dlpage/gaoptout?hl=de",
+          "internal": false
+        },
+        {
+          "text": "https://www.google.com/intl/de/tagmanager/use-policy.html",
+          "href": "https://www.google.com/intl/de/tagmanager/use-policy.html",
+          "internal": false
+        },
+        {
+          "text": "https://de-de.facebook.com/about/privacy",
+          "href": "https://de-de.facebook.com/about/privacy",
+          "internal": false
+        },
+        {
+          "text": "https://www.youtube.com/static?gl=de&template=terms&hl=de",
+          "href": "https://www.youtube.com/static?gl=DE&template=terms&hl=de",
+          "internal": false
+        },
+        {
+          "text": "SwissAnwalt",
+          "href": "https://www.swissanwalt.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/datenschutz#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/uploads/Fwr9hPSs/logo_vbuchhaltung__msi___png.png",
+          "width": "220",
+          "height": "66"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://www.v-buchhaltung.ch/#global_business",
+          "name": "VBuchhaltung",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Oberer Deutweg 16 e",
+            "addressLocality": "Winterthur",
+            "addressRegion": "Kanton Zürich",
+            "postalCode": "8400",
+            "addressCountry": "CH"
+          },
+          "email": "office@vbuchhaltung.ch",
+          "telephone": "+41794460030",
+          "url": "https://www.v-buchhaltung.ch"
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "office@vbuchhaltung.ch"
+      ],
+      "phones": [
+        "+41794460030"
+      ],
+      "raw_html": "raw_html/002__datenschutz.html"
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/impressum",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Impressum | VBuchhaltung",
+      "lang": "de",
+      "meta": {
+        "description": "Das Vertrauen unserer Nutzerinnen und Nutzer ist für uns von größter Bedeutung, daher verfolgen wir eine strenge Datenschutzpolitik. Lesen Sie, wie wir Ihre Daten verwenden und schützen.",
+        "og:type": "website",
+        "og:title": "Impressum | VBuchhaltung",
+        "og:url": "https://www.v-buchhaltung.ch/impressum",
+        "og:description": "Das Vertrauen unserer Nutzerinnen und Nutzer ist für uns von größter Bedeutung, daher verfolgen wir eine strenge Datenschutzpolitik. Lesen Sie, wie wir Ihre Daten verwenden und schützen.",
+        "og:image": "https://www.v-buchhaltung.ch",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "https://www.v-buchhaltung.ch/impressum",
+      "headings": {
+        "h1": [
+          "Impressum"
+        ]
+      },
+      "text": "Impressum | VBuchhaltung\nZum Inhalt springen\nHome\nImpressum\nDatenschutz\nTreuhand Bassersdorf\nTreuhand Dietlikon\nTreuhand Oerlikon\nTreuhand Wallisellen\nTreuhand Winterthur\nImpressum\nVBuchhaltung\nOberer Deutweg 16 e | 8400 Winterthur\nTelefon:\n+41794460030\nMail:\noffice@vbuchhaltung.ch\nBildnachweise\nAdobe Stock\nUmsetzung\nheise homepages |\nHomepage erstellen lassen\nheise regioconcept |\nOnline Marketing Agentur\nImpressum\n|\nDatenschutz\nTreuhand\nBassersdorf\n|\nDietlikon\n|\nOerlikon\n|\nWallisellen\n|\nWinterthur",
+      "text_len": 503,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "+41794460030",
+          "href": "tel:+41794460030",
+          "internal": false
+        },
+        {
+          "text": "office@vbuchhaltung.ch",
+          "href": "mailto:office@vbuchhaltung.ch",
+          "internal": false
+        },
+        {
+          "text": "Homepage erstellen lassen",
+          "href": "https://www.heise-regioconcept.ch/websites",
+          "internal": false
+        },
+        {
+          "text": "Online Marketing Agentur",
+          "href": "https://www.heise-regioconcept.ch/",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/impressum#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/uploads/Fwr9hPSs/logo_vbuchhaltung__msi___png.png",
+          "width": "220",
+          "height": "66"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://www.v-buchhaltung.ch/#global_business",
+          "name": "VBuchhaltung",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Oberer Deutweg 16 e",
+            "addressLocality": "Winterthur",
+            "addressRegion": "Kanton Zürich",
+            "postalCode": "8400",
+            "addressCountry": "CH"
+          },
+          "email": "office@vbuchhaltung.ch",
+          "telephone": "+41794460030",
+          "url": "https://www.v-buchhaltung.ch"
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "office@vbuchhaltung.ch"
+      ],
+      "phones": [
+        "+41794460030"
+      ],
+      "raw_html": "raw_html/003__impressum.html"
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Treuhand Bassersdorf – Effiziente Beratung",
+      "lang": "de",
+      "meta": {
+        "keywords": "Buchhaltung",
+        "description": "Nutzen Sie unsere individuelle Treuhand-Dienstleistung in der Region Bassersdorf und sparen Sie Zeit und Kosten mit professioneller Buchhaltung und Steuerberatung.",
+        "og:type": "website",
+        "og:title": "Treuhand Bassersdorf – Effiziente Beratung",
+        "og:url": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+        "og:description": "Nutzen Sie unsere individuelle Treuhand-Dienstleistung in der Region Bassersdorf und sparen Sie Zeit und Kosten mit professioneller Buchhaltung und Steuerberatung.",
+        "og:image": "https://www.v-buchhaltung.ch",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+      "headings": {
+        "h1": [
+          "Ihre zuverlässige Buchhaltung in Winterthur"
+        ],
+        "h2": [
+          "Unsere Leistungen für Buchhaltung und Steuern",
+          "Ihr Vorteil in der Nähe von Bassersdorf"
+        ]
+      },
+      "text": "Treuhand Bassersdorf – Effiziente Beratung\nZum Inhalt springen\nHome\nImpressum\nDatenschutz\nTreuhand Bassersdorf\nDienstleistungen\nTreuhand Dietlikon\nTreuhand Oerlikon\nTreuhand Wallisellen\nTreuhand Winterthur\nVBuchhaltung\nIhre zuverlässige Buchhaltung in Winterthur\n\n+41794460030\n\noffice@vbuchhaltung.ch\nKontakt\nMeine Dienstleistungen\nTreuhand in Bassersdorf: Ihr Experte für Finanzen\nAls zuverlässiger Partner für Treuhand bei Bassersdorf unterstützen wir Sie umfassend bei Ihren finanziellen Aufgaben. Ob Privatperson oder Unternehmen: Wir wissen, wie wichtig eine klare und präzise Verwaltung Ihrer Finanzen ist. Deshalb setzen wir auf individuelle Beratung und hochwertige Dienstleistungen, damit Sie stets den Überblick behalten. Mit schnellen und effizienten Lohnabrechnungen bleiben Sie bei Behörden und Versicherungen sorgenfrei, denn wir stehen in regelmässigem Austausch mit den zuständigen Stellen. Unwissenheit befreit Sie bekanntlich nicht von der Verantwortung – genau hier greifen wir Ihnen unter die Arme.\nJetzt anrufen\nUnsere Leistungen für Buchhaltung und Steuern\nWir bieten Ihnen massgeschneiderte Lösungen in der Region Bassersdorf, damit Sie sich auf Ihr Kerngeschäft konzentrieren können. Dank unserer Erfahrung und professionellen Software profitieren Sie von folgenden Services:\nAusführliche Buchhaltung und Finanzen (inkl. Kreditoren- und Debitorenbuchhaltung)\nJahresabschlüsse und Zwischenabschlüsse\nMehrwertsteuerabrechnungen\nZahlungsverkehr und monatliche Berichte\nSteuererklärungen schon ab CHF 49\nSteuerberatung, -planung und -optimierung\nMit der richtigen Führung Ihrer Buchhaltung lassen sich nicht nur Abläufe vereinfachen, sondern auch erhebliche Einsparungen erzielen. Wir achten darauf, dass alle Abzüge für AHV, ALV und Krankentaggeld korrekt ausgewiesen sind und kümmern uns termingerecht um sämtliche Meldungen an die Sozialversicherungen. Damit sichern Sie sich und Ihre Mitarbeitenden gleichzeitig eine lückenlose Lohnbuchhaltung.\nIhr Vorteil in der Nähe von Bassersdorf\nAls Treuhand-Spezialisten im Umkreis von Bassersdorf legen wir grossen Wert darauf, dass Sie stets rechtzeitig informiert werden. So können Sie sich frühzeitig organisieren, ohne sich mit zeitraubenden Formalitäten beschäftigen zu müssen. Unser Angebot geht dabei über die reine Unterstützung hinaus: Neukunden erhalten 10 % Rabatt und profitieren von unserem lösungsorientierten Ansatz. Wir stehen für Professionalität, Genauigkeit und Loyalität, damit Sie sich rundum wohlfühlen und keine unliebsamen Überraschungen erleben.\nGönnen Sie sich Entlastung und setzen Sie auf einen Treuhand-Partner, dem Sie vertrauen können. Unsere Mission ist es, Ihre Finanzen rasch und effizient zu erledigen, während Sie sich um Ihre Kernaufgaben kümmern. In der Region Bassersdorf ist unser Team jederzeit für Sie da und steht für Fragen, Beratung und Planung an Ihrer Seite. So schützen wir gemeinsam Ihre Finanzen und helfen Ihnen, langfristig Kosten zu sparen.\nJetzt anrufen\nImpressum\n|\nDatenschutz\nTreuhand\nBassersdorf\n|\nDietlikon\n|\nOerlikon\n|\nWallisellen\n|\nWinterthur",
+      "text_len": 3069,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "+41794460030",
+          "href": "tel:+41794460030",
+          "internal": false
+        },
+        {
+          "text": "office@vbuchhaltung.ch",
+          "href": "mailto:office@vbuchhaltung.ch",
+          "internal": false
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-#kontakt",
+          "internal": true
+        },
+        {
+          "text": "Meine Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Jetzt anrufen",
+          "href": "tel:",
+          "internal": false
+        },
+        {
+          "text": "Jetzt anrufen",
+          "href": "tel:",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/uploads/Fwr9hPSs/logo_vbuchhaltung__msi___png.png",
+          "width": "220",
+          "height": "66"
+        },
+        {
+          "src": "/uploads/xYF2jzv3/buchhaltung-winterthur-2__msi___jpg.jpg",
+          "width": "1200",
+          "height": "617"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://www.v-buchhaltung.ch/#global_business",
+          "name": "VBuchhaltung",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Oberer Deutweg 16 e",
+            "addressLocality": "Winterthur",
+            "addressRegion": "Kanton Zürich",
+            "postalCode": "8400",
+            "addressCountry": "CH"
+          },
+          "email": "office@vbuchhaltung.ch",
+          "telephone": "+41794460030",
+          "url": "https://www.v-buchhaltung.ch"
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "office@vbuchhaltung.ch"
+      ],
+      "phones": [
+        "+41794460030"
+      ],
+      "raw_html": "raw_html/004__treuhand-bassersdorf-.html"
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Treuhand Dietlikon – Ihre Buchhaltung im Griff",
+      "lang": "de",
+      "meta": {
+        "keywords": "Buchhaltung",
+        "description": "Profitieren Sie von individueller Beratung bei Dietlikon. Wir erledigen Buchhaltung, Steuern & Saläre schnell und kompetent in der Region.",
+        "og:type": "website",
+        "og:title": "Treuhand Dietlikon – Ihre Buchhaltung im Griff",
+        "og:url": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+        "og:description": "Profitieren Sie von individueller Beratung bei Dietlikon. Wir erledigen Buchhaltung, Steuern & Saläre schnell und kompetent in der Region.",
+        "og:image": "https://www.v-buchhaltung.ch",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+      "headings": {
+        "h1": [
+          "Ihre zuverlässige Buchhaltung in Winterthur"
+        ],
+        "h2": [
+          "So unterstützen wir Sie bei Dietlikon",
+          "Warum unsere Treuhand im Umkreis von Dietlikon?"
+        ]
+      },
+      "text": "Treuhand Dietlikon – Ihre Buchhaltung im Griff\nZum Inhalt springen\nHome\nImpressum\nDatenschutz\nTreuhand Bassersdorf\nTreuhand Dietlikon\nDienstleistungen\nTreuhand Oerlikon\nTreuhand Wallisellen\nTreuhand Winterthur\nVBuchhaltung\nIhre zuverlässige Buchhaltung in Winterthur\n\n+41794460030\n\noffice@vbuchhaltung.ch\nKontakt\nMeine Dienstleistungen\nTreuhand in Dietlikon:\nVerlässliche Unterstützung für Ihre Finanzen\nIn der Nähe von Dietlikon bieten wir Ihnen eine umfassende Treuhand, die individuell auf Ihre Anforderungen zugeschnitten ist. Dank unserer Kompetenz in Buchhaltung, Steuerdeklaration und Salärwesen profitieren Sie von massgeschneiderten Lösungen, damit Sie sich voll und ganz auf Ihr Kerngeschäft konzentrieren können. Unsere Dienstleistungen basieren auf einer transparenten und professionellen Arbeitsweise, die sich stets an Ihren Bedürfnissen orientiert.\nJetzt anrufen\nSo unterstützen wir Sie bei Dietlikon\nOb Sie eine natürliche oder juristische Person sind: Wir übernehmen Ihre Steuererklärung bereits ab CHF 49 und kümmern uns um sämtliche Formalitäten. In der Region Dietlikon helfen wir Ihnen zudem bei Mehrwertsteuerabrechnungen oder Jahresabschlüssen. Mit unserer bewährten Buchhaltungssoftware Sage Schweiz behalten Sie Ihren Zahlungsverkehr im Überblick und erhalten je nach Wunsch monatliche oder vierteljährliche Berichte. Auch bei Fragen zu AHV-, ALV-, KTG- und BVG-Abzügen stehen wir Ihnen zur Seite, damit Ihre Löhne rechtzeitig und korrekt abgerechnet werden können.\nSteuererklärungen für Privatpersonen und Unternehmen\nFinanzbuchhaltung (extern oder vor Ort)\nMehrwertsteuerabrechnungen und Zwischenabschlüsse\nSalärwesen inkl. Jahres-Lohnmeldungen und Quellensteuerabrechnungen\nBeratung für eine effiziente Steuerplanung\nUnser Engagement reicht weit über die reine Datenerfassung hinaus. Bei Bedarf treten wir frühzeitig mit den zuständigen Behörden in Kontakt oder informieren Sie rechtzeitig über anstehende Fristen. So bleiben unangenehme Überraschungen aus, und Sie sind jederzeit über Ihre finanzielle Situation im Bilde.\nWarum unsere Treuhand im Umkreis von Dietlikon?\nWir wissen, wie wertvoll verlässliche Partner bei finanziellen Fragen sind. Darum setzen wir auf Professionalität und Genauigkeit. Unsere Erfahrung zeigt, dass die richtige Führung von Buchhaltung, Lohn- und Steuerauszügen ein enormes Einsparpotenzial mit sich bringt. Zudem legen wir Wert auf eine enge Zusammenarbeit: Wir hören Ihnen zu, beraten Sie kompetent und arbeiten eng mit den Behörden zusammen. Neukunden können sich zudem über einen Willkommensrabatt von 10 % freuen.\nDank unserer Treuhand bei Dietlikon erhalten Sie alle wichtigen Dienstleistungen an einem Ort. Wir sorgen dafür, dass Ihre Finanzen stets in sicheren Händen liegen und Sie keine Zeit mit administrativen Aufgaben verlieren. Kontaktieren Sie uns, wenn Sie auf der Suche nach einer flexiblen, schnellen und zuverlässigen Unterstützung sind. Wir schützen Ihre Finanzen und zeigen Ihnen gerne, wie sich unsere massgeschneiderten Lösungen für Ihr Unternehmen lohnen.\nJetzt anrufen\nImpressum\n|\nDatenschutz\nTreuhand\nBassersdorf\n|\nDietlikon\n|\nOerlikon\n|\nWallisellen\n|\nWinterthur",
+      "text_len": 3150,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "+41794460030",
+          "href": "tel:+41794460030",
+          "internal": false
+        },
+        {
+          "text": "office@vbuchhaltung.ch",
+          "href": "mailto:office@vbuchhaltung.ch",
+          "internal": false
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon#kontakt",
+          "internal": true
+        },
+        {
+          "text": "Meine Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Jetzt anrufen",
+          "href": "tel:",
+          "internal": false
+        },
+        {
+          "text": "Jetzt anrufen",
+          "href": "tel:",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/uploads/Fwr9hPSs/logo_vbuchhaltung__msi___png.png",
+          "width": "220",
+          "height": "66"
+        },
+        {
+          "src": "/uploads/xYF2jzv3/buchhaltung-winterthur-2__msi___jpg.jpg",
+          "width": "1200",
+          "height": "617"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://www.v-buchhaltung.ch/#global_business",
+          "name": "VBuchhaltung",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Oberer Deutweg 16 e",
+            "addressLocality": "Winterthur",
+            "addressRegion": "Kanton Zürich",
+            "postalCode": "8400",
+            "addressCountry": "CH"
+          },
+          "email": "office@vbuchhaltung.ch",
+          "telephone": "+41794460030",
+          "url": "https://www.v-buchhaltung.ch"
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "office@vbuchhaltung.ch"
+      ],
+      "phones": [
+        "+41794460030"
+      ],
+      "raw_html": "raw_html/005__treuhand-dietlikon.html"
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Treuhand in Oerlikon – Ihr Partner für Finanzen",
+      "lang": "de",
+      "meta": {
+        "keywords": "Buchhaltung",
+        "description": "Effiziente Buchhaltung, Steuern und Lohnwesen in Oerlikon. Profitieren Sie von individuellen Lösungen für Ihre Finanzen.",
+        "og:type": "website",
+        "og:title": "Treuhand in Oerlikon – Ihr Partner für Finanzen",
+        "og:url": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+        "og:description": "Effiziente Buchhaltung, Steuern und Lohnwesen in Oerlikon. Profitieren Sie von individuellen Lösungen für Ihre Finanzen.",
+        "og:image": "https://www.v-buchhaltung.ch",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+      "headings": {
+        "h1": [
+          "Ihre zuverlässige Buchhaltung in Winterthur"
+        ],
+        "h2": [
+          "Unsere Leistungen im Bereich Finanzen und Steuer",
+          "Effizienz, Fachwissen und Vertrauen"
+        ]
+      },
+      "text": "Treuhand in Oerlikon – Ihr Partner für Finanzen\nZum Inhalt springen\nHome\nImpressum\nDatenschutz\nTreuhand Bassersdorf\nTreuhand Dietlikon\nTreuhand Oerlikon\nDienstleistungen\nTreuhand Wallisellen\nTreuhand Winterthur\nVBuchhaltung\nIhre zuverlässige Buchhaltung in Winterthur\n\n+41794460030\n\noffice@vbuchhaltung.ch\nKontakt\nMeine Dienstleistungen\nTreuhand Oerlikon –\nIhr zuverlässiger Begleiter für Ihre Finanzen\nWir unterstützen Unternehmen und Privatpersonen in der Region Oerlikon mit vielseitigen Treuhand-Angeboten. Ob Steuererklärung, Buchhaltung oder Lohnabrechnungen – bei uns profitieren Sie von individuell angepassten Dienstleistungen. Dabei legen wir grossen Wert auf eine schnelle und effiziente Abwicklung, damit Sie sich unbesorgt auf Ihr Kerngeschäft konzentrieren können. Wir stehen in engem Austausch mit den Behörden, sodass Unstimmigkeiten verhindert und mögliche Sparpotenziale rechtzeitig erkannt werden. Unwissenheit befreit Sie nämlich nicht von der Verantwortung, weshalb wir grossen Wert auf Transparenz und klare Kommunikation legen.\nJetzt anrufen\nUnsere Leistungen im Bereich Finanzen und Steuer\nWir decken sämtliche Bereiche ab, die Ihr Unternehmen im Umkreis von Oerlikon braucht. Einerseits kümmern wir uns um die ordnungsgemässe Führung Ihrer Bücher und Finanzen. Andererseits übernehmen wir auch die Steuererklärungen für natürliche und juristische Personen und stellen sicher, dass alle Fristen eingehalten werden. Dank unserer Erfahrung in der Treuhand profitieren Sie von reibungslosen Prozessen sowie einer professionellen Beratung. Unsere Leistungen umfassen unter anderem:\nFinanzbuchhaltungen inklusive Kreditoren- und Debitorenbuchhaltung (extern oder vor Ort)\nJahres- und Zwischenabschlüsse\nMehrwertsteuerabrechnungen und Zahlungsverkehr\nErstellung und Einreichung von Steuererklärungen\nSteuerberatung sowie Steuerplanung\nDarüber hinaus bieten wir eine umfassende Unterstützung beim Lohnwesen. Wir sorgen dafür, dass alle Mitarbeiter rechtzeitig korrekte Lohnabrechnungen inklusive AHV-, ALV-, KTG- und BVG-Abzügen erhalten. Auch die Abwicklung von Quellensteuerabrechnungen und Salär-Auszahlungen gehört zu unseren Kernaufgaben.\nEffizienz, Fachwissen und Vertrauen\nUnsere Treuhand in der Nähe von Oerlikon setzt auf Fachkompetenz und persönliche Beratung. Wir wissen, wie wichtig Genauigkeit und Loyalität bei finanziellen Angelegenheiten sind. Mit einer gut strukturierten Buchhaltung, den richtigen Steuer-Strategien und einer exakten Lohnbuchhaltung können Sie ein erhebliches Einsparungspotenzial ausschöpfen. Wir achten darauf, dass unsere Arbeit für Sie jederzeit verständlich bleibt. Gleichzeitig profitieren Sie von unserem laufenden Austausch mit relevanten Stellen und Versicherungen, was Ihnen zusätzliche Sicherheit verschafft.\nOb Sie Unterstützung bei Ihrer Steuererklärung suchen oder Ihre gesamte Buchhaltung an ein professionelles Team übertragen möchten – bei uns erhalten Sie sämtliche Dienstleistungen aus einer Hand. Unsere Treuhand-Dienste im Raum Oerlikon sind darauf ausgelegt, Ihnen den Rücken freizuhalten und stets den Überblick über Ihre Finanzen zu bewahren. Vertrauen Sie auf unsere Expertise und erleben Sie, wie wir gemeinsam Ihre finanzielle Situation optimieren.\nJetzt anrufen\nImpressum\n|\nDatenschutz\nTreuhand\nBassersdorf\n|\nDietlikon\n|\nOerlikon\n|\nWallisellen\n|\nWinterthur",
+      "text_len": 3338,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "+41794460030",
+          "href": "tel:+41794460030",
+          "internal": false
+        },
+        {
+          "text": "office@vbuchhaltung.ch",
+          "href": "mailto:office@vbuchhaltung.ch",
+          "internal": false
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon#kontakt",
+          "internal": true
+        },
+        {
+          "text": "Meine Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Jetzt anrufen",
+          "href": "tel:",
+          "internal": false
+        },
+        {
+          "text": "Jetzt anrufen",
+          "href": "tel:",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/uploads/Fwr9hPSs/logo_vbuchhaltung__msi___png.png",
+          "width": "220",
+          "height": "66"
+        },
+        {
+          "src": "/uploads/xYF2jzv3/buchhaltung-winterthur-2__msi___jpg.jpg",
+          "width": "1200",
+          "height": "617"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://www.v-buchhaltung.ch/#global_business",
+          "name": "VBuchhaltung",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Oberer Deutweg 16 e",
+            "addressLocality": "Winterthur",
+            "addressRegion": "Kanton Zürich",
+            "postalCode": "8400",
+            "addressCountry": "CH"
+          },
+          "email": "office@vbuchhaltung.ch",
+          "telephone": "+41794460030",
+          "url": "https://www.v-buchhaltung.ch"
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "office@vbuchhaltung.ch"
+      ],
+      "phones": [
+        "+41794460030"
+      ],
+      "raw_html": "raw_html/006__treuhand-oerlikon.html"
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Treuhand in Wallisellen: Kompetent & Zuverlässig",
+      "lang": "de",
+      "meta": {
+        "keywords": "Buchhaltung",
+        "description": "Buchen Sie unsere Treuhand-Dienstleistungen in Wallisellen. Individuelle Beratung, exakte Buchhaltung, Steuererklärungen und Lohnabrechnungen.",
+        "og:type": "website",
+        "og:title": "Treuhand in Wallisellen: Kompetent & Zuverlässig",
+        "og:url": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+        "og:description": "Buchen Sie unsere Treuhand-Dienstleistungen in Wallisellen. Individuelle Beratung, exakte Buchhaltung, Steuererklärungen und Lohnabrechnungen.",
+        "og:image": "https://www.v-buchhaltung.ch",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+      "headings": {
+        "h1": [
+          "Ihre zuverlässige Buchhaltung in Winterthur"
+        ],
+        "h2": [
+          "Salärwesen und Steuererklärungen",
+          "Vorteile und Service für Neukunden"
+        ]
+      },
+      "text": "Treuhand in Wallisellen: Kompetent & Zuverlässig\nZum Inhalt springen\nHome\nImpressum\nDatenschutz\nTreuhand Bassersdorf\nTreuhand Dietlikon\nTreuhand Oerlikon\nTreuhand Wallisellen\nDienstleistungen\nTreuhand Winterthur\nVBuchhaltung\nIhre zuverlässige Buchhaltung in Winterthur\n\n+41794460030\n\noffice@vbuchhaltung.ch\nKontakt\nMeine Dienstleistungen\nTreuhand in Wallisellen: Ihr Partner für Buchhaltung\nWir von VBuchhaltung unterstützen Unternehmen in der Region Wallisellen bei sämtlichen Treuhand-Aufgaben und sorgen dafür, dass Sie sich voll und ganz auf Ihr Kerngeschäft konzentrieren können. Unser Ziel ist es, Ihnen eine individuelle Beratung sowie hochwertige Dienstleistungen zu bieten. Wir übernehmen beispielsweise die gesamte Buchhaltung und Finanzen – ob Kreditoren-, Debitoren- oder Mehrwertsteuerabrechnungen –, damit Sie stets den Überblick behalten.\nDank unserer Erfahrung und Professionalität führen wir Ihre Finanzen schnell und effizient. Dabei setzen wir auf moderne Buchhaltungssoftware wie Sage Schweiz. Ob monatliche, vierteljährliche oder jährliche Berichte: Wir passen uns Ihren Bedürfnissen an. Besonders in der Nähe von Wallisellen haben wir bereits vielen Kunden geholfen, wertvolle Zeit bei Buchungsarbeiten und Zahlungen einzusparen.\nJetzt anrufen\nSalärwesen und Steuererklärungen\nEin weiterer Schwerpunkt unserer Treuhand-Dienstleistungen ist die Lohnabrechnung. Wir richten Ihre Lohnbuchhaltung ein und übernehmen auf Wunsch das gesamte Salärwesen, von AHV-, ALV- und KTG-Abzügen bis hin zu den BVG-Versicherungen. So erhalten Sie und Ihre Mitarbeitenden jeden Monat pünktlich die korrekten Lohnabrechnungen. Auch bei den jährlichen Meldungen an Sozialversicherungen sowie bei Quellensteuerabrechnungen stehen wir Ihnen tatkräftig zur Seite.\nDank schneller, effizienter Prozesse geraten Sie im Umkreis von Wallisellen nicht in Schwierigkeiten mit der Steuerbehörde oder anderen Institutionen. Wir erstellen ausserdem Steuererklärungen für natürliche sowie juristische Personen und übernehmen die Steuerberatung, damit Sie steuerlich optimal aufgestellt sind. Mit unserer Treuhand-Erfahrung unterstützen wir Sie bei der Planung und Umsetzung Ihrer finanziellen Ziele.\nVorteile und Service für Neukunden\nWir legen Wert auf persönliche Beratung und Loyalität. In der Region Wallisellen sind wir bestens vernetzt und stehen im regelmässigen Austausch mit Behörden, um Ihnen eine reibungslose Zusammenarbeit zu ermöglichen. Unsere Kundinnen und Kunden profitieren von:\nIndividueller Beratung bei Buchhaltung und Finanzen\nSalärwesen inklusive Lohnabrechnungen und Sozialversicherungen\nUmfassender Steuerunterstützung und Planung\nSchnellen und transparenten Prozessen\nAusserdem erhalten Neukunden zur Begrüssung 10 % Rabatt, damit Sie unsere Leistungen unbeschwert testen können. Bei uns stehen Professionalität, Genauigkeit und Ihr Vertrauen an oberster Stelle. So können Sie sicher sein, dass Ihre finanziellen Angelegenheiten bei unserer Treuhand in guten Händen sind – direkt bei Wallisellen und immer nah an Ihren Bedürfnissen.\nJetzt anrufen\nImpressum\n|\nDatenschutz\nTreuhand\nBassersdorf\n|\nDietlikon\n|\nOerlikon\n|\nWallisellen\n|\nWinterthur",
+      "text_len": 3156,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "+41794460030",
+          "href": "tel:+41794460030",
+          "internal": false
+        },
+        {
+          "text": "office@vbuchhaltung.ch",
+          "href": "mailto:office@vbuchhaltung.ch",
+          "internal": false
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen#kontakt",
+          "internal": true
+        },
+        {
+          "text": "Meine Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Jetzt anrufen",
+          "href": "tel:",
+          "internal": false
+        },
+        {
+          "text": "Jetzt anrufen",
+          "href": "tel:",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/uploads/Fwr9hPSs/logo_vbuchhaltung__msi___png.png",
+          "width": "220",
+          "height": "66"
+        },
+        {
+          "src": "/uploads/xYF2jzv3/buchhaltung-winterthur-2__msi___jpg.jpg",
+          "width": "1200",
+          "height": "617"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://www.v-buchhaltung.ch/#global_business",
+          "name": "VBuchhaltung",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Oberer Deutweg 16 e",
+            "addressLocality": "Winterthur",
+            "addressRegion": "Kanton Zürich",
+            "postalCode": "8400",
+            "addressCountry": "CH"
+          },
+          "email": "office@vbuchhaltung.ch",
+          "telephone": "+41794460030",
+          "url": "https://www.v-buchhaltung.ch"
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "office@vbuchhaltung.ch"
+      ],
+      "phones": [
+        "+41794460030"
+      ],
+      "raw_html": "raw_html/007__treuhand-wallisellen.html"
+    },
+    {
+      "url": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Treuhand Winterthur: Professionelle Buchhaltung & Steuern",
+      "lang": "de",
+      "meta": {
+        "keywords": "Buchhaltung",
+        "description": "Professionelle Treuhand in Winterthur: Buchhaltung, Steuern und Saläre aus einer Hand. Vertrauen Sie auf unsere Erfahrung und sparen Sie Zeit sowie Kosten.",
+        "og:type": "website",
+        "og:title": "Treuhand Winterthur: Professionelle Buchhaltung & Steuern",
+        "og:url": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+        "og:description": "Professionelle Treuhand in Winterthur: Buchhaltung, Steuern und Saläre aus einer Hand. Vertrauen Sie auf unsere Erfahrung und sparen Sie Zeit sowie Kosten.",
+        "og:image": "https://www.v-buchhaltung.ch",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+      "headings": {
+        "h1": [
+          "Ihre zuverlässige Buchhaltung in Winterthur"
+        ],
+        "h2": [
+          "Unsere Leistungen für Ihre Entlastung",
+          "Warum VBuchhaltung?"
+        ]
+      },
+      "text": "Treuhand Winterthur: Professionelle Buchhaltung & Steuern\nZum Inhalt springen\nHome\nImpressum\nDatenschutz\nTreuhand Bassersdorf\nTreuhand Dietlikon\nTreuhand Oerlikon\nTreuhand Wallisellen\nTreuhand Winterthur\nDienstleistungen\nVBuchhaltung\nIhre zuverlässige Buchhaltung in Winterthur\n\n+41794460030\n\noffice@vbuchhaltung.ch\nKontakt\nMeine Dienstleistungen\nTreuhand Winterthur:\nIhr Profi für Buchhaltung und Steuererklärungen\nAls erfahrene Buchhaltungsagentur im Herzen von Winterthur bieten wir Ihnen umfassende Treuhand-Dienstleistungen. Unser Team unterstützt Sie dabei, Ihren Fokus auf das Wesentliche zu richten, während wir uns um Ihre Finanzen kümmern. Wir wissen, wie wichtig eine exakte und termingerechte Steuererklärung ist. Dank unserer schnellen und effizienten Bearbeitung müssen Sie sich keine Sorgen über den Kontakt mit Steuerbehörden oder Versicherungen machen. Neukunden profitieren zudem von 10 % Rabatt auf unsere Dienstleistungen.\nJetzt anrufen\nUnsere Leistungen für Ihre Entlastung\nWir passen unsere Treuhand-Aufgaben exakt an Ihre Bedürfnisse an. So wird ein erhebliches Einsparungspotenzial erreicht, während Sie jederzeit den Überblick behalten. Zu unseren Hauptservices gehören:\nBuchhaltung und Finanzen (inkl. Kreditoren- und Debitorenbuchhaltung)\nJahresabschlüsse und Zwischenabschlüsse\nLohn- und Salärmanagement für Sie und Ihre Mitarbeitenden\nSteuererklärungen für natürliche und juristische Personen\nMehrwertsteuerabrechnungen und Zahlungsverkehr\nZudem übernehmen wir die Kommunikation mit den Behörden im Umkreis von Winterthur rasch und zuverlässig. Gerade bei Themen wie Quellensteuerabrechnungen, Sozialversicherungen oder Lohnausweisen ist es entscheidend, dass alles korrekt und pünktlich abgewickelt wird. Mit unserer Unterstützung brauchen Sie weder zusätzliche Ressourcen noch externe Tools. Wir organisieren alles zentral und sorgen dafür, dass Ihre Finanzen in der Region Winterthur optimal aufgestellt sind.\nWarum VBuchhaltung?\nUnser Ziel ist, dass Sie sich auf Ihr Kerngeschäft konzentrieren können, ohne sich mit dem Papierkram zu belasten. Als Buchhaltungsagentur bei Winterthur legen wir Wert auf Professionalität, Genauigkeit und Loyalität gegenüber unseren Kunden. Wir informieren Sie rechtzeitig über wichtige Fristen und Chancen, damit Sie immer vorbereitet sind.\nPersönliche Betreuung mit Fokus auf individuelle Beratung\nExakte Lohnabrechnungen, damit Sie keine Probleme mit Behörden haben\nKontinuierliche Steuerplanung und -beratung für langfristige Einsparungen\nAlles an einem Ort: Von Salären bis zu Steuermeldungen\nMit dieser Treuhand in der Nähe von Winterthur können Sie sich sicher sein, dass Ihre Buchhaltung, Steuern und Saläre professionell geführt werden. Wir schützen Ihre Finanzen und begleiten Sie vertrauensvoll in jedem Schritt. So sparen Sie Zeit, Geld und Nerven – und können sich voll und ganz auf Ihren Erfolg konzentrieren.\nJetzt anrufen\nImpressum\n|\nDatenschutz\nTreuhand\nBassersdorf\n|\nDietlikon\n|\nOerlikon\n|\nWallisellen\n|\nWinterthur",
+      "text_len": 2998,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.v-buchhaltung.ch/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "+41794460030",
+          "href": "tel:+41794460030",
+          "internal": false
+        },
+        {
+          "text": "office@vbuchhaltung.ch",
+          "href": "mailto:office@vbuchhaltung.ch",
+          "internal": false
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur#kontakt",
+          "internal": true
+        },
+        {
+          "text": "Meine Dienstleistungen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Jetzt anrufen",
+          "href": "tel:",
+          "internal": false
+        },
+        {
+          "text": "Jetzt anrufen",
+          "href": "tel:",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.v-buchhaltung.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.v-buchhaltung.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Bassersdorf",
+          "href": "https://www.v-buchhaltung.ch/treuhand-bassersdorf-",
+          "internal": true
+        },
+        {
+          "text": "Dietlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-dietlikon",
+          "internal": true
+        },
+        {
+          "text": "Oerlikon",
+          "href": "https://www.v-buchhaltung.ch/treuhand-oerlikon",
+          "internal": true
+        },
+        {
+          "text": "Wallisellen",
+          "href": "https://www.v-buchhaltung.ch/treuhand-wallisellen",
+          "internal": true
+        },
+        {
+          "text": "Winterthur",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.v-buchhaltung.ch/treuhand-winterthur#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/uploads/Fwr9hPSs/logo_vbuchhaltung__msi___png.png",
+          "width": "220",
+          "height": "66"
+        },
+        {
+          "src": "/uploads/xYF2jzv3/buchhaltung-winterthur-2__msi___jpg.jpg",
+          "width": "1200",
+          "height": "617"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://www.v-buchhaltung.ch/#global_business",
+          "name": "VBuchhaltung",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Oberer Deutweg 16 e",
+            "addressLocality": "Winterthur",
+            "addressRegion": "Kanton Zürich",
+            "postalCode": "8400",
+            "addressCountry": "CH"
+          },
+          "email": "office@vbuchhaltung.ch",
+          "telephone": "+41794460030",
+          "url": "https://www.v-buchhaltung.ch"
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "office@vbuchhaltung.ch"
+      ],
+      "phones": [
+        "+41794460030"
+      ],
+      "raw_html": "raw_html/008__treuhand-winterthur.html"
+    }
+  ]
+}

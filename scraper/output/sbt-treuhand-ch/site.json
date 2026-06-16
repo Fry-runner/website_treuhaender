@@ -1,0 +1,1274 @@
+{
+  "name": "SBT Treuhand Zürich",
+  "domain": "sbt-treuhand.ch",
+  "start_url": "https://www.sbt-treuhand.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781615688.1133254,
+    "duration_sec": 17.6,
+    "pages_crawled": 7,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://www.sbt-treuhand.ch/sitemaps.xml"
+  },
+  "contact": {
+    "emails": [
+      "a.bosshard@sbt-treuhand.ch",
+      "c.schneider@sbt-treuhand.ch",
+      "h.ott@sbt-treuhand.ch",
+      "info@compresso.ch",
+      "info@sbt-treuhand.ch",
+      "r.decarlo@sbt-treuhand.ch"
+    ],
+    "phones": [
+      "+41 (0)44 438 60 10",
+      "+41 (0)44 438 60 19",
+      "+41 43 488 86 00",
+      "+41 43 488 86 01",
+      "+41 44 438 60 10",
+      "+41 44 438 60 19"
+    ]
+  },
+  "assets": {
+    "downloaded": 21,
+    "failed": 0,
+    "total_bytes": 567550,
+    "manifest": [
+      {
+        "url": "https://www.sbt-treuhand.ch/favicon.ico",
+        "ok": true,
+        "file": "assets/223765d5fd__favicon.ico",
+        "content_type": "image/png",
+        "bytes": 1209
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen-schriftzug.svg",
+        "ok": true,
+        "file": "assets/a6acd3f93b__Logo_Saeulen-schriftzug.svg",
+        "content_type": "image/svg+xml",
+        "bytes": 9182
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-180x180.png",
+        "ok": true,
+        "file": "assets/a51a719b77__cropped-Logo_Saeulen-favicon-180x180.png",
+        "content_type": "image/png",
+        "bytes": 8660
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-192x192.png",
+        "ok": true,
+        "file": "assets/c3c5012308__cropped-Logo_Saeulen-favicon-192x192.png",
+        "content_type": "image/png",
+        "bytes": 9383
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-32x32.png",
+        "ok": true,
+        "file": "assets/bc674460ef__cropped-Logo_Saeulen-favicon-32x32.png",
+        "content_type": "image/png",
+        "bytes": 1209
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "ok": true,
+        "file": "assets/816569fb2a__cropped-Logo_Saeulen-favicon.png",
+        "content_type": "image/png",
+        "bytes": 5772
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/expertsuisse-logo.png",
+        "ok": true,
+        "file": "assets/208b5b2151__expertsuisse-logo.png",
+        "content_type": "image/png",
+        "bytes": 9866
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/kmu-hsg_logo_de_rgb_1884x686.jpeg",
+        "ok": true,
+        "file": "assets/77c65048c1__kmu-hsg_logo_de_rgb_1884x686.jpeg",
+        "content_type": "image/jpeg",
+        "bytes": 184769
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/treu-suisse-logo.png",
+        "ok": true,
+        "file": "assets/c8c2eae9e7__treu-suisse-logo.png",
+        "content_type": "image/png",
+        "bytes": 4921
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/veb-logo.png",
+        "ok": true,
+        "file": "assets/a6dcd91edc__veb-logo.png",
+        "content_type": "image/png",
+        "bytes": 12273
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/vzh.png",
+        "ok": true,
+        "file": "assets/1b4cf2c61e__vzh.png",
+        "content_type": "image/png",
+        "bytes": 5429
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_AHV_Lohnsummenanpassung.pdf",
+        "ok": true,
+        "file": "assets/3423ece78c__DL_AHV_Lohnsummenanpassung.pdf",
+        "content_type": "application/pdf",
+        "bytes": 37727
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_AHV_Verzichtserklaerung_Loehne_unter_2000.pdf",
+        "ok": true,
+        "file": "assets/1969c57182__DL_AHV_Verzichtserklaerung_Loehne_unter_2000.pdf",
+        "content_type": "application/pdf",
+        "bytes": 65164
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_1_Anleitung.pdf",
+        "ok": true,
+        "file": "assets/bd96054799__DL_Abschluss_1_Anleitung.pdf",
+        "content_type": "application/pdf",
+        "bytes": 20558
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_2_Fragebogen.xls",
+        "ok": true,
+        "file": "assets/7e6e87e719__DL_Abschluss_2_Fragebogen.xls",
+        "content_type": "application/vnd.ms-excel",
+        "bytes": 26112
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_3_Angaben.xls",
+        "ok": true,
+        "file": "assets/9dce76869e__DL_Abschluss_3_Angaben.xls",
+        "content_type": "application/vnd.ms-excel",
+        "bytes": 23040
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_4_Debitorenliste.xls",
+        "ok": true,
+        "file": "assets/1db9eb8b60__DL_Abschluss_4_Debitorenliste.xls",
+        "content_type": "application/vnd.ms-excel",
+        "bytes": 26112
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_5_Warenvorraete_B-K-C.xls",
+        "ok": true,
+        "file": "assets/031a4c5644__DL_Abschluss_5_Warenvorraete_B-K-C.xls",
+        "content_type": "application/vnd.ms-excel",
+        "bytes": 72192
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_5_Warenvorraete_allgemein.xls",
+        "ok": true,
+        "file": "assets/b96282220f__DL_Abschluss_5_Warenvorraete_allgemein.xls",
+        "content_type": "application/vnd.ms-excel",
+        "bytes": 23552
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Steuererklaerung_Checkliste.pdf",
+        "ok": true,
+        "file": "assets/a02015adbe__DL_Steuererklaerung_Checkliste.pdf",
+        "content_type": "application/pdf",
+        "bytes": 16228
+      },
+      {
+        "url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/stonehenge.svg",
+        "ok": true,
+        "file": "assets/d37c0cd785__stonehenge.svg",
+        "content_type": "image/svg+xml",
+        "bytes": 4192
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://www.sbt-treuhand.ch/",
+      "title": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 4531
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch/agbs/",
+      "title": "AGBs - SBT Treuhand",
+      "raw_html": "raw_html/002__agbs.html",
+      "text_len": 130
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+      "title": "Cookie Erklärung - SBT Treuhand",
+      "raw_html": "raw_html/003__cookie-erklaerung.html",
+      "text_len": 154
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch/datenschutz/",
+      "title": "Datenschutz - SBT Treuhand",
+      "raw_html": "raw_html/004__datenschutz.html",
+      "text_len": 8410
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch/impressum/",
+      "title": "Impressum - SBT Treuhand",
+      "raw_html": "raw_html/005__impressum.html",
+      "text_len": 467
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch/links-downloads/",
+      "title": "Links & Downloads - SBT Treuhand",
+      "raw_html": "raw_html/006__links-downloads.html",
+      "text_len": 851
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch",
+      "title": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung",
+      "raw_html": "raw_html/007__index.html",
+      "text_len": 4531
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.sbt-treuhand.ch/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "dc.title": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung",
+        "dc.description": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
+        "dc.relation": "https://www.sbt-treuhand.ch/",
+        "dc.source": "https://www.sbt-treuhand.ch/",
+        "dc.language": "de_CH",
+        "description": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
+        "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "og:url": "https://www.sbt-treuhand.ch/",
+        "og:site_name": "SBT Treuhand",
+        "og:locale": "de_CH",
+        "og:type": "website",
+        "og:title": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung",
+        "og:description": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
+        "og:image": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:secure_url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:width": "512",
+        "og:image:height": "512",
+        "twitter:card": "summary",
+        "twitter:title": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung",
+        "twitter:description": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
+        "generator": "WP Rocket 3.21.3",
+        "msapplication-tileimage": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-270x270.png"
+      },
+      "canonical": "https://www.sbt-treuhand.ch/",
+      "headings": {
+        "h1": [
+          "SBT Treuhand Im Hintergrund für Sie da. Standhaft, zuverlässig, tragend."
+        ],
+        "h2": [
+          "Unsere Dienstleistungen",
+          "Das Team",
+          "Mitgliedschaften",
+          "Über uns",
+          "Unsere Werte und Leitgedanken",
+          "Kontakt"
+        ]
+      },
+      "text": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung\nSBT Treuhand\nIm Hintergrund für Sie da.\nStandhaft,\nzuverlässig,\ntragend.\nUnsere Dienstleistungen\nUnser Team\nUnsere Koordinaten\nÖffnungszeiten\nMo – Do: 8 – 17 Uhr\nFr: 8 – 16 Uhr\nUnsere Dienstleistungen\nFinanz- und Rechnungswesen\nOrganisieren, Einrichten und Führen der Finanzbuchhaltung\nAbschlussberatungen, Auswertungen und Zukunftsplanungen\nLohnbuchhaltung inkl. Zahlungsverkehr, Jahresendauswertungen und -abrechnungen, Lohnausweise\nDebitoren- und Kreditoren-Buchhaltung\nTemporäreinsätze des SBT-Personals direkt beim Kunden\nUnterstützung bei der Evaluation und Einführung der Buchhaltungssoftware\nVertrieb von Abaweb (Erfassung durch Klient)\nSteuern allgemein\nSteuererklärungen für natürliche und juristische Personen in der ganzen Schweiz\nSpezialsteuererklärungen bei Liegenschaften, Erbengemeinschaften, Todesfällen usw.\nVertretungen vor Steuerbehörden, Einsprache- und Rekursverfahren\nMehrwertsteuer im Speziellen\nBegleitung und Betreuung bei Revisionen\nVertiefte Beratung und Abklärungen bei Unsicherheiten\nRisikoanalysen\nUnternehmensberatung und -sanierung\nUnternehmensbewertungen, Gutachten und Expertisen\nBetriebsanalysen, Beratung für Aufbau- und Ablauforganisation\nBeratung und Unterstützung beim Kauf oder Verkauf von Unternehmen oder Teilen davon\nGründungen, Sanierungen, Umstrukturierungen und Liquidationen Nachfolgeregelungen\nBeratung und Unterstützung bei Finanzierungen und Investitionen\nVerwaltungsratsmandate\nBetriebsbuchhaltung, Controlling und Coaching\nEinrichten und Führen der Betriebsbuchhaltung, Kalkulationsberatung, Profit-Center-Rechnungen\nDiverse Auswertungen als Führungsmittel (kurzfristige Erfolgsrechnung, Budgets, Finanzpläne, Bilanz- und Erfolgsanalysen, Liquiditätspläne etc.)\nControlling und Coaching der finanziellen und strategischen Geschäftsführung\nAusarbeiten von Businessplänen\nSteuer-, Vorsorge- und Versicherungsplanung\nVertiefte Steuerplanungen und -optimierungen für Unternehmen und Einzelpersonen\nVorsorgeplanungen: kann ich mich mit 55/60 pensionieren lassen und ähnliche Fragestellungen\nVersicherungsüberprüfungen und -optimierungen\nRechtsberatung\nErstellen und Prüfen von Arbeits-, Miet-, Darlehens-, Kauf- und ähnlichen Verträgen aus dem Handels- und Gesellschaftsrecht\nBeratung und Durchführung im Ehe- und Erbrecht: Testamente, Ehe- und Erbverträge, Willensvollstreckungen, Erbteilungen\n«Every age has the Stonehenge it deserves – or desires.»\nJacquetta Hawkes\nDas Team\nRosario De Carlo\nVR-Präsident\nAlain Bosshard\nVR-Vice-Präsident\nHeidi Ott\nTreuhänderin\nCornelia Schneider\nSachbearbeiterin\nMitgliedschaften\nÜber uns\nDie Geschichte der SBT reicht zurück bis ins Jahr 1938. Dr. Jakob Viel gründete damals innerhalb seiner Anwaltskanzlei eine Treuhandabteilung, welche 1972 als Steuer-Bilanz-Treuhand AG verselbständigt wurde.\nÜber die Jahrzehnte hinweg entwickelte sich die SBT zu einem erfolgreichen Treuhand- und Beratungsunternehmen mit einem breiten Netz an treuen Kunden aus verschiedenen Branchen. Vertieftes Know-how haben wir dabei in den Bereichen Bäckereien-Konditoreien, Cafés, Gastrobetriebe, Dienstleistungen, Handel national und international sowie bei den freiberuflichen Zweigen.\nDank unserer jahrzehntelangen Praxiserfahrung, gepaart mit aktuellen Fachwissen aus ständiger Weiterbildung und ergänzt durch die enge Zusammenarbeit mit Spezialisten, bieten wir Ihnen heute ein umfassendes Dienstleistungsangebot.\nWir freuen uns, eine tragende Säule für den Erfolg Ihres Unternehmens zu bilden. Damit Sie sich auf Ihr Kerngeschäft konzentrieren können.\nUnsere Werte und Leitgedanken\nWir stehen für Tradition und Seriosität vereint mit innovativen Problemlösungen, wobei immer die Bedürfnisse des einzelnen Kunden im Vordergrund stehen. Wir treten dabei als Generalunternehmer für all seine Probleme auf. Diese lösen wir professionell, speditiv und wenn nötig, zusammen mit ausgewiesenen Fachspezialisten, welche die gleichen Werte vertreten. Wir wollen und können mehr als das gesetzliche Minimum anbieten (Buchhaltung und Steuererklärung). Wir sehen nicht nur die Zahlen, sondern interessieren uns auch für die Menschen dahinter.\nKontakt\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nTel. +41 (0)44 438 60 10\nFax +41 (0)44 438 60 19\ninfo@sbt-treuhand.ch\nÖffnungszeiten\nMontag – Donnerstag\n08.00 – 17.00 Uhr\nFreitag\n08.00 – 16.00 Uhr\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nLinks & Downloads\nDatenschutz\nCookie Erklärung",
+      "text_len": 4531,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.sbt-treuhand.ch/index",
+          "internal": true
+        },
+        {
+          "text": "Unsere Dienstleistungen",
+          "href": "https://www.sbt-treuhand.ch/#services",
+          "internal": true
+        },
+        {
+          "text": "Unser Team",
+          "href": "https://www.sbt-treuhand.ch/#team",
+          "internal": true
+        },
+        {
+          "text": "Unsere Koordinaten",
+          "href": "https://www.sbt-treuhand.ch/#kontakt",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "mailto:info@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:0444386010",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:r.decarlo@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:+41444386017",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:a.bosshard@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:+41444386014",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:h.ott@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:+41444386013",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:c.schneider@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:+41444386010",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.veb.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://kmu.unisg.ch/de/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.vzh.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.expertsuisse.ch/home",
+          "internal": false
+        },
+        {
+          "text": "info@sbt-treuhand.ch",
+          "href": "mailto:info@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.sbt-treuhand.ch/links-downloads/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.sbt-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Cookie Erklärung",
+          "href": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen-schriftzug.svg",
+          "width": "259",
+          "height": "56"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/treu-suisse-logo.png",
+          "width": "743",
+          "height": "418"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/veb-logo.png",
+          "width": "1030",
+          "height": "580"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/kmu-hsg_logo_de_rgb_1884x686.jpeg",
+          "width": "1864",
+          "height": "1048"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/vzh.png",
+          "width": "496",
+          "height": "101"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/expertsuisse-logo.png",
+          "width": "1021",
+          "height": "354"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/stonehenge.svg",
+          "width": "896",
+          "height": "394"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "SBT Treuhand",
+          "alternateName": "SBT Treuhand",
+          "description": "",
+          "url": "https://www.sbt-treuhand.ch"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Steuer-Bilanz-Treuhand AG",
+          "url": "https://www.sbt-treuhand.ch",
+          "alternateName": "SBT Treuhand",
+          "description": "SBT Treuhand",
+          "logo": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen.svg",
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+410444386010",
+              "contactOption": "TollFree",
+              "contactType": "sales"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "a.bosshard@sbt-treuhand.ch",
+        "c.schneider@sbt-treuhand.ch",
+        "h.ott@sbt-treuhand.ch",
+        "info@sbt-treuhand.ch",
+        "r.decarlo@sbt-treuhand.ch"
+      ],
+      "phones": [
+        "+41 (0)44 438 60 10",
+        "+41 (0)44 438 60 19"
+      ],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch/agbs/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "AGBs - SBT Treuhand",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "dc.title": "AGBs - SBT Treuhand",
+        "dc.relation": "https://www.sbt-treuhand.ch/agbs/",
+        "dc.source": "https://www.sbt-treuhand.ch/",
+        "dc.language": "de_CH",
+        "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "og:url": "https://www.sbt-treuhand.ch/agbs/",
+        "og:site_name": "SBT Treuhand",
+        "og:locale": "de_CH",
+        "og:type": "article",
+        "og:title": "AGBs - SBT Treuhand",
+        "og:image": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:secure_url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:width": "512",
+        "og:image:height": "512",
+        "twitter:card": "summary",
+        "twitter:title": "AGBs - SBT Treuhand",
+        "generator": "WP Rocket 3.21.3",
+        "msapplication-tileimage": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-270x270.png"
+      },
+      "canonical": "https://www.sbt-treuhand.ch/agbs/",
+      "headings": {
+        "h1": [
+          "AGBs"
+        ]
+      },
+      "text": "AGBs - SBT Treuhand\nAGBs\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nLinks & Downloads\nDatenschutz\nCookie Erklärung",
+      "text_len": 130,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.sbt-treuhand.ch/index",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.sbt-treuhand.ch/links-downloads/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.sbt-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Cookie Erklärung",
+          "href": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen-schriftzug.svg",
+          "width": "259",
+          "height": "56"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/002__agbs.html"
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Cookie Erklärung - SBT Treuhand",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "dc.title": "Cookie Erklärung - SBT Treuhand",
+        "dc.description": "Cookie-Erklärung",
+        "dc.relation": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+        "dc.source": "https://www.sbt-treuhand.ch/",
+        "dc.language": "de_CH",
+        "description": "Cookie-Erklärung",
+        "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "og:url": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+        "og:site_name": "SBT Treuhand",
+        "og:locale": "de_CH",
+        "og:type": "article",
+        "og:title": "Cookie Erklärung - SBT Treuhand",
+        "og:description": "Cookie-Erklärung",
+        "og:image": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:secure_url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:width": "512",
+        "og:image:height": "512",
+        "twitter:card": "summary",
+        "twitter:title": "Cookie Erklärung - SBT Treuhand",
+        "twitter:description": "Cookie-Erklärung",
+        "generator": "WP Rocket 3.21.3",
+        "msapplication-tileimage": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-270x270.png"
+      },
+      "canonical": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+      "headings": {
+        "h1": [
+          "Cookie-Erklärung"
+        ]
+      },
+      "text": "Cookie Erklärung - SBT Treuhand\nCookie-Erklärung\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nLinks & Downloads\nDatenschutz\nCookie Erklärung",
+      "text_len": 154,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.sbt-treuhand.ch/index",
+          "internal": true
+        },
+        {
+          "text": "Cookie-Erklärung anzeigen",
+          "href": "https://cmp.compresso.ch/cookies?key=c74ed099-af63-4091-bbcf-d71e2d281901&lang=de",
+          "internal": false
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.sbt-treuhand.ch/links-downloads/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.sbt-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Cookie Erklärung",
+          "href": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen-schriftzug.svg",
+          "width": "259",
+          "height": "56"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/003__cookie-erklaerung.html"
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch/datenschutz/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Datenschutz - SBT Treuhand",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "dc.title": "Datenschutz - SBT Treuhand",
+        "dc.description": "Datenschutz Bitte lesen Sie unsere Datenschutzbestimmungen aufmerksam durch, bevor Sie fortfahren. Personen, welche die Website sbt-treuhand.ch von SBT Treuhand AG abrufen, erklären sich mit den nachstehenden Bedingungen einverstanden. Geltungsbereich Diese Datenschutzerklärung soll die Nutzer dieser Website gemäss dem Bundesgesetz über den Datenschutz (DSG) sowie allenfalls anwendbarem ausländischem Datenschutzrecht wie beispielsweise der Datenschutz-Grundverordnung (DSGVO)…",
+        "dc.relation": "https://www.sbt-treuhand.ch/datenschutz/",
+        "dc.source": "https://www.sbt-treuhand.ch/",
+        "dc.language": "de_CH",
+        "description": "Datenschutz Bitte lesen Sie unsere Datenschutzbestimmungen aufmerksam durch, bevor Sie fortfahren. Personen, welche die Website sbt-treuhand.ch von SBT Treuhand AG abrufen, erklären sich mit den nachstehenden Bedingungen einverstanden. Geltungsbereich Diese Datenschutzerklärung soll die Nutzer dieser Website gemäss dem Bundesgesetz über den Datenschutz (DSG) sowie allenfalls anwendbarem ausländischem Datenschutzrecht wie beispielsweise der Datenschutz-Grundverordnung (DSGVO)…",
+        "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "og:url": "https://www.sbt-treuhand.ch/datenschutz/",
+        "og:site_name": "SBT Treuhand",
+        "og:locale": "de_CH",
+        "og:type": "article",
+        "og:title": "Datenschutz - SBT Treuhand",
+        "og:description": "Datenschutz Bitte lesen Sie unsere Datenschutzbestimmungen aufmerksam durch, bevor Sie fortfahren. Personen, welche die Website sbt-treuhand.ch von SBT Treuhand AG abrufen, erklären sich mit den nachstehenden Bedingungen einverstanden. Geltungsbereich Diese Datenschutzerklärung soll die Nutzer dieser Website gemäss dem Bundesgesetz über den Datenschutz (DSG) sowie allenfalls anwendbarem ausländischem Datenschutzrecht wie beispielsweise der Datenschutz-Grundverordnung (DSGVO)…",
+        "og:image": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:secure_url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:width": "512",
+        "og:image:height": "512",
+        "twitter:card": "summary",
+        "twitter:title": "Datenschutz - SBT Treuhand",
+        "twitter:description": "Datenschutz Bitte lesen Sie unsere Datenschutzbestimmungen aufmerksam durch, bevor Sie fortfahren. Personen, welche die Website sbt-treuhand.ch von SBT Treuhand AG abrufen, erklären sich mit den nachstehenden Bedingungen einverstanden. Geltungsbereich Diese Datenschutzerklärung soll die Nutzer dieser Website gemäss dem Bundesgesetz über den Datenschutz (DSG) sowie allenfalls anwendbarem ausländischem Datenschutzrecht wie beispielsweise der Datenschutz-Grundverordnung (DSGVO)…",
+        "generator": "WP Rocket 3.21.3",
+        "msapplication-tileimage": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-270x270.png"
+      },
+      "canonical": "https://www.sbt-treuhand.ch/datenschutz/",
+      "headings": {
+        "h1": [
+          "Datenschutz"
+        ],
+        "h2": [
+          "Geltungsbereich",
+          "Sicherheit",
+          "Welche Daten von Ihnen werden beim Aufrufen der Website erhoben («Zugriffsdaten»)",
+          "Zweck der Erhebung von Zugriffsdaten",
+          "Zugriff auf Ihre Daten durch unsere Agentur",
+          "Cookies",
+          "Analyse Tool",
+          "Google Maps",
+          "Google Fonts",
+          "Rechte des Nutzers: Auskunft, Berichtigung und Löschung"
+        ]
+      },
+      "text": "Datenschutz - SBT Treuhand\nDatenschutz\nBitte lesen Sie unsere Datenschutzbestimmungen aufmerksam durch, bevor Sie fortfahren. Personen, welche die Website\nsbt-treuhand.ch\nvon SBT Treuhand AG abrufen, erklären sich mit den nachstehenden Bedingungen einverstanden.\nGeltungsbereich\nDiese Datenschutzerklärung soll die Nutzer dieser Website gemäss dem Bundesgesetz über den Datenschutz (DSG) sowie allenfalls anwendbarem ausländischem Datenschutzrecht wie beispielsweise der Datenschutz-Grundverordnung (DSGVO) der Europäischen Union (EU) über die Art, den Umfang und den Zweck der Erhebung und Verwendung personenbezogener Daten durch den Websitebetreiber\nSteuer-Bilanz-Treuhand AG\nRosario De Carlo\nr.decarlo@sbt-treuhand.ch\nLavaterstrasse 65\nCH-8002 Zürich\ninformieren.\nDie EU anerkennt, dass das schweizerische Datenschutzrecht einen angemessenen Datenschutz gewährleistet.\nWir als Websitebetreiber nehmen Datenschutz sehr ernst und behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Vorschriften. Wir können unsere Datenschutzerklärung jederzeit durch Veröffentlichung auf dieser Website anpassen.\nAls personenbezogene Daten gelten sämtliche Informationen, welche dazu dienen, Ihre Person zu bestimmen und welche zu Ihnen zurückverfolgt werden können – also beispielsweise Ihr Name, Ihre E-Mail-Adresse und Telefonnummer. Der Websitebetreiber erhebt, nutzt und gibt Ihre personenbezogenen Daten nur dann weiter, wenn dies im gesetzlichen Rahmen erlaubt ist oder Sie in die Datenerhebung einwilligen.\nSicherheit\nDer Zugriff auf unsere Website erfolgt mittels Transportverschlüsselung (SSL). Ein SSL-Zertifikat ist Code auf dem Webserver, dass die Online-Kommunikation absichert. Stellt ein Webbrowser eine Verbindung zu einer gesicherten Website her, ermöglicht das SSL-Zertifikat eine gesicherte Verbindung.\nBedenken Sie, dass die Datenübertragung im Internet grundsätzlich mit Sicherheitslücken bedacht sein kann. Ein vollumfänglicher Schutz vor dem Zugriff durch Fremde ist nicht realisierbar.\nWelche Daten von Ihnen werden beim Aufrufen der Website erhoben («Zugriffsdaten»)\nDer Websitebetreiber bzw. Seitenprovider erhebt Daten über Zugriffe auf sbt-treuhand.ch und speichert diese als „Server-Logfiles“ ab. Folgende Zugriffsdaten werden so protokolliert:\nBesuchte Website\nUhrzeit zum Zeitpunkt des Zugriffes\nMenge der gesendeten Daten in Byte\nQuelle/Verweis, von welchem Sie auf die Seite gelangten\nVerwendeter Browser\nVerwendetes Betriebssystem\nVerwendete IP-Adresse\nZweck der Erhebung von Zugriffsdaten\nDie Erhebung und Verarbeitung dieser Daten erfolgt, um die Nutzung der Website zu ermöglichen (Verbindungsaufbau), die Systemsicherheit und -stabilität zu gewährleisten, für die Optimierung des Internetangebots sowie zu internen statistischen Zwecken. Die IP-Adresse wird insbesondere dazu verwendet, um Ihr Aufenthaltsland zu erfassen und darauf abgestimmte Voreinstellungen (z.B. Sprache) vorzunehmen. Die IP-Adresse wird zudem erhoben, um auf Angriffe auf unsere Netzinfrastruktur angemessen reagieren zu können. Der Websitebetreiber behält sich in diesem Fall vor, die Server-Logfiles nachträglich zu überprüfen, sollten konkrete Anhaltspunkte auf eine rechtswidrige Nutzung hinweisen.\nZugriff auf Ihre Daten durch unsere Agentur\nFür die Maintenance und Entwicklung der Website, der Analyse der Website, den Versand des Newsletter, der Betreuung unserer Social Media Accounts, der Analyse unserer Social Media Accounts, der Abwicklung von Gewinnspielen und der Beantwortung von Anfragen haben wir einen Datenverarbeitungsvertrag mit der\nCompresso AG\nSeestrasse 49\n8702 Zollikon\nTel. +41 43 488 86 00\nFax +41 43 488 86 01\ninfo@compresso.ch\nabgeschlossen.\nDie Verarbeitung Ihrer Daten erfolgt im Rahmen der von Ihnen eingewilligten Nutzung. Ihre Daten werden keinesfalls an Dritte weitergegeben.\nCookies\nDiese Website verwendet Cookies. Dabei handelt es sich um kleine Textdateien, welche auf Ihrem Endgerät gespeichert werden. Ihr Browser greift auf diese Dateien zu. Durch den Einsatz von Cookies erhöht sich die Benutzerfreundlichkeit und Sicherheit dieser Website.\nGängige Browser bieten die Einstellungsoption, Cookies nicht zuzulassen. Hinweis: Es ist nicht gewährleistet, dass Sie auf alle Funktionen dieser Website ohne Einschränkungen zugreifen können, wenn Sie entsprechende Einstellungen vornehmen.\nZur Kontrolle und Einwilligung aller Cookies auf der Website verwenden wir den Dienst «Cookiebot». Über diesen Link kann jederzeit auf die aktuellste Übersicht aller Cookies zugegriffen werden:\nhttps://www.sbt-treuhand.ch/cookie-erklaerung/\n. Hier kann auch individuell eingestellt werden, welche Cookies zugelassen werden dürfen.\nAnalyse Tool\nDiese Website nutzt den Dienst «Google Analytics 4», welcher von Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) angeboten wird, zur Analyse der Websitebenutzung durch Nutzer. Der Dienst verwendet Cookies – Textdateien, welche auf Ihrem Endgerät gespeichert werden. Die durch die Cookies gesammelten Informationen werden im Regelfall an einen Google-Server in den USA gesandt und dort gespeichert.\nAuf dieser Website greift die IP-Anonymisierung. Die IP-Adresse der Nutzer wird innerhalb der Mitgliedsstaaten der EU und des Europäischen Wirtschaftsraum gekürzt. Durch diese Kürzung entfällt der Personenbezug Ihrer IP-Adresse. Im Rahmen der Vereinbarung zur Auftragsdatenvereinbarung, welche wir mit Google Inc. geschlossen haben, erstellt diese mithilfe der gesammelten Informationen eine Auswertung der Websitenutzung und der Websiteaktivität und erbringt mit der Internetnutzung verbundene Dienstleistungen.\nSie haben die Möglichkeit, die Speicherung des Cookies auf Ihrem Gerät zu verhindern, indem Sie in Ihrem Browser entsprechende Einstellungen vornehmen. Es ist nicht gewährleistet, dass Sie auf alle Funktionen dieser Website ohne Einschränkungen zugreifen können, wenn Ihr Browser keine Cookies zulässt.\nWeiterhin können Sie durch ein Browser-Plugin verhindern, dass die durch Cookies gesammelten Informationen (inklusive Ihrer IP-Adresse) an Google Inc. gesendet und von Google Inc. genutzt werden. Folgender Link führt Sie zu dem entsprechenden Plugin:\nhttps://tools.google.com/dlpage/gaoptout?hl=de\nAlternativ verhindern Sie mit einem Klick auf diesen Link\nOpt-Out_Link_Google\n, dass Google Analytics innerhalb dieser Website Daten über Sie erfasst. Mit dem Klick auf obigen Link laden Sie ein „Opt-Out-Cookie“ herunter. Ihr Browser muss die Speicherung von Cookies also hierzu grundsätzlich erlauben. Löschen Sie Ihre Cookies regelmässig, ist ein erneuter Klick auf den Link bei jedem Besuch dieser Website vonnöten.\nHier finden Sie weitere Informationen zur Datennutzung durch Google Inc.:\nhttps://support.google.com/analytics/answer/6004245?hl=de\nGoogle Maps\nWir verwenden Google Maps für das Einbetten von Karten. Dieser Dienst der amerikanischen Google LLC verwendet unter anderem Cookies und es werden Daten an Google in den USA übertragen, wobei wir davon ausgehen, dass in diesem Rahmen kein personenbezogenes Tracking allein durch die Nutzung unserer Website stattfindet. Google hat sich verpflichtet, einen angemessenen Datenschutz gemäss dem amerikanisch-europäischen und dem amerikanisch-schweizerischen Privacy Shield zu gewährleisten. Weitere Informationen finden sich in der Datenschutzerklärung von Google.\nGoogle Fonts\nDiese Webseite verwendet als Schriftart Google Font. Dieser Dienst wird ebenfalls durch Google LLC angeboten. Weitere Informationen finden sich in der Datenschutzerklärung von Google.\nRechte des Nutzers: Auskunft, Berichtigung und Löschung\nNach Beendigung des jeweiligen vereinbarten und eingewilligten Nutzungsverhältnisses werden Ihre personenbezogenen Daten gelöscht.\nSie als Nutzer erhalten auf Antrag Ihrerseits kostenlose Auskunft darüber, welche personenbezogenen Daten über Sie gespeichert wurden. Sofern Ihr Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten (z. B. Buchhaltung) kollidiert, haben Sie ein Anrecht auf Berichtigung falscher Daten und auf die Sperrung oder Löschung Ihrer personenbezogenen Daten. Bei Auskunft, Löschung oder Änderung der Daten richten Sie Ihre Anfrage an folgende Adresse:\nSteuer-Bilanz-Treuhand AG\nRosario De Carlo\nr.decarlo@sbt-treuhand.ch\nLavaterstrasse 65\nCH-8002 Zürich\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nLinks & Downloads\nDatenschutz\nCookie Erklärung",
+      "text_len": 8410,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.sbt-treuhand.ch/index",
+          "internal": true
+        },
+        {
+          "text": "sbt-treuhand.ch",
+          "href": "http://sbt-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "r.decarlo@sbt-treuhand.ch",
+          "href": "mailto:r.decarlo@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Compresso AG",
+          "href": "http://www.compresso.ch",
+          "internal": false
+        },
+        {
+          "text": "info@compresso.ch",
+          "href": "mailto:info@compresso.ch",
+          "internal": false
+        },
+        {
+          "text": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+          "href": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+          "internal": true
+        },
+        {
+          "text": "https://tools.google.com/dlpage/gaoptout?hl=de",
+          "href": "https://tools.google.com/dlpage/gaoptout?hl=de",
+          "internal": false
+        },
+        {
+          "text": "https://support.google.com/analytics/answer/6004245?hl=de",
+          "href": "https://support.google.com/analytics/answer/6004245?hl=de",
+          "internal": false
+        },
+        {
+          "text": "r.decarlo@sbt-treuhand.ch",
+          "href": "mailto:r.decarlo@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.sbt-treuhand.ch/links-downloads/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.sbt-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Cookie Erklärung",
+          "href": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen-schriftzug.svg",
+          "width": "259",
+          "height": "56"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@compresso.ch",
+        "r.decarlo@sbt-treuhand.ch"
+      ],
+      "phones": [
+        "+41 43 488 86 00",
+        "+41 43 488 86 01"
+      ],
+      "raw_html": "raw_html/004__datenschutz.html"
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch/impressum/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Impressum - SBT Treuhand",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "dc.title": "Impressum - SBT Treuhand",
+        "dc.description": "Verantwortlich für den Inhalt dieser Website: Steuer-Bilanz-Treuhand AGLavaterstrasse 65CH-8002 ZürichTel. +41 44 438 60 10 Fax +41 44 438 60 19 info@sbt-treuhand.chGeschäftsführer: Rosario De Carlo Konzept, Design & Programmierung von: Compresso AGSeestrasse 49CH-8702 ZollikonTelefon +41 43 488 86 00www.compresso.ch",
+        "dc.relation": "https://www.sbt-treuhand.ch/impressum/",
+        "dc.source": "https://www.sbt-treuhand.ch/",
+        "dc.language": "de_CH",
+        "description": "Verantwortlich für den Inhalt dieser Website: Steuer-Bilanz-Treuhand AGLavaterstrasse 65CH-8002 ZürichTel. +41 44 438 60 10 Fax +41 44 438 60 19 info@sbt-treuhand.chGeschäftsführer: Rosario De Carlo Konzept, Design & Programmierung von: Compresso AGSeestrasse 49CH-8702 ZollikonTelefon +41 43 488 86 00www.compresso.ch",
+        "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "og:url": "https://www.sbt-treuhand.ch/impressum/",
+        "og:site_name": "SBT Treuhand",
+        "og:locale": "de_CH",
+        "og:type": "article",
+        "og:title": "Impressum - SBT Treuhand",
+        "og:description": "Verantwortlich für den Inhalt dieser Website: Steuer-Bilanz-Treuhand AGLavaterstrasse 65CH-8002 ZürichTel. +41 44 438 60 10 Fax +41 44 438 60 19 info@sbt-treuhand.chGeschäftsführer: Rosario De Carlo Konzept, Design & Programmierung von: Compresso AGSeestrasse 49CH-8702 ZollikonTelefon +41 43 488 86 00www.compresso.ch",
+        "og:image": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:secure_url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:width": "512",
+        "og:image:height": "512",
+        "twitter:card": "summary",
+        "twitter:title": "Impressum - SBT Treuhand",
+        "twitter:description": "Verantwortlich für den Inhalt dieser Website: Steuer-Bilanz-Treuhand AGLavaterstrasse 65CH-8002 ZürichTel. +41 44 438 60 10 Fax +41 44 438 60 19 info@sbt-treuhand.chGeschäftsführer: Rosario De Carlo Konzept, Design & Programmierung von: Compresso AGSeestrasse 49CH-8702 ZollikonTelefon +41 43 488 86 00www.compresso.ch",
+        "generator": "WP Rocket 3.21.3",
+        "msapplication-tileimage": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-270x270.png"
+      },
+      "canonical": "https://www.sbt-treuhand.ch/impressum/",
+      "headings": {
+        "h1": [
+          "Impressum"
+        ]
+      },
+      "text": "Impressum - SBT Treuhand\nImpressum\nVerantwortlich für den Inhalt dieser Website:\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nTel. +41 44 438 60 10\nFax +41 44 438 60 19\ninfo@sbt-treuhand.ch\nGeschäftsführer: Rosario De Carlo\nKonzept, Design & Programmierung von:\nCompresso AG\nSeestrasse 49\nCH-8702 Zollikon\nTelefon +41 43 488 86 00\nwww.compresso.ch\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nLinks & Downloads\nDatenschutz\nCookie Erklärung",
+      "text_len": 467,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.sbt-treuhand.ch/index",
+          "internal": true
+        },
+        {
+          "text": "info@sbt-treuhand.ch",
+          "href": "mailto:info@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "www.compresso.ch",
+          "href": "http://www.compresso.ch/",
+          "internal": false
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.sbt-treuhand.ch/links-downloads/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.sbt-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Cookie Erklärung",
+          "href": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen-schriftzug.svg",
+          "width": "259",
+          "height": "56"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@sbt-treuhand.ch"
+      ],
+      "phones": [
+        "+41 43 488 86 00",
+        "+41 44 438 60 10",
+        "+41 44 438 60 19"
+      ],
+      "raw_html": "raw_html/005__impressum.html"
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch/links-downloads/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Links & Downloads - SBT Treuhand",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "dc.title": "Links & Downloads - SBT Treuhand",
+        "dc.description": "Links Steuern Eidgenössische Steuerverwaltung Handelsregister Eine Firma gründen UID-Register SHAB Schweizerisches Handelsamtsblatt Verbände, Organisationen und Behörden SBKV Schweizerischer Bäcker-Konditorenmeister-Verband SGV Schweizerischer Gewerbeverband Schweizerische Eidgenossenschaft SECO Staatssekretariat für Wirtschaft Treuhand Suisse Expert Suisse HEV Hauseigentümerverband (ZH) Landesindex der Konsumentenpreise Landesindex der Konsumtenpreise Downloads AHV Lohnsummenanpassung AHV Verzichtserklärung für Löhne unter CHF…",
+        "dc.relation": "https://www.sbt-treuhand.ch/links-downloads/",
+        "dc.source": "https://www.sbt-treuhand.ch/",
+        "dc.language": "de_CH",
+        "description": "Links Steuern Eidgenössische Steuerverwaltung Handelsregister Eine Firma gründen UID-Register SHAB Schweizerisches Handelsamtsblatt Verbände, Organisationen und Behörden SBKV Schweizerischer Bäcker-Konditorenmeister-Verband SGV Schweizerischer Gewerbeverband Schweizerische Eidgenossenschaft SECO Staatssekretariat für Wirtschaft Treuhand Suisse Expert Suisse HEV Hauseigentümerverband (ZH) Landesindex der Konsumentenpreise Landesindex der Konsumtenpreise Downloads AHV Lohnsummenanpassung AHV Verzichtserklärung für Löhne unter CHF…",
+        "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "og:url": "https://www.sbt-treuhand.ch/links-downloads/",
+        "og:site_name": "SBT Treuhand",
+        "og:locale": "de_CH",
+        "og:type": "article",
+        "og:title": "Links & Downloads - SBT Treuhand",
+        "og:description": "Links Steuern Eidgenössische Steuerverwaltung Handelsregister Eine Firma gründen UID-Register SHAB Schweizerisches Handelsamtsblatt Verbände, Organisationen und Behörden SBKV Schweizerischer Bäcker-Konditorenmeister-Verband SGV Schweizerischer Gewerbeverband Schweizerische Eidgenossenschaft SECO Staatssekretariat für Wirtschaft Treuhand Suisse Expert Suisse HEV Hauseigentümerverband (ZH) Landesindex der Konsumentenpreise Landesindex der Konsumtenpreise Downloads AHV Lohnsummenanpassung AHV Verzichtserklärung für Löhne unter CHF…",
+        "og:image": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:secure_url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:width": "512",
+        "og:image:height": "512",
+        "twitter:card": "summary",
+        "twitter:title": "Links & Downloads - SBT Treuhand",
+        "twitter:description": "Links Steuern Eidgenössische Steuerverwaltung Handelsregister Eine Firma gründen UID-Register SHAB Schweizerisches Handelsamtsblatt Verbände, Organisationen und Behörden SBKV Schweizerischer Bäcker-Konditorenmeister-Verband SGV Schweizerischer Gewerbeverband Schweizerische Eidgenossenschaft SECO Staatssekretariat für Wirtschaft Treuhand Suisse Expert Suisse HEV Hauseigentümerverband (ZH) Landesindex der Konsumentenpreise Landesindex der Konsumtenpreise Downloads AHV Lohnsummenanpassung AHV Verzichtserklärung für Löhne unter CHF…",
+        "generator": "WP Rocket 3.21.3",
+        "msapplication-tileimage": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-270x270.png"
+      },
+      "canonical": "https://www.sbt-treuhand.ch/links-downloads/",
+      "headings": {
+        "h1": [
+          "Links",
+          "Downloads"
+        ]
+      },
+      "text": "Links & Downloads - SBT Treuhand\nLinks\nSteuern\nEidgenössische Steuerverwaltung\nHandelsregister\nEine Firma gründen\nUID-Register\nSHAB Schweizerisches Handelsamtsblatt\nVerbände, Organisationen und Behörden\nSBKV Schweizerischer Bäcker-Konditorenmeister-Verband\nSGV Schweizerischer Gewerbeverband\nSchweizerische Eidgenossenschaft\nSECO Staatssekretariat für Wirtschaft\nTreuhand Suisse\nExpert Suisse\nHEV Hauseigentümerverband (ZH)\nLandesindex der Konsumentenpreise\nLandesindex der Konsumtenpreise\nDownloads\nAHV Lohnsummenanpassung\nAHV Verzichtserklärung für Löhne unter CHF 2’000\nAbschluss Anleitung\nAbschluss Fragebogen\nAbschluss Angaben\nAbschluss Debitorenliste\nAbschluss Warenvorräte allgemein\nAbschluss Warenvorräte B K C\nSteuererklärung Checkliste\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nLinks & Downloads\nDatenschutz\nCookie Erklärung",
+      "text_len": 851,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.sbt-treuhand.ch/index",
+          "internal": true
+        },
+        {
+          "text": "Eidgenössische Steuerverwaltung",
+          "href": "http://www.estv.admin.ch",
+          "internal": false
+        },
+        {
+          "text": "Eine Firma gründen",
+          "href": "https://www.gruenden.ch/",
+          "internal": false
+        },
+        {
+          "text": "UID-Register",
+          "href": "https://www.uid.admin.ch/",
+          "internal": false
+        },
+        {
+          "text": "SHAB Schweizerisches Handelsamtsblatt",
+          "href": "https://www.shab.ch/#!/gazette",
+          "internal": false
+        },
+        {
+          "text": "SBKV Schweizerischer Bäcker-Konditorenmeister-Verband",
+          "href": "https://swissbaker.ch/",
+          "internal": false
+        },
+        {
+          "text": "SGV Schweizerischer Gewerbeverband",
+          "href": "https://www.sgv-usam.ch/",
+          "internal": false
+        },
+        {
+          "text": "Schweizerische Eidgenossenschaft",
+          "href": "https://www.admin.ch/gov/de/start.html",
+          "internal": false
+        },
+        {
+          "text": "SECO Staatssekretariat für Wirtschaft",
+          "href": "https://www.seco.admin.ch/seco/de/home.html",
+          "internal": false
+        },
+        {
+          "text": "Treuhand Suisse",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Expert Suisse",
+          "href": "https://www.expertsuisse.ch/home",
+          "internal": false
+        },
+        {
+          "text": "HEV Hauseigentümerverband (ZH)",
+          "href": "https://www.hev-zh.ch/",
+          "internal": false
+        },
+        {
+          "text": "Landesindex der Konsumtenpreise",
+          "href": "https://www.mietrecht.ch/index.php",
+          "internal": false
+        },
+        {
+          "text": "AHV Lohnsummenanpassung",
+          "href": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_AHV_Lohnsummenanpassung.pdf",
+          "internal": true
+        },
+        {
+          "text": "AHV Verzichtserklärung für Löhne unter CHF 2’000",
+          "href": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_AHV_Verzichtserklaerung_Loehne_unter_2000.pdf",
+          "internal": true
+        },
+        {
+          "text": "Abschluss Anleitung",
+          "href": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_1_Anleitung.pdf",
+          "internal": true
+        },
+        {
+          "text": "Abschluss Fragebogen",
+          "href": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_2_Fragebogen.xls",
+          "internal": true
+        },
+        {
+          "text": "Abschluss Angaben",
+          "href": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_3_Angaben.xls",
+          "internal": true
+        },
+        {
+          "text": "Abschluss Debitorenliste",
+          "href": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_4_Debitorenliste.xls",
+          "internal": true
+        },
+        {
+          "text": "Abschluss Warenvorräte allgemein",
+          "href": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_5_Warenvorraete_allgemein.xls",
+          "internal": true
+        },
+        {
+          "text": "Abschluss Warenvorräte B K C",
+          "href": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Abschluss_5_Warenvorraete_B-K-C.xls",
+          "internal": true
+        },
+        {
+          "text": "Steuererklärung Checkliste",
+          "href": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/DL_Steuererklaerung_Checkliste.pdf",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.sbt-treuhand.ch/links-downloads/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.sbt-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Cookie Erklärung",
+          "href": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen-schriftzug.svg",
+          "width": "259",
+          "height": "56"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/006__links-downloads.html"
+    },
+    {
+      "url": "https://www.sbt-treuhand.ch",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "dc.title": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung",
+        "dc.description": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
+        "dc.relation": "https://www.sbt-treuhand.ch/",
+        "dc.source": "https://www.sbt-treuhand.ch/",
+        "dc.language": "de_CH",
+        "description": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
+        "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+        "og:url": "https://www.sbt-treuhand.ch/",
+        "og:site_name": "SBT Treuhand",
+        "og:locale": "de_CH",
+        "og:type": "website",
+        "og:title": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung",
+        "og:description": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
+        "og:image": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:secure_url": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png",
+        "og:image:width": "512",
+        "og:image:height": "512",
+        "twitter:card": "summary",
+        "twitter:title": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung",
+        "twitter:description": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
+        "generator": "WP Rocket 3.21.3",
+        "msapplication-tileimage": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-270x270.png"
+      },
+      "canonical": "https://www.sbt-treuhand.ch/",
+      "headings": {
+        "h1": [
+          "SBT Treuhand Im Hintergrund für Sie da. Standhaft, zuverlässig, tragend."
+        ],
+        "h2": [
+          "Unsere Dienstleistungen",
+          "Das Team",
+          "Mitgliedschaften",
+          "Über uns",
+          "Unsere Werte und Leitgedanken",
+          "Kontakt"
+        ]
+      },
+      "text": "SBT Treuhand Zürich – Treuhand, Steuern & Beratung\nSBT Treuhand\nIm Hintergrund für Sie da.\nStandhaft,\nzuverlässig,\ntragend.\nUnsere Dienstleistungen\nUnser Team\nUnsere Koordinaten\nÖffnungszeiten\nMo – Do: 8 – 17 Uhr\nFr: 8 – 16 Uhr\nUnsere Dienstleistungen\nFinanz- und Rechnungswesen\nOrganisieren, Einrichten und Führen der Finanzbuchhaltung\nAbschlussberatungen, Auswertungen und Zukunftsplanungen\nLohnbuchhaltung inkl. Zahlungsverkehr, Jahresendauswertungen und -abrechnungen, Lohnausweise\nDebitoren- und Kreditoren-Buchhaltung\nTemporäreinsätze des SBT-Personals direkt beim Kunden\nUnterstützung bei der Evaluation und Einführung der Buchhaltungssoftware\nVertrieb von Abaweb (Erfassung durch Klient)\nSteuern allgemein\nSteuererklärungen für natürliche und juristische Personen in der ganzen Schweiz\nSpezialsteuererklärungen bei Liegenschaften, Erbengemeinschaften, Todesfällen usw.\nVertretungen vor Steuerbehörden, Einsprache- und Rekursverfahren\nMehrwertsteuer im Speziellen\nBegleitung und Betreuung bei Revisionen\nVertiefte Beratung und Abklärungen bei Unsicherheiten\nRisikoanalysen\nUnternehmensberatung und -sanierung\nUnternehmensbewertungen, Gutachten und Expertisen\nBetriebsanalysen, Beratung für Aufbau- und Ablauforganisation\nBeratung und Unterstützung beim Kauf oder Verkauf von Unternehmen oder Teilen davon\nGründungen, Sanierungen, Umstrukturierungen und Liquidationen Nachfolgeregelungen\nBeratung und Unterstützung bei Finanzierungen und Investitionen\nVerwaltungsratsmandate\nBetriebsbuchhaltung, Controlling und Coaching\nEinrichten und Führen der Betriebsbuchhaltung, Kalkulationsberatung, Profit-Center-Rechnungen\nDiverse Auswertungen als Führungsmittel (kurzfristige Erfolgsrechnung, Budgets, Finanzpläne, Bilanz- und Erfolgsanalysen, Liquiditätspläne etc.)\nControlling und Coaching der finanziellen und strategischen Geschäftsführung\nAusarbeiten von Businessplänen\nSteuer-, Vorsorge- und Versicherungsplanung\nVertiefte Steuerplanungen und -optimierungen für Unternehmen und Einzelpersonen\nVorsorgeplanungen: kann ich mich mit 55/60 pensionieren lassen und ähnliche Fragestellungen\nVersicherungsüberprüfungen und -optimierungen\nRechtsberatung\nErstellen und Prüfen von Arbeits-, Miet-, Darlehens-, Kauf- und ähnlichen Verträgen aus dem Handels- und Gesellschaftsrecht\nBeratung und Durchführung im Ehe- und Erbrecht: Testamente, Ehe- und Erbverträge, Willensvollstreckungen, Erbteilungen\n«Every age has the Stonehenge it deserves – or desires.»\nJacquetta Hawkes\nDas Team\nRosario De Carlo\nVR-Präsident\nAlain Bosshard\nVR-Vice-Präsident\nHeidi Ott\nTreuhänderin\nCornelia Schneider\nSachbearbeiterin\nMitgliedschaften\nÜber uns\nDie Geschichte der SBT reicht zurück bis ins Jahr 1938. Dr. Jakob Viel gründete damals innerhalb seiner Anwaltskanzlei eine Treuhandabteilung, welche 1972 als Steuer-Bilanz-Treuhand AG verselbständigt wurde.\nÜber die Jahrzehnte hinweg entwickelte sich die SBT zu einem erfolgreichen Treuhand- und Beratungsunternehmen mit einem breiten Netz an treuen Kunden aus verschiedenen Branchen. Vertieftes Know-how haben wir dabei in den Bereichen Bäckereien-Konditoreien, Cafés, Gastrobetriebe, Dienstleistungen, Handel national und international sowie bei den freiberuflichen Zweigen.\nDank unserer jahrzehntelangen Praxiserfahrung, gepaart mit aktuellen Fachwissen aus ständiger Weiterbildung und ergänzt durch die enge Zusammenarbeit mit Spezialisten, bieten wir Ihnen heute ein umfassendes Dienstleistungsangebot.\nWir freuen uns, eine tragende Säule für den Erfolg Ihres Unternehmens zu bilden. Damit Sie sich auf Ihr Kerngeschäft konzentrieren können.\nUnsere Werte und Leitgedanken\nWir stehen für Tradition und Seriosität vereint mit innovativen Problemlösungen, wobei immer die Bedürfnisse des einzelnen Kunden im Vordergrund stehen. Wir treten dabei als Generalunternehmer für all seine Probleme auf. Diese lösen wir professionell, speditiv und wenn nötig, zusammen mit ausgewiesenen Fachspezialisten, welche die gleichen Werte vertreten. Wir wollen und können mehr als das gesetzliche Minimum anbieten (Buchhaltung und Steuererklärung). Wir sehen nicht nur die Zahlen, sondern interessieren uns auch für die Menschen dahinter.\nKontakt\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nTel. +41 (0)44 438 60 10\nFax +41 (0)44 438 60 19\ninfo@sbt-treuhand.ch\nÖffnungszeiten\nMontag – Donnerstag\n08.00 – 17.00 Uhr\nFreitag\n08.00 – 16.00 Uhr\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nSteuer-Bilanz-Treuhand AG\nLavaterstrasse 65\nCH-8002 Zürich\nLinks & Downloads\nDatenschutz\nCookie Erklärung",
+      "text_len": 4531,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.sbt-treuhand.ch/index",
+          "internal": true
+        },
+        {
+          "text": "Unsere Dienstleistungen",
+          "href": "https://www.sbt-treuhand.ch#services",
+          "internal": true
+        },
+        {
+          "text": "Unser Team",
+          "href": "https://www.sbt-treuhand.ch#team",
+          "internal": true
+        },
+        {
+          "text": "Unsere Koordinaten",
+          "href": "https://www.sbt-treuhand.ch#kontakt",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "mailto:info@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:0444386010",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:r.decarlo@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:+41444386017",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:a.bosshard@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:+41444386014",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:h.ott@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:+41444386013",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:c.schneider@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:+41444386010",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.veb.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://kmu.unisg.ch/de/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.vzh.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.expertsuisse.ch/home",
+          "internal": false
+        },
+        {
+          "text": "info@sbt-treuhand.ch",
+          "href": "mailto:info@sbt-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.sbt-treuhand.ch/links-downloads/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.sbt-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Cookie Erklärung",
+          "href": "https://www.sbt-treuhand.ch/cookie-erklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen-schriftzug.svg",
+          "width": "259",
+          "height": "56"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/treu-suisse-logo.png",
+          "width": "743",
+          "height": "418"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/veb-logo.png",
+          "width": "1030",
+          "height": "580"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/kmu-hsg_logo_de_rgb_1884x686.jpeg",
+          "width": "1864",
+          "height": "1048"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/vzh.png",
+          "width": "496",
+          "height": "101"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/expertsuisse-logo.png",
+          "width": "1021",
+          "height": "354"
+        },
+        {
+          "src": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/stonehenge.svg",
+          "width": "896",
+          "height": "394"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "SBT Treuhand",
+          "alternateName": "SBT Treuhand",
+          "description": "",
+          "url": "https://www.sbt-treuhand.ch"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Steuer-Bilanz-Treuhand AG",
+          "url": "https://www.sbt-treuhand.ch",
+          "alternateName": "SBT Treuhand",
+          "description": "SBT Treuhand",
+          "logo": "https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen.svg",
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+410444386010",
+              "contactOption": "TollFree",
+              "contactType": "sales"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "a.bosshard@sbt-treuhand.ch",
+        "c.schneider@sbt-treuhand.ch",
+        "h.ott@sbt-treuhand.ch",
+        "info@sbt-treuhand.ch",
+        "r.decarlo@sbt-treuhand.ch"
+      ],
+      "phones": [
+        "+41 (0)44 438 60 10",
+        "+41 (0)44 438 60 19"
+      ],
+      "raw_html": "raw_html/007__index.html"
+    }
+  ]
+}

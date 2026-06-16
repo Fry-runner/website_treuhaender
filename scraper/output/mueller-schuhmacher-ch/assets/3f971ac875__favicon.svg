@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="141.732" height="141.732"><svg id="SvgjsSvg1002" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.732 141.732">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #1c65a6;
+      }
+    </style>
+  </defs>
+  <g class="cls-1">
+    <path class="cls-2" d="M127.746,141.723c-.354-31.119-25.678-56.241-56.88-56.241s-56.526,25.122-56.88,56.241h25.084c.354-17.271,14.439-31.174,31.796-31.174s31.442,13.903,31.796,31.174h25.084Z"></path>
+  </g>
+  <g>
+    <rect class="cls-2" x="37.654" y="-2.301" width="27.49" height="82.47" transform="translate(-12.476 47.748) rotate(-45)"></rect>
+    <rect class="cls-2" x="49.098" y="25.131" width="82.47" height="27.49" transform="translate(-1.031 75.262) rotate(-45)"></rect>
+  </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>

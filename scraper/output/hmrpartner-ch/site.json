@@ -1,0 +1,472 @@
+{
+  "name": "HMR Partner Treuhand AG",
+  "domain": "hmrpartner.ch",
+  "start_url": "https://hmrpartner.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781615398.8225882,
+    "duration_sec": 11.8,
+    "pages_crawled": 1,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": "# If the Joomla site is installed within a folder such as at\n# e.g. www.example.com/joomla/ the robots.txt file MUST be\n# moved to the site root at e.g. www.example.com/robots.txt\n# AND the joomla folder name MUST be prefixed to the disallowed\n# path, e.g. the Disallow rule for the /administrator/ folder\n# MUST be changed to read Disallow: /joomla/administrator/\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/orig.html\n#\n# For syntax checking, see:\n# http://tool.motoricerca.info/robots-checker.phtml\n\nUser-agent: *\nDisallow: /administrator/\nDisallow: /bin/\nDisallow: /cache/\nDisallow: /cli/\nDisallow: /components/\nDisallow: /includes/\nDisallow: /installation/\nDisallow: /language/\nDisallow: /layouts/\nDisallow: /libraries/\nDisallow: /logs/\nDisallow: /modules/\nDisallow: /tmp/\nDisallow: /version1/\n\nAllow: /plugins/\nAllow: /templates/t3_bs3_blank/fonts/\n"
+  },
+  "contact": {
+    "emails": [
+      "karin.baumgartner@hmrpartner.ch"
+    ],
+    "phones": [
+      "055 222 77 00",
+      "055 222 77 70"
+    ]
+  },
+  "assets": {
+    "downloaded": 26,
+    "failed": 0,
+    "total_bytes": 4443585,
+    "manifest": [
+      {
+        "url": "https://hmrpartner.ch/favicon.ico",
+        "ok": true,
+        "file": "assets/4971e489cf__favicon.ico",
+        "content_type": "text/html",
+        "bytes": 20952
+      },
+      {
+        "url": "https://hmrpartner.ch/images/HMRlogo.png",
+        "ok": true,
+        "file": "assets/7f65eb8541__HMRlogo.png",
+        "content_type": "image/png",
+        "bytes": 51915
+      },
+      {
+        "url": "https://hmrpartner.ch/images/PDF/-UpDate_2-2024_neutral.pdf",
+        "ok": true,
+        "file": "assets/9c6fc7f2e2__-UpDate_2-2024_neutral.pdf",
+        "content_type": "application/pdf",
+        "bytes": 634272
+      },
+      {
+        "url": "https://hmrpartner.ch/images/PDF/-UpDate_3-2025_neutral.pdf",
+        "ok": true,
+        "file": "assets/e081534442__-UpDate_3-2025_neutral.pdf",
+        "content_type": "application/pdf",
+        "bytes": 291804
+      },
+      {
+        "url": "https://hmrpartner.ch/images/PDF/UpDate%203-2024_neutral.pdf",
+        "ok": true,
+        "file": "assets/1ec33b688b__UpDate_203-2024_neutral.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1089685
+      },
+      {
+        "url": "https://hmrpartner.ch/images/PDF/UpDate_01-2024.pdf",
+        "ok": true,
+        "file": "assets/063b50b64e__UpDate_01-2024.pdf",
+        "content_type": "application/pdf",
+        "bytes": 580699
+      },
+      {
+        "url": "https://hmrpartner.ch/images/PDF/UpDate_3-25_Sozialversicherungen.pdf",
+        "ok": true,
+        "file": "assets/00a5d29fdc__UpDate_3-25_Sozialversicherungen.pdf",
+        "content_type": "application/pdf",
+        "bytes": 51425
+      },
+      {
+        "url": "https://hmrpartner.ch/images/PDF/UpDate_3_23_Sozialversicherungen.pdf",
+        "ok": true,
+        "file": "assets/e504465ef5__UpDate_3_23_Sozialversicherungen.pdf",
+        "content_type": "application/pdf",
+        "bytes": 46303
+      },
+      {
+        "url": "https://hmrpartner.ch/images/PDF/UpDate_3_24_Sozialversicherungen.pdf",
+        "ok": true,
+        "file": "assets/df4e28cce8__UpDate_3_24_Sozialversicherungen.pdf",
+        "content_type": "application/pdf",
+        "bytes": 47069
+      },
+      {
+        "url": "https://hmrpartner.ch/images/PDF/_UpDate_01-2025_neutral.pdf",
+        "ok": true,
+        "file": "assets/f6ac5d7232__UpDate_01-2025_neutral.pdf",
+        "content_type": "application/pdf",
+        "bytes": 444229
+      },
+      {
+        "url": "https://hmrpartner.ch/images/PDF/_UpDate_01-2026_neutral.pdf",
+        "ok": true,
+        "file": "assets/a2e127bf67__UpDate_01-2026_neutral.pdf",
+        "content_type": "application/pdf",
+        "bytes": 430038
+      },
+      {
+        "url": "https://hmrpartner.ch/images/PDF/_UpDate_2-2025_neutral.pdf",
+        "ok": true,
+        "file": "assets/c83c60412b__UpDate_2-2025_neutral.pdf",
+        "content_type": "application/pdf",
+        "bytes": 227914
+      },
+      {
+        "url": "https://hmrpartner.ch/images/datenschutzerklaerung-hmr-partner-treuhand-ag.pdf",
+        "ok": true,
+        "file": "assets/f24e04d03d__datenschutzerklaerung-hmr-partner-treuhand-ag.pdf",
+        "content_type": "application/pdf",
+        "bytes": 252835
+      },
+      {
+        "url": "https://hmrpartner.ch/images/portraits/HMR-Sandro_Zatti_4.jpg",
+        "ok": true,
+        "file": "assets/ea458b4842__HMR-Sandro_Zatti_4.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 27826
+      },
+      {
+        "url": "https://hmrpartner.ch/images/portraits/HMR_Andrina_Loelle_4.jpg",
+        "ok": true,
+        "file": "assets/8c15c50c3c__HMR_Andrina_Loelle_4.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 22523
+      },
+      {
+        "url": "https://hmrpartner.ch/images/portraits/Lara_Walker_REDUCED_WEB.jpg",
+        "ok": true,
+        "file": "assets/162967c09f__Lara_Walker_REDUCED_WEB.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 14151
+      },
+      {
+        "url": "https://hmrpartner.ch/images/portraits/Patrizia_Fleischmann_2.jpg",
+        "ok": true,
+        "file": "assets/bb1667252a__Patrizia_Fleischmann_2.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 35617
+      },
+      {
+        "url": "https://hmrpartner.ch/images/portraits/karin-baumgartner.jpg",
+        "ok": true,
+        "file": "assets/286f7ce1ae__karin-baumgartner.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 34961
+      },
+      {
+        "url": "https://hmrpartner.ch/images/standort/haus.jpg",
+        "ok": true,
+        "file": "assets/ad97df67e7__haus.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 92997
+      },
+      {
+        "url": "https://hmrpartner.ch/images/standort/karte.gif",
+        "ok": true,
+        "file": "assets/4a599bbcb9__karte.gif",
+        "content_type": "image/gif",
+        "bytes": 23161
+      },
+      {
+        "url": "https://hmrpartner.ch/templates/t3_bs3_blank/apple-touch-icon-114x114-precomposed.png",
+        "ok": true,
+        "file": "assets/81b153b3f4__apple-touch-icon-114x114-precomposed.png",
+        "content_type": "image/png",
+        "bytes": 3686
+      },
+      {
+        "url": "https://hmrpartner.ch/templates/t3_bs3_blank/apple-touch-icon-144x144-precomposed.png",
+        "ok": true,
+        "file": "assets/658b2d4920__apple-touch-icon-144x144-precomposed.png",
+        "content_type": "image/png",
+        "bytes": 5740
+      },
+      {
+        "url": "https://hmrpartner.ch/templates/t3_bs3_blank/apple-touch-icon-57x57-precomposed.png",
+        "ok": true,
+        "file": "assets/54911f31a2__apple-touch-icon-57x57-precomposed.png",
+        "content_type": "image/png",
+        "bytes": 5381
+      },
+      {
+        "url": "https://hmrpartner.ch/templates/t3_bs3_blank/apple-touch-icon-72x72-precomposed.png",
+        "ok": true,
+        "file": "assets/9cd20ce1f2__apple-touch-icon-72x72-precomposed.png",
+        "content_type": "image/png",
+        "bytes": 2703
+      },
+      {
+        "url": "https://hmrpartner.ch/templates/t3_bs3_blank/apple-touch-icon-precomposed.png",
+        "ok": true,
+        "file": "assets/23b349dd38__apple-touch-icon-precomposed.png",
+        "content_type": "image/png",
+        "bytes": 5381
+      },
+      {
+        "url": "https://hmrpartner.ch/templates/t3_bs3_blank/favicon.ico",
+        "ok": true,
+        "file": "assets/01500612f3__favicon.ico",
+        "content_type": "image/vnd.microsoft.icon",
+        "bytes": 318
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://hmrpartner.ch/",
+      "title": "HMR Partner Treuhand AG",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 6844
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://hmrpartner.ch/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "HMR Partner Treuhand AG",
+      "lang": "de-de",
+      "meta": {
+        "description": "HMR PARTNER TREUHAND AG - Neue Jonastrasse 79 - 8640 Rapperswil - Finanz-Controlling, Steuern und Recht, Nachfolge-Regelung, Wirtschaftsprüfung, Treuhand Rapper",
+        "generator": "Joomla! - Open Source Content Management - Version 4.4.12",
+        "geo.region": "CH-SG",
+        "geo.placename": "Rapperswil",
+        "geo.position": "47.228157;8.827044",
+        "icbm": "47.228157,8.827044",
+        "viewport": "width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes",
+        "handheldfriendly": "true",
+        "apple-mobile-web-app-capable": "YES"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Aktuell"
+        ],
+        "h2": [
+          "Portrait",
+          "Angebot",
+          "Mitglied",
+          "",
+          "Standort",
+          "Kontakt",
+          "Impressum"
+        ],
+        "h3": [
+          "Karin Baumgartner",
+          "Sandro Zatti",
+          "Andrina Löhle",
+          "Patrizia Fleischmann",
+          "Lara Walker",
+          "Treuhand",
+          "Finanzcontrolling",
+          "Steuern und Recht",
+          "Nachfolgeregelung",
+          "Wirtschaftsprüfung / Revision",
+          "Finanz-Coaching"
+        ]
+      },
+      "text": "HMR Partner Treuhand AG\nHome\nAktuell\nPortrait\nAngebot\nStandort\nKontakt\nAktuell\nTreuhänder-Zeitung Ausgabe 1|26\nBeilage: Sozialversicherungen 2026\nTreuhänder-Zeitung Ausgabe 3|25\nTreuhänder-Zeitung Ausgabe 2|25\nTreuhänder-Zeitung Ausgabe 1|25\nBeilage: Sozialversicherungen 2025\nTreuhänder-Zeitung Ausgabe 3|24\nTreuhänder-Zeitung Ausgabe 2|24\nTreuhänder-Zeitung Ausgabe 1|24\nBeilage: Sozialversicherungen 2024\nPortrait\nBetätigungsfeld\nWir sind ein regional verankertes, unabhängiges Treuhandunternehmen. Unser Bestreben ist es, Firmen und Privatpersonen treuhänderisch zu unterstützen, wo es nötig ist und gewünscht wird. Sei es im Bereich Buchhaltung, Steuern, Unternehmensberatung, Nachfolgeregelung, einfache Vorsorgeberatung etc.\nAls Mitglied von TREUHAND | SUISSE und EXPERTsuisse haben wir uns bewusst zur Einhaltung der Berufs- und Standesregeln verpflichtet, welche ein Qualitätssiegel bedeuten.\nKunde\nUnsere Kunden sind in vielen verschiedenen Branchen tätig, hauptsächlich regional ansässig und meistens klein bis mittelgross.\nZusätzlich betreuen wir eine Betriebsgesellschaft eines internationalen Konzerns in der Buchhaltung und erstellen Monats- und Jahresabschlüsse.\nMit unserem Fachwissen unterstützen wir auch ein kleines Treuhandunternehmen im Grossraum Zürich.\nPreis / Leistung\nWir bieten eine hohe Qualität und Professionalität, mit Nachwuchsförderung – zu fairen Preisen.\nMitarbeiter\nUnsere Mitarbeiter sind sehr motiviert, Ihnen einen guten, freundlichen und kompetenten Service zu leisten. Wir als Team sind hilfsbereit und unterstützen Sie gerne bei Ihren Anliegen.\nAus- und Weiterbildung\nWir fördern die Weiterbildung der Mitarbeiter spezifisch im Rahmen der Möglichkeiten. Die Mitarbeiter fühlen sich somit integriert, bleiben motiviert und können immer mehr Verantwortlichkeiten übernehmen.\nSoziales Engagement\nSoziales Engagement ist uns sehr wichtig. Seit unserem Bestehen im Jahre 2000 bilden wir kaufmännische Lehrlinge aus und fördern somit unseren Nachwuchs.\nKarin Baumgartner\nInhaberin und Geschäftsführerin\nDipl. Treuhandexpertin\nFachfrau im Finanz- und Rechnungswesen mit eidg. Fachausweis\nSandro Zatti\nFachmann im Finanz- und Rechnungswesen mit eidg. Fachausweis\nAndrina Löhle\nSachbearbeiterin Treuhand / Rechnungswesen\nPatrizia Fleischmann\nSachbearbeiterin Treuhand / Rechnungswesen\nLara Walker\nLernende M-Profil\nAngebot\nTreuhand\nFinanz­buchhaltung, Abschluss­beratung, Lohn­administration, Buchführung, Finanz- und Rechnungs­wesen, Budgetierung, Finanz­ierungs­konzepte, temporäre Stellvertretung in den Bereichen Administration\nFinanzcontrolling\nExternes Controlling, Zwischen­abschlüsse, rollende Planung, Budget­ierungen\nSteuern und Recht\nSteuererklärungen, Steuerplanungen und –beratung, Beratung auf allen Gebieten des nationalen Steuerrechts, Vertretung vor Steuerbehörden, Beratung im Mehr­wert­steuerrecht, Beratung in handels- und gesellschafts­rechtlichen Fragen\nNachfolgeregelung\nUnternehmens­nachfolge­planung, Unternehmens­bewert­ungen, Vermögens­planung, Finanz­ierungs­planung, Steuer­planung, Vorsorge­planung\nWirtschaftsprüfung / Revision\nZulassung als Revisionsexpertin bei der Revisionsaufsichtsbehörde, RAB (Registernummer 502524; 105181)\nFinanz-Coaching\nFinanzierungscoaching, Businesspläne, Umstrukturierungen\nMitglied\nMitglied des TREUHAND | SUISSE\nSchweizerischer Treuhänderverband\nwww.treuhandsuisse.ch\nMitglied des EXPERTsuisse\nSchweizer Expertenverband für Wirtschaftsprüfung, Steuern und Treuhand\nwww.expertsuisse.ch\nStandort\nKontakt\nHMR Partner Treuhand AG\nNeue Jonastrasse 79\n8640 Rapperswil\nTelefon: 055 222 77 00\nFax: 055 222 77 70\nMail:\nkarin.baumgartner@hmrpartner.ch\nHMR Partner Treuhand AG\nNeue Jonastrasse 79    8640 Rapperswil    Telefon 055 222 77 00\nHMR Partner Treuhand AG\nNeue Jonastrasse 79\n8640 Rapperswil\nTelefon\n055 222 77 00\nImpressum\nDatenschutz\nImpressum\nDatenschutz\nImpressum\nDie Firma HMR Partner Treuhand AG (nachfolgend ‘Website-Inhaber’) bestätigt hiermit folgende Punkte:\nDer Inhalt der Website des Website-Inhabers wird sorgfältig ausgewählt und auf dem neuesten Stand gehalten. Wird eine ältere Information publiziert, ist das Datum angegeben und sie entspricht dem Wissenstand zur Zeit ihrer Erstellung. In Beiträgen, die mit Namen gekennzeichnet sind, wird die Meinung der Autoren vertreten, die nicht unbedingt der Meinung des Website-Inhabers entspricht.\nDurch das Betrachten und Lesen der Webseite kommt kein Vertrag für eine Dienstleistung des Website-Inhabers zwischen dem Nutzer und dem Anbieter zustande. Die Informationen der Webseite sind eine Gefälligkeit des Website-Inhabers für die Betrachter und gelten nicht als Dienstleistung. Deswegen übernimmt der Website-Dienstleister keine Gewährleistung für die Richtigkeit, Vollständigkeit und Aktualität des Webseiteninhalts. Wer die auf der Webseite publizierten Informationen nutzt, tut dies auf eigene Gefahr. Eine Ausnahme bildet die Haftung des Website-Inhabers für Grobfahrlässigkeit und Verschulden nach OR Art. 100.\nDie Website des Website-Inhabers enthält Verknüpfungen zu Websites Dritter. Für die verlinkten Webseiten haftet der jeweilige Betreiber. Firma HMR Partner Treuhand AG hat keinen Einfluss auf die aktuelle und zukünftige Gestaltung und auf die Inhalte der verknüpften Seiten. Der Link bedeutet auch nicht, dass Firma HMR Partner Treuhand AG mit dem Inhalt der verlinkten Seiten in jedem Fall einverstanden ist.\nDer Website-Inhaber überprüft die verlinkten Webseiten immer wieder auf Rechtmässigkeit und Aktualität. Es ist aber nicht möglich, die verlinkten Webseiten ständig zu überprüfen. Sollte auf einer der verlinkten Webseiten trotzdem ein unrechtmässiger Inhalt erscheinen oder eine Information, die nicht dem neuesten Stand entspricht, übernimmt der Website-Inhaber keine Haftung. Sobald der Website-Inhaber von fragwürdigen Inhalten auf den verlinkten Webseiten erfährt, wird der Link sofort entfernt. Entsprechende Hinweise weiss man bei dem Website-Inhaber zu schätzen.\nDie auf der Website der Firma HMR Partner Treuhand AG veröffentlichten Inhalte unterliegen dem schweizerischen Urheberrecht. Für die Vervielfältigung, Bearbeitung, Übersetzung, Einspeicherung, Wiedergabe von Inhalten in Datenbanken oder anderen elektronischen Medien und Systemen benötigt man eine schriftliche Zustimmung des Website-Inhabers oder der bei einer bestimmten Publikation genannten Urheber. Zitate sind ohne Zustimmung erlaubt, wenn die Quelle genannt wird.\nFür einen Link auf die Webseite des Website-Inhabers muss ebenfalls eine schriftliche Zustimmung eingeholt werden.\nOhne Zustimmung erlaubt sind Kopien oder Downloads für den privaten Gebrauch.\nWer die Inhalte oder sonstige Angaben, z.B. im Impressum, für Werbung benützen will, hat eine schriftliche Erlaubnis einzuholen. Andernfalls ist eine solche Nutzung der Webseite des Website-Inhabers ausdrücklich nicht erlaubt.",
+      "text_len": 6844,
+      "links": [
+        {
+          "text": "",
+          "href": "https://hmrpartner.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://hmrpartner.ch/",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://hmrpartner.ch/#.aktuell",
+          "internal": true
+        },
+        {
+          "text": "Portrait",
+          "href": "https://hmrpartner.ch/#.portrait",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://hmrpartner.ch/#.angebot",
+          "internal": true
+        },
+        {
+          "text": "Standort",
+          "href": "https://hmrpartner.ch/#.standort",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://hmrpartner.ch/#.kontakt",
+          "internal": true
+        },
+        {
+          "text": "Treuhänder-Zeitung Ausgabe 1|26",
+          "href": "https://hmrpartner.ch/images/PDF/_UpDate_01-2026_neutral.pdf",
+          "internal": true
+        },
+        {
+          "text": "Beilage: Sozialversicherungen 2026",
+          "href": "https://hmrpartner.ch/images/PDF/UpDate_3-25_Sozialversicherungen.pdf",
+          "internal": true
+        },
+        {
+          "text": "Treuhänder-Zeitung Ausgabe 3|25",
+          "href": "https://hmrpartner.ch/images/PDF/-UpDate_3-2025_neutral.pdf",
+          "internal": true
+        },
+        {
+          "text": "Treuhänder-Zeitung Ausgabe 2|25",
+          "href": "https://hmrpartner.ch/images/PDF/_UpDate_2-2025_neutral.pdf",
+          "internal": true
+        },
+        {
+          "text": "Treuhänder-Zeitung Ausgabe 1|25",
+          "href": "https://hmrpartner.ch/images/PDF/_UpDate_01-2025_neutral.pdf",
+          "internal": true
+        },
+        {
+          "text": "Beilage: Sozialversicherungen 2025",
+          "href": "https://hmrpartner.ch/images/PDF/UpDate_3_24_Sozialversicherungen.pdf",
+          "internal": true
+        },
+        {
+          "text": "Treuhänder-Zeitung Ausgabe 3|24",
+          "href": "https://hmrpartner.ch/images/PDF/UpDate%203-2024_neutral.pdf",
+          "internal": true
+        },
+        {
+          "text": "Treuhänder-Zeitung Ausgabe 2|24",
+          "href": "https://hmrpartner.ch/images/PDF/-UpDate_2-2024_neutral.pdf",
+          "internal": true
+        },
+        {
+          "text": "Treuhänder-Zeitung Ausgabe 1|24",
+          "href": "https://hmrpartner.ch/images/PDF/UpDate_01-2024.pdf",
+          "internal": true
+        },
+        {
+          "text": "Beilage: Sozialversicherungen 2024",
+          "href": "https://hmrpartner.ch/images/PDF/UpDate_3_23_Sozialversicherungen.pdf",
+          "internal": true
+        },
+        {
+          "text": "www.treuhandsuisse.ch",
+          "href": "https://www.treuhandsuisse.ch/de",
+          "internal": false
+        },
+        {
+          "text": "www.expertsuisse.ch",
+          "href": "https://www.expertsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "karin.baumgartner@hmrpartner.ch",
+          "href": "mailto:karin.baumgartner@hmrpartner.ch",
+          "internal": false
+        },
+        {
+          "text": "055 222 77 00",
+          "href": "tel:0552227700",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://hmrpartner.ch/#",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://hmrpartner.ch/images/datenschutzerklaerung-hmr-partner-treuhand-ag.pdf",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://hmrpartner.ch/#",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://hmrpartner.ch/images/datenschutzerklaerung-hmr-partner-treuhand-ag.pdf",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/HMRlogo.png",
+          "alt": "HMR Partner Treuhand AG"
+        },
+        {
+          "src": "/images/portraits/karin-baumgartner.jpg",
+          "alt": "Karin Baumgartner"
+        },
+        {
+          "src": "/images/portraits/HMR-Sandro_Zatti_4.jpg",
+          "alt": "Sandro Zatti"
+        },
+        {
+          "src": "/images/portraits/HMR_Andrina_Loelle_4.jpg",
+          "alt": "Andrina Löhle"
+        },
+        {
+          "src": "/images/portraits/Patrizia_Fleischmann_2.jpg",
+          "alt": "Adriana Meier"
+        },
+        {
+          "src": "/images/portraits/Lara_Walker_REDUCED_WEB.jpg",
+          "alt": "Patrizia Fleischmann"
+        },
+        {
+          "src": "/images/standort/haus.jpg",
+          "alt": "Hmr Partner Gebäude"
+        },
+        {
+          "src": "/images/standort/karte.gif",
+          "alt": "Karte Standort HMR Partner"
+        }
+      ],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Karin Baumgartner Inhaberin und Geschäftsführerin Dipl. Treuhandexpertin Fachfrau im Finanz- und Rechnungswesen mit eidg. Fachausweis",
+            "Sandro Zatti Fachmann im Finanz- und Rechnungswesen mit eidg. Fachausweis",
+            "Andrina Löhle Sachbearbeiterin Treuhand / Rechnungswesen"
+          ],
+          [
+            "Patrizia Fleischmann Sachbearbeiterin Treuhand / Rechnungswesen",
+            "Lara Walker Lernende M-Profil",
+            ""
+          ]
+        ],
+        [
+          [
+            "",
+            ""
+          ],
+          [
+            "Kontakt HMR Partner Treuhand AG Neue Jonastrasse 79 8640 Rapperswil Telefon: 055 222 77 00 Fax: 055 222 77 70 Mail: karin.baumgartner@hmrpartner.ch",
+            ""
+          ]
+        ],
+        [
+          [
+            "HMR Partner Treuhand AG Neue Jonastrasse 79    8640 Rapperswil    Telefon 055 222 77 00",
+            "HMR Partner Treuhand AG Neue Jonastrasse 79 8640 Rapperswil Telefon 055 222 77 00 Impressum Datenschutz",
+            "Impressum Datenschutz"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "karin.baumgartner@hmrpartner.ch"
+      ],
+      "phones": [
+        "055 222 77 00",
+        "055 222 77 70"
+      ],
+      "raw_html": "raw_html/001__index.html"
+    }
+  ]
+}

@@ -1,0 +1,1145 @@
+<!doctype html>
+<html lang="de-CH">
+  <head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SBT Treuhand Zürich – Treuhand, Steuern &amp; Beratung</title>
+<link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://maps.googleapis.com" rel="dns-prefetch">
+<style id="wpr-usedcss">img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:0 0!important;padding:0!important}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}:root :where(.wp-block-button .wp-block-button__link.is-style-outline),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link){border:2px solid;padding:.667em 1.333em}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color)){color:currentColor}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background)){background-color:initial;background-image:none}:where(.wp-block-calendar table:not(.has-background) th){background:#ddd}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}:where(.wp-block-post-comments input[type=submit]){border:none}:where(.wp-block-cover-image:not(.has-text-color)),:where(.wp-block-cover:not(.has-text-color)){color:#fff}:where(.wp-block-cover-image.is-light:not(.has-text-color)),:where(.wp-block-cover.is-light:not(.has-text-color)){color:#000}:root :where(.wp-block-cover h1:not(.has-text-color)),:root :where(.wp-block-cover h2:not(.has-text-color)),:root :where(.wp-block-cover h3:not(.has-text-color)),:root :where(.wp-block-cover h4:not(.has-text-color)),:root :where(.wp-block-cover h5:not(.has-text-color)),:root :where(.wp-block-cover h6:not(.has-text-color)),:root :where(.wp-block-cover p:not(.has-text-color)){color:inherit}:where(.wp-block-file){margin-bottom:1.5em}:where(.wp-block-file__button){border-radius:2em;display:inline-block;padding:.5em 1em}:where(.wp-block-file__button):is(a):active,:where(.wp-block-file__button):is(a):focus,:where(.wp-block-file__button):is(a):hover,:where(.wp-block-file__button):is(a):visited{box-shadow:none;color:#fff;opacity:.85;text-decoration:none}.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}h1.has-background,h2.has-background,h3.has-background{padding:1.25em 2.375em}.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:.4s show-content-image}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}:where(.wp-block-latest-comments:not([style*=line-height] .wp-block-latest-comments__comment)){line-height:1.1}:where(.wp-block-latest-comments:not([style*=line-height] .wp-block-latest-comments__comment-excerpt p)){line-height:1.8}:root :where(.wp-block-latest-posts.is-grid){padding:0}:root :where(.wp-block-latest-posts.wp-block-latest-posts__list){padding-left:0}ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}:where(.wp-block-navigation.has-background .wp-block-navigation-item a:not(.wp-element-button)),:where(.wp-block-navigation.has-background .wp-block-navigation-submenu a:not(.wp-element-button)){padding:.5em 1em}:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item a:not(.wp-element-button)),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu a:not(.wp-element-button)),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu button.wp-block-navigation-item__content),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-pages-list__item button.wp-block-navigation-item__content){padding:.5em 1em}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}:where(.wp-block-post-comments-form) input:not([type=submit]),:where(.wp-block-post-comments-form) textarea{border:1px solid #949494;font-family:inherit;font-size:1em}:where(.wp-block-post-comments-form) input:where(:not([type=submit]):not([type=checkbox])),:where(.wp-block-post-comments-form) textarea{padding:calc(.667em + 2px)}:where(.wp-block-post-excerpt){box-sizing:border-box;margin-bottom:var(--wp--style--block-gap);margin-top:var(--wp--style--block-gap)}:where(.wp-block-preformatted.has-background){padding:1.25em 2.375em}.wp-block-quote{box-sizing:border-box}.wp-block-quote{overflow-wrap:break-word}.wp-block-quote>cite{display:block}:where(.wp-block-search__button){border:1px solid #ccc;padding:6px 10px}:where(.wp-block-search__input){font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-transform:inherit}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){border:1px solid #949494;box-sizing:border-box;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:0}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:4px 8px}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}:root :where(.wp-block-site-logo.is-style-rounded){border-radius:9999px}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link{background-color:#f0f0f0;color:#444}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-amazon{background-color:#f90;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-bandcamp{background-color:#1ea0c3;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-behance{background-color:#0757fe;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-bluesky{background-color:#0a7aff;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-codepen{background-color:#1e1f26;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-deviantart{background-color:#02e49b;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-discord{background-color:#5865f2;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-dribbble{background-color:#e94c89;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-dropbox{background-color:#4280ff;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-etsy{background-color:#f45800;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-facebook{background-color:#0866ff;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-fivehundredpx{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-flickr{background-color:#0461dd;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-foursquare{background-color:#e65678;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-github{background-color:#24292d;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-goodreads{background-color:#eceadd;color:#382110}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-google{background-color:#ea4434;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-gravatar{background-color:#1d4fc4;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-instagram{background-color:#f00075;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-lastfm{background-color:#e21b24;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-linkedin{background-color:#0d66c2;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-mastodon{background-color:#3288d4;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-medium{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-meetup{background-color:#f6405f;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-patreon{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-pinterest{background-color:#e60122;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-pocket{background-color:#ef4155;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-reddit{background-color:#ff4500;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-skype{background-color:#0478d7;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-snapchat{background-color:#fefc00;color:#fff;stroke:#000}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-soundcloud{background-color:#ff5600;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-spotify{background-color:#1bd760;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-telegram{background-color:#2aabee;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-threads{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-tiktok{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-tumblr{background-color:#011835;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-twitch{background-color:#6440a4;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-twitter{background-color:#1da1f2;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-vimeo{background-color:#1eb7ea;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-vk{background-color:#4680c2;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-wordpress{background-color:#3499cd;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-whatsapp{background-color:#25d366;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-x{background-color:#000;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-yelp{background-color:#d32422;color:#fff}:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-youtube{background-color:red;color:#fff}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link{background:0 0}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link svg{height:1.25em;width:1.25em}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-amazon{color:#f90}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-bandcamp{color:#1ea0c3}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-behance{color:#0757fe}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-bluesky{color:#0a7aff}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-codepen{color:#1e1f26}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-deviantart{color:#02e49b}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-discord{color:#5865f2}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-dribbble{color:#e94c89}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-dropbox{color:#4280ff}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-etsy{color:#f45800}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-facebook{color:#0866ff}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-fivehundredpx{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-flickr{color:#0461dd}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-foursquare{color:#e65678}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-github{color:#24292d}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-goodreads{color:#382110}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-google{color:#ea4434}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-gravatar{color:#1d4fc4}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-instagram{color:#f00075}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-lastfm{color:#e21b24}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-linkedin{color:#0d66c2}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-mastodon{color:#3288d4}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-medium{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-meetup{color:#f6405f}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-patreon{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-pinterest{color:#e60122}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-pocket{color:#ef4155}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-reddit{color:#ff4500}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-skype{color:#0478d7}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-snapchat{color:#fff;stroke:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-soundcloud{color:#ff5600}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-spotify{color:#1bd760}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-telegram{color:#2aabee}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-threads{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-tiktok{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-tumblr{color:#011835}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-twitch{color:#6440a4}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-twitter{color:#1da1f2}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-vimeo{color:#1eb7ea}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-vk{color:#4680c2}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-whatsapp{color:#25d366}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-wordpress{color:#3499cd}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-x{color:#000}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-yelp{color:#d32422}:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-youtube{color:red}:root :where(.wp-block-social-links .wp-social-link a){padding:.25em}:root :where(.wp-block-social-links.is-style-logos-only .wp-social-link a){padding:0}:root :where(.wp-block-social-links.is-style-pill-shape .wp-social-link a){padding-left:.6666666667em;padding-right:.6666666667em}.wp-block-spacer{clear:both}:root :where(.wp-block-tag-cloud.is-style-outline){display:flex;flex-wrap:wrap;gap:1ch}:root :where(.wp-block-tag-cloud.is-style-outline a){border:1px solid;font-size:unset!important;margin-right:0;padding:1ch 2ch;text-decoration:none!important}:root :where(.wp-block-table-of-contents){box-sizing:border-box}:where(.wp-block-term-description){box-sizing:border-box;margin-bottom:var(--wp--style--block-gap);margin-top:var(--wp--style--block-gap)}:where(pre.wp-block-verse){font-family:inherit}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-text-align-center{text-align:center}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}:root{--wp--preset--aspect-ratio--square:1;--wp--preset--aspect-ratio--4-3:4/3;--wp--preset--aspect-ratio--3-4:3/4;--wp--preset--aspect-ratio--3-2:3/2;--wp--preset--aspect-ratio--2-3:2/3;--wp--preset--aspect-ratio--16-9:16/9;--wp--preset--aspect-ratio--9-16:9/16;--wp--preset--color--black:#000000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#ffffff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6, 147, 227, 1) 0%,rgb(155, 81, 224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122, 220, 180) 0%,rgb(0, 208, 130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252, 185, 0, 1) 0%,rgba(255, 105, 0, 1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255, 105, 0, 1) 0%,rgb(207, 46, 46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238, 238, 238) 0%,rgb(169, 184, 195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74, 234, 220) 0%,rgb(151, 120, 209) 20%,rgb(207, 42, 186) 40%,rgb(238, 44, 130) 60%,rgb(251, 105, 98) 80%,rgb(254, 248, 76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255, 206, 236) 0%,rgb(152, 150, 240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254, 205, 165) 0%,rgb(254, 45, 45) 50%,rgb(107, 0, 62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255, 203, 112) 0%,rgb(199, 81, 192) 50%,rgb(65, 88, 208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255, 245, 203) 0%,rgb(182, 227, 212) 50%,rgb(51, 167, 181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202, 248, 128) 0%,rgb(113, 206, 126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2, 3, 129) 0%,rgb(40, 116, 252) 100%);--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:0.44rem;--wp--preset--spacing--30:0.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0, 0, 0, .2);--wp--preset--shadow--deep:12px 12px 50px rgba(0, 0, 0, .4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0, 0, 0, .2);--wp--preset--shadow--outlined:6px 6px 0px -3px rgba(255, 255, 255, 1),6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp:6px 6px 0px rgba(0, 0, 0, 1)}:where(.is-layout-flex){gap:.5em}:where(.is-layout-grid){gap:.5em}.has-white-color{color:var(--wp--preset--color--white)!important}:where(.wp-block-post-template.is-layout-flex){gap:1.25em}:where(.wp-block-post-template.is-layout-grid){gap:1.25em}:where(.wp-block-columns.is-layout-flex){gap:2em}:where(.wp-block-columns.is-layout-grid){gap:2em}:root :where(.wp-block-pullquote){font-size:1.5em;line-height:1.6}@font-face{font-family:nimbus-sans;src:url("https://use.typekit.net/af/da0c19/00000000000000000001518d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/da0c19/00000000000000000001518d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/da0c19/00000000000000000001518d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");font-display:swap;font-style:normal;font-weight:400;font-stretch:normal}@font-face{font-family:nimbus-sans;src:url("https://use.typekit.net/af/360cf4/000000000000000000012544/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/360cf4/000000000000000000012544/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/360cf4/000000000000000000012544/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");font-display:swap;font-style:normal;font-weight:700;font-stretch:normal}@font-face{font-family:ff-angie-pro;src:url("https://use.typekit.net/af/8de5db/000000000000000077359b77/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/8de5db/000000000000000077359b77/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/8de5db/000000000000000077359b77/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");font-display:swap;font-style:normal;font-weight:400;font-stretch:normal}:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#D8B389;--bs-yellow:#E0DBD3;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-brown:#997C4E;--bs-black:#000;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#3E3E3E;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#3E3E3E;--bs-gray-900:#212529;--bs-primary:#997C4E;--bs-secondary:#E0DBD3;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#D8B389;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-primary-rgb:153,124,78;--bs-secondary-rgb:224,219,211;--bs-success-rgb:25,135,84;--bs-info-rgb:13,202,240;--bs-warning-rgb:216,179,137;--bs-danger-rgb:220,53,69;--bs-light-rgb:248,249,250;--bs-dark-rgb:33,37,41;--bs-primary-text-emphasis:#3d321f;--bs-secondary-text-emphasis:#5a5854;--bs-success-text-emphasis:#0a3622;--bs-info-text-emphasis:#055160;--bs-warning-text-emphasis:#564837;--bs-danger-text-emphasis:#58151c;--bs-light-text-emphasis:#495057;--bs-dark-text-emphasis:#495057;--bs-primary-bg-subtle:#ebe5dc;--bs-secondary-bg-subtle:#f9f8f6;--bs-success-bg-subtle:#d1e7dd;--bs-info-bg-subtle:#cff4fc;--bs-warning-bg-subtle:#f7f0e7;--bs-danger-bg-subtle:#f8d7da;--bs-light-bg-subtle:#fcfcfd;--bs-dark-bg-subtle:#ced4da;--bs-primary-border-subtle:#d6cbb8;--bs-secondary-border-subtle:#f3f1ed;--bs-success-border-subtle:#a3cfbb;--bs-info-border-subtle:#9eeaf9;--bs-warning-border-subtle:#efe1d0;--bs-danger-border-subtle:#f1aeb5;--bs-light-border-subtle:#e9ecef;--bs-dark-border-subtle:#adb5bd;--bs-white-rgb:255,255,255;--bs-black-rgb:0,0,0;--bs-font-sans-serif:"nimbus-sans",sans-serif;--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));--bs-body-font-family:var(--bs-font-sans-serif);--bs-body-font-size:calc(1.3125rem + 0.75vw);--bs-body-font-weight:400;--bs-body-line-height:1.5;--bs-body-color:#3E3E3E;--bs-body-color-rgb:62,62,62;--bs-body-bg:#E0DBD3;--bs-body-bg-rgb:224,219,211;--bs-emphasis-color:#000;--bs-emphasis-color-rgb:0,0,0;--bs-secondary-color:rgba(62, 62, 62, .75);--bs-secondary-color-rgb:62,62,62;--bs-secondary-bg:#e9ecef;--bs-secondary-bg-rgb:233,236,239;--bs-tertiary-color:rgba(62, 62, 62, .5);--bs-tertiary-color-rgb:62,62,62;--bs-tertiary-bg:#f8f9fa;--bs-tertiary-bg-rgb:248,249,250;--bs-heading-color:#997C4E;--bs-link-color:#3E3E3E;--bs-link-color-rgb:62,62,62;--bs-link-decoration:underline;--bs-link-hover-color:#323232;--bs-link-hover-color-rgb:50,50,50;--bs-code-color:#d63384;--bs-highlight-color:#3E3E3E;--bs-highlight-bg:#f9f8f6;--bs-border-width:1px;--bs-border-style:solid;--bs-border-color:#dee2e6;--bs-border-color-translucent:rgba(0, 0, 0, .175);--bs-border-radius:0.375rem;--bs-border-radius-sm:0.25rem;--bs-border-radius-lg:0.5rem;--bs-border-radius-xl:1rem;--bs-border-radius-xxl:2rem;--bs-border-radius-2xl:var(--bs-border-radius-xxl);--bs-border-radius-pill:50rem;--bs-box-shadow:0 0.5rem 1rem rgba(0, 0, 0, .15);--bs-box-shadow-sm:0 0.125rem 0.25rem rgba(0, 0, 0, .075);--bs-box-shadow-lg:0 1rem 3rem rgba(0, 0, 0, .175);--bs-box-shadow-inset:inset 0 1px 2px rgba(0, 0, 0, .075);--bs-focus-ring-width:0.25rem;--bs-focus-ring-opacity:0.25;--bs-focus-ring-color:rgba(153, 124, 78, .25);--bs-form-valid-color:#198754;--bs-form-valid-border-color:#198754;--bs-form-invalid-color:#dc3545;--bs-form-invalid-border-color:#dc3545}*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}.h2,h1,h2{margin-top:0;margin-bottom:.5rem;font-family:ff-angie-pro,serif;font-weight:400;line-height:1.2;color:var(--bs-heading-color)}h1{font-size:calc(1.625rem + 4.5vw)}@media (min-width:1200px){:root{--bs-body-font-size:1.875rem}h1{font-size:5rem}}.h2,h2{font-size:calc(1.4688rem + 2.6256vw)}@media (min-width:1200px){.h2,h2{font-size:3.438rem}}p{margin-top:0;margin-bottom:1rem}ul{padding-left:2rem}ul{margin-top:0;margin-bottom:1rem}ul ul{margin-bottom:0}blockquote{margin:0 0 1rem}a{color:rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));text-decoration:underline}a:hover{--bs-link-color-rgb:var(--bs-link-hover-color-rgb)}a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none}img,svg{vertical-align:middle}caption{padding-top:.5rem;padding-bottom:.5rem;color:var(--bs-secondary-color);text-align:left}button{border-radius:0}button:focus:not(:focus-visible){outline:0}button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button{text-transform:none}[role=button]{cursor:pointer}button{-webkit-appearance:button}button:not(:disabled){cursor:pointer}::-moz-focus-inner{padding:0;border-style:none}::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-fields-wrapper,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-text,::-webkit-datetime-edit-year-field{padding:0}::-webkit-inner-spin-button{height:auto}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-color-swatch-wrapper{padding:0}::file-selector-button{font:inherit;-webkit-appearance:button}.wp-block-quote{margin-bottom:1rem;font-size:calc(1.75rem + 6vw)}.wp-block-quote>:last-child{margin-bottom:0}.wp-block-quote cite{margin-top:-1rem;margin-bottom:1rem;font-size:calc(1.375rem + 1.5vw);color:#997c4e}.wp-block-quote cite::before{content:"— "}.container,.container-fluid{--bs-gutter-x:1.5rem;--bs-gutter-y:0;width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.wp-block-quote{font-size:6.25rem}.wp-block-quote cite{font-size:2.5rem}.container{max-width:1140px}}@media (min-width:1400px){.container{max-width:1320px}}:root{--bs-breakpoint-xs:0;--bs-breakpoint-sm:576px;--bs-breakpoint-md:768px;--bs-breakpoint-lg:992px;--bs-breakpoint-xl:1200px;--bs-breakpoint-xxl:1400px}.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}.col-12{flex:0 0 auto;width:100%}.g-0{--bs-gutter-x:0}.g-0{--bs-gutter-y:0}@media (min-width:992px){.col-lg-3{flex:0 0 auto;width:25%}.col-lg-4{flex:0 0 auto;width:33.33333333%}.col-lg-6{flex:0 0 auto;width:50%}.col-lg-8{flex:0 0 auto;width:66.66666667%}}.btn{--bs-btn-padding-x:0.75rem;--bs-btn-padding-y:0.375rem;--bs-btn-font-family:ff-angie-pro,serif;--bs-btn-font-size:calc(1.3125rem + 0.75vw);--bs-btn-font-weight:400;--bs-btn-line-height:1.5;--bs-btn-color:var(--bs-body-color);--bs-btn-bg:transparent;--bs-btn-border-width:2px;--bs-btn-border-color:transparent;--bs-btn-border-radius:55px;--bs-btn-hover-border-color:transparent;--bs-btn-box-shadow:inset 0 1px 0 rgba(255, 255, 255, .15),0 1px 1px rgba(0, 0, 0, .075);--bs-btn-disabled-opacity:0.65;--bs-btn-focus-box-shadow:0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);display:inline-block;padding:var(--bs-btn-padding-y) var(--bs-btn-padding-x);font-family:var(--bs-btn-font-family);font-size:var(--bs-btn-font-size);font-weight:var(--bs-btn-font-weight);line-height:var(--bs-btn-line-height);color:var(--bs-btn-color);text-align:center;text-decoration:none;vertical-align:middle;cursor:pointer;user-select:none;border:var(--bs-btn-border-width) solid var(--bs-btn-border-color);border-radius:var(--bs-btn-border-radius);background-color:var(--bs-btn-bg);transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.btn{transition:none}}.btn:hover{color:var(--bs-btn-hover-color);background-color:var(--bs-btn-hover-bg);border-color:var(--bs-btn-hover-border-color)}.btn:focus-visible{color:var(--bs-btn-hover-color);background-color:var(--bs-btn-hover-bg);border-color:var(--bs-btn-hover-border-color);outline:0;box-shadow:var(--bs-btn-focus-box-shadow)}.btn.active,.btn.show,.btn:first-child:active,:not(.btn-check)+.btn:active{color:var(--bs-btn-active-color);background-color:var(--bs-btn-active-bg);border-color:var(--bs-btn-active-border-color)}.btn.active:focus-visible,.btn.show:focus-visible,.btn:first-child:active:focus-visible,:not(.btn-check)+.btn:active:focus-visible{box-shadow:var(--bs-btn-focus-box-shadow)}.btn:disabled{color:var(--bs-btn-disabled-color);pointer-events:none;background-color:var(--bs-btn-disabled-bg);border-color:var(--bs-btn-disabled-border-color);opacity:var(--bs-btn-disabled-opacity)}.btn-outline-primary{--bs-btn-color:#997C4E;--bs-btn-border-color:#997C4E;--bs-btn-hover-color:#000;--bs-btn-hover-bg:#997C4E;--bs-btn-hover-border-color:#997C4E;--bs-btn-focus-shadow-rgb:153,124,78;--bs-btn-active-color:#000;--bs-btn-active-bg:#997C4E;--bs-btn-active-border-color:#997C4E;--bs-btn-active-shadow:inset 0 3px 5px rgba(0, 0, 0, .125);--bs-btn-disabled-color:#997C4E;--bs-btn-disabled-bg:transparent;--bs-btn-disabled-border-color:#997C4E;--bs-gradient:none}.fade{transition:opacity .15s linear}@media (prefers-reduced-motion:reduce){.fade{transition:none}}.fade:not(.show){opacity:0}.collapse:not(.show){display:none}.collapsing{height:0;overflow:hidden;transition:height .35s ease}@media (prefers-reduced-motion:reduce){.collapsing{transition:none}}.accordion{--bs-accordion-color:var(--bs-body-color);--bs-accordion-bg:var(--bs-body-bg);--bs-accordion-transition:color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;--bs-accordion-border-color:#D8B389;--bs-accordion-border-width:4px;--bs-accordion-border-radius:30px;--bs-accordion-inner-border-radius:26px;--bs-accordion-btn-padding-x:2.25rem;--bs-accordion-btn-padding-y:1rem;--bs-accordion-btn-color:var(--bs-body-color);--bs-accordion-btn-bg:var(--bs-accordion-bg);--bs-accordion-btn-icon:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233E3E3E'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");--bs-accordion-btn-icon-width:1.25rem;--bs-accordion-btn-icon-transform:rotate(-180deg);--bs-accordion-btn-icon-transition:transform 0.2s ease-in-out;--bs-accordion-btn-active-icon:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233d321f'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");--bs-accordion-btn-focus-border-color:#ccbea7;--bs-accordion-btn-focus-box-shadow:0 0 0 0.25rem rgba(153, 124, 78, .25);--bs-accordion-body-padding-x:2.25rem;--bs-accordion-body-padding-y:1rem;--bs-accordion-active-color:var(--bs-primary-text-emphasis);--bs-accordion-active-bg:var(--bs-primary-bg-subtle)}.accordion-button{position:relative;display:flex;align-items:center;width:100%;padding:var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);font-size:calc(1.3125rem + .75vw);color:var(--bs-accordion-btn-color);text-align:left;background-color:var(--bs-accordion-btn-bg);border:0;border-radius:0;overflow-anchor:none;transition:var(--bs-accordion-transition)}@media (min-width:1200px){.btn{--bs-btn-font-size:1.875rem}.accordion-button{font-size:1.875rem}}.accordion-button:not(.collapsed){color:var(--bs-accordion-active-color);background-color:var(--bs-accordion-active-bg);box-shadow:inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color)}.accordion-button:not(.collapsed)::after{background-image:var(--bs-accordion-btn-active-icon);transform:var(--bs-accordion-btn-icon-transform)}.accordion-button::after{flex-shrink:0;width:var(--bs-accordion-btn-icon-width);height:var(--bs-accordion-btn-icon-width);margin-left:auto;content:"";background-image:var(--bs-accordion-btn-icon);background-repeat:no-repeat;background-size:var(--bs-accordion-btn-icon-width);transition:var(--bs-accordion-btn-icon-transition)}@media (prefers-reduced-motion:reduce){.accordion-button{transition:none}.accordion-button::after{transition:none}}.accordion-button:hover{z-index:2}.accordion-button:focus{z-index:3;border-color:var(--bs-accordion-btn-focus-border-color);outline:0;box-shadow:var(--bs-accordion-btn-focus-box-shadow)}.accordion-header{margin-bottom:0}.accordion-item{color:var(--bs-accordion-color);background-color:var(--bs-accordion-bg);border:var(--bs-accordion-border-width) solid var(--bs-accordion-border-color)}.accordion-item:first-of-type{border-top-left-radius:var(--bs-accordion-border-radius);border-top-right-radius:var(--bs-accordion-border-radius)}.accordion-item:first-of-type .accordion-button{border-top-left-radius:var(--bs-accordion-inner-border-radius);border-top-right-radius:var(--bs-accordion-inner-border-radius)}.accordion-item:not(:first-of-type){border-top:0}.accordion-item:last-of-type{border-bottom-right-radius:var(--bs-accordion-border-radius);border-bottom-left-radius:var(--bs-accordion-border-radius)}.accordion-item:last-of-type .accordion-button.collapsed{border-bottom-right-radius:var(--bs-accordion-inner-border-radius);border-bottom-left-radius:var(--bs-accordion-inner-border-radius)}.accordion-item:last-of-type .accordion-collapse{border-bottom-right-radius:var(--bs-accordion-border-radius);border-bottom-left-radius:var(--bs-accordion-border-radius)}.accordion-body{padding:var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x)}.tooltip{--bs-tooltip-zindex:1080;--bs-tooltip-max-width:200px;--bs-tooltip-padding-x:0.5rem;--bs-tooltip-padding-y:0.25rem;--bs-tooltip-margin: ;--bs-tooltip-font-size:calc(1.2890625rem + 0.46875vw);--bs-tooltip-color:#fff;--bs-tooltip-bg:#997C4E;--bs-tooltip-border-radius:var(--bs-border-radius);--bs-tooltip-opacity:0.9;--bs-tooltip-arrow-width:0.8rem;--bs-tooltip-arrow-height:0.4rem;z-index:var(--bs-tooltip-zindex);display:block;margin:var(--bs-tooltip-margin);font-family:var(--bs-font-sans-serif);font-style:normal;font-weight:400;line-height:1.5;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;letter-spacing:normal;word-break:normal;white-space:normal;word-spacing:normal;line-break:auto;font-size:var(--bs-tooltip-font-size);word-wrap:break-word;opacity:0}@media (min-width:1200px){.tooltip{--bs-tooltip-font-size:1.640625rem}}.tooltip.show{opacity:var(--bs-tooltip-opacity)}.tooltip .tooltip-arrow{display:block;width:var(--bs-tooltip-arrow-width);height:var(--bs-tooltip-arrow-height)}.tooltip .tooltip-arrow::before{position:absolute;content:"";border-color:transparent;border-style:solid}.tooltip-inner{max-width:var(--bs-tooltip-max-width);padding:var(--bs-tooltip-padding-y) var(--bs-tooltip-padding-x);color:var(--bs-tooltip-color);text-align:center;background-color:var(--bs-tooltip-bg);border-radius:var(--bs-tooltip-border-radius)}.offcanvas-backdrop{position:fixed;top:0;left:0;z-index:1040;width:100vw;height:100vh;background-color:#000}.offcanvas-backdrop.fade{opacity:0}.offcanvas-backdrop.show{opacity:.5}.d-inline-block{display:inline-block!important}.d-none{display:none!important}.position-relative{position:relative!important}.h-100{height:100%!important}.align-self-end{align-self:flex-end!important}.me-3{margin-right:1rem!important}.mb-0{margin-bottom:0!important}.mb-3{margin-bottom:1rem!important}.mb-5{margin-bottom:3rem!important}.fw-bold{font-weight:700!important}.text-primary{--bs-text-opacity:1;color:rgba(var(--bs-primary-rgb),var(--bs-text-opacity))!important}.text-white{--bs-text-opacity:1;color:rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important}@media (min-width:576px){.d-sm-inline-block{display:inline-block!important}}@media (min-width:992px){.d-lg-none{display:none!important}.mb-lg-0{margin-bottom:0!important}}body{-webkit-backface-visibility:hidden}.animated{-webkit-animation-duration:calc(1s);animation-duration:calc(1s);-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{animation-iteration-count:infinite}@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translateX(20px)}100%{opacity:1;-webkit-transform:translateX(0)}}@keyframes fadeInRight{0%{opacity:0;transform:translateX(20px)}100%{opacity:1;transform:translateX(0)}}.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}.h2,h2{margin-bottom:2rem}#header_content img{width:10.438rem;margin-top:25px}.icon_container{display:inline-block;border:1px solid #997c4e;width:45px;height:45px;line-height:45px;text-align:center;border-radius:100%}.icon_container svg{width:30px;position:relative;top:-3px}.icon_container svg.phone{width:25px}@media (min-width:992px){#header_content img{width:24rem}.icon_container{width:65px;height:65px;line-height:65px;border-width:2px}.icon_container svg{width:40px;top:-5px}.icon_container svg.phone{width:35px}.contact-jobname{min-height:90px}}.wp-block-group{position:relative}.wp-block-quote{font-family:ff-angie-pro,serif}.wp-block-quote p{color:#997c4e;font-weight:400}.wp-block-quote cite{font-style:normal}.wp-block-quote cite:before{display:none}@media (max-width:991.98px){.title_txt{font-size:2.188rem;margin-bottom:25px}}body,html{width:100%;overflow-x:hidden}#site_main ul{list-style-type:none}#site_main ul li{position:relative}#site_main ul li:before{content:"";position:absolute;width:18px;height:18px;border-radius:100%;background-color:#d8b389;left:-2rem;top:11px}.btn{padding-bottom:10px}.sbt-map{width:100%;height:25rem;border-radius:30px}.sbt-map img{max-width:inherit!important}.animation-delay-1{animation-delay:1s}.animation-delay-2{animation-delay:2s}.contact-icons svg{width:40px;fill:#fff}.contact-icons svg.phone{width:30px}.team-img svg{fill-opacity:0;transition:fill-opacity 1s}.team-img.finished svg{fill-opacity:1}.marquee{height:90px;overflow:hidden}@media (min-width:992px){.marquee{height:128px}}.partner_container{background-color:#fff;border-radius:50px;width:185px;height:80px;padding:1px;display:inline-block;margin:0 8px}.partner_container img{width:100%;height:100%;object-fit:contain}.accordion .accordion-item:last-of-type .accordion-button.collapsed{border-bottom-right-radius:30px;border-bottom-left-radius:30px}#site_footer{padding:58px 0}.widget_nav_menu ul{list-style-type:none;padding-left:0}.widget_nav_menu ul .menu-item a{color:#997c4e;font-weight:700;text-decoration:none}.widget_nav_menu ul .menu-item a:active,.widget_nav_menu ul .menu-item a:hover{text-decoration:underline}@media (min-width:992px){.partner_container{width:285px;height:128px;padding:5px 10px}.widget_nav_menu{text-align:right}}.areoi-element{position:relative}.areoi-element>*{position:relative}.areoi-element>.modal,.areoi-element>.modal-backdrop,.areoi-element>.offcanvas,.areoi-element>.toast{position:fixed}.areoi-element .wp-block-image img{height:auto}.alert .icon,.list-group-item .icon{width:24px;height:auto;display:block}.alert :last-child,.list-group-item :last-child{margin-bottom:0}.carousel{width:100%;overflow:hidden}.card .wp-block-image{margin-bottom:0}.modal{width:100%!important;max-width:100%!important}@media (min-width:0){.block-4bdb3bd2-cae1-4850-9a84-ce598c0c40cd{margin-top:25px}.block-9f9d5532-f374-458a-8019-b746977b7ee9{padding-top:50px}}@media (min-width:992px){.block-4bdb3bd2-cae1-4850-9a84-ce598c0c40cd{margin-top:79px}.block-9f9d5532-f374-458a-8019-b746977b7ee9{padding-top:71px}}.st0{display:none}.st1{fill:none;stroke:#A48C5F;stroke-width:16;stroke-miterlimit:10}</style><link rel="preload" data-rocket-preload as="image" href="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen-schriftzug.svg" fetchpriority="high">
+<script type="text/rocketlazyloadscript" data-rocket-src="https://cmp.compresso.ch/widget/cmp.min.js?key=c74ed099-af63-4091-bbcf-d71e2d281901"></script>
+<meta name="dc.title" content="SBT Treuhand Zürich – Treuhand, Steuern &amp; Beratung">
+<meta name="dc.description" content="SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.">
+<meta name="dc.relation" content="https://www.sbt-treuhand.ch/">
+<meta name="dc.source" content="https://www.sbt-treuhand.ch/">
+<meta name="dc.language" content="de_CH">
+<meta name="description" content="SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://www.sbt-treuhand.ch/">
+<script id="website-schema" type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","name":"SBT Treuhand","alternateName":"SBT Treuhand","description":"","url":"https:\/\/www.sbt-treuhand.ch"}</script>
+<meta property="og:url" content="https://www.sbt-treuhand.ch/">
+<meta property="og:site_name" content="SBT Treuhand">
+<meta property="og:locale" content="de_CH">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SBT Treuhand Zürich – Treuhand, Steuern &amp; Beratung">
+<meta property="og:description" content="SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.">
+<meta property="og:image" content="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png">
+<meta property="og:image:secure_url" content="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon.png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="SBT Treuhand Zürich – Treuhand, Steuern &amp; Beratung">
+<meta name="twitter:description" content="SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.">
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Organization","name":"Steuer-Bilanz-Treuhand AG","url":"https:\/\/www.sbt-treuhand.ch","alternateName":"SBT Treuhand","description":"SBT Treuhand","logo":"https:\/\/www.sbt-treuhand.ch\/wp-content\/uploads\/2022\/10\/Logo_Saeulen.svg","contactPoint":[{"@type":"ContactPoint","telephone":"+410444386010","contactOption":"TollFree","contactType":"sales"}]}</script>
+		<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.sbt-treuhand.ch/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sbt-treuhand.ch%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.sbt-treuhand.ch/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sbt-treuhand.ch%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css"></style>
+<style id="wp-emoji-styles-inline-css"></style>
+<style id="wp-block-library-inline-css"></style>
+<style id="wp-block-heading-inline-css"></style>
+<style id="wp-block-image-inline-css"></style>
+<style id="wp-block-list-inline-css"></style>
+<style id="wp-block-paragraph-inline-css"></style>
+<style id="wp-block-group-inline-css"></style>
+<style id="wp-block-quote-inline-css"></style>
+<style id="wp-block-spacer-inline-css"></style>
+
+<style id="classic-theme-styles-inline-css"></style>
+
+<style id="global-styles-inline-css"></style>
+
+
+
+
+<style id="areoi-style-index-inline-css"></style>
+
+<script id="jquery-core-js" src="https://www.sbt-treuhand.ch/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.sbt-treuhand.ch/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script id="google_gtagjs-js" src="https://www.googletagmanager.com/gtag/js?id=GT-NBXHLTJ" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["www.sbt-treuhand.ch"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-NBXHLTJ");
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="https://api.w.org/" href="https://www.sbt-treuhand.ch/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.sbt-treuhand.ch/wp-json/wp/v2/pages/8" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.sbt-treuhand.ch/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0" />
+<link rel='shortlink' href='https://www.sbt-treuhand.ch/' />
+<meta name="generator" content="Site Kit by Google 1.180.0" /><link rel="icon" href="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/cropped-Logo_Saeulen-favicon-270x270.png" />
+  <style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><meta name="generator" content="WP Rocket 3.21.3" data-wpr-features="wpr_remove_unused_css wpr_delay_js wpr_preconnect_external_domains wpr_automatic_lazy_rendering wpr_oci wpr_image_dimensions wpr_preload_links wpr_desktop" /></head>
+  <body class="home wp-singular page-template-default page page-id-8 wp-theme-sbt">
+    <div  id="page_wrapper">
+      <header  id="site_header">
+                <div  id="header_content">
+          
+		<div  class="block-7871c4a9-94af-471e-a4d4-729bb8d03b73 areoi-element container h-100">
+			
+			
+
+		<div  class="block-33994482-f9d7-480f-9ecb-c11f483731ce row areoi-element g-0 h-100 align-items-end">
+			
+
+			
+
+		<div  class="block-0847baa2-3fa2-4862-9af1-f3053bf1e1c3 col areoi-element align-self-end col-12">
+			
+			
+
+<figure class="wp-block-image size-large is-resized mb-0"><a href="/index"><img fetchpriority="high" decoding="async" src="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/Logo_Saeulen-schriftzug.svg" alt="" class="wp-image-335" width="259" height="56"/></a></figure>
+
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+ 
+		</div>
+	        </div>
+      </header>
+      <main  id="site_main">
+<div  class="wp-block-group first"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+		<div  class="block-4bdb3bd2-cae1-4850-9a84-ce598c0c40cd areoi-element container">
+			
+			
+
+		<div  class="block-dc2c7d51-7997-4d68-b286-7df84cbc02db row areoi-element">
+			
+
+			
+
+		<div  class="block-145bf456-ff02-4b99-a474-22cc8c9d5371 col areoi-element align-self-center col-12 col-lg-8">
+			
+			
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer d-lg-none"></div>
+
+
+
+<h1 class="wp-block-heading title_txt"><strong>SBT Treuhand</strong><br>Im Hintergrund für Sie da. <span class="d-inline-block animated fadeInRight">Standhaft,</span> <span class="d-inline-block animated fadeInRight animation-delay-1">zuverlässig,</span> <span class="d-inline-block animated fadeInRight animation-delay-2">tragend.</span></h1>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+ 
+			
+		</div>
+	
+
+
+		<div  class="block-aa6046c0-29a6-445b-bcb2-2026bc5f5297 col areoi-element col-12 col-lg-4">
+			
+			
+
+				
+		<a 
+			
+			class="block-df4fa48f-06f7-4754-9d34-947e8b7dc09b btn areoi-has-url position-relative mb-3 btn-outline-primary d-none d-sm-inline-block"
+	 href="#services" >
+					
+					Unsere Dienstleistungen 
+					
+					 
+				</a>
+			
+
+
+				
+		<a 
+			
+			class="block-62b3f012-02f3-4b8b-b88d-d65a048cefd0 btn areoi-has-url position-relative mb-3 btn-outline-primary d-none d-sm-inline-block"
+	 href="#team" >
+					
+					Unser Team 
+					
+					 
+				</a>
+			
+
+
+				
+		<a 
+			
+			class="block-9346e341-00f5-4e0c-aa36-6bce819fb45c btn areoi-has-url position-relative mb-3 btn-outline-primary d-none d-sm-inline-block"
+	 href="#kontakt" >
+					
+					Unsere Koordinaten 
+					
+					 
+				</a>
+			
+
+
+<div style="height:1px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="icon-block d-inline-block mb-3">
+  <a class="icon_container" href="mailto:info@sbt-treuhand.ch">
+    <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+<style type="text/css"></style>
+<g id="Ebene_1_00000164478099829133053950000002495829745421409445_" class="st0">
+</g>
+<g id="Ebene_2_00000132052018967377231840000000139659057106436282_">
+	<path class="st1" d="M46,308.9v233c0,0,4,63,60,63h380c0,0,63,1,63-63v-253c0,0-5.5-8.5-27,13l-177,151c0,0-45,54-96,0l-199.2-163
+		c0,0-17-54,39-57H494c0,0,51-1,51,42"/>
+</g>
+</svg>  </a>
+</div>
+
+<div class="icon-block d-inline-block mb-3">
+  <a data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="044 438 60 10" class="icon_container" href="tel:0444386010">
+    <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+<g id="Ebene_1_00000034086680261951354490000005020514383366161810_">
+	<g>
+		<path style="display:block;fill:none;stroke:#A48C5F;stroke-width:16;stroke-miterlimit:10;" class="st0" d="M106.4,328.5c1.5-7.3,2.3-14.8,4.7-21.8c14.5-43.1,44.3-68.7,89.3-76.1c4.3-0.7,8.7-0.8,13-0.9
+			c6.9-0.1,11.3,3.3,12.8,10.1c5.5,25.3,10.9,50.6,16.4,76c0.7,3.3,1.4,6.6,2.1,9.9c1.1,5.2-0.2,9.5-4,13.3
+			c-9.8,9.6-19.4,19.4-29.1,29.1c-0.6,0.6-1.2,1.3-1.7,1.8c19,48.8,90.4,120.2,139.7,139.7c10-10,20.1-19.9,30-30.2
+			c4.5-4.6,9.3-5.9,15.5-4.5c27.4,6,54.8,11.8,82.2,17.6c9.4,2,12.5,5.9,12.3,15.6c-1.1,50.8-39.8,95.3-90,103.3
+			c-2.9,0.5-5.8,1-8.7,1.5c-6,0-12,0-18,0c-0.7-0.2-1.4-0.5-2.1-0.7c-8.8-2.1-18-3.3-26.4-6.4c-65.9-24.3-121.3-63.5-166.1-117.7
+			C149.3,453,127,414,112.1,371c-2.8-8.2-3.8-16.9-5.7-25.4C106.4,340,106.4,334.3,106.4,328.5z"/>
+	</g>
+</g>
+<g id="Ebene_2_00000124159882610323378810000010220970281232322958_">
+</g>
+</svg>  </a>
+</div>
+
+
+<hr class="text-primary">
+
+
+
+<p class="has-text-color wp-block-paragraph" style="color:#997c4e"><strong>Öffnungszeiten</strong><br>Mo – Do: 8 – 17 Uhr<br>Fr: 8 – 16 Uhr</p>
+
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+ 
+		</div>
+	
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+</div></div>
+
+
+
+<div  id="services" class="wp-block-group has-background" style="background-color:#d8b389"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+		<div  class="block-9f9d5532-f374-458a-8019-b746977b7ee9 areoi-element container">
+			
+			
+
+		<div  class="block-098084ca-9d0f-46d2-816d-9c0e873b904a row areoi-element">
+			
+
+			
+
+		<div  class="block-63b46b9c-3c5f-4897-9c3b-6de682aa1bef col areoi-element">
+			
+			
+
+<h2 class="wp-block-heading has-white-color has-text-color">Unsere Dienstleistungen</h2>
+
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+ 
+		</div>
+	
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<div  class="block-86408f84-5d28-43b5-944d-ebfb7859123e areoi-element container">
+			
+			
+
+		<div  class="block-5c5f4285-9ebd-495b-894b-adde6cf9f684 row areoi-element">
+			
+
+			
+
+		<div  class="block-35c327ff-ab5c-46e1-a870-50a5f0ea0368 col areoi-element">
+			
+			
+
+		<div  class="block-c2ce8d89-d1e9-4aff-b2e5-a497bd5ab014 accordion">
+			
+
+		<div  class="block-e47496b3-5701-4207-9dc6-2645e639902d accordion-item">
+
+			<p 
+				class="accordion-header" 
+				id="block-e47496b3-5701-4207-9dc6-2645e639902d-header"
+			>
+				<button 
+					class="accordion-button collapsed" 
+					type="button" 
+					data-bs-toggle="collapse" 
+					data-bs-target="#block-e47496b3-5701-4207-9dc6-2645e639902d-collapse" 
+					aria-expanded="false" 
+					aria-controls="block-e47496b3-5701-4207-9dc6-2645e639902d-collapse"
+				>
+					<strong>Finanz- und Rechnungswesen</strong>
+				</button>
+			</p>
+
+			<div 
+				id="block-e47496b3-5701-4207-9dc6-2645e639902d-collapse" 
+				class="accordion-collapse collapse" 
+				aria-labelledby="block-e47496b3-5701-4207-9dc6-2645e639902d-header"
+				data-bs-parent=".block-c2ce8d89-d1e9-4aff-b2e5-a497bd5ab014"
+			>
+				<div class="accordion-body">
+					
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ul class="wp-block-list">
+<li>Organisieren, Einrichten und Führen der Finanzbuchhaltung </li>
+
+
+
+<li>Abschlussberatungen, Auswertungen und Zukunftsplanungen </li>
+
+
+
+<li>Lohnbuchhaltung inkl. Zahlungsverkehr, Jahresendauswertungen und -abrechnungen, Lohnausweise</li>
+
+
+
+<li>Debitoren- und Kreditoren-Buchhaltung </li>
+
+
+
+<li>Temporäreinsätze des SBT-Personals direkt beim Kunden</li>
+
+
+
+<li>Unterstützung bei der Evaluation und Einführung der Buchhaltungssoftware </li>
+
+
+
+<li>Vertrieb von Abaweb (Erfassung durch Klient)</li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+ 
+				</div>
+			</div>
+		</div>
+	
+
+
+		<div  class="block-84504946-ce9c-439f-9305-3ee77bebc6b6 accordion-item">
+
+			<p 
+				class="accordion-header" 
+				id="block-84504946-ce9c-439f-9305-3ee77bebc6b6-header"
+			>
+				<button 
+					class="accordion-button collapsed" 
+					type="button" 
+					data-bs-toggle="collapse" 
+					data-bs-target="#block-84504946-ce9c-439f-9305-3ee77bebc6b6-collapse" 
+					aria-expanded="false" 
+					aria-controls="block-84504946-ce9c-439f-9305-3ee77bebc6b6-collapse"
+				>
+					<strong>Steuern allgemein</strong>
+				</button>
+			</p>
+
+			<div 
+				id="block-84504946-ce9c-439f-9305-3ee77bebc6b6-collapse" 
+				class="accordion-collapse collapse" 
+				aria-labelledby="block-84504946-ce9c-439f-9305-3ee77bebc6b6-header"
+				data-bs-parent=".block-c2ce8d89-d1e9-4aff-b2e5-a497bd5ab014"
+			>
+				<div class="accordion-body">
+					
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ul class="wp-block-list">
+<li>Steuererklärungen für natürliche und juristische Personen in der ganzen Schweiz</li>
+
+
+
+<li>Spezialsteuererklärungen bei Liegenschaften, Erbengemeinschaften, Todesfällen usw.</li>
+
+
+
+<li>Vertretungen vor Steuerbehörden, Einsprache- und Rekursverfahren</li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+ 
+				</div>
+			</div>
+		</div>
+	
+
+
+		<div  class="block-6c316830-64cb-4a3b-9a12-a52b3f83967c accordion-item">
+
+			<p 
+				class="accordion-header" 
+				id="block-6c316830-64cb-4a3b-9a12-a52b3f83967c-header"
+			>
+				<button 
+					class="accordion-button collapsed" 
+					type="button" 
+					data-bs-toggle="collapse" 
+					data-bs-target="#block-6c316830-64cb-4a3b-9a12-a52b3f83967c-collapse" 
+					aria-expanded="false" 
+					aria-controls="block-6c316830-64cb-4a3b-9a12-a52b3f83967c-collapse"
+				>
+					<strong>Mehrwertsteuer im Speziellen</strong>
+				</button>
+			</p>
+
+			<div 
+				id="block-6c316830-64cb-4a3b-9a12-a52b3f83967c-collapse" 
+				class="accordion-collapse collapse" 
+				aria-labelledby="block-6c316830-64cb-4a3b-9a12-a52b3f83967c-header"
+				data-bs-parent=".block-c2ce8d89-d1e9-4aff-b2e5-a497bd5ab014"
+			>
+				<div class="accordion-body">
+					
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ul class="wp-block-list">
+<li>Begleitung und Betreuung bei Revisionen </li>
+
+
+
+<li>Vertiefte Beratung und Abklärungen bei Unsicherheiten </li>
+
+
+
+<li>Risikoanalysen</li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+ 
+				</div>
+			</div>
+		</div>
+	
+
+
+		<div  class="block-a99d675c-fa5d-4069-9b3d-7419e43099e2 accordion-item">
+
+			<p 
+				class="accordion-header" 
+				id="block-a99d675c-fa5d-4069-9b3d-7419e43099e2-header"
+			>
+				<button 
+					class="accordion-button collapsed" 
+					type="button" 
+					data-bs-toggle="collapse" 
+					data-bs-target="#block-a99d675c-fa5d-4069-9b3d-7419e43099e2-collapse" 
+					aria-expanded="false" 
+					aria-controls="block-a99d675c-fa5d-4069-9b3d-7419e43099e2-collapse"
+				>
+					<strong>Unternehmensberatung und -sanierung</strong>
+				</button>
+			</p>
+
+			<div 
+				id="block-a99d675c-fa5d-4069-9b3d-7419e43099e2-collapse" 
+				class="accordion-collapse collapse" 
+				aria-labelledby="block-a99d675c-fa5d-4069-9b3d-7419e43099e2-header"
+				data-bs-parent=".block-c2ce8d89-d1e9-4aff-b2e5-a497bd5ab014"
+			>
+				<div class="accordion-body">
+					
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ul class="wp-block-list">
+<li>Unternehmensbewertungen, Gutachten und Expertisen </li>
+
+
+
+<li>Betriebsanalysen, Beratung für Aufbau- und Ablauforganisation </li>
+
+
+
+<li>Beratung und Unterstützung beim Kauf oder Verkauf von Unternehmen oder Teilen davon </li>
+
+
+
+<li>Gründungen, Sanierungen, Umstrukturierungen und Liquidationen Nachfolgeregelungen </li>
+
+
+
+<li>Beratung und Unterstützung bei Finanzierungen und Investitionen</li>
+
+
+
+<li>Verwaltungsratsmandate</li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+ 
+				</div>
+			</div>
+		</div>
+	
+
+
+		<div  class="block-9fac43fd-87c8-49b1-bf36-fafbe0010f34 accordion-item">
+
+			<p 
+				class="accordion-header" 
+				id="block-9fac43fd-87c8-49b1-bf36-fafbe0010f34-header"
+			>
+				<button 
+					class="accordion-button collapsed" 
+					type="button" 
+					data-bs-toggle="collapse" 
+					data-bs-target="#block-9fac43fd-87c8-49b1-bf36-fafbe0010f34-collapse" 
+					aria-expanded="false" 
+					aria-controls="block-9fac43fd-87c8-49b1-bf36-fafbe0010f34-collapse"
+				>
+					<strong>Betriebsbuchhaltung, Controlling und Coaching</strong>
+				</button>
+			</p>
+
+			<div 
+				id="block-9fac43fd-87c8-49b1-bf36-fafbe0010f34-collapse" 
+				class="accordion-collapse collapse" 
+				aria-labelledby="block-9fac43fd-87c8-49b1-bf36-fafbe0010f34-header"
+				data-bs-parent=".block-c2ce8d89-d1e9-4aff-b2e5-a497bd5ab014"
+			>
+				<div class="accordion-body">
+					
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ul class="wp-block-list">
+<li>Einrichten und Führen der Betriebsbuchhaltung, Kalkulationsberatung, Profit-Center-Rechnungen </li>
+
+
+
+<li>Diverse Auswertungen als Führungsmittel (kurzfristige Erfolgsrechnung, Budgets, Finanzpläne, Bilanz- und Erfolgsanalysen, Liquiditätspläne etc.) </li>
+
+
+
+<li>Controlling und Coaching der finanziellen und strategischen Geschäftsführung </li>
+
+
+
+<li>Ausarbeiten von Businessplänen</li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+ 
+				</div>
+			</div>
+		</div>
+	
+
+
+		<div  class="block-8e717c41-178c-422d-810c-f4ef2da27e2b accordion-item">
+
+			<p 
+				class="accordion-header" 
+				id="block-8e717c41-178c-422d-810c-f4ef2da27e2b-header"
+			>
+				<button 
+					class="accordion-button collapsed" 
+					type="button" 
+					data-bs-toggle="collapse" 
+					data-bs-target="#block-8e717c41-178c-422d-810c-f4ef2da27e2b-collapse" 
+					aria-expanded="false" 
+					aria-controls="block-8e717c41-178c-422d-810c-f4ef2da27e2b-collapse"
+				>
+					<strong>Steuer-, Vorsorge- und Versicherungsplanung</strong>
+				</button>
+			</p>
+
+			<div 
+				id="block-8e717c41-178c-422d-810c-f4ef2da27e2b-collapse" 
+				class="accordion-collapse collapse" 
+				aria-labelledby="block-8e717c41-178c-422d-810c-f4ef2da27e2b-header"
+				data-bs-parent=".block-c2ce8d89-d1e9-4aff-b2e5-a497bd5ab014"
+			>
+				<div class="accordion-body">
+					
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ul class="wp-block-list">
+<li>Vertiefte Steuerplanungen und -optimierungen für Unternehmen und Einzelpersonen</li>
+
+
+
+<li>Vorsorgeplanungen: kann ich mich mit 55/60 pensionieren lassen und ähnliche Fragestellungen </li>
+
+
+
+<li>Versicherungsüberprüfungen und -optimierungen</li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+ 
+				</div>
+			</div>
+		</div>
+	
+
+
+		<div  class="block-69b85110-e804-4a28-aa66-b3f25705a972 accordion-item">
+
+			<p 
+				class="accordion-header" 
+				id="block-69b85110-e804-4a28-aa66-b3f25705a972-header"
+			>
+				<button 
+					class="accordion-button collapsed" 
+					type="button" 
+					data-bs-toggle="collapse" 
+					data-bs-target="#block-69b85110-e804-4a28-aa66-b3f25705a972-collapse" 
+					aria-expanded="false" 
+					aria-controls="block-69b85110-e804-4a28-aa66-b3f25705a972-collapse"
+				>
+					<strong>Rechtsberatung</strong>
+				</button>
+			</p>
+
+			<div 
+				id="block-69b85110-e804-4a28-aa66-b3f25705a972-collapse" 
+				class="accordion-collapse collapse" 
+				aria-labelledby="block-69b85110-e804-4a28-aa66-b3f25705a972-header"
+				data-bs-parent=".block-c2ce8d89-d1e9-4aff-b2e5-a497bd5ab014"
+			>
+				<div class="accordion-body">
+					
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ul class="wp-block-list">
+<li>Erstellen und Prüfen von Arbeits-, Miet-, Darlehens-, Kauf- und ähnlichen Verträgen aus dem Handels- und Gesellschaftsrecht </li>
+
+
+
+<li>Beratung und Durchführung im Ehe- und Erbrecht: Testamente, Ehe- und Erbverträge, Willensvollstreckungen, Erbteilungen</li>
+</ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+ 
+				</div>
+			</div>
+		</div>
+	
+ 
+		</div>
+	
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+ 
+		</div>
+	
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+</div></div>
+
+
+
+<div  class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<div  class="block-e617b644-f134-45c5-903a-e3f2841ff135 areoi-element container">
+			
+			
+
+		<div  class="block-3163b547-21a4-4254-a204-b3643d7af49c row areoi-element">
+			
+
+			
+
+		<div  class="block-a398b70d-9897-4588-ab57-e51ba5c6a232 col areoi-element col-12">
+			
+			
+
+<blockquote class="wp-block-quote has-text-align-center is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph">«Every age has the Stonehenge it deserves – or desires.»</p>
+<cite>Jacquetta Hawkes</cite></blockquote>
+
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+ 
+		</div>
+	</div></div>
+
+
+
+<div  id="team" class="wp-block-group has-background" style="background-color:#d8b389"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<div  class="block-d34cc09d-e560-4975-aeb3-3adf7e58ce2f areoi-element container">
+			
+			
+
+		<div  class="block-a3645812-1bd6-4a00-a56d-7b32b317ed10 row areoi-element">
+			
+
+			
+
+		<div  class="block-31a96392-b9dd-4076-bc05-2a69d02c9719 col areoi-element col-12">
+			
+			
+
+<h2 class="wp-block-heading has-white-color has-text-color">Das Team</h2>
+
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+
+
+		<div  class="block-f5bc4f2d-9b08-4199-915c-474225b3b258 row areoi-element">
+			
+
+			
+
+		<div  class="block-75a08c2a-22fa-4a59-b8dc-dd00a883dd8e col areoi-element col-12">
+			
+			
+<div class="team-block row">
+  <div class="col-12 col-lg-3 text-white"><div class="team-img"><?xml version="1.0" encoding="UTF-8"?><svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 377.51 361.95"><g id="Ebene_1-2"><g><g><g><path stroke="white" stroke-width="1" fill="white" d="M165.9,249.69c-1.6,0-3.01-.07-4.19-.18-9.61-.96-18.46-9.29-24.19-16.11-6.71-8-11.1-16.11-11.96-18.68-.91-2.73-1.34-8.82-1.79-15.27-.42-6.02-.85-12.25-1.67-14.71-1.74-5.22-8.87-48.54,.01-72.82,2.98-8.15,10.18-15.54,21.4-21.96,20.15-11.54,44.28-12.42,64.55-2.35,7.03,3.49,11.78,7.44,14.15,11.76,4.81,8.79,2.69,11.98,.99,14.54-1.32,1.99-2.28,3.43,.42,7.9,5.04,8.32,8.39,20.66,9.79,26.5,1.56-2.72,4.44-6.52,9.13-8.53,0-5.33-.44-37.12-10.45-50.71-7.41-10.07-12.4-12.66-16.4-14.74-2.02-1.05-3.76-1.95-5.39-3.58-11.47-11.47-30.62-9.06-41.01-6.61-25.71,6.07-52.88,21.52-55.62,42.36-1.84,13.97-.85,23.77-.19,30.25,.38,3.75,.63,6.22,.16,7.87-.17,.61-.81,.96-1.42,.79-.61-.17-.96-.81-.79-1.42,.35-1.23,.11-3.65-.23-7.01-.67-6.59-1.67-16.55,.2-30.78,1.36-10.35,8.34-20.17,20.19-28.4,10-6.95,23.21-12.6,37.18-15.9,10.86-2.56,30.91-5.03,43.16,7.22,1.38,1.38,2.9,2.17,4.83,3.17,3.99,2.07,9.46,4.91,17.2,15.41,11.34,15.41,10.91,51.35,10.89,52.87,0,.47-.31,.89-.75,1.06-7.16,2.65-9.95,10.46-9.98,10.54-.17,.49-.63,.79-1.16,.77-.52-.04-.95-.41-1.05-.92-.04-.18-3.79-18.38-10.23-29.04-3.46-5.71-1.82-8.18-.37-10.36,1.5-2.26,3.05-4.6-1.09-12.17-2.13-3.9-6.56-7.53-13.15-10.81-19.58-9.72-42.91-8.87-62.39,2.29-10.73,6.15-17.59,13.13-20.38,20.75-8.61,23.54-1.49,66.8,.01,71.31,.91,2.73,1.34,8.83,1.79,15.27,.42,6.02,.85,12.25,1.67,14.71,1.47,4.4,17.17,31.53,34.19,33.23,10.84,1.08,41.22-2.45,60.83-20,11.03-9.87,16.71-22.55,16.89-37.68,0-.31,.13-.6,.35-.81,.15-.14,14.48-14.24,10.62-33.54-.96-4.82-2.57-7.74-4.52-8.21-1.47-.36-3.38,.71-5.09,2.87-2.32,2.92-3.54,6.87-2.65,8.64,.28,.57,.05,1.26-.51,1.54s-1.26,.05-1.54-.51c-1.48-2.97,.39-7.94,2.91-11.1,2.32-2.91,5.02-4.25,7.43-3.67,2.95,.71,5.04,4.08,6.23,9.99,3.81,19.08-8.62,32.92-10.94,35.3-.29,15.59-6.23,28.68-17.64,38.89-18.04,16.14-44.93,20.75-58.4,20.75Z"/><path stroke="white" stroke-width="1" fill="white" d="M170,195.87s-.06,0-.08,0c-3.14-.04-5.79-2.71-7.07-4.28-.67,.52-1.62,1.05-2.8,1.09-1.42,.05-2.78-.65-4-2.08-3.08-3.61-1.43-11.05,.32-18.93,1.86-8.36,3.97-17.84-.22-21.6-7.42-6.67-22.86,1.17-24.51,2.67-.28,.42-.81,.61-1.31,.45-.6-.2-.93-.85-.73-1.45,.44-1.33,6.64-4.35,11.64-5.67,7.03-1.86,12.72-1.06,16.45,2.3,5.18,4.66,3.02,14.4,.92,23.81-1.55,6.98-3.16,14.21-.82,16.94,.74,.86,1.47,1.3,2.17,1.27,1.16-.03,2.08-1.21,2.09-1.22,.23-.29,.58-.45,.95-.45,.37,.01,.71,.2,.92,.51,.79,1.2,3.42,4.32,6.02,4.35,1.39,.03,2.69-.85,3.9-2.58,2.55-3.65,5.25-3.16,7.03-2.83,1.54,.28,1.86,.34,2.35-1.36,1.62-5.69-2.28-12.75-6.06-19.59-3.52-6.36-6.84-12.37-5.81-17.37,.13-.62,.73-1.02,1.36-.89,.62,.13,1.02,.74,.89,1.36-.86,4.16,2.26,9.81,5.57,15.79,4,7.24,8.14,14.73,6.26,21.33-1.06,3.71-3.41,3.28-4.97,2.99-1.62-.3-3.02-.56-4.73,1.89-1.65,2.37-3.58,3.57-5.74,3.57Zm-38.22-43.42s0,0,0,0c0,0,0,0,0,0Z"/><path stroke="white" stroke-width="1" fill="white" d="M209.38,196.48c-.35,0-.7-.16-.93-.47-8.32-11.37-24.97-16.76-25.14-16.81-.6-.19-.94-.84-.75-1.44,.19-.61,.84-.94,1.44-.75,.71,.23,17.53,5.66,26.3,17.64,.37,.51,.26,1.23-.25,1.61-.2,.15-.44,.22-.68,.22Z"/><path stroke="white" stroke-width="1" fill="white" d="M177.96,146.03c-.41,0-.81-.22-1.01-.61-.3-.56-.09-1.25,.47-1.55,.23-.12,5.62-2.97,12.63-4.64,9.45-2.25,17.28-1.21,22.63,3.03,.5,.39,.58,1.12,.19,1.61-.39,.5-1.12,.58-1.61,.19-11.66-9.22-32.55,1.73-32.76,1.84-.17,.09-.36,.13-.54,.13Z"/><path stroke="white" stroke-width="1" fill="white" d="M195.12,161.93c-5.83,0-11.96-.67-13.39-3.34-.72-1.34-.36-2.89,1.06-4.6,7.76-9.29,24.95-.66,25.68-.29,.56,.29,.79,.98,.5,1.54-.29,.57-.98,.79-1.54,.5-.16-.08-16.29-8.17-22.87-.29-.43,.52-1.11,1.47-.8,2.04,1.24,2.3,12.41,2.58,22.05,1.52,.63-.08,1.2,.38,1.27,1.02,.07,.63-.39,1.2-1.02,1.27-1.62,.18-6.17,.63-10.93,.63Z"/><path stroke="white" stroke-width="1" fill="white" d="M145,164.85c-4.35,0-8.52-.41-10-.58-.58-.06-.99-.58-.93-1.16,.06-.58,.58-1.01,1.16-.93,8.82,.97,19.04,.72,20.17-1.39,.28-.52-.34-1.39-.73-1.87-6.03-7.21-20.78,.19-20.92,.26-.52,.26-1.15,.06-1.41-.46-.26-.52-.06-1.15,.46-1.41,.67-.34,16.39-8.23,23.49,.26,1.3,1.56,1.63,2.98,.97,4.21-1.31,2.44-6.92,3.06-12.25,3.06Z"/><path stroke="white" stroke-width="1" fill="white" d="M236.48,183.41c-.25,0-.5-.09-.7-.27-.43-.39-.47-1.05-.09-1.48,.05-.05,4.6-5.2,8.53-11.73,3.49-5.8-1.28-9.69-1.48-9.86-.45-.36-.53-1.02-.17-1.47,.36-.46,1.02-.54,1.47-.18,.06,.05,6.44,5.18,1.98,12.59-4.04,6.7-8.57,11.83-8.76,12.04-.21,.23-.5,.35-.79,.35Z"/><path stroke="white" stroke-width="1" fill="white" d="M164.25,214.61c-2.74,0-5.69-.15-8.88-.47-.58-.06-1-.57-.94-1.15,.06-.58,.57-1,1.15-.94,29.24,2.93,37.72-8.63,40.08-14.14-14.69,9.75-25.95,10.73-32.95,9.73-8.12-1.15-12.39-5.04-12.57-5.21-.33-.31-.43-.79-.24-1.2,.18-.41,.6-.66,1.05-.62,.13,.01,12.64,1.14,17.81,.58,1.28-.14,1.57-.69,1.66-.87,.72-1.39-.53-4.21-1.03-5.09-.28-.51-.1-1.15,.4-1.43,.51-.28,1.15-.1,1.43,.4,.25,.45,2.42,4.46,1.06,7.09-.41,.79-1.31,1.78-3.3,2-3.46,.38-9.82,.05-14.04-.25,6.14,3.07,20.52,6.77,42-8.57,.34-.25,.8-.26,1.16-.04,.36,.22,.55,.64,.49,1.05-.03,.21-3.29,19.13-34.35,19.13Z"/><path stroke="white" stroke-width="1" fill="white" d="M168.81,286.57c-.54,0-1.06-.04-1.54-.12-11.04-1.84-26.83-17.98-26.39-30.05,.42-11.35-3.17-22.99-3.21-23.11-.17-.55,.14-1.14,.69-1.32,.55-.17,1.14,.14,1.32,.69,.15,.49,3.74,12.1,3.3,23.82-.41,10.96,14.56,26.22,24.63,27.9,8.51,1.41,34.45-14.68,48.29-32.47l.37-.48c11.63-14.95,13.42-17.25,14.61-32.94,.04-.58,.55-1.02,1.13-.97,.58,.04,1.01,.55,.97,1.13-1.24,16.32-3.35,19.03-15.05,34.07l-.37,.48c-11.71,15.06-36.99,33.37-48.75,33.37Z"/></g><path stroke="white" stroke-width="1" fill="white" d="M50.81,272.83c-18.21,0-35.09-3.95-50.24-11.77-.52-.27-.72-.9-.45-1.42,.27-.51,.9-.72,1.42-.45,16.59,8.56,35.3,12.39,55.6,11.38,25.52-1.27,53.65-10.23,83.6-26.62,.51-.28,1.15-.09,1.43,.42,.28,.51,.09,1.15-.42,1.43-30.23,16.55-58.66,25.59-84.5,26.88-2.16,.11-4.31,.16-6.43,.16Z"/><path stroke="white" stroke-width="1" fill="white" d="M376.46,290.96s-.03,0-.04,0c-28.88-1.1-49.14-3.1-60.21-5.94-14.01-3.6-32.58-14.51-55.2-32.44-16.8-13.32-29.69-25.75-29.82-25.87-.42-.4-.43-1.07-.02-1.49,.4-.42,1.07-.43,1.49-.02,.51,.49,51.3,49.36,84.08,57.78,10.92,2.81,31.03,4.79,59.76,5.88,.58,.02,1.03,.51,1.01,1.09-.02,.57-.49,1.01-1.05,1.01Z"/></g><rect stroke="white" stroke-width="0" fill="none" x="1.43" width="375" height="361.95"/></g></g></svg>
+</div><p class="fw-bold mb-0">Rosario De Carlo</p><p class="contact-jobname">VR-Präsident</p><p class="contact-icons"><a class="d-inline-block me-3" href="mailto:r.decarlo@sbt-treuhand.ch"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a><a data-bs-toggle="tooltip" data-bs-title="044 438 60 17" href="tel:+41444386017"><svg class="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg></a></p></div><div class="col-12 col-lg-3 text-white"><div class="team-img"><?xml version="1.0" encoding="UTF-8"?><svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 376.71 361.95"><g stroke="white" stroke-width="1" fill="white"><g><g><path stroke="white" stroke-width="1" fill="white" d="M84.23,285.4c-25.62,0-53.66-10.48-83.73-31.36-.53-.37-.66-1.09-.29-1.62s1.09-.66,1.62-.29c40.65,28.22,77.42,37.2,109.31,26.68,13.5-4.45,22.63-17.47,22.21-31.67l-1.63-55.25c-.02-.64,.49-1.18,1.13-1.2,.66,0,1.18,.49,1.2,1.13l1.63,55.25c.45,15.21-9.34,29.17-23.81,33.95-8.86,2.92-18.09,4.38-27.64,4.38Z"/><g><path stroke="white" stroke-width="1" fill="white" d="M183.4,257.24c-1.52,0-2.97-.12-4.32-.36-19.59-3.48-33.83-28.4-40.67-40.38l-.07-.12c-6.25-10.94-6.88-26.79-6.94-30.13-8.59-6.23-10.8-17.03-11.35-22.98-.77-8.38,.78-16.83,3.61-19.66,1.03-1.04,2.3-1.47,3.66-1.27,3.28,.49,6.56,4.76,8.46,7.72,1.43-7.85,5.34-28.11,8.52-33.41,4.11-6.84,11.77-14.63,24.94-12.88,6.16,.82,11.08,3.24,15.43,5.37,4.75,2.33,8.51,4.17,12.14,3.16,2.98-.83,5.7-2.61,8.33-4.33,3.87-2.53,7.87-5.15,12.55-4.44,8.8,1.33,20.54,5.91,20.96,30.26,.27,15.55,5.37,22.92,10.05,24.64,1.75,.64,3.08,.3,3.62-.32,2.44-2.79,8.74-41.11,6.54-50.37-2.2-9.26-26.08-46.71-39.26-47.11-10.41-.31-13.24,1.78-14.45,2.67-.51,.38-.99,.73-1.66,.73s-1.24-.42-2.66-1.43c-3.61-2.57-11.11-7.91-19.52-5.42-12.1,3.59-45.01,16.63-51.93,33.73-6.19,15.3-6.79,33.01-7.08,41.52-.04,1.29-.08,2.35-.13,3.14-.32,5.43-5.73,7.8-8.54,8.3-.63,.11-1.24-.31-1.35-.95-.11-.63,.31-1.24,.95-1.35,.26-.05,6.32-1.2,6.62-6.14,.05-.78,.08-1.82,.12-3.08,.29-8.65,.9-26.64,7.25-42.32,8.76-21.63,52.98-34.96,53.43-35.09,9.51-2.82,17.94,3.19,21.54,5.75,.48,.34,1.01,.72,1.33,.91,.08-.06,.17-.12,.26-.19,1.52-1.12,4.69-3.47,15.9-3.13,15.04,.46,39.47,40.56,41.46,48.9,2.22,9.34-3.72,48.63-7.05,52.44-1.32,1.51-3.69,1.89-6.18,.97-2.63-.96-11.22-5.73-11.58-26.79-.38-22.33-10.34-26.69-18.98-28-3.8-.57-7.26,1.69-10.92,4.09-2.78,1.82-5.65,3.7-8.98,4.62-4.49,1.25-8.8-.87-13.79-3.31-4.19-2.05-8.93-4.38-14.71-5.15-11.92-1.59-18.89,5.52-22.64,11.76-3.67,6.11-8.72,35.41-8.77,35.71l-.58,3.36-1.6-3.01c-1.79-3.36-5.64-8.85-8.38-9.26-.62-.09-1.15,.1-1.67,.61-2.02,2.02-3.71,9.4-2.94,17.8,.52,5.66,2.63,15.99,10.84,21.62l.51,.35v.61c0,.18,.08,18.1,6.64,29.58l.07,.12c6.67,11.67,20.54,35.95,39.06,39.24,9.46,1.68,24.46-3.45,37.3-12.78,10.43-7.58,17.26-16.41,18.27-23.62,1-7.14,1.48-12.7,1.83-16.76,.59-6.8,.89-10.21,2.68-12.3,2.36-2.75,8.45-19.25,6.23-23.32-1.39-2.54-3.99-2.92-5.4-2.56-.65,.17-1.33,.56-1.33,1.16,0,.64-.52,1.17-1.17,1.17s-1.17-.52-1.17-1.17c0-1.62,1.18-2.93,3.09-3.42,2.62-.66,6.21,.39,8.02,3.71,2.93,5.38-3.91,22.93-6.51,25.96-1.3,1.52-1.6,4.88-2.13,10.99-.36,4.08-.84,9.68-1.85,16.88-1.11,7.95-8.11,17.13-19.21,25.19-11.73,8.52-24.83,13.54-34.76,13.54Z"/><path stroke="white" stroke-width="1" fill="white" d="M186.86,199.23c-2.87,0-4.94-2.04-7.11-4.17-1.17-1.15-2.39-2.35-3.84-3.37-1.3-.92-1.92-1.95-1.82-3.08,.19-2.25,3.13-3.67,5.73-4.92,.79-.38,1.87-.9,2.09-1.13,1.12-1.17,7.2-12.5-.16-24.94-7.12-12.04-30.3-3.55-30.53-3.47-.6,.22-1.27-.08-1.5-.68-.23-.6,.08-1.27,.68-1.5,.25-.09,6.29-2.33,13.39-2.97,9.67-.88,16.57,1.69,19.97,7.43,8.2,13.87,1.18,26.34-.16,27.74-.49,.51-1.32,.92-2.77,1.62-1.41,.68-4.34,2.09-4.42,3.01-.01,.17,.2,.52,.84,.98,1.61,1.14,2.95,2.45,4.13,3.62,2.64,2.6,4.26,4.03,6.76,3.3,2.36-.7,3.93-2.19,5.19-3.39,1.26-1.2,2.34-2.24,3.8-2.03,.93,.13,2.55-.4,2.94-1.12,.23-.44-.18-1.04-.57-1.47-.85-.93-2.17-1.59-3.44-2.24-2.54-1.28-5.69-2.86-5.08-7.11-.05-1.69-.27-18.53,9.75-25.97,5.42-4.03,12.76-4.5,21.82-1.4,.61,.21,.93,.87,.73,1.48-.21,.61-.87,.93-1.48,.72-8.29-2.84-14.91-2.48-19.67,1.06-9.34,6.94-8.81,23.96-8.81,24.13v.11s-.01,.11-.01,.11c-.4,2.54,1.03,3.38,3.81,4.78,1.46,.74,2.98,1.5,4.12,2.75,1.7,1.87,1.3,3.39,.9,4.13-.98,1.86-3.77,2.56-5.33,2.34-.32-.04-1.18,.76-1.86,1.41-1.36,1.3-3.23,3.08-6.14,3.94-.69,.2-1.34,.3-1.95,.3Z"/><path stroke="white" stroke-width="1" fill="white" d="M210.59,169.53c-1.18,0-2.31-.12-3.35-.37-3.41-.83-5.33-3.01-5.41-6.14-.06-2.52,.8-4.47,2.56-5.78,5.52-4.12,18.25-.06,18.79,.11l.25,.08,.19,.18c1.8,1.72,2.2,3.75,1.12,5.72-1.92,3.5-8.52,6.2-14.15,6.2Zm.96-11.81c-2.3,0-4.41,.37-5.77,1.38-1.14,.85-1.67,2.11-1.62,3.85,.05,2.07,1.24,3.36,3.63,3.94,4.89,1.18,13.11-1.4,14.91-4.68,.36-.65,.61-1.55-.51-2.73-2.25-.7-6.72-1.76-10.64-1.76Z"/><path stroke="white" stroke-width="1" fill="white" d="M169.88,169.53c-5.63,0-12.23-2.69-14.15-6.2-1.07-1.96-.68-3.99,1.12-5.72l.19-.18,.25-.08c.54-.17,13.28-4.23,18.79-.11,1.76,1.32,2.62,3.26,2.56,5.78-.08,3.13-2,5.32-5.41,6.14-1.04,.25-2.17,.37-3.35,.37Zm-11.6-10.05c-1.12,1.18-.87,2.08-.51,2.73,1.8,3.29,10.02,5.87,14.91,4.68,2.39-.58,3.58-1.87,3.63-3.94,.04-1.74-.49-3-1.62-3.85-3.68-2.75-12.84-.73-16.41,.38Z"/><path stroke="white" stroke-width="1" fill="white" d="M186.09,227.77c-16.44,0-25.94-14.33-26.05-14.51l-2.12-3.28,3.57,1.58c21.54,9.53,35.05,7.5,42.59,4.13,3.35-1.5,5.65-3.33,7.02-4.74-3.57,.65-9.57,1.02-17.82,1.46l-3.03,.17c-10.27,.57-28.77-4.63-29.55-4.86l.41-2.28c.17,.01,17.35,1.42,24.1,.86,1.7-.14,2.03-.81,2.14-1.04,.76-1.54-.72-4.85-1.83-6.57-.35-.54-.19-1.26,.35-1.61,.54-.35,1.26-.19,1.61,.35,.37,.57,3.55,5.64,1.96,8.86-.47,.95-1.55,2.13-4.05,2.33-2.63,.21-6.69,.15-10.75-.02,5.34,1.04,11.22,1.88,15.47,1.64l3.04-.17c8.36-.45,17.84-.97,19.86-2.08,.66-.36,1.29-.15,1.62,.23,.71,.81,.1,1.89-.6,2.84-.57,.78-13.95,18.26-49.29,4.37,5.05,5.51,16.85,14.84,34.02,7.05,.59-.26,1.28,0,1.54,.58s0,1.28-.58,1.54c-4.96,2.25-9.52,3.15-13.64,3.15Z"/></g><path stroke="white" stroke-width="1" fill="white" d="M270.01,278.69c-14.57,0-27.22-.98-36.17-2.29-10-1.46-15.83-3.29-17.33-5.44-7.36-10.56-.42-27.91-.12-28.65,.24-.6,.92-.88,1.52-.64,.6,.24,.88,.92,.64,1.52-.07,.17-6.76,16.91-.12,26.43,.78,1.12,5.37,2.96,15.76,4.47,29.69,4.33,106.32,4.63,140.65-22.69,.5-.4,1.24-.32,1.64,.19,.4,.5,.32,1.24-.19,1.64-18.87,15.02-49.26,21.11-71.44,23.57-12.17,1.35-24.03,1.89-34.83,1.89Z"/></g><rect stroke="white" stroke-width="0" fill="none" x="1.17" width="375" height="361.95"/></g></g></svg></div><p class="fw-bold mb-0">Alain Bosshard</p><p class="contact-jobname">VR-Vice-Präsident</p><p class="contact-icons"><a class="d-inline-block me-3" href="mailto:a.bosshard@sbt-treuhand.ch"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a><a data-bs-toggle="tooltip" data-bs-title="044 438 60 14" href="tel:+41444386014"><svg class="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg></a></p></div><div class="col-12 col-lg-3 text-white"><div class="team-img"><?xml version="1.0" encoding="UTF-8"?><svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 376.44 361.95"><g id="Ebene_2-2"><g><g><path stroke="white" stroke-width="1" fill="white" d="M25.29,286.83c-8.91,0-17.15-.36-24.22-.95-.64-.05-1.12-.62-1.06-1.26,.05-.64,.63-1.11,1.26-1.06,22.65,1.89,57.46,1.38,87.24-5.73,23.79-5.68,53.13-17.8,57.78-43.24,.12-.63,.72-1.05,1.36-.94,.63,.12,1.05,.72,.94,1.36-3.86,21.11-24.45,36.71-59.54,45.09-20.74,4.96-43.89,6.74-63.75,6.74Z"/><g><path stroke="white" stroke-width="1" fill="white" d="M179.15,245.56c-10.07,0-31.26-5.57-41.75-26.56-5.27-10.53-7.29-26.34-6-46.98,.95-15.31,3.47-27.73,3.5-27.85,.38-1.58,9.33-37.87,33.97-40.74,25.91-3.02,46.28,3.58,50.7,16.43,1.58,4.6,3.14,7.71,4.51,10.47,2.41,4.82,4.14,8.31,3.59,15.51-1.76,23.03,.64,26.53,1.75,26.97,1.68,.65,5.29-3.89,7.68-6.9,1.61-2.02,3.12-3.93,4.37-4.9,.47-.36,1.14-.28,1.5,.19,.36,.47,.28,1.14-.19,1.5-1.05,.81-2.49,2.62-4.01,4.54-3.43,4.33-6.98,8.81-10.14,7.56-2.56-1-4.94-5.25-3.11-29.13,.51-6.61-1.04-9.71-3.37-14.39-1.33-2.67-2.99-6-4.62-10.73-4.08-11.87-23.54-17.91-48.43-15-23.15,2.7-32.04,38.71-32.12,39.08-.09,.45-9.85,49.05,2.33,73.42,12.08,24.16,39.39,26.83,43.69,24.89,.7-.31,1.79-.68,3.18-1.16,7.98-2.7,26.67-9.03,35.43-26.55,2.88-5.76,4.66-9.54,5.84-12.04,2.38-5.04,2.52-5.34,4.4-5.87,.47-.13,1.06-.3,1.95-.71,3.59-1.66,10.23-10.14,12.1-16.55,.68-2.33,.66-4.15-.06-5.27-1.02-1.59-2.13-2.48-3.31-2.64-1.5-.22-2.72,.84-2.74,.85-.44,.39-1.12,.35-1.51-.09-.39-.44-.36-1.11,.08-1.5,.08-.07,1.93-1.71,4.43-1.38,1.83,.25,3.46,1.46,4.84,3.61,1.08,1.68,1.19,4.04,.32,7.03-2.1,7.2-9.16,16-13.26,17.89-1.05,.48-1.75,.68-2.27,.83q-.94,.27-3.05,4.73c-1.18,2.51-2.97,6.3-5.86,12.08-9.15,18.31-28.42,24.84-36.65,27.62-1.33,.45-2.39,.81-2.99,1.08-.92,.42-2.57,.67-4.73,.67Z"/><path stroke="white" stroke-width="1" fill="white" d="M133.94,157.95c-.45,0-.88-.29-1.02-.75-.5-1.57-12.15-38.67-4.8-53.89,2.2-4.56,3.74-9.1,5.09-13.1,3.09-9.15,5.54-16.38,13.49-14.15,3.43,.96,5.13-.8,7.06-4.39,.28-.52,.93-.71,1.45-.43,.52,.28,.71,.93,.43,1.45-1.97,3.66-4.49,6.85-9.52,5.44-5.73-1.6-7.58,3.02-10.88,12.78-1.37,4.06-2.93,8.67-5.19,13.35-6.98,14.45,4.79,51.93,4.91,52.31,.18,.56-.13,1.17-.7,1.34-.11,.03-.22,.05-.32,.05Z"/><path stroke="white" stroke-width="1" fill="white" d="M246.23,158.59c-3.79,0-4.28-.73-4.47-1.02-.22-.33-.25-.82-.07-1.16,.2-.37,.59-.6,1.02-.6h0c.35,0,.66,.17,.86,.43,.64,.15,2.58,.42,7.5-.07,.83-.08,1.64-.66,2.41-1.71,5.16-7.05,6.15-31.87,3.16-45.95-2.38-11.17-15.3-22.43-26.7-32.37-3.17-2.77-6.17-5.38-8.91-7.94-10.97-10.29-36.5-7.89-50.22-6.6-1.92,.18-3.6,.34-4.98,.44-3.37,.24-4.65,1.19-5.46,2.08-2.01,2.23-1.86,5.83,.35,8.21,18.6,19.96,62.61,37.84,63.06,38.02,.55,.22,.81,.84,.59,1.39-.22,.55-.84,.81-1.39,.59-.45-.18-44.9-18.24-63.82-38.55-2.96-3.18-3.13-8.06-.37-11.1,1.53-1.69,3.66-2.55,6.9-2.78,1.37-.1,3.03-.25,4.93-.43,14.05-1.32,40.21-3.78,51.88,7.17,2.71,2.54,5.69,5.14,8.85,7.89,11.65,10.16,24.86,21.67,27.39,33.53,3.11,14.63,2.08,40-3.52,47.66-1.15,1.56-2.47,2.43-3.93,2.57-2.13,.21-3.78,.29-5.06,.29Z"/><path stroke="white" stroke-width="1" fill="white" d="M181.43,298.66c-4.63,0-8.31-1.75-9.74-4.78-2.55-5.4-5.85-11.48-9.04-17.37-5.32-9.81-10.82-19.96-13.09-27.31-4.48-14.51-3.04-17.95-2.7-18.49,.31-.5,.97-.66,1.47-.35,.5,.31,.66,.97,.35,1.47h0s-1.25,3.21,2.93,16.73c2.21,7.15,7.66,17.2,12.93,26.92,3.2,5.91,6.52,12.03,9.1,17.48,1.3,2.75,5.51,4.1,10.47,3.35,12.11-1.81,23.59-15.01,26.17-23.31,3.69-11.87,9.68-54.3,9.74-54.73,.08-.58,.61-1,1.21-.91,.58,.08,.99,.62,.91,1.21-.25,1.75-6.07,43.03-9.82,55.07-2.81,9.03-14.78,22.83-27.9,24.79-1.03,.15-2.02,.23-2.98,.23Z"/><path stroke="white" stroke-width="1" fill="white" d="M179.32,264.74c-9.15,0-18.97-2.97-28.26-11.56-.43-.4-.46-1.08-.06-1.51s1.08-.46,1.51-.06c11.98,11.07,26.2,13.87,42.27,8.33,12.1-4.17,20.76-11.77,20.85-11.84,.44-.39,1.12-.35,1.51,.09,.39,.44,.35,1.12-.09,1.51-.25,.22-17.3,15.04-37.73,15.04Z"/><path stroke="white" stroke-width="1" fill="white" d="M179.97,197.82c-2.76,0-5.44-.9-6.92-3.15-.36-.55-1.08-1.28-1.85-2.05-1.5-1.5-3.19-3.2-3.65-4.99-.71-2.79,.94-5.2,2.85-8,2.64-3.86,5.92-8.67,5.16-16.88-.22-2.37-1.25-4.21-3.15-5.61-7.59-5.58-25.73-1.81-25.91-1.77-.58,.12-1.15-.25-1.27-.82s.25-1.15,.82-1.27c.78-.17,19.27-4.01,27.62,2.14,2.39,1.76,3.74,4.16,4.02,7.14,.83,8.98-2.84,14.36-5.53,18.29-1.75,2.56-3.01,4.41-2.54,6.26,.31,1.22,1.85,2.77,3.09,4.01,.85,.85,1.65,1.65,2.13,2.39,1.59,2.43,5.39,2.6,8.46,1.69,2.99-.88,6.48-3.18,6.5-6.75,.01-2.77-1.61-4.8-3.32-6.95-2.37-2.97-5.05-6.34-3.25-11.91,.18-.56,.78-.87,1.35-.69,.56,.18,.87,.79,.69,1.35-1.44,4.47,.56,7,2.89,9.91,1.87,2.35,3.8,4.78,3.79,8.3-.02,3.91-3.17,7.36-8.03,8.8-1.25,.37-2.6,.58-3.94,.58Z"/><path stroke="white" stroke-width="1" fill="white" d="M216.73,172.65c-.41,0-.8-.24-.98-.63-7.15-16-22.55-9.98-23.2-9.72-.54,.22-1.17-.04-1.39-.59-.22-.55,.04-1.17,.59-1.39,.18-.07,17.97-7.03,25.96,10.83,.24,.54,0,1.17-.54,1.41-.14,.06-.29,.09-.44,.09Z"/><path stroke="white" stroke-width="1" fill="white" d="M161.62,169.98c-4.21,0-9.49-1.24-11.65-1.79-.57-.15-.92-.73-.77-1.3,.15-.57,.73-.91,1.3-.77,6.35,1.63,13.81,2.41,14.79,.97,.17-.25,.05-.95-.81-2.12-5.34-7.3-14.06-1.23-14.43-.97-.48,.34-1.15,.23-1.49-.25-.34-.48-.23-1.15,.25-1.49,3.71-2.65,12.13-5.76,17.4,1.45,1.37,1.87,1.65,3.41,.86,4.59-.86,1.26-2.96,1.69-5.45,1.69Z"/><path stroke="white" stroke-width="1" fill="white" d="M205.34,176.95c-4.2,0-9.49-1.24-11.65-1.79-.57-.15-.92-.73-.77-1.3,.15-.57,.73-.91,1.3-.77,6.35,1.63,13.81,2.41,14.79,.97,.17-.25,.05-.95-.81-2.12-5.36-7.32-14.06-1.23-14.43-.97-.48,.34-1.15,.23-1.49-.25-.34-.48-.23-1.15,.25-1.49,3.71-2.65,12.13-5.76,17.4,1.45,1.36,1.87,1.65,3.41,.85,4.59-.86,1.26-2.96,1.69-5.45,1.69Z"/><path stroke="white" stroke-width="1" fill="white" d="M147.43,202.4c-.09,0-.17-.01-.26-.03-.57-.14-.92-.73-.78-1.3,2.35-9.33,16.42-14,17.02-14.19,.56-.18,1.17,.13,1.35,.69,.18,.56-.12,1.17-.69,1.35-.14,.04-13.54,4.49-15.6,12.67-.12,.49-.56,.81-1.04,.81Z"/><path stroke="white" stroke-width="1" fill="white" d="M181.65,217.02c-16.81,0-24.59-13.37-24.69-13.54-.24-.42-.16-.95,.19-1.29,.35-.34,.88-.4,1.3-.15,.21,.12,20.93,12.38,40.32,3.85,.54-.24,1.17,0,1.41,.55,.24,.54,0,1.17-.55,1.41-15.28,6.72-30.88,1.46-38.13-1.84,4.8,5.36,16.25,13.92,35.93,5.18,.54-.24,1.17,0,1.41,.54,.24,.54,0,1.17-.54,1.41-6.3,2.8-11.84,3.89-16.64,3.89Z"/></g><path stroke="white" stroke-width="1" fill="white" d="M310.59,274.52c-2.25,0-4.49-.06-6.7-.18-17.68-.97-34.01-5.81-48.55-14.39-24.76-14.6-35.88-35.3-35.99-35.51-.27-.51-.08-1.15,.44-1.42,.51-.27,1.15-.07,1.42,.44,.11,.2,11,20.45,35.29,34.73,22.4,13.18,61.15,23.84,118.5-.17,.53-.22,1.15,.03,1.38,.56,.22,.54-.03,1.15-.56,1.38-23.1,9.67-45,14.56-65.21,14.56Z"/></g><rect stroke="white" stroke-width="0" fill="none" x="1.21" width="375" height="361.95"/></g></g></svg>
+</div><p class="fw-bold mb-0">Heidi Ott</p><p class="contact-jobname">Treuhänderin</p><p class="contact-icons"><a class="d-inline-block me-3" href="mailto:h.ott@sbt-treuhand.ch"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a><a data-bs-toggle="tooltip" data-bs-title="044 438 60 13" href="tel:+41444386013"><svg class="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg></a></p></div><div class="col-12 col-lg-3 text-white"><div class="team-img"><?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator (http://vectornator.io/) --> <svg xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 376.7 362" xml:space="preserve"> <defs></defs> <g id="Ebene_1-2" vectornator:layerName="Ebene_1-2"> <g opacity="1"> <path d="M3.3 293.7C1.7 294.8 12.4 261 58.4 251C66 249.4 73.1 248.3 79.7 247.6" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M155 251C155 251 124.5 241.8 118.2 206.3C111.9 170.8 125.4 109 133 100.6C140.6 92.1 197.6 146.7 211.4 145.2C225.2 143.7 219.4 181.6 218.5 188.1C217.6 194.6 206.6 236.1 191.4 245.4C191.4 245.4 175.9 257.1 155 251L155 251Z" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M249.1 260.2C263.6 258.1 276.8 255.4 279.8 256.8C286.6 260.1 336.8 292.3 374.1 286.6" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M206.6 224.7C206.6 224.7 202.4 240.1 206.6 256C207.5 259.5 211.3 261.4 216.6 262.1" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M219.9 176.2C219.9 176.2 232.3 163.8 236.8 177.4C240.7 189 225.5 209.7 215 201.8" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M127.9 230.2C127.9 230.2 129.2 240.4 121.3 256C113.4 271.6 84.8 268.2 86.3 263.7C87.8 259.2 73.9 238.5 73.9 237.3C73.9 236.1 74.3 222.2 74.3 222.2C74.3 222.2 69.8 212 70.9 201.1C72 190.2 108.5 91.5 122.5 80.6C136.5 69.7 148.1 71.2 148.1 71.2C148.1 71.2 171.4 58.8 189.1 69.3C206.8 79.8 233.2 103.9 241.4 131.8C249.6 159.7 259.8 165.7 255.7 181.5C251.6 197.3 244.4 198.1 245.5 206C246.6 213.9 268.5 233.1 268.5 233.1C268.5 233.1 267.4 240.2 258.7 241.8C250 243.4 252.3 259.6 245.1 267.4C237.9 275.2 231.2 277.2 231.2 277.2C231.2 277.2 209.6 272.1 208.3 220.6" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M218.7 200.7C218.7 199.375 219.775 198.3 221.1 198.3C222.425 198.3 223.5 199.375 223.5 200.7C223.5 202.025 222.425 203.1 221.1 203.1C219.775 203.1 218.7 202.025 218.7 200.7Z" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M155 156.9C147.5 146.1 135.2 153.1 135.2 153.1" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M133.3 156.9C133.3 156.9 145.2 164.4 154.9 156.9" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M164.8 149.3C164.8 149.3 161.2 176.7 155 182C148.8 187.3 157.3 196.8 164.1 196C164.5 195.9 164.9 195.9 165.3 196C168.1 196.3 179.5 197.3 178.6 189.7C177.6 180.3 172.8 173.7 173.9 160.2" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M201.3 160.9C190.8 151.8 183.2 160.2 183.2 160.2C183.2 160.2 184.8 167.8 201.3 167.4" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M135.2 134.8C135.2 134.8 147.1 128.6 157.5 143" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M180.5 148.6C180.5 148.6 188 137.5 204 145.2" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M153.2 188.1C153.2 188.1 138.6 193.2 135.3 203.5" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M190 200.7C190 200.7 195.1 209 192.3 213.8" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M144.1 207.3C144.1 207.3 164.8 213.2 187 210.5" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> <path d="M144.1 211.1C144.1 211.1 145.6 217.9 160.9 220.6C176.2 223.3 185.2 213.8 185.2 213.8" fill="none" opacity="1" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path> </g> </g> </svg> </div><p class="fw-bold mb-0">Cornelia Schneider</p><p class="contact-jobname">Sachbearbeiterin</p><p class="contact-icons"><a class="d-inline-block me-3" href="mailto:c.schneider@sbt-treuhand.ch"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a><a data-bs-toggle="tooltip" data-bs-title="044 438 60 10" href="tel:+41444386010"><svg class="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg></a></p></div></div>
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+ 
+		</div>
+	
+
+
+<div style="height:70px" aria-hidden="true" class="wp-block-spacer"></div>
+</div></div>
+
+
+
+<div data-wpr-lazyrender="1" class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<div  class="block-5b0b27eb-6afe-4564-907d-9ffda2b96b38 areoi-element container">
+			
+			
+
+		<div  class="block-382059eb-4394-4c91-8857-aa60532c5b44 row areoi-element">
+			
+
+			
+
+		<div  class="block-af4f05d0-1f0e-42ce-a9f9-b76ef2c00b50 col areoi-element col-12">
+			
+			
+
+<h2 class="wp-block-heading">Mitgliedschaften</h2>
+
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+ 
+		</div>
+	
+
+<div class="partner-block">
+  <div class="container-fluid"><div class="marquee"><div class="partner_container"><a title="Treuhand Suisse" href="https://www.treuhandsuisse.ch/" target="_blank"><img width="743" height="418" decoding="async" loading="lazy" src="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/treu-suisse-logo.png" alt=""></a></div><div class="partner_container"><a title="Schweizer Verband für Rechnungslegung, Controlling und Rechnungswesen" href="https://www.veb.ch/" target="_blank"><img width="1030" height="580" decoding="async" loading="lazy" src="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/veb-logo.png" alt=""></a></div><div class="partner_container"><a title="Gesellschaft zur Förderung des Schweizerischen Instituts für Klein- und Mittelunternehmen (KMU-HSG) an der Universität St. Gallen" href="https://kmu.unisg.ch/de/" target="_blank"><img width="1864" height="1048" decoding="async" loading="lazy" src="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/kmu-hsg_logo_de_rgb_1884x686.jpeg" alt=""></a></div><div class="partner_container"><a title="Verband Zürcher Handelsfirmen" href="https://www.vzh.ch/" target="_blank"><img width="496" height="101" decoding="async" loading="lazy" src="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/vzh.png" alt=""></a></div><div class="partner_container"><a title="Expert Suisse" href="https://www.expertsuisse.ch/home" target="_blank"><img width="1021" height="354" decoding="async" loading="lazy" src="https://www.sbt-treuhand.ch/wp-content/uploads/2022/10/expertsuisse-logo.png" alt=""></a></div></div></div></div>
+
+
+<div style="height:75px" aria-hidden="true" class="wp-block-spacer"></div>
+</div></div>
+
+
+
+<div data-wpr-lazyrender="1" class="wp-block-group has-background" style="background-color:#d8b389"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<div  class="block-1b35aecf-2995-450f-8a15-ddd7c077e33c areoi-element container">
+			
+			
+
+		<div  class="block-95c44fc3-f458-4ef4-970d-192720a171b7 row areoi-element">
+			
+
+			
+
+		<div  class="block-21bf50d8-27d2-4008-8de7-63e359f2ba40 col areoi-element col-12">
+			
+			
+
+<h2 class="wp-block-heading has-white-color has-text-color">Über uns</h2>
+
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+
+
+		<div  class="block-cea4956a-4d97-4904-9700-c025c1c9931f row areoi-element">
+			
+
+			
+
+		<div  class="block-c80434c4-bb48-4672-8c2a-df4a6fa72b70 col areoi-element col-lg-6">
+			
+			
+
+<p class="wp-block-paragraph">Die Geschichte der SBT reicht zurück bis ins Jahr 1938. Dr. Jakob Viel gründete damals innerhalb seiner Anwaltskanzlei eine Treuhandabteilung, welche 1972 als Steuer-Bilanz-Treuhand AG verselbständigt wurde. </p>
+
+
+
+<p class="wp-block-paragraph">Über die Jahrzehnte hinweg entwickelte sich die SBT zu einem erfolgreichen Treuhand- und Beratungsunternehmen mit einem breiten Netz an treuen Kunden aus verschiedenen Branchen. Vertieftes Know-how haben wir dabei in den Bereichen Bäckereien-Konditoreien, Cafés, Gastrobetriebe, Dienstleistungen, Handel national und international sowie bei den freiberuflichen Zweigen.</p>
+
+ 
+			
+		</div>
+	
+
+
+		<div  class="block-40d77f63-4c0d-4546-93c5-d38d3d3d6c0e col areoi-element col-lg-6">
+			
+			
+
+<p class="wp-block-paragraph">Dank unserer jahrzehntelangen Praxiserfahrung, gepaart mit aktuellen Fachwissen aus ständiger Weiterbildung und ergänzt durch die enge Zusammenarbeit mit Spezialisten, bieten wir Ihnen heute ein umfassendes Dienstleistungsangebot. </p>
+
+
+
+<p class="wp-block-paragraph"><strong>Wir freuen uns, eine tragende Säule für den Erfolg Ihres Unternehmens zu bilden. Damit Sie sich auf Ihr Kerngeschäft konzentrieren können.</strong></p>
+
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+ 
+		</div>
+	
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+</div></div>
+
+
+
+<div data-wpr-lazyrender="1" class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<div  class="block-7ef8f7d3-7f7e-460a-96b1-d865a148ef18 areoi-element container">
+			
+			
+
+		<div  class="block-a39a21ca-14ff-4757-a923-2375229ca6e2 row areoi-element">
+			
+
+			
+
+		<div  class="block-fedeb875-6c0b-4395-af99-9b6365fb9475 col areoi-element col-12 col-lg-6">
+			
+			
+
+<h2 class="wp-block-heading">Unsere Werte und Leitgedanken</h2>
+
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+
+
+		<div  class="block-c91a79ed-b2dd-4d60-afad-b96825074110 row areoi-element">
+			
+
+			
+
+		<div  class="block-65f42692-945f-4a09-9f4f-795bbebf6dae col areoi-element col-lg-6">
+			
+			
+
+<p class="wp-block-paragraph">Wir stehen für Tradition und Seriosität vereint mit innovativen Problemlösungen, wobei immer die Bedürfnisse des einzelnen Kunden im Vordergrund stehen. Wir treten dabei als Generalunternehmer für all seine Probleme auf. Diese lösen wir professionell, speditiv und wenn nötig, zusammen mit ausgewiesenen Fachspezialisten, welche die gleichen Werte vertreten. Wir wollen und können mehr als das gesetzliche Minimum anbieten (Buchhaltung und Steuererklärung). Wir sehen nicht nur die Zahlen, sondern interessieren uns auch für die Menschen dahinter.</p>
+
+ 
+			
+		</div>
+	
+
+
+		<div  class="block-86ac7e25-ae7e-43b0-ad34-12ee9502aa49 col areoi-element col-lg-6">
+			
+			
+
+<figure class="wp-block-image size-large is-resized"><img width="896" height="394" decoding="async" src="https://www.sbt-treuhand.ch/wp-content/uploads/2022/12/stonehenge.svg" alt="" class="wp-image-503" style="width:612px;height:271px"/></figure>
+
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+ 
+		</div>
+	
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+</div></div>
+
+
+
+<div data-wpr-lazyrender="1" id="kontakt" class="wp-block-group has-background" style="background-color:#d8b389"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<div  class="block-e90b704e-2a1c-4706-af27-18726c221355 areoi-element container">
+			
+			
+
+		<div  class="block-611446fe-f914-492c-9185-1160188193f8 row areoi-element">
+			
+
+			
+
+		<div  class="block-d845f0c9-d8af-4713-a1e0-94af7fc0afcc col areoi-element col-12">
+			
+			
+
+<h2 class="wp-block-heading has-white-color has-text-color">Kontakt</h2>
+
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+
+
+		<div  class="block-d91ceaf6-8177-4277-9e00-1d876b5a12ba row areoi-element">
+			
+
+			
+
+		<div  class="block-cd683916-3271-425a-ab22-09c66b64c193 col areoi-element col-12 col-lg-6">
+			
+			
+
+<p class="wp-block-paragraph"><strong>Steuer-Bilanz-Treuhand AG</strong><br>Lavaterstrasse 65<br>CH-8002 Zürich</p>
+
+
+
+<p class="wp-block-paragraph">Tel. +41 (0)44 438 60 10<br>Fax +41 (0)44 438 60 19<br><a href="mailto:info@sbt-treuhand.ch">info@sbt-treuhand.ch</a></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Öffnungszeiten</strong><br>Montag &#8211; Donnerstag<br>08.00 &#8211; 17.00 Uhr</p>
+
+
+
+<p class="wp-block-paragraph">Freitag<br>08.00 &#8211; 16.00 Uhr</p>
+
+ 
+			
+		</div>
+	
+
+
+		<div  class="block-6cb5514c-172a-40a7-a1f2-9f9169fc7110 col areoi-element col-12 col-lg-6">
+			
+			
+<div class="googlemaps-block">
+  <div class="sbt-map mb-5 mb-lg-0" data-zoom="17">
+    <div class="marker" data-lat="47.3611939" data-lng="8.5329994">
+      Steuer-Bilanz-Treuhand AG<br />
+Lavaterstrasse 65<br />
+CH-8002 Zürich    </div>
+  </div>
+</div>
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+ 
+		</div>
+	</div></div>
+      </main>
+      <footer data-wpr-lazyrender="1" id="site_footer">
+        
+		<div  class="block-7cd8bb63-cc3b-48c7-baae-64ee59b88518 areoi-element container">
+			
+			
+
+		<div  class="block-3947d13b-5c3b-40ee-9ee9-d17129da8328 row areoi-element">
+			
+
+			
+
+		<div  class="block-c3b6ae97-7ada-4dc6-9229-563f6aa20a65 col areoi-element col-12 col-lg-6">
+			
+			
+
+<p class="has-text-color wp-block-paragraph" style="color:#997c4e"><strong>Steuer-Bilanz-Treuhand AG<br>Lavaterstrasse 65<br>CH-8002 Zürich</strong></p>
+
+ 
+			
+		</div>
+	
+
+
+		<div  class="block-b2102689-55a7-49bd-a7e5-67a135e8312f col areoi-element col-12 col-lg-6">
+			
+			
+<div class="widget widget_nav_menu"><div class="menu-footer-menue-container"><ul id="menu-footer-menue" class="menu"><li id="menu-item-349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349"><a href="https://www.sbt-treuhand.ch/links-downloads/">Links &#038; Downloads</a></li>
+<li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-118"><a rel="privacy-policy" href="https://www.sbt-treuhand.ch/datenschutz/">Datenschutz</a></li>
+<li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="https://www.sbt-treuhand.ch/cookie-erklaerung/">Cookie Erklärung</a></li>
+</ul></div></div>
+ 
+			
+		</div>
+	
+ 
+		</div>
+	
+ 
+		</div>
+	      </footer>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWtBQJ_usPso7Z7HiFR9cyBBLQz9YTVjU"></script>
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/sbt/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://www.sbt-treuhand.ch","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script id="sbt-script-js-extra">
+var sbt_vars = {"home_url":"https://www.sbt-treuhand.ch","marquee_options":{"allowCss3Support":true,"css3easing":"linear","duplicated":true,"duration":8000,"gap":16,"pauseOnHover":true,"startVisible":true},"scrollify_options":{"section":".wp-block-group","interstitialSection":"#site_header,#site_footer","sectionName":false,"scrollSpeed":750,"updateHash":false,"setHeights":false},"gm_style":[{"featureType":"all","elementType":"geometry","stylers":[{"hue":"#ff0000"}]},{"featureType":"all","elementType":"geometry.fill","stylers":[{"color":"#f2e8d3"},{"gamma":"5"},{"lightness":"0"}]},{"featureType":"all","elementType":"geometry.stroke","stylers":[{"color":"#847066"},{"visibility":"on"},{"weight":"0.01"}]},{"featureType":"all","elementType":"labels.text","stylers":[{"color":"#847066"},{"visibility":"simplified"},{"gamma":"1.43"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"color":"#4f1302"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"gamma":"6.45"},{"lightness":"69"},{"visibility":"simplified"},{"color":"#5d352a"},{"weight":"0.01"}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"gamma":"1"},{"lightness":"0"},{"saturation":"-1"},{"visibility":"on"},{"weight":"0.63"},{"hue":"#ffa300"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#ebe4d5"}]},{"featureType":"administrative","elementType":"labels.text","stylers":[{"color":"#4f1302"}]},{"featureType":"administrative","elementType":"labels.icon","stylers":[{"color":"#4f1302"},{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry.fill","stylers":[{"color":"#4a0f0f"}]},{"featureType":"administrative.province","elementType":"geometry.fill","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.province","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"labels.text.stroke","stylers":[{"color":"#ff0000"},{"visibility":"simplified"}]},{"featureType":"administrative.neighborhood","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"administrative.land_parcel","elementType":"labels.text.fill","stylers":[{"visibility":"on"}]},{"featureType":"administrative.land_parcel","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"hue":"#ff0000"}]},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"hue":"#ff3800"}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"gamma":"3"},{"color":"#f0e5d1"}]},{"featureType":"landscape.man_made","elementType":"geometry.stroke","stylers":[{"hue":"#ff0000"},{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry.stroke","stylers":[{"weight":"1"},{"visibility":"off"}]},{"featureType":"poi.attraction","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.place_of_worship","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry.fill","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry.stroke","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"geometry.stroke","stylers":[{"hue":"#ff0000"}]},{"featureType":"transit.station","elementType":"labels.icon","stylers":[{"saturation":"-49"},{"lightness":"0"},{"gamma":"0.45"},{"visibility":"on"},{"hue":"#ff3800"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#c2a886"},{"gamma":"1.65"}]}]};
+//# sourceURL=sbt-script-js-extra
+</script>
+<script id="sbt-script-js" src="https://www.sbt-treuhand.ch/wp-content/themes/sbt/dist-assets/js/theme.min.js?ver=20231213121922"></script>
+  </body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1781597412 -->

@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Dienstleistungen | STM Treuhand</title>
+    <meta name="description" content="Alle Dienstleistungen der STM Steuerberatung und Treuhand Mettler AG im Ãberblick. Gefunden was Sie suchen? Vereinbaren Sie jetzt ein GesprÃ¤ch!">
+
+    <!-- Icon css link -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        @media screen and (max-width: 380px)
+        {
+            .smallm h2
+            {
+                font-size: 20px !important;
+            }
+        }
+        @media screen and (min-width: 992px)
+        {
+            .navbar-line-height
+            {
+                line-height: 30px !important;
+            }            
+
+            .mobile_visible
+            {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 992px) 
+        {
+
+            .mobile_invisible
+            {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 767px) 
+        {
+
+            .mobile_center
+            {
+                text-align: center !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <!--================Header Area =================-->
+    <header class="main_header_area">
+        <div class="header_menu">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" style="margin-top: 3px;" href="#"><img height="40px" src="img/logo.png" alt="STM Steuerberatung und Treuhand Mettler"></a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown submenu">
+                                <a href="index.html" role="button" aria-haspopup="true" aria-expanded="false">Startseite</a>
+                            </li>
+                            <li class="submenu dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unternehmen</a>
+                                <ul class="dropdown-menu">
+                                    <li><a style="text-transform: none;" href="ueber-uns.html">Ãber uns</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="mitgliedschaften.html">Mitgliedschaften</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu dropdown active">
+                                <a href="dienstleistungen.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dienstleistungen</a>
+                                <ul class="dropdown-menu">
+                                    <li><a id="nav_tax_button" href="dienstleistungen.html#tax">Steuerberatung</a></li>
+                                    <li><a id="nav_bookkeeping_button" href="dienstleistungen.html#bookkeeping">Buchhaltung & Treuhand</a></li>
+                                    <li><a id="nav_business_check_button" href="dienstleistungen.html#business_check">WirtschaftsprÃ¼fung</a></li>
+                                    <li><a id="nav_geraut_button" href="dienstleistungen.html#geraut">Deutschland & Ãsterreich</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="publikationen.html">Publikationen</a></li>                  
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                            <li><a href="en/services.html"> English</li>
+                        </ul>                        
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+    </header>
+    <!--================Header Area =================-->
+
+    <!--================Banner Area =================-->
+    <section class="banner_area">
+        <div class="container">
+            <div class="banner_content">
+                <h3>Dienstleistungen</h3>
+            </div>
+        </div>
+    </section>
+    <div class="banner_link" style="display: none;">
+        <div class="container">
+            <div class="abnner_link_inner">
+                <a class="active" href="index.html">Dienstleistungen</a>
+                <a href="dienstleistungen.html">Steuerberatung</a>
+            </div>
+        </div>
+    </div>
+    <!--================End Banner Area =================-->
+
+    <!--================Carrers Area =================-->
+    <section class="carrers_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="carrers_left">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a id="tax_button" href="#tax" aria-controls="tax" role="tab" data-toggle="tab">Steuerberatung</a></li>
+                            <li role="presentation"><a id="bookkeeping_button" class="navbar-line-height" href="#bookkeeping" aria-controls="bookkeeping" role="tab" data-toggle="tab">Buchhaltung & Treuhand</a></li>
+                            <li role="presentation"><a id="business_check_button" href="#business_check" aria-controls="business_check" role="tab" data-toggle="tab">WirtschaftsprÃ¼fung</a></li>
+                            <li role="presentation"><a id="geraut_button" class="navbar-line-height" href="#geraut" aria-controls="geraut" role="tab" data-toggle="tab">Deutschland & Ãsterreich</a></li>
+                        </ul>
+                        <div class="contact_info mobile_invisible">
+                            <h2>Kontakt</h2>
+                            <p>Wiesenstrasse 17, CH-8008 ZÃ¼rich</p>
+                            <h5>Tel : <a href="tel:+41442099060">+41 (0)44 209 90 60</a></h5>
+                            <h5>Email : <a href="mailto:info@stmtreuhand.ch">info@stmtreuhand.ch</a></h5>
+                        </div>
+                        <div class="contact_info" style="display: none">
+                            <h2>Download</h2>
+                            <div class="download_btn">
+                                <a href="publikationen/pdf/stm-broschuere_de.pdf" target="blank">BroschÃ¼re <img src="img/dienstleistungen/download.svg" height="30px" alt="STM Steuerberatung und Treuhand Mettler BroschÃ¼re"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="carrers_right_content" style="padding-left: 0px;">
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active fade in" id="tax">
+                                <div class="about_company">
+                                    <div class="row business_divider_img">
+                                        <div class="col-sm-7">
+                                            <div class="our_about_image b_left_img">
+                                                <img src="img/dienstleistungen/steuerberatung3.jpg" alt="STM Steuerberatung und Treuhand Mettler">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="our_about_image b_right_img">
+                                                <img src="img/dienstleistungen/steuerberatung2.jpg" alt="STM Steuerberatung und Treuhand Mettler">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section_title">
+                                        <h2>Steuerberatung fÃ¼r Privatpersonen & Unternehmen</h2>
+                                    </div>
+                                    <p class="cms-editable" id="title_1">FÃ¼r uns als etablierte <a href="steuerberatung-zuerich.html">Steuerberater in ZÃ¼rich</a> gehÃ¶ren alle Dienstleistungen rund um das Thema Steuern zum tÃ¤glichen GeschÃ¤ft. Und das sowohl fÃ¼r Unternehmen als auch fÃ¼r Privatpersonen, insbesondere bei anspruchsvollen und komplexen Fragestellungen.</p>
+                                    <p>Unsere Mandanten stammen aus allen Bereichen der Wirtschaft und haben alle etwas gemeinsam: Sie benÃ¶tigen einen zuverlÃ¤ssigen und kompetenten Partner im Steuerbereich und haben diesen mit STM gefunden! Wir sind tÃ¤glich mit komplexen und vielschichtigen Steuerangelegenheiten und BeratungsfÃ¤llen konfrontiert, welche wir mit allem Engagement und der gebotenen IntensitÃ¤t und ZuverlÃ¤ssigkeit betreuen!</p>
+                                    <br>
+                                    <p>Ziel unserer Arbeit als <a href="steuerberatung-zuerich.html">Steuerberater in ZÃ¼rich</a> ist es, Ihre Steuerbelastung nachhaltig zu minimieren, Risiken zu eliminieren und Ihren wirtschaftlichen Erfolg zu optimieren. Kurz: Unser Anliegen ist ein gesicherter, effektiver, monetÃ¤rer Mehrwert fÃ¼r Sie! Aus diesem Grund haben Ihre Interessen bei uns PrioritÃ¤t.</p>
+                                    <p>Wir sind Ihr Ansprechpartner, speziell bei fachlich fordernden steuerlichen Fragen.</p>
+                                </div>
+                                <div class="market_option">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="market_option_item mobile_center">
+                                                <img src="img/dienstleistungen/individuell.svg" height="75px" alt="Individuell">
+                                                <h4>Individuell</h4>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="market_option_item mobile_center">
+                                                <img src="img/dienstleistungen/versiert.svg" height="75px" alt="Versiert">
+                                                <h4>Versiert</h4>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="market_option_item mobile_center">
+                                                <img src="img/dienstleistungen/ampulsderzeit.svg" height="75px" alt="Am Puls Der Zeit">
+                                                <h4>Am Puls der Zeit</h4>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="open_position">
+                                    <div class="section_title">
+                                        <h2>FÃ¼r Privatpersonen</h2>
+                                    </div>
+                                    <p style="font-size: 17px; line-height: 28px; color: #797979; letter-spacing: .34px; font-family: 'Lato', sans-serif; padding-bottom: 30px;" >Insbesondere fÃ¼r Privatpersonen mit gehobenem Einkommen und komplexeren VermÃ¶gensverhÃ¤ltnissen ist es von immenser Wichtigkeit, steuerlich individuell und zielfÃ¼hrend beraten zu werden. STM ist Ihr Steuerpartner und Garant dafÃ¼r, dass das ganze Optimierungspotenzial vollumfÃ¤nglich genutzt wird. Wir decken sÃ¤mtliche Fragen des Schweizer Steuerrechts zuverlÃ¤ssig und kompetent ab!</p>
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="hc1">
+                                                <h4 class="panel-title">
+                                                    <a style="background-color: #1B3E90" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="hcs1">
+                                                        Ãbersicht Dienstleistungen
+                                                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="hcs1" class="panel-collapse in" role="tabpanel" aria-labelledby="hc1" aria-expanded="true">
+                                                <div class="panel-body" id="tax_private">
+                                                    <ul style="list-style-position: outside; font-size: 17px; margin-left: 40px; line-height: 18px; letter-spacing: .34px;">
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="private_4"><a href="steuererklaerung-ausfuellen-lassen-zuerich.html">Ausarbeitung von SteuererklÃ¤rungen</a>, PrÃ¼fung von Steuerrechnungen und Steuerveranlagungen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="private_5"> Vertretung im Veranlagungsverfahren und vor Rechtsmittelinstanzen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="private_6"> strategische Steuerplanung und Steueroptimierung fÃ¼r Kaderleute und vermÃ¶gende Privatpersonen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="private_7"> Vorsorgeplanung</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="private_8">interkantonale und internationale Doppelbesteuerungsfragen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="private_9"> steuerliche Wohnsitzvergleiche</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="private_10"> Erbschafts- und Schenkungssteuerplanung</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="private_11"> Verhandlungen mit SteuerbehÃ¶rden, Einholung von Steuerrulings</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="private_12"> GrundstÃ¼ckgewinn- und HandÃ¤nderungssteuer (SteuererklÃ¤rungen, Beratung etc.)</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="private_13"> straflose Selbstanzeige</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="open_position">
+                                    <div class="section_title">
+                                        <h2>FÃ¼r Unternehmen</h2>
+                                    </div>
+                                    <p style="font-size: 17px; line-height: 28px; color: #797979; letter-spacing: .34px; font-family: 'Lato', sans-serif; padding-bottom: 30px;" >Steuern zahlen ist Ihre Pflicht, Steuern optimieren Ihr Recht! Gesetze, Verordnungen und aktuelle Rechtsprechung sind uns vertraute Werkzeuge, mit denen wir nachhaltige LÃ¶sungen fÃ¼r Sie erzielen und einen Mehrwert schaffen! Unsere ganzheitliche Betrachtungsweise fÃ¼hrt zu einer Steueroptimierung sowohl fÃ¼r Ihr Unternehmen, also auch fÃ¼r Sie als deren Inhaber.</p>
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="hc1">
+                                                <h4 class="panel-title">
+                                                    <a style="background-color: #1B3E90" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="hcs2">
+                                                        Ãbersicht Dienstleistungen
+                                                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="hcs2" class="panel-collapse in" role="tabpanel" aria-labelledby="hc2" aria-expanded="false">
+                                                <div class="panel-body" id="tax_business">
+                                                    <ul style="list-style-position: outside; font-size: 17px; margin-left: 40px; line-height: 18px; letter-spacing: .34px;">
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_3"> strategische Steuerplanung und Steueroptimierung auf Stufe Unternehmen und deren Inhaber</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_4"> Nachfolgeplanungen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_5"> Mergers &amp; Acquisitions, Beratung bei Kauf und Verkauf von Unternehmen, Management Buy-Outs, Tax Due Diligence</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_6"> Beratung bei GrÃ¼ndungen, Sanierungen und Liquidationen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_7"> interkantonale und internationale Doppelbesteuerungsfragen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_8"> steuerliche Beratung von JahresabschlÃ¼ssen, Berechnung von SteuerrÃ¼ckstellungen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_9"> Umstrukturierungen (Umwandlungen, Fusionen, Unternehmensteilungen etc.)</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_10"> <a href="steuererklaerung-ausfuellen-lassen-zuerich.html">Ausarbeitung von SteuererklÃ¤rungen</a>, PrÃ¼fung von Steuerrechnungen und Steuerveranlagungen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_11"> Vertretung im Veranlagungsverfahren und vor Rechtsmittelinstanzen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_12"> Verhandlungen mit SteuerbehÃ¶rden, Einholung von Steuerrulings</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_13"> Mehrwertsteuer (An- und Abmeldung, Abrechnungen, Beratung etc.)</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_14"> Spesenreglemente ausarbeiten und Genehmigung einholen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_15"> Beratung bezÃ¼glich Verrechnungssteuer, Umsatz- und Emissionsabgabe</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_16">GrundstÃ¼ckgewinn- und HandÃ¤nderungssteuer (SteuererklÃ¤rungen, Beratung etc.)</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row service_advantage">
+                                    <div class="col-md-7">
+                                        <div class="service_advantage_left">
+                                            <div class="section_title">
+                                                <h2>Steuerberater in ZÃ¼rich: <span style="color: #1b3e90;">Ihre Vorteile auf einen Blick</span></h2>
+                                            </div>
+                                            <ul style="list-style-position: outside; font-size: 17px; line-height: 28px; letter-spacing: .34px;">
+                                                <span style="position: relative; left: -32px; top: 28px;"><i class="fa fa-check-square-o"></i></span><li style="margin-bottom: -20px;"><p class="cms-editable" id="cta2_1"> Gesichertes Expertenwissen, stets auf dem neuesten Stand! Als Ihre verlÃ¤ssliche <a href="steuerberatung-zuerich.html">Steuerberater in ZÃ¼rich</a> sind wir Mitglied bei TREUHAND|SUISSE und der SVDS.</p></li>
+                                                <span style="position: relative; left: -32px; top: 28px;"><i class="fa fa-check-square-o"></i></span><li style="margin-bottom: -20px;"><p class="cms-editable" id="cta2_2"> UnterstÃ¼tzung bei all Ihren steuerlichen Pflichten und Rechten! Bei allen Steuerforderungen, die das Steueramt an Sie stellt, schÃ¶pfen wir Ihre MÃ¶glichkeiten bestmÃ¶glich aus. Bei allen AnsprÃ¼chen, die Sie als Steuerzahler an den Fiskus haben, ist Ihre <a href="steuerberatung-zuerich.html">Steuerberater in ZÃ¼rich</a> mit Engagement und Expertise fÃ¼r Sie da.</p></li>
+                                                <span style="position: relative; left: -32px; top: 28px;"><i class="fa fa-check-square-o"></i></span><li style="margin-bottom: -20px;"><p class="cms-editable" id="cta2_3"> Sie sind steuerlich rundum optimal beraten und Ihre Steuerlast wird zu Ihren Gunsten optimiert!</p></li>
+                                            </ul>
+                                            <br><br>
+                                            <p>Ihren Bedarf und unsere Konditionen besprechen wir gerne bei Ihrem persÃ¶nlichen Besuch in
+                                            unserer Kanzlei.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="service_consultation_box">
+                                            <h6 style="max-width: inherit;">Ihre Steuerberater in ZÃ¼rich freuen sich auf Sie.</h6>
+                                            <h4>Machen Sie gleich einen Termin!</h4>
+                                            <a class="main_btn" href="tel:+41442099060"><i class="fa fa-phone" aria-hidden="true"></i> +41
+                                            (0)44 209 90 60</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="bookkeeping">
+                                <div class="about_company" id="bookkeeping_about">
+                                    <div class="our_about_image">
+                                        <img src="img/dienstleistungen/treuhand-zuerich.jpg" alt="STM Steuerberatung und Treuhand Mettler">
+                                    </div>
+                                    <div class="section_title">
+                                        <h2>Buchhaltung und Treuhand ZÃ¼rich</h2>
+                                    </div>
+                                    <p style="padding-bottom: 0px;" class="cms-editable" id="text_1">Die wirtschaftlichen und rechtlichen Rahmenbedingungen fÃ¼r Unternehmen werden immer komplexer. Ein
+                                        Umstand, der stÃ¤ndig wachsende Pflichten und Herausforderungen fÃ¼r Sie als Unternehmer nach sich
+                                    zieht.</p> 
+                                    <ul style="list-style-position: outside; font-size: 17px; line-height: 28px; letter-spacing: .34px; margin-left: 40px;">
+                                        <span style="position: relative; left: -40px; top: 28px;"><i class="fa fa-check-square-o"></i></span><li style="margin-bottom: -20px;"><p style="padding-bottom: 0px;" class="cms-editable" id="text_2"> Hier den Ãberblick zu wahren, ist nicht leicht.</p></li>
+                                        <span style="position: relative; left: -40px; top: 28px;"><i class="fa fa-check-square-o"></i></span><li style="margin-bottom: -20px;"><p style="padding-bottom: 0px;" class="cms-editable" id="text_3"> Hier die augenblickliche und zukÃ¼nftige Situation realistisch einzuschÃ¤tzen, ist fÃ¼r Nichtexperten schwer.</p></li>
+                                        <span style="position: relative; left: -40px; top: 28px;"><i class="fa fa-check-square-o"></i></span><li style="margin-bottom: -20px;"><p style="padding-bottom: 0px;" class="cms-editable" id="text_4"> Hier adÃ¤quat und zielfÃ¼hrend zu reagieren, fordert mehr als GrÃ¼ndergeist, Innovation und ein gutes Produkt.</p></li>
+                                    </ul>
+                                    <br><br>
+                                    <p style="padding-bottom: 0px;" class="cms-editable" id="text_5">Denn: Ãber Erfolg und Wachstum entscheidet letztlich auch Ihr wirtschaftlich-rechtliches Fundament.
+                                        Dies zu sichern und in optimaler Weise umzusetzen, ist fÃ¼r uns als Ihre <a href="treuhand-zuerich.html">Treuhand ZÃ¼rich</a> das primÃ¤re
+                                    Ziel.</p>
+                                    <ul style="list-style-position: outside; font-size: 17px; line-height: 28px; letter-spacing: .34px; margin-left: 40px;">
+                                        <span style="position: relative; left: -40px; top: 28px;"><i class="fa fa-check-square-o"></i></span><li style="margin-bottom: -20px;"><p style="padding-bottom: 0px;" class="cms-editable" id="text_6"> Die STM Steuerberatung &amp; Treuhand Mettler AG ist Ihr zuverlÃ¤ssiger und kompetenter Partner bei allen treuhÃ¤nderischen und administrativen Belangen.</p></li>
+                                        <span style="position: relative; left: -40px; top: 28px;"><i class="fa fa-check-square-o"></i></span><li style="margin-bottom: -20px;"><p style="padding-bottom: 0px;" class="cms-editable" id="text_7"> Als Ihr <a href="treuhand-zuerich.html">TreuhÃ¤nder ZÃ¼rich</a> sorgen wir fÃ¼r reibungslose AblÃ¤ufe rund um Ihre Administration â im aktuell laufenden GeschÃ¤ft und mit Weitblick auf eine erfolgreiche Zukunft hinaus.</p></li>
+                                    </ul>
+                                    <br><br>
+                                    <p style="padding-bottom: 0px;" class="cms-editable" id="text_8">Sie suchen einen TreuhÃ¤nder in ZÃ¼rich? STM Steuerberatung &amp; Treuhand Mettler AG â Ihr Partner in
+                                    Sachen <a href="treuhand-zuerich.html">Treuhand ZÃ¼rich</a> stellt sich vor!</p>
+                                </div>
+                                <div class="row analysis_market cms-editable" id="bookkeeping_personal">
+                                    <div class="col-md-5">
+                                        <div style="margin-top: 0px;" class="our_about_image">
+                                            <img src="img/dienstleistungen/kanzlei.jpg" alt="STM Steuerberatung und Treuhand Mettler">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="analysis_text">
+                                            <h3>Unsere Werte</h3>
+                                            <p>PersÃ¶nlicher und vertrauensvoller Kontakt gehÃ¶rt bei uns dabei zum guten Ton. Wir verstehen uns als Partner unserer Mandanten. Denn: Treuhand ist Vertrauenssache! Aus diesem Grunde haben Respekt, KundennÃ¤he und Fachkompetenz bei uns oberste PrioritÃ¤t. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="open_position">
+                                    <div class="section_title">
+                                        <h2>Buchhaltung & Treuhand</h2>
+                                    </div>
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab">
+                                                <h4 class="panel-title">
+                                                    <a style="background-color: #1B3E90" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="hcs4" >
+                                                        Ãbersicht Dienstleistungen
+                                                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="hcs4" class="panel-collapse in" role="tabpanel" aria-labelledby="hc4" aria-expanded="true">
+                                                <div class="panel-body cms-editable" id="bookkeeping_services">
+                                                    <ul style="list-style-position: outside; font-size: 17px; margin-left: 40px; line-height: 18px; letter-spacing: .34px;">
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_3">Finanzbuchhaltung fÃ¼r alle Rechtsformen (Jahres- und ZwischenabschlÃ¼sse)</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_4"> SalÃ¤rwesen inkl. Lohnabrechnungen, Quellensteuer, Sozialversicherungs-Abrechnungen und Lohnausweisen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_5"> Mehrwertsteuer (An- und Abmeldung und Abrechnungen)</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_6"> Kreditoren- und Debitorenbuchhaltung inkl. Zahlungsverkehr</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_7"> Steuerberatung und Steueradministration fÃ¼r Unternehmen und Privatpersonen sÃ¤mtlicher Schweizer Steuern</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_8">eingeschrÃ¤nkte Revisionen und SpezialprÃ¼fungen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_9"> ProblemlÃ¶sung bei PersonalengpÃ¤ssen unserer Mandanten</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_10"> GrÃ¼ndung, Umwandlung, Fusion und Liquidation aller Rechtsformen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_11"> StatutenÃ¤nderungen und Mutationen im Handelsregister</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_12"> GeschÃ¤ftsfÃ¼hrer-, Verwaltungsrats- und Liquidationsmandate</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_13"> DomizilgewÃ¤hrung fÃ¼r juristische Personen</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about_company" id="bookkeeping_work">
+                                    <div class="section_title">
+                                        <h2><a href="treuhand-zuerich.html">Treuhand in ZÃ¼rich</a>: Unsere Arbeit im Ãberblick</h2>
+                                    </div>
+                                    <p class="cms-editable" id="text2_1">Hauptanteil unserer Arbeit als <a href="treuhand-zuerich.html">TreuhÃ¤nder in ZÃ¼rich</a> ist die Finanzbuchhaltung fÃ¼r Rechtsformen aller Art. Monats-, Quartals-, Semester- und Jahresabschluss â gerne Ã¼bernehmen wir fÃ¼r Sie diesen grundlegenden Bereich des Rechnungswesens und allem was dazu gehÃ¶rt wie SalÃ¤rwesen, MWST-Abrechnungen und SteuererklÃ¤rungen. Sie erhalten bei uns Fachkompetenz fÃ¼r alle administrativen Belange Ihres Unternehmens aus einer Hand!</p>
+                                    <p class="cms-editable" id="text2_2">Der Umfang unserer Arbeiten bestimmen Sie alleine. Sie kÃ¶nnen uns die gesamte Buchhaltung Ã¼bertragen oder Sie nutzen unser Know-how nur partiell fÃ¼r den Feinschliff Ihrer Zahlen, indem wir beispielsweise die Abschlussbuchungen oder die MWST-Abrechnungen vornehmen. Dank unseres Partners ABACUS stehen Ihnen alle MÃ¶glichkeiten der modernen und digitalen Welt offen. Sie kÃ¶nnen die BuchhaltungÂ  vollumfÃ¤nglich digital oder analog fÃ¼hren, ganz nach Ihren persÃ¶nlichen BedÃ¼rfnissen. Ãber eine Cloud-LÃ¶sung haben wir jederzeit direkten Zugriff auf Ihre Buchhaltung und kÃ¶nnen Sie dort unterstÃ¼tzen, wo Sie von unserer Fachkompetenz ganz nach Ihrem Bedarf fokussiert profitieren kÃ¶nnen.</p>
+                                    <p>Â  Â Â </p>
+                                    <p class="cms-editable" id="text2_3">Im Weiteren unterstÃ¼tzen wir Sie auch bei nicht alltÃ¤glichen Ereignissen wie GrÃ¼ndung, Kauf, Verkauf, Ãbernahme oder Liquidation eines Unternehmens, da es hier viel zu regeln, zu wissen und zu beachten gibt. Profitieren Sie von unserer langjÃ¤hrigen Beratungserfahrung, Sie kÃ¶nnen auf uns zÃ¤hlen!</p>
+                                    <br>
+                                    <p class="cms-editable" id="text2_4">STM Steuerberatung &amp; Treuhand Mettler AG ist ihr zuverlÃ¤ssiger und kompetenter <a href="treuhand-zuerich.html">TreuhÃ¤nder in ZÃ¼rich</a> und bringt Ihr Unternehmen auf den gewÃ¼nschten Weg.</p>
+                                </div>
+                                <div class="row service_advantage">
+                                    <div class="col-md-7">
+                                        <div class="service_advantage_left cms-editable" id="bookkeeping_info">
+                                            <div class="section_title">
+                                                <h2>Was wir Ihnen bieten</h2>
+                                            </div>
+                                            <p>Unsere eidgenÃ¶ssisch geprÃ¼ften <a href="treuhand-zuerich.html">TreuhÃ¤nder in ZÃ¼rich</a> begrÃ¼ssen Sie in angenehmer AtmosphÃ¤re, zentral gelegen, im Herzen der Stadt.</p>
+                                            <br>
+                                            <p>Wir bieten Ihnen die gesamte Bandbreite treuhÃ¤nderischer Dienstleistungen an â effizient, versiert, komplett aus einer Hand.</p>
+                                            <ul style="font-size: 17px; line-height: 28px; letter-spacing: .34px; padding-left:0px;">
+                                                <li><i class="fa fa-check-square-o"></i> Individuell</li>
+                                                <li><i class="fa fa-check-square-o"></i> Versiert</li>
+                                                <li><i class="fa fa-check-square-o"></i> Am Puls der Zeit</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="service_consultation_box cms-editable" id="bookkeeping_cta">
+                                            <h6>Profitieren Sie von unserem Fachwissen.</h6>
+                                            <h4>Wir sind Ihr Partner fÃ¼r <span>Buchhaltung & Treuhand!</span></h4>
+                                            <a class="main_btn" href="tel:+41442099060">Jetzt anrufen</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="business_check"> 
+                                <div class="about_company cms-editable" id="business_check_about">
+                                    <div class="row business_divider_img">
+                                        <div class="col-md-7">
+                                            <div class="our_about_image b_left_img">
+                                                <img src="img/dienstleistungen/wirtschaftspruefung-zuerich1.jpg" alt="STM Steuerberatung und Treuhand Mettler">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="our_about_image b_right_img">
+                                                <img src="img/dienstleistungen/wirtschaftspruefung-zuerich2.jpg" alt="STM Steuerberatung und Treuhand Mettler">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="smallm section_title">
+                                        <h2>WirtschaftsprÃ¼fung ZÃ¼rich</h2>
+                                    </div>
+                                    <p>Wirtschaftlichkeit ist fÃ¼r jedes Unternehmen die Basis des Erfolgs. Genau deshalb gilt es, die Wirtschaftlichkeit Ihres Unternehmens zu jeder Zeit im Blick zu haben, zu kontrollieren und zu optimieren!</p>
+                                    <p>Sie suchen Revisionsexperten fÃ¼r Ihre <a href="wirtschaftspruefung-zuerich.html">WirtschaftsprÃ¼fung in ZÃ¼rich</a>?</p>
+                                    <br>
+                                    <p>Die STM Steuerberatung & Treuhand Mettler AG â Ihr Partner fÃ¼r Revision, PrÃ¼fung, Bewertung und Gutachten â stellt sich vor.</p>
+                                </div>
+                                <div class="row analysis_market cms-editable" id="business_check_our">
+                                    <div class="col-md-5">
+                                        <div style="margin-top: 0px;" class="our_about_image">
+                                            <img src="img/dienstleistungen/kanzlei.jpg" alt="STM Steuerberatung und Treuhand Mettler">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="analysis_text">
+                                            <h3>Unsere Kanzlei</h3>
+                                            <p>Gern begrÃ¼ssen wir Sie in unserer ZÃ¼richer Kanzlei, in angenehmer AtmosphÃ¤re, zentral gelegen, im Herzen der Stadt. Unser mehrkÃ¶pfiges Expertenteam steht hier fÃ¼r all Ihre Fragen rund um das Thema <a href="wirtschaftspruefung-zuerich.html">WirtschaftsprÃ¼fung ZÃ¼rich</a> bereit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="open_position">
+                                    <div class="smallm section_title">
+                                        <h2>WirtschaftsprÃ¼fung</h2>
+                                    </div>
+                                    <p style="font-size: 17px; line-height: 28px; color: #797979; letter-spacing: .34px; font-family: 'Lato', sans-serif; padding-bottom: 30px;" >Als zugelassene Revisionsexperten bzw. zugelassenes Revisionsunternehmen bieten wir u.a. folgende Dienstleistungen an:</p>
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="hc3">
+                                                <h4 class="panel-title">
+                                                    <a style="background-color: #1B3E90; color: white;" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="hcs3" class="collapsed">
+                                                        Ãbersicht Dienstleistungen
+                                                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="hcs3" class="panel-collapse in" role="tabpanel" aria-labelledby="hc3" aria-expanded="true">
+                                                <div class="panel-body cms-editable" id="business_check_services">
+                                                    <ul style="list-style-position: outside; font-size: 17px; margin-left: 40px; line-height: 18px; letter-spacing: .34px;">
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li>
+                                                            <p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_3">DurchfÃ¼hrung von eingeschrÃ¤nkten Revisionen von</p>
+                                                            <ul style="list-style-position: outside; font-size: 17px; line-height: 14px; letter-spacing: .34px; margin-left: 40px;">
+                                                                <span style="position: relative; left: -40px; top: 14px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px;" class="cms-editable" id="text_6"> Aktiengesellschaften</p></li>
+                                                                <span style="position: relative; left: -40px; top: 14px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px;" class="cms-editable" id="text_7"> GmbH</p></li>
+                                                                <span style="position: relative; left: -40px; top: 14px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px;" class="cms-editable" id="text_8"> Genossenschaften</p></li>
+                                                                <span style="position: relative; left: -40px; top: 14px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px;" class="cms-editable" id="text_9"> Kommanditaktiengesellschaften</p></li>
+                                                                <span style="position: relative; left: -40px; top: 14px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px;" class="cms-editable" id="text_10"> Vereinen</p></li>
+                                                                <span style="position: relative; left: -40px; top: 14px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px;" class="cms-editable" id="text_11"> Stiftungen</p></li>
+                                                                <br>
+                                                            </ul>
+                                                        </li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li>
+                                                            <p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_4">SpezialprÃ¼fungen bei</p>
+                                                            <ul style="list-style-position: outside; font-size: 17px; line-height: 14px; letter-spacing: .34px; margin-left: 40px;">
+                                                                <span style="position: relative; left: -40px; top: 14px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px;" class="cms-editable" id="text_12"> SacheinlagegrÃ¼ndung</p></li>
+                                                                <span style="position: relative; left: -40px; top: 14px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px;" class="cms-editable" id="text_13"> KapitalerhÃ¶hung</p></li>
+                                                                <span style="position: relative; left: -40px; top: 14px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px;" class="cms-editable" id="text_14"> Kapitalherabsetzung</p></li>
+                                                                <span style="position: relative; left: -40px; top: 14px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px;" class="cms-editable" id="text_15"> Liquidation</p></li>
+                                                                <span style="position: relative; left: -40px; top: 14px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px;" class="cms-editable" id="text_16"> Fusionsgesetz</p></li>
+                                                                <br>
+                                                            </ul>
+                                                        </li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_5"> PrÃ¼fung von JahresabschlÃ¼ssen nicht revisionspflichtiger Unternehmen und NPO</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_6"> Bewertung von Unternehmen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_7"> Due Diligence bei Kauf und Verkauf von Unternehmen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="business_8">Gutachten in Buchhaltungs- und Bilanzierungsfragen</p></li>                                    
+                                                    </ul>                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row service_advantage">
+                                    <div class="col-md-7">
+                                        <div class="service_advantage_left" id="business_check_info">
+                                            <div class="section_title">
+                                                <h2>Was wir Ihnen bieten</h2>
+                                            </div>
+                                            <ul style="list-style-position: outside; font-size: 17px; line-height: 18px; letter-spacing: .34px;">
+                                                <li><span style="position: absolute; left: 15px;"><i class="fa fa-check-square-o"></i></span>
+                                                    Wir sind in puncto <a href="wirtschaftspruefung-zuerich.html">WirtschaftsprÃ¼fung ZÃ¼rich</a> fÃ¼r Unternehmen aller Rechtsformen und
+                                                Branchen tÃ¤tig.</li>
+                                                <li><span style="position: absolute; left: 15px;"><i class="fa fa-check-square-o"></i></span>
+                                                Wir finden verborgene Risiken und Schwachpunkte Ihres Unternehmens.</li>
+                                                <li><span style="position: absolute; left: 15px;"><i class="fa fa-check-square-o"></i></span>
+                                                Wir zeigen bisher ungenutzte StÃ¤rken, Chancen und EntwicklungsmÃ¶glichkeiten auf.</li>
+                                                <li><span style="position: absolute; left: 15px;"><i class="fa fa-check-square-o"></i></span>
+                                                Wir denken dabei unternehmerisch, flexibel und Ã¼ber Grenzen hinaus.</li>
+                                                <li><span style="position: absolute; left: 15px;"><i class="fa fa-check-square-o"></i></span>
+                                                    Sie profitieren durch die WirtschaftsprÃ¼fung in ZÃ¼rich von unseren langjÃ¤hrig
+                                                gesammelten Erfahrungswerten und von unserer aktuellen Analyse bei Ihnen vor Ort.</li>
+                                                <li><span style="position: absolute; left: 15px;"><i class="fa fa-check-square-o"></i></span>
+                                                    Ein strenges QualitÃ¤tssicherungssystem gehÃ¶rt zu unseren Standes- und
+                                                    Kanzlei-GrundsÃ¤tzen dazu! Gleiches gilt fÃ¼r Sorgfalt, Verschwiegenheit und
+                                                ObjektivitÃ¤t.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="service_consultation_box">
+                                            <h6 style="display: contents;">WirtschaftsprÃ¼fung ZÃ¼rich: Unsere Expertise fÃ¼r Ihr Unternehmen
+                                            ist fachverbandlich garantiert!</h6>
+                                            <h4>Rufen Sie uns jetzt an!</h4>
+                                            <a class="main_btn" href="tel:+41442099060"><i class="fa fa-phone" aria-hidden="true"></i> +41
+                                            (0)44 209 90 60</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="geraut">
+                                <div class="row analysis_market">
+                                    <div class="col-md-5">
+                                        <div style="margin-top: 4px;" class="our_about_image">
+                                            <img src="img/da.jpg" alt="STM Steuerberatung und Treuhand Mettler">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="analysis_text cms-editable" id="geraut">
+                                            <h3>Deutschland & Ãsterreich</h3>
+                                            <p>Unsere eidgenÃ¶ssisch geprÃ¼ften TreuhÃ¤nder und Steuerexperten in ZÃ¼rich begrÃ¼ssen Sie in angenehmer AtmosphÃ¤re, zentral gelegen, im Herzen der Stadt ZÃ¼rich. PersÃ¶nlicher und vertrauensvoller Kontakt gehÃ¶rt bei uns dabei zum guten Ton. Wir verstehen uns als Partner unserer Mandanten.</p><br>
+                                            <p>Unsere langjÃ¤hrige Erfahrung mit Kunden aus Deutschland und Ãsterreich erlaubt uns eine fundierte Beratung.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="market_option">
+                                        <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="market_option_item mobile_center">
+                                                <img src="img/dienstleistungen/individuell.svg" height="75px" alt="Individuell">
+                                                <h4>Individuell</h4>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="market_option_item mobile_center">
+                                                <img src="img/dienstleistungen/versiert.svg" height="75px" alt="Versiert">
+                                                <h4>Versiert</h4>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="market_option_item mobile_center">
+                                                <img src="img/dienstleistungen/ampulsderzeit.svg" height="75px" alt="Am Puls Der Zeit">
+                                                <h4>Am Puls der Zeit</h4>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="open_position">
+                                    <div class="section_title">
+                                        <h2>FÃ¼r Privatpersonen</h2>
+                                    </div>
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="hc1">
+                                                <h4 class="panel-title">
+                                                    <a style="background-color: #1B3E90" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="hcs1">
+                                                        Ãbersicht Dienstleistungen
+                                                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="hcs1" class="panel-collapse in" role="tabpanel" aria-labelledby="hc1" aria-expanded="true">
+                                                <div class="panel-body" id="tax_private">
+                                                    <ul style="list-style-position: outside; font-size: 17px; margin-left: 40px; line-height: 18px; letter-spacing: .34px;">
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_4">Steuerfolgen bei der BegrÃ¼ndung oder Aufhebung des Wohnsitzes oder des Aufenthaltes in der Schweiz</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_5"> GrenzgÃ¤ngerbesteuerung</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_6"> internationaler Wochenaufenthalter</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_7"> nachtrÃ¤gliche Veranlagung bei Quellenbesteuerten</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_8">steuerliche Auswirkungen in der Schweiz bei Immobilienbesitz ausserhalb der Schweiz</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_9"> Steuerfolgen bei Immobilienerwerb in der Schweiz</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_10"> Beratung bei internationalen Schenkungen bzw. ErbfÃ¤llen und deren steuerlichen Auswirkungen in der Schweiz</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_11"> Vermeidung der Doppelbesteuerung aufgrund der anwendbaren Doppelbesteuerungsabkommen (DBA) mit der Schweiz (Zuteilungsnormen bei Dividenden, Zinsen, Renten, Immobilien etc.)</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_12"> Abwicklung und Kontakt mit den Schweizer SteuerbehÃ¶rden</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_13"> <a href="steuererklaerung-ausfuellen-lassen-zuerich.html">Ausarbeitung von SteuererklÃ¤rungen</a></p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_16"> PrÃ¼fung von Steuerrechnungen und Veranlagungen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_15"> Vertretung im Veranlagungsverfahren und vor Rechtsmittelinstanzen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_private_14"> steuerliche Wohnsitzvergleiche</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="open_position">
+                                    <div class="section_title">
+                                        <h2>FÃ¼r Unternehmen</h2>
+                                    </div>
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="hc1">
+                                                <h4 class="panel-title">
+                                                    <a style="background-color: #1B3E90" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="hcs2">
+                                                        Ãbersicht Dienstleistungen
+                                                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="hcs2" class="panel-collapse in" role="tabpanel" aria-labelledby="hc2" aria-expanded="false">
+                                                <div class="panel-body" id="tax_business">
+                                                    <ul style="list-style-position: outside; font-size: 17px; margin-left: 40px; line-height: 18px; letter-spacing: .34px;">
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_3"> Vermeidung der Doppelbesteuerung aufgrund der anwendbaren Doppelbesteuerungsabkommen (DBA) mit der Schweiz (Zuteilungsnormen bei BetriebsstÃ¤tten, Immobilien, Dividenden, Zinsen etc.)</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_4"> Direktinvestitionen in der Schweiz durch GrÃ¼ndung eines Unternehmens</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_5"> Wahl der Rechtsform (AG, GmbH, Personengesellschaft, BetriebstÃ¤tte)</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_6"> steuerliche Standortvergleiche in der Schweiz</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_7"> Mehrwertsteuer (An- und Abmeldung, Abrechnung und Fiskalvertretung)</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_8"> Abwicklung und Kontakt mit den Schweizer SteuerbehÃ¶rden</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_9"> <a href="steuererklaerung-ausfuellen-lassen-zuerich.html">Ausarbeitung von SteuererklÃ¤rungen</a></p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_10"> PrÃ¼fung von Steuerrechnungen und Veranlagungen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_11"> Vertretung im Veranlagungsverfahren und vor Rechtsmittelinstanzen</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_12"> Erstellung von JahresabschlÃ¼ssen inkl. Lohnbuchhaltung</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_13"> WirtschaftsprÃ¼fung</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_14"> Verwaltungsratsmandat fÃ¼r Schweizer AG</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_15"> GeschÃ¤ftsfÃ¼hrermandat fÃ¼r Schweizer GmbH</p></li>
+                                                        <span style="position: relative; left: -40px; top: 20px;"><i class="fa fa-check-square-o"></i></span><li><p style="padding-bottom: 0px; line-height: 18px;" class="cms-editable" id="geraut_business_16">DomizilgewÃ¤hrung</p></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Carrers Area =================-->
+
+    <section class="carrers_area mobile_visible" style="padding: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="carrers_left">
+                        <div class="contact_info">
+                            <h2>Kontakt</h2>
+                            <p>Wiesenstrasse 17, CH-8008 ZÃ¼rich</p>
+                            <h5>Tel : <a href="tel:+41442099060">+41 (0)44 209 90 60</a></h5>
+                            <h5>Email : <a href="mailto:info@stmtreuhand.ch">info@stmtreuhand.ch</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================Get In Consultation Area =================-->
+    <section class="get_consult_area">
+        <div class="container">
+            <div class="pull-left">
+                <h3>Sprechen Sie uns an. Wir sind gerne fÃ¼r Sie da!</h3>
+            </div>
+            <div class="pull-right">
+                <a class="submit_btn" href="tel:+41442099060">Jetzt anrufen</a>
+            </div>
+        </div>
+    </section>
+    <!--================End Get In Consultation Area =================-->
+
+    <!--================Footer Area =================-->
+    <footer class="footer_area">
+        <div class="footer_widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <aside class="f_widget about_widget">
+                            <img src="img/logo_transparent.png" alt="STM Steuerberatung und Treuhand Mettler">
+                            <p>Wir sind Ihr kompetenter und zuverlÃ¤ssiger Partner fÃ¼r <a href="steuerberatung-zuerich.html">Steuerberatung</a> (inkl. <a href="kryptowaehrungen.html">KryptowÃ¤hrungen</a>), <a href="buchhaltung.html">Buchhaltung</a>, <a href="treuhand-zuerich.html">Treuhand</a> und <a href="wirtschaftspruefung-zuerich.html">WirtschaftsprÃ¼fung</a> in ZÃ¼rich.</p>
+                        </aside>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <aside class="f_widget link_widget">
+                            <div class="f_title">
+                                <h3>Extra Links</h3>
+                            </div>
+                            <ul>
+<li><a href="ueber-uns.html">-  Ãber uns</a></li>
+                                <li><a href="team.html">-  Team</a></li>
+                                <li><a href="mitgliedschaften.html">-  Mitgliedschaften</a></li>
+                                <li><a href="publikationen.html">- Publikationen</a></li>
+                                <li><a href="datenschutzerklaerung.html">- DatenschutzerklÃ¤rung</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <aside class="f_widget link_widget">
+                            <div class="f_title">
+                                <h3>Unsere Dienstleistungen</h3>
+                            </div>
+                            <ul>
+                                <li><a href="dienstleistungen.html#tax">Steuerberatung</a></li>
+                                <li><a href="dienstleistungen.html#bookkeeping">Buchhaltung & Treuhand</a></li>
+                                <li><a href="dienstleistungen.html#business_check">WirtschaftsprÃ¼fung</a></li>
+                                <li><a href="dienstleistungen.html#geraut">Deutschland & Ãsterreich</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <aside class="f_widget contact_widget">
+                            <div class="f_title">
+                                <h3>Kontakt</h3>
+                            </div>
+                            <div class="contact_inner">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4>STM Steuerberatung & Treuhand Mettler AG</h4>
+                                        <p>Wiesenstrasse 17, CH-8008 ZÃ¼rich</p>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body">
+<a href="tel:+41442099060">+41 (0)44 209 90 60</a>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <a href="mailto:info@stmtreuhand.ch">info@stmtreuhand.ch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <div class="container">
+                <div class="footer_copyright_inner">
+                    <div class="pull-left">
+                        <p>Copyright Â© STM Steuerberatung & Treuhand Mettler AG <script>document.write(new Date().getFullYear());</script>. <a href="https://apesoftwares.ch/" target="_blank" style="color: #495454">SEO & Webagentur:</a> ApeSoftwares</p>
+                    </div>
+                    <div class="pull-right">
+                        <h4><a href="impressum.html">Impressum</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================End Footer Area =================-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.2.4.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/bootstrap-selector/js/bootstrap-select.min.js"></script>
+
+    <script src="js/theme.js"></script>
+    <script>
+        $(document).ready(function() {
+            var url = document.location.toString();
+            if (url.match('#')) {
+                $('.nav-tabs a[href="#' + url.split('#')[1] + '"]').tab('show');
+            } 
+        });
+
+        $('#nav_tax_button').click(function(){
+            $('.nav-tabs a[href="#tax"]').tab('show');
+            if ($(window).width() < 992) {
+                scrollTo(0,500);
+            }
+        });
+        $('#nav_bookkeeping_button').click(function(){
+            $('.nav-tabs a[href="#bookkeeping"]').tab('show');
+            if ($(window).width() < 992) {
+                scrollTo(0,500);
+            }
+        });
+        $('#nav_business_check_button').click(function(){
+            $('.nav-tabs a[href="#business_check"]').tab('show');
+            if ($(window).width() < 992) {
+                scrollTo(0,500);
+            }
+        });
+        $('#nav_geraut_button').click(function(){
+            $('.nav-tabs a[href="#geraut"]').tab('show');
+            if ($(window).width() < 992) {
+                scrollTo(0,500);
+            }
+        });
+
+        $('#tax_button').click(function(){
+            if ($(window).width() < 992) {
+                scrollTo(0,500);
+            }
+        });
+        $('#bookkeeping_button').click(function(){
+            if ($(window).width() < 992) {
+                scrollTo(0,500);
+            }                    });
+        $('#business_check_button').click(function(){
+            if ($(window).width() < 992) {
+                scrollTo(0,500);
+            }
+        });
+        $('#geraut_button').click(function(){
+            if ($(window).width() < 992) {
+                scrollTo(0,500);
+            }
+        });
+    </script>
+    <!-- Hotjar Tracking Code for http://www.stmtreuhand.ch/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1787823,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+</body>
+</html>

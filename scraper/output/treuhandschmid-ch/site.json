@@ -1,0 +1,3939 @@
+{
+  "name": "Treuhand Catherine Schmid GmbH",
+  "domain": "treuhandschmid.ch",
+  "start_url": "https://www.treuhandschmid.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781616079.8978395,
+    "duration_sec": 113.1,
+    "pages_crawled": 11,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": ""
+  },
+  "contact": {
+    "emails": [
+      "info@treuhandschmid.ch",
+      "schmid@treuhandschmid.ch"
+    ],
+    "phones": [
+      "+41 44 317 61 91"
+    ]
+  },
+  "assets": {
+    "downloaded": 153,
+    "failed": 1,
+    "total_bytes": 32749294,
+    "manifest": [
+      {
+        "url": "https://www.treuhandschmid.ch/favicon.ico",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/data/11827/2025%20Checklist%20STE%20E.pdf",
+        "ok": true,
+        "file": "assets/7301960d19__2025_20Checklist_20STE_20E.pdf",
+        "content_type": "application/pdf",
+        "bytes": 144879
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/data/11827/2025%20Checkliste%20STE%20D.pdf",
+        "ok": true,
+        "file": "assets/3aa95c9730__2025_20Checkliste_20STE_20D.pdf",
+        "content_type": "application/pdf",
+        "bytes": 161940
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/data/11827/AIA%20Automatischer%20Informationsaustausch.pdf",
+        "ok": true,
+        "file": "assets/391c7ffe6d__AIA_20Automatischer_20Informationsaustausch.pdf",
+        "content_type": "application/pdf",
+        "bytes": 59912
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/data/11827/FragebogenzurAG-Grndung.pdf",
+        "ok": true,
+        "file": "assets/44df440dc1__FragebogenzurAG-Grndung.pdf",
+        "content_type": "application/pdf",
+        "bytes": 33164
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/data/11827/Lohnausweis.pdf",
+        "ok": true,
+        "file": "assets/c3c6f558fa__Lohnausweis.pdf",
+        "content_type": "application/pdf",
+        "bytes": 787684
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Design/logoNew.png?width=61.25&height=50&transform=resize&background=ffffffff&imageTimestamp=1725430441&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/09fd5dcbd9__logoNew.png",
+        "content_type": "image/png",
+        "bytes": 5585
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Design/logoNew.png?width=90&height=73.469387755102&transform=resize&background=ffffffff&imageTimestamp=1725430441&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/e40b8dbcc3__logoNew.png",
+        "content_type": "image/png",
+        "bytes": 10561
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Design/logoNew.png?width=98&height=80&transform=resize&background=ffffffff&imageTimestamp=1725430441&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/e78fa5ae95__logoNew.png",
+        "content_type": "image/png",
+        "bytes": 12323
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_2.jpg?width=1280&height=768&transform=crop&background=ffffffff&imageTimestamp=1725431534&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/f9042b9f0c__kasten_pic_2.jpg",
+        "content_type": "image/jpg",
+        "bytes": 58050
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_2.jpg?width=1777&height=1000&transform=crop&background=ffffffff&imageTimestamp=1725431534&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/05d6f9f391__kasten_pic_2.jpg",
+        "content_type": "image/jpg",
+        "bytes": 100464
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_2.jpg?width=1777&height=1066.2&transform=crop&background=ffffffff&imageTimestamp=1725431534&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/8508b86f2b__kasten_pic_2.jpg",
+        "content_type": "image/jpg",
+        "bytes": 92518
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_2.jpg?width=180&height=108&transform=crop&background=ffffffff&imageTimestamp=1725431534&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/95104ecc3b__kasten_pic_2.jpg",
+        "content_type": "image/jpg",
+        "bytes": 4417
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_2.jpg?width=240&height=144&transform=crop&background=ffffffff&imageTimestamp=1725431534&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/fc3aaa7d0e__kasten_pic_2.jpg",
+        "content_type": "image/jpg",
+        "bytes": 6124
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_2.jpg?width=360&height=216&transform=crop&background=ffffffff&imageTimestamp=1725431534&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/4823e9560e__kasten_pic_2.jpg",
+        "content_type": "image/jpg",
+        "bytes": 10472
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_2.jpg?width=480&height=288&transform=crop&background=ffffffff&imageTimestamp=1725431534&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/ec6606080b__kasten_pic_2.jpg",
+        "content_type": "image/jpg",
+        "bytes": 15340
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_2.jpg?width=600&height=360&transform=crop&background=ffffffff&imageTimestamp=1725431534&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/ecfed120b2__kasten_pic_2.jpg",
+        "content_type": "image/jpg",
+        "bytes": 20739
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_2.jpg?width=720&height=432&transform=crop&background=ffffffff&imageTimestamp=1725431534&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/8f344582ca__kasten_pic_2.jpg",
+        "content_type": "image/jpg",
+        "bytes": 26325
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_2.jpg?width=90&height=54&transform=crop&background=ffffffff&imageTimestamp=1725431534&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/9c6b160254__kasten_pic_2.jpg",
+        "content_type": "image/jpg",
+        "bytes": 1992
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_3.jpg?width=1280&height=768&transform=crop&background=ffffffff&imageTimestamp=1725431545&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/a05bb6b2f7__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 115587
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_3.jpg?width=1344&height=1000&transform=crop&background=ffffffff&imageTimestamp=1725431545&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/0cf51f1dea__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 191515
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_3.jpg?width=1344&height=806.4&transform=crop&background=ffffffff&imageTimestamp=1725431545&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/2795987e43__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 158088
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_3.jpg?width=180&height=108&transform=crop&background=ffffffff&imageTimestamp=1725431545&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/b585656f14__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 5613
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_3.jpg?width=240&height=144&transform=crop&background=ffffffff&imageTimestamp=1725431545&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/ea11ffa579__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 8173
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_3.jpg?width=360&height=216&transform=crop&background=ffffffff&imageTimestamp=1725431545&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/4d70e2df6e__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 15226
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_3.jpg?width=480&height=288&transform=crop&background=ffffffff&imageTimestamp=1725431545&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/9cce633e62__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 23913
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_3.jpg?width=600&height=360&transform=crop&background=ffffffff&imageTimestamp=1725431545&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/861c73f70c__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 34218
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_3.jpg?width=720&height=432&transform=crop&background=ffffffff&imageTimestamp=1725431545&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/6225c5e5a6__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 45521
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_3.jpg?width=90&height=54&transform=crop&background=ffffffff&imageTimestamp=1725431545&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/11e5654c9f__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 2261
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_4.jpg?width=1280&height=768&transform=crop&background=ffffffff&imageTimestamp=1725431559&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/e151b9479a__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 89957
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_4.jpg?width=1500&height=1000&transform=crop&background=ffffffff&imageTimestamp=1725431559&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/c7b3fb42f4__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 144811
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_4.jpg?width=1500&height=900&transform=crop&background=ffffffff&imageTimestamp=1725431559&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/c845e61302__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 119583
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_4.jpg?width=180&height=108&transform=crop&background=ffffffff&imageTimestamp=1725431559&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/4d1cdcd8e6__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 5739
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_4.jpg?width=240&height=144&transform=crop&background=ffffffff&imageTimestamp=1725431559&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/02dc81027f__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 8282
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_4.jpg?width=360&height=216&transform=crop&background=ffffffff&imageTimestamp=1725431559&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/28ecb338a2__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 14838
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_4.jpg?width=480&height=288&transform=crop&background=ffffffff&imageTimestamp=1725431559&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/ca66a80f06__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 22128
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_4.jpg?width=600&height=360&transform=crop&background=ffffffff&imageTimestamp=1725431559&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/e8307698f5__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 30720
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_4.jpg?width=720&height=432&transform=crop&background=ffffffff&imageTimestamp=1725431559&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/9b9a10a29b__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 39533
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Header-Home/kasten_pic_4.jpg?width=90&height=54&transform=crop&background=ffffffff&imageTimestamp=1725431559&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/bca8f2f6e1__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 2256
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_3.jpg?width=1280&height=1024&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/03d3971b33__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 63442
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_3.jpg?width=1498&height=1000&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/80e35095ef__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 78339
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_3.jpg?width=1498&height=1198.4&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/c90bc18f2c__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 78295
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_3.jpg?width=180&height=144&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/c3509553e7__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 4030
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_3.jpg?width=240&height=192&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/93d8186b7b__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 5894
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_3.jpg?width=360&height=288&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/e490501e03__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 10198
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_3.jpg?width=480&height=384&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/8a43ccdccc__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 15478
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_3.jpg?width=600&height=480&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/b349e1f7ed__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 21368
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_3.jpg?width=720&height=576&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/aad4178583__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 27714
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_3.jpg?width=90&height=72&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/adf4e7137d__kasten_pic_3.jpg",
+        "content_type": "image/jpg",
+        "bytes": 1868
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_4.jpg?width=1280&height=1024&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/51ffb9c77b__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 63966
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_4.jpg?width=1500&height=1000&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/0ee94fde38__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 74841
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_4.jpg?width=1500&height=1200&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/2b7a718beb__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 79187
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_4.jpg?width=180&height=144&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/e43a5f691f__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 4506
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_4.jpg?width=240&height=192&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/27a6058077__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 6467
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_4.jpg?width=360&height=288&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/a66f61259f__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 11193
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_4.jpg?width=480&height=384&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/e23f9d5892__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 16653
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_4.jpg?width=600&height=480&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/16c037d702__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 22740
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_4.jpg?width=720&height=576&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/74641e862d__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 29122
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_4.jpg?width=90&height=72&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/90dff9a803__kasten_pic_4.jpg",
+        "content_type": "image/jpg",
+        "bytes": 1978
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_5.jpg?width=1280&height=1024&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/5b35745035__kasten_pic_5.jpg",
+        "content_type": "image/jpg",
+        "bytes": 59516
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_5.jpg?width=1498&height=1000&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/44c61c7cb0__kasten_pic_5.jpg",
+        "content_type": "image/jpg",
+        "bytes": 72339
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_5.jpg?width=1498&height=1198.4&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/d46ad4b2d1__kasten_pic_5.jpg",
+        "content_type": "image/jpg",
+        "bytes": 73619
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_5.jpg?width=180&height=144&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/e223234e58__kasten_pic_5.jpg",
+        "content_type": "image/jpg",
+        "bytes": 4017
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_5.jpg?width=240&height=192&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/1a9d79c4df__kasten_pic_5.jpg",
+        "content_type": "image/jpg",
+        "bytes": 5725
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_5.jpg?width=360&height=288&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/a9c26b3403__kasten_pic_5.jpg",
+        "content_type": "image/jpg",
+        "bytes": 9992
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_5.jpg?width=480&height=384&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/eef30593d0__kasten_pic_5.jpg",
+        "content_type": "image/jpg",
+        "bytes": 14795
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_5.jpg?width=600&height=480&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/5585057a48__kasten_pic_5.jpg",
+        "content_type": "image/jpg",
+        "bytes": 20447
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_5.jpg?width=720&height=576&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/069c9d4b55__kasten_pic_5.jpg",
+        "content_type": "image/jpg",
+        "bytes": 26436
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_5.jpg?width=90&height=72&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/4038cdd1ba__kasten_pic_5.jpg",
+        "content_type": "image/jpg",
+        "bytes": 1878
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_6.jpg?width=1280&height=1024&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/1f9a08183e__kasten_pic_6.jpg",
+        "content_type": "image/jpg",
+        "bytes": 65552
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_6.jpg?width=1498&height=1000&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/68db46bbf0__kasten_pic_6.jpg",
+        "content_type": "image/jpg",
+        "bytes": 80583
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_6.jpg?width=1498&height=1198.4&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/048deb2145__kasten_pic_6.jpg",
+        "content_type": "image/jpg",
+        "bytes": 81611
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_6.jpg?width=180&height=144&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/a25fd9b8d2__kasten_pic_6.jpg",
+        "content_type": "image/jpg",
+        "bytes": 4237
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_6.jpg?width=240&height=192&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/11a6216470__kasten_pic_6.jpg",
+        "content_type": "image/jpg",
+        "bytes": 6045
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_6.jpg?width=360&height=288&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/808922c533__kasten_pic_6.jpg",
+        "content_type": "image/jpg",
+        "bytes": 10708
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_6.jpg?width=480&height=384&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/d2f5d98b7f__kasten_pic_6.jpg",
+        "content_type": "image/jpg",
+        "bytes": 16055
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_6.jpg?width=600&height=480&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/92bc0b44ff__kasten_pic_6.jpg",
+        "content_type": "image/jpg",
+        "bytes": 22104
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_6.jpg?width=720&height=576&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/dcb684be81__kasten_pic_6.jpg",
+        "content_type": "image/jpg",
+        "bytes": 28812
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_6.jpg?width=90&height=72&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/f6d05e1b61__kasten_pic_6.jpg",
+        "content_type": "image/jpg",
+        "bytes": 1946
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_9.jpg?width=1280&height=1024&transform=crop&background=ffffffff&imageTimestamp=1725611186&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/9ac0790119__kasten_pic_9.jpg",
+        "content_type": "image/jpg",
+        "bytes": 58863
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_9.jpg?width=1500&height=1000&transform=crop&background=ffffffff&imageTimestamp=1725611186&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/edd27f8331__kasten_pic_9.jpg",
+        "content_type": "image/jpg",
+        "bytes": 68224
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_9.jpg?width=1500&height=1200&transform=crop&background=ffffffff&imageTimestamp=1725611186&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/3e7033977e__kasten_pic_9.jpg",
+        "content_type": "image/jpg",
+        "bytes": 72986
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_9.jpg?width=180&height=144&transform=crop&background=ffffffff&imageTimestamp=1725611186&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/d01f4ac42a__kasten_pic_9.jpg",
+        "content_type": "image/jpg",
+        "bytes": 4115
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_9.jpg?width=240&height=192&transform=crop&background=ffffffff&imageTimestamp=1725611186&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/39e3317613__kasten_pic_9.jpg",
+        "content_type": "image/jpg",
+        "bytes": 5963
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_9.jpg?width=360&height=288&transform=crop&background=ffffffff&imageTimestamp=1725611186&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/a1e64f54d7__kasten_pic_9.jpg",
+        "content_type": "image/jpg",
+        "bytes": 10449
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_9.jpg?width=480&height=384&transform=crop&background=ffffffff&imageTimestamp=1725611186&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/e6353384de__kasten_pic_9.jpg",
+        "content_type": "image/jpg",
+        "bytes": 15414
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_9.jpg?width=600&height=480&transform=crop&background=ffffffff&imageTimestamp=1725611186&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/13c2e94639__kasten_pic_9.jpg",
+        "content_type": "image/jpg",
+        "bytes": 20385
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_9.jpg?width=720&height=576&transform=crop&background=ffffffff&imageTimestamp=1725611186&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/09f83d3345__kasten_pic_9.jpg",
+        "content_type": "image/jpg",
+        "bytes": 26641
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/module/Ueber-uns/kasten_pic_9.jpg?width=90&height=72&transform=crop&background=ffffffff&imageTimestamp=1725611186&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/010601b889__kasten_pic_9.jpg",
+        "content_type": "image/jpg",
+        "bytes": 1898
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Buchhaltung-Text/Slide%2520Home/60918/pic_60918.jpg?width=1280&height=441.37931034483&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432142&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/730af4ff01__pic_60918.jpg",
+        "content_type": "image/jpg",
+        "bytes": 41182
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Buchhaltung-Text/Slide%2520Home/60918/pic_60918.jpg?width=1777&height=612.75862068966&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432142&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/03ae0e71c5__pic_60918.jpg",
+        "content_type": "image/jpg",
+        "bytes": 67448
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Buchhaltung-Text/Slide%2520Home/60918/pic_60918.jpg?width=180&height=62.068965517241&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432142&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/1a5f92c17f__pic_60918.jpg",
+        "content_type": "image/jpg",
+        "bytes": 3280
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Buchhaltung-Text/Slide%2520Home/60918/pic_60918.jpg?width=240&height=82.758620689655&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432142&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/10b98b7dc8__pic_60918.jpg",
+        "content_type": "image/jpg",
+        "bytes": 4633
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Buchhaltung-Text/Slide%2520Home/60918/pic_60918.jpg?width=3480&height=1200&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432142&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/be72eca8fd__pic_60918.jpg",
+        "content_type": "image/jpg",
+        "bytes": 168067
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Buchhaltung-Text/Slide%2520Home/60918/pic_60918.jpg?width=360&height=124.13793103448&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432142&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/8a1d8dfd27__pic_60918.jpg",
+        "content_type": "image/jpg",
+        "bytes": 7632
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Buchhaltung-Text/Slide%2520Home/60918/pic_60918.jpg?width=480&height=165.51724137931&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432142&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/5ef8c82163__pic_60918.jpg",
+        "content_type": "image/jpg",
+        "bytes": 11059
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Buchhaltung-Text/Slide%2520Home/60918/pic_60918.jpg?width=600&height=206.89655172414&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432142&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/e6f7e58c07__pic_60918.jpg",
+        "content_type": "image/jpg",
+        "bytes": 14733
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Buchhaltung-Text/Slide%2520Home/60918/pic_60918.jpg?width=720&height=248.27586206897&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432142&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/de22337354__pic_60918.jpg",
+        "content_type": "image/jpg",
+        "bytes": 18645
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Buchhaltung-Text/Slide%2520Home/60918/pic_60918.jpg?width=90&height=31.034482758621&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432142&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/9f63f885f0__pic_60918.jpg",
+        "content_type": "image/jpg",
+        "bytes": 1548
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Gruendung-Text/Slide%2520Home/60920/pic_60920.jpg?width=1280&height=441.37931034483&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432340&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/da832b6b23__pic_60920.jpg",
+        "content_type": "image/jpg",
+        "bytes": 60420
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Gruendung-Text/Slide%2520Home/60920/pic_60920.jpg?width=1500&height=517.24137931034&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432340&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/c732b67af5__pic_60920.jpg",
+        "content_type": "image/jpg",
+        "bytes": 80550
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Gruendung-Text/Slide%2520Home/60920/pic_60920.jpg?width=180&height=62.068965517241&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432340&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/afa0c57eff__pic_60920.jpg",
+        "content_type": "image/jpg",
+        "bytes": 3902
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Gruendung-Text/Slide%2520Home/60920/pic_60920.jpg?width=240&height=82.758620689655&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432340&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/22eadce1e9__pic_60920.jpg",
+        "content_type": "image/jpg",
+        "bytes": 5818
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Gruendung-Text/Slide%2520Home/60920/pic_60920.jpg?width=3480&height=1200&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432340&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/887ca6cebb__pic_60920.jpg",
+        "content_type": "image/jpg",
+        "bytes": 261852
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Gruendung-Text/Slide%2520Home/60920/pic_60920.jpg?width=360&height=124.13793103448&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432340&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/0ab7df1dbe__pic_60920.jpg",
+        "content_type": "image/jpg",
+        "bytes": 10078
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Gruendung-Text/Slide%2520Home/60920/pic_60920.jpg?width=480&height=165.51724137931&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432340&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/88d751989d__pic_60920.jpg",
+        "content_type": "image/jpg",
+        "bytes": 15066
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Gruendung-Text/Slide%2520Home/60920/pic_60920.jpg?width=600&height=206.89655172414&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432340&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/5992ed6a20__pic_60920.jpg",
+        "content_type": "image/jpg",
+        "bytes": 20514
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Gruendung-Text/Slide%2520Home/60920/pic_60920.jpg?width=720&height=248.27586206897&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432340&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/a07b5bc048__pic_60920.jpg",
+        "content_type": "image/jpg",
+        "bytes": 26331
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Gruendung-Text/Slide%2520Home/60920/pic_60920.jpg?width=90&height=31.034482758621&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432340&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/67f5a2c6f9__pic_60920.jpg",
+        "content_type": "image/jpg",
+        "bytes": 1661
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=1280&height=662.06896551724&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/dd5a259343__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 1044886
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=180&height=93.103448275862&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/01e80594a9__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 31154
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=1920&height=993.10344827586&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/1d2dceff2d__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 2302079
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=240&height=124.13793103448&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/19127f4aab__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 50968
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=2560&height=1324.1379310345&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/51e4553537__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 4025117
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=3480&height=1800&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/433981daae__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 7838285
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=360&height=186.20689655172&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/a10b30f437__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 102976
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=3840&height=1986.2068965517&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/faa07e3c49__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 8696559
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=480&height=248.27586206897&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/d77becd90d__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 169720
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=600&height=310.34482758621&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/35f140aaf5__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 252890
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=720&height=372.41379310345&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/d98a5882b0__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 352559
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Header-Home/Slider%2520Home/61266/pic_61266.png?width=90&height=46.551724137931&extension=png&transform=crop&background=ffffffff&imageTimestamp=1725610668&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/afff0e6ae3__pic_61266.png",
+        "content_type": "image/png",
+        "bytes": 9305
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Kontakt-Bild/Slide%2520Home/72979/pic_72979.jpg?width=1280&height=441.37931034483&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1732084407&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/691c600bcd__pic_72979.jpg",
+        "content_type": "image/jpg",
+        "bytes": 87282
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Kontakt-Bild/Slide%2520Home/72979/pic_72979.jpg?width=180&height=62.068965517241&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1732084407&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/2ec6f0c744__pic_72979.jpg",
+        "content_type": "image/jpg",
+        "bytes": 3835
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Kontakt-Bild/Slide%2520Home/72979/pic_72979.jpg?width=1920&height=662.06896551724&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1732084407&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/29df55aa6b__pic_72979.jpg",
+        "content_type": "image/jpg",
+        "bytes": 169778
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Kontakt-Bild/Slide%2520Home/72979/pic_72979.jpg?width=240&height=82.758620689655&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1732084407&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/5aff3d58fc__pic_72979.jpg",
+        "content_type": "image/jpg",
+        "bytes": 5753
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Kontakt-Bild/Slide%2520Home/72979/pic_72979.jpg?width=2560&height=882.75862068966&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1732084407&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/f048009186__pic_72979.jpg",
+        "content_type": "image/jpg",
+        "bytes": 270141
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Kontakt-Bild/Slide%2520Home/72979/pic_72979.jpg?width=3480&height=1200&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1732084407&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/119a740a1e__pic_72979.jpg",
+        "content_type": "image/jpg",
+        "bytes": 480107
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Kontakt-Bild/Slide%2520Home/72979/pic_72979.jpg?width=360&height=124.13793103448&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1732084407&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/b643a51371__pic_72979.jpg",
+        "content_type": "image/jpg",
+        "bytes": 10861
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Kontakt-Bild/Slide%2520Home/72979/pic_72979.jpg?width=480&height=165.51724137931&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1732084407&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/961c2536cc__pic_72979.jpg",
+        "content_type": "image/jpg",
+        "bytes": 17110
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Kontakt-Bild/Slide%2520Home/72979/pic_72979.jpg?width=600&height=206.89655172414&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1732084407&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/8c06b356d3__pic_72979.jpg",
+        "content_type": "image/jpg",
+        "bytes": 24633
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Kontakt-Bild/Slide%2520Home/72979/pic_72979.jpg?width=720&height=248.27586206897&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1732084407&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/bb33261857__pic_72979.jpg",
+        "content_type": "image/jpg",
+        "bytes": 33473
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Kontakt-Bild/Slide%2520Home/72979/pic_72979.jpg?width=90&height=31.034482758621&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1732084407&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/3e7e9b8813__pic_72979.jpg",
+        "content_type": "image/jpg",
+        "bytes": 1640
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Steuern-Text/Slide%2520Home/60919/pic_60919.jpg?width=1280&height=441.37931034483&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432304&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/66e4bd0882__pic_60919.jpg",
+        "content_type": "image/jpg",
+        "bytes": 68168
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Steuern-Text/Slide%2520Home/60919/pic_60919.jpg?width=1344&height=463.44827586207&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432304&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/d55ef8bb5c__pic_60919.jpg",
+        "content_type": "image/jpg",
+        "bytes": 82850
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Steuern-Text/Slide%2520Home/60919/pic_60919.jpg?width=180&height=62.068965517241&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432304&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/6527e0f159__pic_60919.jpg",
+        "content_type": "image/jpg",
+        "bytes": 3531
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Steuern-Text/Slide%2520Home/60919/pic_60919.jpg?width=240&height=82.758620689655&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432304&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/ad436e71c7__pic_60919.jpg",
+        "content_type": "image/jpg",
+        "bytes": 5267
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Steuern-Text/Slide%2520Home/60919/pic_60919.jpg?width=3480&height=1200&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432304&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/a87d09346d__pic_60919.jpg",
+        "content_type": "image/jpg",
+        "bytes": 359115
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Steuern-Text/Slide%2520Home/60919/pic_60919.jpg?width=360&height=124.13793103448&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432304&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/91d40b11bd__pic_60919.jpg",
+        "content_type": "image/jpg",
+        "bytes": 9246
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Steuern-Text/Slide%2520Home/60919/pic_60919.jpg?width=480&height=165.51724137931&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432304&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/f27a6e0512__pic_60919.jpg",
+        "content_type": "image/jpg",
+        "bytes": 14231
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Steuern-Text/Slide%2520Home/60919/pic_60919.jpg?width=600&height=206.89655172414&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432304&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/f5f3be174e__pic_60919.jpg",
+        "content_type": "image/jpg",
+        "bytes": 19856
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Steuern-Text/Slide%2520Home/60919/pic_60919.jpg?width=720&height=248.27586206897&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432304&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/b43e5f028c__pic_60919.jpg",
+        "content_type": "image/jpg",
+        "bytes": 26406
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Steuern-Text/Slide%2520Home/60919/pic_60919.jpg?width=90&height=31.034482758621&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725432304&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/7757052812__pic_60919.jpg",
+        "content_type": "image/jpg",
+        "bytes": 1541
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Ueber-uns/Slide%2520Home/60915/pic_60915.jpg?width=1280&height=441.37931034483&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/ef2f0ded58__pic_60915.jpg",
+        "content_type": "image/jpg",
+        "bytes": 91880
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Ueber-uns/Slide%2520Home/60915/pic_60915.jpg?width=180&height=62.068965517241&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/74ffbadd71__pic_60915.jpg",
+        "content_type": "image/jpg",
+        "bytes": 3341
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Ueber-uns/Slide%2520Home/60915/pic_60915.jpg?width=1920&height=662.06896551724&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/bd7fc81268__pic_60915.jpg",
+        "content_type": "image/jpg",
+        "bytes": 184957
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Ueber-uns/Slide%2520Home/60915/pic_60915.jpg?width=240&height=82.758620689655&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/175013f335__pic_60915.jpg",
+        "content_type": "image/jpg",
+        "bytes": 5148
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Ueber-uns/Slide%2520Home/60915/pic_60915.jpg?width=2560&height=882.75862068966&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/117080465a__pic_60915.jpg",
+        "content_type": "image/jpg",
+        "bytes": 298806
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Ueber-uns/Slide%2520Home/60915/pic_60915.jpg?width=3480&height=1200&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/878edbb3e6__pic_60915.jpg",
+        "content_type": "image/jpg",
+        "bytes": 546269
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Ueber-uns/Slide%2520Home/60915/pic_60915.jpg?width=360&height=124.13793103448&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/522992725b__pic_60915.jpg",
+        "content_type": "image/jpg",
+        "bytes": 9846
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Ueber-uns/Slide%2520Home/60915/pic_60915.jpg?width=480&height=165.51724137931&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/7a4aecfaab__pic_60915.jpg",
+        "content_type": "image/jpg",
+        "bytes": 16030
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Ueber-uns/Slide%2520Home/60915/pic_60915.jpg?width=600&height=206.89655172414&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/80c808da3a__pic_60915.jpg",
+        "content_type": "image/jpg",
+        "bytes": 23517
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Ueber-uns/Slide%2520Home/60915/pic_60915.jpg?width=720&height=248.27586206897&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/02a4d714aa__pic_60915.jpg",
+        "content_type": "image/jpg",
+        "bytes": 32679
+      },
+      {
+        "url": "https://www.treuhandschmid.ch/view/treuhandschmid.ch/images/multigallery/Ueber-uns/Slide%2520Home/60915/pic_60915.jpg?width=90&height=31.034482758621&extension=jpg&transform=crop&background=ffffffff&imageTimestamp=1725430072&is_published=false&sec_srv=d284a838",
+        "ok": true,
+        "file": "assets/76061c4f1d__pic_60915.jpg",
+        "content_type": "image/jpg",
+        "bytes": 1377
+      },
+      {
+        "url": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+        "ok": true,
+        "file": "assets/6f35d142e1__pdf.gif",
+        "content_type": "image/gif",
+        "bytes": 618
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://www.treuhandschmid.ch/",
+      "title": "Treuhand, Steuern, Buchhaltung, Gründung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 1062
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+      "title": "Buchhaltung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "raw_html": "raw_html/002__Buchhaltung.html",
+      "text_len": 3106
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Steuern.htm",
+      "title": "Steuern | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "raw_html": "raw_html/003__Steuern.html",
+      "text_len": 1014
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Gruendungen.htm",
+      "title": "Gründungen | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "raw_html": "raw_html/004__Gruendungen.html",
+      "text_len": 1577
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Downloads.htm",
+      "title": "Downloads | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "raw_html": "raw_html/005__Downloads.html",
+      "text_len": 683
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+      "title": "Über uns | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "raw_html": "raw_html/006__Ueber-uns.html",
+      "text_len": 948
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Kontakt.htm",
+      "title": "Kontakt | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "raw_html": "raw_html/007__Kontakt.html",
+      "text_len": 1161
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Home.htm",
+      "title": "Treuhand, Steuern, Buchhaltung, Gründung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "raw_html": "raw_html/008__Home.html",
+      "text_len": 1062
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Datenschutz.htm",
+      "title": "Datenschutz | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "raw_html": "raw_html/009__Datenschutz.html",
+      "text_len": 6774
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Impressum.htm",
+      "title": "Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "raw_html": "raw_html/010__Impressum.html",
+      "text_len": 8331
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Standort.htm",
+      "title": "Home Standort | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "raw_html": "raw_html/011__Standort.html",
+      "text_len": 948
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.treuhandschmid.ch/",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Treuhand, Steuern, Buchhaltung, Gründung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "lang": "de",
+      "meta": {
+        "x-ua-compatible": "IE=edge",
+        "content-type": "text/html; charset=ISO-8859-1",
+        "robots": "index,follow",
+        "language": "de",
+        "description": "Treuhand Catherine Schmid  Ihr Partner für Steuern, Buchhaltung und Gründungen in Oerlikon, ZürichTreuhand Schmid in Oerlikon, Zürich, ist Ihr verlässlicher Experte für Steuern, Buchhaltung und Treuhandservices. Mit langjähriger Erfahrung unterstützen wir Privatpersonen und Unternehmen bei der Optimierung ihrer Steuerangelegenheiten, der professionellen Buchführung sowie bei der erfolgreichen Gründung neuer Firmen. Unser Fokus liegt auf individuellen Lösungen, die Ihre finanziellen Ziele in den Mittelpunkt stellen. Vertrauen Sie auf unsere Expertise und profitieren Sie von einem persönlichen Service, der Sie entlastet und Ihnen Zeit für das Wesentliche gibt. Kontaktieren Sie Treuhand Schmid und bringen Sie Ihre Finanzen auf Erfolgskurs!",
+        "keywords": "Treuhand, Stuern, Gründungen, Buchhaltung, Buchhaltung Oerlikon, Steuern Oerlikon, Gründungen Oerlikon, Treuhand Oerlikon, Treuhand Zürich",
+        "title": "Treuhand, Steuern, Buchhaltung, Gründung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+        "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no",
+        "zipcode": "8050",
+        "city": "Zürich",
+        "country": "CH",
+        "author": "Treuhand Catherine Schmid GmbH",
+        "google-site-verification": "aaUT4vu8bD7KdvyE1rAfZGTzG6zXjSIqAsSizkaoiXY"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "IHR TREUHANDUNTERNEHMEN IN ZÜRICH OERLIKON",
+          "CHECKLISTEN | FORMULARE | INFORMATIONEN"
+        ],
+        "h2": [
+          "Treuhand Catherine Schmid GmbH",
+          "Herzlich willkommen bei Treuhand Catherine Schmid GmbH",
+          "Buchhaltung",
+          "Steuern",
+          "Gründungen",
+          "CHECKLISTE STEUERERKLÄRUNG",
+          "FRAGEBOGEN FÜR AG-GRÜNDUNG",
+          "AUTOMATISCHER INFORMATIONSAUSTAUSCH",
+          "Lohnausweis"
+        ],
+        "h3": [
+          "",
+          "Mut heisst Unternehmer sein"
+        ]
+      },
+      "text": "Treuhand, Steuern, Buchhaltung, Gründung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nDatenschutz\nImpressum\nTreuhand Catherine Schmid GmbH\nMut heisst Unternehmer sein\nIHR TREUHANDUNTERNEHMEN IN ZÜRICH OERLIKON\nHerzlich willkommen bei Treuhand Catherine Schmid GmbH\nUnser Treuhandbüro legt grossen Wert auf eine persönliche Kundenbetreuung. Das bietet uns die Möglichkeit, die Dienstleistungen ganz auf Ihre individuellen Bedürfnisse abzustimmen.\nWir richten uns vor allem an kleine und mittlere Unternehmen, aber auch an Privatpersonen. Lassen Sie sich von unserer langjährigen Erfahrung und unserer engagierten Arbeitsweise überzeugen.\nWir freuen uns auf Sie!\nBuchhaltung\nSteuern\nGründungen\nCHECKLISTEN | FORMULARE | INFORMATIONEN\nCHECKLISTE STEUERERKLÄRUNG\nPDF DE herunterladen\nPDF EN herunterladen\nFRAGEBOGEN FÜR AG-GRÜNDUNG\nPDF herunterladen\nAUTOMATISCHER INFORMATIONSAUSTAUSCH\nPDF herunterladen\nLohnausweis\nPDF herunterladen",
+      "text_len": 1062,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "PDF DE herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/2025%20Checkliste%20STE%20D.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF EN herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/2025%20Checklist%20STE%20E.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/FragebogenzurAG-Grndung.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/AIA%20Automatischer%20Informationsaustausch.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/Lohnausweis.pdf",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "alt": "Treuhand Catherine Schmid GmbH"
+        },
+        {
+          "alt": "Design"
+        },
+        {
+          "alt": "Treuhand, Steuern, Buchhaltung, Gründung Oerlikon, Zürich "
+        },
+        {
+          "alt": "Buchhaltung "
+        },
+        {
+          "alt": "Steuern "
+        },
+        {
+          "alt": "Gründungen "
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Buchhaltung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "lang": "de",
+      "meta": {
+        "x-ua-compatible": "IE=edge",
+        "content-type": "text/html; charset=ISO-8859-1",
+        "robots": "index,follow",
+        "language": "de",
+        "title": "Buchhaltung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+        "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no",
+        "zipcode": "8050",
+        "city": "Zürich",
+        "country": "CH",
+        "author": "Treuhand Catherine Schmid GmbH",
+        "google-site-verification": "aaUT4vu8bD7KdvyE1rAfZGTzG6zXjSIqAsSizkaoiXY"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Buchhaltung",
+          "Kontaktieren Sie uns"
+        ],
+        "h2": [
+          "Buchhaltung",
+          "SALÄRADMINISTRATION",
+          "ABSCHLUSSBERATUNGEN",
+          "Administration"
+        ]
+      },
+      "text": "Buchhaltung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nDatenschutz\nImpressum\nBuchhaltung\nBuchhaltung\nBuchhaltung erfordert Disziplin und Konzentration. Konzentriert zu sein und zu bleiben, ist gar nicht so einfach, wenn man an mehreren Orten gleichzeitig sein sollte oder ständig neue Kundenanfragen eingehen. Damit Sie sich ruhigen Gewissens auf das Kerngeschäft konzentrieren können, nehmen wir Ihnen folgende Arbeiten auf Wunsch ab:\nFühren von Finanzbuchhaltungen für Einzelfirmen, Personengesellschaften und juristische Personen\nErstellen von Jahresabschlüssen und Zwischenabschlüssen sowie Analysen und Optimierungsvorschlägen unter Berücksichtigung von finanzwirtschaftlichen und steuerlichen Aspekten\nFühren von Nebenbuchhaltungen (Löhne, Debitoren, Kreditoren)\nUnterstützung in allen MWST-Belangen (Eintragungen, Löschungen, Abrechnungen)\nAdministrative Führung von Unternehmen (Zahlungsverkehr, Fakturierung, Debitorenüberwachung, Kreditorenbewirtschaftung)\nDomizilstellenmandate\nTemporäreinsätze im Rechnungswesen\nSALÄRADMINISTRATION\nZufriedene Mitarbeiter sind gute Mitarbeiter. Eine transparente und zuverlässige Lohnabrechnung ist ein Parameter der Zufriedenheit, der Sie keinen zeitlichen Aufwand kosten muss.\nErstellen von Lohnabrechnungen (Berechnung der notwendigen Abzüge oder Zuschläge, Monatslöhne, Stundenlöhne, Boni)\nVorbereiten oder Ausführen der Lohnzahlungen\nErstellen der Buchungsbelege, elektronisch oder auf Papier\nErstellen der Abrechnungen für die Sozialversicherungen\nAusfertigen der Lohnausweise\nErstellen von Auswertungen nach individuellen Wünschen\nBeratung in den Bereichen Sozialversicherung, Vorsorge\nKoordination und Abklärungen mit Sozialversicherungen und Behörden (Ausgleichskassen, Versicherungen, Quellensteuern usw.)\nEinholung von Arbeitsbewilligungen für ausländische Mitarbeiter\nABSCHLUSSBERATUNGEN\nWir setzen uns gerne mit Ihnen zusammen, um den Abschluss zu analysieren und zu kommentieren, mit dem Ziel, Ihr Unternehmen effizient zu optimieren.\nErstellen von Monats-, Quartals- und Jahresabschlüssen\nBudget- bzw. Vorjahresvergleiche\nBilanz- und Erfolgsanalyse\nAdministration\nHerrscht in Ihrem Büro Chaos? Wir reorganisieren gerne Ihre Administration und nehmen Ihnen anfallende Aufgaben ab. Ein externes Sekretariat kann sehr nützlich und effizient sein, denn damit erreichen Sie eine ständige Besetzung und bezahlen bloss den effektiven Aufwand.\nPostbearbeitung und Weiterleitung\nKorrespondenz mit Behörden\nReorganisation von Akten sowie Ablage\nTelefonbeantwortung und Weiterleitung\nSchreibarbeiten nach Kundenwünschen\nVersand von Produkten\nKontaktieren Sie uns\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!\nTreuhand Catherine Schmid GmbH\nGubelstrasse  19\n8050 Zürich\nTel.\n+41 44 317 61 91\ninfo@treuhandschmid.ch\nName\n*\nStrasse / Nr.\n*\nPLZ / Ort\n*\nE-Mail\n*\nTelefon\n*\nIhre Nachricht\nBitte leer lassen",
+      "text_len": 3106,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "alt": "Treuhand Catherine Schmid GmbH"
+        },
+        {
+          "alt": "Design"
+        },
+        {
+          "alt": "Slide Home 52642 60918"
+        }
+      ],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Tel.",
+            "+41 44 317 61 91"
+          ]
+        ],
+        [
+          [
+            "Name *",
+            ""
+          ],
+          [
+            "Strasse / Nr. *",
+            ""
+          ],
+          [
+            "PLZ / Ort *",
+            ""
+          ],
+          [
+            "E-Mail *",
+            ""
+          ],
+          [
+            "Telefon *",
+            ""
+          ],
+          [
+            "Ihre Nachricht",
+            ""
+          ],
+          [
+            "Bitte leer lassen",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ]
+        ]
+      ],
+      "forms": [
+        {
+          "action": "https://www.treuhandschmid.ch/index.php?RW=Buchhaltung.htm&url=#kontaktFormularAnchor",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_0",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_1",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_2",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_3",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_4",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "feld_5",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "address_www",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "repeat_email",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "Senden",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "honeymoon1",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "honeymoon2",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@treuhandschmid.ch"
+      ],
+      "phones": [
+        "+41 44 317 61 91"
+      ],
+      "raw_html": "raw_html/002__Buchhaltung.html"
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Steuern.htm",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Steuern | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "lang": "de",
+      "meta": {
+        "x-ua-compatible": "IE=edge",
+        "content-type": "text/html; charset=ISO-8859-1",
+        "robots": "index,follow",
+        "language": "de",
+        "title": "Steuern | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+        "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no",
+        "zipcode": "8050",
+        "city": "Zürich",
+        "country": "CH",
+        "author": "Treuhand Catherine Schmid GmbH",
+        "google-site-verification": "aaUT4vu8bD7KdvyE1rAfZGTzG6zXjSIqAsSizkaoiXY"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Steuern",
+          "Kontaktieren Sie uns"
+        ]
+      },
+      "text": "Steuern | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nDatenschutz\nImpressum\nSteuern\nDie alljährliche Steuererklärung ist ein aufwendiges Muss. Bestimmt sind Sie froh, wenn wir Ihnen diese Arbeit abnehmen würden, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.\nErstellen von Steuererklärungen für natürliche und juristische Personen\nErstellen von Verrechnungssteuer-Rückerstattungsanträgen\nErstellen von Quellensteuerabrechnungen\nPrüfen von Steuerveranlagungen\nErstellen von MWST-Abrechnungen\nKontaktieren Sie uns\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!\nTreuhand Catherine Schmid GmbH\nGubelstrasse  19\n8050 Zürich\nTel.\n+41 44 317 61 91\ninfo@treuhandschmid.ch\nName\n*\nStrasse / Nr.\n*\nPLZ / Ort\n*\nE-Mail\n*\nTelefon\n*\nIhre Nachricht\nBitte leer lassen",
+      "text_len": 1014,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "alt": "Treuhand Catherine Schmid GmbH"
+        },
+        {
+          "alt": "Design"
+        },
+        {
+          "alt": "Slide Home 52645 60919"
+        }
+      ],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Tel.",
+            "+41 44 317 61 91"
+          ]
+        ],
+        [
+          [
+            "Name *",
+            ""
+          ],
+          [
+            "Strasse / Nr. *",
+            ""
+          ],
+          [
+            "PLZ / Ort *",
+            ""
+          ],
+          [
+            "E-Mail *",
+            ""
+          ],
+          [
+            "Telefon *",
+            ""
+          ],
+          [
+            "Ihre Nachricht",
+            ""
+          ],
+          [
+            "Bitte leer lassen",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ]
+        ]
+      ],
+      "forms": [
+        {
+          "action": "https://www.treuhandschmid.ch/index.php?RW=Steuern.htm&url=#kontaktFormularAnchor",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_0",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_1",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_2",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_3",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_4",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "feld_5",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "address_www",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "repeat_email",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "Senden",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "honeymoon1",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "honeymoon2",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@treuhandschmid.ch"
+      ],
+      "phones": [
+        "+41 44 317 61 91"
+      ],
+      "raw_html": "raw_html/003__Steuern.html"
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Gruendungen.htm",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Gründungen | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "lang": "de",
+      "meta": {
+        "x-ua-compatible": "IE=edge",
+        "content-type": "text/html; charset=ISO-8859-1",
+        "robots": "index,follow",
+        "language": "de",
+        "title": "Gründungen | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+        "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no",
+        "zipcode": "8050",
+        "city": "Zürich",
+        "country": "CH",
+        "author": "Treuhand Catherine Schmid GmbH",
+        "google-site-verification": "aaUT4vu8bD7KdvyE1rAfZGTzG6zXjSIqAsSizkaoiXY"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Gründungen",
+          "Kontaktieren Sie uns"
+        ],
+        "h2": [
+          "GRÜNDUNGEN | UMWANDLUNGEN",
+          "Versicherungen"
+        ]
+      },
+      "text": "Gründungen | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nDatenschutz\nImpressum\nGründungen\nGRÜNDUNGEN | UMWANDLUNGEN\nSie möchten bereits längere Zeit eine eigene Unternehmung gründen, sind jedoch unentschlossen, welche Form Sie bevorzugen sollen? Wir stehen Ihnen gerne beratend zur Seite. Wir kümmern uns um die Vorbereitungen aller Papiere, bis die Unternehmung notariell beglaubigt werden kann und im Handelsregister eingetragen wird.\nGerne nehmen wir uns auch Änderungen bereits bestehender Unternehmen an und helfen bei Entscheidungen und Organisation:\nStatutenänderung\nRechtsformänderung\nKapitalerhöhung und –herabsetzung\nSitzverlegung\nZweckänderung\nNamensänderung\nStammeinlagenübertragung\nVersicherungen\nSie sind mit dem Preis-Leistungs-Verhältnis Ihrer bisherigen Versicherung unzufrieden? Oder hat Sie das leise Gefühl beschlichen, hoffnungslos überversichert zu sein? Wir beraten Sie gerne und arbeiten dabei Hand in Hand mit Versicherungsexperten.\nVermittlung von neuen Versicherungsverträgen\nÜberprüfung bestehender Versicherungsverträge zur Optimierung\nKontaktieren Sie uns\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!\nTreuhand Catherine Schmid GmbH\nGubelstrasse  19\n8050 Zürich\nTel.\n+41 44 317 61 91\ninfo@treuhandschmid.ch\nName\n*\nStrasse / Nr.\n*\nPLZ / Ort\n*\nE-Mail\n*\nTelefon\n*\nIhre Nachricht\nBitte leer lassen",
+      "text_len": 1577,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "alt": "Treuhand Catherine Schmid GmbH"
+        },
+        {
+          "alt": "Design"
+        },
+        {
+          "alt": "Slide Home 52645 60920"
+        }
+      ],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Tel.",
+            "+41 44 317 61 91"
+          ]
+        ],
+        [
+          [
+            "Name *",
+            ""
+          ],
+          [
+            "Strasse / Nr. *",
+            ""
+          ],
+          [
+            "PLZ / Ort *",
+            ""
+          ],
+          [
+            "E-Mail *",
+            ""
+          ],
+          [
+            "Telefon *",
+            ""
+          ],
+          [
+            "Ihre Nachricht",
+            ""
+          ],
+          [
+            "Bitte leer lassen",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ]
+        ]
+      ],
+      "forms": [
+        {
+          "action": "https://www.treuhandschmid.ch/index.php?RW=Gruendungen.htm&url=#kontaktFormularAnchor",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_0",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_1",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_2",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_3",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_4",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "feld_5",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "address_www",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "repeat_email",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "Senden",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "honeymoon1",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "honeymoon2",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@treuhandschmid.ch"
+      ],
+      "phones": [
+        "+41 44 317 61 91"
+      ],
+      "raw_html": "raw_html/004__Gruendungen.html"
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Downloads.htm",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Downloads | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "lang": "de",
+      "meta": {
+        "x-ua-compatible": "IE=edge",
+        "content-type": "text/html; charset=ISO-8859-1",
+        "robots": "index,follow",
+        "language": "de",
+        "title": "Downloads | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+        "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no",
+        "zipcode": "8050",
+        "city": "Zürich",
+        "country": "CH",
+        "author": "Treuhand Catherine Schmid GmbH",
+        "google-site-verification": "aaUT4vu8bD7KdvyE1rAfZGTzG6zXjSIqAsSizkaoiXY"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "CHECKLISTEN | FORMULARE | INFORMATIONEN"
+        ],
+        "h2": [
+          "CHECKLISTE STEUERERKLÄRUNG",
+          "FRAGEBOGEN FÜR AG-GRÜNDUNG",
+          "AUTOMATISCHER INFORMATIONSAUSTAUSCH",
+          "Lohnausweis"
+        ]
+      },
+      "text": "Downloads | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nDatenschutz\nImpressum\nCHECKLISTEN | FORMULARE | INFORMATIONEN\nCHECKLISTE STEUERERKLÄRUNG\nPDF DE herunterladen\nPDF EN herunterladen\nFRAGEBOGEN FÜR AG-GRÜNDUNG\nPDF herunterladen\nAUTOMATISCHER INFORMATIONSAUSTAUSCH\nPDF herunterladen\nLohnausweis\nPDF herunterladen\nBuchhaltung\nSteuern\nGründungen\nÜber uns\nKontakt\nDatenschutz\n|\nImpressum\nTreuhand Catherine Schmid GmbH\nGubelstrasse  19\n8050 Zürich\n+41 44 317 61 91\ninfo@treuhandschmid.ch\n+41 44 317 61 91\nE-Mail\nStandort\nWhats App\nKontaktieren Sie uns",
+      "text_len": 683,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "PDF DE herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/2025%20Checkliste%20STE%20D.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF EN herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/2025%20Checklist%20STE%20E.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/FragebogenzurAG-Grndung.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/AIA%20Automatischer%20Informationsaustausch.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/Lohnausweis.pdf",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "+41 44 317 61 91",
+          "href": "tel:+41 44 317 61 91",
+          "internal": false
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 44 317 61 91",
+          "href": "tel:+41443176191",
+          "internal": false
+        },
+        {
+          "text": "E-Mail",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "Standort",
+          "href": "https://www.treuhandschmid.ch/Standort.htm",
+          "internal": true
+        },
+        {
+          "text": "Whats App",
+          "href": "https://wa.me/41767079025",
+          "internal": false
+        },
+        {
+          "text": "Kontaktieren Sie uns",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "alt": "Treuhand Catherine Schmid GmbH"
+        },
+        {
+          "alt": "Design"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhandschmid.ch"
+      ],
+      "phones": [
+        "+41 44 317 61 91"
+      ],
+      "raw_html": "raw_html/005__Downloads.html"
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Über uns | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "lang": "de",
+      "meta": {
+        "x-ua-compatible": "IE=edge",
+        "content-type": "text/html; charset=ISO-8859-1",
+        "robots": "index,follow",
+        "language": "de",
+        "title": "Über uns | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+        "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no",
+        "zipcode": "8050",
+        "city": "Zürich",
+        "country": "CH",
+        "author": "Treuhand Catherine Schmid GmbH",
+        "google-site-verification": "aaUT4vu8bD7KdvyE1rAfZGTzG6zXjSIqAsSizkaoiXY"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Team Treuhand Catherine Schmid GmbH"
+        ],
+        "h2": [
+          "Catherine Schmid",
+          "Franziska Sigg",
+          "Eliane Durand",
+          "Melanie Walker",
+          "Bella"
+        ]
+      },
+      "text": "Über uns | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nDatenschutz\nImpressum\nTeam Treuhand Catherine Schmid GmbH\nCatherine Schmid\nFachfrau im Finanz- und Rechnungswesen\nGeschäftsführerin\nAnwesend: Mo - Fr\nSprachen: DE, FR, EN\nschmid@treuhandschmid.ch\nFranziska Sigg\nSachbearbeiterin Buchhaltung\nAnwesend: Mo - Fr\nSprachen: DE, EN\ninfo@treuhandschmid.ch\nEliane Durand\nSachbearbeiterin Steuern\nAnwesend: Mo - Do\nSprachen: DE, EN, FR\ninfo@treuhandschmid.ch\nMelanie Walker\nLernende KV E-Profil\nAnwesend: Mo, Mi - Fr\nSprachen: DE, EN, SP\ninfo@treuhandschmid.ch\nBella\nUnsere Alarmanlage\nBuchhaltung\nSteuern\nGründungen\nÜber uns\nKontakt\nDatenschutz\n|\nImpressum\nTreuhand Catherine Schmid GmbH\nGubelstrasse  19\n8050 Zürich\n+41 44 317 61 91\ninfo@treuhandschmid.ch\n+41 44 317 61 91\nE-Mail\nStandort\nWhats App\nKontaktieren Sie uns",
+      "text_len": 948,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "schmid@treuhandschmid.ch",
+          "href": "mailto:schmid@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:schmid@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:schmid@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:schmid@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "+41 44 317 61 91",
+          "href": "tel:+41 44 317 61 91",
+          "internal": false
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 44 317 61 91",
+          "href": "tel:+41443176191",
+          "internal": false
+        },
+        {
+          "text": "E-Mail",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "Standort",
+          "href": "https://www.treuhandschmid.ch/Standort.htm",
+          "internal": true
+        },
+        {
+          "text": "Whats App",
+          "href": "https://wa.me/41767079025",
+          "internal": false
+        },
+        {
+          "text": "Kontaktieren Sie uns",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "alt": "Treuhand Catherine Schmid GmbH"
+        },
+        {
+          "alt": "Design"
+        },
+        {
+          "alt": "Slide Home 52646"
+        },
+        {
+          "alt": "Catherine Schmid "
+        },
+        {
+          "alt": "Franziska Sigg "
+        },
+        {
+          "alt": "Eliane Durand "
+        },
+        {
+          "alt": "Melanie Walker "
+        },
+        {
+          "alt": "Bella "
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhandschmid.ch",
+        "schmid@treuhandschmid.ch"
+      ],
+      "phones": [
+        "+41 44 317 61 91"
+      ],
+      "raw_html": "raw_html/006__Ueber-uns.html"
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Kontakt.htm",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Kontakt | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "lang": "de",
+      "meta": {
+        "x-ua-compatible": "IE=edge",
+        "content-type": "text/html; charset=ISO-8859-1",
+        "robots": "index,follow",
+        "language": "de",
+        "title": "Kontakt | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+        "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no",
+        "zipcode": "8050",
+        "city": "Zürich",
+        "country": "CH",
+        "author": "Treuhand Catherine Schmid GmbH",
+        "google-site-verification": "aaUT4vu8bD7KdvyE1rAfZGTzG6zXjSIqAsSizkaoiXY"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Kontaktieren Sie uns"
+        ],
+        "h2": [
+          "Unser Standort",
+          "Öffnungszeiten",
+          "Kontakt"
+        ]
+      },
+      "text": "Kontakt | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nDatenschutz\nImpressum\nKontaktieren Sie uns\nUnser Treuhandbüro befindet sich im Herzen von Zürich-Oerlikon. Wir sind sowohl mit dem ÖV (7 Gehmin. vom Bhf. Oerlikon) als auch mit dem Auto gut zu erreichen. Parkplätze für unsere Besucher befinden sich direkt beim Eingang im Erdgeschoss.\nTreuhand Catherine Schmid GmbH\nGubelstrasse  19\n8050 Zürich\nTel.\n+41 44 317 61 91\ninfo@treuhandschmid.ch\nName\n*\nStrasse / Nr.\n*\nPLZ / Ort\n*\nE-Mail\n*\nTelefon\n*\nIhre Nachricht\nBitte leer lassen\nUnser Standort\nUnser Treuhandbüro befindet sich im Herzen von Zürich-Oerlikon. Wir sind sowohl mit dem ÖV (7 Gehmin. vom Bhf. Oerlikon) als auch mit dem Auto gut zu erreichen. Parkplätze für unsere Besucher befinden sich direkt beim Eingang im Erdgeschoss.\n» Link zum Routenplaner\nÖffnungszeiten\nMo-Fr durchgehend von 08:00-17:30\nBitte rufen Sie uns an, um einen Termin zu vereinbaren.\nKontakt\nTreuhand Catherine Schmid GmbH\nGubelstrasse  19\n8050 Zürich\nTel.\n+41 44 317 61 91\ninfo@treuhandschmid.ch",
+      "text_len": 1161,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "» Link zum Routenplaner",
+          "href": "http://maps.google.com/maps?daddr=Gubelstrasse++19%2C+Z%C3%BCrich",
+          "internal": false
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "alt": "Treuhand Catherine Schmid GmbH"
+        },
+        {
+          "alt": "Design"
+        },
+        {
+          "alt": "Slide Home "
+        }
+      ],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Tel.",
+            "+41 44 317 61 91"
+          ]
+        ],
+        [
+          [
+            "Name *",
+            ""
+          ],
+          [
+            "Strasse / Nr. *",
+            ""
+          ],
+          [
+            "PLZ / Ort *",
+            ""
+          ],
+          [
+            "E-Mail *",
+            ""
+          ],
+          [
+            "Telefon *",
+            ""
+          ],
+          [
+            "Ihre Nachricht",
+            ""
+          ],
+          [
+            "Bitte leer lassen",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ]
+        ],
+        [
+          [
+            "Tel.",
+            "+41 44 317 61 91"
+          ]
+        ]
+      ],
+      "forms": [
+        {
+          "action": "https://www.treuhandschmid.ch/index.php?RW=Kontakt.htm&url=#kontaktFormularAnchor",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_0",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_1",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_2",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_3",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "feld_4",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "feld_5",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "website_repeat",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "email_repeat",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "Senden",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "honeymoon1",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "honeymoon2",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@treuhandschmid.ch"
+      ],
+      "phones": [
+        "+41 44 317 61 91"
+      ],
+      "raw_html": "raw_html/007__Kontakt.html"
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Home.htm",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Treuhand, Steuern, Buchhaltung, Gründung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "lang": "de",
+      "meta": {
+        "x-ua-compatible": "IE=edge",
+        "content-type": "text/html; charset=ISO-8859-1",
+        "robots": "index,follow",
+        "language": "de",
+        "description": "Treuhand Catherine Schmid  Ihr Partner für Steuern, Buchhaltung und Gründungen in Oerlikon, ZürichTreuhand Schmid in Oerlikon, Zürich, ist Ihr verlässlicher Experte für Steuern, Buchhaltung und Treuhandservices. Mit langjähriger Erfahrung unterstützen wir Privatpersonen und Unternehmen bei der Optimierung ihrer Steuerangelegenheiten, der professionellen Buchführung sowie bei der erfolgreichen Gründung neuer Firmen. Unser Fokus liegt auf individuellen Lösungen, die Ihre finanziellen Ziele in den Mittelpunkt stellen. Vertrauen Sie auf unsere Expertise und profitieren Sie von einem persönlichen Service, der Sie entlastet und Ihnen Zeit für das Wesentliche gibt. Kontaktieren Sie Treuhand Schmid und bringen Sie Ihre Finanzen auf Erfolgskurs!",
+        "keywords": "Treuhand, Stuern, Gründungen, Buchhaltung, Buchhaltung Oerlikon, Steuern Oerlikon, Gründungen Oerlikon, Treuhand Oerlikon, Treuhand Zürich",
+        "title": "Treuhand, Steuern, Buchhaltung, Gründung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+        "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no",
+        "zipcode": "8050",
+        "city": "Zürich",
+        "country": "CH",
+        "author": "Treuhand Catherine Schmid GmbH",
+        "google-site-verification": "aaUT4vu8bD7KdvyE1rAfZGTzG6zXjSIqAsSizkaoiXY"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "IHR TREUHANDUNTERNEHMEN IN ZÜRICH OERLIKON",
+          "CHECKLISTEN | FORMULARE | INFORMATIONEN"
+        ],
+        "h2": [
+          "Treuhand Catherine Schmid GmbH",
+          "Herzlich willkommen bei Treuhand Catherine Schmid GmbH",
+          "Buchhaltung",
+          "Steuern",
+          "Gründungen",
+          "CHECKLISTE STEUERERKLÄRUNG",
+          "FRAGEBOGEN FÜR AG-GRÜNDUNG",
+          "AUTOMATISCHER INFORMATIONSAUSTAUSCH",
+          "Lohnausweis"
+        ],
+        "h3": [
+          "",
+          "Mut heisst Unternehmer sein"
+        ]
+      },
+      "text": "Treuhand, Steuern, Buchhaltung, Gründung | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nDatenschutz\nImpressum\nTreuhand Catherine Schmid GmbH\nMut heisst Unternehmer sein\nIHR TREUHANDUNTERNEHMEN IN ZÜRICH OERLIKON\nHerzlich willkommen bei Treuhand Catherine Schmid GmbH\nUnser Treuhandbüro legt grossen Wert auf eine persönliche Kundenbetreuung. Das bietet uns die Möglichkeit, die Dienstleistungen ganz auf Ihre individuellen Bedürfnisse abzustimmen.\nWir richten uns vor allem an kleine und mittlere Unternehmen, aber auch an Privatpersonen. Lassen Sie sich von unserer langjährigen Erfahrung und unserer engagierten Arbeitsweise überzeugen.\nWir freuen uns auf Sie!\nBuchhaltung\nSteuern\nGründungen\nCHECKLISTEN | FORMULARE | INFORMATIONEN\nCHECKLISTE STEUERERKLÄRUNG\nPDF DE herunterladen\nPDF EN herunterladen\nFRAGEBOGEN FÜR AG-GRÜNDUNG\nPDF herunterladen\nAUTOMATISCHER INFORMATIONSAUSTAUSCH\nPDF herunterladen\nLohnausweis\nPDF herunterladen",
+      "text_len": 1062,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "PDF DE herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/2025%20Checkliste%20STE%20D.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF EN herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/2025%20Checklist%20STE%20E.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/FragebogenzurAG-Grndung.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/AIA%20Automatischer%20Informationsaustausch.pdf",
+          "internal": true
+        },
+        {
+          "text": "PDF herunterladen",
+          "href": "https://www.treuhandschmid.ch/view/data/11827/Lohnausweis.pdf",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "alt": "Treuhand Catherine Schmid GmbH"
+        },
+        {
+          "alt": "Design"
+        },
+        {
+          "alt": "Treuhand, Steuern, Buchhaltung, Gründung Oerlikon, Zürich "
+        },
+        {
+          "alt": "Buchhaltung "
+        },
+        {
+          "alt": "Steuern "
+        },
+        {
+          "alt": "Gründungen "
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        },
+        {
+          "src": "https://www.web-agentur.ch/plugins/ckeditor4/plugins/smiley/images/pdf.gif",
+          "width": "16",
+          "height": "16"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/008__Home.html"
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Datenschutz.htm",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Datenschutz | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "lang": "de",
+      "meta": {
+        "x-ua-compatible": "IE=edge",
+        "content-type": "text/html; charset=ISO-8859-1",
+        "robots": "index,follow",
+        "language": "de",
+        "title": "Datenschutz | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+        "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no",
+        "zipcode": "8050",
+        "city": "Zürich",
+        "country": "CH",
+        "author": "Treuhand Catherine Schmid GmbH",
+        "google-site-verification": "aaUT4vu8bD7KdvyE1rAfZGTzG6zXjSIqAsSizkaoiXY"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Datenschutz"
+        ],
+        "h2": [
+          "Allgemeine Informationen",
+          "Cookies",
+          "Server Log Files",
+          "Google Analytics",
+          "Google Map",
+          "Kontaktformular",
+          "Auskunft, Löschung und Sperrung"
+        ]
+      },
+      "text": "Datenschutz | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nDatenschutz\nImpressum\nDatenschutz\nAllgemeine Informationen\nDie Betreiber dieser Website nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich.\nDie Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unserer Seite personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.\nCookies\nDie Internetseite verwendet teilweise so genannte Cookies. Cookies dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.\nDie meisten der von uns verwendeten Cookies sind so genannte „Session-Cookies“. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Andere Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.\nSie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.\nServer Log Files\nDer Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:\nBrowsertyp und Browserversion\nverwendetes Betriebssystem\nReferrer URL\nHostname des zugreifenden Rechners\nUhrzeit der Serveranfrage\nDiese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.\nGoogle Analytics\nDiese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. («Google»). Google Analytics verwendet sog. «Cookies», Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Auf dieser Webseite ist die IP-Anonymisierung aktiviert und somit wird Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Mehr Informationen zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in der Datenschutzerklärung von Google:\nhttps://support.google.com/analytics/answer/6004245?hl=de\nSie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch den Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren:\nhttps://tools.google.com/dlpage/gaoptout?hl=de\nGoogle Map\nDiese Webseite verwendet unter Umständen das Produkt Google Maps von Google Inc. Durch Nutzung dieser Webseite erklären Sie sich mit der Erfassung, Bearbeitung sowie Nutzung der automatisiert erhobenen Daten durch Google Inc, deren Vertreter sowie Dritter einverstanden. Die Nutzungsbedingungen von Google Maps finden sie unter\n«Nutzungsbedingungen von Google Maps»\n.\nKontaktformular\nInsofern die Webseite ein Kontaktformular zur Verfügung stellt und wenn Sie uns über dieses Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter und werden vertraulich behandelt.\nAuskunft, Löschung und Sperrung\nSie erhalten Auskunft über die von uns gespeicherten personenbezogenen Daten zu Ihrer Person sowie zur Herkunft, dem Empfänger und dem Zweck von Datenerhebung sowie Datenverarbeitung. Außerdem haben Sie das Recht, die Berichtigung, die Sperrung oder Löschung Ihrer Daten zu verlangen. Ausgenommen davon sind Daten, die aufgrund gesetzlicher Vorschriften aufbewahrt oder zur ordnungsgemäßen Geschäftsabwicklung benötigt werden. Damit eine Datensperre jederzeit realisiert werden kann, können Daten gegebenenfalls zu Kontrollzwecken in einer Sperrdatei vorgehalten werden. Werden Daten nicht von einer gesetzlichen Archivierungspflicht erfasst, löschen wir Ihre Daten auf Ihren Wunsch. Greift die Archivierungspflicht, sperren wir Ihre Daten. Für alle Fragen und Anliegen zur Berichtigung, Sperrung oder Löschung von personenbezogenen Daten wenden Sie sich bitte an unseren Datenschutzbeauftragten oder an die im Impressum genannte Adresse.\nBuchhaltung\nSteuern\nGründungen\nÜber uns\nKontakt\nDatenschutz\n|\nImpressum\nTreuhand Catherine Schmid GmbH\nGubelstrasse  19\n8050 Zürich\n+41 44 317 61 91\ninfo@treuhandschmid.ch\n+41 44 317 61 91\nE-Mail\nStandort\nWhats App\nKontaktieren Sie uns",
+      "text_len": 6774,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "https://support.google.com/analytics/answer/6004245?hl=de",
+          "href": "https://support.google.com/analytics/answer/6004245?hl=de",
+          "internal": false
+        },
+        {
+          "text": "https://tools.google.com/dlpage/gaoptout?hl=de",
+          "href": "https://tools.google.com/dlpage/gaoptout?hl=de",
+          "internal": false
+        },
+        {
+          "text": "«Nutzungsbedingungen von Google Maps»",
+          "href": "https://www.google.com/intl/de_de/help/terms_maps.html",
+          "internal": false
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "+41 44 317 61 91",
+          "href": "tel:+41 44 317 61 91",
+          "internal": false
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 44 317 61 91",
+          "href": "tel:+41443176191",
+          "internal": false
+        },
+        {
+          "text": "E-Mail",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "Standort",
+          "href": "https://www.treuhandschmid.ch/Standort.htm",
+          "internal": true
+        },
+        {
+          "text": "Whats App",
+          "href": "https://wa.me/41767079025",
+          "internal": false
+        },
+        {
+          "text": "Kontaktieren Sie uns",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "alt": "Treuhand Catherine Schmid GmbH"
+        },
+        {
+          "alt": "Design"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhandschmid.ch"
+      ],
+      "phones": [
+        "+41 44 317 61 91"
+      ],
+      "raw_html": "raw_html/009__Datenschutz.html"
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Impressum.htm",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "lang": "de",
+      "meta": {
+        "x-ua-compatible": "IE=edge",
+        "content-type": "text/html; charset=ISO-8859-1",
+        "robots": "index,follow",
+        "language": "de",
+        "title": "Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+        "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no",
+        "zipcode": "8050",
+        "city": "Zürich",
+        "country": "CH",
+        "author": "Treuhand Catherine Schmid GmbH",
+        "google-site-verification": "aaUT4vu8bD7KdvyE1rAfZGTzG6zXjSIqAsSizkaoiXY"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Impressum",
+          "Datenschutz"
+        ],
+        "h2": [
+          "Verantwortlich für den Inhalt der Seiten",
+          "Webdesign",
+          "Copyright",
+          "Disclaimer",
+          "Allgemeine Informationen",
+          "Cookies",
+          "Server Log Files",
+          "Google Analytics",
+          "Google Map",
+          "Kontaktformular",
+          "Auskunft, Löschung und Sperrung"
+        ]
+      },
+      "text": "Oerlikon, Zürich | Treuhand Catherine Schmid GmbH\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nDatenschutz\nImpressum\nImpressum\nVerantwortlich für den Inhalt der Seiten\nTreuhand Catherine Schmid GmbH\nGubelstrasse 19\n8050 Zürich\ninfo@treuhandschmid.ch\nWebdesign\nDiese Internetseite wurde von\nwebagentur.ch\ngestaltet -\nWeb Design Zürich\nCopyright\nDas Copyright für sämtliche Inhalte dieser Website liegt bei Treuhand Catherine Schmid GmbH.\nDisclaimer\nAlle Texte und Links wurden sorgfältig geprüft und werden laufend aktualisiert. Wir sind bemüht, richtige und vollständige Informationen auf dieser Website bereitzustellen, übernehmen aber keinerlei Verantwortung, Garantien oder Haftung dafür, dass die durch diese Website bereitgestellten Informationen, einschliesslich jeglicher Datenbankeinträge, richtig, vollständig oder aktuell sind. Wir behalten uns das Recht vor, jederzeit und ohne Vorankündigung die Informationen auf dieser Website zu ändern und verpflichten uns auch nicht, die enthaltenen Informationen zu aktualisieren. Alle Links zu externen Anbietern wurden zum Zeitpunkt ihrer Aufnahme auf ihre Richtigkeit überprüft. Dennoch haften wir nicht für Inhalte und Verfügbarkeit von Websites, die mittels Hyperlinks zu erreichen sind. Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Schäden, die durch die ungeprüfte Nutzung von Inhalten verknüpfter Seiten entstehen, haftet allein der Anbieter der Seite, auf welche verwiesen wurde. Dabei ist es gleichgültig, ob der Schaden direkter, indirekter oder finanzieller Natur ist oder ein sonstiger Schaden vorliegt, der sich aus Datenverlust, Nutzungsausfall oder anderen Gründen aller Art ergeben könnte.\nDatenschutz\nAllgemeine Informationen\nDie Betreiber dieser Website nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich.\nDie Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unserer Seite personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.\nCookies\nDie Internetseite verwendet teilweise so genannte Cookies. Cookies dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.\nDie meisten der von uns verwendeten Cookies sind so genannte „Session-Cookies“. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Andere Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.\nSie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.\nServer Log Files\nDer Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:\nBrowsertyp und Browserversion\nverwendetes Betriebssystem\nReferrer URL\nHostname des zugreifenden Rechners\nUhrzeit der Serveranfrage\nDiese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.\nGoogle Analytics\nDiese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. («Google»). Google Analytics verwendet sog. «Cookies», Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Auf dieser Webseite ist die IP-Anonymisierung aktiviert und somit wird Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Mehr Informationen zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in der Datenschutzerklärung von Google:\nhttps://support.google.com/analytics/answer/6004245?hl=de\nSie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch den Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren:\nhttps://tools.google.com/dlpage/gaoptout?hl=de\nGoogle Map\nDiese Webseite verwendet unter Umständen das Produkt Google Maps von Google Inc. Durch Nutzung dieser Webseite erklären Sie sich mit der Erfassung, Bearbeitung sowie Nutzung der automatisiert erhobenen Daten durch Google Inc, deren Vertreter sowie Dritter einverstanden. Die Nutzungsbedingungen von Google Maps finden sie unter\n«Nutzungsbedingungen von Google Maps»\n.\nKontaktformular\nInsofern die Webseite ein Kontaktformular zur Verfügung stellt und wenn Sie uns über dieses Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter und werden vertraulich behandelt.\nAuskunft, Löschung und Sperrung\nSie erhalten Auskunft über die von uns gespeicherten personenbezogenen Daten zu Ihrer Person sowie zur Herkunft, dem Empfänger und dem Zweck von Datenerhebung sowie Datenverarbeitung. Außerdem haben Sie das Recht, die Berichtigung, die Sperrung oder Löschung Ihrer Daten zu verlangen. Ausgenommen davon sind Daten, die aufgrund gesetzlicher Vorschriften aufbewahrt oder zur ordnungsgemäßen Geschäftsabwicklung benötigt werden. Damit eine Datensperre jederzeit realisiert werden kann, können Daten gegebenenfalls zu Kontrollzwecken in einer Sperrdatei vorgehalten werden. Werden Daten nicht von einer gesetzlichen Archivierungspflicht erfasst, löschen wir Ihre Daten auf Ihren Wunsch. Greift die Archivierungspflicht, sperren wir Ihre Daten. Für alle Fragen und Anliegen zur Berichtigung, Sperrung oder Löschung von personenbezogenen Daten wenden Sie sich bitte an unseren Datenschutzbeauftragten oder an die im Impressum genannte Adresse.\nBuchhaltung\nSteuern\nGründungen\nÜber uns\nKontakt\nDatenschutz\n|\nImpressum\nTreuhand Catherine Schmid GmbH\nGubelstrasse  19\n8050 Zürich\n+41 44 317 61 91\ninfo@treuhandschmid.ch\n+41 44 317 61 91\nE-Mail\nStandort\nWhats App\nKontaktieren Sie uns",
+      "text_len": 8331,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "webagentur.ch",
+          "href": "http://www.webagentur.ch",
+          "internal": false
+        },
+        {
+          "text": "Web Design Zürich",
+          "href": "http://www.webagentur.ch/Webdesign-Zuerich.htm",
+          "internal": false
+        },
+        {
+          "text": "https://support.google.com/analytics/answer/6004245?hl=de",
+          "href": "https://support.google.com/analytics/answer/6004245?hl=de",
+          "internal": false
+        },
+        {
+          "text": "https://tools.google.com/dlpage/gaoptout?hl=de",
+          "href": "https://tools.google.com/dlpage/gaoptout?hl=de",
+          "internal": false
+        },
+        {
+          "text": "«Nutzungsbedingungen von Google Maps»",
+          "href": "https://www.google.com/intl/de_de/help/terms_maps.html",
+          "internal": false
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "+41 44 317 61 91",
+          "href": "tel:+41 44 317 61 91",
+          "internal": false
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 44 317 61 91",
+          "href": "tel:+41443176191",
+          "internal": false
+        },
+        {
+          "text": "E-Mail",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "Standort",
+          "href": "https://www.treuhandschmid.ch/Standort.htm",
+          "internal": true
+        },
+        {
+          "text": "Whats App",
+          "href": "https://wa.me/41767079025",
+          "internal": false
+        },
+        {
+          "text": "Kontaktieren Sie uns",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "alt": "Treuhand Catherine Schmid GmbH"
+        },
+        {
+          "alt": "Design"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhandschmid.ch"
+      ],
+      "phones": [
+        "+41 44 317 61 91"
+      ],
+      "raw_html": "raw_html/010__Impressum.html"
+    },
+    {
+      "url": "https://www.treuhandschmid.ch/Standort.htm",
+      "status": 200,
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Home Standort | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+      "lang": "de",
+      "meta": {
+        "x-ua-compatible": "IE=edge",
+        "content-type": "text/html; charset=ISO-8859-1",
+        "robots": "index,follow",
+        "language": "de",
+        "title": "Home Standort | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH",
+        "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no",
+        "zipcode": "8050",
+        "city": "Zürich",
+        "country": "CH",
+        "author": "Treuhand Catherine Schmid GmbH",
+        "google-site-verification": "aaUT4vu8bD7KdvyE1rAfZGTzG6zXjSIqAsSizkaoiXY"
+      },
+      "canonical": null,
+      "headings": {
+        "h2": [
+          "Unser Standort",
+          "Öffnungszeiten",
+          "Kontakt"
+        ]
+      },
+      "text": "Home Standort | Oerlikon, Zürich | Treuhand Catherine Schmid GmbH\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nHome\nBuchhaltung\nSteuern\nGründungen\nDownloads\nÜber uns\nKontakt\nDatenschutz\nImpressum\nUnser Standort\nUnser Treuhandbüro befindet sich im Herzen von Zürich-Oerlikon. Wir sind sowohl mit dem ÖV (7 Gehmin. vom Bhf. Oerlikon) als auch mit dem Auto gut zu erreichen. Parkplätze für unsere Besucher befinden sich direkt beim Eingang im Erdgeschoss.\n» Link zum Routenplaner\nÖffnungszeiten\nMo-Fr durchgehend von 08:00-17:30\nBitte rufen Sie uns an, um einen Termin zu vereinbaren.\nKontakt\nTreuhand Catherine Schmid GmbH\nGubelstrasse  19\n8050 Zürich\nTel.\n+41 44 317 61 91\ninfo@treuhandschmid.ch\nBuchhaltung\nSteuern\nGründungen\nÜber uns\nKontakt\nDatenschutz\n|\nImpressum\nTreuhand Catherine Schmid GmbH\nGubelstrasse  19\n8050 Zürich\n+41 44 317 61 91\ninfo@treuhandschmid.ch\n+41 44 317 61 91\nE-Mail\nStandort\nWhats App\nKontaktieren Sie uns",
+      "text_len": 948,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhandschmid.ch/Home.htm",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhandschmid.ch/Buchhaltung.htm",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.treuhandschmid.ch/Steuern.htm",
+          "internal": true
+        },
+        {
+          "text": "Gründungen",
+          "href": "https://www.treuhandschmid.ch/Gruendungen.htm",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhandschmid.ch/Downloads.htm",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "» Link zum Routenplaner",
+          "href": "http://maps.google.com/maps?daddr=Gubelstrasse++19%2C+Z%C3%BCrich",
+          "internal": false
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhandschmid.ch/Ueber-uns.htm",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.treuhandschmid.ch/Datenschutz.htm",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhandschmid.ch/Impressum.htm",
+          "internal": true
+        },
+        {
+          "text": "+41 44 317 61 91",
+          "href": "tel:+41 44 317 61 91",
+          "internal": false
+        },
+        {
+          "text": "info@treuhandschmid.ch",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 44 317 61 91",
+          "href": "tel:+41443176191",
+          "internal": false
+        },
+        {
+          "text": "E-Mail",
+          "href": "mailto:info@treuhandschmid.ch",
+          "internal": false
+        },
+        {
+          "text": "Standort",
+          "href": "https://www.treuhandschmid.ch/Standort.htm",
+          "internal": true
+        },
+        {
+          "text": "Whats App",
+          "href": "https://wa.me/41767079025",
+          "internal": false
+        },
+        {
+          "text": "Kontaktieren Sie uns",
+          "href": "https://www.treuhandschmid.ch/Kontakt.htm",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "alt": "Treuhand Catherine Schmid GmbH"
+        },
+        {
+          "alt": "Design"
+        }
+      ],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Tel.",
+            "+41 44 317 61 91"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@treuhandschmid.ch"
+      ],
+      "phones": [
+        "+41 44 317 61 91"
+      ],
+      "raw_html": "raw_html/011__Standort.html"
+    }
+  ]
+}

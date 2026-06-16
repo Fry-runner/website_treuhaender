@@ -1,0 +1,3640 @@
+{
+  "name": "Würth Treuhand AG",
+  "domain": "wuerth-treuhand.ch",
+  "start_url": "https://www.wuerth-treuhand.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781616231.9140303,
+    "duration_sec": 27.8,
+    "pages_crawled": 13,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": null
+  },
+  "contact": {
+    "emails": [
+      "info@wuerth-treuhand.ch",
+      "info@wuerth-treuhand.ch<span data-mono-global="
+    ],
+    "phones": [
+      "044 404 70 00"
+    ]
+  },
+  "assets": {
+    "downloaded": 9,
+    "failed": 8,
+    "total_bytes": 1308797,
+    "manifest": [
+      {
+        "url": "https://www.wuerth-treuhand.ch/",
+        "ok": true,
+        "file": "assets/4f6697f2d8__asset",
+        "content_type": "text/html",
+        "bytes": 21319
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/favicon.ico",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/2wvNjXfm/Neujahrsbotschaft2020_updDez2020.pdf",
+        "ok": true,
+        "file": "assets/389d9f9262__Neujahrsbotschaft2020_updDez2020.pdf",
+        "content_type": "application/pdf",
+        "bytes": 271840
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/AmqXUjGd/Neujahrsbotschaft2023WrthTreuhandAGvom06.01.2023.pdf",
+        "ok": true,
+        "file": "assets/edaaaa3c69__Neujahrsbotschaft2023WrthTreuhandAGvom06.01.2023.pdf",
+        "content_type": "application/pdf",
+        "bytes": 251055
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/AmqXUjGd/Neujahrsbotschaft2025WÃ¼rthTreuhandAGvom07.01.2025_FINAL.pdf",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/AmqXUjGd/Neujahrsbotschaft_2024_WÃ¼rth_Treuhand_AG_vom_12.01.2024.pdf",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/AmqXUjGd/Neujahrsbotschaft_2026_WÃ¼rth_Treuhand_AG.pdf",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/DlKciOJV/SOZVERS2022WrthTreuhand.pdf",
+        "ok": true,
+        "file": "assets/c942baafca__SOZVERS2022WrthTreuhand.pdf",
+        "content_type": "application/pdf",
+        "bytes": 121117
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/NXls4wUE/SOZVERS2023WrthTreuhand.pdf",
+        "ok": true,
+        "file": "assets/c4d86edc8f__SOZVERS2023WrthTreuhand.pdf",
+        "content_type": "application/pdf",
+        "bytes": 122688
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/NXls4wUE/Ãbersicht_Sozialversicherungen_2024_WÃ¼rthTreuhand.pdf",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/NXls4wUE/Ãbersicht_Sozialversicherungen_2025_WÃ¼rthTreuhand.pdf",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/NXls4wUE/Ãbersicht_Sozialversicherungen_2026_WÃ¼rthTreuhand.pdf",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/RkgymvR8/SOZVERS21WrthTreuhand.pdf",
+        "ok": true,
+        "file": "assets/ba4b6f97e5__SOZVERS21WrthTreuhand.pdf",
+        "content_type": "application/pdf",
+        "bytes": 122153
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/iKbXZJNj/Neujahrsbotschaft2021WrthTreuhandAGvom08.01.21_FINAL.pdf",
+        "ok": true,
+        "file": "assets/0acfc56937__Neujahrsbotschaft2021WrthTreuhandAGvom08.01.21_FINAL.pdf",
+        "content_type": "application/pdf",
+        "bytes": 283420
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/nG7xYCfr/favicon.ico",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/pUBTP8AS/Neujahrsbotschaft2022WrthTreuhandAGvom05.01.2022.pdf",
+        "ok": true,
+        "file": "assets/573e2ceed7__Neujahrsbotschaft2022WrthTreuhandAGvom05.01.2022.pdf",
+        "content_type": "application/pdf",
+        "bytes": 89943
+      },
+      {
+        "url": "https://www.wuerth-treuhand.ch/uploads/xKjgkCvT/SOZVERS20WrthTreuhand.pdf",
+        "ok": true,
+        "file": "assets/1f7924e1c6__SOZVERS20WrthTreuhand.pdf",
+        "content_type": "application/pdf",
+        "bytes": 25262
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://www.wuerth-treuhand.ch/",
+      "title": "WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 2006
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/index",
+      "title": "WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis",
+      "raw_html": "raw_html/002__index.html",
+      "text_len": 2006
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+      "title": "Ihre Revisions- und Steuerexperten in ZÃ¼rich - WÃ¼rth Treuhand AG",
+      "raw_html": "raw_html/003__ueber-uns-zuerich.html",
+      "text_len": 4878
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen",
+      "title": "",
+      "raw_html": "raw_html/004__dienstleistungen.html",
+      "text_len": 1146
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+      "title": "WÃ¼rth Treuhand AG - Steuerberatung fÃ¼r Unternehmen",
+      "raw_html": "raw_html/005__dienstleistungen__steuerberatung-fuer-unternehmen.html",
+      "text_len": 2029
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+      "title": "WÃ¼rth Treuhand AG - Steuerberatung fÃ¼r Privatpersonen",
+      "raw_html": "raw_html/006__dienstleistungen__steuerberatung-fuer-privatpersonen.html",
+      "text_len": 2283
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+      "title": "WÃ¼rth Treuhand AG - Wirtschafts-und SpezialprÃ¼fung",
+      "raw_html": "raw_html/007__dienstleistungen__wirtschaftspruefung.html",
+      "text_len": 2786
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+      "title": "WÃ¼rth Treuhand AG - Unternehmensberatung in ZÃ¼rich",
+      "raw_html": "raw_html/008__dienstleistungen__vorsorgeberatung.html",
+      "text_len": 1702
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+      "title": "WÃ¼rth Treuhand AG - TreuhandbÃ¼ro in der Stadt ZÃ¼rich",
+      "raw_html": "raw_html/009__dienstleistungen__treuhand.html",
+      "text_len": 2190
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+      "title": "WÃ¼rth Treuhand AG - Unternehmensberatung in ZÃ¼rich",
+      "raw_html": "raw_html/010__dienstleistungen__unternehmensberatung.html",
+      "text_len": 2099
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/aktuell",
+      "title": "WÃ¼rth Treuhand AG - Infos aus der Steuerrechtspraxis",
+      "raw_html": "raw_html/011__aktuell.html",
+      "text_len": 6495
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/kontakt",
+      "title": "WÃ¼rth Treuhand AG in ZÃ¼rich - Kontakt und Termine",
+      "raw_html": "raw_html/012__kontakt.html",
+      "text_len": 1069
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/impressum",
+      "title": "WÃ¼rth Treuhand AG - Impressum",
+      "raw_html": "raw_html/013__impressum.html",
+      "text_len": 9958
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.wuerth-treuhand.ch/",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "TreuhandbÃ¼ro an der Norastrasse in ZÃ¼rich: Ihr spezialisierter Partner fÃ¼r Steuerberatung, Revision, Unternehmensberatung und Treuhand",
+        "og:type": "website",
+        "og:title": "WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis",
+        "og:url": "/",
+        "og:description": "TreuhandbÃ¼ro an der Norastrasse in ZÃ¼rich: Ihr spezialisierter Partner fÃ¼r Steuerberatung, Revision, Unternehmensberatung und Treuhand",
+        "og:image": "/",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "/",
+      "headings": {
+        "h1": [
+          "WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis in ZÃ¼rich"
+        ],
+        "h2": [
+          "revisions- und steuerrechtspraxis",
+          "Willkommen bei der WÃ¼rth Treuhand AG â Ihr spezialisierter Partner fÃ¼r Steuerberatung, Revision, Unternehmensberatung und Treuhand. Von unserem Standort aus in ZÃ¼rich beraten und begleiten wir kleine und mittlere Unternehmen, SelbstÃ¤ndigerwerbende und Privatpersonen in der ganzen Schweiz.",
+          "",
+          "WÃ¼nschen Sie kompetente UnterstÃ¼tzung fÃ¼r Ihre SteuererklÃ¤rung? Individuelle Steuerberatung oder Mithilfe bei der Mehrwertsteuer? Suchen Sie ausgewiesene Spezialisten fÃ¼r das Rechnungswesen, den Jahresabschluss oder eine UnternehmensprÃ¼fung? Das Team der WÃ¼rth Treuhand AG steht zu Ihren Diensten. PersÃ¶nlich, diskret, engagiert â und mit der Kompetenz aus Ã¼ber 40 Jahren Berufspraxis.",
+          "",
+          "Auch in strategischen Prozessen wie FirmengrÃ¼ndungen, Umstrukturierungen oder Nachfolgeplanungen kÃ¶nnen Sie sich auf unsere erfahrenen Experten verlassen. Mit fundiertem Fachwissen und einem breiten Spektrum individueller Dienstleistungen entlasten wir Sie in der tÃ¤glichen Arbeit, unterstÃ¼tzen Sie in Projekten und agieren als Schnittstelle zu BehÃ¶rden."
+        ],
+        "h3": [
+          "mit sicherheit in treuen hÃ¤nden"
+        ]
+      },
+      "text": "WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r Unternehmen\nSteuerberatung fÃ¼r Privatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nrevisions- und steuerrechtspraxis\nmit sicherheit in treuen hÃ¤nden\nKontakt\nWÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis in ZÃ¼rich\nWillkommen bei der WÃ¼rth Treuhand AG â Ihr spezialisierter Partner fÃ¼r Steuerberatung, Revision, Unternehmensberatung und Treuhand. Von unserem Standort aus in ZÃ¼rich beraten und begleiten wir kleine und mittlere Unternehmen, SelbstÃ¤ndigerwerbende und Privatpersonen in der ganzen Schweiz.\nWÃ¼nschen Sie kompetente UnterstÃ¼tzung fÃ¼r Ihre SteuererklÃ¤rung? Individuelle Steuerberatung oder Mithilfe bei der Mehrwertsteuer? Suchen Sie ausgewiesene Spezialisten fÃ¼r das Rechnungswesen, den Jahresabschluss oder eine UnternehmensprÃ¼fung? Das Team der WÃ¼rth Treuhand AG steht zu Ihren Diensten. PersÃ¶nlich, diskret, engagiert â und mit der Kompetenz aus Ã¼ber 40 Jahren Berufspraxis.\nAuch in strategischen Prozessen wie FirmengrÃ¼ndungen, Umstrukturierungen oder Nachfolgeplanungen kÃ¶nnen Sie sich auf unsere erfahrenen Experten verlassen. Mit fundiertem Fachwissen und einem breiten Spektrum individueller Dienstleistungen entlasten wir Sie in der tÃ¤glichen Arbeit, unterstÃ¼tzen Sie in Projekten und agieren als Schnittstelle zu BehÃ¶rden.\nDienstleistungen\nWobei dÃ¼rfen wir Sie unterstÃ¼tzen? Hier finden Sie weitere Informationen zu unseren Dienstleistungen wie Steuerberatung, WirtschaftsprÃ¼fung und Treuhand.\nMehr ...\nÃber uns\nDie WÃ¼rth Treuhand AG steht mit der Kompetenz aus Ã¼ber 40 Jahren in der Treuhand-, Steuerrechts- und Revisionsbranche zu Ihren Diensten.\nMehr ...\nKontakt\nHaben Sie Fragen oder wÃ¼nschen Sie einen Termin? Wir freuen uns auf Ihre Kontaktaufnahme.\nMehr ...\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 2006,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/index",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Unternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Privatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/uploads/D6AppuTx/767x0_2560x0/AdobeStock_249206496.jpeg.jpg",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/uploads/P5dItAl4/767x0_2560x0/AdobeStock_219601396.jpeg.jpg",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/uploads/WX7lpDdJ/767x0_2560x0/AdobeStock_127075523.jpeg.jpg",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/uploads/BFX7Cv4w/767x0_2560x0/AdobeStock_201954053.jpeg.jpg",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "/uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "Unternehmensberatung - Revisions- und Steuerrechtspraxis - WÃ¼rth Treuhand AG - ZÃ¼rich"
+        },
+        {
+          "src": "/uploads/D6AppuTx/697x0_279x0/AdobeStock_249206496.jpeg.jpg",
+          "alt": "Unternehmensberatung - Revisions- und Steuerrechtspraxis - WÃ¼rth Treuhand AG - ZÃ¼rich"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "Treuhand in ZÃ¼rich - WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis - ZÃ¼rich"
+        },
+        {
+          "src": "/uploads/P5dItAl4/697x0_279x0/AdobeStock_219601396.jpeg.jpg",
+          "alt": "Treuhand in ZÃ¼rich - WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis - ZÃ¼rich"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "/uploads/WX7lpDdJ/697x0_279x0/AdobeStock_127075523.jpeg.jpg"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "TreuhandbÃ¼ro - Revisions- und Steuerrechtspraxis - ZÃ¼rich 1"
+        },
+        {
+          "src": "/uploads/BFX7Cv4w/697x0_279x0/AdobeStock_201954053.jpeg.jpg",
+          "alt": "TreuhandbÃ¼ro - Revisions- und Steuerrechtspraxis - ZÃ¼rich 1"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "/uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 00"
+      ],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/index",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "TreuhandbÃ¼ro an der Norastrasse in ZÃ¼rich: Ihr spezialisierter Partner fÃ¼r Steuerberatung, Revision, Unternehmensberatung und Treuhand",
+        "og:type": "website",
+        "og:title": "WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis",
+        "og:url": "/",
+        "og:description": "TreuhandbÃ¼ro an der Norastrasse in ZÃ¼rich: Ihr spezialisierter Partner fÃ¼r Steuerberatung, Revision, Unternehmensberatung und Treuhand",
+        "og:image": "/",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "/",
+      "headings": {
+        "h1": [
+          "WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis in ZÃ¼rich"
+        ],
+        "h2": [
+          "revisions- und steuerrechtspraxis",
+          "Willkommen bei der WÃ¼rth Treuhand AG â Ihr spezialisierter Partner fÃ¼r Steuerberatung, Revision, Unternehmensberatung und Treuhand. Von unserem Standort aus in ZÃ¼rich beraten und begleiten wir kleine und mittlere Unternehmen, SelbstÃ¤ndigerwerbende und Privatpersonen in der ganzen Schweiz.",
+          "",
+          "WÃ¼nschen Sie kompetente UnterstÃ¼tzung fÃ¼r Ihre SteuererklÃ¤rung? Individuelle Steuerberatung oder Mithilfe bei der Mehrwertsteuer? Suchen Sie ausgewiesene Spezialisten fÃ¼r das Rechnungswesen, den Jahresabschluss oder eine UnternehmensprÃ¼fung? Das Team der WÃ¼rth Treuhand AG steht zu Ihren Diensten. PersÃ¶nlich, diskret, engagiert â und mit der Kompetenz aus Ã¼ber 40 Jahren Berufspraxis.",
+          "",
+          "Auch in strategischen Prozessen wie FirmengrÃ¼ndungen, Umstrukturierungen oder Nachfolgeplanungen kÃ¶nnen Sie sich auf unsere erfahrenen Experten verlassen. Mit fundiertem Fachwissen und einem breiten Spektrum individueller Dienstleistungen entlasten wir Sie in der tÃ¤glichen Arbeit, unterstÃ¼tzen Sie in Projekten und agieren als Schnittstelle zu BehÃ¶rden."
+        ],
+        "h3": [
+          "mit sicherheit in treuen hÃ¤nden"
+        ]
+      },
+      "text": "WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r Unternehmen\nSteuerberatung fÃ¼r Privatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nrevisions- und steuerrechtspraxis\nmit sicherheit in treuen hÃ¤nden\nKontakt\nWÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis in ZÃ¼rich\nWillkommen bei der WÃ¼rth Treuhand AG â Ihr spezialisierter Partner fÃ¼r Steuerberatung, Revision, Unternehmensberatung und Treuhand. Von unserem Standort aus in ZÃ¼rich beraten und begleiten wir kleine und mittlere Unternehmen, SelbstÃ¤ndigerwerbende und Privatpersonen in der ganzen Schweiz.\nWÃ¼nschen Sie kompetente UnterstÃ¼tzung fÃ¼r Ihre SteuererklÃ¤rung? Individuelle Steuerberatung oder Mithilfe bei der Mehrwertsteuer? Suchen Sie ausgewiesene Spezialisten fÃ¼r das Rechnungswesen, den Jahresabschluss oder eine UnternehmensprÃ¼fung? Das Team der WÃ¼rth Treuhand AG steht zu Ihren Diensten. PersÃ¶nlich, diskret, engagiert â und mit der Kompetenz aus Ã¼ber 40 Jahren Berufspraxis.\nAuch in strategischen Prozessen wie FirmengrÃ¼ndungen, Umstrukturierungen oder Nachfolgeplanungen kÃ¶nnen Sie sich auf unsere erfahrenen Experten verlassen. Mit fundiertem Fachwissen und einem breiten Spektrum individueller Dienstleistungen entlasten wir Sie in der tÃ¤glichen Arbeit, unterstÃ¼tzen Sie in Projekten und agieren als Schnittstelle zu BehÃ¶rden.\nDienstleistungen\nWobei dÃ¼rfen wir Sie unterstÃ¼tzen? Hier finden Sie weitere Informationen zu unseren Dienstleistungen wie Steuerberatung, WirtschaftsprÃ¼fung und Treuhand.\nMehr ...\nÃber uns\nDie WÃ¼rth Treuhand AG steht mit der Kompetenz aus Ã¼ber 40 Jahren in der Treuhand-, Steuerrechts- und Revisionsbranche zu Ihren Diensten.\nMehr ...\nKontakt\nHaben Sie Fragen oder wÃ¼nschen Sie einen Termin? Wir freuen uns auf Ihre Kontaktaufnahme.\nMehr ...\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 2006,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/index",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Unternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Privatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/uploads/D6AppuTx/767x0_2560x0/AdobeStock_249206496.jpeg.jpg",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/uploads/P5dItAl4/767x0_2560x0/AdobeStock_219601396.jpeg.jpg",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/uploads/WX7lpDdJ/767x0_2560x0/AdobeStock_127075523.jpeg.jpg",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/uploads/BFX7Cv4w/767x0_2560x0/AdobeStock_201954053.jpeg.jpg",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/index#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/index#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "/uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "Unternehmensberatung - Revisions- und Steuerrechtspraxis - WÃ¼rth Treuhand AG - ZÃ¼rich"
+        },
+        {
+          "src": "/uploads/D6AppuTx/697x0_279x0/AdobeStock_249206496.jpeg.jpg",
+          "alt": "Unternehmensberatung - Revisions- und Steuerrechtspraxis - WÃ¼rth Treuhand AG - ZÃ¼rich"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "Treuhand in ZÃ¼rich - WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis - ZÃ¼rich"
+        },
+        {
+          "src": "/uploads/P5dItAl4/697x0_279x0/AdobeStock_219601396.jpeg.jpg",
+          "alt": "Treuhand in ZÃ¼rich - WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis - ZÃ¼rich"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "/uploads/WX7lpDdJ/697x0_279x0/AdobeStock_127075523.jpeg.jpg"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "TreuhandbÃ¼ro - Revisions- und Steuerrechtspraxis - ZÃ¼rich 1"
+        },
+        {
+          "src": "/uploads/BFX7Cv4w/697x0_279x0/AdobeStock_201954053.jpeg.jpg",
+          "alt": "TreuhandbÃ¼ro - Revisions- und Steuerrechtspraxis - ZÃ¼rich 1"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "/uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 00"
+      ],
+      "raw_html": "raw_html/002__index.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Ihre Revisions- und Steuerexperten in ZÃ¼rich - WÃ¼rth Treuhand AG",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "Die WÃ¼rth Treuhand AG steht mit der Kompetenz aus Ã¼ber 30 Jahren in der Treuhand-, Steuerrechts- und Revisionsbranche zu Ihren Diensten. ",
+        "og:type": "website",
+        "og:title": "Ihre Revisions- und Steuerexperten in ZÃ¼rich - WÃ¼rth Treuhand AG",
+        "og:url": "ueber-uns-zuerich",
+        "og:description": "Die WÃ¼rth Treuhand AG steht mit der Kompetenz aus Ã¼ber 30 Jahren in der Treuhand-, Steuerrechts- und Revisionsbranche zu Ihren Diensten. ",
+        "og:image": "/",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "ueber-uns-zuerich",
+      "headings": {
+        "h1": [
+          "WÃ¼rth Treuhand AG - weil\r\n\t\t\t\t\t\t\t\t\t\t\t\tErfahrung zÃ¤hlt"
+        ],
+        "h2": [
+          "Mit Sicherheit die richtige\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tEntscheidung"
+        ]
+      },
+      "text": "Ihre Revisions- und Steuerexperten in ZÃ¼rich - WÃ¼rth Treuhand AG\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUnternehmen\nSteuerberatung fÃ¼r\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPrivatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nWÃ¼rth Treuhand AG - weil\r\n\t\t\t\t\t\t\t\t\t\t\t\tErfahrung zÃ¤hlt\nMit Sicherheit die richtige\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tEntscheidung\nDie WÃ¼rth Treuhand AG steht mit der Kompetenz aus Ã¼ber\r\n\t\t\t\t\t\t\t\t\t\t\t\t40 Jahren in der Treuhand-, Steuerrechts- und Revisionsbranche zu Ihren\r\n\t\t\t\t\t\t\t\t\t\t\t\tDiensten. Sie erhalten mit unserem breit aufgestellten Team und unseren\r\n\t\t\t\t\t\t\t\t\t\t\t\tSpezialisten professionelle, umfassende und qualitativ hochwertige\r\n\t\t\t\t\t\t\t\t\t\t\t\tDienstleistungen fÃ¼r Ihre individuellen BedÃ¼rfnisse. PersÃ¶nlich, diskret\r\n\t\t\t\t\t\t\t\t\t\t\t\tund engagiert.\nurs ritschard\nPartner\nPrÃ¤sident des Verwaltungsrates\nDipl. Steuerexperte\nDipl. Experte in Rechnungslegung und Controlling\nUrs Ritschard ist diplomierter Steuerexperte sowie\r\n\t\t\t\t\t\t\t\t\t\t\t\tdiplomierter Experte in Rechnungslegung und Controlling. Nach seiner\r\n\t\t\t\t\t\t\t\t\t\t\t\tmehrjÃ¤hrigen TÃ¤tigkeit bei der ehemaligen Revisuisse Price Waterhouse AG\r\n\t\t\t\t\t\t\t\t\t\t\t\tist er seit 1990 bei der WÃ¼rth Treuhand AG in der Steuerberatung von\r\n\t\t\t\t\t\t\t\t\t\t\t\tnatÃ¼rlichen und juristischen Personen sowie als Mandatsleiter im\r\n\t\t\t\t\t\t\t\t\t\t\t\tTreuhand und Revisionsbereich tÃ¤tig. Zu seinem weiteren Fachgebiet zÃ¤hlt\r\n\t\t\t\t\t\t\t\t\t\t\t\ter die Beratung im Zusammenhang mit Nachfolgeregelungen und\r\n\t\t\t\t\t\t\t\t\t\t\t\tVorsorgeplanungen.\nmarc ritschard\nPartner und CEO\nDipl. WirtschaftsprÃ¼fer\nZugelassener Revisionsexperte\nB.Sc. Banking & Finance\nMarc Ritschard ist diplomierter WirtschaftsprÃ¼fer und\r\n\t\t\t\t\t\t\t\t\t\t\t\tverfÃ¼gt Ã¼ber einen Bachelor of Science in Banking & Finance. Nach Ã¼ber\r\n\t\t\t\t\t\t\t\t\t\t\t\tfÃ¼nfeinhalb Jahren als WirtschaftsprÃ¼fer tÃ¤tig bei der KPMG AG im\r\n\t\t\t\t\t\t\t\t\t\t\t\tBereich Financial Services, wechselte er im Mai 2019 zur WÃ¼rth Treuhand\r\n\t\t\t\t\t\t\t\t\t\t\t\tAG. Zu seinen Fachgebieten gehÃ¶ren insbesondere Revisionen und\r\n\t\t\t\t\t\t\t\t\t\t\t\tSpezialprÃ¼fungen sowie die Implementierung und Optimierung von\r\n\t\t\t\t\t\t\t\t\t\t\t\tGeschÃ¤ftsprozessen und des internen Kontrollsystems (IKS). Aber auch\r\n\t\t\t\t\t\t\t\t\t\t\t\tSteuerberatungen fÃ¼r natÃ¼rliche und juristische Personen zÃ¤hlt er zu\r\n\t\t\t\t\t\t\t\t\t\t\t\tseinen Kompetenzen.\npeter nesti\nPartner\nDipl. Steuerexperte\nDipl. Experte in Rechnungslegung und Controlling\nZugelassener Revisionsexperte\nPeter Nesti ist diplomierter Steuerexperte sowie\r\n\t\t\t\t\t\t\t\t\t\t\t\tdiplomierter Experte in Rechnungslegung und Controlling. Vor seinem\r\n\t\t\t\t\t\t\t\t\t\t\t\tEintritt 1996 bei der WÃ¼rth Treuhand AG war Peter Nesti mehrere Jahre\r\n\t\t\t\t\t\t\t\t\t\t\t\tbei der ehemaligen Revisuisse Price Waterhouse AG tÃ¤tig. Er ist\r\n\t\t\t\t\t\t\t\t\t\t\t\tspezialisiert auf die Steuerberatung von natÃ¼rlichen und juristischen\r\n\t\t\t\t\t\t\t\t\t\t\t\tPersonen und agiert zudem als Mandatsleiter im Treuhand- und\r\n\t\t\t\t\t\t\t\t\t\t\t\tRevisionsbereich.\nNADJA ARPAGAUS\nPartner\nTreuhÃ¤nderin mit eidg. Fachausweis\nZugelassene Revisorin\nNadja Arpagaus ist TreuhÃ¤nderin mit eidgenÃ¶ssischem\r\n\t\t\t\t\t\t\t\t\t\t\t\tFachausweis und nach mehreren Jahren als Mandatsleiterin Treuhand neu\r\n\t\t\t\t\t\t\t\t\t\t\t\tseit 2021 Partner bei der WÃ¼rth Treuhand AG. Sie verfÃ¼gt Ã¼ber viele\r\n\t\t\t\t\t\t\t\t\t\t\t\tJahre praktische Erfahrung in den Bereichen Treuhand, Steuerwesen und\r\n\t\t\t\t\t\t\t\t\t\t\t\tRevision. Zu ihren Spezialgebieten zÃ¤hlen insbesondere Lohn- und\r\n\t\t\t\t\t\t\t\t\t\t\t\tPersonaladministration, Steuern fÃ¼r natÃ¼rliche Personen sowie das\r\n\t\t\t\t\t\t\t\t\t\t\t\tSozialversicherungswesen.\nTHEO HERGER\nFreier Mitarbeiter\nTreuhÃ¤nder mit eidg. Fachausweis\nZugelassener Revisionsexperte\nTheo Herger ist TreuhÃ¤nder mit eidgenÃ¶ssischem\r\n\t\t\t\t\t\t\t\t\t\t\t\tFachausweis. Er ist seit mehr als 25 Jahren im Treuhandwesen tÃ¤tig.\r\n\t\t\t\t\t\t\t\t\t\t\t\tNeben seiner TÃ¤tigkeit fÃ¼r die WÃ¼rth Treuhand AG fÃ¼hrt er seit 18 Jahren\r\n\t\t\t\t\t\t\t\t\t\t\t\tsein eigenes TreuhandbÃ¼ro. Als Treuhand Allrounder verfÃ¼gt er Ã¼ber\r\n\t\t\t\t\t\t\t\t\t\t\t\tvertiefte Kenntnisse in BuchfÃ¼hrung, Lohn- und Personaladministration,\r\n\t\t\t\t\t\t\t\t\t\t\t\tMWST und direkten Steuern.\nMELANIE BIGLER\nSachbearbeiterin Treuhand\nMelanie Bigler ergÃ¤nzt und stÃ¤rkt unser Team\r\n\t\t\t\t\t\t\t\t\t\t\t\tinsbesondere bei der FÃ¼hrung von Buchhaltungen und bei der\r\n\t\t\t\t\t\t\t\t\t\t\t\tAbschlusserstellung.\nEbenso setzt sie ihr Fachwissen bei der UnterstÃ¼tzung\r\n\t\t\t\t\t\t\t\t\t\t\t\tvon Revisionen und bei der Erstellung von SteuererklÃ¤rungen fÃ¼r\r\n\t\t\t\t\t\t\t\t\t\t\t\tnatÃ¼rliche und juristische Personen ein.\nKaroline Frehner\nSachbearbeiterin Treuhand\nKaroline Frehner setzt ihr breites Wissen und Ihre fundierte Erfahrung fÃ¼r die FÃ¼hrung von Buchhaltungen und die Erstellung von SteuererklÃ¤rungen ein. Als Office Managerin sorgt sie sich zudem um die administrativen Belangen der WÃ¼rth Treuhand AG.\nWÃ¼rth Treuhand AG\nMIT SICHERHEIT die richtige entscheidung\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 4878,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUnternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPrivatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich#",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich#",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich#",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich#",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich#",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich#",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich#",
+          "internal": true
+        },
+        {
+          "text": "044 404\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/AyIyVpa7/737x0_265x0/UrsRitschard.jpg"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/ZxIZCyUb/737x0_265x0/MarcRitschard.jpg"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/KdcbjRR2/737x0_265x0/PeterNesti.jpg"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/VM3fggFr/737x0_265x0/NadjaArpagaus.jpg"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/QPVHQs2v/737x0_265x0/TheoHerger.jpg"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/BS29muzS/737x0_265x0/PortraitMelanie2.jpg"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/placeholder.jpg"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [],
+      "raw_html": "raw_html/003__ueber-uns-zuerich.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "og:type": "website",
+        "og:url": "dienstleistungen",
+        "og:image": "/",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "dienstleistungen",
+      "headings": {
+        "h1": [
+          "dienstleistungen der WÃ¼rth Treuhand AG"
+        ],
+        "h2": [
+          "Wobei dÃ¼rfen wir Sie unterstÃ¼tzen?",
+          "Steuerberatung fÃ¼r Unternehmen",
+          "Steuerberatung fÃ¼r Privatpersonen",
+          "WirtschaftsprÃ¼fung",
+          "Vorsorgeberatung",
+          "Treuhand",
+          "Unternehmensberatung"
+        ]
+      },
+      "text": "Home\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r Unternehmen\nSteuerberatung fÃ¼r Privatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\ndienstleistungen der WÃ¼rth Treuhand AG\nWobei dÃ¼rfen wir Sie unterstÃ¼tzen?\nDie WÃ¼rth Treuhand AG bietet Ihnen eine breite Auswahl an Dienstleistungen fÃ¼r fast alle Ihre Belange an.\nSteuerberatung fÃ¼r Unternehmen\nSteuerplanung\nSteuererklÃ¤rung\nVertretung vor BehÃ¶rden\nMehrwertsteuer (MWST)\nMehr ...\nSteuerberatung fÃ¼r Privatpersonen\nSteuerplanung\nSteuererklÃ¤rung\nVertretung vor BehÃ¶rden\nGrundstÃ¼ckgewinnsteuer\nMehr ...\nWirtschaftsprÃ¼fung\nRevisionsmandate\nSpezialprÃ¼fungen wie GrÃ¼ndungs- und KapitalerhÃ¶hungsprÃ¼fungen\nMehr ...\nVorsorgeberatung\nFinanzplanung\nPensionierung\nErbschaften / Testament\nWillensvollstreckung\nMehr ...\nTreuhand\nFinanz- / Rechnungswesen\nPersonaladministration\nCloud-LÃ¶sungen\nImmobilien\nMehr ...\nUnternehmensberatung\nGrÃ¼ndung\nUnternehmensbewertung\nProzessoptimierung und IKS\nNachfolgeplanung\nMehr ...\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 1146,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Unternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Privatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Mehr ...",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 00"
+      ],
+      "raw_html": "raw_html/004__dienstleistungen.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "WÃ¼rth Treuhand AG - Steuerberatung fÃ¼r Unternehmen",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "Eine kontinuierliche Steuerberatung und Steuerplanung ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.",
+        "og:type": "website",
+        "og:title": "WÃ¼rth Treuhand AG - Steuerberatung fÃ¼r Unternehmen",
+        "og:url": "steuerberatung-fuer-unternehmen",
+        "og:description": "Eine kontinuierliche Steuerberatung und Steuerplanung ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.",
+        "og:image": "..//",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "steuerberatung-fuer-unternehmen",
+      "headings": {
+        "h1": [
+          "STEUERBERATUNG FÃR UNTERNEHMEN"
+        ],
+        "h2": [
+          "Mit Sicherheit mehr Wirtschaftlichkeit",
+          "STEUERBERATUNG fÃ¼r unternehmen"
+        ],
+        "h3": [
+          "MIT SICHERHEIT MEHR WIRTSCHAFTLICHKEIT"
+        ]
+      },
+      "text": "WÃ¼rth Treuhand AG - Steuerberatung fÃ¼r Unternehmen\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r Unternehmen\nSteuerberatung fÃ¼r Privatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nSTEUERBERATUNG FÃR UNTERNEHMEN\nMit Sicherheit mehr Wirtschaftlichkeit\nEine kontinuierliche\nSteuerberatung\nund\nSteuerplanung\nist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren. Ebenso ist eine korrekte Anmeldung und Abrechnung der\nMehrwertsteuer, Einfuhr-\nbzw.\nBezugsteuer\nvon der Aufnahme Ihrer GeschÃ¤ftstÃ¤tigkeit an von grosser Bedeutung.\nGerade fÃ¼r SelbstÃ¤ndigerwerbende sowie kleine und mittlere Unternehmen (KMU) lohnt es sich deshalb, Steuerexperten beizuziehen, die Ã¼ber umfassende und stets aktuelle Fachkompetenz in den Bereichen\nUnternehmenssteuerrecht, Mehrwertsteuer\nund\nSteueroptimierung\nverfÃ¼gen. Beispielsweise stellt sich bei der Mehrwertsteuer oft die Frage, welche Abrechnungsmethode fÃ¼r Ihr Unternehmen besser geeignet ist.\nSaldosteuersatz\noder die\neffektive Abrechnung\n?\nDie WÃ¼rth Treuhand AG ist Ihr professioneller Beratungs- und Outsourcing-Partner in allen Belangen der\nSteuerberatung, Steuerplanung\nund\nMehrwertsteuer\n. Dabei legen wir besonderen Wert auf eine weitsichtige, nachhaltige Analyse und Beratung, welche Ã¼ber die Erzielung unmittelbarer Steuervorteile hinausgeht. Die Schnittstelle zu unserer\nTreuhandfunktion\nin den Bereichen Rechnungswesen, WirtschaftsprÃ¼fung und Unternehmensberatung garantiert Ihnen eine ganzheitliche Sicht auf Ihre Unternehmensprozesse und damit grÃ¶sstmÃ¶gliche Effizienz â auch in der interkantonalen und internationalen Steuerplanung.\nSelbstverstÃ¤ndlich agieren wir ebenso als kompetente Vertretung gegenÃ¼ber allen FinanzbehÃ¶rden und Instanzen, etwa bei Einsprachen oder Rekursen.\nSTEUERBERATUNG fÃ¼r unternehmen\nMIT SICHERHEIT MEHR WIRTSCHAFTLICHKEIT\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 2029,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Unternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Privatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Treuhandfunktion",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "../uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "../uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 00"
+      ],
+      "raw_html": "raw_html/005__dienstleistungen__steuerberatung-fuer-unternehmen.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "WÃ¼rth Treuhand AG - Steuerberatung fÃ¼r Privatpersonen",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "Die âWÃ¼rth Treuhand AGâ und deren diplomierte Steuerexperten stehen Privatpersonen mit persÃ¶nlicher und individueller Steuerberatung und praktischer UnterstÃ¼tzung zur Seite.",
+        "og:type": "website",
+        "og:title": "WÃ¼rth Treuhand AG - Steuerberatung fÃ¼r Privatpersonen",
+        "og:url": "steuerberatung-fuer-privatpersonen",
+        "og:description": "Die âWÃ¼rth Treuhand AGâ und deren diplomierte Steuerexperten stehen Privatpersonen mit persÃ¶nlicher und individueller Steuerberatung und praktischer UnterstÃ¼tzung zur Seite.",
+        "og:image": "..//",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "steuerberatung-fuer-privatpersonen",
+      "headings": {
+        "h1": [
+          "STEUERBERATUNG FÃR privatpersonen"
+        ],
+        "h2": [
+          "Mit Sicherheit mehr Durchblick",
+          "STEUERBERATUNG fÃ¼r privatpersonen"
+        ],
+        "h3": [
+          "MIT SICHERHEIT MEHR durchblick"
+        ]
+      },
+      "text": "WÃ¼rth Treuhand AG - Steuerberatung fÃ¼r Privatpersonen\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r Unternehmen\nSteuerberatung fÃ¼r Privatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nSTEUERBERATUNG FÃR privatpersonen\nMit Sicherheit mehr Durchblick\nAlle Jahre wieder mÃ¼ssen sÃ¤mtliche in der Schweiz unbeschrÃ¤nkt steuerpflichtigen Personen ihre persÃ¶nliche\nSteuererklÃ¤rung\nausfÃ¼llen und fristgerecht einreichen.\nFÃ¼r die Einen ein Buch mit sieben Siegeln, fÃ¼r die Anderen einfach ein lÃ¤stiger Zeitaufwand. Hinzu kommt eine immer komplexer werdende Steuergesetzgebung, die fÃ¼r Privatpersonen zunehmend schwieriger zu durchschauen ist. Besonders, wenn sich Ihre persÃ¶nliche Situation verÃ¤ndert: zum Beispiel bei\nHeirat\noder\nScheidung, Erbschaft, Erwerb von Immobilien\nund\nWohneigentum\n(GrundstÃ¼ckgewinnsteuer), Zuzug aus einem anderen Kanton oder aus dem Ausland, Besteuerung von\ninternationalen Wochenaufenthalter\nin der Schweiz und den EU-Staaten.\nUm Ihre Steuerbelastung langfristig mÃ¶glichst tief zu halten, ist eine Optimierung innerhalb der gesetzlichen Vorschriften mit UnterstÃ¼tzung eines erfahrenen Steuerexperten sinnvoll.\nDie WÃ¼rth Treuhand AG und deren diplomierte Steuerexperten stehen Privatpersonen mit\npersÃ¶nlicher und individueller Steuerberatung\nund praktischer UnterstÃ¼tzung zur Seite.\nWir sorgen fÃ¼r Durchblick in den verschiedensten\nkomplexen\nSteuerthemen\nund helfen Ihnen in allen Fragen des\nSteuerrechts\n, der\nSteuerplanung\nund\nSteueroptimierung\n. Die gesamte Erstellung der SteuererklÃ¤rung kÃ¶nnen Sie uns Ã¼berlassen und auch bei Verhandlungen, Einsprachen oder Beschwerden sind wir Ihre sachkundige Vertretung gegenÃ¼ber den FinanzbehÃ¶rden.\nNeben der Beratung und UnterstÃ¼tzung im Bereich der privaten Steuern bieten wir fÃ¼r\nUnternehmen individuelle Steuerberatungen und Steuerplanungen\nan. Unser Ziel ist, Ihnen eine\nvoll umfassende Beratung aus einer Hand\nzu bieten. Mit der ganzheitlichen Sicht kÃ¶nnen wir Ihnen optimale LÃ¶sungen prÃ¤sentieren und ein bestmÃ¶gliches Ergebnis erzielen.\nSTEUERBERATUNG fÃ¼r privatpersonen\nMIT SICHERHEIT MEHR durchblick\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 2283,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Unternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Privatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Unternehmen individuelle Steuerberatungen und Steuerplanungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "../uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "../uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 00"
+      ],
+      "raw_html": "raw_html/006__dienstleistungen__steuerberatung-fuer-privatpersonen.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "WÃ¼rth Treuhand AG - Wirtschafts-und SpezialprÃ¼fung",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "Als von der RevisionsaufsichtsbehÃ¶rde zugelassene Revisionsexpertin fÃ¼hren wir eingeschrÃ¤nkte und ordentliche Revisionen im Rahmen der gesetzlichen Vorschriften und der Regeln des Berufsstandes durch.",
+        "og:type": "website",
+        "og:title": "WÃ¼rth Treuhand AG - Wirtschafts-und SpezialprÃ¼fung",
+        "og:url": "wirtschaftspruefung",
+        "og:description": "Als von der RevisionsaufsichtsbehÃ¶rde zugelassene Revisionsexpertin fÃ¼hren wir eingeschrÃ¤nkte und ordentliche Revisionen im Rahmen der gesetzlichen Vorschriften und der Regeln des Berufsstandes durch.",
+        "og:image": "..//",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "wirtschaftspruefung",
+      "headings": {
+        "h1": [
+          "wirtschaftsprÃ¼fung und spezialprÃ¼fungen"
+        ],
+        "h2": [
+          "Mit Sicherheit mehr Kontrolle",
+          "Individuelle WirtschaftsprÃ¼fung",
+          "WIRTSCHaFTsprÃ¼fung"
+        ],
+        "h3": [
+          "MIT SICHERHEIT MEHR kontrolle und transparenz"
+        ]
+      },
+      "text": "WÃ¼rth Treuhand AG - Wirtschafts-und SpezialprÃ¼fung\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r Unternehmen\nSteuerberatung fÃ¼r Privatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nwirtschaftsprÃ¼fung und spezialprÃ¼fungen\nMit Sicherheit mehr Kontrolle\nAls von der RevisionsaufsichtsbehÃ¶rde zugelassene Revisionsexpertin fÃ¼hren wir eingeschrÃ¤nkte und ordentliche Revisionen im Rahmen der gesetzlichen Vorschriften und der Regeln des Berufsstandes durch.\nRevisionen sind in bestimmten FÃ¤llen von Gesetzes wegen vorgeschrieben â der Sinn und Nutzen einer Revision geht in der Praxis jedoch Ã¼ber die ErfÃ¼llung der gesetzlichen Pflicht hinaus. In einer komplexen, dynamischen und damit unsicheren Umwelt Ã¼bernehmen wir als Revisionsstelle eine wichtige\nSicherungsfunktion\nfÃ¼r die Wirtschaft. Damit schaffen wir\nVertrauen\nbei Kapitalgebern, Kunden, Lieferanten, Mitarbeitenden und der breiten Ãffentlichkeit. Die Abgabe einer PrÃ¼fungsaussage durch unsere neutralen und unabhÃ¤ngigen Experten soll insbesondere einen\nMehrwert an Transparenz\nund\nSicherheit\nschaffen.\nSie dÃ¼rfen sich bei uns auf eine umfassende Erfahrung in einer Vielzahl von Unternehmen und Branchen stÃ¼tzen, mit welcher wir GewÃ¤hr fÃ¼r die kompetente und effiziente aber auch individuelle Bearbeitung von Revisionsmandaten bieten.\nAls\nunabhÃ¤ngige Revisionsstelle\nÃ¼bernehmen wir Mandate zur DurchfÃ¼hrung von\neingeschrÃ¤nkten und ordentlichen Revisionen\n. Auch die Planung und DurchfÃ¼hrung von individuellen\nSpezialprÃ¼fungen\nzÃ¤hlen wir zu unseren Kernkompetenzen.\nDie WÃ¼rth Treuhand AG ist Mitglied von\nEXPERTsuisse\nâ dem Expertenverband fÃ¼r WirtschaftsprÃ¼fung, Steuern und Treuhand.\nIndividuelle WirtschaftsprÃ¼fung\nBereits wÃ¤hrend der GrÃ¼ndung von Unternehmen kÃ¶nnen gesetzlich vorgeschriebene, zusÃ¤tzliche PrÃ¼fungspflichten entstehen. Wir begleiten und unterstÃ¼tzen Sie in den verschiedenen Phasen Ihrer Unternehmensentwicklung und fÃ¼hren SpezialprÃ¼fungen durch, wo diese gesetzlich vorgeschrieben sind und geben entsprechende PrÃ¼fungsbestÃ¤tigungen ab.\nGrÃ¼ndungsprÃ¼fung\nKapitalerhÃ¶hungsprÃ¼fung\nKapitalherabsetzungsprÃ¼fung\nFusions- und weitere UmstrukturierungsprÃ¼fungen\nDue Diligence\nSpezialprÃ¼fungen bei Sanierung und Liquidation\nÃber die gesetzlich vorgeschriebenen PrÃ¼fungen hinaus erbringen wir unsere PrÃ¼fungsdienstleistungen auch im AuftragsverhÃ¤ltnis â zum Beispiel im Rahmen einer\nReview\noder\nvereinbarten PrÃ¼fungshandlungen\nbezÃ¼glich Finanzinformationen â und erstatten Ã¼ber unsere Ergebnisse individuell Bericht.\nWIRTSCHaFTsprÃ¼fung\nMIT SICHERHEIT MEHR kontrolle und transparenz\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 2786,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Unternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Privatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "../uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "../uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 00"
+      ],
+      "raw_html": "raw_html/007__dienstleistungen__wirtschaftspruefung.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "WÃ¼rth Treuhand AG - Unternehmensberatung in ZÃ¼rich",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "Als Consulting- und Outsourcing-Dienstleister bieten wir Start-ups, Einzelunternehmern ebenso wie kleinen und mittleren Unternehmen (KMU) umfassende UnterstÃ¼tzung in den Bereichen Strategische Unternehmensentwicklung, Finanzplanung und Controlling, ",
+        "og:type": "website",
+        "og:title": "WÃ¼rth Treuhand AG - Unternehmensberatung in ZÃ¼rich",
+        "og:url": "vorsorgeberatung",
+        "og:description": "Als Consulting- und Outsourcing-Dienstleister bieten wir Start-ups, Einzelunternehmern ebenso wie kleinen und mittleren Unternehmen (KMU) umfassende UnterstÃ¼tzung in den Bereichen Strategische Unternehmensentwicklung, Finanzplanung und Controlling, ",
+        "og:image": "..//",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "vorsorgeberatung",
+      "headings": {
+        "h1": [
+          "vorsorgeberatung"
+        ],
+        "h2": [
+          "Mehr Sicherheit durch frÃ¼hzeitige Planung",
+          "vorsorgeberatung"
+        ],
+        "h3": [
+          "mehr SICHERHEIT durch frÃ¼hzeitige planung"
+        ]
+      },
+      "text": "WÃ¼rth Treuhand AG - Unternehmensberatung in ZÃ¼rich\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r Unternehmen\nSteuerberatung fÃ¼r Privatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nvorsorgeberatung\nMehr Sicherheit durch frÃ¼hzeitige Planung\nDie Entscheidungen von heute bestimmen Ihre finanzielle und steuerliche Situation von morgen.\nEine frÃ¼hzeitige Auseinandersetzung mit der\nFinanz- und Vorsorgeplanung\nist fÃ¼r eine optimale Ausnutzung der MÃ¶glichkeiten unerlÃ¤sslich. Denn bereits in jungen Jahren kann ein solides Fundament fÃ¼r eine langfristige finanzielle Sicherheit geschaffen werden.\nMit Blickwinkel\nPensionierung\nstellen sich unter anderem verschiedenste Fragen im Zusammenhang mit dem\nEinkauf in die Pensionskasse\n, dem Bezug des Altersguthabens und der\nNachfolge-\noder\nNachlassplanung\n.\nAber auch im Falle einer\nErwerbsunfÃ¤higkeit\noder bei einem\nTodesfall\nist eine finanzielle Absicherung von Ihnen und Ihrer Familie Ã¤usserst sinnvoll.\nGerne unterstÃ¼tzen und begleiten wir Sie in den verschiedenen Phasen Ihrer Finanz- und Vorsorgeplanung. Sei dies beispielsweise beim Kauf von\nWohneigentum\n, bei der Umsetzung von steuerbegÃ¼nstigten VorsorgelÃ¶sungen oder aber auch bei der Nachfolge- und Nachlassplanung im Zusammenhang mit\nErbschaften\nund\nWillensvollstreckungen:\nMit einer umfassenden Analyse Ihrer individuellen VerhÃ¤ltnisse stehen wir Ihnen mit einer ganzheitlichen Vorsorgeberatung zur VerfÃ¼gung. PersÃ¶nlich, diskret und kompetent.\nvorsorgeberatung\nmehr SICHERHEIT durch frÃ¼hzeitige planung\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 1702,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Unternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Privatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "../uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "../uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 00"
+      ],
+      "raw_html": "raw_html/008__dienstleistungen__vorsorgeberatung.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "WÃ¼rth Treuhand AG - TreuhandbÃ¼ro in der Stadt ZÃ¼rich",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "Wir beraten und entlasten Privatpersonen wie Unternehmen kompetent und wirksam in allen relevanten Verwaltungs-, Finanz- und Rechtsfragen.",
+        "og:type": "website",
+        "og:title": "WÃ¼rth Treuhand AG - TreuhandbÃ¼ro in der Stadt ZÃ¼rich",
+        "og:url": "treuhand",
+        "og:description": "Wir beraten und entlasten Privatpersonen wie Unternehmen kompetent und wirksam in allen relevanten Verwaltungs-, Finanz- und Rechtsfragen.",
+        "og:image": "..//",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "treuhand",
+      "headings": {
+        "h1": [
+          "Treuhand"
+        ],
+        "h2": [
+          "Mit Sicherheit mehr Entlastung",
+          "Treuhand"
+        ],
+        "h3": [
+          "MIT SICHERHEIT MEHR entlastung"
+        ]
+      },
+      "text": "WÃ¼rth Treuhand AG - TreuhandbÃ¼ro in der Stadt ZÃ¼rich\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r Unternehmen\nSteuerberatung fÃ¼r Privatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nTreuhand\nMit Sicherheit mehr Entlastung\nWir beraten und entlasten Privatpersonen wie Unternehmen kompetent und wirksam in allen relevanten\nVerwaltungs-, Finanz- und Rechtsfragen\nsowie kaufmÃ¤nnischen FormalitÃ¤ten.\nAls Treuhand-Partner Ã¼bernehmen wir klassische\nTreuhand-Mandate\nin der Unternehmens- und Steuerberatung sowie im Controlling und Rechnungswesen ebenso wie die AusfÃ¼hrung von Willensvollstreckungen, Verwaltungsrats-Mandate, Immobilien- oder Nachlass-Angelegenheiten.\nLassen Sie Ihre\nFinanzbuchhaltung, SalÃ¤radministration\nund\nLohnbuchhaltung\nvon unseren Spezialisten fÃ¼r Sie fÃ¼hren und den\nJahresabschluss\nfÃ¼r Sie erstellen, damit Sie sich auf Ihre KerntÃ¤tigkeiten fokussieren kÃ¶nnen. Als\nOutsourcing-Dienstleister\nbieten wir Ihnen GewÃ¤hr fÃ¼r eine kompetente und effiziente Bearbeitung â alles aus einer Hand.\nMÃ¶chten Sie die Kontrolle Ã¼ber Ihre Buchhaltung behalten und gewisse administrative Aufgaben selbst Ã¼bernehmen? Dann bieten wir Ihnen unsere Treuhand-Leistungen auch fÃ¼r\nCloud-LÃ¶sungen\nwie\nbexio\n,\nAbaNinja\noder\nAbaWeb\nan. Gerne beraten und unterstÃ¼tzen wir Sie bei der Wahl und Einrichtung der passenden Business Software.\nBesonders in der Phase der UnternehmensgrÃ¼ndung bzw. bei\nStart-Ups\nist eine vertrauensvolle Partnerschaft essentiell. Mit dem umfassenden VerstÃ¤ndnis und dem breiten Wissen unserer\nGeneralisten und Spezialisten\nkÃ¶nnen wir Sie in fast allen Belangen unterstÃ¼tzen und entlasten, so dass Sie sich aufs Wesentliche beim Aufbau und der Weiterentwicklung Ihres Unternehmens konzentrieren kÃ¶nnen.\nWir begleiten Sie schweizweit professionell, vertraulich und mit stets aktuellem Know-how. Sie haben eine zentrale Ansprechperson, die in einer grossen Bandbreite von Fachfragen zuverlÃ¤ssig und unkompliziert fÃ¼r Sie da ist.\nTreuhand\nMIT SICHERHEIT MEHR entlastung\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 2190,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Unternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Privatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "../uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "../uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 00"
+      ],
+      "raw_html": "raw_html/009__dienstleistungen__treuhand.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "WÃ¼rth Treuhand AG - Unternehmensberatung in ZÃ¼rich",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "Als Consulting- und Outsourcing-Dienstleister bieten wir Start-ups, Einzelunternehmern ebenso wie kleinen und mittleren Unternehmen (KMU) umfassende UnterstÃ¼tzung in den Bereichen Strategische Unternehmensentwicklung, Finanzplanung und Controlling, ",
+        "og:type": "website",
+        "og:title": "WÃ¼rth Treuhand AG - Unternehmensberatung in ZÃ¼rich",
+        "og:url": "unternehmensberatung",
+        "og:description": "Als Consulting- und Outsourcing-Dienstleister bieten wir Start-ups, Einzelunternehmern ebenso wie kleinen und mittleren Unternehmen (KMU) umfassende UnterstÃ¼tzung in den Bereichen Strategische Unternehmensentwicklung, Finanzplanung und Controlling, ",
+        "og:image": "..//",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "unternehmensberatung",
+      "headings": {
+        "h1": [
+          "unternehmensberatung"
+        ],
+        "h2": [
+          "Mit Sicherheit mehr WertschÃ¶pfung",
+          "unternehmensberatung"
+        ],
+        "h3": [
+          "MIT SICHERHEIT MEHR wertschÃ¶pfung"
+        ]
+      },
+      "text": "WÃ¼rth Treuhand AG - Unternehmensberatung in ZÃ¼rich\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r Unternehmen\nSteuerberatung fÃ¼r Privatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nunternehmensberatung\nMit Sicherheit mehr WertschÃ¶pfung\nUnternehmerischer Erfolg braucht eine klare Strategie und effiziente GeschÃ¤ftsprozesse.\nIn diesem Sinne verstehen wir uns als Sparringpartner, die Sie mit strategischer Unternehmens- und Finanzberatung in jeder Phase Ihrer GeschÃ¤ftsentwicklung begleiten. Individuell, transparent und nachhaltig.\nAls\nConsulting- und Outsourcing-Dienstleister\nbieten wir\nStart-Ups\n, Einzelunternehmern ebenso wie kleinen und mittleren Unternehmen (KMU) umfassende UnterstÃ¼tzung in den Bereichen\nUnternehmensgrÃ¼ndung, Finanzplanung und Controlling, Rechnungswesen und Administration\n. Von der NeugrÃ¼ndung bis zur Nachfolgeplanung, vom Businessplan bis zur Betriebsanalyse, von der Buchhaltung bis zum Jahresabschluss. Klare Kennzahlen machen betriebliche Werte und Erfolgsfaktoren transparent und damit steuerbar.\nGerne erstellen wir fÃ¼r Sie\nUnternehmensbewertunge\nn\nim Zusammenhang mit einem Kauf oder Verkauf eines Unternehmens oder unterstÃ¼tzen Sie im Rahmen einer\nDue Diligence\n.\nMit unserem breiten Know-how und unserer langjÃ¤hrigen Erfahrung unterstÃ¼tzen wir Sie bei der\nImplementierung\nund\nOptimierung\nvon betrieblichen und administrativen\nProzessen\nsowie des\ninternen Kontrollsystems (IKS\n)\n. Letzteres bringt nicht nur StabilitÃ¤t und Sicherheit in Ihr Unternehmen, sondern ist ab einer gewissen GrÃ¶sse auch gesetzlich vorgeschrieben.\nFordern Sie unsere erfahrenen Berater als neutrale Coaches fÃ¼r eine effiziente Finanz- und Controlling-Strategie in allen Prozessen, die fÃ¼r die WertschÃ¶pfung Ihres Unternehmens relevant sind. Wir halten Ihnen den RÃ¼cken frei, damit Sie sich auf Ihr KerngeschÃ¤ft konzentrieren kÃ¶nnen.\nunternehmensberatung\nMIT SICHERHEIT MEHR wertschÃ¶pfung\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 2099,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Unternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Privatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "../uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "../uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 00"
+      ],
+      "raw_html": "raw_html/010__dienstleistungen__unternehmensberatung.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/aktuell",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "WÃ¼rth Treuhand AG - Infos aus der Steuerrechtspraxis",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "Auf dieser Seite finden Sie aktuelle Berichte und News zum Steuergesetz im Kanton ZÃ¼rich, Informationen zu den Sozialversicherungen u.v.m.",
+        "og:type": "website",
+        "og:title": "WÃ¼rth Treuhand AG - Infos aus der Steuerrechtspraxis",
+        "og:url": "aktuell",
+        "og:description": "Auf dieser Seite finden Sie aktuelle Berichte und News zum Steuergesetz im Kanton ZÃ¼rich, Informationen zu den Sozialversicherungen u.v.m.",
+        "og:image": "/",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "aktuell",
+      "headings": {
+        "h1": [
+          "WÃ¼rth Treuhand AG"
+        ],
+        "h2": [
+          "erfahrung zÃ¤hlt\r\n\t\t\t\t\t\t\t\t\t\t\t\t- vertrauen entscheidet",
+          "Neujahrsbotschaft 2026",
+          "VerÃ¶ffentlicht am Dienstag, 7. Januar 2026",
+          "Sozialversicherungen 2026",
+          "VerÃ¶ffentlicht am Dienstag, 7. Januar 2026",
+          "Neujahrsbotschaft 2025",
+          "VerÃ¶ffentlicht am Dienstag, 7. Januar 2025",
+          "Sozialversicherungen 2025",
+          "VerÃ¶ffentlicht am Dienstag, 7. Januar 2025",
+          "Neujahrsbotschaft 2024",
+          "VerÃ¶ffentlicht am Freitag, 12. Januar 2024",
+          "Sozialversicherungen 2024",
+          "VerÃ¶ffentlicht am Freitag, 12. Januar 2024",
+          "Neujahrsbotschaft 2023",
+          "VerÃ¶ffentlicht am Freitag, 6. Januar 2023",
+          "Sozialversicherungen 2023",
+          "VerÃ¶ffentlicht am Freitag, 6. Januar 2023",
+          "Neujahrsbotschaft 2022",
+          "VerÃ¶ffentlicht am Mittwoch, 5. Januar 2022",
+          "Sozialversicherungen 2022",
+          "VerÃ¶ffentlicht am Mittwoch, 5. Januar 2022",
+          "Neujahrsbotschaft 2021",
+          "VerÃ¶ffentlicht am Freitag, 8. Januar 2021",
+          "Sozialversicherungen 2021",
+          "VerÃ¶ffentlicht am Freitag, 8. Januar 2021",
+          "Neujahrsbotschaft 2020",
+          "VerÃ¶ffentlicht am Mittwoch, 8. Januar 2020",
+          "Update 18. Dezember 2020",
+          "Sozialversicherungen 2020",
+          "VerÃ¶ffentlicht am Mittwoch, 8. Januar 2020",
+          "MIT SICHERHEIT in treuen hÃ¤nden"
+        ]
+      },
+      "text": "WÃ¼rth Treuhand AG - Infos aus der Steuerrechtspraxis\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUnternehmen\nSteuerberatung fÃ¼r\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPrivatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nerfahrung zÃ¤hlt\r\n\t\t\t\t\t\t\t\t\t\t\t\t- vertrauen entscheidet\nNeujahrsbotschaft 2026\nVerÃ¶ffentlicht am Dienstag, 7. Januar 2026\nNeujahrsbotschaft 2026, enthÃ¤lt Informationen zu folgenden Themen\nUmsetzung der Abschaffung des Eigenmietwertes\nNeugestaltung des Schuldzinsenabzugs\nEinfÃ¼hrung einer zusÃ¤tzlichen Liegenschaftssteuer auf Zweitwohnungen\nÃbergang zur Individualbesteuerung und deren Auswirkungen\nNeubewertung von Liegenschaften im Kanton ZÃ¼rich\nPraxisÃ¤nderung bei pauschalen RÃ¼ckstellungen fÃ¼r Grossreparaturen\nMWST â Ausweitung des fiktiven Vorsteuerabzugs\nRÃ¼ckwirkender Einkauf in die 3. SÃ¤ule\nAIA-Unterstellung von KryptowÃ¤hrungen\nNeujahrsbotschaft 2026\nNeujahrsbotschaft 2026\nSozialversicherungen 2026\nVerÃ¶ffentlicht am Dienstag, 7. Januar 2026\nInformationen zu den Sozialversicherungen: EnthÃ¤lt die auf den 1. Januar 2026 geltenden BeitragssÃ¤tze zur AHV/IV/EO, ALV sowie die GrenzbetrÃ¤ge BVG, 3. SÃ¤ule, UVG/SUVA und Informationen zu den Kinderzulagen im Kanton ZÃ¼rich.\nSozialversicherungen 2026\nNeujahrsbotschaft 2025\nVerÃ¶ffentlicht am Dienstag, 7. Januar 2025\nNeujahrsbotschaft 2025, enthÃ¤lt Informationen zu folgenden Themen\nNeuerungen bei der Mehrwertsteuer\nNeue VermÃ¶genssteuerwerte / Eigenmietwerte im Kanton ZÃ¼rich\nAbschaffung des Eigenmietwertes\nBesteuerung Wohnrecht\nErbschaftssteuerinitiative: Aktuelle Entwicklung\nWeitere steuerliche Entwicklungen\nErhÃ¶hung der Kinder- und Ausbildungszulagen\nNeues Musterspesenreglement\nBekÃ¤mpfung von missbrÃ¤uchlichen Konkursen\nNeujahrsbotschaft 2025\nNeujahrsbotschaft 2025\nSozialversicherungen 2025\nVerÃ¶ffentlicht am Dienstag, 7. Januar 2025\nInformationen zu den Sozialversicherungen: EnthÃ¤lt die auf den 1. Januar 2025 geltenden BeitragssÃ¤tze zur AHV/IV/EO, ALV sowie die GrenzbetrÃ¤ge BVG, 3. SÃ¤ule, UVG/SUVA und Informationen zu den Kinderzulagen im Kanton ZÃ¼rich.\nSozialversicherungen 2025\nNeujahrsbotschaft 2024\nVerÃ¶ffentlicht am Freitag, 12. Januar 2024\nNeujahrsbotschaft 2024, enthÃ¤lt\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tInformationen zu folgenden Themen:\nNeuerungen und PraxisÃ¤nderungen bei Liegenschaften\nAbgrenzung Liebhaberei vs. ErwerbstÃ¤tigkeit\nSteuerliche Stolpersteine bei der 3. SÃ¤ule\nTeilpensionierung und Kapitalbezug aus steuerlicher Sicht\nWeitere Steuerliche Entwicklungen\nAHV Reform 2021\nOECD Mindeststeuer\nMWST / SteuersatzerhÃ¶hung ab 1. Januar 2024\nNeujahrsbotschaft 2024\nNeujahrsbotschaft 2024\nSozialversicherungen 2024\nVerÃ¶ffentlicht am Freitag, 12. Januar 2024\nInformationen zu den Sozialversicherungen: EnthÃ¤lt die auf den 1. Januar 2024 geltenden BeitragssÃ¤tze zur AHV/IV/EO, ALV sowie die GrenzbetrÃ¤ge BVG, 3. SÃ¤ule, UVG/SUVA und Informationen zu den Kinderzulagen im Kanton ZÃ¼rich.\nSozialversicherungen 2024\nNeujahrsbotschaft 2023\nVerÃ¶ffentlicht am Freitag, 6. Januar 2023\nNeujahrsbotschaft 2023, enthÃ¤lt\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tInformationen zu folgenden Themen:\nNeue Regeln bei ZahlungsunfÃ¤higkeit, Kapitalverlust\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tund Ãberschuldung von juristischen Personen\nBekÃ¤mpfung des missbrÃ¤uchlichen Konkurses\nNeues Erbrecht tritt per 1. Januar 2023 in Kraft\nÃnderungen Steuergesetze / Praxis\nPraxisanpassungen bei der Mehrwertsteuer\nNeujahrsbotschaft 2023\nNeujahrsbotschaft 2023\nSozialversicherungen 2023\nVerÃ¶ffentlicht am Freitag, 6. Januar 2023\nInformationen zu den Sozialversicherungen:\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tEnthÃ¤lt die auf den\n1. Januar 2023 geltenden BeitragssÃ¤tze zur\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tAHV/IV/EO, ALV sowie\ndie GrenzbetrÃ¤ge BVG, 3. SÃ¤ule, UVG/SUVA und\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tInformationen zu den Kinderzulagen im Kanton ZÃ¼rich.\nSozialversicherungen 2023\nNeujahrsbotschaft 2022\nVerÃ¶ffentlicht am Mittwoch, 5. Januar 2022\nNeujahrsbotschaft 2022, enthÃ¤lt\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tInformationen zu folgenden Themen:\nHomeoffice vs. BetriebsstÃ¤tte\nDoppelbesteuerung bei Steuerhoheits-Fragen\nNeues Erbrecht per 1. Januar 2023\nÃnderungen Steuergesetze / Praxis\nAktienrechtsrevision vom 19. Juni 2020\nWeiterfÃ¼hrung BVG bei Stellenverlust nach Alter 58\nCovid-19-Kredit / Covid-19-HÃ¤rtefall-Programm\nNeujahrsbotschaft 2022\nNeujahrsbotschaft 2022\nSozialversicherungen 2022\nVerÃ¶ffentlicht am Mittwoch, 5. Januar 2022\nInformationen zu den Sozialversicherungen:\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tEnthÃ¤lt die auf den\n1. Januar 2022 geltenden BeitragssÃ¤tze zur\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tAHV/IV/EO, ALV sowie\ndie GrenzbetrÃ¤ge BVG, 3. SÃ¤ule, UVG/SUVA und\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tInformationen zu den Kinderzulagen im Kanton ZÃ¼rich.\nSozialversicherungen 2022\nNeujahrsbotschaft 2021\nVerÃ¶ffentlicht am Freitag, 8. Januar 2021\nNeujahrsbotschaft 2021, enthÃ¤lt\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tInformationen zu folgenden Themen:\nCovid-19 Kredite - Was zu beachten ist\nCovid-19 HÃ¤rtefallverordnung Kanton ZÃ¼rich\nÃnderungen Steuergesetze / Praxis\nEntschÃ¤digung Vaterschaftsurlaub\nRevision zu den ErgÃ¤nzungsleistungen\nVorsorgeplanung leicht gemacht\nÃnderung Versicherungsvertragsgesetz\nNeujahrsbotschaft 2021\nNeujahrsbotschaft 2021\nSozialversicherungen 2021\nVerÃ¶ffentlicht am Freitag, 8. Januar 2021\nInformationen zu den Sozialversicherungen:\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tEnthÃ¤lt die auf den\n1. Januar 2021 geltenden BeitragssÃ¤tze zur\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tAHV/IV/EO, ALV sowie\ndie GrenzbetrÃ¤ge BVG, 3. SÃ¤ule, UVG/SUVA und\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tInformationen zu den Kinderzulagen im Kanton ZÃ¼rich.\nSozialversicherungen 2021\nNeujahrsbotschaft 2020\nVerÃ¶ffentlicht am Mittwoch, 8. Januar 2020\nUpdate 18. Dezember 2020\nNeujahrsbotschaft 2020, enthÃ¤lt Informationen zu\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tfolgenden Themen:\nUmsetzung der Steuervorlage 17 / STAF\nÃnderungen Steuergesetze / Praxis\nEigenmietwert: Abschaffung lÃ¤sst auf sich warten\nÃnderungen bei der AHV und UVG / SUVA\nKreisschreiben Nr. 48 (Anpassung des VStG)\nAbschaffung Inhaberaktien\nErneuerung Erbrecht\nNeujahrsbotschaft 2020\nSozialversicherungen 2020\nVerÃ¶ffentlicht am Mittwoch, 8. Januar 2020\nInformationen zu den Sozialversicherungen:\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tEnthÃ¤lt die auf den\n1. Januar 2020 geltenden BeitragssÃ¤tze zur\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tAHV/IV/EO, ALV sowie die GrenzbetrÃ¤ge BVG, 3. SÃ¤ule, UVG/SUVA und\r\n\t\t\t\t\t\t\t\t\t\t\t\t\tInformationen zu den Kinderzulagen im Kanton ZÃ¼rich.\nSozialversicherungen 2020\nWÃ¼rth Treuhand AG\nMIT SICHERHEIT in treuen hÃ¤nden\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 6495,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUnternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPrivatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Neujahrsbotschaft 2026",
+          "href": "https://www.wuerth-treuhand.ch/uploads/AmqXUjGd/Neujahrsbotschaft_2026_WÃ¼rth_Treuhand_AG.pdf",
+          "internal": true
+        },
+        {
+          "text": "Sozialversicherungen 2026",
+          "href": "https://www.wuerth-treuhand.ch/uploads/NXls4wUE/Ãbersicht_Sozialversicherungen_2026_WÃ¼rthTreuhand.pdf",
+          "internal": true
+        },
+        {
+          "text": "Neujahrsbotschaft 2025",
+          "href": "https://www.wuerth-treuhand.ch/uploads/AmqXUjGd/Neujahrsbotschaft2025WÃ¼rthTreuhandAGvom07.01.2025_FINAL.pdf",
+          "internal": true
+        },
+        {
+          "text": "Sozialversicherungen 2025",
+          "href": "https://www.wuerth-treuhand.ch/uploads/NXls4wUE/Ãbersicht_Sozialversicherungen_2025_WÃ¼rthTreuhand.pdf",
+          "internal": true
+        },
+        {
+          "text": "Neujahrsbotschaft 2024",
+          "href": "https://www.wuerth-treuhand.ch/uploads/AmqXUjGd/Neujahrsbotschaft_2024_WÃ¼rth_Treuhand_AG_vom_12.01.2024.pdf",
+          "internal": true
+        },
+        {
+          "text": "Sozialversicherungen 2024",
+          "href": "https://www.wuerth-treuhand.ch/uploads/NXls4wUE/Ãbersicht_Sozialversicherungen_2024_WÃ¼rthTreuhand.pdf",
+          "internal": true
+        },
+        {
+          "text": "Neujahrsbotschaft 2023",
+          "href": "https://www.wuerth-treuhand.ch/uploads/AmqXUjGd/Neujahrsbotschaft2023WrthTreuhandAGvom06.01.2023.pdf",
+          "internal": true
+        },
+        {
+          "text": "Sozialversicherungen 2023",
+          "href": "https://www.wuerth-treuhand.ch/uploads/NXls4wUE/SOZVERS2023WrthTreuhand.pdf",
+          "internal": true
+        },
+        {
+          "text": "Neujahrsbotschaft 2022",
+          "href": "https://www.wuerth-treuhand.ch/uploads/pUBTP8AS/Neujahrsbotschaft2022WrthTreuhandAGvom05.01.2022.pdf",
+          "internal": true
+        },
+        {
+          "text": "Sozialversicherungen 2022",
+          "href": "https://www.wuerth-treuhand.ch/uploads/DlKciOJV/SOZVERS2022WrthTreuhand.pdf",
+          "internal": true
+        },
+        {
+          "text": "Neujahrsbotschaft 2021",
+          "href": "https://www.wuerth-treuhand.ch/uploads/iKbXZJNj/Neujahrsbotschaft2021WrthTreuhandAGvom08.01.21_FINAL.pdf",
+          "internal": true
+        },
+        {
+          "text": "Sozialversicherungen 2021",
+          "href": "https://www.wuerth-treuhand.ch/uploads/RkgymvR8/SOZVERS21WrthTreuhand.pdf",
+          "internal": true
+        },
+        {
+          "text": "Neujahrsbotschaft 2020",
+          "href": "https://www.wuerth-treuhand.ch/uploads/2wvNjXfm/Neujahrsbotschaft2020_updDez2020.pdf",
+          "internal": true
+        },
+        {
+          "text": "Sozialversicherungen 2020",
+          "href": "https://www.wuerth-treuhand.ch/uploads/xKjgkCvT/SOZVERS20WrthTreuhand.pdf",
+          "internal": true
+        },
+        {
+          "text": "044 404 70\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/aktuell#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/aktuell#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [],
+      "raw_html": "raw_html/011__aktuell.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/kontakt",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "WÃ¼rth Treuhand AG in ZÃ¼rich - Kontakt und Termine",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "Auf dieser Seite finden Sie die vollstÃ¤ndigen Kontaktangaben wie Adresse und Telefonnummer des Treuhandunternehmens an der Norastrasse in ZÃ¼rich.",
+        "og:type": "website",
+        "og:title": "WÃ¼rth Treuhand AG in ZÃ¼rich - Kontakt und Termine",
+        "og:url": "kontakt",
+        "og:description": "Auf dieser Seite finden Sie die vollstÃ¤ndigen Kontaktangaben wie Adresse und Telefonnummer des Treuhandunternehmens an der Norastrasse in ZÃ¼rich.",
+        "og:image": "/",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "kontakt",
+      "headings": {
+        "h1": [
+          "kontakt und termine - wir freuen uns auf ihre anfrage"
+        ]
+      },
+      "text": "WÃ¼rth Treuhand AG in ZÃ¼rich - Kontakt und Termine\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r Unternehmen\nSteuerberatung fÃ¼r Privatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nkontakt und termine - wir freuen uns auf ihre anfrage\nKontakt\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nDie Einfahrt zur Tiefgarage befindet sich auf der RÃ¼ckseite des Hotels Crowne Plaza ZÃ¼rich an der Bienenstrasse. Vom 3. UG haben Sie einen direkten Zugang in die Liegenschaft Norastrasse 7.\nAnfrage\nVorname*\nName*\nFirma\nTelefon*\nE-Mail*\nNachricht*\nDanke, Ihre Nachricht wurde erfolgreich versandt. Wir werden uns so rasch als mÃ¶glich bei Ihnen melden.\nWÃ¼rth Treuhand AG\nBeim Versenden des Formulars ist leider ein Fehler aufgetreten. Bitte versuchen Sie es spÃ¤ter noch einmal oder kontaktieren Sie uns Ã¼ber info@wuerth-treuhand.ch.\nWÃ¼rth Treuhand AG\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 1069,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Unternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Privatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:info@wuerth-treuhand.ch<span data-mono-global=",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/kontakt#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/kontakt#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ],
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [
+        {
+          "action": "/contactform/submit",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "Firstname",
+              "placeholder": ""
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "Lastname",
+              "placeholder": ""
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "Company",
+              "placeholder": ""
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "Phone",
+              "placeholder": ""
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "Email",
+              "placeholder": ""
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "Message",
+              "placeholder": ""
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "form_m4837",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@wuerth-treuhand.ch",
+        "info@wuerth-treuhand.ch<span data-mono-global="
+      ],
+      "phones": [
+        "044 404 70 00"
+      ],
+      "raw_html": "raw_html/012__kontakt.html"
+    },
+    {
+      "url": "https://www.wuerth-treuhand.ch/impressum",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "WÃ¼rth Treuhand AG - Impressum",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html;charset=UTF-8",
+        "description": "Auf dieser Seite finden Sie die vollstÃ¤ndigen Kontaktangaben, Telefonnummer und E-Mail Adresse des TreuhandbÃ¼ros in der Stadt ZÃ¼rich.",
+        "og:type": "website",
+        "og:title": "WÃ¼rth Treuhand AG - Impressum",
+        "og:url": "impressum",
+        "og:description": "Auf dieser Seite finden Sie die vollstÃ¤ndigen Kontaktangaben, Telefonnummer und E-Mail Adresse des TreuhandbÃ¼ros in der Stadt ZÃ¼rich.",
+        "og:image": "/",
+        "viewport": "width=device-width, initial-scale=1"
+      },
+      "canonical": "impressum",
+      "headings": {
+        "h2": [
+          "Impressum"
+        ]
+      },
+      "text": "WÃ¼rth Treuhand AG - Impressum\nHome\nÃber uns\nDienstleistungen\nSteuerberatung fÃ¼r Unternehmen\nSteuerberatung fÃ¼r Privatpersonen\nWirtschaftsprÃ¼fung\nVorsorgeberatung\nTreuhand\nUnternehmensberatung\nAktuell\nKontakt\nImpressum\nImpressum\nFirma: WÃ¼rth Treuhand AG\nAdresse: Norastrasse 7 - 8004 ZÃ¼rich\nTelefon:\n044 404 70 00\nE-Mail:\ninfo@wuerth-treuhand.ch\nRechtliche Hinweise\nDiese Website verwendet Cookies. Cookies sind kleine Textdateien, die beim Besuch dieser Website in Ihrem Computer dauerhaft oder temporÃ¤r gespeichert werden. Zweck der Cookies ist insbesondere die Analyse der Nutzung dieser Website zur statistischen Auswertung sowie fÃ¼r kontinuierliche Verbesserungen. In Ihrem Browser kÃ¶nnen Sie Cookies in den Einstellungen jederzeit ganz oder teilweise deaktivieren. Bei deaktivierten Cookies stehen Ihnen allenfalls nicht mehr alle Funktionen dieser Website zur VerfÃ¼gung.\nDatenschutzerklÃ¤rung\nWÃ¼rth Treuhand AG, Norastrasse 7, 8004 ZÃ¼rich, ist Betreiberin dieser Webseite, abrufbar auf www.wuerth-treuhand.ch. Die WÃ¼rth Treuhand AG ist verantwortlich fÃ¼r die Erhebung, Verarbeitung und Nutzung Ihrer Daten und hat die Vereinbarkeit mit dem Schweizer Recht und allenfalls darÃ¼ber hinaus anwendbaren europÃ¤ischen Recht sicherzustellen.\nWir nehmen den Schutz Ihrer persÃ¶nlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser DatenschutzerklÃ¤rung. Nachfolgend informieren wir Sie darÃ¼ber, welche Daten auf dieser Webseite gesammelt und wie sie genutzt werden. Sie erfahren auch, wie Sie die Richtigkeit dieser Informationen Ã¼berprÃ¼fen und die LÃ¶schung dieser Daten bei uns veranlassen kÃ¶nnen.\nIn Zusammenarbeit mit unseren Hosting-Providern bemÃ¼hen wir uns, die Datenbanken so gut wie mÃ¶glich vor fremden Zugriffen, Verlusten, Missbrauch oder vor FÃ¤lschung zu schÃ¼tzen. Wir weisen darauf hin, dass die DatenÃ¼bertragung im Internet (z.B. bei der Kommunikation per E-Mail) SicherheitslÃ¼cken aufweisen kann. Ein lÃ¼ckenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht mÃ¶glich.\nDurch die Nutzung dieser Webseite erklÃ¤ren Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gemÃ¤ss der nachfolgenden Beschreibung einverstanden. Diese Webseite kann grundsÃ¤tzlich ohne Registrierung besucht werden. Dabei werden Daten wie beispielsweise aufgerufene Seiten bzw. Namen der abgerufenen Datei, Datum und Uhrzeit zu statistischen Zwecken auf dem Server gespeichert, ohne dass diese Daten unmittelbar auf Ihre Person bezogen werden. Personenbezogene Daten, insbesondere Name, Adresse oder E-Mail-Adresse werden soweit mÃ¶glich auf freiwilliger Basis erhoben. Ohne Ihre Einwilligung erfolgt keine Weitergabe der Daten an Dritte.\n1             GELTUNGSBEREICH\nPersonendaten\nsind alle Angaben, die sich auf eine bestimmte oder bestimmbare Person beziehen. Eine betroffene Person ist eine Person, Ã¼ber die Personendaten bearbeitet werden. Bearbeiten umfasst jeden Umgang mit Personendaten, unabhÃ¤ngig von den angewandten Mitteln und Verfahren, insbesondere das Aufbewahren, Bekanntgeben, Beschaffen, LÃ¶schen, Speichern, VerÃ¤ndern, Vernichten und Verwenden von Personendaten.\nWir bearbeiten Personendaten im Einklang mit dem schweizerischen Datenschutzrecht. Im Ãbrigen bearbeiten wir soweit und sofern die EuropÃ¤ische Datenschutz-Grundverordnung (EU-DSGVO) anwendbar ist Personendaten gemÃ¤ss folgenden Rechtsgrundlagen im Zusammenhang mit Art. 6 Abs. 1 DSGVO:\nlit. a) Bearbeitung von Personendaten mit Einwilligung der betroffenen Person.\nlit. b) Bearbeitung von Personendaten zur ErfÃ¼llung eines Vertrages mit der betroffenen Person sowie zur DurchfÃ¼hrung entsprechender vorvertraglicher Massnahmen.\nlit. c) Bearbeitung von Personendaten zur ErfÃ¼llung einer rechtlichen Verpflichtung, der wir gemÃ¤ss allenfalls anwendbarem Recht der EU oder gemÃ¤ss allenfalls anwendbarem Recht eines Landes, in dem die DSGVO ganz oder teilweise anwendbar ist, unterliegen.\nlit. d) Bearbeitung von Personendaten um lebenswichtige Interessen der betroffenen Person oder einer anderen natÃ¼rlichen Person zu schÃ¼tzen.\nlit. f) Bearbeitung von Personendaten um die berechtigten Interessen von uns oder von Dritten zu wahren, sofern nicht die Grundfreiheiten und Grundrechte sowie Interessen der betroffenen Person Ã¼berwiegen. Berechtigte Interessen sind insbesondere unser betriebswirtschaftliches Interesse, unsere Webseite bereitstellen zu kÃ¶nnen, die Informationssicherheit, die Durchsetzung von eigenen rechtlichen AnsprÃ¼chen und die Einhaltung von schweizerischem Recht.\nWir bearbeiten Personendaten fÃ¼r jene Dauer, die fÃ¼r den jeweiligen Zweck oder die jeweiligen Zwecke erforderlich ist. Bei lÃ¤nger dauernden Aufbewahrungspflichten aufgrund von gesetzlichen und sonstigen Pflichten, denen wir unterliegen, schrÃ¤nken wir die Bearbeitung entsprechend ein.\n2             ERHEBUNG, NUTZUNG UND VERARBEITUNG PERSONENBEZOGENER DATEN\n2.1          Beim Besuch unserer Webseite\nIndem Sie diese Webseite besuchen, werden auf unseren Servern oder auf Servern von Dienstleistungen und Produkten, die wir beziehen und/oder installiert haben, bestimmte Daten automatisch zu Zwecken der Systemadministration, fÃ¼r statistische oder fÃ¼r Sicherungszwecke oder fÃ¼r Trackingzwecke gespeichert. Dabei kann es sich um folgende Daten handeln:\nden Namen Ihres Internetserviceproviders\nihre IP-Adresse (unter UmstÃ¤nden)\ndie Version Ihrer Browser-Software\ndas Betriebssystem des Rechners mit dem auf diese Webseite zugegriffen wurde\ndas Datum\ndie Uhrzeit\ndie Webseite, von der aus Sie diese Webseite besuchen\ndie SuchwÃ¶rter, die Sie benutzt haben, um unsere Webseite zu finden\nDiese Daten kÃ¶nnen unter UmstÃ¤nden RÃ¼ckschlÃ¼sse Ã¼ber einen bestimmten Besucher zulassen. Personenbezogene Daten werden in diesem Zusammenhang jedoch nicht verwertet.\n2.2         Weitergabe an Dritten\nWir geben Ihre Daten nur dann weiter, wenn wir dazu gesetzlich, durch behÃ¶rdliche oder gerichtliche Anordnungen verpflichtet sind. Eine Weitergabe Ihrer persÃ¶nlichen Daten an Dritte zu anderen als den aufgefÃ¼hrten Zwecken findet nicht statt.\n2.3         Cookies\nAuf unserer Webseite verwenden wir in der Regel Cookies. Dabei handelt es sich um kleine Textdateien, die von Ihrem Webbrowser gespeichert werden und die bestimmte Einstellungen und Daten zum Austausch mit unserem Webserver speichern. Diese Technologie erlaubt es, einzelne Nutzer als (wiederkehrende) Besucher zu erkennen . Allgemein dient der Einsatz von Cookies dazu, unsere Dienste zu verbessern, effektiver und sicherer zu machen. Ein Cookie bedeutet nicht in jedem Fall, dass wir Sie identifizieren kÃ¶nnen.\nSie kÃ¶nnen Ihre Browsereinstellung so konfigurieren, dass keine Cookies auf Ihrem Computer gespeichert werden. Die vollstÃ¤ndige Deaktivierung von Cookies kann dazu fÃ¼hren, dass Sie nicht alle Funktionen unserer Webseite nutzen kÃ¶nnen.\nMit der fortgesetzten Nutzung unserer Website und/oder der Zustimmung zu dieser DatenschutzerklÃ¤rung willigen Sie ein, dass Cookies von uns gesetzt und damit personenbezogene Nutzungsdaten erhoben, gespeichert und genutzt werden, auch Ã¼ber das Ende der Browser-Sitzung hinaus. Diese Einwilligung kÃ¶nnen Sie jederzeit widerrufen, indem Sie die Browservoreinstellung zur Verweigerung von Cookies von Drittanbietern aktivieren.\n3             IHRE RECHTE\nSie kÃ¶nnen jederzeit Auskunft Ã¼ber Ihre von uns gespeicherten Daten verlangen. Wir bitten Sie hierzu per E-Mail ein Auskunftsbegehren an untenstehende Adresse zu senden. Zusammen mit dem Begehren bedarf es eines IdentitÃ¤tsnachweises an die selbige Adresse.\nSie haben die MÃ¶glichkeit, die LÃ¶schung oder Berichtigung Ihrer Daten jederzeit zu verlangen. Sie sind selbstverstÃ¤ndlich auch jederzeit berechtigt, eine von Ihnen erklÃ¤rte Einwilligung in die Verwendung oder Verarbeitung personenbezogener Daten mit Wirkung fÃ¼r die Zukunft zu widerrufen.\nGespeicherte Daten werden von uns gelÃ¶scht, wenn sie zum angegebenen Zweck nicht mehr benÃ¶tigt werden. Betreffend die LÃ¶schung von Daten gilt es zu beachten, dass wir gewissen gesetzlichen Pflichten unterstehen, welche fÃ¼r gewisse Daten eine Aufbewahrungspflicht vorhersehen. Dieser Pflicht haben wir nachzukommen. WÃ¼nschen Sie die LÃ¶schung von Daten, welche der gesetzlichen Aufbewahrungspflicht unterstehen, werden die Daten bei uns im System gesperrt und lediglich zur ErfÃ¼llung der gesetzlichen Aufbewahrungspflichten genutzt. Nach Ablauf der Aufbewahrungsfrist wird ihrem LÃ¶schungsbegehren nachgekommen.\nSofern Ihre personenbezogenen Daten auf Grundlage von berechtigten Interessen verarbeitet werden, haben Sie das Recht, Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten einzulegen, soweit dafÃ¼r GrÃ¼nde vorliegen, die sich aus Ihrer besonderen Situation ergeben oder sich der Widerspruch gegen Direktwerbung richtet. Im letzteren Fall haben Sie ein generelles Widerspruchsrecht, das ohne Angabe einer besonderen Situation von uns umgesetzt wird.\nWeiter haben Sie auch die MÃ¶glichkeit, Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, zu erhalten oder die Ãbermittlung an einen anderen Verantwortlichen zu verlangen.\nWir bitten Sie, uns hierzu per E-Mail an info@wuerth-treuhand.ch zu schreiben. Bei einem unverhÃ¤ltnismÃ¤ssig grossen Aufwand behalten wir uns vor, von Ihnen einen Legitimationsausweis sowie die Ãbernahme der effektiven Kosten vorab zu verlangen.\n4             KONTAKTDATEN\nHier sind unsere Kontaktdaten:\nWÃ¼rth Treuhand AG, Norastrasse 7, 8004 ZÃ¼rich\ninfo@wuerth-treuhand.ch\nwww.wuerth-treuhand.ch\n5             ÃNDERUNG DIESER DATENSCHUTZERKLÃRUNG\nWir kÃ¶nnen diese DatenschutzerklÃ¤rung jederzeit Ã¤ndern oder anpassen. Die aktuelle DatenschutzerklÃ¤rung kann auf www.wuerth-treuhand.ch/impressum abgerufen werden.\nZÃ¼rich, 21. April 2023\nAdresse\nWÃ¼rth Treuhand AG\nNorastrasse 7\n8004 ZÃ¼rich\nKontakt\nï\n044 404 70 00\nï\ninfo@wuerth-treuhand.ch\nImpressum",
+      "text_len": 9958,
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.wuerth-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.wuerth-treuhand.ch/ueber-uns-zuerich",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Unternehmen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-unternehmen",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung fÃ¼r Privatpersonen",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/steuerberatung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/wirtschaftspruefung",
+          "internal": true
+        },
+        {
+          "text": "Vorsorgeberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/vorsorgeberatung",
+          "internal": true
+        },
+        {
+          "text": "Treuhand",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/treuhand",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.wuerth-treuhand.ch/dienstleistungen/unternehmensberatung",
+          "internal": true
+        },
+        {
+          "text": "Aktuell",
+          "href": "https://www.wuerth-treuhand.ch/aktuell",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.wuerth-treuhand.ch/kontakt",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "044 404 70 00",
+          "href": "tel:0444047000",
+          "internal": false
+        },
+        {
+          "text": "info@wuerth-treuhand.ch",
+          "href": "mailto:info@wuerth-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/impressum#",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.wuerth-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.wuerth-treuhand.ch/impressum#",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "uploads/ACDsMmUs/608x0_478x0/WrthTreuhandLogo_gross_cropped.jpg",
+          "alt": "WÃ¼rth Treuhand AG in ZÃ¼rich - Revisions- und Steuerrechtspraxis"
+        },
+        {
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII="
+        },
+        {
+          "src": "uploads/Vd0MzGqf/737x0_370x0/MitgliedExpertSuisse.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "http://schema.org",
+          "@type": "AccountingService",
+          "@id": "https://www.wuerth-treuhand.ch/#global_business",
+          "name": "Würth Treuhand AG",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Norastrasse 7",
+            "addressLocality": "Zürich",
+            "addressRegion": "Zürich",
+            "postalCode": "8004",
+            "addressCountry": "CH"
+          },
+          "email": "info@wuerth-treuhand.ch",
+          "telephone": "044 404 70 00",
+          "description": "Revisions- und Steuerrechtspraxis",
+          "url": "https://www.wuerth-treuhand.ch",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Monday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Tuesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Wednesday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Thursday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Friday",
+              "opens": "08:00",
+              "closes": "17:30"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Saturday"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "http://schema.org/Sunday"
+            }
+          ],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "url": "",
+              "price": "",
+              "description": "",
+              "name": ""
+            }
+          ],
+          "logo": "https://www.wuerth-treuhand.ch/uploads/ACDsMmUs/WrthTreuhandLogo_gross_cropped.jpg"
+        }
+      ],
+      "tables": [
+        [
+          [
+            "ï",
+            "044 404 70 00"
+          ],
+          [
+            "ï",
+            "info@wuerth-treuhand.ch"
+          ]
+        ]
+      ],
+      "forms": [],
+      "emails": [
+        "info@wuerth-treuhand.ch"
+      ],
+      "phones": [
+        "044 404 70 00"
+      ],
+      "raw_html": "raw_html/013__impressum.html"
+    }
+  ]
+}

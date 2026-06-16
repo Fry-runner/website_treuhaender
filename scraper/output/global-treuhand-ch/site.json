@@ -1,0 +1,1450 @@
+{
+  "name": "Global-Treuhand GmbH",
+  "domain": "global-treuhand.ch",
+  "start_url": "https://www.global-treuhand.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781615374.8065054,
+    "duration_sec": 24.0,
+    "pages_crawled": 8,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": "User-agent: *\nDisallow: /datenschutz\nDisallow: /impressum\nSitemap: https://www.global-treuhand.ch/sitemap.xml"
+  },
+  "contact": {
+    "emails": [
+      "info@global-treuhand.ch",
+      "info@globaltreuhand.ch"
+    ],
+    "phones": [
+      "+41 44 523 69 99",
+      "044 523 69 99",
+      "044 880 1000",
+      "076 302 72 08"
+    ]
+  },
+  "assets": {
+    "downloaded": 13,
+    "failed": 1,
+    "total_bytes": 1584277,
+    "manifest": [
+      {
+        "url": "https://www.global-treuhand.ch/favicon.ico",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/favicon.png",
+        "ok": true,
+        "file": "assets/5d5899b410__favicon.png",
+        "content_type": "image/png",
+        "bytes": 57357
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/filemanager/data/Checkliste.pdf",
+        "ok": true,
+        "file": "assets/cbb25d927f__Checkliste.pdf",
+        "content_type": "application/pdf",
+        "bytes": 429043
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/1025050.jpg",
+        "ok": true,
+        "file": "assets/e3e40108a9__1025050.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 231213
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/1201156.jpg",
+        "ok": true,
+        "file": "assets/3708f2842a__1201156.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 208908
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/214352.jpg",
+        "ok": true,
+        "file": "assets/6b8689a28a__214352.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 160155
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/325447.jpg",
+        "ok": true,
+        "file": "assets/90eab12dea__325447.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 64175
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/325457.jpg",
+        "ok": true,
+        "file": "assets/e453619349__325457.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 166182
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/594213.jpg",
+        "ok": true,
+        "file": "assets/6a91735e6e__594213.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 2120
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/595597.jpg",
+        "ok": true,
+        "file": "assets/9472b20081__595597.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 8235
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/595598.jpg",
+        "ok": true,
+        "file": "assets/bcd144e822__595598.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 10702
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/706096.jpg",
+        "ok": true,
+        "file": "assets/38e672c6bf__706096.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 63521
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/956862.png",
+        "ok": true,
+        "file": "assets/47da750549__956862.png",
+        "content_type": "image/png",
+        "bytes": 134773
+      },
+      {
+        "url": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/956863.png",
+        "ok": true,
+        "file": "assets/2bce52f204__956863.png",
+        "content_type": "image/png",
+        "bytes": 47893
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://www.global-treuhand.ch/",
+      "title": "Buchführung - Ihr Partner in Wallisellen - Global-Treuhand GmbH",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 2517
+    },
+    {
+      "url": "https://www.global-treuhand.ch/Kontakt",
+      "title": "Kontakt, Terminvereinbarung - Global-Treuhand GmbH",
+      "raw_html": "raw_html/002__Kontakt.html",
+      "text_len": 940
+    },
+    {
+      "url": "https://www.global-treuhand.ch/Preise",
+      "title": "Preise - Global-Treuhand GmbH",
+      "raw_html": "raw_html/003__Preise.html",
+      "text_len": 640
+    },
+    {
+      "url": "https://www.global-treuhand.ch/datenschutz",
+      "title": "Datenschutz - Global-Treuhand GmbH",
+      "raw_html": "raw_html/004__datenschutz.html",
+      "text_len": 30016
+    },
+    {
+      "url": "https://www.global-treuhand.ch/impressum",
+      "title": "Impressum - Global-Treuhand GmbH",
+      "raw_html": "raw_html/005__impressum.html",
+      "text_len": 954
+    },
+    {
+      "url": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+      "title": "Preise - Pauschalpreise vom Profi - Global-Treuhand GmbH",
+      "raw_html": "raw_html/006__preise-alles-aus-einer-hand-zum-pauschalpreis.html",
+      "text_len": 1732
+    },
+    {
+      "url": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+      "title": "Steuererklärung für Privatpersonen - Global-Treuhand GmbH",
+      "raw_html": "raw_html/007__steuererklaerung-fuer-privatpersonen.html",
+      "text_len": 1461
+    },
+    {
+      "url": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+      "title": "Treuhand-Dienstleistungen für Firmen - Global-Treuhand GmbH",
+      "raw_html": "raw_html/008__treuhand-fuer-firmenkunden.html",
+      "text_len": 2166
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.global-treuhand.ch/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Buchführung - Ihr Partner in Wallisellen - Global-Treuhand GmbH",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Wir fokussieren uns auf die Buchführung für kleine bis mittlere Unternehmen in Kloten & Umgebung. Wenn Sie zufrieden sind, sind wir es auch.",
+        "keywords": "Buchführung",
+        "robots": "all"
+      },
+      "canonical": "https://www.global-treuhand.ch",
+      "headings": {
+        "h1": [
+          ""
+        ],
+        "h2": [
+          "Herzlich willkommen"
+        ],
+        "h3": [
+          "",
+          "KERNTEAM",
+          "Das sagen unsere Kunden"
+        ]
+      },
+      "text": "Buchführung - Ihr Partner in Wallisellen - Global-Treuhand GmbH\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nHerzlich willkommen\nFehlt Ihnen die Zeit oder das Fachwissen für die Buchführung? Kein Problem, übergeben Sie uns die zeitraubenden, administrativen Arbeiten in der Buchführung, Rechnungswesen und Personaladministration. Konzentrieren Sie sich auf Ihr Kerngeschäft.\nGlobal Treuhand fokussiert sich auf kleine bis mittlere Unternehmen und\nverfolgt dabei ein Ziel, eine partnerschaftliche Zusammenarbeit, die zu Ihrem Erfolg führt. Erst wenn Sie als Kunde zufrieden sind, sind wir es auch.\nErfahren Sie mehr über unsere Dienstleistungen oder bestellen Sie noch heute\nIhre unverbindliche Offerte\n. Wir freuen uns auf die Zusammenarbeit mit Ihnen.\nKERNTEAM\nZojë Osmani - Geschäftsführerin\nEidg. dipl. Fachfrau Rechnungswesen\nZahlen begeisterten mich schon immer, Mathematik war mein Lieblingsfach. Diese Leidenschaft kann ich nun täglich in meinem Beruf anwenden. Dabei die Kunden fachmännisch zu beraten und zur Steueroptimierung zu helfen, bereitet mir Freude.\nNach meiner kaufmännischen Lehre mit Berufsmatura habe ich mich in der Buchhaltung spezialisiert und ich habe mir den Eidgenössischen Fachausweis in Rechnungswesen erworben.\nIch habe über 10 Jahre Berufserfahrung in der Buchführung von Klein- und börsenkotierte Grossunternehmen.\nAls Mitglied beim Swiss Accounting Professionals halte ich mich stets auf dem laufenden betreffend Gesetzesänderungen.\n«Service heisst, das ganze Geschäft mit den Augen\ndes Kunden zu sehen.»\n\nJetzt unverbindliche Offerte erstellen\nDas sagen unsere Kunden\n«Wir werden kompetent beraten und sind sehr zufrieden.»\nCarlos Pinto, Geschäftsführer\nMaster Investment\n«Stets freundlich und fachmännische Beratung. Alles wird zeitgerecht deklariert.»\nL. Bajrami, Geschäftsführerin\nBela Clean\n«Seit Jahren lasse ich die Steuererklärung von Global Treuhand ausfüllen. Fairer Preis und super Service.»\nA. Zürcher, Privatkunde\n\nJetzt unverbindliche Offerte erstellen\nGlobal Treuhand GmbH\nGrindelstrasse 6\n8304 Wallisellen\nMail: info@global-treuhand.ch\nTelefon: 044 523 69 99\nHandy: 076 302 72 08\nImpressum\n|\nDatenschutz\nDiese Webseite verwendet Cookies. Hier kannst du auswählen, welche Cookies du zulassen willst und deine Auswahl jederzeit ändern. Klickst du auf 'Zustimmen', stimmst du der Verwendung von Cookies zu.\nDatenschutz-Richtlinien\nCookies akzeptieren\nCookie Einstellungen",
+      "text_len": 2517,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Ihre unverbindliche Offerte",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": " Jetzt unverbindliche Offerte erstellen",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/956863.png",
+          "internal": true
+        },
+        {
+          "text": "Master Investment",
+          "href": "https://master-investment.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/956862.png",
+          "internal": true
+        },
+        {
+          "text": "Bela Clean",
+          "href": "http://bela-clean.ch/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.global-treuhand.ch/files/userdata/thumbs/compressed/594213.jpg",
+          "internal": true
+        },
+        {
+          "text": " Jetzt unverbindliche Offerte erstellen",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://swissaccounting.org/",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.global-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.global-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz-Richtlinien",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/files/userdata/thumbs/compressed/1201156.jpg"
+        },
+        {
+          "src": "/files/userdata/thumbs/compressed/706096.jpg"
+        },
+        {
+          "src": "/files/userdata/thumbs/compressed/956863.png",
+          "alt": "Master Investment"
+        },
+        {
+          "src": "/files/userdata/thumbs/compressed/956862.png",
+          "alt": "BELA CLEAN"
+        },
+        {
+          "src": "/files/userdata/thumbs/compressed/594213.jpg",
+          "alt": "Kunden-Feedback Global Treuhand"
+        },
+        {
+          "src": "/files/userdata/thumbs/compressed/1025050.jpg"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@global-treuhand.ch"
+      ],
+      "phones": [
+        "044 523 69 99",
+        "076 302 72 08"
+      ],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://www.global-treuhand.ch/Kontakt",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Kontakt, Terminvereinbarung - Global-Treuhand GmbH",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Wir freuen uns auf Ihren Anruf. Global Treuhand GmbH, Steinackerstrasse 19, 8302 Kloten",
+        "keywords": "Kontakt",
+        "robots": "all"
+      },
+      "canonical": "https://www.global-treuhand.ch/Kontakt",
+      "headings": {
+        "h1": [
+          "Kontakt"
+        ],
+        "h2": [
+          "Nehmen Sie mit uns Kontakt auf"
+        ],
+        "h3": [
+          "Wir freuen uns.",
+          "Unser Standort"
+        ]
+      },
+      "text": "Kontakt, Terminvereinbarung - Global-Treuhand GmbH\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nKontakt\nWir freuen uns.\nNehmen Sie mit uns Kontakt auf\nName\n*\nVorname\nTelefon\nPLZ\n*\nOrt\n*\nE-Mail Adresse\n*\nNachricht\n*\nAbsenden\nAnschrift\n(Termine nur nach Vereinbarung)\nGlobal Treuhand GmbH\nGrindelstrasse 6\n8304 Wallisellen\nMail\n:\ninfo@global-treuhand.ch\nTelefon\n:\n044 523 69 99\nHandy\n:\n076 302 72 08\nUnser Standort\nRoutenplaner\nGlobal Treuhand GmbH\nGrindelstrasse 6\n8304 Wallisellen\nMail: info@global-treuhand.ch\nTelefon: 044 523 69 99\nHandy: 076 302 72 08\nImpressum\n|\nDatenschutz\nDiese Webseite verwendet Cookies. Hier kannst du auswählen, welche Cookies du zulassen willst und deine Auswahl jederzeit ändern. Klickst du auf 'Zustimmen', stimmst du der Verwendung von Cookies zu.\nDatenschutz-Richtlinien\nCookies akzeptieren\nCookie Einstellungen",
+      "text_len": 940,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "info@global-treuhand.ch",
+          "href": "mailto:info@globaltreuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "044 523 69 99",
+          "href": "tel:0041445236999",
+          "internal": false
+        },
+        {
+          "text": "076 302 72 08",
+          "href": "tel:0041763027208",
+          "internal": false
+        },
+        {
+          "text": "Routenplaner",
+          "href": "https://www.google.com/maps/place/Global+Treuhand+GmbH/@47.44971,8.596849,15z/data=!4m6!3m5!1s0x479a9ffecf3c989b:0xc710be7eb1a64873!8m2!3d47.44971!4d8.596849!16s%2Fg%2F11sn2hr8ch?entry=ttu",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://swissaccounting.org/",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.global-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.global-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz-Richtlinien",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/files/userdata/thumbs/compressed/1025050.jpg"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": null,
+          "method": "POST",
+          "fields": [
+            {
+              "tag": "input",
+              "type": null,
+              "name": "my_name",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "2919014",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "2919015",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073399",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "2919016",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "2919017",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "2919018",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "2919013",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@global-treuhand.ch",
+        "info@globaltreuhand.ch"
+      ],
+      "phones": [
+        "044 523 69 99",
+        "076 302 72 08"
+      ],
+      "raw_html": "raw_html/002__Kontakt.html"
+    },
+    {
+      "url": "https://www.global-treuhand.ch/Preise",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Preise - Global-Treuhand GmbH",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Wir verrechnen keine Stundenansätze, sondern Pauschalpreise.\nKontaktieren Sie uns für eine konkrete Offerte. \nSteuererklärung ab CHF 120.00",
+        "keywords": "Preise",
+        "robots": "all"
+      },
+      "canonical": "https://www.global-treuhand.ch/Preise",
+      "headings": {
+        "h1": [
+          ""
+        ],
+        "h2": [
+          "Preise"
+        ],
+        "h3": [
+          "",
+          "Steuererklärung",
+          "Buchhaltung",
+          ""
+        ]
+      },
+      "text": "Preise - Global-Treuhand GmbH\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nPreise\nSteuererklärung\nEinzelverdiener ab CHF 121.00\nDoppelverdiener ab CHF 150.00\nBuchhaltung\nWir verrechnen keine Stundenansätze, sondern Pauschalpreise.\nKontaktieren Sie uns für eine konkrete Offerte.\nDiese Webseite verwendet Cookies. Hier kannst du auswählen, welche Cookies du zulassen willst und deine Auswahl jederzeit ändern. Klickst du auf 'Zustimmen', stimmst du der Verwendung von Cookies zu.\nDatenschutz-Richtlinien\nCookies akzeptieren\nCookie Einstellungen",
+      "text_len": 640,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz-Richtlinien",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/003__Preise.html"
+    },
+    {
+      "url": "https://www.global-treuhand.ch/datenschutz",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Datenschutz - Global-Treuhand GmbH",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "robots": "noindex, nofollow"
+      },
+      "canonical": "https://www.global-treuhand.ch/datenschutz",
+      "headings": {
+        "h1": [
+          ""
+        ],
+        "h3": [
+          ""
+        ]
+      },
+      "text": "Datenschutz - Global-Treuhand GmbH\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\n\nzurück zur Startseite\nDatenschutz­erklärung\nDie Global Treuhand GmbH misst dem Schutz der Privatsphäre hohe Bedeutung bei und beachtet die gesetzlichen Datenschutzbestimmungen. Im Folgenden möchten wir Ihnen erklären, wie wir mit Ihren persönlichen Daten umgehen.\n1. Datenschutz auf einen Blick\nAllgemeine Hinweise\nDie folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.\nDatenerfassung auf dieser Website\nWer ist verantwortlich für die Datenerfassung auf dieser Website?\nDie Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen.\nWie erfassen wir Ihre Daten?\nIhre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben.\nAndere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.\nWofür nutzen wir Ihre Daten?\nEin Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.\nWelche Rechte haben Sie bezüglich Ihrer Daten?\nSie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.\nHierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.\nAnalyse-Tools und Tools von Dritt­anbietern\nBeim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit sogenannten Analyseprogrammen.\nDetaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden Datenschutzerklärung.\n2. Hosting\nDiese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters / der Hoster gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln.\nDas externe Hosting erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.\nUnser Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.\nWir setzen folgende(n) Hoster ein:\nhosttech GmbH\nSeestrasse 15a\n8805 Richterswil\nSchweiz\nTel. 044 880 1000\n3. Allgemeine Hinweise und Pflicht­informationen\nDatenschutz\nDie Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.\nWenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.\nWir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.\nHinweis zur verantwortlichen Stelle\nDie verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:\nGlobal Treuhand GmbH\nGrindelstrasse 6\n8304 Wallisellen\nTel. +41 44 523 69 99\ninfo@global-treuhand.ch\nVerantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.\nSpeicherdauer\nSoweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z. B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe.\nAllgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website\nSofern Sie in die Datenverarbeitung eingewilligt haben, verarbeiten wir Ihre personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO bzw. Art. 9 Abs. 2 lit. a DSGVO, sofern besondere Datenkategorien nach Art. 9 Abs. 1 DSGVO verarbeitet werden. Im Falle einer ausdrücklichen Einwilligung in die Übertragung personenbezogener Daten in Drittstaaten erfolgt die Datenverarbeitung außerdem auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO. Sofern Sie in die Speicherung von Cookies oder in den Zugriff auf Informationen in Ihr Endgerät (z. B. via Device-Fingerprinting) eingewilligt haben, erfolgt die Datenverarbeitung zusätzlich auf Grundlage von § 25 Abs. 1 TTDSG. Die Einwilligung ist jederzeit widerrufbar. Sind Ihre Daten zur Vertragserfüllung oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, verarbeiten wir Ihre Daten auf Grundlage des Art. 6 Abs. 1 lit. b DSGVO. Des Weiteren verarbeiten wir Ihre Daten, sofern diese zur Erfüllung einer rechtlichen Verpflichtung erforderlich sind auf Grundlage von Art. 6 Abs. 1 lit. c DSGVO. Die Datenverarbeitung kann ferner auf Grundlage unseres berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO erfolgen. Über die jeweils im Einzelfall einschlägigen Rechtsgrundlagen wird in den folgenden Absätzen dieser Datenschutzerklärung informiert.\nHinweis zur Datenweitergabe in datenschutzrechtlich nicht sichere Drittstaaten sowie die Weitergabe an US-Unternehmen, die nicht DPF-zertifiziert sind\nWir verwenden unter anderem Tools von Unternehmen mit Sitz in datenschutzrechtlich nicht sicheren Drittstaaten sowie US-Tools, deren Anbieter nicht nach dem EU-US-Data Privacy Framework (DPF) zertifiziert sind. Wenn diese Tools aktiv sind, können Ihre personenbezogene Daten in diese Staaten übertragen und dort verarbeitet werden. Wir weisen darauf hin, dass in datenschutzrechtlich unsicheren Drittstaaten kein mit der EU vergleichbares Datenschutzniveau garantiert werden kann.\nWir weisen darauf hin, dass die USA als sicherer Drittstaat grundsätzlich ein mit der EU vergleichbares Datenschutzniveau aufweisen. Eine Datenübertragung in die USA ist danach zulässig, wenn der Empfänger eine Zertifizierung unter dem „EU-US Data Privacy Framework“ (DPF) besitzt oder über geeignete zusätzliche Garantien verfügt. Informationen zu Übermittlungen an Drittstaaten einschließlich der Datenempfänger finden Sie in dieser Datenschutzerklärung.\nEmpfänger von personenbezogenen Daten\nIm Rahmen unserer Geschäftstätigkeit arbeiten wir mit verschiedenen externen Stellen zusammen. Dabei ist teilweise auch eine Übermittlung von personenbezogenen Daten an diese externen Stellen erforderlich. Wir geben personenbezogene Daten nur dann an externe Stellen weiter, wenn dies im Rahmen einer Vertragserfüllung erforderlich ist, wenn wir gesetzlich hierzu verpflichtet sind (z. B. Weitergabe von Daten an Steuerbehörden), wenn wir ein berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO an der Weitergabe haben oder wenn eine sonstige Rechtsgrundlage die Datenweitergabe erlaubt. Beim Einsatz von Auftragsverarbeitern geben wir personenbezogene Daten unserer Kunden nur auf Grundlage eines gültigen Vertrags über Auftragsverarbeitung weiter. Im Falle einer gemeinsamen Verarbeitung wird ein Vertrag über gemeinsame Verarbeitung geschlossen.\nWiderruf Ihrer Einwilligung zur Datenverarbeitung\nViele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.\nWiderspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)\nWENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN GESTÜTZTES PROFILING. DIE JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN EINE VERARBEITUNG BERUHT, ENTNEHMEN SIE DIESER DATENSCHUTZERKLÄRUNG. WENN SIE WIDERSPRUCH EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT MEHR VERARBEITEN, ES SEI DENN, WIR KÖNNEN ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN ÜBERWIEGEN ODER DIE VERARBEITUNG DIENT DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).\nWERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO).\nBeschwerde­recht bei der zuständigen Aufsichts­behörde\nIm Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.\nRecht auf Daten­übertrag­barkeit\nSie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.\nAuskunft, Berichtigung und Löschung\nSie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an uns wenden.\nRecht auf Einschränkung der Verarbeitung\nSie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:\nWenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.\nWenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen.\nWenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.\nWenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.\nWenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.\nSSL- bzw. TLS-Verschlüsselung\nDiese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.\nWenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.\nWiderspruch gegen Werbe-E-Mails\nDer Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.\n4. Datenerfassung auf dieser Website\nCookies\nUnsere Internetseiten verwenden so genannte „Cookies“. Cookies sind kleine Datenpakete und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend für die Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente Cookies) auf Ihrem Endgerät gespeichert. Session-Cookies werden nach Ende Ihres Besuchs automatisch gelöscht. Permanente Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese selbst löschen oder eine automatische Löschung durch Ihren Webbrowser erfolgt.\nCookies können von uns (First-Party-Cookies) oder von Drittunternehmen stammen (sog. Third-Party-Cookies). Third-Party-Cookies ermöglichen die Einbindung bestimmter Dienstleistungen von Drittunternehmen innerhalb von Webseiten (z. B. Cookies zur Abwicklung von Zahlungsdienstleistungen).\nCookies haben verschiedene Funktionen. Zahlreiche Cookies sind technisch notwendig, da bestimmte Webseitenfunktionen ohne diese nicht funktionieren würden (z. B. die Warenkorbfunktion oder die Anzeige von Videos). Andere Cookies können zur Auswertung des Nutzerverhaltens oder zu Werbezwecken verwendet werden.\nCookies, die zur Durchführung des elektronischen Kommunikationsvorgangs, zur Bereitstellung bestimmter, von Ihnen erwünschter Funktionen (z. B. für die Warenkorbfunktion) oder zur Optimierung der Website (z. B. Cookies zur Messung des Webpublikums) erforderlich sind (notwendige Cookies), werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert, sofern keine andere Rechtsgrundlage angegeben wird. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von notwendigen Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste. Sofern eine Einwilligung zur Speicherung von Cookies und vergleichbaren Wiedererkennungstechnologien abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage dieser Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG); die Einwilligung ist jederzeit widerrufbar.\nSie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.\nWelche Cookies und Dienste auf dieser Website eingesetzt werden, können Sie dieser Datenschutzerklärung entnehmen.\nEinwilligung mit Borlabs Cookie\nUnsere Website nutzt die Consent-Technologie von Borlabs Cookie, um Ihre Einwilligung zur Speicherung bestimmter Cookies in Ihrem Browser oder zum Einsatz bestimmter Technologien einzuholen und diese datenschutzkonform zu dokumentieren. Anbieter dieser Technologie ist die Borlabs GmbH, Rübenkamp 32, 22305 Hamburg (im Folgenden Borlabs).\nWenn Sie unsere Website betreten, wird ein Borlabs-Cookie in Ihrem Browser gespeichert, in dem die von Ihnen erteilten Einwilligungen oder der Widerruf dieser Einwilligungen gespeichert werden. Diese Daten werden nicht an den Anbieter von Borlabs Cookie weitergegeben.\nDie erfassten Daten werden gespeichert, bis Sie uns zur Löschung auffordern bzw. das Borlabs-Cookie selbst löschen oder der Zweck für die Datenspeicherung entfällt. Zwingende gesetzliche Aufbewahrungsfristen bleiben unberührt. Details zur Datenverarbeitung von Borlabs Cookie finden Sie unter https://de.borlabs.io/kb/welche-daten-speichert-borlabs-cookie/.\nDer Einsatz der Borlabs-Cookie-Consent-Technologie erfolgt, um die gesetzlich vorgeschriebenen Einwilligungen für den Einsatz von Cookies einzuholen. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. c DSGVO.\nServer-Log-Dateien\nDer Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:\nBrowsertyp und Browserversion\nverwendetes Betriebssystem\nReferrer URL\nHostname des zugreifenden Rechners\nUhrzeit der Serveranfrage\nIP-Adresse\nEine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.\nDie Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und der Optimierung seiner Website – hierzu müssen die Server-Log-Files erfasst werden.\nKontaktformular\nWenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.\nDie Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde; die Einwilligung ist jederzeit widerrufbar.\nDie von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen – bleiben unberührt.\nAuftragsverarbeitung\nWir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.\n5. Analyse-Tools und Werbung\nGoogle Tag Manager\nWir setzen den Google Tag Manager ein. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.\nDer Google Tag Manager ist ein Tool, mit dessen Hilfe wir Tracking- oder Statistik-Tools und andere Technologien auf unserer Website einbinden können. Der Google Tag Manager selbst erstellt keine Nutzerprofile, speichert keine Cookies und nimmt keine eigenständigen Analysen vor. Er dient lediglich der Verwaltung und Ausspielung der über ihn eingebundenen Tools. Der Google Tag Manager erfasst jedoch Ihre IP-Adresse, die auch an das Mutterunternehmen von Google in die Vereinigten Staaten übertragen werden kann.\nDer Einsatz des Google Tag Managers erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an einer schnellen und unkomplizierten Einbindung und Verwaltung verschiedener Tools auf seiner Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.\nDas Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active\nGoogle Analytics\nDiese Website nutzt Funktionen des Webanalysedienstes Google Analytics. Anbieter ist die Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland.\nGoogle Analytics ermöglicht es dem Websitebetreiber, das Verhalten der Websitebesucher zu analysieren. Hierbei erhält der Websitebetreiber verschiedene Nutzungsdaten, wie z. B. Seitenaufrufe, Verweildauer, verwendete Betriebssysteme und Herkunft des Nutzers. Diese Daten werden in einer User-ID zusammengefasst und dem jeweiligen Endgerät des Websitebesuchers zugeordnet.\nDes Weiteren können wir mit Google Analytics u. a. Ihre Maus- und Scrollbewegungen und Klicks aufzeichnen. Ferner verwendet Google Analytics verschiedene Modellierungsansätze, um die erfassten Datensätze zu ergänzen und setzt Machine-Learning-Technologien bei der Datenanalyse ein.\nGoogle Analytics verwendet Technologien, die die Wiedererkennung des Nutzers zum Zwecke der Analyse des Nutzerverhaltens ermöglichen (z. B. Cookies oder Device-Fingerprinting). Die von Google erfassten Informationen über die Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.\nDie Nutzung dieses Dienstes erfolgt auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG. Die Einwilligung ist jederzeit widerrufbar.\nDie Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: https://privacy.google.com/businesses/controllerterms/mccs/.\nDas Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active\nBrowser Plugin\nSie können die Erfassung und Verarbeitung Ihrer Daten durch Google verhindern, indem Sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: https://tools.google.com/dlpage/gaoptout?hl=de.\nMehr Informationen zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in der Datenschutzerklärung von Google: https://support.google.com/analytics/answer/6004245?hl=de.\nAuftragsverarbeitung\nWir haben mit Google einen Vertrag zur Auftragsverarbeitung abgeschlossen und setzen die strengen Vorgaben der deutschen Datenschutzbehörden bei der Nutzung von Google Analytics vollständig um.\nGoogle Ads\nDer Websitebetreiber verwendet Google Ads. Google Ads ist ein Online-Werbeprogramm der Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland.\nGoogle Ads ermöglicht es uns Werbeanzeigen in der Google-Suchmaschine oder auf Drittwebseiten auszuspielen, wenn der Nutzer bestimmte Suchbegriffe bei Google eingibt (Keyword-Targeting). Ferner können zielgerichtete Werbeanzeigen anhand der bei Google vorhandenen Nutzerdaten (z. B. Standortdaten und Interessen) ausgespielt werden (Zielgruppen-Targeting). Wir als Websitebetreiber können diese Daten quantitativ auswerten, indem wir beispielsweise analysieren, welche Suchbegriffe zur Ausspielung unserer Werbeanzeigen geführt haben und wie viele Anzeigen zu entsprechenden Klicks geführt haben.\nDie Nutzung dieses Dienstes erfolgt auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG. Die Einwilligung ist jederzeit widerrufbar.\nDie Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: https://policies.google.com/privacy/frameworks und https://privacy.google.com/businesses/controllerterms/mccs/.\nDas Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link: https://www.dataprivacyframework.gov/s/participant-search/participant-detail?contact=true&id=a2zt000000001L5AAI&status=Active\n6. Newsletter\nNewsletter­daten\nWenn Sie den auf der Website angebotenen Newsletter beziehen möchten, benötigen wir von Ihnen eine E-Mail-Adresse sowie Informationen, welche uns die Überprüfung gestatten, dass Sie der Inhaber der angegebenen E-Mail-Adresse sind und mit dem Empfang des Newsletters einverstanden sind. Weitere Daten werden nicht bzw. nur auf freiwilliger Basis erhoben. Diese Daten verwenden wir ausschließlich für den Versand der angeforderten Informationen und geben diese nicht an Dritte weiter.\nDie Verarbeitung der in das Newsletteranmeldeformular eingegebenen Daten erfolgt ausschließlich auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Die erteilte Einwilligung zur Speicherung der Daten, der E-Mail-Adresse sowie deren Nutzung zum Versand des Newsletters können Sie jederzeit widerrufen, etwa über den „Austragen“-Link im Newsletter. Die Rechtmäßigkeit der bereits erfolgten Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.\nDie von Ihnen zum Zwecke des Newsletter-Bezugs bei uns hinterlegten Daten werden von uns bis zu Ihrer Austragung aus dem Newsletter bei uns bzw. dem Newsletterdiensteanbieter gespeichert und nach der Abbestellung des Newsletters oder nach Zweckfortfall aus der Newsletterverteilerliste gelöscht. Wir behalten uns vor, E-Mail-Adressen aus unserem Newsletterverteiler nach eigenem Ermessen im Rahmen unseres berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO zu löschen oder zu sperren.\nDaten, die zu anderen Zwecken bei uns gespeichert wurden, bleiben hiervon unberührt.\nNach Ihrer Austragung aus der Newsletterverteilerliste wird Ihre E-Mail-Adresse bei uns bzw. dem Newsletterdiensteanbieter ggf. in einer Blacklist gespeichert, sofern dies zur Verhinderung künftiger Mailings erforderlich ist. Die Daten aus der Blacklist werden nur für diesen Zweck verwendet und nicht mit anderen Daten zusammengeführt. Dies dient sowohl Ihrem Interesse als auch unserem Interesse an der Einhaltung der gesetzlichen Vorgaben beim Versand von Newslettern (berechtigtes Interesse im Sinne des Art. 6 Abs. 1 lit. f DSGVO). Die Speicherung in der Blacklist ist zeitlich nicht befristet. Sie können der Speicherung widersprechen, sofern Ihre Interessen unser berechtigtes Interesse überwiegen.\n\nzurück zur Startseite\nDiese Webseite verwendet Cookies. Hier kannst du auswählen, welche Cookies du zulassen willst und deine Auswahl jederzeit ändern. Klickst du auf 'Zustimmen', stimmst du der Verwendung von Cookies zu.\nDatenschutz-Richtlinien\nCookies akzeptieren\nCookie Einstellungen",
+      "text_len": 30016,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": " zurück zur Startseite",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": " zurück zur Startseite",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz-Richtlinien",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@global-treuhand.ch"
+      ],
+      "phones": [
+        "+41 44 523 69 99",
+        "044 880 1000"
+      ],
+      "raw_html": "raw_html/004__datenschutz.html"
+    },
+    {
+      "url": "https://www.global-treuhand.ch/impressum",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Impressum - Global-Treuhand GmbH",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "robots": "noindex, nofollow"
+      },
+      "canonical": "https://www.global-treuhand.ch/impressum",
+      "headings": {
+        "h1": [
+          ""
+        ],
+        "h3": [
+          ""
+        ]
+      },
+      "text": "Impressum - Global-Treuhand GmbH\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\n\nzurück zur Startseite\nImpressum\nVerantwortlich für den Inhalt\nGlobal Treuhand GmbH\nGrindelstrasse 6\n8304 Wallisellen\nUID: CHE-258.345.322\nVertreten durch:\nZojë Osmani\nTel. +41 44 523 69 99\nMail: info@global-treuhand.ch\nWeb: www.global-treuhand.ch\nHaftungshinweis:\nTrotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschliesslich deren Betreiber verantwortlich.\nWeiter zur\nDatenschutzerklärung\n\nzurück zur Startseite\nDiese Webseite verwendet Cookies. Hier kannst du auswählen, welche Cookies du zulassen willst und deine Auswahl jederzeit ändern. Klickst du auf 'Zustimmen', stimmst du der Verwendung von Cookies zu.\nDatenschutz-Richtlinien\nCookies akzeptieren\nCookie Einstellungen",
+      "text_len": 954,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": " zurück zur Startseite",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.global-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": " zurück zur Startseite",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz-Richtlinien",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@global-treuhand.ch"
+      ],
+      "phones": [
+        "+41 44 523 69 99"
+      ],
+      "raw_html": "raw_html/005__impressum.html"
+    },
+    {
+      "url": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Preise - Pauschalpreise vom Profi - Global-Treuhand GmbH",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Wir verrechnen keine Stundenansätze, sondern Pauschalpreise. Jetzt konkrete Offerte anfordern. Buchhaltung, MWST-Abrechnung, Lohnadministration vom Profi",
+        "keywords": "Preise",
+        "robots": "all"
+      },
+      "canonical": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+      "headings": {
+        "h1": [
+          ""
+        ],
+        "h2": [
+          "Preise"
+        ],
+        "h3": [
+          "",
+          "Buchhaltung - MWST-Abrechnung - Lohnadministration"
+        ]
+      },
+      "text": "Preise - Pauschalpreise vom Profi - Global-Treuhand GmbH\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nPreise\nAlles aus einer Hand zum Pauschalpreis\nBuchhaltung - MWST-Abrechnung - Lohnadministration\nWir übernehmen die Buchhaltung, Mehrwertsteuer-Abrechnung oder auch die Lohnadministration für Sie. Dabei verrechnen wir keine undurchsichtigen Stundenansätze, sondern schaffen echten Mehrwert durch völlige Transparenz und zum Pauschalpreis. Wünschen Sie ein\ne konkrete Offerte? Dann füllen Sie das Formular vollständig aus.\nFirma\n*\nAdresse\n*\nPLZ\n*\nOrt\n*\nVorname\n*\nName\n*\nE-Mail Adresse\n*\nTelefon\n*\nWie viele Belege (Einnahmen / Ausgaben/ Barbelege etc.) pro Monat dürfen verarbeitet werden?\n*\n10-20 Belege pro Monat\n21-50 Belege pro Monat\n51-100 Belege pro Monat\n101-200 Belege pro Monat\n201-300 Belege pro Monat\nMehr als 300 Belege pro Monat\nWünschen Sie, dass wir die Offerten / Rechnungen/ Mahnungen an Ihre Kunden in Ihrem Namen stellen?\n*\nJa\nNein\nWünschen Sie, dass wir die Bezahlung der Rechnungen (Miete, Telefon, Material etc.) in Ihrem Namen übernehmen?\n*\nJa\nNein\nSind Sie MWST-pflichtig?\n*\nNein\nJa (Abrechnung pro Quartal)\nJa (Abrechnung pro Semester)\nWie viele Mitarbeiter sind in Ihrem Unternehmen angestellt?\n*\nWünschen Sie die Lohnadministration?\n*\nNein\nJa\nMit welchem Buchhaltungssystem arbeiten Sie?\n*\nWeitere Bemerkungen\nAbsenden\nImpressum\n|\nDatenschutz\nDiese Webseite verwendet Cookies. Hier kannst du auswählen, welche Cookies du zulassen willst und deine Auswahl jederzeit ändern. Klickst du auf 'Zustimmen', stimmst du der Verwendung von Cookies zu.\nDatenschutz-Richtlinien\nCookies akzeptieren\nCookie Einstellungen",
+      "text_len": 1732,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.global-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.global-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz-Richtlinien",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": null,
+          "method": "POST",
+          "fields": [
+            {
+              "tag": "input",
+              "type": null,
+              "name": "my_name",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073298",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073299",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073300",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073301",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073302",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073303",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "3073304",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073305",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073306",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073306",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073306",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073306",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073306",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073306",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073307",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073307",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073308",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073308",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073309",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073309",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073309",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073310",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073311",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "3073311",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073317",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "3073313",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/006__preise-alles-aus-einer-hand-zum-pauschalpreis.html"
+    },
+    {
+      "url": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Steuererklärung für Privatpersonen - Global-Treuhand GmbH",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Global Treuhand unterstützt Privatpersonen bei der Steuererklärung und berät Sie kompetent bei der Steueroptimierung nach den aktuellen Standards.",
+        "keywords": "Steuererklärung",
+        "robots": "all"
+      },
+      "canonical": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+      "headings": {
+        "h1": [
+          ""
+        ],
+        "h2": [
+          "Unsere Dienstleistungen"
+        ],
+        "h3": [
+          "",
+          "Steuererklärung",
+          "Sonstige Dienstleistungen",
+          "Checkliste für Privatkunden",
+          "Kontakt aufnehmen"
+        ]
+      },
+      "text": "Steuererklärung für Privatpersonen - Global-Treuhand GmbH\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nUnsere Dienstleistungen\n\"Am schwersten auf der Welt zu verstehen ist die Einkommenssteuer.\"\nAlbert Einstein, Physiker\nSteuererklärung\nGlobal Treuhand berät Sie kompetent und fachmännisch zur Steueroptimierung. Wenden Sie Ihren Steuerstress ab und übergeben Sie uns Ihre Steuererklärung. Bei uns sind Sie in guten Händen aufgehoben.\nAls Ihr Steuerberater kontrollieren wir für Sie die Einschätzungsentscheide und erheben allenfalls Einsprache für Sie.\nSonstige Dienstleistungen\nWir beraten den Bedürfnissen entsprechend und erstellen für Sie die notwendigen Dokumente.\nBei weiteren Fragen nehmen Sie mit uns Kontakt auf. Wir helfen Ihnen gerne weiter.\nCheckliste für Privatkunden\nTitel\nDateiname\nTyp\nGrösse\nCheckliste.pdf\nCheckliste.pdf\napplication/pdf\n418.99KB\nKontakt aufnehmen\nVorname\n*\nName\n*\nE-Mail Adresse\n*\nTelefon\n*\nNachricht\n*\nAbsenden\nGlobal Treuhand GmbH\nGrindelstrasse 6\n8304 Wallisellen\nMail: info@global-treuhand.ch\nTelefon: 044 523 69 99\nHandy: 076 302 72 08\nImpressum\n|\nDatenschutz\nDiese Webseite verwendet Cookies. Hier kannst du auswählen, welche Cookies du zulassen willst und deine Auswahl jederzeit ändern. Klickst du auf 'Zustimmen', stimmst du der Verwendung von Cookies zu.\nDatenschutz-Richtlinien\nCookies akzeptieren\nCookie Einstellungen",
+      "text_len": 1461,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Checkliste.pdf",
+          "href": "https://www.global-treuhand.ch/files/userdata/filemanager/data/Checkliste.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://swissaccounting.org/",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.global-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.global-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz-Richtlinien",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/files/userdata/thumbs/compressed/595598.jpg"
+        },
+        {
+          "src": "/files/userdata/thumbs/compressed/325457.jpg"
+        },
+        {
+          "src": "/files/userdata/thumbs/compressed/1025050.jpg"
+        }
+      ],
+      "jsonld": [],
+      "tables": [
+        [
+          [
+            "Titel",
+            "",
+            "Dateiname",
+            "Typ",
+            "Grösse"
+          ],
+          [
+            "Checkliste.pdf",
+            "",
+            "Checkliste.pdf",
+            "application/pdf",
+            "418.99KB"
+          ]
+        ]
+      ],
+      "forms": [
+        {
+          "action": null,
+          "method": "POST",
+          "fields": [
+            {
+              "tag": "input",
+              "type": null,
+              "name": "my_name",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073392",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073393",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "3073394",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "3073395",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "3073396",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@global-treuhand.ch"
+      ],
+      "phones": [
+        "044 523 69 99",
+        "076 302 72 08"
+      ],
+      "raw_html": "raw_html/007__steuererklaerung-fuer-privatpersonen.html"
+    },
+    {
+      "url": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Treuhand-Dienstleistungen für Firmen - Global-Treuhand GmbH",
+      "lang": "de-CH",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Treuhand-Büro für Buchhaltung, MWST-Abrechnung, Löhne, Steuererklärung, Beratung, Firmengründung, Kreditoren, Debitoren und sonstige Dienstleistungen",
+        "keywords": "Treuhand",
+        "robots": "all"
+      },
+      "canonical": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+      "headings": {
+        "h1": [
+          ""
+        ],
+        "h2": [
+          "unsere DienstLeistungen Für Firmenkunden"
+        ],
+        "h3": [
+          "",
+          "Das können Sie von uns erwarten"
+        ],
+        "h4": [
+          "Buchhaltung",
+          "Steuer",
+          "Lohnadministration",
+          "Sonstige Dienstleistungen"
+        ]
+      },
+      "text": "Treuhand-Dienstleistungen für Firmen - Global-Treuhand GmbH\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nGlobal Treuhand\nHome\nFirmenkunden\nPrivatpersonen\nKontakt\nUnsere Preise\nunsere DienstLeistungen Für Firmenkunden\nBuchhaltung\nWir führen Ihre Buchhaltung und erstellen zeitgerecht Ihre\nMwst-Abrechnungen.\nFalls Sie wünschen, übernehmen wir die monatliche Zahlungsläufe für Ihre Kreditoren. Global Treuhand erstellt den Jahresabschluss.\nSteuer\nGlobal Treuhand achtet auf Steueroptimierung und füllt Ihre Steuererklärung professionell aus.\nAls Vertreter bei der Steuerbehörde kontrollieren wir die Einschätzungsentscheide und erheben Einsprache für Sie.\nLohnadministration\nWir erstellen für Sie die monatlichen Lohnabrechnungen.\nZudem erstellen wir die Quellensteuerabrechnung, koordinieren die Ein-Austrittsmeldungen bei den Sozialversicherungen, und die Jahresdeklarationen.\nBei einer AHV-Revision nehmen wir für Sie in die Hand.\nSonstige Dienstleistungen\nWir beraten den Bedürfnissen entsprechend und erstellen für Sie die notwendigen Dokumente.\nErfahren Sie mehr über unsere Dienstleistungen und bestellen Sie noch heute\nIhre unverbindliche Offerte\n. Wir freuen uns auf die Zusammenarbeit mit Ihnen.\nDas können Sie von uns erwarten\nBuchhaltung\n• Verbuchen der Belege\n• Kreditoren Zahllauf erstellen\n• Weiter Fakturierung (Debitoren)\n• MWST-Abrechnung\n•Monats-/Quartals-/Jahresabschluss\nLohnadministration\n• Monatliche Lohnabrechnungen\n• An-/Abmeldungen Sozialversicherungen\n• Quellensteuer-Abrechnung\n• Lohnausweise\n• Lohndeklarationen\nSteuererklärung\n• Steuerberatung\n• Steueroptimierung\n• Steuererklärung ausfüllen\n• Einschätzungsentscheide kontrollieren\n• Einsprache erheben\n\nJetzt unverbindliche Offerte erstellen\nGlobal Treuhand GmbH\nGrindelstrasse 6\n8304 Wallisellen\nMail: info@global-treuhand.ch\nTelefon: 044 523 69 99\nHandy: 076 302 72 08\nImpressum\n|\nDatenschutz\nDiese Webseite verwendet Cookies. Hier kannst du auswählen, welche Cookies du zulassen willst und deine Auswahl jederzeit ändern. Klickst du auf 'Zustimmen', stimmst du der Verwendung von Cookies zu.\nDatenschutz-Richtlinien\nCookies akzeptieren\nCookie Einstellungen",
+      "text_len": 2166,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmenkunden",
+          "href": "https://www.global-treuhand.ch/treuhand-fuer-firmenkunden",
+          "internal": true
+        },
+        {
+          "text": "Privatpersonen",
+          "href": "https://www.global-treuhand.ch/steuererklaerung-fuer-privatpersonen",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.global-treuhand.ch/Kontakt",
+          "internal": true
+        },
+        {
+          "text": "Unsere Preise",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "Ihre unverbindliche Offerte",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": " Jetzt unverbindliche Offerte erstellen",
+          "href": "https://www.global-treuhand.ch/preise-alles-aus-einer-hand-zum-pauschalpreis",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://swissaccounting.org/",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.global-treuhand.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.global-treuhand.ch/datenschutz",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz-Richtlinien",
+          "href": "https://www.global-treuhand.ch/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "/files/userdata/thumbs/compressed/214352.jpg"
+        },
+        {
+          "src": "/files/userdata/thumbs/compressed/325447.jpg"
+        },
+        {
+          "src": "/files/userdata/thumbs/compressed/595597.jpg"
+        },
+        {
+          "src": "/files/userdata/thumbs/compressed/1025050.jpg"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@global-treuhand.ch"
+      ],
+      "phones": [
+        "044 523 69 99",
+        "076 302 72 08"
+      ],
+      "raw_html": "raw_html/008__treuhand-fuer-firmenkunden.html"
+    }
+  ]
+}

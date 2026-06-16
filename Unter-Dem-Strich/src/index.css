@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #FAF9F6;
+  --color-brand-text: #1C1C1A;
+  --color-brand-blue: #2C3E91;
+  --color-brand-rose: #E3A39B;
+  --color-brand-border: #E7E4DD;
+  --color-brand-muted: #8A8782;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Base custom styles to enforce typography and background */
+@utility brand-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  @media (min-width: 768px) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  @media (min-width: 1280px) {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+body {
+  background-color: #FAF9F6;
+  color: #1C1C1A;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom interactive underlined links anim */
+.hover-underline-anim {
+  position: relative;
+}
+
+.hover-underline-anim::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--color-brand-blue);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-anim:hover::after {
+  transform: scaleX(1);
+}
+
+.hover-underline-anim-rose::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--color-brand-rose);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-anim-rose:hover::after {
+  transform: scaleX(1);
+}
+
+/* Text selections matching the mood */
+::selection {
+  background-color: #E3A39B;
+  color: #1C1C1A;
+}

@@ -1,0 +1,3338 @@
+{
+  "name": "Urania Treuhand AG",
+  "domain": "urania-treuhand.ch",
+  "start_url": "https://www.urania-treuhand.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781616195.3397896,
+    "duration_sec": 37.1,
+    "pages_crawled": 10,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": "Sitemap: https://www.urania-treuhand.ch/sitemap_index.xml\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://www.urania-treuhand.ch/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
+  },
+  "contact": {
+    "emails": [
+      "%20info@urania-treuhand.ch",
+      "%20n.dekic@urania-treuhand.ch%20%20",
+      "c.hobi@urania-treuhand.ch",
+      "c.sutter@urania-treuhand.ch",
+      "h.alemdar@urania-treuhand.ch",
+      "info@urania-treuhand.ch",
+      "m.alemdar@urania-treuhand.ch",
+      "m.lloci@urania-treuhand.ch",
+      "m.stark@urania-treuhand.ch",
+      "r.brunner@urania-treuhand.ch",
+      "r.wieland@urania-treuhand.ch",
+      "s.büchel@urania-treuhand.ch"
+    ],
+    "phones": [
+      "+41 71 744 09 71",
+      "+41 71 929 30 00",
+      "+41 71 944 22 11",
+      "071 9293000"
+    ]
+  },
+  "assets": {
+    "downloaded": 35,
+    "failed": 0,
+    "total_bytes": 13931202,
+    "manifest": [
+      {
+        "url": "https://www.urania-treuhand.ch/favicon.ico",
+        "ok": true,
+        "file": "assets/f362bf9e30__favicon.ico",
+        "content_type": "image/jpeg",
+        "bytes": 27865
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/IMG_0262-300x85.jpeg",
+        "ok": true,
+        "file": "assets/14f0480c8c__IMG_0262-300x85.jpeg",
+        "content_type": "image/jpeg",
+        "bytes": 8434
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/IMG_0262.jpeg",
+        "ok": true,
+        "file": "assets/d808d47f6e__IMG_0262.jpeg",
+        "content_type": "image/jpeg",
+        "bytes": 70480
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+        "ok": true,
+        "file": "assets/cf48162133__cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+        "content_type": "image/png",
+        "bytes": 23270
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk-300x161.png",
+        "ok": true,
+        "file": "assets/bb0d6f76f5__cropped-Logo_urania_treuhand_cmyk-300x161.png",
+        "content_type": "image/png",
+        "bytes": 6580
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk-768x412.png",
+        "ok": true,
+        "file": "assets/12a347889a__cropped-Logo_urania_treuhand_cmyk-768x412.png",
+        "content_type": "image/png",
+        "bytes": 16649
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk-96x52.png",
+        "ok": true,
+        "file": "assets/8a72cc368a__cropped-Logo_urania_treuhand_cmyk-96x52.png",
+        "content_type": "image/png",
+        "bytes": 2131
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk.png",
+        "ok": true,
+        "file": "assets/5fda22ff0d__cropped-Logo_urania_treuhand_cmyk.png",
+        "content_type": "image/png",
+        "bytes": 15562
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2025/11/Design_ohne_Titel-3-removebg-preview-150x150.png",
+        "ok": true,
+        "file": "assets/79b53ac7b2__Design_ohne_Titel-3-removebg-preview-150x150.png",
+        "content_type": "image/png",
+        "bytes": 888
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2025/11/Design_ohne_Titel-3-removebg-preview-300x300.png",
+        "ok": true,
+        "file": "assets/bc1b5bad41__Design_ohne_Titel-3-removebg-preview-300x300.png",
+        "content_type": "image/png",
+        "bytes": 2777
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2025/11/Design_ohne_Titel-3-removebg-preview.png",
+        "ok": true,
+        "file": "assets/d1dfa62a4b__Design_ohne_Titel-3-removebg-preview.png",
+        "content_type": "image/png",
+        "bytes": 83371
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/064A9273-scaled.jpg",
+        "ok": true,
+        "file": "assets/7a8e179ab8__064A9273-scaled.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 533953
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/064A9276-scaled.jpg",
+        "ok": true,
+        "file": "assets/ce7d71f41c__064A9276-scaled.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 445919
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/064A9293-scaled.jpg",
+        "ok": true,
+        "file": "assets/0fbc2f8c32__064A9293-scaled.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 336483
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/064A9323-scaled.jpg",
+        "ok": true,
+        "file": "assets/626c957ae8__064A9323-scaled.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 436918
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-180x180.jpg",
+        "ok": true,
+        "file": "assets/d07fece6ce__cropped-064A9275-scaled-1-180x180.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 33313
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-192x192.jpg",
+        "ok": true,
+        "file": "assets/3a54e8f2f7__cropped-064A9275-scaled-1-192x192.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 33692
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-32x32.jpg",
+        "ok": true,
+        "file": "assets/734e925c19__cropped-064A9275-scaled-1-32x32.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 27865
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/03/roger_neu-1024x1536.png",
+        "ok": true,
+        "file": "assets/ba8f94f217__roger_neu-1024x1536.png",
+        "content_type": "image/png",
+        "bytes": 1797505
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/03/roger_neu-1365x2048.png",
+        "ok": true,
+        "file": "assets/590cea6dd1__roger_neu-1365x2048.png",
+        "content_type": "image/png",
+        "bytes": 3123105
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/03/roger_neu-200x300.png",
+        "ok": true,
+        "file": "assets/947087e992__roger_neu-200x300.png",
+        "content_type": "image/png",
+        "bytes": 78269
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/03/roger_neu-682x1024.png",
+        "ok": true,
+        "file": "assets/f66ca37996__roger_neu-682x1024.png",
+        "content_type": "image/png",
+        "bytes": 796485
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/03/roger_neu-768x1152.png",
+        "ok": true,
+        "file": "assets/d1c794447c__roger_neu-768x1152.png",
+        "content_type": "image/png",
+        "bytes": 1009203
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/2026/03/roger_neu.png",
+        "ok": true,
+        "file": "assets/62d7f18f66__roger_neu.png",
+        "content_type": "image/png",
+        "bytes": 4865799
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8931-scaled-rikejx48d64he0ipwa0qsu9xna4pynt4jk0xikvgks.jpg",
+        "ok": true,
+        "file": "assets/e34017855c__064A8931-scaled-rikejx48d64he0ipwa0qsu9xna4pynt4jk0xikvgks.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 15597
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8942-scaled-e1770123330941-rim0vz57kuxyik2k1jev2ed8lh7ya3vxlvbg113kx8.jpg",
+        "ok": true,
+        "file": "assets/82a6a6b87d__064A8942-scaled-e1770123330941-rim0vz57kuxyik2k1jev2ed8lh7ya3vxlvbg113kx8.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 13922
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8956-scaled-rikeke1bs6rn6zu55hc11q08c7tbt7oalvro5k6dgs.jpg",
+        "ok": true,
+        "file": "assets/6c65e0471b__064A8956-scaled-rikeke1bs6rn6zu55hc11q08c7tbt7oalvro5k6dgs.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 13656
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8975-scaled-rikekkm7410ng9kl326f16cghwwwb3eeysc2ihwm98.jpg",
+        "ok": true,
+        "file": "assets/3e85d364a2__064A8975-scaled-rikekkm7410ng9kl326f16cghwwwb3eeysc2ihwm98.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 14879
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8985-scaled-e1770123765661-rim17c105shosxkmpy5kp16r038mafz6633nse9bqk.jpg",
+        "ok": true,
+        "file": "assets/c0fc26c1b5__064A8985-scaled-e1770123765661-rim17c105shosxkmpy5kp16r038mafz6633nse9bqk.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 11688
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A9002-scaled-e1770123913281-rim1b75499s4j7yk5macy22yx46xxnbg17nitcj25o.jpg",
+        "ok": true,
+        "file": "assets/9fea10d4b6__064A9002-scaled-e1770123913281-rim1b75499s4j7yk5macy22yx46xxnbg17nitcj25o.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 10251
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A9020-scaled-e1770122764377-rim0h74k4mpnz9jcc5g0v4mcde279f7uwq2mef0er0.jpg",
+        "ok": true,
+        "file": "assets/0511531c04__064A9020-scaled-e1770122764377-rim0h74k4mpnz9jcc5g0v4mcde279f7uwq2mef0er0.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 15001
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A9035-scaled-e1770123459610-rim0zcee2hjy496fdhtqi1rp86mav29b2jh2xq3smk.jpg",
+        "ok": true,
+        "file": "assets/1627de7bf1__064A9035-scaled-e1770123459610-rim0zcee2hjy496fdhtqi1rp86mav29b2jh2xq3smk.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 13720
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A9050-scaled-e1770123193515-rim0sedbkk1obz9lxhqz2sv37ounzkopg5xxa4eilo.jpg",
+        "ok": true,
+        "file": "assets/c6359fbbf0__064A9050-scaled-e1770123193515-rim0sedbkk1obz9lxhqz2sv37ounzkopg5xxa4eilo.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 12389
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A9067-scaled-e1770122135920-rim00rw2pu8b4je58jvosrteq10brt0ozfq7jdd1gs.jpg",
+        "ok": true,
+        "file": "assets/969a3d4b46__064A9067-scaled-e1770122135920-rim00rw2pu8b4je58jvosrteq10brt0ozfq7jdd1gs.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 12089
+      },
+      {
+        "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/user-296689_1280-e1762177125122-re5xo9z6zycoos3leiyt3o34rsj71mqrci4oi1dx2k.png",
+        "ok": true,
+        "file": "assets/3aba251b75__user-296689_1280-e1762177125122-re5xo9z6zycoos3leiyt3o34rsj71mqrci4oi1dx2k.png",
+        "content_type": "image/png",
+        "bytes": 21494
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://www.urania-treuhand.ch/",
+      "title": "Home - Urania Treuhand AG",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 1321
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/datenschutz/",
+      "title": "Datenschutz - Urania Treuhand AG",
+      "raw_html": "raw_html/002__datenschutz.html",
+      "text_len": 25964
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/dienstleistungen/",
+      "title": "Dienstleistungen - Urania Treuhand AG",
+      "raw_html": "raw_html/003__dienstleistungen.html",
+      "text_len": 2295
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/impressum/",
+      "title": "Impressum - Urania Treuhand AG",
+      "raw_html": "raw_html/004__impressum.html",
+      "text_len": 2243
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/kontakt/",
+      "title": "Kontakt - Urania Treuhand AG",
+      "raw_html": "raw_html/005__kontakt.html",
+      "text_len": 655
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/sample-page/",
+      "title": "Sample Page - Urania Treuhand AG",
+      "raw_html": "raw_html/006__sample-page.html",
+      "text_len": 1377
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/ueberuns/",
+      "title": "Über Uns - Urania Treuhand AG",
+      "raw_html": "raw_html/007__ueberuns.html",
+      "text_len": 2442
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/wp-login.php?redirect_to=https%3A%2F%2Fwww.urania-treuhand.ch%2Fwp-admin%2F&reauth=1",
+      "title": "Anmelden ‹ Urania Treuhand AG – WordPress",
+      "raw_html": "raw_html/008__wp-login__q_756cf483.html",
+      "text_len": 368
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/wp-login.php?action=lostpassword",
+      "title": "Passwort zurücksetzen ‹ Urania Treuhand AG – WordPress",
+      "raw_html": "raw_html/009__wp-login__q_c2b67566.html",
+      "text_len": 500
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/wp-login.php",
+      "title": "Anmelden ‹ Urania Treuhand AG – WordPress",
+      "raw_html": "raw_html/010__wp-login.html",
+      "text_len": 368
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.urania-treuhand.ch/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Home - Urania Treuhand AG",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "og:locale": "de_DE",
+        "og:type": "website",
+        "og:title": "Home - Urania Treuhand AG",
+        "og:description": "Willkommen bei der Urania Treuhand AG dein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung Ob Start-up, KMU, Verein oder",
+        "og:url": "https://www.urania-treuhand.ch/",
+        "og:site_name": "Urania Treuhand AG",
+        "article:modified_time": "2026-05-28T20:17:30+00:00",
+        "og:image": "https://www.urania-treuhand.ch/wp-content/uploads/2025/11/Design_ohne_Titel-3-removebg-preview.png",
+        "og:image:width": "500",
+        "og:image:height": "500",
+        "og:image:type": "image/png",
+        "twitter:card": "summary_large_image",
+        "description": "Willkommen bei der Urania Treuhand AG dein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung Ob Start-up, KMU, Verein oder",
+        "robots": "index, follow",
+        "article:published_time": "2025-08-04T12:04:43+00:00",
+        "twitter:title": "Home - Urania Treuhand AG",
+        "twitter:description": "Willkommen bei der Urania Treuhand AG dein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung Ob Start-up, KMU, Verein oder",
+        "generator": "Elementor 4.1.1; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-270x270.jpg"
+      },
+      "canonical": "https://www.urania-treuhand.ch/",
+      "headings": {
+        "h1": [
+          "„Bring deine Skills ein – wir pushen den Rest.“"
+        ],
+        "h2": [
+          "Willkommen bei der Urania Treuhand AG dein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung",
+          "Unsere Schwerpunkte",
+          "Unsere Standorte",
+          "Uzwil",
+          "Niederwil",
+          "Berneck"
+        ],
+        "h3": [
+          "Zahlen sprechen lassen",
+          "Uzwil",
+          "Niederwil",
+          "Berneck"
+        ],
+        "h6": [
+          "",
+          "Wir suchen Verstärkung"
+        ]
+      },
+      "text": "Home - Urania Treuhand AG\nZum Inhalt springen\nHome\nDienstleistungen\nÜber Uns\nKontakt\nWillkommen bei der Urania Treuhand AG\ndein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung\nOb Start-up, KMU, Verein oder Selbstständiger – bei uns bist du richtig. Gemeinsam mit unserem\nTeam\nbetreuen wir Unternehmen aller Branchen und Rechtsformen mit grossem Engagement, hoher Qualität und einem klaren Blick für deine Ziele.\nKontakt\nUnsere Schwerpunkte\nTreuhand\n„Treuhand, die dein Business voranbringt“\nSteuerberatung\n„Professionelle Beratung im Steuer-Dschungel“\nGründung\n„Professionell begleitet seit Beginn“\nImmobilien\n„Liegenschaften modern verwalten, Werte sichern“\nUnsere Standorte\nUzwil\nNiederwil\nBerneck\nWir suchen Verstärkung\n„Bring deine Skills ein – wir pushen den Rest.“\nHier zum Team\nBewerben\nZahlen sprechen lassen\nBüros\n0\nMitarbeiter\n0\nGründungsjahr\n1\nØ Dienstalter\n0\nISL Light Download\nKundenlogin\nUzwil\nBahnhofstrasse 82, 9240 Uzwil\n+41 71 929 30 00\ninfo@urania-treuhand.ch\nNiederwil\nIm Dorf 17, 9203 Niederwil\n+41 71 944 22 11\ninfo@urania-treuhand.ch\nBerneck\nAuerstrasse 37,  9442 Berneck\n+41 71 744 09 71\ninfo@urania-treuhand.ch\nDatenschutz\nImpressum\nDiese Website benutzt Cookies. Wenn du die Website weiter nutzt, gehen wir von deinem Einverständnis aus.\nOK\nNein\nDatenschutzerklärung",
+      "text_len": 1321,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.urania-treuhand.ch/#content",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.urania-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.urania-treuhand.ch/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über Uns",
+          "href": "https://www.urania-treuhand.ch/ueberuns/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://urania-treuhand.ch",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Treuhand „Treuhand, die dein Business voranbringt“",
+          "href": "http://urania-treuhand.ch/dienstleistungen/#treuhand",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung „Professionelle Beratung im Steuer-Dschungel“",
+          "href": "http://urania-treuhand.ch/dienstleistungen/#steuern",
+          "internal": true
+        },
+        {
+          "text": "Gründung „Professionell begleitet seit Beginn“",
+          "href": "http://urania-treuhand.ch/dienstleistungen/#gruendung",
+          "internal": true
+        },
+        {
+          "text": "Immobilien „Liegenschaften modern verwalten, Werte sichern“",
+          "href": "http://urania-treuhand.ch/dienstleistungen//#immobilien",
+          "internal": true
+        },
+        {
+          "text": "Hier zum Team",
+          "href": "https://www.urania-treuhand.ch/ueberuns/#team",
+          "internal": true
+        },
+        {
+          "text": "Bewerben",
+          "href": "http://urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "ISL Light Download",
+          "href": "https://www.islonline.net/start/isllightclient",
+          "internal": false
+        },
+        {
+          "text": "Kundenlogin",
+          "href": "https://www.urania-treuhand.ch/#",
+          "internal": true
+        },
+        {
+          "text": "+41 71 929 30 00",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 944 22 11",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 744 09 71",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Datenschutz",
+          "href": "http://urania-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "http://urania-treuhand.ch/impressum/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/11/Design_ohne_Titel-3-removebg-preview.png",
+          "alt": "logo_transp.weiss",
+          "title": "Home",
+          "width": "500",
+          "height": "500"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2026/03/roger_neu.png",
+          "alt": "roger neu",
+          "title": "Home",
+          "width": "1706",
+          "height": "2560"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/IMG_0262.jpeg",
+          "alt": "Treuhand_suisse",
+          "width": "552",
+          "height": "156"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+          "alt": "logo urania treuhand cmyk",
+          "width": "1024",
+          "height": "550"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/",
+              "url": "https://www.urania-treuhand.ch/",
+              "name": "Home - Urania Treuhand AG",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://www.urania-treuhand.ch/#primaryimage"
+              },
+              "image": {
+                "@id": "https://www.urania-treuhand.ch/#primaryimage"
+              },
+              "thumbnailUrl": "https://www.urania-treuhand.ch/wp-content/uploads/2025/11/Design_ohne_Titel-3-removebg-preview.png",
+              "datePublished": "2025-08-04T12:04:43+00:00",
+              "dateModified": "2026-05-28T20:17:30+00:00",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/#breadcrumb"
+              },
+              "inLanguage": "de",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://www.urania-treuhand.ch/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "de",
+              "@id": "https://www.urania-treuhand.ch/#primaryimage",
+              "url": "https://www.urania-treuhand.ch/wp-content/uploads/2025/11/Design_ohne_Titel-3-removebg-preview.png",
+              "contentUrl": "https://www.urania-treuhand.ch/wp-content/uploads/2025/11/Design_ohne_Titel-3-removebg-preview.png",
+              "width": 500,
+              "height": 500,
+              "caption": "logo_transp.weiss"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Startseite"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "url": "https://www.urania-treuhand.ch/",
+              "name": "Urania Treuhand AG",
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.urania-treuhand.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "name": "Urania Treuhand AG",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch#person"
+              },
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/",
+              "potentialAction": {
+                "@id": "https://www.urania-treuhand.ch/#searchaction"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch#webpage",
+              "name": "Home",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch#person"
+              },
+              "inLanguage": "de",
+              "url": "https://www.urania-treuhand.ch",
+              "contributor": {
+                "@id": "https://www.urania-treuhand.ch#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch#person"
+              },
+              "datePublished": "2025-08-04T12:04:43+00:00",
+              "dateModified": "2026-05-28T20:17:30+00:00",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://www.urania-treuhand.ch/#organization",
+              "name": "Urania Treuhand AG",
+              "founder": [
+                {
+                  "@type": "Person",
+                  "name": "admin"
+                }
+              ],
+              "logo": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1.jpg",
+              "slogan": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/ "
+            },
+            {
+              "@type": "SearchAction",
+              "@id": "https://www.urania-treuhand.ch/#searchaction",
+              "target": "https://www.urania-treuhand.ch/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "%20info@urania-treuhand.ch",
+        "info@urania-treuhand.ch"
+      ],
+      "phones": [
+        "+41 71 744 09 71",
+        "+41 71 929 30 00",
+        "+41 71 944 22 11"
+      ],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/datenschutz/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Datenschutz - Urania Treuhand AG",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Datenschutz - Urania Treuhand AG",
+        "og:description": "INHABERIN DIESER WEBSEITEUrania Treuhand AGBahnhofstrasse 829240 UzwilTelefon 071 9293000E-Mail: info@urania-treuhand.chInternet: www.urania-treuhand.ch",
+        "og:url": "https://www.urania-treuhand.ch/datenschutz/",
+        "og:site_name": "Urania Treuhand AG",
+        "article:modified_time": "2026-02-06T19:42:01+00:00",
+        "twitter:card": "summary_large_image",
+        "twitter:label1": "Geschätzte Lesezeit",
+        "twitter:data1": "19 Minuten",
+        "description": "INHABERIN DIESER WEBSEITEUrania Treuhand AGBahnhofstrasse 829240 UzwilTelefon 071 9293000E-Mail: info@urania-treuhand.chInternet: www.urania-treuhand.ch",
+        "robots": "index, follow",
+        "article:published_time": "2026-02-06T17:22:12+00:00",
+        "twitter:title": "Datenschutz - Urania Treuhand AG",
+        "twitter:description": "INHABERIN DIESER WEBSEITEUrania Treuhand AGBahnhofstrasse 829240 UzwilTelefon 071 9293000E-Mail: info@urania-treuhand.chInternet: www.urania-treuhand.ch",
+        "generator": "Elementor 4.1.1; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-270x270.jpg"
+      },
+      "canonical": "https://www.urania-treuhand.ch/datenschutz/",
+      "headings": {
+        "h1": [
+          "Datenschutz"
+        ],
+        "h3": [
+          "Uzwil",
+          "Niederwil",
+          "Berneck"
+        ]
+      },
+      "text": "Datenschutz - Urania Treuhand AG\nZum Inhalt springen\nHome\nDienstleistungen\nÜber Uns\nKontakt\nDatenschutz\nINHABERIN DIESER WEBSEITE\nUrania Treuhand AG\nBahnhofstrasse 82\n9240 Uzwil\nTelefon 071 9293000\nE-Mail: info@urania-treuhand.ch\nInternet: www.urania-treuhand.ch\n_________________________________________\nVerantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:\nUrania Treuhand AG\nRoger Brunner\nBahnhofstrasse 82\n9240 Uzwil\nTelefon 071 9293000\nAllgemeiner Hinweis\nGestützt auf Artikel 13 der schweizerischen Bundesverfassung und den datenschutzrechtlichen Bestimmungen des Bundes (Datenschutzgesetz, DSG) hat jede Person Anspruch auf Schutz ihrer Privatsphäre sowie auf Schutz vor Missbrauch ihrer persönlichen Daten. Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.\nIn Zusammenarbeit mit unseren Hosting-Providern bemühen wir uns, die Datenbanken so gut wie möglich vor fremden Zugriffen, Verlusten, Missbrauch oder vor Fälschung zu schützen.\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.\nDurch die Nutzung dieser Website erklären Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gemäss der nachfolgenden Beschreibung einverstanden. Diese Website kann grundsätzlich ohne Registrierung besucht werden. Dabei werden Daten wie beispielsweise aufgerufene Seiten bzw. Namen der abgerufenen Datei, Datum und Uhrzeit zu statistischen Zwecken auf dem Server gespeichert, ohne dass diese Daten unmittelbar auf Ihre Person bezogen werden. Personenbezogene Daten, insbesondere Name, Adresse oder E-Mail-Adresse werden soweit möglich auf freiwilliger Basis erhoben. Ohne Ihre Einwilligung erfolgt keine Weitergabe der Daten an Dritte.\nDatenschutzerklärung für Cookies\nDiese Website verwendet Cookies. Cookies sind Textdateien, die Daten von besuchten Websites oder Domains enthalten und von einem Browser auf dem Computer des Benutzers gespeichert werden. Ein Cookie dient in erster Linie dazu, die Informationen über einen Benutzer während oder nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Zu den gespeicherten Angaben können z.B. die Spracheinstellungen auf einer Webseite, der Loginstatus, ein Warenkorb oder die Stelle, an der ein Video geschaut wurde, gehören. Zu dem Begriff der Cookies zählen wir ferner andere Technologien, die die gleichen Funktionen wie Cookies erfüllen (z.B. wenn Angaben der Nutzer anhand pseudonymer Onlinekennzeichnungen gespeichert werden, auch als „Nutzer-IDs“ bezeichnet)\nDie folgenden Cookie-Typen und Funktionen werden unterschieden:\nTemporäre Cookies (auch: Session- oder Sitzungs-Cookies)\n: Temporäre Cookies werden spätestens gelöscht, nachdem ein Nutzer ein Online-Angebot verlassen und seinen Browser geschlossen hat.\nPermanente Cookies\n: Permanente Cookies bleiben auch nach dem Schliessen des Browsers gespeichert. So kann beispielsweise der Login-Status gespeichert oder bevorzugte Inhalte direkt angezeigt werden, wenn der Nutzer eine Website erneut besucht. Ebenso können die Interessen von Nutzern, die zur Reichweitenmessung oder zu Marketingzwecken verwendet werden, in einem solchen Cookie gespeichert werden.\nFirst-Party-Cookies\n: First-Party-Cookies werden von uns selbst gesetzt.\nThird-Party-Cookies (auch: Drittanbieter-Cookies)\n: Drittanbieter-Cookies werden hauptsächlich von Werbetreibenden (sog. Dritten) verwendet, um Benutzerinformationen zu verarbeiten.\nNotwendige (auch: essenzielle oder unbedingt erforderliche) Cookies\n: Cookies können zum einen für den Betrieb einer Webseite unbedingt erforderlich sein (z.B. um Logins oder andere Nutzereingaben zu speichern oder aus Gründen der Sicherheit).\nStatistik-, Marketing- und Personalisierung-Cookies\n: Ferner werden Cookies im Regelfall auch im Rahmen der Reichweitenmessung eingesetzt sowie dann, wenn die Interessen eines Nutzers oder sein Verhalten (z.B. Betrachten bestimmter Inhalte, Nutzen von Funktionen etc.) auf einzelnen Webseiten in einem Nutzerprofil gespeichert werden. Solche Profile dienen dazu, den Nutzern z.B. Inhalte anzuzeigen, die ihren potenziellen Interessen entsprechen. Dieses Verfahren wird auch als „Tracking“, d.h., Nachverfolgung der potenziellen Interessen der Nutzer bezeichnet. Soweit wir Cookies oder „Tracking“-Technologien einsetzen, informieren wir Sie gesondert in unserer Datenschutzerklärung oder im Rahmen der Einholung einer Einwilligung.\nHinweise zu Rechtsgrundlagen: Auf welcher Rechtsgrundlage wir Ihre personenbezogenen Daten mithilfe von Cookies verarbeiten, hängt davon ab, ob wir Sie um eine Einwilligung bitten. Falls dies zutrifft und Sie in die Nutzung von Cookies einwilligen, ist die Rechtsgrundlage der Verarbeitung Ihrer Daten die erklärte Einwilligung. Andernfalls werden die mithilfe von Cookies verarbeiteten Daten auf Grundlage unserer berechtigten Interessen (z.B. an einem betriebswirtschaftlichen Betrieb unseres Onlineangebotes und dessen Verbesserung) verarbeitet oder, wenn der Einsatz von Cookies erforderlich ist, um unsere vertraglichen Verpflichtungen zu erfüllen.\nSpeicherdauer: Sofern wir Ihnen keine expliziten Angaben zur Speicherdauer von permanenten Cookies mitteilen (z. B. im Rahmen eines sog. Cookie-Opt-Ins), gehen Sie bitte davon aus, dass die Speicherdauer bis zu zwei Jahre betragen kann.\nAllgemeine Hinweise zum Widerruf und Widerspruch (Opt-Out): Abhängig davon, ob die Verarbeitung auf Grundlage einer Einwilligung oder gesetzlichen Erlaubnis erfolgt, haben Sie jederzeit die Möglichkeit, eine erteilte Einwilligung zu widerrufen oder der Verarbeitung Ihrer Daten durch Cookie-Technologien zu widersprechen (zusammenfassend als „Opt-Out“ bezeichnet). Sie können Ihren Widerspruch zunächst mittels der Einstellungen Ihres Browsers erklären, z.B., indem Sie die Nutzung von Cookies deaktivieren (wobei hierdurch auch die Funktionsfähigkeit unseres Onlineangebotes eingeschränkt werden kann). Ein Widerspruch gegen den Einsatz von Cookies zu Zwecken des Onlinemarketings kann auch mittels einer Vielzahl von Diensten, vor allem im Fall des Trackings, über die Webseiten https://optout.aboutads.info und https://www.youronlinechoices.com/ erklärt werden. Daneben können Sie weitere Widerspruchshinweise im Rahmen der Angaben zu den eingesetzten Dienstleistern und Cookies erhalten.\nVerarbeitung von Cookie-Daten auf Grundlage einer Einwilligung: Wir setzen ein Verfahren zum Cookie-Einwilligungs-Management ein, in dessen Rahmen die Einwilligungen der Nutzer in den Einsatz von Cookies, bzw. der im Rahmen des Cookie-Einwilligungs-Management-Verfahrens genannten Verarbeitungen und Anbieter eingeholt sowie von den Nutzern verwaltet und widerrufen werden können. Hierbei wird die Einwilligungserklärung gespeichert, um deren Abfrage nicht erneut wiederholen zu müssen und die Einwilligung entsprechend der gesetzlichen Verpflichtung nachweisen zu können. Die Speicherung kann serverseitig und/oder in einem Cookie (sogenanntes Opt-In-Cookie, bzw. mithilfe vergleichbarer Technologien) erfolgen, um die Einwilligung einem Nutzer, bzw. dessen Gerät zuordnen zu können. Vorbehaltlich individueller Angaben zu den Anbietern von Cookie-Management-Diensten gelten die folgenden Hinweise: Die Dauer der Speicherung der Einwilligung kann bis zu zwei Jahren betragen. Hierbei wird ein pseudonymer Nutzer-Identifikator gebildet und mit dem Zeitpunkt der Einwilligung, Angaben zur Reichweite der Einwilligung (z. B. welche Kategorien von Cookies und/oder Diensteanbieter) sowie dem Browser, System und verwendeten Endgerät gespeichert.\nVerarbeitete Datenarten: Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten), Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).\nBetroffene Personen: Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).\nRechtsgrundlagen: Einwilligung (Art. 6 Abs. 1 S. 1 lit. a. DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).\nDatenschutzerklärung für SSL-/TLS-Verschlüsselung\nDiese Website nutzt aus Gründen der Sicherheit und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel der Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-/TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.\nWenn die SSL bzw. TLS Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.\nDatenschutzerklärung für Server-Log-Files\nDer Provider dieser Website erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:\nBrowsertyp und Browserversion\nverwendetes Betriebssystem\nReferrer URL\nHostname des zugreifenden Rechners\nUhrzeit der Serveranfrage\nDiese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zuprüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.\nDienste von Dritten\nDiese Website verwenden allenfalls Google Maps für das Einbetten von Karten, Google Invisible reCAPTCHA für den Schutz gegen Bots und Spam sowie YouTube für das Einbetten von Videos.\nDiese Dienste der amerikanischen Google LLC verwenden unter anderem Cookies und infolgedessen werden Daten an Google in den USA übertragen, wobei wir davon ausgehen, dass in diesem Rahmen kein personenbezogenes Tracking allein durch die Nutzung unserer Website stattfindet.\nGoogle hat sich verpflichtet, einen angemessenen Datenschutz gemäss dem amerikanisch-europäischen und dem amerikanisch-schweizerischen Privacy Shield zu gewährleisten.\nWeitere Informationen finden sich in der\nDatenschutzerklärung von Google\n.\nDatenschutzerklärung für Kontaktformular\nWenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.\nDatenschutzerklärung für Kommentarfunktion auf dieser Website\nFür die Kommentarfunktion auf dieser Website werden neben Ihrem Kommentar auch Angaben zum Zeitpunkt der Erstellung des Kommentars, Ihre E-Mail-Adresse und, wenn Sie nicht anonym posten, der von Ihnen gewählte Nutzername gespeichert.\nSpeicherung der IP Adresse\nUnsere Kommentarfunktion speichert die IP-Adressen der Nutzer, die Kommentare verfassen. Da wir Kommentare auf unserer Seite nicht vor der Freischaltung prüfen, benötigen wir diese Daten, um im Falle von Rechtsverletzungen wie Beleidigungen oder Propaganda gegen den Verfasser vorgehen zu können.\nAbonnieren von Kommentaren\nAls Nutzer der Seite können Sie nach einer Anmeldung Kommentare abonnieren. Sie erhalten eine Bestätigungsemail, um zu prüfen, ob Sie der Inhaber der angegebenen E-Mail-Adresse sind. Sie können diese Funktion jederzeit über einen Link in den Info-Mails abbestellen.\nVerwendung von Google Maps\nDiese Website nutzt das Angebot von Google Maps. Dadurch können wir Ihnen interaktive Karten direkt in der Website anzeigen und ermöglichen Ihnen die komfortable Nutzung der Karten-Funktion. Durch den Besuch auf der Website erhält Google die Information, dass Sie die entsprechende Unterseite unserer Website aufgerufen haben. Dies erfolgt unabhängig davon, ob Google ein Nutzerkonto bereitstellt, über das Sie eingeloggt sind, oder ob kein Nutzerkonto besteht. Wenn Sie bei Google eingeloggt sind, werden Ihre Daten direkt Ihrem Konto zugeordnet. Wenn Sie die Zuordnung mit Ihrem Profil bei Google nicht wünschen, müssen Sie sich vor Aktivierung des Buttons ausloggen. Google speichert Ihre Daten als Nutzungsprofile und nutzt sie für Zwecke der Werbung, Marktforschung und/oder bedarfsgerechten Gestaltung seiner Website. Eine solche Auswertung erfolgt insbesondere (selbst für nicht eingeloggte Nutzer) zur Erbringung von bedarfsgerechter Werbung und um andere Nutzer des sozialen Netzwerks über Ihre Aktivitäten auf unserer Website zu informieren. Ihnen steht ein Widerspruchsrecht zu gegen die Bildung dieser Nutzerprofile, wobei Sie sich zur Ausübung dessen an Google richten müssen. Weitere Informationen zu Zweck und Umfang der Datenerhebung und ihrer Verarbeitung durch Google erhalten Sie neben weiteren Informationen zu Ihren diesbezüglichen Rechten und Einstellungsmöglichkeiten zum Schutze Ihrer Privatsphäre unter:\nwww.google.de/intl/de/policies/privacy\n.\nEinsatz von Google Remarketing\nDiese Website verwendet die Remarketing-Funktion der Google Inc. Die Funktion dient dazu, Websitenbesuchern innerhalb des Google-Werbenetzwerks interessenbezogene Werbeanzeigen zu präsentieren. Im Browser des Websitenbesuchers wird ein sog. „Cookie“ gespeichert, der es ermöglicht, den Besucher wiederzuerkennen, wenn dieser Websiten aufruft, die dem Werbenetzwerk von Google angehören. Auf diesen Seiten können dem Besucher Werbeanzeigen präsentiert werden, die sich auf Inhalte beziehen, die der Besucher zuvor auf Websiten aufgerufen hat, die die Remarketing Funktion von Google verwenden.\nNach eigenen Angaben erhebt Google bei diesem Vorgang keine personenbezogenen Daten. Sollten Sie die Funktion Remarketing von Google dennoch nicht wünschen, können Sie diese grundsätzlich deaktivieren, indem Sie die entsprechenden Einstellungen unter\nhttp://www.google.com/settings/ads\nvornehmen. Alternativ können Sie den Einsatz von Cookies für interessenbezogene Werbung über die Werbenetzwerkinitiative deaktivieren, indem Sie den Anweisungen unter\nhttp://www.networkadvertising.org/managing/opt_out.asp\nfolgen.\nDatenschutzerklärung für die Nutzung von Google Web Fonts\nDiese Website nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen. Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.\nWeitere Informationen zu Google Web Fonts finden Sie unter\nhttps://developers.google.com/fonts/faq\nund in der Datenschutzerklärung von Google:\nhttps://www.google.com/policies/privacy/\nDatenschutzerklärung für Facebook\nDiese Website verwendet Funktionen von Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA . Bei Aufruf unserer Seiten mit Facebook-Plug-Ins wird eine Verbindung zwischen Ihrem Browser und den Servern von Facebook aufgebaut. Dabei werden bereits Daten an Facebook übertragen. Besitzen Sie einen Facebook-Account, können diese Daten damit verknüpft werden. Wenn Sie keine Zuordnung dieser Daten zu Ihrem Facebook-Account wünschen, loggen Sie sich bitte vor dem Besuch unserer Seite bei Facebook aus. Interaktionen, insbesondere das Nutzen einer Kommentarfunktion oder das Anklicken eines „Like“- oder „Teilen“-Buttons werden ebenfalls an Facebook weitergegeben. Mehr erfahren Sie unter\nhttps://de-de.facebook.com/about/privacy\n.\nDatenschutzerklärung für Instagram\nAuf unserer Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen werden angeboten durch die Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025, USA integriert. Wenn Sie in Ihrem Instagram-Account eingeloggt sind können Sie durch Anklicken des Instagram-Buttons die Inhalte unserer Seiten mit Ihrem Instagram-Profil verlinken. Dadurch kann Instagram den Besuch unserer Seiten Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Instagram erhalten.\nWeitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram:\nhttp://instagram.com/about/legal/privacy/\nDatenschutzerklärung für LinkedIn\nWir setzen innerhalb unseres Onlineangebotes die Marketing-Dienste des sozialen Netzwerks LinkedIn der LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2, Ireland («LinkedIn») ein.\nDiese verwenden Cookies, also Textdateien, die auf Ihrem Computer gespeichert werden. Dies ermöglicht uns eine Analyse der Benutzung der Internetseite durch Sie. So können wir beispielsweise den Erfolg unserer Anzeigen messen und Nutzern Produkte anzeigen, für die sie sich zuvor interessiert haben.\nErfasst werden dadurch z.B. Informationen zum Betriebssystem, zum Browser, die von Ihnen zuvor aufgerufene Internetseite (Referrer-URL), welche Webseiten der Nutzer aufgesucht, welche Angebote der Nutzer angeklickt hat, und Datum und Uhrzeit Ihres Besuchs auf unserer Internetseite.\nDie durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Internetseite werden pseudonymisiert an einen Server von LinkedIn in den USA übertragen und dort gespeichert. LinkedIn speichert also nicht den Namen oder die E-Mailadresse des jeweiligen Nutzers. Die oben genannten Daten werden vielmehr nur demjenigen zugeordnet, bei dem das Cookie erzeugt wurde. Dies gilt nicht, sofern der Nutzer LinkedIn eine Verarbeitung ohne Pseudonymisierung erlaubt hat oder ein LinkedIn-Konto hat.\nSie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall möglicherweise nicht sämtliche Funktionen dieser Internetseite vollumfänglich werden nutzen können. Der Nutzung Ihrer Daten können sie auch direkt bei LinkedIn widersprechen:\nhttps://www.linkedin.com/psettings/guest-controls/retargeting-opt-out\n.\nWir nutzen LinkedIn Analytics, um die Nutzung unserer Website analysieren und regelmässig verbessern zu können. Über die gewonnenen Statistiken können wir unser Angebot verbessern und für Sie als Nutzer interessanter ausgestalten. Alle LinkedIn Unternehmen haben die Standardvertragsklauseln angenommen, um zu gewährleisten, dass der für die Entwicklung, Durchführung und Erhaltung der Dienste notwendige Datenverkehr in die USA und Singapur auf rechtmässige Weise stattfindet. Sofern wir die Nutzer um eine Einwilligung bitten, ist die Rechtsgrundlage für die Verarbeitung Art. 6 Abs. 1 lit. a DSGVO. Ansonsten ist Rechtsgrundlage für die Nutzung von LinkedIn Analytics Art. 6 Abs. 1 S. 1 lit. f DSGVO.\nInformationen des Drittanbieters: LinkedIn Ireland Unlimited Company Wilton Place, Dublin 2 Ireland;\nNutzervereinbarung\nund\nDatenschutzerklärung\n.\nVerwendung von Adobe Fonts\nWir setzen Adobe Fonts zur visuellen Gestaltung unserer Website ein. Adobe Fonts ist ein Dienst der Adobe Systems Incorporated, 345 Park Avenue, San Jose, CA 95110-2704, USA (Adobe), der uns den Zugriff auf eine Schriftartenbibliothek gewährt. Zur Einbindung der von uns benutzten Schriftarten, muss Ihr Browser eine Verbindung zu einem Server von Adobe in den USA aufbauen und die für unsere Website benötigte Schriftart herunterladen. Adobe erhält hierdurch die Information, dass von Ihrer IP-Adresse unsere Website aufgerufen wurde. Weitere Informationen zu Adobe Fonts, finden Sie in den Datenschutzhinweisen von Adobe, die Sie hier abrufen können:\nAdobe Fonts\nDatenschutzerklärung für YouTube\nAuf dieser Website sind Funktionen des Dienstes «YouTube» eingebunden. «YouTube» gehört der Google Ireland Limited, einer nach irischem Recht eingetragenen und betriebenen Gesellschaft mit Sitz in Gordon House, Barrow Street, Dublin 4, Irland, welche die Dienste im Europäischen Wirtschaftsraum und der Schweiz betreibt.\nIhre rechtliche Vereinbarung mit «YouTube» besteht aus den unter folgendem Link zu entnehmenden Bestimmungen und Bedingungen:\nhttps://www.youtube.com/static?gl=de&template=terms&hl=de\n. Diese Bestimmungen bilden eine rechtlich bindende Vereinbarung zwischen Ihnen und «YouTube» bezüglich der Nutzung der Dienste. In der Datenschutzerklärung von Google wird erläutert, wie «YouTube» mit Ihren personenbezogenen Daten verfährt und Ihre Daten schützt, wenn Sie den Dienst nutzen.\nDatenschutzerklärung für Vimeo\nAuf dieser Website sind Plugins des Videoportals Vimeo der Vimeo, LLC, 555 West 18th Street, New York, New York 10011, USA eingebunden. Bei jedem Aufruf einer Seite, die ein oder mehrere Vimeo-Videoclips anbietet, wird eine direkte Verbindung zwischen Ihrem Browser und einem Server von Vimeo in den USA hergestellt. Dabei werden Informationen über Ihren Besuch und Ihre IP-Adresse dort gespeichert. Durch Interaktionen mit den Vimeo Plugins (z.B. Klicken des Start-Buttons) werden diese Informationen ebenfalls an Vimeo übermittelt und dort gespeichert. Die Datenschutzerklärung für Vimeo mit näheren Informationen zur Erhebung und Nutzung Ihrer Daten durch Vimeo finden Sie in der\nDatenschutzerklärung von Vimeo\n.\nWenn Sie ein Vimeo-Benutzerkonto haben und nicht möchten, dass Vimeo über diese Website Daten über Sie sammelt und mit Ihren bei Vimeo gespeicherten Mitgliedsdaten verknüpft, müssen Sie sich vor Ihrem Besuch dieser Website bei Vimeo ausloggen.\nAusserdem ruft Vimeo über einen iFrame, in dem das Video aufgerufen wird, den Tracker Google Analytics auf. Dabei handelt es sich um ein eigenes Tracking von Vimeo, auf das wir keinen Zugriff haben. Sie können das Tracking durch Google Analytics unterbinden, indem Sie die Deaktivierungs-Tools einsetzen, die Google für einige Internet-Browser anbietet. Sie können darüber hinaus die Erfassung der durch Google Analytics erzeugten und auf ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren:\nhttps://tools.google.com/dlpage/gaoptout?hl=de\nHinweis zur Datenweitergabe in die USA\nAuf unserer Website sind unter anderem Tools von Unternehmen mit Sitz in den USA eingebunden. Wenn diese Tools aktiv sind, können Ihre personenbezogenen Daten an die US-Server der jeweiligen Unternehmen weitergegeben werden. Wir weisen darauf hin, dass die USA kein sicherer Drittstaat im Sinne des EU-Datenschutzrechts sind. US-Unternehmen sind dazu verpflichtet, personenbezogene Daten an Sicherheitsbehörden herauszugeben, ohne dass Sie als Betroffener hiergegen gerichtlich vorgehen könnten. Es kann daher nicht ausgeschlossen werden, dass US-Behörden (z.B. Geheimdienste) Ihre auf US-Servern befindlichen Daten zu Überwachungszwecken verarbeiten, auswerten und dauerhaft speichern. Wir haben auf diese Verarbeitungstätigkeiten keinen Einfluss.\nUrheberrechte\nDie Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf der Website, gehören ausschliesslich dem Betreiber dieser Website oder den speziell genannten Rechteinhabern. Für die Reproduktion von sämtlichen Dateien, ist die schriftliche Zustimmung des Urheberrechtsträgers im Voraus einzuholen.\nWer ohne Einwilligung des jeweiligen Rechteinhabers eine Urheberrechtsverletzung begeht, kann sich strafbar und allenfalls schadenersatzpflichtig machen.\nAllgemeiner Haftungsausschluss\nAlle Angaben unseres Internetangebotes wurden sorgfältig geprüft. Wir bemühen uns, unser Informationsangebot aktuell, inhaltlich richtig und vollständig anzubieten. Trotzdem kann das Auftreten von Fehlern nicht völlig ausgeschlossen werden, womit wir keine Garantie für Vollständigkeit, Richtigkeit und Aktualität von Informationen auch journalistisch-redaktioneller Art übernehmen können. Haftungsansprüche aus Schäden materieller oder ideeller Art, die durch die Nutzung der angebotenen Informationen verursacht wurden, sind ausgeschlossen, sofern kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.\nDer Herausgeber kann nach eigenem Ermessen und ohne Ankündigung Texte verändern oder löschen und ist nicht verpflichtet, Inhalte dieser Website zu aktualisieren. Die Benutzung bzw. der Zugang zu dieser Website geschieht auf eigene Gefahr des Besuchers. Der Herausgeber, seine Auftraggeber oder Partner sind nicht verantwortlich für Schäden, wie direkte, indirekte, zufällige, vorab konkret zu bestimmende oder Folgeschäden, die angeblich durch den Besuch dieser Website entstanden sind und übernehmen hierfür folglich keine Haftung.\nDer Herausgeber übernimmt ebenfalls keine Verantwortung und Haftung für die Inhalte und die Verfügbarkeit von Website Dritter, die über externe Links dieser Website erreichbar sind. Für den Inhalt der verlinkten Seiten sind ausschliesslich deren Betreiber verantwortlich. Der Herausgeber distanziert sich damit ausdrücklich von allen Inhalten Dritter, die möglicherweise straf- oder haftungsrechtlich relevant sind oder gegen die guten Sitten verstossen.\nÄnderungen\nWir können diese Datenschutzerklärung jederzeit ohne Vorankündigung anpassen. Es gilt die jeweils aktuelle, auf unserer Website publizierte Fassung. Soweit die Datenschutzerklärung Teil einer Vereinbarung mit Ihnen ist, werden wir Sie im Falle einer Aktualisierung über die Änderung per E-Mail oder auf andere geeignete Weise informieren.\nFragen an den Datenschutzbeauftragten\nWenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz zu Beginn der Datenschutzerklärung aufgeführten, verantwortlichen Person in unserer Organisation.\nUzwil, 2025\nQuelle:\nSwissAnwalt\nISL Light Download\nKundenlogin\nUzwil\nBahnhofstrasse 82, 9240 Uzwil\n+41 71 929 30 00\ninfo@urania-treuhand.ch\nNiederwil\nIm Dorf 17, 9203 Niederwil\n+41 71 944 22 11\ninfo@urania-treuhand.ch\nBerneck\nAuerstrasse 37,  9442 Berneck\n+41 71 744 09 71\ninfo@urania-treuhand.ch\nDatenschutz\nImpressum\nDiese Website benutzt Cookies. Wenn du die Website weiter nutzt, gehen wir von deinem Einverständnis aus.\nOK\nNein\nDatenschutzerklärung",
+      "text_len": 25964,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.urania-treuhand.ch/datenschutz/#content",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.urania-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.urania-treuhand.ch/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über Uns",
+          "href": "https://www.urania-treuhand.ch/ueberuns/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung von Google",
+          "href": "https://policies.google.com/privacy?hl=de",
+          "internal": false
+        },
+        {
+          "text": "www.google.de/intl/de/policies/privacy",
+          "href": "http://www.google.de/intl/de/policies/privacy",
+          "internal": false
+        },
+        {
+          "text": "http://www.google.com/settings/ads",
+          "href": "http://www.google.com/settings/ads",
+          "internal": false
+        },
+        {
+          "text": "http://www.networkadvertising.org/managing/opt_out.asp",
+          "href": "http://www.networkadvertising.org/managing/opt_out.asp",
+          "internal": false
+        },
+        {
+          "text": "https://developers.google.com/fonts/faq",
+          "href": "https://developers.google.com/fonts/faq",
+          "internal": false
+        },
+        {
+          "text": "https://www.google.com/policies/privacy/",
+          "href": "https://www.google.com/policies/privacy/",
+          "internal": false
+        },
+        {
+          "text": "https://de-de.facebook.com/about/privacy",
+          "href": "https://de-de.facebook.com/about/privacy",
+          "internal": false
+        },
+        {
+          "text": "http://instagram.com/about/legal/privacy/",
+          "href": "https://instagram.com/about/legal/privacy/",
+          "internal": false
+        },
+        {
+          "text": "https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out",
+          "href": "https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out",
+          "internal": false
+        },
+        {
+          "text": "Nutzervereinbarung",
+          "href": "https://www.linkedin.com/legal/user-agreement?_l=de_DE",
+          "internal": false
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.linkedin.com/legal/privacy-policy?_l=de_DE",
+          "internal": false
+        },
+        {
+          "text": "Adobe Fonts",
+          "href": "https://www.adobe.com/de/privacy/policies/adobe-fonts.html",
+          "internal": false
+        },
+        {
+          "text": "https://www.youtube.com/static?gl=de&template=terms&hl=de",
+          "href": "https://www.youtube.com/static?gl=DE&template=terms&hl=de",
+          "internal": false
+        },
+        {
+          "text": "Datenschutzerklärung von Vimeo",
+          "href": "http://vimeo.com/privacy",
+          "internal": false
+        },
+        {
+          "text": "https://tools.google.com/dlpage/gaoptout?hl=de",
+          "href": "https://tools.google.com/dlpage/gaoptout?hl=de",
+          "internal": false
+        },
+        {
+          "text": "SwissAnwalt",
+          "href": "https://www.swissanwalt.ch/",
+          "internal": false
+        },
+        {
+          "text": "ISL Light Download",
+          "href": "https://www.islonline.net/start/isllightclient",
+          "internal": false
+        },
+        {
+          "text": "Kundenlogin",
+          "href": "https://www.urania-treuhand.ch/datenschutz/#",
+          "internal": true
+        },
+        {
+          "text": "+41 71 929 30 00",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 944 22 11",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 744 09 71",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Datenschutz",
+          "href": "http://urania-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "http://urania-treuhand.ch/impressum/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/IMG_0262.jpeg",
+          "alt": "Treuhand_suisse",
+          "width": "552",
+          "height": "156"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+          "alt": "logo urania treuhand cmyk",
+          "width": "1024",
+          "height": "550"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/datenschutz/",
+              "url": "https://www.urania-treuhand.ch/datenschutz/",
+              "name": "Datenschutz - Urania Treuhand AG",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "datePublished": "2026-02-06T17:22:12+00:00",
+              "dateModified": "2026-02-06T19:42:01+00:00",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/datenschutz/#breadcrumb"
+              },
+              "inLanguage": "de",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://www.urania-treuhand.ch/datenschutz/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/datenschutz/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Startseite",
+                  "item": "https://www.urania-treuhand.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Datenschutz"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "url": "https://www.urania-treuhand.ch/",
+              "name": "Urania Treuhand AG",
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.urania-treuhand.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "name": "Urania Treuhand AG",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/datenschutz#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/datenschutz#person"
+              },
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/",
+              "potentialAction": {
+                "@id": "https://www.urania-treuhand.ch/#searchaction"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/datenschutz#webpage",
+              "name": "Datenschutz",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/datenschutz#person"
+              },
+              "inLanguage": "de",
+              "url": "https://www.urania-treuhand.ch/datenschutz",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/datenschutz#breadcrumblist"
+              },
+              "contributor": {
+                "@id": "https://www.urania-treuhand.ch/datenschutz#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/datenschutz#person"
+              },
+              "datePublished": "2026-02-06T17:22:12+00:00",
+              "dateModified": "2026-02-06T19:42:01+00:00",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://www.urania-treuhand.ch/#organization",
+              "name": "Urania Treuhand AG",
+              "founder": [
+                {
+                  "@type": "Person",
+                  "name": "admin"
+                }
+              ],
+              "logo": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1.jpg",
+              "slogan": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/ "
+            },
+            {
+              "@type": "BreadcrumbList",
+              "name": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/datenschutz#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch",
+                    "name": "Home"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch/datenschutz/",
+                    "name": "Datenschutz"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "SearchAction",
+              "@id": "https://www.urania-treuhand.ch/#searchaction",
+              "target": "https://www.urania-treuhand.ch/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "%20info@urania-treuhand.ch",
+        "info@urania-treuhand.ch"
+      ],
+      "phones": [
+        "+41 71 744 09 71",
+        "+41 71 929 30 00",
+        "+41 71 944 22 11",
+        "071 9293000"
+      ],
+      "raw_html": "raw_html/002__datenschutz.html"
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/dienstleistungen/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Dienstleistungen - Urania Treuhand AG",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Dienstleistungen Wir sind mehr als ein klassisches Treuhandbüro Wir beraten dich in allen Fragen rund um Steuern, Liegenschaftenverwaltung, Buchhaltung und",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Dienstleistungen - Urania Treuhand AG",
+        "og:description": "Dienstleistungen Wir sind mehr als ein klassisches Treuhandbüro Wir beraten dich in allen Fragen rund um Steuern, Liegenschaftenverwaltung, Buchhaltung und",
+        "og:url": "https://www.urania-treuhand.ch/dienstleistungen/",
+        "og:site_name": "Urania Treuhand AG",
+        "article:modified_time": "2026-02-11T14:05:24+00:00",
+        "twitter:card": "summary_large_image",
+        "twitter:label1": "Geschätzte Lesezeit",
+        "twitter:data1": "2 Minuten",
+        "robots": "index, follow",
+        "article:published_time": "2025-08-04T12:04:43+00:00",
+        "twitter:title": "Dienstleistungen - Urania Treuhand AG",
+        "twitter:description": "Dienstleistungen Wir sind mehr als ein klassisches Treuhandbüro Wir beraten dich in allen Fragen rund um Steuern, Liegenschaftenverwaltung, Buchhaltung und",
+        "generator": "Elementor 4.1.1; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-270x270.jpg"
+      },
+      "canonical": "https://www.urania-treuhand.ch/dienstleistungen/",
+      "headings": {
+        "h1": [
+          "Dienstleistungen"
+        ],
+        "h2": [
+          "Wissen, Können, Ressourcen"
+        ],
+        "h3": [
+          "Wir sind mehr als ein klassisches Treuhandbüro",
+          "Wir bieten sämtliche Treuhandleistungen aus einer Hand an.",
+          "Uzwil",
+          "Niederwil",
+          "Berneck"
+        ],
+        "h4": [
+          "Lohnbuchhaltung",
+          "Steuerberatung",
+          "Firmengründungen",
+          "Verwaltung"
+        ],
+        "h5": [
+          "Treuhand",
+          "Steuern",
+          "Gründungen",
+          "Immobilien"
+        ],
+        "h6": [
+          "Zusätzliche Dienstleistungen"
+        ]
+      },
+      "text": "Dienstleistungen - Urania Treuhand AG\nZum Inhalt springen\nHome\nDienstleistungen\nÜber Uns\nKontakt\nDienstleistungen\nWir sind mehr als ein klassisches Treuhandbüro\nWir beraten dich in allen Fragen rund um Steuern,  Liegenschaftenverwaltung, Buchhaltung und betriebswirtschaftliche Themen. Dabei setzen wir auf individuelle, praxisnahe Lösungen, die exakt auf deine Bedürfnisse zugeschnitten sind.\nSchreib uns:\nWissen, Können, Ressourcen\nWir bieten dir Treuhandlösungen, die zu deiner Situtation passen. Unsere Lösungen sind persönlich, digital und mit höchster Kompetenz.\nTreuhand\nLohnbuchhaltung\nEine sauber geführte Buchhaltung ist die Grundlage für die\nFührung Ihres Unternehmens. Wir bieten Ihnen Hand in allen finanz- und betriebswirtschaftlichen Angelegenheiten.\nKontakt\nSteuern\nSteuerberatung\nEine professionelle Steuerberatung für natürliche sowie juristische Personen dient einer nachhaltige Kostenoptimierung.\nKontakt\nGründungen\nFirmengründungen\nDie professionelle Begleitung beginnt bereits bei der Gründung Ihrer Gesellschaft. Wir übernehmen auf Wunsch alle administrativen Arbeiten für Sie.\nKontakt\nImmobilien\nVerwaltung\nWir verwalten Ihre Mietliegenschaften von A – Z oder bieten uns als Verwaltung von Stockwerkeigentumsliegenschaft an\nKontakt\nZusätzliche Dienstleistungen\nWir bieten sämtliche Treuhandleistungen aus einer Hand an.\nPersonalwesen\nDie Aufgaben im Bereich Lohn und Personal sind vielfältig. Gerne unterstützen wir Sie nach ihren individuellen Wünschen in diesem Bereich.\nUnternehmensberatung\nVon Start-up bis zur Liquidation – Ihr treuer und kompetenter Berater unterstützt sie während jeder Phase.\nRevisionen\nDie Urania Revisions AG hat die Zulassung von der Revisionsaufsichtsbehörde (RAB) für die Durchführung von eingeschränkten Revisionen.\nNachfolgeregelung\nEine professionelle Begleitung im Nachfolgeprozess erspart Zeit, Nerven und Steuern.\nISL Light Download\nKundenlogin\nUzwil\nBahnhofstrasse 82, 9240 Uzwil\n+41 71 929 30 00\ninfo@urania-treuhand.ch\nNiederwil\nIm Dorf 17, 9203 Niederwil\n+41 71 944 22 11\ninfo@urania-treuhand.ch\nBerneck\nAuerstrasse 37,  9442 Berneck\n+41 71 744 09 71\ninfo@urania-treuhand.ch\nDatenschutz\nImpressum\nDiese Website benutzt Cookies. Wenn du die Website weiter nutzt, gehen wir von deinem Einverständnis aus.\nOK\nNein\nDatenschutzerklärung",
+      "text_len": 2295,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.urania-treuhand.ch/dienstleistungen/#content",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.urania-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.urania-treuhand.ch/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über Uns",
+          "href": "https://www.urania-treuhand.ch/ueberuns/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Schreib uns:",
+          "href": "mailto:info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "ISL Light Download",
+          "href": "https://www.islonline.net/start/isllightclient",
+          "internal": false
+        },
+        {
+          "text": "Kundenlogin",
+          "href": "https://www.urania-treuhand.ch/dienstleistungen/#",
+          "internal": true
+        },
+        {
+          "text": "+41 71 929 30 00",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 944 22 11",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 744 09 71",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Datenschutz",
+          "href": "http://urania-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "http://urania-treuhand.ch/impressum/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/IMG_0262.jpeg",
+          "alt": "Treuhand_suisse",
+          "width": "552",
+          "height": "156"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+          "alt": "logo urania treuhand cmyk",
+          "width": "1024",
+          "height": "550"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/dienstleistungen/",
+              "url": "https://www.urania-treuhand.ch/dienstleistungen/",
+              "name": "Dienstleistungen - Urania Treuhand AG",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "datePublished": "2025-08-04T12:04:43+00:00",
+              "dateModified": "2026-02-11T14:05:24+00:00",
+              "description": "Wir bieten sämtliche Treuhandleistungen aus einer Hand an. Region Uzwil .Treuhand, Steuerberatung, Buchaltung, Immobileinverwaltung",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/dienstleistungen/#breadcrumb"
+              },
+              "inLanguage": "de",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://www.urania-treuhand.ch/dienstleistungen/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/dienstleistungen/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Startseite",
+                  "item": "https://www.urania-treuhand.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Dienstleistungen"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "url": "https://www.urania-treuhand.ch/",
+              "name": "Urania Treuhand AG",
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.urania-treuhand.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "name": "Urania Treuhand AG",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/dienstleistungen#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/dienstleistungen#person"
+              },
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/",
+              "potentialAction": {
+                "@id": "https://www.urania-treuhand.ch/#searchaction"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/dienstleistungen#webpage",
+              "name": "Dienstleistungen",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/dienstleistungen#person"
+              },
+              "inLanguage": "de",
+              "url": "https://www.urania-treuhand.ch/dienstleistungen",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/dienstleistungen#breadcrumblist"
+              },
+              "contributor": {
+                "@id": "https://www.urania-treuhand.ch/dienstleistungen#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/dienstleistungen#person"
+              },
+              "datePublished": "2025-08-04T12:04:43+00:00",
+              "dateModified": "2026-02-11T14:05:24+00:00",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://www.urania-treuhand.ch/#organization",
+              "name": "Urania Treuhand AG",
+              "founder": [
+                {
+                  "@type": "Person",
+                  "name": "admin"
+                }
+              ],
+              "logo": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1.jpg",
+              "slogan": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/ "
+            },
+            {
+              "@type": "BreadcrumbList",
+              "name": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/dienstleistungen#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch",
+                    "name": "Home"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch/dienstleistungen/",
+                    "name": "Dienstleistungen"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "SearchAction",
+              "@id": "https://www.urania-treuhand.ch/#searchaction",
+              "target": "https://www.urania-treuhand.ch/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "%20info@urania-treuhand.ch",
+        "info@urania-treuhand.ch"
+      ],
+      "phones": [
+        "+41 71 744 09 71",
+        "+41 71 929 30 00",
+        "+41 71 944 22 11"
+      ],
+      "raw_html": "raw_html/003__dienstleistungen.html"
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/impressum/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Impressum - Urania Treuhand AG",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Impressum - Urania Treuhand AG",
+        "og:description": "Kontakt-Adresse: Urania Treuhand AGBahnhofstrasse 829240 UzwilTelefon 071 9293000E-Mail: info@urania-treuhand.chInternet: www.urania-treuhand.ch  ",
+        "og:url": "https://www.urania-treuhand.ch/impressum/",
+        "og:site_name": "Urania Treuhand AG",
+        "article:modified_time": "2026-02-14T12:55:05+00:00",
+        "twitter:card": "summary_large_image",
+        "twitter:label1": "Geschätzte Lesezeit",
+        "twitter:data1": "2 Minuten",
+        "description": "Kontakt-Adresse: Urania Treuhand AGBahnhofstrasse 829240 UzwilTelefon 071 9293000E-Mail: info@urania-treuhand.chInternet: www.urania-treuhand.ch  ",
+        "robots": "index, follow",
+        "article:published_time": "2026-02-06T17:29:25+00:00",
+        "twitter:title": "Impressum - Urania Treuhand AG",
+        "twitter:description": "Kontakt-Adresse: Urania Treuhand AGBahnhofstrasse 829240 UzwilTelefon 071 9293000E-Mail: info@urania-treuhand.chInternet: www.urania-treuhand.ch  ",
+        "generator": "Elementor 4.1.1; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-270x270.jpg"
+      },
+      "canonical": "https://www.urania-treuhand.ch/impressum/",
+      "headings": {
+        "h1": [
+          "Impressum"
+        ],
+        "h3": [
+          "Uzwil",
+          "Niederwil",
+          "Berneck"
+        ]
+      },
+      "text": "Impressum - Urania Treuhand AG\nZum Inhalt springen\nHome\nDienstleistungen\nÜber Uns\nKontakt\nImpressum\nKontakt-Adresse:\nUrania Treuhand AG\nBahnhofstrasse 82\n9240 Uzwil\nTelefon 071 9293000\nE-Mail: info@urania-treuhand.ch\nInternet: www.urania-treuhand.ch\nWebprogrammierung\ndigiplus Webmarketing Agentur\nPostfach 132\n9240 Uzwil\nVertretungsberechtigte Person(en)\nRoger Brunner, Geschäftsführer\nHandelsregister-Eintrag:\nUrania Treuhand AG\nBahnhofstrasse 82\n9240 Uzwil\nUID\n-Nr.CHE-131.255.683\nHaftungsausschluss\nDer Autor übernimmt keinerlei Gewähr hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der Informationen.\nHaftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen.\nAlle Angebote sind unverbindlich. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne besondere Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.\nHaftungsausschluss für Links\nVerweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs. Es wird jegliche Verantwortung für solche Webseiten abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene Gefahr des jeweiligen Nutzers.\nUrheberrechte\nDie Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf dieser Website, gehören ausschliesslich\nder Firma Urania Treuhand AG\noder den speziell genannten Rechteinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung des Urheberrechtsträgers im Voraus einzuholen.\nUzwil, 2025\nISL Light Download\nKundenlogin\nUzwil\nBahnhofstrasse 82, 9240 Uzwil\n+41 71 929 30 00\ninfo@urania-treuhand.ch\nNiederwil\nIm Dorf 17, 9203 Niederwil\n+41 71 944 22 11\ninfo@urania-treuhand.ch\nBerneck\nAuerstrasse 37,  9442 Berneck\n+41 71 744 09 71\ninfo@urania-treuhand.ch\nDatenschutz\nImpressum\nDiese Website benutzt Cookies. Wenn du die Website weiter nutzt, gehen wir von deinem Einverständnis aus.\nOK\nNein\nDatenschutzerklärung",
+      "text_len": 2243,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.urania-treuhand.ch/impressum/#content",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.urania-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.urania-treuhand.ch/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über Uns",
+          "href": "https://www.urania-treuhand.ch/ueberuns/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "ISL Light Download",
+          "href": "https://www.islonline.net/start/isllightclient",
+          "internal": false
+        },
+        {
+          "text": "Kundenlogin",
+          "href": "https://www.urania-treuhand.ch/impressum/#",
+          "internal": true
+        },
+        {
+          "text": "+41 71 929 30 00",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 944 22 11",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 744 09 71",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Datenschutz",
+          "href": "http://urania-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "http://urania-treuhand.ch/impressum/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/IMG_0262.jpeg",
+          "alt": "Treuhand_suisse",
+          "width": "552",
+          "height": "156"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+          "alt": "logo urania treuhand cmyk",
+          "width": "1024",
+          "height": "550"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/impressum/",
+              "url": "https://www.urania-treuhand.ch/impressum/",
+              "name": "Impressum - Urania Treuhand AG",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "datePublished": "2026-02-06T17:29:25+00:00",
+              "dateModified": "2026-02-14T12:55:05+00:00",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/impressum/#breadcrumb"
+              },
+              "inLanguage": "de",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://www.urania-treuhand.ch/impressum/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/impressum/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Startseite",
+                  "item": "https://www.urania-treuhand.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Impressum"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "url": "https://www.urania-treuhand.ch/",
+              "name": "Urania Treuhand AG",
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.urania-treuhand.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "name": "Urania Treuhand AG",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/impressum#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/impressum#person"
+              },
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/",
+              "potentialAction": {
+                "@id": "https://www.urania-treuhand.ch/#searchaction"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/impressum#webpage",
+              "name": "Impressum",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/impressum#person"
+              },
+              "inLanguage": "de",
+              "url": "https://www.urania-treuhand.ch/impressum",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/impressum#breadcrumblist"
+              },
+              "contributor": {
+                "@id": "https://www.urania-treuhand.ch/impressum#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/impressum#person"
+              },
+              "datePublished": "2026-02-06T17:29:25+00:00",
+              "dateModified": "2026-02-14T12:55:05+00:00",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://www.urania-treuhand.ch/#organization",
+              "name": "Urania Treuhand AG",
+              "founder": [
+                {
+                  "@type": "Person",
+                  "name": "admin"
+                }
+              ],
+              "logo": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1.jpg",
+              "slogan": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/ "
+            },
+            {
+              "@type": "BreadcrumbList",
+              "name": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/impressum#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch",
+                    "name": "Home"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch/impressum/",
+                    "name": "Impressum"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "SearchAction",
+              "@id": "https://www.urania-treuhand.ch/#searchaction",
+              "target": "https://www.urania-treuhand.ch/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "%20info@urania-treuhand.ch",
+        "info@urania-treuhand.ch"
+      ],
+      "phones": [
+        "+41 71 744 09 71",
+        "+41 71 929 30 00",
+        "+41 71 944 22 11",
+        "071 9293000"
+      ],
+      "raw_html": "raw_html/004__impressum.html"
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/kontakt/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Kontakt - Urania Treuhand AG",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Kontakt - Urania Treuhand AG",
+        "og:description": "Kontakt Hier sind wir für dich da Uzwil Hauptgeschäft Bahnhofstrasse 82, 9240 Uzwil Facebook-f Instagram",
+        "og:url": "https://www.urania-treuhand.ch/kontakt/",
+        "og:site_name": "Urania Treuhand AG",
+        "article:modified_time": "2026-02-08T23:29:53+00:00",
+        "twitter:card": "summary_large_image",
+        "twitter:label1": "Geschätzte Lesezeit",
+        "twitter:data1": "1 Minute",
+        "description": "Kontakt Hier sind wir für dich da Uzwil Hauptgeschäft Bahnhofstrasse 82, 9240 Uzwil Facebook-f Instagram",
+        "robots": "index, follow",
+        "article:published_time": "2025-08-04T12:04:43+00:00",
+        "twitter:title": "Kontakt - Urania Treuhand AG",
+        "twitter:description": "Kontakt Hier sind wir für dich da Uzwil Hauptgeschäft Bahnhofstrasse 82, 9240 Uzwil Facebook-f Instagram",
+        "generator": "Elementor 4.1.1; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-270x270.jpg"
+      },
+      "canonical": "https://www.urania-treuhand.ch/kontakt/",
+      "headings": {
+        "h1": [
+          "Kontakt"
+        ],
+        "h3": [
+          "Hier sind wir für dich da",
+          "Uzwil",
+          "Uzwil",
+          "Niederwil",
+          "Berneck"
+        ],
+        "h4": [
+          "Hauptgeschäft"
+        ],
+        "h6": [
+          "Bahnhofstrasse 82, 9240 Uzwil"
+        ]
+      },
+      "text": "Kontakt - Urania Treuhand AG\nZum Inhalt springen\nHome\nDienstleistungen\nÜber Uns\nKontakt\nKontakt\nHier sind wir für dich da\nUzwil\nHauptgeschäft\nBahnhofstrasse 82, 9240 Uzwil\n+41 71 929 30 00\ninfo@urania-treuhand.ch\nFacebook-f\nInstagram\nISL Light Download\nKundenlogin\nUzwil\nBahnhofstrasse 82, 9240 Uzwil\n+41 71 929 30 00\ninfo@urania-treuhand.ch\nNiederwil\nIm Dorf 17, 9203 Niederwil\n+41 71 944 22 11\ninfo@urania-treuhand.ch\nBerneck\nAuerstrasse 37,  9442 Berneck\n+41 71 744 09 71\ninfo@urania-treuhand.ch\nDatenschutz\nImpressum\nDiese Website benutzt Cookies. Wenn du die Website weiter nutzt, gehen wir von deinem Einverständnis aus.\nOK\nNein\nDatenschutzerklärung",
+      "text_len": 655,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.urania-treuhand.ch/kontakt/#content",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.urania-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.urania-treuhand.ch/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über Uns",
+          "href": "https://www.urania-treuhand.ch/ueberuns/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "+41 71 929 30 00",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Facebook-f",
+          "href": "https://www.facebook.com/uraniatreuhand/?locale=de_DE",
+          "internal": false
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/uraniatreuhand/?hl=de",
+          "internal": false
+        },
+        {
+          "text": "ISL Light Download",
+          "href": "https://www.islonline.net/start/isllightclient",
+          "internal": false
+        },
+        {
+          "text": "Kundenlogin",
+          "href": "https://www.urania-treuhand.ch/kontakt/#",
+          "internal": true
+        },
+        {
+          "text": "+41 71 929 30 00",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 944 22 11",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 744 09 71",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Datenschutz",
+          "href": "http://urania-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "http://urania-treuhand.ch/impressum/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/IMG_0262.jpeg",
+          "alt": "Treuhand_suisse",
+          "width": "552",
+          "height": "156"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+          "alt": "logo urania treuhand cmyk",
+          "width": "1024",
+          "height": "550"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/kontakt/",
+              "url": "https://www.urania-treuhand.ch/kontakt/",
+              "name": "Kontakt - Urania Treuhand AG",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "datePublished": "2025-08-04T12:04:43+00:00",
+              "dateModified": "2026-02-08T23:29:53+00:00",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/kontakt/#breadcrumb"
+              },
+              "inLanguage": "de",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://www.urania-treuhand.ch/kontakt/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/kontakt/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Startseite",
+                  "item": "https://www.urania-treuhand.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Kontakt"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "url": "https://www.urania-treuhand.ch/",
+              "name": "Urania Treuhand AG",
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.urania-treuhand.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "name": "Urania Treuhand AG",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/kontakt#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/kontakt#person"
+              },
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/",
+              "potentialAction": {
+                "@id": "https://www.urania-treuhand.ch/#searchaction"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/kontakt#webpage",
+              "name": "Kontakt",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/kontakt#person"
+              },
+              "inLanguage": "de",
+              "url": "https://www.urania-treuhand.ch/kontakt",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/kontakt#breadcrumblist"
+              },
+              "contributor": {
+                "@id": "https://www.urania-treuhand.ch/kontakt#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/kontakt#person"
+              },
+              "datePublished": "2025-08-04T12:04:43+00:00",
+              "dateModified": "2026-02-08T23:29:53+00:00",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://www.urania-treuhand.ch/#organization",
+              "name": "Urania Treuhand AG",
+              "founder": [
+                {
+                  "@type": "Person",
+                  "name": "admin"
+                }
+              ],
+              "logo": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1.jpg",
+              "slogan": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/ "
+            },
+            {
+              "@type": "BreadcrumbList",
+              "name": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/kontakt#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch",
+                    "name": "Home"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch/kontakt/",
+                    "name": "Kontakt"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "SearchAction",
+              "@id": "https://www.urania-treuhand.ch/#searchaction",
+              "target": "https://www.urania-treuhand.ch/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "%20info@urania-treuhand.ch",
+        "info@urania-treuhand.ch"
+      ],
+      "phones": [
+        "+41 71 744 09 71",
+        "+41 71 929 30 00",
+        "+41 71 944 22 11"
+      ],
+      "raw_html": "raw_html/005__kontakt.html"
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/sample-page/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Sample Page - Urania Treuhand AG",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Sample Page - Urania Treuhand AG",
+        "og:description": "This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most",
+        "og:url": "https://www.urania-treuhand.ch/sample-page/",
+        "og:site_name": "Urania Treuhand AG",
+        "twitter:card": "summary_large_image",
+        "twitter:label1": "Geschätzte Lesezeit",
+        "twitter:data1": "1 Minute",
+        "description": "This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most",
+        "robots": "index, follow",
+        "article:published_time": "2025-07-21T11:03:56+00:00",
+        "article:modified_time": "2025-07-21T11:03:56+00:00",
+        "twitter:title": "Sample Page - Urania Treuhand AG",
+        "twitter:description": "This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most",
+        "generator": "Elementor 4.1.1; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-270x270.jpg"
+      },
+      "canonical": "https://www.urania-treuhand.ch/sample-page/",
+      "headings": {
+        "h1": [
+          "Sample Page"
+        ],
+        "h3": [
+          "Uzwil",
+          "Niederwil",
+          "Berneck"
+        ]
+      },
+      "text": "Sample Page - Urania Treuhand AG\nZum Inhalt springen\nHome\nDienstleistungen\nÜber Uns\nKontakt\nSample Page\nThis is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\nHi there! I’m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin‘ caught in the rain.)\n…or something like this:\nThe XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.\nAs a new WordPress user, you should go to\nyour dashboard\nto delete this page and create new pages for your content. Have fun!\nISL Light Download\nKundenlogin\nUzwil\nBahnhofstrasse 82, 9240 Uzwil\n+41 71 929 30 00\ninfo@urania-treuhand.ch\nNiederwil\nIm Dorf 17, 9203 Niederwil\n+41 71 944 22 11\ninfo@urania-treuhand.ch\nBerneck\nAuerstrasse 37,  9442 Berneck\n+41 71 744 09 71\ninfo@urania-treuhand.ch\nDatenschutz\nImpressum\nDiese Website benutzt Cookies. Wenn du die Website weiter nutzt, gehen wir von deinem Einverständnis aus.\nOK\nNein\nDatenschutzerklärung",
+      "text_len": 1377,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.urania-treuhand.ch/sample-page/#content",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.urania-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.urania-treuhand.ch/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über Uns",
+          "href": "https://www.urania-treuhand.ch/ueberuns/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "your dashboard",
+          "href": "https://www.urania-treuhand.ch/wp-admin/",
+          "internal": true
+        },
+        {
+          "text": "ISL Light Download",
+          "href": "https://www.islonline.net/start/isllightclient",
+          "internal": false
+        },
+        {
+          "text": "Kundenlogin",
+          "href": "https://www.urania-treuhand.ch/sample-page/#",
+          "internal": true
+        },
+        {
+          "text": "+41 71 929 30 00",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 944 22 11",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 744 09 71",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Datenschutz",
+          "href": "http://urania-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "http://urania-treuhand.ch/impressum/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/IMG_0262.jpeg",
+          "alt": "Treuhand_suisse",
+          "width": "552",
+          "height": "156"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+          "alt": "logo urania treuhand cmyk",
+          "width": "1024",
+          "height": "550"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/sample-page/",
+              "url": "https://www.urania-treuhand.ch/sample-page/",
+              "name": "Sample Page - Urania Treuhand AG",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "datePublished": "2025-07-21T11:03:56+00:00",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/sample-page/#breadcrumb"
+              },
+              "inLanguage": "de",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://www.urania-treuhand.ch/sample-page/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/sample-page/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Startseite",
+                  "item": "https://www.urania-treuhand.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Sample Page"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "url": "https://www.urania-treuhand.ch/",
+              "name": "Urania Treuhand AG",
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.urania-treuhand.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "name": "Urania Treuhand AG",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/sample-page#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/sample-page#person"
+              },
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/",
+              "potentialAction": {
+                "@id": "https://www.urania-treuhand.ch/#searchaction"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/sample-page#webpage",
+              "name": "Sample Page",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/sample-page#person"
+              },
+              "inLanguage": "de",
+              "url": "https://www.urania-treuhand.ch/sample-page",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/sample-page#breadcrumblist"
+              },
+              "contributor": {
+                "@id": "https://www.urania-treuhand.ch/sample-page#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/sample-page#person"
+              },
+              "datePublished": "2025-07-21T11:03:56+00:00",
+              "dateModified": "2025-07-21T11:03:56+00:00",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://www.urania-treuhand.ch/#organization",
+              "name": "Urania Treuhand AG",
+              "founder": [
+                {
+                  "@type": "Person",
+                  "name": "admin"
+                }
+              ],
+              "logo": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1.jpg",
+              "slogan": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/ "
+            },
+            {
+              "@type": "BreadcrumbList",
+              "name": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/sample-page#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch",
+                    "name": "Home"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch/sample-page/",
+                    "name": "Sample Page"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "SearchAction",
+              "@id": "https://www.urania-treuhand.ch/#searchaction",
+              "target": "https://www.urania-treuhand.ch/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "%20info@urania-treuhand.ch",
+        "info@urania-treuhand.ch"
+      ],
+      "phones": [
+        "+41 71 744 09 71",
+        "+41 71 929 30 00",
+        "+41 71 944 22 11"
+      ],
+      "raw_html": "raw_html/006__sample-page.html"
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/ueberuns/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Über Uns - Urania Treuhand AG",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Über Uns - Urania Treuhand AG",
+        "og:description": "Über uns Wir sind das Urania Team Meilensteine der Urania Treuhand AG Urania Meilensteine In den letzten 42 Jahren haben wir einiges erreicht! 1983 Gründung",
+        "og:url": "https://www.urania-treuhand.ch/ueberuns/",
+        "og:site_name": "Urania Treuhand AG",
+        "article:modified_time": "2026-05-28T19:59:25+00:00",
+        "og:image": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8931-scaled-rikejx48d64he0ipwa0qsu9xna4pynt4jk0xikvgks.jpg",
+        "twitter:card": "summary_large_image",
+        "twitter:label1": "Geschätzte Lesezeit",
+        "twitter:data1": "5 Minuten",
+        "description": "Über uns Wir sind das Urania Team Meilensteine der Urania Treuhand AG Urania Meilensteine In den letzten 42 Jahren haben wir einiges erreicht! 1983 Gründung",
+        "robots": "index, follow",
+        "article:published_time": "2025-08-04T12:04:43+00:00",
+        "twitter:title": "Über Uns - Urania Treuhand AG",
+        "twitter:description": "Über uns Wir sind das Urania Team Meilensteine der Urania Treuhand AG Urania Meilensteine In den letzten 42 Jahren haben wir einiges erreicht! 1983 Gründung",
+        "generator": "Elementor 4.1.1; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-270x270.jpg"
+      },
+      "canonical": "https://www.urania-treuhand.ch/ueberuns/",
+      "headings": {
+        "h1": [
+          "Über uns"
+        ],
+        "h2": [
+          "Urania Meilensteine",
+          "Urania Team Uzwil",
+          "Urania Team Niederwil",
+          "Urania Team Berneck"
+        ],
+        "h3": [
+          "Wir sind das Urania Team",
+          "Urania Treuhand AG",
+          "Roger Brunner",
+          "Romea Wieland",
+          "Chantal Sutter",
+          "Claudia Hobi",
+          "Nikolina Dekic",
+          "Sarah Büchel",
+          "Roger Brunner",
+          "Martina Lloçi",
+          "Hakan Alemdar",
+          "Roger Brunner",
+          "Monika Kuster",
+          "Doris Schneider",
+          "Hier könntest Du sein",
+          "Zahlen sprechen für sich",
+          "Uzwil",
+          "Niederwil",
+          "Berneck"
+        ],
+        "h6": [
+          "Meilensteine der Urania Treuhand AG"
+        ]
+      },
+      "text": "Über Uns - Urania Treuhand AG\nZum Inhalt springen\nHome\nDienstleistungen\nÜber Uns\nKontakt\nÜber uns\nWir sind das Urania Team\nMeilensteine der Urania Treuhand AG\nUrania Meilensteine\nIn den letzten 42 Jahren haben wir einiges erreicht!\n1983\nGründung der Urania Treuhand AG\n2013\nGeschäftsübergabe von Hans-Peter Hirt an Roger Brunner\n2019\nGeschäftsübernahme der Lenz Treuhand AG in Uzwil und Übernahme des Standorts in Uzwil mit drei Angestellten\n2021\nGeschäftsübernahme der Gobbo AG in St. Gallen mit zwei Angestellten\n2026/27\nGeschäftsübernahme der Einzelfirma Buchhaltung Schlegel, Edith Schlegel in Berneck mit zwei Angestellten\nDas Team ist alles\nUrania Treuhand AG\nUrania Team Uzwil\nRoger Brunner\nGeschäftsführer\ndipl. Treuhandexperte und\nzugelassener Revisor\nPhone\nEnvelope\nLinkedin-in\nRomea Wieland\nStv. Geschäftsführerin / seit 2018\nTreuhänderin mit eidg. Fachausweis und zugelassene Revisorin\nPhone\nEnvelope\nLinkedin-in\nChantal Sutter\nseit 2014\nSachbearbeiterin Treuhand\nund Rechnungswesen\nPhone\nEnvelope\nClaudia Hobi\nseit 2007\nzertifizierte Sachbearbeiterin\nRechnungswesen\nPhone\nEnvelope\nNikolina Dekic\nseit 2001\nFachfrau Finanz- und Rechnungswesen mit eidg. FA\nPhone\nEnvelope\nSarah Büchel\nseit 2025\nTreuhänderin mit eidg. Fachausweis  in Ausbildung\nPhone\nEnvelope\nUrania Team Niederwil\nRoger Brunner\nGeschäftsführer\ndipl. Treuhandexperte und\nzugelassener Revisor\nPhone\nEnvelope\nLinkedin-in\nMartina Lloçi\nseit 2017\nTreuhänderin mit eidg. Fachausweis\nPhone\nEnvelope\nHakan Alemdar\nseit 2015\nSachbearbeiter Treuhand\nund Rechnungswesen\nPhone\nEnvelope\nUrania Team Berneck\nRoger Brunner\nGeschäftsführer\ndipl. Treuhandexperte und\nzugelassener Revisor\nPhone\nEnvelope\nLinkedin-in\nMonika Kuster\nseit 2004\nzertifizierte Sachbearbeiterin\nTreuhand und Rechnungswesen\nPhone\nEnvelope\nDoris Schneider\nseit 2019\nSachbearbeiterin\nTreuhand und Rechnungswesen\nPhone\nEnvelope\nHier könntest Du sein\nWir suchen motivierte gut ausgebildete Mitarbeiter\nPhone\nEnvelope\nZahlen sprechen für sich\nBüros\n0\nMitarbeiter\n1\nGründung\n0\nØ Dienstalter\nISL Light Download\nKundenlogin\nUzwil\nBahnhofstrasse 82, 9240 Uzwil\n+41 71 929 30 00\ninfo@urania-treuhand.ch\nNiederwil\nIm Dorf 17, 9203 Niederwil\n+41 71 944 22 11\ninfo@urania-treuhand.ch\nBerneck\nAuerstrasse 37,  9442 Berneck\n+41 71 744 09 71\ninfo@urania-treuhand.ch\nDatenschutz\nImpressum\nDiese Website benutzt Cookies. Wenn du die Website weiter nutzt, gehen wir von deinem Einverständnis aus.\nOK\nNein\nDatenschutzerklärung",
+      "text_len": 2442,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.urania-treuhand.ch/ueberuns/#content",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.urania-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.urania-treuhand.ch/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über Uns",
+          "href": "https://www.urania-treuhand.ch/ueberuns/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.urania-treuhand.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%2071%20929%2030%2001",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:r.brunner@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Linkedin-in",
+          "href": "http://ex@3g%uasMpxVZc@c!WMvzFY",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%2071%20929%2030%2005",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:r.wieland@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Linkedin-in",
+          "href": "https://www.linkedin.com/in/romea-schefer-51140119b/",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%20",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:c.sutter@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%2071%20929%2030%2003",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:c.hobi@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%2071%20244%2040%2040%20",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:%20n.dekic@urania-treuhand.ch%20%20",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%2071%20929%2030%2003",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:s.büchel@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%2071%20929%2030%2001",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:r.brunner@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Linkedin-in",
+          "href": "https://www.linkedin.com/in/roger-brunner-992492291/",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%2071%20929%2030%2006",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:m.lloci@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%2071%20929%2030%2007",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:m.alemdar@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:r.brunner@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:m.stark@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:h.alemdar@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%2071%20929%2030%2001",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:r.brunner@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Linkedin-in",
+          "href": "http://ex@3g%uasMpxVZc@c!WMvzFY",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%20",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:r.brunner@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%20",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:r.brunner@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Phone",
+          "href": "tel:+41%20",
+          "internal": false
+        },
+        {
+          "text": "Envelope",
+          "href": "mailto:r.brunner@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:+41%20",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "tel:+41%20",
+          "internal": false
+        },
+        {
+          "text": "ISL Light Download",
+          "href": "https://www.islonline.net/start/isllightclient",
+          "internal": false
+        },
+        {
+          "text": "Kundenlogin",
+          "href": "https://www.urania-treuhand.ch/ueberuns/#",
+          "internal": true
+        },
+        {
+          "text": "+41 71 929 30 00",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 944 22 11",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "+41 71 744 09 71",
+          "href": "tel:%20+41%2071%20929%2030%2000",
+          "internal": false
+        },
+        {
+          "text": "info@urania-treuhand.ch",
+          "href": "mailto:%20info@urania-treuhand.ch",
+          "internal": false
+        },
+        {
+          "text": "Datenschutz",
+          "href": "http://urania-treuhand.ch/datenschutz/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "http://urania-treuhand.ch/impressum/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8931-scaled-rikejx48d64he0ipwa0qsu9xna4pynt4jk0xikvgks.jpg",
+          "alt": "Roger",
+          "title": "Roger"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8956-scaled-rikeke1bs6rn6zu55hc11q08c7tbt7oalvro5k6dgs.jpg",
+          "alt": "romea",
+          "title": "romea"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A9020-scaled-e1770122764377-rim0h74k4mpnz9jcc5g0v4mcde279f7uwq2mef0er0.jpg",
+          "alt": "Chantal",
+          "title": "Chantal"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A9050-scaled-e1770123193515-rim0sedbkk1obz9lxhqz2sv37ounzkopg5xxa4eilo.jpg",
+          "alt": "claudia",
+          "title": "claudia"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A9035-scaled-e1770123459610-rim0zcee2hjy496fdhtqi1rp86mav29b2jh2xq3smk.jpg",
+          "alt": "nikolina",
+          "title": "Über Uns"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A9002-scaled-e1770123913281-rim1b75499s4j7yk5macy22yx46xxnbg17nitcj25o.jpg",
+          "alt": "Sarah",
+          "title": "Über Uns"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8931-scaled-rikejx48d64he0ipwa0qsu9xna4pynt4jk0xikvgks.jpg",
+          "alt": "Roger",
+          "title": "Roger"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A9067-scaled-e1770122135920-rim00rw2pu8b4je58jvosrteq10brt0ozfq7jdd1gs.jpg",
+          "alt": "martina",
+          "title": "martina"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8942-scaled-e1770123330941-rim0vz57kuxyik2k1jev2ed8lh7ya3vxlvbg113kx8.jpg",
+          "alt": "hakan",
+          "title": "hakan"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8931-scaled-rikejx48d64he0ipwa0qsu9xna4pynt4jk0xikvgks.jpg",
+          "alt": "Roger",
+          "title": "Roger"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8985-scaled-e1770123765661-rim17c105shosxkmpy5kp16r038mafz6633nse9bqk.jpg",
+          "alt": "Monika",
+          "title": "Monika"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8975-scaled-rikekkm7410ng9kl326f16cghwwwb3eeysc2ihwm98.jpg",
+          "alt": "064A8975 Scaled Rikekkm7410ng9kl326f16cghwwwb3eeysc2ihwm98",
+          "title": "Über Uns"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/user-296689_1280-e1762177125122-re5xo9z6zycoos3leiyt3o34rsj71mqrci4oi1dx2k.png",
+          "alt": "user_urania",
+          "title": "user_urania"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2026/03/roger_neu.png",
+          "alt": "roger neu",
+          "title": "Über Uns",
+          "width": "1706",
+          "height": "2560"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/IMG_0262.jpeg",
+          "alt": "Treuhand_suisse",
+          "width": "552",
+          "height": "156"
+        },
+        {
+          "src": "https://www.urania-treuhand.ch/wp-content/uploads/2025/08/cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+          "alt": "logo urania treuhand cmyk",
+          "width": "1024",
+          "height": "550"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/ueberuns/",
+              "url": "https://www.urania-treuhand.ch/ueberuns/",
+              "name": "Über Uns - Urania Treuhand AG",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://www.urania-treuhand.ch/ueberuns/#primaryimage"
+              },
+              "image": {
+                "@id": "https://www.urania-treuhand.ch/ueberuns/#primaryimage"
+              },
+              "thumbnailUrl": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8931-scaled-rikejx48d64he0ipwa0qsu9xna4pynt4jk0xikvgks.jpg",
+              "datePublished": "2025-08-04T12:04:43+00:00",
+              "dateModified": "2026-05-28T19:59:25+00:00",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/ueberuns/#breadcrumb"
+              },
+              "inLanguage": "de",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://www.urania-treuhand.ch/ueberuns/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "de",
+              "@id": "https://www.urania-treuhand.ch/ueberuns/#primaryimage",
+              "url": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8931-scaled-rikejx48d64he0ipwa0qsu9xna4pynt4jk0xikvgks.jpg",
+              "contentUrl": "https://www.urania-treuhand.ch/wp-content/uploads/elementor/thumbs/064A8931-scaled-rikejx48d64he0ipwa0qsu9xna4pynt4jk0xikvgks.jpg"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/ueberuns/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Startseite",
+                  "item": "https://www.urania-treuhand.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Über Uns"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "url": "https://www.urania-treuhand.ch/",
+              "name": "Urania Treuhand AG",
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.urania-treuhand.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://www.urania-treuhand.ch/#website",
+              "name": "Urania Treuhand AG",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/ueberuns#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/ueberuns#person"
+              },
+              "description": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/",
+              "potentialAction": {
+                "@id": "https://www.urania-treuhand.ch/#searchaction"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://www.urania-treuhand.ch/ueberuns#webpage",
+              "name": "Über Uns",
+              "author": {
+                "@id": "https://www.urania-treuhand.ch/ueberuns#person"
+              },
+              "inLanguage": "de",
+              "url": "https://www.urania-treuhand.ch/ueberuns",
+              "breadcrumb": {
+                "@id": "https://www.urania-treuhand.ch/ueberuns#breadcrumblist"
+              },
+              "contributor": {
+                "@id": "https://www.urania-treuhand.ch/ueberuns#person"
+              },
+              "copyrightHolder": {
+                "@id": "https://www.urania-treuhand.ch/ueberuns#person"
+              },
+              "datePublished": "2025-08-04T12:04:43+00:00",
+              "dateModified": "2026-05-28T19:59:25+00:00",
+              "isPartOf": {
+                "@id": "https://www.urania-treuhand.ch/#website"
+              },
+              "publisher": {
+                "@id": "https://www.urania-treuhand.ch/#organization"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://www.urania-treuhand.ch/#organization",
+              "name": "Urania Treuhand AG",
+              "founder": [
+                {
+                  "@type": "Person",
+                  "name": "admin"
+                }
+              ],
+              "logo": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1.jpg",
+              "slogan": "Urania Treuhand Steuerberatung Uzwil",
+              "url": "https://www.urania-treuhand.ch/ "
+            },
+            {
+              "@type": "BreadcrumbList",
+              "name": "BreadcrumbList",
+              "@id": "https://www.urania-treuhand.ch/ueberuns#breadcrumblist",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch",
+                    "name": "Home"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                    "@id": "https://www.urania-treuhand.ch/ueberuns/",
+                    "name": "Über Uns"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "SearchAction",
+              "@id": "https://www.urania-treuhand.ch/#searchaction",
+              "target": "https://www.urania-treuhand.ch/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "%20info@urania-treuhand.ch",
+        "%20n.dekic@urania-treuhand.ch%20%20",
+        "c.hobi@urania-treuhand.ch",
+        "c.sutter@urania-treuhand.ch",
+        "h.alemdar@urania-treuhand.ch",
+        "info@urania-treuhand.ch",
+        "m.alemdar@urania-treuhand.ch",
+        "m.lloci@urania-treuhand.ch",
+        "m.stark@urania-treuhand.ch",
+        "r.brunner@urania-treuhand.ch",
+        "r.wieland@urania-treuhand.ch",
+        "s.büchel@urania-treuhand.ch"
+      ],
+      "phones": [
+        "+41 71 744 09 71",
+        "+41 71 929 30 00",
+        "+41 71 944 22 11"
+      ],
+      "raw_html": "raw_html/007__ueberuns.html"
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/wp-login.php?redirect_to=https%3A%2F%2Fwww.urania-treuhand.ch%2Fwp-admin%2F&reauth=1",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Anmelden ‹ Urania Treuhand AG – WordPress",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "robots": "noindex, noarchive",
+        "referrer": "strict-origin-when-cross-origin",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "msapplication-tileimage": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-270x270.jpg"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Anmelden",
+          "Präsentiert von WordPress"
+        ]
+      },
+      "text": "Anmelden ‹ Urania Treuhand AG – WordPress\nAnmelden\nPräsentiert von WordPress\nBenutzername oder E-Mail-Adresse\nPasswort\nAngemeldet bleiben\nPasswort vergessen?\n← Zu Urania Treuhand AG\nDatenschutz\nSprache\nEnglish (United States)\nDeutsch\nDiese Website benutzt Cookies. Wenn du die Website weiter nutzt, gehen wir von deinem Einverständnis aus.\nOK\nNein\nDatenschutzerklärung",
+      "text_len": 368,
+      "links": [
+        {
+          "text": "Präsentiert von WordPress",
+          "href": "https://de.wordpress.org/",
+          "internal": false
+        },
+        {
+          "text": "Passwort vergessen?",
+          "href": "https://www.urania-treuhand.ch/wp-login.php?action=lostpassword",
+          "internal": true
+        },
+        {
+          "text": "← Zu Urania Treuhand AG",
+          "href": "https://www.urania-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.urania-treuhand.ch/datenschutz/",
+          "internal": true
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://www.urania-treuhand.ch/wp-login.php",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "log",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "password",
+              "name": "pwd",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "rememberme",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "wp-submit",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "redirect_to",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "testcookie",
+              "placeholder": null
+            }
+          ]
+        },
+        {
+          "action": null,
+          "method": "get",
+          "fields": [
+            {
+              "tag": "select",
+              "type": null,
+              "name": "wp_lang",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "redirect_to",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/008__wp-login__q_756cf483.html"
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/wp-login.php?action=lostpassword",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Passwort zurücksetzen ‹ Urania Treuhand AG – WordPress",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "robots": "noindex, noarchive",
+        "referrer": "strict-origin-when-cross-origin",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "msapplication-tileimage": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-270x270.jpg"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Passwort zurücksetzen",
+          "Präsentiert von WordPress"
+        ]
+      },
+      "text": "Passwort zurücksetzen ‹ Urania Treuhand AG – WordPress\nPasswort zurücksetzen\nPräsentiert von WordPress\nBitte gib deinen Benutzernamen oder deine E-Mail-Adresse ein. Du erhältst eine E-Mail mit Anweisungen, wie du dein Passwort zurücksetzen kannst.\nBenutzername oder E-Mail-Adresse\nAnmelden\n← Zu Urania Treuhand AG\nDatenschutz\nSprache\nEnglish (United States)\nDeutsch\nDiese Website benutzt Cookies. Wenn du die Website weiter nutzt, gehen wir von deinem Einverständnis aus.\nOK\nNein\nDatenschutzerklärung",
+      "text_len": 500,
+      "links": [
+        {
+          "text": "Präsentiert von WordPress",
+          "href": "https://de.wordpress.org/",
+          "internal": false
+        },
+        {
+          "text": "Anmelden",
+          "href": "https://www.urania-treuhand.ch/wp-login.php",
+          "internal": true
+        },
+        {
+          "text": "← Zu Urania Treuhand AG",
+          "href": "https://www.urania-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.urania-treuhand.ch/datenschutz/",
+          "internal": true
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://www.urania-treuhand.ch/wp-login.php?action=lostpassword",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "user_login",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "redirect_to",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "wp-submit",
+              "placeholder": null
+            }
+          ]
+        },
+        {
+          "action": null,
+          "method": "get",
+          "fields": [
+            {
+              "tag": "select",
+              "type": null,
+              "name": "wp_lang",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "action",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/009__wp-login__q_c2b67566.html"
+    },
+    {
+      "url": "https://www.urania-treuhand.ch/wp-login.php",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Anmelden ‹ Urania Treuhand AG – WordPress",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "robots": "noindex, noarchive",
+        "referrer": "strict-origin-when-cross-origin",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "msapplication-tileimage": "https://www.urania-treuhand.ch/wp-content/uploads/2026/02/cropped-064A9275-scaled-1-270x270.jpg"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Anmelden",
+          "Präsentiert von WordPress"
+        ]
+      },
+      "text": "Anmelden ‹ Urania Treuhand AG – WordPress\nAnmelden\nPräsentiert von WordPress\nBenutzername oder E-Mail-Adresse\nPasswort\nAngemeldet bleiben\nPasswort vergessen?\n← Zu Urania Treuhand AG\nDatenschutz\nSprache\nEnglish (United States)\nDeutsch\nDiese Website benutzt Cookies. Wenn du die Website weiter nutzt, gehen wir von deinem Einverständnis aus.\nOK\nNein\nDatenschutzerklärung",
+      "text_len": 368,
+      "links": [
+        {
+          "text": "Präsentiert von WordPress",
+          "href": "https://de.wordpress.org/",
+          "internal": false
+        },
+        {
+          "text": "Passwort vergessen?",
+          "href": "https://www.urania-treuhand.ch/wp-login.php?action=lostpassword",
+          "internal": true
+        },
+        {
+          "text": "← Zu Urania Treuhand AG",
+          "href": "https://www.urania-treuhand.ch/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.urania-treuhand.ch/datenschutz/",
+          "internal": true
+        }
+      ],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://www.urania-treuhand.ch/wp-login.php",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "log",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "password",
+              "name": "pwd",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "rememberme",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "wp-submit",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "redirect_to",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "testcookie",
+              "placeholder": null
+            }
+          ]
+        },
+        {
+          "action": null,
+          "method": "get",
+          "fields": [
+            {
+              "tag": "select",
+              "type": null,
+              "name": "wp_lang",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/010__wp-login.html"
+    }
+  ]
+}

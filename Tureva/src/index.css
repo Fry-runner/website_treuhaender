@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-brand-green: #34FF18;
+  --color-brand-graphite: #2D3136; /* Softer graphite tone for pristine readable text on white */
+  --color-brand-light-gray: #F0F2F4; /* Softer grid boundary */
+  --color-brand-mid-gray: #828E99; /* Softer subtitle text */
+}
+
+@layer base {
+  body {
+    background-color: #FFFFFF;
+    color: #2D3136;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom scrollbars and styling utilities with soft roundness */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F0F2F4;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #828E99;
+}
+
+/* Active CTA scrolling enhancement styles with dynamic green bloom */
+.cta-btn-interactive {
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.cta-btn-interactive.vibrant-active {
+  background-color: #34FF18 !important;
+  color: #2D3136 !important;
+  border-color: transparent !important;
+  box-shadow: 0 10px 25px -5px rgba(52, 255, 24, 0.35), 0 8px 10px -6px rgba(52, 255, 24, 0.35) !important;
+}
+
+

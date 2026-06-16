@@ -1,0 +1,3092 @@
+{
+  "name": "Treuhand Zürich (treuhand-zuerich.com)",
+  "domain": "treuhand-zuerich.com",
+  "start_url": "https://www.treuhand-zuerich.com/",
+  "crawl": {
+    "complete": true,
+    "started": 1781615991.9205809,
+    "duration_sec": 35.9,
+    "pages_crawled": 13,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://www.treuhand-zuerich.com/wp-sitemap.xml\n"
+  },
+  "contact": {
+    "emails": [
+      "amir.hanna@treuhand-zuerich.com",
+      "bujar.sadiku@treuhand-zuerich.com",
+      "connie.eindiguer@treuhand-zuerich.com",
+      "georgije.lavrnja@treuhand-zuerich.com",
+      "gian.gadient@treuhand-zuerich.com",
+      "info@treuhand-zuerich.com"
+    ],
+    "phones": [
+      "+41 44 204 20 10",
+      "044 204 20 10"
+    ]
+  },
+  "assets": {
+    "downloaded": 38,
+    "failed": 0,
+    "total_bytes": 5154445,
+    "manifest": [
+      {
+        "url": "https://www.treuhand-zuerich.com/favicon.ico",
+        "ok": true,
+        "file": "assets/40cc6e8a83__favicon.ico",
+        "content_type": "image/png",
+        "bytes": 6228
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+        "ok": true,
+        "file": "assets/d535db4476__Asset-1treuhand.svg",
+        "content_type": "image/svg+xml",
+        "bytes": 3324
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-4treuhandzh.png",
+        "ok": true,
+        "file": "assets/35682f9359__Asset-4treuhandzh.png",
+        "content_type": "image/png",
+        "bytes": 1815
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-5treuhandzh.png",
+        "ok": true,
+        "file": "assets/77999d1203__Asset-5treuhandzh.png",
+        "content_type": "image/png",
+        "bytes": 3379
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-6treuhandzh.png",
+        "ok": true,
+        "file": "assets/88706172fd__Asset-6treuhandzh.png",
+        "content_type": "image/png",
+        "bytes": 2258
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Logo_RT-01-1.png",
+        "ok": true,
+        "file": "assets/334fba725e__Logo_RT-01-1.png",
+        "content_type": "image/png",
+        "bytes": 4157
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/buchhaltung-treuhandzh.png",
+        "ok": true,
+        "file": "assets/281bdb5612__buchhaltung-treuhandzh.png",
+        "content_type": "image/png",
+        "bytes": 1691
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+        "ok": true,
+        "file": "assets/97dfb28c77__treu-suisse-logo-verband-de.svg",
+        "content_type": "image/svg+xml",
+        "bytes": 8511
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-150x150.png",
+        "ok": true,
+        "file": "assets/9dcd8c5426__tz-fav-150x150.png",
+        "content_type": "image/png",
+        "bytes": 6228
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png",
+        "ok": true,
+        "file": "assets/f341c6fa11__tz-fav-300x300.png",
+        "content_type": "image/png",
+        "bytes": 14173
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/05/Checkliste-Jahresabschluss-AG-und-GmbH.pdf",
+        "ok": true,
+        "file": "assets/2d0265a88c__Checkliste-Jahresabschluss-AG-und-GmbH.pdf",
+        "content_type": "application/pdf",
+        "bytes": 208179
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4538-copy-1024x683.jpg",
+        "ok": true,
+        "file": "assets/ef0abbcdc3__7Q6A4538-copy-1024x683.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 95482
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4538-copy-1536x1025.jpg",
+        "ok": true,
+        "file": "assets/43c65294af__7Q6A4538-copy-1536x1025.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 142761
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4538-copy-300x200.jpg",
+        "ok": true,
+        "file": "assets/0267c2e43d__7Q6A4538-copy-300x200.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 59041
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4538-copy-768x512.jpg",
+        "ok": true,
+        "file": "assets/26efef2903__7Q6A4538-copy-768x512.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 79308
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4538-copy.jpg",
+        "ok": true,
+        "file": "assets/aba1a3fe20__7Q6A4538-copy.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 826940
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4786-copy-1024x683.jpg",
+        "ok": true,
+        "file": "assets/b2fb1bc162__7Q6A4786-copy-1024x683.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 84140
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4786-copy-1536x1025.jpg",
+        "ok": true,
+        "file": "assets/4765a76a39__7Q6A4786-copy-1536x1025.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 189563
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4786-copy-300x200.jpg",
+        "ok": true,
+        "file": "assets/1f7a24ff1e__7Q6A4786-copy-300x200.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 22393
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4786-copy-768x512.jpg",
+        "ok": true,
+        "file": "assets/bab7d46b19__7Q6A4786-copy-768x512.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 51985
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4786-copy.jpg",
+        "ok": true,
+        "file": "assets/dd5efd36af__7Q6A4786-copy.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 1206457
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A5019-copy-1024x683.jpg",
+        "ok": true,
+        "file": "assets/c10fdc5d22__7Q6A5019-copy-1024x683.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 66350
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A5019-copy-1536x1025.jpg",
+        "ok": true,
+        "file": "assets/8c4e6ac247__7Q6A5019-copy-1536x1025.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 113279
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A5019-copy-300x200.jpg",
+        "ok": true,
+        "file": "assets/5ecbe0a333__7Q6A5019-copy-300x200.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 25157
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A5019-copy-768x512.jpg",
+        "ok": true,
+        "file": "assets/b1eb75f381__7Q6A5019-copy-768x512.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 48751
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A5019-copy.jpg",
+        "ok": true,
+        "file": "assets/9c041b6866__7Q6A5019-copy.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 816239
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2024/04/Checkliste-fuer-Steuererklaerung-2023.pdf",
+        "ok": true,
+        "file": "assets/bb550e97dc__Checkliste-fuer-Steuererklaerung-2023.pdf",
+        "content_type": "application/pdf",
+        "bytes": 118074
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2025/10/DSC04363-copy-2_1-1024x683.jpg",
+        "ok": true,
+        "file": "assets/08c8157ec7__DSC04363-copy-2_1-1024x683.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 36330
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2025/10/DSC04363-copy-2_1-1536x1024.jpg",
+        "ok": true,
+        "file": "assets/20a8f7b98d__DSC04363-copy-2_1-1536x1024.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 72397
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2025/10/DSC04363-copy-2_1-300x200.jpg",
+        "ok": true,
+        "file": "assets/064f0e4e9d__DSC04363-copy-2_1-300x200.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 7415
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2025/10/DSC04363-copy-2_1-768x512.jpg",
+        "ok": true,
+        "file": "assets/dd2a6c7452__DSC04363-copy-2_1-768x512.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 23451
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2025/10/DSC04363-copy-2_1.jpg",
+        "ok": true,
+        "file": "assets/64ae5ffec6__DSC04363-copy-2_1.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 352766
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2025/12/Inserat-Sachbearbeiter.pdf",
+        "ok": true,
+        "file": "assets/f11f74f758__Inserat-Sachbearbeiter.pdf",
+        "content_type": "application/pdf",
+        "bytes": 145708
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2026/03/Gian-Gadient-quadratisch-1024x1024.jpg",
+        "ok": true,
+        "file": "assets/ab257d2bc2__Gian-Gadient-quadratisch-1024x1024.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 94758
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2026/03/Gian-Gadient-quadratisch-150x150.jpg",
+        "ok": true,
+        "file": "assets/be7a3cb28e__Gian-Gadient-quadratisch-150x150.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 3777
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2026/03/Gian-Gadient-quadratisch-300x300.jpg",
+        "ok": true,
+        "file": "assets/412804d2bc__Gian-Gadient-quadratisch-300x300.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 9928
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2026/03/Gian-Gadient-quadratisch-768x768.jpg",
+        "ok": true,
+        "file": "assets/ee9c8a293b__Gian-Gadient-quadratisch-768x768.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 51866
+      },
+      {
+        "url": "https://www.treuhand-zuerich.com/wp-content/uploads/2026/03/Gian-Gadient-quadratisch.jpg",
+        "ok": true,
+        "file": "assets/62b22def08__Gian-Gadient-quadratisch.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 150186
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://www.treuhand-zuerich.com/",
+      "title": "Treuhand Zürich – Treuhandspezialisten für Reisebüros und Reiseveranstalter",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 2214
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/author/marketingplan/",
+      "title": "marketingplan – Treuhand Zürich",
+      "raw_html": "raw_html/002__author__marketingplan.html",
+      "text_len": 668
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+      "title": "Datenschutzerklärung – Treuhand Zürich",
+      "raw_html": "raw_html/003__datenschutzerklaerung.html",
+      "text_len": 6910
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/dienstleistungen/",
+      "title": "Dienstleistungen – Treuhand Zürich",
+      "raw_html": "raw_html/004__dienstleistungen.html",
+      "text_len": 8948
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/downloads/",
+      "title": "Downloads – Treuhand Zürich",
+      "raw_html": "raw_html/005__downloads.html",
+      "text_len": 1250
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/impressum/",
+      "title": "Impressum – Treuhand Zürich",
+      "raw_html": "raw_html/006__impressum.html",
+      "text_len": 807
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/jobs/",
+      "title": "Jobs – Treuhand Zürich",
+      "raw_html": "raw_html/007__jobs.html",
+      "text_len": 2443
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/kontakt/",
+      "title": "Kontakt – Treuhand Zürich",
+      "raw_html": "raw_html/008__kontakt.html",
+      "text_len": 1020
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/kunden/",
+      "title": "Kunden – Treuhand Zürich",
+      "raw_html": "raw_html/009__kunden.html",
+      "text_len": 1463
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/reise-treuhand/",
+      "title": "Reise-Treuhand – Treuhand Zürich",
+      "raw_html": "raw_html/010__reise-treuhand.html",
+      "text_len": 1464
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+      "title": "Termin vereinbaren – Treuhand Zürich",
+      "raw_html": "raw_html/011__termin-vereinbaren.html",
+      "text_len": 1095
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/ueber-uns/",
+      "title": "Über uns – Treuhand Zürich",
+      "raw_html": "raw_html/012__ueber-uns.html",
+      "text_len": 1837
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/team",
+      "title": "Seite nicht gefunden – Treuhand Zürich",
+      "raw_html": "raw_html/013__team.html",
+      "text_len": 741
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.treuhand-zuerich.com/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Treuhand Zürich – Treuhandspezialisten für Reisebüros und Reiseveranstalter",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": "https://www.treuhand-zuerich.com/",
+      "headings": {
+        "h1": [
+          "Exakt arbeiten – genau hinschauen."
+        ],
+        "h2": [
+          "Wir erledigen das!"
+        ],
+        "h3": [
+          "Treuhandbüro ist Treuhandbüro?",
+          "Alle Mitarbeitenden sind hochqualifiziert.",
+          "Unternehmensberatung",
+          "Personaladministration",
+          "Steuerberatungen",
+          "Buchhaltung",
+          "Wir betrachten Ihre Situation umfassend",
+          "Mitgliedschaften"
+        ]
+      },
+      "text": "Treuhand Zürich – Treuhandspezialisten für Reisebüros und Reiseveranstalter\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nExakt arbeiten –\ngenau hinschauen.\nTermin vereinbaren\nWir erledigen das!\nTreuhandbüro ist Treuhandbüro?\nNicht ganz. Treuhand Zürich zeichnet sich durch mindestens drei besondere Stärken aus.\nAlle Mitarbeitenden sind hochqualifiziert.\nEs gibt bei uns also nicht einfach einen Chef, der sich auf die Sache versteht, und ein paar Sachbearbeiter, die ihn unterstützen. Wer hier arbeitet, kennt sich bis ins Detail in sämtlichen treuhänderischen Bereichen aus. Und verfolgt ambitioniert das Ziel, immer besser zu werden. Wir bilden uns ununterbrochen weiter und halten das Vieraugenprinzip hoch: Ihre Buchhaltung wird nicht nur von einer Fachperson, sondern immer von zwei Leuten kontrolliert.\nUnternehmensberatung\nPersonaladministration\nSteuerberatungen\nBuchhaltung\nWir betrachten Ihre Situation umfassend\nNatürlich bieten wir Ihnen alle Einzelleistungen an, die Sie wünschen. Aber wir werden uns stets erlauben, über den Tellerrand hinauszublicken und Ihnen Optimierungspotenziale aufzuzeigen. Haben Sie die beste Pensionskassenlösung gewählt? Gibt es Möglichkeiten zur Steueroptimierung? Haben Sie Ihre Nachfolge schon geplant? Treuhand ist für uns ein ganzheitliches Konzept – und wir wollen, dass Sie optimal aufgestellt sind und die Kosten niedrig halten können. Damit Sie mit uns zufrieden sind.\nMitgliedschaften\nDie Treuhand Zürich AG ist ein Mitglied der TREUHAND SUISSE.\nDurch unsere Mitgliedschaft profitieren unsere Kunden und Geschäftspartner von einem fachkompetenten\nPartnernetzwerk mit hohen Qualitätsstandards.\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 2214,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Unternehmensberatung",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-6treuhandzh.png",
+          "width": "88",
+          "height": "96"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-5treuhandzh.png",
+          "width": "91",
+          "height": "93"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-4treuhandzh.png",
+          "width": "66",
+          "height": "85"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/buchhaltung-treuhandzh.png",
+          "width": "66",
+          "height": "85"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/author/marketingplan/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "marketingplan – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Autor: marketingplan"
+        ]
+      },
+      "text": "marketingplan – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nAutor:\nmarketingplan\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 668,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/author/marketingplan/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/002__author__marketingplan.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Datenschutzerklärung – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+      "headings": {
+        "h1": [
+          "Datenschutzerklärung"
+        ],
+        "h2": [
+          "Allgemeine Informationen",
+          "Cookies",
+          "Server Logbuch",
+          "Google Maps",
+          "Kontaktformular"
+        ]
+      },
+      "text": "Datenschutzerklärung – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nDatenschutzerklärung\nAllgemeine Informationen\nDie Betreiber dieser Website nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandelnIhre personenbezogenen Daten vertraulich.\nDie Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweitauf unserer Seite personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen)erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihreausdrückliche Zustimmung nicht an Dritte weitergegeben.\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail)Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte istnicht möglich.\nCookies\nDie Internetseite verwendet teilweise so genannte Cookies. Cookies dienen dazu, unser Angebotnutzerfreundlicher, effektiver und sicherer zu machen. Cookies richten auf Ihrem Rechner keinenSchaden an und enthalten keine Viren. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegtwerden und die Ihr Browser speichert.\nDie meisten der von uns verwendeten Cookies sind so genannte „Session-Cookies“. Sie werden nachEnde Ihres Besuchs automatisch gelöscht. Andere Cookies bleiben auf Ihrem Endgerät gespeichert, bisSie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser beim nächsten Besuchwiederzuerkennen.\nSie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden undCookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generellausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren.Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.\nServer Logbuch\nDer Provider der Seiten erhebt und speichert automatisch Informationen in einem sogenannten Server-Logbuch, die Ihr Browser automatisch an uns übermittelt. Dies sind:\nBrowsertyp und Browserversionverwendetes BetriebssystemReferrer URLHostname des zugreifenden RechnersUhrzeit der ServeranfrageDiese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mitanderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zuprüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.\nGoogle Analytics\nDiese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. («Google»). GoogleAnalytics verwendet sog. «Cookies», Textdateien, die auf Ihrem Computer gespeichert werden und dieeine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugtenInformationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google inden USA übertragen und dort gespeichert. Auf dieser Webseite ist die IP-Anonymisierung aktiviert undsomit wird Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europäischen Union oder inanderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur inAusnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dortgekürzt. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, umReports über die Website Aktivitäten für die Websitebetreiber zusammenzustellen und um weitere mitder Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wirdGoogle diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschriebenoder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Die im Rahmen von Google Analyticsvon Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.Mehr Informationen zum Umgang mit Nutzerdaten bei Google Analytics finden Sie in derDatenschutzerklärung von Google: https://support.google.com/analytics/answer/6004245?hl=de\nSie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Softwareverhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtlicheFunktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus dieErfassung der durch den Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl.Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem Siedas unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren:https://tools.google.com/dlpage/gaoptout?hl=de\nGoogle Maps\nDiese Webseite verwendet das Produkt Google Maps von Google Inc. Durch Nutzung dieser Websiteerklären Sie sich mit der Erfassung, Bearbeitung sowie Nutzung der automatisiert erhobenen Datendurch Google Inc., deren Vertreter sowie Dritter einverstanden. Die Nutzungsbedingungen von GoogleMaps finden sie unter «Nutzungsbedingungen von Google Maps».\nKontaktformular\nDiese Webseite stellt ein Kontaktformular zur Verfügung und wenn Sie uns über dieses KontaktformularAnfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnendort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragenbei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter und werden vertraulichbehandelt.\nAuskunft, Löschung und SperrungSie erhalten Auskunft über die von uns gespeicherten personenbezogenen Daten zu Ihrer Person sowiezur Herkunft, dem Empfänger und dem Zweck von Datenerhebung sowie Datenverarbeitung. Außerdemhaben Sie das Recht, die Berichtigung, die Sperrung oder Löschung Ihrer Daten zu verlangen.Ausgenommen davon sind Daten, die aufgrund gesetzlicher Vorschriften aufbewahrt oder zurordnungsgemäßen Geschäftsabwicklung benötigt werden. Damit eine Datensperre jederzeit realisiertwerden kann, können Daten gegebenenfalls zu Kontrollzwecken in einer Sperrdatei vorgehalten werden.Werden Daten nicht von einer gesetzlichen Archivierungspflicht erfasst, löschen wir Ihre Daten auf IhrenWunsch. Greift die Archivierungspflicht, sperren wir Ihre Daten. Für alle Fragen und Anliegen zur\nBerichtigung, Sperrung oder Löschung von personenbezogenen Daten wenden Sie sich bitte an unserenDatenschutzbeauftragten oder an die im Impressum genannte Adresse.\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 6910,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/003__datenschutzerklaerung.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/dienstleistungen/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Dienstleistungen – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": "https://www.treuhand-zuerich.com/dienstleistungen/",
+      "headings": {
+        "h1": [
+          "Alles, was Sie erwarten – und noch mehr."
+        ],
+        "h2": [
+          "Wir tun das gern für Sie."
+        ],
+        "h3": [
+          "Buchhaltung",
+          "Personaladministration",
+          "Steuerberatungen",
+          "Unternehmensberatung",
+          "Buchhaltung",
+          "Buchhaltung",
+          "Lohnbuchhaltung",
+          "Lohnbuchhaltung",
+          "Personaladministration",
+          "Personaladministration",
+          "Budgetberatung",
+          "Budgetberatung",
+          "Jahresabschlüsse",
+          "Jahresabschlüsse",
+          "Unternehmensbewert ungen",
+          "Unternehmensbewertungen",
+          "Steuerberatung",
+          "Steuerberatung",
+          "Steuervertreter für ausländisch MWST-Pflichtige",
+          "Steuervertreter für ausländische MWST-Pflichtige",
+          "Treuhanddienstleistungen",
+          "Treuhanddienstleistungen",
+          "Firmengründungen",
+          "Firmengründungen",
+          "Rechtsberatung",
+          "Rechtsberatung",
+          "Liquidationen",
+          "Umwandlungen",
+          "Unternehmensberatung",
+          "Unternehmensberatung",
+          "Umwandlungen",
+          "Liquidationen"
+        ]
+      },
+      "text": "Dienstleistungen – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nAlles, was Sie erwarten\n– und noch mehr.\nTermin vereinbaren\nWir tun das gern für Sie.\nWir bieten Ihnen treuhänderische Dienstleistungen und Beratungen in sämtlichen Themenbereichen wie Buchhaltung, Jahresabschlüsse, Personaladministration, Steuern, MWST, Firmengründung – exakt auf Ihre individuellen Bedürfnisse abgestimmt.\nWir stehen Ihnen mit unserer langjährigen Erfahrung als Experten zur Seite. Durch unser breites Partnernetzwerk profitieren Sie von umfassend professioneller Beratung in verschiedensten Fachgebieten.\nBuchhaltung\nFinanzbuchhaltungen\nFühren von Finanzbuchhaltungen\nBetriebsbuchhaltungen\nKreditoren- und Debitorenbuchhaltungen\nKonzernbuchhaltungen\nKonsolidierungen\nBuchführung in verschiedenen Währungen etc.\nJahresabschlüsse\nErstellung und Besprechung von Monats-, Quartals- und Jahresabschlüssen\nSteuerliche Optimierung der Abschlüsse unter Einbezug der langfristigen finanziellen Planung und Sicherheit der Unternehmen\nBuchhaltungstool\nUnsere Software ermöglicht das Führen der Buchhaltung via Webbrowser, sodass Kunden die Einträge selbst vornehmen können. Wir unterstützen Sie auch hier professionell.\nPersonaladministration\nSaläradministration\nFühren von Lohnbuchhaltung\nErstellen der monatlichen Lohnabrechnungen\nBerechnung Ferienguthaben und Überstunden\nLohnausweis\nErstellen von Lohnausweisen für die Steuererklärung.\nSozialversicherungen\nErstellen von Versicherungsdeklarationen (AHV, BVG, UVG, KTG)\nAnmeldungen bei Ausgleichskassen\nMeldungen von Personalmutationen\nAnmeldungen bei Unfall oder Krankheitsfall\nZusammenarbeit mit Versicherungsexperten\nBetreuung von AHV- und SUVA-Revisionen.\nQuellensteuern\nErstellung von Quellensteuerabrechnungen\nAnmeldung/Mutationsmeldungen Quellensteuern\nTarif-Abklärungen etc.\nRechtliches\nBeratung betreffend Arbeitsrecht und Sozialversicherungen\nErstellen von Arbeitsverträgen\nBei komplexen Fällen arbeiten wir mit den entsprechenden Experten zusammen\nSteuerberatungen\nSteuererklärungen\nErstellen von\nSteuererklärungen für natürliche und juristische Personen\nGrundstückgewinnsteuererklärungen\nSteuerausscheidungen\nPrüfen von\nEinschätzungsentscheiden\nVeranlagungsverfügungen\nEinschätzungsvorschlägen\nSteuerrechnungen\nAusarbeiten und Einreichen von Steuereinsprachen etc.\nMehrwertsteuer\nAbklärung der Steuerpflicht\nMWST- Anmeldungen bei der ESTV\nErstellung der MWST-Abrechnungen quartalsweise oder halbjährlich\nFiskal-Vertretungen und Betreuung für ausländische Firmen\nSpezialthemen\nEinholung von Steuerrulings bei Steuerbehörden\nBeratung Erbschafts- und Schenkungssteuern\nVerrechnungssteuern\nBei komplexen Fällen ziehen wir Spezialisten hinzu und erarbeiten so fachgerechte Lösungen\nUnternehmensberatung\nFirmengründungen\nEvaluation der idealen Gesellschaftsformen\nFirmengründungen\nUmwandlungen von Gesellschaften\nMutationen im Zusammenhang mit Handelsregister-Eintragungen\nBegleitung diverser Start-up Prozesse\nDomizil\nGewährung Domizil für Gesellschaften.\nAllgemeines\nGeschäftsführungs- und Verwaltungsratsmandate\nSupport bei interner Administration\nBegleitung bei Verhandlungen mit Banken/Verkäufern\nAktionärsbindungsverträge ausarbeiten\nDarlehensverträge\nKaufverträge\nAbzahlungsverträge etc.\nWirtschaftsberatung\nUnternehmensbewertungen\nUnterstützung bei Kauf und Verkauf von Gesellschaften (Nachfolgeregelung)\nBudget/Businessplan\nErstellung von Grob- und Detailbudgets\nVergleich Budget- und IST-Zahlen\nAusarbeitung von Businessplänen in Zusammenarbeit mit den Kunden\nLiquidationen\nErstellen aller relevanten Unterlagen und Schuldenruf und Begleitung bis zur Löschung des Unternehmens\nReise Treuhand\nDie Reise-Treuhand ist ein Produkt der Treuhand Zürich AG.\nWir kennen die Bedürfnisse von Reisebüros und -veranstaltern ausgezeichnet und sind mit allen verbreiteten IT-Systemen vertraut (HIT-Partner, myJack, Umbrella, Tris). Wir offerieren Ihnen in diesem Bereich dieselben Dienstleistungen, die wir auch für Kundinnen und Kunden aus anderen Branchen erbringen – aber mit einem ganz speziellen Fokus.\nWir pflegen guten Kontakt zum Garantiefonds der Schweizer Reisebranche sowie zum Schweizer Reise-Verband. Nutzen Sie die Erfahrung, die Ihnen kein anderes Treuhandbüro bieten kann.\nBuchhaltung\nBuchhaltung\nDie Buchhaltung wird oft unterschätzt, dabei ist sie ein bedeutendes Instrument der Geschäftsführung. Sie entscheiden, ob wir die gesamte Buchhaltung übernehmen oder ob Sie nur einzelne Teilgebiete auslagern wollen – zum Beispiel die Debitoren- und Kreditoren-Bewirtschaftung.\nLohnbuchhaltung\nLohnbuchhaltung\nEins der komplexesten Gebiete einer Buchhaltung ist die Lohnbuchhaltung. Gesetzliche Vorschriften und Anforderungen ändern ständig. Doch darum brauchen Sie sich nicht zu kümmern, wenn Sie uns beauftragen und unser Knowhow nutzen: Wir führen insgesamt über 50 Lohnbuchhaltungen mit bis zu 100 Mitarbeitenden.\nPersonaladministration\nPersonaladministration\nEine effiziente, einfache und einheitliche Personal- und Lohnadministration ist für den langfristigen Unternehmenserfolg unabdingbar. Wir kümmern uns sämtliche Belange der Personaladministration – von der AHV-Anmeldung bis zu Versicherungsfragen.\nBudgetberatung\nBudgetberatung\nGern unterstützen wir dabei, Ihr Unternehmen auf eine langfristig solide Basis zu stellen. Dafür nutzen wir unser fundiertes Wissen über Ihre Branche.\nJahresabschlüsse\nJahresabschlüsse\nDen Abschluss eines Geschäftsjahrs braucht es für die Steuererklärung. Er ist aber auch ein wichtiges Führungsinstrument der Geschäftsleitung und hilft bei Planungs- und Budgetfragen. Wir erstellen Ihren Jahresabschluss und zeigen Ihnen, welche Erkenntnisse Sie daraus gewinnen können.\nUnternehmensbewert ungen\nUnternehmensbewertungen\nIn kritischen Phasen – bei einer Neuorientierung oder wenn es um die Nachfolgeregelung geht – oder auch einfach zur Standortbestimmung hilft eine Unternehmensbewertung. Wir stellen Ihnen dafür gern unsere Erfahrung zur Verfügung.\nSteuerberatung\nSteuerberatung\nBei der privaten und betrieblichen Steuererklärung sollte stets das gesamte Optimierungspotential ausgeschöpft werden. Wir erledigen Ihre Steuererklärung korrekt und zuverlässig für Sie und zeigen Ihnen, wie Sie Ihre Chancen nutzen und mit Steuerfragen strategisch umgehen.\nSteuervertreter für ausländisch MWST-Pflichtige\nSteuervertreter für ausländische MWST-Pflichtige\nSeit der Änderung des Schweizerischen Mehrwertsteuergesetztes werden immer mehr ausländische Unternehmen in der Schweiz mehrwertsteuerpflichtig. Wir unterstützen Sie gern bei der Anmeldung und Abrechnung Ihrer Mehrwertsteuern und stehen Ihnen auch als Fiskalvertretung zur Seite.\nTreuhanddienstleistungen\nTreuhanddienstleistungen\nDiskret und zuverlässig domizilieren wir Ihre Gesellschaft in der Schweiz, bewahren Akten sicher für Sie auf, stellen Konferenzräume in Zürich zur Verfügung und übernehmen vielfältige weitere Dienstleistungen für Sie.\nFirmengründungen\nFirmengründungen\nBei der die Umsetzung Ihrer Geschäftsidee bieten wir unsere Unterstützung in allen Belangen. Wir beraten Sie zur geeigneten Rechtsform, machen Finanzanalysen, schlagen Marketingstrategien vor und setzen die Gründung rechtlich um.\nRechtsberatung\nRechtsberatung\nWer ein Unternehmen leitet, sieht sich von der Firmengründung über die Verwaltung von Kunden- und Arbeitsverträgen bis zur Liquidation mit Rechtsfragen konfrontiert. Und auch im Privatleben spielen rechtliche Aspekte eine wichtige Rolle, von Nachlässen über Sozialversicherungen bis zum Mietrecht und zu Eheverträgen. Wir beraten Sie neutral – und wissen, wo Sie im Fall eines Falls die richtige Unterstützung bekommen.\nLiquidationen\nUmwandlungen\nWir wissen, wie sich eine Änderung der Gesellschaftsform kurz- und langfristig auswirkt, können Sie in allen relevanten Punkten beraten und führen den Umwandlungsprozess mit Ihnen durch.\nUnternehmensberatung\nUnternehmensberatung\nDank unserer langjährigen Erfahrung können wir Ihr Unternehmen umfassend analysieren. Gern planen wir mit Ihnen den besten Weg, die Firma optimal in Marktprozesse und -strukturen einzupassen. Und wir begleiten Sie auch durch alle Phasen der Veränderung.\nUmwandlungen\nLiquidationen\nGemeinsam mit Ihnen planen und vollziehen wir diesen kritischen Schritt systematisch und auf Ihre Bedürfnisse zugeschnitten. Wir unterstützen Sie auch bei der optimierten und konjunkturgerechten Beschaffung flüssiger Finanzmittel.\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 8948,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Logo_RT-01-1.png",
+          "width": "235",
+          "height": "71"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/004__dienstleistungen.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/downloads/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Downloads – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": "https://www.treuhand-zuerich.com/downloads/",
+      "headings": {
+        "h1": [
+          "Unsere Checklisten – damit Ihnen alles ein wenig leichter fällt."
+        ],
+        "h2": [
+          "Wir halten Sie gern auf dem Laufenden"
+        ]
+      },
+      "text": "Downloads – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nUnsere Checklisten –\ndamit Ihnen alles ein\nwenig leichter fällt.\nTermin vereinbaren\nWir halten Sie gern\nauf dem Laufenden\nWir verfolgen dieselben Ziele wie Sie: dass Ihre Buchhaltung stimmt und Sie so viel Geld wie möglich einsparen. Deshalb möchten wir auch unsere Beratungen so effizient wie möglich gestalten. Es ist ideal, wenn Sie sich gemäss folgender Checklisten auf unsere Besprechung vorbereiten – und alle aufgelisteten Unterlagen zusammenstellen.\nCheckliste Jahresabschluss AG und GmbH\nCheckliste Steuererklärung\nGern erleichtern wir Ihnen Ihre Arbeit mit wichtigen Angaben zu Ihrer Buchhaltung.\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 1250,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/downloads/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Checkliste Jahresabschluss AG und GmbH",
+          "href": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/05/Checkliste-Jahresabschluss-AG-und-GmbH.pdf",
+          "internal": true
+        },
+        {
+          "text": "Checkliste Steuererklärung",
+          "href": "https://www.treuhand-zuerich.com/wp-content/uploads/2024/04/Checkliste-fuer-Steuererklaerung-2023.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/005__downloads.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/impressum/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Impressum – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": "https://www.treuhand-zuerich.com/impressum/",
+      "headings": {
+        "h1": [
+          "Impressum"
+        ]
+      },
+      "text": "Impressum – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nImpressum\nHerausgeber, Informationen und Auskünfte\nTreuhand Zürich AG\nReise-Treuhand\nBrandschenkestrasse 178\n8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 807,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/impressum/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/006__impressum.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/jobs/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Jobs – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": "https://www.treuhand-zuerich.com/jobs/",
+      "headings": {
+        "h1": [
+          "Arbeiten bei Treuhand Zürich"
+        ],
+        "h2": [
+          "Aktuelle Jobangebote",
+          "Aktuelle Jobangebote"
+        ],
+        "h3": [
+          "Zurzeit keine offenen Stellen",
+          "SachbearbeiterIn Treuhand /Junior Mandatsleiterin (Zürich) - 100%"
+        ]
+      },
+      "text": "Jobs – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nArbeiten bei Treuhand Zürich\nAktuelle Jobangebote\nZurzeit keine offenen Stellen\nAktuelle Jobangebote\nSachbearbeiterIn Treuhand /Junior Mandatsleiterin (Zürich) - 100%\nWir suchen eine motivierte, zuverlässige und aufgestellte Persönlichkeit, die unser dynamisches\nTeam in Zürich verstärkt. Dich erwartet ein moderner Arbeitsplatz, kurze Entscheidungswege und viel\nRaum für Entwicklung.\nDeine Aufgaben:\n• Selbstständiges Führen von Kundenbuchhaltungen\n• Erstellen und Einreichen von MWST-Abrechnungen\n• Führen von Lohnbuchhaltungen inkl. sämtlicher Abrechnungen\n• Vorbereitung von Jahresabschlüssen\n• Erstellen von Steuererklärungen für natürliche und juristische Personen\n• Allgemeine administrative Unterstützung der Geschäftsleitung\nProfil:\n– Kaufmännische Grundausbildung\n– Berufserfahrung im Bereich Treuhand, Buchhaltung, Steuern –\nallenfalls in Ausbildung zum eidg. Fachausweis Treuhand\n– Gute IT-Anwendungskenntnisse (MS-Office, Topal, Dr. Tax)\n– Kundenorientierte, selbständige und zuverlässige Arbeitsweise\n– Teamfähige, loyale und aufgestellte Persönlichkeit\n– Stilsicheres Deutsch\nJob Vorteile:\n– Zentraler Arbeitsplatz in Zürich\n– Flexible Arbeitsmodelle inkl. Home-Office\n– Entwicklungsperspektiven und Aufstiegsmöglichkeiten\n– Topmoderne Infrastruktur\n– Flache Hierarchie und Mitsprachemöglichkeiten\n– Arbeitszeit 40 Stunden pro Woche\n– 5 Wochen Ferien pro Jahr\n– 100 % Übernahme von Unfall- und Krankentaggeldversicherung durch die Treuhand Zürich\nEinsatzort: Zürich\nEintritt: nach Vereinbarung\nFühlst Du dich angesprochen? Dann freuen wir uns auf Deine vollständige Bewerbung per E-Mail an:\ninfo@treuhand-zuerich.com\nTreuhand Zürich AG\nBujar Sadiku / Connie Eindiguer\nBrandschenkestrasse 178\n8002 Zürich\nTel: 044 204 20 10\nSachbearbeiterIn Treuhand / Junior Mandatsleiterin (Zürich) - 100%\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 2443,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/jobs/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Fühlst Du dich angesprochen? Dann freuen wir uns auf Deine vollständige Bewerbung per E-Mail an: info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "SachbearbeiterIn Treuhand / Junior Mandatsleiterin (Zürich) - 100%",
+          "href": "https://www.treuhand-zuerich.com/wp-content/uploads/2025/12/Inserat-Sachbearbeiter.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10",
+        "044 204 20 10"
+      ],
+      "raw_html": "raw_html/007__jobs.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/kontakt/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Kontakt – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": "https://www.treuhand-zuerich.com/kontakt/",
+      "headings": {
+        "h1": [
+          "Wir freuen uns auf Sie"
+        ]
+      },
+      "text": "Kontakt – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nWir freuen uns auf Sie\nTermin vereinbaren\nAm einfachsten erreichen Sie uns mit dem öffentlichen Verkehr. Die Tramhaltestelle Waffenplatzstrasse befindet sich gleich um die Ecke, sie wird von den Linien 5 und 13 bedient. Seitlich an der Brandschenkestrasse 178 stehen Kundenparkplätze zur Verfügung.\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nBrandschenkestrasse 178, 8002 Zürich\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 1020,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/kontakt/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "Brandschenkestrasse 178, 8002 Zürich",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/008__kontakt.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/kunden/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Kunden – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": "https://www.treuhand-zuerich.com/kunden/",
+      "headings": {
+        "h1": [
+          "Für alle – ganz individuell."
+        ],
+        "h2": [
+          "Wir wollen es wissen"
+        ],
+        "h3": [
+          "Zu unserem grossen Kundenstamm zählen:"
+        ]
+      },
+      "text": "Kunden – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nFür alle –\nganz individuell.\nTermin vereinbaren\nWir wollen es wissen\nBei Treuhand-Dienstleistungen geht es vordergründig zwar um Zahlen. In erster Linie dreht sich aber alles um Menschen. Vertrauen ist für unsere Zusammenarbeit mit Ihnen daher essentiell. Wir wollen, dass Sie wissen, mit wem Sie es zu tun haben – deshalb stellen wir uns Ihnen\nausführlich\nvor. Und wir möchten auch viel von Ihnen erfahren, damit wir Sie individuell beraten und begleiten können. Es gibt schliesslich kaum einen Lebens- und Arbeitsbereich, der nicht von treuhänderischen Fragen berührt würde.\nZu unserem grossen\nKundenstamm zählen:\nFirmen – vom Einmann- und Einfraubetrieb bis zum mittelgrossen Konzern\nStart-Ups\nVereine\nPrivatpersonen\nWollen auch Sie Teil unseres Kundenstamms werden? Das freut uns! Bitte nehmen Sie mit uns\nKontakt\nauf.\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 1463,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/kunden/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "ausführlich",
+          "href": "http://treuhand-zuerich.com/team",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "http://treuhand-zuerich.com/kontakt",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/009__kunden.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/reise-treuhand/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Reise-Treuhand – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": "https://www.treuhand-zuerich.com/reise-treuhand/",
+      "headings": {
+        "h1": [
+          "Da kommen wir her – da sind wir drin."
+        ],
+        "h2": [
+          "Wir sind mit der Reise­branche eng verbunden"
+        ]
+      },
+      "text": "Reise-Treuhand – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nDa kommen wir her\n– da sind wir drin.\nTermin vereinbaren\nWir sind mit der\nReise­branche eng\nverbunden\nWir arbeiten zuverlässig, sorgfältig, diskret und effizient. Fordern Sie uns heraus – zum Beispiel in folgenden Bereichen:\nFirmengründer Yves Bruttin war 28 Jahre lang in der Reisebranche tätig, ehe er auf den Treuhand-Bereich umstieg. Er und seine Mitarbeitenden kennen die Bedürfnisse von Reisebüros und -veranstaltern aus dem Effeff. Sie sind mit allen verbreiteten IT-Systemen vertraut und wissen genau, wie sich ein Reiseunternehmen klug positionieren kann. Wir offerieren Ihnen in diesem Bereich dieselben Dienstleistungen, die wir auch für Kundinnen und Kunden aus anderen Branchen erbringen – aber mit einem ganz speziellen Fokus. Nutzen Sie die Erfahrung, die Ihnen kein anderes Treuhandbüro bieten kann.\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 1464,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/reise-treuhand/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Logo_RT-01-1.png",
+          "width": "235",
+          "height": "71"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/010__reise-treuhand.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Termin vereinbaren – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+      "headings": {
+        "h1": [
+          "Wir würden uns freuen, von Ihnen zu hören."
+        ],
+        "h2": [
+          "Wir freuen uns auf Sie"
+        ],
+        "h3": [
+          "Kontaktiere uns"
+        ]
+      },
+      "text": "Termin vereinbaren – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nWir würden uns freuen,\nvon Ihnen zu hören.\nWir freuen uns auf Sie\nAm einfachsten erreichen Sie uns mit dem öffentlichen Verkehr. Die Tramhaltestelle Waffenplatzstrasse befindet sich gleich um die Ecke, sie wird von den Linien 5 und 13 bedient. Seitlich an der Brandschenkestrasse 178 stehen Kundenparkplätze zur Verfügung.\nKontaktiere uns\nBitte benutzen Sie das untenstehende Kontaktformular.\nName\nE-Mail\nTelefon\nWunschtermin\nNachricht\nSenden\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 1095,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": null,
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "post_id",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "form_id",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "referer_title",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "queried_id",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "form_fields[name]",
+              "placeholder": "Name"
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "form_fields[email]",
+              "placeholder": "E-Mail"
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "form_fields[field_cb821cd]",
+              "placeholder": "Telefon"
+            },
+            {
+              "tag": "input",
+              "type": "date",
+              "name": "form_fields[field_83501b8]",
+              "placeholder": "Wunschtermin"
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "form_fields[message]",
+              "placeholder": "Nachricht"
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/011__termin-vereinbaren.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/ueber-uns/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Über uns – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": "https://www.treuhand-zuerich.com/ueber-uns/",
+      "headings": {
+        "h1": [
+          "Wir wollen es wissen",
+          "Wir wollen es wissen"
+        ],
+        "h2": [
+          "Bujar Sadiku",
+          "Connie Eindiguer",
+          "Amir Hanna",
+          "Gian Gadient",
+          "Georgije Lavrnja"
+        ]
+      },
+      "text": "Über uns – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nWir wollen es wissen\nWir wollen es wissen\nBei Treuhand-Dienstleistungen geht es vordergründig zwar um Zahlen. In erster Linie dreht sich aber alles um Menschen. Vertrauen ist für unsere Zusammenarbeit mit Ihnen daher essentiell. Wir wollen, dass Sie wissen, mit wem Sie es zu tun haben – deshalb stellen wir uns Ihnen ausführlich vor. Und wir möchten auch viel von Ihnen erfahren, damit wir Sie individuell beraten und begleiten können. Es gibt schliesslich kaum einen Lebens- und Arbeitsbereich, der nicht von treuhänderischen Fragen berührt würde.\nZu unserem grossen Kundenstamm zählen:\nFirmen – vom Einmann- und Einfraubetrieb bis zum mittelgrossen Konzern\nStart-Ups\nVereine\nPrivatpersonen\nWollen auch Sie Teil unseres Kundenstamms werden? Das freut uns! Bitte nehmen Sie mit uns\nKontakt\nauf.\nBujar Sadiku\nTreuhänder mit eidg. FA / Partner\nbujar.sadiku@treuhand-zuerich.com\nConnie Eindiguer\nTreuhänderin mit eidg. FA / Partner\nconnie.eindiguer@treuhand-zuerich.com\nAmir Hanna\nTreuhänder mit eidg. FA / Partner\namir.hanna@treuhand-zuerich.com\nGian Gadient\nTreuhand-Sachbearbeiter\ngian.gadient@treuhand-zuerich.com\nGeorgije Lavrnja\nTreuhand-Sachbearbeiter\ngeorgije.lavrnja@treuhand-zuerich.com\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 1837,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "http://treuhand-zuerich.com/kontakt",
+          "internal": true
+        },
+        {
+          "text": "bujar.sadiku@treuhand-zuerich.com",
+          "href": "mailto:bujar.sadiku@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "connie.eindiguer@treuhand-zuerich.com",
+          "href": "mailto:connie.eindiguer@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "amir.hanna@treuhand-zuerich.com",
+          "href": "mailto:amir.hanna@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "gian.gadient@treuhand-zuerich.com",
+          "href": "mailto:gian.gadient@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "georgije.lavrnja@treuhand-zuerich.com",
+          "href": "mailto:georgije.lavrnja@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4538-copy.jpg",
+          "width": "2048",
+          "height": "1366"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A5019-copy.jpg",
+          "width": "2048",
+          "height": "1366"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/10/7Q6A4786-copy.jpg",
+          "width": "2048",
+          "height": "1366"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2026/03/Gian-Gadient-quadratisch-768x768.jpg",
+          "alt": "Gian Gadient",
+          "width": "768",
+          "height": "768"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2025/10/DSC04363-copy-2_1.jpg",
+          "width": "2048",
+          "height": "1365"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "amir.hanna@treuhand-zuerich.com",
+        "bujar.sadiku@treuhand-zuerich.com",
+        "connie.eindiguer@treuhand-zuerich.com",
+        "georgije.lavrnja@treuhand-zuerich.com",
+        "gian.gadient@treuhand-zuerich.com",
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/012__ueber-uns.html"
+    },
+    {
+      "url": "https://www.treuhand-zuerich.com/team",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Seite nicht gefunden – Treuhand Zürich",
+      "lang": "de",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "max-image-preview:large",
+        "generator": "Elementor 3.35.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "msapplication-tileimage": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/tz-fav-300x300.png"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Diese Seite konnte nicht gefunden werden."
+        ]
+      },
+      "text": "Seite nicht gefunden – Treuhand Zürich\nZum Inhalt springen\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nHome\nDienstleistungen\nÜber uns\nDownloads\nKontakt\nJobs\nTermin vereinbaren\nDiese Seite konnte nicht gefunden werden.\nAn diesem Ort konnte nichts gefunden werden.\nTreuhand Zürich AG , Reise-Treuhand\nBrandschenkestrasse 178, 8002 Zürich\n+41 44 204 20 10\ninfo@treuhand-zuerich.com\nDownloads\nImpressum\nDatenschutzerklärung\nDownloads\nImpressum\nDatenschutzerklärung\nCopyright © 2024.\nAll rights reserved\n|\nPowered by\nMarketing Plan\nWir verwenden Cookies, um Ihnen die bestmögliche Nutzung unserer Website zu ermöglichen. Wenn Sie diese Seite weiter nutzen, gehen wir davon aus, dass Sie damit einverstanden sind.\nOk\nDatenschutzerklärung",
+      "text_len": 741,
+      "links": [
+        {
+          "text": "Zum Inhalt springen",
+          "href": "https://www.treuhand-zuerich.com/team#content",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.treuhand-zuerich.com/",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.treuhand-zuerich.com/dienstleistungen/",
+          "internal": true
+        },
+        {
+          "text": "Über uns",
+          "href": "https://www.treuhand-zuerich.com/ueber-uns/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.treuhand-zuerich.com/jobs/",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.treuhand-zuerich.com/termin-vereinbaren/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhand-zuerich.com",
+          "internal": true
+        },
+        {
+          "text": "+41 44 204 20 10",
+          "href": "tel:+41442042010",
+          "internal": false
+        },
+        {
+          "text": "info@treuhand-zuerich.com",
+          "href": "mailto:info@treuhand-zuerich.com",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse.ch/",
+          "internal": false
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Downloads",
+          "href": "https://www.treuhand-zuerich.com/downloads/",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.treuhand-zuerich.com/impressum/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://www.treuhand-zuerich.com/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Marketing Plan",
+          "href": "https://marketing-plan.ch/",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/Asset-1treuhand.svg",
+          "width": "251",
+          "height": "30"
+        },
+        {
+          "src": "https://www.treuhand-zuerich.com/wp-content/uploads/2023/03/treu-suisse-logo-verband-de.svg",
+          "width": "355",
+          "height": "107"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@treuhand-zuerich.com"
+      ],
+      "phones": [
+        "+41 44 204 20 10"
+      ],
+      "raw_html": "raw_html/013__team.html"
+    }
+  ]
+}

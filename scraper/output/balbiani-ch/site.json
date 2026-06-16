@@ -1,0 +1,3463 @@
+{
+  "name": "Treuhandbüro Balbiani",
+  "domain": "balbiani.ch",
+  "start_url": "https://www.balbiani.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781615358.189894,
+    "duration_sec": 16.6,
+    "pages_crawled": 12,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": "# Sitemap is also available on /sitemap.xml\nSitemap: https://www.balbiani.ch/sitemap.xml\nUser-agent: *\n\n"
+  },
+  "contact": {
+    "emails": [
+      "jean-pierre@balbiani.ch",
+      "katia.defeo@balbiani.ch",
+      "treuhand@balbiani.ch",
+      "vanja.dancilovic@balbiani.ch"
+    ],
+    "phones": [
+      "044 746 40 60"
+    ]
+  },
+  "assets": {
+    "downloaded": 17,
+    "failed": 1,
+    "total_bytes": 3157172,
+    "manifest": [
+      {
+        "url": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/Abschreibungen.pdf",
+        "ok": true,
+        "file": "assets/9d65776116__Abschreibungen.pdf",
+        "content_type": "application/pdf",
+        "bytes": 58943
+      },
+      {
+        "url": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/Besteuerung_Renten.pdf",
+        "ok": true,
+        "file": "assets/b1f9b192de__Besteuerung_Renten.pdf",
+        "content_type": "application/pdf",
+        "bytes": 108221
+      },
+      {
+        "url": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/ChecklisteSteuererklrung2021.pdf",
+        "ok": true,
+        "file": "assets/88d01aea38__ChecklisteSteuererklrung2021.pdf",
+        "content_type": "application/pdf",
+        "bytes": 174475
+      },
+      {
+        "url": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/KMU.pdf",
+        "ok": true,
+        "file": "assets/c04e69cc99__KMU.pdf",
+        "content_type": "application/pdf",
+        "bytes": 589611
+      },
+      {
+        "url": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/KennzahlenSozialversicherungen2022.pdf",
+        "ok": true,
+        "file": "assets/3f8112eaf7__KennzahlenSozialversicherungen2022.pdf",
+        "content_type": "application/pdf",
+        "bytes": 119543
+      },
+      {
+        "url": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/RevisionMWST1.1.2018.pdf",
+        "ok": true,
+        "file": "assets/218ffcea35__RevisionMWST1.1.2018.pdf",
+        "content_type": "application/pdf",
+        "bytes": 196493
+      },
+      {
+        "url": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/Spesenreglement.pdf",
+        "ok": true,
+        "file": "assets/643d4506ba__Spesenreglement.pdf",
+        "content_type": "application/pdf",
+        "bytes": 54157
+      },
+      {
+        "url": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/Steuergesetz.pdf",
+        "ok": true,
+        "file": "assets/987c7b8202__Steuergesetz.pdf",
+        "content_type": "application/pdf",
+        "bytes": 1015441
+      },
+      {
+        "url": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/ZinstzegeldwerteLeistungen2020-f651aca4.pdf",
+        "ok": true,
+        "file": "assets/97d2471f48__ZinstzegeldwerteLeistungen2020-f651aca4.pdf",
+        "content_type": "application/pdf",
+        "bytes": 742308
+      },
+      {
+        "url": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/site_favicon_16_1691640116620.ico",
+        "ok": true,
+        "file": "assets/2e5731dfcf__site_favicon_16_1691640116620.ico",
+        "content_type": "image/x-icon",
+        "bytes": 1150
+      },
+      {
+        "url": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/96__image650x650-1920w.jpg",
+        "ok": true,
+        "file": "assets/9286e19ec2__96__image650x650-1920w.jpg",
+        "content_type": "image/jpg",
+        "bytes": 7515
+      },
+      {
+        "url": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/97__image650x650-1920w.jpg",
+        "ok": true,
+        "file": "assets/07fa96bdcd__97__image650x650-1920w.jpg",
+        "content_type": "image/jpg",
+        "bytes": 6790
+      },
+      {
+        "url": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/99__image650x650-1920w.jpg",
+        "ok": true,
+        "file": "assets/fb196bf787__99__image650x650-1920w.jpg",
+        "content_type": "image/jpg",
+        "bytes": 8079
+      },
+      {
+        "url": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/AdobeStock_133199896-1920w.jpg",
+        "ok": true,
+        "file": "assets/dd0e14183a__AdobeStock_133199896-1920w.jpg",
+        "content_type": "image/jpg",
+        "bytes": 57967
+      },
+      {
+        "url": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+        "ok": true,
+        "file": "assets/358fecb2e4__Balbiani_Logo-1920w.png",
+        "content_type": "image/png",
+        "bytes": 7701
+      },
+      {
+        "url": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Download-1920w.png",
+        "ok": true,
+        "file": "assets/185497a874__Download-1920w.png",
+        "content_type": "image/png",
+        "bytes": 5516
+      },
+      {
+        "url": "https://www.balbiani.ch/favicon.ico",
+        "ok": true,
+        "file": "assets/90b936f1fc__favicon.ico",
+        "content_type": "image/x-icon",
+        "bytes": 3262
+      },
+      {
+        "url": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+        "ok": false,
+        "status": 404
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://www.balbiani.ch/",
+      "title": "Treuhandbüro Balbiani - seit 1960 Ihr starker Partner",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 3515
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+      "title": "Finanzbuchhaltung vom Treuhandbüro Balbiani in Dietikon",
+      "raw_html": "raw_html/002__dienstleistungen__buchhaltung-mwst.html",
+      "text_len": 1532
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+      "title": "Erbschaft / Treuhand allgemein | Treuhandbüro Balbiani",
+      "raw_html": "raw_html/003__dienstleistungen__erbschaften-treuhand-allgemein.html",
+      "text_len": 1358
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+      "title": "Firmen- und Gesellschaftsgründungen | Treuhandbüro Balbiani",
+      "raw_html": "raw_html/004__dienstleistungen__firmen-gesellschaftsgruendungen.html",
+      "text_len": 1233
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+      "title": "Lohn- und Personaladministration vom Treuhandbüro Balbiani",
+      "raw_html": "raw_html/005__dienstleistungen__lohn-personaladministration.html",
+      "text_len": 1417
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+      "title": "Revisionen vom Treuhandbüro Balbiani in Dietikon (ZH)",
+      "raw_html": "raw_html/006__dienstleistungen__revision-revisor-rab.html",
+      "text_len": 1169
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+      "title": "Ihre Steuerberatung in Dietikon vom Treuhandbüro Balbiani",
+      "raw_html": "raw_html/007__dienstleistungen__steuern-steuerberatung.html",
+      "text_len": 1533
+    },
+    {
+      "url": "https://www.balbiani.ch/impressum",
+      "title": "Impressum - Balbiani Treuhand GmbH - Dietikon",
+      "raw_html": "raw_html/008__impressum.html",
+      "text_len": 1279
+    },
+    {
+      "url": "https://www.balbiani.ch/links-downloads-treuhand",
+      "title": "Links & Downloads | Treuhandbüro Balbiani | Dietikon",
+      "raw_html": "raw_html/009__links-downloads-treuhand.html",
+      "text_len": 1129
+    },
+    {
+      "url": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+      "title": "Über das Treuhandbüro Balbiani in Dietikon (Kt. Zürich)",
+      "raw_html": "raw_html/010__team-geschichte-treuhandbuero.html",
+      "text_len": 2547
+    },
+    {
+      "url": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+      "title": "Kontaktieren Sie das Treuhandbüro Balbiani in Dietikon",
+      "raw_html": "raw_html/011__treuhandbuero-zuerich-aargau.html",
+      "text_len": 1054
+    },
+    {
+      "url": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+      "title": "Über das Treuhandbüro Balbiani in Dietikon (Kt. Zürich)",
+      "raw_html": "raw_html/012__team-geschichte-treuhandbuero.html",
+      "text_len": 2547
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.balbiani.ch/",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Treuhandbüro Balbiani - seit 1960 Ihr starker Partner",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/",
+        "description": "Unsere persönliche Beratung hilft Ihnen schnell Ihre Problem- und Fragestellungen zu lösen bei Ihrer Buchhaltung, den Steuern, Personaladministration und mehr.",
+        "twitter:card": "summary",
+        "twitter:title": "Treuhandbüro Balbiani - seit 1960 Ihr starker Partner",
+        "twitter:description": "Unsere persönliche Beratung hilft Ihnen schnell Ihre Problem- und Fragestellungen zu lösen bei Ihrer Buchhaltung, den Steuern, Personaladministration und mehr.",
+        "og:description": "Unsere persönliche Beratung hilft Ihnen schnell Ihre Problem- und Fragestellungen zu lösen bei Ihrer Buchhaltung, den Steuern, Personaladministration und mehr.",
+        "og:title": "Treuhandbüro Balbiani - seit 1960 Ihr starker Partner"
+      },
+      "canonical": "https://www.balbiani.ch/",
+      "headings": {
+        "h1": [
+          "Balbiani Treuhand GmbH Dietikon",
+          "Balbiani Treuhand GmbH Dietikon"
+        ],
+        "h2": [
+          "Seit über 60 Jahren Ihr starker Partner in Steuerfragen",
+          "Seit über 60 Jahren Ihr starker Partner in Steuerfragen"
+        ],
+        "h3": [
+          "Checkliste Unterlagen zur Steuererklärung",
+          "Zinssätze geldwerte Leistungen",
+          "Sozialversicherungen",
+          "Checkliste Unterlagen zur Steuererklärung",
+          "Zinssätze geldwerte Leistungen",
+          "Sozialversicherungen",
+          "Treuhandbüro Balbiani",
+          "Dienstleistungen",
+          "Kontakt",
+          ""
+        ]
+      },
+      "text": "Treuhandbüro Balbiani - seit 1960 Ihr starker Partner\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nBalbiani Treuhand GmbH Dietikon\nSeit über 60 Jahren Ihr starker Partner in Steuerfragen\nDas Treuhandbüro Balbiani wurde 1960 von Fernand Balbiani in Dietikon gegründet. Anfangs 1980 übernahm sein Sohn Jean-Pierre Balbiani das Büro. Im Laufe der Zeit wurde das Team um 2 Mitarbeiterinnen auf den heutigen Bestand erweitert. Wir sind ein freundliches, kleines Treuhand-Team, das Ihre Interessen und Bedürfnisse effizient und nachhaltig im In- und Ausland erfüllt.\nUnsere persönliche Beratung hilft Ihnen schnell Ihre Problem- und Fragestellungen zu lösen.\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nUnsere sprachliche Vielfalt erlaubt uns, Sie in folgenden Sprachen zu unterstützen, insbesondere in: Deutsch, Französisch, Italienisch, Englisch und Kroatisch.\nAktuelles\nCheckliste Unterlagen zur Steuererklärung\nLaden Sie die Checkliste für die Unterlagen zur Steuererklärung herunter. Haben Sie Fragen? Wir sind gerne für Sie da!\nDownload\nZinssätze geldwerte Leistungen\nLaden Sie das Dokument für die Zinssätze zu geldwerten Leistungen herunter.\nDownload\nSozialversicherungen\nLaden Sie die Übersicht der Sozialversicherungen herunter.\nDownload\nBalbiani Treuhand GmbH Dietikon\nSeit über 60 Jahren Ihr starker Partner in Steuerfragen\nDas Treuhandbüro Balbiani wurde 1960 von Fernand Balbiani in Dietikon gegründet. Anfangs 1980 übernahm sein Sohn Jean-Pierre Balbiani das Büro. Im Laufe der Zeit wurde das Team um 2 Mitarbeiterinnen auf den heutigen Bestand erweitert. Wir sind ein freundliches, kleines Treuhand-Team, das Ihre Interessen und Bedürfnisse effizient und nachhaltig im In- und Ausland erfüllt.\nUnsere persönliche Beratung hilft Ihnen schnell Ihre Problem- und Fragestellungen zu lösen.\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nUnsere sprachliche Vielfalt erlaubt uns, Sie in folgenden Sprachen zu unterstützen, insbesondere in: Deutsch, Französisch, Italienisch, Englisch und Kroatisch.\nAktuelles\nCheckliste Unterlagen zur Steuererklärung\nLaden Sie die Checkliste für die Unterlagen zur Steuererklärung herunter. Haben Sie Fragen? Wir sind gerne für Sie da!\nDownload\nZinssätze geldwerte Leistungen\nLaden Sie das Dokument für die Zinssätze zu geldwerten Leistungen herunter.\nDownload\nSozialversicherungen\nLaden Sie die Übersicht der Sozialversicherungen herunter.\nDownload\nStöbern Sie durch unsere Webseite\nTreuhandbüro Balbiani\nErfahren Sie mehr\nDienstleistungen\nzu den Dienstleistungen\nKontakt\nWir sind für Sie da!\nWünschen Sie eine Beratung?\nDann füllen Sie das untenstehende Formular aus. Schon bald werden wir uns mit Ihnen in Verbindung setzen und über Ihr Treuhandanliegen sprechen. Wir freuen uns auf Sie!\nVorname*\nNachname*\nE-Mail*\nTelefon*\nNachricht*\nDanke, dass Sie uns kontaktiert haben.\nWir werden uns schnellstmöglich bei Ihnen melden.\nHoppla, beim Senden Ihrer Nachricht ist ein Fehler aufgetreten.\nBitte versuchen Sie es später noch einmal.\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 3515,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Download",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/ChecklisteSteuererklrung2021.pdf",
+          "internal": false
+        },
+        {
+          "text": "Download",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/ZinstzegeldwerteLeistungen2020-f651aca4.pdf",
+          "internal": false
+        },
+        {
+          "text": "Download",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/KennzahlenSozialversicherungen2022.pdf",
+          "internal": false
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Download",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/ChecklisteSteuererklrung2021.pdf",
+          "internal": false
+        },
+        {
+          "text": "Download",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/ZinstzegeldwerteLeistungen2020-f651aca4.pdf",
+          "internal": false
+        },
+        {
+          "text": "Download",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/KennzahlenSozialversicherungen2022.pdf",
+          "internal": false
+        },
+        {
+          "text": "Erfahren Sie mehr",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "zu den Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Wir sind für Sie da!",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Balbiani Treuhand GmbH",
+          "url": "https://www.balbiani.ch/"
+        }
+      ],
+      "tables": [],
+      "forms": [
+        {
+          "action": null,
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "dmform-4",
+              "placeholder": "Ihr Vorname"
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "label-dmform-4",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "dmform-0",
+              "placeholder": "Ihr Nachname"
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "label-dmform-0",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "dmform-1",
+              "placeholder": "Ihre E-Mail-Adresse"
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "label-dmform-1",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "tel",
+              "name": "dmform-2",
+              "placeholder": "Ihre Telefonnummer"
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "label-dmform-2",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "dmform-3",
+              "placeholder": "Schildern Sie Ihr Anliegen."
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "label-dmform-3",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "submit",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformsendto",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "action",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformsubject",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformfrom",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformautoreplyenabled",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformautoreplyfrom",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformautoreplysubject",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformautoreplymsg",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformautoreplyincludeformcopy",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformsubmitparams",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "page_uuid",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "treuhand@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Finanzbuchhaltung vom Treuhandbüro Balbiani in Dietikon",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+        "description": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung. Kontaktieren Sie uns.",
+        "twitter:card": "summary",
+        "twitter:title": "Finanzbuchhaltung vom Treuhandbüro Balbiani in Dietikon",
+        "twitter:description": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung. Kontaktieren Sie uns.",
+        "og:description": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung. Kontaktieren Sie uns.",
+        "og:title": "Finanzbuchhaltung vom Treuhandbüro Balbiani in Dietikon"
+      },
+      "canonical": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+      "headings": {
+        "h1": [
+          "Buchführung von A bis Z"
+        ],
+        "h2": [
+          "Wir übernehmen Ihre Finanzbuchhaltung"
+        ]
+      },
+      "text": "Finanzbuchhaltung vom Treuhandbüro Balbiani in Dietikon\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nBuchführung von A bis Z\nKonzentrieren Sie sich auf alles Andere.\nWir übernehmen Ihre Finanzbuchhaltung\nEine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung und können Sie kompetent und zielführend von A bis Z begleiten.\nDank uns verfügen Sie jederzeit über die wichtigen Kennziffern, welche Ihnen bestimmt in der Unternehmensführung helfen werden.\nSparen Sie Ihre Zeit und vertrauen Sie uns Ihre Buchhaltung an. Wir freuen uns, für Sie da zu sein.\nUnsere Dienstleistungen umfassen:\n⊞\nFührung Finanzbuchhaltung\n⊞\nEinsatz Dritt-Programme\nSie können Ihre Buchungen vorerfassen und wir können diese mittels Schnittstelle in unser Finanz-Programm übertragen. Gerne betreuen wir Ihre Buchhaltung auch vor Ort.\n⊞\nFühren von Debitoren- und Kreditorenbuchhaltungen\n⊞\nMWST-Abrechnungen\n⊞\nQuartals- und Jahresabschlüsse\n⊞\nAnalyse der Jahresabschlüsse mittels relevanter Kennazahlen\n⊞\nKostenstellenrechnung\n⊞\nBudget-Überwachung\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 1532,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "treuhand@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/002__dienstleistungen__buchhaltung-mwst.html"
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Erbschaft / Treuhand allgemein | Treuhandbüro Balbiani",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+        "description": "Wenn es um Erbschaften oder allgemeine Treuhandanliegen geht, sind Sie bei uns am richtigen Ort. Nehmen Sie gerne mit uns Kontakt auf. Wir freuen uns auf Sie.",
+        "twitter:card": "summary",
+        "twitter:title": "Erbschaft / Treuhand allgemein | Treuhandbüro Balbiani",
+        "twitter:description": "Wenn es um Erbschaften oder allgemeine Treuhandanliegen geht, sind Sie bei uns am richtigen Ort. Nehmen Sie gerne mit uns Kontakt auf. Wir freuen uns auf Sie.",
+        "og:description": "Wenn es um Erbschaften oder allgemeine Treuhandanliegen geht, sind Sie bei uns am richtigen Ort. Nehmen Sie gerne mit uns Kontakt auf. Wir freuen uns auf Sie.",
+        "og:title": "Erbschaft / Treuhand allgemein | Treuhandbüro Balbiani"
+      },
+      "canonical": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+      "headings": {
+        "h1": [
+          "Erbschaft / Treuhand allgemein"
+        ],
+        "h2": [
+          "Allgemeine Treuhandanliegen und Erbschaften"
+        ]
+      },
+      "text": "Erbschaft / Treuhand allgemein | Treuhandbüro Balbiani\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nErbschaft / Treuhand allgemein\nWeitsicht bringt Sicherheit.\nAllgemeine Treuhandanliegen und Erbschaften\nWenn es um Erbschaften oder allgemeine Treuhandanliegen geht, sind Sie bei uns am richtigen Ort. Wir begleiten Sie fachkompetent durch den Erbschaftsprozess. Dabei können wir Ihnen von der Beratung und Durchführung von Erbteilungen bis hin zur Übernahme und Willensvorstreckung zur Seite stehen.\nAuch bei allgemeinen Treuhandanliegen übernehmen wir diverse Arbeiten und beraten Sie jederzeit zuverlässig, kompetent und professionell.\nWir freuen uns sehr, von Ihnen zu hören.\nErbangelegenheiten\n⊞\nBeratung und Durchführung von Erbteilungen\n⊞\nNachfolgeregelung- und Nachfolgeplanung\n⊞\nÜbernahme Willensvollstrecker-Mandat\nTreuhand allgemein\n⊞\nÜbernahme von allgemeinen andministrativen Arbeiten\n⊞\nBeratung bei Firmenübernahme\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 1358,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "treuhand@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/003__dienstleistungen__erbschaften-treuhand-allgemein.html"
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Firmen- und Gesellschaftsgründungen | Treuhandbüro Balbiani",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+        "description": "Gerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
+        "twitter:card": "summary",
+        "twitter:title": "Firmen- und Gesellschaftsgründungen | Treuhandbüro Balbiani",
+        "twitter:description": "Gerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
+        "og:description": "Gerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
+        "og:title": "Firmen- und Gesellschaftsgründungen | Treuhandbüro Balbiani"
+      },
+      "canonical": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+      "headings": {
+        "h1": [
+          "Gründungen"
+        ],
+        "h2": [
+          "Firmen- und Gesellschaftsgründungen"
+        ]
+      },
+      "text": "Firmen- und Gesellschaftsgründungen | Treuhandbüro Balbiani\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nGründungen\nWir begleiten Sie von der Idee zur Gründung.\nFirmen- und Gesellschaftsgründungen\nSie haben eine Geschäftsidee und sind auf der Suche nach einem kompetenten Partner, welcher Sie bis zur Gründung begleitet? Dank jahrelanger Erfahrung in der Materie sind wir der ideale Partner für Ihre Bedürfnisse.\nGerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.\nNehmen Sie für ein unverbindliches Erstgespräch mit uns\nKontakt\nauf.\nUnsere Dienstleistungen umfassen:\n⊞\nBeratung bei Firmengründungen\n⊞\nUmwandlung der Rechtsform Ihrer Firma\n⊞\nFinanzierung und Bankverhandlung\n⊞\nErstellen Businessplan\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 1233,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/AdobeStock_133199896-1920w.jpg",
+          "alt": "Balbiani Treuhand GmbH",
+          "width": "1140",
+          "height": "403"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "treuhand@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/004__dienstleistungen__firmen-gesellschaftsgruendungen.html"
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Lohn- und Personaladministration vom Treuhandbüro Balbiani",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+        "description": "Wir unterstützen Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.",
+        "twitter:card": "summary",
+        "twitter:title": "Lohn- und Personaladministration vom Treuhandbüro Balbiani",
+        "twitter:description": "Wir unterstützen Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.",
+        "og:description": "Wir unterstützen Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.",
+        "og:title": "Lohn- und Personaladministration vom Treuhandbüro Balbiani"
+      },
+      "canonical": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+      "headings": {
+        "h1": [
+          "Personaladministration"
+        ],
+        "h2": [
+          "Lohn- und Personaladministration"
+        ]
+      },
+      "text": "Lohn- und Personaladministration vom Treuhandbüro Balbiani\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nPersonaladministration\nWir unterstützen Sie in der Pflege Ihrer wertvollsten Investition, dem Personal.\nLohn- und Personaladministration\nKlare Verhältnisse mit Ihren Mitarbeiterinnen und Mitarbeiter sind eine wichtige Investition für den Erfolg Ihres Unternehmens. Genau deshalb unterstützen wir Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.\nHaben Sie zudem eine Personalfrage? Auch hier kann Sie das\nTeam\nvon Balbiani tatkräftig unterstützen. Sie sind uns genauso wichtig, wie Ihre Mitarbeitenden Ihnen wichtig sind. Wir freuen uns auf Ihre\nKontaktaufnahme\n!\nUnsere Dienstleistungen umfassen:\n⊞\nFühren von Lohnbuchhaltungen\n⊞\nErstellen der Lohnausweise\n⊞\nJahreslohnsummenmeldungen für alle                              Sozialeinrichtungen\n⊞\nQuellensteuerabrechnungen\n⊞\nBeratung bei Personalfragen\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 1417,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "Team",
+          "href": "https://www.balbiani.ch/balbiani",
+          "internal": true
+        },
+        {
+          "text": "Kontaktaufnahme",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "!",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "treuhand@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/005__dienstleistungen__lohn-personaladministration.html"
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Revisionen vom Treuhandbüro Balbiani in Dietikon (ZH)",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+        "description": "Wir prüfen Ihre Bilanz- und Jahresrechnung gemäss den schweiz. Prüfungsstandards zur eingeschränkten Revision. Dank unserem Revisor RAB, Jean-Pierre Balbiani.",
+        "twitter:card": "summary",
+        "twitter:title": "Revisionen vom Treuhandbüro Balbiani in Dietikon (ZH)",
+        "twitter:description": "Wir prüfen Ihre Bilanz- und Jahresrechnung gemäss den schweiz. Prüfungsstandards zur eingeschränkten Revision. Dank unserem Revisor RAB, Jean-Pierre Balbiani.",
+        "og:description": "Wir prüfen Ihre Bilanz- und Jahresrechnung gemäss den schweiz. Prüfungsstandards zur eingeschränkten Revision. Dank unserem Revisor RAB, Jean-Pierre Balbiani.",
+        "og:title": "Revisionen vom Treuhandbüro Balbiani in Dietikon (ZH)"
+      },
+      "canonical": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+      "headings": {
+        "h1": [
+          "Revisionen vom Profi"
+        ],
+        "h2": [
+          "Eingeschränkte Revision"
+        ]
+      },
+      "text": "Revisionen vom Treuhandbüro Balbiani in Dietikon (ZH)\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nRevisionen vom Profi\nEine fachgerechte Revision verschafft Sicherheit.\nEingeschränkte Revision\nGerne prüfen wir Ihre Bilanz- und Jahresrechnung gemäss den schweizerischen Prüfungsstandards zur eingeschränkten Revision. Dank unserem zugelassenen\nRevisor RAB\n, Jean-Pierre Balbiani (Zulassungs-Nr. 106 509), können Sie auf eine fachgerechte Revision zählen und nicht zuletzt an Sicherheit gewinnen.\nHaben Sie noch Fragen? Nehmen Sie gerne mit uns\nKontakt\nauf. Wir sind gerne für Sie da.\nUnsere Dienstleistungen umfassen:\n⊞\nPrüfung der Bilanz- und Jahresrechnung gemäss den schweiz.              Prüfungsstandards zur eingeschränkten Revision\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 1169,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "Revisor RAB",
+          "href": "https://www.rab-asr.ch/#/",
+          "internal": false
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "treuhand@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/006__dienstleistungen__revision-revisor-rab.html"
+    },
+    {
+      "url": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Ihre Steuerberatung in Dietikon vom Treuhandbüro Balbiani",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+        "description": "Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen u.v.m.",
+        "twitter:card": "summary",
+        "twitter:title": "Ihre Steuerberatung in Dietikon vom Treuhandbüro Balbiani",
+        "twitter:description": "Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen u.v.m.",
+        "og:description": "Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen u.v.m.",
+        "og:title": "Ihre Steuerberatung in Dietikon vom Treuhandbüro Balbiani"
+      },
+      "canonical": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+      "headings": {
+        "h1": [
+          "Steuern vom Profi"
+        ],
+        "h2": [
+          "Ihre Steuerberatung in Dietikon"
+        ]
+      },
+      "text": "Ihre Steuerberatung in Dietikon vom Treuhandbüro Balbiani\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nSteuern vom Profi\nUmsichtige Steuerplanung verschafft Freiraum.\nIhre Steuerberatung in Dietikon\nAlbert Einstein sagte einst, warum er einen Steuerberater beschäftigte: \"Das ist für einen Mathematiker zu schwierig, dazu muss man Philosoph sein\".\nWenn es um Steuerfragen geht, sind wir gerne Ihre Philosophen. Bei uns sparen Sie Zeit und Steuern und können sich als Privatperson oder juristische Person bei uns melden. Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen und vieles mehr.\nNehmen Sie mit uns Kontakt auf - wir beraten Sie gerne.\nUnsere Dienstleistungen umfassen:\n⊞\nErstellen von Steuererklärungen für natürliche und juristische                Personen in der ganzen Schweiz\n⊞\nPrüfen von Steuerveranlagungen und Einschätzungsentscheiden\n⊞\nVertretung bei Einsprachen und Rekursen vor Steuerbehörden\n⊞\nErstellen von Verrechnungsteuer-Rückerstattungsanträgen\n⊞\nSteueroptimierung / Steuerplanung\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 1533,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "treuhand@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/007__dienstleistungen__steuern-steuerberatung.html"
+    },
+    {
+      "url": "https://www.balbiani.ch/impressum",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Impressum - Balbiani Treuhand GmbH - Dietikon",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/impressum",
+        "description": "Auf dieser Seite finden Sie alle Kontaktangaben der Firma Balbiani Treuhand GmbH, sowie rechtliche Informationen zur Verwendung von Cookies.",
+        "twitter:card": "summary",
+        "twitter:title": "Impressum - Balbiani Treuhand GmbH - Dietikon",
+        "twitter:description": "Auf dieser Seite finden Sie alle Kontaktangaben der Firma Balbiani Treuhand GmbH, sowie rechtliche Informationen zur Verwendung von Cookies.",
+        "og:description": "Auf dieser Seite finden Sie alle Kontaktangaben der Firma Balbiani Treuhand GmbH, sowie rechtliche Informationen zur Verwendung von Cookies.",
+        "og:title": "Impressum - Balbiani Treuhand GmbH - Dietikon"
+      },
+      "canonical": "https://www.balbiani.ch/impressum",
+      "headings": {
+        "h1": [
+          "Kontaktangaben"
+        ],
+        "h2": [
+          "Rechtliche Hinweise"
+        ]
+      },
+      "text": "Impressum - Balbiani Treuhand GmbH - Dietikon\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nKontaktangaben\nFirma: Balbiani Treuhand GmbH\nAdresse: Oberdorfstrasse 11 8953 Dietikon\nTelefon:\n044 746 40 60\nE-Mail:\ntreuhand@balbiani.ch\nRechtliche Hinweise\nDiese Website verwendet Cookies. Cookies sind kleine Textdateien, die beim Besuch dieser Website in Ihrem Computer dauerhaft oder temporär gespeichert werden. Zweck der Cookies ist insbesondere die Analyse der Nutzung dieser Website zur statistischen Auswertung sowie für kontinuierliche Verbesserungen. In Ihrem Browser können Sie Cookies in den Einstellungen jederzeit ganz oder teilweise deaktivieren. Bei deaktivierten Cookies stehen Ihnen allenfalls nicht mehr alle Funktionen dieser Website zur Verfügung.\n© 2022 Realisiert durch\nlocalsearch.ch\nZu unseren Einträgen auf\nlocal.ch\nund\nsearch.ch\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 1279,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/impressum#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/impressum#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "localsearch.ch",
+          "href": "https://www.localsearch.ch/",
+          "internal": false
+        },
+        {
+          "text": "local.ch",
+          "href": "https://www.local.ch/de/d/dietikon/8953/treuhandgesellschaft-treuhandbuero/balbiani-treuhand-gmbh-_Ws00sStT0WByemg3-22Lw",
+          "internal": false
+        },
+        {
+          "text": "search.ch",
+          "href": "https://tel.search.ch/dietikon/oberdorfstrasse-11/balbiani-treuhand-gmbh-2.html",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/impressum#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "treuhand@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/008__impressum.html"
+    },
+    {
+      "url": "https://www.balbiani.ch/links-downloads-treuhand",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Links & Downloads | Treuhandbüro Balbiani | Dietikon",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/links-downloads-treuhand",
+        "description": "Auf dieser Seite finden Sie diverse nützliche Links und Downloads zu Steuerthemen, Ausgleichskassen, Buchhaltung, Handelsregister und mehr.",
+        "twitter:card": "summary",
+        "twitter:title": "Links & Downloads | Treuhandbüro Balbiani | Dietikon",
+        "twitter:description": "Auf dieser Seite finden Sie diverse nützliche Links und Downloads zu Steuerthemen, Ausgleichskassen, Buchhaltung, Handelsregister und mehr.",
+        "og:description": "Auf dieser Seite finden Sie diverse nützliche Links und Downloads zu Steuerthemen, Ausgleichskassen, Buchhaltung, Handelsregister und mehr.",
+        "og:title": "Links & Downloads | Treuhandbüro Balbiani | Dietikon"
+      },
+      "canonical": "https://www.balbiani.ch/links-downloads-treuhand",
+      "headings": {
+        "h1": [
+          "Links & Downloads"
+        ],
+        "h2": [
+          "Steuern"
+        ]
+      },
+      "text": "Links & Downloads | Treuhandbüro Balbiani | Dietikon\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nLinks & Downloads\nNützliche Informationen für Sie.\nSteuern\nSteuergesetz Kanton Zürich\nSpesenreglement\nBesteuerung Renten\nAbschreibungen\nSteuerverwaltung Kanton Zürich\nSteuerverwaltung Kanton Aargau\nEidgenössische Steuerverwaltung\nMehrwertsteuergesetz\nBuchhaltung\nKMU Kontenrahmen\nÄnderungen Mehrwertsteuer per 1. Januar 2018\nRechtliches\nBundesrecht Sammlung\nVerjährungsfristen\nAusgleichskassen\nAusgleichskasse Kanton Zürich\nAusgleichskasse Kanton Aargau\nZEFIX und Handelsregister\nZEFIX\nHandelsregisteramt Zürich\nDiverse Links\nSchweiz. Treuhänder-Verband\nGründerportal\nTeuerungsrechner\nWährungsrechner\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 1129,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "Steuergesetz Kanton Zürich",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/Steuergesetz.pdf",
+          "internal": false
+        },
+        {
+          "text": "Spesenreglement",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/Spesenreglement.pdf",
+          "internal": false
+        },
+        {
+          "text": "Besteuerung Renten",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/Besteuerung_Renten.pdf",
+          "internal": false
+        },
+        {
+          "text": "Abschreibungen",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/Abschreibungen.pdf",
+          "internal": false
+        },
+        {
+          "text": "Steuerverwaltung Kanton Zürich",
+          "href": "https://www.zh.ch/de/steuern-finanzen/steuern.html",
+          "internal": false
+        },
+        {
+          "text": "Steuerverwaltung Kanton Aargau",
+          "href": "https://www.ag.ch/de/verwaltung/dfr/steuern",
+          "internal": false
+        },
+        {
+          "text": "Eidgenössische Steuerverwaltung",
+          "href": "https://www.estv.admin.ch/estv/de/home.html",
+          "internal": false
+        },
+        {
+          "text": "Mehrwertsteuergesetz",
+          "href": "https://www.fedlex.admin.ch/eli/cc/2009/615/de",
+          "internal": false
+        },
+        {
+          "text": "KMU Kontenrahmen",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/KMU.pdf",
+          "internal": false
+        },
+        {
+          "text": "Änderungen Mehrwertsteuer per 1. Januar 2018",
+          "href": "https://de.cdn-website.com/471236b71ab0463083844a0012bde5e0/files/uploaded/RevisionMWST1.1.2018.pdf",
+          "internal": false
+        },
+        {
+          "text": "Bundesrecht Sammlung",
+          "href": "https://www.fedlex.admin.ch/de/cc?news_period=last_day&news_pageNb=1&news_order=desc&news_itemsPerPage=10",
+          "internal": false
+        },
+        {
+          "text": "Verjährungsfristen",
+          "href": "https://www.linker.ch/eigenlink/verjaehrungsfristen.htm",
+          "internal": false
+        },
+        {
+          "text": "Ausgleichskasse Kanton Zürich",
+          "href": "https://svazurich.ch/",
+          "internal": false
+        },
+        {
+          "text": "Ausgleichskasse Kanton Aargau",
+          "href": "https://www.sva-ag.ch/",
+          "internal": false
+        },
+        {
+          "text": "ZEFIX",
+          "href": "https://www.zefix.ch/de/search/entity/welcome",
+          "internal": false
+        },
+        {
+          "text": "Handelsregisteramt Zürich",
+          "href": "https://www.zh.ch/de/wirtschaft-arbeit/handelsregister.html",
+          "internal": false
+        },
+        {
+          "text": "Schweiz. Treuhänder-Verband",
+          "href": "https://www.treuhandsuisse-zh.ch/",
+          "internal": false
+        },
+        {
+          "text": "Gründerportal",
+          "href": "https://www.gruenderportal.ch/dienstleistungen/firmengruendungen.html?gclid=CJbw7vbisNICFXgz0wodNSYJ8g",
+          "internal": false
+        },
+        {
+          "text": "Teuerungsrechner",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Währungsrechner",
+          "href": "https://www.finanzen.ch/waehrungsrechner",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "treuhand@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/009__links-downloads-treuhand.html"
+    },
+    {
+      "url": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Über das Treuhandbüro Balbiani in Dietikon (Kt. Zürich)",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+        "description": "ie möchten Ihre Buchführung oder Ihre Steuern in vertrauensvolle Hände geben oder sich bzgl. Ihrer Revision informieren? Lassen Sie es uns jederzeit wissen.",
+        "twitter:card": "summary",
+        "twitter:title": "Über das Treuhandbüro Balbiani in Dietikon (Kt. Zürich)",
+        "twitter:description": "ie möchten Ihre Buchführung oder Ihre Steuern in vertrauensvolle Hände geben oder sich bzgl. Ihrer Revision informieren? Lassen Sie es uns jederzeit wissen.",
+        "og:description": "ie möchten Ihre Buchführung oder Ihre Steuern in vertrauensvolle Hände geben oder sich bzgl. Ihrer Revision informieren? Lassen Sie es uns jederzeit wissen.",
+        "og:title": "Über das Treuhandbüro Balbiani in Dietikon (Kt. Zürich)"
+      },
+      "canonical": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+      "headings": {
+        "h1": [
+          "Über das Balbiani Treuhand GmbH"
+        ],
+        "h2": [
+          "Seit über 60 Jahren Ihr starker Partner in Steuerfragen"
+        ]
+      },
+      "text": "Über das Treuhandbüro Balbiani in Dietikon (Kt. Zürich)\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nÜber das Balbiani Treuhand GmbH\nErfahren Sie mehr über uns.\nSeit über 60 Jahren Ihr starker Partner in Steuerfragen\nBereits seit dem Jahr 1960 stehen wir Ihnen als familiengeführtes Treuhandbüro in Dietikon zur Seite. Gerne übernehmen wir für Sie sämtliche Aufgaben, die im Rahmen der Steuererklärung für natürliche und juristische Personen anfallen. Sie möchten Ihre Buchführung in vertrauensvolle Hände geben oder sich bezüglich Ihrer angestrebten Revision informieren? Lassen Sie es uns jederzeit wissen. Schliesslich möchten wir Sie nachhaltig entlasten, damit Sie sich vollends auf Ihre Kernaufgaben konzentrieren können. Das steigert nicht nur Ihren Umsatz, sondern auch Ihre Lebensqualität.\nFühren Sie ein kleines oder mittleres Unternehmen, können Sie unsere Leistungen in Anspruch nehmen. Diese umfassen eine branchenübergreifende Betreuung nach Mass.So sehen wir es als eine unserer Hauptaufgaben an, die Lebensqualität unserer Klienten spürbar zu verbessern. Das erreichen wir, indem wir zum Beispiel die alltägliche Formular- und Zahlenflut für sie bewältigen. Auch Sie kostet der Umgang mit Behörden wertvolle Arbeitszeit und Nerven? Das trifft ebenso auf das Einholen essenzieller Informationen bezüglich wichtiger Änderungen im Rahmen der behördlichen Vorschriften zu? In diesem Fall sind wir als Treuhandbüro an Ihrer Seite.\nSeit 1980 sind wir Mitglied im Schweizer Treuhänderverband\nTreuhand | Suisse Sektion Zürich\nWir gewähren die Einhaltung der Richtlinien und Standards unseres Berufsstandes.\nWir sind gerne für Sie da!\nJean-Pierre Balbiani\nGesellschafter und Mitglied Geschäftsleitung\nTreuhänder mit eidg. Fachausweis\nRevisor RAB:\nSprachen:\nDeutsch, Französisch, Italienisch\n\njean-pierre@balbiani.ch\nVanja Dancilovic\nGesellschafterin und Mitglied Geschäftsleitung\nEintritt 1993\nSprachen\n:\nDeutsch, Italienisch, Englisch, Kroatisch\n\nvanja.dancilovic@balbiani.ch\nKatia De Feo\nGesellschafterin und Mitglied Geschäftsleitung\nEintritt 1999\nSprachen:\nDeutsch, Italienisch\n\nkatia.defeo@balbiani.ch\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 2547,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse-zh.ch/",
+          "internal": false
+        },
+        {
+          "text": "Treuhand | Suisse Sektion Zürich",
+          "href": "https://www.treuhandsuisse-zh.ch/",
+          "internal": false
+        },
+        {
+          "text": "jean-pierre@balbiani.ch",
+          "href": "mailto:jean-pierre@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:vanja.dancilovic@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "vanja.dancilovic@balbiani.ch",
+          "href": "mailto:vanja.dancilovic@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:katia.defeo@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "katia.defeo@balbiani.ch",
+          "href": "mailto:katia.defeo@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Download-1920w.png",
+          "alt": "Mitglied Treuhand Suisse - Balbiani Treuhand GmbH - Dietikon",
+          "width": "305",
+          "height": "110"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/99__image650x650-1920w.jpg",
+          "alt": "Team - Balbiani Treuhand GmbH - Dietikon",
+          "width": "360",
+          "height": "240"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/96__image650x650-1920w.jpg",
+          "alt": "Team - Balbiani Treuhand GmbH - Dietikon",
+          "width": "360",
+          "height": "240"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/97__image650x650-1920w.jpg",
+          "alt": "Team - Balbiani Treuhand GmbH - Dietikon",
+          "width": "360",
+          "height": "240"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "jean-pierre@balbiani.ch",
+        "katia.defeo@balbiani.ch",
+        "treuhand@balbiani.ch",
+        "vanja.dancilovic@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/010__team-geschichte-treuhandbuero.html"
+    },
+    {
+      "url": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Kontaktieren Sie das Treuhandbüro Balbiani in Dietikon",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+        "description": "Haben Sie Fragen zu unseren Dienstleistungen oder wünschen Sie eine unverbindliche Beratung? Wir stehen Ihnen sehr gerne fachkompetent zur Seite.",
+        "twitter:card": "summary",
+        "twitter:title": "Kontaktieren Sie das Treuhandbüro Balbiani in Dietikon",
+        "twitter:description": "Haben Sie Fragen zu unseren Dienstleistungen oder wünschen Sie eine unverbindliche Beratung? Wir stehen Ihnen sehr gerne fachkompetent zur Seite.",
+        "og:description": "Haben Sie Fragen zu unseren Dienstleistungen oder wünschen Sie eine unverbindliche Beratung? Wir stehen Ihnen sehr gerne fachkompetent zur Seite.",
+        "og:title": "Kontaktieren Sie das Treuhandbüro Balbiani in Dietikon"
+      },
+      "canonical": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+      "headings": {
+        "h1": [
+          "Suchen Sie ein Treuhandbüro?"
+        ],
+        "h3": [
+          ""
+        ]
+      },
+      "text": "Kontaktieren Sie das Treuhandbüro Balbiani in Dietikon\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nSuchen Sie ein Treuhandbüro?\nSie haben es gefunden.\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\n﻿\nTelefon:\n044 746 40 60\nE-Mail:\ntreuhand@balbiani.ch\nÖffnungszeiten\nMo - Do\n8:30\n-\n12:00\n14:00\n-\n17:30\nFreitag\n8:30\n-\n15:00\nSa - So\nGeschlossen\nSchicken Sie uns eine E-Mail\nVorname*\nNachname*\nE-Mail*\nTelefon*\nNachricht\nDanke, dass Sie uns kontaktiert haben.\nWir werden uns schnellstmöglich bei Ihnen melden.\nHoppla, beim Senden Ihrer Nachricht ist ein Fehler aufgetreten.\nBitte versuchen Sie es später noch einmal.\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 1054,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": null,
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "dmform-4",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "label-dmform-4",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "dmform-0",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "label-dmform-0",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "dmform-1",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "label-dmform-1",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "tel",
+              "name": "dmform-2",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "label-dmform-2",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "dmform-3",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "label-dmform-3",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "submit",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformsendto",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "action",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformsubject",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformfrom",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformautoreplyenabled",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformautoreplyfrom",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformautoreplysubject",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformautoreplymsg",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformautoreplyincludeformcopy",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "dmformsubmitparams",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "page_uuid",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "treuhand@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/011__treuhandbuero-zuerich-aargau.html"
+    },
+    {
+      "url": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Über das Treuhandbüro Balbiani in Dietikon (Kt. Zürich)",
+      "lang": "de",
+      "meta": {
+        "viewport": "initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+        "apple-mobile-web-app-capable": "yes",
+        "og:type": "website",
+        "og:url": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+        "description": "ie möchten Ihre Buchführung oder Ihre Steuern in vertrauensvolle Hände geben oder sich bzgl. Ihrer Revision informieren? Lassen Sie es uns jederzeit wissen.",
+        "twitter:card": "summary",
+        "twitter:title": "Über das Treuhandbüro Balbiani in Dietikon (Kt. Zürich)",
+        "twitter:description": "ie möchten Ihre Buchführung oder Ihre Steuern in vertrauensvolle Hände geben oder sich bzgl. Ihrer Revision informieren? Lassen Sie es uns jederzeit wissen.",
+        "og:description": "ie möchten Ihre Buchführung oder Ihre Steuern in vertrauensvolle Hände geben oder sich bzgl. Ihrer Revision informieren? Lassen Sie es uns jederzeit wissen.",
+        "og:title": "Über das Treuhandbüro Balbiani in Dietikon (Kt. Zürich)"
+      },
+      "canonical": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+      "headings": {
+        "h1": [
+          "Über das Balbiani Treuhand GmbH"
+        ],
+        "h2": [
+          "Seit über 60 Jahren Ihr starker Partner in Steuerfragen"
+        ]
+      },
+      "text": "Über das Treuhandbüro Balbiani in Dietikon (Kt. Zürich)\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nHome\nBalbiani\nDienstleistungen\nBuchhaltung / MWST\nPersonaladministration\nRevision\nSteuern\nGesellschaftsgründungen\nTreuhand allgemein\nLinks & Downloads\nKontakt\nÜber das Balbiani Treuhand GmbH\nErfahren Sie mehr über uns.\nSeit über 60 Jahren Ihr starker Partner in Steuerfragen\nBereits seit dem Jahr 1960 stehen wir Ihnen als familiengeführtes Treuhandbüro in Dietikon zur Seite. Gerne übernehmen wir für Sie sämtliche Aufgaben, die im Rahmen der Steuererklärung für natürliche und juristische Personen anfallen. Sie möchten Ihre Buchführung in vertrauensvolle Hände geben oder sich bezüglich Ihrer angestrebten Revision informieren? Lassen Sie es uns jederzeit wissen. Schliesslich möchten wir Sie nachhaltig entlasten, damit Sie sich vollends auf Ihre Kernaufgaben konzentrieren können. Das steigert nicht nur Ihren Umsatz, sondern auch Ihre Lebensqualität.\nFühren Sie ein kleines oder mittleres Unternehmen, können Sie unsere Leistungen in Anspruch nehmen. Diese umfassen eine branchenübergreifende Betreuung nach Mass.So sehen wir es als eine unserer Hauptaufgaben an, die Lebensqualität unserer Klienten spürbar zu verbessern. Das erreichen wir, indem wir zum Beispiel die alltägliche Formular- und Zahlenflut für sie bewältigen. Auch Sie kostet der Umgang mit Behörden wertvolle Arbeitszeit und Nerven? Das trifft ebenso auf das Einholen essenzieller Informationen bezüglich wichtiger Änderungen im Rahmen der behördlichen Vorschriften zu? In diesem Fall sind wir als Treuhandbüro an Ihrer Seite.\nSeit 1980 sind wir Mitglied im Schweizer Treuhänderverband\nTreuhand | Suisse Sektion Zürich\nWir gewähren die Einhaltung der Richtlinien und Standards unseres Berufsstandes.\nWir sind gerne für Sie da!\nJean-Pierre Balbiani\nGesellschafter und Mitglied Geschäftsleitung\nTreuhänder mit eidg. Fachausweis\nRevisor RAB:\nSprachen:\nDeutsch, Französisch, Italienisch\n\njean-pierre@balbiani.ch\nVanja Dancilovic\nGesellschafterin und Mitglied Geschäftsleitung\nEintritt 1993\nSprachen\n:\nDeutsch, Italienisch, Englisch, Kroatisch\n\nvanja.dancilovic@balbiani.ch\nKatia De Feo\nGesellschafterin und Mitglied Geschäftsleitung\nEintritt 1999\nSprachen:\nDeutsch, Italienisch\n\nkatia.defeo@balbiani.ch\nAdresse\nBalbiani Treuhand GmbH\nOberdorfstrasse 11\n8953 Dietikon\nTelefon\n044 746 40 60\nE-Mail\ntreuhand@balbiani.ch\nRechtliches\nImpressum\nDatenschutz\nShare by:",
+      "text_len": 2547,
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.balbiani.ch/",
+          "internal": true
+        },
+        {
+          "text": "Balbiani",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero#",
+          "internal": true
+        },
+        {
+          "text": "Buchhaltung / MWST",
+          "href": "https://www.balbiani.ch/dienstleistungen/buchhaltung-mwst",
+          "internal": true
+        },
+        {
+          "text": "Personaladministration",
+          "href": "https://www.balbiani.ch/dienstleistungen/lohn-personaladministration",
+          "internal": true
+        },
+        {
+          "text": "Revision",
+          "href": "https://www.balbiani.ch/dienstleistungen/revision-revisor-rab",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://www.balbiani.ch/dienstleistungen/steuern-steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Gesellschaftsgründungen",
+          "href": "https://www.balbiani.ch/dienstleistungen/firmen-gesellschaftsgruendungen",
+          "internal": true
+        },
+        {
+          "text": "Treuhand allgemein",
+          "href": "https://www.balbiani.ch/dienstleistungen/erbschaften-treuhand-allgemein",
+          "internal": true
+        },
+        {
+          "text": "Links & Downloads",
+          "href": "https://www.balbiani.ch/links-downloads-treuhand",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.balbiani.ch/treuhandbuero-zuerich-aargau",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.treuhandsuisse-zh.ch/",
+          "internal": false
+        },
+        {
+          "text": "Treuhand | Suisse Sektion Zürich",
+          "href": "https://www.treuhandsuisse-zh.ch/",
+          "internal": false
+        },
+        {
+          "text": "jean-pierre@balbiani.ch",
+          "href": "mailto:jean-pierre@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:vanja.dancilovic@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "vanja.dancilovic@balbiani.ch",
+          "href": "mailto:vanja.dancilovic@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:katia.defeo@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "katia.defeo@balbiani.ch",
+          "href": "mailto:katia.defeo@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.balbiani.ch/team-geschichte-treuhandbuero#dm",
+          "internal": true
+        },
+        {
+          "text": "044 746 40 60",
+          "href": "tel:0447464060",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "treuhand@balbiani.ch",
+          "href": "mailto:treuhand@balbiani.ch",
+          "internal": false
+        },
+        {
+          "text": "Impressum",
+          "href": "https://www.balbiani.ch/impressum",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://www.balbiani.ch/uploads/QSF3wpRf/BalbianiDatenschutz.pdf",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/Balbiani-Treuhand-GmbH-211236905882598",
+          "internal": false
+        }
+      ],
+      "images": [
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Balbiani_Logo-1920w.png",
+          "alt": "Logo - Balbiani Treuhand GmbH - Dietikon",
+          "width": "320",
+          "height": "169"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/Download-1920w.png",
+          "alt": "Mitglied Treuhand Suisse - Balbiani Treuhand GmbH - Dietikon",
+          "width": "305",
+          "height": "110"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/99__image650x650-1920w.jpg",
+          "alt": "Team - Balbiani Treuhand GmbH - Dietikon",
+          "width": "360",
+          "height": "240"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/96__image650x650-1920w.jpg",
+          "alt": "Team - Balbiani Treuhand GmbH - Dietikon",
+          "width": "360",
+          "height": "240"
+        },
+        {
+          "src": "https://le-de.cdn-website.com/471236b71ab0463083844a0012bde5e0/dms3rep/multi/opt/97__image650x650-1920w.jpg",
+          "alt": "Team - Balbiani Treuhand GmbH - Dietikon",
+          "width": "360",
+          "height": "240"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "jean-pierre@balbiani.ch",
+        "katia.defeo@balbiani.ch",
+        "treuhand@balbiani.ch",
+        "vanja.dancilovic@balbiani.ch"
+      ],
+      "phones": [
+        "044 746 40 60"
+      ],
+      "raw_html": "raw_html/012__team-geschichte-treuhandbuero.html"
+    }
+  ]
+}

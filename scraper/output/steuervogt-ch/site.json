@@ -1,0 +1,2568 @@
+{
+  "name": "SteuerVogt GmbH",
+  "domain": "steuervogt.ch",
+  "start_url": "https://steuervogt.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781615797.758085,
+    "duration_sec": 20.4,
+    "pages_crawled": 11,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\ncrawl-delay: 10"
+  },
+  "contact": {
+    "emails": [
+      "laura.vogt@steuervogt.ch"
+    ],
+    "phones": [
+      "+41 79 785 84 51"
+    ]
+  },
+  "assets": {
+    "downloaded": 15,
+    "failed": 1,
+    "total_bytes": 2293054,
+    "manifest": [
+      {
+        "url": "https://cegekowu.myhostpoint.ch/wp-content/uploads/2021/01/treuhand-beratung-steuervogt-683x1024.jpg",
+        "ok": true,
+        "file": "assets/364f431bff__treuhand-beratung-steuervogt-683x1024.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 100273
+      },
+      {
+        "url": "https://steuervogt.ch/favicon.ico",
+        "ok": false,
+        "status": 503
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2020/12/cropped-steuervogt-steuerberatung-logo-square-180x180.jpg",
+        "ok": true,
+        "file": "assets/68479b66ec__cropped-steuervogt-steuerberatung-logo-square-180x180.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 3171
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2020/12/cropped-steuervogt-steuerberatung-logo-square-192x192.jpg",
+        "ok": true,
+        "file": "assets/192267529d__cropped-steuervogt-steuerberatung-logo-square-192x192.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 3436
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2020/12/cropped-steuervogt-steuerberatung-logo-square-32x32.jpg",
+        "ok": true,
+        "file": "assets/72016601de__cropped-steuervogt-steuerberatung-logo-square-32x32.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 464
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-beratung-steuervogt-200x300.jpg",
+        "ok": true,
+        "file": "assets/fbfe7890a5__treuhand-beratung-steuervogt-200x300.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 17020
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-beratung-steuervogt-683x1024.jpg",
+        "ok": true,
+        "file": "assets/452a3c95e2__treuhand-beratung-steuervogt-683x1024.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 100273
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-beratung-steuervogt-768x1152.jpg",
+        "ok": true,
+        "file": "assets/eb01549c32__treuhand-beratung-steuervogt-768x1152.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 118710
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-beratung-steuervogt.jpg",
+        "ok": true,
+        "file": "assets/c2d2d0944f__treuhand-beratung-steuervogt.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 200816
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-dienstleistungen-steuervogt-zuerich-1024x683.jpg",
+        "ok": true,
+        "file": "assets/a9aaf8afd2__treuhand-dienstleistungen-steuervogt-zuerich-1024x683.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 164338
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-dienstleistungen-steuervogt-zuerich-1440x960.jpg",
+        "ok": true,
+        "file": "assets/8a85da3df0__treuhand-dienstleistungen-steuervogt-zuerich-1440x960.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 311538
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-dienstleistungen-steuervogt-zuerich-1536x1024.jpg",
+        "ok": true,
+        "file": "assets/a2d34e5b0e__treuhand-dienstleistungen-steuervogt-zuerich-1536x1024.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 351464
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-dienstleistungen-steuervogt-zuerich-300x200.jpg",
+        "ok": true,
+        "file": "assets/0d2b6d9bc0__treuhand-dienstleistungen-steuervogt-zuerich-300x200.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 15952
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-dienstleistungen-steuervogt-zuerich-768x512.jpg",
+        "ok": true,
+        "file": "assets/0a2bb77903__treuhand-dienstleistungen-steuervogt-zuerich-768x512.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 93303
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-dienstleistungen-steuervogt-zuerich.jpg",
+        "ok": true,
+        "file": "assets/71c20b7aac__treuhand-dienstleistungen-steuervogt-zuerich.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 764517
+      },
+      {
+        "url": "https://steuervogt.ch/wp-content/uploads/2023/11/corporate-design-logo-steuervogt-gmbh.jpg",
+        "ok": true,
+        "file": "assets/d4e70b0905__corporate-design-logo-steuervogt-gmbh.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 47779
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://steuervogt.ch/",
+      "title": "Treuhand- und Steuerberatung | SteuerVogt GmbH Zürich",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 2884
+    },
+    {
+      "url": "https://steuervogt.ch/datenschutzerklaerung/",
+      "title": "Datenschutzerklärung | SteuerVogt GmbH",
+      "raw_html": "raw_html/002__datenschutzerklaerung.html",
+      "text_len": 11985
+    },
+    {
+      "url": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+      "title": "Firmengründung | SteuerVogt GmbH Zürich",
+      "raw_html": "raw_html/003__firmengruendung-und-sitzverlegung.html",
+      "text_len": 2076
+    },
+    {
+      "url": "https://steuervogt.ch/kontakt/",
+      "title": "Kontakt | SteuerVogt GmbH",
+      "raw_html": "raw_html/004__kontakt.html",
+      "text_len": 922
+    },
+    {
+      "url": "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/",
+      "title": "Vielen Dank für Ihre Kontaktaufnahme | SteuerVogt GmbH",
+      "raw_html": "raw_html/005__kontakt__danke-kontaktaufnahme.html",
+      "text_len": 681
+    },
+    {
+      "url": "https://steuervogt.ch/lohn-und-personaladminstration/",
+      "title": "Lohn- und Personaladministration | SteuerVogt GmbH Zürich",
+      "raw_html": "raw_html/006__lohn-und-personaladminstration.html",
+      "text_len": 2283
+    },
+    {
+      "url": "https://steuervogt.ch/rechnungswesen/",
+      "title": "Rechnungswesen | SteuerVogt GmbH Zürich",
+      "raw_html": "raw_html/007__rechnungswesen.html",
+      "text_len": 3496
+    },
+    {
+      "url": "https://steuervogt.ch/steuern",
+      "title": "Wartungsmodus",
+      "raw_html": "raw_html/008__steuern.html",
+      "text_len": 151
+    },
+    {
+      "url": "https://steuervogt.ch/steuern/checkliste-fuer-steuererklaerung-in-der-schweiz",
+      "title": "Wartungsmodus",
+      "raw_html": "raw_html/009__steuern__checkliste-fuer-steuererklaerung-in-der-schweiz.html",
+      "text_len": 151
+    },
+    {
+      "url": "https://steuervogt.ch/ueber-mich",
+      "title": "Wartungsmodus",
+      "raw_html": "raw_html/010__ueber-mich.html",
+      "text_len": 151
+    },
+    {
+      "url": "https://steuervogt.ch/steuern/vielen-dank-fuer-die-bestellung",
+      "title": "Wartungsmodus",
+      "raw_html": "raw_html/011__steuern__vielen-dank-fuer-die-bestellung.html",
+      "text_len": 151
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://steuervogt.ch/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Treuhand- und Steuerberatung | SteuerVogt GmbH Zürich",
+      "lang": "de-CH",
+      "meta": {
+        "content-type": "text/html",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "description": "Treuhand- und Steuerberatung im Herzen von Zürich. Kompetente Beratung und Unterstützung in sämtlichen treuhänderischen Bereichen. Das massgeschneiderte Treuhandpaket für Privatpersonen und Unternehmen. Ihr treuhänderisches Anliegen steht bei der SteuerVogt GmbH im Mittelpunkt.",
+        "og:locale": "de_DE",
+        "og:type": "website",
+        "og:title": "Treuhand- und Steuerberatung | SteuerVogt GmbH Zürich",
+        "og:description": "Treuhand- und Steuerberatung im Herzen von Zürich. Kompetente Beratung und Unterstützung in sämtlichen treuhänderischen Bereichen. Das massgeschneiderte Treuhandpaket für Privatpersonen und Unternehmen. Ihr treuhänderisches Anliegen steht bei der SteuerVogt GmbH im Mittelpunkt.",
+        "og:url": "https://steuervogt.ch/",
+        "og:site_name": "SteuerVogt GmbH",
+        "article:modified_time": "2023-10-22T13:41:21+00:00",
+        "og:image": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-dienstleistungen-steuervogt-zuerich.jpg",
+        "og:image:width": "1960",
+        "og:image:height": "1307",
+        "og:image:type": "image/jpeg",
+        "twitter:card": "summary_large_image",
+        "generator": "WordPress 6.8.5",
+        "msapplication-tileimage": "https://steuervogt.ch/wp-content/uploads/2020/12/cropped-steuervogt-steuerberatung-logo-square-270x270.jpg"
+      },
+      "canonical": "https://steuervogt.ch/",
+      "headings": {
+        "h1": [
+          "SteuerVogt  GmbH Treuhand & Steuerberatung"
+        ],
+        "h2": [
+          "Treuhand- und Steuer-Dienstleistungen",
+          "Firmengründung und Sitzverlegung",
+          "Buchhaltung und Treuhand",
+          "Steuern",
+          "Lohn- und Personaladministration"
+        ],
+        "h3": [
+          "Mehr Infos"
+        ]
+      },
+      "text": "Treuhand- und Steuerberatung | SteuerVogt GmbH Zürich\nSkip to the content\nSuche nach:\nSteuerVogt GmbH\nMenu\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nShow the search field\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nSuche nach:\nSteuerVogt  GmbH Treuhand & Steuerberatung\nAls klassisches Treuhandunternehmen bietet die SteuerVogt GmbH Unterstützung in sämtlichen treuhänderischen Bereichen von der\nFirmengründung\nbis zur\nSteuererklärung\n. Um das bestmögliche Paket für Sie und/oder Ihr Unternehmen ausarbeiten zu können, freue ich mich Sie telefonisch oder persönlich zu einem ersten\nBeratungsgespräch begrüssen zu dürfen.\nAls Treuhänderin mit eidgenössischem Fachausweis stehen für mich und somit auch für die Steuervogt GmbH die Zufriedenheit und Bedürfnisse der einzelnen Kunden im Mittelpunkt. Bei der Beratung sei dies im Bereich der Unternehmensberatung, der Steuerberatung oder eines anderen Fachbereichs ist es mir ein besonderes Anliegen auf die einzelnen Ansprüche der Privatpersonen und Unternehmen einzugehen und das bestmögliche Dienstleistungspaket für Sie auszuarbeiten.\nBeratung anfordern\nTreuhand- und Steuer-Dienstleistungen\nBei der Beratung von Privatpersonen und Unternehmen (juristische Personen) sind mir die Individualität der Beratungsdienstleistungen sowie die Bedürfnisse der Kunden ein zentrales Anliegen. Um Sie vollumfänglich unterstützen zu können, bietet Ihnen die SteuerVogt GmbH folgende Dienstleistungen an, aus welchen das für Sie zugeschnittene Dienstleistungspaket erstellt werden kann:\nFirmengründung und Sitzverlegung\nHaben Sie vor eine Firma zu gründen oder den Standort Ihrer bereits bestehenden Firma zu ändern, dann können Sie gerne unverbindlich Kontakt aufnehmen.\nMehr erfahren\nBuchhaltung und Treuhand\nHaben Sie bereits eine Firma oder Einzelunternehmung und benötigen Hilfe im Bereich der Buchhaltung und weiteren Treuhandbereichen, dann sind Sie bei mir an der richtigen Adresse.\nWeitere Informationen\nSteuern\nBenötigen Sie Hilfe mit Ihrer privaten Steuererklärung oder der Steuererklärung Ihrer Gesellschaft. Gerne unterstütze ich Sie hierbei. Durch meine langjährige Erfahrung im Steuerbereich kann ich Sie bei den Steuererklärungen aus allen Kantonen der Schweiz unterstützen und beraten.\nWeitere Informationen zu Steuern\nLohn- und Personaladministration\nBeschäftigen Sie personal oder benötigen Sie eine kompetente und individuelle Beratung im Zusammenhang mit Löhnen und sozialversicherungsrechtlichen Themen, dann wenden Sie sich gerne an mich.\nMehr Informationen\nMehr Infos\nDatenschutzerklärung\nKontakt\nÜber mich\nCheckliste für Steuererklärung in der Schweiz\nVielen Dank für die Bestellung\nDiese Seite verwendet Cookies, um die Nutzerfreundlichkeit zu verbessern. Mit der weiteren Verwendung stimmen Sie dem zu.\nVerstanden\nDatenschutzerklärung",
+      "text_len": 2884,
+      "links": [
+        {
+          "text": "Skip to the content",
+          "href": "https://steuervogt.ch/#site-content",
+          "internal": true
+        },
+        {
+          "text": "SteuerVogt GmbH",
+          "href": "https://steuervogt.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Show the search field",
+          "href": "https://steuervogt.ch/#",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Steuererklärung",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Beratungsgespräch begrüssen zu dürfen.",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Beratung anfordern",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Mehr erfahren",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Weitere Informationen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Weitere Informationen zu Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Mehr Informationen",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Checkliste für Steuererklärung in der Schweiz",
+          "href": "https://steuervogt.ch/steuern/checkliste-fuer-steuererklaerung-in-der-schweiz/",
+          "internal": true
+        },
+        {
+          "text": "Vielen Dank für die Bestellung",
+          "href": "https://steuervogt.ch/steuern/vielen-dank-fuer-die-bestellung/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://steuervogt.ch/wp-content/uploads/2023/11/corporate-design-logo-steuervogt-gmbh.jpg"
+        },
+        {
+          "src": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-dienstleistungen-steuervogt-zuerich.jpg",
+          "alt": "Steuervogt Treuhand-Dienstleistungen aus Zürich",
+          "width": "1440",
+          "height": "960"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://steuervogt.ch/",
+              "url": "https://steuervogt.ch/",
+              "name": "Treuhand- und Steuerberatung | SteuerVogt GmbH Zürich",
+              "isPartOf": {
+                "@id": "https://steuervogt.ch/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://steuervogt.ch/#primaryimage"
+              },
+              "image": {
+                "@id": "https://steuervogt.ch/#primaryimage"
+              },
+              "thumbnailUrl": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-dienstleistungen-steuervogt-zuerich.jpg",
+              "datePublished": "2020-11-09T13:15:07+00:00",
+              "dateModified": "2023-10-22T13:41:21+00:00",
+              "description": "Treuhand- und Steuerberatung im Herzen von Zürich. Kompetente Beratung und Unterstützung in sämtlichen treuhänderischen Bereichen. Das massgeschneiderte Treuhandpaket für Privatpersonen und Unternehmen. Ihr treuhänderisches Anliegen steht bei der SteuerVogt GmbH im Mittelpunkt.",
+              "breadcrumb": {
+                "@id": "https://steuervogt.ch/#breadcrumb"
+              },
+              "inLanguage": "de-CH",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://steuervogt.ch/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "de-CH",
+              "@id": "https://steuervogt.ch/#primaryimage",
+              "url": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-dienstleistungen-steuervogt-zuerich.jpg",
+              "contentUrl": "https://steuervogt.ch/wp-content/uploads/2021/01/treuhand-dienstleistungen-steuervogt-zuerich.jpg",
+              "width": 1960,
+              "height": 1307,
+              "caption": "Steuervogt Treuhand-Dienstleistungen aus Zürich"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://steuervogt.ch/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://steuervogt.ch/#website",
+              "url": "https://steuervogt.ch/",
+              "name": "SteuerVogt GmbH",
+              "description": "Treuhand &amp; Steuerberatung",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://steuervogt.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de-CH"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        },
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://steuervogt.ch/datenschutzerklaerung/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Datenschutzerklärung | SteuerVogt GmbH",
+      "lang": "de-CH",
+      "meta": {
+        "content-type": "text/html",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Datenschutzerklärung | SteuerVogt GmbH",
+        "og:description": "Die vorliegende Website zählt zum Angebot der SteuerVogt GmbH. Mit dieser Datenschutzerklärung informieren wir über die Bearbeitung von Personendaten im Zusammenhang mit unserem Angebot. Wir können unsere Datenschutzerklärung jederzeit ändern. Wir informieren über solche Änderungen in geeigneter Form auf unserer Website. Unser Angebot unterliegt dem schweizerischen Datenschutzrecht sowie allenfalls anwendbarem ausländischem Datenschutzrecht wie beispielsweise jenem […]",
+        "og:url": "https://steuervogt.ch/datenschutzerklaerung/",
+        "og:site_name": "SteuerVogt GmbH",
+        "article:modified_time": "2023-10-22T13:35:26+00:00",
+        "twitter:card": "summary_large_image",
+        "twitter:label1": "Geschätzte Lesezeit",
+        "twitter:data1": "8 Minuten",
+        "generator": "WordPress 6.8.5",
+        "msapplication-tileimage": "https://steuervogt.ch/wp-content/uploads/2020/12/cropped-steuervogt-steuerberatung-logo-square-270x270.jpg"
+      },
+      "canonical": "https://steuervogt.ch/datenschutzerklaerung/",
+      "headings": {
+        "h1": [
+          "Datenschutzerklärung"
+        ],
+        "h3": [
+          "I. Informationen über uns als Verantwortliche",
+          "II. Rechte der Nutzer und Betroffenen",
+          "III. Informationen zur Datenverarbeitung",
+          "Mehr Infos"
+        ],
+        "h4": [
+          "Serverdaten",
+          "Cookies",
+          "Kontaktanfragen / Kontaktmöglichkeit",
+          "Datenschutzerklärung für die Nutzung von Google Fonts",
+          "Quellen"
+        ],
+        "h5": [
+          "a. Sitzungs-Cookies/Session-Cookies",
+          "b. Drittanbieter-Cookies",
+          "c. Beseitigungsmöglichkeit"
+        ]
+      },
+      "text": "Datenschutzerklärung | SteuerVogt GmbH\nSkip to the content\nSuche nach:\nSteuerVogt GmbH\nMenu\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nShow the search field\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nSuche nach:\nDatenschutzerklärung\nDie vorliegende Website zählt zum Angebot der SteuerVogt GmbH. Mit dieser Datenschutzerklärung informieren wir über die Bearbeitung von Personendaten im Zusammenhang mit unserem Angebot. Wir können unsere Datenschutzerklärung jederzeit ändern. Wir informieren über solche Änderungen in geeigneter Form auf unserer Website.\nUnser Angebot unterliegt dem schweizerischen Datenschutzrecht sowie allenfalls anwendbarem ausländischem Datenschutzrecht wie beispielsweise jenem der Europäischen Union (EU) mit der Datenschutz-Grundverordnung (DSGVO). Die EU anerkennt, dass das schweizerische Datenschutzrecht einen angemessenen Datenschutz gewährleistet.\nPersonenbezogene Daten (nachfolgend zumeist nur „Daten“ genannt) werden von uns nur im Rahmen der Erforderlichkeit sowie zum Zwecke der Bereitstellung eines funktionsfähigen und nutzerfreundlichen Internetauftritts, inklusive seiner Inhalte und der dort angebotenen Leistungen, verarbeitet.\nGemäss Art. 4 Ziffer 1. der Verordnung (EU) 2016/679, also der Datenschutz-Grundverordnung (nachfolgend nur „DSGVO“ genannt), gilt als „Verarbeitung“ jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführter Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten, wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.\nMit der nachfolgenden Datenschutzerklärung informieren wir Sie insbesondere über Art, Umfang, Zweck, Dauer und Rechtsgrundlage der Verarbeitung personenbezogener Daten, soweit wir entweder allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung entscheiden. Zudem informieren wir Sie nachfolgend über die von uns zu Optimierungszwecken sowie zur Steigerung der Nutzungsqualität eingesetzten Fremdkomponenten, soweit hierdurch Dritte Daten in wiederum eigener Verantwortung verarbeiten.\nUnsere Datenschutzerklärung ist wie folgt gegliedert:\nI. Informationen über uns als Verantwortliche\nII. Rechte der Nutzer und Betroffenen\nIII. Informationen zur Datenverarbeitung\nI. Informationen über uns als Verantwortliche\nVerantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sinne ist:\nSteuerVogt GmbH\nErismannstrasse 52\nCH-8004 Zürich\nTelefon: +41 79 785 84 51\nE-Mail: laura.vogt@steuervogt.ch\nII. Rechte der Nutzer und Betroffenen\nMit Blick auf die nachfolgend noch näher beschriebene Datenverarbeitung haben die Nutzer und Betroffenen das Recht\nauf Bestätigung, ob sie betreffende Daten verarbeitet werden, auf Auskunft über die verarbeiteten Daten, auf weitere Informationen über die Datenverarbeitung sowie auf Kopien der Daten (vgl. auch Art. 15 DSGVO);\nauf Berichtigung oder Vervollständigung unrichtiger bzw. unvollständiger Daten (vgl. auch Art. 16 DSGVO);\nauf unverzügliche Löschung der sie betreffenden Daten (vgl. auch Art. 17 DSGVO), oder, alternativ, soweit eine weitere Verarbeitung gemäss Art. 17 Abs. 3 DSGVO erforderlich ist, auf Einschränkung der Verarbeitung nach Massgabe von Art. 18 DSGVO;\nauf Erhalt der sie betreffenden und von ihnen bereitgestellten Daten und auf Übermittlung dieser Daten an andere Anbieter/Verantwortliche (vgl. auch Art. 20 DSGVO);\nauf Beschwerde gegenüber der Aufsichtsbehörde, sofern sie der Ansicht sind, dass die sie betreffenden Daten durch den Anbieter unter Verstoss gegen datenschutzrechtliche Bestimmungen verarbeitet werden (vgl. auch Art. 77 DSGVO).\nDarüber hinaus ist der Anbieter dazu verpflichtet, alle Empfänger, denen gegenüber Daten durch den Anbieter offengelegt worden sind, über jedwede Berichtigung oder Löschung von Daten oder die Einschränkung der Verarbeitung, die aufgrund der Artikel 16, 17 Abs. 1, 18 DSGVO erfolgt, zu unterrichten. Diese Verpflichtung besteht jedoch nicht, soweit diese Mitteilung unmöglich oder mit einem unverhältnismässigen Aufwand verbunden ist. Unbeschadet dessen hat der Nutzer ein Recht auf Auskunft über diese Empfänger.\nEbenfalls haben die Nutzer und Betroffenen nach Art. 21 DSGVO das Recht auf Widerspruch gegen die künftige Verarbeitung der sie betreffenden Daten, sofern die Daten durch den Anbieter nach Massgabe von Art. 6 Abs. 1 lit. f) DSGVO verarbeitet werden. Insbesondere ist ein Widerspruch gegen die Datenverarbeitung zum Zwecke der Direktwerbung statthaft.\nIII. Informationen zur Datenverarbeitung\nIhre bei Nutzung unseres Internetauftritts verarbeiteten Daten werden gelöscht oder gesperrt, sobald der Zweck der Speicherung entfällt, der Löschung der Daten keine gesetzlichen Aufbewahrungspflichten entgegenstehen und nachfolgend keine anderslautenden Angaben zu einzelnen Verarbeitungsverfahren gemacht werden.\nServerdaten\nAus technischen Gründen, insbesondere zur Gewährleistung eines sicheren und stabilen Internetauftritts, werden Daten durch Ihren Internet-Browser an uns bzw. an unseren Webspace-Provider übermittelt. Mit diesen sog. Server-Logfiles werden u.a. Typ und Version Ihres Internetbrowsers, das Betriebssystem, die Website, von der aus Sie auf unseren Internetauftritt gewechselt haben (Referrer URL), die Website(s) unseres Internetauftritts, die Sie besuchen, Datum und Uhrzeit des jeweiligen Zugriffs sowie die IP-Adresse des Internetanschlusses, von dem aus die Nutzung unseres Internetauftritts erfolgt, erhoben.\nDiese so erhobenen Daten werden vorrübergehend gespeichert, dies jedoch nicht gemeinsam mit anderen Daten von Ihnen.\nDiese Speicherung erfolgt auf der Rechtsgrundlage von Art. 6 Abs. 1 lit. f) DSGVO. Unser berechtigtes Interesse liegt in der Verbesserung, Stabilität, Funktionalität und Sicherheit unseres Internetauftritts.\nDie Daten werden spätestens nach sieben Tage wieder gelöscht, soweit keine weitere Aufbewahrung zu Beweiszwecken erforderlich ist. Andernfalls sind die Daten bis zur endgültigen Klärung eines Vorfalls ganz oder teilweise von der Löschung ausgenommen.\nCookies\na. Sitzungs-Cookies/Session-Cookies\nWir verwenden mit unserem Internetauftritt sog. Cookies. Cookies sind kleine Textdateien oder andere Speichertechnologien, die durch den von Ihnen eingesetzten Internet-Browser auf Ihrem Endgerät ablegt und gespeichert werden. Durch diese Cookies werden im individuellen Umfang bestimmte Informationen von Ihnen, wie beispielsweise Ihre Browser- oder Standortdaten oder Ihre IP-Adresse, verarbeitet.\nDurch diese Verarbeitung wird unser Internetauftritt benutzerfreundlicher, effektiver und sicherer, da die Verarbeitung bspw. die Wiedergabe unseres Internetauftritts in unterschiedlichen Sprachen oder das Angebot einer Warenkorbfunktion ermöglicht.\nRechtsgrundlage dieser Verarbeitung ist Art. 6 Abs. 1 lit b.) DSGVO, sofern diese Cookies Daten zur Vertragsanbahnung oder Vertragsabwicklung verarbeitet werden.\nFalls die Verarbeitung nicht der Vertragsanbahnung oder Vertragsabwicklung dient, liegt unser berechtigtes Interesse in der Verbesserung der Funktionalität unseres Internetauftritts. Rechtsgrundlage ist in dann Art. 6 Abs. 1 lit. f) DSGVO.\nMit Schliessen Ihres Internet-Browsers werden diese Session-Cookies gelöscht.\nb. Drittanbieter-Cookies\nGegebenenfalls werden mit unserem Internetauftritt auch Cookies von Partnerunternehmen, mit denen wir zum Zwecke der Werbung, der Analyse oder der Funktionalitäten unseres Internetauftritts zusammenarbeiten, verwendet.\nDie Einzelheiten hierzu, insbesondere zu den Zwecken und den Rechtsgrundlagen der Verarbeitung solcher Drittanbieter-Cookies, entnehmen Sie bitte den nachfolgenden Informationen.\nc. Beseitigungsmöglichkeit\nSie können die Installation der Cookies durch eine Einstellung Ihres Internet-Browsers verhindern oder einschränken. Ebenfalls können Sie bereits gespeicherte Cookies jederzeit löschen. Die hierfür erforderlichen Schritte und Massnahmen hängen jedoch von Ihrem konkret genutzten Internet-Browser ab. Bei Fragen benutzen Sie daher bitte die Hilfefunktion oder Dokumentation Ihres Internet-Browsers oder wenden sich an dessen Hersteller bzw. Support. Bei sog. Flash-Cookies kann die Verarbeitung allerdings nicht über die Einstellungen des Browsers unterbunden werden. Stattdessen müssen Sie insoweit die Einstellung Ihres Flash-Players ändern. Auch die hierfür erforderlichen Schritte und Massnahmen hängen von Ihrem konkret genutzten Flash-Player ab. Bei Fragen benutzen Sie daher bitte ebenso die Hilfefunktion oder Dokumentation Ihres Flash-Players oder wenden sich an den Hersteller bzw. Benutzer-Support.\nSollten Sie die Installation der Cookies verhindern oder einschränken, kann dies allerdings dazu führen, dass nicht sämtliche Funktionen unseres Internetauftritts vollumfänglich nutzbar sind.\nKontaktanfragen / Kontaktmöglichkeit\nSofern Sie per Kontaktformular oder E-Mail mit uns in Kontakt treten, werden die dabei von Ihnen angegebenen Daten zur Bearbeitung Ihrer Anfrage genutzt. Die Angabe der Daten ist zur Bearbeitung und Beantwortung Ihre Anfrage erforderlich – ohne deren Bereitstellung können wir Ihre Anfrage nicht oder allenfalls eingeschränkt beantworten.\nRechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 lit. b) DSGVO.\nIhre Daten werden gelöscht, sofern Ihre Anfrage abschliessend beantwortet worden ist und der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen, wie bspw. bei einer sich etwaig anschlisenden Vertragsabwicklung.\nDatenschutzerklärung für die Nutzung von Google Fonts\nIn unserem Internetauftritt setzen wir Google Fonts zur Darstellung externer Schriftarten ein. Es handelt sich hierbei um einen Dienst der Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA, nachfolgend nur „Google“ genannt.\nDurch die Zertifizierung nach dem EU-US-Datenschutzschild („EU-US Privacy Shield“)\nhttps://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active\ngarantiert Google, dass die Datenschutzvorgaben der EU auch bei der Verarbeitung von Daten in den USA eingehalten werden.\nUm die Darstellung bestimmter Schriften in unserem Internetauftritt zu ermöglichen, wird bei Aufruf unseres Internetauftritts eine Verbindung zu dem Google-Server in den USA aufgebaut.\nRechtsgrundlage ist Art. 6 Abs. 1 lit. f) DSGVO. Unser berechtigtes Interesse liegt in der Optimierung und dem wirtschaftlichen Betrieb unseres Internetauftritts.\nDurch die bei Aufruf unseres Internetauftritts hergestellte Verbindung zu Google kann Google ermitteln, von welcher Website Ihre Anfrage gesendet worden ist und an welche IP-Adresse die Darstellung der Schrift zu übermitteln ist.\nGoogle bietet unter\nhttps://adssettings.google.com/authenticated\nhttps://policies.google.com/privacy\nweitere Informationen an und zwar insbesondere zu den Möglichkeiten der Unterbindung der Datennutzung.\nQuellen\nDiese Datenschutzerklärung wurde mit Hilfe der\nMuster-Datenschutzerklärung\nder Anwaltskanzlei Weiß & Partner und mit dem\nImpressum-Generator\nder Firma Brunner Medien AG in Kriens erstellt.\nWir verwenden zudem mehrere Sharing-Widgets verschiedener Social-Media-Kanäle auf unserer Website, um Ihnen das Teilen unserer Webseiten auf Social Media zu ermöglichen. Diese Anfragen können Ihre IP-Adresse in Übereinstimmung mit deren Datenschutzrichtlinien verfolgen:\nhttps://twitter.com/en/privacy#update\nhttps://www.linkedin.com/legal/privacy-policy\nhttps://privacy.xing.com/en/privacy-policy\nMehr Infos\nDatenschutzerklärung\nKontakt\nÜber mich\nCheckliste für Steuererklärung in der Schweiz\nVielen Dank für die Bestellung\nDiese Seite verwendet Cookies, um die Nutzerfreundlichkeit zu verbessern. Mit der weiteren Verwendung stimmen Sie dem zu.\nVerstanden\nDatenschutzerklärung",
+      "text_len": 11985,
+      "links": [
+        {
+          "text": "Skip to the content",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/#site-content",
+          "internal": true
+        },
+        {
+          "text": "SteuerVogt GmbH",
+          "href": "https://steuervogt.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Show the search field",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/#",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active",
+          "href": "https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active",
+          "internal": false
+        },
+        {
+          "text": "https://adssettings.google.com/authenticated",
+          "href": "https://adssettings.google.com/authenticated",
+          "internal": false
+        },
+        {
+          "text": "https://policies.google.com/privacy",
+          "href": "https://policies.google.com/privacy",
+          "internal": false
+        },
+        {
+          "text": "Muster-Datenschutzerklärung",
+          "href": "https://www.ratgeberrecht.eu/kanzlei-weiss-und-partner/datenschutzerklaerung.html",
+          "internal": false
+        },
+        {
+          "text": "Impressum-Generator",
+          "href": "http://www.bag.ch/impressum-generator",
+          "internal": false
+        },
+        {
+          "text": "https://twitter.com/en/privacy#update",
+          "href": "https://twitter.com/en/privacy#update",
+          "internal": false
+        },
+        {
+          "text": "https://www.linkedin.com/legal/privacy-policy",
+          "href": "https://www.linkedin.com/legal/privacy-policy",
+          "internal": false
+        },
+        {
+          "text": "https://privacy.xing.com/en/privacy-policy",
+          "href": "https://privacy.xing.com/en/privacy-policy",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsteuervogt.ch%2Fdatenschutzerklaerung%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsteuervogt.ch%2Fdatenschutzerklaerung%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.xing.com/spi/shares/new?cb=0&url=https%3A%2F%2Fsteuervogt.ch%2Fdatenschutzerklaerung%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/intent/tweet?text=Datenschutzerkl%C3%A4rung&url=https%3A%2F%2Fsteuervogt.ch%2Fdatenschutzerklaerung%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://api.whatsapp.com/send?text=Datenschutzerkl%C3%A4rung%20https%3A%2F%2Fsteuervogt.ch%2Fdatenschutzerklaerung%2F",
+          "internal": false
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Checkliste für Steuererklärung in der Schweiz",
+          "href": "https://steuervogt.ch/steuern/checkliste-fuer-steuererklaerung-in-der-schweiz/",
+          "internal": true
+        },
+        {
+          "text": "Vielen Dank für die Bestellung",
+          "href": "https://steuervogt.ch/steuern/vielen-dank-fuer-die-bestellung/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://steuervogt.ch/wp-content/uploads/2023/11/corporate-design-logo-steuervogt-gmbh.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://steuervogt.ch/datenschutzerklaerung/",
+              "url": "https://steuervogt.ch/datenschutzerklaerung/",
+              "name": "Datenschutzerklärung | SteuerVogt GmbH",
+              "isPartOf": {
+                "@id": "https://steuervogt.ch/#website"
+              },
+              "datePublished": "2020-11-09T13:15:07+00:00",
+              "dateModified": "2023-10-22T13:35:26+00:00",
+              "breadcrumb": {
+                "@id": "https://steuervogt.ch/datenschutzerklaerung/#breadcrumb"
+              },
+              "inLanguage": "de-CH",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://steuervogt.ch/datenschutzerklaerung/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://steuervogt.ch/datenschutzerklaerung/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://steuervogt.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Datenschutzerklärung"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://steuervogt.ch/#website",
+              "url": "https://steuervogt.ch/",
+              "name": "SteuerVogt GmbH",
+              "description": "Treuhand &amp; Steuerberatung",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://steuervogt.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de-CH"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        },
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "laura.vogt@steuervogt.ch"
+      ],
+      "phones": [
+        "+41 79 785 84 51"
+      ],
+      "raw_html": "raw_html/002__datenschutzerklaerung.html"
+    },
+    {
+      "url": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Firmengründung | SteuerVogt GmbH Zürich",
+      "lang": "de-CH",
+      "meta": {
+        "content-type": "text/html",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "description": "Unterstützung und Beratung in Hinblick auf die Firmengründung sowie Unterstützung bei der Ausarbeitung der relevanten Dokumente.",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Firmengründung | SteuerVogt GmbH Zürich",
+        "og:description": "Unterstützung und Beratung in Hinblick auf die Firmengründung sowie Unterstützung bei der Ausarbeitung der relevanten Dokumente.",
+        "og:url": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+        "og:site_name": "SteuerVogt GmbH",
+        "article:modified_time": "2023-10-22T13:43:03+00:00",
+        "twitter:card": "summary_large_image",
+        "twitter:label1": "Geschätzte Lesezeit",
+        "twitter:data1": "2 Minuten",
+        "generator": "WordPress 6.8.5",
+        "msapplication-tileimage": "https://steuervogt.ch/wp-content/uploads/2020/12/cropped-steuervogt-steuerberatung-logo-square-270x270.jpg"
+      },
+      "canonical": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+      "headings": {
+        "h1": [
+          "Firmengründung und Sitzverlegung"
+        ],
+        "h2": [
+          "Unsere Dienstleistungen für Ihre Unternehmensgründung"
+        ],
+        "h3": [
+          "Mehr Infos"
+        ]
+      },
+      "text": "Firmengründung | SteuerVogt GmbH Zürich\nSkip to the content\nSuche nach:\nSteuerVogt GmbH\nMenu\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nShow the search field\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nSuche nach:\nFirmengründung und Sitzverlegung\nSie möchten sich selbständig machen? Dabei stellt sich Ihnen jedoch die Frage, ob Sie lieber eine Personengesellschaft bilden oder eine Firma gründen wollen. Dies wiederum führt Sie zu der Frage, ob eine Gesellschaft mit beschränkter Haftung (GmbH) oder eine Aktiengesellschaft (AG) für Sie mehr Vorteile ergibt, oder ob eine Einzelunternehmung/Einzelfirma oder Kollektivgesellschaft doch geeigneter für Ihr Business wäre . Alles in Allem kann eine Firmengründung durchaus überwältigend sein und es kommen in diesem Prozess viele Fragen auf:\nWelche Rechtsformen passt für mich und meinen Unternehmenszweck am besten?\nWas sind die Unterschiede betreffen die Rechtsformen und für welche soll ich mich entscheiden?\nMit welchen Kosten und administrativen Aufwand ist eine Firmengründung verbunden?\nWelche rechtlichen Vorschriften und organisatorische Aspekte muss/sollte ich beachten?\nDiese Aufzählung deckt nur eine kleine Auswahl von Fragen ab, mit denen sich die meisten Neu-Unternehmer und Startups im Zusammenhang mit der Firmengründung konfrontiert sehen.\nUnsere Dienstleistungen für Ihre Unternehmensgründung\nDie SteuerVogt GmbH berät Sie bei der Unternehmensgründung und Ihren damit verbundenen treuhänderischen Fragen kompetent, unterstützt Sie bei der Findung der für Sie passenden Rechtsform. Zudem unterstützt Sie die SteuerVogt GmbH bei der Ausarbeitung der benötigten Dokumente und begleitet Sie auf Wunsch bis zum Notar.\nBeratungsgespräch vereinbaren\nMehr Infos\nDatenschutzerklärung\nKontakt\nÜber mich\nCheckliste für Steuererklärung in der Schweiz\nVielen Dank für die Bestellung\nDiese Seite verwendet Cookies, um die Nutzerfreundlichkeit zu verbessern. Mit der weiteren Verwendung stimmen Sie dem zu.\nVerstanden\nDatenschutzerklärung",
+      "text_len": 2076,
+      "links": [
+        {
+          "text": "Skip to the content",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/#site-content",
+          "internal": true
+        },
+        {
+          "text": "SteuerVogt GmbH",
+          "href": "https://steuervogt.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Show the search field",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/#",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Beratungsgespräch vereinbaren",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsteuervogt.ch%2Ffirmengruendung-und-sitzverlegung%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsteuervogt.ch%2Ffirmengruendung-und-sitzverlegung%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.xing.com/spi/shares/new?cb=0&url=https%3A%2F%2Fsteuervogt.ch%2Ffirmengruendung-und-sitzverlegung%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/intent/tweet?text=Firmengr%C3%BCndung%20und%20Sitzverlegung&url=https%3A%2F%2Fsteuervogt.ch%2Ffirmengruendung-und-sitzverlegung%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://api.whatsapp.com/send?text=Firmengr%C3%BCndung%20und%20Sitzverlegung%20https%3A%2F%2Fsteuervogt.ch%2Ffirmengruendung-und-sitzverlegung%2F",
+          "internal": false
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Checkliste für Steuererklärung in der Schweiz",
+          "href": "https://steuervogt.ch/steuern/checkliste-fuer-steuererklaerung-in-der-schweiz/",
+          "internal": true
+        },
+        {
+          "text": "Vielen Dank für die Bestellung",
+          "href": "https://steuervogt.ch/steuern/vielen-dank-fuer-die-bestellung/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://steuervogt.ch/wp-content/uploads/2023/11/corporate-design-logo-steuervogt-gmbh.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+              "url": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+              "name": "Firmengründung | SteuerVogt GmbH Zürich",
+              "isPartOf": {
+                "@id": "https://steuervogt.ch/#website"
+              },
+              "datePublished": "2020-12-16T20:44:13+00:00",
+              "dateModified": "2023-10-22T13:43:03+00:00",
+              "description": "Unterstützung und Beratung in Hinblick auf die Firmengründung sowie Unterstützung bei der Ausarbeitung der relevanten Dokumente.",
+              "breadcrumb": {
+                "@id": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/#breadcrumb"
+              },
+              "inLanguage": "de-CH",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://steuervogt.ch/firmengruendung-und-sitzverlegung/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://steuervogt.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Firmengründung und Sitzverlegung"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://steuervogt.ch/#website",
+              "url": "https://steuervogt.ch/",
+              "name": "SteuerVogt GmbH",
+              "description": "Treuhand &amp; Steuerberatung",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://steuervogt.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de-CH"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        },
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/003__firmengruendung-und-sitzverlegung.html"
+    },
+    {
+      "url": "https://steuervogt.ch/kontakt/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Kontakt | SteuerVogt GmbH",
+      "lang": "de-CH",
+      "meta": {
+        "content-type": "text/html",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Kontakt | SteuerVogt GmbH",
+        "og:description": "Kontaktieren Sie mich unverbindlich zu allen Steuer- und Treuhandfragen. Gerne komme ich so bald wie möglich wieder auf Sie zu. SteuerVogt GmbH – Treuhand & Steuerberatung +41 79 785 84 51laura.vogt@steuervogt.ch Erismannstrasse 52, 8004 Zürich Folgen Sie mir auf Social Media Kontaktformular",
+        "og:url": "https://steuervogt.ch/kontakt/",
+        "og:site_name": "SteuerVogt GmbH",
+        "article:modified_time": "2023-10-22T13:37:10+00:00",
+        "og:image": "https://cegekowu.myhostpoint.ch/wp-content/uploads/2021/01/treuhand-beratung-steuervogt-683x1024.jpg",
+        "twitter:card": "summary_large_image",
+        "twitter:label1": "Geschätzte Lesezeit",
+        "twitter:data1": "1 Minute",
+        "generator": "WordPress 6.8.5",
+        "msapplication-tileimage": "https://steuervogt.ch/wp-content/uploads/2020/12/cropped-steuervogt-steuerberatung-logo-square-270x270.jpg"
+      },
+      "canonical": "https://steuervogt.ch/kontakt/",
+      "headings": {
+        "h1": [
+          "Kontakt"
+        ],
+        "h2": [
+          "Kontaktformular"
+        ],
+        "h3": [
+          "Folgen Sie mir auf Social Media",
+          "Mehr Infos"
+        ]
+      },
+      "text": "Kontakt | SteuerVogt GmbH\nSkip to the content\nSuche nach:\nSteuerVogt GmbH\nMenu\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nShow the search field\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nSuche nach:\nKontakt\nKontaktieren Sie mich unverbindlich zu allen Steuer- und Treuhandfragen. Gerne komme ich so bald wie möglich wieder auf Sie zu.\nSteuerVogt GmbH – Treuhand & Steuerberatung\n+41 79 785 84 51\nlaura.vogt@steuervogt.ch\nErismannstrasse 52, 8004 Zürich\nFolgen Sie mir auf Social Media\nFacebook\nLinkedIn\nKontaktformular\nName\n*\nE-Mail\n*\nNachricht\n*\nSenden\nMehr Infos\nDatenschutzerklärung\nKontakt\nÜber mich\nCheckliste für Steuererklärung in der Schweiz\nVielen Dank für die Bestellung\nDiese Seite verwendet Cookies, um die Nutzerfreundlichkeit zu verbessern. Mit der weiteren Verwendung stimmen Sie dem zu.\nVerstanden\nDatenschutzerklärung",
+      "text_len": 922,
+      "links": [
+        {
+          "text": "Skip to the content",
+          "href": "https://steuervogt.ch/kontakt/#site-content",
+          "internal": true
+        },
+        {
+          "text": "SteuerVogt GmbH",
+          "href": "https://steuervogt.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Show the search field",
+          "href": "https://steuervogt.ch/kontakt/#",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "+41 79 785 84 51",
+          "href": "tel:0797858451",
+          "internal": false
+        },
+        {
+          "text": "laura.vogt@steuervogt.ch",
+          "href": "mailto:laura.vogt@steuervogt.ch",
+          "internal": false
+        },
+        {
+          "text": "Erismannstrasse 52, 8004 Zürich",
+          "href": "https://goo.gl/maps/v3gGmQAzUf52eZyC7",
+          "internal": false
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/steuervogt",
+          "internal": false
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/in/laura-vogt-88b3aa1b/",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsteuervogt.ch%2Fkontakt%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsteuervogt.ch%2Fkontakt%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.xing.com/spi/shares/new?cb=0&url=https%3A%2F%2Fsteuervogt.ch%2Fkontakt%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/intent/tweet?text=Kontakt&url=https%3A%2F%2Fsteuervogt.ch%2Fkontakt%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://api.whatsapp.com/send?text=Kontakt%20https%3A%2F%2Fsteuervogt.ch%2Fkontakt%2F",
+          "internal": false
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Checkliste für Steuererklärung in der Schweiz",
+          "href": "https://steuervogt.ch/steuern/checkliste-fuer-steuererklaerung-in-der-schweiz/",
+          "internal": true
+        },
+        {
+          "text": "Vielen Dank für die Bestellung",
+          "href": "https://steuervogt.ch/steuern/vielen-dank-fuer-die-bestellung/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://steuervogt.ch/wp-content/uploads/2023/11/corporate-design-logo-steuervogt-gmbh.jpg"
+        },
+        {
+          "src": "https://cegekowu.myhostpoint.ch/wp-content/uploads/2021/01/treuhand-beratung-steuervogt-683x1024.jpg",
+          "width": "683",
+          "height": "1024"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://steuervogt.ch/kontakt/",
+              "url": "https://steuervogt.ch/kontakt/",
+              "name": "Kontakt | SteuerVogt GmbH",
+              "isPartOf": {
+                "@id": "https://steuervogt.ch/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://steuervogt.ch/kontakt/#primaryimage"
+              },
+              "image": {
+                "@id": "https://steuervogt.ch/kontakt/#primaryimage"
+              },
+              "thumbnailUrl": "https://cegekowu.myhostpoint.ch/wp-content/uploads/2021/01/treuhand-beratung-steuervogt-683x1024.jpg",
+              "datePublished": "2020-11-09T13:25:26+00:00",
+              "dateModified": "2023-10-22T13:37:10+00:00",
+              "breadcrumb": {
+                "@id": "https://steuervogt.ch/kontakt/#breadcrumb"
+              },
+              "inLanguage": "de-CH",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://steuervogt.ch/kontakt/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "de-CH",
+              "@id": "https://steuervogt.ch/kontakt/#primaryimage",
+              "url": "https://cegekowu.myhostpoint.ch/wp-content/uploads/2021/01/treuhand-beratung-steuervogt-683x1024.jpg",
+              "contentUrl": "https://cegekowu.myhostpoint.ch/wp-content/uploads/2021/01/treuhand-beratung-steuervogt-683x1024.jpg"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://steuervogt.ch/kontakt/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://steuervogt.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Kontakt"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://steuervogt.ch/#website",
+              "url": "https://steuervogt.ch/",
+              "name": "SteuerVogt GmbH",
+              "description": "Treuhand &amp; Steuerberatung",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://steuervogt.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de-CH"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        },
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        },
+        {
+          "action": "/kontakt/",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "wpforms[fields][0]",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "wpforms[fields][1]",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "wpforms[fields][2]",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "wpforms[id]",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "page_title",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "page_url",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "url_referer",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "page_id",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "wpforms[post_id]",
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "laura.vogt@steuervogt.ch"
+      ],
+      "phones": [
+        "+41 79 785 84 51"
+      ],
+      "raw_html": "raw_html/004__kontakt.html"
+    },
+    {
+      "url": "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Vielen Dank für Ihre Kontaktaufnahme | SteuerVogt GmbH",
+      "lang": "de-CH",
+      "meta": {
+        "content-type": "text/html",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Vielen Dank für Ihre Kontaktaufnahme | SteuerVogt GmbH",
+        "og:description": "Gerne melde ich zeitnah bei Ihnen. Besten Dank!",
+        "og:url": "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/",
+        "og:site_name": "SteuerVogt GmbH",
+        "article:modified_time": "2021-10-20T07:55:06+00:00",
+        "twitter:card": "summary_large_image",
+        "generator": "WordPress 6.8.5",
+        "msapplication-tileimage": "https://steuervogt.ch/wp-content/uploads/2020/12/cropped-steuervogt-steuerberatung-logo-square-270x270.jpg"
+      },
+      "canonical": "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/",
+      "headings": {
+        "h1": [
+          "Vielen Dank für Ihre Kontaktaufnahme"
+        ],
+        "h3": [
+          "Mehr Infos"
+        ]
+      },
+      "text": "Vielen Dank für Ihre Kontaktaufnahme | SteuerVogt GmbH\nSkip to the content\nSuche nach:\nSteuerVogt GmbH\nMenu\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nShow the search field\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nSuche nach:\nVielen Dank für Ihre Kontaktaufnahme\nGerne melde ich zeitnah bei Ihnen. Besten Dank!\nMehr Infos\nDatenschutzerklärung\nKontakt\nÜber mich\nCheckliste für Steuererklärung in der Schweiz\nVielen Dank für die Bestellung\nDiese Seite verwendet Cookies, um die Nutzerfreundlichkeit zu verbessern. Mit der weiteren Verwendung stimmen Sie dem zu.\nVerstanden\nDatenschutzerklärung",
+      "text_len": 681,
+      "links": [
+        {
+          "text": "Skip to the content",
+          "href": "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/#site-content",
+          "internal": true
+        },
+        {
+          "text": "SteuerVogt GmbH",
+          "href": "https://steuervogt.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Show the search field",
+          "href": "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/#",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsteuervogt.ch%2Fkontakt%2Fdanke-kontaktaufnahme%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsteuervogt.ch%2Fkontakt%2Fdanke-kontaktaufnahme%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.xing.com/spi/shares/new?cb=0&url=https%3A%2F%2Fsteuervogt.ch%2Fkontakt%2Fdanke-kontaktaufnahme%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/intent/tweet?text=Vielen%20Dank%20f%C3%BCr%20Ihre%20Kontaktaufnahme&url=https%3A%2F%2Fsteuervogt.ch%2Fkontakt%2Fdanke-kontaktaufnahme%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://api.whatsapp.com/send?text=Vielen%20Dank%20f%C3%BCr%20Ihre%20Kontaktaufnahme%20https%3A%2F%2Fsteuervogt.ch%2Fkontakt%2Fdanke-kontaktaufnahme%2F",
+          "internal": false
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Checkliste für Steuererklärung in der Schweiz",
+          "href": "https://steuervogt.ch/steuern/checkliste-fuer-steuererklaerung-in-der-schweiz/",
+          "internal": true
+        },
+        {
+          "text": "Vielen Dank für die Bestellung",
+          "href": "https://steuervogt.ch/steuern/vielen-dank-fuer-die-bestellung/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://steuervogt.ch/wp-content/uploads/2023/11/corporate-design-logo-steuervogt-gmbh.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/",
+              "url": "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/",
+              "name": "Vielen Dank für Ihre Kontaktaufnahme | SteuerVogt GmbH",
+              "isPartOf": {
+                "@id": "https://steuervogt.ch/#website"
+              },
+              "datePublished": "2021-02-28T14:56:40+00:00",
+              "dateModified": "2021-10-20T07:55:06+00:00",
+              "breadcrumb": {
+                "@id": "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/#breadcrumb"
+              },
+              "inLanguage": "de-CH",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://steuervogt.ch/kontakt/danke-kontaktaufnahme/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://steuervogt.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Kontakt",
+                  "item": "https://steuervogt.ch/kontakt/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Vielen Dank für Ihre Kontaktaufnahme"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://steuervogt.ch/#website",
+              "url": "https://steuervogt.ch/",
+              "name": "SteuerVogt GmbH",
+              "description": "Treuhand &amp; Steuerberatung",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://steuervogt.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de-CH"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        },
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/005__kontakt__danke-kontaktaufnahme.html"
+    },
+    {
+      "url": "https://steuervogt.ch/lohn-und-personaladminstration/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Lohn- und Personaladministration | SteuerVogt GmbH Zürich",
+      "lang": "de-CH",
+      "meta": {
+        "content-type": "text/html",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "description": "Beratung im Bereich der Lohnbuchhaltung, Personaladministration und sämtlichen sozialversicherungsrechtlichen Themen.",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Lohn- und Personaladministration | SteuerVogt GmbH Zürich",
+        "og:description": "Beratung im Bereich der Lohnbuchhaltung, Personaladministration und sämtlichen sozialversicherungsrechtlichen Themen.",
+        "og:url": "https://steuervogt.ch/lohn-und-personaladminstration/",
+        "og:site_name": "SteuerVogt GmbH",
+        "article:modified_time": "2023-10-22T13:43:46+00:00",
+        "twitter:card": "summary_large_image",
+        "twitter:label1": "Geschätzte Lesezeit",
+        "twitter:data1": "2 Minuten",
+        "generator": "WordPress 6.8.5",
+        "msapplication-tileimage": "https://steuervogt.ch/wp-content/uploads/2020/12/cropped-steuervogt-steuerberatung-logo-square-270x270.jpg"
+      },
+      "canonical": "https://steuervogt.ch/lohn-und-personaladminstration/",
+      "headings": {
+        "h1": [
+          "Lohn- und Personaladministration"
+        ],
+        "h2": [
+          "Lohnbuchhaltung outsourcen"
+        ],
+        "h3": [
+          "Mehr Infos"
+        ]
+      },
+      "text": "Lohn- und Personaladministration | SteuerVogt GmbH Zürich\nSkip to the content\nSuche nach:\nSteuerVogt GmbH\nMenu\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nShow the search field\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nSuche nach:\nLohn- und Personaladministration\nDie Lohn- und Personaladministration ist ein umfangreiches und komplexes Thema. Dieses beginnt bei der Ausarbeitung des Arbeitsvertrages, über die Anmeldungen bei den verschiedenen Sozialversicherungen, die Lohnabrechnungen bis hin zum Lohnausweis am Jahresende oder bei Beendigung des Arbeitsverhältnisses.\nEin wesentlicher Teil der Lohn- und Personaladministration bilden die Sozialversicherungen wie die AHV, Unfallversicherung, Krankentaggeldversicherung und Pensionskasse. Insbesondere selbständig Erwerbende wissen oftmals nicht, welchen Sozialversicherungen sie sich anschliessen müssen oder können.\nDas Thema Sozialversicherungen kann sogar – insbesondere bei selbständig Erwerbenden – ein grosser Bestandteil der Vorsorgeplanung ausmachen. Somit ist die Lohn- und Personaladministration ein wichtiger Bestandteil Ihres Unternehmens.\nLohnbuchhaltung outsourcen\nMöchten Sie die Lohnbuchhaltung Ihres Unternehmens auslagern/outsourcen? Egal ob Sie selbständig erwerbend, Angestellt bei Ihrer eigenen Firma sind oder Personal beschäftigen, wir beraten Sie in sämtlichen Angelegenheiten rund um das Thema Lohn- und Personaladministration. Dabei beschränkt sich unser Know-How nicht nur auf die Stadt oder den Kanton Zürich sondern wir beraten Sie in Bezug auf die Lohnadministration für die gesamte Schweiz.\nDies beinhaltet unter anderem folgende Bereiche und Dienstleistungen:\nLohngestaltung und Lohndefinition\nSozialversicherungen – Anschluss und Lohndeklarationen\nErstellen der Lohnbuchhaltung\nAusarbeiten der Lohnabrechnungen, Gehaltsabrechnung\nErstellen der Lohnausweise\nAusarbeiten der Quellensteuerabrechnungen\nVereinbaren Sie einen Termin\nMehr Infos\nDatenschutzerklärung\nKontakt\nÜber mich\nCheckliste für Steuererklärung in der Schweiz\nVielen Dank für die Bestellung\nDiese Seite verwendet Cookies, um die Nutzerfreundlichkeit zu verbessern. Mit der weiteren Verwendung stimmen Sie dem zu.\nVerstanden\nDatenschutzerklärung",
+      "text_len": 2283,
+      "links": [
+        {
+          "text": "Skip to the content",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/#site-content",
+          "internal": true
+        },
+        {
+          "text": "SteuerVogt GmbH",
+          "href": "https://steuervogt.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Show the search field",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/#",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Vereinbaren Sie einen Termin",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsteuervogt.ch%2Flohn-und-personaladminstration%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsteuervogt.ch%2Flohn-und-personaladminstration%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.xing.com/spi/shares/new?cb=0&url=https%3A%2F%2Fsteuervogt.ch%2Flohn-und-personaladminstration%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/intent/tweet?text=Lohn-%20und%20Personaladministration&url=https%3A%2F%2Fsteuervogt.ch%2Flohn-und-personaladminstration%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://api.whatsapp.com/send?text=Lohn-%20und%20Personaladministration%20https%3A%2F%2Fsteuervogt.ch%2Flohn-und-personaladminstration%2F",
+          "internal": false
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Checkliste für Steuererklärung in der Schweiz",
+          "href": "https://steuervogt.ch/steuern/checkliste-fuer-steuererklaerung-in-der-schweiz/",
+          "internal": true
+        },
+        {
+          "text": "Vielen Dank für die Bestellung",
+          "href": "https://steuervogt.ch/steuern/vielen-dank-fuer-die-bestellung/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://steuervogt.ch/wp-content/uploads/2023/11/corporate-design-logo-steuervogt-gmbh.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://steuervogt.ch/lohn-und-personaladminstration/",
+              "url": "https://steuervogt.ch/lohn-und-personaladminstration/",
+              "name": "Lohn- und Personaladministration | SteuerVogt GmbH Zürich",
+              "isPartOf": {
+                "@id": "https://steuervogt.ch/#website"
+              },
+              "datePublished": "2021-02-07T11:37:41+00:00",
+              "dateModified": "2023-10-22T13:43:46+00:00",
+              "description": "Beratung im Bereich der Lohnbuchhaltung, Personaladministration und sämtlichen sozialversicherungsrechtlichen Themen.",
+              "breadcrumb": {
+                "@id": "https://steuervogt.ch/lohn-und-personaladminstration/#breadcrumb"
+              },
+              "inLanguage": "de-CH",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://steuervogt.ch/lohn-und-personaladminstration/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://steuervogt.ch/lohn-und-personaladminstration/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://steuervogt.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Lohn- und Personaladministration"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://steuervogt.ch/#website",
+              "url": "https://steuervogt.ch/",
+              "name": "SteuerVogt GmbH",
+              "description": "Treuhand &amp; Steuerberatung",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://steuervogt.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de-CH"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        },
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/006__lohn-und-personaladminstration.html"
+    },
+    {
+      "url": "https://steuervogt.ch/rechnungswesen/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Rechnungswesen | SteuerVogt GmbH Zürich",
+      "lang": "de-CH",
+      "meta": {
+        "content-type": "text/html",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "description": "Wir decken alle Bereiche Ihres Rechnungswesen professionell ab: Finanzbuchhaltung, Jahresabschluss, Mehrwertsteuer sowie sämtliche Personal- & Lohnadministrations-Themen.",
+        "og:locale": "de_DE",
+        "og:type": "article",
+        "og:title": "Rechnungswesen | SteuerVogt GmbH Zürich",
+        "og:description": "Wir decken alle Bereiche Ihres Rechnungswesen professionell ab: Finanzbuchhaltung, Jahresabschluss, Mehrwertsteuer sowie sämtliche Personal- & Lohnadministrations-Themen.",
+        "og:url": "https://steuervogt.ch/rechnungswesen/",
+        "og:site_name": "SteuerVogt GmbH",
+        "article:modified_time": "2023-10-22T13:45:11+00:00",
+        "twitter:card": "summary_large_image",
+        "twitter:label1": "Geschätzte Lesezeit",
+        "twitter:data1": "2 Minuten",
+        "generator": "WordPress 6.8.5",
+        "msapplication-tileimage": "https://steuervogt.ch/wp-content/uploads/2020/12/cropped-steuervogt-steuerberatung-logo-square-270x270.jpg"
+      },
+      "canonical": "https://steuervogt.ch/rechnungswesen/",
+      "headings": {
+        "h1": [
+          "Rechnungswesen"
+        ],
+        "h2": [
+          "Finanzbuchhaltung",
+          "Jahresabschluss",
+          "Mehrwertsteuer"
+        ],
+        "h3": [
+          "Mehr Infos"
+        ]
+      },
+      "text": "Rechnungswesen | SteuerVogt GmbH Zürich\nSkip to the content\nSuche nach:\nSteuerVogt GmbH\nMenu\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nShow the search field\nFirmengründung\nRechnungswesen\nSteuern\nLohn- & Personaladministration\nÜber mich\nKontakt\nSuche nach:\nRechnungswesen\nDas Rechnungswesen oder auch die Buchführung/Buchhaltung ist so individuell wie ihre Firma, was eine individuelle Lösung für KMU- und Einzelunternehmen umso wichtiger macht.\nMit der Unterstützung durch die SteuerVogt GmbH können Sie wertvolle Zeit und Energie sparen, welche Sie in Ihr Unternehmen investieren können und Sie erhalten zudem die kompetente Betreuung die Sie benötigen und verdient haben.\nDas Rechnungswesen umfasst heute weit mehr als nur die simple Darstellung von Zahlen. Es ist eine Verkettung aus Rechnungslegungsrecht und individuellen Ansätzen, welche Ihren Unternehmenserfolg beeinflusst und misst.\nAls vertrauensvoller und kompetenter Partner zeigt Ihnen die SteuerVogt GmbH aufgrund des Rechnungswesens gerne Ihr Verbesserungspotential auf und hilft Ihnen bei der Umsetzung.\nIm Zusammenhang mit dem Rechnungswesen bietet die SteuerVogt GmbH folgende Dienstleistungen an:\nFinanzbuchhaltung\nDie Finanzbuchhaltung oder einfach Buchhaltung genannt, befasst sich mit der Erfassung sämtlicher aufgelaufener Geschäftsfälle im laufenden Geschäftsjahr. Die SteuerVogt GmbH bietet Ihnen die folgenden Dienstleistungen im Bereich der (Finanz-)Buchhaltung an:\nFührung einer Finanzbuchhaltung ausschliesslich im Hauptbuch\nFührung von Nebenbüchern:\nDebitoren\nKreditoren\nLohn\nWertschriften\nAnlagen\nErfolgs- und Kennzahlenanalyse\nWünschen Sie eine Beratung für Ihre Finanzbuchhaltung? Zögern Sie nicht uns zu\nkontaktieren.\nJahresabschluss\nHaben Sie die Buchhaltung bereits selber erstellt und benötigen Hilfe bei den Abschlussbuchungen und der Finalisierung des Jahresabschlusses; sind Sie nicht ganz sicher, ob Sie alle relevanten Vorschriften in Bezug auf den Abschluss beachtet haben; möchten Sie gerne eine Jahresabschlussanalyse vornehmen lassen; oder möchten Sie den Jahresabschluss lieber ganz von einer externen Stelle ausarbeiten lassen? Dann betreut und unterstützt Sie die SteuerVogt GmbH gerne. Nachfolgend finden Sie eine Auswahl unserer Leistungen:\nVornehmen der Abschlussbuchungen\nAusarbeiten der Jahresrechnung inklusive Bilanz und Erfolgsrechnung\nErstellen der Eröffnungsbilanz als Basis für die Buchhaltung des Folgejahres\nJahresabschlussanalyse\nSteuerberechnung für die Steuerrückstellung auf den Jahresgewinn\nMehrwertsteuer\nDas Thema Mehrwertsteuer (MwSt) kann sehr umfangreich und komplex ausfallen. Die SteuerVogt GmbH berät Sie kompetent und professionell in Bezug auf eine allfällige Mehrwertsteuerpflicht und deren Folgen und unterstützt Sie bei der Anmeldung, der Ausarbeitung der Mehrwertsteuerabrechnungen sowie der Abmeldung. Dabei bietet die SteuerVogt GmbH unter anderem folgende Dienstleistungen an:\nAnalyse und Berechnung einer allfälligen Mehrwertsteuerpflicht\nBeratung bezüglich der Abrechnungsmethode und der anzuwendenden Umsatzsteuersätze\nAusarbeitung der Mehrwertsteuerabrechnung respektive Deklaration der Umsatzsteuer und Vorsteuer\nBeratung anfordern\nMehr Infos\nDatenschutzerklärung\nKontakt\nÜber mich\nCheckliste für Steuererklärung in der Schweiz\nVielen Dank für die Bestellung\nDiese Seite verwendet Cookies, um die Nutzerfreundlichkeit zu verbessern. Mit der weiteren Verwendung stimmen Sie dem zu.\nVerstanden\nDatenschutzerklärung",
+      "text_len": 3496,
+      "links": [
+        {
+          "text": "Skip to the content",
+          "href": "https://steuervogt.ch/rechnungswesen/#site-content",
+          "internal": true
+        },
+        {
+          "text": "SteuerVogt GmbH",
+          "href": "https://steuervogt.ch/",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Show the search field",
+          "href": "https://steuervogt.ch/rechnungswesen/#",
+          "internal": true
+        },
+        {
+          "text": "Firmengründung",
+          "href": "https://steuervogt.ch/firmengruendung-und-sitzverlegung/",
+          "internal": true
+        },
+        {
+          "text": "Rechnungswesen",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "Steuern",
+          "href": "https://steuervogt.ch/steuern/",
+          "internal": true
+        },
+        {
+          "text": "Lohn- & Personaladministration",
+          "href": "https://steuervogt.ch/lohn-und-personaladminstration/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "kontaktieren.",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Beratung anfordern",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsteuervogt.ch%2Frechnungswesen%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsteuervogt.ch%2Frechnungswesen%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.xing.com/spi/shares/new?cb=0&url=https%3A%2F%2Fsteuervogt.ch%2Frechnungswesen%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://twitter.com/intent/tweet?text=Rechnungswesen&url=https%3A%2F%2Fsteuervogt.ch%2Frechnungswesen%2F",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://steuervogt.ch/rechnungswesen/",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://api.whatsapp.com/send?text=Rechnungswesen%20https%3A%2F%2Fsteuervogt.ch%2Frechnungswesen%2F",
+          "internal": false
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://steuervogt.ch/kontakt/",
+          "internal": true
+        },
+        {
+          "text": "Über mich",
+          "href": "https://steuervogt.ch/ueber-mich/",
+          "internal": true
+        },
+        {
+          "text": "Checkliste für Steuererklärung in der Schweiz",
+          "href": "https://steuervogt.ch/steuern/checkliste-fuer-steuererklaerung-in-der-schweiz/",
+          "internal": true
+        },
+        {
+          "text": "Vielen Dank für die Bestellung",
+          "href": "https://steuervogt.ch/steuern/vielen-dank-fuer-die-bestellung/",
+          "internal": true
+        },
+        {
+          "text": "Datenschutzerklärung",
+          "href": "https://steuervogt.ch/datenschutzerklaerung/",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://steuervogt.ch/wp-content/uploads/2023/11/corporate-design-logo-steuervogt-gmbh.jpg"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://steuervogt.ch/rechnungswesen/",
+              "url": "https://steuervogt.ch/rechnungswesen/",
+              "name": "Rechnungswesen | SteuerVogt GmbH Zürich",
+              "isPartOf": {
+                "@id": "https://steuervogt.ch/#website"
+              },
+              "datePublished": "2020-12-16T20:46:01+00:00",
+              "dateModified": "2023-10-22T13:45:11+00:00",
+              "description": "Wir decken alle Bereiche Ihres Rechnungswesen professionell ab: Finanzbuchhaltung, Jahresabschluss, Mehrwertsteuer sowie sämtliche Personal- & Lohnadministrations-Themen.",
+              "breadcrumb": {
+                "@id": "https://steuervogt.ch/rechnungswesen/#breadcrumb"
+              },
+              "inLanguage": "de-CH",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://steuervogt.ch/rechnungswesen/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://steuervogt.ch/rechnungswesen/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://steuervogt.ch/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Rechnungswesen"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://steuervogt.ch/#website",
+              "url": "https://steuervogt.ch/",
+              "name": "SteuerVogt GmbH",
+              "description": "Treuhand &amp; Steuerberatung",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://steuervogt.ch/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "de-CH"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "forms": [
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        },
+        {
+          "action": "https://steuervogt.ch/",
+          "method": "get",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "s",
+              "placeholder": "Suchen …"
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/007__rechnungswesen.html"
+    },
+    {
+      "url": "https://steuervogt.ch/steuern",
+      "status": 503,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Wartungsmodus",
+      "lang": null,
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "viewport": "width=device-width, initial-scale=1.0"
+      },
+      "canonical": null,
+      "headings": {},
+      "text": "Wartungsmodus\nDiese Website ist aufgrund planmässiger Wartungsarbeiten vorübergehend nicht verfügbar. Bitte versuchen Sie es in wenigen Minuten erneut.",
+      "text_len": 151,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/008__steuern.html"
+    },
+    {
+      "url": "https://steuervogt.ch/steuern/checkliste-fuer-steuererklaerung-in-der-schweiz",
+      "status": 503,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Wartungsmodus",
+      "lang": null,
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "viewport": "width=device-width, initial-scale=1.0"
+      },
+      "canonical": null,
+      "headings": {},
+      "text": "Wartungsmodus\nDiese Website ist aufgrund planmässiger Wartungsarbeiten vorübergehend nicht verfügbar. Bitte versuchen Sie es in wenigen Minuten erneut.",
+      "text_len": 151,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/009__steuern__checkliste-fuer-steuererklaerung-in-der-schweiz.html"
+    },
+    {
+      "url": "https://steuervogt.ch/ueber-mich",
+      "status": 503,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Wartungsmodus",
+      "lang": null,
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "viewport": "width=device-width, initial-scale=1.0"
+      },
+      "canonical": null,
+      "headings": {},
+      "text": "Wartungsmodus\nDiese Website ist aufgrund planmässiger Wartungsarbeiten vorübergehend nicht verfügbar. Bitte versuchen Sie es in wenigen Minuten erneut.",
+      "text_len": 151,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/010__ueber-mich.html"
+    },
+    {
+      "url": "https://steuervogt.ch/steuern/vielen-dank-fuer-die-bestellung",
+      "status": 503,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Wartungsmodus",
+      "lang": null,
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "viewport": "width=device-width, initial-scale=1.0"
+      },
+      "canonical": null,
+      "headings": {},
+      "text": "Wartungsmodus\nDiese Website ist aufgrund planmässiger Wartungsarbeiten vorübergehend nicht verfügbar. Bitte versuchen Sie es in wenigen Minuten erneut.",
+      "text_len": 151,
+      "links": [],
+      "images": [],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [],
+      "phones": [],
+      "raw_html": "raw_html/011__steuern__vielen-dank-fuer-die-bestellung.html"
+    }
+  ]
+}

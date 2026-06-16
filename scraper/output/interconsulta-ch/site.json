@@ -1,0 +1,1603 @@
+{
+  "name": "Interconsulta",
+  "domain": "interconsulta.ch",
+  "start_url": "https://www.interconsulta.ch/",
+  "crawl": {
+    "complete": true,
+    "started": 1781615335.804956,
+    "duration_sec": 4.5,
+    "pages_crawled": 7,
+    "pages_capped": false,
+    "errors": [],
+    "robots_txt": "User-agent: *\nSitemap: https://interconsulta.ch/sitemap.xml"
+  },
+  "contact": {
+    "emails": [
+      "info@interconsulta.ch"
+    ],
+    "phones": [
+      "+41 41 711 70 70",
+      "+41 44 360 30 40"
+    ]
+  },
+  "assets": {
+    "downloaded": 7,
+    "failed": 1,
+    "total_bytes": 3145733,
+    "manifest": [
+      {
+        "url": "https://interconsulta.ch/img/Interconsulta_frei.png",
+        "ok": true,
+        "file": "assets/120bd4ad23__Interconsulta_frei.png",
+        "content_type": "image/png",
+        "bytes": 5389
+      },
+      {
+        "url": "https://interconsulta.ch/img/Interconsulta_weiss.png",
+        "ok": true,
+        "file": "assets/79b6d07423__Interconsulta_weiss.png",
+        "content_type": "image/png",
+        "bytes": 3065
+      },
+      {
+        "url": "https://www.interconsulta.ch/favicon.ico",
+        "ok": false,
+        "status": 404
+      },
+      {
+        "url": "https://www.interconsulta.ch/img/Interconsulta_frei.png",
+        "ok": true,
+        "file": "assets/a97a3d88e3__Interconsulta_frei.png",
+        "content_type": "image/png",
+        "bytes": 5389
+      },
+      {
+        "url": "https://www.interconsulta.ch/img/Interconsulta_weiss.png",
+        "ok": true,
+        "file": "assets/f51aeae688__Interconsulta_weiss.png",
+        "content_type": "image/png",
+        "bytes": 3065
+      },
+      {
+        "url": "https://www.interconsulta.ch/img/mitgliedschaften/handelskammer-deutschland-schweiz_black.png",
+        "ok": true,
+        "file": "assets/3463e4ff96__handelskammer-deutschland-schweiz_black.png",
+        "content_type": "image/png",
+        "bytes": 6230
+      },
+      {
+        "url": "https://www.interconsulta.ch/img/mitgliedschaften/rab.png",
+        "ok": true,
+        "file": "assets/41cacb53c6__rab.png",
+        "content_type": "image/png",
+        "bytes": 11727
+      },
+      {
+        "url": "https://www.interconsulta.ch/img/slider/slide-3.jpg",
+        "ok": true,
+        "file": "assets/6d4f8d7890__slide-3.jpg",
+        "content_type": "image/jpeg",
+        "bytes": 3110868
+      }
+    ]
+  },
+  "sitemap": [
+    {
+      "url": "https://www.interconsulta.ch/",
+      "title": "Interconsulta | Treuhand, Revisionen, Steuerberatung ZÃ¼rich",
+      "raw_html": "raw_html/001__index.html",
+      "text_len": 2965
+    },
+    {
+      "url": "https://interconsulta.ch/angebot.html",
+      "title": "Interconsulta | WirtschaftsprÃ¼fung, Steuerberatung, Revisionen ZÃ¼rich",
+      "raw_html": "raw_html/002__angebot.html",
+      "text_len": 3427
+    },
+    {
+      "url": "https://interconsulta.ch/datenschutz.html",
+      "title": "Interconsulta | DatenschutzerklÃ¤rung",
+      "raw_html": "raw_html/003__datenschutz.html",
+      "text_len": 30710
+    },
+    {
+      "url": "https://interconsulta.ch/impressum.html",
+      "title": "Interconsulta | Impressum",
+      "raw_html": "raw_html/004__impressum.html",
+      "text_len": 1272
+    },
+    {
+      "url": "https://interconsulta.ch/kontakt.html",
+      "title": "Interconsulta | Kontakt",
+      "raw_html": "raw_html/005__kontakt.html",
+      "text_len": 1503
+    },
+    {
+      "url": "https://interconsulta.ch/team.html",
+      "title": "Interconsulta | Das Team mit der grossen Erfahrung",
+      "raw_html": "raw_html/006__team.html",
+      "text_len": 1564
+    },
+    {
+      "url": "https://www.interconsulta.ch/stellen.html",
+      "title": "Interconsulta | Arbeiten bei Interconsulta",
+      "raw_html": "raw_html/007__stellen.html",
+      "text_len": 1160
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.interconsulta.ch/",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Interconsulta | Treuhand, Revisionen, Steuerberatung ZÃ¼rich",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "description": "Willkommen bei Interconsulta in ZÃ¼rich. Wir sind Ihr Partner fÃ¼r Treuhand, Revisionen, Steuerberatung, Buchhaltung, Unternehmensberatung und Mehrwertsteuer.",
+        "author": "the-edge.ch",
+        "viewport": "initial-scale=1, maximum-scale=1, width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Willkommen bei Interconsulta ."
+        ],
+        "h2": [
+          "Kompetente Beratung im jeweiligen Spezialgebiet.",
+          "PersÃ¶nliche Beratung",
+          "Obligationenrechtliche Revision",
+          "Steuerberatung",
+          "UnternehmensfÃ¼hrung",
+          "Wirtschaftsberatung",
+          "WirtschaftsprÃ¼fung",
+          "Wie wir arbeiten",
+          "Mitgliedschaften",
+          "Vereinbaren Sie einen Termin mit einem unserer klugen KÃ¶pfe ."
+        ],
+        "h3": [
+          "Individuell, persÃ¶nlich",
+          "Ob KMU oder Privatperson",
+          "Wir gehÃ¶ren dazu"
+        ],
+        "h6": [
+          "SchlÃ¼ssel­wÃ¶rter",
+          "Haupt­sitz",
+          "Zweig­nieder­lassung"
+        ]
+      },
+      "text": "Interconsulta | Treuhand, Revisionen, Steuerberatung ZÃ¼rich\n+41 44 360 30 40\ninfo@interconsulta.ch\nHome\nAngebot\nÃber uns\nKontakt\nStellen\nOpen Menu\nAngebot\nÃber uns\nKontakt\nStellen\nKompetente Beratung\nim jeweiligen Spezialgebiet.\nVertraut und persÃ¶nlich\nJahrzehntelange Erfahrung\nPersÃ¶nlicher Kontakt\nDas Vertrauen,\ndas Sie uns schenken, ist bei uns\ngut angelegt.\nDass uns viele Kunden Ã¼ber Jahrzehnte hinweg die Treue halten, macht uns natÃ¼rlich schon ein wenig stolz.\nWillkommen bei\nInterconsulta\n.\nWir gewÃ¤hrleisten kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\nZUM ANGEBOT\nPersÃ¶nliche Beratung\nObligationenrechtliche Revision\nSteuerberatung\nUnternehmensfÃ¼hrung\nWirtschaftsberatung\nWirtschaftsprÃ¼fung\nWie wir\narbeiten\nIndividuell, persÃ¶nlich\nObligationenrechtliche Revision (ordentliche, eingeschrÃ¤nkte und freiwillige AbschlussprÃ¼fungen), KonzernabschlussprÃ¼fungen, PrÃ¼fung von Personalvorsorgeeinrichtungen, ÃberprÃ¼fung des internen Kontrollsystems (IKS), SpezialprÃ¼fungen im Zusammenhang mit besonderen wirtschaftlichen TatbestÃ¤nden, Reviews und andere PrÃ¼farbeiten nach KundenbedÃ¼rfnissen.\nOb KMU oder Privatperson\nSteuerberatung, UnternehmensfÃ¼hrung, RentabilitÃ¤tsanalysen, Finanzierung, Sanierung, Liquidation, Bankenverhandlungen, Investitionsbeurteilung, Wirtschaftlichkeitsanalysen, Umstrukturierungen, Fusionen, Kauf und Verkauf von Unternehmen, Bewertung von Unternehmen, Due Diligence, Verwaltungsratsmandate, Nachfolgeregelungen, Willensvollstreckungen.\nWir gehÃ¶ren dazu\nWir sind Mitglied der TREUHAND SUISSE und der RevisionsaufsichtsbehÃ¶rde (RAB) unterstellt. Zudem sind wir Mitglied des VQF - Verein zur QualitÃ¤tssicherung von Finanzdienstleistungen. Viele unserer Klienten pflegen internationale Kontakte. Dank unserem weltweiten Korrespondentennetz kommen auch Klienten mit Auslandbeziehungen in den Genuss einer optimalen Betreuung.\nMitgliedschaften\nRAB â EidgenÃ¶ssische RevisionsaufsichtsbehÃ¶rde\nHandelskammer Deutschland-Schweiz\nVereinbaren Sie\neinen Termin\nmit einem unserer\nklugen KÃ¶pfe\n.\nSie werden sehen:\nDas Vertrauen, das Sie uns schenken, ist bei uns gut angelegt.\nTermin vereinbaren\nDie Interconsulta gewÃ¤hrleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\nAlle unsere Kunden werden persÃ¶nlich von einem der zwei geschÃ¤ftsfÃ¼hrenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut.\nSchlÃ¼ssel­wÃ¶rter\nWirtschaftsprÃ¼fungen\nWirtschaftsberatung\nSteuerberatung\nDienstleistungen\nHaupt­sitz\nInterconsulta\nRevisions- und Treuhand AG\nWir sind per 31.03.2025 umgezogen:\nWaaggasse 5 | 8001 ZÃ¼rich\nT\n+41 44 360 30 40\ninfo@interconsulta.ch\nHIER FINDEN SIE UNS\nZweig­nieder­lassung\nInterconsulta\nRevisions- und Treuhand AG\nSteinhauserstrasse 74 | CH-6300 Zug\nT\n+41 41 711 70 70\ninfo@interconsulta.ch\nCopyright Interconsulta Revisions- und Treuhand AG\n. Alle Rechte vorbehalten.\nIMPRESSUM\nDATENSCHUTZ\nScroll",
+      "text_len": 2965,
+      "links": [
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/interconsulta-revisions-und-treuhand-ag",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://www.interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Stellen",
+          "href": "https://www.interconsulta.ch/stellen.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://www.interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Stellen",
+          "href": "https://www.interconsulta.ch/stellen.html",
+          "internal": true
+        },
+        {
+          "text": "ZUM ANGEBOT",
+          "href": "https://www.interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "",
+          "href": "https://www.rab-asr.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.handelskammer-d-ch.ch",
+          "internal": false
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://www.interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fungen",
+          "href": "https://www.interconsulta.ch/angebot.html#wirtschaftspruefungen",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaftsberatung",
+          "href": "https://www.interconsulta.ch/angebot.html#wirtschaftsberatung",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://www.interconsulta.ch/angebot.html#steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.interconsulta.ch/angebot.html#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "HIER FINDEN SIE UNS",
+          "href": "https://www.interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "IMPRESSUM",
+          "href": "https://www.interconsulta.ch/impressum.html",
+          "internal": true
+        },
+        {
+          "text": "DATENSCHUTZ",
+          "href": "https://www.interconsulta.ch/datenschutz.html",
+          "internal": true
+        },
+        {
+          "text": "Scroll",
+          "href": "https://www.interconsulta.ch/#top",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "./img/Interconsulta_frei.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        },
+        {
+          "src": "img/slider/slide-3.jpg"
+        },
+        {
+          "src": "img/slider/slide-3.jpg"
+        },
+        {
+          "src": "./img/Interconsulta_weiss.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@interconsulta.ch"
+      ],
+      "phones": [
+        "+41 41 711 70 70",
+        "+41 44 360 30 40"
+      ],
+      "raw_html": "raw_html/001__index.html"
+    },
+    {
+      "url": "https://interconsulta.ch/angebot.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Interconsulta | WirtschaftsprÃ¼fung, Steuerberatung, Revisionen ZÃ¼rich",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "description": "Die Interconsulta in ZÃ¼rich bietet WirtschaftsprÃ¼fung, Revisionen, Steuern, Buchhaltung und Mehrwertsteuer fÃ¼r KMU und Privatpersonen.",
+        "author": "the-edge.ch",
+        "viewport": "initial-scale=1, maximum-scale=1, width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "WirtschaftsprÃ¼fung"
+        ],
+        "h2": [
+          "Wirtschaftsberatung",
+          "Steuerberatung",
+          "Ãbrige Dienstleistungen",
+          "Vereinbaren Sie einen Termin mit einem unserer klugen KÃ¶pfe ."
+        ],
+        "h3": [
+          "Obligationsrechtliche Revision",
+          "PrÃ¼fung von KonzernabschlÃ¼ssen",
+          "KapitalprÃ¼fungen",
+          "Personalvorsorgestiftungen",
+          "SpezialprÃ¼fungen",
+          "Bewertung",
+          "Nachfolgeregelungen",
+          "Due Diligence",
+          "Erstellen von PlÃ¤nen",
+          "Wirtschaftlichkeitsrechnungen",
+          "Umstrukturierung",
+          "Beratung",
+          "lnvestitionsbeurteilung",
+          "Steuerrecht",
+          "SteuererklÃ¤rungen",
+          "Steuerplanung",
+          "OptimierungsvorschlÃ¤ge",
+          "UnterstÃ¼tzung in Steuerangelegenheiten",
+          "Mehrwertsteuerberatung",
+          "Fiskalvertretung",
+          "Kundenbuchhaltungen",
+          "Spezialbuchhaltungen",
+          "Lohnbuchhaltungen",
+          "TreuhandgeschÃ¤fte",
+          "Verwaltungsmandate",
+          "Liquidationen",
+          "Willensvollstreckermandate",
+          "Erbrechtliche Fragen",
+          "lnteressensvertretung",
+          "TemporareinsÃ¤tze",
+          "Domizilstelle"
+        ],
+        "h6": [
+          "SchlÃ¼ssel­wÃ¶rter",
+          "Haupt­sitz",
+          "Zweig­nieder­lassung"
+        ]
+      },
+      "text": "Interconsulta | WirtschaftsprÃ¼fung, Steuerberatung, Revisionen ZÃ¼rich\n+41 44 360 30 40\ninfo@interconsulta.ch\nHome\nAngebot\nÃber uns\nKontakt\nStellen\nOpen Menu\nAngebot\nÃber uns\nKontakt\nStellen\nSie sind hier:\nAngebot\nWirtschaftsprÃ¼fung\nObligationsrechtliche Revision\nObligationsrechtliche Revision (ordentliche, eingeschrÃ¤nkte und freiwillige AbschlussprÃ¼fung) fÃ¼r alle Rechtsformen\nPrÃ¼fung von KonzernabschlÃ¼ssen\nPrÃ¼fung von KonzernabschlÃ¼ssen nach schweizerischem Recht oder weitergehenden Standards\nKapitalprÃ¼fungen\nGrÃ¼ndungs-, KapitalerhÃ¶hungs-, Kapitalherabsetzungs- und AufwertungsprÃ¼fungen\nPersonalvorsorgestiftungen\nRevisionsstelle von Personalvorsorgestiftungen\nSpezialprÃ¼fungen\nSpezialprÃ¼fungen im Zusammenhang mit besonderen wirtschaftlichen TatbestÃ¤nden\nWirtschaftsberatung\nBewertung\nBewertung von Unternehmen\nNachfolgeregelungen\nNachfolgeregelungen\nDue Diligence\nDurchfÃ¼hrung von Due Diligence\nErstellen von PlÃ¤nen\nErstellen von Budget-, Business- und FinanzplÃ¤nen\nWirtschaftlichkeitsrechnungen\nWirtschaftlichkeitsrechnungen erstellen\nUmstrukturierung\nUmstrukturierung und Fusion von Firmen\nBeratung\nBeratung bei Firmenkauf oder -verkauf\nlnvestitionsbeurteilung\nlnvestitionsbeurteilung\nSteuerberatung\nSteuerrecht\nBeratung auf allen Gebieten des nationalen und internationalen Steuerrechts\nSteuererklÃ¤rungen\nAusarbeiten von SteuererklÃ¤rungen fÃ¼r natÃ¼rliche und juristische Personen\nSteuerplanung\nMittel- und langfristige Steuerplanung\nOptimierungsvorschlÃ¤ge\nErarbeitung von OptimierungsvorschlÃ¤gen und Konzepten\nUnterstÃ¼tzung in Steuerangelegenheiten\nUnterstÃ¼tzung und Vertretung in Steuerangelegenheiten\nMehrwertsteuerberatung\nMehrwertsteuerberatung\nFiskalvertretung\nFiskalvertretung von auslÃ¤ndischen Gesellschaften\nÃbrige Dienstleistungen\nKundenbuchhaltungen\nFÃ¼hren von Kundenbuchhaltungen fÃ¼r alle Rechtsformen\nSpezialbuchhaltungen\nNeben- und Spezialbuchhaltungen\nLohnbuchhaltungen\nFÃ¼hren von Lohnbuchhaltungen inkl. Personaladministration\nTreuhandgeschÃ¤fte\nDurchfÃ¼hrung und Ãberwachung von TreuhandgeschÃ¤ften\nVerwaltungsmandate\nVerwaltungsmandate\nLiquidationen\nBegleitung von Liquidationen, Liquidationsmandate\nWillensvollstreckermandate\nÃbernahme von Willensvollstreckermandate\nErbrechtliche Fragen\nBeratung in gÃ¼ter- und erbrechtlichen Fragen\nlnteressensvertretung\nlnteressensvertretung im Verwaltungsrat\nTemporareinsÃ¤tze\nTemporareinsÃ¤tze im Rechnungswesen\nDomizilstelle\nDomizil Service fÃ¼r Unternehmen in ZÃ¼rich und Zug\nVereinbaren Sie\neinen Termin\nmit einem unserer\nklugen KÃ¶pfe\n.\nSie werden sehen:\nDas Vertrauen, das Sie uns schenken, ist bei uns gut angelegt.\nTermin vereinbaren\nDie Interconsulta gewÃ¤hrleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\nAlle unsere Kunden werden persÃ¶nlich von einem der zwei geschÃ¤ftsfÃ¼hrenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut.\nSchlÃ¼ssel­wÃ¶rter\nWirtschaftsprÃ¼fungen\nWirtschaftsberatung\nSteuerberatung\nDienstleistungen\nHaupt­sitz\nInterconsulta\nRevisions- und Treuhand AG\nWir sind per 31.03.2025 umgezogen:\nWaaggasse 5 | 8001 ZÃ¼rich\nT\n+41 44 360 30 40\ninfo@interconsulta.ch\nHIER FINDEN SIE UNS\nZweig­nieder­lassung\nInterconsulta\nRevisions- und Treuhand AG\nSteinhauserstrasse 74 | CH-6300 Zug\nT\n+41 41 711 70 70\ninfo@interconsulta.ch\nCopyright Interconsulta Revisions- und Treuhand AG\n. Alle Rechte vorbehalten.\nIMPRESSUM\nDATENSCHUTZ\nScroll",
+      "text_len": 3427,
+      "links": [
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/interconsulta-revisions-und-treuhand-ag",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Stellen",
+          "href": "https://interconsulta.ch/stellen.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Stellen",
+          "href": "https://interconsulta.ch/stellen.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Obligationsrechtliche Revision",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "PrÃ¼fung von KonzernabschlÃ¼ssen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "KapitalprÃ¼fungen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Personalvorsorgestiftungen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "SpezialprÃ¼fungen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Bewertung",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Nachfolgeregelungen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Due Diligence",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Erstellen von PlÃ¤nen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaftlichkeitsrechnungen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Umstrukturierung",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Beratung",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "lnvestitionsbeurteilung",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Steuerrecht",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "SteuererklÃ¤rungen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Steuerplanung",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "OptimierungsvorschlÃ¤ge",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "UnterstÃ¼tzung in Steuerangelegenheiten",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Mehrwertsteuerberatung",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Fiskalvertretung",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Kundenbuchhaltungen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Spezialbuchhaltungen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Lohnbuchhaltungen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "TreuhandgeschÃ¤fte",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Verwaltungsmandate",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Liquidationen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Willensvollstreckermandate",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Erbrechtliche Fragen",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "lnteressensvertretung",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "TemporareinsÃ¤tze",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Domizilstelle",
+          "href": "https://interconsulta.ch/angebot.html#",
+          "internal": true
+        },
+        {
+          "text": "Termin vereinbaren",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fungen",
+          "href": "https://interconsulta.ch/angebot.html#wirtschaftspruefungen",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaftsberatung",
+          "href": "https://interconsulta.ch/angebot.html#wirtschaftsberatung",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://interconsulta.ch/angebot.html#steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://interconsulta.ch/angebot.html#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "HIER FINDEN SIE UNS",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "IMPRESSUM",
+          "href": "https://interconsulta.ch/impressum.html",
+          "internal": true
+        },
+        {
+          "text": "DATENSCHUTZ",
+          "href": "https://interconsulta.ch/datenschutz.html",
+          "internal": true
+        },
+        {
+          "text": "Scroll",
+          "href": "https://interconsulta.ch/angebot.html#top",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "./img/Interconsulta_frei.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        },
+        {
+          "src": "./img/Interconsulta_weiss.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@interconsulta.ch"
+      ],
+      "phones": [
+        "+41 41 711 70 70",
+        "+41 44 360 30 40"
+      ],
+      "raw_html": "raw_html/002__angebot.html"
+    },
+    {
+      "url": "https://interconsulta.ch/datenschutz.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Interconsulta | DatenschutzerklÃ¤rung",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "description": "Hier finden Sie die DatenschutzerklÃ¤rung der Interconsulta Revisions- und Treuhand AG in ZÃ¼rich.",
+        "author": "the-edge.ch",
+        "viewport": "initial-scale=1, maximum-scale=1, width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "DatenschutzerklÃ¤rung"
+        ],
+        "h3": [
+          "1. Verantwortliche Stelle und Kontakt",
+          "2. Erhebung und Bearbeitung von Personendaten",
+          "3. Kategorien von Personendaten",
+          "4. Zwecke der Datenbearbeitung und Rechtsgrundlage",
+          "6. Web- und Newsletteranalyse",
+          "7. Datenweitergabe und DatenÃ¼bermittlung",
+          "8. Dauer der Aufbewahrung von Personendaten",
+          "9. Datensicherheit",
+          "10. Pflicht zur Bereitstellung von Personendaten",
+          "11. Ihre Rechte",
+          "12. Ãnderung der DatenschutzerklÃ¤rung"
+        ],
+        "h4": [
+          "4.1. Erbringung von Dienstleistungen",
+          "4.2. Indirekte Datenbearbeitung aus Leistungserbringung",
+          "4.3. Nutzung unserer Webseite",
+          "4.4. Newsletter-Nutzung",
+          "4.5 Teilnahme an Veranstaltungen",
+          "4.6 Direkte Kommunikation und Besuche",
+          "4.7 Bewerbungen",
+          "4.8 Lieferanten, Dienstleister, sonstige Vertragspartner",
+          "6.1 Google Analytics",
+          "6.2 Google Maps",
+          "6.3 Social Media Plugins"
+        ],
+        "h6": [
+          "SchlÃ¼ssel­wÃ¶rter",
+          "Haupt­sitz",
+          "Zweig­nieder­lassung"
+        ]
+      },
+      "text": "Interconsulta | DatenschutzerklÃ¤rung\n+41 44 360 30 40\ninfo@interconsulta.ch\nHome\nAngebot\nÃber uns\nKontakt\nOpen Menu\nAngebot\nÃber uns\nKontakt\nSie sind hier:\nDatenschutz\nDatenschutzerklÃ¤rung\nIn dieser DatenschutzerklÃ¤rung beschreiben wir, die INTERCONSULTA REVISIONS- UND TREUHAND AG (nachfolgend Interconsulta), wie wir Personendaten erheben und bearbeiten. Diese DatenschutzerklÃ¤rung stellt keine abschliessende Beschreibung dar; allenfalls regeln ande-re den Datenschutz betreffende ErklÃ¤rungen spezifische Sachverhalte. Unter Personendaten werden fÃ¼r die Zwecke dieser DatenschutzerklÃ¤rung alle Angaben verstanden, die sich auf eine bestimmte oder bestimmbare Person beziehen.\n1. Verantwortliche Stelle und Kontakt\nVerantwortlich fÃ¼r die Datenbearbeitungen, die wir hier beschreiben, ist die Interconsulta, soweit im Einzelfall nichts anderes angegeben ist. Anfragen zum Datenschutz kÃ¶nnen, unter Beilage einer Kopie der ID oder des Passes zur Identifikation des Nutzers, per Brief oder E-Mail an uns gerichtet werden: Interconsulta Revisions- und Treuhand AG, Waaggasse 5, 8001 ZÃ¼rich, Tel. +41 44 360 30 40, info@interconsulta.ch.\n2. Erhebung und Bearbeitung von Personendaten\nWir bearbeiten Personendaten insbesondere in den folgenden Kategorien von Bearbeitungen.\nKundendaten, fÃ¼r die wir Leistungen erbringen oder erbracht haben.\nersonendaten, die wir bei der Leistungserbringung indirekt von unseren Kunden erhalten oder erhalten haben.\nBeim Besuch unserer Website\nBei der Nutzung eines Newsletters\nBei der Teilnahme an einer Veranstaltung von uns\nAllgemein bei Kommunikation zwischen Kunde und Interconsulta\nBei einem persÃ¶nlichen Besuch vor Ort oder extern beim Kunden\nBei sonstiger vertraglicher Beziehung, zum Beispiel als Lieferant, Dienstleistungserbringer oder Berater\nBeim Bewerbungsprozess\nWenn wir aus gesetzlichen oder regulatorischen GrÃ¼nden dazu verpflichtet sind.\nWenn wir unsere Sorgfaltspflichten oder sonstige berechtigte Interessen wahrnehmen, zum Beispiel um Interessenkonflikt, GeldwÃ¤scherei oder sonstige Risiken zu vermeiden, die Datenrichtigkeit sicherzustellen, die BonitÃ¤t zu prÃ¼fen, die Sicherheit zu gewÃ¤hrleisten oder unsere Rechte durchzusetzen.\nDetailliertere Informationen finden Sie unter Ziff. 5.\n3. Kategorien von Personendaten\nWelche Personendaten wir bearbeiten ist abhÃ¤ngig von der Kundenbeziehung und vom Bearbeitungszweck. Wir bearbeiten nebst Ihren Kontaktdaten auch weitere Informationen Ã¼ber Sie oder Ã¼ber Personen, die mit Ihnen in einer Beziehung stehen. Bei diesen Informationen kann es sich unter UmstÃ¤nden auch um besonders schÃ¼tzenswerte Personendaten handeln.\nWir sammeln folgende Kategorien von Personendaten, abhÃ¤ngig vom Bearbeitungszweck:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail)\nKundeninformationen (z.B. Geburtsdatum, NationalitÃ¤t, Zivilstand, Beruf, Titel, Stellenbezeichnung, Pass / ID-Nummer, AHV-Nummer)\nRisikobewertungsdaten (z.B. BonitÃ¤tsinformationen, Handelsregisterdaten)\nFinanzinformationen (z.B. Daten zu Bankverbindungen)\nKundendaten, je nach Auftrag (z.B. Steuerinformationen, Statuten, Protokolle, Projekte, VertrÃ¤ge, Mitarbeiterdaten (z.B. Lohn, Sozialversicherungen), Buchhaltungsdaten, wirtschaftlich Berechtigte, EigentumsverhÃ¤ltnisse)\nWebseitendaten (z.B. IP-Adresse, GerÃ¤teinformation (UDI), Informationen zum Browser, Webseitennutzung (Analyse und Verwendung von Plugins, etc.)\nBewerbungsdaten (z.B. Lebenslauf, Arbeitszeugnisse)\nMarketinginformationen (z.B. Anmeldung Newsletter)\nSicherheits- und Netzwerkdaten (z.B. Besucherlisten, Zutrittskontrollen, Netzwerk- und Mailscanner, Telefonanruflisten)\nSoweit dies erlaubt ist, entnehmen wir auch Ã¶ffentlich zugÃ¤nglichen Quellen (z.B. Betreibungsregister, GrundbÃ¼cher, Handelsregister, Presse, Internet) gewisse Daten oder erhalten solche von unseren Kunden und deren Mitarbeitern, von BehÃ¶rden, (Schieds-)Gerichten und sonstigen Dritten. Nebst den Daten von Ihnen, die Sie uns direkt geben, umfassen die Kategorien von Personendaten, die wir von Dritten Ã¼ber Sie erhalten, insbesondere Angaben aus Ã¶ffentlichen Registern, Angaben, die wir im Zusammenhang mit behÃ¶rdlichen und gerichtlichen Verfahren erfahren, Angaben im Zusammenhang mit Ihren beruflichen Funktionen und AktivitÃ¤ten (damit wir z.B. mit Ihrer Hilfe GeschÃ¤fte mit Ihrem Arbeitgeber abschliessen und abwickeln kÃ¶nnen), Angaben Ã¼ber Sie in Korrespondenz und Besprechungen mit Dritten, BonitÃ¤tsauskÃ¼nfte, Angaben Ã¼ber Sie, die uns Personen aus Ihrem Umfeld (Familie, Berater, Rechtsvertreter, etc.) geben, damit wir VertrÃ¤ge mit Ihnen oder unter Einbezug von Ihnen abschliessen oder abwickeln kÃ¶nnen (z.B. Referenzen, Ihre Adresse fÃ¼r Lieferungen, Vollmachten) Angaben zur Einhaltung gesetzlicher Vorgaben wie etwa der GeldwÃ¤schereibekÃ¤mpfung und Exportrestriktionen, Angaben von Banken, Versicherungen, Vertriebs- und anderen Vertragspartnern von uns zur Inanspruchnahme oder Erbringung von Leistungen durch Sie (z.B. erfolgte Zahlungen, erfolgte KÃ¤ufe), Angaben aus Medien und Internet zu Ihrer Person (soweit dies im konkreten Fall angezeigt ist, z.B. im Rahmen einer Bewerbung etc.), Ihre Adressen und ggf. Interessen und weitere soziodemographische Daten (fÃ¼r Marketing), Daten im Zusammenhang mit der Benutzung der Website (z.B. IP-Adresse, MAC-Adresse des Smartphones oder Computers, Angaben zu Ihrem GerÃ¤t und Einstellungen, Cookies, Datum und Zeit des Besuchs, abgerufene Seiten und Inhalte, benutzte Funktionen, verweisende Website, Standortangaben).\n4. Zwecke der Datenbearbeitung und Rechtsgrundlage\n4.1. Erbringung von Dienstleistungen\nWir bearbeiten in erster Linie die Personendaten, die wir im Rahmen unserer Kundenbeziehungen und sonstigen Vertragsbeziehungen mit GeschÃ¤ftspartnern von diesen und weiteren daran beteiligten Personen erhalten.\nBei den Personendaten unserer Kunden handelt es sich insbesondere um folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail, sonstige Kontaktinformationen)\nPersÃ¶nliche Informationen (z.B. Geburtsdatum, NationalitÃ¤t, Zivilstand, Beruf, Titel, Stellenbezeichnung, Pass / ID-Nummer, AHV-Nummer, familiÃ¤re VerhÃ¤ltnisse, etc.)\nRisikobewertungsdaten (z.B. BonitÃ¤tsinformationen, Handelsregisterdaten, Sanktionslisten, spezialisierte Datenbanken, Daten aus dem Internet)\nFinanzinformationen (z.B. Daten zu Bankverbindungen, Investments oder Beteiligungen)\nKundendaten, je nach Auftrag z.B. Steuerinformationen, Statuten, Protokolle, Mitarbeiterdaten (z.B. Lohn, Sozialversicherungen), Buchhaltungsdaten, etc.\nBesonders schÃ¼tzenswerte Personendaten: Unter diesen Personendaten kÃ¶nnen sich auch besonders schÃ¼tzenswerte Personendaten befinden, wie bspw. Daten zur Gesundheit, zu religiÃ¶sen Ansichten oder zu Massnahmen der sozialen Hilfe, insbesondere, wenn wir Leistungen im Bereich Lohnverarbeitung oder Buchhaltung erbringen.\nDiese Personendaten bearbeiten wir fÃ¼r die beschriebenen Zwecke gestÃ¼tzt auf die folgenden Rechtsgrundlagen:\nAbschluss oder Abwicklung eines Vertrages mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfÃ¤llige Durchsetzung (z.B. Beratung, Treuhand)\nErfÃ¼llung einer gesetzlichen Verpflichtung (z.B. wenn wir unsere Pflichten als Revisionsstelle wahrnehmen oder verpflichtet sind, Informationen offen zu legen)\nWahrung berechtigter Interessen, (zum Beispiel fÃ¼r administrative Zwecke, um unsere QualitÃ¤t zu verbessern, die Sicherheit zu gewÃ¤hrleisten, Risikomanagement zu betreiben, unsere Rechte durchzusetzen, uns gegen AnsprÃ¼che zu verteidigen oder um mÃ¶gliche Interessenkonflikte zu prÃ¼fen)\nEinwilligung (zum Beispiel um ihnen Marketinginformationen zuzusenden).\n4.2. Indirekte Datenbearbeitung aus Leistungserbringung\nWenn wir Leistungen fÃ¼r unsere Kunden erbringen, kann es vorkommen, dass wir auch Personendaten bearbeiten, die wir nicht direkt bei den betroffenen Personen erhoben haben oder Personendaten von Drittpersonen. Es handelt sich bei diesen Drittpersonen in der Regel um Mitarbeitende, Kontaktpersonen, Familienmitglieder oder Personen, die aus anderen GrÃ¼nden mit den Kunden oder den betroffenen Personen in einer Beziehung stehen. Diese Personendaten benÃ¶tigen wir, um VertrÃ¤ge mit unseren Kunden zu erfÃ¼llen. Wir erhalten diese Personendaten von unseren Kunden oder von Dritten, die von unseren Kunden beauftragt werden. Drittpersonen, deren Informationen wir zu diesem Zweck bearbeiten, werden von unseren Kunden darÃ¼ber informiert, dass wir ihre Daten bearbeiten. Unsere Kunden kÃ¶nnen dafÃ¼r auf diese DatenschutzerklÃ¤rung verweisen.\nBei den Personendaten der Personen, die mit unseren Kunden in einer Beziehung stehen, handelt es sich insbesondere um folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail, sonstige Kontaktinformationen, Marketingdaten)\nPersÃ¶nliche Informationen (z.B. Geburtsdatum, NationalitÃ¤t, Zivilstand, Beruf, Titel, Stellenbezeichnung, Pass / ID-Nummer, AHV-Nummer, familiÃ¤re VerhÃ¤ltnisse, etc.)\nFinanzinformationen (z.B. Daten zu Bankverbindungen, Investments oder Beteiligungen)\nKundendaten, je nach Auftrag z.B. Steuerinformationen, Statuten, Protokolle, Mitarbeiterdaten (z.B. Lohn, Sozialversicherungen), Buchhaltungsdaten\nBesonders schÃ¼tzenswerte Personendaten: Unter diesen Personendaten kÃ¶nnen sich auch besonders schÃ¼tzenswerte Personendaten befinden, wie bspw. Daten zur Gesundheit, zu religiÃ¶sen Ansichten oder zu Massnahmen der sozialen Hilfe, insbesondere, wenn wir Leistungen im Bereich Lohnverarbeitung oder Buchhaltung erbringen.\nDiese Personendaten bearbeiten wir fÃ¼r die beschriebenen Zwecke gestÃ¼tzt auf die folgenden Rechtsgrundlagen:\nAbschluss oder Abwicklung eines Vertrages mit der betroffenen Person bzw. zugunsten der betroffenen Person (z. B. wenn wir unsere vertraglichen Pflichten wahrnehmen)\nErfÃ¼llung einer gesetzlichen Verpflichtung (z. B. wenn wir unsere Pflichten als Revisionsstelle wahrnehmen oder verpflichtet sind, Informationen offen zu legen)\nWahrung berechtigter Interessen, insbesondere unser Interesse, gegenÃ¼ber unseren Kunden eine optimale Leistung zu erbringen.\n4.3. Nutzung unserer Webseite\nUm unsere Webseite zu nutzen, mÃ¼ssen keine Personendaten offengelegt werden. Der Server erfasst jedoch mit jedem Aufruf eine Reihe von Benutzerinformationen, welche vorÃ¼bergehend in den Logfiles des Servers gespeichert werden.\nBei der Nutzung dieser allgemeinen Informationen findet keine Zuordnung zu einer bestimmten Person statt. Die Erfassung dieser Informationen bzw. Daten ist technisch erforderlich, um unsere Webseite anzuzeigen und dessen StabilitÃ¤t und Sicherheit zu gewÃ¤hrleisten. Diese Informationen werden zudem erhoben, um die Webseite zu verbessern und ihre Nutzung zu analysieren.\nDabei handelt es sich insbesondere um folgende Informationen:\nKontaktinformationen (zum Beispiel Name, Vorname, Adresse, Telefonnummer, E-Mail)\nWeitere Informationen, die Sie uns via Webseite Ã¼bermitteln\nAutomatisch an uns oder unsere Dienstleister Ã¼bermittelte technische Informationen, Informationen zum Nutzerverhalten oder der Einstellungen der Webseite (zum Beispiel IP-Adresse, UDI, GerÃ¤tetyp, Browser, Anzahl Klicks auf der Seite, Ãffnen des Newsletters, Klick auf Links, etc.)\nDiese Personendaten bearbeiten wir fÃ¼r die beschriebenen Zwecke gestÃ¼tzt auf die folgenden Rechtsgrundlagen:\nWahrung berechtigter Interessen, (zum Beispiel fÃ¼r administrative Zwecke, um unsere QualitÃ¤t zu verbessern, Daten zu analysieren oder unsere Dienstleistungen bekannt zu machen)\nEinwilligung (zum Beispiel in die Nutzung von Cookies oder den Newsletter).\n4.4. Newsletter-Nutzung\nSobald wir einen Newsletter anbieten und Sie unseren Newsletter abonnieren, nutzen wir Ihre E-Mail-Adresse und weitere Kontaktdaten, um Ihnen den Newsletter senden zu kÃ¶nnen. Sie kÃ¶nnen dann unseren Newsletter mit Ihrer Einwilligung abonnieren. Pflichtangabe fÃ¼r die Ãbersendung des Newsletters sind Ihr vollstÃ¤ndiger Name sowie Ihre E-Mailadresse, die wir nach Ihrer Anmeldung speichern. Rechtsgrundlagen fÃ¼r die Verarbeitung Ihrer Daten im Zusammenhang mit unserem Newsletter bildet Ihre Einwilligung fÃ¼r die Ãbersendung des Newsletters. Diese kÃ¶nnen Sie jederzeit widerrufen und den Newsletter abbestellen.\n4.5 Teilnahme an Veranstaltungen\nWenn Sie an einer von uns organisierten Veranstaltung teilnehmen, erheben wir Personendaten, um die Veranstaltung zu organisieren, durchzufÃ¼hren und Ihnen allenfalls nachtrÃ¤glich zusÃ¤tzliche Informationen zu senden. Wir verwenden Ihre Informationen ebenfalls, um Sie auf weitere Veranstaltungen hinzuweisen. Es kann sein, dass Sie an diesen Veranstaltungen von uns fotografiert oder gefilmt werden und wir dieses Bildmaterial intern oder extern verÃ¶ffentlichen.\nDabei handelt es sich insbesondere um folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail)\nPersÃ¶nliche Informationen (z.B. Beruf, Funktion, Titel, Arbeitgeberfirma, Essgewohnheiten)\nBilder oder Videos\nZahlungsinformationen (z.B. Bankverbindung).\nDiese Personendaten bearbeiten wir fÃ¼r die beschriebenen Zwecke gestÃ¼tzt auf die folgenden Rechtsgrundlagen:\nErfÃ¼llung einer vertraglichen Pflicht mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfÃ¤llige Durchsetzung (ErmÃ¶glichung der Teilnahme an der Veranstaltung)\nWahrung berechtigter Interessen (z.B. DurchfÃ¼hrung von Veranstaltungen, Verbreitung von Informationen Ã¼ber unsere Veranstaltung, Erbringung von Dienstleistungen, effiziente Organisation)\nEinwilligung (z.B. um ihnen Marketinginformationen zuzusenden oder Bildmaterial zu erstellen)\n4.6 Direkte Kommunikation und Besuche\nWenn Sie mit uns Kontakt aufnehmen (zum Beispiel via Telefon oder E-Mail) oder wir Sie kontaktieren, bearbeiten wir die dafÃ¼r notwendigen Personendaten. Wir bearbeiten diese Personendaten ebenfalls, wenn Sie uns besuchen. In diesem Fall kann es sein, dass Sie vor Ihrem Besuch oder am Empfang Ihre Kontaktdaten hinterlassen mÃ¼ssen. Diese werden von uns fÃ¼r eine gewisse Zeit aufbewahrt, um unsere Infrastruktur und unsere Informationen zu schÃ¼tzen.\nFÃ¼r die DurchfÃ¼hrung von Telefonkonferenzen, Online-Meetings, Videokonferenzen und/oder Webinare (Â«Online-MeetingsÂ») nutzen wir den Dienst Â«ZoomÂ», Â«TeamViewerÂ» oder Â«Microsoft TeamsÂ».\nWir bearbeiten dabei insbesondere folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail)\nRanddaten zur Kommunikation (z.B. IP-Adresse, Dauer der Kommunikation, Kommunikationskanal)\nAufzeichnungen von GesprÃ¤chen, z.B. bei Videokonferenzen\nAndere Informationen, die der Nutzer wÃ¤hrend der Verwendung des Videokonferenzdienstes hochlÃ¤dt, bereitstellt oder erstellt sowie fÃ¼r die Wartung des bereitgestellten Dienstes verwendete Metadaten ZusÃ¤tzliche AuskÃ¼nfte Ã¼ber die Bearbeitung personenbezogener Daten durch Â«ZoomÂ», Â«TeamViewerÂ» oder Microsoft Teams finden sich in deren DatenschutzerklÃ¤rungen.\nPersÃ¶nliche Informationen (z.B. Beruf, Funktion, Titel, Arbeitgeberfirma)\nZeitpunkt und Grund des Besuchs\nDiese Personendaten bearbeiten wir fÃ¼r die beschriebenen Zwecke gestÃ¼tzt auf die folgenden Rechtsgrundlagen:\nErfÃ¼llung einer vertraglichen Pflicht mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfÃ¤llige Durchsetzung (Erbringung einer Dienstleistung)\nWahrung berechtigter Interessen (zum Beispiel Sicherheit, Nachvollziehbarkeit sowie Abwicklung und Administration von Kundenbeziehungen)\n4.7 Bewerbungen\nSie kÃ¶nnen per Post oder Ã¼ber die auf unserer Webseite angegebene E-Mail-Adresse Ihre Bewerbung fÃ¼r eine Stelle bei uns einreichen. Die Bewerbungsunterlagen und sÃ¤mtliche damit an uns bekanntgegebenen Personendaten werden streng vertraulich behandelt, keinem Dritten bekanntgegeben und nur zum Zweck der Bearbeitung Ihrer Bewerbung fÃ¼r eine Anstellung bei uns bearbeitet. Ohne Ihre gegenteilige Zustimmung wird Ihr Bewerbungsdossier nach dem Abschluss des Bewerbungsverfahrens entweder an Sie zurÃ¼ckgesendet oder gelÃ¶scht/vernichtet, soweit es nicht einer gesetzlichen Aufbewahrungspflicht unterliegt. Rechtsgrundlagen fÃ¼r die Bearbeitung Ihrer Daten bilden Ihre Einwilligung, die ErfÃ¼llung des Vertrages mit Ihnen und unsere berechtigten Interessen.\nWir bearbeiten dabei insbesondere folgende Informationen:\nKontaktinformationen (zum Beispiel Name, Vorname, Adresse, Telefonnummer, E-Mail)\nPersÃ¶nliche Informationen (zum Beispiel Beruf, Funktion, Titel, Arbeitgeberfirma)\nBewerbungsunterlagen (zum Beispiel Motivationsschreiben, Zeugnisse, Diplome, Lebenslauf)\nBewertungsinformationen (zum Beispiel Beurteilung Personalberater, ReferenzauskÃ¼nfte, Assessments)\nDiese Personendaten bearbeiten wir fÃ¼r die beschriebenen Zwecke gestÃ¼tzt auf die folgenden Rechtsgrundlagen:\nWahrung berechtigter Interessen (z.B. Anstellung neuer Mitarbeitenden)\nEinwilligung Ihrerseits\n4.8 Lieferanten, Dienstleister, sonstige Vertragspartner\nWenn wir mit Ihnen einen Vertrag abschliessen, damit Sie eine Dienstleistung fÃ¼r uns erbringen, bearbeiten wir Personendaten von Ihnen oder Ihren Mitarbeitenden. Diese benÃ¶tigen wir, um mit Ihnen zu kommunizieren und Ihre Leistungen in Anspruch zu nehmen. Wir bearbeiten diese Personendaten unter UmstÃ¤nden auch um prÃ¼fen, ob ein Interessenkonflikt im Zusammenhang mit unserer TÃ¤tigkeit als Revisionsstelle vorliegen kÃ¶nnte und um sicherzustellen, dass wir mit der Zusammenarbeit keine ungewollten Risiken, z.B. hinsichtlich GeldwÃ¤scherei oder Sanktionen eingehen.\nWir bearbeiten dabei insbesondere folgende Informationen:\nKontaktinformationen (z.B. Name, Vorname, Adresse, Telefonnummer, E-Mail)\nPersÃ¶nliche Informationen (z.B. Beruf, Funktion, Titel, Arbeitgeberfirma)\nFinanzinformationen (z.B. Daten zu Bankverbindungen)\nDiese Personendaten bearbeiten wir fÃ¼r die beschriebenen Zwecke gestÃ¼tzt auf die folgenden Rechtsgrundlagen:\nAbschluss oder Abwicklung eines Vertrages mit der betroffenen Person bzw. zugunsten der betroffenen Person, inkl. Vertragsanbahnung und allfÃ¤llige Durchsetzung\nWahrung berechtigter Interessen, (z.B. Vermeidung von Interessenkonflikten, Schutz des Unternehmens, Durchsetzung von RechtsansprÃ¼chen)\n6. Web- und Newsletteranalyse\nUm Aufschluss Ã¼ber die Nutzung unserer Webseite zu erhalten, unser Internet-Angebot zu verbessern sowie Sie auch auf Webseiten von Dritten oder auf Social Media mit Werbung ansprechen zu kÃ¶nnen, setzen wir folgende Web Analyse-Tools und Re-Targeting-Technologien ein: Google Analytics.\nDiese Tools werden von Drittanbietern zur VerfÃ¼gung gestellt. In der Regel werden die zu diesem Zweck erhobenen Informationen Ã¼ber die Nutzung einer Webseite durch den Einsatz von Cookies oder Ã¤hnlichen Technologien an den Server des Drittanbieters Ã¼bermittelt. Je nach Drittanbieter befinden sich diese Server im Ausland.\nDie Ãbermittlung der Daten erfolgt normalerweise unter KÃ¼rzung der IP-Adressen, wodurch die Identifikation einzelner EndgerÃ¤te verhindert wird. Eine Ãbertragung dieser Informationen durch Drittanbieter findet nur aufgrund gesetzlicher Vorschriften oder im Rahmen der Auftragsdatenbearbeitung statt.\n6.1 Google Analytics\nWir nutzen auf unseren Webseiten Google Analytics, den Webanalysedienst der Google LLC, Mountain View, California, USA, zustÃ¤ndig fÃ¼r Europa ist Google Limited Ireland (Â«GoogleÂ»). Zur Deaktivierung von Google Analytics stellt Google unter https://tools.google.com/dlpage/gaoptout?hl=de ein Browser-Plug-In zur VerfÃ¼gung. Google Analytics verwendet Cookies. Das sind kleine Textdateien, die es mÃ¶glich machen, auf dem EndgerÃ¤t des Nutzers spezifische, auf den Nutzer bezogene Informationen zu speichern. Diese ermÃ¶glichen eine Analyse der Nutzung unseres Websiteangebotes durch Google. Die durch die Cookies erfassten Informationen Ã¼ber die Nutzung unserer Seiten (einschliesslich Ihrer IP-Adresse) werden in der Regel an einen Server von Google in den USA Ã¼bertragen und dort gespeichert. Wir weisen darauf hin, dass auf dieser Website Google Analytics um den Code Â«gat._anonymizeIp();Â» erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen (sog. IP-Masking) zu gewÃ¤hrleisten. Ist die Anonymisierung aktiv, kÃ¼rzt Google IP-Adressen innerhalb von Mitgliedstaaten der EuropÃ¤ischen Union oder in anderen Vertragsstaaten des Abkommens Ã¼ber den EuropÃ¤ischen Wirtschaftsraum, weswegen keine RÃ¼ckschlÃ¼sse auf Ihre IdentitÃ¤t mÃ¶glich sind. Nur in AusnahmefÃ¤llen wird die volle IP-Adresse an einen Server von Google in den USA Ã¼bertragen und dort gekÃ¼rzt. Google wird unter UmstÃ¤nden Ihre IP-Adresse mit anderen Daten von Google in Verbindung bringen. FÃ¼r DatenÃ¼bermittlungen in die USA hat sich Google verpflichtet, die EU-Standardvertragsklauseln zu unterzeichnen und einzuhalten.\n6.2 Google Maps\nAuf unserer Website verwenden wir Google Maps (API) von Google Inc.(1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; zustÃ¤ndig fÃ¼r Europa ist Google Limited Ireland, Â«GoogleÂ»). Google Maps ist ein Webdienst zur Darstellung von interaktiven (Land-)Karten, um geographische Informationen visuell darzustellen. Ãber die Nutzung dieses Dienstes wird Ihnen unser Standort angezeigt und eine etwaige Anfahrt erleichtert. Bereits beim Aufrufen derjenigen Unterseiten, in die die Karte von Google Maps eingebunden ist, werden Informationen Ã¼ber Ihre Nutzung unserer Website (wie z.B. Ihre IP-Adresse) an Server von Google in den USA Ã¼bertragen und dort gespeichert. Dies erfolgt unabhÃ¤ngig davon, ob Google ein Nutzerkonto bereitstellt, Ã¼ber das Sie eingeloggt sind, oder ob kein Nutzerkonto besteht. Wenn Sie bei Google eingeloggt sind, werden Ihre Daten direkt Ihrem Konto zugeordnet. Wenn Sie die Zuordnung mit Ihrem Profil bei Google nicht wÃ¼nschen, mÃ¼ssen Sie sich vor Aktivierung des Buttons ausloggen. Google speichert Ihre Daten (selbst fÃ¼r nicht eingeloggte Nutzer) als Nutzungsprofile und wertet diese aus.\nFÃ¼r DatenÃ¼bermittlungen in die USA hat sich Google verpflichtet, die EU-Standardvertragsklauseln zu unterzeichnen und einzuhalten.\n6.3 Social Media Plugins\nAuf unserer Webseite werden sogenannte Social Media Plugins (Â«PluginsÂ») von Drittanbietern verwendet. Die Plugins sind anhand des Logos des jeweiligen sozialen Netzwerks erkennbar. Ãber die Plugins bieten wir Ihnen die MÃ¶glichkeit, mit den sozialen Netzwerken und anderen Nutzern zu interagieren. Wir setzen auf unserer Webseite folgende Plugins ein: LinkedIn, Infoniqa (Sage Schweiz AG), Abacus Business Software, bexio und Dr. Tax Software. Wenn Sie unsere Webseite aufrufen, stellt Ihr Browser eine direkte Verbindung zu den Servern des Drittanbieters her. Der Inhalt des Plugins (z.B. YouTube Videos) wird vom jeweiligen Drittanbieter direkt an Ihren Browser Ã¼bermittelt und in die Seite eingebunden.\nDie Datenweitergabe zur Anzeige von Inhalten erfolgt unabhÃ¤ngig davon, ob Sie ein Konto bei Drittanbieter besitzen und dort eingeloggt sind. Wenn Sie beim Drittanbieter eingeloggt sind, werden Ihre bei uns erhobenen Daten zudem direkt Ihrem beim Drittanbieter bestehenden Konto zugeordnet. Wenn Sie die Plugins aktivieren, werden die Informationen ausserdem in dem sozialen Netzwerk verÃ¶ffentlicht und dort Ihren Kontakten angezeigt. Zweck und Umfang der Datenerhebung und die weitere Bearbeitung und Nutzung der Daten durch die Drittanbieter sowie Ihre diesbezÃ¼glichen Rechte und EinstellungsmÃ¶glichkeiten zum Schutz Ihrer PrivatsphÃ¤re entnehmen Sie bitte den Daten-schutzhinweisen der Drittanbieter. Der Drittanbieter speichert die Ã¼ber Sie erhobenen Daten als Nutzungsprofile und nutzt diese fÃ¼r Zwecke der Werbung, Marktforschung und/oder bedarfsgerechten Gestaltung seiner Website. Eine solche Auswertung erfolgt insbesondere auch fÃ¼r nicht eingeloggte Nutzer zur Darstellung von bedarfsgerechter Werbung und um andere Nutzer des sozialen Netzwerks Ã¼ber Ihre AktivitÃ¤ten auf unserer Website zu informieren. Wenn Sie verhindern mÃ¶chten, dass die Drittanbieter die Ã¼ber unseren Webauftritt gesammelten Daten nicht Ihrem persÃ¶nlichen Profil in dem jeweiligen sozialen Netzwerk zuordnen, mÃ¼ssen Sie sich vor ihrem Besuch unserer Webseite beim entsprechenden sozialen Netzwerk ausloggen. Sie kÃ¶nnen das Laden der Plugins auch mit spezialisierten Add-Ons fÃ¼r Ihren Browser wie beispielsweise Â«GhosteryÂ» (\nhttps://www.ghostery.com/\n) oder Â«NoScriptÂ» (\nhttp://noscript.net/\n) komplett verhindern.\n7. Datenweitergabe und DatenÃ¼bermittlung\nWir geben Ihre Daten nur an Dritte weiter, wenn dies zur Erbringung unserer Leistung notwendig ist, wenn diese Dritten fÃ¼r uns eine Dienstleistung erbringen, wenn wir dazu gesetzlich oder behÃ¶rdlich verpflichtet sind oder wenn wir ein Ã¼berwiegendes Interesse an der Weitergabe der Personendaten haben. Wir werden Personendaten ebenfalls an Dritte weitergeben, wenn Sie dazu Ihre Einwilligung erteilt oder uns dazu aufgefordert haben.\nNicht alle Personendaten werden standardmÃ¤ssig verschlÃ¼sselt Ã¼bermittelt. Sofern nicht explizit mit dem Kunden anders vereinbart, werden Buchhaltungsdaten, Lohnadministrationsdaten, Lohnabrechnungen und -ausweise unverschlÃ¼sselt Ã¼bermittelt.\nFolgende Kategorien von EmpfÃ¤nger kÃ¶nnen Personendaten von uns erhalten:\nZweigniederlassungen, Tochter- oder Schwestergesellschaften\nDienstleister (z.B. IT-Dienstleister, Hosting-Provider, Lieferanten, Berater, RechtsanwÃ¤lte, Versicherungen).\nDritte im Rahmen unserer gesetzlichen oder vertraglichen Verpflichtungen, BehÃ¶rden, staatliche Einrichtungen, Gerichte.\nMit Dienstleistern, die in unserem Auftrag Personendaten bearbeiten, schliessen wir VertrÃ¤ge, die diese verpflichten, den Datenschutz zu gewÃ¤hrleisten. Unsere Dienstleister befinden sich mehrheitlich in der Schweiz oder in der EU / im EWR. Gewisse Personendaten kÃ¶nnen auch in die USA (z.B. Google Analytics-Daten) oder in AusnahmefÃ¤llen in andere LÃ¤nder weltweit Ã¼bermittelt werden. Sollte eine DatenÃ¼bermittlung in andere LÃ¤nder, die Ã¼ber kein angemessenes Datenschutzniveau verfÃ¼gen, erforderlich sein, erfolgt diese auf Basis der EU-Standardvertragsklauseln (z.B. im Falle von Google) oder anderer geeigneter Instrumente).\n8. Dauer der Aufbewahrung von Personendaten\nWir verarbeiten und speichern Ihre Personendaten, solange es fÃ¼r die ErfÃ¼llung unserer vertrag-lichen und gesetzlichen Pflichten oder sonst die mit der Bearbeitung verfolgten Zwecke erforder-lich ist, d.h. also zum Beispiel fÃ¼r die Dauer der gesamten GeschÃ¤ftsbeziehung (von der Anbah-nung, Abwicklung bis zur Beendigung eines Vertrags) sowie darÃ¼ber hinaus gemÃ¤ss den gesetz-lichen Aufbewahrungs- und Dokumentationspflichten. Dabei ist es mÃ¶glich, dass Personendaten fÃ¼r die Zeit aufbewahrt werden, in der AnsprÃ¼che gegen unser Unternehmen geltend gemacht werden kÃ¶nnen (d.h. insbesondere wÃ¤hrend der gesetzlichen VerjÃ¤hrungsfrist) und soweit wir anderweitig gesetzlich dazu verpflichtet sind oder berechtigte GeschÃ¤ftsinteressen dies erfordern (z.B. fÃ¼r Beweis- und Dokumentationszwecke). Sobald Ihre Personendaten fÃ¼r die oben genann-ten Zwecke nicht mehr erforderlich sind, werden sie grundsÃ¤tzlich und soweit mÃ¶glich gelÃ¶scht oder anonymisiert. FÃ¼r betriebliche Daten (z.B. Systemprotokolle, Logs) gelten grundsÃ¤tzliche kÃ¼rzere Aufbewahrungsfristen von zwÃ¶lf Monaten oder weniger.\n9. Datensicherheit\nWir treffen angemessene technische und organisatorische Sicherheitsvorkehrungen zum Schutz Ihrer Personendaten vor unberechtigtem Zugriff und Missbrauch wie etwa der Erlass von Wei-sungen, Schulungen, IT- und NetzwerksicherheitslÃ¶sungen, Zugangskontrollen und -beschrÃ¤nkungen, VerschlÃ¼sselung von DatentrÃ¤gern und Ãbermittlungen, Pseudonymisierung und Kontrollen.\n10. Pflicht zur Bereitstellung von Personendaten\nIm Rahmen unserer GeschÃ¤ftsbeziehung mÃ¼ssen Sie diejenigen Personendaten bereitstellen, die fÃ¼r die Aufnahme und DurchfÃ¼hrung einer GeschÃ¤ftsbeziehung und der ErfÃ¼llung der damit verbundenen vertraglichen Pflichten erforderlich sind (eine gesetzliche Pflicht, uns Daten bereit-zustellen, haben Sie in der Regel nicht). Ohne diese Daten werden wir nicht in der Lage sein, einen Vertrag mit Ihnen (oder der Stelle oder Person, die Sie vertreten,) zu schliessen oder diesen abzuwickeln. Auch die Website kann nicht genutzt werden, wenn gewisse Angaben zur Sicher-stellung des Datenverkehrs (wie z.B. IP-Adresse) nicht offengelegt werden.\n11. Ihre Rechte\nSie haben in diesem Zusammenhang mit unserer Bearbeitung von Personendaten die folgenden Rechte:\nRecht auf Auskunft Ã¼ber zu Ihnen bei uns gespeicherte Personendaten, den Zweck der Bearbeitung, die Herkunft sowie Ã¼ber EmpfÃ¤nger oder Kategorien von EmpfÃ¤ngern, an die Personendaten weitergegeben werden.\nRecht auf Berichtigung, falls Ihre Daten nicht korrekt oder nicht vollstÃ¤ndig sind.\nRecht auf EinschrÃ¤nkung der Bearbeitung Ihrer Personendaten\nRecht, die LÃ¶schung der bearbeiteten Personendaten zu verlangen\nRecht auf DatenÃ¼bertragbarkeit\nRecht einer Datenbearbeitung zu widersprechen oder eine Einwilligung zur Bearbeitung von Personendaten jederzeit ohne Angabe von GrÃ¼nden zu widerrufen.\nRecht auf Beschwerde an eine zustÃ¤ndige AufsichtsbehÃ¶rde, sofern rechtlich vorgesehen.\nUm diese Rechte geltend zu machen, wenden Sie sich an die unter Ziff. 1 angegebene Adresse.\nBitte beachten Sie aber, dass wir uns vorbehalten, unsererseits die gesetzlich vorgesehenen EinschrÃ¤nkungen geltend zu machen, etwa wenn wir zur Aufbewahrung oder Bearbeitung gewisser Daten verpflichtet sind, daran ein Ã¼berwiegendes Interesse haben (soweit wir uns darauf berufen dÃ¼rfen) oder sie fÃ¼r die Geltendmachung von AnsprÃ¼chen benÃ¶tigen. Falls Kosten fÃ¼r Sie anfallen, werden wir Sie vorab informieren.\n12. Ãnderung der DatenschutzerklÃ¤rung\nWir behalten uns die jederzeitige Ãnderung dieser DatenschutzerklÃ¤rung ausdrÃ¼cklich vor.\nLetzte Ãnderung: August 2023\nDie Interconsulta gewÃ¤hrleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\nAlle unsere Kunden werden persÃ¶nlich von einem der zwei geschÃ¤ftsfÃ¼hrenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut.\nSchlÃ¼ssel­wÃ¶rter\nWirtschaftsprÃ¼fungen\nWirtschaftsberatung\nSteuerberatung\nDienstleistungen\nHaupt­sitz\nInterconsulta\nRevisions- und Treuhand AG\nWir sind per 31.03.2025 umgezogen:\nWaaggasse 5 | 8001 ZÃ¼rich\nT\n+41 44 360 30 40\ninfo@interconsulta.ch\nHIER FINDEN SIE UNS\nZweig­nieder­lassung\nInterconsulta\nRevisions- und Treuhand AG\nSteinhauserstrasse 74 | CH-6300 Zug\nT\n+41 41 711 70 70\ninfo@interconsulta.ch\nCopyright Interconsulta Revisions- und Treuhand AG\n. Alle Rechte vorbehalten.\nIMPRESSUM\nDATENSCHUTZ\nScroll",
+      "text_len": 30710,
+      "links": [
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/interconsulta-revisions-und-treuhand-ag",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Datenschutz",
+          "href": "https://interconsulta.ch/datenschutz.html",
+          "internal": true
+        },
+        {
+          "text": "https://www.ghostery.com/",
+          "href": "https://www.ghostery.com/",
+          "internal": false
+        },
+        {
+          "text": "http://noscript.net/",
+          "href": "http://noscript.net/",
+          "internal": false
+        },
+        {
+          "text": "WirtschaftsprÃ¼fungen",
+          "href": "https://interconsulta.ch/angebot.html#wirtschaftspruefungen",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaftsberatung",
+          "href": "https://interconsulta.ch/angebot.html#wirtschaftsberatung",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://interconsulta.ch/angebot.html#steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://interconsulta.ch/angebot.html#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "HIER FINDEN SIE UNS",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "IMPRESSUM",
+          "href": "https://interconsulta.ch/impressum.html",
+          "internal": true
+        },
+        {
+          "text": "DATENSCHUTZ",
+          "href": "https://interconsulta.ch/datenschutz.html",
+          "internal": true
+        },
+        {
+          "text": "Scroll",
+          "href": "https://interconsulta.ch/datenschutz.html#top",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "./img/Interconsulta_frei.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        },
+        {
+          "src": "./img/Interconsulta_weiss.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@interconsulta.ch"
+      ],
+      "phones": [
+        "+41 41 711 70 70",
+        "+41 44 360 30 40"
+      ],
+      "raw_html": "raw_html/003__datenschutz.html"
+    },
+    {
+      "url": "https://interconsulta.ch/impressum.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Interconsulta | Impressum",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "description": "Hier finden Sie das Impressum der Interconsulta Revisions- und Treuhand AG in ZÃ¼rich.",
+        "author": "the-edge.ch",
+        "viewport": "initial-scale=1, maximum-scale=1, width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Impressum"
+        ],
+        "h2": [
+          "Informationen Ã¼ber den Verantwortlichen",
+          "Adresse",
+          "Telefon",
+          "E-Mail"
+        ],
+        "h6": [
+          "SchlÃ¼ssel­wÃ¶rter",
+          "Haupt­sitz",
+          "Zweig­nieder­lassung"
+        ]
+      },
+      "text": "Interconsulta | Impressum\n+41 44 360 30 40\ninfo@interconsulta.ch\nHome\nAngebot\nÃber uns\nKontakt\nOpen Menu\nAngebot\nÃber uns\nKontakt\nSie sind hier:\nImpressum\nImpressum\nInformationen zu unserem Unternehmen\nInformationen Ã¼ber den Verantwortlichen\nHinter dem Angebot von www.interconsulta.ch steht das Unternehmen Interconsulta Revisions- und Treuhand AG.\nAdresse\nInterconsulta Revisions- und Treuhand AG\nWaaggasse 5\n8001 ZÃ¼rich\nSchweiz\nTelefon\n+41 44 360 30 40\nE-Mail\ninfo@interconsulta.ch\nDie Interconsulta gewÃ¤hrleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\nAlle unsere Kunden werden persÃ¶nlich von einem der zwei geschÃ¤ftsfÃ¼hrenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut.\nSchlÃ¼ssel­wÃ¶rter\nWirtschaftsprÃ¼fungen\nWirtschaftsberatung\nSteuerberatung\nDienstleistungen\nHaupt­sitz\nInterconsulta\nRevisions- und Treuhand AG\nWir sind per 31.03.2025 umgezogen:\nWaaggasse 5 | 8001 ZÃ¼rich\nT\n+41 44 360 30 40\ninfo@interconsulta.ch\nHIER FINDEN SIE UNS\nZweig­nieder­lassung\nInterconsulta\nRevisions- und Treuhand AG\nSteinhauserstrasse 74 | CH-6300 Zug\nT\n+41 41 711 70 70\ninfo@interconsulta.ch\nCopyright Interconsulta Revisions- und Treuhand AG\n. Alle Rechte vorbehalten.\nIMPRESSUM\nDATENSCHUTZ\nScroll",
+      "text_len": 1272,
+      "links": [
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/interconsulta-revisions-und-treuhand-ag",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Impressum",
+          "href": "https://interconsulta.ch/impressum.html",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "WirtschaftsprÃ¼fungen",
+          "href": "https://interconsulta.ch/angebot.html#wirtschaftspruefungen",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaftsberatung",
+          "href": "https://interconsulta.ch/angebot.html#wirtschaftsberatung",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://interconsulta.ch/angebot.html#steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://interconsulta.ch/angebot.html#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "HIER FINDEN SIE UNS",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "IMPRESSUM",
+          "href": "https://interconsulta.ch/impressum.html",
+          "internal": true
+        },
+        {
+          "text": "DATENSCHUTZ",
+          "href": "https://interconsulta.ch/datenschutz.html",
+          "internal": true
+        },
+        {
+          "text": "Scroll",
+          "href": "https://interconsulta.ch/impressum.html#top",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "./img/Interconsulta_frei.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        },
+        {
+          "src": "./img/Interconsulta_weiss.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@interconsulta.ch"
+      ],
+      "phones": [
+        "+41 41 711 70 70",
+        "+41 44 360 30 40"
+      ],
+      "raw_html": "raw_html/004__impressum.html"
+    },
+    {
+      "url": "https://interconsulta.ch/kontakt.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Interconsulta | Kontakt",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "description": "Unser professionelles Team ist jeden Tag vom 08.00 bis 17.00 Uhr fÃ¼r Sie da. Bitte zÃ¶gern Sie nicht, uns zu kontaktieren, wenn Sie Fragen, Probleme oder VorschlÃ¤ge haben. Wir wÃ¼rden gerne von Ihnen hÃ¶ren.",
+        "author": "the-edge.ch",
+        "viewport": "initial-scale=1, maximum-scale=1, width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Damit wir uns treffen"
+        ],
+        "h2": [
+          "Senden Sie uns eine Nachricht",
+          "Hier finden Sie uns"
+        ],
+        "h6": [
+          "SchlÃ¼ssel­wÃ¶rter",
+          "Haupt­sitz",
+          "Zweig­nieder­lassung"
+        ]
+      },
+      "text": "Interconsulta | Kontakt\n+41 44 360 30 40\ninfo@interconsulta.ch\nHome\nAngebot\nÃber uns\nKontakt\nStellen\nOpen Menu\nAngebot\nÃber uns\nKontakt\nStellen\nSie sind hier:\nKontakt\nDamit wir uns treffen\nUnser professionelles Team ist jeden Tag vom 08.00 bis 17.00 Uhr fÃ¼r Sie da. Bitte zÃ¶gern Sie nicht, uns zu kontaktieren, wenn Sie Fragen, Probleme oder VorschlÃ¤ge haben. Wir wÃ¼rden gerne von Ihnen hÃ¶ren.\nSie kÃ¶nnen uns per E-Mail erreichen, indem Sie das Formular hier ausfÃ¼llen, oder rufen Sie uns einfach an um einen Termin zu vereinbaren, damit wir Sie persÃ¶nlich treffen kÃ¶nnen.\nWaaggasse 5, 8001 ZÃ¼rich\nT\n+41 44 360 30 40\nSenden Sie uns eine Nachricht\n*\nName:\n*\nTelefon:\n*\nEmail:\n*\nNachricht:\nHier finden Sie uns\nDie Interconsulta gewÃ¤hrleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\nAlle unsere Kunden werden persÃ¶nlich von einem der zwei geschÃ¤ftsfÃ¼hrenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut.\nSchlÃ¼ssel­wÃ¶rter\nWirtschaftsprÃ¼fungen\nWirtschaftsberatung\nSteuerberatung\nDienstleistungen\nHaupt­sitz\nInterconsulta\nRevisions- und Treuhand AG\nWir sind per 31.03.2025 umgezogen:\nWaaggasse 5 | 8001 ZÃ¼rich\nT\n+41 44 360 30 40\ninfo@interconsulta.ch\nHIER FINDEN SIE UNS\nZweig­nieder­lassung\nInterconsulta\nRevisions- und Treuhand AG\nSteinhauserstrasse 74 | CH-6300 Zug\nT\n+41 41 711 70 70\ninfo@interconsulta.ch\nCopyright Interconsulta Revisions- und Treuhand AG\n. Alle Rechte vorbehalten.\nIMPRESSUM\nDATENSCHUTZ\nScroll",
+      "text_len": 1503,
+      "links": [
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/interconsulta-revisions-und-treuhand-ag",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Stellen",
+          "href": "https://interconsulta.ch/stellen.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Stellen",
+          "href": "https://interconsulta.ch/stellen.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fungen",
+          "href": "https://interconsulta.ch/angebot.html#wirtschaftspruefungen",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaftsberatung",
+          "href": "https://interconsulta.ch/angebot.html#wirtschaftsberatung",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://interconsulta.ch/angebot.html#steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://interconsulta.ch/angebot.html#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "HIER FINDEN SIE UNS",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "IMPRESSUM",
+          "href": "https://interconsulta.ch/impressum.html",
+          "internal": true
+        },
+        {
+          "text": "DATENSCHUTZ",
+          "href": "https://interconsulta.ch/datenschutz.html",
+          "internal": true
+        },
+        {
+          "text": "Scroll",
+          "href": "https://interconsulta.ch/kontakt.html#top",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "./img/Interconsulta_frei.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        },
+        {
+          "src": "./img/Interconsulta_weiss.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [
+        {
+          "action": "kontakt.php",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "name",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "phone",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "placeholder": null
+            },
+            {
+              "tag": "textarea",
+              "type": null,
+              "name": "message",
+              "placeholder": null
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": null,
+              "placeholder": null
+            }
+          ]
+        }
+      ],
+      "emails": [
+        "info@interconsulta.ch"
+      ],
+      "phones": [
+        "+41 41 711 70 70",
+        "+41 44 360 30 40"
+      ],
+      "raw_html": "raw_html/005__kontakt.html"
+    },
+    {
+      "url": "https://interconsulta.ch/team.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Interconsulta | Das Team mit der grossen Erfahrung",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "description": "Unser professionelles Team ist unser grÃ¶sster VermÃ¶genswert. Kommen Sie vorbei und lernen Sie uns kennen.",
+        "author": "the-edge.ch",
+        "viewport": "initial-scale=1, maximum-scale=1, width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Unser professionelles Team ist unser grÃ¶sster VermÃ¶genswert. Kommen Sie vorbei und lernen Sie uns kennen."
+        ],
+        "h2": [
+          "Eine Erfolgsgeschichte mit Tradition"
+        ],
+        "h6": [
+          "SchlÃ¼ssel­wÃ¶rter",
+          "Haupt­sitz",
+          "Zweig­nieder­lassung"
+        ]
+      },
+      "text": "Interconsulta | Das Team mit der grossen Erfahrung\n+41 44 360 30 40\ninfo@interconsulta.ch\nHome\nAngebot\nÃber uns\nKontakt\nStellen\nOpen Menu\nAngebot\nÃber uns\nKontakt\nStellen\nUnser\nprofessionelles Team ist unser grÃ¶sster VermÃ¶genswert.\nKommen Sie vorbei und lernen Sie uns kennen.\nSie sind hier:\nÃber uns\nEine\nErfolgsgeschichte\nmit Tradition\nIn einer Zeit, in der sich alles immer schneller zu drehen scheint, sind wir ein bestÃ¤ndiger Partner. Seit GrÃ¼ndung der Interconsulta im Jahre 1964 sind wir dennoch niemals stehen geblieben, sondern haben uns immer wieder neu erfunden und sind gemeinsam mit unseren Mandanten vorangeschritten. Der schÃ¶nste Beweis dafÃ¼r sind unsere Kunden, von denen uns einige seit Jahrzehnten und Ã¼ber mehrere Generationen hinweg die Treue halten.\nDie Interconsulta gewÃ¤hrleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\nAlle unsere Kunden werden persÃ¶nlich von einem der zwei geschÃ¤ftsfÃ¼hrenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut.\nSchlÃ¼ssel­wÃ¶rter\nWirtschaftsprÃ¼fungen\nWirtschaftsberatung\nSteuerberatung\nDienstleistungen\nHaupt­sitz\nInterconsulta\nRevisions- und Treuhand AG\nWir sind per 31.03.2025 umgezogen:\nWaaggasse 5 | 8001 ZÃ¼rich\nT\n+41 44 360 30 40\ninfo@interconsulta.ch\nHIER FINDEN SIE UNS\nZweig­nieder­lassung\nInterconsulta\nRevisions- und Treuhand AG\nSteinhauserstrasse 74 | CH-6300 Zug\nT\n+41 41 711 70 70\ninfo@interconsulta.ch\nCopyright Interconsulta Revisions- und Treuhand AG\n. Alle Rechte vorbehalten.\nIMPRESSUM\nDATENSCHUTZ\nScroll",
+      "text_len": 1564,
+      "links": [
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/interconsulta-revisions-und-treuhand-ag",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Stellen",
+          "href": "https://interconsulta.ch/stellen.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Stellen",
+          "href": "https://interconsulta.ch/stellen.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fungen",
+          "href": "https://interconsulta.ch/angebot.html#wirtschaftspruefungen",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaftsberatung",
+          "href": "https://interconsulta.ch/angebot.html#wirtschaftsberatung",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://interconsulta.ch/angebot.html#steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://interconsulta.ch/angebot.html#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "HIER FINDEN SIE UNS",
+          "href": "https://interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "IMPRESSUM",
+          "href": "https://interconsulta.ch/impressum.html",
+          "internal": true
+        },
+        {
+          "text": "DATENSCHUTZ",
+          "href": "https://interconsulta.ch/datenschutz.html",
+          "internal": true
+        },
+        {
+          "text": "Scroll",
+          "href": "https://interconsulta.ch/team.html#top",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "./img/Interconsulta_frei.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        },
+        {
+          "src": "./img/Interconsulta_weiss.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@interconsulta.ch"
+      ],
+      "phones": [
+        "+41 41 711 70 70",
+        "+41 44 360 30 40"
+      ],
+      "raw_html": "raw_html/006__team.html"
+    },
+    {
+      "url": "https://www.interconsulta.ch/stellen.html",
+      "status": 200,
+      "content_type": "text/html",
+      "title": "Interconsulta | Arbeiten bei Interconsulta",
+      "lang": "de",
+      "meta": {
+        "content-type": "text/html; charset=UTF-8",
+        "description": "Unser professionelles Team ist unser grÃ¶sster VermÃ¶genswert. Kommen Sie vorbei und lernen Sie uns kennen.",
+        "author": "the-edge.ch",
+        "viewport": "initial-scale=1, maximum-scale=1, width=device-width"
+      },
+      "canonical": null,
+      "headings": {
+        "h1": [
+          "Unser professionelles Team ist unser grÃ¶sster VermÃ¶genswert. Werden Sie ein Teil davon."
+        ],
+        "h2": [
+          "Aktuell sind keine Stellen bei uns offen. ."
+        ],
+        "h6": [
+          "SchlÃ¼ssel­wÃ¶rter",
+          "Haupt­sitz",
+          "Zweig­nieder­lassung"
+        ]
+      },
+      "text": "Interconsulta | Arbeiten bei Interconsulta\n+41 44 360 30 40\ninfo@interconsulta.ch\nHome\nAngebot\nÃber uns\nKontakt\nStellen\nOpen Menu\nAngebot\nÃber uns\nKontakt\nStellen\nUnser\nprofessionelles Team ist unser grÃ¶sster VermÃ¶genswert.\nWerden Sie ein Teil davon.\nSie sind hier:\nStellen\nAktuell sind\nkeine Stellen bei uns offen.\n.\nVielen Dank fÃ¼r das Interesse an unserem Unternehmen.\nDie Interconsulta gewÃ¤hrleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\nAlle unsere Kunden werden persÃ¶nlich von einem der zwei geschÃ¤ftsfÃ¼hrenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut.\nSchlÃ¼ssel­wÃ¶rter\nWirtschaftsprÃ¼fungen\nWirtschaftsberatung\nSteuerberatung\nDienstleistungen\nHaupt­sitz\nInterconsulta\nRevisions- und Treuhand AG\nWir sind per 31.03.2025 umgezogen:\nWaaggasse 5 | 8001 ZÃ¼rich\nT\n+41 44 360 30 40\ninfo@interconsulta.ch\nHIER FINDEN SIE UNS\nZweig­nieder­lassung\nInterconsulta\nRevisions- und Treuhand AG\nSteinhauserstrasse 74 | CH-6300 Zug\nT\n+41 41 711 70 70\ninfo@interconsulta.ch\nCopyright Interconsulta Revisions- und Treuhand AG\n. Alle Rechte vorbehalten.\nIMPRESSUM\nDATENSCHUTZ\nScroll",
+      "text_len": 1160,
+      "links": [
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/interconsulta-revisions-und-treuhand-ag",
+          "internal": false
+        },
+        {
+          "text": "",
+          "href": "https://www.interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Home",
+          "href": "https://www.interconsulta.ch/index.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://www.interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Stellen",
+          "href": "https://www.interconsulta.ch/stellen.html",
+          "internal": true
+        },
+        {
+          "text": "Angebot",
+          "href": "https://www.interconsulta.ch/angebot.html",
+          "internal": true
+        },
+        {
+          "text": "Ãber uns",
+          "href": "https://www.interconsulta.ch/team.html",
+          "internal": true
+        },
+        {
+          "text": "Kontakt",
+          "href": "https://www.interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "Stellen",
+          "href": "https://www.interconsulta.ch/stellen.html",
+          "internal": true
+        },
+        {
+          "text": "Stellen",
+          "href": "https://www.interconsulta.ch/stellen.html",
+          "internal": true
+        },
+        {
+          "text": "WirtschaftsprÃ¼fungen",
+          "href": "https://www.interconsulta.ch/angebot.html#wirtschaftspruefungen",
+          "internal": true
+        },
+        {
+          "text": "Wirtschaftsberatung",
+          "href": "https://www.interconsulta.ch/angebot.html#wirtschaftsberatung",
+          "internal": true
+        },
+        {
+          "text": "Steuerberatung",
+          "href": "https://www.interconsulta.ch/angebot.html#steuerberatung",
+          "internal": true
+        },
+        {
+          "text": "Dienstleistungen",
+          "href": "https://www.interconsulta.ch/angebot.html#dienstleistungen",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "HIER FINDEN SIE UNS",
+          "href": "https://www.interconsulta.ch/kontakt.html",
+          "internal": true
+        },
+        {
+          "text": "info@interconsulta.ch",
+          "href": "mailto:info@interconsulta.ch",
+          "internal": false
+        },
+        {
+          "text": "IMPRESSUM",
+          "href": "https://www.interconsulta.ch/impressum.html",
+          "internal": true
+        },
+        {
+          "text": "DATENSCHUTZ",
+          "href": "https://www.interconsulta.ch/datenschutz.html",
+          "internal": true
+        },
+        {
+          "text": "Scroll",
+          "href": "https://www.interconsulta.ch/stellen.html#top",
+          "internal": true
+        }
+      ],
+      "images": [
+        {
+          "src": "./img/Interconsulta_frei.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        },
+        {
+          "src": "./img/Interconsulta_weiss.png",
+          "alt": "Interconsulta Logo",
+          "title": "Interconsulta Logo"
+        }
+      ],
+      "jsonld": [],
+      "tables": [],
+      "forms": [],
+      "emails": [
+        "info@interconsulta.ch"
+      ],
+      "phones": [
+        "+41 41 711 70 70",
+        "+41 44 360 30 40"
+      ],
+      "raw_html": "raw_html/007__stellen.html"
+    }
+  ]
+}
