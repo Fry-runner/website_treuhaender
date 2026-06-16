@@ -12,6 +12,7 @@ import { HeroSplit } from "../structures/HeroSplit";
 import { HeroCentered } from "../structures/HeroCentered";
 import { HeroTextLeft } from "../structures/HeroTextLeft";
 import { HeroGradient } from "../structures/HeroGradient";
+import { HeroImageCentered, HeroImageSplit, HeroImageFull } from "../structures/HeroImage";
 import { Services } from "../structures/Services";
 import { ServicesBordered } from "../structures/ServicesBordered";
 import { CtaBand } from "../structures/CtaBand";
@@ -33,16 +34,24 @@ export const heroVariants: VariantDef<HeroContent>[] = [
   { id: "hero/centered",  component: HeroCentered, looks: ["soft", "swiss"],              note: "centered benefit + in-hero rating badge" },
   { id: "hero/text-left", component: HeroTextLeft, looks: ["swiss", "warm", "editorial"], note: "type-only, left-aligned on tinted band" },
   { id: "hero/gradient",  component: HeroGradient, looks: ["soft", "swiss"],              note: "premium animated mesh-gradient (Stripe/Vercel pattern)" },
+  { id: "hero/image-centered", component: HeroImageCentered, looks: ["soft", "swiss", "warm"], note: "centered text over textured image bg" },
+  { id: "hero/image-split",    component: HeroImageSplit,    looks: ["editorial", "warm", "soft"], note: "text left + vivid image block right" },
+  { id: "hero/image-full",     component: HeroImageFull,     looks: ["soft", "swiss"],            note: "full-bleed image + scrim, light text" },
 ];
 
 /** Primary-button looks (rendered via PrimaryStyle context). */
 export interface StyleVariant { id: PrimaryStyle; looks: StyleAffinity[]; }
 export const primaryStyleVariants: StyleVariant[] = [
-  { id: "solid", looks: ["any"] },
-  { id: "sharp", looks: ["swiss", "warm"] },
-  { id: "pill",  looks: ["soft"] },
-  { id: "bloom", looks: ["soft"] },
-  { id: "mono",  looks: ["editorial", "swiss", "warm"] },
+  { id: "solid",    looks: ["any"] },
+  { id: "sharp",    looks: ["swiss", "warm"] },
+  { id: "pill",     looks: ["soft"] },
+  { id: "bloom",    looks: ["soft"] },
+  { id: "mono",     looks: ["editorial", "swiss", "warm"] },
+  { id: "gradient", looks: ["soft", "swiss"] },
+  { id: "soft",     looks: ["soft", "warm"] },
+  { id: "ghost",    looks: ["editorial", "warm", "swiss"] },
+  { id: "bordered", looks: ["editorial", "swiss"] },
+  { id: "link",     looks: ["editorial", "warm"] },
 ];
 
 /** Section-level variants — multiple structures per slot, picked by affinity.

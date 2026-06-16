@@ -55,7 +55,9 @@ export const Lede: React.FC<Div> = ({ children, style }) => (
 
 /** The primary-button look, chosen per firm and supplied via context so every
  *  Button across the page renders in the same style without prop-drilling. */
-export type PrimaryStyle = "solid" | "sharp" | "pill" | "bloom" | "mono";
+export type PrimaryStyle =
+  | "solid" | "sharp" | "pill" | "bloom" | "mono"
+  | "gradient" | "soft" | "ghost" | "bordered" | "link";
 const PrimaryStyleCtx = React.createContext<PrimaryStyle>("solid");
 export const PrimaryStyleProvider = PrimaryStyleCtx.Provider;
 export const usePrimaryStyle = () => React.useContext(PrimaryStyleCtx);
@@ -75,13 +77,19 @@ function primaryStyleProps(s: PrimaryStyle): React.CSSProperties {
   const base: React.CSSProperties = {
     background: "var(--ds-primary)", color: "var(--ds-primary-fg)", border: "1px solid var(--ds-primary)",
   };
+  const body = { textTransform: "none" as const, letterSpacing: "0.01em", fontFamily: "var(--ds-font-body)" };
   switch (s) {
-    case "sharp": return { ...base, borderRadius: 0, boxShadow: "none", letterSpacing: "0.1em" };
-    case "pill":  return { ...base, borderRadius: "9999px", boxShadow: "var(--ds-shadow-card)", textTransform: "none", letterSpacing: "0.01em", fontFamily: "var(--ds-font-body)" };
-    case "bloom": return { ...base, borderRadius: "9999px", boxShadow: "0 12px 32px -8px var(--ds-primary)", textTransform: "none", letterSpacing: "0.01em", fontFamily: "var(--ds-font-body)" };
-    case "mono":  return { ...base, borderRadius: "var(--ds-radius)", boxShadow: "none", letterSpacing: "0.16em" };
+    case "sharp":    return { ...base, borderRadius: 0, boxShadow: "none", letterSpacing: "0.1em" };
+    case "pill":     return { ...base, borderRadius: "9999px", boxShadow: "var(--ds-shadow-card)", ...body };
+    case "bloom":    return { ...base, borderRadius: "9999px", boxShadow: "0 12px 32px -8px var(--ds-primary)", ...body };
+    case "mono":     return { ...base, borderRadius: "var(--ds-radius)", boxShadow: "none", letterSpacing: "0.16em" };
+    case "gradient": return { ...base, borderRadius: "var(--ds-radius)", border: "none", backgroundImage: "linear-gradient(120deg, var(--ds-primary), var(--ds-secondary))", boxShadow: "var(--ds-shadow-card)", ...body };
+    case "soft":     return { ...base, borderRadius: "0.85rem", boxShadow: "0 14px 34px -12px var(--ds-primary)", ...body };
+    case "ghost":    return { ...base, background: "var(--ds-primary-soft)", color: "var(--ds-primary)", border: "1px solid transparent", borderRadius: "var(--ds-radius)", boxShadow: "none", ...body };
+    case "bordered": return { ...base, background: "transparent", color: "var(--ds-primary)", border: "1px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", boxShadow: "none" };
+    case "link":     return { ...base, background: "transparent", color: "var(--ds-primary)", border: "none", borderRadius: 0, boxShadow: "none", padding: "0.4rem 0", borderBottom: "2px solid var(--ds-primary)", ...body };
     case "solid":
-    default:      return { ...base, borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)" };
+    default:         return { ...base, borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)" };
   }
 }
 
