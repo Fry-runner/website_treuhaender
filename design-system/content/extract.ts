@@ -93,6 +93,104 @@ function pickHeroImage(): string | undefined {
 }
 const heroImage = pickHeroImage();
 
+// --- real team members (names + roles from the team/about page, photos matched
+//     from the scraped assets by surname/initials). Falls back to scaffold. ---
+const norm = (s: string) => (s || "").toLowerCase().replace(/^https?:\/\/[^/]+/, "").replace(/^\.?\//, "").replace(/[?#].*$/, "");
+function manifestFileFor(src: string): string | undefined {
+  const manifest: any[] = site.assets?.manifest || [];
+  const t = norm(src);
+  if (!t) return undefined;
+  const hit = manifest.find((a) => a.ok && a.file && norm(a.url || "") === t)
+    || manifest.find((a) => a.ok && a.file && norm(a.url || "").endsWith(t))
+    || manifest.find((a) => a.ok && a.file && norm(a.url || "").split("/").pop() === t.split("/").pop());
+  return hit?.file;
+}
+function roleBio(role: string): string {
+  const r = role.toLowerCase();
+  if (/ceo|gesch[äa]ft|inhaber|gr[üu]nder|partner|leitung|leiter|direktor/.test(r))
+    return "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.";
+  if (/lohn|payroll|personal|administ/.test(r))
+    return "Kümmert sich um Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig und termingerecht.";
+  if (/revis|pr[üu]f|audit/.test(r))
+    return "Zugelassene Fachperson für eingeschränkte und ordentliche Revision sowie prüfungssichere Abschlüsse.";
+  if (/steuer/.test(r))
+    return "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden.";
+  if (/buchhalt|finanz|rechnungswesen|treuh/.test(r))
+    return "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.";
+  return "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.";
+}
+const NAME_RE = /^([A-ZÄÖÜ][a-zäöüéèàç]+)(?:\s+(?:[A-ZÄÖÜ]\.|[A-ZÄÖÜ][a-zäöüéèàç]+)){1,2}$/;
+// section headers / nav labels that look like a "First Last" pair but aren't people
+const NAME_STOP = new Set(["unsere", "unser", "ihre", "ihr", "weitere", "alle", "mehr", "extra", "unternehmen", "dienstleistungen", "dienstleistung", "kontakt", "team", "publikationen", "mitgliedschaften", "startseite", "aktuelles", "leistungen", "über", "ueber", "about", "services", "willkommen", "herzlich", "news", "blog", "standort", "öffnungszeiten", "oeffnungszeiten", "impressum", "datenschutz", "downloads", "links", "home", "english", "deutsch", "français", "francais"]);
+const isPersonName = (nm: string) => {
+  if (!NAME_RE.test(nm)) return false;
+  const parts = nm.replace(/\./g, "").split(/\s+/).map((w) => w.toLowerCase());
+  return !parts.some((w) => NAME_STOP.has(w));
+};
+const ROLE_HINT = /(treuh|steuer|experte|expertin|berater|leiter|leitung|ceo|cfo|coo|gesch[äa]ft|fachfrau|fachmann|finanz|rechnungswesen|partner|inhaber|gr[üu]nder|direktor|assistent|mandatsleiter|buchhalt|revisor|wirtschaftspr[üu]f|dipl|lehrling|sachbearbeit)/i;
+function teamMembers() {
+  const teamPage = pages.find((p) => /\/(team|ueber-uns|ueber|about|wir-?ueber|mitarbeit)/i.test(p.url || "") && !/\/en\//i.test(p.url || ""))
+    || pages.find((p) => /\/(team|ueber|about|mitarbeit)/i.test(p.url || ""));
+  if (!teamPage) return undefined;
+
+  // 1) (name, role) pairs from the page text — a name line followed by a role line.
+  const lines = fixEncoding(teamPage.text || "").split(/\n+/).map((l) => l.trim()).filter(Boolean);
+  const found: { name: string; role: string }[] = [];
+  for (let i = 0; i < lines.length - 1; i++) {
+    const nm = lines[i];
+    if (!isPersonName(nm)) continue;
+    if (firm.toLowerCase().includes(nm.toLowerCase())) continue; // skip firm/brand
+    const next = lines[i + 1];
+    if (!(next.length < 80 && ROLE_HINT.test(next))) continue;
+    if (found.some((f) => f.name.toLowerCase() === nm.toLowerCase())) continue;
+    found.push({ name: nm, role: next });
+  }
+  if (!found.length) return undefined;
+
+  // 2) candidate portrait images (team page first, then home), with alt text.
+  const imgPool: { src: string; alt: string }[] = [];
+  for (const p of [teamPage, home]) {
+    for (const im of (p.images || [])) {
+      const src = typeof im === "string" ? im : im?.src;
+      if (!src || /logo|icon|favicon|sprite|placeholder|transparent|banner|map/i.test(src)) continue;
+      imgPool.push({ src, alt: fixEncoding((typeof im === "string" ? "" : im?.alt) || "") });
+    }
+  }
+  const base = (s: string) => (s.split("/").pop() || "").toLowerCase();
+
+  // 3) copy + match a photo per member (alt-surname > file-surname > initials).
+  const destDir = join(import.meta.dirname, "..", "public", "images", slug, "team");
+  let madeDir = false;
+  const members = found.slice(0, 6).map((m, idx) => {
+    const parts = m.name.replace(/\./g, "").split(/\s+/).filter(Boolean);
+    const first = parts[0].toLowerCase();
+    const surname = parts[parts.length - 1].toLowerCase();
+    const init2 = (parts[0][0] + (parts[parts.length - 1][0] || "")).toLowerCase();
+    const initials = (parts[0][0] + (parts.length > 1 ? parts[parts.length - 1][0] : "")).toUpperCase();
+    const pick = imgPool.find((g) => g.alt && g.alt.toLowerCase().includes(surname))
+      || imgPool.find((g) => base(g.src).includes(surname))
+      || imgPool.find((g) => new RegExp(`(^|[_\\-/])${init2}([_\\-.]|$)`).test(base(g.src)))
+      || imgPool.find((g) => new RegExp(`(^|[_\\-/])${surname[0]}([_\\-.])`).test(base(g.src)) && (g.alt || "").toLowerCase().includes(first));
+    let photo: string | undefined;
+    if (pick) {
+      const file = manifestFileFor(pick.src);
+      if (file) {
+        const srcPath = join(ROOT, "scraper", "output", slug, file);
+        if (existsSync(srcPath)) {
+          const ext = (file.match(/\.(jpe?g|png|webp)$/i) || [".jpg"])[0];
+          if (!madeDir) { mkdirSync(destDir, { recursive: true }); madeDir = true; }
+          const fn = `${idx}-${surname}${ext}`;
+          copyFileSync(srcPath, join(destDir, fn));
+          photo = `/images/${slug}/team/${fn}`;
+        }
+      }
+    }
+    return { name: m.name, role: m.role, initials, bio: roleBio(m.role), photo };
+  });
+  return members;
+}
+const realTeam = teamMembers();
+
 const h1: string = fixEncoding((home.headings?.h1 || [])[0] || "");
 const desc: string = fixEncoding(home.meta?.description || "");
 const heroHeadlineReal = h1 && h1.length > 8 && h1.length < 90 && h1.toLowerCase() !== firm.toLowerCase();
@@ -119,10 +217,12 @@ const content: SiteContent = {
     firm, domain: site.domain, archetype: arch, lookId, sourceUrl: site.start_url,
     // honest provenance — what's real vs scaffolded:
     // @ts-expect-error extra diagnostic field
-    placeholders: ["hero.aside", "testimonials", "values", "stats", "faq", "footer.tagline"],
+    placeholders: ["hero.aside", "testimonials", "values", "stats", "faq", "footer.tagline", "team.bios"],
     // @ts-expect-error extra diagnostic field
     real: ["meta.firm", "meta.domain", "contact.email", "contact.phone", "nav.languages",
-      "trust.items", heroHeadlineReal ? "hero.headline" : null, ledeReal ? "hero.lede" : null].filter(Boolean),
+      "trust.items", heroHeadlineReal ? "hero.headline" : null, ledeReal ? "hero.lede" : null,
+      realTeam && realTeam.length ? "team.members" : null,
+      realTeam && realTeam.some((m) => m.photo) ? "team.photos" : null].filter(Boolean),
   },
   nav: {
     brand: firm,
@@ -144,7 +244,7 @@ const content: SiteContent = {
   values: { eyebrow: "Warum wir", heading: "Ihr Vorteil.", items: whyUsPillars.map((p) => ({ title: p.title, body: p.body })) },
   team: {
     eyebrow: "Team", heading: "Menschen, die Ihre Zahlen kennen.",
-    members: [
+    members: realTeam && realTeam.length ? realTeam : [
       { name: `${firm.split(" ")[0]} Team`, role: "Geschäftsführung", initials: firm.slice(0, 2).toUpperCase(), bio: "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU." },
       { name: "Mandatsleitung", role: "Treuhand & Steuern", initials: "ML", bio: "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate." },
       { name: "Kundenbetreuung", role: "Lohn & Administration", initials: "KB", bio: "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration." },

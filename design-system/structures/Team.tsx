@@ -11,8 +11,8 @@ export const Team: React.FC<{ content: TeamContent; more?: MoreLink }> = ({ cont
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.2rem" }}>
         {content.members.map((m, i) => (
           <div key={i} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", overflow: "hidden", display: "flex", flexDirection: "column" }}>
-            <div style={{ height: "9rem", background: "var(--ds-primary-soft)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <span style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "2rem", color: "var(--ds-primary)" }}>{m.initials}</span>
+            <div style={{ height: "13rem", background: "var(--ds-primary-soft)", display: "flex", alignItems: "center", justifyContent: "center", ...(m.photo ? { backgroundImage: `url("${m.photo}")`, backgroundSize: "cover", backgroundPosition: "center top" } : {}) }}>
+              {!m.photo && <span style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "2rem", color: "var(--ds-primary)" }}>{m.initials}</span>}
             </div>
             <div style={{ padding: "1.2rem", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
               <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.1rem", color: "var(--ds-text)", margin: 0 }}>{m.name}</h3>

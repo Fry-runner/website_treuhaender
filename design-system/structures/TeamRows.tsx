@@ -11,7 +11,7 @@ export const TeamRows: React.FC<{ content: TeamContent; more?: MoreLink }> = ({ 
       <div style={{ display: "flex", flexDirection: "column" }}>
         {content.members.map((m, i) => (
           <div key={i} style={{ display: "flex", gap: "1.4rem", alignItems: "flex-start", padding: "1.4rem 0", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
-            <div style={{ width: "3.5rem", height: "3.5rem", flexShrink: 0, borderRadius: "var(--ds-radius)", background: "var(--ds-primary-soft)", color: "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--ds-font-heading)", fontWeight: 700 }}>{m.initials}</div>
+            <div style={{ width: "3.5rem", height: "3.5rem", flexShrink: 0, borderRadius: "var(--ds-radius)", background: "var(--ds-primary-soft)", color: "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--ds-font-heading)", fontWeight: 700, overflow: "hidden", ...(m.photo ? { backgroundImage: `url("${m.photo}")`, backgroundSize: "cover", backgroundPosition: "center top" } : {}) }}>{m.photo ? "" : m.initials}</div>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.25rem" }}>
               <div style={{ display: "flex", gap: "0.7rem", alignItems: "baseline", flexWrap: "wrap" }}>
                 <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.05rem", color: "var(--ds-text)", margin: 0 }}>{m.name}</h3>

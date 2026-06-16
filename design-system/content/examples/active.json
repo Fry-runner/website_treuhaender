@@ -11,7 +11,8 @@
       "values",
       "stats",
       "faq",
-      "footer.tagline"
+      "footer.tagline",
+      "team.bios"
     ],
     "real": [
       "meta.firm",
@@ -20,7 +21,9 @@
       "contact.phone",
       "nav.languages",
       "trust.items",
-      "hero.lede"
+      "hero.lede",
+      "team.members",
+      "team.photos"
     ]
   },
   "nav": {
@@ -159,22 +162,25 @@
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
       {
-        "name": "STM Team",
-        "role": "Geschäftsführung",
-        "initials": "ST",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+        "name": "Peter Mettler",
+        "role": "CEO | eidg. dipl. Steuerexperte",
+        "initials": "PM",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/stmtreuhand-ch/team/0-mettler.jpg"
       },
       {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+        "name": "Olivia Steinmeier",
+        "role": "Treuhänderin FA",
+        "initials": "OS",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/stmtreuhand-ch/team/1-steinmeier.jpg"
       },
       {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+        "name": "Deborah Weber",
+        "role": "Fachfrau im Finanz- und Rechnungswesen FA",
+        "initials": "DW",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/stmtreuhand-ch/team/2-weber.jpg"
       }
     ]
   },

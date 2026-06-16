@@ -14,7 +14,7 @@ export interface NavContent { brand: string; links: NavLink[]; cta: string; lang
 export interface ServiceItem { title: string; summary: string; price?: string; body?: string; bullets?: string[]; }
 export interface ServicesContent { eyebrow: string; heading: string; items: ServiceItem[]; }
 
-export interface TeamMember { name: string; role: string; initials: string; bio: string; }
+export interface TeamMember { name: string; role: string; initials: string; bio: string; photo?: string; }
 export interface TeamContent { eyebrow: string; heading: string; members: TeamMember[]; }
 
 export interface PricingTier { name: string; price: string; period: string; features: string[]; recommended?: boolean; }
