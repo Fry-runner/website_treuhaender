@@ -18,23 +18,15 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "12-col asymmetric splits for hero/about/contact; 3–4 col card grids elsewhere",
-    "Generous whitespace (airy section padding) reads as confidence/premium",
-    "8px spacing grid; hairline rules instead of boxes where possible"
+  "visual": "Centered wrapper (max-w-7xl / 1200–1280px) with responsive gutter; inner max-w-4xl/3xl/2xl for text.",
+  "placement": "Wraps every section's content.",
+  "states": "n/a.",
+  "animation": "No intrinsic motion (wrapper only).",
+  "realWorld": [
+    "All built sites + references: 1200–1280px container"
   ],
-  "references": [
-    "Stripe — 8px grid + restraint",
-    "Pilot — pin-lines over boxes",
-    "Mercury — generous whitespace"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Centered max-w container.",
+    "editorial": "Narrower text measure for prose."
+  }
 }

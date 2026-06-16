@@ -19,23 +19,18 @@
   "entryIds": [
     "map.stylized"
   ],
-  "patterns": [
-    "Alternate light↔tinted section backgrounds for rhythm; each band full-bleed, content in a max-w container",
-    "Lead every section with an uppercase eyebrow label + one display H2",
-    "Anchor feature sections with ONE real product/credential visual rather than decorative stock"
+  "visual": "Decorative line-map (abstract CH/DE-CH SVG or a custom city street map) with animated location nodes/labels — coverage made tangible.",
+  "placement": "Inside the contact block or as a standalone coverage section for multi-location firms.",
+  "states": "Nodes pulse / tooltip on hover.",
+  "animation": "Location nodes pulse/ping continuously; routes draw on reveal; tooltip fades on node hover.",
+  "realWorld": [
+    "Nexova: interactive CH map, 8 cities (Bern, Basel, Zürich, …)",
+    "Rürup: abstract DE-CH SVG with animated nodes",
+    "UdS: custom Zürich line-map"
   ],
-  "references": [
-    "Pilot — warm↔cool bg spectrum",
-    "Linear/Vercel — one screenshot per section",
-    "Stripe — restrained section rhythm"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "swiss": "Abstract DE-CH SVG, signal nodes, sharp.",
+    "warm": "Hand-built Zürich street lines on paper.",
+    "any": "Text address fallback when single-location."
+  }
 }

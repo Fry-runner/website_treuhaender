@@ -14,23 +14,15 @@
   "priority": "optional",
   "discoveredIn": "scraped",
   "prevalence": "34% of scraped sites",
-  "patterns": [
-    "Alternate light↔tinted section backgrounds for rhythm; each band full-bleed, content in a max-w container",
-    "Lead every section with an uppercase eyebrow label + one display H2",
-    "Anchor feature sections with ONE real product/credential visual rather than decorative stock"
+  "visual": "Open-roles list or a 'we're hiring' recruiting CTA band.",
+  "placement": "Late page or linked from nav ('Offene Stellen').",
+  "states": "Role rows hover; CTA per button spec.",
+  "animation": "Role rows fade-up; hover highlight; CTA per button spec.",
+  "realWorld": [
+    "34% of scraped CH sites",
+    "aawi/PMPG: jobs/careers"
   ],
-  "references": [
-    "Pilot — warm↔cool bg spectrum",
-    "Linear/Vercel — one screenshot per section",
-    "Stripe — restrained section rhythm"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Roles list or hiring band."
+  }
 }

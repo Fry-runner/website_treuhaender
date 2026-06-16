@@ -14,18 +14,16 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "Small greyscale logo/credential card; equal sizing in a strip/grid"
+  "visual": "Small bordered card: category eyebrow, partner/cert name, short desc, status pill; or a plain greyscale logo cell.",
+  "placement": "Partners/trust grid; logo strips under hero or above footer.",
+  "states": "Greyscale→colour on hover.",
+  "animation": "Fade-in or marquee; greyscale→colour on hover ~200ms.",
+  "realWorld": [
+    "Run my Accounts: award/cert badges",
+    "CH: TREUHAND SUISSE / EXPERTsuisse / RAB + bexio/Abacus"
   ],
-  "references": [
-    "Vanta — compliance badges",
-    "Selma — press logos",
-    "bexio — partner logos"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Hairline card + key/value footer.",
+    "any": "Greyscale logo cell."
+  }
 }

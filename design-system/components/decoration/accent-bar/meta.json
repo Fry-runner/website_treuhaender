@@ -16,20 +16,16 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Short colored bar/underline under eyebrows or key words; single accent"
+  "visual": "Short coloured bar (w-16 h-1 / w-8 h-[2px]) under eyebrows/headings.",
+  "placement": "Directly beneath eyebrow labels and section headings.",
+  "states": "May grow width on reveal.",
+  "animation": "Grows width (scaleX 0→1) on reveal (~300ms ease-out).",
+  "realWorld": [
+    "Boost/Tureva/UdS: accent bars under eyebrows"
   ],
-  "references": [
-    "repo presets — eyebrow bars",
-    "Stripe — gradient underline accents"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Accent underline bar.",
+    "swiss": "Signal-colour bar.",
+    "soft": "Lime bar."
+  }
 }

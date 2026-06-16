@@ -14,22 +14,15 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "Interactive proof beats static copy: calculator / quiz / live demo near the top converts + adds the 'wow'",
-    "FAQ accordion + testimonial carousel as the standard objection-handling close"
+  "visual": "A ticking local-time display (setInterval).",
+  "placement": "Footer, as a locality cue.",
+  "states": "Updates every second.",
+  "animation": "Digits update every second (optional flip/cross-fade).",
+  "realWorld": [
+    "UdS: live Zürich time"
   ],
-  "references": [
-    "Wise — hero FX calculator",
-    "Digits — interactive product console hero",
-    "Betterment/Selma — FAQ accordion close"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "warm": "Mono Zürich clock.",
+    "any": "Mono local time."
+  }
 }

@@ -14,22 +14,14 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "Interactive proof beats static copy: calculator / quiz / live demo near the top converts + adds the 'wow'",
-    "FAQ accordion + testimonial carousel as the standard objection-handling close"
+  "visual": "A passive scroll observer that glows whichever CTA is nearest viewport-center.",
+  "placement": "Page-wide behaviour layered onto CTA buttons.",
+  "states": "Toggles an 'active/bloom' class as the user scrolls.",
+  "animation": "Passive observer toggles a bloom/active class as the nearest CTA enters viewport-centre (~300ms).",
+  "realWorld": [
+    "Tureva: nearest-CTA bloom highlighter"
   ],
-  "references": [
-    "Wise — hero FX calculator",
-    "Digits — interactive product console hero",
-    "Betterment/Selma — FAQ accordion close"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "soft": "Lime bloom on active CTA."
+  }
 }

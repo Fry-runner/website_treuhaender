@@ -14,20 +14,16 @@
   "priority": "optional",
   "discoveredIn": "scraped",
   "prevalence": "common alongside blog/news sites",
-  "patterns": [
-    "Minimal fields; mono uppercase labels; one solid primary submit",
-    "Reduce friction — inline email field in hero, or a calculator that captures intent before the form"
+  "visual": "Single email input + subscribe button (inline or footer).",
+  "placement": "Footer, or after the blog/insights section.",
+  "states": "Inline validation; success banner.",
+  "animation": "Field focus transition; submit → success swap; confirmation banner fades in.",
+  "realWorld": [
+    "Findea/Osome/Avalon: footer newsletter",
+    "common alongside blog/news"
   ],
-  "references": [
-    "Mercury — inline email in hero",
-    "Wise — calculator before signup",
-    "Betterment — short form + reassurance copy"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "soft-friendly",
-    "data-precise"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Email field + subscribe.",
+    "soft": "Rounded field, pill subscribe."
+  }
 }

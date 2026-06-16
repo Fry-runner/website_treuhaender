@@ -17,22 +17,18 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Text link + → that translates on hover; lowest-emphasis tertiary action",
-    "Common 'Read story' / 'Learn more' on cards"
+  "visual": "Text link, often mono uppercase, with a trailing ArrowRight and a thin bottom border; the arrow nudges right on hover.",
+  "placement": "Card footers ('Mehr erfahren →', 'Read More'), service tiles, and inline 'learn more' affordances throughout sections.",
+  "states": "Group-hover translates the arrow and may grow the underline.",
+  "animation": "Group-hover translates the arrow ~4px (200ms) and may grow the bottom border.",
+  "realWorld": [
+    "LPS Treuhand: underlined 'Learn more' text links instead of buttons",
+    "Pilot: arrow text-links repeated under features",
+    "London Accountants: 'Read More' on every service card"
   ],
-  "references": [
-    "Stripe — underlined text + →",
-    "Linear — → link secondary",
-    "Notion — text + → secondary"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Mono uppercase + arrow translate.",
+    "editorial": "Serif-adjacent, hairline underline.",
+    "warm": "Underline scales from left on hover."
+  }
 }

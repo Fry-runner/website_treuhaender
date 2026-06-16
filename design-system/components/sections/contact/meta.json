@@ -20,22 +20,19 @@
   "entryIds": [
     "contact.form-sidebar"
   ],
-  "patterns": [
-    "Form-left / office-info-right split; booking offered as the PRIMARY path, form as fallback",
-    "Office card: address, +41 phone (tel:), email (mailto:), hours; optional map"
+  "visual": "Form on one side (name/email/phone/service-select/message, mono uppercase labels, required *), office info cards (address, phone, hours) + map on the other. Booking is offered as the primary path, form as fallback.",
+  "placement": "Late page (slot 16), before footer. 12-col split (7/5 form+info, or 5/7 info+form); tabbed calendar/form variant for booking-led firms.",
+  "states": "Inline validation; success/error banners; field focus adopts accent border.",
+  "animation": "Form fields fade-up staggered; focus transitions border/ring 150ms; submit → spinner → success; banner slides + fades, auto-dismiss; map nodes pulse.",
+  "realWorld": [
+    "Tureva/UdS: 7/5 form + office directory",
+    "Boost: tabbed calendar/booking + form",
+    "Run my Accounts: dual path 'Grobofferte' + 'Gespräch'"
   ],
-  "references": [
-    "bexio/Selma — booking-first",
-    "Mercury — minimal inline capture",
-    "CH norm — office card + map"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Form + address/phone/hours cards + map.",
+    "soft": "Rounded inputs, pill submit, soft card.",
+    "warm": "Hairline inputs on paper, ink submit.",
+    "swiss": "Sharp inputs, signal submit, office cards + stylized map."
+  }
 }

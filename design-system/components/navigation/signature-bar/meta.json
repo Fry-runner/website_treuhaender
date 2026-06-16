@@ -15,23 +15,15 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "Sticky, translucent + backdrop-blur, hairline bottom border",
-    "logo-left · links-center · dual-CTA-right (text 'Login' + solid primary)",
-    "Persistent single primary CTA repeated in hero + final band"
+  "visual": "A thin (≈1.5px) full-width coloured bar fixed above the header — a quiet brand signature.",
+  "placement": "Very top of the page, above the nav.",
+  "states": "Static.",
+  "animation": "Static — or a one-time slide-in on first load.",
+  "realWorld": [
+    "UdS: ink-blue 1.5px signature bar"
   ],
-  "references": [
-    "bexio — sticky + Kostenlos testen",
-    "Stripe/Qonto — logo·menu·dual-CTA",
-    "Linear — Docs/Login/Sign up cluster"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "warm": "Ink-blue hairline bar.",
+    "editorial": "Navy hairline bar."
+  }
 }

@@ -16,22 +16,17 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "One signature graphic moment max (gradient OR illustration OR texture) on an otherwise restrained canvas",
-    "Texture/grid overlays at very low opacity (8–20%) add depth without noise"
+  "visual": "Animated rounded-full dot (ping) — availability/status indicator beside an eyebrow.",
+  "placement": "In hero eyebrows ('Jetzt verfügbar'), nav status.",
+  "states": "Pings/pulses continuously.",
+  "animation": "Continuous ping/pulse loop (scale + opacity, ~1.5–2s).",
+  "realWorld": [
+    "Rürup: pulse-dot hero badge",
+    "Boost/UdS: status dots"
   ],
-  "references": [
-    "Stripe/Digits — signature gradient",
-    "Gusto/Carta — illustration system",
-    "Pilot — ledger-grid texture @8–20%"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Pinging dot.",
+    "swiss": "Green availability ping.",
+    "soft": "Vibrant pulse."
+  }
 }

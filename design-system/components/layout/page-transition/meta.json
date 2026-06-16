@@ -17,23 +17,16 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "12-col asymmetric splits for hero/about/contact; 3–4 col card grids elsewhere",
-    "Generous whitespace (airy section padding) reads as confidence/premium",
-    "8px spacing grid; hairline rules instead of boxes where possible"
+  "visual": "View-switch + on-mount reveal animations (AnimatePresence, animate-fade-in).",
+  "placement": "Between routed views and on section reveal.",
+  "states": "Fade/slide on mount; cross-fade on view change.",
+  "animation": "Route/view change cross-fades or slides (AnimatePresence); on-mount animate-fade-in. soft = spring; warm = 200ms ease-out; editorial/swiss = 300ms standard.",
+  "realWorld": [
+    "All built sites: motion/react transitions"
   ],
-  "references": [
-    "Stripe — 8px grid + restraint",
-    "Pilot — pin-lines over boxes",
-    "Mercury — generous whitespace"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Fade/slide reveals.",
+    "soft": "Expressive spring.",
+    "warm": "Snappy ease-out."
+  }
 }

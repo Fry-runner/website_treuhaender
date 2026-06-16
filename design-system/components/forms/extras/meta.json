@@ -20,20 +20,15 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "Minimal fields; mono uppercase labels; one solid primary submit",
-    "Reduce friction — inline email field in hero, or a calculator that captures intent before the form"
+  "visual": "Supplementary fields/notes: newsletter checkbox, consent/DSGVO note, partner-select, booking fields.",
+  "placement": "Beneath the main fields; consent note near the submit.",
+  "states": "Checkbox toggles; consent required for submit.",
+  "animation": "Checkbox check-mark draws on toggle; consent note fades in.",
+  "realWorld": [
+    "All built sites: DSGVO/nDSG consent note",
+    "Findea/Osome: newsletter signup"
   ],
-  "references": [
-    "Mercury — inline email in hero",
-    "Wise — calculator before signup",
-    "Betterment — short form + reassurance copy"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "soft-friendly",
-    "data-precise"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Checkbox + small-print consent."
+  }
 }

@@ -14,19 +14,14 @@
   ],
   "priority": "optional",
   "notes": "Tied to a scroll observer that highlights nearest CTA.",
-  "patterns": [
-    "Colored glow/box-shadow bloom on the primary; one signature flourish only",
-    "Pairs with restrained everything-else to avoid gimmick"
+  "visual": "Rounded-full button that starts slightly faded and blooms to full colour with a coloured box-shadow glow when it becomes the active/nearest CTA.",
+  "placement": "Primary CTAs on soft/vibrant sites where a scroll observer highlights whichever CTA is nearest viewport-center.",
+  "states": "Scroll-driven: fades→full + glow when active; hover deepens the bloom.",
+  "animation": "Scroll-driven fade→full + coloured box-shadow bloom when it becomes the active/nearest CTA; hover deepens the glow (spring, soft only).",
+  "realWorld": [
+    "Tureva: .cta-btn-interactive lime bloom tied to scroll observer"
   ],
-  "references": [
-    "Digits — saturated green premium",
-    "Ramp — lime savings accent",
-    "Tureva (repo) — green bloom"
-  ],
-  "designLanguages": [
-    "soft-friendly",
-    "dark-premium",
-    "fintech-clean"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "soft": "Lime rounded-full, rgba bloom shadow."
+  }
 }

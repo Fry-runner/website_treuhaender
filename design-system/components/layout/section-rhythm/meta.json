@@ -18,22 +18,17 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Airy py-20/24 section padding; alternate light↔tinted bands",
-    "Whitespace reads as confidence"
+  "visual": "Consistent vertical spacing scale (py-12/16/20/24/28; space-y-16..36 between sections).",
+  "placement": "Top/bottom padding of every section.",
+  "states": "n/a.",
+  "animation": "No intrinsic motion — governs spacing, not motion.",
+  "realWorld": [
+    "Airy py-20/24 on premium looks; tighter py-12 on swiss"
   ],
-  "references": [
-    "Mercury — generous whitespace",
-    "Stripe — 8px grid restraint",
-    "Pilot — bg spectrum"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "py-20 airy.",
+    "soft": "py-20 airy.",
+    "swiss": "py-12 tighter.",
+    "warm": "py-24 airy."
+  }
 }

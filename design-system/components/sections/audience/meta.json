@@ -19,19 +19,19 @@
   "entryIds": [
     "audience.cards"
   ],
-  "patterns": [
-    "Audience/persona segmentation cards OR a nav split — the single most transferable pattern for fiduciaries",
-    "Life-stage cards (Founding→Freelancer→Start-up→Enterprise) or SMB-vs-accountant split"
+  "visual": "Who-we-serve cards: an icon or mono index label, a segment title, one line. Either deep industry pages or 3 persona cards.",
+  "placement": "Mid-page (slot 6). Centered header + 3-col card grid; or a rotating persona carousel.",
+  "states": "Hover tint/lift; carousel auto-rotates.",
+  "animation": "Cards stagger-reveal; persona carousel auto-advances with cross-fade/slide (~5s) and arrow control.",
+  "realWorld": [
+    "Nexova: 12 industry verticals (Startups, IT, Medical, NGOs, …)",
+    "Osome: 3-persona rotating 'Who we help' carousel",
+    "Pilot: cycling persona/CFO scenarios"
   ],
-  "references": [
-    "Numarics — life-stage entry cards",
-    "bexio — Für Unternehmer / Für Treuhänder",
-    "Gusto/Pennylane — audience self-segmentation"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "soft-friendly"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "swiss": "Mono-indexed client-group cells, sharp.",
+    "soft": "Rounded icon cards, 3-col, vibrant.",
+    "warm": "A/B/C cards with hairlines on paper.",
+    "editorial": "Numbered cards, restrained."
+  }
 }

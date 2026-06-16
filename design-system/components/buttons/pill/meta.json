@@ -17,18 +17,15 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "Fully rounded (999px); reads friendly/modern; often monospace uppercase",
-    "Best for soft-friendly / fintech-clean; avoid for sharp data-precise"
+  "visual": "Fully rounded (rounded-full) solid or outline button — the default CTA shape of the SaaS/fintech tier.",
+  "placement": "Nav CTA and hero CTAs on soft-language sites; also used for filter/segment toggles and small badges.",
+  "states": "Hover elevation/brightness; active press.",
+  "animation": "Hover elevation/brightness 200ms; active press; soft variant may bloom.",
+  "realWorld": [
+    "bexio, Accounto, Osome, Pilot, Karbon, Magic Heidi: pill CTAs throughout"
   ],
-  "references": [
-    "Pilot — full pills",
-    "Qonto — rounded CTAs",
-    "Selma — rounded primary"
-  ],
-  "designLanguages": [
-    "soft-friendly",
-    "fintech-clean"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "soft": "Vibrant fill pill, title-case.",
+    "any": "Neutral rounded-full."
+  }
 }

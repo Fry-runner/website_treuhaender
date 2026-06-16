@@ -17,22 +17,18 @@
   "entryIds": [
     "values.divided-columns"
   ],
-  "patterns": [
-    "4–6 'why-us' pillars in a divided band: dot/icon + short title + one line",
-    "The recurring four: digital · transparent · personal · compliant; add Swiss-Made as a pillar"
+  "visual": "4–6 working-principle pillars: a bullet dot or small icon, a short H4, and one line of body. Read as a calm, scannable band.",
+  "placement": "After services (slot 5). 3-col with vertical hairline dividers, or a 2×2/3×2 grid; top/bottom bordered band, centered eyebrow.",
+  "states": "Light stagger reveal.",
+  "animation": "Pillars stagger-reveal; accent bars grow width (scaleX 0→1) on entrance.",
+  "realWorld": [
+    "Recurring CH four: 100% digital · transparente Preise · persönliche Betreuung · vollständig compliant (Nexova, Divisia)",
+    "LPS Treuhand: numbered 01/02/03 value system with SVG icons"
   ],
-  "references": [
-    "bexio — Zeit sparen / Swiss-Made / Support pillars",
-    "Pilot — problem/solution pillars",
-    "Qonto — benefit triad"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "3-col divide-x hairlines, dot + H4 + muted body.",
+    "swiss": "Sharp cells, signal-colour bullet, tight.",
+    "soft": "Rounded icon circles, airy, vibrant accent.",
+    "warm": "Hairline-divided on paper, ink-blue dots."
+  }
 }

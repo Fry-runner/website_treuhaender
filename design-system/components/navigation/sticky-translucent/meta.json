@@ -19,22 +19,18 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Sticky, translucent + backdrop-blur, hairline border; logo·menu·dual-CTA",
-    "Optional thin top signature/announcement bar above it"
+  "visual": "Sticky top bar, h-20, bg/90 + backdrop-blur, bottom hairline, max-w-7xl. Logo (custom SVG or wordmark+subtitle) left · nav links center · CTA right.",
+  "placement": "Pinned at top across all sites. Logo always left; primary CTA always top-right; links centered (soft/editorial) or right-clustered (corporate).",
+  "states": "Shrinks/solidifies on scroll; blur intensifies; active link underline slides.",
+  "animation": "On scroll past threshold: height shrinks + background solidifies + blur intensifies + shadow fades in (200–300ms).",
+  "realWorld": [
+    "Magic Heidi/bexio/Pilot/Osome/Karbon: sticky blurred bars",
+    "STG / Controva / Accounto / Fineac: NON-sticky, opaque (classic tier)"
   ],
-  "references": [
-    "All 20 — sticky shell",
-    "Vercel — event callout bar",
-    "Linear — Docs/Login/Sign up cluster"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Wordmark + subtitle, thin hairline, serif-adjacent links.",
+    "swiss": "Wordmark, sharp, pulse-dot status, grotesk links.",
+    "soft": "Custom SVG logo, pill CTA, blur.",
+    "warm": "Wordmark + hover-grow accent line, 1.5px signature bar above."
+  }
 }

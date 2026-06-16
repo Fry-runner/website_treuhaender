@@ -14,22 +14,16 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "Interactive proof beats static copy: calculator / quiz / live demo near the top converts + adds the 'wow'",
-    "FAQ accordion + testimonial carousel as the standard objection-handling close"
+  "visual": "3-step wizard (date → form → success) with a slot grid; a mock Calendly flow.",
+  "placement": "Contact section as the primary 'Termin buchen' path.",
+  "states": "Stepper progress; slot select; success state persisted.",
+  "animation": "Stepper progress animates; slot-select highlight; success state scale-in.",
+  "realWorld": [
+    "Boost: booking wizard",
+    "Nexova/Findea: 'Termin buchen' primary path"
   ],
-  "references": [
-    "Wise — hero FX calculator",
-    "Digits — interactive product console hero",
-    "Betterment/Selma — FAQ accordion close"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Stepper + slot grid.",
+    "soft": "Rounded slots, pill next."
+  }
 }

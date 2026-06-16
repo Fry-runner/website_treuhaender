@@ -18,22 +18,18 @@
   "entryIds": [
     "intro.statement"
   ],
-  "patterns": [
-    "Single max-w column: eyebrow + one large positioning statement + muted supporting line",
-    "Sets 'who we are / why we exist' before the offering"
+  "visual": "Quiet positioning band: eyebrow + a single large statement (text-3xl→4xl, often part-muted) in a narrow column (max-w-3xl), optionally a row of small icon feature-chips beneath.",
+  "placement": "Directly after the hero, before services. Centered single column, or a 5/7 split with chips on the wider side. Generous top/bottom padding to act as a breather.",
+  "states": "Subtle on-scroll reveal; chips may stagger in.",
+  "animation": "Statement fades + slides up on scroll-into-view; feature-chips stagger in (~60ms each). soft springs; editorial/warm stay subtle.",
+  "realWorld": [
+    "Controva: 'The figures have to add up.' reduced statement",
+    "Boost: max-w-3xl serif positioning line",
+    "Tureva: 5/7 split statement + feature chips"
   ],
-  "references": [
-    "Stripe — restrained positioning",
-    "Mercury — 'Radically different banking'",
-    "Linear — single feel-statement"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Serif statement, hairline above/below, lots of air.",
+    "soft": "Geometric statement + rounded icon feature-chips row.",
+    "warm": "Ink statement on paper, thin rule, restrained."
+  }
 }

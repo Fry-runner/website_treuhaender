@@ -17,20 +17,14 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Minimal fields; mono uppercase labels; one solid primary submit",
-    "Reduce friction — inline email field in hero, or a calculator that captures intent before the form"
+  "visual": "Required-field guard → inline error text + error/success banners with icons.",
+  "placement": "On submit, adjacent to fields and at the form head.",
+  "states": "Blocks submit on empty required; banner auto-dismisses.",
+  "animation": "Inline error text fades in; banner slides down; success banner auto fade-out.",
+  "realWorld": [
+    "All built sites: empty-check + banners"
   ],
-  "references": [
-    "Mercury — inline email in hero",
-    "Wise — calculator before signup",
-    "Betterment — short form + reassurance copy"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "soft-friendly",
-    "data-precise"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Red error / emerald success banner."
+  }
 }

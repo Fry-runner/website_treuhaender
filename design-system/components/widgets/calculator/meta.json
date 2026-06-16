@@ -14,19 +14,17 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "Interactive estimator near the top captures intent + adds 'wow'; outputs a recommended package/price",
-    "Doubles as a soft lead-capture before the contact form"
+  "visual": "Range slider(s) → a highlighted recommended pricing card / live estimate.",
+  "placement": "Pricing section or a standalone 'Preisrechner' — doubles as a lead-gen hook.",
+  "states": "Slider drives a live re-highlight of the matching tier.",
+  "animation": "Slider drag updates the value live; matching tier re-highlights with a 200ms transition + subtle scale.",
+  "realWorld": [
+    "Boost: price calculator",
+    "Nexova: 'Preisrechner' CTA",
+    "Findea: cost framing"
   ],
-  "references": [
-    "Wise — hero FX calculator",
-    "Ramp — savings calculator",
-    "repo — price/finance widgets"
-  ],
-  "designLanguages": [
-    "data-precise",
-    "fintech-clean",
-    "soft-friendly"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Slider → highlighted card.",
+    "soft": "Vibrant track + bloom result."
+  }
 }

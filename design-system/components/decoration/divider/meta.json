@@ -18,21 +18,18 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "Hairline rule + label/dot motif between sections; or branded line graphic"
+  "visual": "Branded section divider: hairline + label/dot motif, or a custom line graphic ('Strich', flowing lines).",
+  "placement": "Between sections to pace the page.",
+  "states": "May animate width/draw on reveal.",
+  "animation": "Line draws / grows width on reveal (stroke-dashoffset or scaleX).",
+  "realWorld": [
+    "UdS: 'Strich' line motif",
+    "Tureva: TurevaLines",
+    "Accounto: SVG section-divider patterns"
   ],
-  "references": [
-    "Pennylane — gradient dividers",
-    "Linear — hairline structure",
-    "repo — TurevaLines"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "warm": "'Strich' hairline + label.",
+    "soft": "Flowing line graphic.",
+    "any": "Hairline + dot."
+  }
 }

@@ -17,23 +17,15 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "12-col asymmetric splits for hero/about/contact; 3–4 col card grids elsewhere",
-    "Generous whitespace (airy section padding) reads as confidence/premium",
-    "8px spacing grid; hairline rules instead of boxes where possible"
+  "visual": "Alternating section backgrounds (white ↔ gray/paper bands), each band bottom-bordered, for rhythm.",
+  "placement": "Across the whole page to separate beats.",
+  "states": "n/a.",
+  "animation": "Static bands; the content within each band reveals on enter.",
+  "realWorld": [
+    "All built sites: white↔tinted alternation"
   ],
-  "references": [
-    "Stripe — 8px grid + restraint",
-    "Pilot — pin-lines over boxes",
-    "Mercury — generous whitespace"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "White↔surface alternation.",
+    "warm": "Paper↔white bands."
+  }
 }

@@ -16,23 +16,16 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "icon/image-top OR icon-left → bold headline → supporting text, in 3–4 col grids",
-    "Premium lever: HAIRLINE borders (dark/precise) vs SOFT diffuse shadows (friendly/swiss)",
-    "Low radius for precise/dark, rounded 12–16px for soft/friendly"
+  "visual": "Small bordered uppercase mono chip — certifications, registry numbers, language badges.",
+  "placement": "Under team names, in footers/trust rows, beside hero claims.",
+  "states": "Static; optional hover tint.",
+  "animation": "Fade-in staggered with its parent; optional hover tint.",
+  "realWorld": [
+    "Tureva/UdS/Rürup: cert + registry chips",
+    "Magic Heidi: 'Swiss-Made Software' eyebrow chip"
   ],
-  "references": [
-    "Vanta — 6-col icon-top feature cards",
-    "Linear/Vercel — hairline-border cards",
-    "bexio/Numarics — soft-shadow rounded cards"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Mono uppercase bordered chip.",
+    "soft": "Rounded pill chip."
+  }
 }

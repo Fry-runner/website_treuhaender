@@ -14,18 +14,18 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "Tier card; recommended highlighted with ring/tint; transparent monthly price prominent"
+  "visual": "Tier card: name, description, price block over a hairline, feature ul with checks, CTA; the recommended tier gets a ring/tint or elevation.",
+  "placement": "Pricing grid (lg:grid-cols-3); recommended card centered/raised.",
+  "states": "Recommended elevated; hover lift; calculator can re-highlight live.",
+  "animation": "Card rise + fade; recommended tier holds a persistent glow/scale; CTA hover per button spec.",
+  "realWorld": [
+    "Boost: calculator-driven recommended ring",
+    "Osome: highlighted plan",
+    "Pilot/Bench: tiered plans"
   ],
-  "references": [
-    "Ramp — pricing cards",
-    "Selma — tier comparison",
-    "Wise — fee transparency"
-  ],
-  "designLanguages": [
-    "data-precise",
-    "fintech-clean",
-    "swiss-clean"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "soft": "Rounded, vibrant recommended ring, pill CTA.",
+    "editorial": "Bordered, serif price.",
+    "swiss": "Sharp, 'empfohlen' signal badge."
+  }
 }

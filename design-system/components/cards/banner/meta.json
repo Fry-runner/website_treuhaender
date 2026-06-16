@@ -17,23 +17,14 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "icon/image-top OR icon-left → bold headline → supporting text, in 3–4 col grids",
-    "Premium lever: HAIRLINE borders (dark/precise) vs SOFT diffuse shadows (friendly/swiss)",
-    "Low radius for precise/dark, rounded 12–16px for soft/friendly"
+  "visual": "Inline status banner (emerald success / red error) with an icon; auto-dismiss.",
+  "placement": "Above/below forms after submit.",
+  "states": "Slide/fade in, auto-dismiss after timeout.",
+  "animation": "Slide-down + fade in; auto-dismiss fade-out after ~4–5s.",
+  "realWorld": [
+    "All built sites: form success/error banners"
   ],
-  "references": [
-    "Vanta — 6-col icon-top feature cards",
-    "Linear/Vercel — hairline-border cards",
-    "bexio/Numarics — soft-shadow rounded cards"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Emerald/red inline banner with icon."
+  }
 }

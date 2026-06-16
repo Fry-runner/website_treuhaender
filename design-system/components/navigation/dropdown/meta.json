@@ -14,18 +14,17 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "Mega-menu with grouped links + thumbnails; can carry audience-split entry (SME vs fiduciary)"
+  "visual": "Hover dropdown / mega-menu: a panel of title+subtext entries (and sometimes columns) with a rotating ChevronDown.",
+  "placement": "On service-heavy nav items ('Leistungen', 'Accounting', 'Platform').",
+  "states": "Reveals on hover/focus; chevron rotates; panel fades/slides.",
+  "animation": "Panel fade + slide-down (150–200ms) on hover/focus; chevron rotates 180°.",
+  "realWorld": [
+    "bexio: two-tier audience nav (Unternehmer / Treuhänder) + dropdowns",
+    "Pilot/Osome/London/Karbon: multi-column mega-menus"
   ],
-  "references": [
-    "bexio — Für Unternehmer/Treuhänder mega-menu",
-    "Wise — dropdowns with imagery",
-    "Stripe — product mega-menu"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Title+subtext dropdown panel.",
+    "soft": "Rounded panel, soft shadow.",
+    "swiss": "Sharp panel, hairlines."
+  }
 }

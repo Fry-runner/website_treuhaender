@@ -17,22 +17,17 @@
   "entryIds": [
     "process.steps"
   ],
-  "patterns": [
-    "3–5 numbered 'how it works' steps; reduces switching anxiety",
-    "Time-based framing dramatizes speed (now → 5 min → month-end)"
+  "visual": "3 numbered steps (01–03): step number, title, one line; optional connector arrows or an active-step highlight ring.",
+  "placement": "Mid-page, after services/values. md:grid-cols-3; sometimes clickable to highlight the active step.",
+  "states": "Active step gets an accent ring; connectors animate.",
+  "animation": "Steps reveal left→right; connector lines draw (stroke-dashoffset); active step ring pulses on select.",
+  "realWorld": [
+    "Boost: clickable numbered cards with active ring 01–03",
+    "Onboarding framing common: 'Onboarding → wir übernehmen → Echtzeit-Zahlen'"
   ],
-  "references": [
-    "Puzzle — time-based speed cards",
-    "Selma — 5-step how-it-works w/ illustrations",
-    "Pilot — onboarding steps"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Numbered cards + arrow connectors, hairlines.",
+    "soft": "Rounded step cards, active accent ring.",
+    "any": "Static 3-col numbered steps."
+  }
 }

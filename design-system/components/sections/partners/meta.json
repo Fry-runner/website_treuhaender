@@ -18,19 +18,18 @@
   "entryIds": [
     "partners.strip-grid"
   ],
-  "patterns": [
-    "Logo strip/grid, greyscale, equal sizing; or software-partner badges",
-    "Press/award logos (NZZ/HZ/Forbes analog) build third-party credibility"
+  "visual": "Certification / software / award logo strip — usually greyscale, equal-height. Small partner cards (category eyebrow + name + status pill) or a 12-cell award grid.",
+  "placement": "Under the hero as a trust bar, or lower as a dedicated band before the footer.",
+  "states": "Greyscale → colour on hover; optional marquee scroll.",
+  "animation": "Logos fade-in or marquee auto-scroll loop; greyscale→colour on hover (~200ms).",
+  "realWorld": [
+    "Run my Accounts: badge wall (Best of Swiss Web, Kununu, Top 100)",
+    "Karbon: clustered G2/Capterra/GetApp + '18 Consecutive Quarters'",
+    "CH certs: TREUHAND SUISSE, EXPERTsuisse, RAB; software bexio/Abacus/Sage/DATEV"
   ],
-  "references": [
-    "Selma — Swiss press logos (HZ/FuW/SRF)",
-    "Wealthfront — Forbes/Bankrate award logos",
-    "bexio — partner logo strip"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "editorial-trust",
-    "fintech-clean"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Greyscale equal-height logo row.",
+    "editorial": "Hairline-framed small partner cards with key/value footer.",
+    "swiss": "Sharp award grid + inverted CTA cell."
+  }
 }

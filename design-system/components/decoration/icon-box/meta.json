@@ -16,20 +16,15 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "lucide-style icon in a bordered/tinted square; consistent icon system across the site"
+  "visual": "A lucide icon inside a ~40×40 bordered square box.",
+  "placement": "Atop service tiles and value items (editorial/swiss looks).",
+  "states": "Hover tints box/icon.",
+  "animation": "Hover tints box/icon (~200ms) and may scale slightly.",
+  "realWorld": [
+    "Boost/Rürup: bordered icon boxes on service tiles"
   ],
-  "references": [
-    "Vanta/Qonto — icon-led cards",
-    "Numarics — custom SVG icons"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Hairline box, navy icon.",
+    "swiss": "Sharp box, signal icon."
+  }
 }

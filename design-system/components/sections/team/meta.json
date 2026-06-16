@@ -20,19 +20,18 @@
   "entryIds": [
     "team.cards"
   ],
-  "patterns": [
-    "Real faces + name + role + short bio + credentials; central for boutique/owner-led",
-    "Monogram avatar fallback where no photo"
+  "visual": "People grid: monogram or photo avatar, name, role badge, short bio, optional tag chips. Real faces = trust currency.",
+  "placement": "Lower-mid page, or a compact teaser panel linking to a full team page. 3-col cards (digital) or 4/8 profile rows with bio (boutique).",
+  "states": "Hover reveals contact / social; avatar may desaturate→colour.",
+  "animation": "Avatars fade-up staggered; hover reveals contact/socials; monogram→photo cross-fade where available.",
+  "realWorld": [
+    "Tureva: 3-col cards, monogram avatar + role badge",
+    "UdS: 4/8 profile rows + bio + tag chips",
+    "PMPG: '330+ colleagues' framing"
   ],
-  "references": [
-    "Gusto — people photography",
-    "Mercury — founder quote",
-    "boutique CH norm — owner profile"
-  ],
-  "designLanguages": [
-    "editorial-trust",
-    "soft-friendly",
-    "swiss-clean"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "soft": "Rounded cards, coloured monogram, role pill.",
+    "warm": "Hairline profile rows, ink-blue role tag.",
+    "editorial": "Serif names, generous photo whitespace."
+  }
 }

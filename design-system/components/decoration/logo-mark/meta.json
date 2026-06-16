@@ -16,22 +16,18 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Custom SVG mark + wordmark; single accent color; scales to favicon",
-    "One restrained mark beats elaborate emblems for trust"
+  "visual": "Inline SVG brand mark (infinity ∞, double-T monogram, custom glyph) in header + footer.",
+  "placement": "Top-left of nav and in the footer brand block.",
+  "states": "May animate on hover (stroke draw / subtle morph).",
+  "animation": "Optional one-time stroke-draw/morph on load; subtle hover wiggle/morph; otherwise static.",
+  "realWorld": [
+    "Boost: ∞",
+    "Tureva: double-T",
+    "STG: SVG wordmark"
   ],
-  "references": [
-    "Linear/Vercel — minimal marks",
-    "Digits — green D mark",
-    "Stripe — wordmark"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Inline SVG mark.",
+    "soft": "Rounded geometric glyph.",
+    "editorial": "Refined serif-adjacent mark."
+  }
 }

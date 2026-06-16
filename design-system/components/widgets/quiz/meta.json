@@ -14,22 +14,15 @@
   ],
   "priority": "optional",
   "notes": "Lead-gen / engagement widget.",
-  "patterns": [
-    "Interactive proof beats static copy: calculator / quiz / live demo near the top converts + adds the 'wow'",
-    "FAQ accordion + testimonial carousel as the standard objection-handling close"
+  "visual": "Multi-step stepper with a progress bar → a heuristic recommendation result card.",
+  "placement": "Engagement/lead-gen block, often mid-page.",
+  "states": "Step progress; computes a verdict; result scales in.",
+  "animation": "Steps transition horizontally (slide); progress bar fills; result card scale-in (spring).",
+  "realWorld": [
+    "UdS: 3-step service quiz",
+    "Statzinger/Osome: persona-routing logic"
   ],
-  "references": [
-    "Wise — hero FX calculator",
-    "Digits — interactive product console hero",
-    "Betterment/Selma — FAQ accordion close"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Stepper + progress + result card."
+  }
 }

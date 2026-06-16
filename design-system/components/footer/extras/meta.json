@@ -20,22 +20,17 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "4–6 columns segmented by audience/product/company/legal + social row + dynamic © year",
-    "Bake credential / regulatory badges into the footer as permanent furniture"
+  "visual": "Optional widgets embedded in footer columns: live local clock, language-capabilities box, social pills, SSL/UID/D&O trust badges.",
+  "placement": "Within footer columns, secondary to the sitemap.",
+  "states": "Clock ticks (setInterval); badges static.",
+  "animation": "Live clock ticks every second (optional digit cross-fade); social pills hover-lift; badges static.",
+  "realWorld": [
+    "UdS: live Zürich clock",
+    "Tureva: language-capabilities box",
+    "Boost: LinkedIn pill"
   ],
-  "references": [
-    "Vanta — SOC2/ISO/GDPR badges in footer",
-    "Selma — FINMA/OSFIN badges in footer",
-    "bexio — Unternehmer/Treuhänder columns"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Inline footer widgets.",
+    "warm": "Ticking Zürich clock."
+  }
 }

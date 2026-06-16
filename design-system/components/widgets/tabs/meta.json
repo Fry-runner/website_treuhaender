@@ -16,22 +16,16 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "Interactive proof beats static copy: calculator / quiz / live demo near the top converts + adds the 'wow'",
-    "FAQ accordion + testimonial carousel as the standard objection-handling close"
+  "visual": "Toggle between panels — calendar/form tabs, or a sidebar selector + detail pane.",
+  "placement": "Contact (booking vs form), services (selector + detail).",
+  "states": "Active tab underline; panel cross-fades.",
+  "animation": "Active tab underline slides; panel cross-fade or horizontal slide.",
+  "realWorld": [
+    "Boost: calendar/form tabs",
+    "UdS: sidebar service selector"
   ],
-  "references": [
-    "Wise — hero FX calculator",
-    "Digits — interactive product console hero",
-    "Betterment/Selma — FAQ accordion close"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Tab/selector + panel.",
+    "warm": "Sidebar list + animated detail w/ accent bar."
+  }
 }

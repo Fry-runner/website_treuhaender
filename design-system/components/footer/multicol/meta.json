@@ -20,22 +20,19 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "4–6 columns segmented by audience/product/company/legal + social row + dynamic © year",
-    "Bake credential / regulatory badges into the footer as permanent furniture"
+  "visual": "3–4 column grid: brand + tagline · sitemap · offices/address · network/trust badges; a bottom bar with the dynamic © year and legal triggers (Impressum/Datenschutz).",
+  "placement": "Page foot. Brand block left; link columns center; trust/social right; legal bar spans the bottom.",
+  "states": "Link hover underline; year auto-updates.",
+  "animation": "Columns fade-up on reveal; link hover underline ~150ms; © year is dynamic (no motion).",
+  "realWorld": [
+    "Findea: 'Made with ❤️ in Winterthur'",
+    "Karbon/Osome: region switch lives here",
+    "All built sites: offices + sitemap + legal + © year"
   ],
-  "references": [
-    "Vanta — SOC2/ISO/GDPR badges in footer",
-    "Selma — FINMA/OSFIN badges in footer",
-    "bexio — Unternehmer/Treuhänder columns"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "editorial": "3-col brand/sitemap/network, hairlines.",
+    "swiss": "12-col offices + sitemap + RAB badge, sharp.",
+    "soft": "4-block with language box, rounded.",
+    "warm": "Brand + live clock + compliance, paper."
+  }
 }

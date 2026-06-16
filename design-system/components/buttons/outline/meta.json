@@ -17,22 +17,19 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Quiet secondary; transparent + 1px border, inverts on hover",
-    "Used for demo/explore alongside the solid primary"
+  "visual": "Transparent with a 1px accent/neutral border; inverts to a filled accent on hover. Same radius lane as the primary.",
+  "placement": "The hero's SECOND CTA (secondary to the solid primary), and inside cards/pricing where a softer action is needed.",
+  "states": "Hover fills with brand colour, label flips to contrast; focus ring.",
+  "animation": "Hover: ~200ms background-fill sweep + label colour flip to contrast; focus ring fades in.",
+  "realWorld": [
+    "Magic Heidi: outlined 'Watch Demo →' beside solid primary",
+    "Karbon: outlined 'Take a Tour' beside 'Book a Demo'",
+    "Pilot: outline/ghost secondary"
   ],
-  "references": [
-    "Qonto — outline 'Find the right plan'",
-    "bexio — secondary video CTA",
-    "Betterment — outline secondary"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "swiss": "Sharp border → signal fill invert.",
+    "soft": "Pill border → vibrant fill.",
+    "editorial": "Hairline border → navy fill, mono label.",
+    "warm": "Sharp ink border → fill on paper."
+  }
 }

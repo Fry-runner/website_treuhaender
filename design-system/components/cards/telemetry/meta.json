@@ -17,23 +17,16 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "icon/image-top OR icon-left → bold headline → supporting text, in 3–4 col grids",
-    "Premium lever: HAIRLINE borders (dark/precise) vs SOFT diffuse shadows (friendly/swiss)",
-    "Low radius for precise/dark, rounded 12–16px for soft/friendly"
+  "visual": "Label→value rows (STANDORT / FOKUS / GRÜNDUNG) with a thin accent bar — a 'data plate' look.",
+  "placement": "Beside about/profile prose, or as a registry/credentials card.",
+  "states": "Static; accent bar may animate width on reveal.",
+  "animation": "Rows fade-in staggered; accent bar grows width on reveal.",
+  "realWorld": [
+    "UdS: STANDORT/FOKUS/GRÜNDUNG plate",
+    "Tureva: registry card"
   ],
-  "references": [
-    "Vanta — 6-col icon-top feature cards",
-    "Linear/Vercel — hairline-border cards",
-    "bexio/Numarics — soft-shadow rounded cards"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "warm": "Hairline rows on paper, ink accent bar.",
+    "soft": "Rounded, mid-gray labels."
+  }
 }

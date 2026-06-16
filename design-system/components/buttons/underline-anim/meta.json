@@ -15,23 +15,18 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "Two-tier hierarchy everywhere: solid brand-accent primary + quieter secondary (outline OR underlined text+arrow)",
-    "One accent does ALL CTA work; primary repeated 4–5× verbatim",
-    "Hover = subtle lift (translateY -2/-4px) + color darken"
+  "visual": "Plain text link whose underline scales in from the left (::after scaleX) on hover — quiet, editorial.",
+  "placement": "Nav links and inline prose links on boutique/editorial sites; secondary actions where a box would be too loud.",
+  "states": "Underline grows left→right on hover, retracts on leave.",
+  "animation": "::after underline scaleX 0→1 from the left on hover (~200–250ms ease-out), retracts on leave. Quiet/editorial.",
+  "realWorld": [
+    "UdS: .hover-underline-anim nav + links",
+    "Controva: minimal inline links",
+    "STG Zürich: blue text links"
   ],
-  "references": [
-    "Pilot — monospace uppercase pills",
-    "Stripe/Qonto — solid primary + text secondary",
-    "Linear — dark primary + → link"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "warm": "Ink-blue, scaleX underline.",
+    "editorial": "Navy, subtle.",
+    "swiss": "Anthracite, snappy."
+  }
 }

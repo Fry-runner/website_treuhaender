@@ -15,20 +15,18 @@
   "priority": "core",
   "discoveredIn": "scraped",
   "prevalence": "certifications cited by ~70% (eidg. Diplom) / 68% (RAB); built sites only used text",
-  "patterns": [
-    "Greyscale credential/partner logo strip directly below hero (borrowed credibility before the pitch)",
-    "CH trust currency: TREUHAND|SUISSE, EXPERTsuisse, Swiss GAAP FER, RAB; software badges bexio/Abacus",
-    "Regulatory/compliance badges also belong permanently in the footer"
+  "visual": "Horizontal strip of greyscale certification/software/award logos, equal height.",
+  "placement": "Directly under the hero, or as a band above the footer.",
+  "states": "Greyscale→colour on hover; optional marquee.",
+  "animation": "Logos fade-in or marquee auto-scroll loop; greyscale→colour on hover.",
+  "realWorld": [
+    "~70% cite eidg. Diplom, ~68% RAB",
+    "TREUHAND SUISSE / EXPERTsuisse / RAB + bexio/Abacus/Sage/DATEV",
+    "Karbon: G2/Capterra cluster"
   ],
-  "references": [
-    "Vanta — SOC2/ISO badges as permanent furniture",
-    "Selma — FINMA/OSFIN badges",
-    "Stripe/Notion — marquee logo wall under hero"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Greyscale logo strip.",
+    "swiss": "Sharp award grid.",
+    "editorial": "Hairline-framed logos."
+  }
 }

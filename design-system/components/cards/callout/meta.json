@@ -19,17 +19,17 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "Accent-bordered panel (left/top) for highlights/alerts; icon + heading + body"
+  "visual": "Accent-bordered panel (left-border or top-accent, or a rose/blue tint): icon + heading + body — used to emphasise one message.",
+  "placement": "Inline within services/about to flag a key note, or as a highlight strip.",
+  "states": "Static; subtle reveal.",
+  "animation": "Slide/fade in; accent border may draw; urgency variant can pulse gently.",
+  "realWorld": [
+    "Rürup: red left-border callout",
+    "Boost/UdS: top-accent tinted callouts"
   ],
-  "references": [
-    "Ramp — benefit callouts",
-    "Vanta — recognition callout"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "data-precise",
-    "editorial-trust"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "swiss": "Signal-red left border.",
+    "warm": "Rose/blue tint, sharp.",
+    "editorial": "Navy top-accent."
+  }
 }

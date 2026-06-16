@@ -16,21 +16,18 @@
   ],
   "priority": "core",
   "notes": "BRIEFING §7 + §8.2 — PROMOTED TO CORE. Bilingual (DE/EN min, often +FR/IT) is table-stakes for CH; only 1 of 4 built sites has it.",
-  "patterns": [
-    "Header pill/dropdown DE/EN(+FR/IT); table-stakes for CH",
-    "Pairs with a region/country selector on internationally-facing sites"
+  "visual": "Segmented pill DE/EN(/FR/IT) toggle or a Globe menu; active = filled chip. CH region/locale where relevant.",
+  "placement": "Top-right of nav (CH multilingual) or in the footer (intl region switch).",
+  "states": "Active chip filled; switching swaps content locale.",
+  "animation": "Active chip slides/cross-fades; content locale swaps with a quick fade.",
+  "realWorld": [
+    "Findea: DE/FR/IT/EN switch top-right",
+    "Accounto/PMPG/Controva: DE/EN toggle",
+    "Osome/Karbon: region switch in footer (UK/SG/…)"
   ],
-  "references": [
-    "bexio/Selma — language toggle",
-    "Wise/Qonto — region + language selector"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Segmented pill toggle.",
+    "soft": "Rounded chips.",
+    "swiss": "Sharp DE/EN segments."
+  }
 }

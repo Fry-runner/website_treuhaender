@@ -36,22 +36,21 @@
     "services.selector-detail",
     "services.secondary-grid"
   ],
-  "patterns": [
-    "3–4 col card grid: icon (top or left) → bold title → 1-line summary → arrow link",
-    "CH differentiator: inline 'ab CHF X/Monat' price chip on the card (digital archetype)",
-    "Service catalogue grid can map 1:1 to fiduciary deliverables (Buchhaltung/Steuern/Lohn/MWST)",
-    "Each service links to a deep section/page anchored by one product or outcome visual"
+  "visual": "The workhorse grid. Cards carry icon + title + 1-line summary + arrow link; CH digital firms add an inline price ('ab CHF 150/Monat'). Soft looks use rounded cards with hover-lift; swiss/editorial use sharp bordered cells; boutiques drop cards for a divided text list.",
+  "placement": "High on the page (slot 4), right after intro. Section header row (eyebrow + H2, optional hint/CTA right) over a 2/3/4-col grid; icons top-center (LPS, Magic Heidi, PMPG) or top-left (bexio, Karbon, Osome). Whole card is usually the click target.",
+  "states": "Hover: border adopts accent OR card lifts with a shadow; arrow link translates right; icon may tint.",
+  "animation": "Grid cards stagger-reveal (translateY 16px + fade, ~60–80ms/card) on first view. Hover: soft = lift + shadow bloom, swiss/editorial = snappy border-colour shift, warm = quick ease-out; arrow link nudges, icon tints.",
+  "realWorld": [
+    "bexio: 4-col, icon top-left, flat with hover-shadow lift, clickable",
+    "Magic Heidi: 3-col, icon top, flat, clickable",
+    "Gruber Renger: 3-col photo cards, whole-card clickable 'Zum Rechnungswesen'",
+    "Controva: no cards — divided text list of 7 services",
+    "Nexova: 6 service cards each with 'ab CHF X' price"
   ],
-  "references": [
-    "Numarics — service grid = payroll/VAT/tax deliverables",
-    "Vanta — 6-card feature grid",
-    "Qonto — icon-left feature cards"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "soft-friendly",
-    "data-precise"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Bordered divided tiles (divide-x/divide-y hairlines), icon-in-box, uppercase title, arrow link.",
+    "swiss": "Sharp flat cards or 2 large feature pillars with CheckCircle checklist + outline CTA.",
+    "soft": "Rounded-2xl cards, soft shadow, hover-lift, vibrant icon chips, clickable to detail.",
+    "warm": "Sharp hairline cards on paper, or a sidebar selector + animated detail pane with accent bar."
+  }
 }

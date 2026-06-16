@@ -16,22 +16,19 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "icon (top/left) + title + 1-line summary + arrow; 3–4 col grid",
-    "Optional inline price chip; hairline border or soft shadow per language"
+  "visual": "Bordered or shadowed cell: icon (top-center or top-left) + title + 1-line summary + optional check-list + arrow link; CH digital variants add an inline 'ab CHF X' price line.",
+  "placement": "Within the services grid — 2/3/4 across. Icon anchors the top; the arrow link/price sits at the bottom edge; the whole tile is commonly clickable.",
+  "states": "Hover: border→accent (sharp looks) OR lift+shadow (soft looks); arrow nudges; icon tints.",
+  "animation": "Staggered grid reveal; hover = lift+shadow (soft) or border→accent (swiss/editorial/warm) 200–300ms; icon tint + arrow nudge.",
+  "realWorld": [
+    "Magic Heidi: 3-col, icon top, flat, clickable",
+    "bexio: 4-col, icon top-left, hover-shadow lift",
+    "Nexova: price line on each tile"
   ],
-  "references": [
-    "Vanta — 6-col feature cards",
-    "Numarics — service grid",
-    "Qonto — icon-left cards"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Sharp hairline cell, icon-in-box, uppercase title.",
+    "swiss": "Flat bordered, signal hover border.",
+    "soft": "Rounded-2xl, soft shadow, hover-lift, vibrant icon.",
+    "warm": "Sharp hairline tile on paper, ink arrow."
+  }
 }

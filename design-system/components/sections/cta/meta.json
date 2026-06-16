@@ -20,23 +20,19 @@
   "entryIds": [
     "cta.band"
   ],
-  "patterns": [
-    "Repeated closing CTA band before the footer is standard",
-    "Centered headline + sub + one primary; sometimes a dual split (business/personal)",
-    "Tinted (primary-soft) background to lift it off the page"
+  "visual": "Conversion band: short headline + sub + one primary button; optional decorative corners, bloom/glow, or an inverted dark card for contrast.",
+  "placement": "Repeated — at least once mid-page and again before the contact/footer. Centered band, or text-left + button-right teaser.",
+  "states": "Button hover per spec; soft/dark variants may bloom or have a moving gradient.",
+  "animation": "Band fades up on reveal. soft: nearest-CTA bloom/glow; dark/inverted variant: slow moving gradient; warm/editorial: static, snappy button hover only.",
+  "realWorld": [
+    "Universal: 'Bereit? Termin buchen.' band before footer",
+    "Gruber Renger: lime CTA repeated 5+ times at section ends",
+    "Tureva: scroll-driven bloom on the nearest CTA"
   ],
-  "references": [
-    "Mercury — dual final CTA",
-    "Vanta — 'Meet the new standard for trust'",
-    "Most sites — pre-footer CTA band"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Inverted navy card, serif headline, blue button.",
+    "swiss": "Sharp decorated band, signal-red solid button.",
+    "soft": "Rounded band with lime bloom CTA.",
+    "warm": "Paper band, ink-blue button, underline-anim link."
+  }
 }

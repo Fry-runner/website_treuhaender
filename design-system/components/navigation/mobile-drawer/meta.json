@@ -17,23 +17,16 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Sticky, translucent + backdrop-blur, hairline bottom border",
-    "logo-left · links-center · dual-CTA-right (text 'Login' + solid primary)",
-    "Persistent single primary CTA repeated in hero + final band"
+  "visual": "Hamburger → AnimatePresence height drawer: stacked links with an active left-border accent and a full-width CTA at the bottom.",
+  "placement": "Mobile/tablet; toggled from the top-right hamburger.",
+  "states": "Slides/expands; active link left-border; body scroll locks.",
+  "animation": "Hamburger morphs to X; drawer height + opacity springs open (AnimatePresence); links stagger-in; body scroll locks.",
+  "realWorld": [
+    "All built sites + most SaaS: animated drawer with full-width CTA"
   ],
-  "references": [
-    "bexio — sticky + Kostenlos testen",
-    "Stripe/Qonto — logo·menu·dual-CTA",
-    "Linear — Docs/Login/Sign up cluster"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Height drawer, full-width CTA.",
+    "soft": "Rounded items.",
+    "warm": "Hairline items, ink accent border."
+  }
 }

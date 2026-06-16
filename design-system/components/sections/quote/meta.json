@@ -19,23 +19,17 @@
   "entryIds": [
     "quote.blockquote"
   ],
-  "patterns": [
-    "Alternate light↔tinted section backgrounds for rhythm; each band full-bleed, content in a max-w container",
-    "Lead every section with an uppercase eyebrow label + one display H2",
-    "Anchor feature sections with ONE real product/credential visual rather than decorative stock"
+  "visual": "Large italic display blockquote with attribution; often a giant faint quote-glyph watermark or a thin line motif behind/around it.",
+  "placement": "Used as a philosophy beat between sections; top/bottom bordered band, centered.",
+  "states": "Watermark fades/parallaxes; text reveals on scroll.",
+  "animation": "Quote fades/slides up; giant watermark glyph parallax-drifts on scroll.",
+  "realWorld": [
+    "Rürup: giant faint Quote watermark + italic philosophy line",
+    "Controva: named-partner personal quote"
   ],
-  "references": [
-    "Pilot — warm↔cool bg spectrum",
-    "Linear/Vercel — one screenshot per section",
-    "Stripe — restrained section rhythm"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "editorial": "Serif italic, faint watermark, airy.",
+    "swiss": "Grotesk quote, signal-colour rule.",
+    "warm": "Centered blockquote + 'Strich' line motif on paper."
+  }
 }

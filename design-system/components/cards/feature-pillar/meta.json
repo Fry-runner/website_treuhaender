@@ -16,18 +16,16 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "Larger card: corner badge + checklist + CTA; for 2-pillar contrasts",
-    "Real screenshot anchors the pillar"
+  "visual": "Large card with a corner badge, a CheckCircle benefit checklist, and an outline CTA at the bottom — heavier than a service tile.",
+  "placement": "2-col 'big pillar' service layouts; each pillar is a self-contained offer with its own CTA.",
+  "states": "Hover lifts subtly; CTA inverts.",
+  "animation": "Fade-up reveal; hover subtle lift; CheckCircle items can stagger-check in; CTA inverts on hover.",
+  "realWorld": [
+    "Rürup: 2 feature pillars w/ checklist + outline CTA",
+    "Magic Heidi/bexio: feature blocks with checklists"
   ],
-  "references": [
-    "bexio — feature cards w/ screenshots",
-    "Linear — sequential feature anchors"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "swiss": "Sharp, corner badge, signal checks.",
+    "editorial": "Bordered, navy checks, serif title."
+  }
 }

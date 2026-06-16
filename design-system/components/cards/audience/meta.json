@@ -17,23 +17,17 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "icon/image-top OR icon-left → bold headline → supporting text, in 3–4 col grids",
-    "Premium lever: HAIRLINE borders (dark/precise) vs SOFT diffuse shadows (friendly/swiss)",
-    "Low radius for precise/dark, rounded 12–16px for soft/friendly"
+  "visual": "Icon circle (or mono index label) + segment title + one line; compact persona/industry card.",
+  "placement": "Audience grid, 3-col; or carousel slides.",
+  "states": "Hover tint/lift; carousel rotates.",
+  "animation": "Stagger reveal; hover tint/lift; carousel cross-fade between persona slides.",
+  "realWorld": [
+    "Osome: 3-persona carousel",
+    "Nexova: 12 industry cards"
   ],
-  "references": [
-    "Vanta — 6-col icon-top feature cards",
-    "Linear/Vercel — hairline-border cards",
-    "bexio/Numarics — soft-shadow rounded cards"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "swiss": "Mono index label, sharp.",
+    "soft": "Rounded icon circle, vibrant.",
+    "warm": "Hairline card, ink index."
+  }
 }

@@ -16,23 +16,14 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "icon/image-top OR icon-left → bold headline → supporting text, in 3–4 col grids",
-    "Premium lever: HAIRLINE borders (dark/precise) vs SOFT diffuse shadows (friendly/swiss)",
-    "Low radius for precise/dark, rounded 12–16px for soft/friendly"
+  "visual": "Bordered list row: id + date + status badge + action — a lightweight record line.",
+  "placement": "Inside engagement widgets (saved inquiries/bookings) persisted to localStorage.",
+  "states": "Status badge colour-codes; row hover; delete action.",
+  "animation": "New row slides in; status badge colour-transitions on change; delete collapses row height.",
+  "realWorld": [
+    "Boost/Tureva/UdS: inquiry tracker rows"
   ],
-  "references": [
-    "Vanta — 6-col icon-top feature cards",
-    "Linear/Vercel — hairline-border cards",
-    "bexio/Numarics — soft-shadow rounded cards"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Bordered row + status badge."
+  }
 }

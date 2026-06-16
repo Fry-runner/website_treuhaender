@@ -16,20 +16,14 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "Minimal fields; mono uppercase labels; one solid primary submit",
-    "Reduce friction — inline email field in hero, or a calculator that captures intent before the form"
+  "visual": "Submitted entries saved to localStorage and listed as tracker rows with status badges + delete.",
+  "placement": "Below the form or in a dedicated 'your inquiries' panel.",
+  "states": "Records persist across reloads; status can progress.",
+  "animation": "New tracker row slides in; delete collapses height.",
+  "realWorld": [
+    "Boost/Tureva/UdS: inquiry persistence"
   ],
-  "references": [
-    "Mercury — inline email in hero",
-    "Wise — calculator before signup",
-    "Betterment — short form + reassurance copy"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "soft-friendly",
-    "data-precise"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Tracker rows + status badges."
+  }
 }

@@ -15,22 +15,14 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Interactive proof beats static copy: calculator / quiz / live demo near the top converts + adds the 'wow'",
-    "FAQ accordion + testimonial carousel as the standard objection-handling close"
+  "visual": "Fixed overlay with backdrop-blur, a scrollable scale-in dialog, and corner close buttons — used for Impressum/Datenschutz.",
+  "placement": "Triggered from footer legal links; centered overlay.",
+  "states": "Scale/fade-in; backdrop click + X close; body scroll lock.",
+  "animation": "Backdrop fade + dialog scale-in (0.96→1, 200–250ms); close reverses; body scroll lock.",
+  "realWorld": [
+    "Boost/Rürup: legal modals"
   ],
-  "references": [
-    "Wise — hero FX calculator",
-    "Digits — interactive product console hero",
-    "Betterment/Selma — FAQ accordion close"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Blur backdrop, scale-in dialog."
+  }
 }

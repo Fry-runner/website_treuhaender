@@ -15,19 +15,17 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "Single-open FAQ/services accordion; chevron/plus toggle; objection-handling close"
+  "visual": "Single-open expandable list (Plus/Minus toggle) with height-animated body.",
+  "placement": "FAQ and accordion-style services.",
+  "states": "One panel open at a time; icon morphs; height springs.",
+  "animation": "Body height + opacity spring open, one at a time; icon morphs 200–300ms.",
+  "realWorld": [
+    "Rürup/Tureva: accordions",
+    "Findea: expandable service cards"
   ],
-  "references": [
-    "Puzzle/Betterment/Selma — FAQ accordion"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Plus/Minus, height motion.",
+    "soft": "Rounded panels.",
+    "swiss": "Sharp numbered panels."
+  }
 }

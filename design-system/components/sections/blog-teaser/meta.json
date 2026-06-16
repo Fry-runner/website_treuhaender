@@ -15,19 +15,17 @@
   "priority": "common",
   "discoveredIn": "scraped",
   "prevalence": "64% of scraped sites have a blog/news area; absent in built templates",
-  "patterns": [
-    "3–4 latest-article cards (image + tag + headline + date) signal authority + SEO",
-    "Resources / Merkblätter / downloads list as an alternative"
+  "visual": "3-card 'latest insights' row: image, date, title, excerpt, read-more; or a news/Merkblätter list.",
+  "placement": "Late page, before the final CTA/footer.",
+  "states": "Card hover lift; read-more arrow translate.",
+  "animation": "Cards stagger fade-up; image zooms gently on hover; read-more arrow translates.",
+  "realWorld": [
+    "64% of scraped CH sites have a blog/news area",
+    "Findea/Osome/Pilot/Bench: resource/blog hubs"
   ],
-  "references": [
-    "bexio — 4 blog cards",
-    "Pilot — resources section",
-    "Pennylane — resource hub"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "soft-friendly"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "soft": "Rounded image-top cards.",
+    "editorial": "Hairline cards, serif titles.",
+    "any": "3-col article cards."
+  }
 }

@@ -31,26 +31,21 @@
     "hero.text-left",
     "hero.with-factband"
   ],
-  "patterns": [
-    "Benefit/outcome headline (sometimes a trust statement), NOT a feature list",
-    "Two layouts dominate: centered benefit (Stripe/Vanta/bexio/Linear/Vercel) OR split text-left / product-right (Pilot/Betterment/Selma/Mercury)",
-    "1 solid primary CTA + 1 quiet secondary (demo / video / explore); same primary repeats in nav + final band",
-    "In-hero trust is near-universal: logo wall + a HARD metric (3,000+/16,000+/CHF X) and/or a rating badge",
-    "Show the product/credential immediately (split UI, demo, or screenshot) — not decorative stock"
+  "visual": "Full-bleed top section (≈70–100vh on SaaS, ≈55–70vh on boutique). Oversized display H1 (text-5xl→7xl) with one accent-coloured span; muted lede beneath; eyebrow above (uppercase-tracked OR numbered '01'). SaaS variants anchor the copy with a product mockup / illustration / device frame; boutique variants are type-only on white or warm paper.",
+  "placement": "First block under the sticky nav. Copy left-aligned or centered; supporting visual on the right in 12-col splits (7/5, 8/4). The dual-CTA row sits immediately under the lede; an in-hero trust nibble (rating badge, client count, or partner/award logos) sits just below or beside the CTAs.",
+  "states": "On-load fade / slide-up reveal; product mockups may parallax subtly; CTAs animate per their own button spec.",
+  "animation": "Staggered on-load reveal: eyebrow → H1 → lede → CTA row slide-up + fade in sequence (~80ms stagger, 500–700ms ease-out); supporting mockup/illustration parallaxes subtly on scroll. soft: spring entrance + mockup float; swiss/editorial/warm: understated, no parallax.",
+  "realWorld": [
+    "Nexova: left copy + 3 claim chips + 5.0★/93 badge",
+    "Magic Heidi: centered + Swiss QR-bill invoice mockup + '5,000+ freelancers'",
+    "Pilot: copy left + .avif product illustration right + '3,000+ startups' logo strip",
+    "Warringsholz: split copy + founder portrait, 'Kompetent. Persönlich. Digital.'",
+    "STG Zürich: type-only heritage hero 'Uns vertrauen Generationen. Seit 1906'"
   ],
-  "references": [
-    "Wise — live calculator in hero",
-    "Vanta — 'Trust is everything' + 16k logos",
-    "bexio — 4.0/1930 reviews + 100k KMU in hero",
-    "Mercury — inline email + screenshots behind"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Serif H1, wide whitespace, numbered or tracked eyebrow, text-link / all-caps CTA, optional pull-quote aside.",
+    "swiss": "Grotesk H1 on faint masked-grid bg, pulse-dot availability badge, two sharp solid CTAs, left-aligned.",
+    "soft": "Geometric H1, centered stack, rounded pill CTAs, product mockup or illustration, Google-rating badge below.",
+    "warm": "Warm-paper bg, sharp corners, ink-blue accent span, 8/4 text + rose pull-quote aside, snappy underline CTA."
+  }
 }

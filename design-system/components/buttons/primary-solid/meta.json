@@ -17,22 +17,20 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Single saturated brand accent, solid fill, repeated 4–5×",
-    "Shape ranges sharp→pill by language; label often mono uppercase for craft"
+  "visual": "Solid accent fill, white (or ink-on-lime) label. Shape follows the look: pill on soft/SaaS, rounded-md on swiss/corporate, sharp on editorial/warm. Label often uppercase-tracked (mono) on editorial/swiss, title-case on soft; frequently carries a trailing arrow or send icon.",
+  "placement": "The page's single most important action. Top-right of the nav ('Termin buchen' / 'Get started' / 'Book a demo') — near-universal across all 30 sites; first of the hero dual-CTA pair; repeated at section ends and in the final CTA band + footer.",
+  "states": "Hover: brightness/elevation shift or arrow translate; active: slight press; focus: accent ring.",
+  "animation": "Hover: 150–250ms brightness/elevation lift OR arrow translate-x ~4px; active: press scale 0.98; focus: ring fades in. soft adds spring + shadow bloom; warm is a snappy 200ms ease-out.",
+  "realWorld": [
+    "Magic Heidi: teal pill 'Start Free' top-right + hero",
+    "Gruber Renger: lime rounded 'Erstgespräch buchen' repeated 5+×",
+    "Collective: dark rectangular 'Get started'",
+    "Run my Accounts: navy pill 'Offerte' in nav"
   ],
-  "references": [
-    "Vanta — solid navy 'Get a demo' ×5",
-    "Pilot — purple monospace pills",
-    "Linear — dark primary"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Navy fill, sharp/rounded-md, uppercase mono label + arrow.",
+    "swiss": "Signal-red/anthracite fill, rounded-sm, tracked uppercase label.",
+    "soft": "Lime/teal pill, title-case, soft shadow, optional bloom.",
+    "warm": "Ink-blue fill, sharp, mono label, snappy hover."
+  }
 }

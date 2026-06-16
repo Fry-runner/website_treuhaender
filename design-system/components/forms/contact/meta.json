@@ -17,22 +17,18 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Short field set, mono uppercase labels, one solid submit; consent/DSGVO note",
-    "Offer booking as the primary path; form as fallback"
+  "visual": "2-col paired rows (name/email, phone/service-select) + full-width textarea; mono uppercase labels; required *; primary submit with send icon.",
+  "placement": "Contact section, one side of a 7/5 or 5/7 split opposite the office info.",
+  "states": "Inline validation, focus accent border, success/error banner on submit.",
+  "animation": "Fields fade-up staggered; focus ring/border transition 150ms; submit → spinner → success swap; banner slide-fade.",
+  "realWorld": [
+    "All built sites",
+    "Run my Accounts: 'Grobofferte' form",
+    "Statzinger: 'Erstgespräch' form"
   ],
-  "references": [
-    "Mercury — inline capture",
-    "Betterment — short form + reassurance",
-    "CH norm — form + office card"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Mono labels, accent focus, send icon.",
+    "soft": "Rounded fields, pill submit.",
+    "warm": "Hairline fields on paper."
+  }
 }

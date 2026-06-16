@@ -15,22 +15,16 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "One signature graphic moment max (gradient OR illustration OR texture) on an otherwise restrained canvas",
-    "Texture/grid overlays at very low opacity (8–20%) add depth without noise"
+  "visual": "Image card with an offset border frame and a credential caption overlay.",
+  "placement": "About/profile splits for owner-led firms.",
+  "states": "Subtle reveal; offset frame static.",
+  "animation": "Offset frame slides into place on reveal; credential overlay fades in.",
+  "realWorld": [
+    "Rürup: offset portrait frame + credential overlay",
+    "Warringsholz: founder portrait"
   ],
-  "references": [
-    "Stripe/Digits — signature gradient",
-    "Gusto/Carta — illustration system",
-    "Pilot — ledger-grid texture @8–20%"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "swiss": "Sharp offset frame, signal caption.",
+    "editorial": "Navy frame, serif caption."
+  }
 }

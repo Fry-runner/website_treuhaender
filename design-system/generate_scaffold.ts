@@ -8,6 +8,19 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { inventory, sections, type InventoryEntry } from "./component-inventory.ts";
+import { slotEnrichment, elementEnrichment, animationEnrichment, type Enrichment } from "./enrichment.ts";
+
+/** Strip undefined keys so meta.json stays clean. Adds animation from its own map. */
+function pickEnrichment(key: string, e?: Enrichment): Record<string, unknown> {
+  const out: Record<string, unknown> = {};
+  if (e?.visual) out.visual = e.visual;
+  if (e?.placement) out.placement = e.placement;
+  if (e?.states) out.states = e.states;
+  if (e?.animation ?? animationEnrichment[key]) out.animation = e?.animation ?? animationEnrichment[key];
+  if (e?.realWorld) out.realWorld = e.realWorld;
+  if (e?.designLanguage) out.designLanguage = e.designLanguage;
+  return out;
+}
 
 const ROOT = join(import.meta.dirname, "components");
 
@@ -91,6 +104,7 @@ for (const [slot, entries] of bySlot) {
     priority: entries.some((e) => e.priority === "core") ? "core"
       : entries.some((e) => e.priority === "common") ? "common" : "optional",
     entryIds: entries.map((e) => e.id),
+    ...pickEnrichment(slot, slotEnrichment[slot]),
   });
 }
 
@@ -102,6 +116,7 @@ for (const [cat, entries] of Object.entries(inventory)) {
       id: e.id, category: e.category, name: e.name, variants: e.variants,
       structure: e.structure, fromBuiltSites: e.sources,
       styleAffinity: e.styleAffinity, priority: e.priority, notes: e.notes ?? null,
+      ...pickEnrichment(e.id, elementEnrichment[e.id]),
     });
   }
 }
@@ -113,6 +128,7 @@ for (const a of additions) {
     id: a.id, category: a.category, name: a.name, variants: a.variants,
     structure: a.structure, fromBuiltSites: a.sources, styleAffinity: a.styleAffinity,
     priority: a.priority, discoveredIn: a.discoveredIn, prevalence: a.prevalence ?? null,
+    ...pickEnrichment(a.id, elementEnrichment[a.id]),
   });
 }
 

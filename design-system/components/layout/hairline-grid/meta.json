@@ -15,18 +15,15 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "Zero-gap bordered cells divided by hairlines; premium/editorial feel"
+  "visual": "A single bordered box subdivided by divide-x/divide-y hairlines (zero-gap cells).",
+  "placement": "Editorial services/values/stats where a 'ledger' look is wanted.",
+  "states": "Hover tints a cell.",
+  "animation": "Cells fade-in on reveal; hover tints an individual cell ~200ms.",
+  "realWorld": [
+    "Boost: divided service/stat grids"
   ],
-  "references": [
-    "Linear — hairline borders",
-    "Vercel — hairline structure"
-  ],
-  "designLanguages": [
-    "dark-premium",
-    "data-precise",
-    "editorial-trust",
-    "swiss-clean"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Hairline-divided ledger box.",
+    "warm": "Hairlines on paper."
+  }
 }

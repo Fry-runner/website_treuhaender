@@ -14,19 +14,14 @@
   "priority": "common",
   "discoveredIn": "scraped",
   "prevalence": "explicit tooling on 6%, but required for all",
-  "patterns": [
-    "nDSG/DSGVO consent banner; accept + settings; quiet, bottom-anchored"
+  "visual": "Bottom consent banner or a preferences modal with accept/settings — legally required (nDSG/DSGVO).",
+  "placement": "Fixed bottom on first visit.",
+  "states": "Dismiss persists choice; settings opens preferences.",
+  "animation": "Slides up from the bottom on first visit; dismiss slides out; settings opens a scale-in modal.",
+  "realWorld": [
+    "Required for all CH/EU sites; explicit tooling on ~6% of scraped"
   ],
-  "references": [
-    "EU/CH norm — Cookiebot/Usercentrics-style"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Bottom banner, accept/settings."
+  }
 }

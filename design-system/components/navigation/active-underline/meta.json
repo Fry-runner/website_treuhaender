@@ -18,23 +18,17 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Sticky, translucent + backdrop-blur, hairline bottom border",
-    "logo-left · links-center · dual-CTA-right (text 'Login' + solid primary)",
-    "Persistent single primary CTA repeated in hero + final band"
+  "visual": "Active nav item carries a sliding/animated underline bar (layoutId spring) or a static accent underline.",
+  "placement": "Desktop link row; indicator tracks the current section/page.",
+  "states": "Spring-slides between items on route/scroll change.",
+  "animation": "Underline bar spring-slides between items (layoutId, ~300ms) on route/section change.",
+  "realWorld": [
+    "Rürup/UdS/Tureva: animated underline",
+    "Boost: static accent underline"
   ],
-  "references": [
-    "bexio — sticky + Kostenlos testen",
-    "Stripe/Qonto — logo·menu·dual-CTA",
-    "Linear — Docs/Login/Sign up cluster"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Sliding underline.",
+    "swiss": "Signal-colour bar.",
+    "soft": "Vibrant spring underline."
+  }
 }

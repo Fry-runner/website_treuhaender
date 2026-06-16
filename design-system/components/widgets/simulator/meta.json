@@ -14,22 +14,16 @@
   ],
   "priority": "optional",
   "notes": "Signature 'wow' interactive; brand-specific.",
-  "patterns": [
-    "Interactive proof beats static copy: calculator / quiz / live demo near the top converts + adds the 'wow'",
-    "FAQ accordion + testimonial carousel as the standard objection-handling close"
+  "visual": "Sliders compute an SVG sine-wave path + a status verdict with a celebration state — a signature 'wow' interaction.",
+  "placement": "A hero-adjacent or mid-page showpiece; brand-specific.",
+  "states": "Live SVG path recompute; verdict colour shifts; celebration on 'good' state.",
+  "animation": "SVG sine-wave path morphs live as sliders move (rAF); verdict colour-shifts; celebration burst on the 'good' state.",
+  "realWorld": [
+    "UdS: FinanceSimulator",
+    "Magic Heidi: live QR-bill mockup as showpiece"
   ],
-  "references": [
-    "Wise — hero FX calculator",
-    "Digits — interactive product console hero",
-    "Betterment/Selma — FAQ accordion close"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Sliders → live SVG verdict.",
+    "soft": "Vibrant wave, playful."
+  }
 }

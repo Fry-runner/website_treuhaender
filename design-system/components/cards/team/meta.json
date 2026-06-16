@@ -16,18 +16,17 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "Headshot/monogram + name + role + bio; testimonial variant adds quote + company logo"
+  "visual": "Monogram or photo avatar + name + role badge + short bio; or a 4/8 profile row with bio + tag chips.",
+  "placement": "Team grid (3-col cards) or stacked profile rows; teaser panel links to full page.",
+  "states": "Hover reveals contact/socials; avatar desaturate→colour.",
+  "animation": "Fade-up; hover reveals socials/contact; monogram↔photo cross-fade.",
+  "realWorld": [
+    "Tureva: monogram + role pill",
+    "UdS: profile rows + tags"
   ],
-  "references": [
-    "Mercury — portrait testimonial cards",
-    "Gusto — people photography",
-    "Pennylane — headshot + title + logo"
-  ],
-  "designLanguages": [
-    "editorial-trust",
-    "soft-friendly",
-    "swiss-clean"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "soft": "Rounded card, coloured monogram.",
+    "warm": "Hairline row, ink role tag.",
+    "editorial": "Serif name, photo whitespace."
+  }
 }

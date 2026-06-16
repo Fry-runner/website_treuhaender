@@ -14,17 +14,17 @@
   "priority": "common",
   "discoveredIn": "scraped",
   "prevalence": "16% of scraped sites expose a client portal/login",
-  "patterns": [
-    "Prominent 'Login' in nav routing to a client portal (AbaWeb/cockpit)",
-    "Signals digital maturity"
+  "visual": "A prominent Login link/button (often outlined) routing to a client portal (e.g. AbaWeb).",
+  "placement": "Top-right of nav, separated from the marketing CTA.",
+  "states": "Hover per button spec; routes off to portal.",
+  "animation": "Hover per ghost-button (fill/tint); routes away to the portal (no in-page animation).",
+  "realWorld": [
+    "16% of scraped CH sites",
+    "bexio/Pilot/Bench/Collective: 'Log in' separate from 'Get started'"
   ],
-  "references": [
-    "bexio — Login + dashboard",
-    "Numarics — cockpit/DocuBox portal"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Outlined Login in nav.",
+    "swiss": "Sharp ghost login.",
+    "soft": "Pill ghost login."
+  }
 }

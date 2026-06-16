@@ -17,22 +17,16 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "One signature graphic moment max (gradient OR illustration OR texture) on an otherwise restrained canvas",
-    "Texture/grid overlays at very low opacity (8–20%) add depth without noise"
+  "visual": "Hand-built decorative SVG map (abstract DE-CH or Zürich streets).",
+  "placement": "Coverage/contact area.",
+  "states": "Nodes animate (see widget.map-interactive).",
+  "animation": "Lines draw on reveal; nodes animate (see widget.map-interactive).",
+  "realWorld": [
+    "Rürup: DE-CH abstract",
+    "UdS: Zürich streets"
   ],
-  "references": [
-    "Stripe/Digits — signature gradient",
-    "Gusto/Carta — illustration system",
-    "Pilot — ledger-grid texture @8–20%"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "swiss": "Abstract CH lines.",
+    "warm": "Zürich street map."
+  }
 }

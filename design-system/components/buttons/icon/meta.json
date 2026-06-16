@@ -17,23 +17,15 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Two-tier hierarchy everywhere: solid brand-accent primary + quieter secondary (outline OR underlined text+arrow)",
-    "One accent does ALL CTA work; primary repeated 4–5× verbatim",
-    "Hover = subtle lift (translateY -2/-4px) + color darken"
+  "visual": "Square or round icon-only button (lucide icon): close X, refresh, restart, slot-select, carousel arrows.",
+  "placement": "Modal corners, carousel edges, form resets, mobile nav toggles.",
+  "states": "Hover bg/tint; focus ring; rotates for toggles.",
+  "animation": "Hover bg/tint fade; toggle icons rotate (chevron 180°, hamburger→X morph) 200–300ms.",
+  "realWorld": [
+    "All built sites: carousel arrows, modal close, mobile hamburger",
+    "Pilot/Bench/Statzinger: testimonial carousel arrows"
   ],
-  "references": [
-    "Pilot — monospace uppercase pills",
-    "Stripe/Qonto — solid primary + text secondary",
-    "Linear — dark primary + → link"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Icon in subtle bordered/round container."
+  }
 }

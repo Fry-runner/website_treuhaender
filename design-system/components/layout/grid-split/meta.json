@@ -17,21 +17,14 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "12-col asymmetric splits (8/4, 7/5) for hero/about/contact"
+  "visual": "lg:grid-cols-12 asymmetric splits (8/4, 7/5, 5/7, 6/6, 4/8) for hero/about/contact.",
+  "placement": "Two-part sections where copy and a visual/info block sit side by side.",
+  "states": "Stacks on mobile.",
+  "animation": "Halves can reveal from opposite sides (slide-in left/right) on scroll-into-view.",
+  "realWorld": [
+    "Hero/about/contact across all sites use 12-col splits"
   ],
-  "references": [
-    "Pilot — split hero",
-    "Betterment/Selma — split hero",
-    "Carta — split"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "12-col asymmetric split."
+  }
 }

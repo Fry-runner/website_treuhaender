@@ -16,21 +16,18 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "Big number + mono label; minimal chrome; grouped in a divided band"
+  "visual": "Big display number + mono/uppercase label + caption; bordered cell or borderless.",
+  "placement": "Inside the stats band, 3–4 across, or embedded in an about-split as a 2×2 metric card.",
+  "states": "Optional count-up on view.",
+  "animation": "Number count-up on scroll-into-view; cell fade-up.",
+  "realWorld": [
+    "Bench '$200M+'",
+    "bexio '100,000+ KMU'",
+    "Divisia '500+ Mandate'"
   ],
-  "references": [
-    "Mercury — metrics band",
-    "Wealthfront — $95B+/1.4M+",
-    "Vercel — perf metrics"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Number + label + caption.",
+    "soft": "Accent number, rounded panel.",
+    "warm": "Telemetry label→value."
+  }
 }

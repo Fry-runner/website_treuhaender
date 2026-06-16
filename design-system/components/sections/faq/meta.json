@@ -16,22 +16,17 @@
   "entryIds": [
     "faq.list"
   ],
-  "patterns": [
-    "5–8 objection-handling Q&A as a native accordion near the bottom",
-    "Pre-empts: what does it cost, do I need a contract, is it really digital, data protection"
+  "visual": "Objection-handling Q&A — either static stacked cards or a single-open accordion (Plus/Minus). 5–8 entries.",
+  "placement": "Late page (slot 13), before the final CTA. Centered stack max-w-3xl, or 2-col on wide layouts.",
+  "states": "Accordion expands one panel at a time with height motion; chevron/plus rotates.",
+  "animation": "Accordion body springs open with height + opacity (one panel at a time); chevron/plus rotates 200–300ms. soft: bouncier spring; swiss: linear snap.",
+  "realWorld": [
+    "Canonical CH set: Was macht ein Treuhänder? · Kosten? · Vertrag? · wirklich digital? · Regionen? · Datenschutz?",
+    "Statzinger: FAQ + comparison framing"
   ],
-  "references": [
-    "Betterment — FAQ accordion close",
-    "Puzzle — FAQ accordion",
-    "Selma — FAQ before footer"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Stacked Q/A cards or single-open accordion.",
+    "soft": "Rounded accordion, vibrant active state.",
+    "swiss": "Sharp numbered accordion panels."
+  }
 }

@@ -17,20 +17,16 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Bordered field, token radius, accent focus ring; generous touch targets"
+  "visual": "Consistent field styling driven by tokens: border, focus-accent ring, radius per preset (sharp on swiss/warm, rounded on soft).",
+  "placement": "All forms and search/calculator inputs.",
+  "states": "Focus adopts accent border/ring; invalid → red border.",
+  "animation": "Focus border/ring transition ~150ms; floating label rises 200ms (if used); optional shake on invalid.",
+  "realWorld": [
+    "All built sites: token-driven inputs"
   ],
-  "references": [
-    "Stripe — refined inputs",
-    "bexio — clean fields"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "soft": "rounded-xl, soft focus ring.",
+    "swiss": "rounded-sm, signal focus.",
+    "warm": "sharp, ink focus."
+  }
 }

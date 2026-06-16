@@ -19,22 +19,18 @@
   "entryIds": [
     "stats.band"
   ],
-  "patterns": [
-    "Big display number + mono label + caption, in a divided/centered band",
-    "CH metrics: clients served, years, cantons, languages; numbers carry trust"
+  "visual": "Big display numbers (text-4xl→6xl) with a mono/uppercase label and short caption. Either a bordered divided row or a tinted panel with a 2×2 metric grid.",
+  "placement": "Mid-page, often paired with about/testimonials as a credibility beat, or as a thin band between two larger sections. 3 or 4 cells across.",
+  "states": "Optional count-up on scroll-into-view.",
+  "animation": "Numbers count-up from 0 on scroll-into-view (~1–1.2s ease-out); cells fade-up staggered.",
+  "realWorld": [
+    "bexio: '100,000+ KMU', '4.0 / 1930 reviews'",
+    "Bench: '35,000+ owners', '$200M+ saved'",
+    "Divisia (CH baseline): 20+ years · 500+ mandates · 1 language · ZH"
   ],
-  "references": [
-    "Mercury — 300K+/1-in-3/$20B+/4.9 metrics band",
-    "Linear — '33,000 teams'",
-    "Wealthfront — $95B+/1.4M+"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Bordered, divided, centered numbers; restrained.",
+    "soft": "Tinted panel, rounded, accent numbers.",
+    "warm": "Label→value telemetry card with accent bar."
+  }
 }

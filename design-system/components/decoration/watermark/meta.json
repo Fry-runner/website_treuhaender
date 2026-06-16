@@ -15,22 +15,15 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "One signature graphic moment max (gradient OR illustration OR texture) on an otherwise restrained canvas",
-    "Texture/grid overlays at very low opacity (8–20%) add depth without noise"
+  "visual": "Oversized faint background glyph (e.g. a Quote mark) behind text.",
+  "placement": "Behind pull-quotes/philosophy blocks.",
+  "states": "Parallax/fade on scroll.",
+  "animation": "Parallax-drift on scroll; fades in behind the text.",
+  "realWorld": [
+    "Rürup: giant faint Quote glyph"
   ],
-  "references": [
-    "Stripe/Digits — signature gradient",
-    "Gusto/Carta — illustration system",
-    "Pilot — ledger-grid texture @8–20%"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "editorial": "Faint serif glyph.",
+    "swiss": "Faint grotesk glyph."
+  }
 }

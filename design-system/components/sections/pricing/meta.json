@@ -18,19 +18,18 @@
     "pricing.cards",
     "pricing.rate-table"
   ],
-  "patterns": [
-    "Transparent tiers with one recommended highlighted; or a calculator that doubles as lead capture",
-    "Comparison table positioning (us vs alternatives) builds confidence"
+  "visual": "Tier cards (name, description, price+period over a hairline, feature ul, CTA) with one 'recommended' card ringed/tinted; or a calculator that drives the highlight.",
+  "placement": "Lower-mid page (slot 11). lg:grid-cols-3 cards, recommended one centered/elevated; rate tables use 2-col line-item cards.",
+  "states": "Recommended card elevated; calculator slider re-highlights live; CTA hover per button spec.",
+  "animation": "Tier cards rise + fade staggered; recommended card holds a subtle scale/glow; calculator re-highlights the matching tier with a 200ms transition.",
+  "realWorld": [
+    "Osome: 'ACCOUNTING from £71/m' with yellow cdx-marker highlight",
+    "Nexova: per-service 'ab CHF X' inline pricing",
+    "Boost: 3-col cards, calculator-driven recommended ring"
   ],
-  "references": [
-    "Wise — competitor price comparison",
-    "Selma — vs Bank vs Robo table",
-    "Ramp — pricing + implementation checklist"
-  ],
-  "designLanguages": [
-    "data-precise",
-    "fintech-clean",
-    "swiss-clean"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "editorial": "Bordered cards, serif price, restrained recommended tint.",
+    "soft": "Rounded cards, vibrant recommended ring, pill CTA.",
+    "swiss": "Sharp cards, signal-colour 'empfohlen' badge."
+  }
 }

@@ -16,23 +16,20 @@
   "entryIds": [
     "testimonials.social-proof"
   ],
-  "patterns": [
-    "Named quote cards: portrait/headshot + quote + name + company + city/logo (anonymous = weak)",
-    "Pair quotes with an aggregate metric/rating badge (4.8 / 92% recommend / 1000+ KMU)",
-    "Often a carousel; video testimonials raise credibility further"
+  "visual": "Social proof: 2–4 named quote cards (quote, person, company, city — never anonymous) plus an aggregate metric/rating badge. Optional client photo and a linked case study.",
+  "placement": "Slot 7 (briefing backbone) — right after values, as the credibility pivot; or as a carousel lower down. 2–3 col cards, or a rotating slider with arrows.",
+  "states": "Carousel auto-rotates with arrows/dots; cards lift on hover; star rating renders inline.",
+  "animation": "Carousel auto-rotates (cross-fade or slide, ~5–6s) with arrows/dots; cards lift on hover; star rating can animate its fill.",
+  "realWorld": [
+    "Avalon: named quotes w/ company + city + case-study links",
+    "Statzinger: testimonial carousel + Google 4.9/50 badge",
+    "Bench: Trustpilot tiles with faces",
+    "Osome: '92% recommend' + photo+quote cards"
   ],
-  "references": [
-    "Pennylane — video-testimonial carousel + dual badges",
-    "Mercury — portrait + blockquote cards",
-    "Betterment — rating 4.8 (78.1K) in hero"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Named quote cards + aggregate rating badge.",
+    "soft": "Rounded cards w/ avatar, soft shadow, carousel.",
+    "warm": "Hairline quote cards on paper, rose accent mark.",
+    "editorial": "Serif pull-quotes, restrained attribution."
+  }
 }

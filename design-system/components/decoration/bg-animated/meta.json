@@ -20,19 +20,18 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "One signature gradient/video moment at hero scale only; respects reduced-motion",
-    "Mesh gradient (Stripe/Vercel) or animated video (Digits)"
+  "visual": "Fixed/absolute decorative layer behind content: flowing ribbons, masked grid, or faint gridlines.",
+  "placement": "Behind hero/sections, low opacity.",
+  "states": "Slow drift/parallax; respects reduced-motion.",
+  "animation": "Continuous slow drift/parallax (ribbons flow, grid pans); pauses under prefers-reduced-motion.",
+  "realWorld": [
+    "Tureva: ribbons",
+    "Rürup/Boost: masked grid",
+    "UdS: faint gridlines"
   ],
-  "references": [
-    "Stripe — minigl gradient wave",
-    "Vercel — single mesh gradient",
-    "Digits — animated video hero"
-  ],
-  "designLanguages": [
-    "fintech-clean",
-    "dark-premium",
-    "editorial-trust"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "soft": "Flowing ribbons.",
+    "swiss": "Masked technical grid.",
+    "warm": "Faint paper gridlines."
+  }
 }

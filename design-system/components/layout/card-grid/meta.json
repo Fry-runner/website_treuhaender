@@ -17,21 +17,16 @@
   ],
   "priority": "core",
   "notes": null,
-  "patterns": [
-    "Responsive 3–4 col grids for features/services; 2-col for stats"
+  "visual": "Responsive 2/3/4/5-col grid for cards.",
+  "placement": "Services, audience, team, partners, pricing.",
+  "states": "Reflows by breakpoint.",
+  "animation": "Children stagger-reveal (fade-up, ~60–80ms per item).",
+  "realWorld": [
+    "3-col services dominant; 4-col features; 2-col big pillars"
   ],
-  "references": [
-    "Vanta — 6-col",
-    "Stripe — product card grid",
-    "bexio — 4-col"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (specific)"
+  "designLanguage": {
+    "any": "Responsive card grid.",
+    "soft": "Gap-rich rounded grid.",
+    "swiss": "Tight bordered grid."
+  }
 }

@@ -14,23 +14,15 @@
   ],
   "priority": "optional",
   "notes": null,
-  "patterns": [
-    "icon/image-top OR icon-left → bold headline → supporting text, in 3–4 col grids",
-    "Premium lever: HAIRLINE borders (dark/precise) vs SOFT diffuse shadows (friendly/swiss)",
-    "Low radius for precise/dark, rounded 12–16px for soft/friendly"
+  "visual": "Tinted recommendation card with a Sparkles icon, a verdict line, and CTAs — the payoff of a quiz/calculator.",
+  "placement": "End of an interactive widget flow.",
+  "states": "Scale-in on reveal; CTA hover.",
+  "animation": "Spring scale-in on reveal with a Sparkles pop; CTAs fade up after.",
+  "realWorld": [
+    "UdS: quiz result card with verdict + CTAs"
   ],
-  "references": [
-    "Vanta — 6-col icon-top feature cards",
-    "Linear/Vercel — hairline-border cards",
-    "bexio/Numarics — soft-shadow rounded cards"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "any": "Tinted card, icon + verdict.",
+    "soft": "Rounded, vibrant tint."
+  }
 }

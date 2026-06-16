@@ -15,22 +15,15 @@
   ],
   "priority": "common",
   "notes": null,
-  "patterns": [
-    "One signature graphic moment max (gradient OR illustration OR texture) on an otherwise restrained canvas",
-    "Texture/grid overlays at very low opacity (8–20%) add depth without noise"
+  "visual": "Initials on a solid colour block as a placeholder avatar, with a role badge.",
+  "placement": "Team cards/rows when photos aren't available.",
+  "states": "Hover may reveal contact.",
+  "animation": "Fade-in with its card; hover reveals an overlay.",
+  "realWorld": [
+    "Tureva/UdS: monogram avatars"
   ],
-  "references": [
-    "Stripe/Digits — signature gradient",
-    "Gusto/Carta — illustration system",
-    "Pilot — ledger-grid texture @8–20%"
-  ],
-  "designLanguages": [
-    "swiss-clean",
-    "fintech-clean",
-    "editorial-trust",
-    "soft-friendly",
-    "data-precise",
-    "dark-premium"
-  ],
-  "enrichedFrom": "site-analysis (category default)"
+  "designLanguage": {
+    "soft": "Rounded coloured monogram.",
+    "warm": "Square ink monogram."
+  }
 }
