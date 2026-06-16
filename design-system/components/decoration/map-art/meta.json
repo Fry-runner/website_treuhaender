@@ -1,0 +1,20 @@
+{
+  "id": "decor.map-art",
+  "category": "decoration",
+  "name": "Stylized line-map graphic",
+  "variants": [
+    "DE-CH abstract (ruerup)",
+    "Zürich streets (uds)"
+  ],
+  "structure": "hand-built decorative SVG map",
+  "fromBuiltSites": [
+    "ruerup",
+    "uds"
+  ],
+  "styleAffinity": [
+    "swiss",
+    "warm"
+  ],
+  "priority": "optional",
+  "notes": null
+}

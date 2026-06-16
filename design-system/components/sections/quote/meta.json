@@ -1,0 +1,22 @@
+{
+  "slot": "quote",
+  "category": "section",
+  "name": "Section: quote",
+  "variants": [
+    "giant faint watermark + italic quote (ruerup)",
+    "bordered centered blockquote + line motif (uds)"
+  ],
+  "fromBuiltSites": [
+    "ruerup",
+    "uds"
+  ],
+  "styleAffinity": [
+    "editorial",
+    "warm",
+    "swiss"
+  ],
+  "priority": "common",
+  "entryIds": [
+    "quote.blockquote"
+  ]
+}

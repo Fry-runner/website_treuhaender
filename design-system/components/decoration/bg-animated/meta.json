@@ -1,0 +1,23 @@
+{
+  "id": "decor.bg-animated",
+  "category": "decoration",
+  "name": "Animated background",
+  "variants": [
+    "flowing ribbons (tureva)",
+    "masked grid (ruerup, boost)",
+    "faint gridlines (uds)"
+  ],
+  "structure": "fixed/absolute decorative SVG/CSS layer behind content",
+  "fromBuiltSites": [
+    "tureva",
+    "ruerup",
+    "boost",
+    "uds"
+  ],
+  "styleAffinity": [
+    "soft",
+    "swiss"
+  ],
+  "priority": "common",
+  "notes": null
+}

@@ -1,0 +1,22 @@
+{
+  "slot": "audience",
+  "category": "section",
+  "name": "Section: audience",
+  "variants": [
+    "3-col icon cards (tureva)",
+    "A/B/C cards (uds)",
+    "mono-indexed client-group grid (ruerup)"
+  ],
+  "fromBuiltSites": [
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "entryIds": [
+    "audience.cards"
+  ]
+}

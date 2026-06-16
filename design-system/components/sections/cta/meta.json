@@ -1,0 +1,23 @@
+{
+  "slot": "cta",
+  "category": "section",
+  "name": "Section: cta",
+  "variants": [
+    "centered eyebrow+H2+button (all)",
+    "teaser text-left + button-right (tureva, uds)",
+    "inverted dark/decorated card (boost, ruerup)"
+  ],
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "entryIds": [
+    "cta.band"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slot": "profile",
+  "category": "section",
+  "name": "Section: profile",
+  "variants": [
+    "hero + bio split + qualifications grid + pull-quote (ruerup)"
+  ],
+  "fromBuiltSites": [
+    "ruerup"
+  ],
+  "styleAffinity": [
+    "swiss",
+    "editorial",
+    "warm"
+  ],
+  "priority": "common",
+  "entryIds": [
+    "about.profile-person"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "nav.sticky-translucent",
+  "category": "navigation",
+  "name": "Sticky translucent header",
+  "variants": [
+    "custom SVG logo (boost ∞, tureva double-T)",
+    "wordmark + subtitle (ruerup, uds)",
+    "hover-grow accent line (uds)"
+  ],
+  "structure": "sticky top-0 z-50, bg/90 backdrop-blur, bottom hairline, h-20, max-w-7xl; logo | center nav | right CTA",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "notes": null
+}

@@ -1,0 +1,22 @@
+{
+  "slot": "about",
+  "category": "section",
+  "name": "Section: about",
+  "variants": [
+    "narrative + portrait (ruerup)",
+    "narrative + stats card 8/4 (uds)",
+    "history 6/6 + mini-stats (tureva)"
+  ],
+  "fromBuiltSites": [
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "entryIds": [
+    "about.split-narrative"
+  ]
+}

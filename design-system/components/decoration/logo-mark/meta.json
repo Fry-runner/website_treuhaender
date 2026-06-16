@@ -1,0 +1,19 @@
+{
+  "id": "decor.logo-mark",
+  "category": "decoration",
+  "name": "Custom SVG logo mark",
+  "variants": [
+    "infinity ∞ (boost)",
+    "double-T monogram (tureva)"
+  ],
+  "structure": "inline SVG brand mark in header/footer",
+  "fromBuiltSites": [
+    "boost",
+    "tureva"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "notes": null
+}

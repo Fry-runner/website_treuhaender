@@ -1,0 +1,18 @@
+{
+  "id": "decor.watermark",
+  "category": "decoration",
+  "name": "Giant quote watermark",
+  "variants": [
+    "faint Quote glyph behind text (ruerup)"
+  ],
+  "structure": "oversized faint background glyph",
+  "fromBuiltSites": [
+    "ruerup"
+  ],
+  "styleAffinity": [
+    "editorial",
+    "swiss"
+  ],
+  "priority": "optional",
+  "notes": null
+}

@@ -1,0 +1,21 @@
+{
+  "slot": "intro",
+  "category": "section",
+  "name": "Section: intro",
+  "variants": [
+    "single max-w-3xl column (uds, boost)",
+    "5/7 split + feature chips (tureva)"
+  ],
+  "fromBuiltSites": [
+    "boost",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "entryIds": [
+    "intro.statement"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slot": "partners",
+  "category": "section",
+  "name": "Section: partners",
+  "variants": [
+    "small partner cards 2/4-col (boost)",
+    "12-cell award grid + inverted CTA cell (boost)"
+  ],
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "editorial",
+    "any"
+  ],
+  "priority": "optional",
+  "entryIds": [
+    "partners.strip-grid"
+  ]
+}

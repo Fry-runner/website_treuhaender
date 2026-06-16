@@ -1,0 +1,3402 @@
+[
+  {
+    "name": "aawi treuhand ag",
+    "domain": "aawi.ch",
+    "pages": 11,
+    "page_types": {
+      "team": 5,
+      "about": 1,
+      "pricing": 1,
+      "legal": 2,
+      "blog_news": 1,
+      "jobs": 1,
+      "services": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": true,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "bexio",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 44,
+    "total_words": 7503,
+    "hero_h1": "Seit 1989 - Ihr Treuhand-Partner",
+    "home_h2_count": 18,
+    "nav_top": [
+      "Zum Inhalt springen",
+      "Offene Stellen",
+      "Support",
+      "Start",
+      "Wir über uns",
+      "Geschäftsleitung",
+      "Das Team",
+      "Vision, Mission",
+      "Leitbild",
+      "Das sagen unsere Kunden",
+      "Dienstleistungen",
+      "Buchhaltung"
+    ]
+  },
+  {
+    "name": "Accuratus Treuhand",
+    "domain": "accuratus-treuhand.ch",
+    "pages": 13,
+    "page_types": {
+      "services": 4,
+      "about": 3,
+      "team": 3,
+      "legal": 2,
+      "contact": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abacus",
+        "abaninja",
+        "abaweb",
+        "bexio"
+      ]
+    },
+    "languages": [],
+    "cms": [],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 59,
+    "total_words": 10511,
+    "hero_h1": "Ihre sensiblen Daten in sicheren Händen: Accuratus-Treuhand",
+    "home_h2_count": 4,
+    "nav_top": [
+      "accuratus treuhand",
+      "Leistungen",
+      "Steuerberatung",
+      "Online-/Web-Treuhand",
+      "Über uns",
+      "Kontakt",
+      "Mehr zu Steuerberatung",
+      "Mehr zu Online-Treuhand",
+      "Das Team",
+      "Impressum",
+      "Datenschutzerklärung"
+    ]
+  },
+  {
+    "name": "Treuhandbüro Ivanova / Adea",
+    "domain": "adea-treuhand.ch",
+    "pages": 52,
+    "page_types": {
+      "blog_news": 4,
+      "legal": 4,
+      "services": 8,
+      "contact": 2,
+      "pricing": 4,
+      "about": 6
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": true,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abacus",
+        "bexio",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de",
+      "en"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "facebook",
+      "instagram",
+      "linkedin"
+    ],
+    "total_images": 53,
+    "total_words": 45456,
+    "hero_h1": "Ihre Treuhänderin in Zürich & im Freiamt – persönlich, digital, effizient",
+    "home_h2_count": 5,
+    "nav_top": [
+      "Zum Inhalt springen",
+      "Treuhandbüro Ivanova",
+      "Treuhand Zürich",
+      "Leistungen",
+      "Über uns",
+      "Kontakt",
+      "Termin buchen",
+      "Aktuelles",
+      "Kostenkalkulator",
+      "Jetzt Termin buchen →",
+      "Unsere Leistungen",
+      "Kosteneinschätzung"
+    ]
+  },
+  {
+    "name": "aurora treuhand ag",
+    "domain": "aurora-treuhand.ch",
+    "pages": 6,
+    "page_types": {
+      "services": 2,
+      "blog_news": 1,
+      "legal": 2,
+      "about": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": false,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": []
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [],
+    "jsonld_types": [
+      "WebSite"
+    ],
+    "socials": [],
+    "total_images": 29,
+    "total_words": 2714,
+    "hero_h1": "aurora treuhand ag in Zumikon ZH",
+    "home_h2_count": 1,
+    "nav_top": [
+      "Home",
+      "Dienstleistungen",
+      "News",
+      "Über uns",
+      "Button",
+      "Impressum",
+      "Datenschutzerklärung"
+    ]
+  },
+  {
+    "name": "Treuhandbüro Balbiani",
+    "domain": "balbiani.ch",
+    "pages": 12,
+    "page_types": {
+      "team": 3,
+      "services": 6,
+      "legal": 1,
+      "blog_news": 1,
+      "about": 2,
+      "contact": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": []
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [],
+    "jsonld_types": [
+      "WebSite"
+    ],
+    "socials": [
+      "facebook"
+    ],
+    "total_images": 33,
+    "total_words": 2500,
+    "hero_h1": "Balbiani Treuhand GmbH Dietikon",
+    "home_h2_count": 2,
+    "nav_top": [
+      "Home",
+      "Balbiani",
+      "Dienstleistungen",
+      "Buchhaltung / MWST",
+      "Personaladministration",
+      "Revision",
+      "Steuern",
+      "Gesellschaftsgründungen",
+      "Treuhand allgemein",
+      "Links & Downloads",
+      "Kontakt",
+      "Erfahren Sie mehr"
+    ]
+  },
+  {
+    "name": "Budliger Treuhand AG",
+    "domain": "budliger.ch",
+    "pages": 70,
+    "page_types": {
+      "services": 9,
+      "team": 4,
+      "blog_news": 2,
+      "legal": 3,
+      "jobs": 2,
+      "contact": 2,
+      "pricing": 1,
+      "about": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": true,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "EXPERTsuisse",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abacus",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "facebook",
+      "linkedin",
+      "twitter"
+    ],
+    "total_images": 718,
+    "total_words": 33935,
+    "hero_h1": "",
+    "home_h2_count": 14,
+    "nav_top": [
+      "Wir",
+      "Dienstleistungen",
+      "Karriere",
+      "AdRem",
+      "Netzwerk",
+      "International",
+      "OBT Gruppe",
+      "Standorte",
+      "Budliger",
+      "RevConsult",
+      "Steuerberatung",
+      "WirtschaftsprÃ¼fung"
+    ]
+  },
+  {
+    "name": "Divisia Treuhand AG",
+    "domain": "divisia-treuhand.ch",
+    "pages": 38,
+    "page_types": {
+      "services": 21,
+      "portal": 2,
+      "about": 6,
+      "team": 3,
+      "jobs": 1,
+      "blog_news": 1,
+      "contact": 1,
+      "legal": 2
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": true,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": true,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "EXPERTsuisse",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abaweb",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 326,
+    "total_words": 11474,
+    "hero_h1": "Treuhand & Steuerberatung in Zürich Wallisellen",
+    "home_h2_count": 8,
+    "nav_top": [
+      "Skip to content",
+      "Treuhand",
+      "Treuhandportal",
+      "AbaWebTreuhand",
+      "Steuerberatung",
+      "Unternehmensberatung",
+      "Unternehmensgründung",
+      "Rechtsberatung",
+      "Revision",
+      "Über uns",
+      "Firma",
+      "Team"
+    ]
+  },
+  {
+    "name": "Global-Treuhand GmbH",
+    "domain": "global-treuhand.ch",
+    "pages": 8,
+    "page_types": {
+      "team": 1,
+      "contact": 1,
+      "pricing": 2,
+      "legal": 2,
+      "services": 1
+    },
+    "has": {
+      "services": true,
+      "about": false,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": true,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 14,
+    "total_words": 5361,
+    "hero_h1": "",
+    "home_h2_count": 1,
+    "nav_top": [
+      "Home",
+      "Firmenkunden",
+      "Privatpersonen",
+      "Kontakt",
+      "Unsere Preise",
+      "Impressum",
+      "Datenschutz",
+      "Datenschutz-Richtlinien"
+    ]
+  },
+  {
+    "name": "Hermann Treuhand",
+    "domain": "hermanntreuhand.ch",
+    "pages": 33,
+    "page_types": {
+      "services": 12,
+      "about": 5,
+      "legal": 3,
+      "blog_news": 2,
+      "contact": 2,
+      "team": 1,
+      "portal": 6
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": true,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abacus",
+        "banana",
+        "bexio",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "facebook"
+    ],
+    "total_images": 92,
+    "total_words": 6113,
+    "hero_h1": null,
+    "home_h2_count": 0,
+    "nav_top": [
+      "Home |",
+      "Dienstleistungen |",
+      "Über uns |",
+      "Infocenter |",
+      "Kontakt |",
+      "Buchhaltungen",
+      "Lohnwesen",
+      "Cloud-Buchhaltung",
+      "Mehrwertsteuer",
+      "Steuern",
+      "Gründungen",
+      "Beratungen"
+    ]
+  },
+  {
+    "name": "HMR Partner Treuhand AG",
+    "domain": "hmrpartner.ch",
+    "pages": 1,
+    "page_types": {
+      "team": 1
+    },
+    "has": {
+      "services": false,
+      "about": false,
+      "team": true,
+      "contact_form": false,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "EXPERTsuisse",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": []
+    },
+    "languages": [
+      "de-de"
+    ],
+    "cms": [
+      "Joomla"
+    ],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 8,
+    "total_words": 878,
+    "hero_h1": "Aktuell",
+    "home_h2_count": 7,
+    "nav_top": [
+      "Home",
+      "Aktuell",
+      "Portrait",
+      "Angebot",
+      "Standort",
+      "Kontakt",
+      "Impressum",
+      "Datenschutz"
+    ]
+  },
+  {
+    "name": "Dr. Iten, Dudli + Partner",
+    "domain": "idp-treuhand.ch",
+    "pages": 66,
+    "page_types": {
+      "services": 10,
+      "team": 3,
+      "blog_news": 8,
+      "legal": 4,
+      "about": 3,
+      "jobs": 1,
+      "contact": 1,
+      "pricing": 1,
+      "faq": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": true,
+      "faq": true,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "RAB/zugel. Revisor",
+        "swissaccounting"
+      ],
+      "software": [
+        "abacus",
+        "banana",
+        "bexio",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [
+      "Book",
+      "FAQPage",
+      "Organization",
+      "Person",
+      "VideoObject",
+      "WebSite"
+    ],
+    "socials": [
+      "facebook",
+      "instagram",
+      "linkedin",
+      "youtube"
+    ],
+    "total_images": 590,
+    "total_words": 46497,
+    "hero_h1": "Wir beraten, entlasten und vertreten Sie mit unserem Wissen als Juristen, Steuerberater, Buchhalter, Liegenschaftenverwalter und Treuhänder.",
+    "home_h2_count": 12,
+    "nav_top": [
+      "Skip to content",
+      "Privatpersonen",
+      "KMU",
+      "Immobilien",
+      "Bibliothek",
+      "Mediathek",
+      "Über uns",
+      "Kontakt",
+      "Jobs",
+      "Kontakt aufnehmen",
+      "Vorsorgeauftrag",
+      "Firmengründung"
+    ]
+  },
+  {
+    "name": "Interconsulta",
+    "domain": "interconsulta.ch",
+    "pages": 7,
+    "page_types": {
+      "services": 2,
+      "legal": 2,
+      "contact": 1,
+      "team": 1,
+      "jobs": 1
+    },
+    "has": {
+      "services": true,
+      "about": false,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": true,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "RAB/zugel. Revisor"
+      ],
+      "software": [
+        "abacus",
+        "bexio",
+        "infoniqa",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [],
+    "jsonld_types": [],
+    "socials": [
+      "linkedin"
+    ],
+    "total_images": 16,
+    "total_words": 5576,
+    "hero_h1": "Willkommen bei Interconsulta .",
+    "home_h2_count": 10,
+    "nav_top": [
+      "Home",
+      "Angebot",
+      "Ãber uns",
+      "Kontakt",
+      "Stellen",
+      "ZUM ANGEBOT",
+      "Termin vereinbaren",
+      "WirtschaftsprÃ¼fungen",
+      "Wirtschaftsberatung",
+      "Steuerberatung",
+      "Dienstleistungen",
+      "HIER FINDEN SIE UNS"
+    ]
+  },
+  {
+    "name": "KMU Treuhandexperte GmbH",
+    "domain": "kmu-trex.ch",
+    "pages": 67,
+    "page_types": {
+      "services": 30,
+      "about": 9,
+      "team": 22,
+      "blog_news": 15,
+      "contact": 1,
+      "legal": 10
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": []
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [],
+    "jsonld_types": [],
+    "socials": [
+      "facebook",
+      "instagram",
+      "linkedin"
+    ],
+    "total_images": 239,
+    "total_words": 7849,
+    "hero_h1": "Ihr Treuhandbüro in Thalwil",
+    "home_h2_count": 8,
+    "nav_top": [
+      "Home",
+      "Über uns",
+      "Wieso wir?",
+      "Team",
+      "Angebot",
+      "Coaching",
+      "Blog",
+      "Kontakt",
+      "Datenschutz",
+      "Impressum",
+      "Finanzbuchhaltung",
+      "Lohnwesen"
+    ]
+  },
+  {
+    "name": "kmuTREUHAND",
+    "domain": "kmutreuhand.com",
+    "pages": 200,
+    "page_types": {
+      "services": 8,
+      "about": 2,
+      "contact": 2,
+      "portal": 1,
+      "legal": 83
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": true,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "bexio",
+        "klara"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [],
+    "jsonld_types": [
+      "Organization"
+    ],
+    "socials": [
+      "facebook",
+      "instagram",
+      "linkedin",
+      "youtube"
+    ],
+    "total_images": 1606,
+    "total_words": 38851,
+    "hero_h1": "Treuhand und Steuerberatung in der Region Thun",
+    "home_h2_count": 8,
+    "nav_top": [
+      "Übersicht",
+      "Buchführung",
+      "Jahresabschluss",
+      "Steuerberatung",
+      "Gründung & Startup",
+      "Über uns",
+      "Kontakt",
+      "Mehr erfahren",
+      "Dienstleistungen",
+      "Kontaktanfrage",
+      "Admin-Tool »",
+      "Impressum"
+    ]
+  },
+  {
+    "name": "Langhart & Partner Treuhand AG",
+    "domain": "langhart-partner.ch",
+    "pages": 37,
+    "page_types": {
+      "team": 36,
+      "blog_news": 2,
+      "services": 7,
+      "contact": 1,
+      "pricing": 1,
+      "references": 9,
+      "about": 1,
+      "legal": 2
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abacus",
+        "klara"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "facebook",
+      "instagram",
+      "linkedin"
+    ],
+    "total_images": 154,
+    "total_words": 16509,
+    "hero_h1": "Unsere neue Webseite ist online!",
+    "home_h2_count": 5,
+    "nav_top": [
+      "Zum Inhalt wechseln",
+      "Dienstleistungen",
+      "Steuern",
+      "Treuhand",
+      "Firmengründungen",
+      "Comatic",
+      "Infocenter",
+      "Downloads",
+      "Aktuelles",
+      "Referenzen",
+      "Über uns",
+      "Geschichte"
+    ]
+  },
+  {
+    "name": "L+A Treuhand",
+    "domain": "latreuhand.ch",
+    "pages": 58,
+    "page_types": {
+      "team": 4,
+      "blog_news": 2,
+      "legal": 2,
+      "faq": 1,
+      "contact": 1,
+      "services": 1,
+      "about": 2
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": true,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor"
+      ],
+      "software": [
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [
+      "Organization",
+      "WebSite"
+    ],
+    "socials": [
+      "x"
+    ],
+    "total_images": 510,
+    "total_words": 19711,
+    "hero_h1": "Betriebsferien vom 28.07.2025 – 10.08.2025",
+    "home_h2_count": 7,
+    "nav_top": [
+      "MEHR ERFAHREN",
+      "Weiterlesen...",
+      "UP|DATE 2|24",
+      "Steuerberatung",
+      "Treuhand",
+      "Personaladministration",
+      "Unternehmensberatung",
+      "Ehegüter und Erbrecht",
+      "Immobilien",
+      "Vermögensverwaltung",
+      "Geschichte",
+      "Team"
+    ]
+  },
+  {
+    "name": "Maurer Treuhand",
+    "domain": "maurer-treuhand.ch",
+    "pages": 11,
+    "page_types": {
+      "services": 4,
+      "legal": 2,
+      "contact": 2,
+      "about": 2
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [
+      "BreadcrumbList",
+      "Organization",
+      "WebSite"
+    ],
+    "socials": [],
+    "total_images": 348,
+    "total_words": 10924,
+    "hero_h1": "Wir sind Ihre qualifizierten Finanz-Teamworker .",
+    "home_h2_count": 7,
+    "nav_top": [
+      "Dienstleistungen",
+      "Finanzmanagement",
+      "Steuerberatung",
+      "Unternehmensberatung",
+      "Über uns",
+      "Kundengruppen",
+      "Kontakt",
+      "Termin vereinbaren",
+      "Home",
+      "Lernen Sie uns kennen",
+      "Kontakt aufnehmen",
+      "Mehr Infos"
+    ]
+  },
+  {
+    "name": "MK Treuhand",
+    "domain": "mkfiduciaire.ch",
+    "pages": 24,
+    "page_types": {
+      "services": 5,
+      "about": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": true,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [],
+      "software": [
+        "abacus",
+        "banana",
+        "bexio",
+        "klara",
+        "run my accounts",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de",
+      "fr"
+    ],
+    "cms": [],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 0,
+    "total_words": 9644,
+    "hero_h1": "MK Fiduciaire â ComptabilitÃ© & FiscalitÃ©",
+    "home_h2_count": 6,
+    "nav_top": [
+      "FR",
+      "DE",
+      "MK Fiduciaire",
+      "Services",
+      "Ãconomie locale",
+      "TÃ©moignages",
+      "Consultation gratuite",
+      "Fiduciaire Bulle",
+      "Fiduciaire Sion",
+      "Fiduciaire Sierre",
+      "Fiduciaire Martigny",
+      "Fiduciaire Monthey"
+    ]
+  },
+  {
+    "name": "Monere Wallisellen",
+    "domain": "monere.ch",
+    "pages": 22,
+    "page_types": {
+      "team": 1,
+      "blog_news": 3,
+      "legal": 2,
+      "services": 6,
+      "about": 2,
+      "contact": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": false,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "bexio",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "Wix"
+    ],
+    "jsonld_types": [
+      "BlogPosting",
+      "LocalBusiness",
+      "WebSite"
+    ],
+    "socials": [],
+    "total_images": 82,
+    "total_words": 7877,
+    "hero_h1": "Erfahren Sie, wo wir Sie bestens beraten können.",
+    "home_h2_count": 0,
+    "nav_top": [
+      "Beratung",
+      "Steuern optimieren",
+      "Immobilien",
+      "Kompetenzen",
+      "Steuern",
+      "Buchhaltung mit Bexio",
+      "Lohnbuchhaltung",
+      "Unternehmensberatung",
+      "Über uns",
+      "Leitbild",
+      "Kontakt",
+      "News"
+    ]
+  },
+  {
+    "name": "MRG Treuhand",
+    "domain": "mrg-treuhand.ch",
+    "pages": 79,
+    "page_types": {
+      "services": 35,
+      "blog_news": 26,
+      "about": 3,
+      "team": 5,
+      "pricing": 7,
+      "faq": 2,
+      "legal": 4,
+      "contact": 3,
+      "portal": 1,
+      "jobs": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": true,
+      "faq": true,
+      "testimonials": true,
+      "client_portal": true,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "EXPERTsuisse",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abacus",
+        "banana",
+        "bexio",
+        "infoniqa",
+        "klara",
+        "sage",
+        "topal"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [
+      "AccountingService",
+      "Article",
+      "BreadcrumbList",
+      "CollectionPage",
+      "FAQPage",
+      "HowTo",
+      "ProfessionalService",
+      "Service"
+    ],
+    "socials": [
+      "instagram"
+    ],
+    "total_images": 217,
+    "total_words": 105424,
+    "hero_h1": "Ihre Buchhaltung? Übernehmen wir",
+    "home_h2_count": 6,
+    "nav_top": [
+      "Leistungen",
+      "Digitalisierung & AI",
+      "Buchhaltung",
+      "Lohn & HR",
+      "CFO Services",
+      "Firmengründung",
+      "Preise",
+      "Über uns",
+      "Ratgeber",
+      "FAQ",
+      "Home",
+      "Digitalisierung"
+    ]
+  },
+  {
+    "name": "Müller & Schuhmacher AG",
+    "domain": "mueller-schuhmacher.ch",
+    "pages": 29,
+    "page_types": {
+      "services": 1,
+      "blog_news": 2,
+      "legal": 2,
+      "contact": 19,
+      "jobs": 6,
+      "portal": 1,
+      "pricing": 1,
+      "about": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": true,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": true,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "banana",
+        "bexio",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 157,
+    "total_words": 13012,
+    "hero_h1": null,
+    "home_h2_count": 4,
+    "nav_top": [
+      "Kundencenter",
+      "Kontakt",
+      "Immobilienverkauf",
+      "Immobilien bewerten",
+      "Immobilien verkaufen",
+      "Preismodelle",
+      "Immobilien kaufen",
+      "Stockwerkeigentum",
+      "Erstvermietung",
+      "Mietliegenschaften",
+      "Bauleitung",
+      "Bauplanung"
+    ]
+  },
+  {
+    "name": "One Treuhand",
+    "domain": "onetreuhand.ch",
+    "pages": 118,
+    "page_types": {
+      "services": 11,
+      "legal": 3,
+      "contact": 2,
+      "about": 9,
+      "portal": 2,
+      "pricing": 3,
+      "blog_news": 12,
+      "team": 9
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": true,
+      "online_booking": true,
+      "multilingual": true,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abacus",
+        "bexio",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de",
+      "en"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [
+      "FAQPage"
+    ],
+    "socials": [
+      "linkedin"
+    ],
+    "total_images": 1803,
+    "total_words": 176370,
+    "hero_h1": "Treuhand, die funktioniert.",
+    "home_h2_count": 1,
+    "nav_top": [
+      "Zum Inhalt springen",
+      "Kontakt",
+      "Buchhaltung",
+      "Steuerberatung",
+      "Mehrwertsteuerberatung",
+      "Lohnbuchhaltung",
+      "CFO Mandate",
+      "Über uns",
+      "Treuhand App",
+      "Smart-Profit System",
+      "Leistungen",
+      "Prozess"
+    ]
+  },
+  {
+    "name": "Rebex AG",
+    "domain": "rebex.ch",
+    "pages": 19,
+    "page_types": {
+      "services": 5,
+      "contact": 3,
+      "legal": 2,
+      "jobs": 2,
+      "team": 4
+    },
+    "has": {
+      "services": true,
+      "about": false,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": true,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": true,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "EXPERTsuisse",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de",
+      "en"
+    ],
+    "cms": [],
+    "jsonld_types": [
+      "WebSite"
+    ],
+    "socials": [
+      "facebook",
+      "linkedin",
+      "xing"
+    ],
+    "total_images": 192,
+    "total_words": 4416,
+    "hero_h1": "Rebex AG seit 1997",
+    "home_h2_count": 3,
+    "nav_top": [
+      "HOME",
+      "REBEX AG",
+      "DIENSTLEISTUNGEN",
+      "TEAM / LINKS",
+      "TEAM",
+      "PARTNER",
+      "STELLENANGEBOTE",
+      "GALERIE",
+      "KONTAKT",
+      "Deutsch de",
+      "English en",
+      "Anruf"
+    ]
+  },
+  {
+    "name": "SBT Treuhand Zürich",
+    "domain": "sbt-treuhand.ch",
+    "pages": 7,
+    "page_types": {
+      "legal": 4,
+      "blog_news": 1
+    },
+    "has": {
+      "services": false,
+      "about": false,
+      "team": false,
+      "contact_form": false,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": true,
+      "social": false,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "EXPERTsuisse",
+        "RAB/zugel. Revisor"
+      ],
+      "software": [
+        "abaweb"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [
+      "Organization",
+      "WebSite"
+    ],
+    "socials": [],
+    "total_images": 19,
+    "total_words": 2429,
+    "hero_h1": "SBT Treuhand Im Hintergrund für Sie da. Standhaft, zuverlässig, tragend.",
+    "home_h2_count": 6,
+    "nav_top": [
+      "Unsere Dienstleistungen",
+      "Unser Team",
+      "Unsere Koordinaten",
+      "Links & Downloads",
+      "Datenschutz",
+      "Cookie Erklärung"
+    ]
+  },
+  {
+    "name": "SEBONA Treuhand",
+    "domain": "sebona-treuhand.ch",
+    "pages": 54,
+    "page_types": {
+      "services": 19,
+      "about": 1,
+      "pricing": 6,
+      "blog_news": 30,
+      "jobs": 2,
+      "contact": 5,
+      "legal": 2
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": true,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": true,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "eidg. Diplom/Fachausweis",
+        "swissaccounting"
+      ],
+      "software": [
+        "abacus",
+        "abaweb",
+        "banana",
+        "bexio",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de",
+      "en-US"
+    ],
+    "cms": [
+      "HubSpot"
+    ],
+    "jsonld_types": [
+      "AccountingService",
+      "BlogPosting",
+      "BreadcrumbList",
+      "Course",
+      "FAQPage",
+      "LocalBusiness",
+      "Service",
+      "WebApplication",
+      "WebPage"
+    ],
+    "socials": [
+      "linkedin"
+    ],
+    "total_images": 529,
+    "total_words": 34543,
+    "hero_h1": "Buchhaltung: Persönlich. Modern. Verlässlich.",
+    "home_h2_count": 15,
+    "nav_top": [
+      "[email protected]",
+      "Start",
+      "Buchhaltung",
+      "Jahresabschluss",
+      "Lohnbuchhaltung",
+      "Steuererklärung",
+      "Gründungsbegleitung",
+      "Domizilservice",
+      "Preisrechner",
+      "MWST-Schnelltest",
+      "Gründungs-Check",
+      "Online-Kurse"
+    ]
+  },
+  {
+    "name": "SPP Treuhand AG",
+    "domain": "spp-treuhand.ch",
+    "pages": 23,
+    "page_types": {
+      "team": 23,
+      "jobs": 1,
+      "services": 6,
+      "about": 1,
+      "blog_news": 3,
+      "faq": 1,
+      "contact": 1,
+      "portal": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": true,
+      "faq": true,
+      "testimonials": false,
+      "client_portal": true,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "bexio",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "facebook",
+      "instagram",
+      "linkedin"
+    ],
+    "total_images": 76,
+    "total_words": 21075,
+    "hero_h1": "Wir übernehmen deine Treuhandaufgaben und schenken dir Zeit.",
+    "home_h2_count": 11,
+    "nav_top": [
+      "Über uns",
+      "Leitbild",
+      "Team",
+      "Jobs",
+      "Leistungen",
+      "Lohnbuchhaltung",
+      "Steuerberatung",
+      "News",
+      "FAQ",
+      "Allgemein",
+      "Steuern",
+      "Kontakt"
+    ]
+  },
+  {
+    "name": "Steuerberater365 Zürich",
+    "domain": "steuerberater365-zuerich.ch",
+    "pages": 200,
+    "page_types": {
+      "services": 143,
+      "team": 200,
+      "about": 1,
+      "pricing": 3,
+      "legal": 1,
+      "contact": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor"
+      ],
+      "software": [
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-DE"
+    ],
+    "cms": [
+      "Jimdo"
+    ],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 620,
+    "total_words": 209096,
+    "hero_h1": "Steuerberater zürich",
+    "home_h2_count": 4,
+    "nav_top": [
+      "Steuerberater",
+      "Steuererklärung",
+      "Treuhand",
+      "Fristverlängerung",
+      "Preise",
+      "Über Uns",
+      "Kontakt",
+      "Datenschutzerklärung",
+      "Steuererklärung Zürich",
+      "Steuern",
+      "Vermögenssteuer",
+      "Quellensteuer"
+    ]
+  },
+  {
+    "name": "Steuerberatung Schweiz",
+    "domain": "steuerberatung-schweiz.ch",
+    "pages": 65,
+    "page_types": {
+      "services": 64,
+      "about": 1,
+      "pricing": 13,
+      "legal": 2,
+      "contact": 4,
+      "team": 14
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": true,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "EXPERTsuisse",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-DE",
+      "en-US"
+    ],
+    "cms": [
+      "Jimdo"
+    ],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 92,
+    "total_words": 52178,
+    "hero_h1": "Steuerberatung schweiz",
+    "home_h2_count": 13,
+    "nav_top": [
+      "Steuerberater",
+      "Dienstleistungen",
+      "Steuerberatung",
+      "Vermögensberatung",
+      "Pensionierung planen",
+      "Vorsorge",
+      "Recht",
+      "Versicherung optimieren",
+      "Über Uns",
+      "Kontakt",
+      "Aargau",
+      "Freiburg"
+    ]
+  },
+  {
+    "name": "SteuerVogt GmbH",
+    "domain": "steuervogt.ch",
+    "pages": 11,
+    "page_types": {
+      "services": 1,
+      "legal": 1,
+      "contact": 2
+    },
+    "has": {
+      "services": true,
+      "about": false,
+      "team": false,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "klara"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "facebook",
+      "linkedin",
+      "twitter",
+      "xing"
+    ],
+    "total_images": 9,
+    "total_words": 3175,
+    "hero_h1": "SteuerVogt  GmbH Treuhand & Steuerberatung",
+    "home_h2_count": 5,
+    "nav_top": [
+      "Skip to the content",
+      "SteuerVogt GmbH",
+      "Firmengründung",
+      "Rechnungswesen",
+      "Steuern",
+      "Über mich",
+      "Kontakt",
+      "Show the search field",
+      "Steuererklärung",
+      "Beratung anfordern",
+      "Mehr erfahren",
+      "Weitere Informationen"
+    ]
+  },
+  {
+    "name": "Schweizerische Treuhandgesellschaft Revision AG",
+    "domain": "stg-revision.ch",
+    "pages": 82,
+    "page_types": {
+      "blog_news": 2,
+      "about": 4,
+      "pricing": 1,
+      "jobs": 2,
+      "contact": 3,
+      "services": 5,
+      "legal": 1,
+      "team": 12
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": true,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": true,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "EXPERTsuisse",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-DE",
+      "en",
+      "en-US",
+      "fr",
+      "fr-FR"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "facebook",
+      "instagram",
+      "linkedin"
+    ],
+    "total_images": 1096,
+    "total_words": 18532,
+    "hero_h1": "Willkommen bei uns",
+    "home_h2_count": 1,
+    "nav_top": [
+      "Kontakt",
+      "De",
+      "En",
+      "Fr",
+      "Weiterlesen",
+      "Zum Archiv",
+      "Team",
+      "Geschichte",
+      "Karriere",
+      "Newsarchiv",
+      "Datenschutz",
+      "Impressum"
+    ]
+  },
+  {
+    "name": "STG Zürich",
+    "domain": "stg.zuerich",
+    "pages": 22,
+    "page_types": {
+      "legal": 6,
+      "contact": 2,
+      "services": 4,
+      "about": 6
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [],
+    "jsonld_types": [],
+    "socials": [
+      "linkedin"
+    ],
+    "total_images": 186,
+    "total_words": 19670,
+    "hero_h1": "",
+    "home_h2_count": 4,
+    "nav_top": [
+      "Direkt zu Navigation 1",
+      "Direkt zu Navigation 2",
+      "Direkt zum Inhalt",
+      "Direkt zu Service 1",
+      "Direkt zu Service 2",
+      "Suchen",
+      "Über uns",
+      "Kontakt",
+      "Steuern",
+      "Treuhand",
+      "Home",
+      "Jürg Th. Gass"
+    ]
+  },
+  {
+    "name": "STM Treuhand Mettler AG",
+    "domain": "stmtreuhand.ch",
+    "pages": 41,
+    "page_types": {
+      "services": 5,
+      "legal": 2,
+      "about": 3,
+      "pricing": 1,
+      "contact": 3,
+      "team": 9,
+      "blog_news": 2,
+      "jobs": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": true,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abacus",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "en"
+    ],
+    "cms": [],
+    "jsonld_types": [
+      "FAQPage"
+    ],
+    "socials": [],
+    "total_images": 200,
+    "total_words": 19213,
+    "hero_h1": null,
+    "home_h2_count": 4,
+    "nav_top": [
+      "Startseite",
+      "Unternehmen",
+      "Ãber uns",
+      "Team",
+      "Mitgliedschaften",
+      "Dienstleistungen",
+      "Steuerberatung",
+      "Buchhaltung & Treuhand",
+      "WirtschaftsprÃ¼fung",
+      "Publikationen",
+      "Kontakt",
+      "English"
+    ]
+  },
+  {
+    "name": "Suter Treuhand",
+    "domain": "sutertreuhand.ch",
+    "pages": 200,
+    "page_types": {
+      "about": 1,
+      "legal": 4,
+      "services": 41,
+      "pricing": 1,
+      "contact": 2,
+      "blog_news": 24,
+      "references": 1,
+      "team": 2
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor"
+      ],
+      "software": [
+        "bexio",
+        "infoniqa",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [],
+    "jsonld_types": [
+      "LocalBusiness",
+      "Organization"
+    ],
+    "socials": [],
+    "total_images": 193,
+    "total_words": 80985,
+    "hero_h1": "Treu­hand Luzern – persönlich, kompetent und digital",
+    "home_h2_count": 10,
+    "nav_top": [
+      "Navigation überspringen",
+      "Treuhandangebot",
+      "Buchhaltung",
+      "Lohnwesen",
+      "Geschaftsführung",
+      "Treuhand Luzern",
+      "Steuern",
+      "Gründung",
+      "Ablauf Gründung",
+      "GmbH",
+      "AG",
+      "Einzelfirma"
+    ]
+  },
+  {
+    "name": "Taxalis Treuhand AG",
+    "domain": "taxalis.ch",
+    "pages": 73,
+    "page_types": {
+      "blog_news": 49,
+      "contact": 3,
+      "legal": 3,
+      "team": 5,
+      "pricing": 3,
+      "references": 2,
+      "about": 1,
+      "services": 2,
+      "jobs": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": true,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abacus",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [],
+    "jsonld_types": [],
+    "socials": [
+      "youtube"
+    ],
+    "total_images": 748,
+    "total_words": 41534,
+    "hero_h1": "Unsere Dienstleistungen",
+    "home_h2_count": 0,
+    "nav_top": [
+      "Dienstleistungen",
+      "Immobilienverkauf",
+      "Steuerberatung",
+      "Treuhand",
+      "Unternehmen",
+      "Philosophie",
+      "Mitarbeiter",
+      "Standorte",
+      "Kontakt",
+      "Vermietung",
+      "Erstvermietung",
+      "Aktuelle Mietobjekte"
+    ]
+  },
+  {
+    "name": "Treuhandfinanz / Treuhänder Zürich",
+    "domain": "treuhaender-zuerich.com",
+    "pages": 24,
+    "page_types": {
+      "services": 11,
+      "blog_news": 4,
+      "legal": 2,
+      "about": 3,
+      "jobs": 1,
+      "contact": 1,
+      "team": 2
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": true,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [],
+      "software": []
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "facebook",
+      "linkedin",
+      "twitter"
+    ],
+    "total_images": 218,
+    "total_words": 11418,
+    "hero_h1": "Treuhänder Zürich. Das erfahrene schweizer Treuhandbüro.",
+    "home_h2_count": 1,
+    "nav_top": [
+      "Zum Inhalt wechseln",
+      "Startseite",
+      "Über Treuhandfinanz",
+      "Kompetenzen",
+      "Lohnbuchhaltung",
+      "Steuererklärung",
+      "Jahresabschluss",
+      "Mehrwertsteuer",
+      "Finanzbuchhaltung",
+      "Kontakt",
+      "Datenschutz",
+      "Impressum"
+    ]
+  },
+  {
+    "name": "Treuhand Service Zürich",
+    "domain": "treuhand-service-zh.ch",
+    "pages": 14,
+    "page_types": {
+      "services": 14,
+      "about": 4,
+      "contact": 1,
+      "blog_news": 1,
+      "legal": 2
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor"
+      ],
+      "software": [
+        "klara"
+      ]
+    },
+    "languages": [
+      "en"
+    ],
+    "cms": [],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 6,
+    "total_words": 13187,
+    "hero_h1": "Unsere Dienstleistungen",
+    "home_h2_count": 12,
+    "nav_top": [
+      "Dienstleistungen",
+      "Firmenportrait",
+      "Kontakt",
+      "Aktuelles",
+      "Fragen & Antworten",
+      "mehr erfahren",
+      "Steuererklärung",
+      "Buchhaltung",
+      "Firmagründung",
+      "Administration",
+      "Verwaltung",
+      "Vermögensverwaltung"
+    ]
+  },
+  {
+    "name": "Treuhandzentrum Zürich AG",
+    "domain": "treuhand-zentrum-zuerich.ch",
+    "pages": 86,
+    "page_types": {
+      "team": 4,
+      "pricing": 8,
+      "blog_news": 35,
+      "contact": 8,
+      "services": 40,
+      "about": 8,
+      "legal": 2
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": true,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": true,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de",
+      "en",
+      "undefined"
+    ],
+    "cms": [],
+    "jsonld_types": [
+      "WebSite"
+    ],
+    "socials": [
+      "instagram",
+      "linkedin"
+    ],
+    "total_images": 836,
+    "total_words": 57150,
+    "hero_h1": "Ihr Kompetenzzentrum fÃ¼r Treuhand in ZÃ¼rich",
+    "home_h2_count": 11,
+    "nav_top": [
+      "News",
+      "Offene Stellen",
+      "Downlaods",
+      "Dienstleistungen",
+      "Treuhand",
+      "Personaladministration",
+      "Wirtschaftsberatung",
+      "Vorsorge & Privatrecht",
+      "Steuern",
+      "Startups",
+      "FirmengrÃ¼ndungen",
+      "Versicherungen und MWST"
+    ]
+  },
+  {
+    "name": "Treuhand Zürich (treuhand-zuerich.com)",
+    "domain": "treuhand-zuerich.com",
+    "pages": 13,
+    "page_types": {
+      "legal": 2,
+      "services": 1,
+      "blog_news": 1,
+      "jobs": 1,
+      "contact": 1,
+      "about": 1,
+      "team": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": true,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "TREUHAND|SUISSE",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "klara",
+        "topal"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 51,
+    "total_words": 3919,
+    "hero_h1": "Exakt arbeiten – genau hinschauen.",
+    "home_h2_count": 1,
+    "nav_top": [
+      "Zum Inhalt springen",
+      "Home",
+      "Dienstleistungen",
+      "Über uns",
+      "Downloads",
+      "Kontakt",
+      "Jobs",
+      "Termin vereinbaren",
+      "Unternehmensberatung",
+      "Personaladministration",
+      "Steuerberatungen",
+      "Buchhaltung"
+    ]
+  },
+  {
+    "name": "Treuhandbüro24 Zürich",
+    "domain": "treuhandbuero24.ch",
+    "pages": 200,
+    "page_types": {
+      "services": 98,
+      "team": 48
+    },
+    "has": {
+      "services": true,
+      "about": false,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor"
+      ],
+      "software": [
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [
+      "LocalBusiness",
+      "Organization",
+      "WebSite"
+    ],
+    "socials": [],
+    "total_images": 1283,
+    "total_words": 103115,
+    "hero_h1": "Herzlich Willkommen bei Treuhandbüro24!",
+    "home_h2_count": 4,
+    "nav_top": [
+      "Kontakt",
+      "Steuererklärung Aargau",
+      "Steuererklärung Bern",
+      "Steuererklärung Glarus",
+      "Steuererklärung Luzern",
+      "Steuererklärung Schwyz",
+      "Steuererklärung Thurgau",
+      "Steuererklärung Uri",
+      "Steuererklärung Zug",
+      "Steuererklärung Zürich",
+      "Steuerberatung Aargau",
+      "Steuerberatung Bern"
+    ]
+  },
+  {
+    "name": "Treuhandbüro Graf AG",
+    "domain": "treuhandgraf.ch",
+    "pages": 16,
+    "page_types": {
+      "services": 2,
+      "legal": 2,
+      "contact": 1,
+      "about": 1,
+      "team": 1,
+      "blog_news": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [],
+      "software": []
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "facebook"
+    ],
+    "total_images": 55,
+    "total_words": 5858,
+    "hero_h1": null,
+    "home_h2_count": 30,
+    "nav_top": [
+      "Kontakt",
+      "Home",
+      "Buchhaltung",
+      "Steuerberatung",
+      "Firmengründungen",
+      "Liegenschaftsverwaltung",
+      "Team",
+      "Philosophie",
+      "Jetzt kontaktieren",
+      "Mehr erfahren",
+      "Persönlich",
+      "Schnell"
+    ]
+  },
+  {
+    "name": "Treuhand mit Herz",
+    "domain": "treuhandmitherz.ch",
+    "pages": 43,
+    "page_types": {
+      "blog_news": 2,
+      "legal": 5,
+      "contact": 7,
+      "services": 2,
+      "team": 2
+    },
+    "has": {
+      "services": true,
+      "about": false,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis",
+        "ISO"
+      ],
+      "software": [
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "linkedin"
+    ],
+    "total_images": 190,
+    "total_words": 13560,
+    "hero_h1": "Ihr Treuhandbüro in Winterthur und in Rafz",
+    "home_h2_count": 0,
+    "nav_top": [
+      "Home",
+      "Treuhand für Firmen",
+      "Treuhand für Private",
+      "Treuhand für Start-ups",
+      "Treuhand für Senioren",
+      "Treuhand für Spitex",
+      "Über uns",
+      "Soziales Engagement",
+      "Kontakt Winterthur",
+      "Kontakt Rafz",
+      "Buchhaltung für KMU",
+      "Payroll Service"
+    ]
+  },
+  {
+    "name": "Treuhand Catherine Schmid GmbH",
+    "domain": "treuhandschmid.ch",
+    "pages": 11,
+    "page_types": {
+      "services": 3,
+      "blog_news": 1,
+      "about": 1,
+      "contact": 2,
+      "legal": 2
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": []
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 55,
+    "total_words": 3551,
+    "hero_h1": "IHR TREUHANDUNTERNEHMEN IN ZÜRICH OERLIKON",
+    "home_h2_count": 9,
+    "nav_top": [
+      "Home",
+      "Buchhaltung",
+      "Steuern",
+      "Gründungen",
+      "Downloads",
+      "Über uns",
+      "Kontakt",
+      "Datenschutz",
+      "Impressum",
+      "PDF DE herunterladen",
+      "PDF EN herunterladen",
+      "PDF herunterladen"
+    ]
+  },
+  {
+    "name": "Swiss Treuhand Siegrist GmbH",
+    "domain": "treuhandsiegrist.ch",
+    "pages": 24,
+    "page_types": {
+      "team": 4,
+      "legal": 3,
+      "contact": 2,
+      "references": 1,
+      "blog_news": 2,
+      "about": 1,
+      "services": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": true,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [],
+      "software": [
+        "bexio",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [
+      "Organization",
+      "WebSite"
+    ],
+    "socials": [
+      "facebook",
+      "instagram",
+      "linkedin",
+      "twitter",
+      "x",
+      "xing",
+      "youtube"
+    ],
+    "total_images": 142,
+    "total_words": 8524,
+    "hero_h1": "TREUHAND MIT UNTERNEHMERISCHER SICHTWEISE",
+    "home_h2_count": 7,
+    "nav_top": [
+      "Skip to content",
+      "Home",
+      "Über uns",
+      "Firmengeschichte",
+      "Unser Team",
+      "Dienste",
+      "Steuererklärung",
+      "Firmengründung",
+      "Domizilgebung",
+      "VR Mandat",
+      "Strategie",
+      "Neuigkeiten"
+    ]
+  },
+  {
+    "name": "Turicum Treuhand AG",
+    "domain": "turicum-treuhand.ch",
+    "pages": 15,
+    "page_types": {
+      "services": 1,
+      "team": 2,
+      "jobs": 1,
+      "contact": 1,
+      "legal": 3
+    },
+    "has": {
+      "services": true,
+      "about": false,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": true,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "klara"
+      ]
+    },
+    "languages": [
+      "de-de"
+    ],
+    "cms": [],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 147,
+    "total_words": 8602,
+    "hero_h1": null,
+    "home_h2_count": 0,
+    "nav_top": [
+      "Home",
+      "Gesellschaften",
+      "Aerzte Treuhand med AG",
+      "Karriere",
+      "Kontaktformular",
+      "Impressum",
+      "Datenschutzerklaerung"
+    ]
+  },
+  {
+    "name": "Urania Treuhand AG",
+    "domain": "urania-treuhand.ch",
+    "pages": 10,
+    "page_types": {
+      "legal": 2,
+      "services": 1,
+      "contact": 1,
+      "about": 1,
+      "portal": 3
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": true,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": []
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "facebook",
+      "instagram",
+      "linkedin",
+      "youtube"
+    ],
+    "total_images": 30,
+    "total_words": 5142,
+    "hero_h1": "„Bring deine Skills ein – wir pushen den Rest.“",
+    "home_h2_count": 6,
+    "nav_top": [
+      "Zum Inhalt springen",
+      "Home",
+      "Dienstleistungen",
+      "Über Uns",
+      "Kontakt",
+      "Hier zum Team",
+      "Bewerben",
+      "Kundenlogin",
+      "Datenschutz",
+      "Impressum"
+    ]
+  },
+  {
+    "name": "V-Buchhaltung",
+    "domain": "v-buchhaltung.ch",
+    "pages": 8,
+    "page_types": {
+      "services": 5,
+      "legal": 2,
+      "team": 1
+    },
+    "has": {
+      "services": true,
+      "about": false,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor"
+      ],
+      "software": [
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [],
+    "jsonld_types": [
+      "LocalBusiness"
+    ],
+    "socials": [
+      "facebook",
+      "youtube"
+    ],
+    "total_images": 14,
+    "total_words": 8263,
+    "hero_h1": "Ihre zuverlässige Buchhaltung in Winterthur",
+    "home_h2_count": 4,
+    "nav_top": [
+      "Home",
+      "Dienstleistungen",
+      "Leistungspakete",
+      "Über mich",
+      "Kontakt",
+      "Impressum",
+      "Datenschutz",
+      "Treuhand Bassersdorf",
+      "Treuhand Dietlikon",
+      "Treuhand Oerlikon",
+      "Treuhand Wallisellen",
+      "Treuhand Winterthur"
+    ]
+  },
+  {
+    "name": "Wespi & Partner AG",
+    "domain": "wespipartner.ch",
+    "pages": 34,
+    "page_types": {
+      "team": 34,
+      "about": 3,
+      "legal": 3,
+      "blog_news": 1,
+      "services": 3,
+      "jobs": 1,
+      "contact": 15
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": true,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "EXPERTsuisse",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abacus",
+        "abaninja",
+        "abaweb",
+        "bexio",
+        "klara",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "linkedin"
+    ],
+    "total_images": 303,
+    "total_words": 15106,
+    "hero_h1": "Dein strategischer Treuhandpartner mit 360-Grad-Kompetenz",
+    "home_h2_count": 5,
+    "nav_top": [
+      "Business Lifecycle",
+      "Startup",
+      "Wachstum",
+      "Etabliertes Unternehmen",
+      "Nachfolge",
+      "Expertise",
+      "Treuhand",
+      "Payroll",
+      "Steuern",
+      "Revision",
+      "Beratung",
+      "Über uns"
+    ]
+  },
+  {
+    "name": "Würth Treuhand AG",
+    "domain": "wuerth-treuhand.ch",
+    "pages": 13,
+    "page_types": {
+      "about": 4,
+      "services": 7,
+      "blog_news": 1,
+      "contact": 1,
+      "legal": 1
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": false,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": true,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": false,
+      "schema_org": true
+    },
+    "trust": {
+      "certifications": [
+        "EXPERTsuisse",
+        "RAB/zugel. Revisor",
+        "eidg. Diplom/Fachausweis"
+      ],
+      "software": [
+        "abaninja",
+        "abaweb",
+        "bexio",
+        "sage"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [],
+    "jsonld_types": [
+      "AccountingService"
+    ],
+    "socials": [],
+    "total_images": 82,
+    "total_words": 5189,
+    "hero_h1": "WÃ¼rth Treuhand AG - Revisions- und Steuerrechtspraxis in ZÃ¼rich",
+    "home_h2_count": 6,
+    "nav_top": [
+      "Home",
+      "Ãber uns",
+      "Dienstleistungen",
+      "WirtschaftsprÃ¼fung",
+      "Vorsorgeberatung",
+      "Treuhand",
+      "Unternehmensberatung",
+      "Aktuell",
+      "Kontakt",
+      "Impressum",
+      "Mehr ..."
+    ]
+  },
+  {
+    "name": "ZH Treuhand",
+    "domain": "zhtreuhand.ch",
+    "pages": 29,
+    "page_types": {
+      "services": 6,
+      "legal": 4,
+      "contact": 2,
+      "about": 2,
+      "team": 2
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": false,
+      "multilingual": false,
+      "cookie_consent": true,
+      "social": false,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor"
+      ],
+      "software": [
+        "klara"
+      ]
+    },
+    "languages": [
+      "de"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [],
+    "total_images": 112,
+    "total_words": 12795,
+    "hero_h1": "Ihr Treuhänder in Zürich für KMU und Ärzte",
+    "home_h2_count": 0,
+    "nav_top": [
+      "Zum Inhalt springen",
+      "Für KMU",
+      "Für Ärzte",
+      "Jetzt kontaktieren",
+      "Impressum",
+      "Datenschutz"
+    ]
+  },
+  {
+    "name": "Zurich Tax & Treuhand GmbH",
+    "domain": "zurichtaxtreuhand.ch",
+    "pages": 22,
+    "page_types": {
+      "services": 9,
+      "team": 3,
+      "contact": 1,
+      "about": 1,
+      "legal": 3
+    },
+    "has": {
+      "services": true,
+      "about": true,
+      "team": true,
+      "contact_form": true,
+      "pricing": false,
+      "blog_news": false,
+      "jobs": false,
+      "faq": false,
+      "testimonials": false,
+      "client_portal": false,
+      "online_booking": true,
+      "multilingual": false,
+      "cookie_consent": false,
+      "social": true,
+      "schema_org": false
+    },
+    "trust": {
+      "certifications": [
+        "RAB/zugel. Revisor"
+      ],
+      "software": [
+        "sage"
+      ]
+    },
+    "languages": [
+      "de-CH"
+    ],
+    "cms": [
+      "WordPress"
+    ],
+    "jsonld_types": [],
+    "socials": [
+      "facebook",
+      "instagram",
+      "linkedin"
+    ],
+    "total_images": 43,
+    "total_words": 16151,
+    "hero_h1": "Zurich Tax und Treuhand",
+    "home_h2_count": 4,
+    "nav_top": [
+      "Zum Inhalt springen",
+      "Home",
+      "Dienstleistungen",
+      "Buchhaltung",
+      "Personaladministration",
+      "Steuern",
+      "Über Uns",
+      "Kontakt",
+      "Mehr erfahren",
+      "Impressum",
+      "Datenschutz",
+      "AGB"
+    ]
+  }
+]

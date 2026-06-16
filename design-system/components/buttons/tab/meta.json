@@ -1,0 +1,17 @@
+{
+  "id": "btn.tab",
+  "category": "button",
+  "name": "Tab button",
+  "variants": [
+    "border-b-2 active (boost contact)"
+  ],
+  "structure": "underline-tab toggle",
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

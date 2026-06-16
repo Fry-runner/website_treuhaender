@@ -1,0 +1,20 @@
+{
+  "slot": "values",
+  "category": "section",
+  "name": "Section: values",
+  "variants": [
+    "3-col vertical hairline dividers, dot+title+text (uds, boost)"
+  ],
+  "fromBuiltSites": [
+    "boost",
+    "uds"
+  ],
+  "styleAffinity": [
+    "editorial",
+    "warm"
+  ],
+  "priority": "common",
+  "entryIds": [
+    "values.divided-columns"
+  ]
+}

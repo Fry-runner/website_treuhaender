@@ -1,0 +1,18 @@
+{
+  "id": "layout.hairline-grid",
+  "category": "layout",
+  "name": "Zero-gap bordered+divided grid",
+  "variants": [
+    "divide-x/divide-y hairline cells (boost)"
+  ],
+  "structure": "single bordered box subdivided by hairlines",
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "editorial",
+    "warm"
+  ],
+  "priority": "common",
+  "notes": null
+}

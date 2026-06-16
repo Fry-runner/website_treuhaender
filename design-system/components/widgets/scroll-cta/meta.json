@@ -1,0 +1,17 @@
+{
+  "id": "widget.scroll-cta",
+  "category": "widget",
+  "name": "Scroll-driven CTA highlighter",
+  "variants": [
+    "nearest-to-center CTA glows (tureva)"
+  ],
+  "structure": "passive scroll observer toggles active class on CTAs",
+  "fromBuiltSites": [
+    "tureva"
+  ],
+  "styleAffinity": [
+    "soft"
+  ],
+  "priority": "optional",
+  "notes": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "decor.pulse-dot",
+  "category": "decoration",
+  "name": "Pulse / ping status dot",
+  "variants": [
+    "eyebrow dot, availability ping"
+  ],
+  "structure": "animated rounded-full dot",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

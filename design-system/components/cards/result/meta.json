@@ -1,0 +1,17 @@
+{
+  "id": "card.result",
+  "category": "card",
+  "name": "Quiz / recommendation result card",
+  "variants": [
+    "Sparkles icon + verdict (uds)"
+  ],
+  "structure": "tinted card with recommendation + CTAs",
+  "fromBuiltSites": [
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": null
+}

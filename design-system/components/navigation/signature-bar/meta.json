@@ -1,0 +1,18 @@
+{
+  "id": "nav.signature-bar",
+  "category": "navigation",
+  "name": "Top signature accent bar",
+  "variants": [
+    "1.5px blue bar above header (uds)"
+  ],
+  "structure": "thin full-width colored bar fixed above nav",
+  "fromBuiltSites": [
+    "uds"
+  ],
+  "styleAffinity": [
+    "warm",
+    "editorial"
+  ],
+  "priority": "optional",
+  "notes": null
+}

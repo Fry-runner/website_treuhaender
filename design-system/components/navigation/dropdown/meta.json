@@ -1,0 +1,17 @@
+{
+  "id": "nav.dropdown",
+  "category": "navigation",
+  "name": "Hover dropdown / mega menu",
+  "variants": [
+    "services dropdown w/ ChevronDown rotate (boost)"
+  ],
+  "structure": "nav item reveals panel with title+subtext entries on hover",
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": null
+}

@@ -1,0 +1,20 @@
+{
+  "slot": "process",
+  "category": "section",
+  "name": "Section: process",
+  "variants": [
+    "clickable numbered cards w/ active ring 01-03 (boost)",
+    "static cards + arrow connectors (boost)"
+  ],
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "editorial",
+    "any"
+  ],
+  "priority": "common",
+  "entryIds": [
+    "process.steps"
+  ]
+}

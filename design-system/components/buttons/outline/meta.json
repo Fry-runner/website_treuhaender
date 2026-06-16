@@ -1,0 +1,20 @@
+{
+  "id": "btn.outline",
+  "category": "button",
+  "name": "Outline / ghost (invert on hover)",
+  "variants": [
+    "border → fill invert"
+  ],
+  "structure": "transparent + border, hover fills with brand color",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "notes": null
+}

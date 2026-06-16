@@ -1,0 +1,1764 @@
+{
+  "sections/hero": {
+    "slot": "hero",
+    "category": "section",
+    "name": "Section: hero",
+    "variants": [
+      "serif H1 + decorative SVG panel right (boost)",
+      "8/4 text + pull-quote right (uds)",
+      "max-w-4xl centered stack + 2 buttons (tureva)",
+      "numbered mono eyebrow inner-page (boost)",
+      "pulse-dot badge + 2-line headline (ruerup)",
+      "H1 + underline accent bar (tureva about)",
+      "hero + 4/8 label+prose split above hairline (boost)"
+    ],
+    "fromBuiltSites": [
+      "boost",
+      "uds",
+      "tureva",
+      "ruerup"
+    ],
+    "styleAffinity": [
+      "editorial",
+      "warm",
+      "soft",
+      "any",
+      "swiss"
+    ],
+    "priority": "core",
+    "entryIds": [
+      "hero.split-graphic",
+      "hero.centered",
+      "hero.text-left",
+      "hero.with-factband"
+    ]
+  },
+  "sections/intro": {
+    "slot": "intro",
+    "category": "section",
+    "name": "Section: intro",
+    "variants": [
+      "single max-w-3xl column (uds, boost)",
+      "5/7 split + feature chips (tureva)"
+    ],
+    "fromBuiltSites": [
+      "boost",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "entryIds": [
+      "intro.statement"
+    ]
+  },
+  "sections/services": {
+    "slot": "services",
+    "category": "section",
+    "name": "Section: services",
+    "variants": [
+      "2×2 tiles divide-x/y (boost)",
+      "3-pillar single bordered box (boost home)",
+      "3-col clickable h-80 (tureva)",
+      "5-tile lg:grid-cols-5 (uds)",
+      "2-col bento (ruerup intl)",
+      "2-pillar cards corner-badge + checklist + full-width CTA (ruerup)",
+      "single-open Plus/Minus (ruerup)",
+      "expand body 8/4 checklist + info card (tureva)",
+      "4/8 list + animated detail pane w/ accent bar (uds)",
+      "4-col numbered 04.x cards (tureva)"
+    ],
+    "fromBuiltSites": [
+      "boost",
+      "tureva",
+      "uds",
+      "ruerup"
+    ],
+    "styleAffinity": [
+      "editorial",
+      "warm",
+      "soft",
+      "swiss",
+      "any"
+    ],
+    "priority": "core",
+    "entryIds": [
+      "services.bordered-tiles",
+      "services.card-grid",
+      "services.feature-pillars",
+      "services.accordion",
+      "services.selector-detail",
+      "services.secondary-grid"
+    ]
+  },
+  "sections/stats": {
+    "slot": "stats",
+    "category": "section",
+    "name": "Section: stats",
+    "variants": [
+      "bordered divided 3-col centered (boost)",
+      "6/6 panel + 2×2 metric grid (tureva)",
+      "telemetry label/value card (uds, tureva)"
+    ],
+    "fromBuiltSites": [
+      "boost",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "entryIds": [
+      "stats.band"
+    ]
+  },
+  "sections/values": {
+    "slot": "values",
+    "category": "section",
+    "name": "Section: values",
+    "variants": [
+      "3-col vertical hairline dividers, dot+title+text (uds, boost)"
+    ],
+    "fromBuiltSites": [
+      "boost",
+      "uds"
+    ],
+    "styleAffinity": [
+      "editorial",
+      "warm"
+    ],
+    "priority": "common",
+    "entryIds": [
+      "values.divided-columns"
+    ]
+  },
+  "sections/about": {
+    "slot": "about",
+    "category": "section",
+    "name": "Section: about",
+    "variants": [
+      "narrative + portrait (ruerup)",
+      "narrative + stats card 8/4 (uds)",
+      "history 6/6 + mini-stats (tureva)"
+    ],
+    "fromBuiltSites": [
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "entryIds": [
+      "about.split-narrative"
+    ]
+  },
+  "sections/profile": {
+    "slot": "profile",
+    "category": "section",
+    "name": "Section: profile",
+    "variants": [
+      "hero + bio split + qualifications grid + pull-quote (ruerup)"
+    ],
+    "fromBuiltSites": [
+      "ruerup"
+    ],
+    "styleAffinity": [
+      "swiss",
+      "editorial",
+      "warm"
+    ],
+    "priority": "common",
+    "entryIds": [
+      "about.profile-person"
+    ]
+  },
+  "sections/audience": {
+    "slot": "audience",
+    "category": "section",
+    "name": "Section: audience",
+    "variants": [
+      "3-col icon cards (tureva)",
+      "A/B/C cards (uds)",
+      "mono-indexed client-group grid (ruerup)"
+    ],
+    "fromBuiltSites": [
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "entryIds": [
+      "audience.cards"
+    ]
+  },
+  "sections/team": {
+    "slot": "team",
+    "category": "section",
+    "name": "Section: team",
+    "variants": [
+      "3-col cards monogram avatar + role badge (tureva)",
+      "profile rows 4/8 + bio + tags (uds)",
+      "team teaser panel + button (uds)"
+    ],
+    "fromBuiltSites": [
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "soft",
+      "warm",
+      "any"
+    ],
+    "priority": "common",
+    "entryIds": [
+      "team.cards"
+    ]
+  },
+  "sections/process": {
+    "slot": "process",
+    "category": "section",
+    "name": "Section: process",
+    "variants": [
+      "clickable numbered cards w/ active ring 01-03 (boost)",
+      "static cards + arrow connectors (boost)"
+    ],
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "editorial",
+      "any"
+    ],
+    "priority": "common",
+    "entryIds": [
+      "process.steps"
+    ]
+  },
+  "sections/pricing": {
+    "slot": "pricing",
+    "category": "section",
+    "name": "Section: pricing",
+    "variants": [
+      "3-col bordered cards, recommended ring/tint (boost)",
+      "2-col cards w/ line items + startup-rate notes (boost)"
+    ],
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "editorial",
+      "any"
+    ],
+    "priority": "optional",
+    "entryIds": [
+      "pricing.cards",
+      "pricing.rate-table"
+    ]
+  },
+  "sections/partners": {
+    "slot": "partners",
+    "category": "section",
+    "name": "Section: partners",
+    "variants": [
+      "small partner cards 2/4-col (boost)",
+      "12-cell award grid + inverted CTA cell (boost)"
+    ],
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "editorial",
+      "any"
+    ],
+    "priority": "optional",
+    "entryIds": [
+      "partners.strip-grid"
+    ]
+  },
+  "sections/faq": {
+    "slot": "faq",
+    "category": "section",
+    "name": "Section: faq",
+    "variants": [
+      "static stacked Q/A cards (boost)",
+      "accordion (reuse services.accordion)"
+    ],
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "entryIds": [
+      "faq.list"
+    ]
+  },
+  "sections/quote": {
+    "slot": "quote",
+    "category": "section",
+    "name": "Section: quote",
+    "variants": [
+      "giant faint watermark + italic quote (ruerup)",
+      "bordered centered blockquote + line motif (uds)"
+    ],
+    "fromBuiltSites": [
+      "ruerup",
+      "uds"
+    ],
+    "styleAffinity": [
+      "editorial",
+      "warm",
+      "swiss"
+    ],
+    "priority": "common",
+    "entryIds": [
+      "quote.blockquote"
+    ]
+  },
+  "sections/cta": {
+    "slot": "cta",
+    "category": "section",
+    "name": "Section: cta",
+    "variants": [
+      "centered eyebrow+H2+button (all)",
+      "teaser text-left + button-right (tureva, uds)",
+      "inverted dark/decorated card (boost, ruerup)"
+    ],
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "entryIds": [
+      "cta.band"
+    ]
+  },
+  "sections/contact": {
+    "slot": "contact",
+    "category": "section",
+    "name": "Section: contact",
+    "variants": [
+      "7/5 form + office directory (tureva, uds)",
+      "5/7 office cards + form (ruerup)",
+      "tabbed calendar/form (boost)"
+    ],
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "entryIds": [
+      "contact.form-sidebar"
+    ]
+  },
+  "sections/map": {
+    "slot": "map",
+    "category": "section",
+    "name": "Section: map",
+    "variants": [
+      "abstract DE-CH SVG w/ animated nodes (ruerup)",
+      "custom Zürich line-map (uds)",
+      "text address only (tureva)"
+    ],
+    "fromBuiltSites": [
+      "ruerup",
+      "uds"
+    ],
+    "styleAffinity": [
+      "swiss",
+      "warm"
+    ],
+    "priority": "optional",
+    "entryIds": [
+      "map.stylized"
+    ]
+  },
+  "navigation/sticky-translucent": {
+    "id": "nav.sticky-translucent",
+    "category": "navigation",
+    "name": "Sticky translucent header",
+    "variants": [
+      "custom SVG logo (boost ∞, tureva double-T)",
+      "wordmark + subtitle (ruerup, uds)",
+      "hover-grow accent line (uds)"
+    ],
+    "structure": "sticky top-0 z-50, bg/90 backdrop-blur, bottom hairline, h-20, max-w-7xl; logo | center nav | right CTA",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "navigation/active-underline": {
+    "id": "nav.active-underline",
+    "category": "navigation",
+    "name": "Active-link underline indicator",
+    "variants": [
+      "animated layoutId spring (ruerup, uds, tureva)",
+      "static accent underline (boost)"
+    ],
+    "structure": "desktop text links; active item gets sliding/animated underline bar",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "navigation/dropdown": {
+    "id": "nav.dropdown",
+    "category": "navigation",
+    "name": "Hover dropdown / mega menu",
+    "variants": [
+      "services dropdown w/ ChevronDown rotate (boost)"
+    ],
+    "structure": "nav item reveals panel with title+subtext entries on hover",
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "navigation/lang-switch": {
+    "id": "nav.lang-switch",
+    "category": "navigation",
+    "name": "Language switcher",
+    "variants": [
+      "pill DE/EN toggle (tureva)",
+      "Globe toggle mobile (tureva)"
+    ],
+    "structure": "rounded-full segmented toggle, active = filled chip",
+    "fromBuiltSites": [
+      "tureva"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": "Important for CH bilingual sites; only Tureva implements it."
+  },
+  "navigation/mobile-drawer": {
+    "id": "nav.mobile-drawer",
+    "category": "navigation",
+    "name": "Mobile menu drawer",
+    "variants": [
+      "AnimatePresence height drawer + active left-border + full-width CTA (all)"
+    ],
+    "structure": "hamburger toggle → absolute animated panel with stacked links and CTA",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "navigation/signature-bar": {
+    "id": "nav.signature-bar",
+    "category": "navigation",
+    "name": "Top signature accent bar",
+    "variants": [
+      "1.5px blue bar above header (uds)"
+    ],
+    "structure": "thin full-width colored bar fixed above nav",
+    "fromBuiltSites": [
+      "uds"
+    ],
+    "styleAffinity": [
+      "warm",
+      "editorial"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "footer/multicol": {
+    "id": "footer.multicol",
+    "category": "footer",
+    "name": "Multi-column footer",
+    "variants": [
+      "3-col brand/sitemap/network (boost)",
+      "12-col offices+sitemap+badge (ruerup)",
+      "4-block w/ lang box (tureva)",
+      "brand+clock+compliance (uds)"
+    ],
+    "structure": "grid of 3–4 blocks: brand+tagline, sitemap links, offices/address, network/trust badges; bottom bar w/ dynamic year + legal triggers",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "footer/extras": {
+    "id": "footer.extras",
+    "category": "footer",
+    "name": "Footer accessories",
+    "variants": [
+      "live Zürich clock (uds)",
+      "language-capabilities box (tureva)",
+      "LinkedIn pill (boost)",
+      "SSL/UID/D&O trust badges (all)"
+    ],
+    "structure": "optional widgets embedded in footer columns",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "buttons/primary-solid": {
+    "id": "btn.primary-solid",
+    "category": "button",
+    "name": "Primary solid",
+    "variants": [
+      "navy/anthracite/rose/green fills"
+    ],
+    "structure": "solid bg, uppercase tracked mono label, hover shift, often w/ arrow/send icon",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "buttons/outline": {
+    "id": "btn.outline",
+    "category": "button",
+    "name": "Outline / ghost (invert on hover)",
+    "variants": [
+      "border → fill invert"
+    ],
+    "structure": "transparent + border, hover fills with brand color",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "buttons/link-arrow": {
+    "id": "btn.link-arrow",
+    "category": "button",
+    "name": "Link with arrow",
+    "variants": [
+      "ArrowRight translate + border-b underline"
+    ],
+    "structure": "text link, mono uppercase, arrow translates on group hover",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "buttons/underline-anim": {
+    "id": "btn.underline-anim",
+    "category": "button",
+    "name": "Animated underline link",
+    "variants": [
+      "scaleX underline grow (uds .hover-underline-anim)"
+    ],
+    "structure": "::after underline scales from left on hover",
+    "fromBuiltSites": [
+      "uds"
+    ],
+    "styleAffinity": [
+      "warm",
+      "editorial"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "buttons/pill": {
+    "id": "btn.pill",
+    "category": "button",
+    "name": "Pill button",
+    "variants": [
+      "rounded-full solid/outline"
+    ],
+    "structure": "fully rounded button (nav CTA, badges)",
+    "fromBuiltSites": [
+      "tureva",
+      "boost",
+      "ruerup"
+    ],
+    "styleAffinity": [
+      "soft",
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "buttons/bloom-cta": {
+    "id": "btn.bloom-cta",
+    "category": "button",
+    "name": "Bloom / glow interactive CTA",
+    "variants": [
+      "green scroll-driven bloom (tureva .cta-btn-interactive)"
+    ],
+    "structure": "rounded-full, faded→full on activation, colored box-shadow bloom",
+    "fromBuiltSites": [
+      "tureva"
+    ],
+    "styleAffinity": [
+      "soft"
+    ],
+    "priority": "optional",
+    "notes": "Tied to a scroll observer that highlights nearest CTA."
+  },
+  "buttons/tab": {
+    "id": "btn.tab",
+    "category": "button",
+    "name": "Tab button",
+    "variants": [
+      "border-b-2 active (boost contact)"
+    ],
+    "structure": "underline-tab toggle",
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "buttons/icon": {
+    "id": "btn.icon",
+    "category": "button",
+    "name": "Icon button",
+    "variants": [
+      "close X, refresh, restart, slot-select"
+    ],
+    "structure": "square/round icon-only button",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "buttons/destructive": {
+    "id": "btn.destructive",
+    "category": "button",
+    "name": "Destructive link",
+    "variants": [
+      "red trash/cancel (boost)"
+    ],
+    "structure": "red mono text link w/ Trash2/X",
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "buttons/card-as-button": {
+    "id": "btn.card-as-button",
+    "category": "button",
+    "name": "Service nav card-as-button",
+    "variants": [
+      "large clickable tile (uds, tureva)"
+    ],
+    "structure": "full card acts as button to a detail view",
+    "fromBuiltSites": [
+      "uds",
+      "tureva",
+      "boost"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "cards/service-tile": {
+    "id": "card.service-tile",
+    "category": "card",
+    "name": "Service tile",
+    "variants": [
+      "icon+tag, title, summary, check-list, link"
+    ],
+    "structure": "bordered cell, hover border accent",
+    "fromBuiltSites": [
+      "boost",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "cards/feature-pillar": {
+    "id": "card.feature-pillar",
+    "category": "card",
+    "name": "Large feature pillar w/ checklist",
+    "variants": [
+      "corner badge + CheckCircle list + CTA"
+    ],
+    "structure": "large bordered card",
+    "fromBuiltSites": [
+      "ruerup",
+      "boost"
+    ],
+    "styleAffinity": [
+      "swiss",
+      "editorial"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "cards/stat": {
+    "id": "card.stat",
+    "category": "card",
+    "name": "Stat / metric cell",
+    "variants": [
+      "big number + label + caption"
+    ],
+    "structure": "bordered or borderless metric cell",
+    "fromBuiltSites": [
+      "boost",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "cards/telemetry": {
+    "id": "card.telemetry",
+    "category": "card",
+    "name": "Telemetry / label-value card",
+    "variants": [
+      "STANDORT/FOKUS/GRÜNDUNG list (uds)",
+      "registry card (tureva)"
+    ],
+    "structure": "bordered label→value rows + accent bar",
+    "fromBuiltSites": [
+      "uds",
+      "tureva"
+    ],
+    "styleAffinity": [
+      "warm",
+      "soft"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "cards/pricing": {
+    "id": "card.pricing",
+    "category": "card",
+    "name": "Pricing card",
+    "variants": [
+      "recommended ring/tint"
+    ],
+    "structure": "name, desc, price block, feature ul, CTA",
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "cards/partner": {
+    "id": "card.partner",
+    "category": "card",
+    "name": "Partner / award card",
+    "variants": [
+      "eyebrow, name, desc, status pill"
+    ],
+    "structure": "small bordered card w/ footer key/value",
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "editorial"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "cards/audience": {
+    "id": "card.audience",
+    "category": "card",
+    "name": "Audience / client-group card",
+    "variants": [
+      "icon circle + title + text",
+      "mono index label"
+    ],
+    "structure": "bordered card",
+    "fromBuiltSites": [
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "cards/team": {
+    "id": "card.team",
+    "category": "card",
+    "name": "Team card / profile row",
+    "variants": [
+      "monogram avatar + role badge (tureva)",
+      "4/8 row + bio + tags (uds)"
+    ],
+    "structure": "avatar placeholder block + name/role/bio",
+    "fromBuiltSites": [
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "cards/office": {
+    "id": "card.office",
+    "category": "card",
+    "name": "Office / address card",
+    "variants": [
+      "icon header + tel/mail/clock rows"
+    ],
+    "structure": "bordered card with contact rows (links)",
+    "fromBuiltSites": [
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "cards/callout": {
+    "id": "card.callout",
+    "category": "card",
+    "name": "Highlight callout",
+    "variants": [
+      "red left-border (ruerup)",
+      "top-accent border",
+      "rose/blue tint"
+    ],
+    "structure": "accent-bordered panel: icon + heading + body",
+    "fromBuiltSites": [
+      "ruerup",
+      "boost",
+      "uds"
+    ],
+    "styleAffinity": [
+      "swiss",
+      "warm"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "cards/tag-chip": {
+    "id": "card.tag-chip",
+    "category": "card",
+    "name": "Mono tag / pill chip",
+    "variants": [
+      "certifications, registry, badges"
+    ],
+    "structure": "small bordered uppercase mono chip",
+    "fromBuiltSites": [
+      "tureva",
+      "uds",
+      "ruerup"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "cards/tracker-row": {
+    "id": "card.tracker-row",
+    "category": "card",
+    "name": "Inquiry / submission tracker row",
+    "variants": [
+      "id+date+status badge+action"
+    ],
+    "structure": "bordered row in a list (localStorage records)",
+    "fromBuiltSites": [
+      "boost",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "cards/result": {
+    "id": "card.result",
+    "category": "card",
+    "name": "Quiz / recommendation result card",
+    "variants": [
+      "Sparkles icon + verdict (uds)"
+    ],
+    "structure": "tinted card with recommendation + CTAs",
+    "fromBuiltSites": [
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "cards/banner": {
+    "id": "card.banner",
+    "category": "card",
+    "name": "Success / error banner",
+    "variants": [
+      "emerald success, red error"
+    ],
+    "structure": "inline status banner w/ icon, auto-dismiss",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "forms/contact": {
+    "id": "form.contact",
+    "category": "form",
+    "name": "Contact form",
+    "variants": [
+      "name/email/phone/service-select/message"
+    ],
+    "structure": "2-col paired rows + full-width textarea; mono uppercase labels; required *",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "forms/input": {
+    "id": "form.input",
+    "category": "form",
+    "name": "Input / textarea / select styles",
+    "variants": [
+      "bordered, focus-accent, rounded per preset"
+    ],
+    "structure": "consistent field styling driven by tokens (radius/border/focus)",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "forms/validation": {
+    "id": "form.validation",
+    "category": "form",
+    "name": "Client-side validation + feedback",
+    "variants": [
+      "empty-check guard, error banner, success banner"
+    ],
+    "structure": "required-field guard → error/success banners",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "forms/persistence": {
+    "id": "form.persistence",
+    "category": "form",
+    "name": "localStorage persistence + tracker",
+    "variants": [
+      "inquiry records, status progression, delete"
+    ],
+    "structure": "submitted entries saved + listed with status badges",
+    "fromBuiltSites": [
+      "boost",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "forms/extras": {
+    "id": "form.extras",
+    "category": "form",
+    "name": "Form extras",
+    "variants": [
+      "newsletter checkbox",
+      "consent/DSGVO note",
+      "partner-select",
+      "booking form"
+    ],
+    "structure": "supplementary fields/notes",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "widgets/modal": {
+    "id": "widget.modal",
+    "category": "widget",
+    "name": "Modal / dialog (legal)",
+    "variants": [
+      "backdrop-blur scale-in, Impressum/Datenschutz (boost, ruerup)"
+    ],
+    "structure": "fixed overlay, scrollable dialog, close buttons",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "widgets/accordion": {
+    "id": "widget.accordion",
+    "category": "widget",
+    "name": "Accordion (single-open)",
+    "variants": [
+      "Plus/Minus toggle, motion body (ruerup, tureva)"
+    ],
+    "structure": "expandable list, one open at a time",
+    "fromBuiltSites": [
+      "ruerup",
+      "tureva"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "widgets/tabs": {
+    "id": "widget.tabs",
+    "category": "widget",
+    "name": "Tabs / view-switcher / selector",
+    "variants": [
+      "calendar/form tabs (boost)",
+      "sidebar selector (uds)"
+    ],
+    "structure": "toggle between panels",
+    "fromBuiltSites": [
+      "boost",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "widgets/booking": {
+    "id": "widget.booking",
+    "category": "widget",
+    "name": "Booking wizard",
+    "variants": [
+      "3-step date→form→success mock Calendly (boost)"
+    ],
+    "structure": "multi-step appointment flow w/ slot grid + localStorage",
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "widgets/calculator": {
+    "id": "widget.calculator",
+    "category": "widget",
+    "name": "Price calculator (slider)",
+    "variants": [
+      "range slider → recommended package (boost)"
+    ],
+    "structure": "input range drives highlighted pricing card",
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "widgets/quiz": {
+    "id": "widget.quiz",
+    "category": "widget",
+    "name": "Service quiz wizard",
+    "variants": [
+      "3-step + heuristic recommendation (uds)"
+    ],
+    "structure": "stepper w/ progress bar → result card",
+    "fromBuiltSites": [
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": "Lead-gen / engagement widget."
+  },
+  "widgets/simulator": {
+    "id": "widget.simulator",
+    "category": "widget",
+    "name": "Animated simulator",
+    "variants": [
+      "3 sliders → SVG sine-wave verdict (uds FinanceSimulator)"
+    ],
+    "structure": "sliders compute SVG path + status verdict + celebration state",
+    "fromBuiltSites": [
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": "Signature 'wow' interactive; brand-specific."
+  },
+  "widgets/scroll-cta": {
+    "id": "widget.scroll-cta",
+    "category": "widget",
+    "name": "Scroll-driven CTA highlighter",
+    "variants": [
+      "nearest-to-center CTA glows (tureva)"
+    ],
+    "structure": "passive scroll observer toggles active class on CTAs",
+    "fromBuiltSites": [
+      "tureva"
+    ],
+    "styleAffinity": [
+      "soft"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "widgets/map-interactive": {
+    "id": "widget.map-interactive",
+    "category": "widget",
+    "name": "Interactive SVG map",
+    "variants": [
+      "hover/click nodes + tooltip (ruerup)"
+    ],
+    "structure": "SVG with animated nodes and tooltips",
+    "fromBuiltSites": [
+      "ruerup"
+    ],
+    "styleAffinity": [
+      "swiss"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "widgets/clock": {
+    "id": "widget.clock",
+    "category": "widget",
+    "name": "Live local clock",
+    "variants": [
+      "Zürich time setInterval (uds)"
+    ],
+    "structure": "ticking time display in footer",
+    "fromBuiltSites": [
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "decoration/logo-mark": {
+    "id": "decor.logo-mark",
+    "category": "decoration",
+    "name": "Custom SVG logo mark",
+    "variants": [
+      "infinity ∞ (boost)",
+      "double-T monogram (tureva)"
+    ],
+    "structure": "inline SVG brand mark in header/footer",
+    "fromBuiltSites": [
+      "boost",
+      "tureva"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "decoration/divider": {
+    "id": "decor.divider",
+    "category": "decoration",
+    "name": "Branded section divider",
+    "variants": [
+      "TurevaLines (horizontal/footer/inline)",
+      "'Strich' line motif (uds)",
+      "signature bar"
+    ],
+    "structure": "hairline + label/dot motif between sections",
+    "fromBuiltSites": [
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "soft",
+      "warm"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "decoration/bg-animated": {
+    "id": "decor.bg-animated",
+    "category": "decoration",
+    "name": "Animated background",
+    "variants": [
+      "flowing ribbons (tureva)",
+      "masked grid (ruerup, boost)",
+      "faint gridlines (uds)"
+    ],
+    "structure": "fixed/absolute decorative SVG/CSS layer behind content",
+    "fromBuiltSites": [
+      "tureva",
+      "ruerup",
+      "boost",
+      "uds"
+    ],
+    "styleAffinity": [
+      "soft",
+      "swiss"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "decoration/accent-bar": {
+    "id": "decor.accent-bar",
+    "category": "decoration",
+    "name": "Accent bar / hairline underline",
+    "variants": [
+      "w-16 h-1 / w-8 h-[2px]"
+    ],
+    "structure": "short colored bar under eyebrows/headings",
+    "fromBuiltSites": [
+      "boost",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "decoration/pulse-dot": {
+    "id": "decor.pulse-dot",
+    "category": "decoration",
+    "name": "Pulse / ping status dot",
+    "variants": [
+      "eyebrow dot, availability ping"
+    ],
+    "structure": "animated rounded-full dot",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "decoration/icon-box": {
+    "id": "decor.icon-box",
+    "category": "decoration",
+    "name": "Icon-in-bordered-box",
+    "variants": [
+      "40×40 bordered icon container"
+    ],
+    "structure": "lucide icon inside square bordered box",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup"
+    ],
+    "styleAffinity": [
+      "editorial",
+      "swiss"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "decoration/monogram": {
+    "id": "decor.monogram",
+    "category": "decoration",
+    "name": "Monogram avatar block",
+    "variants": [
+      "initials on solid color (tureva, uds)"
+    ],
+    "structure": "placeholder avatar w/ initials + role badge",
+    "fromBuiltSites": [
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "decoration/portrait-frame": {
+    "id": "decor.portrait-frame",
+    "category": "decoration",
+    "name": "Decorative portrait frame",
+    "variants": [
+      "offset frame + credential overlay (ruerup)"
+    ],
+    "structure": "image card with offset border + caption overlay",
+    "fromBuiltSites": [
+      "ruerup"
+    ],
+    "styleAffinity": [
+      "swiss",
+      "editorial"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "decoration/watermark": {
+    "id": "decor.watermark",
+    "category": "decoration",
+    "name": "Giant quote watermark",
+    "variants": [
+      "faint Quote glyph behind text (ruerup)"
+    ],
+    "structure": "oversized faint background glyph",
+    "fromBuiltSites": [
+      "ruerup"
+    ],
+    "styleAffinity": [
+      "editorial",
+      "swiss"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "decoration/map-art": {
+    "id": "decor.map-art",
+    "category": "decoration",
+    "name": "Stylized line-map graphic",
+    "variants": [
+      "DE-CH abstract (ruerup)",
+      "Zürich streets (uds)"
+    ],
+    "structure": "hand-built decorative SVG map",
+    "fromBuiltSites": [
+      "ruerup",
+      "uds"
+    ],
+    "styleAffinity": [
+      "swiss",
+      "warm"
+    ],
+    "priority": "optional",
+    "notes": null
+  },
+  "decoration/icon-set": {
+    "id": "decor.icon-set",
+    "category": "decoration",
+    "name": "lucide-react icon system",
+    "variants": [
+      "nav/service/contact icon sets"
+    ],
+    "structure": "consistent icon library across all sites",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "layout/container": {
+    "id": "layout.container",
+    "category": "layout",
+    "name": "Container",
+    "variants": [
+      "max-w-7xl / brand-container 1200px",
+      "inner max-w-4xl/3xl/2xl"
+    ],
+    "structure": "centered wrapper w/ responsive gutter",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "layout/section-rhythm": {
+    "id": "layout.section-rhythm",
+    "category": "layout",
+    "name": "Section vertical rhythm",
+    "variants": [
+      "py-12/16/20/24/28",
+      "space-y-16..36 between sections"
+    ],
+    "structure": "consistent vertical spacing scale (from spacing tokens)",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "layout/grid-split": {
+    "id": "layout.grid-split",
+    "category": "layout",
+    "name": "12-col asymmetric splits",
+    "variants": [
+      "8/4, 7/5, 5/7, 6/6, 4/8"
+    ],
+    "structure": "lg:grid-cols-12 split layouts for hero/about/contact",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "layout/card-grid": {
+    "id": "layout.card-grid",
+    "category": "layout",
+    "name": "Card grids",
+    "variants": [
+      "2/3/4/5-col"
+    ],
+    "structure": "responsive grid for cards",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "layout/hairline-grid": {
+    "id": "layout.hairline-grid",
+    "category": "layout",
+    "name": "Zero-gap bordered+divided grid",
+    "variants": [
+      "divide-x/divide-y hairline cells (boost)"
+    ],
+    "structure": "single bordered box subdivided by hairlines",
+    "fromBuiltSites": [
+      "boost"
+    ],
+    "styleAffinity": [
+      "editorial",
+      "warm"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "layout/alt-bg": {
+    "id": "layout.alt-bg",
+    "category": "layout",
+    "name": "Alternating section backgrounds",
+    "variants": [
+      "white ↔ gray/paper bands"
+    ],
+    "structure": "section bg alternation for rhythm; each band bottom-bordered",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "notes": null
+  },
+  "layout/page-transition": {
+    "id": "layout.page-transition",
+    "category": "layout",
+    "name": "Page / reveal transitions",
+    "variants": [
+      "motion/react AnimatePresence, animate-fade-in"
+    ],
+    "structure": "view-switch + on-mount reveal animations",
+    "fromBuiltSites": [
+      "boost",
+      "ruerup",
+      "tureva",
+      "uds"
+    ],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "notes": null
+  },
+  "sections/testimonials": {
+    "id": "sections/testimonials",
+    "category": "section",
+    "name": "Testimonials / reviews",
+    "variants": [
+      "quote cards",
+      "star-rating row",
+      "Google-reviews embed",
+      "logo + quote"
+    ],
+    "structure": "grid/carousel of client quotes with name/role/rating; or embedded Google rating badge",
+    "fromBuiltSites": [],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "discoveredIn": "scraped",
+    "prevalence": "28% of scraped sites; absent in built templates"
+  },
+  "sections/blog-teaser": {
+    "id": "sections/blog-teaser",
+    "category": "section",
+    "name": "Blog / insights teaser",
+    "variants": [
+      "3-card latest articles",
+      "news list",
+      "downloads / Merkblätter list"
+    ],
+    "structure": "section header + 3-col article cards (image, date, title, excerpt, read-more)",
+    "fromBuiltSites": [],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "discoveredIn": "scraped",
+    "prevalence": "64% of scraped sites have a blog/news area; absent in built templates"
+  },
+  "sections/trust-bar": {
+    "id": "sections/trust-bar",
+    "category": "section",
+    "name": "Trust / certification & partner logo bar",
+    "variants": [
+      "certification logos (TREUHAND SUISSE, EXPERTsuisse, RAB)",
+      "software partner logos (bexio, Abacus)",
+      "membership row"
+    ],
+    "structure": "horizontal strip of greyscale logos; often above footer or under hero",
+    "fromBuiltSites": [],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "core",
+    "discoveredIn": "scraped",
+    "prevalence": "certifications cited by ~70% (eidg. Diplom) / 68% (RAB); built sites only used text"
+  },
+  "sections/jobs-teaser": {
+    "id": "sections/jobs-teaser",
+    "category": "section",
+    "name": "Jobs / open positions teaser",
+    "variants": [
+      "open-roles list",
+      "we're-hiring banner"
+    ],
+    "structure": "list of positions or a recruiting CTA band",
+    "fromBuiltSites": [],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "discoveredIn": "scraped",
+    "prevalence": "34% of scraped sites"
+  },
+  "widgets/client-portal-login": {
+    "id": "widgets/client-portal-login",
+    "category": "widget",
+    "name": "Client portal / login entry",
+    "variants": [
+      "login button in nav",
+      "AbaWeb/portal CTA"
+    ],
+    "structure": "prominent login link/button routing to a client portal",
+    "fromBuiltSites": [],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "discoveredIn": "scraped",
+    "prevalence": "16% of scraped sites expose a client portal/login"
+  },
+  "widgets/cookie-consent": {
+    "id": "widgets/cookie-consent",
+    "category": "widget",
+    "name": "Cookie consent banner",
+    "variants": [
+      "bottom banner",
+      "modal w/ preferences"
+    ],
+    "structure": "consent banner with accept/settings (legally required CH/EU)",
+    "fromBuiltSites": [],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "common",
+    "discoveredIn": "scraped",
+    "prevalence": "explicit tooling on 6%, but required for all"
+  },
+  "forms/newsletter-signup": {
+    "id": "forms/newsletter-signup",
+    "category": "form",
+    "name": "Newsletter signup",
+    "variants": [
+      "inline email field",
+      "footer subscribe"
+    ],
+    "structure": "single email input + subscribe button, often in footer or after blog",
+    "fromBuiltSites": [],
+    "styleAffinity": [
+      "any"
+    ],
+    "priority": "optional",
+    "discoveredIn": "scraped",
+    "prevalence": "common alongside blog/news sites"
+  }
+}

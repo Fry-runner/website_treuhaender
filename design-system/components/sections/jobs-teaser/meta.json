@@ -1,0 +1,17 @@
+{
+  "id": "sections/jobs-teaser",
+  "category": "section",
+  "name": "Jobs / open positions teaser",
+  "variants": [
+    "open-roles list",
+    "we're-hiring banner"
+  ],
+  "structure": "list of positions or a recruiting CTA band",
+  "fromBuiltSites": [],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "discoveredIn": "scraped",
+  "prevalence": "34% of scraped sites"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "nav.lang-switch",
+  "category": "navigation",
+  "name": "Language switcher",
+  "variants": [
+    "pill DE/EN toggle (tureva)",
+    "Globe toggle mobile (tureva)"
+  ],
+  "structure": "rounded-full segmented toggle, active = filled chip",
+  "fromBuiltSites": [
+    "tureva"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": "Important for CH bilingual sites; only Tureva implements it."
+}

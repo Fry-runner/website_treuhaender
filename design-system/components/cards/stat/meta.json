@@ -1,0 +1,19 @@
+{
+  "id": "card.stat",
+  "category": "card",
+  "name": "Stat / metric cell",
+  "variants": [
+    "big number + label + caption"
+  ],
+  "structure": "bordered or borderless metric cell",
+  "fromBuiltSites": [
+    "boost",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

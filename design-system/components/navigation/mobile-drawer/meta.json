@@ -1,0 +1,20 @@
+{
+  "id": "nav.mobile-drawer",
+  "category": "navigation",
+  "name": "Mobile menu drawer",
+  "variants": [
+    "AnimatePresence height drawer + active left-border + full-width CTA (all)"
+  ],
+  "structure": "hamburger toggle → absolute animated panel with stacked links and CTA",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "notes": null
+}

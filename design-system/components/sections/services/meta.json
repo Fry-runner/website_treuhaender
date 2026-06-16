@@ -1,0 +1,39 @@
+{
+  "slot": "services",
+  "category": "section",
+  "name": "Section: services",
+  "variants": [
+    "2×2 tiles divide-x/y (boost)",
+    "3-pillar single bordered box (boost home)",
+    "3-col clickable h-80 (tureva)",
+    "5-tile lg:grid-cols-5 (uds)",
+    "2-col bento (ruerup intl)",
+    "2-pillar cards corner-badge + checklist + full-width CTA (ruerup)",
+    "single-open Plus/Minus (ruerup)",
+    "expand body 8/4 checklist + info card (tureva)",
+    "4/8 list + animated detail pane w/ accent bar (uds)",
+    "4-col numbered 04.x cards (tureva)"
+  ],
+  "fromBuiltSites": [
+    "boost",
+    "tureva",
+    "uds",
+    "ruerup"
+  ],
+  "styleAffinity": [
+    "editorial",
+    "warm",
+    "soft",
+    "swiss",
+    "any"
+  ],
+  "priority": "core",
+  "entryIds": [
+    "services.bordered-tiles",
+    "services.card-grid",
+    "services.feature-pillars",
+    "services.accordion",
+    "services.selector-detail",
+    "services.secondary-grid"
+  ]
+}

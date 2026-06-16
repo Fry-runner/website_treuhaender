@@ -1,0 +1,20 @@
+{
+  "id": "layout.grid-split",
+  "category": "layout",
+  "name": "12-col asymmetric splits",
+  "variants": [
+    "8/4, 7/5, 5/7, 6/6, 4/8"
+  ],
+  "structure": "lg:grid-cols-12 split layouts for hero/about/contact",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "notes": null
+}

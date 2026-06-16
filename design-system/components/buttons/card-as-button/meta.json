@@ -1,0 +1,19 @@
+{
+  "id": "btn.card-as-button",
+  "category": "button",
+  "name": "Service nav card-as-button",
+  "variants": [
+    "large clickable tile (uds, tureva)"
+  ],
+  "structure": "full card acts as button to a detail view",
+  "fromBuiltSites": [
+    "uds",
+    "tureva",
+    "boost"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

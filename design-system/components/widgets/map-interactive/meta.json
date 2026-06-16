@@ -1,0 +1,17 @@
+{
+  "id": "widget.map-interactive",
+  "category": "widget",
+  "name": "Interactive SVG map",
+  "variants": [
+    "hover/click nodes + tooltip (ruerup)"
+  ],
+  "structure": "SVG with animated nodes and tooltips",
+  "fromBuiltSites": [
+    "ruerup"
+  ],
+  "styleAffinity": [
+    "swiss"
+  ],
+  "priority": "optional",
+  "notes": null
+}

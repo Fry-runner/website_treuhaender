@@ -1,0 +1,17 @@
+{
+  "id": "btn.bloom-cta",
+  "category": "button",
+  "name": "Bloom / glow interactive CTA",
+  "variants": [
+    "green scroll-driven bloom (tureva .cta-btn-interactive)"
+  ],
+  "structure": "rounded-full, faded→full on activation, colored box-shadow bloom",
+  "fromBuiltSites": [
+    "tureva"
+  ],
+  "styleAffinity": [
+    "soft"
+  ],
+  "priority": "optional",
+  "notes": "Tied to a scroll observer that highlights nearest CTA."
+}

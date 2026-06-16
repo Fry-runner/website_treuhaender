@@ -1,0 +1,20 @@
+{
+  "id": "card.telemetry",
+  "category": "card",
+  "name": "Telemetry / label-value card",
+  "variants": [
+    "STANDORT/FOKUS/GRÜNDUNG list (uds)",
+    "registry card (tureva)"
+  ],
+  "structure": "bordered label→value rows + accent bar",
+  "fromBuiltSites": [
+    "uds",
+    "tureva"
+  ],
+  "styleAffinity": [
+    "warm",
+    "soft"
+  ],
+  "priority": "optional",
+  "notes": null
+}

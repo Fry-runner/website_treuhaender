@@ -1,0 +1,19 @@
+{
+  "id": "card.feature-pillar",
+  "category": "card",
+  "name": "Large feature pillar w/ checklist",
+  "variants": [
+    "corner badge + CheckCircle list + CTA"
+  ],
+  "structure": "large bordered card",
+  "fromBuiltSites": [
+    "ruerup",
+    "boost"
+  ],
+  "styleAffinity": [
+    "swiss",
+    "editorial"
+  ],
+  "priority": "common",
+  "notes": null
+}

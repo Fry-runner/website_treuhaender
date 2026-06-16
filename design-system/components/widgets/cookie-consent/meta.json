@@ -1,0 +1,17 @@
+{
+  "id": "widgets/cookie-consent",
+  "category": "widget",
+  "name": "Cookie consent banner",
+  "variants": [
+    "bottom banner",
+    "modal w/ preferences"
+  ],
+  "structure": "consent banner with accept/settings (legally required CH/EU)",
+  "fromBuiltSites": [],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "discoveredIn": "scraped",
+  "prevalence": "explicit tooling on 6%, but required for all"
+}

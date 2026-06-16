@@ -1,0 +1,17 @@
+{
+  "id": "widget.booking",
+  "category": "widget",
+  "name": "Booking wizard",
+  "variants": [
+    "3-step date→form→success mock Calendly (boost)"
+  ],
+  "structure": "multi-step appointment flow w/ slot grid + localStorage",
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": null
+}

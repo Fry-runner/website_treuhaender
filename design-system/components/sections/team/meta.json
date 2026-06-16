@@ -1,0 +1,23 @@
+{
+  "slot": "team",
+  "category": "section",
+  "name": "Section: team",
+  "variants": [
+    "3-col cards monogram avatar + role badge (tureva)",
+    "profile rows 4/8 + bio + tags (uds)",
+    "team teaser panel + button (uds)"
+  ],
+  "fromBuiltSites": [
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "soft",
+    "warm",
+    "any"
+  ],
+  "priority": "common",
+  "entryIds": [
+    "team.cards"
+  ]
+}

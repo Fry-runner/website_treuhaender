@@ -1,0 +1,17 @@
+{
+  "id": "card.pricing",
+  "category": "card",
+  "name": "Pricing card",
+  "variants": [
+    "recommended ring/tint"
+  ],
+  "structure": "name, desc, price block, feature ul, CTA",
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": null
+}

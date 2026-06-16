@@ -1,0 +1,18 @@
+{
+  "id": "sections/trust-bar",
+  "category": "section",
+  "name": "Trust / certification & partner logo bar",
+  "variants": [
+    "certification logos (TREUHAND SUISSE, EXPERTsuisse, RAB)",
+    "software partner logos (bexio, Abacus)",
+    "membership row"
+  ],
+  "structure": "horizontal strip of greyscale logos; often above footer or under hero",
+  "fromBuiltSites": [],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "discoveredIn": "scraped",
+  "prevalence": "certifications cited by ~70% (eidg. Diplom) / 68% (RAB); built sites only used text"
+}

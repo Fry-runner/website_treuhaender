@@ -1,0 +1,22 @@
+{
+  "id": "card.callout",
+  "category": "card",
+  "name": "Highlight callout",
+  "variants": [
+    "red left-border (ruerup)",
+    "top-accent border",
+    "rose/blue tint"
+  ],
+  "structure": "accent-bordered panel: icon + heading + body",
+  "fromBuiltSites": [
+    "ruerup",
+    "boost",
+    "uds"
+  ],
+  "styleAffinity": [
+    "swiss",
+    "warm"
+  ],
+  "priority": "common",
+  "notes": null
+}

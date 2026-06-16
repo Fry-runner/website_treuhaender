@@ -1,0 +1,18 @@
+{
+  "id": "sections/blog-teaser",
+  "category": "section",
+  "name": "Blog / insights teaser",
+  "variants": [
+    "3-card latest articles",
+    "news list",
+    "downloads / Merkblätter list"
+  ],
+  "structure": "section header + 3-col article cards (image, date, title, excerpt, read-more)",
+  "fromBuiltSites": [],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "discoveredIn": "scraped",
+  "prevalence": "64% of scraped sites have a blog/news area; absent in built templates"
+}

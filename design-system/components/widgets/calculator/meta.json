@@ -1,0 +1,17 @@
+{
+  "id": "widget.calculator",
+  "category": "widget",
+  "name": "Price calculator (slider)",
+  "variants": [
+    "range slider → recommended package (boost)"
+  ],
+  "structure": "input range drives highlighted pricing card",
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": null
+}

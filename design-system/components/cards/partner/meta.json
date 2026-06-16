@@ -1,0 +1,17 @@
+{
+  "id": "card.partner",
+  "category": "card",
+  "name": "Partner / award card",
+  "variants": [
+    "eyebrow, name, desc, status pill"
+  ],
+  "structure": "small bordered card w/ footer key/value",
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "editorial"
+  ],
+  "priority": "optional",
+  "notes": null
+}

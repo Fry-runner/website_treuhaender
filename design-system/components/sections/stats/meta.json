@@ -1,0 +1,22 @@
+{
+  "slot": "stats",
+  "category": "section",
+  "name": "Section: stats",
+  "variants": [
+    "bordered divided 3-col centered (boost)",
+    "6/6 panel + 2×2 metric grid (tureva)",
+    "telemetry label/value card (uds, tureva)"
+  ],
+  "fromBuiltSites": [
+    "boost",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "entryIds": [
+    "stats.band"
+  ]
+}

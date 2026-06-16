@@ -1,0 +1,19 @@
+{
+  "id": "card.tracker-row",
+  "category": "card",
+  "name": "Inquiry / submission tracker row",
+  "variants": [
+    "id+date+status badge+action"
+  ],
+  "structure": "bordered row in a list (localStorage records)",
+  "fromBuiltSites": [
+    "boost",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": null
+}

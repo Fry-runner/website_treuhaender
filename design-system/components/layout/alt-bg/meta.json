@@ -1,0 +1,20 @@
+{
+  "id": "layout.alt-bg",
+  "category": "layout",
+  "name": "Alternating section backgrounds",
+  "variants": [
+    "white ↔ gray/paper bands"
+  ],
+  "structure": "section bg alternation for rhythm; each band bottom-bordered",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "notes": null
+}

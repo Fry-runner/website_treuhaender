@@ -1,0 +1,17 @@
+{
+  "id": "btn.destructive",
+  "category": "button",
+  "name": "Destructive link",
+  "variants": [
+    "red trash/cancel (boost)"
+  ],
+  "structure": "red mono text link w/ Trash2/X",
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": null
+}

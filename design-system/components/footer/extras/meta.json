@@ -1,0 +1,23 @@
+{
+  "id": "footer.extras",
+  "category": "footer",
+  "name": "Footer accessories",
+  "variants": [
+    "live Zürich clock (uds)",
+    "language-capabilities box (tureva)",
+    "LinkedIn pill (boost)",
+    "SSL/UID/D&O trust badges (all)"
+  ],
+  "structure": "optional widgets embedded in footer columns",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": null
+}

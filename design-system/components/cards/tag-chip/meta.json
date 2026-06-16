@@ -1,0 +1,19 @@
+{
+  "id": "card.tag-chip",
+  "category": "card",
+  "name": "Mono tag / pill chip",
+  "variants": [
+    "certifications, registry, badges"
+  ],
+  "structure": "small bordered uppercase mono chip",
+  "fromBuiltSites": [
+    "tureva",
+    "uds",
+    "ruerup"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

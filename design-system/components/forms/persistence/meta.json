@@ -1,0 +1,19 @@
+{
+  "id": "form.persistence",
+  "category": "form",
+  "name": "localStorage persistence + tracker",
+  "variants": [
+    "inquiry records, status progression, delete"
+  ],
+  "structure": "submitted entries saved + listed with status badges",
+  "fromBuiltSites": [
+    "boost",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": null
+}

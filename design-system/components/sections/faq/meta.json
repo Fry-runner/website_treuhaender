@@ -1,0 +1,19 @@
+{
+  "slot": "faq",
+  "category": "section",
+  "name": "Section: faq",
+  "variants": [
+    "static stacked Q/A cards (boost)",
+    "accordion (reuse services.accordion)"
+  ],
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "entryIds": [
+    "faq.list"
+  ]
+}

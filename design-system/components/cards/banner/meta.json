@@ -1,0 +1,20 @@
+{
+  "id": "card.banner",
+  "category": "card",
+  "name": "Success / error banner",
+  "variants": [
+    "emerald success, red error"
+  ],
+  "structure": "inline status banner w/ icon, auto-dismiss",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "notes": null
+}

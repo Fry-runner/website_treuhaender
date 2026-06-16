@@ -1,0 +1,17 @@
+{
+  "id": "forms/newsletter-signup",
+  "category": "form",
+  "name": "Newsletter signup",
+  "variants": [
+    "inline email field",
+    "footer subscribe"
+  ],
+  "structure": "single email input + subscribe button, often in footer or after blog",
+  "fromBuiltSites": [],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "discoveredIn": "scraped",
+  "prevalence": "common alongside blog/news sites"
+}

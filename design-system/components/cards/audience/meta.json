@@ -1,0 +1,20 @@
+{
+  "id": "card.audience",
+  "category": "card",
+  "name": "Audience / client-group card",
+  "variants": [
+    "icon circle + title + text",
+    "mono index label"
+  ],
+  "structure": "bordered card",
+  "fromBuiltSites": [
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

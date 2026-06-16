@@ -1,0 +1,22 @@
+{
+  "slot": "map",
+  "category": "section",
+  "name": "Section: map",
+  "variants": [
+    "abstract DE-CH SVG w/ animated nodes (ruerup)",
+    "custom Zürich line-map (uds)",
+    "text address only (tureva)"
+  ],
+  "fromBuiltSites": [
+    "ruerup",
+    "uds"
+  ],
+  "styleAffinity": [
+    "swiss",
+    "warm"
+  ],
+  "priority": "optional",
+  "entryIds": [
+    "map.stylized"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "form.extras",
+  "category": "form",
+  "name": "Form extras",
+  "variants": [
+    "newsletter checkbox",
+    "consent/DSGVO note",
+    "partner-select",
+    "booking form"
+  ],
+  "structure": "supplementary fields/notes",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

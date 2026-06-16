@@ -1,0 +1,17 @@
+{
+  "id": "widget.clock",
+  "category": "widget",
+  "name": "Live local clock",
+  "variants": [
+    "Zürich time setInterval (uds)"
+  ],
+  "structure": "ticking time display in footer",
+  "fromBuiltSites": [
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": null
+}

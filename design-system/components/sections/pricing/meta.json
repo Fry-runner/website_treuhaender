@@ -1,0 +1,21 @@
+{
+  "slot": "pricing",
+  "category": "section",
+  "name": "Section: pricing",
+  "variants": [
+    "3-col bordered cards, recommended ring/tint (boost)",
+    "2-col cards w/ line items + startup-rate notes (boost)"
+  ],
+  "fromBuiltSites": [
+    "boost"
+  ],
+  "styleAffinity": [
+    "editorial",
+    "any"
+  ],
+  "priority": "optional",
+  "entryIds": [
+    "pricing.cards",
+    "pricing.rate-table"
+  ]
+}

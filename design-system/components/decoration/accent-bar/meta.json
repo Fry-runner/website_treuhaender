@@ -1,0 +1,19 @@
+{
+  "id": "decor.accent-bar",
+  "category": "decoration",
+  "name": "Accent bar / hairline underline",
+  "variants": [
+    "w-16 h-1 / w-8 h-[2px]"
+  ],
+  "structure": "short colored bar under eyebrows/headings",
+  "fromBuiltSites": [
+    "boost",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "notes": null
+}

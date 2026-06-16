@@ -1,0 +1,23 @@
+{
+  "slot": "contact",
+  "category": "section",
+  "name": "Section: contact",
+  "variants": [
+    "7/5 form + office directory (tureva, uds)",
+    "5/7 office cards + form (ruerup)",
+    "tabbed calendar/form (boost)"
+  ],
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "entryIds": [
+    "contact.form-sidebar"
+  ]
+}

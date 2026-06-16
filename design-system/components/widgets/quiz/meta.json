@@ -1,0 +1,17 @@
+{
+  "id": "widget.quiz",
+  "category": "widget",
+  "name": "Service quiz wizard",
+  "variants": [
+    "3-step + heuristic recommendation (uds)"
+  ],
+  "structure": "stepper w/ progress bar → result card",
+  "fromBuiltSites": [
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": "Lead-gen / engagement widget."
+}

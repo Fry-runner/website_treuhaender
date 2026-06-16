@@ -1,0 +1,20 @@
+{
+  "id": "btn.pill",
+  "category": "button",
+  "name": "Pill button",
+  "variants": [
+    "rounded-full solid/outline"
+  ],
+  "structure": "fully rounded button (nav CTA, badges)",
+  "fromBuiltSites": [
+    "tureva",
+    "boost",
+    "ruerup"
+  ],
+  "styleAffinity": [
+    "soft",
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

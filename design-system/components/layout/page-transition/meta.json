@@ -1,0 +1,20 @@
+{
+  "id": "layout.page-transition",
+  "category": "layout",
+  "name": "Page / reveal transitions",
+  "variants": [
+    "motion/react AnimatePresence, animate-fade-in"
+  ],
+  "structure": "view-switch + on-mount reveal animations",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

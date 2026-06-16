@@ -1,0 +1,18 @@
+{
+  "id": "btn.underline-anim",
+  "category": "button",
+  "name": "Animated underline link",
+  "variants": [
+    "scaleX underline grow (uds .hover-underline-anim)"
+  ],
+  "structure": "::after underline scales from left on hover",
+  "fromBuiltSites": [
+    "uds"
+  ],
+  "styleAffinity": [
+    "warm",
+    "editorial"
+  ],
+  "priority": "common",
+  "notes": null
+}

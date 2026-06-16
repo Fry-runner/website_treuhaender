@@ -1,0 +1,19 @@
+{
+  "id": "decor.icon-box",
+  "category": "decoration",
+  "name": "Icon-in-bordered-box",
+  "variants": [
+    "40×40 bordered icon container"
+  ],
+  "structure": "lucide icon inside square bordered box",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup"
+  ],
+  "styleAffinity": [
+    "editorial",
+    "swiss"
+  ],
+  "priority": "common",
+  "notes": null
+}

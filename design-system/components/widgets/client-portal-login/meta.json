@@ -1,0 +1,17 @@
+{
+  "id": "widgets/client-portal-login",
+  "category": "widget",
+  "name": "Client portal / login entry",
+  "variants": [
+    "login button in nav",
+    "AbaWeb/portal CTA"
+  ],
+  "structure": "prominent login link/button routing to a client portal",
+  "fromBuiltSites": [],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "discoveredIn": "scraped",
+  "prevalence": "16% of scraped sites expose a client portal/login"
+}

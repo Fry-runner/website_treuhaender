@@ -1,0 +1,34 @@
+{
+  "slot": "hero",
+  "category": "section",
+  "name": "Section: hero",
+  "variants": [
+    "serif H1 + decorative SVG panel right (boost)",
+    "8/4 text + pull-quote right (uds)",
+    "max-w-4xl centered stack + 2 buttons (tureva)",
+    "numbered mono eyebrow inner-page (boost)",
+    "pulse-dot badge + 2-line headline (ruerup)",
+    "H1 + underline accent bar (tureva about)",
+    "hero + 4/8 label+prose split above hairline (boost)"
+  ],
+  "fromBuiltSites": [
+    "boost",
+    "uds",
+    "tureva",
+    "ruerup"
+  ],
+  "styleAffinity": [
+    "editorial",
+    "warm",
+    "soft",
+    "any",
+    "swiss"
+  ],
+  "priority": "core",
+  "entryIds": [
+    "hero.split-graphic",
+    "hero.centered",
+    "hero.text-left",
+    "hero.with-factband"
+  ]
+}

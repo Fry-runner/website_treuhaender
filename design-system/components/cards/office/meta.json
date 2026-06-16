@@ -1,0 +1,19 @@
+{
+  "id": "card.office",
+  "category": "card",
+  "name": "Office / address card",
+  "variants": [
+    "icon header + tel/mail/clock rows"
+  ],
+  "structure": "bordered card with contact rows (links)",
+  "fromBuiltSites": [
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "card.service-tile",
+  "category": "card",
+  "name": "Service tile",
+  "variants": [
+    "icon+tag, title, summary, check-list, link"
+  ],
+  "structure": "bordered cell, hover border accent",
+  "fromBuiltSites": [
+    "boost",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "notes": null
+}

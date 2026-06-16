@@ -1,0 +1,19 @@
+{
+  "id": "card.team",
+  "category": "card",
+  "name": "Team card / profile row",
+  "variants": [
+    "monogram avatar + role badge (tureva)",
+    "4/8 row + bio + tags (uds)"
+  ],
+  "structure": "avatar placeholder block + name/role/bio",
+  "fromBuiltSites": [
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

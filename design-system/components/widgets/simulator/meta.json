@@ -1,0 +1,17 @@
+{
+  "id": "widget.simulator",
+  "category": "widget",
+  "name": "Animated simulator",
+  "variants": [
+    "3 sliders → SVG sine-wave verdict (uds FinanceSimulator)"
+  ],
+  "structure": "sliders compute SVG path + status verdict + celebration state",
+  "fromBuiltSites": [
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "optional",
+  "notes": "Signature 'wow' interactive; brand-specific."
+}

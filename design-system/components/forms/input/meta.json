@@ -1,0 +1,20 @@
+{
+  "id": "form.input",
+  "category": "form",
+  "name": "Input / textarea / select styles",
+  "variants": [
+    "bordered, focus-accent, rounded per preset"
+  ],
+  "structure": "consistent field styling driven by tokens (radius/border/focus)",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup",
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "notes": null
+}

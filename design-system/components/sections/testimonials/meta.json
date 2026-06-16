@@ -1,0 +1,19 @@
+{
+  "id": "sections/testimonials",
+  "category": "section",
+  "name": "Testimonials / reviews",
+  "variants": [
+    "quote cards",
+    "star-rating row",
+    "Google-reviews embed",
+    "logo + quote"
+  ],
+  "structure": "grid/carousel of client quotes with name/role/rating; or embedded Google rating badge",
+  "fromBuiltSites": [],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "discoveredIn": "scraped",
+  "prevalence": "28% of scraped sites; absent in built templates"
+}

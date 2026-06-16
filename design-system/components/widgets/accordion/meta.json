@@ -1,0 +1,18 @@
+{
+  "id": "widget.accordion",
+  "category": "widget",
+  "name": "Accordion (single-open)",
+  "variants": [
+    "Plus/Minus toggle, motion body (ruerup, tureva)"
+  ],
+  "structure": "expandable list, one open at a time",
+  "fromBuiltSites": [
+    "ruerup",
+    "tureva"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

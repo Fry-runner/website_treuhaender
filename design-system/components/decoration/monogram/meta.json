@@ -1,0 +1,18 @@
+{
+  "id": "decor.monogram",
+  "category": "decoration",
+  "name": "Monogram avatar block",
+  "variants": [
+    "initials on solid color (tureva, uds)"
+  ],
+  "structure": "placeholder avatar w/ initials + role badge",
+  "fromBuiltSites": [
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

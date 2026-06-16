@@ -1,0 +1,18 @@
+{
+  "id": "widget.modal",
+  "category": "widget",
+  "name": "Modal / dialog (legal)",
+  "variants": [
+    "backdrop-blur scale-in, Impressum/Datenschutz (boost, ruerup)"
+  ],
+  "structure": "fixed overlay, scrollable dialog, close buttons",
+  "fromBuiltSites": [
+    "boost",
+    "ruerup"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "core",
+  "notes": null
+}

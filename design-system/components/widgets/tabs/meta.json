@@ -1,0 +1,19 @@
+{
+  "id": "widget.tabs",
+  "category": "widget",
+  "name": "Tabs / view-switcher / selector",
+  "variants": [
+    "calendar/form tabs (boost)",
+    "sidebar selector (uds)"
+  ],
+  "structure": "toggle between panels",
+  "fromBuiltSites": [
+    "boost",
+    "uds"
+  ],
+  "styleAffinity": [
+    "any"
+  ],
+  "priority": "common",
+  "notes": null
+}

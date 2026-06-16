@@ -1,0 +1,21 @@
+{
+  "id": "decor.divider",
+  "category": "decoration",
+  "name": "Branded section divider",
+  "variants": [
+    "TurevaLines (horizontal/footer/inline)",
+    "'Strich' line motif (uds)",
+    "signature bar"
+  ],
+  "structure": "hairline + label/dot motif between sections",
+  "fromBuiltSites": [
+    "tureva",
+    "uds"
+  ],
+  "styleAffinity": [
+    "soft",
+    "warm"
+  ],
+  "priority": "common",
+  "notes": null
+}

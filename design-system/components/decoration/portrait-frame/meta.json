@@ -1,0 +1,18 @@
+{
+  "id": "decor.portrait-frame",
+  "category": "decoration",
+  "name": "Decorative portrait frame",
+  "variants": [
+    "offset frame + credential overlay (ruerup)"
+  ],
+  "structure": "image card with offset border + caption overlay",
+  "fromBuiltSites": [
+    "ruerup"
+  ],
+  "styleAffinity": [
+    "swiss",
+    "editorial"
+  ],
+  "priority": "optional",
+  "notes": null
+}
