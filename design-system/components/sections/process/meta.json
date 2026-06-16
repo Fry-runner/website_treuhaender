@@ -16,5 +16,23 @@
   "priority": "common",
   "entryIds": [
     "process.steps"
-  ]
+  ],
+  "patterns": [
+    "3–5 numbered 'how it works' steps; reduces switching anxiety",
+    "Time-based framing dramatizes speed (now → 5 min → month-end)"
+  ],
+  "references": [
+    "Puzzle — time-based speed cards",
+    "Selma — 5-step how-it-works w/ illustrations",
+    "Pilot — onboarding steps"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

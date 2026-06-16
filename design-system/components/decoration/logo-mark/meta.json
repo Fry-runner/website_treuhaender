@@ -15,5 +15,23 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Custom SVG mark + wordmark; single accent color; scales to favicon",
+    "One restrained mark beats elaborate emblems for trust"
+  ],
+  "references": [
+    "Linear/Vercel — minimal marks",
+    "Digits — green D mark",
+    "Stripe — wordmark"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

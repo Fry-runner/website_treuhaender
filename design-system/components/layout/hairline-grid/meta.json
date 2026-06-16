@@ -14,5 +14,19 @@
     "warm"
   ],
   "priority": "common",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Zero-gap bordered cells divided by hairlines; premium/editorial feel"
+  ],
+  "references": [
+    "Linear — hairline borders",
+    "Vercel — hairline structure"
+  ],
+  "designLanguages": [
+    "dark-premium",
+    "data-precise",
+    "editorial-trust",
+    "swiss-clean"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

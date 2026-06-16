@@ -16,5 +16,21 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Bordered field, token radius, accent focus ring; generous touch targets"
+  ],
+  "references": [
+    "Stripe — refined inputs",
+    "bexio — clean fields"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

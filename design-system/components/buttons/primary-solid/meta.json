@@ -16,5 +16,23 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Single saturated brand accent, solid fill, repeated 4–5×",
+    "Shape ranges sharp→pill by language; label often mono uppercase for craft"
+  ],
+  "references": [
+    "Vanta — solid navy 'Get a demo' ×5",
+    "Pilot — purple monospace pills",
+    "Linear — dark primary"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

@@ -15,5 +15,23 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "icon (top/left) + title + 1-line summary + arrow; 3–4 col grid",
+    "Optional inline price chip; hairline border or soft shadow per language"
+  ],
+  "references": [
+    "Vanta — 6-col feature cards",
+    "Numarics — service grid",
+    "Qonto — icon-left cards"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

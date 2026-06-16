@@ -14,5 +14,24 @@
     "editorial"
   ],
   "priority": "common",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Two-tier hierarchy everywhere: solid brand-accent primary + quieter secondary (outline OR underlined text+arrow)",
+    "One accent does ALL CTA work; primary repeated 4–5× verbatim",
+    "Hover = subtle lift (translateY -2/-4px) + color darken"
+  ],
+  "references": [
+    "Pilot — monospace uppercase pills",
+    "Stripe/Qonto — solid primary + text secondary",
+    "Linear — dark primary + → link"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (category default)"
 }

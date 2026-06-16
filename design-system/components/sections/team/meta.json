@@ -19,5 +19,20 @@
   "priority": "common",
   "entryIds": [
     "team.cards"
-  ]
+  ],
+  "patterns": [
+    "Real faces + name + role + short bio + credentials; central for boutique/owner-led",
+    "Monogram avatar fallback where no photo"
+  ],
+  "references": [
+    "Gusto — people photography",
+    "Mercury — founder quote",
+    "boutique CH norm — owner profile"
+  ],
+  "designLanguages": [
+    "editorial-trust",
+    "soft-friendly",
+    "swiss-clean"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

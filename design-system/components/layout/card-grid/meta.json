@@ -16,5 +16,22 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Responsive 3–4 col grids for features/services; 2-col for stats"
+  ],
+  "references": [
+    "Vanta — 6-col",
+    "Stripe — product card grid",
+    "bexio — 4-col"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

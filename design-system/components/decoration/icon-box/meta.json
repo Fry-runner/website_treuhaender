@@ -15,5 +15,21 @@
     "swiss"
   ],
   "priority": "common",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "lucide-style icon in a bordered/tinted square; consistent icon system across the site"
+  ],
+  "references": [
+    "Vanta/Qonto — icon-led cards",
+    "Numarics — custom SVG icons"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

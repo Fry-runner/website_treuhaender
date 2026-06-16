@@ -15,5 +15,19 @@
     "editorial"
   ],
   "priority": "common",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Larger card: corner badge + checklist + CTA; for 2-pillar contrasts",
+    "Real screenshot anchors the pillar"
+  ],
+  "references": [
+    "bexio — feature cards w/ screenshots",
+    "Linear — sequential feature anchors"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

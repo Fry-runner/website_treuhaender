@@ -16,5 +16,24 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "12-col asymmetric splits for hero/about/contact; 3–4 col card grids elsewhere",
+    "Generous whitespace (airy section padding) reads as confidence/premium",
+    "8px spacing grid; hairline rules instead of boxes where possible"
+  ],
+  "references": [
+    "Stripe — 8px grid + restraint",
+    "Pilot — pin-lines over boxes",
+    "Mercury — generous whitespace"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (category default)"
 }

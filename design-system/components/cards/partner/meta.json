@@ -13,5 +13,19 @@
     "editorial"
   ],
   "priority": "optional",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Small greyscale logo/credential card; equal sizing in a strip/grid"
+  ],
+  "references": [
+    "Vanta — compliance badges",
+    "Selma — press logos",
+    "bexio — partner logos"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

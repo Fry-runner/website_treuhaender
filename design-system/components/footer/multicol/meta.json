@@ -19,5 +19,23 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "4–6 columns segmented by audience/product/company/legal + social row + dynamic © year",
+    "Bake credential / regulatory badges into the footer as permanent furniture"
+  ],
+  "references": [
+    "Vanta — SOC2/ISO/GDPR badges in footer",
+    "Selma — FINMA/OSFIN badges in footer",
+    "bexio — Unternehmer/Treuhänder columns"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (category default)"
 }

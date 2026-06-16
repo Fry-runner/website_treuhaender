@@ -16,5 +16,23 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Quiet secondary; transparent + 1px border, inverts on hover",
+    "Used for demo/explore alongside the solid primary"
+  ],
+  "references": [
+    "Qonto — outline 'Find the right plan'",
+    "bexio — secondary video CTA",
+    "Betterment — outline secondary"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

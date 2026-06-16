@@ -18,5 +18,23 @@
   "priority": "common",
   "entryIds": [
     "stats.band"
-  ]
+  ],
+  "patterns": [
+    "Big display number + mono label + caption, in a divided/centered band",
+    "CH metrics: clients served, years, cantons, languages; numbers carry trust"
+  ],
+  "references": [
+    "Mercury — 300K+/1-in-3/$20B+/4.9 metrics band",
+    "Linear — '33,000 teams'",
+    "Wealthfront — $95B+/1.4M+"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

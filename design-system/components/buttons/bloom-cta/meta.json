@@ -13,5 +13,20 @@
     "soft"
   ],
   "priority": "optional",
-  "notes": "Tied to a scroll observer that highlights nearest CTA."
+  "notes": "Tied to a scroll observer that highlights nearest CTA.",
+  "patterns": [
+    "Colored glow/box-shadow bloom on the primary; one signature flourish only",
+    "Pairs with restrained everything-else to avoid gimmick"
+  ],
+  "references": [
+    "Digits — saturated green premium",
+    "Ramp — lime savings accent",
+    "Tureva (repo) — green bloom"
+  ],
+  "designLanguages": [
+    "soft-friendly",
+    "dark-premium",
+    "fintech-clean"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

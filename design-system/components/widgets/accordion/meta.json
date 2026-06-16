@@ -14,5 +14,20 @@
     "any"
   ],
   "priority": "common",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Single-open FAQ/services accordion; chevron/plus toggle; objection-handling close"
+  ],
+  "references": [
+    "Puzzle/Betterment/Selma — FAQ accordion"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

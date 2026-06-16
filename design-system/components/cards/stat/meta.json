@@ -15,5 +15,22 @@
     "any"
   ],
   "priority": "common",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Big number + mono label; minimal chrome; grouped in a divided band"
+  ],
+  "references": [
+    "Mercury — metrics band",
+    "Wealthfront — $95B+/1.4M+",
+    "Vercel — perf metrics"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

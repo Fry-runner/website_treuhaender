@@ -16,5 +16,19 @@
     "any"
   ],
   "priority": "common",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Fully rounded (999px); reads friendly/modern; often monospace uppercase",
+    "Best for soft-friendly / fintech-clean; avoid for sharp data-precise"
+  ],
+  "references": [
+    "Pilot — full pills",
+    "Qonto — rounded CTAs",
+    "Selma — rounded primary"
+  ],
+  "designLanguages": [
+    "soft-friendly",
+    "fintech-clean"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

@@ -16,5 +16,23 @@
   "priority": "common",
   "entryIds": [
     "values.divided-columns"
-  ]
+  ],
+  "patterns": [
+    "4–6 'why-us' pillars in a divided band: dot/icon + short title + one line",
+    "The recurring four: digital · transparent · personal · compliant; add Swiss-Made as a pillar"
+  ],
+  "references": [
+    "bexio — Zeit sparen / Swiss-Made / Support pillars",
+    "Pilot — problem/solution pillars",
+    "Qonto — benefit triad"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

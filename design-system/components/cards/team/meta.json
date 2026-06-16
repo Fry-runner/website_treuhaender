@@ -15,5 +15,19 @@
     "any"
   ],
   "priority": "common",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Headshot/monogram + name + role + bio; testimonial variant adds quote + company logo"
+  ],
+  "references": [
+    "Mercury — portrait testimonial cards",
+    "Gusto — people photography",
+    "Pennylane — headshot + title + logo"
+  ],
+  "designLanguages": [
+    "editorial-trust",
+    "soft-friendly",
+    "swiss-clean"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

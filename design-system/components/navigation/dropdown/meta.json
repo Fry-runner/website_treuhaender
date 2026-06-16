@@ -13,5 +13,19 @@
     "any"
   ],
   "priority": "optional",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Mega-menu with grouped links + thumbnails; can carry audience-split entry (SME vs fiduciary)"
+  ],
+  "references": [
+    "bexio — Für Unternehmer/Treuhänder mega-menu",
+    "Wise — dropdowns with imagery",
+    "Stripe — product mega-menu"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

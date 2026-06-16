@@ -15,5 +15,22 @@
     "any"
   ],
   "priority": "core",
-  "notes": "BRIEFING §7 + §8.2 — PROMOTED TO CORE. Bilingual (DE/EN min, often +FR/IT) is table-stakes for CH; only 1 of 4 built sites has it."
+  "notes": "BRIEFING §7 + §8.2 — PROMOTED TO CORE. Bilingual (DE/EN min, often +FR/IT) is table-stakes for CH; only 1 of 4 built sites has it.",
+  "patterns": [
+    "Header pill/dropdown DE/EN(+FR/IT); table-stakes for CH",
+    "Pairs with a region/country selector on internationally-facing sites"
+  ],
+  "references": [
+    "bexio/Selma — language toggle",
+    "Wise/Qonto — region + language selector"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

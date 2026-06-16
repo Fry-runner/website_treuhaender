@@ -18,5 +18,18 @@
     "warm"
   ],
   "priority": "common",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Accent-bordered panel (left/top) for highlights/alerts; icon + heading + body"
+  ],
+  "references": [
+    "Ramp — benefit callouts",
+    "Vanta — recognition callout"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "data-precise",
+    "editorial-trust"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

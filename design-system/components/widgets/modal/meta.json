@@ -14,5 +14,23 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Interactive proof beats static copy: calculator / quiz / live demo near the top converts + adds the 'wow'",
+    "FAQ accordion + testimonial carousel as the standard objection-handling close"
+  ],
+  "references": [
+    "Wise — hero FX calculator",
+    "Digits — interactive product console hero",
+    "Betterment/Selma — FAQ accordion close"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (category default)"
 }

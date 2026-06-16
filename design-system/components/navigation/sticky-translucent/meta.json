@@ -18,5 +18,23 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Sticky, translucent + backdrop-blur, hairline border; logo·menu·dual-CTA",
+    "Optional thin top signature/announcement bar above it"
+  ],
+  "references": [
+    "All 20 — sticky shell",
+    "Vercel — event callout bar",
+    "Linear — Docs/Login/Sign up cluster"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

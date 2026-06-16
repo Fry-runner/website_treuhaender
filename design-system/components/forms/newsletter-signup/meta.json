@@ -13,5 +13,21 @@
   ],
   "priority": "optional",
   "discoveredIn": "scraped",
-  "prevalence": "common alongside blog/news sites"
+  "prevalence": "common alongside blog/news sites",
+  "patterns": [
+    "Minimal fields; mono uppercase labels; one solid primary submit",
+    "Reduce friction — inline email field in hero, or a calculator that captures intent before the form"
+  ],
+  "references": [
+    "Mercury — inline email in hero",
+    "Wise — calculator before signup",
+    "Betterment — short form + reassurance copy"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "soft-friendly",
+    "data-precise"
+  ],
+  "enrichedFrom": "site-analysis (category default)"
 }

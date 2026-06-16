@@ -15,5 +15,21 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Short colored bar/underline under eyebrows or key words; single accent"
+  ],
+  "references": [
+    "repo presets — eyebrow bars",
+    "Stripe — gradient underline accents"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

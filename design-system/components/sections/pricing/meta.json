@@ -17,5 +17,20 @@
   "entryIds": [
     "pricing.cards",
     "pricing.rate-table"
-  ]
+  ],
+  "patterns": [
+    "Transparent tiers with one recommended highlighted; or a calculator that doubles as lead capture",
+    "Comparison table positioning (us vs alternatives) builds confidence"
+  ],
+  "references": [
+    "Wise — competitor price comparison",
+    "Selma — vs Bank vs Robo table",
+    "Ramp — pricing + implementation checklist"
+  ],
+  "designLanguages": [
+    "data-precise",
+    "fintech-clean",
+    "swiss-clean"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

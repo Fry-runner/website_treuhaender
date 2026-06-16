@@ -15,5 +15,24 @@
   "priority": "core",
   "entryIds": [
     "testimonials.social-proof"
-  ]
+  ],
+  "patterns": [
+    "Named quote cards: portrait/headshot + quote + name + company + city/logo (anonymous = weak)",
+    "Pair quotes with an aggregate metric/rating badge (4.8 / 92% recommend / 1000+ KMU)",
+    "Often a carousel; video testimonials raise credibility further"
+  ],
+  "references": [
+    "Pennylane — video-testimonial carousel + dual badges",
+    "Mercury — portrait + blockquote cards",
+    "Betterment — rating 4.8 (78.1K) in hero"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

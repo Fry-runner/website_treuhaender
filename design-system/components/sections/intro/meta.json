@@ -17,5 +17,23 @@
   "priority": "common",
   "entryIds": [
     "intro.statement"
-  ]
+  ],
+  "patterns": [
+    "Single max-w column: eyebrow + one large positioning statement + muted supporting line",
+    "Sets 'who we are / why we exist' before the offering"
+  ],
+  "references": [
+    "Stripe — restrained positioning",
+    "Mercury — 'Radically different banking'",
+    "Linear — single feel-statement"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

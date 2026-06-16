@@ -30,5 +30,27 @@
     "hero.centered",
     "hero.text-left",
     "hero.with-factband"
-  ]
+  ],
+  "patterns": [
+    "Benefit/outcome headline (sometimes a trust statement), NOT a feature list",
+    "Two layouts dominate: centered benefit (Stripe/Vanta/bexio/Linear/Vercel) OR split text-left / product-right (Pilot/Betterment/Selma/Mercury)",
+    "1 solid primary CTA + 1 quiet secondary (demo / video / explore); same primary repeats in nav + final band",
+    "In-hero trust is near-universal: logo wall + a HARD metric (3,000+/16,000+/CHF X) and/or a rating badge",
+    "Show the product/credential immediately (split UI, demo, or screenshot) — not decorative stock"
+  ],
+  "references": [
+    "Wise — live calculator in hero",
+    "Vanta — 'Trust is everything' + 16k logos",
+    "bexio — 4.0/1930 reviews + 100k KMU in hero",
+    "Mercury — inline email + screenshots behind"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

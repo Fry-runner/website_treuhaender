@@ -13,5 +13,20 @@
   ],
   "priority": "common",
   "discoveredIn": "scraped",
-  "prevalence": "explicit tooling on 6%, but required for all"
+  "prevalence": "explicit tooling on 6%, but required for all",
+  "patterns": [
+    "nDSG/DSGVO consent banner; accept + settings; quiet, bottom-anchored"
+  ],
+  "references": [
+    "EU/CH norm — Cookiebot/Usercentrics-style"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

@@ -16,5 +16,23 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Text link + → that translates on hover; lowest-emphasis tertiary action",
+    "Common 'Read story' / 'Learn more' on cards"
+  ],
+  "references": [
+    "Stripe — underlined text + →",
+    "Linear — → link secondary",
+    "Notion — text + → secondary"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

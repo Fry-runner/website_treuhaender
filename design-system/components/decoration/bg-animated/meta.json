@@ -19,5 +19,20 @@
     "swiss"
   ],
   "priority": "common",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "One signature gradient/video moment at hero scale only; respects reduced-motion",
+    "Mesh gradient (Stripe/Vercel) or animated video (Digits)"
+  ],
+  "references": [
+    "Stripe — minigl gradient wave",
+    "Vercel — single mesh gradient",
+    "Digits — animated video hero"
+  ],
+  "designLanguages": [
+    "fintech-clean",
+    "dark-premium",
+    "editorial-trust"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

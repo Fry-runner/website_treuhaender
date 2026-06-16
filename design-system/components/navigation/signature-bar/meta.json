@@ -14,5 +14,24 @@
     "editorial"
   ],
   "priority": "optional",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Sticky, translucent + backdrop-blur, hairline bottom border",
+    "logo-left · links-center · dual-CTA-right (text 'Login' + solid primary)",
+    "Persistent single primary CTA repeated in hero + final band"
+  ],
+  "references": [
+    "bexio — sticky + Kostenlos testen",
+    "Stripe/Qonto — logo·menu·dual-CTA",
+    "Linear — Docs/Login/Sign up cluster"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (category default)"
 }

@@ -17,5 +17,20 @@
   "priority": "common",
   "entryIds": [
     "partners.strip-grid"
-  ]
+  ],
+  "patterns": [
+    "Logo strip/grid, greyscale, equal sizing; or software-partner badges",
+    "Press/award logos (NZZ/HZ/Forbes analog) build third-party credibility"
+  ],
+  "references": [
+    "Selma — Swiss press logos (HZ/FuW/SRF)",
+    "Wealthfront — Forbes/Bankrate award logos",
+    "bexio — partner logo strip"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "editorial-trust",
+    "fintech-clean"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

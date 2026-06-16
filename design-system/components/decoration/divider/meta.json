@@ -17,5 +17,22 @@
     "warm"
   ],
   "priority": "common",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Hairline rule + label/dot motif between sections; or branded line graphic"
+  ],
+  "references": [
+    "Pennylane — gradient dividers",
+    "Linear — hairline structure",
+    "repo — TurevaLines"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

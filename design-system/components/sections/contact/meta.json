@@ -19,5 +19,23 @@
   "priority": "core",
   "entryIds": [
     "contact.form-sidebar"
-  ]
+  ],
+  "patterns": [
+    "Form-left / office-info-right split; booking offered as the PRIMARY path, form as fallback",
+    "Office card: address, +41 phone (tel:), email (mailto:), hours; optional map"
+  ],
+  "references": [
+    "bexio/Selma — booking-first",
+    "Mercury — minimal inline capture",
+    "CH norm — office card + map"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

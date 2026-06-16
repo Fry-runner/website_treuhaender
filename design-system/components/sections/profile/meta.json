@@ -16,5 +16,24 @@
   "priority": "common",
   "entryIds": [
     "about.profile-person"
-  ]
+  ],
+  "patterns": [
+    "Alternate light↔tinted section backgrounds for rhythm; each band full-bleed, content in a max-w container",
+    "Lead every section with an uppercase eyebrow label + one display H2",
+    "Anchor feature sections with ONE real product/credential visual rather than decorative stock"
+  ],
+  "references": [
+    "Pilot — warm↔cool bg spectrum",
+    "Linear/Vercel — one screenshot per section",
+    "Stripe — restrained section rhythm"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (category default)"
 }

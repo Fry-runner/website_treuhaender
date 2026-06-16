@@ -18,5 +18,20 @@
   "priority": "common",
   "entryIds": [
     "audience.cards"
-  ]
+  ],
+  "patterns": [
+    "Audience/persona segmentation cards OR a nav split — the single most transferable pattern for fiduciaries",
+    "Life-stage cards (Founding→Freelancer→Start-up→Enterprise) or SMB-vs-accountant split"
+  ],
+  "references": [
+    "Numarics — life-stage entry cards",
+    "bexio — Für Unternehmer / Für Treuhänder",
+    "Gusto/Pennylane — audience self-segmentation"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "soft-friendly"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

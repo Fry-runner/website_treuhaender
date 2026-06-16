@@ -13,5 +13,20 @@
     "any"
   ],
   "priority": "optional",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Interactive estimator near the top captures intent + adds 'wow'; outputs a recommended package/price",
+    "Doubles as a soft lead-capture before the contact form"
+  ],
+  "references": [
+    "Wise — hero FX calculator",
+    "Ramp — savings calculator",
+    "repo — price/finance widgets"
+  ],
+  "designLanguages": [
+    "data-precise",
+    "fintech-clean",
+    "soft-friendly"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

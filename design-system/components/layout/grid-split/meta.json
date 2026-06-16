@@ -16,5 +16,22 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "12-col asymmetric splits (8/4, 7/5) for hero/about/contact"
+  ],
+  "references": [
+    "Pilot — split hero",
+    "Betterment/Selma — split hero",
+    "Carta — split"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

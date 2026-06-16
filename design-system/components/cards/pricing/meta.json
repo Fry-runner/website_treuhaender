@@ -13,5 +13,19 @@
     "any"
   ],
   "priority": "optional",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Tier card; recommended highlighted with ring/tint; transparent monthly price prominent"
+  ],
+  "references": [
+    "Ramp — pricing cards",
+    "Selma — tier comparison",
+    "Wise — fee transparency"
+  ],
+  "designLanguages": [
+    "data-precise",
+    "fintech-clean",
+    "swiss-clean"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

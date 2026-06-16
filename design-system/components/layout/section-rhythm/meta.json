@@ -17,5 +17,23 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Airy py-20/24 section padding; alternate light↔tinted bands",
+    "Whitespace reads as confidence"
+  ],
+  "references": [
+    "Mercury — generous whitespace",
+    "Stripe — 8px grid restraint",
+    "Pilot — bg spectrum"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

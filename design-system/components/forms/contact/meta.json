@@ -16,5 +16,23 @@
     "any"
   ],
   "priority": "core",
-  "notes": null
+  "notes": null,
+  "patterns": [
+    "Short field set, mono uppercase labels, one solid submit; consent/DSGVO note",
+    "Offer booking as the primary path; form as fallback"
+  ],
+  "references": [
+    "Mercury — inline capture",
+    "Betterment — short form + reassurance",
+    "CH norm — form + office card"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "editorial-trust",
+    "soft-friendly",
+    "data-precise",
+    "dark-premium"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

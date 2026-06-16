@@ -13,5 +13,18 @@
   ],
   "priority": "common",
   "discoveredIn": "scraped",
-  "prevalence": "16% of scraped sites expose a client portal/login"
+  "prevalence": "16% of scraped sites expose a client portal/login",
+  "patterns": [
+    "Prominent 'Login' in nav routing to a client portal (AbaWeb/cockpit)",
+    "Signals digital maturity"
+  ],
+  "references": [
+    "bexio — Login + dashboard",
+    "Numarics — cockpit/DocuBox portal"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

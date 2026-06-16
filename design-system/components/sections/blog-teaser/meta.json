@@ -14,5 +14,20 @@
   ],
   "priority": "common",
   "discoveredIn": "scraped",
-  "prevalence": "64% of scraped sites have a blog/news area; absent in built templates"
+  "prevalence": "64% of scraped sites have a blog/news area; absent in built templates",
+  "patterns": [
+    "3–4 latest-article cards (image + tag + headline + date) signal authority + SEO",
+    "Resources / Merkblätter / downloads list as an alternative"
+  ],
+  "references": [
+    "bexio — 4 blog cards",
+    "Pilot — resources section",
+    "Pennylane — resource hub"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "soft-friendly"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }

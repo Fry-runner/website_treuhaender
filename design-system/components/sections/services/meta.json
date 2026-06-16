@@ -35,5 +35,23 @@
     "services.accordion",
     "services.selector-detail",
     "services.secondary-grid"
-  ]
+  ],
+  "patterns": [
+    "3–4 col card grid: icon (top or left) → bold title → 1-line summary → arrow link",
+    "CH differentiator: inline 'ab CHF X/Monat' price chip on the card (digital archetype)",
+    "Service catalogue grid can map 1:1 to fiduciary deliverables (Buchhaltung/Steuern/Lohn/MWST)",
+    "Each service links to a deep section/page anchored by one product or outcome visual"
+  ],
+  "references": [
+    "Numarics — service grid = payroll/VAT/tax deliverables",
+    "Vanta — 6-card feature grid",
+    "Qonto — icon-left feature cards"
+  ],
+  "designLanguages": [
+    "swiss-clean",
+    "fintech-clean",
+    "soft-friendly",
+    "data-precise"
+  ],
+  "enrichedFrom": "site-analysis (specific)"
 }
