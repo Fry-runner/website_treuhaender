@@ -16,6 +16,7 @@ import { InventoryBrowser } from "./InventoryBrowser";
 import { planSite } from "./variants/select";
 import { composeSite, pageTypes } from "./pages";
 import { archetypes, type ArchetypeId } from "./blueprints";
+import { SiteRouter } from "./compose/SiteRouter";
 
 const content = active as unknown as SiteContent;
 
@@ -31,12 +32,20 @@ const contrastLook = presetList.find((p) => p.meta.id !== pickedLook)!.meta.id;
 
 const SiteDemo = () => (
   <div style={{ fontFamily: "system-ui, sans-serif" }}>
-    <Bar text={`Generated website · ${content.meta.firm}`} sub={`${content.meta.domain} · archetype: ${content.meta.archetype} · look: ${pickedLook} (auto)`} />
+    <Bar text={`Generated website · ${content.meta.firm}`} sub={`${content.meta.domain} · ${content.meta.archetype} · multi-page — click the nav / footer links`} />
+    <SiteRouter content={content} />
+  </div>
+);
+
+const ReskinDemo = () => (
+  <div style={{ fontFamily: "system-ui, sans-serif" }}>
+    <Bar text={`Same generated site · re-skinned`} sub={`look: ${pickedLook}`} />
     <SiteComposer content={content} lookId={pickedLook} />
     <Bar text="Same generated site · re-skinned" sub={`look: ${contrastLook}`} />
     <SiteComposer content={content} lookId={contrastLook} />
   </div>
 );
+void ReskinDemo;
 
 const VariantsDemo = () => {
   const seeds = [0, 1, 2, 3, 4, 5];

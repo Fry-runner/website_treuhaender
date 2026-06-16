@@ -135,7 +135,7 @@ export interface ResolvedPage {
   item?: string; // source item for repeatables (service title, legal doc, …)
 }
 
-function slugify(s: string): string {
+export function slugify(s: string): string {
   return s.toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "")
     .replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") || "x";
 }
