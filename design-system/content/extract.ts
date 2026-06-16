@@ -50,10 +50,19 @@ const SERVICE_CANON = [
   { key: ["beratung", "consulting", "unternehm", "gründung"], title: "Unternehmensberatung", summary: "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung." },
   { key: ["revision", "wirtschaftsprüf", "audit"], title: "Revision", summary: "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren." },
 ];
+const SERVICE_BULLETS = [
+  "Laufende, termingerechte Betreuung",
+  "Digitale Belegerfassung & Echtzeit-Zahlen",
+  "Ein persönlicher Ansprechpartner",
+  "Transparente Pauschale ohne versteckte Kosten",
+];
 function services() {
   const hit = SERVICE_CANON.filter((s) => s.key.some((k) => allText.includes(k)));
-  const items = (hit.length >= 4 ? hit : SERVICE_CANON).slice(0, 6).map((s) => ({ title: s.title, summary: s.summary }));
-  return items;
+  return (hit.length >= 4 ? hit : SERVICE_CANON).slice(0, 6).map((s) => ({
+    title: s.title, summary: s.summary,
+    body: `Wir übernehmen ${s.title.toLowerCase()} vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.`,
+    bullets: SERVICE_BULLETS,
+  }));
 }
 
 // --- hero (real headline + lede where possible) ---
@@ -105,6 +114,30 @@ const content: SiteContent = {
   },
   services: { eyebrow: "Leistungen", heading: "Alles aus einer Hand.", items: services() },
   values: { eyebrow: "Warum wir", heading: "Ihr Vorteil.", items: whyUsPillars.map((p) => ({ title: p.title, body: p.body })) },
+  team: {
+    eyebrow: "Team", heading: "Menschen, die Ihre Zahlen kennen.",
+    members: [
+      { name: `${firm.split(" ")[0]} Team`, role: "Geschäftsführung", initials: firm.slice(0, 2).toUpperCase(), bio: "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU." },
+      { name: "Mandatsleitung", role: "Treuhand & Steuern", initials: "ML", bio: "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate." },
+      { name: "Kundenbetreuung", role: "Lohn & Administration", initials: "KB", bio: "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration." },
+    ],
+  },
+  pricing: {
+    eyebrow: "Preise", heading: "Transparente Pauschalen.",
+    tiers: [
+      { name: "Starter", price: "ab CHF 89", period: "/Monat", features: ["Laufende Buchhaltung", "MWST-Abrechnung", "Jahresabschluss", "E-Mail-Support"] },
+      { name: "KMU", price: "ab CHF 189", period: "/Monat", recommended: true, features: ["Alles aus Starter", "Lohnadministration", "Steuererklärung", "Persönlicher Ansprechpartner"] },
+      { name: "Komplett", price: "ab CHF 349", period: "/Monat", features: ["Alles aus KMU", "Unternehmensberatung", "Budget & Reporting", "Priorisierter Support"] },
+    ],
+  },
+  posts: {
+    eyebrow: "Wissen", heading: "Aktuelles & Merkblätter.",
+    items: [
+      { tag: "Steuern", title: "Steuererklärung 2026: die 7 häufigsten Fehler", date: "12.05.2026", excerpt: "Worauf Sie bei der Steuererklärung achten sollten – und wie Sie Geld sparen." },
+      { tag: "Buchhaltung", title: "Digital buchen: so sparen KMU jede Woche Zeit", date: "28.04.2026", excerpt: "Mit digitaler Belegerfassung gewinnen Sie Übersicht und Stunden zurück." },
+      { tag: "MWST", title: "MWST-Abrechnung Schritt für Schritt erklärt", date: "09.04.2026", excerpt: "Die wichtigsten Fristen und Stolperfallen rund um die Mehrwertsteuer." },
+    ],
+  },
   testimonials: {
     eyebrow: "Mandantenstimmen", heading: "Unternehmen vertrauen uns.", rating: "5.0", reviewCount: "Google-Bewertungen",
     items: [

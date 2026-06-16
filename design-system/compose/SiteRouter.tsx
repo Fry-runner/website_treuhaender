@@ -30,6 +30,8 @@ import { ServiceBody } from "../structures/ServiceBody";
 import { Related } from "../structures/Related";
 import { LegalBody } from "../structures/LegalBody";
 import { BlogList } from "../structures/BlogList";
+import { Team } from "../structures/Team";
+import { Pricing } from "../structures/Pricing";
 
 const SERVICE_BULLETS = [
   "Laufende, termingerechte Betreuung",
@@ -74,8 +76,10 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content, archetype, seed
       case "services": return <Services key={i} content={content.services} />;
       case "service-body": {
         const it = content.services.items.find((x) => x.title === page.item);
-        return it ? <ServiceBody key={i} title={it.title} summary={it.summary} bullets={SERVICE_BULLETS} /> : null;
+        return it ? <ServiceBody key={i} title={it.title} summary={it.summary} bullets={it.bullets ?? SERVICE_BULLETS} body={it.body} /> : null;
       }
+      case "team": return <Team key={i} content={content.team} />;
+      case "pricing": return <Pricing key={i} content={content.pricing} />;
       case "related": return (
         <Related key={i} heading="Das könnte Sie auch interessieren"
           items={content.services.items.filter((x) => x.title !== page.item).slice(0, 3)}
@@ -88,7 +92,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content, archetype, seed
       case "cta": return <CtaBand key={i} content={content.cta} />;
       case "contact": return <Contact key={i} content={content.contact} />;
       case "partners": return <TrustBar key={i} label={content.trust.label} items={content.trust.items} />;
-      case "blog-list": return <BlogList key={i} />;
+      case "blog-list": return <BlogList key={i} content={content.posts} />;
       case "legal-body": return <LegalBody key={i} doc={page.item ?? "Impressum"} firm={content.meta.firm} contact={content.contact} />;
       // intro, audience, process, team, pricing, profile, quote, map, article-body — no structure yet
       default: return null;

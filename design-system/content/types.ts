@@ -11,8 +11,17 @@ export type { HeroContent, TestimonialsContent };
 export interface NavLink { label: string; href: string; }
 export interface NavContent { brand: string; links: NavLink[]; cta: string; languages: string[]; }
 
-export interface ServiceItem { title: string; summary: string; price?: string; }
+export interface ServiceItem { title: string; summary: string; price?: string; body?: string; bullets?: string[]; }
 export interface ServicesContent { eyebrow: string; heading: string; items: ServiceItem[]; }
+
+export interface TeamMember { name: string; role: string; initials: string; bio: string; }
+export interface TeamContent { eyebrow: string; heading: string; members: TeamMember[]; }
+
+export interface PricingTier { name: string; price: string; period: string; features: string[]; recommended?: boolean; }
+export interface PricingContent { eyebrow: string; heading: string; tiers: PricingTier[]; }
+
+export interface Post { tag: string; title: string; date: string; excerpt: string; }
+export interface PostsContent { eyebrow: string; heading: string; items: Post[]; }
 
 export interface ValueItem { title: string; body: string; }
 export interface ValuesContent { eyebrow: string; heading: string; items: ValueItem[]; }
@@ -38,6 +47,9 @@ export interface SiteContent {
   hero: HeroContent;
   services: ServicesContent;
   values: ValuesContent;
+  team: TeamContent;
+  pricing: PricingContent;
+  posts: PostsContent;
   testimonials: TestimonialsContent;
   stats: StatsContent;
   trust: TrustContent;

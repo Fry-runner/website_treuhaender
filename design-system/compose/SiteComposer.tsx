@@ -23,6 +23,8 @@ import { Faq } from "../structures/Faq";
 import { CtaBand } from "../structures/CtaBand";
 import { Contact } from "../structures/Contact";
 import { Footer } from "../structures/Footer";
+import { Team } from "../structures/Team";
+import { Pricing } from "../structures/Pricing";
 
 type Renderer = (c: SiteContent) => React.ReactNode;
 
@@ -34,6 +36,8 @@ const renderers: Record<string, Renderer> = {
   partners: (c) => <TrustBar label={c.trust.label} items={c.trust.items} />,
   services: (c) => <Services content={c.services} />,
   values: (c) => <Values content={c.values} />,
+  team: (c) => <Team content={c.team} />,
+  pricing: (c) => <Pricing content={c.pricing} />,
   testimonials: (c) => <Testimonials content={c.testimonials} />,
   stats: (c) => <Stats content={c.stats} />,
   faq: (c) => <Faq content={c.faq} />,
