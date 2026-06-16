@@ -10,7 +10,7 @@ import { applyLook } from "../looks/applyLook";
 import { type ArchetypeId } from "../blueprints";
 import { composeSite, slugify, pageTypes, type ResolvedPage } from "../pages";
 import { presets } from "../tokens";
-import { planSite, heroById } from "../variants/select";
+import { planSite, heroById, sectionComponent } from "../variants/select";
 import { PrimaryStyleProvider } from "../structures/primitives";
 import { NavigationContext } from "./nav-context";
 import type { SiteContent } from "../content/types";
@@ -73,7 +73,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content, archetype, seed
       case "footer": return <Footer key={i} content={content.footer} />;
       case "hero": return <Hero key={i} content={content.hero} />;
       case "page-header": return <PageHeader key={i} eyebrow={pageTypes[page.pageType]?.name ?? "Seite"} title={page.title} breadcrumb={crumb(page)} />;
-      case "services": return <Services key={i} content={content.services} />;
+      case "services": { const C = sectionComponent("services", plan) ?? Services; return <C key={i} content={content.services} />; }
       case "service-body": {
         const it = content.services.items.find((x) => x.title === page.item);
         return it ? <ServiceBody key={i} title={it.title} summary={it.summary} bullets={it.bullets ?? SERVICE_BULLETS} body={it.body} /> : null;
@@ -87,9 +87,9 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content, archetype, seed
       );
       case "values": return <Values key={i} content={content.values} />;
       case "stats": return <Stats key={i} content={content.stats} />;
-      case "testimonials": return <Testimonials key={i} content={content.testimonials} />;
+      case "testimonials": { const C = sectionComponent("testimonials", plan) ?? Testimonials; return <C key={i} content={content.testimonials} />; }
       case "faq": return <Faq key={i} content={content.faq} />;
-      case "cta": return <CtaBand key={i} content={content.cta} />;
+      case "cta": { const C = sectionComponent("cta", plan) ?? CtaBand; return <C key={i} content={content.cta} />; }
       case "contact": return <Contact key={i} content={content.contact} />;
       case "partners": return <TrustBar key={i} label={content.trust.label} items={content.trust.items} />;
       case "blog-list": return <BlogList key={i} content={content.posts} />;

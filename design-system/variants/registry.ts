@@ -11,6 +11,12 @@ import type { PrimaryStyle } from "../structures/primitives";
 import { HeroSplit } from "../structures/HeroSplit";
 import { HeroCentered } from "../structures/HeroCentered";
 import { HeroTextLeft } from "../structures/HeroTextLeft";
+import { Services } from "../structures/Services";
+import { ServicesBordered } from "../structures/ServicesBordered";
+import { CtaBand } from "../structures/CtaBand";
+import { CtaSplit } from "../structures/CtaSplit";
+import { Testimonials } from "../structures/Testimonials";
+import { TestimonialsCarousel } from "../structures/TestimonialsCarousel";
 
 export interface VariantDef<P> {
   id: string;
@@ -35,6 +41,24 @@ export const primaryStyleVariants: StyleVariant[] = [
   { id: "bloom", looks: ["soft"] },
   { id: "mono",  looks: ["editorial", "swiss", "warm"] },
 ];
+
+/** Section-level variants — multiple structures per slot, picked by affinity.
+ *  All variants for a slot accept the same content slice. */
+export interface SectionVariant { id: string; component: React.FC<{ content: any }>; looks: StyleAffinity[]; }
+export const sectionVariants: Record<string, SectionVariant[]> = {
+  services: [
+    { id: "services/cards", component: Services, looks: ["soft"] },                 // rounded shadowed cards
+    { id: "services/bordered", component: ServicesBordered, looks: ["editorial", "swiss", "warm"] }, // hairline grid
+  ],
+  cta: [
+    { id: "cta/centered", component: CtaBand, looks: ["any"] },
+    { id: "cta/split", component: CtaSplit, looks: ["swiss", "warm", "editorial"] },
+  ],
+  testimonials: [
+    { id: "testimonials/grid", component: Testimonials, looks: ["editorial", "swiss", "warm"] },
+    { id: "testimonials/carousel", component: TestimonialsCarousel, looks: ["soft"] }, // slider
+  ],
+};
 
 /** Which look-affinity each palette (preset) expresses — used to filter variants. */
 export const presetAffinity: Record<string, StyleAffinity> = {

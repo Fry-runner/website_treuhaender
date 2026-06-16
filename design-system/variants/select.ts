@@ -6,7 +6,7 @@
  */
 import { presets } from "../tokens";
 import { archetypes, type ArchetypeId } from "../blueprints";
-import { heroVariants, primaryStyleVariants, presetAffinity } from "./registry";
+import { heroVariants, primaryStyleVariants, presetAffinity, sectionVariants } from "./registry";
 import type { StyleAffinity } from "../component-inventory";
 import type { PrimaryStyle } from "../structures/primitives";
 import type { SiteContent } from "../content/types";
@@ -27,6 +27,8 @@ export interface SitePlan {
   heroId: string;
   primaryStyle: PrimaryStyle;
   affinity: StyleAffinity;
+  /** slot -> chosen section-variant id */
+  sections: Record<string, string>;
 }
 
 /** Choose a palette compatible with the firm's archetype. */
@@ -44,7 +46,18 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
   const affinity = presetAffinity[lookId] ?? "any";
   const heroId = pick(compatible(heroVariants, affinity), base).id;
   const primaryStyle = pick(compatible(primaryStyleVariants, affinity), base + 1).id;
-  return { lookId, heroId, primaryStyle, affinity };
+  const sections: Record<string, string> = {};
+  for (const [slot, list] of Object.entries(sectionVariants)) {
+    sections[slot] = pick(compatible(list, affinity), base + hash(slot)).id;
+  }
+  return { lookId, heroId, primaryStyle, affinity, sections };
 }
 
 export const heroById = (id: string) => heroVariants.find((v) => v.id === id) ?? heroVariants[0];
+
+/** Resolve the chosen section-variant component for a slot (or undefined). */
+export function sectionComponent(slot: string, plan: SitePlan) {
+  const list = sectionVariants[slot];
+  if (!list) return undefined;
+  return (list.find((v) => v.id === plan.sections[slot]) ?? list[0]).component;
+}

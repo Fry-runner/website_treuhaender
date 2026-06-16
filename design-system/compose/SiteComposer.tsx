@@ -9,7 +9,7 @@ import { applyLook } from "../looks/applyLook";
 import { composeHomepage, type ArchetypeId } from "../blueprints";
 import { presets } from "../tokens";
 import type { SiteContent } from "../content/types";
-import { planSite, heroById } from "../variants/select";
+import { planSite, heroById, sectionComponent } from "../variants/select";
 import { PrimaryStyleProvider } from "../structures/primitives";
 
 import { Nav } from "../structures/Nav";
@@ -62,7 +62,13 @@ export const SiteComposer: React.FC<SiteComposerProps> = ({ content, archetype, 
   const plan = planSite(content, { seed, lookId });
   const look = presets[plan.lookId] ?? presets[content.meta.lookId];
   const Hero = heroById(plan.heroId).component;
-  const slotRender: Record<string, Renderer> = { ...renderers, hero: (c) => <Hero content={c.hero} /> };
+  const slotRender: Record<string, Renderer> = {
+    ...renderers,
+    hero: (c) => <Hero content={c.hero} />,
+    services: (c) => { const C = sectionComponent("services", plan) ?? Services; return <C content={c.services} />; },
+    cta: (c) => { const C = sectionComponent("cta", plan) ?? CtaBand; return <C content={c.cta} />; },
+    testimonials: (c) => { const C = sectionComponent("testimonials", plan) ?? Testimonials; return <C content={c.testimonials} />; },
+  };
   const sequence = composeHomepage(arch);
   return (
     <div style={applyLook(look)}>
