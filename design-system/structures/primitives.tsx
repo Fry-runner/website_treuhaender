@@ -53,6 +53,13 @@ export const Lede: React.FC<Div> = ({ children, style }) => (
   </p>
 );
 
+/** The primary-button look, chosen per firm and supplied via context so every
+ *  Button across the page renders in the same style without prop-drilling. */
+export type PrimaryStyle = "solid" | "sharp" | "pill" | "bloom" | "mono";
+const PrimaryStyleCtx = React.createContext<PrimaryStyle>("solid");
+export const PrimaryStyleProvider = PrimaryStyleCtx.Provider;
+export const usePrimaryStyle = () => React.useContext(PrimaryStyleCtx);
+
 type BtnProps = React.PropsWithChildren<{ variant?: "primary" | "outline" }>;
 
 const btnBase: React.CSSProperties = {
@@ -63,13 +70,33 @@ const btnBase: React.CSSProperties = {
   alignItems: "center", gap: "0.5rem", lineHeight: 1,
 };
 
-export const Button: React.FC<BtnProps> = ({ children, variant = "primary" }) =>
-  variant === "primary" ? (
-    <button style={{ ...btnBase, background: "var(--ds-primary)", color: "var(--ds-primary-fg)", border: "1px solid var(--ds-primary)", boxShadow: "var(--ds-shadow-card)" }}>
-      {children} <span aria-hidden>→</span>
-    </button>
-  ) : (
+/** Token-driven look for each primary-button style. */
+function primaryStyleProps(s: PrimaryStyle): React.CSSProperties {
+  const base: React.CSSProperties = {
+    background: "var(--ds-primary)", color: "var(--ds-primary-fg)", border: "1px solid var(--ds-primary)",
+  };
+  switch (s) {
+    case "sharp": return { ...base, borderRadius: 0, boxShadow: "none", letterSpacing: "0.1em" };
+    case "pill":  return { ...base, borderRadius: "9999px", boxShadow: "var(--ds-shadow-card)", textTransform: "none", letterSpacing: "0.01em", fontFamily: "var(--ds-font-body)" };
+    case "bloom": return { ...base, borderRadius: "9999px", boxShadow: "0 12px 32px -8px var(--ds-primary)", textTransform: "none", letterSpacing: "0.01em", fontFamily: "var(--ds-font-body)" };
+    case "mono":  return { ...base, borderRadius: "var(--ds-radius)", boxShadow: "none", letterSpacing: "0.16em" };
+    case "solid":
+    default:      return { ...base, borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)" };
+  }
+}
+
+export const Button: React.FC<BtnProps> = ({ children, variant = "primary" }) => {
+  const ps = usePrimaryStyle();
+  if (variant === "primary") {
+    return (
+      <button style={{ ...btnBase, ...primaryStyleProps(ps) }}>
+        {children} <span aria-hidden>→</span>
+      </button>
+    );
+  }
+  return (
     <button style={{ ...btnBase, background: "transparent", color: "var(--ds-text)", border: "1px solid var(--ds-text)" }}>
       {children}
     </button>
   );
+};

@@ -13,6 +13,7 @@ import { presetList } from "./tokens";
 import type { SiteContent } from "./content/types";
 import active from "./content/examples/active.json";
 import { InventoryBrowser } from "./InventoryBrowser";
+import { planSite } from "./variants/select";
 
 const content = active as unknown as SiteContent;
 
@@ -35,7 +36,38 @@ const SiteDemo = () => (
   </div>
 );
 
-type View = "site" | "inventory";
+const VariantsDemo = () => {
+  const seeds = [0, 1, 2, 3, 4, 5];
+  const plans = seeds.map((s) => ({ s, p: planSite(content, { seed: s }) }));
+  return (
+    <div style={{ fontFamily: "system-ui, sans-serif" }}>
+      <div style={{ padding: "1rem 1.5rem", background: "#0b0b0c", color: "#eee", fontFamily: "ui-monospace, monospace", fontSize: "0.74rem" }}>
+        <div style={{ opacity: 0.6, marginBottom: "0.6rem", textTransform: "uppercase", letterSpacing: "0.08em" }}>
+          planSite("{content.meta.firm}") — each seed picks a coherent palette × hero structure × button style:
+        </div>
+        {plans.map(({ s, p }) => (
+          <div key={s} style={{ display: "flex", gap: "1.5rem", padding: "2px 0" }}>
+            <span style={{ width: 60, opacity: 0.55 }}>seed {s}</span>
+            <span style={{ width: 170 }}>palette: <b>{p.lookId}</b></span>
+            <span style={{ width: 160 }}>hero: <b>{p.heroId}</b></span>
+            <span>button: <b>{p.primaryStyle}</b></span>
+          </div>
+        ))}
+      </div>
+      {[1, 2, 3].map((s) => {
+        const p = planSite(content, { seed: s });
+        return (
+          <div key={s}>
+            <Bar text={`Variant set · seed ${s}`} sub={`${p.lookId} · ${p.heroId} · button:${p.primaryStyle}`} />
+            <SiteComposer content={content} seed={s} />
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+type View = "site" | "inventory" | "variants";
 
 const Tabs: React.FC<{ view: View; setView: (v: View) => void }> = ({ view, setView }) => {
   const tab = (active: boolean): React.CSSProperties => ({
@@ -53,6 +85,7 @@ const Tabs: React.FC<{ view: View; setView: (v: View) => void }> = ({ view, setV
         Treuhand design system
       </span>
       <button style={tab(view === "site")} onClick={() => setView("site")}>Generated site</button>
+      <button style={tab(view === "variants")} onClick={() => setView("variants")}>Variants</button>
       <button style={tab(view === "inventory")} onClick={() => setView("inventory")}>Inventory specs</button>
     </div>
   );
@@ -63,7 +96,7 @@ const App = () => {
   return (
     <div>
       <Tabs view={view} setView={setView} />
-      {view === "site" ? <SiteDemo /> : <InventoryBrowser />}
+      {view === "site" ? <SiteDemo /> : view === "variants" ? <VariantsDemo /> : <InventoryBrowser />}
     </div>
   );
 };

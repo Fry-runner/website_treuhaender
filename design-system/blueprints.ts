@@ -54,21 +54,21 @@ export interface Archetype {
 export const archetypes: Record<ArchetypeId, Archetype> = {
   "swiss-digital": {
     id: "swiss-digital", name: "Swiss digital fiduciary", reference: "Nexova, Findea",
-    presets: ["tureva-soft", "boost-editorial"],
+    presets: ["tureva-soft", "swiss-clean", "boost-editorial"],
     pricing: "inline", heroStyle: "benefit + price + rating", voice: "efficient, modern",
     emphasize: ["services", "pricing", "audience", "stats", "partners", "faq"],
     downplay: ["profile"],
   },
   "boutique": {
     id: "boutique", name: "Swiss/DE boutique (owner-led)", reference: "Controva, Gruber Renger",
-    presets: ["ruerup-swiss", "boost-editorial", "uds-warm-editorial"],
+    presets: ["ruerup-swiss", "boost-editorial", "uds-warm-editorial", "dark-premium"],
     pricing: "hidden", heroStyle: "restrained statement", voice: "calm, understated",
     emphasize: ["profile", "team", "values", "quote", "testimonials"],
     downplay: ["pricing", "map", "audience"],
   },
   "intl-conversion": {
     id: "intl-conversion", name: "Conversion-driven", reference: "Osome, Avalon",
-    presets: ["tureva-soft", "uds-warm-editorial"],
+    presets: ["tureva-soft", "swiss-clean", "uds-warm-editorial"],
     pricing: "inline", heroStyle: "benefit + heavy social proof", voice: "warm, witty, direct",
     emphasize: ["testimonials", "audience", "process", "cta"],
     downplay: [],

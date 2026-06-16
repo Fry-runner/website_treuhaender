@@ -329,5 +329,153 @@
       "--font-display": "Plus Jakarta Sans",
       "--font-mono": "JetBrains Mono"
     }
+  },
+  {
+    "meta": {
+      "id": "swiss-clean",
+      "name": "Swiss Clean",
+      "source": "synthesized (references)",
+      "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy."
+    },
+    "tags": {
+      "tone": "formal",
+      "warmth": "cool",
+      "corner": "medium",
+      "density": "airy",
+      "contrast": "high",
+      "era": "modern",
+      "accentEnergy": "medium"
+    },
+    "color": {
+      "bg": "#FFFFFF",
+      "surface": "#F2F7F8",
+      "text": "#0E2A33",
+      "textMuted": "#5B7682",
+      "border": "#DCE7EA",
+      "primary": "#0EA5A5",
+      "primaryFg": "#FFFFFF",
+      "primarySoft": "#E6F6F6",
+      "secondary": "#1E3A5F",
+      "secondaryFg": "#FFFFFF"
+    },
+    "font": {
+      "body": "\"Inter\", ui-sans-serif, system-ui, sans-serif",
+      "heading": "\"Space Grotesk\", \"Inter\", system-ui, sans-serif",
+      "headingRole": "display-grotesk"
+    },
+    "type": {
+      "displayMax": "6xl",
+      "headlineWeight": "semibold",
+      "bodyWeight": "normal",
+      "headlineTracking": "tight",
+      "eyebrow": {
+        "uppercase": true,
+        "tracking": "wider",
+        "weight": "semibold"
+      }
+    },
+    "radius": {
+      "base": "md",
+      "pill": "full",
+      "scale": "medium"
+    },
+    "shadow": {
+      "elevation": "subtle",
+      "card": "sm"
+    },
+    "spacing": {
+      "sectionY": "py-20",
+      "rhythm": "airy",
+      "containerMax": "1280px",
+      "gutter": "1.5rem"
+    },
+    "motion": {
+      "durationMs": 260,
+      "easing": "cubic-bezier(0.4,0,0.2,1)",
+      "intensity": "moderate"
+    },
+    "background": {
+      "treatment": "flat-white",
+      "blur": true
+    },
+    "raw": {
+      "--accent-teal": "#0EA5A5",
+      "--ink-navy": "#1E3A5F",
+      "--font-sans": "Inter",
+      "--font-display": "Space Grotesk"
+    }
+  },
+  {
+    "meta": {
+      "id": "dark-premium",
+      "name": "Dark Premium",
+      "source": "synthesized (references)",
+      "mood": "High-craft dark UI: near-black ground, single lavender accent, hairline borders, tight grotesk."
+    },
+    "tags": {
+      "tone": "bold",
+      "warmth": "cool",
+      "corner": "medium",
+      "density": "airy",
+      "contrast": "high",
+      "era": "modern",
+      "accentEnergy": "vibrant"
+    },
+    "color": {
+      "bg": "#0B0C0E",
+      "surface": "#15171A",
+      "text": "#F3F5F7",
+      "textMuted": "#9BA3AE",
+      "border": "#262A30",
+      "primary": "#6E79F2",
+      "primaryFg": "#FFFFFF",
+      "primarySoft": "#1B1F3A",
+      "secondary": "#6E79F2"
+    },
+    "font": {
+      "body": "\"Inter\", ui-sans-serif, system-ui, sans-serif",
+      "heading": "\"Space Grotesk\", \"Inter\", system-ui, sans-serif",
+      "headingRole": "display-grotesk"
+    },
+    "type": {
+      "displayMax": "7xl",
+      "headlineWeight": "semibold",
+      "bodyWeight": "normal",
+      "headlineTracking": "tighter",
+      "eyebrow": {
+        "uppercase": true,
+        "tracking": "widest",
+        "weight": "medium"
+      }
+    },
+    "radius": {
+      "base": "md",
+      "pill": "full",
+      "scale": "medium"
+    },
+    "shadow": {
+      "elevation": "flat",
+      "card": "none"
+    },
+    "spacing": {
+      "sectionY": "py-24",
+      "rhythm": "airy",
+      "containerMax": "1200px",
+      "gutter": "1.5rem"
+    },
+    "motion": {
+      "durationMs": 300,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "intensity": "expressive"
+    },
+    "background": {
+      "treatment": "tinted",
+      "blur": true
+    },
+    "raw": {
+      "--accent-lavender": "#6E79F2",
+      "--font-sans": "Inter",
+      "--font-display": "Space Grotesk"
+    }
   }
 ]

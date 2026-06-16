@@ -9,6 +9,8 @@ import { applyLook } from "../looks/applyLook";
 import { composeHomepage, type ArchetypeId } from "../blueprints";
 import { presets } from "../tokens";
 import type { SiteContent } from "../content/types";
+import { planSite, heroById } from "../variants/select";
+import { PrimaryStyleProvider } from "../structures/primitives";
 
 import { Nav } from "../structures/Nav";
 import { HeroSplit } from "../structures/HeroSplit";
@@ -43,19 +45,29 @@ const renderers: Record<string, Renderer> = {
 export interface SiteComposerProps {
   content: SiteContent;
   archetype?: ArchetypeId;
+  /** Force a palette; otherwise the selector picks one compatible with the archetype. */
   lookId?: string;
+  /** Vary to regenerate a different (but coherent) variant set for the same firm. */
+  seed?: number;
 }
 
-export const SiteComposer: React.FC<SiteComposerProps> = ({ content, archetype, lookId }) => {
+export const SiteComposer: React.FC<SiteComposerProps> = ({ content, archetype, lookId, seed }) => {
   const arch = (archetype ?? (content.meta.archetype as ArchetypeId)) || "boutique";
-  const look = presets[lookId ?? content.meta.lookId];
+  // pick a coherent variant set: palette + hero structure + button style.
+  // lookId prop forces the palette; otherwise the selector chooses one.
+  const plan = planSite(content, { seed, lookId });
+  const look = presets[plan.lookId] ?? presets[content.meta.lookId];
+  const Hero = heroById(plan.heroId).component;
+  const slotRender: Record<string, Renderer> = { ...renderers, hero: (c) => <Hero content={c.hero} /> };
   const sequence = composeHomepage(arch);
   return (
     <div style={applyLook(look)}>
-      {sequence.map((s, i) => {
-        const r = renderers[s.slot];
-        return r ? <React.Fragment key={i}>{r(content)}</React.Fragment> : null;
-      })}
+      <PrimaryStyleProvider value={plan.primaryStyle}>
+        {sequence.map((s, i) => {
+          const r = slotRender[s.slot];
+          return r ? <React.Fragment key={i}>{r(content)}</React.Fragment> : null;
+        })}
+      </PrimaryStyleProvider>
     </div>
   );
 };
