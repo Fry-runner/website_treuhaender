@@ -1,0 +1,863 @@
+{
+  "meta": {
+    "firm": "Langhart & Partner Treuhand AG",
+    "domain": "langhart-partner.ch",
+    "archetype": "swiss-digital",
+    "lookId": "zueri-swiss",
+    "sourceUrl": "https://langhart-partner.ch/",
+    "basePresetId": "zueri-swiss",
+    "look": {
+      "meta": {
+        "id": "langhart-partner-ch-brand",
+        "name": "Züri Swiss Blue · brand-tinted",
+        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
+        "source": "Züri-Treuhand + scraped brand",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAF1F8 tint)",
+          "color.secondaryFg (#FFFFFF)",
+          "color.textMuted (#737373 neutral-500)",
+          "base: zueri-swiss",
+          "accent #10408F (scraped · high)",
+          "heading: Sora (inventory)",
+          "body: IBM Plex Sans (inventory)",
+          "mono: IBM Plex Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F9FAFB",
+        "text": "#333333",
+        "textMuted": "#737373",
+        "border": "#EAEAEA",
+        "primary": "#10408F",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#ECF0F6",
+        "secondary": "#B38600",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"IBM Plex Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Sora\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-16",
+        "rhythm": "normal",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-blue": "#084687",
+        "--color-accent-blue": "#0b549f",
+        "--color-charcoal": "#333333",
+        "--color-soft-gray": "#F9FAFB",
+        "--color-border-gray": "#EAEAEA",
+        "--font-sans": "Inter",
+        "--font-serif": "Playfair Display",
+        "--font-display": "Space Grotesk",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "primary": "#10408F",
+      "secondary": "#FFBE01",
+      "palette": [
+        "#10408F",
+        "#4158A0",
+        "#8E94C6",
+        "#FFBE01",
+        "#6675B3",
+        "#FFBC7D"
+      ],
+      "fontsSeen": [
+        "Barlow"
+      ],
+      "confidence": "high"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "trust.badges",
+      "services.images",
+      "media.documents",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "hero": "/images/langhart-partner-ch/hero.jpg",
+    "badges": [
+      "/images/langhart-partner-ch/pool/c67cf3e629__Langhart-Partner-Treuhand_Pusteblume_2-1024x493.jpg",
+      "/images/langhart-partner-ch/pool/d77ebf0c26__Langhart-Partner-Treuhand_Urs-Langhart-1024x768.jpg",
+      "/images/langhart-partner-ch/pool/d4360e0aa5__Langhart-Partner_Referenzen_Hairfact_GmbH-768x768.jpg",
+      "/images/langhart-partner-ch/pool/7e2581f0d7__header_steuern.jpg",
+      "/images/langhart-partner-ch/pool/4708ed1c8e__Langhart-Partner_Referenzen_Rodaro.jpg",
+      "/images/langhart-partner-ch/pool/c27fc140e8__Langhart-Partner_Lukas_Manser-1024x768.webp",
+      "/images/langhart-partner-ch/pool/a751b6ef2c__Langhart_Partner_Treuhand_Logo-2048x761.webp",
+      "/images/langhart-partner-ch/pool/5dcac0be15__Langhart-Partner_Referenzen_Sinas_Backstube_GmbH.jpg"
+    ],
+    "photos": [
+      "/images/langhart-partner-ch/pool/e9d8ae3578__finance.jpg",
+      "/images/langhart-partner-ch/pool/b7c7abac9a__dandelion-seeds-fly-near-the-dandelion-on-a-blurred-background-natural-macro-bac",
+      "/images/langhart-partner-ch/pool/f00278a8c9__pexels-pixabay-209224-2048x1365.jpg",
+      "/images/langhart-partner-ch/pool/39ab76157c__Langhart-Parter_QR-Rechung.jpg",
+      "/images/langhart-partner-ch/pool/54598af947__dandelion-1.jpg",
+      "/images/langhart-partner-ch/pool/d54f86f941__mwst-ab-2025.webp",
+      "/images/langhart-partner-ch/pool/415d80f0d7__Langhart-Partner-Treuhand_Nathalie-Wittausch-1024x768.jpg",
+      "/images/langhart-partner-ch/pool/aa3bf74ec6__Langhart-Partner-Treuhand_Sabrina-Schaefer-Langhart-1024x768.jpg",
+      "/images/langhart-partner-ch/pool/26264ccff1__Langhart-Partner-Treuhand_Lidia-Cerra-1024x768.jpg",
+      "/images/langhart-partner-ch/pool/fa0997ba2f__dandelion-fluff-on-a-blue-background.jpg",
+      "/images/langhart-partner-ch/pool/7f1233f147__Langhart-Partner_30-Jahre_Siegel-2048x1970.webp",
+      "/images/langhart-partner-ch/pool/02fe7202f8__Langhart-Partner_Referenzen_Millenium.webp",
+      "/images/langhart-partner-ch/pool/68705b2c2a__Langhart-Partner_Referenzen_Bau_Pfister_Rueti_GmbH-2048x2048.jpg",
+      "/images/langhart-partner-ch/pool/f22817074e__Langhart-Partner_Referenzen_PEGE-Werbetechnik_Thomas_Graf.jpg",
+      "/images/langhart-partner-ch/pool/eac386ab02__Langhart-Partner_Referenzen_Krauer-Carrosserie.jpg",
+      "/images/langhart-partner-ch/pool/4b4a597abf__Langhart-Partner-Treuhand_Team_neu-2048x1357.webp",
+      "/images/langhart-partner-ch/pool/7ba6d88e68__Langhart-Partner_Referenzen_Portrait_Markus_Kradolfer-768x768.jpg"
+    ],
+    "serviceImages": {
+      "Mehrwertsteuer": "/images/langhart-partner-ch/pool/d54f86f941__mwst-ab-2025.webp"
+    },
+    "documents": [
+      {
+        "src": "/files/langhart-partner-ch/88e32cf498__Langhart-Partner_Auftragsdatenbearbeitungsvertrag_Comatic.pdf",
+        "title": "Auftragsdatenbearbeitungsvertrag",
+        "kind": "pdf",
+        "bytes": 340490
+      },
+      {
+        "src": "/files/langhart-partner-ch/06c2b7a298__Checkliste_2025.pdf",
+        "title": "Checkliste Steuererklärungen",
+        "kind": "pdf",
+        "bytes": 67401
+      },
+      {
+        "src": "/files/langhart-partner-ch/eb16bfc45d__Langhart-Partner_Checkliste_Steuererklaerung_2021.pdf",
+        "title": "Checkliste Unterlagen Steuererklärung",
+        "kind": "pdf",
+        "bytes": 51150
+      },
+      {
+        "src": "/files/langhart-partner-ch/302f7decb1__Checkliste_2023.pdf",
+        "title": "Checkliste Unterlagen Steuererklärung",
+        "kind": "pdf",
+        "bytes": 66443
+      },
+      {
+        "src": "/files/langhart-partner-ch/9725540b89__Grenzbetraege_2026.pdf",
+        "title": "Grenzbeträge",
+        "kind": "pdf",
+        "bytes": 94066
+      },
+      {
+        "src": "/files/langhart-partner-ch/e877896317__Langhart-Partner_Konditionen_Steuererklaerung.pdf",
+        "title": "Konditionen Steuererklärungen",
+        "kind": "pdf",
+        "bytes": 94423
+      },
+      {
+        "src": "/files/langhart-partner-ch/bff1feea8b__langhart-partner_wetzikerpost.pdf",
+        "title": "PDF Wetziker Post",
+        "kind": "pdf",
+        "bytes": 911981
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/langhart-partner-ch/pool/c67cf3e629__Langhart-Partner-Treuhand_Pusteblume_2-1024x493.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 59800,
+        "width": 1024,
+        "height": 493,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/d77ebf0c26__Langhart-Partner-Treuhand_Urs-Langhart-1024x768.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 78306,
+        "width": 1024,
+        "height": 768,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/d4360e0aa5__Langhart-Partner_Referenzen_Hairfact_GmbH-768x768.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 14730,
+        "width": 768,
+        "height": 768,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/7e2581f0d7__header_steuern.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 24996,
+        "width": 710,
+        "height": 200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/4708ed1c8e__Langhart-Partner_Referenzen_Rodaro.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 39021,
+        "width": 1500,
+        "height": 1500,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/c27fc140e8__Langhart-Partner_Lukas_Manser-1024x768.webp",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 42706,
+        "width": 1024,
+        "height": 768,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/a751b6ef2c__Langhart_Partner_Treuhand_Logo-2048x761.webp",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 59118,
+        "width": 2048,
+        "height": 761,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/5dcac0be15__Langhart-Partner_Referenzen_Sinas_Backstube_GmbH.jpg",
+        "kind": "badge",
+        "alt": "Langhart-Partner: Logo von Sinas Backstube GmbH",
+        "bytes": 65388,
+        "width": 1000,
+        "height": 1000,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/fa0997ba2f__dandelion-fluff-on-a-blue-background.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 190842,
+        "width": 1920,
+        "height": 1920,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/b7c7abac9a__dandelion-seeds-fly-near-the-dandelion-on-a-blurred-background-natural-macro-bac",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 161491,
+        "width": 1920,
+        "height": 1282,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/e9d8ae3578__finance.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 137096,
+        "width": 1600,
+        "height": 900,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/f00278a8c9__pexels-pixabay-209224-2048x1365.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 140955,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/7f1233f147__Langhart-Partner_30-Jahre_Siegel-2048x1970.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 208394,
+        "width": 1600,
+        "height": 1539,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/39ab76157c__Langhart-Parter_QR-Rechung.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 139766,
+        "width": 1600,
+        "height": 1062,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/02fe7202f8__Langhart-Partner_Referenzen_Millenium.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 84526,
+        "width": 1500,
+        "height": 1500,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/54598af947__dandelion-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 91054,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/d54f86f941__mwst-ab-2025.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 112390,
+        "width": 1500,
+        "height": 844,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/68705b2c2a__Langhart-Partner_Referenzen_Bau_Pfister_Rueti_GmbH-2048x2048.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 64092,
+        "width": 1600,
+        "height": 1600,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/4b4a597abf__Langhart-Partner-Treuhand_Team_neu-2048x1357.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 126132,
+        "width": 1600,
+        "height": 1060,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/f22817074e__Langhart-Partner_Referenzen_PEGE-Werbetechnik_Thomas_Graf.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 163075,
+        "width": 1500,
+        "height": 1500,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/7ba6d88e68__Langhart-Partner_Referenzen_Portrait_Markus_Kradolfer-768x768.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 110810,
+        "width": 768,
+        "height": 768,
+        "orientation": "square",
+        "subject": "portrait",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/415d80f0d7__Langhart-Partner-Treuhand_Nathalie-Wittausch-1024x768.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 72937,
+        "width": 1024,
+        "height": 768,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/aa3bf74ec6__Langhart-Partner-Treuhand_Sabrina-Schaefer-Langhart-1024x768.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 71951,
+        "width": 1024,
+        "height": 768,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/26264ccff1__Langhart-Partner-Treuhand_Lidia-Cerra-1024x768.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 68572,
+        "width": 1024,
+        "height": 768,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/eac386ab02__Langhart-Partner_Referenzen_Krauer-Carrosserie.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 73482,
+        "width": 1500,
+        "height": 1500,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/langhart-partner-ch/pool/b7c7abac9a__dandelion-seeds-fly-near-the-dandelion-on-a-blurred-background-natural-macro-bac",
+      "/images/langhart-partner-ch/pool/e9d8ae3578__finance.jpg",
+      "/images/langhart-partner-ch/pool/f00278a8c9__pexels-pixabay-209224-2048x1365.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Langhart & Partner Treuhand AG",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Wetzikon",
+    "titleLead": "Unsere neue Webseite ist online!",
+    "titleAccent": "",
+    "lede": "Ihr Partner für Steuern und Unternehmensberatung mit Sitz in Wetzikon. Wir machen wir Treuhand sympathisch und verschaffen Ihnen Freiräume.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Ihr Partner für Steuern und Unternehmensberatung mit Sitz in Wetzikon. Wir machen wir Treuhand sympathisch und verschaffen Ihnen Freiräume.",
+    "asideAttribution": "Langhart & Partner Treuhand AG",
+    "image": "/images/langhart-partner-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Ab dem Steuerjahr 2029 muss der Eigenmietwert auf selbstgenutztem Wohneigentum nicht mehr versteuert werden. Die Forderung der Gebirgskantone nach einer Abschaffung nicht vor 2030 wird damit nicht erfüllt. Ein halbes Jahr nach dem deutlichen Ja an der Urne schafft die Landesregie",
+        "body": "Ab dem Steuerjahr 2029 muss der Eigenmietwert auf selbstgenutztem Wohneigentum nicht mehr versteuert werden. Die Forderung der Gebirgskantone nach einer Abschaffung nicht vor 2030 wird damit nicht erfüllt. Ein halbes Jahr nach dem deutlichen Ja an der Urne schafft die Landesregierung nun Klarheit über die Inkraftsetzung der Reform der Wohneigentumsbesteuerung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "Ab dem Steuerjahr 2029 muss der Eigenmietwert auf selbstgenutztem Wohneigentum nicht mehr versteuert werden. Die Forderung der Gebirgskantone nach einer Abschaffung nicht vor 2030 wird damit nicht erfüllt. Ein halbes Jahr nach dem deutlichen Ja an der Urne schafft die Landesregie",
+        "body": "Ab dem Steuerjahr 2029 muss der Eigenmietwert auf selbstgenutztem Wohneigentum nicht mehr versteuert werden. Die Forderung der Gebirgskantone nach einer Abschaffung nicht vor 2030 wird damit nicht erfüllt. Ein halbes Jahr nach dem deutlichen Ja an der Urne schafft die Landesregierung nun Klarheit über die Inkraftsetzung der Reform der Wohneigentumsbesteuerung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/langhart-partner-ch/pool/d54f86f941__mwst-ab-2025.webp"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Wir begleiten und unterstützen Sie auf dem Weg zur Firmengründung. Wir sind dabei Ihr Ansprechpartner für jegliche rechtlichen Fragen.",
+        "body": "Wir helfen Ihnen, sich im Dschungel der Bürokratie zurechtzufinden. Über das Schreiben von Statuten bis zum definitiven Handelsregistereintrag begleiten wir Sie auf diesem spannenden Weg.\n\nFirmengründungen sind komplex und mit einer Vielzahl von rechtlichen Vorschriften verbunden.\n\nWir beraten Sie vorausschauend und unter Berücksichtigung der aktuellen Gesetzgebung in allen Steuerfragen, und erledigen Ihre Steuererklärung inkl. Nachbearbeitung.\n\nErsparen Sie sich die zeitraubende Arbeit und geniessen Sie Ihre Freizeit.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Konditionen Steuererklärungen",
+        "role": "Checkliste Steuererklärungen",
+        "initials": "KS",
+        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "eidg. Diplom/Fachausweis",
+      "abacus",
+      "klara"
+    ],
+    "badges": [
+      "/images/langhart-partner-ch/pool/c67cf3e629__Langhart-Partner-Treuhand_Pusteblume_2-1024x493.jpg",
+      "/images/langhart-partner-ch/pool/d77ebf0c26__Langhart-Partner-Treuhand_Urs-Langhart-1024x768.jpg",
+      "/images/langhart-partner-ch/pool/d4360e0aa5__Langhart-Partner_Referenzen_Hairfact_GmbH-768x768.jpg",
+      "/images/langhart-partner-ch/pool/7e2581f0d7__header_steuern.jpg",
+      "/images/langhart-partner-ch/pool/4708ed1c8e__Langhart-Partner_Referenzen_Rodaro.jpg",
+      "/images/langhart-partner-ch/pool/c27fc140e8__Langhart-Partner_Lukas_Manser-1024x768.webp",
+      "/images/langhart-partner-ch/pool/a751b6ef2c__Langhart_Partner_Treuhand_Logo-2048x761.webp",
+      "/images/langhart-partner-ch/pool/5dcac0be15__Langhart-Partner_Referenzen_Sinas_Backstube_GmbH.jpg"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 933 50 20",
+      "email": "info@hingucker.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Langhart & Partner Treuhand AG",
+    "tagline": "Ihr Partner für Steuern und Unternehmensberatung mit Sitz in Wetzikon. Wir machen wir Treuhand sympathisch und verschaffen Ihnen Freiräume.",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Wetzikon",
+          "+41 44 933 50 20",
+          "info@hingucker.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

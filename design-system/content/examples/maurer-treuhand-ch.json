@@ -1,0 +1,934 @@
+{
+  "meta": {
+    "firm": "Maurer Treuhand",
+    "domain": "maurer-treuhand.ch",
+    "archetype": "boutique",
+    "lookId": "uds-warm-editorial",
+    "sourceUrl": "https://www.maurer-treuhand.ch/",
+    "basePresetId": "uds-warm-editorial",
+    "look": {
+      "meta": {
+        "id": "maurer-treuhand-ch-brand",
+        "name": "Unter dem Strich Warm Editorial · brand-tinted",
+        "mood": "Boutique editorial on warm paper; sharp corners, hairline borders, ink-blue + rose accents, snappy underline link motion.",
+        "source": "Unter-Dem-Strich + scraped brand",
+        "derived": [
+          "color.surface (#FFFFFF cards on paper)",
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAECF6 tint)",
+          "base: uds-warm-editorial",
+          "accent #B69881 → #A88469 (scraped · raised for contrast)",
+          "heading: Epilogue (inventory)",
+          "body: Public Sans (inventory)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "warm",
+        "corner": "sharp",
+        "density": "airy",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FAF9F6",
+        "surface": "#FFFFFF",
+        "text": "#1C1C1A",
+        "textMuted": "#8A8782",
+        "border": "#E7E4DD",
+        "primary": "#A88469",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#F3F0EB",
+        "secondary": "#7A00DF",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Epilogue\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-geometric"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "semibold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "medium"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-24",
+        "rhythm": "airy",
+        "containerMax": "1200px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 200,
+        "easing": "ease-out",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "warm-paper",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-bg": "#FAF9F6",
+        "--color-brand-text": "#1C1C1A",
+        "--color-brand-blue": "#2C3E91",
+        "--color-brand-rose": "#E3A39B",
+        "--color-brand-border": "#E7E4DD",
+        "--color-brand-muted": "#8A8782",
+        "--font-sans": "Inter",
+        "--font-display": "Plus Jakarta Sans",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "primary": "#B69881",
+      "secondary": "#7A00DF",
+      "palette": [
+        "#B69881",
+        "#CFAD93",
+        "#7A00DF",
+        "#007CBA",
+        "#006BA1",
+        "#005A87",
+        "#34E2E4",
+        "#4721FB",
+        "#AB1DFE",
+        "#FAACA8",
+        "#67A671",
+        "#FDD79A"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": false,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "faq"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "team.photos",
+      "values",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "services.images",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "logo": "/images/maurer-treuhand-ch/pool/690ba3589b__IMG_Logo_Finanzkonsulenten.png",
+    "logoLight": "/images/maurer-treuhand-ch/pool/1430e63a40__LOGO_maurer-treuhand-white.svg",
+    "hero": "/images/maurer-treuhand-ch/hero.jpg",
+    "badges": [
+      "/images/maurer-treuhand-ch/pool/4da4fb57c5__LOGO_treu-suisse.svg",
+      "/images/maurer-treuhand-ch/pool/667ba0ac5c__PETER-HIRT-GmbH-Logo-e1653382787364.jpg",
+      "/images/maurer-treuhand-ch/pool/01b801418e__PARTNER_VAT.png",
+      "/images/maurer-treuhand-ch/pool/5c0047756b__PARTNER_Assepro.png",
+      "/images/maurer-treuhand-ch/pool/e6a6305a91__PARTNER_kanzlei-caro-logo.png"
+    ],
+    "photos": [
+      "/images/maurer-treuhand-ch/pool/8fc59d3c4e__IMG_Header_Home_desktop.png",
+      "/images/maurer-treuhand-ch/pool/2a5fba0c84__Maurer-Treuhand-01-1.jpg",
+      "/images/maurer-treuhand-ch/pool/5bd8c134ef__Maurer-Treuhand-11.jpg",
+      "/images/maurer-treuhand-ch/pool/3391d3c01e__Maurer-Treuhand-03.jpg",
+      "/images/maurer-treuhand-ch/pool/bd8e09daca__0M6A7446-bearbeitet.jpg",
+      "/images/maurer-treuhand-ch/pool/c61c6e8339__Header-Hintergrund-02.jpg",
+      "/images/maurer-treuhand-ch/pool/1d85ba6db1__IMG_Header_Kundengruppen.png",
+      "/images/maurer-treuhand-ch/pool/2219edacbc__Header-Hintergrund-06.jpg",
+      "/images/maurer-treuhand-ch/pool/f276cb24a8__IMG_Treuhand-und-Buchhaltung.png",
+      "/images/maurer-treuhand-ch/pool/8315bd3dbe__IMG_Steuerberatung.png",
+      "/images/maurer-treuhand-ch/pool/c79c52901c__NPO.jpg",
+      "/images/maurer-treuhand-ch/pool/1dea5e0ae6__Unternehmensberatung.jpg",
+      "/images/maurer-treuhand-ch/pool/64371322f6__Mitarbeiter-3.jpg",
+      "/images/maurer-treuhand-ch/pool/c754e129b9__Foto-R.Bigger.jpg",
+      "/images/maurer-treuhand-ch/pool/a856289bda__Simone-Boss_011-A5-Kopie-2.jpg",
+      "/images/maurer-treuhand-ch/pool/2f590503ab__Yanik-Kunz_05-A5-e1696239269413.png",
+      "/images/maurer-treuhand-ch/pool/b3a4cc9be4__Maurer_Treuhand_Karin_2853_pp-2.jpg",
+      "/images/maurer-treuhand-ch/pool/c7b333f4d7__Maurer_Treuhand_Lea_3199_pp-2.jpg",
+      "/images/maurer-treuhand-ch/pool/f0b1f23146__Maurer_Treuhand_Regina_2865_pp-2.jpg",
+      "/images/maurer-treuhand-ch/pool/2a4721de16__Maurer_Treuhand_Mischa_3142_pp-3.jpg",
+      "/images/maurer-treuhand-ch/pool/b428bddeff__Maurer_Treuhand_Susanne_9022_pp-2.jpg",
+      "/images/maurer-treuhand-ch/pool/0b19657603__Maurer_Treuhand_Kaltrina_20.0278999_pp-2.jpg"
+    ],
+    "serviceImages": {
+      "Buchhaltung": "/images/maurer-treuhand-ch/pool/f276cb24a8__IMG_Treuhand-und-Buchhaltung.png",
+      "Steuerberatung": "/images/maurer-treuhand-ch/pool/8315bd3dbe__IMG_Steuerberatung.png",
+      "Unternehmensberatung": "/images/maurer-treuhand-ch/pool/1dea5e0ae6__Unternehmensberatung.jpg"
+    },
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/maurer-treuhand-ch/pool/690ba3589b__IMG_Logo_Finanzkonsulenten.png",
+        "kind": "logo",
+        "alt": "Logo Finanz konsulenten",
+        "bytes": 8622,
+        "width": 263,
+        "height": 111,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/1430e63a40__LOGO_maurer-treuhand-white.svg",
+        "kind": "logo-light",
+        "alt": "Maurer Treuhand Logo",
+        "bytes": 14335,
+        "width": 298,
+        "height": 83,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/4da4fb57c5__LOGO_treu-suisse.svg",
+        "kind": "badge",
+        "alt": "Treuhand Suisse",
+        "bytes": 3122,
+        "width": 257.925,
+        "height": 52.649,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/667ba0ac5c__PETER-HIRT-GmbH-Logo-e1653382787364.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 12133,
+        "width": 134,
+        "height": 129,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/01b801418e__PARTNER_VAT.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 15452,
+        "width": 627,
+        "height": 265,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/5c0047756b__PARTNER_Assepro.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 15471,
+        "width": 627,
+        "height": 265,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/e6a6305a91__PARTNER_kanzlei-caro-logo.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 18642,
+        "width": 627,
+        "height": 265,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": []
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/8fc59d3c4e__IMG_Header_Home_desktop.png",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 820748,
+        "width": 1778,
+        "height": 1000,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/c61c6e8339__Header-Hintergrund-02.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 47610,
+        "width": 1920,
+        "height": 474,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/1d85ba6db1__IMG_Header_Kundengruppen.png",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 295321,
+        "width": 1920,
+        "height": 525,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/2219edacbc__Header-Hintergrund-06.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 36466,
+        "width": 1920,
+        "height": 476,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/a856289bda__Simone-Boss_011-A5-Kopie-2.jpg",
+        "kind": "photo",
+        "alt": "Simone Boss - Mitarbeiterin bei Maurer Treuhand",
+        "bytes": 178327,
+        "width": 1372,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/2f590503ab__Yanik-Kunz_05-A5-e1696239269413.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 352999,
+        "width": 899,
+        "height": 1049,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/b3a4cc9be4__Maurer_Treuhand_Karin_2853_pp-2.jpg",
+        "kind": "photo",
+        "alt": "Karin Sammer - Mitarbeiterin bei Maurer Treuhand",
+        "bytes": 119121,
+        "width": 1371,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/c7b333f4d7__Maurer_Treuhand_Lea_3199_pp-2.jpg",
+        "kind": "photo",
+        "alt": "Lea Hofer - Mitarbeiterin bei Maurer Treuhand",
+        "bytes": 116402,
+        "width": 1371,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/f0b1f23146__Maurer_Treuhand_Regina_2865_pp-2.jpg",
+        "kind": "photo",
+        "alt": "Regina Vaterlaus - Mitarbeiterin bei Maurer Treuhand",
+        "bytes": 103578,
+        "width": 1371,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/2a4721de16__Maurer_Treuhand_Mischa_3142_pp-3.jpg",
+        "kind": "photo",
+        "alt": "Mischa Sammer - Inhaber von Maurer Treuhand",
+        "bytes": 94403,
+        "width": 1371,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/b428bddeff__Maurer_Treuhand_Susanne_9022_pp-2.jpg",
+        "kind": "photo",
+        "alt": "Susanne Allemann - Mitarbeiterin bei Maurer Treuhand",
+        "bytes": 84245,
+        "width": 1371,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/0b19657603__Maurer_Treuhand_Kaltrina_20.0278999_pp-2.jpg",
+        "kind": "photo",
+        "alt": "Kaltrina Murtezi - Mitarbeiterin bei Maurer Treuhand",
+        "bytes": 78276,
+        "width": 1371,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/c79c52901c__NPO.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 138230,
+        "width": 1200,
+        "height": 800,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/2a5fba0c84__Maurer-Treuhand-01-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 133810,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/1dea5e0ae6__Unternehmensberatung.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 147652,
+        "width": 1200,
+        "height": 1200,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/5bd8c134ef__Maurer-Treuhand-11.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 140648,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/64371322f6__Mitarbeiter-3.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 150128,
+        "width": 1600,
+        "height": 1076,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/c754e129b9__Foto-R.Bigger.jpg",
+        "kind": "photo",
+        "alt": "Portrait von R. Bigger",
+        "bytes": 154536,
+        "width": 1200,
+        "height": 1200,
+        "orientation": "square",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/3391d3c01e__Maurer-Treuhand-03.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 110201,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/bd8e09daca__0M6A7446-bearbeitet.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 135256,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/f276cb24a8__IMG_Treuhand-und-Buchhaltung.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 69751,
+        "width": 443,
+        "height": 455,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/maurer-treuhand-ch/pool/8315bd3dbe__IMG_Steuerberatung.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 140388,
+        "width": 665,
+        "height": 683,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/maurer-treuhand-ch/pool/8fc59d3c4e__IMG_Header_Home_desktop.png",
+      "/images/maurer-treuhand-ch/pool/c61c6e8339__Header-Hintergrund-02.jpg",
+      "/images/maurer-treuhand-ch/pool/1d85ba6db1__IMG_Header_Kundengruppen.png"
+    ]
+  },
+  "nav": {
+    "brand": "Maurer Treuhand",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen",
+    "logo": "/images/maurer-treuhand-ch/pool/690ba3589b__IMG_Logo_Finanzkonsulenten.png",
+    "logoLight": "/images/maurer-treuhand-ch/pool/1430e63a40__LOGO_maurer-treuhand-white.svg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Wir sind Ihre qualifizierten Finanz-Teamworker .",
+    "titleAccent": "",
+    "lede": "Wir beraten Sie umfassend zu Ihren Finanz- und Rechnungsfragen, führen Ihre Buchhaltung, erstellen die Jahresabschlüsse und agieren als Fiskalvertretung.",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Wir beraten Sie umfassend zu Ihren Finanz- und Rechnungsfragen, führen Ihre Buchhaltung, erstellen die Jahresabschlüsse und agieren als Fiskalvertretung.",
+    "asideAttribution": "Maurer Treuhand",
+    "image": "/images/maurer-treuhand-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Damit Sie den Überblick behalten, unterstützen wir Sie bei der Investitions- und Finanzplanung, bei Analysen und bei der Budgetierung.",
+        "body": "Eine gesunde finanzielle Basis ist Voraussetzung für den langfristigen Geschäftserfolg. Damit Sie Ihre Finanzen im Griff haben, stehen wir Ihnen in allen Bereichen des Finanzmanagements zur Seite. Transparent, nachhaltig und zuverlässig.\n\nDie Anforderungen an Buchhaltung, Rechnungswesen und Controlling verändern sich laufend. Damit Sie dennoch den Überblick behalten unterstützen wir Sie bei der Investitions- und Finanzplanung, bei Analysen und bei der Budgetierung.\n\nKunde von Maurer Treuhand im Bereich Finanz- und Lohnbuchhaltung inkl. Steuererklärung. Mit Maurer Treuhand haben wir nicht nur einen\n\nBereits seit 2007 ist Maurer Treuhand ein zuverlässiger und kompetenter Partner der FC Wil 1900 AG. Wir werden sehr gut betreut und bei Fragen aller Art steht uns der Inhaber Mischa Sammer persönlich zur Verfügung. In Bezug auf Lohnbuchhaltung, Debitoren/Kreditoren, Budgetierung und Lizenzieru",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/maurer-treuhand-ch/pool/f276cb24a8__IMG_Treuhand-und-Buchhaltung.png"
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Ob Unternehmen oder Privatperson: Zusammen mit langjährigen Netzwerkpartnern begleiten wir Sie in der Steuerberatung.",
+        "body": "Ob Unternehmen oder Privatperson. Zusammen mit langjährigen Netzwerkpartnern begleiten wir Sie in Steuer- und Versicherungsfragen wie auch im Bereich der Immobilienverwaltung. Effizient, diskret und massgeschneidert.\n\nWir beraten natürliche Personen, Selbständige, Freiberufler und Unternehmen zu allen Steuerfragen und unterstützen Sie bei der Erstellung Ihrer Steuererklärung inkl. Mehrwertsteuer. Dabei steht für uns stets Ihre individuelle Fragestellung im Mittelpunkt sowie das Erarbeiten von langfristigen und sinnvollen Lösungen.\n\nKunde von Maurer Treuhand im Bereich Finanz- und Lohnbuchhaltung inkl. Steuererklärung. Mit Maurer Treuhand haben wir nicht nur einen\n\nBereits seit 2007 ist Maurer Treuhand ein zuverlässiger und kompetenter Partner der FC Wil 1900 AG. Wir werden sehr gut betreut und bei Fragen aller Art steht uns der Inhaber Mischa Sammer persönlich zur Verfügung. In Bezug auf",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/maurer-treuhand-ch/pool/8315bd3dbe__IMG_Steuerberatung.png"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Ob Unternehmen oder Privatperson: Zusammen mit langjährigen Netzwerkpartnern begleiten wir Sie in der Steuerberatung.",
+        "body": "Ob Unternehmen oder Privatperson. Zusammen mit langjährigen Netzwerkpartnern begleiten wir Sie in Steuer- und Versicherungsfragen wie auch im Bereich der Immobilienverwaltung. Effizient, diskret und massgeschneidert.\n\nWir beraten natürliche Personen, Selbständige, Freiberufler und Unternehmen zu allen Steuerfragen und unterstützen Sie bei der Erstellung Ihrer Steuererklärung inkl. Mehrwertsteuer. Dabei steht für uns stets Ihre individuelle Fragestellung im Mittelpunkt sowie das Erarbeiten von langfristigen und sinnvollen Lösungen.\n\nKunde von Maurer Treuhand im Bereich Finanz- und Lohnbuchhaltung inkl. Steuererklärung. Mit Maurer Treuhand haben wir nicht nur einen\n\nBereits seit 2007 ist Maurer Treuhand ein zuverlässiger und kompetenter Partner der FC Wil 1900 AG. Wir werden sehr gut betreut und bei Fragen aller Art steht uns der Inhaber Mischa Sammer persönlich zur Verfügung. In Bezug auf",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/maurer-treuhand-ch/pool/1dea5e0ae6__Unternehmensberatung.jpg"
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Ansprechpartner",
+        "body": "Wir lösen die Probleme unserer Kunden indem wir auf Sie eingehen, Ihre Anliegen ernst nehmen und eine hohe Qualität erbringen. Dank unserer Genauigkeit, der transparenten Kommunikation und unserer Offenheit haben wir viele zufriedene und langjährige Kunden."
+      },
+      {
+        "title": "Kompetenz hat viele Namen",
+        "body": "Unser Team lebt von der Individualität und vom Know-how unserer Mitarbeitenden. Was uns vereint – von der Lernenden bis hin zum Chef – ist die Leidenschaft für Zahlen und das offene Ohr für unsere Kunden."
+      },
+      {
+        "title": "Mischa Sammer",
+        "body": "«Zuverlässigkeit und eine offene Kommunikation sind für mich das Kernstück in der Kundenbeziehung.»"
+      },
+      {
+        "title": "Regina Vaterlaus",
+        "body": "«Mein Ziel ist es zu verstehen was der Kunde erwartet und seine wie meine Sicht auf den selben Level zu bringen.»"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Mischa Sammer",
+        "role": "Inhaber und Geschäftsführer",
+        "initials": "MS",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/maurer-treuhand-ch/team/0-sammer.jpg"
+      },
+      {
+        "name": "Regina Vaterlaus",
+        "role": "Mandatsleiterin",
+        "initials": "RV",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/maurer-treuhand-ch/team/1-vaterlaus.jpg"
+      },
+      {
+        "name": "Karin Sammer",
+        "role": "Treuhand­sachbearbeiterin Teilzeit",
+        "initials": "KS",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/maurer-treuhand-ch/team/2-sammer.jpg"
+      },
+      {
+        "name": "Susanne Allemann",
+        "role": "Treuhandsachbearbeiterin",
+        "initials": "SA",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/maurer-treuhand-ch/team/3-allemann.jpg"
+      },
+      {
+        "name": "Kaltrina Murtezi",
+        "role": "Treuhandsachbearbeiterin",
+        "initials": "KM",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/maurer-treuhand-ch/team/4-murtezi.jpg"
+      },
+      {
+        "name": "Simone Boss",
+        "role": "Treuhandsachbearbeiterin",
+        "initials": "SB",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/maurer-treuhand-ch/team/5-boss.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "TREUHAND|SUISSE",
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "klara",
+      "sage"
+    ],
+    "badges": [
+      "/images/maurer-treuhand-ch/pool/4da4fb57c5__LOGO_treu-suisse.svg",
+      "/images/maurer-treuhand-ch/pool/667ba0ac5c__PETER-HIRT-GmbH-Logo-e1653382787364.jpg",
+      "/images/maurer-treuhand-ch/pool/01b801418e__PARTNER_VAT.png",
+      "/images/maurer-treuhand-ch/pool/5c0047756b__PARTNER_Assepro.png",
+      "/images/maurer-treuhand-ch/pool/e6a6305a91__PARTNER_kanzlei-caro-logo.png"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "043 355 15 15",
+      "email": "k.murtezi@maurer-treuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Maurer Treuhand",
+    "tagline": "Wir beraten Sie umfassend zu Ihren Finanz- und Rechnungsfragen, führen Ihre Buchhaltung, erstellen die Jahresabschlüsse und agieren als Fiskalvertretung.",
+    "logo": "/images/maurer-treuhand-ch/pool/690ba3589b__IMG_Logo_Finanzkonsulenten.png",
+    "logoLight": "/images/maurer-treuhand-ch/pool/1430e63a40__LOGO_maurer-treuhand-white.svg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "043 355 15 15",
+          "k.murtezi@maurer-treuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

@@ -1,0 +1,542 @@
+{
+  "meta": {
+    "firm": "kmuTREUHAND",
+    "domain": "kmutreuhand.com",
+    "archetype": "boutique",
+    "lookId": "zueri-swiss",
+    "sourceUrl": "https://www.kmutreuhand.com/",
+    "basePresetId": "zueri-swiss",
+    "look": {
+      "meta": {
+        "id": "kmutreuhand-com-brand",
+        "name": "Züri Swiss Blue · brand-tinted",
+        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
+        "source": "Züri-Treuhand + scraped brand",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAF1F8 tint)",
+          "color.secondaryFg (#FFFFFF)",
+          "color.textMuted (#737373 neutral-500)",
+          "base: zueri-swiss",
+          "accent #2766A7 (scraped · medium)",
+          "heading: Montserrat (scraped)",
+          "body: Karla (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F9FAFB",
+        "text": "#333333",
+        "textMuted": "#737373",
+        "border": "#EAEAEA",
+        "primary": "#2766A7",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EEF3F8",
+        "secondary": "#2766A7",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Karla\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Montserrat\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-geometric"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-16",
+        "rhythm": "normal",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-blue": "#084687",
+        "--color-accent-blue": "#0b549f",
+        "--color-charcoal": "#333333",
+        "--color-soft-gray": "#F9FAFB",
+        "--color-border-gray": "#EAEAEA",
+        "--font-sans": "Inter",
+        "--font-serif": "Playfair Display",
+        "--font-display": "Space Grotesk",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "primary": "#2766A7",
+      "palette": [
+        "#2766A7"
+      ],
+      "heading": {
+        "family": "Montserrat",
+        "serif": false
+      },
+      "fontsSeen": [
+        "Montserrat",
+        "Noto Serif"
+      ],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [
+      "Montserrat"
+    ],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": false,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "faq",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "brand.colors",
+      "brand.fonts"
+    ]
+  },
+  "media": {
+    "logo": "/images/kmutreuhand-com/pool/fcf5fbe2e5__Logo-KMUTREUHAND.svg",
+    "logoLight": "/images/kmutreuhand-com/pool/4c77542b0e__Logo-KMUTREUHAND-Weiss.svg",
+    "hero": "/images/kmutreuhand-com/hero.jpg",
+    "badges": [],
+    "photos": [
+      "/images/kmutreuhand-com/pool/6314de24e7__Monika-Ausgepfadet.png",
+      "/images/kmutreuhand-com/pool/f1dfb2a39e__Bild-Content-Home-03.jpg",
+      "/images/kmutreuhand-com/pool/638c887c50__Bild-Content-Home-02.jpg",
+      "/images/kmutreuhand-com/pool/de81daa6c5__Bild-Content-Home-01.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/kmutreuhand-com/pool/fcf5fbe2e5__Logo-KMUTREUHAND.svg",
+        "kind": "logo",
+        "alt": "kmuTREUHAND Schweiz GmbH",
+        "bytes": 9304,
+        "width": 2084.3,
+        "height": 574.9,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/kmutreuhand-com/pool/4c77542b0e__Logo-KMUTREUHAND-Weiss.svg",
+        "kind": "logo-light",
+        "alt": "kmuTREUHAND Schweiz GmbH",
+        "bytes": 9727,
+        "width": 2084.3,
+        "height": 574.9,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/kmutreuhand-com/pool/6314de24e7__Monika-Ausgepfadet.png",
+        "kind": "photo",
+        "alt": "Monika kmuTREUHAND",
+        "bytes": 131920,
+        "width": 700,
+        "height": 749,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/kmutreuhand-com/pool/f1dfb2a39e__Bild-Content-Home-03.jpg",
+        "kind": "photo",
+        "alt": "Treuhand-Dienstleistungen sind für uns mehr als Vertrauenssache",
+        "bytes": 97698,
+        "width": 1080,
+        "height": 1072,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/kmutreuhand-com/pool/638c887c50__Bild-Content-Home-02.jpg",
+        "kind": "photo",
+        "alt": "Treuhand für kleine oder mittlere Unternehmen",
+        "bytes": 85244,
+        "width": 1080,
+        "height": 1072,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/kmutreuhand-com/pool/de81daa6c5__Bild-Content-Home-01.jpg",
+        "kind": "photo",
+        "alt": "Treuhand für kleine oder mittlere Unternehmen",
+        "bytes": 62793,
+        "width": 1080,
+        "height": 1072,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      }
+    ]
+  },
+  "nav": {
+    "brand": "kmuTREUHAND",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen",
+    "logo": "/images/kmutreuhand-com/pool/fcf5fbe2e5__Logo-KMUTREUHAND.svg",
+    "logoLight": "/images/kmutreuhand-com/pool/4c77542b0e__Logo-KMUTREUHAND-Weiss.svg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Steffisburg",
+    "titleLead": "Treuhand und Steuerberatung in der Region Thun",
+    "titleAccent": "",
+    "lede": "kmuTREUHAND Schweiz GmbH in Steffisburg – Ihr Partner für Treuhand, Buchhaltung, Steuerberatung, Lohnbuchhaltung & Firmengründung. Effiziente Finanzlösungen für KMU in Thun & Bern. Kompetenz, Innovation und Vertrauen in allen Angelegenheiten rund um Treuhand und Steuerberatung in der Region Thun.",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Kompetenz, Innovation und Vertrauen in allen Angelegenheiten rund um Treuhand und Steuerberatung in der Region Thun",
+    "asideAttribution": "kmuTREUHAND",
+    "image": "/images/kmutreuhand-com/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Wir führen Ihre Buchhaltung periodisch nach und erstellen die MWST-Abrechnung auf Basis der gesetzlichen Grundlagen und steuerrechtlichen Aspekte.",
+        "body": "Wir führen Ihre Buchhaltung periodisch nach und erstellen die MWST-Abrechnung auf Basis der gesetzlichen Grundlagen und steuerrechtlichen Aspekte.\n\nNatürlich besteht auch die Möglichkeit, dass Sie Ihre Buchhaltung (teilweise oder vollständig) selbst führen: in diesem Fall beraten wir Sie gerne bei der Auswahl einer geeigneten Buchhaltungs-Software, bieten Ihnen die Schulung Ihres Personals an und informieren Sie laufend über zu berücksichtigende Änderungen in der Buchführung.\n\nWir unterstützen Sie gerne mit verschiedensten Buchhaltungssoftware und Finanzsystemen. Durch lange Erfahrung und kontinuierliche Weiterbildung nutzen wir die digitalen Möglichkeiten, um möglichst effizient zu arbeiten. Sie können uns den Zugriff zu Ihrer Software freigeben oder über eine Server-Lösung mit uns zusammenarbeiten.\n\nHier einige Finanzbuchhaltungs- und ERP-Systeme, mit welchen wir Sie unterstützen könne",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Suchen Sie eine professionelle Unterstützung bei der Finanzbuchhaltung? Mit unserer langjährigen Erfahrung entlasten wir Sie gerne in sämtlichen Belangen Ihrer Buchhaltung.",
+        "body": "Suchen Sie eine professionelle Unterstützung bei der Finanzbuchhaltung? Mit unserer langjährigen Erfahrung entlasten wir Sie gerne in sämtlichen Belangen Ihrer Buchhaltung.\n\nZudem kennen wir uns mit verschiedenen Finanzbuchhaltungs- und ERP-Systemen aus und bieten Ihnen nebst verschiedenen Treuhanddienstleistungen auch gerne zu diesen Themen kompetente Unterstützung.\n\nWir erstellen Ihren Jahresabschluss und beraten Sie gerne bei den finanzwirtschaftlichen und steuerlichen Themen.\n\nWir erstellen Ihre monatlichen Lohnabrechnungen, kümmern uns um Ihre Lohndeklarationen bei Sozialversicherungen und verfassen die Lohnausweise. Zudem informieren wir Sie über wichtige Änderungen im Sozialversicherungsrecht.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Zuverlässige Lohnbuchhaltung für KMU: Lohnabrechnungen, Quellensteuer, AHV, BVG, UVG & Sozialversicherungen. Optimierte Gehaltsabrechnung & Personalverwaltung in Thun & Bern. Kompetenz, Innovation und Vertrauen in allen Angelegenheiten rund um Treuhand und Steuerberatung in der R",
+        "body": "Mitarbeitende sind das wichtigste Gut in einem Unternehmen. Eine zuverlässige Lohnbuchhaltung sowie Sozialversicherungsdeklarationen und Abrechnungen sind grundlegend für eine stabile Personaladministration.\n\nKontaktieren Sie uns jederzeit unverbindlich und wir werden uns so bald wie möglich bei Ihnen melden.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresabschluss, Bilanz & Erfolgsrechnung für KMU in Steffisburg, Thun & Bern. Finanzanalyse, Steueroptimierung & Gewinnermittlung mit professioneller Treuhandberatung. Kompetenz, Innovation und Vertrauen in allen Angelegenheiten rund um Treuhand und Steuerberatung in der Region ",
+        "body": "Wir erstellen Ihren Jahresabschluss steueroptimiert und nach den gesetzlichen Vorschriften und führen gemeinsam mit Ihnen eine persönliche Abschlussbesprechung vor Ort oder online durch.\n\nKontaktieren Sie uns jederzeit unverbindlich und wir werden uns so bald wie möglich bei Ihnen melden.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Suchen Sie eine professionelle Unterstützung bei der Finanzbuchhaltung? Mit unserer langjährigen Erfahrung entlasten wir Sie gerne in sämtlichen Belangen Ihrer Buchhaltung.",
+        "body": "Suchen Sie eine professionelle Unterstützung bei der Finanzbuchhaltung? Mit unserer langjährigen Erfahrung entlasten wir Sie gerne in sämtlichen Belangen Ihrer Buchhaltung.\n\nZudem kennen wir uns mit verschiedenen Finanzbuchhaltungs- und ERP-Systemen aus und bieten Ihnen nebst verschiedenen Treuhanddienstleistungen auch gerne zu diesen Themen kompetente Unterstützung.\n\nWir erstellen Ihren Jahresabschluss und beraten Sie gerne bei den finanzwirtschaftlichen und steuerlichen Themen.\n\nWir erstellen Ihre monatlichen Lohnabrechnungen, kümmern uns um Ihre Lohndeklarationen bei Sozialversicherungen und verfassen die Lohnausweise. Zudem informieren wir Sie über wichtige Änderungen im Sozialversicherungsrecht.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "kmuTREUHAND Team",
+        "role": "Geschäftsführung",
+        "initials": "KM",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "bexio",
+      "klara"
+    ],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "Keine Zeit für Zahlen?",
+        "a": "Stehen Sie vor der Selbständigkeit und wissen nicht, wie Sie am besten vorgehen sollen? Haben Sie keine Zeit für administrative Arbeiten? Viele KMU’s leisten einen hervorragenden Job – können sich jedoch nicht auch noch mit der Buchhaltung beschäftigen."
+      },
+      {
+        "q": "Sie planen, ein Unternehmen zu gründen oder sich selbständig zu machen?",
+        "a": "Dann sind Sie bei uns genau richtig. Wir bieten Ihnen nebst der persönlichen Beratung die Antworten auf Ihre Fragen digital und unterstützen Sie mit Tipps und Tricks in Ihrer aktuellen Unternehmensphase."
+      },
+      {
+        "q": "Sie möchten sich voll und ganz auf die Herausforderungen des alltäglichen Geschäftslebens konzentrieren oder verfügen nicht über das notwenige Wissen?",
+        "a": "Wir führen Ihre Buchhaltung periodisch nach und erstellen die MWST-Abrechnung auf Basis der gesetzlichen Grundlagen und steuerrechtlichen Aspekte."
+      },
+      {
+        "q": "Möchten Sie sich selbständig machen?",
+        "a": "Wir helfen Ihnen gerne dabei, den Schritt in die Selbständigkeit sorgfältig zu planen und die grossartigen Möglichkeiten voll auszuschöpfen."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 33 550 01 62",
+      "email": "anna.reinhard@kmutreuhand.com",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "kmuTREUHAND",
+    "tagline": "Kompetenz, Innovation und Vertrauen in allen Angelegenheiten rund um Treuhand und Steuerberatung in der Region Thun",
+    "logo": "/images/kmutreuhand-com/pool/fcf5fbe2e5__Logo-KMUTREUHAND.svg",
+    "logoLight": "/images/kmutreuhand-com/pool/4c77542b0e__Logo-KMUTREUHAND-Weiss.svg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Steffisburg",
+          "+41 33 550 01 62",
+          "anna.reinhard@kmutreuhand.com"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

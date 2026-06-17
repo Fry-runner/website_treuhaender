@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "firm": "KMU Treuhandexperte GmbH",
+    "domain": "kmu-trex.ch",
+    "archetype": "swiss-digital",
+    "lookId": "swiss-clean",
+    "sourceUrl": "https://www.kmu-trex.ch/",
+    "basePresetId": "swiss-clean",
+    "look": {
+      "meta": {
+        "id": "kmu-trex-ch-brand",
+        "name": "Swiss Clean · brand-generated",
+        "source": "synthesized (references) + generated accent",
+        "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
+        "derived": [
+          "base: swiss-clean",
+          "accent #2C6D42 (generated · no scraped colour)",
+          "heading: Bricolage Grotesque (inventory)",
+          "body: Lato (scraped)",
+          "mono: IBM Plex Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "medium",
+        "density": "airy",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F2F7F8",
+        "text": "#0E2A33",
+        "textMuted": "#5B7682",
+        "border": "#DCE7EA",
+        "primary": "#2C6D42",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EEF3F0",
+        "secondary": "#368731",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Lato\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Bricolage Grotesque\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "6xl",
+        "headlineWeight": "semibold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "wider",
+          "weight": "semibold"
+        }
+      },
+      "radius": {
+        "base": "md",
+        "pill": "full",
+        "scale": "medium"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-20",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 260,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "moderate"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--accent-teal": "#0EA5A5",
+        "--ink-navy": "#1E3A5F",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "palette": [],
+      "body": {
+        "family": "Lato",
+        "serif": false
+      },
+      "fontsSeen": [
+        "Quicksand",
+        "Roboto",
+        "Lato"
+      ],
+      "confidence": "low"
+    },
+    "fontsToLoad": [
+      "Lato"
+    ],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq",
+      "look.colors (generated)"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "media.documents",
+      "brand.fonts"
+    ]
+  },
+  "media": {
+    "logo": "/images/kmu-trex-ch/pool/4e0cb6113a__treuhand.png",
+    "hero": "/images/kmu-trex-ch/hero.jpg",
+    "badges": [
+      "/images/kmu-trex-ch/pool/59adf81a58__logo_veb_rgb.jpg",
+      "/images/kmu-trex-ch/pool/af1b0f7884__pic_129630.jpg",
+      "/images/kmu-trex-ch/pool/6a0dbefa0b__Dr._2520Burim_2520Pavataj_2520129630.jpg"
+    ],
+    "photos": [
+      "/images/kmu-trex-ch/pool/ce8fc23fad__titelbild.jpg",
+      "/images/kmu-trex-ch/pool/efd66d4da7__pic_92684.png",
+      "/images/kmu-trex-ch/pool/8f76ee8b62__pic_92696.jpg",
+      "/images/kmu-trex-ch/pool/7f268f4546__kasten_pic_6.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [
+      {
+        "src": "/files/kmu-trex-ch/d987d2c88a__Checkliste_20Steuern.pdf",
+        "title": "Checkliste Steuererklärung",
+        "kind": "pdf",
+        "bytes": 511132
+      },
+      {
+        "src": "/files/kmu-trex-ch/b1be5446f7__Neueitritt_20Mitarbeiter.pdf",
+        "title": "Neueintritt Mitarbeiter",
+        "kind": "pdf",
+        "bytes": 152909
+      },
+      {
+        "src": "/files/kmu-trex-ch/8a8a7e8e56__Vollmacht.pdf",
+        "title": "Vollmachtsformular",
+        "kind": "pdf",
+        "bytes": 339648
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/kmu-trex-ch/pool/4e0cb6113a__treuhand.png",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 4975,
+        "width": 409,
+        "height": 123,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/kmu-trex-ch/pool/2f826370fe__logoNew.png",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 68444,
+        "width": 538,
+        "height": 216,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/kmu-trex-ch/pool/59adf81a58__logo_veb_rgb.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 6350,
+        "width": 561,
+        "height": 146,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/kmu-trex-ch/pool/af1b0f7884__pic_129630.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 39445,
+        "width": 240,
+        "height": 240,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/kmu-trex-ch/pool/6a0dbefa0b__Dr._2520Burim_2520Pavataj_2520129630.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 54117,
+        "width": 344,
+        "height": 344,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/kmu-trex-ch/pool/ce8fc23fad__titelbild.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 215633,
+        "width": 1920,
+        "height": 1442,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/kmu-trex-ch/pool/efd66d4da7__pic_92684.png",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 403679,
+        "width": 1920,
+        "height": 550,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/kmu-trex-ch/pool/8f76ee8b62__pic_92696.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 200786,
+        "width": 1920,
+        "height": 581,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/kmu-trex-ch/pool/7f268f4546__kasten_pic_6.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 96468,
+        "width": 1600,
+        "height": 900,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/kmu-trex-ch/pool/ce8fc23fad__titelbild.jpg",
+      "/images/kmu-trex-ch/pool/efd66d4da7__pic_92684.png",
+      "/images/kmu-trex-ch/pool/8f76ee8b62__pic_92696.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "KMU Treuhandexperte GmbH",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/kmu-trex-ch/pool/4e0cb6113a__treuhand.png"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Thalwil",
+    "titleLead": "Ihr Treuhandbüro in Thalwil",
+    "titleAccent": "",
+    "lede": "Die KMU Treuhandexperte GmbH ist Ihr Ansprechpartner am linken Zürichseeufer, wenn es um Steuerberatungen, Ihre Finanzbuchhaltung, das Lohnwesen und Firmengründungen geht.: Home",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Individuell und zielgerichtet",
+    "asideAttribution": "KMU Treuhandexperte GmbH",
+    "image": "/images/kmu-trex-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Die KMU Treuhandexperte GmbH ist Ihr Ansprechpartner am linken Zürichseeufer, wenn es um Steuerberatungen, Ihre Finanzbuchhaltung, das Lohnwesen und Firmengründungen geht.: Home",
+        "body": "Firmengründungen geht. Mit viel Leidenschaft sind wir seit mehreren Jahren erfolgreich tätig und arbeiten stets daran, unsere Leistungen effizienter und für Sie adäquat zu gestalten. Im Fokus unserer Arbeit steht, dass wir Ihnen diverse Arbeiten abnehmen, um Ihnen zu ermöglich, sich auf das Wesentliche zu konzentrieren. Klicken Sie sich durch unsere Seite und entdecken Sie unser Angebot.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Die KMU Treuhandexperte GmbH ist Ihr Ansprechpartner am linken Zürichseeufer, wenn es um Steuerberatungen, Ihre Finanzbuchhaltung, das Lohnwesen und Firmengründungen geht.: Home",
+        "body": "Firmengründungen geht. Mit viel Leidenschaft sind wir seit mehreren Jahren erfolgreich tätig und arbeiten stets daran, unsere Leistungen effizienter und für Sie adäquat zu gestalten. Im Fokus unserer Arbeit steht, dass wir Ihnen diverse Arbeiten abnehmen, um Ihnen zu ermöglich, sich auf das Wesentliche zu konzentrieren. Klicken Sie sich durch unsere Seite und entdecken Sie unser Angebot.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Die KMU Treuhandexperte GmbH ist Ihr Ansprechpartner am linken Zürichseeufer, wenn es um Steuerberatungen, Ihre Finanzbuchhaltung, das Lohnwesen und Firmengründungen geht.: Home",
+        "body": "Firmengründungen geht. Mit viel Leidenschaft sind wir seit mehreren Jahren erfolgreich tätig und arbeiten stets daran, unsere Leistungen effizienter und für Sie adäquat zu gestalten. Im Fokus unserer Arbeit steht, dass wir Ihnen diverse Arbeiten abnehmen, um Ihnen zu ermöglich, sich auf das Wesentliche zu konzentrieren. Klicken Sie sich durch unsere Seite und entdecken Sie unser Angebot.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": ": Blog - Die-bevorstehende-MWST-Erhohung-in-der-Schweiz",
+        "body": "Die Schweiz bereitet sich auf eine bedeutende Veränderung im Steuersystem vor, die ab dem 1. Januar 2024 in Kraft treten wird. Diese Veränderung betrifft die Mehrwertsteuer (MWST) und hat weitreichende Auswirkungen auf Unternehmen im Land. Es ist entscheidend, sich frühzeitig auf diese Anpassungen vorzubereiten und die Buchhaltung entsprechend anzupassen. In diesem Blogbeitrag erfahren Sie, was Sie über die bevorstehende MWST-Erhöhung in der Schweiz wissen müssen.\n\nAb dem 1. Januar 2024 wird die MWST in der Schweiz angehoben. Die aktuellen MWST-Sätze von 7,7% für den Normalsteuersatz, 3,7% für den Sondersatz für Beherbergung und 2.5% für den reduzierten Satz werden auf 8,1%/ 3.8% und 2.6% erhöht. Diese Erhöhung wirkt sich auf die Preise von Produkten und Dienstleistungen aus, und Unternehmen müssen sicherstellen, dass sie ihre Preise entsprechend anpassen, um die neuen Steuersätze zu ber",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Die KMU Treuhandexperte GmbH ist Ihr Ansprechpartner am linken Zürichseeufer, wenn es um Steuerberatungen, Ihre Finanzbuchhaltung, das Lohnwesen und Firmengründungen geht.: Home",
+        "body": "Firmengründungen geht. Mit viel Leidenschaft sind wir seit mehreren Jahren erfolgreich tätig und arbeiten stets daran, unsere Leistungen effizienter und für Sie adäquat zu gestalten. Im Fokus unserer Arbeit steht, dass wir Ihnen diverse Arbeiten abnehmen, um Ihnen zu ermöglich, sich auf das Wesentliche zu konzentrieren. Klicken Sie sich durch unsere Seite und entdecken Sie unser Angebot.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Filiale Thalwil",
+        "role": "KMU Treuhandexperte GmbH",
+        "initials": "FT",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
+      {
+        "name": "Filiale Urdorf",
+        "role": "KMU Treuhandexperte GmbH",
+        "initials": "FU",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "eidg. Diplom/Fachausweis"
+    ],
+    "badges": [
+      "/images/kmu-trex-ch/pool/59adf81a58__logo_veb_rgb.jpg",
+      "/images/kmu-trex-ch/pool/af1b0f7884__pic_129630.jpg",
+      "/images/kmu-trex-ch/pool/6a0dbefa0b__Dr._2520Burim_2520Pavataj_2520129630.jpg"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "044 536 12 65",
+      "email": "info@kmu-trex.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "KMU Treuhandexperte GmbH",
+    "tagline": "Individuell und zielgerichtet",
+    "logo": "/images/kmu-trex-ch/pool/4e0cb6113a__treuhand.png",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Thalwil",
+          "044 536 12 65",
+          "info@kmu-trex.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

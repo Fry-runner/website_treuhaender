@@ -1,0 +1,542 @@
+{
+  "meta": {
+    "firm": "Treuhand Catherine Schmid GmbH",
+    "domain": "treuhandschmid.ch",
+    "archetype": "boutique",
+    "lookId": "uds-warm-editorial",
+    "sourceUrl": "https://www.treuhandschmid.ch/",
+    "basePresetId": "uds-warm-editorial",
+    "look": {
+      "meta": {
+        "id": "treuhandschmid-ch-brand",
+        "name": "Unter dem Strich Warm Editorial · brand-generated",
+        "mood": "Boutique editorial on warm paper; sharp corners, hairline borders, ink-blue + rose accents, snappy underline link motion.",
+        "source": "Unter-Dem-Strich + generated accent",
+        "derived": [
+          "color.surface (#FFFFFF cards on paper)",
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAECF6 tint)",
+          "base: uds-warm-editorial",
+          "accent #955337 (generated · scraped #FF6400 rejected: low)",
+          "heading: Poppins (scraped)",
+          "body: Mulish (inventory)",
+          "mono: DM Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "warm",
+        "corner": "sharp",
+        "density": "airy",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FAF9F6",
+        "surface": "#FFFFFF",
+        "text": "#1C1C1A",
+        "textMuted": "#8A8782",
+        "border": "#E7E4DD",
+        "primary": "#955337",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#F2ECE7",
+        "secondary": "#3698A7",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Poppins\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"DM Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-geometric"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "semibold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "medium"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-24",
+        "rhythm": "airy",
+        "containerMax": "1200px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 200,
+        "easing": "ease-out",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "warm-paper",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-bg": "#FAF9F6",
+        "--color-brand-text": "#1C1C1A",
+        "--color-brand-blue": "#2C3E91",
+        "--color-brand-rose": "#E3A39B",
+        "--color-brand-border": "#E7E4DD",
+        "--color-brand-muted": "#8A8782",
+        "--font-sans": "Inter",
+        "--font-display": "Plus Jakarta Sans",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "primary": "#FF6400",
+      "palette": [
+        "#FF6400"
+      ],
+      "heading": {
+        "family": "Poppins",
+        "serif": false
+      },
+      "fontsSeen": [
+        "Poppins",
+        "Quicksand",
+        "Roboto"
+      ],
+      "confidence": "low"
+    },
+    "fontsToLoad": [
+      "Poppins"
+    ],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq",
+      "look.colors (generated)"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "media.documents",
+      "brand.fonts"
+    ]
+  },
+  "media": {
+    "logo": "/images/treuhandschmid-ch/pool/e78fa5ae95__logoNew.png",
+    "hero": "/images/treuhandschmid-ch/hero.jpg",
+    "badges": [],
+    "photos": [
+      "/images/treuhandschmid-ch/pool/faa07e3c49__pic_61266.png",
+      "/images/treuhandschmid-ch/pool/878edbb3e6__pic_60915.jpg",
+      "/images/treuhandschmid-ch/pool/119a740a1e__pic_72979.jpg",
+      "/images/treuhandschmid-ch/pool/a87d09346d__pic_60919.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [
+      {
+        "src": "/files/treuhandschmid-ch/3aa95c9730__2025_20Checkliste_20STE_20D.pdf",
+        "title": "PDF DE herunterladen",
+        "kind": "pdf",
+        "bytes": 161940
+      },
+      {
+        "src": "/files/treuhandschmid-ch/7301960d19__2025_20Checklist_20STE_20E.pdf",
+        "title": "PDF EN herunterladen",
+        "kind": "pdf",
+        "bytes": 144879
+      },
+      {
+        "src": "/files/treuhandschmid-ch/391c7ffe6d__AIA_20Automatischer_20Informationsaustausch.pdf",
+        "title": "PDF herunterladen",
+        "kind": "pdf",
+        "bytes": 59912
+      },
+      {
+        "src": "/files/treuhandschmid-ch/44df440dc1__FragebogenzurAG-Grndung.pdf",
+        "title": "PDF herunterladen",
+        "kind": "pdf",
+        "bytes": 33164
+      },
+      {
+        "src": "/files/treuhandschmid-ch/c3c6f558fa__Lohnausweis.pdf",
+        "title": "PDF herunterladen",
+        "kind": "pdf",
+        "bytes": 787684
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/treuhandschmid-ch/pool/e78fa5ae95__logoNew.png",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 12323,
+        "width": 98,
+        "height": 80,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhandschmid-ch/pool/faa07e3c49__pic_61266.png",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 618845,
+        "width": 1920,
+        "height": 993,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandschmid-ch/pool/878edbb3e6__pic_60915.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 211160,
+        "width": 1920,
+        "height": 662,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/treuhandschmid-ch/pool/119a740a1e__pic_72979.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 198626,
+        "width": 1920,
+        "height": 662,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/treuhandschmid-ch/pool/a87d09346d__pic_60919.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 147783,
+        "width": 1920,
+        "height": 662,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/treuhandschmid-ch/pool/faa07e3c49__pic_61266.png",
+      "/images/treuhandschmid-ch/pool/878edbb3e6__pic_60915.jpg",
+      "/images/treuhandschmid-ch/pool/119a740a1e__pic_72979.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Treuhand Catherine Schmid GmbH",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/treuhandschmid-ch/pool/e78fa5ae95__logoNew.png"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "IHR TREUHANDUNTERNEHMEN IN ZÜRICH OERLIKON",
+    "titleAccent": "",
+    "lede": "Treuhand Catherine Schmid  Ihr Partner für Steuern, Buchhaltung und Gründungen in Oerlikon, ZürichTreuhand Schmid in Oerlikon, Zürich, ist Ihr verlässlicher Experte für Steuern, Buchhaltung und Treuhandservices. Mit langjähriger Erfahrung unterstützen wir Privatpersonen und Unternehmen bei der Optimierung ihrer Steuerangelegenheiten, der professionellen Buchführung sowie bei der erfolgreichen Gründung neuer Firmen. Unser Fokus liegt auf individuellen Lösungen, die Ihre finanziellen Ziele in den Mittelpunkt stellen. Vertrauen Sie auf unsere Expertise und profitieren Sie von einem persönlichen Service, der Sie entlastet und Ihnen Zeit für das Wesentliche gibt. Kontaktieren Sie Treuhand Schmid und bringen Sie Ihre Finanzen auf Erfolgskurs!",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Treuhand Catherine Schmid GmbH",
+    "asideAttribution": "Treuhand Catherine Schmid GmbH",
+    "image": "/images/treuhandschmid-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Buchhaltung erfordert Disziplin und Konzentration. Konzentriert zu sein und zu bleiben, ist gar nicht so einfach, wenn man an mehreren Orten gleichzeitig sein sollte oder ständig neue Kundenanfragen eingehen. Damit Sie sich ruhigen Gewissens auf das Kerngeschäft konzentrieren kön",
+        "body": "Buchhaltung erfordert Disziplin und Konzentration. Konzentriert zu sein und zu bleiben, ist gar nicht so einfach, wenn man an mehreren Orten gleichzeitig sein sollte oder ständig neue Kundenanfragen eingehen. Damit Sie sich ruhigen Gewissens auf das Kerngeschäft konzentrieren können, nehmen wir Ihnen folgende Arbeiten auf Wunsch ab:\n\nZufriedene Mitarbeiter sind gute Mitarbeiter. Eine transparente und zuverlässige Lohnabrechnung ist ein Parameter der Zufriedenheit, der Sie keinen zeitlichen Aufwand kosten muss.\n\nKoordination und Abklärungen mit Sozialversicherungen und Behörden (Ausgleichskassen, Versicherungen, Quellensteuern usw.)\n\nWir setzen uns gerne mit Ihnen zusammen, um den Abschluss zu analysieren und zu kommentieren, mit dem Ziel, Ihr Unternehmen effizient zu optimieren.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Die alljährliche Steuererklärung ist ein aufwendiges Muss. Bestimmt sind Sie froh, wenn wir Ihnen diese Arbeit abnehmen würden, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.",
+        "body": "Die alljährliche Steuererklärung ist ein aufwendiges Muss. Bestimmt sind Sie froh, wenn wir Ihnen diese Arbeit abnehmen würden, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.\n\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Sie möchten bereits längere Zeit eine eigene Unternehmung gründen, sind jedoch unentschlossen, welche Form Sie bevorzugen sollen? Wir stehen Ihnen gerne beratend zur Seite. Wir kümmern uns um die Vorbereitungen aller Papiere, bis die Unternehmung notariell beglaubigt werden kann ",
+        "body": "Sie möchten bereits längere Zeit eine eigene Unternehmung gründen, sind jedoch unentschlossen, welche Form Sie bevorzugen sollen? Wir stehen Ihnen gerne beratend zur Seite. Wir kümmern uns um die Vorbereitungen aller Papiere, bis die Unternehmung notariell beglaubigt werden kann und im Handelsregister eingetragen wird.\n\nSie sind mit dem Preis-Leistungs-Verhältnis Ihrer bisherigen Versicherung unzufrieden? Oder hat Sie das leise Gefühl beschlichen, hoffnungslos überversichert zu sein? Wir beraten Sie gerne und arbeiten dabei Hand in Hand mit Versicherungsexperten.\n\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Franziska Sigg",
+        "role": "Sachbearbeiterin Buchhaltung",
+        "initials": "FS",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
+      {
+        "name": "Eliane Durand",
+        "role": "Sachbearbeiterin Steuern",
+        "initials": "ED",
+        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "eidg. Diplom/Fachausweis"
+    ],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 317 61 91",
+      "email": "info@treuhandschmid.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Treuhand Catherine Schmid GmbH",
+    "tagline": "Treuhand Catherine Schmid GmbH",
+    "logo": "/images/treuhandschmid-ch/pool/e78fa5ae95__logoNew.png",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 44 317 61 91",
+          "info@treuhandschmid.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

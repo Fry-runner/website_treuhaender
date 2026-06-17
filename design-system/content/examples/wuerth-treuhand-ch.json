@@ -1,0 +1,760 @@
+{
+  "meta": {
+    "firm": "Würth Treuhand AG",
+    "domain": "wuerth-treuhand.ch",
+    "archetype": "boutique",
+    "lookId": "swiss-clean",
+    "sourceUrl": "https://www.wuerth-treuhand.ch/",
+    "basePresetId": "swiss-clean",
+    "look": {
+      "meta": {
+        "id": "wuerth-treuhand-ch-brand",
+        "name": "Swiss Clean · brand-generated",
+        "source": "synthesized (references) + generated accent",
+        "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
+        "derived": [
+          "base: swiss-clean",
+          "accent #2C6D42 (generated · no scraped colour)",
+          "heading: Schibsted Grotesk (inventory)",
+          "body: Public Sans (inventory)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "medium",
+        "density": "airy",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F2F7F8",
+        "text": "#0E2A33",
+        "textMuted": "#5B7682",
+        "border": "#DCE7EA",
+        "primary": "#2C6D42",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EEF3F0",
+        "secondary": "#368731",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Schibsted Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "6xl",
+        "headlineWeight": "semibold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "wider",
+          "weight": "semibold"
+        }
+      },
+      "radius": {
+        "base": "md",
+        "pill": "full",
+        "scale": "medium"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-20",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 260,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "moderate"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--accent-teal": "#0EA5A5",
+        "--ink-navy": "#1E3A5F",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "palette": [],
+      "fontsSeen": [],
+      "confidence": "low"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq",
+      "look.colors (generated)",
+      "media.stock (CC fallback)"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "services.images",
+      "media.documents"
+    ]
+  },
+  "media": {
+    "hero": "/images/wuerth-treuhand-ch/pool/stock-skyline-18388935.jpg",
+    "badges": [],
+    "photos": [
+      "/images/wuerth-treuhand-ch/pool/stock-office-7511748.jpg",
+      "/images/wuerth-treuhand-ch/pool/stock-meeting-7433930.jpg",
+      "/images/wuerth-treuhand-ch/pool/stock-consultation-7821671.jpg",
+      "/images/wuerth-treuhand-ch/pool/stock-advisory-7821683.jpg",
+      "/images/wuerth-treuhand-ch/pool/stock-reception-2451616.jpg"
+    ],
+    "serviceImages": {
+      "Buchhaltung": "/images/wuerth-treuhand-ch/pool/stock-success-30711884.jpg",
+      "Steuerberatung": "/images/wuerth-treuhand-ch/pool/stock-meeting-7640793.jpg",
+      "Lohnadministration": "/images/wuerth-treuhand-ch/pool/stock-meeting-7433869.jpg",
+      "Jahresabschluss": "/images/wuerth-treuhand-ch/pool/stock-documents-7876037.jpg",
+      "Mehrwertsteuer": "/images/wuerth-treuhand-ch/pool/stock-documents-7567551.jpg",
+      "Unternehmensberatung": "/images/wuerth-treuhand-ch/pool/stock-finance-7947744.jpg",
+      "Revision": "/images/wuerth-treuhand-ch/pool/stock-documents-7567600.jpg"
+    },
+    "documents": [
+      {
+        "src": "/files/wuerth-treuhand-ch/389d9f9262__Neujahrsbotschaft2020_updDez2020.pdf",
+        "title": "Neujahrsbotschaft 2020",
+        "kind": "pdf",
+        "bytes": 271840
+      },
+      {
+        "src": "/files/wuerth-treuhand-ch/0acfc56937__Neujahrsbotschaft2021WrthTreuhandAGvom08.01.21_FINAL.pdf",
+        "title": "Neujahrsbotschaft 2021",
+        "kind": "pdf",
+        "bytes": 283420
+      },
+      {
+        "src": "/files/wuerth-treuhand-ch/573e2ceed7__Neujahrsbotschaft2022WrthTreuhandAGvom05.01.2022.pdf",
+        "title": "Neujahrsbotschaft 2022",
+        "kind": "pdf",
+        "bytes": 89943
+      },
+      {
+        "src": "/files/wuerth-treuhand-ch/edaaaa3c69__Neujahrsbotschaft2023WrthTreuhandAGvom06.01.2023.pdf",
+        "title": "Neujahrsbotschaft 2023",
+        "kind": "pdf",
+        "bytes": 251055
+      },
+      {
+        "src": "/files/wuerth-treuhand-ch/1f7924e1c6__SOZVERS20WrthTreuhand.pdf",
+        "title": "Sozialversicherungen 2020",
+        "kind": "pdf",
+        "bytes": 25262
+      },
+      {
+        "src": "/files/wuerth-treuhand-ch/ba4b6f97e5__SOZVERS21WrthTreuhand.pdf",
+        "title": "Sozialversicherungen 2021",
+        "kind": "pdf",
+        "bytes": 122153
+      },
+      {
+        "src": "/files/wuerth-treuhand-ch/c942baafca__SOZVERS2022WrthTreuhand.pdf",
+        "title": "Sozialversicherungen 2022",
+        "kind": "pdf",
+        "bytes": 121117
+      },
+      {
+        "src": "/files/wuerth-treuhand-ch/c4d86edc8f__SOZVERS2023WrthTreuhand.pdf",
+        "title": "Sozialversicherungen 2023",
+        "kind": "pdf",
+        "bytes": 122688
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-skyline-18388935.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 336110,
+        "width": 1880,
+        "height": 1211,
+        "orientation": "landscape",
+        "subject": "city",
+        "stock": true,
+        "credit": "Denil Dominic (Pexels)",
+        "source": "https://www.pexels.com/photo/one-wtc-in-nyc-18388935/",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-office-7511748.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 115255,
+        "width": 1600,
+        "height": 1068,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Max Vakhtbovych (Pexels)",
+        "source": "https://www.pexels.com/photo/modern-office-interior-with-table-7511748/",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-meeting-7433930.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 124630,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Vlada Karpovich (Pexels)",
+        "source": "https://www.pexels.com/photo/two-women-having-a-conversation-7433930/",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-consultation-7821671.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 101385,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/an-agent-showing-documents-to-his-client-7821671/",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-advisory-7821683.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 112033,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/professional-man-holding-papers-7821683/",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-reception-2451616.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 211736,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Proxyclick Visitor Management System (Pexels)",
+        "source": "https://www.pexels.com/photo/people-near-white-counter-desk-2451616/",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-success-30711884.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 239741,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Aurelijus U. (Pexels)",
+        "source": "https://www.pexels.com/photo/creative-financial-growth-concept-with-coins-30711884/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-meeting-7640793.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 78886,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Yan Krukau (Pexels)",
+        "source": "https://www.pexels.com/photo/a-man-scolding-a-woman-sitting-at-a-desk-7640793/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-meeting-7433869.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 93906,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Vlada Karpovich (Pexels)",
+        "source": "https://www.pexels.com/photo/a-meeting-in-an-office-7433869/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-documents-7876037.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 56686,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "www.kaboompics.com (Pexels)",
+        "source": "https://www.pexels.com/photo/a-person-signing-divorce-documents-7876037/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-documents-7567551.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 68271,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Tima Miroshnichenko (Pexels)",
+        "source": "https://www.pexels.com/photo/a-hand-holding-a-pen-7567551/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-finance-7947744.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 65323,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/close-up-of-a-colorful-chart-7947744/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-documents-7567600.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 60126,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Tima Miroshnichenko (Pexels)",
+        "source": "https://www.pexels.com/photo/person-signing-on-a-paper-7567600/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/wuerth-treuhand-ch/pool/stock-skyline-18388935.jpg",
+      "/images/wuerth-treuhand-ch/pool/stock-office-7511748.jpg",
+      "/images/wuerth-treuhand-ch/pool/stock-meeting-7433930.jpg"
+    ],
+    "stock": true,
+    "credits": [
+      "Denil Dominic (Pexels)",
+      "Max Vakhtbovych (Pexels)",
+      "Vlada Karpovich (Pexels)",
+      "RDNE Stock project (Pexels)",
+      "Proxyclick Visitor Management System (Pexels)",
+      "Aurelijus U. (Pexels)",
+      "Yan Krukau (Pexels)",
+      "www.kaboompics.com (Pexels)",
+      "Tima Miroshnichenko (Pexels)"
+    ]
+  },
+  "nav": {
+    "brand": "Würth Treuhand AG",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Würth Treuhand AG - Revisions- und Steuerrechtspraxis in Zürich",
+    "titleAccent": "",
+    "lede": "Treuhandbüro an der Norastrasse in Zürich: Ihr spezialisierter Partner für Steuerberatung, Revision, Unternehmensberatung und Treuhand",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Treuhandbüro an der Norastrasse in Zürich: Ihr spezialisierter Partner für Steuerberatung, Revision, Unternehmensberatung und Treuhand",
+    "asideAttribution": "Würth Treuhand AG",
+    "image": "/images/wuerth-treuhand-ch/pool/stock-skyline-18388935.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/wuerth-treuhand-ch/pool/stock-success-30711884.jpg"
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Treuhandbüro an der Norastrasse in Zürich: Ihr spezialisierter Partner für Steuerberatung, Revision, Unternehmensberatung und Treuhand",
+        "body": "Wobei dürfen wir Sie unterstützen? Hier finden Sie weitere Informationen zu unseren Dienstleistungen wie�Steuerberatung, Wirtschaftsprüfung und Treuhand.\n\nDie Würth Treuhand AG steht mit der Kompetenz aus über 40 Jahren in der Treuhand-, Steuerrechts- und Revisionsbranche zu Ihren Diensten.\n\nHaben Sie Fragen oder wünschen Sie einen Termin? Wir freuen uns auf Ihre Kontaktaufnahme.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/wuerth-treuhand-ch/pool/stock-meeting-7640793.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/wuerth-treuhand-ch/pool/stock-meeting-7433869.jpg"
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/wuerth-treuhand-ch/pool/stock-documents-7876037.jpg"
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/wuerth-treuhand-ch/pool/stock-documents-7567551.jpg"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Eine kontinuierliche Steuerberatung und Steuerplanung ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.",
+        "body": "ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.�Ebenso ist eine korrekte Anmeldung und Abrechnung der\n\nverfügen. Beispielsweise stellt sich bei der Mehrwertsteuer oft die Frage, welche Abrechnungsmethode für Ihr Unternehmen besser geeignet ist.\n\n. Dabei legen wir besonderen Wert auf eine weitsichtige, nachhaltige Analyse und Beratung, welche über die Erzielung unmittelbarer Steuervorteile hinausgeht. Die Schnittstelle zu unserer\n\nin den Bereichen Rechnungswesen, Wirtschaftsprüfung und Unternehmensberatung garantiert Ihnen eine ganzheitliche Sicht auf Ihre Unternehmensprozesse und damit grösstmögliche Effizienz – auch in der interkantonalen und internationalen Steuerplanung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/wuerth-treuhand-ch/pool/stock-finance-7947744.jpg"
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Zugelassener Revisionsexperte",
+        "role": "Peter Nesti ist diplomierter Steuerexperte sowie",
+        "initials": "ZR",
+        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
+      },
+      {
+        "name": "Zugelassene Revisorin",
+        "role": "Nadja Arpagaus ist Treuhänderin mit eidgenössischem",
+        "initials": "ZR",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
+      {
+        "name": "Freier Mitarbeiter",
+        "role": "Treuhänder mit eidg. Fachausweis",
+        "initials": "FM",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
+      {
+        "name": "Karoline Frehner",
+        "role": "Sachbearbeiterin Treuhand",
+        "initials": "KF",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "EXPERTsuisse",
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "abaninja",
+      "abaweb",
+      "bexio"
+    ],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "044 404 70 00",
+      "email": "info@wuerth-treuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Würth Treuhand AG",
+    "tagline": "Treuhandbüro an der Norastrasse in Zürich: Ihr spezialisierter Partner für Steuerberatung, Revision, Unternehmensberatung und Treuhand",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "044 404 70 00",
+          "info@wuerth-treuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

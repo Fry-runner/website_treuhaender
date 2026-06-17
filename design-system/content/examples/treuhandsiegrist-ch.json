@@ -1,0 +1,831 @@
+{
+  "meta": {
+    "firm": "Swiss Treuhand Siegrist GmbH",
+    "domain": "treuhandsiegrist.ch",
+    "archetype": "boutique",
+    "lookId": "quabba-editorial",
+    "sourceUrl": "https://www.treuhandsiegrist.ch/",
+    "basePresetId": "quabba-editorial",
+    "look": {
+      "meta": {
+        "id": "treuhandsiegrist-ch-brand",
+        "name": "Quabba Editorial Red · brand-tinted",
+        "mood": "Editorial graphite-on-white with a restrained Swiss-red accent; all-Inter with mono micro-labels, hairline borders, scroll-triggered color-shift reveals and a hand-drawn signature line.",
+        "source": "Quabba-Treuhand + scraped brand",
+        "derived": [
+          "color.surface (#F7F8F8 tint of gray-light)",
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#FCEBEC tint)",
+          "color.secondaryFg (#22272B)",
+          "font.mono (Tailwind default mono stack)",
+          "base: quabba-editorial",
+          "accent #1D0071 (scraped · medium)",
+          "heading: Bricolage Grotesque (inventory)",
+          "body: Work Sans (inventory)",
+          "mono: IBM Plex Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "airy",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F7F8F8",
+        "text": "#22272B",
+        "textMuted": "#7C868C",
+        "border": "#E9ECEC",
+        "primary": "#1D0071",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EDEBF4",
+        "secondary": "#B08904",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Bricolage Grotesque\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-24",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 600,
+        "easing": "cubic-bezier(0.22,1,0.36,1)",
+        "intensity": "expressive"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true,
+        "bloom": "rgba(29,0,113,0.18)"
+      },
+      "raw": {
+        "--color-brand-violet": "#D91A21",
+        "--color-brand-coral": "#E39699",
+        "--color-brand-graphite": "#22272B",
+        "--color-brand-gray-light": "#E9ECEC",
+        "--color-brand-gray-medium": "#7C868C",
+        "--font-sans": "Inter",
+        "--font-display": "Inter",
+        "--font-heading": "Inter"
+      }
+    },
+    "brand": {
+      "primary": "#1D0071",
+      "secondary": "#FBCF38",
+      "palette": [
+        "#1D0071",
+        "#FBCF38"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "testimonials",
+        "process",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "echte Kundenstimmen gefunden",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "testimonials",
+      "values",
+      "faq",
+      "footer.tagline",
+      "hero.aside",
+      "trust.items",
+      "media.pool",
+      "trust.badges",
+      "services.images",
+      "media.documents",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "hero": "/images/treuhandsiegrist-ch/hero.png",
+    "badges": [
+      "/images/treuhandsiegrist-ch/pool/704415539e__STS-Logo-2-e1638354689286.png",
+      "/images/treuhandsiegrist-ch/pool/3176dca68b__STS-Logo-gross-e1638354759593.png",
+      "/images/treuhandsiegrist-ch/pool/4d55bdb68f__bexio_zertifikat.png"
+    ],
+    "photos": [
+      "/images/treuhandsiegrist-ch/pool/a13d69d41f__Map_Badenerstrasse.png",
+      "/images/treuhandsiegrist-ch/pool/acf5560c0b__Firmengruendung-Kopie.jpg",
+      "/images/treuhandsiegrist-ch/pool/b236a61fac__Steuererklaerung-Kopie.jpg",
+      "/images/treuhandsiegrist-ch/pool/c256635d20__google-review-new-1024x493.png",
+      "/images/treuhandsiegrist-ch/pool/3d290fdf28__werkzeuge-1200x1200.png",
+      "/images/treuhandsiegrist-ch/pool/0159b65623__planung-1536x1536.png",
+      "/images/treuhandsiegrist-ch/pool/6577a3dbc6__Mit_uns-1536x1536.png",
+      "/images/treuhandsiegrist-ch/pool/6537c6eb2f__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square.png",
+      "/images/treuhandsiegrist-ch/pool/4957c86d20__Wie-800x800.png",
+      "/images/treuhandsiegrist-ch/pool/9f7771c70f__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-800x",
+      "/images/treuhandsiegrist-ch/pool/3b631d866d__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-600x",
+      "/images/treuhandsiegrist-ch/pool/b7631c1ff8__Green-And-White-Isometric-Business-Growth-Instagram-Post.jpg",
+      "/images/treuhandsiegrist-ch/pool/ada6549cf4__final-file.jpg",
+      "/images/treuhandsiegrist-ch/pool/b70ba57e5c__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-400x",
+      "/images/treuhandsiegrist-ch/pool/818c2ed5a3__Blue-Modern-Company-Profile-Presentation-Instagram-Post-Square.jpg",
+      "/images/treuhandsiegrist-ch/pool/edc1f67be4__Sumayya-Kantarevic-website.jpg"
+    ],
+    "serviceImages": {
+      "Steuerberatung": "/images/treuhandsiegrist-ch/pool/b236a61fac__Steuererklaerung-Kopie.jpg"
+    },
+    "documents": [
+      {
+        "src": "/files/treuhandsiegrist-ch/8e2555ce8a__revisionsgesetz.pdf",
+        "title": "Artikel zum Revisionsgesetz",
+        "kind": "pdf",
+        "bytes": 1011423
+      },
+      {
+        "src": "/files/treuhandsiegrist-ch/1b12d4e527__Checkliste-Firmengruendung-Aktiengesellschaft-1.pdf",
+        "title": "Checkliste Firmengruendung Aktiengesellschaft",
+        "kind": "pdf",
+        "bytes": 91073
+      },
+      {
+        "src": "/files/treuhandsiegrist-ch/156c955e3a__Checkliste-Firmengruendung-GmbH-1.pdf",
+        "title": "Checkliste Firmengruendung GmbH",
+        "kind": "pdf",
+        "bytes": 88075
+      },
+      {
+        "src": "/files/treuhandsiegrist-ch/7f5da76ad5__Checkliste-Firmengruendung-Aktiengesellschaft.pdf",
+        "title": "Checkliste Firmengründung Aktiengesellschaft",
+        "kind": "pdf",
+        "bytes": 91073
+      },
+      {
+        "src": "/files/treuhandsiegrist-ch/378362ab52__Checkliste-Firmengruendung-GmbH.pdf",
+        "title": "Checkliste Firmengründung GmbH",
+        "kind": "pdf",
+        "bytes": 88075
+      },
+      {
+        "src": "/files/treuhandsiegrist-ch/d5e91e0d1a__steuererklaerungscheckliste_2014_swisstreuhandsiegrist.pdf",
+        "title": "Checkliste Steuererklärung (deutsch)",
+        "kind": "pdf",
+        "bytes": 178727
+      },
+      {
+        "src": "/files/treuhandsiegrist-ch/16c75fd093__checklist-tax-declaration-english.pdf",
+        "title": "Checkliste Steuererklärung (english)",
+        "kind": "pdf",
+        "bytes": 172278
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/704415539e__STS-Logo-2-e1638354689286.png",
+        "kind": "badge",
+        "alt": "Swiss Treuhand Siegrist GmbH Logo",
+        "bytes": 11514,
+        "width": 325,
+        "height": 57,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/3176dca68b__STS-Logo-gross-e1638354759593.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 17055,
+        "width": 325,
+        "height": 57,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/4d55bdb68f__bexio_zertifikat.png",
+        "kind": "badge",
+        "alt": "bexio_zertifikat",
+        "bytes": 31476,
+        "width": 150,
+        "height": 137,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/3d290fdf28__werkzeuge-1200x1200.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 526284,
+        "width": 1200,
+        "height": 1200,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/0159b65623__planung-1536x1536.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 731764,
+        "width": 1536,
+        "height": 1536,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/edc1f67be4__Sumayya-Kantarevic-website.jpg",
+        "kind": "photo",
+        "alt": "Sumayya Kantarevic website",
+        "bytes": 134704,
+        "width": 1263,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/6577a3dbc6__Mit_uns-1536x1536.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 636841,
+        "width": 1536,
+        "height": 1536,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/6537c6eb2f__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 411041,
+        "width": 1080,
+        "height": 1080,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/a13d69d41f__Map_Badenerstrasse.png",
+        "kind": "photo",
+        "alt": "Map_Badenerstrasse",
+        "bytes": 388542,
+        "width": 1600,
+        "height": 576,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/4957c86d20__Wie-800x800.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 226401,
+        "width": 800,
+        "height": 800,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/9f7771c70f__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-800x",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 86075,
+        "width": 800,
+        "height": 800,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/3b631d866d__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-600x",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 54673,
+        "width": 600,
+        "height": 600,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/acf5560c0b__Firmengruendung-Kopie.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 106367,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/b7631c1ff8__Green-And-White-Isometric-Business-Growth-Instagram-Post.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 178194,
+        "width": 1600,
+        "height": 1600,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/b236a61fac__Steuererklaerung-Kopie.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 82927,
+        "width": 1600,
+        "height": 751,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/ada6549cf4__final-file.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 165346,
+        "width": 1600,
+        "height": 1600,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/b70ba57e5c__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-400x",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 28338,
+        "width": 400,
+        "height": 400,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/c256635d20__google-review-new-1024x493.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 68211,
+        "width": 1024,
+        "height": 493,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/818c2ed5a3__Blue-Modern-Company-Profile-Presentation-Instagram-Post-Square.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 125663,
+        "width": 1600,
+        "height": 1600,
+        "orientation": "square",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/treuhandsiegrist-ch/pool/a13d69d41f__Map_Badenerstrasse.png",
+      "/images/treuhandsiegrist-ch/pool/acf5560c0b__Firmengruendung-Kopie.jpg",
+      "/images/treuhandsiegrist-ch/pool/b236a61fac__Steuererklaerung-Kopie.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Swiss Treuhand Siegrist GmbH",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "TREUHAND MIT UNTERNEHMERISCHER SICHTWEISE",
+    "titleAccent": "",
+    "lede": "Treuhand und Buchhaltung\r\n\r\n\r\n\r\nEffiziente und schnelle Abwicklungen ohne unnötige Zusätze. Dies sagen unsere Kunden über unsere Tätigkeit im Treuhandwesen. Wir betreuen Kunden aus Zürich resp. der ganzen Schweiz, Deutschland, Österreich und anderen EU Ländern.\r\n\r\nMehr Erfahren",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Mandantenstimme",
+    "asideQuote": "They are professionals and the timemanagement is perfect.",
+    "asideAttribution": "— Ivan O.",
+    "image": "/images/treuhandsiegrist-ch/hero.png"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Als erfahrener Partner für Privatpersonen, Klein- und Mittelunternehmen (KMU) in den Kerngebieten Firmengründung, Buchhaltung und Übernahme von Verwaltungsratsmandaten finden Sie bei uns die nötige Sicherheit um sich auf IHR Kerngebiet zu konzentieren – die Zielsetzungen Ihres Un",
+        "body": "Als erfahrener Partner für Privatpersonen, Klein- und Mittelunternehmen (KMU) in den Kerngebieten Firmengründung, Buchhaltung und Übernahme von Verwaltungsratsmandaten finden Sie bei uns die nötige Sicherheit um sich auf IHR Kerngebiet zu konzentieren – die Zielsetzungen Ihres Unternehmens.\n\nUnsere 25-jährige Erfahrung im erfolgreichen Führen von Unternehmen mit bis zu 150 Mitarbeitern erlaubt es uns, Sie in jeder Hinsicht kompetent und zielgerichtet zu unterstützen.\n\nUnser Klientel bewegt sich vom Autohändler über Restaurantbetriebe, Einzelunternehmen in den verschiedensten Bereichen bis hin zur Immobilienbranche. Sie sind bei uns in guten Händen – kontaktieren Sie uns um genauere Informationen zu erhalten.\n\nZum Einsatz kommen bei uns die Buchhaltungsprogramme Sage50 und auf Wunsch auch das Programm Bexio, welches eine stabile und für KMUs zugeschnittene Cloudversion ist und den meisten",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Steuererklärung Anfrage\r\nSchreiben Sie uns und wir kontaktieren Sie umgehend",
+        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/treuhandsiegrist-ch/pool/b236a61fac__Steuererklaerung-Kopie.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Sie möchten eine GmbH oder Aktiengesellschaft in der Schweiz gründen? Oder überlegen Sie, ob eine Einzelfirma die richtige Wahl ist? Die",
+        "body": "Sie möchten eine GmbH oder Aktiengesellschaft in der Schweiz gründen? Oder überlegen Sie, ob eine Einzelfirma die richtige Wahl ist? Die\n\nist Ihr verlässlicher Partner für Unternehmensgründungen in der Schweiz. Unser Team übernimmt alle administrativen Aufgaben und unterstützt Sie bei der Wahl der passenden Rechtsform – unkompliziert, effizient und individuell auf Ihre Bedürfnisse abgestimmt.\n\nErstellung von Statuten, Anmeldung beim Handelsregister und Behördengänge.\n\nauf Wunsch übernehmen wir Ihre Buchhaltung, Jahresabschlüsse, Lohnabrechnungen und Steuerberatung nach der Gründung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Treuhand und Buchhaltung",
+        "body": "Effiziente und schnelle Abwicklungen ohne unnötige Zusätze. Dies sagen unsere Kunden über unsere Tätigkeit im Treuhandwesen. Wir betreuen Kunden aus Zürich resp. der ganzen Schweiz, Deutschland, Österreich und anderen EU Ländern."
+      },
+      {
+        "title": "Steuererklärung",
+        "body": "Ob Privatperson oder Unternehmen, ob von Zürich oder aus der Schweiz – wir erledigen Ihre Steuererklärung kompetent und schnell."
+      },
+      {
+        "title": "Firmengründung",
+        "body": "Eine Firma zu gründen ist nicht unbedingt schwierig. Alle Aspekte dabei zu berücksichtigen schon…"
+      },
+      {
+        "title": "MEINUNGEN UNSERER KUNDEN",
+        "body": "Wir arbeiten seit der Gründung anfangs 2011 mit der STS GmbH (ehem. MCS, Siegrist & Partner) zusammen. Man wird gut betreut, kompetent geführt und nebst einer tadellosen Buchführung erhalten wir auch sehr nützliche Tipps hinsichtlich Frimenstruktur, -leitung u.ä.."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Swiss Team",
+        "role": "Geschäftsführung",
+        "initials": "SW",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": [
+      {
+        "quote": "They are professionals and the timemanagement is perfect.",
+        "person": "Ivan O.",
+        "city": "Zürich"
+      },
+      {
+        "quote": "Sehr guter und schneller Steuerservice! Kommunikation und Sorgfältigkeit top.",
+        "person": "M.V.",
+        "city": "Zürich"
+      },
+      {
+        "quote": "Excellent service. They helped with my complicated tax return (various jurisdictions moving with the year) with great professionalism, speed and at a very reasonable cost.",
+        "person": "Pedro",
+        "city": "Zürich"
+      },
+      {
+        "quote": "Besten Dank für die positive Bewertung unserer Treuhanddienste. Wir sind gerne weiterhin für Sie da, sei dies bezüglich Ihrer Buchhaltung oder Steuererklärung.",
+        "person": "L.L.",
+        "city": "Zürich"
+      }
+    ]
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "bexio",
+      "sage"
+    ],
+    "badges": [
+      "/images/treuhandsiegrist-ch/pool/704415539e__STS-Logo-2-e1638354689286.png",
+      "/images/treuhandsiegrist-ch/pool/3176dca68b__STS-Logo-gross-e1638354759593.png",
+      "/images/treuhandsiegrist-ch/pool/4d55bdb68f__bexio_zertifikat.png"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "Oder möchten Sie ganz einfach Ihr Unternehmen administrativ verwalten lassen?",
+        "a": "Domizile im Kanton Zürich, Zug oder auch in den Vereinigten Arabischen Emiraten (UAE) sind bei uns möglich."
+      },
+      {
+        "q": "Wieso mit uns?",
+        "a": "Unser Dienstleistungsportfolio für KMU und Privatpersonen umfasst: Rechnungswesen, Debitorenbuchhaltung, Kreditorenbuchhaltung, allgemeine Buchhaltung, Lohnbuchhaltung, Steuererklärung und Steuerberatung, Gründungen, halten von VR Mandat und die Reorganisation, Umstrukturierung  und Auswertung von Firmen."
+      },
+      {
+        "q": "Möchten Sie Steuern sparen?",
+        "a": "Sie möchten ein geeignetes Domizil für Ihre Firma? Gerne beraten wir Sie über die Möglichkeiten."
+      },
+      {
+        "q": "Sie möchten Ihren Firmensitz in eine steuergünstigere Region verlegen und brauchen dazu eine neue Domiziladresse?",
+        "a": "Wir legen grossen Wert auf persönliche Beratung und stehen Ihnen nach Absprache auch gerne ausserhalb der Bürozeiten zur Verfügung."
+      },
+      {
+        "q": "Warum Swiss Treuhand Siegrist?",
+        "a": "über 35 Jahre Erfahrung und Expertise im Bereich Unternehmensgründungen."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 43 818 69 15",
+      "email": "",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Swiss Treuhand Siegrist GmbH",
+    "tagline": "Einfache Lösungen für Ihre Firma",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 43 818 69 15",
+          "info@…"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

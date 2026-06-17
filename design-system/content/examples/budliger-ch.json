@@ -1,0 +1,998 @@
+{
+  "meta": {
+    "firm": "Budliger Treuhand AG",
+    "domain": "budliger.ch",
+    "archetype": "swiss-digital",
+    "lookId": "ruerup-swiss",
+    "sourceUrl": "https://budliger.ch/",
+    "basePresetId": "ruerup-swiss",
+    "look": {
+      "meta": {
+        "id": "budliger-ch-brand",
+        "name": "Rürup Swiss Corporate · brand-tinted",
+        "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
+        "source": "Steuerberatung-Andreas-Rürup + scraped brand",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (tint of beige surface)",
+          "base: ruerup-swiss",
+          "accent #14315E (scraped · medium)",
+          "heading: Hanken Grotesk (inventory)",
+          "body: Karla (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "vibrant"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#E5E7EB",
+        "text": "#1C1C1A",
+        "textMuted": "#71717A",
+        "border": "#E5E7EB",
+        "primary": "#14315E",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#ECEFF2",
+        "secondary": "#BB8802",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Karla\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Hanken Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "medium",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "medium"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-12",
+        "rhythm": "normal",
+        "containerMax": "1200px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 300,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-offwhite": "#FFFFFF",
+        "--color-brand-anthracite": "#1C1C1A",
+        "--color-brand-red": "#C8102E",
+        "--color-brand-green": "#1F4E3D",
+        "--color-brand-beige": "#E5E7EB",
+        "--color-brand-grey": "#71717A",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "primary": "#14315E",
+      "secondary": "#FDC533",
+      "palette": [
+        "#14315E",
+        "#FDC533"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "stats",
+        "process",
+        "team",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "echte Kennzahlen gefunden",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "stats",
+      "values",
+      "faq",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "trust.badges",
+      "services.images",
+      "media.documents",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "hero": "/images/budliger-ch/hero.jpg",
+    "badges": [
+      "/images/budliger-ch/pool/f47ecbc027__obt-gruppe-logo.svg",
+      "/images/budliger-ch/pool/3b4d4ec1b8__astal-logo.svg",
+      "/images/budliger-ch/pool/8df726ed10__figas-logo.svg",
+      "/images/budliger-ch/pool/4100737c90__BakerTillySwitzerland-logo.svg",
+      "/images/budliger-ch/pool/a7bf7e04bb__Siegel-Bilanz_a624f2ee.png",
+      "/images/budliger-ch/pool/010a752832__LEPA_Logo_RGB_black.png"
+    ],
+    "photos": [
+      "/images/budliger-ch/pool/35e699817d__Finales-Bild_ADREM_2.png",
+      "/images/budliger-ch/pool/a00a750148__AdobeStock_343242357.jpeg",
+      "/images/budliger-ch/pool/f3ba17d07c__Unliebsame-Steuerfolgen-bei-verdeckten-Gewinnausschuettungen-von-Gesellschaften-",
+      "/images/budliger-ch/pool/a0d9e07ec3__Vorschaubild_OBT-Kundeninformation-2026.png",
+      "/images/budliger-ch/pool/df5e5fc4b4__1_Rahpael_Widmer-968x560.png",
+      "/images/budliger-ch/pool/4fc4e9c94a__BT_Image_Groessmuenster-Website.jpg",
+      "/images/budliger-ch/pool/9cd549a27d__aswathy-n-JT-RUtO2sfs-unsplash.jpg",
+      "/images/budliger-ch/pool/1a2253de25__andreas-fischinger-HtZhLfUHSAc-unsplash.jpg",
+      "/images/budliger-ch/pool/c1ebe7e877__BTAG1.jpg",
+      "/images/budliger-ch/pool/5926f25cce__Mehrwertsteuersatzerhoehung-per-1.-Januar-2024_Budliger.jpg",
+      "/images/budliger-ch/pool/9bb9d98d83__Schoenfeld_Rhia_01_web.jpg",
+      "/images/budliger-ch/pool/f8a5e2890a__Karrer_Claire_01b_web.jpeg",
+      "/images/budliger-ch/pool/8079fa5935__Todaro_Esther_01_web.jpg",
+      "/images/budliger-ch/pool/5a4b7cfdda__Kundeninformation-Budliger-1.jpg",
+      "/images/budliger-ch/pool/7e7ab1b92c__Budliger_Treuhand_2020_3915_Bilder-800x534.png",
+      "/images/budliger-ch/pool/49dae8b45c__BT_DL_Rechnungswesen_970x560px.jpg",
+      "/images/budliger-ch/pool/dd509f6b18__BT_DL_Wirtschaftspruefung_970x560px.jpg",
+      "/images/budliger-ch/pool/7200a73ba0__Auslaendische-Immobilien-und-schweizerische-Steuern_korrektorat.jpg"
+    ],
+    "serviceImages": {
+      "Buchhaltung": "/images/budliger-ch/pool/49dae8b45c__BT_DL_Rechnungswesen_970x560px.jpg",
+      "Steuerberatung": "/images/budliger-ch/pool/f3ba17d07c__Unliebsame-Steuerfolgen-bei-verdeckten-Gewinnausschuettungen-von-Gesellschaften-",
+      "Mehrwertsteuer": "/images/budliger-ch/pool/5926f25cce__Mehrwertsteuersatzerhoehung-per-1.-Januar-2024_Budliger.jpg",
+      "Revision": "/images/budliger-ch/pool/dd509f6b18__BT_DL_Wirtschaftspruefung_970x560px.jpg"
+    },
+    "documents": [
+      {
+        "src": "/files/budliger-ch/07e8be410a__OBT_Allgemeine_DSE.pdf",
+        "title": "→ Datenschutzerklärung Budliger Treuhand AG",
+        "kind": "pdf",
+        "bytes": 191220
+      },
+      {
+        "src": "/files/budliger-ch/c9a8a23403__Kundeninformation-OBT-Gruppe-26.pdf",
+        "title": "→ Kundeninformation OBT Gruppe 2026",
+        "kind": "pdf",
+        "bytes": 3976978
+      },
+      {
+        "src": "/files/budliger-ch/d9770d8879__BT_Energiegesetz.pdf",
+        "title": "Artikel als PDF",
+        "kind": "pdf",
+        "bytes": 596121
+      },
+      {
+        "src": "/files/budliger-ch/fa887c6b05__BT_Erbengemeinschaft.pdf",
+        "title": "Artikel als PDF",
+        "kind": "pdf",
+        "bytes": 166669
+      },
+      {
+        "src": "/files/budliger-ch/5ed29b7d91__BT_Fallstricke.pdf",
+        "title": "Artikel als PDF",
+        "kind": "pdf",
+        "bytes": 402182
+      },
+      {
+        "src": "/files/budliger-ch/4728688c88__BT_Liegenschaften.pdf",
+        "title": "Artikel als PDF",
+        "kind": "pdf",
+        "bytes": 1404935
+      },
+      {
+        "src": "/files/budliger-ch/65e29c4aa3__BT_Selbstanzeige.pdf",
+        "title": "Artikel als PDF",
+        "kind": "pdf",
+        "bytes": 390302
+      },
+      {
+        "src": "/files/budliger-ch/10e8018de9__BT_Steuerreform.pdf",
+        "title": "Artikel als PDF",
+        "kind": "pdf",
+        "bytes": 1106507
+      },
+      {
+        "src": "/files/budliger-ch/65f077aa04__BT_DL_Erbrechtliche_Beratung.pdf",
+        "title": "Download PDF",
+        "kind": "pdf",
+        "bytes": 175095
+      },
+      {
+        "src": "/files/budliger-ch/db053e003d__BT_DL_Personalwesen.pdf",
+        "title": "Download PDF",
+        "kind": "pdf",
+        "bytes": 154857
+      },
+      {
+        "src": "/files/budliger-ch/b1fc9e9dd1__BT_DL_Rechnungswesen.pdf",
+        "title": "Download PDF",
+        "kind": "pdf",
+        "bytes": 172513
+      },
+      {
+        "src": "/files/budliger-ch/d20d43c24a__BT_DL_Steuerberatung.pdf",
+        "title": "Download PDF",
+        "kind": "pdf",
+        "bytes": 168991
+      },
+      {
+        "src": "/files/budliger-ch/55555bde0e__BT_DL_Wirtschaftsberatung.pdf",
+        "title": "Download PDF",
+        "kind": "pdf",
+        "bytes": 173527
+      },
+      {
+        "src": "/files/budliger-ch/416301f143__BT_DL_Wirtschaftspruefung.pdf",
+        "title": "Download PDF",
+        "kind": "pdf",
+        "bytes": 146056
+      },
+      {
+        "src": "/files/budliger-ch/1705db4dc0__Kundeninformation-OBT-Gruppe-2025.pdf",
+        "title": "Gesetzliche Neuerungen ab Anfang 2025",
+        "kind": "pdf",
+        "bytes": 1723347
+      },
+      {
+        "src": "/files/budliger-ch/1d3ce95147__Grundriss-Erdgeschoss.pdf",
+        "title": "Grundriss Erdgeschoss",
+        "kind": "pdf",
+        "bytes": 2994857
+      },
+      {
+        "src": "/files/budliger-ch/7698785610__Kundeninformation_OBTGruppe_2024.pdf",
+        "title": "Kundeninformation OBT Gruppe 2024",
+        "kind": "pdf",
+        "bytes": 9086246
+      },
+      {
+        "src": "/files/budliger-ch/b410d75572__Kundeninformation_der_OBT_Gruppe_2025-1.pdf",
+        "title": "Kundeninformation OBT Gruppe 2025",
+        "kind": "pdf",
+        "bytes": 1723347
+      },
+      {
+        "src": "/files/budliger-ch/1e604995f4__Kundeninformation-OBT-Gruppe-26.pdf",
+        "title": "Neues Transparenzgesetz",
+        "kind": "pdf",
+        "bytes": 1988458
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/budliger-ch/pool/f47ecbc027__obt-gruppe-logo.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 1378,
+        "width": 190,
+        "height": 86,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/budliger-ch/pool/3b4d4ec1b8__astal-logo.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 1560,
+        "width": 216,
+        "height": 51,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/budliger-ch/pool/8df726ed10__figas-logo.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 2755,
+        "width": 190,
+        "height": 94,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/budliger-ch/pool/4100737c90__BakerTillySwitzerland-logo.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 6223,
+        "width": 283,
+        "height": 92,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/budliger-ch/pool/a7bf7e04bb__Siegel-Bilanz_a624f2ee.png",
+        "kind": "badge",
+        "alt": "Bilanz: Top Steuerexperten und Treuhänder",
+        "bytes": 11469,
+        "width": 426,
+        "height": 426,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/budliger-ch/pool/010a752832__LEPA_Logo_RGB_black.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 20018,
+        "width": 1300,
+        "height": 827,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/budliger-ch/pool/35e699817d__Finales-Bild_ADREM_2.png",
+        "kind": "photo",
+        "alt": "AdRem Bild",
+        "bytes": 709829,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/a00a750148__AdobeStock_343242357.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 134864,
+        "width": 1600,
+        "height": 1068,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/f3ba17d07c__Unliebsame-Steuerfolgen-bei-verdeckten-Gewinnausschuettungen-von-Gesellschaften-",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 121212,
+        "width": 1444,
+        "height": 963,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/a0d9e07ec3__Vorschaubild_OBT-Kundeninformation-2026.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 674758,
+        "width": 1499,
+        "height": 999,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/df5e5fc4b4__1_Rahpael_Widmer-968x560.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 202393,
+        "width": 968,
+        "height": 560,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/4fc4e9c94a__BT_Image_Groessmuenster-Website.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 98768,
+        "width": 970,
+        "height": 560,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/9cd549a27d__aswathy-n-JT-RUtO2sfs-unsplash.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 376294,
+        "width": 1600,
+        "height": 924,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/1a2253de25__andreas-fischinger-HtZhLfUHSAc-unsplash.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 239714,
+        "width": 1600,
+        "height": 924,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/c1ebe7e877__BTAG1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 50839,
+        "width": 970,
+        "height": 560,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/7200a73ba0__Auslaendische-Immobilien-und-schweizerische-Steuern_korrektorat.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 47762,
+        "width": 970,
+        "height": 560,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/5926f25cce__Mehrwertsteuersatzerhoehung-per-1.-Januar-2024_Budliger.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 51280,
+        "width": 970,
+        "height": 560,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/9bb9d98d83__Schoenfeld_Rhia_01_web.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 51463,
+        "width": 968,
+        "height": 560,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/f8a5e2890a__Karrer_Claire_01b_web.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 44401,
+        "width": 968,
+        "height": 560,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/8079fa5935__Todaro_Esther_01_web.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 44839,
+        "width": 968,
+        "height": 560,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/5a4b7cfdda__Kundeninformation-Budliger-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 49515,
+        "width": 853,
+        "height": 493,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/7e7ab1b92c__Budliger_Treuhand_2020_3915_Bilder-800x534.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 211642,
+        "width": 800,
+        "height": 534,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/49dae8b45c__BT_DL_Rechnungswesen_970x560px.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 52354,
+        "width": 970,
+        "height": 560,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/budliger-ch/pool/dd509f6b18__BT_DL_Wirtschaftspruefung_970x560px.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 48214,
+        "width": 970,
+        "height": 560,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/budliger-ch/pool/35e699817d__Finales-Bild_ADREM_2.png",
+      "/images/budliger-ch/pool/a00a750148__AdobeStock_343242357.jpeg",
+      "/images/budliger-ch/pool/f3ba17d07c__Unliebsame-Steuerfolgen-bei-verdeckten-Gewinnausschuettungen-von-Gesellschaften-"
+    ]
+  },
+  "nav": {
+    "brand": "Budliger Treuhand AG",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Ihre Finanzen,",
+    "titleAccent": "klar geführt.",
+    "lede": "Umfassende Betreuung und Unterstützung in allen Treuhandfragen. «Ihnen dienen zu dürfen» – dieser Leitsatz begleitet uns seit unserer Gründung.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Umfassende Betreuung und Unterstützung in allen Treuhandfragen. «Ihnen dienen zu dürfen» – dieser Leitsatz begleitet uns seit unserer Gründung.",
+    "asideAttribution": "Budliger Treuhand AG",
+    "image": "/images/budliger-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Wir unterstützen Ihre Organisation effizient und transparent. Wir entlasten Sie nachhaltig und garantieren ein Rechnungswesen nach aktuellem Standard.",
+        "body": "Wir unterstützen Ihre Organisation effizient und transparent. Wir entlasten Sie nachhaltig und garantieren ein Rechnungswesen nach aktuellem Standard.\n\nWir organisieren Ihr Rechnungswesen oder unterstützen Sie in Teilbereichen – sowohl vor Ort wie auch in der Beratung bei uns. Wir führen Ihre Buchhaltung und erstellen die MWST-Abrechnungen oder Ihre Zwischen-, Jahres- und Konzernabschlüsse. In allen Belangen rund um die Buchführung können Sie auf unser Knowhow und unsere IT-Infrastruktur zurückgreifen.\n\nEin objektiver Massstab für Ihren Erfolg: Wir erarbeiten mit Ihnen firmenspezifische Hilfsmittel zur Steuerung Ihres Unternehmens. Sie erkennen, welche Betriebsteile oder Dienstleistungen gewinnbringend und welche Optimierungen möglich sind.\n\nBei der Weiterentwicklung des Rechnungswesens sind betriebswirtschaftliche, rechtliche und technische Anforderungen zu berücksichtigen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/budliger-ch/pool/49dae8b45c__BT_DL_Rechnungswesen_970x560px.jpg"
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Wer Liegenschaften im Ausland besitzt, muss diese in der Schweizer Steuererklärung deklarieren. Sie werden in der Schweiz zwar nicht direkt besteuert, sind aber für die Bestimmung des anwendbaren Steuersatzes massgebend.",
+        "body": "Wer Liegenschaften im Ausland besitzt, muss diese in der Schweizer Steuererklärung deklarieren. Sie werden in der Schweiz zwar nicht direkt besteuert, sind aber für die Bestimmung des anwendbaren Steuersatzes massgebend.\n\nSteuerpflichtige in der Schweiz haben ihr weltweites Einkommen und Vermögen in ihrer Steuererklärung zu deklarieren. Liegenschaften sind grundsätzlich an dem Ort, wo sie liegen, zu besteuern, d.h., sie unterliegen für Steuerzwecke der Steuerordnung vor Ort. Sie werden aber für die Zwecke der schweizerischen Einkommens- und Vermögenssteuer satzbestimmend herangezogen.\n\nHat beispielsweise eine ledige Person mit Wohnsitz in der Stadt Zürich ein steuerbares Einkommen von CHF 100’000 und ist Eigentümerin einer ausländischen Liegenschaft mit Mieterträgen von jährlich CHF 10’000, wendet das Steueramt zur Berechnung der Einkommenssteuer jenen Steuersatz an, der bei einem Einkom",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/budliger-ch/pool/f3ba17d07c__Unliebsame-Steuerfolgen-bei-verdeckten-Gewinnausschuettungen-von-Gesellschaften-"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Mit dem am 1. Juli 1996 in Kraft getretenen Bundesgesetz über die Gleichstellung von Frau und Mann (Gleichstellungsgesetz, GlG) soll der verfassungsrechtliche Anspruch auf gleichen Lohn für gleichwertige Arbeit auf Gesetzesstufe verankert und umgesetzt werden.",
+        "body": "Mit dem am 1. Juli 1996 in Kraft getretenen Bundesgesetz über die Gleichstellung von Frau und Mann (Gleichstellungsgesetz, GlG) soll der verfassungsrechtliche Anspruch auf gleichen Lohn für gleichwertige Arbeit auf Gesetzesstufe verankert und umgesetzt werden.\n\nArt. 3 Abs. 1 und 2 GlG hält fest, dass Arbeitnehmerinnen und Arbeitnehmer aufgrund ihres Geschlechts weder direkt noch indirekt benachteiligt werden dürfen. Um sicherzustellen, dass Unternehmen diesen Grundsatz beachten, wurde eine Pflicht für die periodische Lohngleichheitsanalyse eingeführt. Wir erklären, worum es geht – und was dabei zu beachten ist.\n\nDie Pflicht zur Durchführung besteht seit dem 1. Juli 2020 für Unternehmen, die zu Beginn des Kalenderjahres mindestens 100 Arbeitnehmende beschäftigen (Art. 13a Abs. 1 GlG). Die Zählung richtet sich nach der effektiven Anzahl der Arbeitnehmenden (ohne Lernende) und nicht nach de",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "Mehrwertsteuersatzerhöhung per 1. Januar 2024 - Budliger Treuhand AG Zürich",
+        "body": "Mehrwertsteuersatzerhöhung per 1. Januar 2024 - Budliger Treuhand AG Zürich\n\nAb dem 1. Januar 2024 ändern in der Schweiz und in Liechtenstein die Steuersätze.\n\nBei Bau- bzw. Montageleistungen ist der Zeitpunkt der Arbeitsausführung vor Ort massgebend. Werden Aufträge in Arbeit per 31. Dezember 2023 mit einem detaillierten Situationsetat oder Teilzahlungsgesuch (Zwischenrechnung) abgegrenzt, unterliegen die bis zu diesem Datum erbrachten Leistungen dem alten Steuersatz.\n\nVorauszahlungen für ab dem 1. Januar 2024 zu erbringende Leistungen dürfen bereits im Jahr 2023 zum höheren Satz in Rechnung gestellt werden. Dies trifft regelmässig z.B. bei Abonnementen für periodische Leistungen zu, bei denen eine Aufteilung pro rata temporis erfolgen muss.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/budliger-ch/pool/5926f25cce__Mehrwertsteuersatzerhoehung-per-1.-Januar-2024_Budliger.jpg"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Erbrechtliche Beratung. Nehmen Sie die Nachlassplanung frühzeitig in Angriff – wir unterstützen Sie gerne mit einer individuellen Beratung.",
+        "body": "Die persönliche Lebensplanung schliesst eine sinnvolle Nachlassplanung mit ein. Nehmen Sie diese frühzeitig in Angriff – wir unterstützen Sie gerne mit einer individuellen Beratung.\n\nMit einem öffentlich beurkundeten Ehevertrag besteht die Möglichkeit, innerhalb des gesetzlichen Güterstandes der Errungenschaftsbeteiligung Änderungen vorzunehmen. Häufig wird vereinbart, dass bei einem Todesfall der überlebende Ehegatte das gesamte gemeinsam erarbeitete Vermögen erhalten soll und die gemeinsamen Kinder keinen Anspruch daran haben. Durch einen Ehevertrag kann zudem die Gütergemeinschaft oder die Gütertrennung vereinbart werden.\n\nIm eigenhändig verfassten oder öffentlich beurkundeten Testament legen Sie fest, wie Ihr Vermögen letztwillig verteilt werden soll. Damit bestimmen Sie auch über die gesetzlich vorgesehene Erbfolge hinaus, welche Ihnen nahestehenden Personen begünstigt werden sollen",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "So können wir Sie unterstützen",
+        "body": "Mit langjähriger Erfahrung unterstützen wir Sie bei allen Steuerfragen."
+      },
+      {
+        "title": "Unsere Werte: Verbundenheit und Kompetenz",
+        "body": "«Ihnen dienen zu dürfen» – dieser Leitsatz begleitet uns seit unserer Gründung."
+      },
+      {
+        "title": "Persönliche Beratung",
+        "body": "Wir verwenden Cookies auf dieser Webseite, um ein möglichst gutes Online-Erlebnis zu bieten. Weiter Informationen unter"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Claude Rohrer",
+        "role": "Vorsitzender der Geschäftsleitung",
+        "initials": "CR",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Flurina Sialm",
+        "role": "Partnerin / Mitglied der Geschäftsleitung",
+        "initials": "FS",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Christian Affolter",
+        "role": "Partner / Mitglied der Geschäftsleitung",
+        "initials": "CA",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Fachbereichsleitung Wirtschaftsprüfung",
+        "role": "dipl. Wirtschaftsprüfer",
+        "initials": "FW",
+        "bio": "Zugelassene Fachperson für eingeschränkte und ordentliche Revision sowie prüfungssichere Abschlüsse."
+      },
+      {
+        "name": "Bernhard Bingisser",
+        "role": "Partner / Mitglied der Geschäftsleitung",
+        "initials": "BB",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Fachbereichsleitung Treuhand",
+        "role": "Treuhänder mit eidg. Fachausweis",
+        "initials": "FT",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "84+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "value": "200+",
+        "label": "KMU"
+      },
+      {
+        "value": "43515+",
+        "label": "Mitarbeitende"
+      }
+    ]
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "EXPERTsuisse",
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "abacus",
+      "klara",
+      "sage"
+    ],
+    "badges": [
+      "/images/budliger-ch/pool/f47ecbc027__obt-gruppe-logo.svg",
+      "/images/budliger-ch/pool/3b4d4ec1b8__astal-logo.svg",
+      "/images/budliger-ch/pool/8df726ed10__figas-logo.svg",
+      "/images/budliger-ch/pool/4100737c90__BakerTillySwitzerland-logo.svg",
+      "/images/budliger-ch/pool/a7bf7e04bb__Siegel-Bilanz_a624f2ee.png",
+      "/images/budliger-ch/pool/010a752832__LEPA_Logo_RGB_black.png"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "Änderungen im Schweizer Erbrecht: Betrifft mich das?",
+        "a": "Am 01.01.2023 tritt in der Schweiz ein neues Erbrecht in Kraft, das wesentliche Änderungen zum bisherigen Erbrecht enthält. Ein guter Zeitpunkt um zu überprüfen, ob getroffene Regelungen noch aktuell sind."
+      },
+      {
+        "q": "Deklaration vergessen?",
+        "a": "In der Praxis kommen häufig Fälle vor, bei denen vergessen wurde, ausländische Liegenschaften in der Schweizer Steuererklärung zu deklarieren. Da im Zusammenhang mit ausländischen Liegenschaften oft auch ausländische Bankkonti bestehen, steigt wegen des automatischen Informationsaustauschs die Wahrscheinlichkeit, dass die Steuerverwaltungen von einer nicht deklarierten Liegenschaft erfahren."
+      },
+      {
+        "q": "Sie suchen ein inspirierendes Arbeitsumfeld an bester Lage?",
+        "a": "Wir bieten Ihnen die Möglichkeit, drei frisch sanierte Büroräume im Erdgeschoss unseres Bürogebäudes zu mieten. Die 2020 modernisierten Räumlichkeiten bieten Platz für bis zu 6 Arbeitsplätze und schaffen durch ihre lichtdurchflutete Gestaltung eine angenehme Arbeitsatmosphäre"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 289 45 45",
+      "email": "",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Budliger Treuhand AG",
+    "tagline": "Umfassende Betreuung und Unterstützung in allen Treuhandfragen. «Ihnen dienen zu dürfen» – dieser Leitsatz begleitet uns seit unserer Gründung.",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 44 289 45 45",
+          "info@…"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

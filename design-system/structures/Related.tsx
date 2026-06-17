@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "./primitives";
 import { SectionHead } from "./SectionHead";
+import { Icon } from "../icons/iconSets";
 
 /** Related-items strip (e.g. other services). onPick navigates to that item. */
 export const Related: React.FC<{ heading: string; items: { title: string }[]; onPick?: (title: string) => void }> = ({ heading, items, onPick }) => (
@@ -15,7 +16,7 @@ export const Related: React.FC<{ heading: string; items: { title: string }[]; on
             fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", color: "var(--ds-text)",
             transition: "all var(--ds-duration) var(--ds-ease)",
           }}>
-            {s.title} <span style={{ color: "var(--ds-primary)" }}>→</span>
+            {s.title} <span style={{ color: "var(--ds-primary)", display: "inline-flex", verticalAlign: "-0.1em" }}><Icon name="arrowRight" size={16} /></span>
           </button>
         ))}
       </div>

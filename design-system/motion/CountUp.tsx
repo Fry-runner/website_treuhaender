@@ -6,17 +6,27 @@ export const CountUp: React.FC<{ value: string }> = ({ value }) => {
   const match = value.match(/\d[\d'.,]*/);
   const reduced = usePrefersReducedMotion();
   const ref = useRef<HTMLSpanElement>(null);
-  const [display, setDisplay] = useState(match && !reduced ? value.replace(match[0], "0") : value);
+  // The real value is the always-visible default. The count-up only enhances it
+  // when the stat scrolls into view — never gate the number behind the animation,
+  // or a headless render / paused tab / reduced-motion user sees "0".
+  const [display, setDisplay] = useState(value);
 
   useEffect(() => {
     if (!match || reduced) { setDisplay(value); return; }
     const target = parseInt(match[0].replace(/[^\d]/g, ""), 10);
     const el = ref.current;
     if (!el || typeof IntersectionObserver === "undefined") { setDisplay(value); return; }
+    // If the stat is already on screen at mount, leave the real value (no flash).
+    const r = el.getBoundingClientRect();
+    if (r.top <= window.innerHeight && r.bottom >= 0) return;
+    // Otherwise keep the real value rendered and reset to 0 ONLY at the moment it
+    // scrolls into view — so a headless render / paused tab that never scrolls
+    // keeps showing the real number instead of being stuck at 0.
     let raf = 0;
     const io = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting) {
         io.disconnect();
+        setDisplay(value.replace(match[0], "0"));
         const t0 = performance.now();
         const dur = 1100;
         const tick = (t: number) => {

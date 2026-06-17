@@ -1,0 +1,855 @@
+{
+  "meta": {
+    "firm": "L+A Treuhand",
+    "domain": "latreuhand.ch",
+    "archetype": "swiss-digital",
+    "lookId": "ruerup-swiss",
+    "sourceUrl": "https://www.latreuhand.ch/",
+    "basePresetId": "ruerup-swiss",
+    "look": {
+      "meta": {
+        "id": "latreuhand-ch-brand",
+        "name": "Rürup Swiss Corporate · brand-generated",
+        "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
+        "source": "Steuerberatung-Andreas-Rürup + generated accent",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (tint of beige surface)",
+          "base: ruerup-swiss",
+          "accent #276E91 (generated · scraped #008AC9 rejected: low)",
+          "heading: Sora (inventory)",
+          "body: IBM Plex Sans (inventory)",
+          "mono: IBM Plex Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "vibrant"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#E5E7EB",
+        "text": "#1C1C1A",
+        "textMuted": "#71717A",
+        "border": "#E5E7EB",
+        "primary": "#276E91",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EEF3F6",
+        "secondary": "#AF283E",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"IBM Plex Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Sora\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "medium",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "medium"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-12",
+        "rhythm": "normal",
+        "containerMax": "1200px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 300,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-offwhite": "#FFFFFF",
+        "--color-brand-anthracite": "#1C1C1A",
+        "--color-brand-red": "#C8102E",
+        "--color-brand-green": "#1F4E3D",
+        "--color-brand-beige": "#E5E7EB",
+        "--color-brand-grey": "#71717A",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "primary": "#008AC9",
+      "palette": [
+        "#008AC9"
+      ],
+      "fontsSeen": [],
+      "confidence": "low"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq",
+      "look.colors (generated)"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "media.documents"
+    ]
+  },
+  "media": {
+    "logo": "/images/latreuhand-ch/pool/34e876c5cb__logo_footer-scaled.jpg",
+    "hero": "/images/latreuhand-ch/hero.jpg",
+    "badges": [
+      "/images/latreuhand-ch/pool/289186b0d8__bexio.svg",
+      "/images/latreuhand-ch/pool/f968340e83__treuhand-suisse.svg"
+    ],
+    "photos": [
+      "/images/latreuhand-ch/pool/069cb033ef__pic1.png",
+      "/images/latreuhand-ch/pool/341632d187__pic.jpg",
+      "/images/latreuhand-ch/pool/48e37331b6__Untitled-11.png",
+      "/images/latreuhand-ch/pool/b6375c4735__pic-1.jpg",
+      "/images/latreuhand-ch/pool/2545b3d28a__curated-lifestyle-89Nq3BH8mqs-unsplash-scaled.jpg",
+      "/images/latreuhand-ch/pool/5c41834cea__matt-bennett-78hTqvjYMS4-unsplash-scaled.jpg",
+      "/images/latreuhand-ch/pool/2c43032b26__gabrielle-henderson-HJckKnwCXxQ-unsplash-scaled.jpg",
+      "/images/latreuhand-ch/pool/5a85969b9b__scott-graham-5fNmWej4tAA-unsplash-scaled.jpg",
+      "/images/latreuhand-ch/pool/7799588577__noor-younis-mId2gG0a9GU-unsplash-scaled-1.jpg",
+      "/images/latreuhand-ch/pool/c775d664c0__tingey-injury-law-firm-DZpc4UY8ZtY-unsplash-scaled.jpg",
+      "/images/latreuhand-ch/pool/3d873f2aa3__dan-cristian-padure-xJLN32FO7AY-unsplash-scaled.jpg",
+      "/images/latreuhand-ch/pool/c06015c199__andy-quezada-UccdYgxycUI-unsplash-scaled.jpg",
+      "/images/latreuhand-ch/pool/3a82beb247__planet-volumes-aAZqXTcMn2A-unsplash-scaled.jpg",
+      "/images/latreuhand-ch/pool/2f85cb6329__pic3.png",
+      "/images/latreuhand-ch/pool/329582f4c8__pic2.png",
+      "/images/latreuhand-ch/pool/0091413351__janosch-lino-snDUMdYF7o8-unsplash-scaled.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [
+      {
+        "src": "/files/latreuhand-ch/d1bb129a84__2024-01.pdf",
+        "title": "2024-01",
+        "kind": "pdf",
+        "bytes": 862633
+      },
+      {
+        "src": "/files/latreuhand-ch/d1d435edf0__2024-02.pdf",
+        "title": "2024-02",
+        "kind": "pdf",
+        "bytes": 955325
+      },
+      {
+        "src": "/files/latreuhand-ch/0334b22a5d__update_3_2015.pdf",
+        "title": "Der UP|DATE – Leitartikel “Flexible Pensionierung“",
+        "kind": "pdf",
+        "bytes": 92337
+      },
+      {
+        "src": "/files/latreuhand-ch/c8681bc826__L_A_Update_1_2015.pdf",
+        "title": "Ihnen die aktuelle Ausgabe von UP|DATE präsentieren zu dürfen.",
+        "kind": "pdf",
+        "bytes": 572769
+      },
+      {
+        "src": "/files/latreuhand-ch/011c1d3d86__L-u-A-Steuerberatung.pdf",
+        "title": "Klicken Sie hier um UPDATE zu lesen >>",
+        "kind": "pdf",
+        "bytes": 675371
+      },
+      {
+        "src": "/files/latreuhand-ch/0854173e64__L-u-A-Steuerberatung.pdf",
+        "title": "Klicken Sie hier um UPDATE zu lesen >>",
+        "kind": "pdf",
+        "bytes": 947414
+      },
+      {
+        "src": "/files/latreuhand-ch/d31ef2d3da__L-u-A-Steuerberatung.pdf",
+        "title": "Klicken Sie hier um UPDATE zu lesen >>",
+        "kind": "pdf",
+        "bytes": 1376230
+      },
+      {
+        "src": "/files/latreuhand-ch/fcfedc1d42__02-2019.pdf",
+        "title": "Klicken Sie hier um UPDATE zu lesen >>",
+        "kind": "pdf",
+        "bytes": 756026
+      },
+      {
+        "src": "/files/latreuhand-ch/65cca7ef94__L-u-A-Steuerberatung.pdf",
+        "title": "Klicken Sie hier um UPDATE zu lesen >>",
+        "kind": "pdf",
+        "bytes": 668358
+      },
+      {
+        "src": "/files/latreuhand-ch/72add11ef3__02-2020.pdf",
+        "title": "Klicken Sie hier um UPDATE zu lesen >>",
+        "kind": "pdf",
+        "bytes": 903386
+      },
+      {
+        "src": "/files/latreuhand-ch/dc30bdd0c1__2020-03.pdf",
+        "title": "Klicken Sie hier um UPDATE zu lesen >>",
+        "kind": "pdf",
+        "bytes": 740775
+      },
+      {
+        "src": "/files/latreuhand-ch/1d55fd0038__2022-04-UpDate.pdf",
+        "title": "Klicken Sie hier um UPDATE zu lesen >>",
+        "kind": "pdf",
+        "bytes": 818177
+      },
+      {
+        "src": "/files/latreuhand-ch/48c5746e87__L_A_UpDate_2023_1.pdf",
+        "title": "UP|DATE 1|23",
+        "kind": "pdf",
+        "bytes": 1002590
+      },
+      {
+        "src": "/files/latreuhand-ch/d517089353__2022-02.pdf",
+        "title": "UP|DATE 2|22",
+        "kind": "pdf",
+        "bytes": 933048
+      },
+      {
+        "src": "/files/latreuhand-ch/155c6c2927__2022-03.pdf",
+        "title": "UP|DATE 3|22",
+        "kind": "pdf",
+        "bytes": 941271
+      },
+      {
+        "src": "/files/latreuhand-ch/08b6d15283__L_A_UpDate_2023_3.pdf",
+        "title": "UP|DATE 3|23",
+        "kind": "pdf",
+        "bytes": 1127008
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/latreuhand-ch/pool/34e876c5cb__logo_footer-scaled.jpg",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 54763,
+        "width": 2560,
+        "height": 642,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/8ed9961087__logo_top.png",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 80619,
+        "width": 2194,
+        "height": 323,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/289186b0d8__bexio.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 3449,
+        "width": 1020,
+        "height": 351,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/f968340e83__treuhand-suisse.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 4580,
+        "width": 595.279,
+        "height": 116.998,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/2f85cb6329__pic3.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 151236,
+        "width": 520,
+        "height": 534,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/069cb033ef__pic1.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 224061,
+        "width": 1300,
+        "height": 790,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/341632d187__pic.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 128609,
+        "width": 1300,
+        "height": 790,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/48e37331b6__Untitled-11.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 447,
+        "width": 638,
+        "height": 534,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/329582f4c8__pic2.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 156237,
+        "width": 636,
+        "height": 728,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/b6375c4735__pic-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 86438,
+        "width": 1300,
+        "height": 790,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/2545b3d28a__curated-lifestyle-89Nq3BH8mqs-unsplash-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 186481,
+        "width": 1600,
+        "height": 1213,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/5c41834cea__matt-bennett-78hTqvjYMS4-unsplash-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 180555,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/2c43032b26__gabrielle-henderson-HJckKnwCXxQ-unsplash-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 178916,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/0091413351__janosch-lino-snDUMdYF7o8-unsplash-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 200330,
+        "width": 1060,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/5a85969b9b__scott-graham-5fNmWej4tAA-unsplash-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 167668,
+        "width": 1600,
+        "height": 1068,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/7799588577__noor-younis-mId2gG0a9GU-unsplash-scaled-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 156083,
+        "width": 1600,
+        "height": 994,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/c775d664c0__tingey-injury-law-firm-DZpc4UY8ZtY-unsplash-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 145353,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/3d873f2aa3__dan-cristian-padure-xJLN32FO7AY-unsplash-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 175996,
+        "width": 1600,
+        "height": 1191,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/c06015c199__andy-quezada-UccdYgxycUI-unsplash-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 148250,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/3a82beb247__planet-volumes-aAZqXTcMn2A-unsplash-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 140598,
+        "width": 1600,
+        "height": 1148,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/latreuhand-ch/pool/069cb033ef__pic1.png",
+      "/images/latreuhand-ch/pool/341632d187__pic.jpg",
+      "/images/latreuhand-ch/pool/b6375c4735__pic-1.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "L+A Treuhand",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen",
+    "logo": "/images/latreuhand-ch/pool/34e876c5cb__logo_footer-scaled.jpg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Betriebsferien vom 28.07.2025 – 10.08.2025",
+    "titleAccent": "",
+    "lede": "Ihre Partner für Treuhand und Steuerberater in Zürich – individuelle Beratung und umfassende Unterstützung für Ihre Steuern und Finanzen.",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Ihre Partner für Treuhand und Steuerberater in Zürich – individuelle Beratung und umfassende Unterstützung für Ihre Steuern und Finanzen.",
+    "asideAttribution": "L+A Treuhand",
+    "image": "/images/latreuhand-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Unser umfassendes Dienstleistungsangebot im Bereich Treuhand ist darauf ausgerichtet, Ihnen den Rücken freizuhalten, damit Sie sich uneingeschränkt auf Ihr Kerngeschäft konzentrieren können. Wir unterstützen Sie mit fundiertem Fachwissen, langjähriger Erfahrung und modernen Lösun",
+        "body": "Unser umfassendes Dienstleistungsangebot im Bereich Treuhand ist darauf ausgerichtet, Ihnen den Rücken freizuhalten, damit Sie sich uneingeschränkt auf Ihr Kerngeschäft konzentrieren können. Wir unterstützen Sie mit fundiertem Fachwissen, langjähriger Erfahrung und modernen Lösungen, um Ihre finanziellen und administrativen Prozesse effizient und gesetzeskonform zu gestalten.\n\nEine ordnungsgemässe Buchhaltung ist wichtig für den nachhaltigen Erfolg Ihres Unternehmens. Wir bieten Ihnen eine vollumfängliche Betreuung im Finanz- und Rechnungswesen, sodass Sie stets einen klaren Überblick über Ihre finanzielle Situation haben. Unsere Leistungen umfassen:\n\nDurch unsere professionelle Betreuung können Sie sicher sein, dass Ihre Buchhaltung stets korrekt, aktuell und transparent geführt wird.\n\nEin gut strukturierter und detaillierter Jahresabschluss liefert wertvolle Erkenntnisse über die wirts",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Eine korrekte, fristgerechte und strategisch optimierte Steuererklärung ist wichtig, um unnötige Nachzahlungen, Verzugszinsen oder gar rechtliche Probleme zu vermeiden. Wir übernehmen diesen Prozess für Sie mit höchster Sorgfalt und unter Berücksichtigung aller aktuellen gesetzli",
+        "body": "Eine korrekte, fristgerechte und strategisch optimierte Steuererklärung ist wichtig, um unnötige Nachzahlungen, Verzugszinsen oder gar rechtliche Probleme zu vermeiden. Wir übernehmen diesen Prozess für Sie mit höchster Sorgfalt und unter Berücksichtigung aller aktuellen gesetzlichen Änderungen. Dabei prüfen wir genau, welche ABzüge und steuerlichen Vorsteile für Sie in Frage kommen, um Ihre Steueralst maximal zu reduzieren. Egal, ob Einkommenssteuer oder Gewinnsteuer wir kümmern uns um alle Details, damit Sie sich um nichts sorgen müssen.\n\nSollten Steuerprüfungen, Nachfragen oder Auseinandersetzungen mit den Steuerbörden auftreten, ist es wichtig, einen kompetenten Partner an Ihrer Seite zu haben. Unsere Mitarbeiter und Mitarbeiterinnen übernehmen für Sie die komplette Kommunikation mit den Steuerbehörden, prüfen behördliche Forderungen kritisch und setzen sich mit Nachdruck für Ihre In",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Eine reibungslose und professionelle Personaladministration ist das Fundament eines erfolgreichen Unternehmens. Wir sind Ihr verlässlicher Partner in Zürich und übernehmen sämtliche administrativen Aufgaben im Personalwesen mit höchster Sorgfalt und Fachkompetenz. Unsere Dienstle",
+        "body": "Eine reibungslose und professionelle Personaladministration ist das Fundament eines erfolgreichen Unternehmens. Wir sind Ihr verlässlicher Partner in Zürich und übernehmen sämtliche administrativen Aufgaben im Personalwesen mit höchster Sorgfalt und Fachkompetenz. Unsere Dienstleistungen entlasten Sie von komplexen bürokratischen Anforderungen, sodass Sie sich voll und ganz auf Ihr Kerngeschäft konzentrieren können.\n\nSo erstellen wir Ihre Lohnabrechnungen und Lohnausweise. Wir sorgen für die pünktliche Auszahlung der Gehälter und garantieren eine effiziente Abwicklung unter Berücksichtigung aller sozialversicherungsrechtlichen Vorgaben. Dabei übernehmen wir nicht nur die Berechnung der Löhne, sondern auch die Anmeldung und Abführung der Sozialversicherungsbeiträge sodass Sie rechtlich stets auf der sicheren Seiten sind.\n\nEin rechtssicherer und gut organisierter Personalbereich ist für je",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut dolore magna aliquyam erat, sed diam Eos et accusam et justo duo dolores et ea rebum.",
+        "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut dolore magna aliquyam erat, sed diam Eos et accusam et justo duo dolores et ea rebum.\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Eos et accusam et justo duo dolores et ea rebum.\n\nStet clita kasd gu",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Alfonso Gomez",
+        "role": "Sachbearbeiter Steuern",
+        "initials": "AG",
+        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
+      },
+      {
+        "name": "Claudia Appenzeller",
+        "role": "VR-Assistentin",
+        "initials": "CA",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      },
+      {
+        "name": "Ariton Laci",
+        "role": "Mandatsleiter Treuhand & Steuern",
+        "initials": "AL",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Lucia De Perota",
+        "role": "Sachbearbeiterin Treuhand",
+        "initials": "LP",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "RAB/zugel. Revisor",
+      "klara",
+      "sage"
+    ],
+    "badges": [
+      "/images/latreuhand-ch/pool/289186b0d8__bexio.svg",
+      "/images/latreuhand-ch/pool/f968340e83__treuhand-suisse.svg"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 438 83 83",
+      "email": "info@latreuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "L+A Treuhand",
+    "tagline": "Ihre Partner für Treuhand und Steuerberater in Zürich – individuelle Beratung und umfassende Unterstützung für Ihre Steuern und Finanzen.",
+    "logo": "/images/latreuhand-ch/pool/34e876c5cb__logo_footer-scaled.jpg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 44 438 83 83",
+          "info@latreuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

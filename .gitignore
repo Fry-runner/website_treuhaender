@@ -15,3 +15,7 @@ node_modules/
 out/
 dist/
 *.log
+
+# Secrets
+.pexels-key
+.env

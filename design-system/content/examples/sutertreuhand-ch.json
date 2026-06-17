@@ -1,0 +1,860 @@
+{
+  "meta": {
+    "firm": "Suter Treuhand",
+    "domain": "sutertreuhand.ch",
+    "archetype": "swiss-digital",
+    "lookId": "tureva-soft",
+    "sourceUrl": "https://sutertreuhand.ch/",
+    "basePresetId": "tureva-soft",
+    "look": {
+      "meta": {
+        "id": "sutertreuhand-ch-brand",
+        "name": "Tureva Soft Modern · brand-generated",
+        "mood": "Friendly premium; rounded cards, soft shadows, geometric Outfit/Jakarta type, vibrant lime-green CTA bloom.",
+        "source": "Tureva + generated accent",
+        "derived": [
+          "color.primarySoft (#ECFFE8 tint)",
+          "color.border (= surface)",
+          "base: tureva-soft",
+          "accent #955337 (generated · no scraped colour)",
+          "heading: Lexend (inventory)",
+          "body: Work Sans (inventory)",
+          "mono: IBM Plex Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "friendly",
+        "warmth": "neutral",
+        "corner": "soft",
+        "density": "airy",
+        "contrast": "medium",
+        "era": "modern",
+        "accentEnergy": "vibrant"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F0F2F4",
+        "text": "#2D3136",
+        "textMuted": "#828E99",
+        "border": "#F0F2F4",
+        "primary": "#955337",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#F7F1EF",
+        "secondary": "#39A1B1",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Lexend\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-geometric",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "medium",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "wider",
+          "weight": "semibold"
+        }
+      },
+      "radius": {
+        "base": "2xl",
+        "pill": "full",
+        "scale": "soft"
+      },
+      "shadow": {
+        "elevation": "soft",
+        "card": "md"
+      },
+      "spacing": {
+        "sectionY": "py-20",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 300,
+        "easing": "cubic-bezier(0.16,1,0.3,1)",
+        "intensity": "expressive"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true,
+        "bloom": "rgba(149,83,55,0.18)"
+      },
+      "raw": {
+        "--color-brand-green": "#34FF18",
+        "--color-brand-graphite": "#2D3136",
+        "--color-brand-light-gray": "#F0F2F4",
+        "--color-brand-mid-gray": "#828E99",
+        "--font-sans": "Plus Jakarta Sans",
+        "--font-display": "Outfit"
+      }
+    },
+    "brand": {
+      "palette": [],
+      "fontsSeen": [],
+      "confidence": "low"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "stats",
+        "process",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "echte Kennzahlen gefunden",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "faq",
+      "look.colors (generated)",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "stats",
+      "values",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "services.images",
+      "media.documents"
+    ]
+  },
+  "media": {
+    "logo": "/images/sutertreuhand-ch/pool/ace24b0457__logo-suter-treuhand.svg",
+    "hero": "/images/sutertreuhand-ch/hero.jpg",
+    "badges": [],
+    "photos": [
+      "/images/sutertreuhand-ch/pool/20f7dc8389__header_treuhand_zuerich-16b10b6e.webp",
+      "/images/sutertreuhand-ch/pool/a3bcd6f29e__2259920251-huge-853e0dec.jpg",
+      "/images/sutertreuhand-ch/pool/82f5da8ead__2259920251-huge-06f536d4.jpg",
+      "/images/sutertreuhand-ch/pool/4845e2b0bc__treuhandbuero_luzern-min-840ec175.jpg",
+      "/images/sutertreuhand-ch/pool/50c16fe351__treuhandbuero_luzern-min-c394ad5c.webp",
+      "/images/sutertreuhand-ch/pool/bdf19ef9c8__disturber-02.jpg",
+      "/images/sutertreuhand-ch/pool/d2c7957cab__hero-0d792f63.jpg",
+      "/images/sutertreuhand-ch/pool/c9d4429f93__hero-a99e9628.webp",
+      "/images/sutertreuhand-ch/pool/2c2bac5009__disturber-01.jpg",
+      "/images/sutertreuhand-ch/pool/3656664070__gewinnsteuersatze_2024-cdb7db51.png",
+      "/images/sutertreuhand-ch/pool/3f3f422bc7__header_einzelfirma-eac2d2fd.jpg",
+      "/images/sutertreuhand-ch/pool/56e8618384__istock-1209835473-7ef0e0e6.jpg",
+      "/images/sutertreuhand-ch/pool/28d693a635__firmengruendung-e644ef7d.jpg",
+      "/images/sutertreuhand-ch/pool/c737495ae2__notebook-baf2c75f.png",
+      "/images/sutertreuhand-ch/pool/6e8cfd0369__istock-1209835473-a89cc22e.webp",
+      "/images/sutertreuhand-ch/pool/0170cc252d__einkommenssteuersatze2024-bb01ca15.png",
+      "/images/sutertreuhand-ch/pool/99b1a3f931__2259920251-huge-4eaa5816.webp",
+      "/images/sutertreuhand-ch/pool/27459e3361__istock-1209835473-596833d1.jpg",
+      "/images/sutertreuhand-ch/pool/f07748b530__2259920251-huge-d83605bf.jpg",
+      "/images/sutertreuhand-ch/pool/92adb2056d__mwst_firmengruendung-11501e60.jpg",
+      "/images/sutertreuhand-ch/pool/37ad62aca8__2259920251-huge-03f7299b.webp"
+    ],
+    "serviceImages": {
+      "Mehrwertsteuer": "/images/sutertreuhand-ch/pool/92adb2056d__mwst_firmengruendung-11501e60.jpg"
+    },
+    "documents": [
+      {
+        "src": "/files/sutertreuhand-ch/4b7201d208__ablauf_.pdf",
+        "title": "ablauf",
+        "kind": "pdf",
+        "bytes": 69249
+      },
+      {
+        "src": "/files/sutertreuhand-ch/d78cd86b47__domizil_ablauf.pdf",
+        "title": "domizil ablauf",
+        "kind": "pdf",
+        "bytes": 408216
+      },
+      {
+        "src": "/files/sutertreuhand-ch/e697cdf278__domizil_angaben.pdf",
+        "title": "domizil angaben",
+        "kind": "pdf",
+        "bytes": 318078
+      },
+      {
+        "src": "/files/sutertreuhand-ch/be2fc926e8__domizil_preise.pdf",
+        "title": "domizil preise",
+        "kind": "pdf",
+        "bytes": 274984
+      },
+      {
+        "src": "/files/sutertreuhand-ch/eca79223de__checklistesteuern2025.pdf",
+        "title": "Jetzt PDF herunterladen",
+        "kind": "pdf",
+        "bytes": 1957086
+      },
+      {
+        "src": "/files/sutertreuhand-ch/36172a2484__preisesteuern.pdf",
+        "title": "preisesteuern",
+        "kind": "pdf",
+        "bytes": 229862
+      },
+      {
+        "src": "/files/sutertreuhand-ch/1562d78cbc__a-4472_2021.pdf",
+        "title": "Urteil vom 10. August 2022 (A-4472/2021) des Schweizer Bundesverwaltungsgerichts",
+        "kind": "pdf",
+        "bytes": 616082
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/sutertreuhand-ch/pool/ace24b0457__logo-suter-treuhand.svg",
+        "kind": "logo",
+        "alt": "Suter Treuhand",
+        "bytes": 16111,
+        "width": 960,
+        "height": 960,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/d2c7957cab__hero-0d792f63.jpg",
+        "kind": "hero",
+        "alt": "Suter Treuhand",
+        "bytes": 542233,
+        "width": 1920,
+        "height": 1015,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/c9d4429f93__hero-a99e9628.webp",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 478712,
+        "width": 1920,
+        "height": 1015,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/3f3f422bc7__header_einzelfirma-eac2d2fd.jpg",
+        "kind": "hero",
+        "alt": "Einzelfirma",
+        "bytes": 304137,
+        "width": 1869,
+        "height": 662,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/20f7dc8389__header_treuhand_zuerich-16b10b6e.webp",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 307984,
+        "width": 1869,
+        "height": 662,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/bdf19ef9c8__disturber-02.jpg",
+        "kind": "photo",
+        "alt": "AG Gründen",
+        "bytes": 404239,
+        "width": 1600,
+        "height": 1065,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/2c2bac5009__disturber-01.jpg",
+        "kind": "photo",
+        "alt": "GmbH Gründen",
+        "bytes": 76623,
+        "width": 1365,
+        "height": 734,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/3656664070__gewinnsteuersatze_2024-cdb7db51.png",
+        "kind": "photo",
+        "alt": "Karte Schweiz",
+        "bytes": 378501,
+        "width": 1608,
+        "height": 1115,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/56e8618384__istock-1209835473-7ef0e0e6.jpg",
+        "kind": "photo",
+        "alt": "Buchhaltung",
+        "bytes": 265420,
+        "width": 1180,
+        "height": 890,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/28d693a635__firmengruendung-e644ef7d.jpg",
+        "kind": "photo",
+        "alt": "Firmengründung",
+        "bytes": 191795,
+        "width": 1600,
+        "height": 567,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/c737495ae2__notebook-baf2c75f.png",
+        "kind": "photo",
+        "alt": "gmbh gründen",
+        "bytes": 285988,
+        "width": 1608,
+        "height": 935,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/a3bcd6f29e__2259920251-huge-853e0dec.jpg",
+        "kind": "photo",
+        "alt": "Treuhand Zürich",
+        "bytes": 221834,
+        "width": 1180,
+        "height": 890,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/6e8cfd0369__istock-1209835473-a89cc22e.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 247700,
+        "width": 1180,
+        "height": 890,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/82f5da8ead__2259920251-huge-06f536d4.jpg",
+        "kind": "photo",
+        "alt": "Treuhand Zürich",
+        "bytes": 186869,
+        "width": 960,
+        "height": 960,
+        "orientation": "square",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/0170cc252d__einkommenssteuersatze2024-bb01ca15.png",
+        "kind": "photo",
+        "alt": "Karte Schweiz",
+        "bytes": 192929,
+        "width": 1162,
+        "height": 806,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/99b1a3f931__2259920251-huge-4eaa5816.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 209346,
+        "width": 1180,
+        "height": 890,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/4845e2b0bc__treuhandbuero_luzern-min-840ec175.jpg",
+        "kind": "photo",
+        "alt": "Treuhandbüro Luzern",
+        "bytes": 169896,
+        "width": 960,
+        "height": 960,
+        "orientation": "square",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/37ad62aca8__2259920251-huge-03f7299b.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 172138,
+        "width": 960,
+        "height": 960,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/27459e3361__istock-1209835473-596833d1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 127184,
+        "width": 920,
+        "height": 517,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/50c16fe351__treuhandbuero_luzern-min-c394ad5c.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 143412,
+        "width": 960,
+        "height": 960,
+        "orientation": "square",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/f07748b530__2259920251-huge-d83605bf.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 108366,
+        "width": 920,
+        "height": 517,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sutertreuhand-ch/pool/92adb2056d__mwst_firmengruendung-11501e60.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 15839,
+        "width": 390,
+        "height": 263,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/sutertreuhand-ch/pool/d2c7957cab__hero-0d792f63.jpg",
+      "/images/sutertreuhand-ch/pool/c9d4429f93__hero-a99e9628.webp",
+      "/images/sutertreuhand-ch/pool/3f3f422bc7__header_einzelfirma-eac2d2fd.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Suter Treuhand",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen",
+    "logo": "/images/sutertreuhand-ch/pool/ace24b0457__logo-suter-treuhand.svg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Luzern",
+    "titleLead": "Treu­hand Luzern – persönlich, kompetent und digital",
+    "titleAccent": "",
+    "lede": "Vertrauensvolle Treuhandgesellschaft Schweiz ☝ Suter Treuhand individuelle Treuhanddienstleistungen ✅ Kompetenz und Diskretion ✅ Besuchen Sie mich!",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Vertrauensvolle Treuhandgesellschaft Schweiz ☝ Suter Treuhand individuelle Treuhanddienstleistungen ✅ Kompetenz und Diskretion ✅ Besuchen Sie mich!",
+    "asideAttribution": "Suter Treuhand",
+    "image": "/images/sutertreuhand-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Suter Treuhand in Zürich & Luzern ☝ zuverlässig und partnerschaftlich ✅Ich biete Steuerberatung ✅Beratung bei Firmengründunge ✅GmbH und AG",
+        "body": "Sie möchten Ihre Steuern, Ihre Buchhaltung oder Ihr Lohnwesen in verlässliche Hände geben? Sie legen Wert auf eine persönliche Betreuung mit gleichbleibendem Ansprechpartner, auf individuelle Strategien und auf ein angenehmes Miteinander?\n\nRufen Sie mich an, schreiben Sie mir eine E-Mail oder nutzen Sie das nachstehende Formular zur Kontaktaufnahme. Gemeinsam besprechen wir in Ruhe, ob und in welcher Form ich Sie am besten unterstützen kann.\n\nSchön, dass ich Ihr Interesse geweckt habe. Sie haben noch Fragen? Rufen Sie mich an oder senden Sie mir eine E-Mail, ich helfe Ihnen sehr gerne weiter.\n\nzur Kenntnis genommen. Ich erteile Ihnen die Erlaubnis, meine Angaben zur Kontaktaufnahme und für Rückfragen dauerhaft zu speichern. (Diese Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie eine E-Mail an",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Hier erfahren Sie mehr über Treuhand Luzern, aktuelle Themen vom Treuhandbüro und News aus dem Themen Buchhaltung und Firmengründung",
+        "body": "Neue Gesetze, aktuelle Trends und Entwicklungen – ich bleibe für Sie stets auf dem Laufenden und bewerte die aktuellen Geschehnisse für Sie.\n\nGeschäftsfahrzeuge sind für viele Unternehmen unverzichtbar. Erfahren Sie, wie sie steuerlich und mehrwertsteuerlich korrekt behandelt werden – inklusive Elektrofahrzeuge.\n\nAb 2025 wird das Referenzalter für Frauen schrittweise erhöht. Die AHV-21-Reform bringt wichtige Änderungen für Arbeitgeber und Versicherte – insbesondere bei Renten, Übergangsjahrgängen und HR-Prozessen.\n\nTrinkgelder fliessen in die Bemessungsgrundlage der Mehrwertsteuer ein: nun sind keine Bedenken mehr erforderlich.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Der Inhaber einer AG oder GmbH tritt meistens in einer Doppelfunktion auf: Er ist Angestellter und Anteilseigner. Steueroptimierung ist ein wichtiges Thema.",
+        "body": "Um Steuerlast und Sozialabgaben gering zu halten, setzen einige Unternehmen bewusst einen niedrigen Lohn für den Inhaber an. Dieser kann bei einer Prüfung revidiert werden, wenn die ausgeschüttete Dividende als zu hoch identifiziert wird (niedriger als 10 % des Unternehmenswerts) und der Lohn analog zur Lohntabelle des Bundes als nicht angemessen betrachtet wird. AHV und SUVA nehmen in diesem Fall eine Lohnanpassung vor, die sich auch auf die Steuerlast auswirkt und die Festsetzung von Schuldzinsen nach sich zieht.\n\nEin Lohnverzicht als Inhaber ist prinzipiell möglich, da die Gesellschaft und er zwei getrennte Rechtspersönlichkeiten sind, selbst, wenn es sich um Einpersonengesellschaften handelt. Der Gedanke an einen Lohnverzicht als Inhaber liegt dabei nahe, dabei muss aber bedacht werden, dass trotzdem Mindestbeiträge an AHV/IV/EO gezahlt werden müssen und dass die Entnahme von Vermöge",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "Trinkgelder fliessen in die Bemessungsgrundlage der Mehrwertsteuer ein: nun sind keine Bedenken mehr erforderlich.",
+        "body": "Im vergangenen Jahr war ungewiss, ob Trinkgelder in bestimmten Fällen in Zukunft steuerpflichtig sein könnten. Lange Zeit schien es so, als ob die Eidgenössische Steuerverwaltung (ESTV) an ihrer diesbezüglichen Position festhalten würde. Kurz vor Weihnachten hat sie jedoch ihren Standpunkt geändert.\n\nFür meine Mandantin, die mit erheblichen Umsetzungsproblemen konfrontiert war, stellte diese Entscheidung ein unerwartetes Weihnachtsgeschenk dar. Da es sich jedoch um eine Gabe an alle Branchen handelt, in denen Trinkgelder üblich sind, möchte ich dieses Geschenk gerne weitergeben.\n\nUm die weitreichende Bedeutung dieser Frage zu verstehen, ist ein Rückblick auf ihre Entstehung notwendig.\n\nDer Umfang der Trinkgelder lässt sich bei Barzahlung nicht genau bestimmen. Im Rahmen einer bargeldlosen Bezahlung können sie nun genau beziffert werden. Dies kommt nun auch den Behörden entgegen, die sich",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/sutertreuhand-ch/pool/92adb2056d__mwst_firmengruendung-11501e60.jpg"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "AG gründen einfach online in Zürich und Horgen - Ihr kompetentes ☝ Treuhandbüro im Bereich ✅Firmengründung ✅AG gründen ✅online ✅bereits ab CHF 450",
+        "body": "Profitieren Sie von meiner Expertise und umfassenden Unterstützung bei Ihrer Firmengründung.\n\nOR) kann von einer oder mehreren natürlichen oder juristischen Personen gegründet werden. Diese stellen ein festgelegtes Kapital zur Verfügung, das in einzelne Anteile, sogenannte Aktien, unterteilt ist.\n\nIn der Schweiz zählt die AG zusammen mit der GmbH zu den am häufigsten gewählten Rechtsformen. Sie bietet aufgrund ihrer Regelungen zur Haftung und Kapitalstruktur auch für kleinere Unternehmen zahlreiche Vorteile.\n\nFür die Schulden der Aktiengesellschaft haftet ausschließlich das Gesellschaftsvermögen. Aktionäre tragen im Falle eines Konkurses lediglich das Risiko, ihr eingebrachtes Aktienkapital zu verlieren.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Steuern",
+        "body": "Buchhaltung, Steuern und Firmengründungen für KMU und Privatpersonen in Luzern und Zürich."
+      },
+      {
+        "title": "Buchhaltung",
+        "body": "Eine professionelle Buchhaltung schafft Sicherheit und spart wertvolle Zeit. Ich übernehme Ihre Finanzbuchhaltung zuverlässig, effizient und zu einem fairen Fixpreis. Dank moderner digitaler Lösungen können Sie sich auf Ihr Unternehmen konzentrieren, während ich mich um Ihre Zahlen kümmere."
+      },
+      {
+        "title": "Lohnwesen",
+        "body": "Die Lohnadministration erfordert Fachwissen und Sorgfalt. Ich übernehme für Sie die monatlichen Lohnabrechnungen, Sozialversicherungsdeklarationen sowie An- und Abmeldungen bei den Versicherungen. Gerne unterstütze ich Sie auch bei der Gestaltung und Überprüfung von Arbeitsverträgen."
+      },
+      {
+        "title": "Steuerberatung und Steuererklärung",
+        "body": "Steuern bieten oft Sparpotenzial – vorausgesetzt, sie werden fachgerecht geplant und erstellt. Ich unterstütze Sie bei Ihrer Steuererklärung und berate Sie kompetent, damit Sie alle gesetzlichen Möglichkeiten zur Steueroptimierung ausschöpfen und keine Chancen ungenutzt bleiben."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Suter Team",
+        "role": "Geschäftsführung",
+        "initials": "SU",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "18+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "value": "112000+",
+        "label": "Unternehmen"
+      }
+    ]
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "RAB/zugel. Revisor",
+      "bexio",
+      "infoniqa",
+      "klara"
+    ],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 (0) 41 911 25 20",
+      "email": "contact@sutertreuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Suter Treuhand",
+    "tagline": "Vertrauensvolle Treuhandgesellschaft Schweiz ☝ Suter Treuhand individuelle Treuhanddienstleistungen ✅ Kompetenz und Diskretion ✅ Besuchen Sie mich!",
+    "logo": "/images/sutertreuhand-ch/pool/ace24b0457__logo-suter-treuhand.svg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Luzern",
+          "+41 (0) 41 911 25 20",
+          "contact@sutertreuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

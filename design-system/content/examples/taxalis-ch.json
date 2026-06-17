@@ -1,0 +1,878 @@
+{
+  "meta": {
+    "firm": "Taxalis Treuhand AG",
+    "domain": "taxalis.ch",
+    "archetype": "swiss-digital",
+    "lookId": "uds-warm-editorial",
+    "sourceUrl": "https://www.taxalis.ch/",
+    "basePresetId": "uds-warm-editorial",
+    "look": {
+      "meta": {
+        "id": "taxalis-ch-brand",
+        "name": "Unter dem Strich Warm Editorial · brand-generated",
+        "mood": "Boutique editorial on warm paper; sharp corners, hairline borders, ink-blue + rose accents, snappy underline link motion.",
+        "source": "Unter-Dem-Strich + generated accent",
+        "derived": [
+          "color.surface (#FFFFFF cards on paper)",
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAECF6 tint)",
+          "base: uds-warm-editorial",
+          "accent #2C4C96 (generated · no scraped colour)",
+          "heading: Faustina (scraped)",
+          "body: Raleway (scraped)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "warm",
+        "corner": "sharp",
+        "density": "airy",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FAF9F6",
+        "surface": "#FFFFFF",
+        "text": "#1C1C1A",
+        "textMuted": "#8A8782",
+        "border": "#E7E4DD",
+        "primary": "#2C4C96",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EAEBEE",
+        "secondary": "#2D99B4",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Raleway\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Faustina\", Georgia, \"Times New Roman\", serif",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "serif-editorial"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "semibold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "medium"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-24",
+        "rhythm": "airy",
+        "containerMax": "1200px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 200,
+        "easing": "ease-out",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "warm-paper",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-bg": "#FAF9F6",
+        "--color-brand-text": "#1C1C1A",
+        "--color-brand-blue": "#2C3E91",
+        "--color-brand-rose": "#E3A39B",
+        "--color-brand-border": "#E7E4DD",
+        "--color-brand-muted": "#8A8782",
+        "--font-sans": "Inter",
+        "--font-display": "Plus Jakarta Sans",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "palette": [],
+      "heading": {
+        "family": "Faustina",
+        "serif": true
+      },
+      "body": {
+        "family": "Raleway",
+        "serif": false
+      },
+      "fontsSeen": [
+        "Faustina",
+        "Raleway"
+      ],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [
+      "Faustina",
+      "Raleway"
+    ],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "footer.tagline",
+      "look.colors (generated)",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "services.text",
+      "faq",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "services.images",
+      "media.documents",
+      "brand.fonts"
+    ]
+  },
+  "media": {
+    "logo": "/images/taxalis-ch/pool/16a88d3fb8__taxalis_logo.png",
+    "hero": "/images/taxalis-ch/hero.jpg",
+    "badges": [],
+    "photos": [
+      "/images/taxalis-ch/pool/0273459226__Bahnhofstrasse_20128-132_2C_20Wetzikon_202.png",
+      "/images/taxalis-ch/pool/fe04765221__Eichholzstrasse_209_2C_20Bertschikon.png",
+      "/images/taxalis-ch/pool/909905b827__Hofstrasse_20106_2C_208620_20Wetzikon_Angepasst.JPG.png",
+      "/images/taxalis-ch/pool/4ffab9de92__Carmenstrasse_2045_2C_208032_20Z_C3_BCrich.png",
+      "/images/taxalis-ch/pool/fc2e8a611a__Fochenmattweg_202_2C_208624_20Gr_C3_BCt.JPG",
+      "/images/taxalis-ch/pool/02fdfe29a3__T_C3_B6sstalstrasse_20102_104_2C_208400_20Winterthur_komp..png",
+      "/images/taxalis-ch/pool/d2db5f5dac__Trichtenhausenstrasse_20130_2C_208053_20Z_C3_BCrich.JPG",
+      "/images/taxalis-ch/pool/bb865aae7a__Adetswilerstrasse_206_2C_208344_20B_C3_A4retswil_komp..png",
+      "/images/taxalis-ch/pool/8bde750eba__Tr_C3_BCbelstrasse_2062_2C_208712_20St_C3_A4fak_komp..png",
+      "/images/taxalis-ch/pool/f20e69cff5__Saumstrasse_2024_2C_208625_20Gossau_20ZH.JPG",
+      "/images/taxalis-ch/pool/940e5f97c3__Haldenstrasse_205_2C_208625_20Gossau.JPG",
+      "/images/taxalis-ch/pool/fd51ec5397__Schlossbergstrasse_2040_2C_208820_20W_C3_A4denswil.JPG",
+      "/images/taxalis-ch/pool/22e1dda77a__Weiherstrasse_202_2C_208620_20Wetzikon.JPG",
+      "/images/taxalis-ch/pool/e8e06e9a0b__Br_C3_BCnneliweid_2016_2C_20Hinwil.jpg",
+      "/images/taxalis-ch/pool/0991778cce__F-1.jpeg",
+      "/images/taxalis-ch/pool/85152a79f5__Frohbergstrasse_2068_2C_20Wetzikon.jpg",
+      "/images/taxalis-ch/pool/a9074e7a25__Web_Header.jpg",
+      "/images/taxalis-ch/pool/6c37450ed2__Titelbild_20DT_20Druck.JPG",
+      "/images/taxalis-ch/pool/12cb4eff28__Immobilien-und-Steuern-Webseite.jpg",
+      "/images/taxalis-ch/pool/9adfcb6712__Taxalis_News_August_MWST_Erhoehung_Website_718x313px.jpg"
+    ],
+    "serviceImages": {
+      "Steuerberatung": "/images/taxalis-ch/pool/12cb4eff28__Immobilien-und-Steuern-Webseite.jpg",
+      "Mehrwertsteuer": "/images/taxalis-ch/pool/9adfcb6712__Taxalis_News_August_MWST_Erhoehung_Website_718x313px.jpg"
+    },
+    "documents": [
+      {
+        "src": "/files/taxalis-ch/72971a0ad1__Neuerungs-Schulung_202025_20Lohn.pdf",
+        "title": "ABACUS - Neuerungs-Schulung Lohn vom 08. September 2025",
+        "kind": "pdf",
+        "bytes": 1319615
+      },
+      {
+        "src": "/files/taxalis-ch/866b433b3f__Neuerungs-Schulung_202025.pdf",
+        "title": "ABACUS - Neuerungs-Schulung vom 03. September 2025",
+        "kind": "pdf",
+        "bytes": 1292433
+      },
+      {
+        "src": "/files/taxalis-ch/8067ff2ea6__anmeldeformular_20gewerbe.pdf",
+        "title": "Anmeldeformular Gewerbe Taxalis",
+        "kind": "pdf",
+        "bytes": 188659
+      },
+      {
+        "src": "/files/taxalis-ch/11b1ca73d6__anmeldeformular_20parkplatz.pdf",
+        "title": "Anmeldeformular Parkplatz Taxalis",
+        "kind": "pdf",
+        "bytes": 128335
+      },
+      {
+        "src": "/files/taxalis-ch/5872bb2209__Anmeldeformular_Wohnung.pdf",
+        "title": "Anmeldeformular Wohnung Taxalis",
+        "kind": "pdf",
+        "bytes": 1150242
+      },
+      {
+        "src": "/files/taxalis-ch/71cde5cc8e__Checkliste_20Steuern_20EN.pdf",
+        "title": "Checklist for Swiss tax declaration",
+        "kind": "pdf",
+        "bytes": 87460
+      },
+      {
+        "src": "/files/taxalis-ch/16852efd2d__Steuercheckliste_20Taxalis.pdf",
+        "title": "Checkliste Steuererklärung",
+        "kind": "pdf",
+        "bytes": 1815058
+      },
+      {
+        "src": "/files/taxalis-ch/69f062d8a8__Inserat_20Mandatsleiter_in_20Treuhand_20Winterthur_20-_20Teilzeit.pdf",
+        "title": "Wir suchen per sofort oder nach Vereinbarung eine/n Mandatsleiter/in Treuhand (m/w/d, 50-60%) für unser Team Treuhand in Winterthur",
+        "kind": "pdf",
+        "bytes": 634483
+      },
+      {
+        "src": "/files/taxalis-ch/d3a6ed5d30__Inserat_20Mandatsleiter_in_20Treuhand.pdf",
+        "title": "Wir suchen per sofort oder nach Vereinbarung eine/n Mandatsleiter/in Treuhand (m/w/d, 80-100%) für unser Team Treuhand in Wetzikon",
+        "kind": "pdf",
+        "bytes": 263566
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/taxalis-ch/pool/16a88d3fb8__taxalis_logo.png",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 7327,
+        "width": 436,
+        "height": 76,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/taxalis-ch/pool/a9074e7a25__Web_Header.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 77817,
+        "width": 1920,
+        "height": 409,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/6c37450ed2__Titelbild_20DT_20Druck.JPG",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 37000,
+        "width": 562,
+        "height": 400,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/taxalis-ch/pool/fe04765221__Eichholzstrasse_209_2C_20Bertschikon.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 1066623,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/909905b827__Hofstrasse_20106_2C_208620_20Wetzikon_Angepasst.JPG.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 805436,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/4ffab9de92__Carmenstrasse_2045_2C_208032_20Z_C3_BCrich.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 769161,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/fc2e8a611a__Fochenmattweg_202_2C_208624_20Gr_C3_BCt.JPG",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 349804,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/02fdfe29a3__T_C3_B6sstalstrasse_20102_104_2C_208400_20Winterthur_komp..png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 990165,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/d2db5f5dac__Trichtenhausenstrasse_20130_2C_208053_20Z_C3_BCrich.JPG",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 284684,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/bb865aae7a__Adetswilerstrasse_206_2C_208344_20B_C3_A4retswil_komp..png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 947943,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/8bde750eba__Tr_C3_BCbelstrasse_2062_2C_208712_20St_C3_A4fak_komp..png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 871182,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/f20e69cff5__Saumstrasse_2024_2C_208625_20Gossau_20ZH.JPG",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 385740,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/0273459226__Bahnhofstrasse_20128-132_2C_20Wetzikon_202.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 418728,
+        "width": 1053,
+        "height": 790,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/940e5f97c3__Haldenstrasse_205_2C_208625_20Gossau.JPG",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 417932,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/fd51ec5397__Schlossbergstrasse_2040_2C_208820_20W_C3_A4denswil.JPG",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 113934,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/22e1dda77a__Weiherstrasse_202_2C_208620_20Wetzikon.JPG",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 279487,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/e8e06e9a0b__Br_C3_BCnneliweid_2016_2C_20Hinwil.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 602739,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/0991778cce__F-1.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 322014,
+        "width": 1600,
+        "height": 900,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/85152a79f5__Frohbergstrasse_2068_2C_20Wetzikon.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 486433,
+        "width": 1600,
+        "height": 1178,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/12cb4eff28__Immobilien-und-Steuern-Webseite.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 19496,
+        "width": 718,
+        "height": 313,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/9adfcb6712__Taxalis_News_August_MWST_Erhoehung_Website_718x313px.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 32486,
+        "width": 718,
+        "height": 313,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/taxalis-ch/pool/a9074e7a25__Web_Header.jpg",
+      "/images/taxalis-ch/pool/fe04765221__Eichholzstrasse_209_2C_20Bertschikon.png",
+      "/images/taxalis-ch/pool/909905b827__Hofstrasse_20106_2C_208620_20Wetzikon_Angepasst.JPG.png"
+    ]
+  },
+  "nav": {
+    "brand": "Taxalis Treuhand AG",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/taxalis-ch/pool/16a88d3fb8__taxalis_logo.png"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Winterthur",
+    "titleLead": "Unsere Dienstleistungen",
+    "titleAccent": "",
+    "lede": "Buchhaltung, Steuern und Beratung für KMU und Privatpersonen in Winterthur. Persönlich, präzise und vorausschauend an Ihrer Seite.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Persönliche Treuhand-Betreuung für KMU und Private in Winterthur.",
+    "asideAttribution": "Taxalis Treuhand AG",
+    "image": "/images/taxalis-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Die Abschaffung des Eigenmietwerts und die damit verknüpften Aspekte haben zahlreiche Auswirkungen auf unterschiedlicher Ebene. Wer profitiert? Wer verliert? Welche Folgen sind zu relativieren? Lesen Sie unsere Auslegeordnung bzw. unseren Überblick.",
+        "body": "Die Abschaffung des Eigenmietwerts und die damit verknüpften Aspekte haben zahlreiche Auswirkungen auf unterschiedlicher Ebene. Wer profitiert? Wer verliert? Welche Folgen sind zu relativieren? Lesen Sie unsere Auslegeordnung bzw. unseren Überblick.\n\nDer Regierungsrat des Kantons Zürich hat die bislang geltende Weisung zur Neubewertung von Liegenschaften aus dem Jahr 2009 überarbeitet, um mit der Entwicklung der Immobilienpreise Schritt zu halten und Ungerechtigkeiten zu beseitigen. Doch was sind die konkreten Folgen?\n\nZuerst gilt es, sich einen Überblick zu verschaffen, worüber wir eigentlich abstimmen. Welches sind die wichtigsten Elemente der geplanten Reform? Was ist die jeweilige Idee dahinter? Inwieweit sind Sie überhaupt betroffen?\n\nDie modernisierte Alters- und Hinterlassenenversicherung tritt am 1. Januar 2024 in Kraft. Neue Mehrwertsteuersätze ergänzen die AHV-Finanzierung. Was",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/taxalis-ch/pool/12cb4eff28__Immobilien-und-Steuern-Webseite.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "Per 1. Januar 2024 gelten neue Mehrwertsteuersätze in der Schweiz. Die Anpassung der indirekten Konsumsteuer dient der AHV-Finanzierung. Um wie viel Prozente die Sätze angehoben werden und worauf Ihr Unternehmen achten muss, lesen Sie hier.",
+        "body": "Mit Konsum Steuereinnahmen generieren – das Konzept der Mehrwertsteuer lässt sich in einem Satz erklären. Seit 1995 zahlt man in der Schweiz auf fast jedes Produkt und auf fast jede Dienstleistung eine Mehrwertsteuer. Unternehmen geben diese im Anschluss an den Staat weiter. Die Mehrheit der KMU in der Schweiz überschreiten die Umsatzgrenze von CHF 100'000 pro Jahr und sind im Normalfall umsatzsteuerpflichtig.\n\nDie Mehrwertsteuern sind eine der essenziellsten Einnahmequellen des Bundes: Mit über 24 Milliarden Franken bilden sie 2022 mehr als 30 Prozent der Gesamteinnahmen – Tendenz steigend. Denn per 1. Januar gelten neue Mehrwertsteuersätze.\n\nIm nächsten Jahr bezahlt man für Produkte wie digitale Geräte oder Dienstleistungen wie ein Fitnessabonnement 0.4 Prozent mehr – so hoch fällt die Differenz des angepassten MWST-Normalsatzes aus – von 7.7 Prozent auf 8.1 Prozent. Für Nahrungsmittel",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/taxalis-ch/pool/9adfcb6712__Taxalis_News_August_MWST_Erhoehung_Website_718x313px.jpg"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Unsere engagierten Experten nehmen sich gerne für Sie Zeit, sich Ihren Steuerangelegenheiten anzunehmen und diese für Sie optimal umzusetzen.",
+        "body": "Unsere engagierten Experten nehmen sich gerne für Sie Zeit, sich Ihren Steuerangelegenheiten anzunehmen und diese für Sie optimal umzusetzen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Taxalis Team",
+        "role": "Geschäftsführung",
+        "initials": "TA",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "abacus",
+      "klara",
+      "sage"
+    ],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "Was bedeutet die Teuerung für den Immobilienmarkt?",
+        "a": "Damit erhöhen sich auch die Hypothekarzinsen. Für eine 10-jährige Festhypothek zahlt man etwa 3 Prozent, eine Saron-Hypothek kostet ungefähr 2,4 Prozent."
+      },
+      {
+        "q": "Wie ist der aktuelle Zustand des Immobilienmarkts?",
+        "a": "Das Angebot an Wohneigentum ist hierzulande knapp – diese ungünstige Lage für potenzielle Hauseigentümerinnen und Hauseigentümer wird sich nicht so schnell ändern. Das hat mehrere Gründe: Der Anstieg der Hypothekarzinsen und die Erhöhung der Baukosten führen zu einer Verteuerung der Bautätigkeit, die Anzahl von Neubaubewilligungen nimmt ab. Gleichzeitig bleiben zum Verkauf ausgeschriebene Liegenschaften nicht lange auf dem Markt."
+      },
+      {
+        "q": "Ich besitze bereits eine Liegenschaft. Was soll ich jetzt tun?",
+        "a": "Das kommt auf Ihre individuelle Situation darauf an. Falls Sie eine Festhypothek haben, sind Sie vor steigenden Zinsen gut geschützt. Eine Saron-Hypothek mag wegen den Zinsschwankungen etwas riskant klingen, aber: Sie wird auf lange Sicht nur teurer als etwa 5- oder 10-jährige Festhypotheken, wenn der Leitzins mehrere Jahre auf einem Niveau von über 2 Prozent liegt. Bis jetzt waren Festmarkthypotheken fast immer kostspieliger als Saron-Hypotheken. Eine persönliche Beratung ist aber immer zu empfehlen, wenn es um Geldfragen geht."
+      },
+      {
+        "q": "Benötigen Sie Unterstützung bei der Hypothekenbewirtschaftung Ihrer Immobilie?",
+        "a": "Bei Taxalis steht eine klare Kommunikation im Vordergrund. Wir weisen Sie darauf hin, dass wir mit Ihrem Einverständnis nur funktionelle Cookies einsetzen, um Ihnen eine bestmögliche User Experience auf unserer Website anzubieten."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 52 260 20 10",
+      "email": "andrea.vettiger@taxalis.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Taxalis Treuhand AG",
+    "tagline": "Ihr Treuhandpartner in Winterthur – Buchhaltung, Steuern und Beratung für KMU.",
+    "logo": "/images/taxalis-ch/pool/16a88d3fb8__taxalis_logo.png",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Winterthur",
+          "+41 52 260 20 10",
+          "andrea.vettiger@taxalis.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

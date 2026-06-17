@@ -1,0 +1,565 @@
+{
+  "meta": {
+    "firm": "Urania Treuhand AG",
+    "domain": "urania-treuhand.ch",
+    "archetype": "boutique",
+    "lookId": "zueri-swiss",
+    "sourceUrl": "https://www.urania-treuhand.ch/",
+    "basePresetId": "zueri-swiss",
+    "look": {
+      "meta": {
+        "id": "urania-treuhand-ch-brand",
+        "name": "Züri Swiss Blue · brand-tinted",
+        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
+        "source": "Züri-Treuhand + scraped brand",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAF1F8 tint)",
+          "color.secondaryFg (#FFFFFF)",
+          "color.textMuted (#737373 neutral-500)",
+          "base: zueri-swiss",
+          "accent #009916 (scraped · medium)",
+          "heading: Montserrat (scraped)",
+          "body: Karla (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F9FAFB",
+        "text": "#333333",
+        "textMuted": "#737373",
+        "border": "#EAEAEA",
+        "primary": "#009916",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EBF7EC",
+        "secondary": "#009916",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Karla\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Montserrat\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-geometric"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-16",
+        "rhythm": "normal",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-blue": "#084687",
+        "--color-accent-blue": "#0b549f",
+        "--color-charcoal": "#333333",
+        "--color-soft-gray": "#F9FAFB",
+        "--color-border-gray": "#EAEAEA",
+        "--font-sans": "Inter",
+        "--font-serif": "Playfair Display",
+        "--font-display": "Space Grotesk",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "primary": "#009916",
+      "palette": [
+        "#009916",
+        "#54B435",
+        "#379237",
+        "#0F172A",
+        "#2F3B40",
+        "#2C541D"
+      ],
+      "heading": {
+        "family": "Montserrat",
+        "serif": false
+      },
+      "fontsSeen": [
+        "Source Sans Pro",
+        "Montserrat"
+      ],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [
+      "Montserrat"
+    ],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": false,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq",
+      "services.text"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "team.members",
+      "team.photos",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "brand.colors",
+      "brand.fonts"
+    ]
+  },
+  "media": {
+    "logo": "/images/urania-treuhand-ch/pool/cf48162133__cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+    "hero": "/images/urania-treuhand-ch/hero.jpeg",
+    "badges": [],
+    "photos": [
+      "/images/urania-treuhand-ch/pool/7a8e179ab8__064A9273-scaled.jpg",
+      "/images/urania-treuhand-ch/pool/ce7d71f41c__064A9276-scaled.jpg",
+      "/images/urania-treuhand-ch/pool/626c957ae8__064A9323-scaled.jpg",
+      "/images/urania-treuhand-ch/pool/0fbc2f8c32__064A9293-scaled.jpg",
+      "/images/urania-treuhand-ch/pool/d1dfa62a4b__Design_ohne_Titel-3-removebg-preview.png",
+      "/images/urania-treuhand-ch/pool/3a54e8f2f7__cropped-064A9275-scaled-1-192x192.jpg",
+      "/images/urania-treuhand-ch/pool/62d7f18f66__roger_neu.png"
+    ],
+    "serviceImages": {},
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/urania-treuhand-ch/pool/cf48162133__cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+        "kind": "logo",
+        "alt": "logo urania treuhand cmyk",
+        "bytes": 23270,
+        "width": 1024,
+        "height": 550,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/urania-treuhand-ch/pool/d1dfa62a4b__Design_ohne_Titel-3-removebg-preview.png",
+        "kind": "hero",
+        "alt": "logo_transp.weiss",
+        "bytes": 15876,
+        "width": 500,
+        "height": 500,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/urania-treuhand-ch/pool/62d7f18f66__roger_neu.png",
+        "kind": "photo",
+        "alt": "roger neu",
+        "bytes": 691984,
+        "width": 1066,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/urania-treuhand-ch/pool/7a8e179ab8__064A9273-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 171646,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/urania-treuhand-ch/pool/ce7d71f41c__064A9276-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 137707,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/urania-treuhand-ch/pool/626c957ae8__064A9323-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 130513,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/urania-treuhand-ch/pool/0fbc2f8c32__064A9293-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 88472,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/urania-treuhand-ch/pool/3a54e8f2f7__cropped-064A9275-scaled-1-192x192.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 5104,
+        "width": 192,
+        "height": 192,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/urania-treuhand-ch/pool/7a8e179ab8__064A9273-scaled.jpg",
+      "/images/urania-treuhand-ch/pool/ce7d71f41c__064A9276-scaled.jpg",
+      "/images/urania-treuhand-ch/pool/626c957ae8__064A9323-scaled.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Urania Treuhand AG",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen",
+    "logo": "/images/urania-treuhand-ch/pool/cf48162133__cropped-Logo_urania_treuhand_cmyk-1024x550.png"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "„Bring deine Skills ein – wir pushen den Rest.“",
+    "titleAccent": "",
+    "lede": "Willkommen bei der Urania Treuhand AG dein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung Ob Start-up, KMU, Verein oder",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Willkommen bei der Urania Treuhand AG dein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung Ob Start-up, KMU, Verein oder",
+    "asideAttribution": "Urania Treuhand AG",
+    "image": "/images/urania-treuhand-ch/hero.jpeg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Wir übernehmen revision vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Roger Brunner",
+        "role": "Geschäftsführer",
+        "initials": "RB",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Romea Wieland",
+        "role": "Stv. Geschäftsführerin / seit 2018",
+        "initials": "RW",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Sachbearbeiterin Treuhand",
+        "role": "und Rechnungswesen",
+        "initials": "ST",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/urania-treuhand-ch/team/2-treuhand.jpeg"
+      },
+      {
+        "name": "Sachbearbeiter Treuhand",
+        "role": "und Rechnungswesen",
+        "initials": "ST",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/urania-treuhand-ch/team/3-treuhand.jpeg"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis"
+    ],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 71 744 09 71",
+      "email": "%20info@urania-treuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Urania Treuhand AG",
+    "tagline": "Willkommen bei der Urania Treuhand AG dein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung Ob Start-up, KMU, Verein oder",
+    "logo": "/images/urania-treuhand-ch/pool/cf48162133__cropped-Logo_urania_treuhand_cmyk-1024x550.png",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 71 744 09 71",
+          "%20info@urania-treuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

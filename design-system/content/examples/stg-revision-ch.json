@@ -1,0 +1,899 @@
+{
+  "meta": {
+    "firm": "Schweizerische Treuhandgesellschaft Revision AG",
+    "domain": "stg-revision.ch",
+    "archetype": "swiss-digital",
+    "lookId": "zueri-swiss",
+    "sourceUrl": "https://www.stg-revision.ch/",
+    "basePresetId": "zueri-swiss",
+    "look": {
+      "meta": {
+        "id": "stg-revision-ch-brand",
+        "name": "Züri Swiss Blue · brand-generated",
+        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
+        "source": "Züri-Treuhand + generated accent",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAF1F8 tint)",
+          "color.secondaryFg (#FFFFFF)",
+          "color.textMuted (#737373 neutral-500)",
+          "base: zueri-swiss",
+          "accent #66418B (generated · scraped #7A00DF rejected: low)",
+          "heading: Familjen Grotesk (inventory)",
+          "body: Mulish (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F9FAFB",
+        "text": "#333333",
+        "textMuted": "#737373",
+        "border": "#EAEAEA",
+        "primary": "#66418B",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#F3F0F6",
+        "secondary": "#4C45A5",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-16",
+        "rhythm": "normal",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-blue": "#084687",
+        "--color-accent-blue": "#0b549f",
+        "--color-charcoal": "#333333",
+        "--color-soft-gray": "#F9FAFB",
+        "--color-border-gray": "#EAEAEA",
+        "--font-sans": "Inter",
+        "--font-serif": "Playfair Display",
+        "--font-display": "Space Grotesk",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "primary": "#7A00DF",
+      "secondary": "#007CBA",
+      "palette": [
+        "#7A00DF",
+        "#007CBA",
+        "#006BA1",
+        "#005A87",
+        "#34E2E4",
+        "#4721FB",
+        "#AB1DFE",
+        "#FAACA8",
+        "#67A671",
+        "#FDD79A",
+        "#004A59",
+        "#330968"
+      ],
+      "fontsSeen": [],
+      "confidence": "low"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "stats",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "echte Kennzahlen gefunden",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq",
+      "look.colors (generated)"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "team.photos",
+      "stats",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "services.images",
+      "media.documents"
+    ]
+  },
+  "media": {
+    "logo": "/images/stg-revision-ch/pool/aebf7024bf__Logo-STG-Revision-Treuhand.svg",
+    "hero": "/images/stg-revision-ch/hero.jpg",
+    "badges": [
+      "/images/stg-revision-ch/pool/9c46f73217__Logo-veb-ch-1.svg",
+      "/images/stg-revision-ch/pool/af3c22fb0a__Logo-Treuhand-Suisse.svg",
+      "/images/stg-revision-ch/pool/e809612ceb__Logo-Expert-Suisse.svg",
+      "/images/stg-revision-ch/pool/e2f6afdc54__Logo-GGI-Independent-Member.svg",
+      "/images/stg-revision-ch/pool/4423e8dccc__Logo-HEV-Schweiz.svg"
+    ],
+    "photos": [
+      "/images/stg-revision-ch/pool/e68d451acf__Philipp_Akeret_neu-Kopie-Web.jpg",
+      "/images/stg-revision-ch/pool/bc95f67a00__Christine_Perler_neu-Kopie-Web.jpg",
+      "/images/stg-revision-ch/pool/c701d8046b__Schweizerische-Treuhandgesellschaft-Revision-Kontakt.jpg",
+      "/images/stg-revision-ch/pool/6e1c1e5974__Schweizerische-Treuhandgesellschaft-Revision-Lohnadministration.jpg",
+      "/images/stg-revision-ch/pool/5170c0d51b__Schweizerische-Treuhandgesellschaft-Revision-U_ber-uns.jpg",
+      "/images/stg-revision-ch/pool/e45f8043a3__Schweizerische-Treuhandgesellschaft-Revision-Gestion.jpg",
+      "/images/stg-revision-ch/pool/f46c68880e__Akeret_Philipp.jpg",
+      "/images/stg-revision-ch/pool/1939a5f81e__Schweizerische-Treuhandgesellschaft-Revision-Strukturen-oder-Organisation.jpg",
+      "/images/stg-revision-ch/pool/3be48dc810__Schweizerische-Treuhandgesellschaft-Revision-Geschichte.jpg",
+      "/images/stg-revision-ch/pool/51a3ba9e2e__Schweizerische-Treuhandgesellschaft-Revision-Nachfolgeregelung.jpg",
+      "/images/stg-revision-ch/pool/da16435de3__Schweizerische-Treuhandgesellschaft-Revision-Finanzielle-Fu_hrung.jpg",
+      "/images/stg-revision-ch/pool/30e6d3d167__Schweizerische-Treuhandgesellschaft-Revision-Recht.jpg",
+      "/images/stg-revision-ch/pool/66a55c923c__Schweizerische-Treuhandgesellschaft-Revision-eingeschra_nkte-und-ordentliche-Rev",
+      "/images/stg-revision-ch/pool/08c98aded7__Schweizerische-Treuhandgesellschaft-Revision-Spezialmandate.jpg",
+      "/images/stg-revision-ch/pool/53a60ecb74__Schweizerische-Treuhandgesellschaft-Revision-Steuerberatung.jpg",
+      "/images/stg-revision-ch/pool/cc6fe29d09__Schweizerische-Treuhandgesellschaft-Revision-Sonderpru_fungen.jpg",
+      "/images/stg-revision-ch/pool/e36f08f234__Schweizerische-Treuhandgesellschaft-Revision-Finanzbuchhaltung.jpg"
+    ],
+    "serviceImages": {
+      "Buchhaltung": "/images/stg-revision-ch/pool/e36f08f234__Schweizerische-Treuhandgesellschaft-Revision-Finanzbuchhaltung.jpg",
+      "Steuerberatung": "/images/stg-revision-ch/pool/53a60ecb74__Schweizerische-Treuhandgesellschaft-Revision-Steuerberatung.jpg",
+      "Lohnadministration": "/images/stg-revision-ch/pool/6e1c1e5974__Schweizerische-Treuhandgesellschaft-Revision-Lohnadministration.jpg",
+      "Revision": "/images/stg-revision-ch/pool/c701d8046b__Schweizerische-Treuhandgesellschaft-Revision-Kontakt.jpg"
+    },
+    "documents": [
+      {
+        "src": "/files/stg-revision-ch/69f8ffdee8__2501xx-Inserat_Teaser-Verkauf_Nachfolge.pdf",
+        "title": "==>",
+        "kind": "pdf",
+        "bytes": 74322
+      },
+      {
+        "src": "/files/stg-revision-ch/66cdcb787b__STG-EXPERT-INFO-2_2023.pdf",
+        "title": "==> STG EXPERT INFO 2_2023",
+        "kind": "pdf",
+        "bytes": 1895457
+      },
+      {
+        "src": "/files/stg-revision-ch/60eee921f0__STG-EXPERTsuisse-INFO-3_2025.pdf",
+        "title": "==> STG.KMU Praxis-Informationen EXPERTsuisse INFO 03/2025",
+        "kind": "pdf",
+        "bytes": 1964517
+      },
+      {
+        "src": "/files/stg-revision-ch/a91aa57058__STG-EXPERTsuisse-INFO-2_2025.pdf",
+        "title": "==> STG.KMU-Praxisinformationen EXPERTsuisse INFO 02/2025",
+        "kind": "pdf",
+        "bytes": 1895685
+      },
+      {
+        "src": "/files/stg-revision-ch/81be789933__2408-Teaser-Verkauf-Nachfolge.pdf",
+        "title": "2408 Teaser Verkauf Nachfolge",
+        "kind": "pdf",
+        "bytes": 74322
+      },
+      {
+        "src": "/files/stg-revision-ch/b72fccb679__211027_AGB_STG_final.pdf",
+        "title": "AGB",
+        "kind": "pdf",
+        "bytes": 87228
+      },
+      {
+        "src": "/files/stg-revision-ch/9d81fde9b0__Datenschutzerklaerung-STG-R.pdf",
+        "title": "Datenschutz",
+        "kind": "pdf",
+        "bytes": 144593
+      },
+      {
+        "src": "/files/stg-revision-ch/5fe45a2e80__STG-EXPERT-INFO-1_2023.pdf",
+        "title": "STG EXPERT INFO 1_2023",
+        "kind": "pdf",
+        "bytes": 1899172
+      },
+      {
+        "src": "/files/stg-revision-ch/c0b1090574__STG-Spektrum-Aktienrecht-2023-Teil-II.pdf",
+        "title": "STG Spektrum Aktienrecht 2023 (Teil II)",
+        "kind": "pdf",
+        "bytes": 72858
+      },
+      {
+        "src": "/files/stg-revision-ch/de45dd1e86__lay_spektrum-aktienrecht_2022_1d.pdf",
+        "title": "STG.Spektrum Neues Aktienrecht 2023",
+        "kind": "pdf",
+        "bytes": 154760
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/stg-revision-ch/pool/aebf7024bf__Logo-STG-Revision-Treuhand.svg",
+        "kind": "logo",
+        "alt": "Logo STG Revision AG",
+        "bytes": 23552,
+        "width": 443.5,
+        "height": 85.9,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/fe978ea9ce__Logo-STG-Revision.svg",
+        "kind": "logo",
+        "alt": "Logo STG Revision AG",
+        "bytes": 23569,
+        "width": 443.5,
+        "height": 85.9,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/9c46f73217__Logo-veb-ch-1.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 2033,
+        "width": 27.3,
+        "height": 35.7,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": []
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/af3c22fb0a__Logo-Treuhand-Suisse.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 2859,
+        "width": 101.859,
+        "height": 20.792,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/e809612ceb__Logo-Expert-Suisse.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 9622,
+        "width": 101.859,
+        "height": 40.37,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/e2f6afdc54__Logo-GGI-Independent-Member.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 13765,
+        "width": 101.859,
+        "height": 25.865,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/4423e8dccc__Logo-HEV-Schweiz.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 2531,
+        "width": 75.3,
+        "height": 30.3,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/e68d451acf__Philipp_Akeret_neu-Kopie-Web.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 124743,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/bc95f67a00__Christine_Perler_neu-Kopie-Web.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 127156,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/c701d8046b__Schweizerische-Treuhandgesellschaft-Revision-Kontakt.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 209097,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/6e1c1e5974__Schweizerische-Treuhandgesellschaft-Revision-Lohnadministration.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 141707,
+        "width": 1024,
+        "height": 663,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/5170c0d51b__Schweizerische-Treuhandgesellschaft-Revision-U_ber-uns.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 100410,
+        "width": 1024,
+        "height": 683,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/e45f8043a3__Schweizerische-Treuhandgesellschaft-Revision-Gestion.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 101167,
+        "width": 1024,
+        "height": 683,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/f46c68880e__Akeret_Philipp.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 101055,
+        "width": 1613,
+        "height": 1075,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/1939a5f81e__Schweizerische-Treuhandgesellschaft-Revision-Strukturen-oder-Organisation.jpg",
+        "kind": "photo",
+        "alt": "Schweizerische Treuhandgesellschaft Revision Strukturen oder Organisation",
+        "bytes": 89531,
+        "width": 1024,
+        "height": 683,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/3be48dc810__Schweizerische-Treuhandgesellschaft-Revision-Geschichte.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 75236,
+        "width": 1024,
+        "height": 683,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/51a3ba9e2e__Schweizerische-Treuhandgesellschaft-Revision-Nachfolgeregelung.jpg",
+        "kind": "photo",
+        "alt": "Schweizerische Treuhandgesellschaft Revision Nachfolgeregelung",
+        "bytes": 74319,
+        "width": 1024,
+        "height": 683,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/da16435de3__Schweizerische-Treuhandgesellschaft-Revision-Finanzielle-Fu_hrung.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 71260,
+        "width": 1024,
+        "height": 768,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/30e6d3d167__Schweizerische-Treuhandgesellschaft-Revision-Recht.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 64907,
+        "width": 1024,
+        "height": 683,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/66a55c923c__Schweizerische-Treuhandgesellschaft-Revision-eingeschra_nkte-und-ordentliche-Rev",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 57352,
+        "width": 1024,
+        "height": 683,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/08c98aded7__Schweizerische-Treuhandgesellschaft-Revision-Spezialmandate.jpg",
+        "kind": "photo",
+        "alt": "Schweizerische Treuhandgesellschaft Revision Spezialmandate",
+        "bytes": 52281,
+        "width": 1024,
+        "height": 769,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/53a60ecb74__Schweizerische-Treuhandgesellschaft-Revision-Steuerberatung.jpg",
+        "kind": "photo",
+        "alt": "Schweizerische Treuhandgesellschaft Revision Steuerberatung",
+        "bytes": 50888,
+        "width": 1024,
+        "height": 737,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/cc6fe29d09__Schweizerische-Treuhandgesellschaft-Revision-Sonderpru_fungen.jpg",
+        "kind": "photo",
+        "alt": "Schweizerische Treuhandgesellschaft Revision Sonderprüfungen",
+        "bytes": 47594,
+        "width": 1024,
+        "height": 680,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/e36f08f234__Schweizerische-Treuhandgesellschaft-Revision-Finanzbuchhaltung.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 39030,
+        "width": 1024,
+        "height": 683,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/stg-revision-ch/pool/e68d451acf__Philipp_Akeret_neu-Kopie-Web.jpg",
+      "/images/stg-revision-ch/pool/bc95f67a00__Christine_Perler_neu-Kopie-Web.jpg",
+      "/images/stg-revision-ch/pool/c701d8046b__Schweizerische-Treuhandgesellschaft-Revision-Kontakt.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Schweizerische Treuhandgesellschaft Revision AG",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/stg-revision-ch/pool/aebf7024bf__Logo-STG-Revision-Treuhand.svg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Willkommen bei uns",
+    "titleAccent": "",
+    "lede": "Willkommen - Die Schweizerische Treuhandgesellschaft bietet Ihnen umfassende Beratungsleistungen von höchster Qualität und das aus einer Hand.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Willkommen - Die Schweizerische Treuhandgesellschaft bietet Ihnen umfassende Beratungsleistungen von höchster Qualität und das aus einer Hand.",
+    "asideAttribution": "Schweizerische Treuhandgesellschaft Revision AG",
+    "image": "/images/stg-revision-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Die Finanzbuchhaltung ist der Kern für jedes gesunde Unternehmen und für uns das Herzstück, um mit Ihnen neue Ziele zu erreichen.",
+        "body": "Die Finanzbuchhaltung ist der Kern für jedes gesunde Unternehmen und für uns das Herzstück, wenn es darum geht mit Ihnen neue Ziele zu erreichen. Gemeinsam erarbeiten wir mit Ihnen massgeschneiderte Lösungen, welche auf Ihre Bedürfnisse zugeschnitten sind. Angefangen mit der persönlichen Beratung bis hin zur kompletten Verwaltung Ihrer Buchhaltung. Wir begleiten Sie als treuer Partner durch den Finanzdschungel. Unser Ziel ist es mit Ihnen ein starkes Fundament zu legen und dank Digitalisierung die Prozesse zu optimieren.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/stg-revision-ch/pool/e36f08f234__Schweizerische-Treuhandgesellschaft-Revision-Finanzbuchhaltung.jpg"
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Steuerberatung für natürliche & juristische Personen - Es ist keine leichte Aufgabe, sich im Dickicht von Steuergesetzen zurechtzufinden.",
+        "body": "Für Unternehmen und Privatpersonen ist es keine leichte Aufgabe, sich im Dickicht von Steuergesetzen und -Reglementen zurechtzufinden. Wir lotsen Sie hindurch. Eine umfassende Beratung unter Berücksichtigung Ihrer unternehmerischen oder persönlichen Pläne bildet die Grundlage für eine optimale Steuerberatung und Steuerplanung. Unsere langjährige Erfahrung in den Bereichen der Unternehmensberatung, Steuern und Finanzplanung gewährleistet Ihnen eine fachliche und professionelle sowie umfassende Betreuung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/stg-revision-ch/pool/53a60ecb74__Schweizerische-Treuhandgesellschaft-Revision-Steuerberatung.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Von Lohnabrechnungen über Quellensteuer bis zur Verbuchung der Versicherungen - wir begleiten Sie durch das Thema der Lohnadministration.",
+        "body": "Von den Lohnabrechnungen über die Quellensteuer bis zur korrekten Verbuchung der Sozialversicherungen – wir begleiten Sie durch das komplexe Thema der Lohnadministration. So gewinnen Sie Zeit um sich auf Ihr Unternehmen zu fokussieren und wir kümmern uns um die steuerrelevanten Bestimmungen. Verlieren Sie keine Zeit und arbeiten Sie Hand in Hand mit uns zusammen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/stg-revision-ch/pool/6e1c1e5974__Schweizerische-Treuhandgesellschaft-Revision-Lohnadministration.jpg"
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Tax consulting and planning for individuals and legal entities - It is no easy task for companies and private individuals to find their way through the thicket of tax laws and regulations.",
+        "body": "It is no easy task for companies and private individuals to find their way through the thicket of tax laws and regulations. We guide you through it. Comprehensive advice, taking into account your business or personal plans, forms the basis for optimal tax advice and tax planning. Our many years of experience in the areas of business consulting, taxes and financial planning guarantee you a professional and comprehensive service.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Philipp Akeret",
+        "role": "Dipl. Wirtschaftsprüfer",
+        "initials": "PA",
+        "bio": "Zugelassene Fachperson für eingeschränkte und ordentliche Revision sowie prüfungssichere Abschlüsse.",
+        "photo": "/images/stg-revision-ch/team/0-akeret.jpg"
+      },
+      {
+        "name": "Donat Riedo",
+        "role": "Dipl. Treuhandexperte",
+        "initials": "DR",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/stg-revision-ch/team/1-riedo.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "120+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "value": "33+",
+        "label": "Mitarbeitende"
+      }
+    ]
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "EXPERTsuisse",
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "klara",
+      "sage"
+    ],
+    "badges": [
+      "/images/stg-revision-ch/pool/9c46f73217__Logo-veb-ch-1.svg",
+      "/images/stg-revision-ch/pool/af3c22fb0a__Logo-Treuhand-Suisse.svg",
+      "/images/stg-revision-ch/pool/e809612ceb__Logo-Expert-Suisse.svg",
+      "/images/stg-revision-ch/pool/e2f6afdc54__Logo-GGI-Independent-Member.svg",
+      "/images/stg-revision-ch/pool/4423e8dccc__Logo-HEV-Schweiz.svg"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 31 310 97 02",
+      "email": "christine.perler@stg.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Schweizerische Treuhandgesellschaft Revision AG",
+    "tagline": "Willkommen - Die Schweizerische Treuhandgesellschaft bietet Ihnen umfassende Beratungsleistungen von höchster Qualität und das aus einer Hand.",
+    "logo": "/images/stg-revision-ch/pool/aebf7024bf__Logo-STG-Revision-Treuhand.svg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 31 310 97 02",
+          "christine.perler@stg.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

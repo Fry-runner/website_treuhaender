@@ -1,6 +1,7 @@
 import React from "react";
 import { Eyebrow } from "./primitives";
 import { useNavigate } from "../compose/nav-context";
+import { Icon } from "../icons/iconSets";
 
 export interface MoreLink { label: string; href: string; }
 
@@ -13,7 +14,7 @@ export const SectionHead: React.FC<{ eyebrow: string; heading: string; center?: 
       <Eyebrow>{eyebrow}</Eyebrow>
       <h2 style={{
         fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number,
-        fontSize: "2rem", letterSpacing: "var(--ds-headline-tracking)", lineHeight: 1.1, color: "var(--ds-text)", margin: 0,
+        fontSize: "var(--ds-display-h2, 2rem)", letterSpacing: "var(--ds-headline-tracking)", lineHeight: 1.15, color: "var(--ds-text)", margin: 0,
       }}>
         {heading}
       </h2>
@@ -24,10 +25,10 @@ export const SectionHead: React.FC<{ eyebrow: string; heading: string; center?: 
       {headingBlock}
       {more && (
         <a href={more.href} onClick={(e) => { e.preventDefault(); navigate(more.href); }} style={{
-          fontFamily: "var(--ds-font-mono)", fontSize: "0.74rem", textTransform: "uppercase", letterSpacing: "0.08em",
+          fontFamily: "var(--ds-font-body)", fontSize: "0.88rem", fontWeight: 600,
           color: "var(--ds-primary)", textDecoration: "none", cursor: "pointer", whiteSpace: "nowrap", paddingBottom: "0.3rem",
         }}>
-          {more.label} →
+          {more.label}<Icon name="arrowRight" size={14} style={{ verticalAlign: "-0.1em", marginLeft: "0.35em" }} />
         </a>
       )}
     </div>

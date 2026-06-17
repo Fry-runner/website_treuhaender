@@ -50,9 +50,8 @@ export const HeroSplit: React.FC<{ content: HeroContent }> = ({ content }) => (
           padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1rem",
         }}>
           <div style={{
-            fontFamily: "var(--ds-font-mono)", fontSize: "0.66rem", letterSpacing: "var(--ds-eyebrow-tracking)",
-            textTransform: "uppercase", color: "var(--ds-text-muted)",
-          }}>
+            fontFamily: "var(--ds-font-body)", fontSize: "0.66rem", 
+             color: "var(--ds-text-muted)" }}>
             {content.asideLabel}
           </div>
           <p style={{

@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "firm": "ZH Treuhand",
+    "domain": "zhtreuhand.ch",
+    "archetype": "boutique",
+    "lookId": "quabba-editorial",
+    "sourceUrl": "https://zhtreuhand.ch/",
+    "basePresetId": "quabba-editorial",
+    "look": {
+      "meta": {
+        "id": "zhtreuhand-ch-brand",
+        "name": "Quabba Editorial Red · brand-tinted",
+        "mood": "Editorial graphite-on-white with a restrained Swiss-red accent; all-Inter with mono micro-labels, hairline borders, scroll-triggered color-shift reveals and a hand-drawn signature line.",
+        "source": "Quabba-Treuhand + scraped brand",
+        "derived": [
+          "color.surface (#F7F8F8 tint of gray-light)",
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#FCEBEC tint)",
+          "color.secondaryFg (#22272B)",
+          "font.mono (Tailwind default mono stack)",
+          "base: quabba-editorial",
+          "accent #0671B4 (scraped · medium)",
+          "heading: Space Grotesk (inventory)",
+          "body: Inter (scraped)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "airy",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F7F8F8",
+        "text": "#22272B",
+        "textMuted": "#7C868C",
+        "border": "#E9ECEC",
+        "primary": "#0671B4",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EBF4F9",
+        "secondary": "#A90707",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Inter\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Space Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-24",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 600,
+        "easing": "cubic-bezier(0.22,1,0.36,1)",
+        "intensity": "expressive"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true,
+        "bloom": "rgba(6,113,180,0.18)"
+      },
+      "raw": {
+        "--color-brand-violet": "#D91A21",
+        "--color-brand-coral": "#E39699",
+        "--color-brand-graphite": "#22272B",
+        "--color-brand-gray-light": "#E9ECEC",
+        "--color-brand-gray-medium": "#7C868C",
+        "--font-sans": "Inter",
+        "--font-display": "Inter",
+        "--font-heading": "Inter"
+      }
+    },
+    "brand": {
+      "primary": "#0671B4",
+      "secondary": "#A90707",
+      "palette": [
+        "#0671B4",
+        "#181F3A",
+        "#0570B3",
+        "#19203B",
+        "#A90707"
+      ],
+      "body": {
+        "family": "Inter",
+        "serif": false
+      },
+      "fontsSeen": [
+        "Encode Sans",
+        "Encode Sans Semi Condensed",
+        "PT Serif",
+        "Inter"
+      ],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [
+      "Inter"
+    ],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": false,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "team.photos",
+      "faq",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "trust.badges",
+      "media.documents",
+      "brand.colors",
+      "brand.fonts"
+    ]
+  },
+  "media": {
+    "hero": "/images/zhtreuhand-ch/hero.jpg",
+    "badges": [
+      "/images/zhtreuhand-ch/pool/6df739d301__01_EXP_ZH_Treuhand_Logo_Web-1024x184.png",
+      "/images/zhtreuhand-ch/pool/d38c8232bb__01_EXP_ZH_Aerzte_Revisionstreuhand_Logo_Web-1024x192.png"
+    ],
+    "photos": [
+      "/images/zhtreuhand-ch/pool/07b67d527a__ZH_Treuhand_Prov_298.jpg",
+      "/images/zhtreuhand-ch/pool/a769d7b30c__ZH_Treuhand_Prov_281.jpg",
+      "/images/zhtreuhand-ch/pool/4d70386af1__ZH_Treuhand_Prov_291-1-e1737126434125.jpg",
+      "/images/zhtreuhand-ch/pool/3d2e1a605c__ZH_Treuhand_Prov_324-e1737109458733-1024x865.jpg",
+      "/images/zhtreuhand-ch/pool/1f8ec9953a__ZH_Treuhand_Prov_268-1024x682.jpg",
+      "/images/zhtreuhand-ch/pool/e41eb44304__ZH_Treuhand_Prov_309-1024x682.jpg",
+      "/images/zhtreuhand-ch/pool/949b58e182__ZH_Treuhand_Prov_274-1024x682.jpg",
+      "/images/zhtreuhand-ch/pool/577df9ebb2__ZH_Treuhand_Prov_344-e1737116843154-1024x657.jpg",
+      "/images/zhtreuhand-ch/pool/9bf59998ec__Werner_ZH_Treuhand_Web.jpg",
+      "/images/zhtreuhand-ch/pool/55354de12f__ZH_Treuhand_Monica.jpg",
+      "/images/zhtreuhand-ch/pool/02c1b3b2a4__ZH_Treuhand_Prov_308-e1737112347122-1024x1012.jpg",
+      "/images/zhtreuhand-ch/pool/c7f5534e23__ZH_Treuhand_Beni_-104_Frei-scaled-e1739546421931.jpg",
+      "/images/zhtreuhand-ch/pool/45a655cca4__ZH_Treuhand_Prov_354-e1737111735778-1024x999.jpg",
+      "/images/zhtreuhand-ch/pool/6e4d8c7309__Simon_ZH_Treuhand_Web.jpg",
+      "/images/zhtreuhand-ch/pool/023ece13b8__Jill_Menendez_Web.jpg",
+      "/images/zhtreuhand-ch/pool/3ec35a9615__ZH_Treuhand_Prov_267-682x1024.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [
+      {
+        "src": "/files/zhtreuhand-ch/1c3e8892e8__zhtreuhand_checkliste_steuer.pdf",
+        "title": "Checkliste",
+        "kind": "pdf",
+        "bytes": 116154
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/zhtreuhand-ch/pool/6df739d301__01_EXP_ZH_Treuhand_Logo_Web-1024x184.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 23983,
+        "width": 1024,
+        "height": 184,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/d38c8232bb__01_EXP_ZH_Aerzte_Revisionstreuhand_Logo_Web-1024x192.png",
+        "kind": "badge",
+        "alt": "Logo ZH Ärzte & Revisionstreuhand",
+        "bytes": 33940,
+        "width": 1024,
+        "height": 192,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/07b67d527a__ZH_Treuhand_Prov_298.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 200414,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/a769d7b30c__ZH_Treuhand_Prov_281.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 152659,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/4d70386af1__ZH_Treuhand_Prov_291-1-e1737126434125.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 199394,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/6e4d8c7309__Simon_ZH_Treuhand_Web.jpg",
+        "kind": "photo",
+        "alt": "Simon Mösch, Geschäftsführer ZH Treuhand",
+        "bytes": 53090,
+        "width": 690,
+        "height": 640,
+        "orientation": "square",
+        "subject": "portrait",
+        "roles": []
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/9bf59998ec__Werner_ZH_Treuhand_Web.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 45831,
+        "width": 690,
+        "height": 640,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/55354de12f__ZH_Treuhand_Monica.jpg",
+        "kind": "photo",
+        "alt": "Monica Sifuentes Vela Mösch",
+        "bytes": 49887,
+        "width": 690,
+        "height": 640,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/023ece13b8__Jill_Menendez_Web.jpg",
+        "kind": "photo",
+        "alt": "Jill Menendez, Mitarbeiterin ZH Treuhand",
+        "bytes": 32421,
+        "width": 690,
+        "height": 640,
+        "orientation": "square",
+        "subject": "portrait",
+        "roles": []
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/02c1b3b2a4__ZH_Treuhand_Prov_308-e1737112347122-1024x1012.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 141588,
+        "width": 1024,
+        "height": 1012,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/c7f5534e23__ZH_Treuhand_Beni_-104_Frei-scaled-e1739546421931.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 85366,
+        "width": 1463,
+        "height": 1295,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/3d2e1a605c__ZH_Treuhand_Prov_324-e1737109458733-1024x865.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 84621,
+        "width": 1024,
+        "height": 865,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/45a655cca4__ZH_Treuhand_Prov_354-e1737111735778-1024x999.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 71574,
+        "width": 1024,
+        "height": 999,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/1f8ec9953a__ZH_Treuhand_Prov_268-1024x682.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 68195,
+        "width": 1024,
+        "height": 682,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/3ec35a9615__ZH_Treuhand_Prov_267-682x1024.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 60694,
+        "width": 682,
+        "height": 1024,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": []
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/e41eb44304__ZH_Treuhand_Prov_309-1024x682.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 60977,
+        "width": 1024,
+        "height": 682,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/949b58e182__ZH_Treuhand_Prov_274-1024x682.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 59486,
+        "width": 1024,
+        "height": 682,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/577df9ebb2__ZH_Treuhand_Prov_344-e1737116843154-1024x657.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 57532,
+        "width": 1024,
+        "height": 657,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/zhtreuhand-ch/pool/07b67d527a__ZH_Treuhand_Prov_298.jpg",
+      "/images/zhtreuhand-ch/pool/a769d7b30c__ZH_Treuhand_Prov_281.jpg",
+      "/images/zhtreuhand-ch/pool/4d70386af1__ZH_Treuhand_Prov_291-1-e1737126434125.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "ZH Treuhand",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Warth",
+    "titleLead": "Ihr Treuhänder in Zürich für KMU und Ärzte",
+    "titleAccent": "",
+    "lede": "Unser erfahrenes Team unterstützt Sie bei Finanzangelegenheiten wie Buchhaltung, Steueroptimierung und eingeschränkter Revision.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Unser erfahrenes Team unterstützt Sie bei Finanzangelegenheiten wie Buchhaltung, Steueroptimierung und eingeschränkter Revision.",
+    "asideAttribution": "ZH Treuhand",
+    "image": "/images/zhtreuhand-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Sie sind auf der Suche nach einer verlässlichen Buchhaltungslösung für Ihre Praxis? Unser Team in Zürich freut sich auf Ihre Kontaktaufnahme!",
+        "body": "Sie sind auf der Suche nach einer verlässlichen Buchhaltungslösung für Ihre Praxis? Die finanzielle Verwaltung einer Arztpraxis ist komplex und zeitintensiv. Doch wir kennen alle Besonderheiten und Optimierungsmöglichkeiten der Buchhaltung im Gesundheitswesen und helfen Ihnen, diese gezielt zu nutzen.\n\nEine ordentliche Buchhaltung ist mehr als nur eine Auflistung von Finanzen. Wir optimieren Ihre Buchhaltungsprozesse, erstellen Jahresabschlüsse und unterstützen Sie bei der Betriebsprüfung. Egal, ob Sie spezifische Unterstützung suchen oder Ihre Buchhaltung komplett auslagern möchten – gemeinsam finden wir die perfekte Lösung. Mit unserer Expertise bringen wir Fachkenntnisse und rechtliche Sicherheit in Ihre Buchführung, sodass Sie effizienter arbeiten, steuerliche Vorteile nutzen und finanzielle Risiken minimieren können.\n\nDamit Sie sich auf Ihre Patientinnen und Patienten konzentrieren ",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Suchen Sie als Ärztin oder Arzt einen verlässlichen Partner für Ihre Steuerangelegenheiten? Wir unterstützen Sie.",
+        "body": "Suchen Sie als Ärztin oder Arzt einen verlässlichen Partner für Ihre Steuerangelegenheiten? In der komplexen Welt der Steuerplanung stehen wir Ihnen als spezialisiertes Treuhandbüro mit Weitblick und Expertise zur Seite – denn steuerliche Fragen sind entscheidend für unternehmerische Entscheidungen.\n\nAls Ärztin oder Arzt stehen Sie nicht nur vor der Herausforderung, Ihre Patientinnen und Patienten bestmöglich zu betreuen, sondern auch, die komplexen steuerlichen Anforderungen Ihrer Praxis zu erfüllen. Unklarheiten bei steuerpflichtigen und steuerbefreiten Leistungen können schnell zu finanziellen Nachteilen führen. Doch nicht mit uns! Wir verstehen die speziellen Herausforderungen im Gesundheitswesen und unterstützen Sie dabei, Ihre Praxis sowohl steuerlich als auch unternehmerisch optimal aufzustellen.\n\nWir kennen die speziellen steuerlichen Anforderungen und Regelungen für Arztpraxen, ",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Suchen Sie als Ärztin oder Arzt einen verlässlichen Partner für Ihre Steuerangelegenheiten? Wir unterstützen Sie.",
+        "body": "Suchen Sie als Ärztin oder Arzt einen verlässlichen Partner für Ihre Steuerangelegenheiten? In der komplexen Welt der Steuerplanung stehen wir Ihnen als spezialisiertes Treuhandbüro mit Weitblick und Expertise zur Seite – denn steuerliche Fragen sind entscheidend für unternehmerische Entscheidungen.\n\nAls Ärztin oder Arzt stehen Sie nicht nur vor der Herausforderung, Ihre Patientinnen und Patienten bestmöglich zu betreuen, sondern auch, die komplexen steuerlichen Anforderungen Ihrer Praxis zu erfüllen. Unklarheiten bei steuerpflichtigen und steuerbefreiten Leistungen können schnell zu finanziellen Nachteilen führen. Doch nicht mit uns! Wir verstehen die speziellen Herausforderungen im Gesundheitswesen und unterstützen Sie dabei, Ihre Praxis sowohl steuerlich als auch unternehmerisch optimal aufzustellen.\n\nWir kennen die speziellen steuerlichen Anforderungen und Regelungen für Arztpraxen, ",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Für Ärzte",
+        "role": "Steuerberatung",
+        "initials": "FÄ",
+        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden.",
+        "photo": "/images/zhtreuhand-ch/team/0-ärzte.jpg"
+      },
+      {
+        "name": "Vela Mösch",
+        "role": "Leitung Administration, Bachelor in Business Administration",
+        "initials": "VM",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/zhtreuhand-ch/team/1-mösch.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "RAB/zugel. Revisor",
+      "klara"
+    ],
+    "badges": [
+      "/images/zhtreuhand-ch/pool/6df739d301__01_EXP_ZH_Treuhand_Logo_Web-1024x184.png",
+      "/images/zhtreuhand-ch/pool/d38c8232bb__01_EXP_ZH_Aerzte_Revisionstreuhand_Logo_Web-1024x192.png"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "Warum uns wählen?",
+        "a": "Unser Treuhand-Team für Arztpraxen setzt sich ausschliesslich aus qualifizierten Fachleuten mit Universitäts- oder Hochschulabschlüssen und langjähriger, vielseitiger Erfahrung zusammen."
+      },
+      {
+        "q": "Mehrwertsteuerpflicht?",
+        "a": "Wir unterstützen Ihre Praxis bei allen Belangen rund um die Mehrwertsteuer: von der korrekten Anmeldung bis zur laufenden Abrechnung und fristgerechten Einreichung."
+      },
+      {
+        "q": "Unser Team setzt auf eine persönliche und direkte Betreuung unserer Kundinnen und Kunden. Doch was unterscheidet uns von anderen Treuhandbüros im Kanton Zürich?",
+        "a": "und den finanziellen Verpflichtungen. Diese Kombination ist optimal, um Sie und Ihre Praxis bestens zu beraten."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "078 216 03 04",
+      "email": "%20info@zhtreuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "ZH Treuhand",
+    "tagline": "Unser erfahrenes Team unterstützt Sie bei Finanzangelegenheiten wie Buchhaltung, Steueroptimierung und eingeschränkter Revision.",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Warth",
+          "078 216 03 04",
+          "%20info@zhtreuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

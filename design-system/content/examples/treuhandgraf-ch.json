@@ -1,0 +1,581 @@
+{
+  "meta": {
+    "firm": "Treuhandbüro Graf AG",
+    "domain": "treuhandgraf.ch",
+    "archetype": "boutique",
+    "lookId": "quabba-editorial",
+    "sourceUrl": "https://www.treuhandgraf.ch/",
+    "basePresetId": "quabba-editorial",
+    "look": {
+      "meta": {
+        "id": "treuhandgraf-ch-brand",
+        "name": "Quabba Editorial Red · brand-tinted",
+        "mood": "Editorial graphite-on-white with a restrained Swiss-red accent; all-Inter with mono micro-labels, hairline borders, scroll-triggered color-shift reveals and a hand-drawn signature line.",
+        "source": "Quabba-Treuhand + scraped brand",
+        "derived": [
+          "color.surface (#F7F8F8 tint of gray-light)",
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#FCEBEC tint)",
+          "color.secondaryFg (#22272B)",
+          "font.mono (Tailwind default mono stack)",
+          "base: quabba-editorial",
+          "accent #2272BD (scraped · medium)",
+          "heading: Bricolage Grotesque (inventory)",
+          "body: Work Sans (inventory)",
+          "mono: IBM Plex Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "airy",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F7F8F8",
+        "text": "#22272B",
+        "textMuted": "#7C868C",
+        "border": "#E9ECEC",
+        "primary": "#2272BD",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EDF4FA",
+        "secondary": "#5636D1",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Bricolage Grotesque\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-24",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 600,
+        "easing": "cubic-bezier(0.22,1,0.36,1)",
+        "intensity": "expressive"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true,
+        "bloom": "rgba(34,114,189,0.18)"
+      },
+      "raw": {
+        "--color-brand-violet": "#D91A21",
+        "--color-brand-coral": "#E39699",
+        "--color-brand-graphite": "#22272B",
+        "--color-brand-gray-light": "#E9ECEC",
+        "--color-brand-gray-medium": "#7C868C",
+        "--font-sans": "Inter",
+        "--font-display": "Inter",
+        "--font-heading": "Inter"
+      }
+    },
+    "brand": {
+      "primary": "#2272BD",
+      "secondary": "#5636D1",
+      "palette": [
+        "#2272BD",
+        "#5636D1",
+        "#E2498A",
+        "#357B49"
+      ],
+      "fontsSeen": [
+        "Hind Vadodara"
+      ],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "keine echten Trust-Logos",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq",
+      "media.stock (CC fallback)"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "team.photos",
+      "footer.tagline",
+      "media.pool",
+      "media.logo",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "logo": "/images/treuhandgraf-ch/pool/4457ab85dc__Treuhandburo-Graf-AG-1-1024x80.png",
+    "hero": "/images/treuhandgraf-ch/pool/stock-swiss-19244948.jpg",
+    "badges": [],
+    "photos": [
+      "/images/treuhandgraf-ch/pool/16cb0d2e9b__fi-img.jpg",
+      "/images/treuhandgraf-ch/pool/e447358f8e__DSC01375-scaled.jpg",
+      "/images/treuhandgraf-ch/pool/792972de0b__DSC01260-scaled.jpg",
+      "/images/treuhandgraf-ch/pool/972186cbdc__DSC01266-scaled.jpg",
+      "/images/treuhandgraf-ch/pool/a0a67f11fc__DSC01216-scaled.jpg",
+      "/images/treuhandgraf-ch/pool/8075b774fd__Ayse-Demirkan-scaled.jpg",
+      "/images/treuhandgraf-ch/pool/239eca656e__Kaan-Atilgan-scaled.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/treuhandgraf-ch/pool/4457ab85dc__Treuhandburo-Graf-AG-1-1024x80.png",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 11413,
+        "width": 1024,
+        "height": 80,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhandgraf-ch/pool/e447358f8e__DSC01375-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 172853,
+        "width": 1068,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandgraf-ch/pool/792972de0b__DSC01260-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 170341,
+        "width": 1068,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandgraf-ch/pool/972186cbdc__DSC01266-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 147349,
+        "width": 1068,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandgraf-ch/pool/a0a67f11fc__DSC01216-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 125317,
+        "width": 1068,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandgraf-ch/pool/8075b774fd__Ayse-Demirkan-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 102218,
+        "width": 1067,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandgraf-ch/pool/239eca656e__Kaan-Atilgan-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 88399,
+        "width": 1067,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandgraf-ch/pool/16cb0d2e9b__fi-img.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 15015,
+        "width": 1024,
+        "height": 1024,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandgraf-ch/pool/stock-swiss-19244948.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 604375,
+        "width": 1880,
+        "height": 1253,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Jean-Paul Wettstein (Pexels)",
+        "source": "https://www.pexels.com/photo/apartment-buildings-around-parish-church-st-mauritius-in-the-alpine-town-of-zermatt-switzerland-19244948/",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "stock": true,
+    "credits": [
+      "Jean-Paul Wettstein (Pexels)"
+    ]
+  },
+  "nav": {
+    "brand": "Treuhandbüro Graf AG",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/treuhandgraf-ch/pool/4457ab85dc__Treuhandburo-Graf-AG-1-1024x80.png"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Ihre Finanzen,",
+    "titleAccent": "klar geführt.",
+    "lede": "Das Treuhandbüro Graf ist Ihr kompetenter Treuhänder in Zürich. Wir helfen Ihnen bei allen Ihren kaufmännischen Pflichten unter die Arme.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Das Treuhandbüro Graf ist Ihr kompetenter Treuhänder in Zürich. Wir helfen Ihnen bei allen Ihren kaufmännischen Pflichten unter die Arme.",
+    "asideAttribution": "Treuhandbüro Graf AG",
+    "image": "/images/treuhandgraf-ch/pool/stock-swiss-19244948.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Das Treuhandbüro Graf ist Ihr kompetenter Treuhänder in Zürich. Wir erledigen für Sie alle anfallenden Arbeiten rund um Ihre Buchhaltung.",
+        "body": "Sie suchen einen zuverlässigen und vertrauensvollen Buchhalter in Zürich? Dann sind Sie bei uns genau richtig. Wir kümmern uns um alle notwendigen Schritte – vom Zahlungsverkehr bis zum Jahresabschluss – und entlasten Sie somit in Ihrem Alltag als Unternehmer. Unsere Dienstleistungen ermöglichen es Ihnen, sich voll und ganz auf Ihr Kernbusiness zu fokussieren. Auf Wunsch können Sie auch selbst Teile der Buchhaltung übernehmen und wir stellen sicher, dass am Ende alles stimmt.\n\nUnter Berücksichtigung Ihrer branchenspezifischen Anforderungen übernehmen wir für Sie die regelmässige Kontierung, Erfassung und Auswertung Ihrer Buchhaltungsdaten. Dafür verwenden wir eine fortschrittliche Software, die stets den aktuellen handels- und steuerrechtlichen Anforderungen entspricht.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.\n\nIhr vertrauenswürdiger Pa",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Das Treuhandbüro Graf ist Ihr zuverlässiger Partner für die Erstellung Ihrer privaten und geschäftlichen Steuererklärung.",
+        "body": "Das Treuhandbüro Graf ist Ihr zuverlässiger Partner für die Erstellung Ihrer privaten und geschäftlichen Steuererklärung. Hier haben Sie die Gewissheit, dass Sie eine fundierte Beratung erhalten und all Ihre Steuerangelegenheiten schnell und sorgfältig erledigt werden. Ihre Steuerveranlagungen und -rechnungen werden gewissenhaft durch unser Team geprüft und bei Bedarf auch kompetent vor den Steuerbehörden vertreten.\n\nEine durchdachte Steuerplanung ist sowohl für Privatpersonen als auch Unternehmen unerlässlich, um das eigene Vermögen zu bewahren. Wir nehmen Ihre Steuerlast genau unter die Lupe und identifizieren mögliche Stellschrauben, mit deren Hilfe wir Ihre Steuerquote effektiv senken können.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Graf Treuhandbüro. Können Sie bei steuerrelevanten und rechtlichen Fragen bezüglich ihrer Buchhaltung auf unseren profunden Rat zählen.",
+        "body": "Sie fühlen sich unsicher, wenn es um das Ausfüllen Ihrer Steuererklärung oder um die Buchhaltung Ihres Unternehmens geht? Sie fragen sich, welche Vorgaben Sie erfüllen und welche Fristen Sie einhalten müssen? Keine Sorge, wir sind für Sie da! Wir sind bestens mit den Gegebenheiten und Anforderungen im Bereich Steuerrecht und Buchhaltung vertraut und bieten Ihnen gerne unsere Expertise an. Setzen Sie sich mit uns in Verbindung und vereinbaren Sie einen Termin für eine umfassende Beratung.\n\nIn einem ausführlichen Gespräch erhalten Sie alle relevanten Informationen, die Sie benötigen. Auch wenn Sie Ihre Steuererklärung und Buchhaltung komplett in die Hände der Profis legen möchten, sind Sie hier richtig. Das Treuhandbüro Graf unterstützt Sie gerne und nimmt Ihnen diese zeitaufwendige Last ab.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.\n\nIhr v",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Manuel Graf",
+        "role": "Direktor",
+        "initials": "MG",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/treuhandgraf-ch/team/0-graf.jpg"
+      },
+      {
+        "name": "Mesude Tunç",
+        "role": "Geschäftsführung",
+        "initials": "MT",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Brikena Zuzaku",
+        "role": "Stv. Geschäftsführung, Sachbearbeiterin",
+        "initials": "BZ",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Ayse Demirkan",
+        "role": "Sachbearbeiterin",
+        "initials": "AD",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.",
+        "photo": "/images/treuhandgraf-ch/team/3-demirkan.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 260 23 00",
+      "email": "info@haugag.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Treuhandbüro Graf AG",
+    "tagline": "Das Treuhandbüro Graf ist Ihr kompetenter Treuhänder in Zürich. Wir helfen Ihnen bei allen Ihren kaufmännischen Pflichten unter die Arme.",
+    "logo": "/images/treuhandgraf-ch/pool/4457ab85dc__Treuhandburo-Graf-AG-1-1024x80.png",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 44 260 23 00",
+          "info@haugag.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

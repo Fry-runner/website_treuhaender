@@ -1,0 +1,914 @@
+{
+  "meta": {
+    "firm": "Wespi & Partner AG",
+    "domain": "wespipartner.ch",
+    "archetype": "swiss-digital",
+    "lookId": "zueri-swiss",
+    "sourceUrl": "https://wespipartner.ch/",
+    "basePresetId": "zueri-swiss",
+    "look": {
+      "meta": {
+        "id": "wespipartner-ch-brand",
+        "name": "Züri Swiss Blue · brand-tinted",
+        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
+        "source": "Züri-Treuhand + scraped brand",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAF1F8 tint)",
+          "color.secondaryFg (#FFFFFF)",
+          "color.textMuted (#737373 neutral-500)",
+          "base: zueri-swiss",
+          "accent #00101B (scraped · medium)",
+          "heading: Familjen Grotesk (inventory)",
+          "body: Mulish (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F9FAFB",
+        "text": "#333333",
+        "textMuted": "#737373",
+        "border": "#EAEAEA",
+        "primary": "#00101B",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EBECED",
+        "secondary": "#2AA070",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-16",
+        "rhythm": "normal",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-blue": "#084687",
+        "--color-accent-blue": "#0b549f",
+        "--color-charcoal": "#333333",
+        "--color-soft-gray": "#F9FAFB",
+        "--color-border-gray": "#EAEAEA",
+        "--font-sans": "Inter",
+        "--font-serif": "Playfair Display",
+        "--font-display": "Space Grotesk",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "primary": "#00101B",
+      "secondary": "#7ADCB4",
+      "palette": [
+        "#00101B",
+        "#7ADCB4",
+        "#00D082",
+        "#4AEADC",
+        "#9778D1",
+        "#CF2ABA",
+        "#EE2C82",
+        "#FB6962",
+        "#FEF84C",
+        "#FFCEEC",
+        "#9896F0",
+        "#FECDA5"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "team.photos",
+      "values",
+      "faq",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "trust.badges",
+      "media.documents",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "hero": "/images/wespipartner-ch/hero.jpg",
+    "badges": [
+      "/images/wespipartner-ch/pool/b5d82b11cd__expertsuisse-logo_white.png",
+      "/images/wespipartner-ch/pool/8e57fd173d__bexio_logo.png",
+      "/images/wespipartner-ch/pool/3eb7d0fe24__expertsuisse_color-320x72.png",
+      "/images/wespipartner-ch/pool/7f1b520604__kontera-logo-1000x189.png",
+      "/images/wespipartner-ch/pool/fbb0e2a929__Abacus-1000x185.png"
+    ],
+    "photos": [
+      "/images/wespipartner-ch/pool/e35b9d8e43__WespiPartner_Office-3-2000x1334.jpg",
+      "/images/wespipartner-ch/pool/fbd5ed3c8f__WespiPartner_Office-2.jpg",
+      "/images/wespipartner-ch/pool/9593c77f39__WespiPartner_Office-1-2000x1347.jpg",
+      "/images/wespipartner-ch/pool/474a79a483__2024-07-09_WespiPartner_0414.jpg",
+      "/images/wespipartner-ch/pool/5ba0c002cc__Wespi_GlattZentrum_Outdoor-2048x1628.jpg",
+      "/images/wespipartner-ch/pool/373fe97c9c__2024-07-09_WespiPartner_0157.jpg",
+      "/images/wespipartner-ch/pool/516e03db1f__2024-07-09_WespiPartner_0040.jpg",
+      "/images/wespipartner-ch/pool/19d609736c__lifecycle_bg_01.jpg",
+      "/images/wespipartner-ch/pool/4c1c3604e0__2024-07-09_WespiPartner_0348.jpg",
+      "/images/wespipartner-ch/pool/48593059d5__2024-07-09_WespiPartner_0087.jpg",
+      "/images/wespipartner-ch/pool/afab0dfaa4__2024-07-09_WespiPartner_0277.jpg",
+      "/images/wespipartner-ch/pool/f63e0562b7__2024-07-09_WespiPartner_0138.jpg",
+      "/images/wespipartner-ch/pool/4efed3332c__2024-07-09_WespiPartner_0484.jpg",
+      "/images/wespipartner-ch/pool/6ae7627157__2024-07-09_WespiPartner_0225.jpg",
+      "/images/wespipartner-ch/pool/6f92b53fdd__lifecycle_bg_02.jpg",
+      "/images/wespipartner-ch/pool/d45297bbe4__WespiPartner_HomeCover-2048x1152.jpg",
+      "/images/wespipartner-ch/pool/fa81eddb81__lifecycle_bg_04.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [
+      {
+        "src": "/files/wespipartner-ch/79612ae24d__WespiPartner_Anfahrt_Glatt-Tower.pdf",
+        "title": "Anfahrt",
+        "kind": "pdf",
+        "bytes": 155959
+      },
+      {
+        "src": "/files/wespipartner-ch/cdb2875d09__Auftrag-und-Steuercheckliste-2024-fuer-natuerliche-Personen-Wespi-Partner-AG-For",
+        "title": "Auftrag und Steuercheckliste 2025 für natürliche Personen",
+        "kind": "pdf",
+        "bytes": 192396
+      },
+      {
+        "src": "/files/wespipartner-ch/5d5af7eee5__231228_Artikel_KMU-Nachhaltigkeitsmanagement.pdf",
+        "title": "PDF herunterladen",
+        "kind": "pdf",
+        "bytes": 120550
+      },
+      {
+        "src": "/files/wespipartner-ch/fd7134555d__250101_Kennzahlen_2025.pdf",
+        "title": "PDF herunterladen",
+        "kind": "pdf",
+        "bytes": 276386
+      },
+      {
+        "src": "/files/wespipartner-ch/6a2f13ca03__Auftrag_und_Steuercheckliste_2024_fuer_natuerliche_Personen_Wespi___Partner_AG_F",
+        "title": "PDF herunterladen",
+        "kind": "pdf",
+        "bytes": 192396
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/wespipartner-ch/pool/b5d82b11cd__expertsuisse-logo_white.png",
+        "kind": "badge",
+        "alt": "EXPERTsuisse",
+        "bytes": 6460,
+        "width": 196,
+        "height": 78,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/8e57fd173d__bexio_logo.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 14990,
+        "width": 800,
+        "height": 371,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/3eb7d0fe24__expertsuisse_color-320x72.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 17838,
+        "width": 320,
+        "height": 72,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/7f1b520604__kontera-logo-1000x189.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 19879,
+        "width": 1000,
+        "height": 189,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/fbb0e2a929__Abacus-1000x185.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 27004,
+        "width": 1000,
+        "height": 185,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/d45297bbe4__WespiPartner_HomeCover-2048x1152.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 128433,
+        "width": 1920,
+        "height": 1080,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/e35b9d8e43__WespiPartner_Office-3-2000x1334.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 279926,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/474a79a483__2024-07-09_WespiPartner_0414.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 170091,
+        "width": 1600,
+        "height": 1005,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/5ba0c002cc__Wespi_GlattZentrum_Outdoor-2048x1628.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 208593,
+        "width": 1600,
+        "height": 1272,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/fbd5ed3c8f__WespiPartner_Office-2.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 98857,
+        "width": 1600,
+        "height": 1082,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/373fe97c9c__2024-07-09_WespiPartner_0157.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 126187,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/516e03db1f__2024-07-09_WespiPartner_0040.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 123731,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/19d609736c__lifecycle_bg_01.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 74197,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/9593c77f39__WespiPartner_Office-1-2000x1347.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 168737,
+        "width": 1600,
+        "height": 1078,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/4c1c3604e0__2024-07-09_WespiPartner_0348.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 108464,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/48593059d5__2024-07-09_WespiPartner_0087.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 103707,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/afab0dfaa4__2024-07-09_WespiPartner_0277.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 100524,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/f63e0562b7__2024-07-09_WespiPartner_0138.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 95893,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/4efed3332c__2024-07-09_WespiPartner_0484.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 83934,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/6ae7627157__2024-07-09_WespiPartner_0225.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 86292,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/6f92b53fdd__lifecycle_bg_02.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 77642,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wespipartner-ch/pool/fa81eddb81__lifecycle_bg_04.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 51097,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/wespipartner-ch/pool/d45297bbe4__WespiPartner_HomeCover-2048x1152.jpg",
+      "/images/wespipartner-ch/pool/e35b9d8e43__WespiPartner_Office-3-2000x1334.jpg",
+      "/images/wespipartner-ch/pool/474a79a483__2024-07-09_WespiPartner_0414.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Wespi & Partner AG",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Wallisellen",
+    "titleLead": "Dein strategischer Treuhandpartner mit 360-Grad-Kompetenz",
+    "titleAccent": "",
+    "lede": "Dein Sparring-Partner für unternehmerischen Erfolg in den Bereichen Treuhand, Payroll, Unternehmensberatung, Steuern und Wirtschaftsprüfung.",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Dein Sparring-Partner für unternehmerischen Erfolg in den Bereichen Treuhand, Payroll, Unternehmensberatung, Steuern und Wirtschaftsprüfung.",
+    "asideAttribution": "Wespi & Partner AG",
+    "image": "/images/wespipartner-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Payroll – digital, umfassend und zuverlässig. Wir unterstützen Unternehmen und deren Mitarbeitende in allen Belangen der Lohnadministration.",
+        "body": "Effiziente, digitale, sichere und zuverlässige Payrollprozesse erwarten nicht nur deine Mitarbeitenden, sondern auch der Fiskus und die Sozialversicherungen. Mit digitalen Lohnprozessen sorgen wir für eine korrekte und vollständige Deklaration deiner Löhne, begleiten dich bei Revisionen der Sozialversicherungen, realisieren Mitarbeiterbeteiligungsprogramme und unterstützen dich in Fragen zu internationalen Sachverhalten oder zum Spesenmanagement.\n\nPlanung und Aufsetzung der richtigen Pläne (ESOPs, Phantom Stock Programme, etc.)\n\nUnsere Dienstleistungen passen sich deinen Bedürfnisse an. Gerne zeigen wir dir die passende Lösung in einem persönlichen Gespräch auf.\n\nMit dem untenstehenden Formular kannst du direkt mit Seraina Klossner in Kontakt treten.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Steuerberatung und -planung. Wir unterstützen Unternehmen, deren Eigner und Anspruchsgruppen in allen Steuerfragen.",
+        "body": "Sei es bei der Steuerplanung oder bei Themen der direkten und indirekten Steuern sowie anderen Abgaben. Wir sorgen für eine korrekte und vollständige Deklaration, begleiten bei Steuerprüfungen und -revisionen und unterstützen dich mit Steuerchecks und Risikoanalysen.\n\nSteuererklärungen für juristische Personen (AGs, GmbHs, Vereine, etc.)\n\nSteuerliche Erfassung und Beratung i.S. Mitarbeiterbeteiligungsplänen (ESOPs, etc.)\n\nUnsere Dienstleistungen passen sich deinen Bedürfnisse an. Gerne zeigen wir dir die passende Lösung in einem persönlichen Gespräch auf.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Payroll – digital, umfassend und zuverlässig. Wir unterstützen Unternehmen und deren Mitarbeitende in allen Belangen der Lohnadministration.",
+        "body": "Effiziente, digitale, sichere und zuverlässige Payrollprozesse erwarten nicht nur deine Mitarbeitenden, sondern auch der Fiskus und die Sozialversicherungen. Mit digitalen Lohnprozessen sorgen wir für eine korrekte und vollständige Deklaration deiner Löhne, begleiten dich bei Revisionen der Sozialversicherungen, realisieren Mitarbeiterbeteiligungsprogramme und unterstützen dich in Fragen zu internationalen Sachverhalten oder zum Spesenmanagement.\n\nPlanung und Aufsetzung der richtigen Pläne (ESOPs, Phantom Stock Programme, etc.)\n\nUnsere Dienstleistungen passen sich deinen Bedürfnisse an. Gerne zeigen wir dir die passende Lösung in einem persönlichen Gespräch auf.\n\nMit dem untenstehenden Formular kannst du direkt mit Seraina Klossner in Kontakt treten.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Professionelle Beratung in allen Unternehmensphasen. Von der Idee bis zur Nachfolge. Treuhand, Unternehmensberatung, Steuerberatung und Wirtschaftsprüfung.",
+        "body": "Seit 2013 begleiten wir als Treuhänder ein vielfältiges Portfolio von Unternehmen durch alle Phasen des Unternehmertums – von der Gründung bis zur Nachfolgeplanung.\n\nMit umfassendem Know-how unterstützen wir dich bei der erfolgreichen Bewältigung unternehmerischer Herausforderungen. Unser Angebot umfasst interdisziplinäre Dienstleistungen in den Bereichen Treuhand, Unternehmensberatung, Steuerberatung und Wirtschaftsprüfung.\n\nWir begleiten dich dabei, deine Idee in eine Unternehmung zu verwandeln. Dabei unterstützen wir dich, die richtige Rechtsform zu wählen, deine Gesellschaft zu gründen, von Start weg effiziente Finanz- und Buchhaltungsprozesse zu etablieren, und die notwendigen Anmeldungen und Registrationen vorzunehmen.\n\nDein Unternehmen ist bereits erfolgreich am Markt etabliert und verfügt über das Potenzial, weiter zu wachsen? Wir begleiten dich dabei, die Wachstumsphase optimal ",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Leidenschaft",
+        "body": "Wir umgeben uns mit Menschen, die mit Hingabe tun, was ihnen am Herzen liegt. Es motiviert uns, andere bei ihren Zielen zu unterstützen und gemeinsam Grosses zu erreichen."
+      },
+      {
+        "title": "Nachhaltigkeit",
+        "body": "Nachhaltiges Handeln bildet die Grundlage für unsere Arbeit. Wir tragen Verantwortung dafür, dass unser unternehmerisches Wirken einen positiven Einfluss auf unser Umfeld hat."
+      },
+      {
+        "title": "Professionalität",
+        "body": "Professionalität bedeutet für uns das optimale Zusammenspiel von Fachwissen, individuellen Talenten und der Bereitschaft, sich kontinuierlich weiterzuentwickeln."
+      },
+      {
+        "title": "Philipp Wespi",
+        "body": "Philipp gründete die Gesellschaft 2013 und führt heute zusammen mit den anderen Partnern als VRP die Geschicke der Gesellschaft."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Philipp Wespi",
+        "role": "Geschäftsführender Partner",
+        "initials": "PW",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Seraina Klossner",
+        "role": "Partnerin | Leiterin Payroll",
+        "initials": "SK",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Patrick Imwinkelried",
+        "role": "Partner | Leiter Wirtschaftsprüfung",
+        "initials": "PI",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Matthias Vollenweider",
+        "role": "Partner | Leiter Treuhand",
+        "initials": "MV",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Kurt Tenger",
+        "role": "Beratender Partner",
+        "initials": "KT",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/wespipartner-ch/team/4-tenger.jpg"
+      },
+      {
+        "name": "Matea Suta",
+        "role": "Mandatsleiterin",
+        "initials": "MS",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/wespipartner-ch/team/5-suta.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "EXPERTsuisse",
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "abacus",
+      "abaninja",
+      "abaweb"
+    ],
+    "badges": [
+      "/images/wespipartner-ch/pool/b5d82b11cd__expertsuisse-logo_white.png",
+      "/images/wespipartner-ch/pool/8e57fd173d__bexio_logo.png",
+      "/images/wespipartner-ch/pool/3eb7d0fe24__expertsuisse_color-320x72.png",
+      "/images/wespipartner-ch/pool/7f1b520604__kontera-logo-1000x189.png",
+      "/images/wespipartner-ch/pool/fbb0e2a929__Abacus-1000x185.png"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "1. Wer ist für die Bearbeitung Ihrer Personendaten verantwortlich?",
+        "a": "Für die in dieser Datenschutzerklärung beschriebenen Datenbearbeitungen ist die Wespi & Partner AG, verantwortlich, soweit im Einzelfall nichts Anderes kommuniziert wird."
+      },
+      {
+        "q": "2. Welche Personendaten bearbeiten wir?",
+        "a": "Buchhaltung für Kundinnen und Kund (juristische und natürliche Personen ) (inkl. Lohn, Kreditoren/Debitoren, Jahresabschluss etc.)"
+      },
+      {
+        "q": "3. Zu welchen Zwecken bearbeiten wir Personendaten?",
+        "a": "Kontaktpflege, Kommunikation und Marketing: Kommunikation mit unseren Kundinnen und Kunden und Interessierten, Information über unsere Angebote und weitere Marketingaktivitäten zur Kundenbindung oder Neukundengewinnung, inkl. Versand von Newslettern (jederzeit ablehnbar durch den Empfänger)"
+      },
+      {
+        "q": "5. Gelangen Personendaten ins Ausland?",
+        "a": "Im Zusammenhang mit der Bearbeitung des Auftrags oder für die in dieser Datenschutzerklärung beschriebenen Zwecke geben wir Daten auch Stellen bekannt, die sich nicht nur in der Schweiz befinden. Ein solcher Transfer ins Ausland ergibt sich insbesondere bei ausländischen Dienstleistern oder bei auftragsgemässer Kommunikation mit Behörden oder anderen Stellen im Ausland. Ihre Daten können daher je nach Zusammenhang sowohl in der Schweiz als auch im Ausland bearbeitet werden."
+      },
+      {
+        "q": "8. Kann diese Datenschutzerklärung geändert werden?",
+        "a": "Es kann sein, dass von Zeit zu Zeit Anpassungen dieser Datenschutzerklärung nötig sind, zum Beispiel, wenn das Gesetz oder die Art, wie wir Personendaten bearbeiten, ändern. In diesem Fall werden wir Sie in geeigneter Form über die Änderung informieren (z.B. mittels Aufschalten auf unserer Webseite oder E-Mail an Sie) und die neue Version wird mit der Publikation auf unserer Webseite verbindlich."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 43 266 36 20",
+      "email": "info@wespipartner.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Wespi & Partner AG",
+    "tagline": "Dein Sparring-Partner für unternehmerischen Erfolg in den Bereichen Treuhand, Payroll, Unternehmensberatung, Steuern und Wirtschaftsprüfung.",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Wallisellen",
+          "+41 43 266 36 20",
+          "info@wespipartner.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

@@ -1,0 +1,757 @@
+{
+  "meta": {
+    "firm": "aawi treuhand ag",
+    "domain": "aawi.ch",
+    "archetype": "swiss-digital",
+    "lookId": "quabba-editorial",
+    "sourceUrl": "https://www.aawi.ch/",
+    "basePresetId": "quabba-editorial",
+    "look": {
+      "meta": {
+        "id": "aawi-ch-brand",
+        "name": "Quabba Editorial Red · brand-tinted",
+        "mood": "Editorial graphite-on-white with a restrained Swiss-red accent; all-Inter with mono micro-labels, hairline borders, scroll-triggered color-shift reveals and a hand-drawn signature line.",
+        "source": "Quabba-Treuhand + scraped brand",
+        "derived": [
+          "color.surface (#F7F8F8 tint of gray-light)",
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#FCEBEC tint)",
+          "color.secondaryFg (#22272B)",
+          "font.mono (Tailwind default mono stack)",
+          "base: quabba-editorial",
+          "accent #149132 (scraped · high)",
+          "heading: Roboto Slab (scraped)",
+          "body: Montserrat (scraped)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "airy",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F7F8F8",
+        "text": "#22272B",
+        "textMuted": "#7C868C",
+        "border": "#E9ECEC",
+        "primary": "#149132",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#ECF6EF",
+        "secondary": "#26595E",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Montserrat\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Roboto Slab\", Georgia, \"Times New Roman\", serif",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "serif-editorial"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-24",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 600,
+        "easing": "cubic-bezier(0.22,1,0.36,1)",
+        "intensity": "expressive"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true,
+        "bloom": "rgba(20,145,50,0.18)"
+      },
+      "raw": {
+        "--color-brand-violet": "#D91A21",
+        "--color-brand-coral": "#E39699",
+        "--color-brand-graphite": "#22272B",
+        "--color-brand-gray-light": "#E9ECEC",
+        "--color-brand-gray-medium": "#7C868C",
+        "--font-sans": "Inter",
+        "--font-display": "Inter",
+        "--font-heading": "Inter"
+      }
+    },
+    "brand": {
+      "primary": "#149132",
+      "secondary": "#26595E",
+      "palette": [
+        "#149132",
+        "#0B3538",
+        "#00464C",
+        "#26595E",
+        "#FFBC7D",
+        "#BAD531"
+      ],
+      "heading": {
+        "family": "Roboto Slab",
+        "serif": true
+      },
+      "body": {
+        "family": "Montserrat",
+        "serif": false
+      },
+      "fontsSeen": [
+        "Montserrat",
+        "Open Sans",
+        "Roboto",
+        "Roboto Slab"
+      ],
+      "confidence": "high"
+    },
+    "fontsToLoad": [
+      "Roboto Slab",
+      "Montserrat"
+    ],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "services.text",
+      "media.stock (CC fallback)",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "faq",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "services.images",
+      "brand.colors",
+      "brand.fonts"
+    ]
+  },
+  "media": {
+    "logo": "/images/aawi-ch/pool/29a44f761c__Logo_200px.png",
+    "hero": "/images/aawi-ch/hero.png",
+    "badges": [
+      "/images/aawi-ch/pool/af6810ab80__bexio.png"
+    ],
+    "photos": [
+      "/images/aawi-ch/pool/5ab7faa389__wir-ueber-uns.png",
+      "/images/aawi-ch/pool/462960ae75__Logo_shadow2.png",
+      "/images/aawi-ch/pool/d7572170c0__vision-mission.jpg",
+      "/images/aawi-ch/pool/3e5799df2a__steuerberatung.jpg",
+      "/images/aawi-ch/pool/eb89601bb2__Christa_Stuermer_quad.jpg",
+      "/images/aawi-ch/pool/bb8d8e8fcc__lohnuchhaltung.jpg",
+      "/images/aawi-ch/pool/1d7608f6c4__buchhaltung-2.jpg",
+      "/images/aawi-ch/pool/8f6424739c__jahresabschluss-1.jpg",
+      "/images/aawi-ch/pool/26a25b69e6__unternehmensberatung-1.jpg",
+      "/images/aawi-ch/pool/8e50c5bb21__firmengruendung-1.jpg",
+      "/images/aawi-ch/pool/1e29174ed6__marco_portrait-1.png",
+      "/images/aawi-ch/pool/016555cb11__marco_portrait-300x274.png"
+    ],
+    "serviceImages": {
+      "Buchhaltung": "/images/aawi-ch/pool/1d7608f6c4__buchhaltung-2.jpg",
+      "Steuerberatung": "/images/aawi-ch/pool/3e5799df2a__steuerberatung.jpg",
+      "Lohnadministration": "/images/aawi-ch/pool/bb8d8e8fcc__lohnuchhaltung.jpg",
+      "Unternehmensberatung": "/images/aawi-ch/pool/26a25b69e6__unternehmensberatung-1.jpg",
+      "Jahresabschluss": "/images/aawi-ch/pool/stock-laptop-7693224.jpg",
+      "Mehrwertsteuer": "/images/aawi-ch/pool/stock-laptop-9260568.jpg",
+      "Revision": "/images/aawi-ch/pool/stock-documents-7876037.jpg"
+    },
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/aawi-ch/pool/29a44f761c__Logo_200px.png",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 28731,
+        "width": 200,
+        "height": 109,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/aawi-ch/pool/af6810ab80__bexio.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 29784,
+        "width": 240,
+        "height": 200,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/aawi-ch/pool/1e29174ed6__marco_portrait-1.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 103206,
+        "width": 600,
+        "height": 548,
+        "orientation": "square",
+        "subject": "portrait",
+        "roles": []
+      },
+      {
+        "src": "/images/aawi-ch/pool/5ab7faa389__wir-ueber-uns.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 136201,
+        "width": 1023,
+        "height": 741,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/3e5799df2a__steuerberatung.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 92331,
+        "width": 682,
+        "height": 682,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/eb89601bb2__Christa_Stuermer_quad.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 100715,
+        "width": 904,
+        "height": 904,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/462960ae75__Logo_shadow2.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 52630,
+        "width": 679,
+        "height": 543,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/bb8d8e8fcc__lohnuchhaltung.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 63507,
+        "width": 682,
+        "height": 682,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/1d7608f6c4__buchhaltung-2.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 57870,
+        "width": 512,
+        "height": 512,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/aawi-ch/pool/016555cb11__marco_portrait-300x274.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 26401,
+        "width": 300,
+        "height": 274,
+        "orientation": "square",
+        "subject": "portrait",
+        "roles": []
+      },
+      {
+        "src": "/images/aawi-ch/pool/8f6424739c__jahresabschluss-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 40058,
+        "width": 539,
+        "height": 539,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/aawi-ch/pool/26a25b69e6__unternehmensberatung-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 37371,
+        "width": 682,
+        "height": 682,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/d7572170c0__vision-mission.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 31833,
+        "width": 540,
+        "height": 360,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/aawi-ch/pool/8e50c5bb21__firmengruendung-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 27565,
+        "width": 642,
+        "height": 642,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/stock-laptop-7693224.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 89466,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Yan Krukau (Pexels)",
+        "source": "https://www.pexels.com/photo/gray-laptop-on-the-table-7693224/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/stock-laptop-9260568.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 82341,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Atlantic Ambience (Pexels)",
+        "source": "https://www.pexels.com/photo/a-person-writing-on-a-paper-9260568/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/stock-documents-7876037.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 56686,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "www.kaboompics.com (Pexels)",
+        "source": "https://www.pexels.com/photo/a-person-signing-divorce-documents-7876037/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/aawi-ch/pool/stock-laptop-7693224.jpg",
+      "/images/aawi-ch/pool/stock-laptop-9260568.jpg",
+      "/images/aawi-ch/pool/stock-documents-7876037.jpg"
+    ],
+    "stock": true,
+    "credits": [
+      "Yan Krukau (Pexels)",
+      "Atlantic Ambience (Pexels)",
+      "www.kaboompics.com (Pexels)"
+    ]
+  },
+  "nav": {
+    "brand": "aawi treuhand ag",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/aawi-ch/pool/29a44f761c__Logo_200px.png"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Wetzikon",
+    "titleLead": "Seit 1989 - Ihr Treuhand-Partner",
+    "titleAccent": "",
+    "lede": "aawi treuhand ag in Wetzikon Treuhandfirma mit dem Hauptfokus Steuerberatung, Online-/Buchhaltung und Unternehmensberatung.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "aawi treuhand ag in Wetzikon Treuhandfirma mit dem Hauptfokus Steuerberatung, Online-/Buchhaltung und Unternehmensberatung.",
+    "asideAttribution": "aawi treuhand ag",
+    "image": "/images/aawi-ch/hero.png"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/aawi-ch/pool/1d7608f6c4__buchhaltung-2.jpg"
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/aawi-ch/pool/3e5799df2a__steuerberatung.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/aawi-ch/pool/bb8d8e8fcc__lohnuchhaltung.jpg"
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/aawi-ch/pool/stock-laptop-7693224.jpg"
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/aawi-ch/pool/stock-laptop-9260568.jpg"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/aawi-ch/pool/26a25b69e6__unternehmensberatung-1.jpg"
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "aawi Team",
+        "role": "Geschäftsführung",
+        "initials": "AA",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "eidg. Diplom/Fachausweis",
+      "bexio",
+      "sage"
+    ],
+    "badges": [
+      "/images/aawi-ch/pool/af6810ab80__bexio.png"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "1. Worum geht es in dieser Datenschutzerklärung?",
+        "a": "Die aawi treuhand ag (nachstehend auch «wir», «uns») beschafft und bearbeitet Personendaten, die Sie oder auch andere Personen (sogenannte «Dritte») betreffen. Wir verwenden den Begriff «Daten» hier gleichbedeutend mit «Personendaten». Mit Personendaten sind Daten gemeint, die sich auf bestimmte oder bestimmbare Person beziehen (d. h. Rückschlüsse auf deren Identität sind anhand der Daten selbst oder mit entsprechenden Zusatzdaten möglich). «Bearbeiten» meint jeden Umgang mit Personendaten, z. B. das Beschaffen, Speichern, Verwenden, Anpassen, Bekanntgeben und Löschen."
+      },
+      {
+        "q": "2. Wer ist für die Bearbeitung Ihrer Daten verantwortlich?",
+        "a": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder sonstige datenschutzrechtliche Anliegen haben und/oder Ihre Rechte gemäss Ziff. 9 ausüben möchten, können Sie uns unter der vorstehenden Adresse erreichen."
+      },
+      {
+        "q": "3. Welche Daten bearbeiten wir?",
+        "a": "Wir bearbeiten verschiedene Kategorien von Daten über Sie. Die wichtigsten Kategorien sind folgende:"
+      },
+      {
+        "q": "5. Auf welcher Grundlage bearbeiten wir Ihre Daten?",
+        "a": "Soweit Sie uns eine Einwilligung zur Bearbeitung Ihrer Daten für bestimmte Zwecke erteilt haben (z. B. Anmeldung zum Erhalt von Newslettern oder Einwilligung zu anderen regelmässigen Kontakten, Einwilligung in die automatisierte Datenverarbeitung, soweit anwendbar), bearbeiten wir Ihre Daten im Rahmen und gestützt auf diese Einwilligung, soweit wir keine andere Rechtsgrundlage haben und wir eine solche benötigen. Eine erteilte Einwilligung kann jederzeit widerrufen werden, was jedoch keine Auswirkung auf bereits erfolgte Datenbearbeitungen hat (siehe auch Ziff. 9)."
+      },
+      {
+        "q": "6. Wem geben wir Ihre Daten bekannt?",
+        "a": "Im Zusammenhang mit unseren Verträgen, der Website, unseren Dienstleistungen und Produkten, unseren rechtlichen Pflichten oder sonst zur Wahrung unserer berechtigten Interessen und den weiteren in Ziff. 4 aufgeführten Zwecken übermitteln wir Ihre Personendaten auch an Dritte, insbesondere an die folgenden Kategorien von Empfängern:"
+      },
+      {
+        "q": "8. Wie schützen wir Ihre Daten?",
+        "a": "Wir treffen angemessene technische und organisatorische Sicherheitsmassnahmen, um die Vertraulichkeit, Integrität und Verfügbarkeit Ihrer Daten zu wahren, um sie gegen unberechtigte oder unrechtmässige Bearbeitungen zu schützen und den Gefahren des Verlusts, einer unbeabsichtigten Veränderung, einer ungewollten Offenlegung oder eines unberechtigten Zugriffs entgegenzuwirken."
+      },
+      {
+        "q": "9. Welche Rechte haben Sie?",
+        "a": "Das anwendbare Datenschutzrecht gewährt Ihnen unter bestimmten Umständen das Recht, der Bearbeitung Ihrer Daten zu widersprechen oder ihre Einschränkung zu verlangen, insbesondere jener für Zwecke des Direktmarketings, des für Direktwerbung betriebenen Profilings und weiterer berechtigter Interessen an der Bearbeitung."
+      },
+      {
+        "q": "10. Wie verwenden wir Online-Tracking und Online-Werbetechniken?",
+        "a": "Auf unserer Website setzen wir verschiedene Techniken ein, mit denen wir und von uns beigezogenen Dritte Sie bei Ihrer Nutzung wiedererkennen und unter Umständen auch über mehrere Besuche hinweg verfolgen können."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 (0)44 931 35 35",
+      "email": "a.scherrer@aawi.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "aawi treuhand ag",
+    "tagline": "aawi treuhand ag in Wetzikon Treuhandfirma mit dem Hauptfokus Steuerberatung, Online-/Buchhaltung und Unternehmensberatung.",
+    "logo": "/images/aawi-ch/pool/29a44f761c__Logo_200px.png",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Wetzikon",
+          "+41 (0)44 931 35 35",
+          "a.scherrer@aawi.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

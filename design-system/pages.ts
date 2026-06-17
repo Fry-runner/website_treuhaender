@@ -20,11 +20,11 @@ export type PageSlot =
   | "page-header"   // inner-page hero-lite (eyebrow + H1 + breadcrumb)
   | "service-body"  // a single service's deep content
   | "related"       // related items strip
-  | "article-body"  // blog post body
-  | "blog-list"     // list of articles
+  | "gallery"       // media-pool photo grid (office / impressions)
+  | "downloads"     // media-pool documents (Merkblätter / Formulare)
   | "legal-body";   // Impressum / Datenschutz text
 
-export type Repeat = "perService" | "perTeamMember" | "perPost" | "perLegalDoc";
+export type Repeat = "perService" | "perTeamMember" | "perLegalDoc";
 
 export interface PageType {
   id: string;
@@ -57,7 +57,7 @@ export const pageTypes: Record<string, PageType> = {
   },
   about: {
     id: "about", name: "Über uns", slugBase: "/ueber-uns",
-    sections: ["nav", "page-header", "about", "values", "stats", "team", "cta", "footer"],
+    sections: ["nav", "page-header", "about", "values", "stats", "team", "gallery", "cta", "footer"],
     attributes: { purpose: "Trust + story", seoWeight: "medium", contentNeeds: ["about", "values", "team"] },
   },
   team: {
@@ -70,20 +70,9 @@ export const pageTypes: Record<string, PageType> = {
     sections: ["nav", "page-header", "pricing", "faq", "cta", "footer"],
     attributes: { purpose: "Transparency + conversion", seoWeight: "medium", contentNeeds: ["pricing"] },
   },
-  blog: {
-    id: "blog", name: "Blog", slugBase: "/blog",
-    sections: ["nav", "page-header", "blog-list", "cta", "footer"],
-    attributes: { purpose: "Authority + SEO", seoWeight: "high", contentNeeds: ["posts"] },
-  },
-  "blog-post": {
-    id: "blog-post", name: "Beitrag", slugBase: "/blog",
-    sections: ["nav", "page-header", "article-body", "related", "cta", "footer"],
-    repeat: "perPost",
-    attributes: { purpose: "Article / Merkblatt", seoWeight: "high", contentNeeds: ["post"] },
-  },
   contact: {
     id: "contact", name: "Kontakt", slugBase: "/kontakt",
-    sections: ["nav", "page-header", "contact", "map", "footer"],
+    sections: ["nav", "page-header", "contact", "downloads", "map", "footer"],
     attributes: { purpose: "Booking + contact", seoWeight: "medium", contentNeeds: ["contact"] },
   },
   legal: {
@@ -105,7 +94,6 @@ export const siteBlueprints: Record<ArchetypeId, SitePageRef[]> = {
     { pageType: "pricing", presence: "often" },
     { pageType: "about", presence: "always" },
     { pageType: "team", presence: "often" },
-    { pageType: "blog", presence: "often" },
     { pageType: "contact", presence: "always" },
     { pageType: "legal", presence: "always" },
   ],
@@ -120,7 +108,6 @@ export const siteBlueprints: Record<ArchetypeId, SitePageRef[]> = {
     { pageType: "home", presence: "always" },
     { pageType: "services", presence: "always" },
     { pageType: "pricing", presence: "often" },
-    { pageType: "blog", presence: "often", note: "resources/guides" },
     { pageType: "contact", presence: "always" },
     { pageType: "legal", presence: "always" },
   ],
@@ -142,13 +129,17 @@ export function slugify(s: string): string {
 
 const LEGAL_DOCS = ["Impressum", "Datenschutz"];
 
-/** Resolve the full sitemap for a firm, expanding repeatable page types. */
-export function composeSite(
-  archetype: ArchetypeId,
+/**
+ * Resolve a page-ref list into a full sitemap, expanding repeatable page types.
+ * `homeSlots` is the homepage section sequence (from the content-driven brief,
+ * or composeHomepage for the archetype fallback).
+ */
+export function resolvePages(
+  refs: SitePageRef[],
+  homeSlots: string[],
   content?: SiteContent,
   opts: { includeOptional?: boolean } = {},
 ): ResolvedPage[] {
-  const refs = siteBlueprints[archetype] ?? siteBlueprints["boutique"];
   const out: ResolvedPage[] = [];
   for (const ref of refs) {
     if (ref.presence === "optional" && !opts.includeOptional) continue;
@@ -156,16 +147,9 @@ export function composeSite(
     if (!pt) continue;
 
     if (pt.id === "home") {
-      const homeSlots = composeHomepage(archetype).map((s) => s.slot) as string[];
-      // inject a blog teaser before the final CTA, only if the site has a blog page
-      const hasBlog = refs.some((r) => r.pageType === "blog" && (r.presence !== "optional" || opts.includeOptional));
-      if (hasBlog && !homeSlots.includes("blog")) {
-        const at = homeSlots.indexOf("cta");
-        homeSlots.splice(at >= 0 ? at : homeSlots.length, 0, "blog");
-      }
       out.push({
         pageType: "home", slug: "/", title: content?.meta.firm ?? "Home",
-        sections: homeSlots, presence: ref.presence,
+        sections: [...homeSlots], presence: ref.presence,
       });
     } else if (pt.repeat === "perService") {
       const items = content?.services.items ?? [];
@@ -179,15 +163,22 @@ export function composeSite(
         out.push({ pageType: pt.id, slug: `/${slugify(d)}`, title: d,
           sections: pt.sections, presence: ref.presence, item: d });
       }
-    } else if (pt.repeat === "perPost") {
-      out.push({ pageType: pt.id, slug: `${pt.slugBase}/<post>`, title: "<post>",
-        sections: pt.sections, presence: ref.presence });
     } else {
       out.push({ pageType: pt.id, slug: pt.slugBase, title: pt.name,
         sections: pt.sections, presence: ref.presence });
     }
   }
   return out;
+}
+
+/** Archetype-blueprint sitemap (fallback path when no content-driven brief exists). */
+export function composeSite(
+  archetype: ArchetypeId,
+  content?: SiteContent,
+  opts: { includeOptional?: boolean } = {},
+): ResolvedPage[] {
+  const refs = siteBlueprints[archetype] ?? siteBlueprints["boutique"];
+  return resolvePages(refs, composeHomepage(archetype).map((s) => s.slot) as string[], content, opts);
 }
 
 /** Top-level pages only (no repeatable expansion) — for nav menus / sitemap views. */

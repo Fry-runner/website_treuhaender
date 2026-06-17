@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "firm": "Treuhand Zürich (treuhand-zuerich.com)",
+    "domain": "treuhand-zuerich.com",
+    "archetype": "boutique",
+    "lookId": "ruerup-swiss",
+    "sourceUrl": "https://www.treuhand-zuerich.com/",
+    "basePresetId": "ruerup-swiss",
+    "look": {
+      "meta": {
+        "id": "treuhand-zuerich-com-brand",
+        "name": "Rürup Swiss Corporate · brand-tinted",
+        "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
+        "source": "Steuerberatung-Andreas-Rürup + scraped brand",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (tint of beige surface)",
+          "base: ruerup-swiss",
+          "accent #4E84FF (scraped · medium)",
+          "heading: Familjen Grotesk (inventory)",
+          "body: Mulish (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "vibrant"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#E5E7EB",
+        "text": "#1C1C1A",
+        "textMuted": "#71717A",
+        "border": "#E5E7EB",
+        "primary": "#4E84FF",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#F1F5FF",
+        "secondary": "#4E84FF",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "medium",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "medium"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-12",
+        "rhythm": "normal",
+        "containerMax": "1200px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 300,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-offwhite": "#FFFFFF",
+        "--color-brand-anthracite": "#1C1C1A",
+        "--color-brand-red": "#C8102E",
+        "--color-brand-green": "#1F4E3D",
+        "--color-brand-beige": "#E5E7EB",
+        "--color-brand-grey": "#71717A",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "primary": "#4E84FF",
+      "palette": [
+        "#4E84FF"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq",
+      "services.text"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "team.members",
+      "team.photos",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "media.documents",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "logo": "/images/treuhand-zuerich-com/pool/334fba725e__Logo_RT-01-1.png",
+    "hero": "/images/treuhand-zuerich-com/hero.jpg",
+    "badges": [
+      "/images/treuhand-zuerich-com/pool/97dfb28c77__treu-suisse-logo-verband-de.svg"
+    ],
+    "photos": [
+      "/images/treuhand-zuerich-com/pool/dd5efd36af__7Q6A4786-copy.jpg",
+      "/images/treuhand-zuerich-com/pool/aba1a3fe20__7Q6A4538-copy.jpg",
+      "/images/treuhand-zuerich-com/pool/9c041b6866__7Q6A5019-copy.jpg",
+      "/images/treuhand-zuerich-com/pool/20a8f7b98d__DSC04363-copy-2_1-1536x1024.jpg",
+      "/images/treuhand-zuerich-com/pool/62b22def08__Gian-Gadient-quadratisch.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [
+      {
+        "src": "/files/treuhand-zuerich-com/2d0265a88c__Checkliste-Jahresabschluss-AG-und-GmbH.pdf",
+        "title": "Checkliste Jahresabschluss AG und GmbH",
+        "kind": "pdf",
+        "bytes": 208179
+      },
+      {
+        "src": "/files/treuhand-zuerich-com/bb550e97dc__Checkliste-fuer-Steuererklaerung-2023.pdf",
+        "title": "Checkliste Steuererklärung",
+        "kind": "pdf",
+        "bytes": 118074
+      },
+      {
+        "src": "/files/treuhand-zuerich-com/f11f74f758__Inserat-Sachbearbeiter.pdf",
+        "title": "SachbearbeiterIn Treuhand / Junior Mandatsleiterin (Zürich) - 100%",
+        "kind": "pdf",
+        "bytes": 145708
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/treuhand-zuerich-com/pool/334fba725e__Logo_RT-01-1.png",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 4157,
+        "width": 235,
+        "height": 71,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhand-zuerich-com/pool/97dfb28c77__treu-suisse-logo-verband-de.svg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 8511,
+        "width": 355.85,
+        "height": 107.6,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhand-zuerich-com/pool/dd5efd36af__7Q6A4786-copy.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 156142,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhand-zuerich-com/pool/aba1a3fe20__7Q6A4538-copy.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 69135,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhand-zuerich-com/pool/9c041b6866__7Q6A5019-copy.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 70992,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhand-zuerich-com/pool/62b22def08__Gian-Gadient-quadratisch.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 129626,
+        "width": 1280,
+        "height": 1280,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhand-zuerich-com/pool/20a8f7b98d__DSC04363-copy-2_1-1536x1024.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 61476,
+        "width": 1536,
+        "height": 1024,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/treuhand-zuerich-com/pool/dd5efd36af__7Q6A4786-copy.jpg",
+      "/images/treuhand-zuerich-com/pool/aba1a3fe20__7Q6A4538-copy.jpg",
+      "/images/treuhand-zuerich-com/pool/9c041b6866__7Q6A5019-copy.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Treuhand Zürich (treuhand-zuerich.com)",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen",
+    "logo": "/images/treuhand-zuerich-com/pool/334fba725e__Logo_RT-01-1.png"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Exakt arbeiten – genau hinschauen.",
+    "titleAccent": "",
+    "lede": "Buchhaltung, Steuern und Beratung für KMU und Privatpersonen in Zürich. Persönlich, präzise und vorausschauend an Ihrer Seite.",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Wir erledigen das!",
+    "asideAttribution": "Treuhand Zürich (treuhand-zuerich.com)",
+    "image": "/images/treuhand-zuerich-com/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Bujar Sadiku",
+        "role": "Treuhänder mit eidg. FA / Partner",
+        "initials": "BS",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Connie Eindiguer",
+        "role": "Treuhänderin mit eidg. FA / Partner",
+        "initials": "CE",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Amir Hanna",
+        "role": "Treuhänder mit eidg. FA / Partner",
+        "initials": "AH",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Gian Gadient",
+        "role": "Treuhand-Sachbearbeiter",
+        "initials": "GG",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/treuhand-zuerich-com/team/3-gadient.jpg"
+      },
+      {
+        "name": "Georgije Lavrnja",
+        "role": "Treuhand-Sachbearbeiter",
+        "initials": "GL",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "TREUHAND|SUISSE",
+      "eidg. Diplom/Fachausweis",
+      "klara",
+      "topal"
+    ],
+    "badges": [
+      "/images/treuhand-zuerich-com/pool/97dfb28c77__treu-suisse-logo-verband-de.svg"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 204 20 10",
+      "email": "amir.hanna@treuhand-zuerich.com",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Treuhand Zürich (treuhand-zuerich.com)",
+    "tagline": "Wir erledigen das!",
+    "logo": "/images/treuhand-zuerich-com/pool/334fba725e__Logo_RT-01-1.png",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 44 204 20 10",
+          "amir.hanna@treuhand-zuerich.com"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

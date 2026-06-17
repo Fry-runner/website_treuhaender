@@ -9,17 +9,26 @@
  */
 import type { CSSProperties } from "react";
 import type { DesignTokens } from "../tokens";
-import { radius, shadow, sectionY, weight, tracking, display, headTracking } from "./scales";
+import { radius, shadow, sectionY, weight, tracking, display, displayH2, headTracking } from "./scales";
+import { ensureContrast, luminance } from "./color";
 
 export type LookVars = CSSProperties & Record<string, string | number>;
 
 export function applyLook(t: DesignTokens): LookVars {
+  // Supporting text must stay legible on whichever surface it lands on. Several
+  // presets ship a muted grey that fails WCAG AA on their own bg (e.g. boost
+  // #94A3B8 ≈ 2.8:1). Enforce ≥4.5:1 against the harder of bg/surface — the one
+  // whose luminance sits closest to the muted tone — so the other passes too.
+  const lm = luminance(t.color.textMuted);
+  const harderBg = Math.abs(luminance(t.color.surface) - lm) < Math.abs(luminance(t.color.bg) - lm)
+    ? t.color.surface : t.color.bg;
+  const textMuted = ensureContrast(t.color.textMuted, harderBg, 4.5);
   return {
     // colors
     "--ds-bg": t.color.bg,
     "--ds-surface": t.color.surface,
     "--ds-text": t.color.text,
-    "--ds-text-muted": t.color.textMuted,
+    "--ds-text-muted": textMuted,
     "--ds-border": t.color.border,
     "--ds-primary": t.color.primary,
     "--ds-primary-fg": t.color.primaryFg,
@@ -30,6 +39,7 @@ export function applyLook(t: DesignTokens): LookVars {
     "--ds-font-heading": t.font.heading,
     "--ds-font-mono": t.font.mono ?? t.font.body,
     "--ds-display": display(t.type.displayMax),
+    "--ds-display-h2": displayH2(t.type.displayMax),
     "--ds-headline-weight": weight(t.type.headlineWeight),
     "--ds-headline-tracking": headTracking(t.type.headlineTracking),
     "--ds-body-weight": weight(t.type.bodyWeight),

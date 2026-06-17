@@ -1,0 +1,638 @@
+{
+  "meta": {
+    "firm": "Treuhandfinanz / Treuhänder Zürich",
+    "domain": "treuhaender-zuerich.com",
+    "archetype": "boutique",
+    "lookId": "boost-editorial",
+    "sourceUrl": "https://www.treuhaender-zuerich.com/",
+    "basePresetId": "boost-editorial",
+    "look": {
+      "meta": {
+        "id": "treuhaender-zuerich-com-brand",
+        "name": "Boost Editorial · brand-generated",
+        "mood": "High-fidelity minimalist; serif display over Inter, navy text, clean blue accent, airy whitespace.",
+        "source": "Boost-Consulting + generated accent",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "base: boost-editorial",
+          "accent #955337 (generated · no scraped colour)",
+          "heading: Playfair Display (inventory)",
+          "body: Work Sans (inventory)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "medium",
+        "density": "airy",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F8FAFC",
+        "text": "#0F172A",
+        "textMuted": "#94A3B8",
+        "border": "#E2E8F0",
+        "primary": "#955337",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#F7F1EF",
+        "secondary": "#39A1B1",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Playfair Display\", Georgia, \"Times New Roman\", serif",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "serif-editorial"
+      },
+      "type": {
+        "displayMax": "6xl",
+        "headlineWeight": "semibold",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "medium"
+        }
+      },
+      "radius": {
+        "base": "lg",
+        "pill": "full",
+        "scale": "medium"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-20",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 300,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-navy": "#0F172A",
+        "--color-brand-gray": "#F8FAFC",
+        "--color-brand-platinum": "#94A3B8",
+        "--color-brand-border": "#E2E8F0",
+        "--color-brand-accent-blue": "#2563EB",
+        "--color-brand-accent-blue-light": "#EFF6FF",
+        "--font-sans": "Inter",
+        "--font-serif": "Playfair Display",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "palette": [],
+      "fontsSeen": [],
+      "confidence": "low"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "faq",
+      "look.colors (generated)"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "values",
+      "footer.tagline",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "services.images"
+    ]
+  },
+  "media": {
+    "logo": "/images/treuhaender-zuerich-com/pool/25d4b48eda__Logo.svg",
+    "hero": "/images/treuhaender-zuerich-com/hero.jpeg",
+    "badges": [
+      "/images/treuhaender-zuerich-com/pool/51438d8756__Siegel.jpg"
+    ],
+    "photos": [
+      "/images/treuhaender-zuerich-com/pool/c45169073b__treuhaender-zuerich-scaled.jpeg",
+      "/images/treuhaender-zuerich-com/pool/18d6dcdb1f__Treuhandbuero-Zuerich-scaled.jpeg",
+      "/images/treuhaender-zuerich-com/pool/a943dcd446__treuhandunternehmen-scaled.jpeg",
+      "/images/treuhaender-zuerich-com/pool/4cb129976c__Steueroptimierung-scaled.jpeg",
+      "/images/treuhaender-zuerich-com/pool/2394c3c940__Buchhaltung-auslagern-scaled.jpeg",
+      "/images/treuhaender-zuerich-com/pool/40cc31f240__Treuhandfinanz_Marc_Keller-2048x1365.jpeg",
+      "/images/treuhaender-zuerich-com/pool/1c96264a68__Jahresabschluss-Unternehmen-scaled.jpeg",
+      "/images/treuhaender-zuerich-com/pool/7d9e930f78__RETO-Treuhandfinanz.jpg",
+      "/images/treuhaender-zuerich-com/pool/90a348852c__dummy-mitarbeiterin.jpg",
+      "/images/treuhaender-zuerich-com/pool/c33a2a039e__dummy-mitarbeiter.jpg"
+    ],
+    "serviceImages": {
+      "Buchhaltung": "/images/treuhaender-zuerich-com/pool/2394c3c940__Buchhaltung-auslagern-scaled.jpeg",
+      "Steuerberatung": "/images/treuhaender-zuerich-com/pool/4cb129976c__Steueroptimierung-scaled.jpeg",
+      "Unternehmensberatung": "/images/treuhaender-zuerich-com/pool/1c96264a68__Jahresabschluss-Unternehmen-scaled.jpeg"
+    },
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/25d4b48eda__Logo.svg",
+        "kind": "logo",
+        "alt": "Logo",
+        "bytes": 6009,
+        "width": 119.32708,
+        "height": 48.815624,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/51438d8756__Siegel.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 34491,
+        "width": 328,
+        "height": 144,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/c45169073b__treuhaender-zuerich-scaled.jpeg",
+        "kind": "photo",
+        "alt": "treuhaender in zuerich",
+        "bytes": 340205,
+        "width": 1600,
+        "height": 1068,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/a943dcd446__treuhandunternehmen-scaled.jpeg",
+        "kind": "photo",
+        "alt": "Treuhandunternehmen",
+        "bytes": 184694,
+        "width": 1600,
+        "height": 1083,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/4cb129976c__Steueroptimierung-scaled.jpeg",
+        "kind": "photo",
+        "alt": "Steueroptimierung",
+        "bytes": 198536,
+        "width": 1600,
+        "height": 900,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/18d6dcdb1f__Treuhandbuero-Zuerich-scaled.jpeg",
+        "kind": "photo",
+        "alt": "Treuhandbüro Zürich",
+        "bytes": 163678,
+        "width": 1600,
+        "height": 897,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/2394c3c940__Buchhaltung-auslagern-scaled.jpeg",
+        "kind": "photo",
+        "alt": "Buchhaltung auslagern",
+        "bytes": 147755,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/40cc31f240__Treuhandfinanz_Marc_Keller-2048x1365.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 126237,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/7d9e930f78__RETO-Treuhandfinanz.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 122260,
+        "width": 1477,
+        "height": 1600,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/1c96264a68__Jahresabschluss-Unternehmen-scaled.jpeg",
+        "kind": "photo",
+        "alt": "Jahresabschluss Unternehmen",
+        "bytes": 73386,
+        "width": 1600,
+        "height": 679,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/90a348852c__dummy-mitarbeiterin.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 12955,
+        "width": 791,
+        "height": 791,
+        "orientation": "square",
+        "subject": "portrait",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/treuhaender-zuerich-com/pool/c33a2a039e__dummy-mitarbeiter.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 12491,
+        "width": 791,
+        "height": 791,
+        "orientation": "square",
+        "subject": "portrait",
+        "roles": [
+          "gallery"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/treuhaender-zuerich-com/pool/c45169073b__treuhaender-zuerich-scaled.jpeg",
+      "/images/treuhaender-zuerich-com/pool/a943dcd446__treuhandunternehmen-scaled.jpeg",
+      "/images/treuhaender-zuerich-com/pool/4cb129976c__Steueroptimierung-scaled.jpeg"
+    ]
+  },
+  "nav": {
+    "brand": "Treuhandfinanz / Treuhänder Zürich",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/treuhaender-zuerich-com/pool/25d4b48eda__Logo.svg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Treuhänder Zürich. Das erfahrene schweizer Treuhandbüro.",
+    "titleAccent": "",
+    "lede": "Treuhandfinanz© ist Ihr erfahrenes Treuhandbüro Schweiz. Ihr kompetenter Treuhänder Zürich ... Buchhaltung, Jahresabschluss, Steuern & Löhne",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Treuhandfinanz© ist Ihr erfahrenes Treuhandbüro Schweiz. Ihr kompetenter Treuhänder Zürich ... Buchhaltung, Jahresabschluss, Steuern & Löhne",
+    "asideAttribution": "Treuhandfinanz / Treuhänder Zürich",
+    "image": "/images/treuhaender-zuerich-com/hero.jpeg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Ihre Buchhaltung auslagern und Zeit sparen: Treuhandfinanz© Zürich bietet professionelle Buchhaltung für KMU. Schnell, sicher und effizient",
+        "body": "Deshalb profitieren KMU in der Schweiz … wenn Sie Ihre Buchhaltung auslagern. Wenn Sie ein eigenes Unternehmen führen, wissen Sie: Buchhaltung auszulagern, spart Kosten sowie Zeit und Nerven.\n\nBuchhaltung ist weit mehr als Zahlen abtippen. Es geht um gesetzliche Vorgaben, Fristen, korrekte Mehrwertsteuer-Abrechnungen, seriöse Steueroptimierung und die lückenlose Dokumentation aller Geschäftsvorgänge. Fehler können schnell teuer werden.\n\nEin professioneller Treuhänder kennt die aktuellen Vorschriften und sorgt dafür, dass Ihre Buchhaltung jederzeit korrekt und effizient erledigt wird.\n\n: Statt Stunden mit Rechnungen zu verbringen, können Sie sich auf Ihre Kunden und Ihr Wachstum konzentrieren.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/treuhaender-zuerich-com/pool/2394c3c940__Buchhaltung-auslagern-scaled.jpeg"
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Neuigkeiten, Tipps und Fachwissen zu Buchhaltung, Jahresabschluss und Steuern in der Schweiz. Bleiben Sie mit Treuhandfinanz© immer auf dem neuesten Stand!",
+        "body": "Ihr Treuhänder in Zürich: So finden Sie den passenden Partner für Ihr Unternehmen … Wer ein Unternehmen in Zürich führt, weiss: Vertrauen, Genauigkeit und Fachwissen sind unerlässlich, wenn es um Buchhaltung, Steuern und Finanzen geht. Ein professioneller Treuhänder in Zürich bzw. ein erfahrenes Treuhandunternehmen ist dabei mehr als nur ein Zahlenverwalter – er ist strategischer Partner, […]\n\nDas Treuhandunternehmen – die Treuhandfinanz AG in Zürich: Ihr professioneller Partner für effiziente Buchhaltung und Steuerberatung für Unternehmen in der Schweiz. In der dynamischen Finanzlandschaft der Schweiz sind professionelle Treuhandlösungen wichtiger denn je. Ob in Zürich, Küsnacht, Zug, Basel, Bern, Luzern oder anderen Kantonen: Unternehmen jeder Grösse profitieren von einem erfahrenen Treuhandunternehmen, das Buchhaltung, Steuern […]\n\nSteueroptimierung für KMU: Tipps vom Treuhänder … Ste",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/treuhaender-zuerich-com/pool/4cb129976c__Steueroptimierung-scaled.jpeg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Entdecken Sie die Kompetenzen von Treuhandfinanz©: Buchhaltung, Steuern, Jahresabschluss & mehr. Ihr erfahrenes Treuhandbüro in Zürich ...",
+        "body": "Jeder Unternehmer weiß: Ein Unternehmen zu gründen ist nicht immer einfach. Treuhandfinanz unterstützt Gründer auf ihrem Weg zur Firma. Damit später auch die Finanzen stimmen, bieten wir Neu- & Altfirmen unsere Finanzbuchhaltungsservices an – so gewinnen Sie Zeit & Geld.\n\nDie Finanz- oder Lohnbuchhaltung macht den wenigsten von uns Freude. Zum Glück gibt es dafür Lohnbuchhalter, die immer den Überblick haben.\n\nDamit Sie sich jeden Tag aufs Neue auf und über Ihr Unternehmen freuen können, übernimmt Treuhandfinanz Ihre Lohn- und Finanzbuchhaltung.\n\nDamit stellen wir für Sie sicher, dass alle Abrechnungen immer pünktlich und fristgerecht erstellt und eingereicht werden. Ausserdem übernehmen wir für Sie professionell & kompetent die Erstellung der Jahresabschlüsse.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresabschluss stressfrei erledigen: Treuhandfinanz© Zürich unterstützt Unternehmen + KMU in der Schweiz. Buchhaltung & Steueroptimierung",
+        "body": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz …  Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.\n\nGleichzeitig stellt er Unternehmer jedes Jahr vor neue Herausforderungen: fehlende Belege, unklare Abgrenzungen, offene Fragen zur Mehrwertsteuer oder Unsicherheiten bei der Bewertung von Vermögenswerten.\n\n, die Kommunikation mit dem Steueramt und nicht zuletzt für Ihre interne Planung.\n\nDie relevanten Bestandteile – Bilanz, Erfolgsrechnung, Anhang und ggf. Lagebericht – geben einen strukturierten Überblick über die finanzielle Lage Ihres Unternehmens.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "Wir unterstützen Unternehmen bei der korrekten MWST-Abrechnung in der Schweiz. Ihr Treuhandbüro in Zürich für Buchhaltung & Steuerpflichten",
+        "body": "Die Mehrwertsteuer, kurz MWST: Wir alle kennen sie, wir alle zahlen sie. Und zwar auf alles, was wir täglich kaufen. Also auch auf Dienstleistungen und Produkte, die beispielsweise Ihr Unternehmen anbietet und vertreibt. Für Sie als Chef heisst das: Diese MWST müssen Sie irgendwann auch wieder abführen.\n\nEinfach gesagt: Die Mehrwertsteuer ist eine allgemeine Verbrauchs- und Konsumsteuer. Ausschliesslich vom Bund erhoben, dient sie v.a. der Decking der sog. allgemeinen Bundesausgaben.\n\nDefinition hin oder her: Wenn Sie ein Unternehmen führen, müssen Sie diese Mehrwertsteuer Ihren Kunden für die in Anspruch genommenen Dienstleistungen nicht nur in Rechnung stellen.\n\nSie müssen diese auch in der Steuererklärung wieder abführen. Beim Wort “Steuererklärung” bekommt der ein oder andere von Ihnen nun vielleicht Kopfschmerzen. Denn: Rechnungen, Belege und Quittungen müssen sortiert und eingereic",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Jahresabschluss stressfrei erledigen: Treuhandfinanz© Zürich unterstützt Unternehmen + KMU in der Schweiz. Buchhaltung & Steueroptimierung",
+        "body": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz …  Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.\n\nGleichzeitig stellt er Unternehmer jedes Jahr vor neue Herausforderungen: fehlende Belege, unklare Abgrenzungen, offene Fragen zur Mehrwertsteuer oder Unsicherheiten bei der Bewertung von Vermögenswerten.\n\n, die Kommunikation mit dem Steueramt und nicht zuletzt für Ihre interne Planung.\n\nDie relevanten Bestandteile – Bilanz, Erfolgsrechnung, Anhang und ggf. Lagebericht – geben einen strukturierten Überblick über die finanzielle Lage Ihres Unternehmens.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/treuhaender-zuerich-com/pool/1c96264a68__Jahresabschluss-Unternehmen-scaled.jpeg"
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Jahresabschluss für Ihre Firma",
+        "body": "Wir erstellen Ihren Jahresabschluss oder übernehmen die komplette Finanzbuchhaltung."
+      },
+      {
+        "title": "100% anonym & diskret",
+        "body": "Übermittelte Mitarbeiter- und Firmendaten unterliegen dem Datenschutz – Ihre Sicherheit hat Vorrang!"
+      },
+      {
+        "title": "100% perfekte Lohnbuchhaltung",
+        "body": "Sie suchen einen erfahrenen  Treuhänder in Zürich? Dann bestellen Sie jetzt gleich Ihre kostenlose Offerte!"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Reto Leemann",
+        "role": "Treuhänder",
+        "initials": "RL",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
+      {
+        "name": "Marc Waldburger",
+        "role": "Geschäftsführer",
+        "initials": "MW",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [],
+    "badges": [
+      "/images/treuhaender-zuerich-com/pool/51438d8756__Siegel.jpg"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 (0)58 502 85 00",
+      "email": "info@treuhandfinanz.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Treuhandfinanz / Treuhänder Zürich",
+    "tagline": "Treuhandfinanz© ist Ihr erfahrenes Treuhandbüro Schweiz. Ihr kompetenter Treuhänder Zürich ... Buchhaltung, Jahresabschluss, Steuern & Löhne",
+    "logo": "/images/treuhaender-zuerich-com/pool/25d4b48eda__Logo.svg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 (0)58 502 85 00",
+          "info@treuhandfinanz.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

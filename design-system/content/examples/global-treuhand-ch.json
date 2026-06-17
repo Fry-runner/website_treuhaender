@@ -1,0 +1,554 @@
+{
+  "meta": {
+    "firm": "Global-Treuhand GmbH",
+    "domain": "global-treuhand.ch",
+    "archetype": "swiss-digital",
+    "lookId": "swiss-clean",
+    "sourceUrl": "https://www.global-treuhand.ch/",
+    "basePresetId": "swiss-clean",
+    "look": {
+      "meta": {
+        "id": "global-treuhand-ch-brand",
+        "name": "Swiss Clean · brand-generated",
+        "source": "synthesized (references) + generated accent",
+        "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
+        "derived": [
+          "base: swiss-clean",
+          "accent #2C6D42 (generated · no scraped colour)",
+          "heading: Schibsted Grotesk (inventory)",
+          "body: Public Sans (inventory)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "medium",
+        "density": "airy",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F2F7F8",
+        "text": "#0E2A33",
+        "textMuted": "#5B7682",
+        "border": "#DCE7EA",
+        "primary": "#2C6D42",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EEF3F0",
+        "secondary": "#368731",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Schibsted Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "6xl",
+        "headlineWeight": "semibold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "wider",
+          "weight": "semibold"
+        }
+      },
+      "radius": {
+        "base": "md",
+        "pill": "full",
+        "scale": "medium"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-20",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 260,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "moderate"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--accent-teal": "#0EA5A5",
+        "--ink-navy": "#1E3A5F",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "palette": [],
+      "fontsSeen": [],
+      "confidence": "low"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": false,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✗ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "look.colors (generated)",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.lede",
+      "services.text",
+      "faq",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.documents"
+    ]
+  },
+  "media": {
+    "hero": "/images/global-treuhand-ch/hero.jpg",
+    "badges": [],
+    "photos": [
+      "/images/global-treuhand-ch/pool/3708f2842a__1201156.jpg",
+      "/images/global-treuhand-ch/pool/e453619349__325457.jpg",
+      "/images/global-treuhand-ch/pool/6b8689a28a__214352.jpg",
+      "/images/global-treuhand-ch/pool/90eab12dea__325447.jpg",
+      "/images/global-treuhand-ch/pool/47da750549__956862.png",
+      "/images/global-treuhand-ch/pool/2bce52f204__956863.png",
+      "/images/global-treuhand-ch/pool/38e672c6bf__706096.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [
+      {
+        "src": "/files/global-treuhand-ch/cbb25d927f__Checkliste.pdf",
+        "title": "Checkliste.pdf",
+        "kind": "pdf",
+        "bytes": 429043
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/global-treuhand-ch/pool/3708f2842a__1201156.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 28929,
+        "width": 1600,
+        "height": 900,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/global-treuhand-ch/pool/e453619349__325457.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 166182,
+        "width": 2000,
+        "height": 1603,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/global-treuhand-ch/pool/6b8689a28a__214352.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 142924,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/global-treuhand-ch/pool/47da750549__956862.png",
+        "kind": "photo",
+        "alt": "BELA CLEAN",
+        "bytes": 46814,
+        "width": 600,
+        "height": 600,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/global-treuhand-ch/pool/90eab12dea__325447.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 64175,
+        "width": 2000,
+        "height": 1325,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/global-treuhand-ch/pool/38e672c6bf__706096.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 63521,
+        "width": 969,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/global-treuhand-ch/pool/2bce52f204__956863.png",
+        "kind": "photo",
+        "alt": "Master Investment",
+        "bytes": 19437,
+        "width": 600,
+        "height": 600,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/global-treuhand-ch/pool/3708f2842a__1201156.jpg",
+      "/images/global-treuhand-ch/pool/e453619349__325457.jpg",
+      "/images/global-treuhand-ch/pool/6b8689a28a__214352.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Global-Treuhand GmbH",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Wallisellen",
+    "titleLead": "Ihre Finanzen,",
+    "titleAccent": "klar geführt.",
+    "lede": "Wir fokussieren uns auf die Buchführung für kleine bis mittlere Unternehmen in Kloten & Umgebung. Wenn Sie zufrieden sind, sind wir es auch.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Wir fokussieren uns auf die Buchführung für kleine bis mittlere Unternehmen in Kloten & Umgebung. Wenn Sie zufrieden sind, sind wir es auch.",
+    "asideAttribution": "Global-Treuhand GmbH",
+    "image": "/images/global-treuhand-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Global Treuhand unterstützt Privatpersonen bei der Steuererklärung und berät Sie kompetent bei der Steueroptimierung nach den aktuellen Standards.",
+        "body": "Global Treuhand berät Sie kompetent und fachmännisch zur Steueroptimierung. Wenden Sie Ihren Steuerstress ab und übergeben Sie uns Ihre Steuererklärung. Bei uns sind Sie in guten Händen aufgehoben.\n\nAls Ihr Steuerberater kontrollieren wir für Sie die Einschätzungsentscheide und erheben allenfalls Einsprache für Sie.\n\nWir beraten den Bedürfnissen entsprechend und erstellen für Sie die notwendigen Dokumente.\n\nBei weiteren Fragen nehmen Sie mit uns Kontakt auf. Wir helfen Ihnen gerne weiter.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Global-Treuhand Team",
+        "role": "Geschäftsführung",
+        "initials": "GL",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "eidg. Diplom/Fachausweis",
+      "klara",
+      "sage"
+    ],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "Wer ist verantwortlich für die Datenerfassung auf dieser Website?",
+        "a": "Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen."
+      },
+      {
+        "q": "Wie erfassen wir Ihre Daten?",
+        "a": "Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben."
+      },
+      {
+        "q": "Wofür nutzen wir Ihre Daten?",
+        "a": "Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden."
+      },
+      {
+        "q": "Welche Rechte haben Sie bezüglich Ihrer Daten?",
+        "a": "Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu."
+      },
+      {
+        "q": "Mit welchem Buchhaltungssystem arbeiten Sie?",
+        "a": "Diese Webseite verwendet Cookies. Hier kannst du auswählen, welche Cookies du zulassen willst und deine Auswahl jederzeit ändern. Klickst du auf 'Zustimmen', stimmst du der Verwendung von Cookies zu."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 523 69 99",
+      "email": "info@global-treuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Global-Treuhand GmbH",
+    "tagline": "Wir fokussieren uns auf die Buchführung für kleine bis mittlere Unternehmen in Kloten & Umgebung. Wenn Sie zufrieden sind, sind wir es auch.",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Wallisellen",
+          "+41 44 523 69 99",
+          "info@global-treuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

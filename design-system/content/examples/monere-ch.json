@@ -1,0 +1,741 @@
+{
+  "meta": {
+    "firm": "Monere Wallisellen",
+    "domain": "monere.ch",
+    "archetype": "boutique",
+    "lookId": "zueri-swiss",
+    "sourceUrl": "https://www.monere.ch/",
+    "basePresetId": "zueri-swiss",
+    "look": {
+      "meta": {
+        "id": "monere-ch-brand",
+        "name": "Züri Swiss Blue · brand-tinted",
+        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
+        "source": "Züri-Treuhand + scraped brand",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAF1F8 tint)",
+          "color.secondaryFg (#FFFFFF)",
+          "color.textMuted (#737373 neutral-500)",
+          "base: zueri-swiss",
+          "accent #116DFF (scraped · medium)",
+          "heading: Sora (inventory)",
+          "body: IBM Plex Sans (inventory)",
+          "mono: IBM Plex Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F9FAFB",
+        "text": "#333333",
+        "textMuted": "#737373",
+        "border": "#EAEAEA",
+        "primary": "#116DFF",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#ECF3FF",
+        "secondary": "#E84A43",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"IBM Plex Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Sora\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-16",
+        "rhythm": "normal",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-blue": "#084687",
+        "--color-accent-blue": "#0b549f",
+        "--color-charcoal": "#333333",
+        "--color-soft-gray": "#F9FAFB",
+        "--color-border-gray": "#EAEAEA",
+        "--font-sans": "Inter",
+        "--font-serif": "Playfair Display",
+        "--font-display": "Space Grotesk",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "primary": "#116DFF",
+      "secondary": "#E84A43",
+      "palette": [
+        "#116DFF",
+        "#E84A43",
+        "#3899EC",
+        "#AF2B2B",
+        "#0F2CCF",
+        "#2F5DFF",
+        "#597DFF",
+        "#ACBEFF",
+        "#9C2426",
+        "#DF3336",
+        "#E55C5E",
+        "#ED8F90"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "trust.badges",
+      "services.images",
+      "media.documents",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "hero": "/images/monere-ch/hero.jpg",
+    "badges": [
+      "/images/monere-ch/pool/50a2c50d66__2018_monere_logo_cmyk-quer.png"
+    ],
+    "photos": [
+      "/images/monere-ch/pool/c58d3833e7__f4c47f_394466a6654243ac98c3cbaf545f9b4f_mv2.png",
+      "/images/monere-ch/pool/ac37c45ea7__f4c47f_27799c12ea13418aab8857a925a76ffc_mv2.png",
+      "/images/monere-ch/pool/030c48e99b__f4c47f_c7dd5302203644e7afee7ee8adb47418_mv2.png",
+      "/images/monere-ch/pool/9b016372a4__f4c47f_f5e2d9ffb7354c8db4176eb1d63c7431_mv2.png",
+      "/images/monere-ch/pool/ae87721606__f4c47f_b36ded06ad854a6991d51a808ddf5c18_mv2.png",
+      "/images/monere-ch/pool/03573520e3__b8f8d72c-4eac-4e94-9d33-e6f69982214c.png",
+      "/images/monere-ch/pool/17153558cc__f4c47f_6a966b6b4bf3493fb6f716b6a603f40a_7Emv2_d_2868_1492_s_2.png",
+      "/images/monere-ch/pool/f91c53735d__Monere-16-11-2018-1023.jpg",
+      "/images/monere-ch/pool/27206c6d1a__Unternehmensberatung.jpeg",
+      "/images/monere-ch/pool/688334ed01__1109_AP06_V02.jpg",
+      "/images/monere-ch/pool/0223680471__monere_20treuhand_20gmbh_201_edited.jpg",
+      "/images/monere-ch/pool/7b4c159a82__Regus_20Business_20Park.jpg",
+      "/images/monere-ch/pool/f36d9f9bf8__Monere-16-11-2018-988.jpg",
+      "/images/monere-ch/pool/e02a70f245__Steuerberater_in.jpeg",
+      "/images/monere-ch/pool/35a0ccc034__monere_20treuhand_20gmbh_20Monika_20Baumann_202.jpg",
+      "/images/monere-ch/pool/d1e9a3cd0c__Monere-16-11-2018-1009.jpg"
+    ],
+    "serviceImages": {
+      "Steuerberatung": "/images/monere-ch/pool/e02a70f245__Steuerberater_in.jpeg",
+      "Unternehmensberatung": "/images/monere-ch/pool/27206c6d1a__Unternehmensberatung.jpeg"
+    },
+    "documents": [
+      {
+        "src": "/files/monere-ch/0e211d9390__f4c47f_c70cb3cdd1c24a9d974b7cfda58b23ad.pdf",
+        "title": "Checkliste Unterlagen Immobilienverkauf.pdf",
+        "kind": "pdf",
+        "bytes": 32544
+      },
+      {
+        "src": "/files/monere-ch/ff718c3b75__f4c47f_e725a46781384e4da1f7187b5c17b6be.pdf",
+        "title": "f 4c 47f",
+        "kind": "pdf",
+        "bytes": 725705
+      },
+      {
+        "src": "/files/monere-ch/8d9ba24886__f4c47f_4c1c8b93562349f998b9a5707563c5a2.pdf",
+        "title": "Muster.pdf",
+        "kind": "pdf",
+        "bytes": 59103
+      },
+      {
+        "src": "/files/monere-ch/cbe8c337a8__f4c47f_7eeeb78c2aec4cf2961a18f826235cf8.pdf",
+        "title": "Muster.pdf",
+        "kind": "pdf",
+        "bytes": 32481
+      },
+      {
+        "src": "/files/monere-ch/52cf77bc7e__f4c47f_9e2ac8a794154739a43b55f5474db086.pdf",
+        "title": "Muster.pdf",
+        "kind": "pdf",
+        "bytes": 31314
+      },
+      {
+        "src": "/files/monere-ch/8b02e5a181__f4c47f_d1a2f7b173634d2daf84a7c75051311b.pdf",
+        "title": "Tipps Immobilien-Verkauf.pdf",
+        "kind": "pdf",
+        "bytes": 351449
+      },
+      {
+        "src": "/files/monere-ch/d70f712aa2__f4c47f_b3e3ca81a06c471ea398fa54a0d70f13.pdf",
+        "title": "Tipps Immobilien-Vermietung.pdf",
+        "kind": "pdf",
+        "bytes": 116145
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/monere-ch/pool/50a2c50d66__2018_monere_logo_cmyk-quer.png",
+        "kind": "badge",
+        "alt": "Wir beraten Sie umfassend zu allen Möglichkeiten bei Vermietungen und Verkauf sowie bei sämtlichen finanziellen und steuerlic",
+        "bytes": 10448,
+        "width": 332,
+        "height": 72,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/monere-ch/pool/c58d3833e7__f4c47f_394466a6654243ac98c3cbaf545f9b4f_mv2.png",
+        "kind": "photo",
+        "alt": "Eye-level view of a modern office building in Zurich",
+        "bytes": 329004,
+        "width": 1000,
+        "height": 571,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/ac37c45ea7__f4c47f_27799c12ea13418aab8857a925a76ffc_mv2.png",
+        "kind": "photo",
+        "alt": "Eye-level view of modern office desk with laptop and financial documents",
+        "bytes": 178281,
+        "width": 1000,
+        "height": 571,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/030c48e99b__f4c47f_c7dd5302203644e7afee7ee8adb47418_mv2.png",
+        "kind": "photo",
+        "alt": "Eye-level view of office desk with payroll documents and calculator",
+        "bytes": 184248,
+        "width": 1000,
+        "height": 563,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/9b016372a4__f4c47f_f5e2d9ffb7354c8db4176eb1d63c7431_mv2.png",
+        "kind": "photo",
+        "alt": "Eye-level view of modern office desk with laptop and financial documents",
+        "bytes": 184589,
+        "width": 1000,
+        "height": 571,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/03573520e3__b8f8d72c-4eac-4e94-9d33-e6f69982214c.png",
+        "kind": "photo",
+        "alt": "eine papierlose Buchhaltung ist nicht nur effizienter, sondern auch umweltfreundlicher",
+        "bytes": 163135,
+        "width": 1024,
+        "height": 427,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/ae87721606__f4c47f_b36ded06ad854a6991d51a808ddf5c18_mv2.png",
+        "kind": "photo",
+        "alt": "eye-level view of office desk with payroll documents and calculator",
+        "bytes": 185312,
+        "width": 1000,
+        "height": 563,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/17153558cc__f4c47f_6a966b6b4bf3493fb6f716b6a603f40a_7Emv2_d_2868_1492_s_2.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 47016,
+        "width": 1600,
+        "height": 832,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/e02a70f245__Steuerberater_in.jpeg",
+        "kind": "photo",
+        "alt": "Steuerberater/in",
+        "bytes": 82566,
+        "width": 1200,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/35a0ccc034__monere_20treuhand_20gmbh_20Monika_20Baumann_202.jpg",
+        "kind": "photo",
+        "alt": "Erfüllen Sie alle gesetzlichen Vorgaben mit Swissdec 5.3 zertifiziertem Mitarbeitermanagement und kostenlosem «einheitlichem",
+        "bytes": 79064,
+        "width": 1200,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/f91c53735d__Monere-16-11-2018-1023.jpg",
+        "kind": "photo",
+        "alt": "Monere-16-11-2018-1023.jpg",
+        "bytes": 79128,
+        "width": 1200,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/27206c6d1a__Unternehmensberatung.jpeg",
+        "kind": "photo",
+        "alt": "Unternehmensberatung",
+        "bytes": 59653,
+        "width": 1086,
+        "height": 452,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/688334ed01__1109_AP06_V02.jpg",
+        "kind": "photo",
+        "alt": "Wir setzen auf fortschrittliche Software-Lösungen und nutzen die Entwicklungen in der Digitalisierung, um Ihnen einfache und",
+        "bytes": 62236,
+        "width": 600,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/0223680471__monere_20treuhand_20gmbh_201_edited.jpg",
+        "kind": "photo",
+        "alt": "monere treuhand gmbh neu in Wallisellen",
+        "bytes": 51371,
+        "width": 860,
+        "height": 412,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/monere-ch/pool/7b4c159a82__Regus_20Business_20Park.jpg",
+        "kind": "photo",
+        "alt": "monere treuhand gmbh neu in Wallisellen",
+        "bytes": 43785,
+        "width": 699,
+        "height": 264,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/monere-ch/pool/d1e9a3cd0c__Monere-16-11-2018-1009.jpg",
+        "kind": "photo",
+        "alt": "Wir beraten Sie als Unternehmen oder Privatperson, persönlich, individuell und abgestimmt auf Ihre Lebens- und Arbeitssituati",
+        "bytes": 35727,
+        "width": 600,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": []
+      },
+      {
+        "src": "/images/monere-ch/pool/f36d9f9bf8__Monere-16-11-2018-988.jpg",
+        "kind": "photo",
+        "alt": "Wir beraten Sie umfassend zu allen Möglichkeiten bei Vermietungen und Verkauf sowie bei sämtlichen finanziellen und steuerlic",
+        "bytes": 21976,
+        "width": 480,
+        "height": 316,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/monere-ch/pool/17153558cc__f4c47f_6a966b6b4bf3493fb6f716b6a603f40a_7Emv2_d_2868_1492_s_2.png",
+      "/images/monere-ch/pool/f91c53735d__Monere-16-11-2018-1023.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Monere Wallisellen",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Wallisellen",
+    "titleLead": "Erfahren Sie, wo wir Sie bestens beraten können.",
+    "titleAccent": "",
+    "lede": "Monere Wallisellen – Persönliche und individuelle Treuhandberatung für Unternehmen und Privatpersonen.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Monere Wallisellen – Persönliche und individuelle Treuhandberatung für Unternehmen und Privatpersonen.",
+    "asideAttribution": "Monere Wallisellen",
+    "image": "/images/monere-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Discover tailored solutions for payroll service schweiz and accounting needs. Let us guide your business with personalized expertise.",
+        "body": "Ein transparenter und periodengerechter Jahresabschluss ist ein Führungsinstrument, das Ihnen die finanziellen Zusammenhänge zum Geschäftsverlauf im Unternehmen aufzeigt. Mit unserer langjährigen Erfahrung im Finanz- und Rechnungswesen haben wir anspruchsvolle Projekte, wie Einführung neuer Softwarelösungen, Betriebseröffnungen und Reorganisationen erfolgreich abgeschlossen.\n\nOb Sie Ihre Buchungen selbst vornehmen oder die Organisation und Führung der gesamten Buchhaltung uns übertragen, wir gehen auf Ihre Bedürfnisse ein und nehmen Ihre Wünsche ernst. Wir zeigen Ihnen, wie Sie Ihre Abläufe im Rechnungswesen einfach und effizient gestalten können und damit schneller und kostengünstiger arbeiten. Mit einem Minimum an Digitalisierung können wir auch hier die Effizienz noch zusätzlich verbessern.\n\nFühren der Finanz-, Debitoren- und Kreditorenbuchhaltung inkl. Zahlungsverkehr bei uns, in Ihr",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Personalized tax solutions by treuhänder zürich kmu in Limmatfeld, Dietikon. Expert advice for individuals and businesses.",
+        "body": "Damit Ihre Steuererklärung korrekt, reibungslos und termingerecht erledigt wird, tragen wir Sorge. Wir kennen die neueste Gesetzgebung und schöpfen alle Vorteile für Sie aus. Wir beraten Sie individuell, abgestimmt auf Ihre Lebens- und Arbeitssituation. Nehmen Sie es gelassen und sprechen Sie mit uns. Wir kümmern uns darum.\n\nFür Kapitalgesellschaften, wie beispielsweise eine Aktiengesellschaft oder GmbH, werden Steuern für juristische Personen erhoben. Diese basieren auf Gewinn und Kapital.\n\nDie optimale Steuerplanung beinhaltet nicht nur die Gewinnoptimierung, sondern berücksichtigt auch Ihre wirtschaftlichen Ziele.\n\nErstellen der Steuererklärung für natürliche und juristische Personen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/monere-ch/pool/e02a70f245__Steuerberater_in.jpeg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Discover tailored solutions for payroll service schweiz and accounting needs. Let us guide your business with personalized expertise.",
+        "body": "Ein transparenter und periodengerechter Jahresabschluss ist ein Führungsinstrument, das Ihnen die finanziellen Zusammenhänge zum Geschäftsverlauf im Unternehmen aufzeigt. Mit unserer langjährigen Erfahrung im Finanz- und Rechnungswesen haben wir anspruchsvolle Projekte, wie Einführung neuer Softwarelösungen, Betriebseröffnungen und Reorganisationen erfolgreich abgeschlossen.\n\nOb Sie Ihre Buchungen selbst vornehmen oder die Organisation und Führung der gesamten Buchhaltung uns übertragen, wir gehen auf Ihre Bedürfnisse ein und nehmen Ihre Wünsche ernst. Wir zeigen Ihnen, wie Sie Ihre Abläufe im Rechnungswesen einfach und effizient gestalten können und damit schneller und kostengünstiger arbeiten. Mit einem Minimum an Digitalisierung können wir auch hier die Effizienz noch zusätzlich verbessern.\n\nFühren der Finanz-, Debitoren- und Kreditorenbuchhaltung inkl. Zahlungsverkehr bei uns, in Ihr",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Persönliche Beratung für Unternehmen und Privatpersonen in Dietikon. Spezialisiert auf Nachfolgeregelungen und individuelle Lösungen.",
+        "body": "Es bedeutet, die Bedürfnisse auf dem Markt und die eigenen Fähigkeiten zu kennen, um sich wettbewerbsfähig und erfolgreich zu positionieren. Einen Businessplan zu erstellen ist elementar und zwingt vor Firmengründung dazu, die Geschäftsidee sowie Ziele zu konkretisieren und Alleinstellungsmerkmale hervorzuheben. Damit wird die Strategie zur Umsetzung festgelegt und die wirtschaftlichen Ziele werden in messbaren Kennzahlen dargestellt. Ein Businessplan ist ein wertvolles Dokument in Gesprächen mit Banken, Investoren und Mitarbeitenden.\n\nDie Wahl der geeigneten Rechtsform basiert auf den im Businessplan definierten Entscheidungen und dem daraus resultierenden Kapitalbedarf.\n\nEine fundierte Planung ist die Basis in allen Phasen der Unternehmensführung, auch im Falle einer Nachfolgeregelung. Die Entscheidung, das Unternehmen abzugeben, muss definitiv und der Zeitraum festgelegt sein, um mögl",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/monere-ch/pool/27206c6d1a__Unternehmensberatung.jpeg"
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Monere Team",
+        "role": "Geschäftsführung",
+        "initials": "MO",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "TREUHAND|SUISSE",
+      "eidg. Diplom/Fachausweis",
+      "bexio",
+      "klara",
+      "sage"
+    ],
+    "badges": [
+      "/images/monere-ch/pool/50a2c50d66__2018_monere_logo_cmyk-quer.png"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 540 00 41",
+      "email": "info@monere.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Monere Wallisellen",
+    "tagline": "Monere Wallisellen – Persönliche und individuelle Treuhandberatung für Unternehmen und Privatpersonen.",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Wallisellen",
+          "+41 44 540 00 41",
+          "info@monere.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

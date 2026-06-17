@@ -6,19 +6,36 @@
  * content/examples/active.json is produced by content/extract.ts from a real
  * scraper/output/<slug>/site.json.
  */
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import { SiteComposer } from "./compose/SiteComposer";
 import { presetList } from "./tokens";
 import type { SiteContent } from "./content/types";
-import active from "./content/examples/active.json";
+import active from "./content/examples/onetreuhand-ch.json";
 import { InventoryBrowser } from "./InventoryBrowser";
 import { planSite } from "./variants/select";
+import { heroVariants, primaryStyleVariants, sectionVariants } from "./variants/registry";
+import { kits } from "./variants/kits";
+import type { PrimaryStyle } from "./structures/primitives";
 import { composeSite, pageTypes } from "./pages";
 import { archetypes, type ArchetypeId } from "./blueprints";
 import { SiteRouter } from "./compose/SiteRouter";
 
 const content = active as unknown as SiteContent;
+
+// All 50 generated firms — loaded LAZILY via import.meta.glob, so picking one in the
+// studio loads ONLY that firm's JSON (no batch generation of all 50). Default = the
+// statically-imported onetreuhand. Stale firms still render their last-extracted JSON.
+const firmGlob = import.meta.glob("./content/examples/*.json");
+const firmList = Object.keys(firmGlob)
+  .map((p) => ({ path: p, slug: p.split("/").pop()!.replace(/\.json$/, "") }))
+  .filter((f) => f.slug !== "active")
+  .sort((a, b) => a.slug.localeCompare(b.slug));
+const loadFirm = async (path: string): Promise<SiteContent> => {
+  const m: any = await firmGlob[path]();
+  return (m.default ?? m) as SiteContent;
+};
+const DEFAULT_SLUG = "onetreuhand-ch";
 
 const Bar: React.FC<{ text: string; sub?: string }> = ({ text, sub }) => (
   <div style={{ padding: "0.7rem 1.5rem", background: "#0b0b0c", color: "#fff", fontFamily: "ui-monospace, monospace", fontSize: "0.72rem", letterSpacing: "0.08em", display: "flex", justifyContent: "space-between", gap: "1rem" }}>
@@ -30,12 +47,132 @@ const Bar: React.FC<{ text: string; sub?: string }> = ({ text, sub }) => (
 const pickedLook = content.meta.lookId;
 const contrastLook = presetList.find((p) => p.meta.id !== pickedLook)!.meta.id;
 
-const SiteDemo = () => (
-  <div style={{ fontFamily: "system-ui, sans-serif" }}>
-    <Bar text={`Generated website · ${content.meta.firm}`} sub={`${content.meta.domain} · ${content.meta.archetype} · swiss-clean · real images · multi-page`} />
-    <SiteRouter content={content} lookId="swiss-clean" heroId="hero/image-full" />
-  </div>
+// --- Variant Studio: the persistent test company, viewable in any combination of
+//     palette × hero × button, as a COMPLETE multi-page site (real texts, photos,
+//     team, animations, all subpages). Each control re-skins the same generated site.
+const selectStyle: React.CSSProperties = {
+  fontFamily: "ui-monospace, monospace", fontSize: "0.74rem", padding: "6px 10px", borderRadius: 8,
+  border: "1px solid rgba(255,255,255,0.2)", background: "#16181c", color: "#fff", cursor: "pointer", minWidth: 150,
+};
+const btnStyle: React.CSSProperties = { ...selectStyle, minWidth: 0, padding: "6px 12px" };
+const Field: React.FC<{ label: string; children: React.ReactNode }> = ({ label, children }) => (
+  <label style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+    <span style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.6rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "rgba(255,255,255,0.5)" }}>{label}</span>
+    {children}
+  </label>
 );
+
+const sectionSlots = Object.keys(sectionVariants);
+
+const VariantStudio = () => {
+  const [lookId, setLookId] = useState<string>("auto");
+  const [heroId, setHeroId] = useState<string>("auto");
+  const [btn, setBtn] = useState<string>("auto");
+  const [kitId, setKitId] = useState<string>("auto");
+  const [secs, setSecs] = useState<Record<string, string>>({});
+  const [seed, setSeed] = useState(0);
+  const [firm, setFirm] = useState<SiteContent>(content);
+  const [firmSlug, setFirmSlug] = useState<string>(DEFAULT_SLUG);
+  const [loadingFirm, setLoadingFirm] = useState(false);
+  const resetControls = () => { setSeed(0); setLookId("auto"); setHeroId("auto"); setBtn("auto"); setKitId("auto"); setSecs({}); };
+  // Generate a REAL, current version of ONE firm on demand (runs extract.ts via the
+  // dev endpoint /__generate). Used automatically for stale firms + the 🔄 button.
+  const generateFirm = (slug: string) => {
+    setLoadingFirm(true);
+    fetch(`/__generate?slug=${encodeURIComponent(slug)}`)
+      .then((r) => r.ok ? r.json() : Promise.reject(new Error("HTTP " + r.status)))
+      .then((c: SiteContent) => { setFirm(c); setFirmSlug(slug); resetControls(); })
+      .catch((e) => console.error("generate failed", e))
+      .finally(() => setLoadingFirm(false));
+  };
+  const pickFirm = (slug: string) => {
+    const entry = firmList.find((f) => f.slug === slug);
+    if (!entry) return;
+    setLoadingFirm(true);
+    loadFirm(entry.path).then((c) => {
+      setFirm(c); setFirmSlug(slug); resetControls(); setLoadingFirm(false);
+      // stale firms (extracted before the media pipeline) have no media pool → render
+      // imageless; auto-regenerate so every pick yields a REAL, current version.
+      if (!((c as any)?.media?.assets?.length)) generateFirm(slug);
+    }).catch(() => setLoadingFirm(false));
+  };
+
+  const look = lookId === "auto" ? undefined : lookId;
+  const hero = heroId === "auto" ? undefined : heroId;
+  const primary = btn === "auto" ? undefined : (btn as PrimaryStyle);
+  const kitSel = kitId === "auto" ? undefined : kitId;
+  const sectionOverrides = Object.fromEntries(Object.entries(secs).filter(([, v]) => v && v !== "auto"));
+  // Auto keeps off the BASE preset (the brand-tinted look's design language), so the
+  // labels match what SiteRouter actually renders.
+  const baseId = firm.meta.basePresetId ?? firm.meta.lookId;
+  const plan = planSite(firm, { seed, lookId: look ?? baseId, kitId: kitSel });
+  const brandTinted = !look && !!firm.meta.look;
+  const rLook = (look ?? plan.lookId) + (brandTinted ? " (brand)" : ""), rHero = hero ?? plan.heroId, rBtn = primary ?? plan.primaryStyle;
+
+  const randomize = () => { setSeed(Math.floor(Math.random() * 1e6)); setLookId("auto"); setHeroId("auto"); setBtn("auto"); setKitId("auto"); setSecs({}); };
+
+  return (
+    <div style={{ fontFamily: "system-ui, sans-serif" }}>
+      <div style={{ position: "sticky", top: 53, zIndex: 60, background: "#0b0b0c", padding: "12px 24px", display: "flex", gap: 18, alignItems: "flex-end", flexWrap: "wrap", borderTop: "1px solid rgba(255,255,255,0.08)" }}>
+        <Field label={`Testunternehmen (${firmList.length})`}>
+          <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
+            <select style={{ ...selectStyle, minWidth: 200 }} value={firmSlug} onChange={(e) => pickFirm(e.target.value)} disabled={loadingFirm}>
+              {firmList.map((f) => <option key={f.slug} value={f.slug}>{f.slug}</option>)}
+            </select>
+            <button style={btnStyle} onClick={() => generateFirm(firmSlug)} disabled={loadingFirm} title="Echte Version neu generieren (extract.ts)">🔄</button>
+          </div>
+          <span style={{ color: loadingFirm ? "rgba(255,255,255,0.4)" : "#fff", fontWeight: 700, fontSize: "0.8rem", marginTop: 2 }}>
+            {loadingFirm ? "generiert …" : firm.meta.firm}
+          </span>
+        </Field>
+        <Field label="Stil-Kit · Kombination">
+          <select style={selectStyle} value={kitId} onChange={(e) => setKitId(e.target.value)}>
+            <option value="auto">Auto · {plan.kitId}</option>
+            {kits.map((k) => <option key={k.id} value={k.id}>{k.name}</option>)}
+          </select>
+        </Field>
+        <Field label="Palette · Farben">
+          <select style={selectStyle} value={lookId} onChange={(e) => setLookId(e.target.value)}>
+            <option value="auto">Auto · {plan.lookId}{firm.meta.look ? " (brand)" : ""}</option>
+            {presetList.map((p) => <option key={p.meta.id} value={p.meta.id}>{p.meta.name}</option>)}
+          </select>
+        </Field>
+        <Field label="Hero">
+          <select style={selectStyle} value={heroId} onChange={(e) => setHeroId(e.target.value)}>
+            <option value="auto">Auto · {plan.heroId.replace("hero/", "")}</option>
+            {heroVariants.map((h) => <option key={h.id} value={h.id}>{h.id.replace("hero/", "")}</option>)}
+          </select>
+        </Field>
+        <Field label="Button-Stil">
+          <select style={selectStyle} value={btn} onChange={(e) => setBtn(e.target.value)}>
+            <option value="auto">Auto · {plan.primaryStyle}</option>
+            {primaryStyleVariants.map((b) => <option key={b.id} value={b.id}>{b.id}</option>)}
+          </select>
+        </Field>
+        {sectionSlots.map((slot) => (
+          <Field key={slot} label={slot}>
+            <select style={selectStyle} value={secs[slot] ?? "auto"} onChange={(e) => setSecs((m) => ({ ...m, [slot]: e.target.value }))}>
+              <option value="auto">Auto · {(plan.sections[slot] ?? "").replace(`${slot}/`, "")}</option>
+              {sectionVariants[slot].map((v) => <option key={v.id} value={v.id}>{v.id.replace(`${slot}/`, "")}</option>)}
+            </select>
+          </Field>
+        ))}
+        <Field label={`Seed · ${seed}`}>
+          <div style={{ display: "flex", gap: 6 }}>
+            <button style={{ ...btnStyle, background: "#fff", color: "#0b0b0c", fontWeight: 700 }} onClick={randomize}>🎲 Würfeln</button>
+            <button style={btnStyle} onClick={() => setSeed((s) => s + 1)} title="nächster Seed">＋</button>
+            <button style={btnStyle} onClick={() => { setSeed(0); setLookId("auto"); setHeroId("auto"); setBtn("auto"); setKitId("auto"); setSecs({}); }}>Reset</button>
+          </div>
+        </Field>
+        <div style={{ marginLeft: "auto", fontFamily: "ui-monospace, monospace", fontSize: "0.6rem", color: "rgba(255,255,255,0.4)", maxWidth: 260, lineHeight: 1.5 }}>
+          Vollständige Multi-Page-Site · echte Texte · Fotos · Team · Badges · Animationen · Subpages. Jede Auswahl re-skinnt dieselbe generierte Seite.
+        </div>
+      </div>
+      <Bar text={`Generierte Website · ${firm.meta.firm}`} sub={`${rLook} · ${rHero} · button:${rBtn}`} />
+      <SiteRouter key={`${firmSlug}|${seed}|${lookId}|${heroId}|${btn}|${kitId}|${JSON.stringify(secs)}`} content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} sectionOverrides={sectionOverrides} kitId={kitSel} />
+    </div>
+  );
+};
 
 const ReskinDemo = () => (
   <div style={{ fontFamily: "system-ui, sans-serif" }}>
@@ -153,9 +290,39 @@ const App = () => {
   return (
     <div>
       <Tabs view={view} setView={setView} />
-      {view === "site" ? <SiteDemo /> : view === "sitemap" ? <SitemapDemo /> : view === "variants" ? <VariantsDemo /> : <InventoryBrowser />}
+      {view === "site" ? <VariantStudio /> : view === "sitemap" ? <SitemapDemo /> : view === "variants" ? <VariantsDemo /> : <InventoryBrowser />}
     </div>
   );
 };
 
-createRoot(document.getElementById("root")!).render(<App />);
+// Chrome-free render of ONE generated site, for clean visual review / manual
+// screenshots at localhost:3010/?bare (open in a real browser). Params:
+//   ?firm=<slug>  ?look=<presetId>  ?hero=<id>  ?primary=<style>  ?kit=<id>  ?seed=<n>
+//   ?still        freeze CSS animation/transition so a capture settles
+const params = new URLSearchParams(location.search);
+const isBare = params.has("bare");
+
+const BareSite = () => {
+  const firmSlug = params.get("firm") || DEFAULT_SLUG;
+  const [firm, setFirm] = useState<SiteContent>(content);
+  useEffect(() => {
+    if (firmSlug === DEFAULT_SLUG) return;
+    const entry = firmList.find((f) => f.slug === firmSlug);
+    if (entry) loadFirm(entry.path).then(setFirm).catch(() => {});
+  }, [firmSlug]);
+  const seed = Number(params.get("seed")) || 0;
+  const look = params.get("look") || undefined;
+  const hero = params.get("hero") || undefined;
+  const primary = (params.get("primary") as PrimaryStyle) || undefined;
+  const kitSel = params.get("kit") || undefined;
+  return (
+    <>
+      {params.has("still") && (
+        <style>{`*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}`}</style>
+      )}
+      <SiteRouter content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} kitId={kitSel} />
+    </>
+  );
+};
+
+createRoot(document.getElementById("root")!).render(isBare ? <BareSite /> : <App />);

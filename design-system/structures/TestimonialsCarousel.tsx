@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Eyebrow } from "./primitives";
+import { Icon } from "../icons/iconSets";
+import { usePrefersReducedMotion } from "../motion/Reveal";
 import type { TestimonialsContent } from "../content/types";
 
 /** Testimonials variant: a SLIDER — one quote at a time, auto-advancing, with
@@ -7,25 +9,34 @@ import type { TestimonialsContent } from "../content/types";
 export const TestimonialsCarousel: React.FC<{ content: TestimonialsContent }> = ({ content }) => {
   const items = content.items;
   const [idx, setIdx] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const reduced = usePrefersReducedMotion();
   useEffect(() => {
+    if (reduced || paused) return;
     const t = setInterval(() => setIdx((i) => (i + 1) % items.length), 5000);
     return () => clearInterval(t);
-  }, [items.length]);
+  }, [items.length, reduced, paused]);
   const go = (n: number) => setIdx((n + items.length) % items.length);
   const t = items[idx];
 
   return (
     <section style={{ background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
       <Container style={{ maxWidth: "min(var(--ds-container), 760px)" }}>
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.4rem", textAlign: "center" }}>
+        <div
+          onMouseEnter={() => setPaused(true)}
+          onMouseLeave={() => setPaused(false)}
+          onFocus={() => setPaused(true)}
+          onBlur={() => setPaused(false)}
+          style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.4rem", textAlign: "center" }}
+        >
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", color: "var(--ds-primary)", fontWeight: 700 }}>
-            ★ {content.rating} <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.06em", color: "var(--ds-text-muted)" }}>{content.reviewCount}</span>
+            <Icon name="star" size={15} /> {content.rating} <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>{content.reviewCount}</span>
           </div>
           <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-heading)", fontSize: "1.45rem", lineHeight: 1.4, color: "var(--ds-text)", minHeight: "4.2em", transition: "opacity var(--ds-duration) var(--ds-ease)" }}>
             “{t.quote}”
           </blockquote>
-          <div style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.74rem", textTransform: "uppercase", letterSpacing: "0.06em", color: "var(--ds-text-muted)" }}>
+          <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.74rem",   color: "var(--ds-text-muted)" }}>
             <strong style={{ color: "var(--ds-text)" }}>{t.person}</strong> · {t.company} · {t.city}
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginTop: "0.4rem" }}>

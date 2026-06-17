@@ -1,0 +1,1038 @@
+{
+  "meta": {
+    "firm": "Dr. Iten, Dudli + Partner",
+    "domain": "idp-treuhand.ch",
+    "archetype": "swiss-digital",
+    "lookId": "quabba-editorial",
+    "sourceUrl": "https://idp-treuhand.ch/",
+    "basePresetId": "quabba-editorial",
+    "look": {
+      "meta": {
+        "id": "idp-treuhand-ch-brand",
+        "name": "Quabba Editorial Red · brand-tinted",
+        "mood": "Editorial graphite-on-white with a restrained Swiss-red accent; all-Inter with mono micro-labels, hairline borders, scroll-triggered color-shift reveals and a hand-drawn signature line.",
+        "source": "Quabba-Treuhand + scraped brand",
+        "derived": [
+          "color.surface (#F7F8F8 tint of gray-light)",
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#FCEBEC tint)",
+          "color.secondaryFg (#22272B)",
+          "font.mono (Tailwind default mono stack)",
+          "base: quabba-editorial",
+          "accent #2B6CB0 (scraped · medium)",
+          "heading: Schibsted Grotesk (inventory)",
+          "body: Public Sans (inventory)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "airy",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F7F8F8",
+        "text": "#22272B",
+        "textMuted": "#7C868C",
+        "border": "#E9ECEC",
+        "primary": "#2B6CB0",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EEF3F9",
+        "secondary": "#DA532C",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Schibsted Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-24",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 600,
+        "easing": "cubic-bezier(0.22,1,0.36,1)",
+        "intensity": "expressive"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true,
+        "bloom": "rgba(43,108,176,0.18)"
+      },
+      "raw": {
+        "--color-brand-violet": "#D91A21",
+        "--color-brand-coral": "#E39699",
+        "--color-brand-graphite": "#22272B",
+        "--color-brand-gray-light": "#E9ECEC",
+        "--color-brand-gray-medium": "#7C868C",
+        "--font-sans": "Inter",
+        "--font-display": "Inter",
+        "--font-heading": "Inter"
+      }
+    },
+    "brand": {
+      "primary": "#2B6CB0",
+      "secondary": "#DA532C",
+      "palette": [
+        "#2B6CB0",
+        "#215387",
+        "#1A202C",
+        "#2D3748",
+        "#4A5568",
+        "#718096",
+        "#5BBAD5",
+        "#DA532C",
+        "#FF585D",
+        "#3D5264",
+        "#F37675",
+        "#F37775"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "faq"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "team.photos",
+      "values",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "services.images",
+      "media.documents",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "logo": "/images/idp-treuhand-ch/pool/a2e834e8d5__IDP-Treuhand-Logo-blue-dark.svg",
+    "hero": "/images/idp-treuhand-ch/hero.jpg",
+    "badges": [
+      "/images/idp-treuhand-ch/pool/772fbfb942__Mathias-Dudli-Dr-Iten-Dudli-Partner-Steuerberatung-und-Treuhand..jpg",
+      "/images/idp-treuhand-ch/pool/b90a870d66__Beatrice-Greter-Dr-Iten-Dudli-Partner-Steuerberatung-und-Treuhand.jpg",
+      "/images/idp-treuhand-ch/pool/21de40c3ac__partnerlogos-ipd.png"
+    ],
+    "photos": [
+      "/images/idp-treuhand-ch/pool/f1d1b3f196__DJI_Duebendorf_0421.jpeg",
+      "/images/idp-treuhand-ch/pool/2ffeff0371__Mettmenstetten-DJI_0432-.jpeg",
+      "/images/idp-treuhand-ch/pool/562ad72de1__DJI_Duebendorf_0426.jpeg",
+      "/images/idp-treuhand-ch/pool/d74c6c3186__Mettmenstetten-DJI_0441-.jpeg",
+      "/images/idp-treuhand-ch/pool/cdba440077__Titelblatt_Verkaufsdoku-1.jpeg",
+      "/images/idp-treuhand-ch/pool/2a8fe80290__Titelblatt_Verkaufsdoku.jpeg",
+      "/images/idp-treuhand-ch/pool/6c0435a7a6__IMG_Duebendorf_8044-HDR.jpeg",
+      "/images/idp-treuhand-ch/pool/740dcd65b6__Mettmenstetten-IMG_7896-HDR-.jpeg",
+      "/images/idp-treuhand-ch/pool/07f27c4d6d__Cover-Image.jpeg",
+      "/images/idp-treuhand-ch/pool/76e7dd3e61__Cover-Duebendorf.jpeg",
+      "/images/idp-treuhand-ch/pool/67dadb7e4b__IMG_Duebendorf_8101-HDR.jpeg",
+      "/images/idp-treuhand-ch/pool/7b4231e67b__Mettmenstetten-IMG_7953-HDR-.jpeg",
+      "/images/idp-treuhand-ch/pool/1f8899f6b6__image002-scaled.jpg",
+      "/images/idp-treuhand-ch/pool/286ccacf77__Witikon-2-02.jpg",
+      "/images/idp-treuhand-ch/pool/9126436f78__SDF-Image.jpg",
+      "/images/idp-treuhand-ch/pool/6d8d0b470d__wohn-und-geschaeftshaus-leutschenbach-2020.png",
+      "/images/idp-treuhand-ch/pool/fdb921b617__Oerlikon-Haus-Referenz-1024x719.jpeg",
+      "/images/idp-treuhand-ch/pool/f460033675__Photoart_0039.jpg",
+      "/images/idp-treuhand-ch/pool/98d8615092__modelle-unternehmensnachfolge.png",
+      "/images/idp-treuhand-ch/pool/b713f2f866__idp_mitarbeiter_2024.jpg",
+      "/images/idp-treuhand-ch/pool/d192f9848e__IDP-Team-2026.jpg"
+    ],
+    "serviceImages": {
+      "Unternehmensberatung": "/images/idp-treuhand-ch/pool/98d8615092__modelle-unternehmensnachfolge.png"
+    },
+    "documents": [
+      {
+        "src": "/files/idp-treuhand-ch/359783acb2__Aktiona_rbindungsvertrag-schu_tzt-bei-der-Nachfolge.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 774917
+      },
+      {
+        "src": "/files/idp-treuhand-ch/b46e808df6__Den-Kindern-zu-Lebzeiten-die-Liegenschaft-verschenken.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 328355
+      },
+      {
+        "src": "/files/idp-treuhand-ch/722cc91686__Die-Erbvorbezugsgemeinschaft-in-der-Zu_rcher-Steuerpraxis.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 3019264
+      },
+      {
+        "src": "/files/idp-treuhand-ch/bdda5a9ff9__Die-steuerliche-Behandlung-von-Querschenkungen-in-der-Erbteilung.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 177188
+      },
+      {
+        "src": "/files/idp-treuhand-ch/f233cefd11__Ein-starker-Partner-fu_r-Steuern-und-Erbschaftssachen.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 1514317
+      },
+      {
+        "src": "/files/idp-treuhand-ch/ff07e523b8__Erbengemeinschaft-rechtzeitig-auflo_sen.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 210315
+      },
+      {
+        "src": "/files/idp-treuhand-ch/617a0b2e40__Erbschafts-und-Schenkungssteuern-heute-und-morgen.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 1804894
+      },
+      {
+        "src": "/files/idp-treuhand-ch/0e4e67b4a4__Gemeinnu_tzige-Stiftung-gru_nden.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 165290
+      },
+      {
+        "src": "/files/idp-treuhand-ch/e51d2a4587__Nachfolge-im-Unternehmen-rechtzeitig-planen.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 415786
+      },
+      {
+        "src": "/files/idp-treuhand-ch/d10637cd95__Quotenverma_chtnis-Ein-flexibles-Instrument-mit-Tu_cken.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 266108
+      },
+      {
+        "src": "/files/idp-treuhand-ch/a1219a27b0__Seinen-digitalen-Nachlass-regeln.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 92871
+      },
+      {
+        "src": "/files/idp-treuhand-ch/1f494af1d1__Sorgen-Sie-sich-nicht-aber-sorgen-Sie-vor.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 762911
+      },
+      {
+        "src": "/files/idp-treuhand-ch/ea2e9090bc__U_bertragung-von-Aufgaben-an-Dritte-Wieweit-haften-Willensvollstrecker.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 188634
+      },
+      {
+        "src": "/files/idp-treuhand-ch/e07686870e__Vom-Schwarzen-Peter-im-Erbrecht.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 2034178
+      },
+      {
+        "src": "/files/idp-treuhand-ch/6cf3ed1131__Willensvollstrecker-bieten-Entlastung.pdf",
+        "title": "Beitrag downloaden (PDF)",
+        "kind": "pdf",
+        "bytes": 1186980
+      },
+      {
+        "src": "/files/idp-treuhand-ch/f6e8188fa9__IDP-Treuhand-Checkliste-Steuern.pdf",
+        "title": "Download Checkliste (PDF)",
+        "kind": "pdf",
+        "bytes": 43781
+      },
+      {
+        "src": "/files/idp-treuhand-ch/27b4f808e0__Checkliste_fu_r_Angeho_rige-IDP-Treuhand-Steuerberatung.pdf",
+        "title": "Download Checkliste (PDF)",
+        "kind": "pdf",
+        "bytes": 151723
+      },
+      {
+        "src": "/files/idp-treuhand-ch/43b9264953__Checkliste-Objektunterlagen-IDP-Treuhand-Steuerberatung.pdf",
+        "title": "Download Checkliste Objektunterlagen",
+        "kind": "pdf",
+        "bytes": 31382
+      },
+      {
+        "src": "/files/idp-treuhand-ch/52e4c724ff__idp-broschuere-final.pfad_.pdf",
+        "title": "Ihre Zufriedenheit ist unser Ziel (PDF, Firmenbroschüre 2022)",
+        "kind": "pdf",
+        "bytes": 1824553
+      },
+      {
+        "src": "/files/idp-treuhand-ch/1b9400fa44__ipd.pdf",
+        "title": "Newsletter: Up|Date, Dezember 2021 (PDF)",
+        "kind": "pdf",
+        "bytes": 1085964
+      },
+      {
+        "src": "/files/idp-treuhand-ch/fed6b5407c__Fakten-auf-einen-Blick-AG-DP-Treuhand-Steuerberatung.pdf",
+        "title": "PDF Download",
+        "kind": "pdf",
+        "bytes": 261998
+      },
+      {
+        "src": "/files/idp-treuhand-ch/b03b9ffa4f__Fakten-auf-einen-Blick-EF-DP-Treuhand-Steuerberatung.pdf",
+        "title": "PDF Download",
+        "kind": "pdf",
+        "bytes": 251825
+      },
+      {
+        "src": "/files/idp-treuhand-ch/72e52bdba3__Fakten-auf-einen-Blick-GmbH-DP-Treuhand-Steuerberatung.pdf",
+        "title": "PDF Download",
+        "kind": "pdf",
+        "bytes": 256603
+      },
+      {
+        "src": "/files/idp-treuhand-ch/5bdb472e21__Fakten-auf-einen-Blick-KG-DP-Treuhand-Steuerberatung.pdf",
+        "title": "PDF Download",
+        "kind": "pdf",
+        "bytes": 252076
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/idp-treuhand-ch/pool/a2e834e8d5__IDP-Treuhand-Logo-blue-dark.svg",
+        "kind": "logo",
+        "alt": "Blaues, transparentes Logo IDP Treuhand",
+        "bytes": 23172,
+        "width": 200,
+        "height": 47,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/e180ba2b56__IDP-Logo-Mobile.png",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 13056,
+        "width": 185,
+        "height": 104,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/772fbfb942__Mathias-Dudli-Dr-Iten-Dudli-Partner-Steuerberatung-und-Treuhand..jpg",
+        "kind": "badge",
+        "alt": "Mathias Dudli Verwaltungsrat und Co-Geschäftsführer",
+        "bytes": 68670,
+        "width": 1250,
+        "height": 833,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": []
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/b90a870d66__Beatrice-Greter-Dr-Iten-Dudli-Partner-Steuerberatung-und-Treuhand.jpg",
+        "kind": "badge",
+        "alt": "Beatrice Greter Mandatsleiterin",
+        "bytes": 79291,
+        "width": 1250,
+        "height": 833,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/21de40c3ac__partnerlogos-ipd.png",
+        "kind": "badge",
+        "alt": "Partnerlogos Buchhaltungssoftware",
+        "bytes": 49799,
+        "width": 1600,
+        "height": 190,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/cdba440077__Titelblatt_Verkaufsdoku-1.jpeg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 193319,
+        "width": 1280,
+        "height": 905,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/2a8fe80290__Titelblatt_Verkaufsdoku.jpeg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 182785,
+        "width": 1280,
+        "height": 905,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/07f27c4d6d__Cover-Image.jpeg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 169081,
+        "width": 1200,
+        "height": 627,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/76e7dd3e61__Cover-Duebendorf.jpeg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 164473,
+        "width": 1200,
+        "height": 627,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/f1d1b3f196__DJI_Duebendorf_0421.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 283026,
+        "width": 1280,
+        "height": 960,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/2ffeff0371__Mettmenstetten-DJI_0432-.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 259894,
+        "width": 1280,
+        "height": 960,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/562ad72de1__DJI_Duebendorf_0426.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 236003,
+        "width": 1280,
+        "height": 960,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/d74c6c3186__Mettmenstetten-DJI_0441-.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 233216,
+        "width": 1280,
+        "height": 960,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/6c0435a7a6__IMG_Duebendorf_8044-HDR.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 178723,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/740dcd65b6__Mettmenstetten-IMG_7896-HDR-.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 175876,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/67dadb7e4b__IMG_Duebendorf_8101-HDR.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 137738,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/7b4231e67b__Mettmenstetten-IMG_7953-HDR-.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 124320,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/1f8899f6b6__image002-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 99607,
+        "width": 1600,
+        "height": 900,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/286ccacf77__Witikon-2-02.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 58065,
+        "width": 600,
+        "height": 424,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/9126436f78__SDF-Image.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 107200,
+        "width": 1600,
+        "height": 925,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/6d8d0b470d__wohn-und-geschaeftshaus-leutschenbach-2020.png",
+        "kind": "photo",
+        "alt": "Wohn- und Geschäftshaus in Leutschenbach",
+        "bytes": 63636,
+        "width": 436,
+        "height": 270,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/fdb921b617__Oerlikon-Haus-Referenz-1024x719.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 135088,
+        "width": 1024,
+        "height": 719,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/b713f2f866__idp_mitarbeiter_2024.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 101692,
+        "width": 1600,
+        "height": 873,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/f460033675__Photoart_0039.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 126143,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/d192f9848e__IDP-Team-2026.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 101395,
+        "width": 1600,
+        "height": 884,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/idp-treuhand-ch/pool/98d8615092__modelle-unternehmensnachfolge.png",
+        "kind": "photo",
+        "alt": "Strategische Optionen des Unternehmens für Nachfolgeregelung",
+        "bytes": 30249,
+        "width": 720,
+        "height": 540,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/idp-treuhand-ch/pool/cdba440077__Titelblatt_Verkaufsdoku-1.jpeg",
+      "/images/idp-treuhand-ch/pool/2a8fe80290__Titelblatt_Verkaufsdoku.jpeg",
+      "/images/idp-treuhand-ch/pool/07f27c4d6d__Cover-Image.jpeg"
+    ]
+  },
+  "nav": {
+    "brand": "Dr. Iten, Dudli + Partner",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen",
+    "logo": "/images/idp-treuhand-ch/pool/a2e834e8d5__IDP-Treuhand-Logo-blue-dark.svg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Ihre Finanzen,",
+    "titleAccent": "klar geführt.",
+    "lede": "Ihr starker Partner für Steuern, Erbschaftsberatung, Willensvollstreckung, Nachfolgeregelung und Firmengründung in Zürich Nord. Seit bald 30 Jahren.",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Ihr starker Partner für Steuern, Erbschaftsberatung, Willensvollstreckung, Nachfolgeregelung und Firmengründung in Zürich Nord. Seit bald 30 Jahren.",
+    "asideAttribution": "Dr. Iten, Dudli + Partner",
+    "image": "/images/idp-treuhand-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Buchhaltung, Jahresabschluss und Inkasso: Wir führen Ihre Buchhaltung korrekt, professionell und koordinieren diese mit Ihrer Steuererklärung.",
+        "body": "Sie brauchen viel Zeit für Ihre Buchhaltung, die Sie lieber in Ihr Kerngeschäft investieren möchten? Sie suchen eine effiziente Lohnbuchhaltung? Und Sie wollen sicher sein, dass alle Vorschriften erfüllt sind? Wir übernehmen Ihre Buchhaltung gern.\n\nWir kümmern uns um Ihr Finanz- und Rechnungswesen, erledigen die Debitoren- und Kreditoren-Buchhaltung und organisieren die gesamte Buchführung effizient und korrekt.\n\nWir helfen Ihnen, einen gesetzeskonformen Jahresabschluss zu erstellen, der einen aussagekräftigen Überblick über die wirtschaftliche Lage des Unternehmens gibt.\n\nDieses Führungsinstrument zeigt, was bis zu einem bestimmten Zeitpunkt erreicht wurde (IST) und wo Sie gemäss Planung sein sollten (SOLL).",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Ein Erbvorbezug kann Steuerplanungspotenzial haben. Im Beitrag wird erläutert welche Vorteile und Risiken eine Erbvorbezugsgemeinschaft hat.",
+        "body": "Die lebzeitige Zuwendung einer Liegenschaft bietet interessantes Steuerplanungspotenzial. In diesem Beitrag erläutert der Autor die steuerlichen Aspekte einer Erbvorbezugsgemeinschaft sowie deren Praktikabilität und die Risiken.\n\nViele Eltern überlegen, ob und wann sie ihre Liegenschaften auf die Nachkommen übertragen sollen. Bei einem Erbvorbezug kann es sinnvoll sein, Liegenschaften zu Gesamteigentum statt zu Miteigentum zuzuweisen. Eine Erbvorbezugsgemeinschaft kann sich vor allem eignen, um eine Rendite-Liegenschaft auf mehrere Nachkommen zu übertragen, um ihnen zusätzliches Einkommen zu verschaffen und gleichzeitig sicherzustellen, dass sie im Familienbesitz bleibt.\n\nAls Schenkung gilt jede Zuwendung unter Lebenden, mit der jemand einen anderen ohne entsprechende Gegenleistung bereichert. Für die Besteuerung sind drei oder vier Elemente relevant, nämlich die Vermögenszuwendung, die ",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.",
+        "body": "Die monatliche Lohnabrechnung macht Ihnen Sorgen? Sie sind unsicher, ob Ihre Lohnausweise gesetzeskonform sind? Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.\n\nBeratung für den Bezug von Renten und anderen Leistungen, Rentenberechnung, etc.\n\nSie suchen Unterstützung für Ihre Lohn- und Personal-Administration? Wir kümmern uns gerne darum, damit Sie den Kopf frei haben für Ihr Kerngeschäft.\n\nWir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Buchhaltung, Jahresabschluss und Inkasso: Wir führen Ihre Buchhaltung korrekt, professionell und koordinieren diese mit Ihrer Steuererklärung.",
+        "body": "Sie brauchen viel Zeit für Ihre Buchhaltung, die Sie lieber in Ihr Kerngeschäft investieren möchten? Sie suchen eine effiziente Lohnbuchhaltung? Und Sie wollen sicher sein, dass alle Vorschriften erfüllt sind? Wir übernehmen Ihre Buchhaltung gern.\n\nWir kümmern uns um Ihr Finanz- und Rechnungswesen, erledigen die Debitoren- und Kreditoren-Buchhaltung und organisieren die gesamte Buchführung effizient und korrekt.\n\nWir helfen Ihnen, einen gesetzeskonformen Jahresabschluss zu erstellen, der einen aussagekräftigen Überblick über die wirtschaftliche Lage des Unternehmens gibt.\n\nDieses Führungsinstrument zeigt, was bis zu einem bestimmten Zeitpunkt erreicht wurde (IST) und wo Sie gemäss Planung sein sollten (SOLL).",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Wir helfen bei der Gründung, Führung und Übertragung Ihres Unternehmens und teilen unsere Erfahrung und unser Netzwerk mit Ihnen.",
+        "body": "Sie haben eine Geschäftsidee und möchten eine Firma gründen? Sie wissen noch nicht, welche Gesellschaftsform die richtige ist? Und Sie möchten die Finanzen Ihrer Firma von Anfang an richtig aufgleisen? Wir unterstützen Sie bei allen administrativen und rechtlichen Aspekten Ihrer Firmengründung.\n\nAG, GmbH, Einzelfirma oder Kollektivgesellschaft: Wir kennen die Unterschiede und wissen, wann sich welche Rechtsform am besten eignet.\n\nEine sorgfältige Planung der Finanzierung und der Steuern bei der Gründung ist entscheidend für das Gedeihen Ihres Unternehmens.\n\nGerne beraten wir Sie, damit von Anfang alles optimal organisiert ist.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/idp-treuhand-ch/pool/98d8615092__modelle-unternehmensnachfolge.png"
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Immobilien",
+        "body": "Mit unserer Beratung und unseren Treuhand-Dienstleistungen helfen wir, dass Ihr Vorhaben gelingt."
+      },
+      {
+        "title": "Kontinuität",
+        "body": "Wir pflegen langjährige, partnerschaftliche Kundenbeziehungen und unterstützen Sie in guten wie in schlechten Zeiten."
+      },
+      {
+        "title": "Verwirklichung",
+        "body": "Egal was Sie vorhaben, wir helfen Ihnen dabei, Ihr Vorhaben erfolgreich umzusetzen."
+      },
+      {
+        "title": "Ethik",
+        "body": "Wir handeln ethisch einwandfrei und halten uns an die Richtlinien unseres Berufsstands."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Rita Macsenti",
+        "role": "Mandatsleiterin",
+        "initials": "RM",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/idp-treuhand-ch/team/0-macsenti.jpg"
+      },
+      {
+        "name": "Mathias Dudli",
+        "role": "Verwaltungsrat und Co-Geschäftsführer",
+        "initials": "MD",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/idp-treuhand-ch/team/1-dudli.jpg"
+      },
+      {
+        "name": "Anja Schneider",
+        "role": "Sachbearbeiterin",
+        "initials": "AS",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.",
+        "photo": "/images/idp-treuhand-ch/team/2-schneider.jpg"
+      },
+      {
+        "name": "Felix Städeli",
+        "role": "Mandatsleiter",
+        "initials": "FS",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "TREUHAND|SUISSE",
+      "RAB/zugel. Revisor",
+      "swissaccounting",
+      "abacus",
+      "banana",
+      "bexio"
+    ],
+    "badges": [
+      "/images/idp-treuhand-ch/pool/772fbfb942__Mathias-Dudli-Dr-Iten-Dudli-Partner-Steuerberatung-und-Treuhand..jpg",
+      "/images/idp-treuhand-ch/pool/b90a870d66__Beatrice-Greter-Dr-Iten-Dudli-Partner-Steuerberatung-und-Treuhand.jpg",
+      "/images/idp-treuhand-ch/pool/21de40c3ac__partnerlogos-ipd.png"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 308 25 50",
+      "email": "%20info@idp-treuhand.ch%20",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Dr. Iten, Dudli + Partner",
+    "tagline": "Ihr starker Partner für Steuern, Erbschaftsberatung, Willensvollstreckung, Nachfolgeregelung und Firmengründung in Zürich Nord. Seit bald 30 Jahren.",
+    "logo": "/images/idp-treuhand-ch/pool/a2e834e8d5__IDP-Treuhand-Logo-blue-dark.svg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 44 308 25 50",
+          "%20info@idp-treuhand.ch%20"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

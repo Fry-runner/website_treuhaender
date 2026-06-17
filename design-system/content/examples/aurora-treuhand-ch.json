@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "firm": "aurora treuhand ag",
+    "domain": "aurora-treuhand.ch",
+    "archetype": "boutique",
+    "lookId": "zueri-swiss",
+    "sourceUrl": "https://www.aurora-treuhand.ch/",
+    "basePresetId": "zueri-swiss",
+    "look": {
+      "meta": {
+        "id": "aurora-treuhand-ch-brand",
+        "name": "Züri Swiss Blue · brand-generated",
+        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
+        "source": "Züri-Treuhand + generated accent",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAF1F8 tint)",
+          "color.secondaryFg (#FFFFFF)",
+          "color.textMuted (#737373 neutral-500)",
+          "base: zueri-swiss",
+          "accent #267875 (generated · scraped #68CCD1 rejected: low)",
+          "heading: Familjen Grotesk (inventory)",
+          "body: Mulish (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F9FAFB",
+        "text": "#333333",
+        "textMuted": "#737373",
+        "border": "#EAEAEA",
+        "primary": "#267875",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EEF4F4",
+        "secondary": "#295094",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-16",
+        "rhythm": "normal",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-blue": "#084687",
+        "--color-accent-blue": "#0b549f",
+        "--color-charcoal": "#333333",
+        "--color-soft-gray": "#F9FAFB",
+        "--color-border-gray": "#EAEAEA",
+        "--font-sans": "Inter",
+        "--font-serif": "Playfair Display",
+        "--font-display": "Space Grotesk",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "primary": "#68CCD1",
+      "secondary": "#D34C28",
+      "palette": [
+        "#68CCD1",
+        "#463939",
+        "#D34C28"
+      ],
+      "fontsSeen": [],
+      "confidence": "low"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq",
+      "look.colors (generated)",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo"
+    ]
+  },
+  "media": {
+    "logo": "/images/aurora-treuhand-ch/pool/0e26d8a0bd__auroratreuhand_281_29-1920w.png",
+    "hero": "/images/aurora-treuhand-ch/hero.jpg",
+    "badges": [],
+    "photos": [
+      "/images/aurora-treuhand-ch/pool/7c6a89fc22__AdobeStock_229235697.jpeg-1920w.jpg",
+      "/images/aurora-treuhand-ch/pool/ad46fe5912__AdobeStock_252348284.jpeg-1920w.jpg",
+      "/images/aurora-treuhand-ch/pool/a51c44c7cd__AdobeStock_229235697.jpeg_281_29-1920w.jpg",
+      "/images/aurora-treuhand-ch/pool/52592a7bf8__AdobeStock_252348284.jpeg_281_29-1920w.jpg",
+      "/images/aurora-treuhand-ch/pool/e54de35adc__AdobeStock_219623144.jpeg-640w.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/aurora-treuhand-ch/pool/0e26d8a0bd__auroratreuhand_281_29-1920w.png",
+        "kind": "logo",
+        "alt": "Steuerberatung - Küsnacht ZH - aurora treuhand ag",
+        "bytes": 6494,
+        "width": 390,
+        "height": 172,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/aurora-treuhand-ch/pool/7c6a89fc22__AdobeStock_229235697.jpeg-1920w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 114224,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aurora-treuhand-ch/pool/ad46fe5912__AdobeStock_252348284.jpeg-1920w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 97648,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aurora-treuhand-ch/pool/a51c44c7cd__AdobeStock_229235697.jpeg_281_29-1920w.jpg",
+        "kind": "photo",
+        "alt": "Erbrecht - Küsnacht ZH - aurora treuhand ag",
+        "bytes": 60130,
+        "width": 1069,
+        "height": 713,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aurora-treuhand-ch/pool/52592a7bf8__AdobeStock_252348284.jpeg_281_29-1920w.jpg",
+        "kind": "photo",
+        "alt": "Steuerberatung - Küsnacht ZH - aurora treuhand ag",
+        "bytes": 50282,
+        "width": 1069,
+        "height": 713,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aurora-treuhand-ch/pool/e54de35adc__AdobeStock_219623144.jpeg-640w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 35990,
+        "width": 640,
+        "height": 427,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/aurora-treuhand-ch/pool/7c6a89fc22__AdobeStock_229235697.jpeg-1920w.jpg",
+      "/images/aurora-treuhand-ch/pool/ad46fe5912__AdobeStock_252348284.jpeg-1920w.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "aurora treuhand ag",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/aurora-treuhand-ch/pool/0e26d8a0bd__auroratreuhand_281_29-1920w.png"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zumikon",
+    "titleLead": "aurora treuhand ag in Zumikon ZH",
+    "titleAccent": "",
+    "lede": "Herzlich willkommen bei aurora treuhand ag, Ihr Treuhandbüro für Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Herzlich willkommen bei aurora treuhand ag, Ihr Treuhandbüro für Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
+    "asideAttribution": "aurora treuhand ag",
+    "image": "/images/aurora-treuhand-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Sie finden unter den Dienstleistungen des Treuhandbüros aurora treuhand ag Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
+        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Auf dieser Seite finden sie aktuelle Informationen zu den Themen Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen von aurora treuhand ag.",
+        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Auf dieser Seite finden sie aktuelle Informationen zu den Themen Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen von aurora treuhand ag.",
+        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "aurora Team",
+        "role": "Geschäftsführung",
+        "initials": "AU",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "TREUHAND|SUISSE",
+      "eidg. Diplom/Fachausweis"
+    ],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "044 492 41 75",
+      "email": "aurora.ag@bluewin.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "aurora treuhand ag",
+    "tagline": "Herzlich willkommen bei aurora treuhand ag, Ihr Treuhandbüro für Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
+    "logo": "/images/aurora-treuhand-ch/pool/0e26d8a0bd__auroratreuhand_281_29-1920w.png",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zumikon",
+          "044 492 41 75",
+          "aurora.ag@bluewin.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

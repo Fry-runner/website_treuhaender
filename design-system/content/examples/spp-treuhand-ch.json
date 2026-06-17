@@ -1,0 +1,889 @@
+{
+  "meta": {
+    "firm": "SPP Treuhand AG",
+    "domain": "spp-treuhand.ch",
+    "archetype": "boutique",
+    "lookId": "swiss-clean",
+    "sourceUrl": "https://spp-treuhand.ch/",
+    "basePresetId": "swiss-clean",
+    "look": {
+      "meta": {
+        "id": "spp-treuhand-ch-brand",
+        "name": "Swiss Clean · brand-tinted",
+        "source": "synthesized (references) + scraped brand",
+        "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
+        "derived": [
+          "base: swiss-clean",
+          "accent #112337 (scraped · medium)",
+          "heading: Bricolage Grotesque (inventory)",
+          "body: Work Sans (inventory)",
+          "mono: IBM Plex Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "medium",
+        "density": "airy",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F2F7F8",
+        "text": "#0E2A33",
+        "textMuted": "#5B7682",
+        "border": "#DCE7EA",
+        "primary": "#112337",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#ECEDEF",
+        "secondary": "#112337",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Bricolage Grotesque\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "6xl",
+        "headlineWeight": "semibold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "wider",
+          "weight": "semibold"
+        }
+      },
+      "radius": {
+        "base": "md",
+        "pill": "full",
+        "scale": "medium"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-20",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 260,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "moderate"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--accent-teal": "#0EA5A5",
+        "--ink-navy": "#1E3A5F",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "primary": "#112337",
+      "palette": [
+        "#112337",
+        "#3D4999",
+        "#204CE5",
+        "#001AB3",
+        "#527EFF",
+        "#00A99D",
+        "#13171E"
+      ],
+      "fontsSeen": [
+        "Open Sans",
+        "Playfair Display SC"
+      ],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "team.photos",
+      "values",
+      "faq",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "services.images",
+      "media.documents",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "logo": "/images/spp-treuhand-ch/pool/c6bbe31b0e__SPP-Rechnungswesen.svg",
+    "hero": "/images/spp-treuhand-ch/hero.jpg",
+    "badges": [
+      "/images/spp-treuhand-ch/pool/35d06e416d__SPP-Bexio-Buchhalter.svg",
+      "/images/spp-treuhand-ch/pool/a1d5a8c0b8__SPP-Logo-Text.svg"
+    ],
+    "photos": [
+      "/images/spp-treuhand-ch/pool/de822edda2__News_SPP-Update-September-2025.jpg",
+      "/images/spp-treuhand-ch/pool/76bfd8096d__spp-treuhand-update-dezember-2024.jpg",
+      "/images/spp-treuhand-ch/pool/bc1531f6ea__csm_retirement_cb27d2f8d4-scaled.jpg",
+      "/images/spp-treuhand-ch/pool/ad84ede2e7__SPP-Update-April-2025.jpg",
+      "/images/spp-treuhand-ch/pool/edadc7c2ab__SPP-buchhaltung-und-rechnungswesen.png",
+      "/images/spp-treuhand-ch/pool/5bcaac9a21__SPP-Online-Buchhaltung.png",
+      "/images/spp-treuhand-ch/pool/a7eac76496__SPP-firmengruendung-und-unternehmensberatung.png",
+      "/images/spp-treuhand-ch/pool/8f7c1f1d24__SPP-steuerberatung.png",
+      "/images/spp-treuhand-ch/pool/28cb907e4f__da820e97-7de0-45c1-8e17-da862117cef0-scaled.jpeg",
+      "/images/spp-treuhand-ch/pool/940c1bbd76__csm_Chiara_Schnetzer.jpg",
+      "/images/spp-treuhand-ch/pool/223bbfc076__Jaehrliche_MwSt.png",
+      "/images/spp-treuhand-ch/pool/0f4c7197d5__csm_Jason_Johansson.jpg",
+      "/images/spp-treuhand-ch/pool/03001c0327__csm_Aleandro_Frautschi_4df36467a8.jpg",
+      "/images/spp-treuhand-ch/pool/a571d68c08__csm_Taxdome_55ab3e0196.png",
+      "/images/spp-treuhand-ch/pool/53acef87f5__csm_Sona_5e6222c09d.jpg",
+      "/images/spp-treuhand-ch/pool/f53cfdf8ce__News_SPP-Jahresabschluss-Checkliste.png"
+    ],
+    "serviceImages": {
+      "Buchhaltung": "/images/spp-treuhand-ch/pool/edadc7c2ab__SPP-buchhaltung-und-rechnungswesen.png",
+      "Steuerberatung": "/images/spp-treuhand-ch/pool/8f7c1f1d24__SPP-steuerberatung.png",
+      "Mehrwertsteuer": "/images/spp-treuhand-ch/pool/223bbfc076__Jaehrliche_MwSt.png",
+      "Unternehmensberatung": "/images/spp-treuhand-ch/pool/a7eac76496__SPP-firmengruendung-und-unternehmensberatung.png"
+    },
+    "documents": [
+      {
+        "src": "/files/spp-treuhand-ch/77db7300f6__SPP-Treuhand-April-2025.pdf",
+        "title": "> Die aktuelle UPDATE-Ausgabe",
+        "kind": "pdf",
+        "bytes": 476393
+      },
+      {
+        "src": "/files/spp-treuhand-ch/cf85527056__SPP-Treuhand-September-2025.pdf",
+        "title": "> Die aktuelle UPDATE-Ausgabe",
+        "kind": "pdf",
+        "bytes": 257453
+      },
+      {
+        "src": "/files/spp-treuhand-ch/0b38af54a5__SPP-Treuhand-UPDATE-Dezember.pdf",
+        "title": "> Die aktuelle UPDATE-Ausgabe",
+        "kind": "pdf",
+        "bytes": 1102675
+      },
+      {
+        "src": "/files/spp-treuhand-ch/1af92b7e19__SPP-Treuhand.pdf",
+        "title": "> Die aktuelle UPDATE-Ausgabe",
+        "kind": "pdf",
+        "bytes": 599423
+      },
+      {
+        "src": "/files/spp-treuhand-ch/02b4e2883f__SPP-Treuhand.pdf",
+        "title": "> Die aktuelle UPDATE-Ausgabe",
+        "kind": "pdf",
+        "bytes": 516903
+      },
+      {
+        "src": "/files/spp-treuhand-ch/a9b2c15730__Aufbewahrungsfristen.pdf",
+        "title": "direkt hier runterladen",
+        "kind": "pdf",
+        "bytes": 165320
+      },
+      {
+        "src": "/files/spp-treuhand-ch/6cdcab77e1__SPP_Sozialversicherung_2024.pdf",
+        "title": "in unserem PDF zum Runterladen",
+        "kind": "pdf",
+        "bytes": 165320
+      },
+      {
+        "src": "/files/spp-treuhand-ch/8fb9a576f9__SPP-Jahresend-Checkliste-fuer-KMU.pdf",
+        "title": "Jahresabschluss Checkliste hier runterladen",
+        "kind": "pdf",
+        "bytes": 174909
+      },
+      {
+        "src": "/files/spp-treuhand-ch/b66c600b6a__AHV_Merklatt_2.01_d.pdf",
+        "title": "Merkblatt 2.01: Lohnbeiträge an die AHV, die IV und die EO",
+        "kind": "pdf",
+        "bytes": 165320
+      },
+      {
+        "src": "/files/spp-treuhand-ch/8973c99dec__Abschreibungen_Merkblatt_ESTV.pdf",
+        "title": "Merkblatt A 1995 zum Runterladen",
+        "kind": "pdf",
+        "bytes": 165320
+      },
+      {
+        "src": "/files/spp-treuhand-ch/dd1bf9c62c__SPP-Taxdome_All-in-One_client_portal.pdf",
+        "title": "SPP Taxdome All in One client portal",
+        "kind": "pdf",
+        "bytes": 1759749
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/spp-treuhand-ch/pool/c6bbe31b0e__SPP-Rechnungswesen.svg",
+        "kind": "logo",
+        "alt": "SPP-Rechnungswesen",
+        "bytes": 253804,
+        "width": 756,
+        "height": 756,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/973d795017__SPP-Lohnbuchhaltung.svg",
+        "kind": "logo",
+        "alt": "SPP-Lohnbuchhaltung",
+        "bytes": 438825,
+        "width": 756,
+        "height": 756,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/35d06e416d__SPP-Bexio-Buchhalter.svg",
+        "kind": "badge",
+        "alt": "SPP-Bexio Buchhalter",
+        "bytes": 323811,
+        "width": 756,
+        "height": 756,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/a1d5a8c0b8__SPP-Logo-Text.svg",
+        "kind": "badge",
+        "alt": "SPP Schlunegger Park & Partner Treuhand AG",
+        "bytes": 11232,
+        "width": 360,
+        "height": 134,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/de822edda2__News_SPP-Update-September-2025.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 179731,
+        "width": 1500,
+        "height": 1000,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/28cb907e4f__da820e97-7de0-45c1-8e17-da862117cef0-scaled.jpeg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 310086,
+        "width": 1600,
+        "height": 1578,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/76bfd8096d__spp-treuhand-update-dezember-2024.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 83931,
+        "width": 1500,
+        "height": 1000,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/bc1531f6ea__csm_retirement_cb27d2f8d4-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 255866,
+        "width": 1600,
+        "height": 1116,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/ad84ede2e7__SPP-Update-April-2025.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 78798,
+        "width": 1500,
+        "height": 1000,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/edadc7c2ab__SPP-buchhaltung-und-rechnungswesen.png",
+        "kind": "photo",
+        "alt": "SPP-buchhaltung-und-rechnungswesen",
+        "bytes": 153851,
+        "width": 800,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/5bcaac9a21__SPP-Online-Buchhaltung.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 152207,
+        "width": 800,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/940c1bbd76__csm_Chiara_Schnetzer.jpg",
+        "kind": "photo",
+        "alt": "Max Muster",
+        "bytes": 48234,
+        "width": 712,
+        "height": 712,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/223bbfc076__Jaehrliche_MwSt.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 99534,
+        "width": 605,
+        "height": 601,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/0f4c7197d5__csm_Jason_Johansson.jpg",
+        "kind": "photo",
+        "alt": "Max Muster",
+        "bytes": 42188,
+        "width": 712,
+        "height": 712,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/a7eac76496__SPP-firmengruendung-und-unternehmensberatung.png",
+        "kind": "photo",
+        "alt": "SPP-firmengruendung-und-unternehmensberatung",
+        "bytes": 145181,
+        "width": 800,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/03001c0327__csm_Aleandro_Frautschi_4df36467a8.jpg",
+        "kind": "photo",
+        "alt": "Max Muster",
+        "bytes": 36518,
+        "width": 712,
+        "height": 712,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/8f7c1f1d24__SPP-steuerberatung.png",
+        "kind": "photo",
+        "alt": "SPP-steuerberatung",
+        "bytes": 102362,
+        "width": 800,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/a571d68c08__csm_Taxdome_55ab3e0196.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 31963,
+        "width": 470,
+        "height": 470,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/53acef87f5__csm_Sona_5e6222c09d.jpg",
+        "kind": "photo",
+        "alt": "Max Muster",
+        "bytes": 67000,
+        "width": 712,
+        "height": 712,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/f53cfdf8ce__News_SPP-Jahresabschluss-Checkliste.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 29977,
+        "width": 1080,
+        "height": 1080,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/spp-treuhand-ch/pool/de822edda2__News_SPP-Update-September-2025.jpg",
+      "/images/spp-treuhand-ch/pool/76bfd8096d__spp-treuhand-update-dezember-2024.jpg",
+      "/images/spp-treuhand-ch/pool/bc1531f6ea__csm_retirement_cb27d2f8d4-scaled.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "SPP Treuhand AG",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen",
+    "logo": "/images/spp-treuhand-ch/pool/c6bbe31b0e__SPP-Rechnungswesen.svg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Wir übernehmen deine Treuhandaufgaben und schenken dir Zeit.",
+    "titleAccent": "",
+    "lede": "SPP - Treuhand AG Zürich: Treuhand-Support und Beratung in allen Bereichen für KMU, Rechnungswesen, Steuern, Lohnbuchhaltung, Firmengründung",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "SPP - Treuhand AG Zürich: Treuhand-Support und Beratung in allen Bereichen für KMU, Rechnungswesen, Steuern, Lohnbuchhaltung, Firmengründung",
+    "asideAttribution": "SPP Treuhand AG",
+    "image": "/images/spp-treuhand-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "SPP-Treuhand Zürich: Das Leitbild von SPP Schlunegger & Partner Treuhand AG",
+        "body": "Die Werte unseres Unternehmens und unseres Teams haben wir bewusst kurz gehalten. Wir sind überzeugt: Verständlich und umsetzbar bleibt nur, was sich klar und ohne Umwege formulieren lässt. Diese wenigen Worte stehen für das, was wir täglich leben – aus Überzeugung und mit Haltung.\n\nGegründet und geführt von Profis, um in unserer Branche Aussergewöhnliches zu leisten. In der Firmengrösse bewusst so gehalten, dass wir uns für unsere Kundinnen und Kunden Zeit nehmen können. Wir sind gross genug, um ein umfassendes Leistungsspektrum effizient zu betreuen. Und wir bleiben klein genug, damit Qualität, Sorgfalt und der persönliche Touch immer im Zentrum stehen.\n\nWir lieben unsere Arbeit, deshalb geben wir jeden Tag das Beste. An uns gestellte Erwartungen wollen wir nicht nur erfüllen, wir möchten sie übertreffen – wenn immer möglich. Und es ist immer wieder möglich.\n\nHinter Unternehmen stehen ",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/spp-treuhand-ch/pool/edadc7c2ab__SPP-buchhaltung-und-rechnungswesen.png"
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Mit uns als Steuerberatung haben Sie Ihre Steuern im Griff ✓ 40% auf Lizenzkosten 1. Jahr ✓ 33% weniger Treuhandkosten ✓ 100% sorglos",
+        "body": "Sie sind völlig entlastet von jeder Bürokratie, weil wir uns um das gesamte Steuerwesen von Unternehmen und Inhaber kümmern. Damit gewinnen Sie Zeit und Freiraum – und die Sicherheit, nicht zu viel Steuern zu zahlen.\n\nSelbstverständlich kümmern wir uns nicht nur um Formulare und Deklarationen, wir beraten Sie umfassend in sämtlichen Steuerfragen. Durch eine strategische Planung wird Ihre Steuerlast langfristig optimiert und vermindert. Und auf Wunsch vertreten wir Ihre Interessen im direkten Verkehr mit Amtsstellen, zum Beispiel bei Einsprachen oder Steuerauflagen. So sind Sie wirklich 100%-ig entlastet und behalten Kopf und Hände frei für das wirklich Wesentliche – für Ihr Kerngeschäft.\n\nWir unterstützen Sie punktuell oder umfassend – genau dort, wo Sie Entlastung brauchen. Damit Sie sich nicht selbst mit Steuerfragen befassen müssen. Nutzen Sie das, was Ihnen im Moment Freiraum schafft",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/spp-treuhand-ch/pool/8f7c1f1d24__SPP-steuerberatung.png"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "SPP-Treuhand Zürich: Das Leitbild von SPP Schlunegger & Partner Treuhand AG",
+        "body": "Die Werte unseres Unternehmens und unseres Teams haben wir bewusst kurz gehalten. Wir sind überzeugt: Verständlich und umsetzbar bleibt nur, was sich klar und ohne Umwege formulieren lässt. Diese wenigen Worte stehen für das, was wir täglich leben – aus Überzeugung und mit Haltung.\n\nGegründet und geführt von Profis, um in unserer Branche Aussergewöhnliches zu leisten. In der Firmengrösse bewusst so gehalten, dass wir uns für unsere Kundinnen und Kunden Zeit nehmen können. Wir sind gross genug, um ein umfassendes Leistungsspektrum effizient zu betreuen. Und wir bleiben klein genug, damit Qualität, Sorgfalt und der persönliche Touch immer im Zentrum stehen.\n\nWir lieben unsere Arbeit, deshalb geben wir jeden Tag das Beste. An uns gestellte Erwartungen wollen wir nicht nur erfüllen, wir möchten sie übertreffen – wenn immer möglich. Und es ist immer wieder möglich.\n\nHinter Unternehmen stehen ",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Standardisierte Prozesse bringen Sicherheit in den Jahresabschluss und sorgen für eine effiziente Zusammenarbeit. Unsere Checkliste unterstützt Sie dabei, alle Schritte und Unterlagen strukturiert vorzubereiten.",
+        "body": "Standardisierte Prozesse bringen Sicherheit in den Jahresabschluss und sorgen für eine effiziente Zusammenarbeit. Unsere Checkliste unterstützt Sie dabei, alle Schritte und Unterlagen strukturiert vorzubereiten.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir uns bei Ihnen melden können.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "Jährliche MWST-Abrechnung – sinnvoll oder riskant? - SPP Schlunegger Park & Partner Treuhand AG",
+        "body": "Jährliche MWST-Abrechnung – sinnvoll oder riskant? - SPP Schlunegger Park & Partner Treuhand AG\n\nSeit dem 1. Januar 2025 können Unternehmen mit einem Jahresumsatz bis CHF 5’005’000 ihre MWST jährlich statt quartalsweise abrechnen – sofern die ESTV den Antrag bewilligt.\n\nDas klingt nach weniger Aufwand – doch die Umstellung will gut überlegt sein.\n\nBei SPP zeigt sich schnell: Fehler ziehen sich durchs ganze Jahr. Der Aufwand wird nicht kleiner – er verschiebt sich nur. Und mit jeder zusätzlichen Woche Abstand zum Buchungszeitpunkt wird die Nachvollziehbarkeit schwieriger. Belege von vor einem Jahr nachzuvollziehen kostet Zeit und Nerven – und führt am Ende oft zu mehr Aufwand statt weniger.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/spp-treuhand-ch/pool/223bbfc076__Jaehrliche_MwSt.png"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Mit uns als Steuerberatung haben Sie Ihre Steuern im Griff ✓ 40% auf Lizenzkosten 1. Jahr ✓ 33% weniger Treuhandkosten ✓ 100% sorglos",
+        "body": "Sie sind völlig entlastet von jeder Bürokratie, weil wir uns um das gesamte Steuerwesen von Unternehmen und Inhaber kümmern. Damit gewinnen Sie Zeit und Freiraum – und die Sicherheit, nicht zu viel Steuern zu zahlen.\n\nSelbstverständlich kümmern wir uns nicht nur um Formulare und Deklarationen, wir beraten Sie umfassend in sämtlichen Steuerfragen. Durch eine strategische Planung wird Ihre Steuerlast langfristig optimiert und vermindert. Und auf Wunsch vertreten wir Ihre Interessen im direkten Verkehr mit Amtsstellen, zum Beispiel bei Einsprachen oder Steuerauflagen. So sind Sie wirklich 100%-ig entlastet und behalten Kopf und Hände frei für das wirklich Wesentliche – für Ihr Kerngeschäft.\n\nWir unterstützen Sie punktuell oder umfassend – genau dort, wo Sie Entlastung brauchen. Damit Sie sich nicht selbst mit Steuerfragen befassen müssen. Nutzen Sie das, was Ihnen im Moment Freiraum schafft",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/spp-treuhand-ch/pool/a7eac76496__SPP-firmengruendung-und-unternehmensberatung.png"
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Dein Treuhand. Digital gedacht, persönlich gemacht.",
+        "body": "Die Werte unseres Unternehmens und unseres Teams haben wir bewusst kurz gehalten. Wir sind überzeugt: Verständlich und umsetzbar bleibt nur, was sich klar und ohne Umwege formulieren lässt. Diese wenigen Worte stehen für das, was wir täglich leben – aus Überzeugung und mit Haltung."
+      },
+      {
+        "title": "Mit wenigen Klicks zu mehr Freiraum",
+        "body": "Wir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können."
+      },
+      {
+        "title": "Mit wenigen Klicks zu zusätzlicher Kompetenz",
+        "body": "Wir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können."
+      },
+      {
+        "title": "bexio Buchhaltung einrichten lassen",
+        "body": "Wir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir uns bei Ihnen melden können."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Alexandra Schlunegger",
+        "role": "Kundenbetreuerin & Partner",
+        "initials": "AS",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Sona Park",
+        "role": "Kundenbetreuerin & Partner",
+        "initials": "SP",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Aleandro Frautschi",
+        "role": "Sachbearbeiter",
+        "initials": "AF",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.",
+        "photo": "/images/spp-treuhand-ch/team/2-frautschi.jpg"
+      },
+      {
+        "name": "Alfa Poloni",
+        "role": "Sachbearbeiterin Administration",
+        "initials": "AP",
+        "bio": "Kümmert sich um Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig und termingerecht."
+      },
+      {
+        "name": "Sachbearbeiterin Administration",
+        "role": "empfang@spp-treuhand.ch",
+        "initials": "SA",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
+      {
+        "name": "Brigitte Lippuner",
+        "role": "Sachbearbeiterin",
+        "initials": "BL",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "TREUHAND|SUISSE",
+      "eidg. Diplom/Fachausweis",
+      "bexio",
+      "klara",
+      "sage"
+    ],
+    "badges": [
+      "/images/spp-treuhand-ch/pool/35d06e416d__SPP-Bexio-Buchhalter.svg",
+      "/images/spp-treuhand-ch/pool/a1d5a8c0b8__SPP-Logo-Text.svg"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "Ich suche ein neues Treuhandbüro, gibt es die Möglichkeit innerhalb des laufenden Geschäftsjahres zu wechseln?",
+        "a": "Selbstverständlich können Sie auch zu uns wechseln, wenn das laufende Geschäftsjahr bereits von einem anderen Buchhalter oder Treuhänder nachgeführt wurde. Zusammen finden wir die beste Lösung für die Integration der bestehenden Daten."
+      },
+      {
+        "q": "Bei meinem jetzigen Treuhandbüro habe ich keine fixe Ansprechperson, wie ist das bei Ihnen geregelt?",
+        "a": "Bei uns, der SPP Schlunegger Park & Partner Treuhand AG, haben Sie als Kunde Ihren eigenen Kundenbetreuer, welcher für Ihre Anliegen da ist. Ihr Kundenbetreuer ist am besten mit den Gegebenheiten Ihrer Firma betraut, kennt die Zusammenhänge und ist daher in der Lage Ihre Fragen spezifisch auf Ihr Unternehmen zu beantworten. Sollte Ihr Kundenbetreuer zum Beispiel in den Ferien sein, ist eine Stellvertretung organisiert und eingearbeitet."
+      },
+      {
+        "q": "Erledigen Sie auch Steuererklärungen für Privatpersonen?",
+        "a": "Grundsätzlich erstellen wir Steuererklärungen nur für unsere Buchhaltungskunden, deren Mitarbeiter und deren Angehörige."
+      },
+      {
+        "q": "Müssen wir für unsere Aushilfe auch AHV-Beiträge bezahlen, obwohl diese nur ca. 1‘000 Franken im Jahr erhält?",
+        "a": "Für die AHV gilt, dass grundsätzlich bei jeder Lohnzahlung AHV/IV/EO- und ALV-Beiträge abzuziehen sind. Übersteigt der Lohn jedoch"
+      },
+      {
+        "q": "Wir haben unserem Mitarbeiter für seine guten Leistungen zusätzlich zum Lohn 1‘000 Franken ausbezahlt. Ist dieser Betrag AHV-pflichtig?",
+        "a": "Ja. Der Bonus ist ein Entgelt, das zum massgebenden Lohn gehört. Auf diesem Betrag sind alle Beiträge (AHV/IV/EO und ALV) normal abzurechnen."
+      },
+      {
+        "q": "Wann müssen wir die AHV-Beiträge an die Ausgleichkasse zahlen?",
+        "a": "Die Ausgleichskasse setzt in der Regel Akontobeiträge fest, welche auf der Höhe der voraussichtlichen Lohnsumme basieren. Die Akontobeiträge werden, je nach Höhe, monatlich oder vierteljährlich in Rechnung gestellt."
+      },
+      {
+        "q": "Ich führe ein kleines Restaurant, ab wann muss ich MWST abliefern?",
+        "a": "Grundsätzlich ist jeder, der ein Unternehmen führt, mehrwertsteuerpflichtig. Von der Mehrwertsteuerpflicht ist jedoch befreit, wer innerhalb eines Jahres"
+      },
+      {
+        "q": "Wir haben dieses Jahr unsere EDV-Anlage erneuert. Können wir die Anlagen nach eigenem Ermessen abschreiben?",
+        "a": "für Abschreibungen auf dem Anlagevermögen akzeptiert. Der massgebende Satz für Datenverarbeitungsanlagen (Hardware und Software) beträgt"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 310 14 44",
+      "email": "%20kontakt@spp-treuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "SPP Treuhand AG",
+    "tagline": "SPP - Treuhand AG Zürich: Treuhand-Support und Beratung in allen Bereichen für KMU, Rechnungswesen, Steuern, Lohnbuchhaltung, Firmengründung",
+    "logo": "/images/spp-treuhand-ch/pool/c6bbe31b0e__SPP-Rechnungswesen.svg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 44 310 14 44",
+          "%20kontakt@spp-treuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

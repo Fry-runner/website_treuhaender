@@ -1,0 +1,730 @@
+{
+  "meta": {
+    "firm": "Treuhand mit Herz",
+    "domain": "treuhandmitherz.ch",
+    "archetype": "swiss-digital",
+    "lookId": "quabba-editorial",
+    "sourceUrl": "https://www.treuhandmitherz.ch/",
+    "basePresetId": "quabba-editorial",
+    "look": {
+      "meta": {
+        "id": "treuhandmitherz-ch-brand",
+        "name": "Quabba Editorial Red · brand-tinted",
+        "mood": "Editorial graphite-on-white with a restrained Swiss-red accent; all-Inter with mono micro-labels, hairline borders, scroll-triggered color-shift reveals and a hand-drawn signature line.",
+        "source": "Quabba-Treuhand + scraped brand",
+        "derived": [
+          "color.surface (#F7F8F8 tint of gray-light)",
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#FCEBEC tint)",
+          "color.secondaryFg (#22272B)",
+          "font.mono (Tailwind default mono stack)",
+          "base: quabba-editorial",
+          "accent #971D27 (scraped · medium)",
+          "heading: Libre Baskerville (scraped)",
+          "body: Work Sans (inventory)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "airy",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F7F8F8",
+        "text": "#22272B",
+        "textMuted": "#7C868C",
+        "border": "#E9ECEC",
+        "primary": "#971D27",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#F7EDEE",
+        "secondary": "#1698F1",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Libre Baskerville\", Georgia, \"Times New Roman\", serif",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "serif-editorial"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-24",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 600,
+        "easing": "cubic-bezier(0.22,1,0.36,1)",
+        "intensity": "expressive"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true,
+        "bloom": "rgba(151,29,39,0.18)"
+      },
+      "raw": {
+        "--color-brand-violet": "#D91A21",
+        "--color-brand-coral": "#E39699",
+        "--color-brand-graphite": "#22272B",
+        "--color-brand-gray-light": "#E9ECEC",
+        "--color-brand-gray-medium": "#7C868C",
+        "--font-sans": "Inter",
+        "--font-display": "Inter",
+        "--font-heading": "Inter"
+      }
+    },
+    "brand": {
+      "primary": "#971D27",
+      "secondary": "#2EA3F2",
+      "palette": [
+        "#971D27",
+        "#2EA3F2",
+        "#82C0C7",
+        "#2D3940",
+        "#974DF3",
+        "#7E3BD0",
+        "#29C4A9",
+        "#7A00DF",
+        "#007CBA",
+        "#006BA1",
+        "#005A87",
+        "#34E2E4"
+      ],
+      "heading": {
+        "family": "Libre Baskerville",
+        "serif": true
+      },
+      "fontsSeen": [
+        "Libre Baskerville",
+        "Fira Sans"
+      ],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [
+      "Libre Baskerville"
+    ],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✗ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq",
+      "footer.tagline",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "services.text",
+      "trust.items",
+      "media.pool",
+      "trust.badges",
+      "brand.colors",
+      "brand.fonts"
+    ]
+  },
+  "media": {
+    "hero": "/images/treuhandmitherz-ch/hero.jpg",
+    "badges": [
+      "/images/treuhandmitherz-ch/pool/27f9d70e6b__Treuhand-mit-Herz-Logo-gross_Zeichenflaeche-1-Kopie.png"
+    ],
+    "photos": [
+      "/images/treuhandmitherz-ch/pool/ed7e4bcdd8__Aussenansicht_Rafz_Homepage.jpg",
+      "/images/treuhandmitherz-ch/pool/86aa55355a__treuhand-mit-herz-winterthur-63.jpg",
+      "/images/treuhandmitherz-ch/pool/c2b7fdb52f__treuhand-mit-herz-winterthur-12.jpg",
+      "/images/treuhandmitherz-ch/pool/039fb37fce__treuhand-mit-herz-winterthur-36.jpg",
+      "/images/treuhandmitherz-ch/pool/60ba3660e1__treuhand-mit-herz-winterthur-37.jpg",
+      "/images/treuhandmitherz-ch/pool/5eae033ed5__treuhand-mit-herz-winterthur-64.jpg",
+      "/images/treuhandmitherz-ch/pool/a3df2e5c0e__treuhand-mit-herz-6.jpg",
+      "/images/treuhandmitherz-ch/pool/12f2bd11d7__treuhand-mit-herz-4.jpg",
+      "/images/treuhandmitherz-ch/pool/9f786473fd__treuhand-mit-herz-3.jpg",
+      "/images/treuhandmitherz-ch/pool/51dafbcd12__treuhand-mit-herz-5.jpg",
+      "/images/treuhandmitherz-ch/pool/fa8cac1505__a_Treuhand-mit-Herz-Logo_Zeichenflaeche-1-Kopie.jpg",
+      "/images/treuhandmitherz-ch/pool/454305c747__Benjamin-Bolli_Homepage.jpg",
+      "/images/treuhandmitherz-ch/pool/a62e1876ee__Kathrin-Urich_Homepage.jpg",
+      "/images/treuhandmitherz-ch/pool/1006f269c7__Tabea-Klauser_Homepage.jpg",
+      "/images/treuhandmitherz-ch/pool/9af5cfc325__Anita-Willener_Homepage.jpg",
+      "/images/treuhandmitherz-ch/pool/beb9afa7ec__treuhand-mit-herz-team.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/treuhandmitherz-ch/pool/27f9d70e6b__Treuhand-mit-Herz-Logo-gross_Zeichenflaeche-1-Kopie.png",
+        "kind": "badge",
+        "alt": "Treuhand mit Herz Logo gross_Zeichenfläche 1 Kopie",
+        "bytes": 16833,
+        "width": 920,
+        "height": 277,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/ed7e4bcdd8__Aussenansicht_Rafz_Homepage.jpg",
+        "kind": "photo",
+        "alt": "Treuhand mit Herz Rafz",
+        "bytes": 228247,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/fa8cac1505__a_Treuhand-mit-Herz-Logo_Zeichenflaeche-1-Kopie.jpg",
+        "kind": "photo",
+        "alt": "Treuhand mit Herz",
+        "bytes": 22460,
+        "width": 920,
+        "height": 277,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/454305c747__Benjamin-Bolli_Homepage.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 157623,
+        "width": 1066,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/a62e1876ee__Kathrin-Urich_Homepage.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 148648,
+        "width": 1066,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/1006f269c7__Tabea-Klauser_Homepage.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 142542,
+        "width": 1066,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/86aa55355a__treuhand-mit-herz-winterthur-63.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 178649,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/9af5cfc325__Anita-Willener_Homepage.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 146846,
+        "width": 1066,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/c2b7fdb52f__treuhand-mit-herz-winterthur-12.jpg",
+        "kind": "photo",
+        "alt": "treuhand-mit-herz-winterthur-59",
+        "bytes": 117651,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/beb9afa7ec__treuhand-mit-herz-team.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 156528,
+        "width": 1067,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/039fb37fce__treuhand-mit-herz-winterthur-36.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 115988,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/60ba3660e1__treuhand-mit-herz-winterthur-37.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 112399,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/5eae033ed5__treuhand-mit-herz-winterthur-64.jpg",
+        "kind": "photo",
+        "alt": "treuhand-mit-herz-winterthur-64",
+        "bytes": 221476,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/a3df2e5c0e__treuhand-mit-herz-6.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 313316,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/12f2bd11d7__treuhand-mit-herz-4.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 132299,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/9f786473fd__treuhand-mit-herz-3.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 192801,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/51dafbcd12__treuhand-mit-herz-5.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 385258,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/treuhandmitherz-ch/pool/ed7e4bcdd8__Aussenansicht_Rafz_Homepage.jpg",
+      "/images/treuhandmitherz-ch/pool/86aa55355a__treuhand-mit-herz-winterthur-63.jpg",
+      "/images/treuhandmitherz-ch/pool/c2b7fdb52f__treuhand-mit-herz-winterthur-12.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Treuhand mit Herz",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Rafz",
+    "titleLead": "Ihr Treuhandbüro in Winterthur und in Rafz",
+    "titleAccent": "",
+    "lede": "Buchhaltung, Steuern und Beratung für KMU und Privatpersonen in Rafz. Persönlich, präzise und vorausschauend an Ihrer Seite.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Persönliche Treuhand-Betreuung für KMU und Private in Rafz.",
+    "asideAttribution": "Treuhand mit Herz",
+    "image": "/images/treuhandmitherz-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Wir sind das Treuhandbüro in Winterthur für jedes Budget. Wir beraten Sie zu allen Fragen rund um Buchhaltung, Steuern oder Versicherungen.",
+        "body": "Wir beraten und unterstützen Start-ups, Einzelfirmen und KMU-Betriebe, Vereine wie auch Privatpersonen. Von der Firmengründung über das gesamte Rechnungswesen bis zur Pensionsplanung. Wir schaffen Ordnung, damit Sie sich auf Ihre Arbeit konzentrieren können.\n\nDie Buchhaltung ist ein wesentliches Instrument, um in Ihrem Unternehmen die Kontrolle und Übersicht über die finanzielle Lage zu behalten. Sie entscheiden selbst, ob wir die gesamte Buchhaltung für Sie übernehmen, oder ob Sie nur einzelne Teilgebiete auslagern wollen.\n\nEigenheim, Selbstständigkeit, Erbschaften, Schenkungen oder Quellensteuer – Steuerfragen können vielfältig und komplex sein. Wir beraten Sie bei allen Fragen und finden Optimierungen. Ihre Steuererklärungen übernehmen wir gerne für Sie, oder unterstützen Sie dabei, diese selbst auszufüllen.\n\nEine einfache, einheitliche und effiziente Personaladministration ist die Ba",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Steuererklärung Winterthur – welche Tipps und Tricks gibt es? Als Treuhandbüro in Winterthur beschäftigen wir uns seit Jahren mit dem Thema Steuererklärung. Wir haben für Sie einige Tipps zusammengestellt: 1. Vorausplanung: Stellen Sie sicher, dass Sie genügend...",
+        "body": "Steuererklärung Winterthur – welche Tipps und Tricks gibt es? Als Treuhandbüro in Winterthur beschäftigen wir uns seit Jahren mit dem Thema Steuererklärung. Wir haben für Sie einige Tipps zusammengestellt: 1. Vorausplanung: Stellen Sie sicher, dass Sie genügend...\n\nSteuerklärung selber ausfüllen oder einen Treuhänder engagieren? In der Regel kann man die Steuererklärung selbst ausfüllen. Ein Treuhänder kann jedoch hilfreich sein, wenn man sich mit steuerlichen Fragen nicht auskennt oder komplexe finanzielle Verhältnisse hat. Ein...\n\nSteuererklärung 2022 im Kanton Zürich – worauf muss ich achten? 1. Frist zur Einreichung: Stellen Sie sicher, dass Sie die Steuererklärung innerhalb der geltenden Frist einreichen. Die Frist ist auf der Steuererklärung vermerkt. 2. Korrekte Angaben: Überprüfen...",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Treuhand Team",
+        "role": "Geschäftsführung",
+        "initials": "TR",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "ISO",
+      "sage"
+    ],
+    "badges": [
+      "/images/treuhandmitherz-ch/pool/27f9d70e6b__Treuhand-mit-Herz-Logo-gross_Zeichenflaeche-1-Kopie.png"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41\n52 551 50 00",
+      "email": "info@treuhandmitherz.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Treuhand mit Herz",
+    "tagline": "Ihr Treuhandpartner in Rafz – Buchhaltung, Steuern und Beratung für KMU.",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Rafz",
+          "+41\n52 551 50 00",
+          "info@treuhandmitherz.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

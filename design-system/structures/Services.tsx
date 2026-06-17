@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
+import { Icon } from "../icons/iconSets";
 import type { ServicesContent } from "../content/types";
 
 /** Services card grid. Cards link via onPick when a target exists. */
@@ -10,20 +11,28 @@ export const Services: React.FC<{ content: ServicesContent; more?: MoreLink; onP
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.2rem" }}>
         {content.items.map((s, i) => (
-          <article key={i} onClick={onPick ? () => onPick(s.title) : undefined} style={{
+          <article
+            key={i}
+            onClick={onPick ? () => onPick(s.title) : undefined}
+            role={onPick ? "button" : undefined}
+            tabIndex={onPick ? 0 : undefined}
+            onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined}
+            style={{
             background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)",
-            boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.7rem",
+            boxShadow: "var(--ds-shadow-card)", overflow: "hidden", display: "flex", flexDirection: "column",
             cursor: onPick ? "pointer" : "default",
           }}>
-            <div style={{ width: "2.6rem", height: "2.6rem", borderRadius: "var(--ds-radius)", background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--ds-primary)", fontWeight: 700 }}>
-              {String(i + 1).padStart(2, "0")}
-            </div>
+            {s.image && (
+              <div aria-hidden style={{ height: "9rem", backgroundImage: `url("${s.image}")`, backgroundSize: "cover", backgroundPosition: "center" }} />
+            )}
+            <div style={{ padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.7rem", flex: 1 }}>
             <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.15rem", color: "var(--ds-text)", margin: 0 }}>{s.title}</h3>
             <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0, flex: 1 }}>{s.summary}</p>
             {s.price && (
-              <div style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", textTransform: "uppercase", letterSpacing: "0.05em", color: "var(--ds-primary)", fontWeight: 600 }}>{s.price}</div>
+              <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.78rem",   color: "var(--ds-primary)", fontWeight: 600 }}>{s.price}</div>
             )}
-            <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--ds-text-muted)" }}>Mehr →</span>
+            <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>Mehr <Icon name="arrowRight" size={13} style={{ verticalAlign: "-0.1em" }} /></span>
+            </div>
           </article>
         ))}
       </div>

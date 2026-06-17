@@ -1,0 +1,865 @@
+{
+  "meta": {
+    "firm": "SEBONA Treuhand",
+    "domain": "sebona-treuhand.ch",
+    "archetype": "swiss-digital",
+    "lookId": "ruerup-swiss",
+    "sourceUrl": "https://sebona-treuhand.ch/",
+    "basePresetId": "ruerup-swiss",
+    "look": {
+      "meta": {
+        "id": "sebona-treuhand-ch-brand",
+        "name": "Rürup Swiss Corporate · brand-tinted",
+        "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
+        "source": "Steuerberatung-Andreas-Rürup + scraped brand",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (tint of beige surface)",
+          "base: ruerup-swiss",
+          "accent #0F1E3D (scraped · medium)",
+          "heading: Hanken Grotesk (inventory)",
+          "body: Karla (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "vibrant"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#E5E7EB",
+        "text": "#1C1C1A",
+        "textMuted": "#71717A",
+        "border": "#E5E7EB",
+        "primary": "#0F1E3D",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#ECEDEF",
+        "secondary": "#B58D3B",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Karla\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Hanken Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "medium",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "medium"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-12",
+        "rhythm": "normal",
+        "containerMax": "1200px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 300,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-offwhite": "#FFFFFF",
+        "--color-brand-anthracite": "#1C1C1A",
+        "--color-brand-red": "#C8102E",
+        "--color-brand-green": "#1F4E3D",
+        "--color-brand-beige": "#E5E7EB",
+        "--color-brand-grey": "#71717A",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "primary": "#0F1E3D",
+      "secondary": "#C9A55A",
+      "palette": [
+        "#0F1E3D",
+        "#C9A55A",
+        "#1F2C50",
+        "#6A7282",
+        "#155DFC",
+        "#2562FF",
+        "#1E90FF",
+        "#4CAF50",
+        "#8A2BE2",
+        "#32CD32",
+        "#FFA500",
+        "#A88641"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "stats",
+        "process",
+        "team",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "echte Kennzahlen gefunden",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "team.photos",
+      "stats",
+      "values",
+      "faq",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "logo": "/images/sebona-treuhand-ch/pool/5a73173197__logo-600.webp",
+    "hero": "/images/sebona-treuhand-ch/hero.webp",
+    "badges": [
+      "/images/sebona-treuhand-ch/pool/329a5dddb3__veb-mitglied.jpg",
+      "/images/sebona-treuhand-ch/pool/bfb84e1058__post-5.DwM8QJ1Y_Z2sFEKK.webp"
+    ],
+    "photos": [
+      "/images/sebona-treuhand-ch/pool/d8872c8b84__buero-2.jpg",
+      "/images/sebona-treuhand-ch/pool/3fc0320bd0__buero-6.jpg",
+      "/images/sebona-treuhand-ch/pool/823cf15f66__buero-3.jpg",
+      "/images/sebona-treuhand-ch/pool/8695beb5ba__buero-5.jpg",
+      "/images/sebona-treuhand-ch/pool/8c77dfcda6__buero-1.jpg",
+      "/images/sebona-treuhand-ch/pool/82363990b4__buero-4.jpg",
+      "/images/sebona-treuhand-ch/pool/afeb3cdf01__zuerich-skyline.r2deDm9B_2iO7FO.webp",
+      "/images/sebona-treuhand-ch/pool/7172995286__zuerich-skyline.r2deDm9B_22GT5v.webp",
+      "/images/sebona-treuhand-ch/pool/5b540e6bba__zuerich-skyline.r2deDm9B_1S02UR.webp",
+      "/images/sebona-treuhand-ch/pool/6191739a05__footer-font-bg.CgLeq-Ib_yrDo0.webp",
+      "/images/sebona-treuhand-ch/pool/17809d7cbd__og-image.jpg",
+      "/images/sebona-treuhand-ch/pool/0e2ef40f29__post-7.D1ocRhUy_Z1b0w5h.webp",
+      "/images/sebona-treuhand-ch/pool/214d21e045__banner-common.BzpOmRvW_1M2Cuw.webp",
+      "/images/sebona-treuhand-ch/pool/a0b6d70eef__post-7.D1ocRhUy_1TMS9j.webp",
+      "/images/sebona-treuhand-ch/pool/3920b4d804__post-7.D1ocRhUy_Z2pvT2x.webp",
+      "/images/sebona-treuhand-ch/pool/7b0f4143e5__post-1.CIu8gpNu_1tahwJ.webp",
+      "/images/sebona-treuhand-ch/pool/0e1d7c3cc3__banner-common.BzpOmRvW_Z1Dmc0X.webp",
+      "/images/sebona-treuhand-ch/pool/b884697135__banner-common.BzpOmRvW_Z1trvnL.webp",
+      "/images/sebona-treuhand-ch/pool/55b59f427e__bexio-platinum.png",
+      "/images/sebona-treuhand-ch/pool/3aea7af6c5__web-app-manifest-512x512.png"
+    ],
+    "serviceImages": {},
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/sebona-treuhand-ch/pool/5a73173197__logo-600.webp",
+        "kind": "logo",
+        "alt": "Brand logo of sebona treuhand",
+        "bytes": 22698,
+        "width": 600,
+        "height": 251,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/32d9e16d0f__logo-1200.webp",
+        "kind": "logo",
+        "alt": "SEBONA Treuhand Böhner",
+        "bytes": 47670,
+        "width": 1200,
+        "height": 502,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/329a5dddb3__veb-mitglied.jpg",
+        "kind": "badge",
+        "alt": "Mitglied veb.ch – Schweizer Verband der dipl. Experten in Rechnungslegung & Controlling",
+        "bytes": 24773,
+        "width": 563,
+        "height": 769,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": []
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/bfb84e1058__post-5.DwM8QJ1Y_Z2sFEKK.webp",
+        "kind": "badge",
+        "alt": "Bexio Buchhaltung richtig einrichten",
+        "bytes": 22476,
+        "width": 896,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/6191739a05__footer-font-bg.CgLeq-Ib_yrDo0.webp",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 208242,
+        "width": 1920,
+        "height": 1331,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/214d21e045__banner-common.BzpOmRvW_1M2Cuw.webp",
+        "kind": "hero",
+        "alt": "SEBONA",
+        "bytes": 66712,
+        "width": 1344,
+        "height": 617,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/0e1d7c3cc3__banner-common.BzpOmRvW_Z1Dmc0X.webp",
+        "kind": "hero",
+        "alt": "Hintergrund",
+        "bytes": 44640,
+        "width": 1320,
+        "height": 420,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/b884697135__banner-common.BzpOmRvW_Z1trvnL.webp",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 42482,
+        "width": 1280,
+        "height": 411,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/d8872c8b84__buero-2.jpg",
+        "kind": "photo",
+        "alt": "SEBONA Empfang mit Schild",
+        "bytes": 330901,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/3fc0320bd0__buero-6.jpg",
+        "kind": "photo",
+        "alt": "SEBONA Büro Innenansicht",
+        "bytes": 296574,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/823cf15f66__buero-3.jpg",
+        "kind": "photo",
+        "alt": "SEBONA Hauptbüro mit Zertifikaten",
+        "bytes": 297399,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/8695beb5ba__buero-5.jpg",
+        "kind": "photo",
+        "alt": "SEBONA Team-Arbeitsplätze",
+        "bytes": 233616,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/8c77dfcda6__buero-1.jpg",
+        "kind": "photo",
+        "alt": "SEBONA Büro Kloten – Arbeitsplatz",
+        "bytes": 187346,
+        "width": 1600,
+        "height": 1170,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/17809d7cbd__og-image.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 54070,
+        "width": 1600,
+        "height": 840,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/82363990b4__buero-4.jpg",
+        "kind": "photo",
+        "alt": "SEBONA Besprechungszimmer",
+        "bytes": 73784,
+        "width": 1600,
+        "height": 428,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/55b59f427e__bexio-platinum.png",
+        "kind": "photo",
+        "alt": "Bexio Platinum-Partner",
+        "bytes": 37426,
+        "width": 1600,
+        "height": 1600,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/afeb3cdf01__zuerich-skyline.r2deDm9B_2iO7FO.webp",
+        "kind": "photo",
+        "alt": "Zürich – Heimat von SEBONA Treuhand",
+        "bytes": 81450,
+        "width": 1024,
+        "height": 720,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/0e2ef40f29__post-7.D1ocRhUy_Z1b0w5h.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 68544,
+        "width": 1280,
+        "height": 587,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/a0b6d70eef__post-7.D1ocRhUy_1TMS9j.webp",
+        "kind": "photo",
+        "alt": "Treuhänder vs. selber buchen – der Kostenvergleich",
+        "bytes": 63642,
+        "width": 1200,
+        "height": 550,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/7172995286__zuerich-skyline.r2deDm9B_22GT5v.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 62482,
+        "width": 1024,
+        "height": 480,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/3920b4d804__post-7.D1ocRhUy_Z2pvT2x.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 57806,
+        "width": 1080,
+        "height": 495,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/5b540e6bba__zuerich-skyline.r2deDm9B_1S02UR.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 49468,
+        "width": 960,
+        "height": 450,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/7b0f4143e5__post-1.CIu8gpNu_1tahwJ.webp",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 46354,
+        "width": 1280,
+        "height": 587,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sebona-treuhand-ch/pool/3aea7af6c5__web-app-manifest-512x512.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 20758,
+        "width": 512,
+        "height": 512,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/sebona-treuhand-ch/pool/6191739a05__footer-font-bg.CgLeq-Ib_yrDo0.webp",
+      "/images/sebona-treuhand-ch/pool/214d21e045__banner-common.BzpOmRvW_1M2Cuw.webp",
+      "/images/sebona-treuhand-ch/pool/0e1d7c3cc3__banner-common.BzpOmRvW_Z1Dmc0X.webp"
+    ]
+  },
+  "nav": {
+    "brand": "SEBONA Treuhand",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen",
+    "logo": "/images/sebona-treuhand-ch/pool/5a73173197__logo-600.webp"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Kloten",
+    "titleLead": "Buchhaltung: Persönlich. Modern. Verlässlich.",
+    "titleAccent": "",
+    "lede": "Persönlicher Treuhand-Partner für KMU in Zürich, Zug und Schwyz. Buchhaltung, Steuererklärungen, Domizilservice. Erstgespräch kostenfrei – ab CHF 150.",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Persönlicher Treuhand-Partner für KMU in Zürich, Zug und Schwyz. Buchhaltung, Steuererklärungen, Domizilservice. Erstgespräch kostenfrei – ab CHF 150.",
+    "asideAttribution": "SEBONA Treuhand",
+    "image": "/images/sebona-treuhand-ch/hero.webp"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Wissenswertes rund um Buchhaltung, Steuern und Firmengründung in der Schweiz – Praxisartikel für KMU und Selbstständige.",
+        "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nWas kostet die Buchhaltung für eine GmbH 2026? Realistische Preise, alle Kostenfaktoren und ein Rechenbeispiel – plus Online-Preisrechner für Ihren Festpreis.\n\nTreuhänder beauftragen oder selbst buchen? Der ehrliche Kostenvergleich 2026 mit Zeitaufwand, Software, Fehlerrisiko – plus Preisrechner für Ihren Festpreis.\n\nBezugssteuer Art. 45 MWSTG: Ab CHF 10'000 Auslandsdienstleistungen wird die MwSt selbst geschuldet. Was Schweizer KMU wissen müssen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Wissenswertes rund um Buchhaltung, Steuern und Firmengründung in der Schweiz – Praxisartikel für KMU und Selbstständige.",
+        "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nWas kostet die Buchhaltung für eine GmbH 2026? Realistische Preise, alle Kostenfaktoren und ein Rechenbeispiel – plus Online-Preisrechner für Ihren Festpreis.\n\nTreuhänder beauftragen oder selbst buchen? Der ehrliche Kostenvergleich 2026 mit Zeitaufwand, Software, Fehlerrisiko – plus Preisrechner für Ihren Festpreis.\n\nBezugssteuer Art. 45 MWSTG: Ab CHF 10'000 Auslandsdienstleistungen wird die MwSt selbst geschuldet. Was Schweizer KMU wissen müssen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Buchhaltung selber machen oder auslagern? Kostenvergleich, Vor- und Nachteile, Software-Optionen. Inkl. Preisrechner für Ihr KMU.",
+        "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nBezugssteuer Schweiz – wenn Google, Facebook & Co. MwSt-pflichtig machen\n\nBuchhaltung selbst erledigen, an Bürohilfe delegieren oder komplett auslagern? Für viele KMU-Inhaber:innen ist das eine der ersten strategischen Fragen. Hier erfahren Sie, wann sich Outsourcing lohnt – und wann nicht.\n\nvor dem Jahresabschluss, damit nichts Wesentliches falsch verbucht ist.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresabschluss nach Schweizer OR: Bilanz, Erfolgsrechnung und Anhang. Pflichten, Fristen und Tipps zur Steueroptimierung – kompakt erklärt für KMU.",
+        "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nBezugssteuer Schweiz – wenn Google, Facebook & Co. MwSt-pflichtig machen\n\nDer Jahresabschluss ist die Visitenkarte Ihres Unternehmens. Wir erklären, was Pflicht ist.\n\nbei Überschreiten von zwei Schwellen: Bilanzsumme > 20 Mio., Umsatz > 40 Mio., > 250 Vollzeitstellen",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "Bezugssteuer Art. 45 MWSTG: Ab CHF 10'000 Auslandsdienstleistungen wird die MwSt selbst geschuldet. Was Schweizer KMU wissen müssen.",
+        "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nSie buchen Google Ads für CHF 500 pro Monat. Sie zahlen ein Adobe-Abo aus den USA. Sie nutzen ein Cloud-Tool aus Irland. Und plötzlich kommt ein Brief der ESTV: Bezugssteuer-Nachforderung. Was steckt dahinter – und wie vermeiden Sie böse Überraschungen?\n\n(Art. 45 MWSTG) ist eine besondere Form der Mehrwertsteuer: Wenn ein Schweizer Unternehmen oder eine Privatperson\n\nHintergrund: Ausländische Anbieter wie Google, Meta, Amazon oder Adobe sind oft nicht in der Schweiz registriert. Damit der Schweizer Fiskus trotzdem MwSt einnehmen kann, wird die Steuerpflicht auf den Bezüger übertragen – Stichwort",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Businessplan erstellen: Aufbau, Finanzplan und typische Fehler. Schritt-für-Schritt-Leitfaden für Gründer und KMU in der Schweiz – mit Praxis-Tipps.",
+        "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nBezugssteuer Schweiz – wenn Google, Facebook & Co. MwSt-pflichtig machen\n\nEin Businessplan ist mehr als nur eine Pflichtübung – er ist Ihr strategischer Kompass. Wir zeigen Ihnen, welche Elemente in einen überzeugenden Businessplan gehören und wie Sie diesen strukturiert aufbauen.\n\nBrauchen Sie Unterstützung beim Aufbau Ihres Businessplans? SEBONA Treuhand begleitet Sie von der ersten Idee bis zur Umsetzung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Sebastian Böhner",
+        "body": "Eidg. Fachausweis Finanz- & Rechnungswesen. Mehrjährige Praxiserfahrung in Automobil, Unternehmensberatung, Immobilien und Hotellerie."
+      },
+      {
+        "title": "Sabina Höfer",
+        "body": "Erfahrene Treuhand-Fachfrau mit Fokus auf Buchhaltung, MwSt-Abrechnungen und Lohnadministration für KMU im Grossraum Zürich."
+      },
+      {
+        "title": "Gian-Carlo Fossa",
+        "body": "Buchhaltung, Jahresabschlüsse und Steuererklärungen für Firmen- und Privatkunden. Italienischsprachige Beratung möglich."
+      },
+      {
+        "title": "Mayra Guarin",
+        "body": "Erste Anlaufstelle für administrative Anfragen, Termine und Organisation im Büro Kloten."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Sebastian Böhner",
+        "role": "Inhaber · Dipl. Experte Rechnungslegung & Controlling",
+        "initials": "SB",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/sebona-treuhand-ch/team/0-böhner.webp"
+      },
+      {
+        "name": "Sabina Höfer",
+        "role": "Treuhand-Sachbearbeiterin",
+        "initials": "SH",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/sebona-treuhand-ch/team/1-höfer.webp"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "6+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "value": "150+",
+        "label": "KMU"
+      }
+    ]
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "eidg. Diplom/Fachausweis",
+      "swissaccounting",
+      "abacus",
+      "abaweb",
+      "banana"
+    ],
+    "badges": [
+      "/images/sebona-treuhand-ch/pool/329a5dddb3__veb-mitglied.jpg",
+      "/images/sebona-treuhand-ch/pool/bfb84e1058__post-5.DwM8QJ1Y_Z2sFEKK.webp"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "Was kostet Buchhaltung für eine GmbH 2026?",
+        "a": "Was kostet die Buchhaltung für eine GmbH 2026? Realistische Preise, alle Kostenfaktoren und ein Rechenbeispiel – plus Online-Preisrechner für Ihren Festpreis."
+      },
+      {
+        "q": "Bevor Sie gehen – kennen Sie schon unseren Preisrechner?",
+        "a": "Ab CHF 160/Monat für Einzelfirma mit 120 Belegen · inkl. Jahresabschluss & Steuererklärung"
+      },
+      {
+        "q": "Mehrwertsteuerpflicht Schweiz – ab wann müssen Sie sich anmelden?",
+        "a": "Ab CHF 100'000 Umsatz MwSt-pflichtig? Anmeldefristen, Saldosteuersatz und Stolperfallen – kompakt erklärt. Mit kostenfreiem MWST-Schnelltest."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 43 883 90 60",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "SEBONA Treuhand",
+    "tagline": "Persönlicher Treuhand-Partner für KMU in Zürich, Zug und Schwyz. Buchhaltung, Steuererklärungen, Domizilservice. Erstgespräch kostenfrei – ab CHF 150.",
+    "logo": "/images/sebona-treuhand-ch/pool/5a73173197__logo-600.webp",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Kloten",
+          "+41 43 883 90 60",
+          "info@…"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

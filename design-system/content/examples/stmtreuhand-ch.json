@@ -1,0 +1,956 @@
+{
+  "meta": {
+    "firm": "STM Treuhand Mettler AG",
+    "domain": "stmtreuhand.ch",
+    "archetype": "swiss-digital",
+    "lookId": "swiss-clean",
+    "sourceUrl": "https://stmtreuhand.ch/",
+    "basePresetId": "swiss-clean",
+    "look": {
+      "meta": {
+        "id": "stmtreuhand-ch-brand",
+        "name": "Swiss Clean · brand-tinted",
+        "source": "synthesized (references) + scraped brand",
+        "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
+        "derived": [
+          "base: swiss-clean",
+          "accent #1B3E90 (scraped · medium)",
+          "heading: Space Grotesk (inventory)",
+          "body: Inter (inventory)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "medium",
+        "density": "airy",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F2F7F8",
+        "text": "#0E2A33",
+        "textMuted": "#5B7682",
+        "border": "#DCE7EA",
+        "primary": "#1B3E90",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EDF0F6",
+        "secondary": "#1B3E90",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Inter\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Space Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "6xl",
+        "headlineWeight": "semibold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "wider",
+          "weight": "semibold"
+        }
+      },
+      "radius": {
+        "base": "md",
+        "pill": "full",
+        "scale": "medium"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-20",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 260,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "moderate"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--accent-teal": "#0EA5A5",
+        "--ink-navy": "#1E3A5F",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "primary": "#1B3E90",
+      "palette": [
+        "#1B3E90",
+        "#3F6ED4"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "team.photos",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "services.images",
+      "media.documents",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "logo": "/images/stmtreuhand-ch/pool/8680b47fa7__logo_transparent.png",
+    "hero": "/images/stmtreuhand-ch/hero.jpg",
+    "badges": [
+      "/images/stmtreuhand-ch/pool/3d70406838__logo_treuhand-suisse.png",
+      "/images/stmtreuhand-ch/pool/b80886d309__logo_svds.png"
+    ],
+    "photos": [
+      "/images/stmtreuhand-ch/pool/c1b93c3448__ueber-uns-bg.jpg",
+      "/images/stmtreuhand-ch/pool/265d5630a2__treuhand-zuerich.jpg",
+      "/images/stmtreuhand-ch/pool/f528a29112__wirtschaftspruefung-zuerich1.jpg",
+      "/images/stmtreuhand-ch/pool/b0ce293518__steuerberatung-zuerich.jpg",
+      "/images/stmtreuhand-ch/pool/54be56c10b__office.jpg",
+      "/images/stmtreuhand-ch/pool/3a11656574__unternehmensbewertung.jpg",
+      "/images/stmtreuhand-ch/pool/dafb0e56ea__revision.jpg",
+      "/images/stmtreuhand-ch/pool/2503007703__os_vertical.jpg",
+      "/images/stmtreuhand-ch/pool/70c87b041a__pm_vertical.jpg",
+      "/images/stmtreuhand-ch/pool/e5cc489486__w_vertical.jpg",
+      "/images/stmtreuhand-ch/pool/25c5814c0f__slider-2.jpg",
+      "/images/stmtreuhand-ch/pool/650e64daf0__slider-1.jpg",
+      "/images/stmtreuhand-ch/pool/8acdd2310c__steuerberatung3.jpg",
+      "/images/stmtreuhand-ch/pool/d03bb0a209__buchhaltung.jpg",
+      "/images/stmtreuhand-ch/pool/ec7354dcf3__os_square.jpg",
+      "/images/stmtreuhand-ch/pool/1ba36db8dc__w_square.jpg",
+      "/images/stmtreuhand-ch/pool/326f6b0454__peter-mettler-lp.png",
+      "/images/stmtreuhand-ch/pool/b860e9552d__pm_square.jpg",
+      "/images/stmtreuhand-ch/pool/ebaa430d39__peter-mettler-index-2.png",
+      "/images/stmtreuhand-ch/pool/0ed6c2ac6a__memberships.jpg",
+      "/images/stmtreuhand-ch/pool/1d061e9331__about-right-1.jpg",
+      "/images/stmtreuhand-ch/pool/a0894e57f6__kontakt.jpg"
+    ],
+    "serviceImages": {
+      "Buchhaltung": "/images/stmtreuhand-ch/pool/d03bb0a209__buchhaltung.jpg",
+      "Steuerberatung": "/images/stmtreuhand-ch/pool/b0ce293518__steuerberatung-zuerich.jpg",
+      "Unternehmensberatung": "/images/stmtreuhand-ch/pool/3a11656574__unternehmensbewertung.jpg",
+      "Revision": "/images/stmtreuhand-ch/pool/dafb0e56ea__revision.jpg"
+    },
+    "documents": [
+      {
+        "src": "/files/stmtreuhand-ch/0195883577__stm-broschuere_de.pdf",
+        "title": "Broschüre",
+        "kind": "pdf",
+        "bytes": 1202834
+      },
+      {
+        "src": "/files/stmtreuhand-ch/03b55e3182__anfahrtsplan-stm_de.pdf",
+        "title": "Download directions as PDF",
+        "kind": "pdf",
+        "bytes": 604918
+      },
+      {
+        "src": "/files/stmtreuhand-ch/a0ccceb691__UpDate_1-2019.pdf",
+        "title": "Update 1/2019",
+        "kind": "pdf",
+        "bytes": 580032
+      },
+      {
+        "src": "/files/stmtreuhand-ch/6915aac0b4__UpDate_1-2020.pdf",
+        "title": "Update 1/2020",
+        "kind": "pdf",
+        "bytes": 636348
+      },
+      {
+        "src": "/files/stmtreuhand-ch/cdfd87f879__UpDate_1-2021.pdf",
+        "title": "Update 1/2021",
+        "kind": "pdf",
+        "bytes": 476095
+      },
+      {
+        "src": "/files/stmtreuhand-ch/1d9fdec145__UpDate_1-2022.pdf",
+        "title": "Update 1/2022",
+        "kind": "pdf",
+        "bytes": 548734
+      },
+      {
+        "src": "/files/stmtreuhand-ch/42c82772ae__UpDate_1-2023.pdf",
+        "title": "Update 1/2023",
+        "kind": "pdf",
+        "bytes": 733156
+      },
+      {
+        "src": "/files/stmtreuhand-ch/b00bfef6b5__UpDate_1-2024.pdf",
+        "title": "Update 1/2024",
+        "kind": "pdf",
+        "bytes": 593673
+      },
+      {
+        "src": "/files/stmtreuhand-ch/0cd6a7a392__UpDate_1-2025.pdf",
+        "title": "Update 1/2025",
+        "kind": "pdf",
+        "bytes": 467730
+      },
+      {
+        "src": "/files/stmtreuhand-ch/b19e6fd552__UpDate_1-2026.pdf",
+        "title": "Update 1/2026",
+        "kind": "pdf",
+        "bytes": 511232
+      },
+      {
+        "src": "/files/stmtreuhand-ch/e19227ac3b__UpDate_2-2019.pdf",
+        "title": "Update 2/2019",
+        "kind": "pdf",
+        "bytes": 489147
+      },
+      {
+        "src": "/files/stmtreuhand-ch/afd4bc827c__UpDate_2-2020.pdf",
+        "title": "Update 2/2020",
+        "kind": "pdf",
+        "bytes": 727761
+      },
+      {
+        "src": "/files/stmtreuhand-ch/37e5273b03__UpDate_2-2021.pdf",
+        "title": "Update 2/2021",
+        "kind": "pdf",
+        "bytes": 824946
+      },
+      {
+        "src": "/files/stmtreuhand-ch/3b3e321d3f__UpDate_2-2022.pdf",
+        "title": "Update 2/2022",
+        "kind": "pdf",
+        "bytes": 663977
+      },
+      {
+        "src": "/files/stmtreuhand-ch/783df04e72__UpDate_2-2023.pdf",
+        "title": "Update 2/2023",
+        "kind": "pdf",
+        "bytes": 825684
+      },
+      {
+        "src": "/files/stmtreuhand-ch/0d34313372__UpDate_2-2024.pdf",
+        "title": "Update 2/2024",
+        "kind": "pdf",
+        "bytes": 687533
+      },
+      {
+        "src": "/files/stmtreuhand-ch/62d095f696__UpDate_2-2025.pdf",
+        "title": "Update 2/2025",
+        "kind": "pdf",
+        "bytes": 304426
+      },
+      {
+        "src": "/files/stmtreuhand-ch/b3c7802a42__UpDate_3-2018.pdf",
+        "title": "Update 3/2018",
+        "kind": "pdf",
+        "bytes": 1106787
+      },
+      {
+        "src": "/files/stmtreuhand-ch/d93fc6b763__UpDate_3-2019.pdf",
+        "title": "Update 3/2019",
+        "kind": "pdf",
+        "bytes": 398909
+      },
+      {
+        "src": "/files/stmtreuhand-ch/9046da51a5__UpDate_3-2020.pdf",
+        "title": "Update 3/2020",
+        "kind": "pdf",
+        "bytes": 474726
+      },
+      {
+        "src": "/files/stmtreuhand-ch/2d53739c00__UpDate_3-2022.pdf",
+        "title": "Update 3/2022",
+        "kind": "pdf",
+        "bytes": 672980
+      },
+      {
+        "src": "/files/stmtreuhand-ch/7d4a57067f__UpDate_3-2023.pdf",
+        "title": "Update 3/2023",
+        "kind": "pdf",
+        "bytes": 857556
+      },
+      {
+        "src": "/files/stmtreuhand-ch/a7a7272c5b__UpDate_3-2024.pdf",
+        "title": "Update 3/2024",
+        "kind": "pdf",
+        "bytes": 1096925
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/stmtreuhand-ch/pool/8680b47fa7__logo_transparent.png",
+        "kind": "logo",
+        "alt": "STM Steuerberatung und Treuhand Mettler",
+        "bytes": 3129,
+        "width": 257,
+        "height": 45,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/07fe3b39f9__logo.png",
+        "kind": "logo",
+        "alt": "STM Steuerberatung und Treuhand Mettler",
+        "bytes": 3449,
+        "width": 257,
+        "height": 45,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/3d70406838__logo_treuhand-suisse.png",
+        "kind": "badge",
+        "alt": "STM Steuerberatung und Treuhand Mettler Treuhänder Zürich",
+        "bytes": 3902,
+        "width": 266,
+        "height": 55,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/b80886d309__logo_svds.png",
+        "kind": "badge",
+        "alt": "SVDS",
+        "bytes": 5698,
+        "width": 113,
+        "height": 93,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/c1b93c3448__ueber-uns-bg.jpg",
+        "kind": "hero",
+        "alt": "Treuhand Zürich",
+        "bytes": 293223,
+        "width": 3432,
+        "height": 2574,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/25c5814c0f__slider-2.jpg",
+        "kind": "hero",
+        "alt": "STM Steuerberatung und Treuhand Mettler Home Slider",
+        "bytes": 73156,
+        "width": 1750,
+        "height": 780,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/650e64daf0__slider-1.jpg",
+        "kind": "hero",
+        "alt": "STM Steuerberatung und Treuhand Mettler Home Slider",
+        "bytes": 50473,
+        "width": 1750,
+        "height": 780,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/2503007703__os_vertical.jpg",
+        "kind": "photo",
+        "alt": "Olivia Steinmeier Treuhänderin FA",
+        "bytes": 163741,
+        "width": 1600,
+        "height": 1069,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/70c87b041a__pm_vertical.jpg",
+        "kind": "photo",
+        "alt": "Peter Mettler Revisionsexperte",
+        "bytes": 139630,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/e5cc489486__w_vertical.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 130495,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/ec7354dcf3__os_square.jpg",
+        "kind": "photo",
+        "alt": "Olivia Steinmeier Treuhänderin FA",
+        "bytes": 267737,
+        "width": 1600,
+        "height": 1600,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/b860e9552d__pm_square.jpg",
+        "kind": "photo",
+        "alt": "Peter Mettler Geschäftsführer",
+        "bytes": 236933,
+        "width": 1600,
+        "height": 1600,
+        "orientation": "square",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/1ba36db8dc__w_square.jpg",
+        "kind": "photo",
+        "alt": "D. Weber Treuhänderin FA",
+        "bytes": 192738,
+        "width": 1600,
+        "height": 1600,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/ebaa430d39__peter-mettler-index-2.png",
+        "kind": "photo",
+        "alt": "Peter Mettler Geschäftsführer",
+        "bytes": 67914,
+        "width": 420,
+        "height": 470,
+        "orientation": "square",
+        "subject": "portrait",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/0ed6c2ac6a__memberships.jpg",
+        "kind": "photo",
+        "alt": "Mitgliedschaften",
+        "bytes": 148524,
+        "width": 1201,
+        "height": 1800,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/1d061e9331__about-right-1.jpg",
+        "kind": "photo",
+        "alt": "STM Steuerberatung und Treuhand Mettler",
+        "bytes": 127355,
+        "width": 1201,
+        "height": 1800,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/265d5630a2__treuhand-zuerich.jpg",
+        "kind": "photo",
+        "alt": "STM Steuerberatung und Treuhand Mettler",
+        "bytes": 31882,
+        "width": 840,
+        "height": 325,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/f528a29112__wirtschaftspruefung-zuerich1.jpg",
+        "kind": "photo",
+        "alt": "STM Steuerberatung und Treuhand Mettler",
+        "bytes": 24297,
+        "width": 570,
+        "height": 325,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/54be56c10b__office.jpg",
+        "kind": "photo",
+        "alt": "Wirtschaftsprüfung in Zürich",
+        "bytes": 24160,
+        "width": 420,
+        "height": 470,
+        "orientation": "square",
+        "subject": "city",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/326f6b0454__peter-mettler-lp.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 17148,
+        "width": 190,
+        "height": 190,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/b0ce293518__steuerberatung-zuerich.jpg",
+        "kind": "photo",
+        "alt": "Steuerberatung Zürich",
+        "bytes": 38457,
+        "width": 845,
+        "height": 564,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/a0894e57f6__kontakt.jpg",
+        "kind": "photo",
+        "alt": "STM Steuerberatung und Treuhand Mettler Kontakt",
+        "bytes": 18580,
+        "width": 370,
+        "height": 428,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/8acdd2310c__steuerberatung3.jpg",
+        "kind": "photo",
+        "alt": "STM Steuerberatung und Treuhand Mettler",
+        "bytes": 23325,
+        "width": 571,
+        "height": 325,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/d03bb0a209__buchhaltung.jpg",
+        "kind": "photo",
+        "alt": "STM Steuerberatung und Treuhand Mettler",
+        "bytes": 16615,
+        "width": 374,
+        "height": 250,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/3a11656574__unternehmensbewertung.jpg",
+        "kind": "photo",
+        "alt": "Wirtschaftsprüfer in Zürich",
+        "bytes": 10314,
+        "width": 270,
+        "height": 283,
+        "orientation": "square",
+        "subject": "city",
+        "roles": []
+      },
+      {
+        "src": "/images/stmtreuhand-ch/pool/dafb0e56ea__revision.jpg",
+        "kind": "photo",
+        "alt": "Wirtschaftsprüfung in Zürich",
+        "bytes": 10339,
+        "width": 270,
+        "height": 283,
+        "orientation": "square",
+        "subject": "city",
+        "roles": []
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/stmtreuhand-ch/pool/c1b93c3448__ueber-uns-bg.jpg",
+      "/images/stmtreuhand-ch/pool/25c5814c0f__slider-2.jpg",
+      "/images/stmtreuhand-ch/pool/650e64daf0__slider-1.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "STM Treuhand Mettler AG",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/stmtreuhand-ch/pool/8680b47fa7__logo_transparent.png"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Ihre Finanzen,",
+    "titleAccent": "klar geführt.",
+    "lede": "Steuerberatung, Wirtschaftsprüfung und vieles mehr. Ihre STM Steuerberatung und Treuhand Mettler AG ist für Sie da. Vereinbaren Sie heute noch ein Gespräch!",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Steuerberatung, Wirtschaftsprüfung und vieles mehr. Ihre STM Steuerberatung und Treuhand Mettler AG ist für Sie da. Vereinbaren Sie heute noch ein Gespräch!",
+    "asideAttribution": "STM Treuhand Mettler AG",
+    "image": "/images/stmtreuhand-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Buchhaltung Zürich: Privatpersonen ✓ Unternehmen ✓. Wir holen das Maximum für Sie heraus. ▷ Jetzt Termin vereinbaren!",
+        "body": "\"Die Buchhaltung extern machen lassen? Das ist doch viel zu kostspielig, richtig? Nicht ganz.\n\nDie Buchhaltung ist eine wichtige unternehmerische Aufgabe, welche Zeit und vor allem fundiertes Fachwissen benötigt. Gerade für Selbstständige, Start-ups und für KMU kann es zeitintensiv und fehleranfällig sein, die Buchhaltung inhouse zu machen.\n\nNachfolgend finden Sie daher drei wirklich gute Gründe, welche fürs Outsourcing Ihrer Buchhaltung sprechen, präsentiert von STM Steuerberatung & Treuhand Mettler AG, Ihrem kompetenten Ansprechpartner für Buchhaltung in Zürich.\"\n\nBei den Investitionen in Fortbildungen allein wird es nicht bleiben, auch Software-Lizenzen werden benötigt. Wenn Sie nach Fachpersonal suchen, kommen auch da Zeit- und Geldinvests auf Sie zu, die nicht zu unterschätzen sind.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/stmtreuhand-ch/pool/d03bb0a209__buchhaltung.jpg"
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Steuerberatung Zürich: Privatpersonen ✓ Unternehmen ✓. Wir holen das Maximum für Sie heraus. ▷ Jetzt Termin vereinbaren!",
+        "body": "Steuern zum täglichen Geschäft. Und das sowohl für Unternehmen als auch für Privatpersonen,\n\nmit STM gefunden! Wir sind täglich mit komplexen und vielschichtigen Steuerangelegenheiten\n\nunterstützt? Als Steuerberatung in Zürich sind wir Ihr Partner, auch und vor allem in\n\nÜberzeugen Sie sich davon, bei einem ersten, unverbindlichen Termin. Gerne beantworten wir",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/stmtreuhand-ch/pool/b0ce293518__steuerberatung-zuerich.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Steuerberatung Zürich: Privatpersonen ✓ Unternehmen ✓. Wir holen das Maximum für Sie heraus. ▷ Jetzt Termin vereinbaren!",
+        "body": "Steuern zum täglichen Geschäft. Und das sowohl für Unternehmen als auch für Privatpersonen,\n\nmit STM gefunden! Wir sind täglich mit komplexen und vielschichtigen Steuerangelegenheiten\n\nunterstützt? Als Steuerberatung in Zürich sind wir Ihr Partner, auch und vor allem in\n\nÜberzeugen Sie sich davon, bei einem ersten, unverbindlichen Termin. Gerne beantworten wir",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/stmtreuhand-ch/pool/3a11656574__unternehmensbewertung.jpg"
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Peter Mettler",
+        "role": "CEO | eidg. dipl. Steuerexperte",
+        "initials": "PM",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/stmtreuhand-ch/team/0-mettler.jpg"
+      },
+      {
+        "name": "Olivia Steinmeier",
+        "role": "Treuhänderin FA",
+        "initials": "OS",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/stmtreuhand-ch/team/1-steinmeier.jpg"
+      },
+      {
+        "name": "Deborah Weber",
+        "role": "Fachfrau im Finanz- und Rechnungswesen FA",
+        "initials": "DW",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/stmtreuhand-ch/team/2-weber.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "TREUHAND|SUISSE",
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "abacus",
+      "klara",
+      "sage"
+    ],
+    "badges": [
+      "/images/stmtreuhand-ch/pool/3d70406838__logo_treuhand-suisse.png",
+      "/images/stmtreuhand-ch/pool/b80886d309__logo_svds.png"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 (0)44 209 90 60",
+      "email": "d.weber@stmtreuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "STM Treuhand Mettler AG",
+    "tagline": "Steuerberatung, Wirtschaftsprüfung und vieles mehr. Ihre STM Steuerberatung und Treuhand Mettler AG ist für Sie da. Vereinbaren Sie heute noch ein Gespräch!",
+    "logo": "/images/stmtreuhand-ch/pool/8680b47fa7__logo_transparent.png",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 (0)44 209 90 60",
+          "d.weber@stmtreuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

@@ -11,7 +11,7 @@ export const Stats: React.FC<{ content: StatsContent }> = ({ content }) => (
         {content.items.map((s, i) => (
           <div key={i} style={{ padding: "1.8rem", textAlign: "center", borderLeft: i === 0 ? "none" : "1px solid var(--ds-border)", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
             <div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "2.4rem", color: "var(--ds-text)", lineHeight: 1 }}><CountUp value={s.value} /></div>
-            <div style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--ds-text-muted)" }}>{s.label}</div>
+            <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>{s.label}</div>
           </div>
         ))}
       </div>

@@ -1,0 +1,530 @@
+{
+  "meta": {
+    "firm": "Treuhand Service Zürich",
+    "domain": "treuhand-service-zh.ch",
+    "archetype": "boutique",
+    "lookId": "tureva-soft",
+    "sourceUrl": "https://www.treuhand-service-zh.ch/home/",
+    "basePresetId": "tureva-soft",
+    "look": {
+      "meta": {
+        "id": "treuhand-service-zh-ch-brand",
+        "name": "Tureva Soft Modern · brand-generated",
+        "mood": "Friendly premium; rounded cards, soft shadows, geometric Outfit/Jakarta type, vibrant lime-green CTA bloom.",
+        "source": "Tureva + generated accent",
+        "derived": [
+          "color.primarySoft (#ECFFE8 tint)",
+          "color.border (= surface)",
+          "base: tureva-soft",
+          "accent #853249 (generated · no scraped colour)",
+          "heading: Epilogue (inventory)",
+          "body: Public Sans (inventory)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "friendly",
+        "warmth": "neutral",
+        "corner": "soft",
+        "density": "airy",
+        "contrast": "medium",
+        "era": "modern",
+        "accentEnergy": "vibrant"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F0F2F4",
+        "text": "#2D3136",
+        "textMuted": "#828E99",
+        "border": "#F0F2F4",
+        "primary": "#853249",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#F5EFF0",
+        "secondary": "#A13676",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Epilogue\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-geometric",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "medium",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "wider",
+          "weight": "semibold"
+        }
+      },
+      "radius": {
+        "base": "2xl",
+        "pill": "full",
+        "scale": "soft"
+      },
+      "shadow": {
+        "elevation": "soft",
+        "card": "md"
+      },
+      "spacing": {
+        "sectionY": "py-20",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 300,
+        "easing": "cubic-bezier(0.16,1,0.3,1)",
+        "intensity": "expressive"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true,
+        "bloom": "rgba(133,50,73,0.18)"
+      },
+      "raw": {
+        "--color-brand-green": "#34FF18",
+        "--color-brand-graphite": "#2D3136",
+        "--color-brand-light-gray": "#F0F2F4",
+        "--color-brand-mid-gray": "#828E99",
+        "--font-sans": "Plus Jakarta Sans",
+        "--font-display": "Outfit"
+      }
+    },
+    "brand": {
+      "palette": [],
+      "fontsSeen": [],
+      "confidence": "low"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "process",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "faq",
+      "look.colors (generated)",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "values",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo"
+    ]
+  },
+  "media": {
+    "logo": "/images/treuhand-service-zh-ch/pool/05d5f92781__og-treuhand-service-zuerich.png",
+    "hero": "/images/treuhand-service-zh-ch/hero.jpg",
+    "badges": [],
+    "photos": [
+      "/images/treuhand-service-zh-ch/pool/d5f1a08481__treuhand-service-zuerich-Lena-Petz-a.jpg",
+      "/images/treuhand-service-zh-ch/pool/8d7e917d17__treuhandservice_kuemmerling_roger.jpg",
+      "/images/treuhand-service-zh-ch/pool/f97b122944__treuhandservice_laetsch_mi.jpg",
+      "/images/treuhand-service-zh-ch/pool/399a188abc__csm_portrait_roger_kuemmerling_ca5da85adb.jpg",
+      "/images/treuhand-service-zh-ch/pool/1076fa59ed__csm_portrait_mi_laetsch_9de78c3015.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/treuhand-service-zh-ch/pool/05d5f92781__og-treuhand-service-zuerich.png",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 8736,
+        "width": 1000,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": []
+      },
+      {
+        "src": "/images/treuhand-service-zh-ch/pool/8d7e917d17__treuhandservice_kuemmerling_roger.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 170567,
+        "width": 1400,
+        "height": 681,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhand-service-zh-ch/pool/f97b122944__treuhandservice_laetsch_mi.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 136002,
+        "width": 1400,
+        "height": 681,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhand-service-zh-ch/pool/399a188abc__csm_portrait_roger_kuemmerling_ca5da85adb.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 50689,
+        "width": 795,
+        "height": 386,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/treuhand-service-zh-ch/pool/1076fa59ed__csm_portrait_mi_laetsch_9de78c3015.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 48520,
+        "width": 795,
+        "height": 386,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/treuhand-service-zh-ch/pool/d5f1a08481__treuhand-service-zuerich-Lena-Petz-a.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 54400,
+        "width": 1000,
+        "height": 486,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/treuhand-service-zh-ch/pool/8d7e917d17__treuhandservice_kuemmerling_roger.jpg",
+      "/images/treuhand-service-zh-ch/pool/f97b122944__treuhandservice_laetsch_mi.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Treuhand Service Zürich",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/treuhand-service-zh-ch/pool/05d5f92781__og-treuhand-service-zuerich.png"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Unsere Dienstleistungen",
+    "titleAccent": "",
+    "lede": "Wir beraten Sie in Buchhaltung, Finanzberatung, Gesellschaftsgründung und Steuerberatung.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Wir beraten Sie in Buchhaltung, Finanzberatung, Gesellschaftsgründung und Steuerberatung.",
+    "asideAttribution": "Treuhand Service Zürich",
+    "image": "/images/treuhand-service-zh-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Wir beraten Sie in Buchhaltung, Finanzberatung, Gesellschaftsgründung und Steuerberatung.",
+        "body": "Abrechnungen MwSt., BVG, FAK, UVG, Pensionskasse/BVG, Mehrwertsteuer/Umsatzsteuer\n\nBesprechung des provisorischen Jahresabschlusses (Inventar, Debitoren, Kreditoren, Abschreibungen, Abgrenzungen, Rückstellungen usw.).\n\nErstellen des Jahresabschlusses/Buchhaltungsabschluss unter Berücksichtigung der steuerlichen Optimierung und Steuerplanung.\n\nErstellen Geschäftsbericht inkl. Anhang (der Gesetzgeber schreibt obligatorische Bestandteile des Jahresabschlusses vor)!",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Wir beraten Sie in Buchhaltung, Finanzberatung, Gesellschaftsgründung und Steuerberatung.",
+        "body": "«Ihre Steuererklärung wird kompetent und kostengünstig erledigt, inklusiv Optimierungsberatung.»\n\nSteuerberechnung, d.h. Berechnung der Einkommenssteuer und der Vermögenssteuer\n\n: der Gemeindesteuer, Kantonssteuer (Staatssteuer), Bundessteuer, Vermögenssteuer, Verrechnungssteuer (Wertschriftenverzeichnis), Erbschaftssteuer, Grundstücksgewinnsteuer, Kirchensteuer, Steuerverrechnung und Steuerguthaben.\n\nPer Todestag muss ein Inventar erstellt werden. Bank- und Postcheckkonten müssen durch die Bank per Todestag abgeschlossen werden. Im Todesjahr müssen 2 Steuererklärungen erstellt werden: Eine mit Einkommen, Abzügen und Vermögen bis und mit Todestag. Die zweite Steuererklärung ab Todestag bis 31. Dezember. Dabei geht es um die Steuerberechnungen von Verheiratetentarif und den Tarif für Alleinstehende (unterschiedliche Steuersätze!).",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Wir beraten Sie in Buchhaltung, Finanzberatung, Gesellschaftsgründung und Steuerberatung.",
+        "body": "«Wir sind der fachliche Ansprechpartner für Privatpersonen, KMUs und alle die eine KMU gründen wollen.»\n\ndenn jede Gesellschaftsform hat spezielle Konsequenzen in Bezug auf Steuern, beim Entwicklungspotential, bei der Vererbung, bei Änderung des Gesellschaftszwecks, bei der Nachfolgeregelung z.B. beim Verkauf, beim Konkurs und bei der Liquidation usw.\n\nDabei spielen der Zweck der Firma wie auch die persönlichen Verhältnisse und Zielsetzungen eine zentrale Rolle. Es ist wichtig zu wissen, dass die richtige\n\nfür den langfristigen Erfolg der Firma steht. Ebenso die Wahl des Firmen- bzw. Steuerdomizils. Mit der richtigen Wahl können Sie auch Kosten sparen!",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Herzlich Willkommen",
+        "body": "Ich und mein Team (Betriebswirtschafter, Buchhalter und Steuerexperten) unterstützen Sie bei der steuerlichen Optimierung, Gesellschaftsgründung und Buchhaltung. Wir sind der fachliche Ansprechpartner für Privatpersonen, KMU's und alle die eine KMU gründen wollen."
+      },
+      {
+        "title": "Roger Kümmerling - Geschäftsführer",
+        "body": "Nach betriebswirtschaftlicher Ausbildung 4 Jahre Anlageberater (Prokurist) bei einer  Grossbank, anschliessend 14 Jahre als Personal- und Finanzdirektor tätig. Militärische Fach- und Führungsausbildung- und Erfahrung."
+      },
+      {
+        "title": "Mi Lätsch - Mandatsleiterin",
+        "body": "Nach dem pädagogischen und mathematischen Studium hat sich Frau Lätsch zur Betriebsökonomin mit Fachvertiefung Rechnungswesen, Steuer und Controlling weitergebildet. Berufserfahrung in den Bereichen Treuhand, Buchhaltung, Steuern sowie Inkasso."
+      },
+      {
+        "title": "Lena Petz",
+        "body": "Nach erfolgreichem KV-Abschluss war Frau  Lena Petz als Buchhalterin (Finanz- und Lohnbuchhaltung) in einem Treuhandunternehmen und in der Immobilienbranche tätig."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Treuhand Team",
+        "role": "Geschäftsführung",
+        "initials": "TR",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "RAB/zugel. Revisor",
+      "klara"
+    ],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "043 960 98 41",
+      "email": "info@treuhand-service-zh.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Treuhand Service Zürich",
+    "tagline": "Wir beraten Sie in Buchhaltung, Finanzberatung, Gesellschaftsgründung und Steuerberatung.",
+    "logo": "/images/treuhand-service-zh-ch/pool/05d5f92781__og-treuhand-service-zuerich.png",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "043 960 98 41",
+          "info@treuhand-service-zh.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

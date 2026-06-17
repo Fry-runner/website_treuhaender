@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "firm": "Steuerberatung Schweiz",
+    "domain": "steuerberatung-schweiz.ch",
+    "archetype": "swiss-digital",
+    "lookId": "zueri-swiss",
+    "sourceUrl": "https://www.steuerberatung-schweiz.ch/",
+    "basePresetId": "zueri-swiss",
+    "look": {
+      "meta": {
+        "id": "steuerberatung-schweiz-ch-brand",
+        "name": "Züri Swiss Blue · brand-generated",
+        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
+        "source": "Züri-Treuhand + generated accent",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAF1F8 tint)",
+          "color.secondaryFg (#FFFFFF)",
+          "color.textMuted (#737373 neutral-500)",
+          "base: zueri-swiss",
+          "accent #494096 (generated · no scraped colour)",
+          "heading: Hanken Grotesk (inventory)",
+          "body: Karla (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F9FAFB",
+        "text": "#333333",
+        "textMuted": "#737373",
+        "border": "#EAEAEA",
+        "primary": "#494096",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#F0F0F7",
+        "secondary": "#7A43B1",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Karla\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Hanken Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-16",
+        "rhythm": "normal",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-blue": "#084687",
+        "--color-accent-blue": "#0b549f",
+        "--color-charcoal": "#333333",
+        "--color-soft-gray": "#F9FAFB",
+        "--color-border-gray": "#EAEAEA",
+        "--font-sans": "Inter",
+        "--font-serif": "Playfair Display",
+        "--font-display": "Space Grotesk",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "palette": [],
+      "fontsSeen": [],
+      "confidence": "low"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": false,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "look.colors (generated)"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "services.text",
+      "team.members",
+      "faq",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "services.images"
+    ]
+  },
+  "media": {
+    "hero": "/images/steuerberatung-schweiz-ch/hero.jpg",
+    "badges": [],
+    "photos": [
+      "/images/steuerberatung-schweiz-ch/pool/118cc311c7__image.jpg",
+      "/images/steuerberatung-schweiz-ch/pool/8c3b963c33__steuerberater-kosten.jpg"
+    ],
+    "serviceImages": {
+      "Steuerberatung": "/images/steuerberatung-schweiz-ch/pool/8c3b963c33__steuerberater-kosten.jpg"
+    },
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/steuerberatung-schweiz-ch/pool/118cc311c7__image.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 226359,
+        "width": 1920,
+        "height": 1280,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuerberatung-schweiz-ch/pool/8c3b963c33__steuerberater-kosten.jpg",
+        "kind": "photo",
+        "alt": "Steuerberater Kosten",
+        "bytes": 85175,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/steuerberatung-schweiz-ch/pool/118cc311c7__image.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Steuerberatung Schweiz",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Ihre Finanzen,",
+    "titleAccent": "klar geführt.",
+    "lede": "Buchhaltung, Steuern und Beratung für KMU und Privatpersonen in Zürich. Persönlich, präzise und vorausschauend an Ihrer Seite.",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Günstige Steuerberatung in der Schweiz",
+    "asideAttribution": "Steuerberatung Schweiz",
+    "image": "/images/steuerberatung-schweiz-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "steht seit über 15 Jahren für kompetente Beratung und individuelle Betreuung in der Finanz- und Versicherungsbranche.",
+        "body": "steht seit über 15 Jahren für kompetente Beratung und individuelle Betreuung in der Finanz- und Versicherungsbranche.\n\nUnsere langjährige Erfahrung und tiefgehende Fachkenntnis machen uns zu Ihrem verlässlichen Partner in allen steuerlichen Belangen – sowohl für Privatpersonen als auch für Unternehmen.\n\nUnser Anspruch ist es, komplexe steuerliche Themen verständlich zu erklären und Ihnen praktikable Lösungen anzubieten. Dabei legen wir grossen Wert auf Transparenz, Vertrauen und persönliche\n\nOb Steuererklärung, Optimierung, Unternehmensberatung oder Vorsorgeplanung – wir begleiten Sie persönlich und effizient durch den Schweizer Steuerdschungel.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/steuerberatung-schweiz-ch/pool/8c3b963c33__steuerberater-kosten.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "steht seit über 15 Jahren für kompetente Beratung und individuelle Betreuung in der Finanz- und Versicherungsbranche.",
+        "body": "steht seit über 15 Jahren für kompetente Beratung und individuelle Betreuung in der Finanz- und Versicherungsbranche.\n\nUnsere langjährige Erfahrung und tiefgehende Fachkenntnis machen uns zu Ihrem verlässlichen Partner in allen steuerlichen Belangen – sowohl für Privatpersonen als auch für Unternehmen.\n\nUnser Anspruch ist es, komplexe steuerliche Themen verständlich zu erklären und Ihnen praktikable Lösungen anzubieten. Dabei legen wir grossen Wert auf Transparenz, Vertrauen und persönliche\n\nOb Steuererklärung, Optimierung, Unternehmensberatung oder Vorsorgeplanung – wir begleiten Sie persönlich und effizient durch den Schweizer Steuerdschungel.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Steuerberater Kosten",
+        "role": "Steuerberater finden",
+        "initials": "SK",
+        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
+      },
+      {
+        "name": "Steuererklärung Preise",
+        "role": "Steuerberatung Preise",
+        "initials": "SP",
+        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
+      },
+      {
+        "name": "Steuerberatung Preise",
+        "role": "Steuererklärung günstig",
+        "initials": "SP",
+        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
+      },
+      {
+        "name": "Steuererklärung Familien",
+        "role": "Vermögenssteuer",
+        "initials": "SF",
+        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "TREUHAND|SUISSE",
+      "EXPERTsuisse",
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "klara",
+      "sage"
+    ],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "Was kostet Steuerberatung in der Schweiz?",
+        "a": "Die Kosten für eine Steuerberatung in der Schweiz variieren stark, abhängig vom Umfang der Leistungen und der Komplexität der Steuererklärung. Für einfache Steuererklärungen von Privatpersonen"
+      },
+      {
+        "q": "Wer profitiert von günstiger Steuerhilfe?",
+        "a": "Wir haben uns darauf spezialisiert, besonders günstige Steuerberatungslösungen anzubieten. Diese richten sich speziell an Privatpersonen mit einfacher Steuerlage, aber auch an Lehrlinge,"
+      },
+      {
+        "q": "Welche Situationen machen Beratung sinnvoll?",
+        "a": "Eine professionelle Steuerberatung lohnt sich immer dann, wenn die eigene finanzielle Situation komplex ist oder wenn man das Gefühl hat, zu viel Steuern zu zahlen. Besonders bei folgenden"
+      },
+      {
+        "q": "Wie es funktioniert?",
+        "a": "Unsere Partner beraten in den Sprachen Deutsch, Englisch und Französisch."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 58 345 30 30",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Steuerberatung Schweiz",
+    "tagline": "Günstige Steuerberatung in der Schweiz",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 58 345 30 30",
+          "info@…"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

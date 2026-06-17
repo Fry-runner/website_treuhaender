@@ -1,0 +1,747 @@
+{
+  "meta": {
+    "firm": "MRG Treuhand",
+    "domain": "mrg-treuhand.ch",
+    "archetype": "swiss-digital",
+    "lookId": "ruerup-swiss",
+    "sourceUrl": "https://www.mrg-treuhand.ch/",
+    "basePresetId": "ruerup-swiss",
+    "look": {
+      "meta": {
+        "id": "mrg-treuhand-ch-brand",
+        "name": "Rürup Swiss Corporate · brand-tinted",
+        "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
+        "source": "Steuerberatung-Andreas-Rürup + scraped brand",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (tint of beige surface)",
+          "base: ruerup-swiss",
+          "accent #2563EB (scraped · medium)",
+          "heading: Familjen Grotesk (inventory)",
+          "body: Mulish (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "vibrant"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#E5E7EB",
+        "text": "#1C1C1A",
+        "textMuted": "#71717A",
+        "border": "#E5E7EB",
+        "primary": "#2563EB",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EEF3FD",
+        "secondary": "#B68403",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "medium",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "medium"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-12",
+        "rhythm": "normal",
+        "containerMax": "1200px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 300,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-offwhite": "#FFFFFF",
+        "--color-brand-anthracite": "#1C1C1A",
+        "--color-brand-red": "#C8102E",
+        "--color-brand-green": "#1F4E3D",
+        "--color-brand-beige": "#E5E7EB",
+        "--color-brand-grey": "#71717A",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "primary": "#2563EB",
+      "secondary": "#FBBF24",
+      "palette": [
+        "#2563EB",
+        "#0F172A",
+        "#06B6D4",
+        "#1E293B",
+        "#1D4ED8",
+        "#22D3EE",
+        "#475569",
+        "#60A5FA",
+        "#3B82F6",
+        "#1E3A8A",
+        "#FBBF24",
+        "#64748B"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "stats",
+        "process",
+        "team",
+        "pricing",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "pricing",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": true,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "echte Kennzahlen gefunden",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "echte Preise/Pakete gefunden",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✓ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "team.photos",
+      "stats",
+      "values",
+      "faq",
+      "footer.tagline",
+      "pricing",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "services.images",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "logo": "/images/mrg-treuhand-ch/pool/71511be62c__mrg-logo.webp",
+    "hero": "/images/mrg-treuhand-ch/hero.png",
+    "badges": [
+      "/images/mrg-treuhand-ch/pool/3579aa5cf6__abacus-logo.png",
+      "/images/mrg-treuhand-ch/pool/d694e2e867__topal-logo.png",
+      "/images/mrg-treuhand-ch/pool/53a9f3febe__bexio-logo.png",
+      "/images/mrg-treuhand-ch/pool/62e0c90d73__swiss21-logo.png"
+    ],
+    "photos": [
+      "/images/mrg-treuhand-ch/pool/060f6fcdfc__MRG-Buero-Lounge-2_web.jpg",
+      "/images/mrg-treuhand-ch/pool/72549974e5__epost-app-lohnabrechnung.png",
+      "/images/mrg-treuhand-ch/pool/b1cc724398__epost-digitaler-brief-prozess.png",
+      "/images/mrg-treuhand-ch/pool/407cbf3f34__swiss-accounting-logo.png",
+      "/images/mrg-treuhand-ch/pool/10d47f9232__mrg-og-image.jpg",
+      "/images/mrg-treuhand-ch/pool/a477e3fb45__Image-2_round.png",
+      "/images/mrg-treuhand-ch/pool/9a689d8a54__aragonai-a1353089-34a5-49b4-bc0f-a45b12594278_round.png"
+    ],
+    "serviceImages": {
+      "Lohnadministration": "/images/mrg-treuhand-ch/pool/72549974e5__epost-app-lohnabrechnung.png"
+    },
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/mrg-treuhand-ch/pool/71511be62c__mrg-logo.webp",
+        "kind": "logo",
+        "alt": "MRG Treuhand",
+        "bytes": 2752,
+        "width": 101,
+        "height": 67,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/62a0e88c1d__cropped-mrg-logo-192x192.webp",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 7446,
+        "width": 192,
+        "height": 192,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/3579aa5cf6__abacus-logo.png",
+        "kind": "badge",
+        "alt": "Abacus Buchhaltungssoftware",
+        "bytes": 7094,
+        "width": 300,
+        "height": 55,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/d694e2e867__topal-logo.png",
+        "kind": "badge",
+        "alt": "Topal Buchhaltungssoftware",
+        "bytes": 34100,
+        "width": 2112,
+        "height": 744,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/53a9f3febe__bexio-logo.png",
+        "kind": "badge",
+        "alt": "Bexio Cloud-Buchhaltung",
+        "bytes": 36738,
+        "width": 768,
+        "height": 356,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/62e0c90d73__swiss21-logo.png",
+        "kind": "badge",
+        "alt": "Swiss21 KMU-Software",
+        "bytes": 40604,
+        "width": 1633,
+        "height": 902,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/a477e3fb45__Image-2_round.png",
+        "kind": "photo",
+        "alt": "Roger Gloor",
+        "bytes": 310522,
+        "width": 1024,
+        "height": 1024,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/b1cc724398__epost-digitaler-brief-prozess.png",
+        "kind": "photo",
+        "alt": "ePost Digitaler Brief: Prozess von der digitalen Einlieferung ueber den digitalen Brief mit Siegel, Zeitstempel und Datenschutz bis zur hybriden Zustellung",
+        "bytes": 126658,
+        "width": 1600,
+        "height": 731,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/9a689d8a54__aragonai-a1353089-34a5-49b4-bc0f-a45b12594278_round.png",
+        "kind": "photo",
+        "alt": "Melanie Kapusta",
+        "bytes": 190911,
+        "width": 896,
+        "height": 896,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/060f6fcdfc__MRG-Buero-Lounge-2_web.jpg",
+        "kind": "photo",
+        "alt": "MRG Treuhand Büro in Aadorf",
+        "bytes": 233755,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/72549974e5__epost-app-lohnabrechnung.png",
+        "kind": "photo",
+        "alt": "ePost App auf dem Smartphone: Lohnabrechnung digital empfangen und verwalten",
+        "bytes": 129681,
+        "width": 840,
+        "height": 1012,
+        "orientation": "portrait",
+        "subject": "office",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/407cbf3f34__swiss-accounting-logo.png",
+        "kind": "photo",
+        "alt": "Swiss Accounting",
+        "bytes": 52030,
+        "width": 1600,
+        "height": 505,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/mrg-treuhand-ch/pool/10d47f9232__mrg-og-image.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 37398,
+        "width": 1200,
+        "height": 630,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/mrg-treuhand-ch/pool/b1cc724398__epost-digitaler-brief-prozess.png",
+      "/images/mrg-treuhand-ch/pool/060f6fcdfc__MRG-Buero-Lounge-2_web.jpg",
+      "/images/mrg-treuhand-ch/pool/407cbf3f34__swiss-accounting-logo.png"
+    ]
+  },
+  "nav": {
+    "brand": "MRG Treuhand",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen",
+    "logo": "/images/mrg-treuhand-ch/pool/71511be62c__mrg-logo.webp"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Aadorf",
+    "titleLead": "Ihre Buchhaltung? Übernehmen wir",
+    "titleAccent": "",
+    "lede": "MRG Treuhand Aadorf: Digitale Buchhaltung, Lohnabrechnung & Steuerberatung für KMU in Thurgau, Zürich und St. Gallen. Swissdec-zertifiziert. Ab CHF 240/Monat.",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "MRG Treuhand Aadorf: Digitale Buchhaltung, Lohnabrechnung & Steuerberatung für KMU in Thurgau, Zürich und St. Gallen. Swissdec-zertifiziert. Ab CHF 240/Monat.",
+    "asideAttribution": "MRG Treuhand",
+    "image": "/images/mrg-treuhand-ch/hero.png"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "MRG Treuhand Aadorf: Digitale Buchhaltung, Lohnabrechnung & Steuerberatung für KMU in Thurgau, Zürich und St. Gallen. Swissdec-zertifiziert. Ab CHF 240/Monat.",
+        "body": "Klara (gratis Einstieg) oder Bexio (ab CHF 35/Mt.) – Cloud-basiert und intuitiv.\n\nProffix (ERP mit Buchhaltung, CRM, Aufträge) oder Topal (modulare Treuhänder-Lösung).\n\nWelche Buchhaltungssoftware ist die richtige für Ihr KMU? Diese Frage stellen sich Schweizer Unternehmer immer wieder – sei es bei der Gründung, beim Wechsel von Excel oder wenn die aktuelle Lösung an ihre Grenzen stösst. Die Auswahl ist gross, und jeder Anbieter verspricht, die beste Lösung zu sein. Ein vertieftes Verständnis zum Thema Umstieg von Excel finden Sie in unserem\n\nWir bei MRG Treuhand in Aadorf arbeiten täglich mit verschiedenen Buchhaltungslösungen – für unsere eigenen Mandate und bei der Betreuung unserer KMU-Kunden. In diesem Beitrag vergleichen wir die sechs beliebtesten Schweizer Lösungen ehrlich und praxisnah: für wen eignet sich welche Software, was kostet sie, und wo liegen die Stärken und Schwächen?",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "MRG Treuhand Aadorf: Digitale Buchhaltung, Lohnabrechnung & Steuerberatung für KMU in Thurgau, Zürich und St. Gallen. Swissdec-zertifiziert. Ab CHF 240/Monat.",
+        "body": "MRG Treuhand – Digitale Buchhaltung & Steuerberatung | Thurgau, Zürich, St. Gallen\n\nBuchhaltung, Löhne, Steuern, Gründung & Digitalisierung — persönlich erreichbar, digital aufgestellt, transparente Fixpreise.\n\nKeine Zeit mehr für Belege und MWST? Wir übernehmen Ihre laufende Buchhaltung, Löhne und Steuern — Sie konzentrieren sich auf Ihr Geschäft.\n\nSoftware einrichten, Prozesse automatisieren, KI sinnvoll einsetzen — wir zeigen Ihnen, was wirklich Zeit spart.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohn & HR Services für Schweizer KMU. Swissdec-zertifizierte Lohnabrechnung, Quellensteuer, Sozialversicherungen. MRG Treuhand Aadorf.",
+        "body": "Löhne pünktlich am 25., Sozialversicherungen korrekt, Quellensteuer erledigt. Wir sind die Anlaufstelle für Ihre Mitarbeiter -- von der Anstellung bis zum Arbeitszeugnis.\n\nPräzise Berechnung aller Komponenten. Stundenlohn, Monatslohn, Überstunden, Spesen & Zulagen.\n\nWir übernehmen die komplette Korrespondenz und Abrechnung mit den Sozialversicherungen.\n\nBesonders wichtig bei ausländischen Mitarbeitern. Wir ermitteln den Tarif und melden direkt ans Amt.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/mrg-treuhand-ch/pool/72549974e5__epost-app-lohnabrechnung.png"
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresabschluss für KMU: Bilanz, Erfolgsrechnung und Anhang termingerecht und revisionssicher. Ab CHF 1'200 oder im Buchhaltungspaket inklusive. MRG Treuhand Aadorf.",
+        "body": "Bilanz, Erfolgsrechnung und Anhang -- termingerecht, revisionssicher und verständlich aufbereitet. Sie konzentrieren sich auf Ihr Geschäft, wir liefern die Zahlen.\n\nFehler im Abschluss kosten nicht nur Nerven -- sie können teuer werden.\n\nWir prüfen alle Konten, stimmen Banksaldi ab und klären offene Posten.\n\nAbschreibungen, Rückstellungen, Abgrenzungen -- alles nach OR oder Swiss GAAP.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MRG Treuhand Aadorf: Digitale Buchhaltung, Lohnabrechnung & Steuerberatung für KMU in Thurgau, Zürich und St. Gallen. Swissdec-zertifiziert. Ab CHF 240/Monat.",
+        "body": "Ab wann muss ich MWST abrechnen? Der komplette Guide für Schweizer KMU | Ratgeber | MRG Treuhand\n\nAb wann muss ich MWST abrechnen? Der komplette Guide für Schweizer KMU\n\nAb CHF 100’000 Jahresumsatz aus steuerbaren Leistungen im Inland sind Sie MWST-pflichtig.\n\nAnmeldung innert 30 Tagen nach Überschreiten der Grenze. Rückwirkende Pflicht!",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "MRG Treuhand Aadorf: Digitale Buchhaltung, Lohnabrechnung & Steuerberatung für KMU in Thurgau, Zürich und St. Gallen. Swissdec-zertifiziert. Ab CHF 240/Monat.",
+        "body": "MRG Treuhand – Digitale Buchhaltung & Steuerberatung | Thurgau, Zürich, St. Gallen\n\nBuchhaltung, Löhne, Steuern, Gründung & Digitalisierung — persönlich erreichbar, digital aufgestellt, transparente Fixpreise.\n\nKeine Zeit mehr für Belege und MWST? Wir übernehmen Ihre laufende Buchhaltung, Löhne und Steuern — Sie konzentrieren sich auf Ihr Geschäft.\n\nSoftware einrichten, Prozesse automatisieren, KI sinnvoll einsetzen — wir zeigen Ihnen, was wirklich Zeit spart.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Roger Gloor",
+        "body": "IT-Enthusiast mit Leidenschaft für Zahlen. Roger verbindet technisches Know-how mit Treuhand-Expertise und sorgt dafür, dass bei MRG alles digital und effizient läuft."
+      },
+      {
+        "title": "Melanie Kapusta",
+        "body": "Die Zahlenflüsterin im Team. Melanie hat den Überblick über Buchhaltung und Löhne und kümmert sich darum, dass bei unseren Kunden alles stimmt – ruhig, präzis und zuverlässig."
+      },
+      {
+        "title": "Direkte Kommunikation",
+        "body": "Keine Warteschleifen, keine Ticket-Systeme. Bei uns erreichen Sie immer einen echten Menschen."
+      },
+      {
+        "title": "Innovation",
+        "body": "Wir mögen Technologie und setzen auf moderne Tools, die Ihnen Zeit und Nerven sparen."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Roger Gloor",
+        "role": "Gründer & Geschäftsführer",
+        "initials": "RG",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/mrg-treuhand-ch/team/0-gloor.webp"
+      },
+      {
+        "name": "Melanie Kapusta",
+        "role": "Gründerin & Geschäftsführerin",
+        "initials": "MK",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/mrg-treuhand-ch/team/1-kapusta.webp"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": [
+      {
+        "name": "Starter",
+        "price": "ab CHF 240",
+        "period": "/Monat",
+        "features": [],
+        "recommended": false
+      },
+      {
+        "name": "KMU",
+        "price": "ab CHF 590",
+        "period": "/Monat",
+        "features": [],
+        "recommended": true
+      },
+      {
+        "name": "Komplett",
+        "price": "ab CHF 49",
+        "period": "/Monat",
+        "features": [],
+        "recommended": false
+      },
+      {
+        "name": "Premium",
+        "price": "ab CHF 900",
+        "period": "/Monat",
+        "features": [],
+        "recommended": false
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "18+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "value": "38+",
+        "label": "KMU"
+      },
+      {
+        "value": "15+",
+        "label": "Mitarbeitende"
+      },
+      {
+        "value": "80000+",
+        "label": "Unternehmen"
+      }
+    ]
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "TREUHAND|SUISSE",
+      "EXPERTsuisse",
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "abacus",
+      "banana",
+      "bexio"
+    ],
+    "badges": [
+      "/images/mrg-treuhand-ch/pool/3579aa5cf6__abacus-logo.png",
+      "/images/mrg-treuhand-ch/pool/d694e2e867__topal-logo.png",
+      "/images/mrg-treuhand-ch/pool/53a9f3febe__bexio-logo.png",
+      "/images/mrg-treuhand-ch/pool/62e0c90d73__swiss21-logo.png"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "Noch Fragen?",
+        "a": "Ab wann muss ich MWST abrechnen? Der komplette Guide für Schweizer KMU"
+      },
+      {
+        "q": "Lohnt sich die freiwillige MWST-Anmeldung?",
+        "a": "Wir bei MRG Treuhand in Aadorf beraten KMU in der Ostschweiz täglich zu genau diesen Fragen. In diesem Beitrag erklären wir Ihnen alles, was Sie über die MWST-Pflicht in der Schweiz wissen müssen – verständlich, praxisnah und mit konkreten Beispielen."
+      },
+      {
+        "q": "Was zählt zum massgebenden Umsatz?",
+        "a": "Von der Steuer ausgenommene Leistungen (z. B. Gesundheit, Bildung, Versicherung, Immobilienvermietung) sowie Exporte"
+      },
+      {
+        "q": "Wann genau entsteht die Pflicht?",
+        "a": "Die MWST-Pflicht entsteht, sobald absehbar ist, dass Sie innerhalb der nächsten 12 Monate die CHF 100’000-Grenze überschreiten werden. Das bedeutet: Sie müssen nicht warten, bis der Umsatz tatsächlich erreicht ist."
+      },
+      {
+        "q": "Freiwillige MWST-Anmeldung: Wann lohnt es sich?",
+        "a": "Auch wenn Sie unter CHF 100’000 Umsatz liegen, können Sie sich freiwillig bei der ESTV anmelden. Das kann sich lohnen – und zwar in diesen Fällen:"
+      },
+      {
+        "q": "Saldosteuersatz oder effektive Methode?",
+        "a": "Vereinfachte Methode. Sie rechnen einen pauschalen Prozentsatz auf Ihren Umsatz ab. Kein Vorsteuerabzug nötig. Zulässig bis CHF 5,005 Mio. Umsatz bzw. CHF 103’000 Steuerschuld pro Jahr (gemäss aktueller ESTV-Regelung)."
+      },
+      {
+        "q": "Ab welchem Umsatz muss ich MWST abrechnen?",
+        "a": "Ab CHF 100’000 Jahresumsatz aus steuerbaren Leistungen im Inland sind Sie MWST-pflichtig. Die Pflicht entsteht, sobald absehbar ist, dass Sie die Grenze innerhalb von 12 Monaten überschreiten. Die Anmeldung muss innert 30 Tagen erfolgen."
+      },
+      {
+        "q": "Was passiert, wenn ich mich zu spät anmelde?",
+        "a": "Die MWST-Pflicht gilt rückwirkend ab Beginn der Steuerperiode, in der Sie die Grenze überschritten haben. Sie müssen die MWST für das gesamte Jahr nachberechnen – zuzüglich Verzugszinsen. Je früher Sie sich anmelden, desto geringer der Nachzahlungsbetrag."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 52 558 52 77",
+      "email": "info@mrg-treuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "MRG Treuhand",
+    "tagline": "MRG Treuhand Aadorf: Digitale Buchhaltung, Lohnabrechnung & Steuerberatung für KMU in Thurgau, Zürich und St. Gallen. Swissdec-zertifiziert. Ab CHF 240/Monat.",
+    "logo": "/images/mrg-treuhand-ch/pool/71511be62c__mrg-logo.webp",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Aadorf",
+          "+41 52 558 52 77",
+          "info@mrg-treuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

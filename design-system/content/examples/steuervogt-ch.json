@@ -1,0 +1,693 @@
+{
+  "meta": {
+    "firm": "SteuerVogt GmbH",
+    "domain": "steuervogt.ch",
+    "archetype": "boutique",
+    "lookId": "ruerup-swiss",
+    "sourceUrl": "https://steuervogt.ch/",
+    "basePresetId": "ruerup-swiss",
+    "look": {
+      "meta": {
+        "id": "steuervogt-ch-brand",
+        "name": "Rürup Swiss Corporate · brand-tinted",
+        "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
+        "source": "Steuerberatung-Andreas-Rürup + scraped brand",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (tint of beige surface)",
+          "base: ruerup-swiss",
+          "accent #FDF497 → #9F9103 (scraped · raised for contrast)",
+          "heading: Familjen Grotesk (inventory)",
+          "body: Mulish (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "vibrant"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#E5E7EB",
+        "text": "#1C1C1A",
+        "textMuted": "#71717A",
+        "border": "#E5E7EB",
+        "primary": "#9F9103",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#F7F6EB",
+        "secondary": "#FD5949",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "medium",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "medium"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "flat",
+        "card": "none"
+      },
+      "spacing": {
+        "sectionY": "py-12",
+        "rhythm": "normal",
+        "containerMax": "1200px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 300,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-offwhite": "#FFFFFF",
+        "--color-brand-anthracite": "#1C1C1A",
+        "--color-brand-red": "#C8102E",
+        "--color-brand-green": "#1F4E3D",
+        "--color-brand-beige": "#E5E7EB",
+        "--color-brand-grey": "#71717A",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "primary": "#FDF497",
+      "secondary": "#FD5949",
+      "palette": [
+        "#FDF497",
+        "#FD5949",
+        "#D6249F",
+        "#285AEB",
+        "#0765FE",
+        "#0077B5",
+        "#00797D",
+        "#55ACEE",
+        "#649A3F",
+        "#55EB4C"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "process",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": false,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✗ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "faq",
+      "media.stock (CC fallback)",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "values",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "services.images",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "logo": "/images/steuervogt-ch/pool/192267529d__cropped-steuervogt-steuerberatung-logo-square-192x192.jpg",
+    "hero": "/images/steuervogt-ch/hero.jpg",
+    "badges": [
+      "/images/steuervogt-ch/pool/d4e70b0905__corporate-design-logo-steuervogt-gmbh.jpg"
+    ],
+    "photos": [
+      "/images/steuervogt-ch/pool/71c20b7aac__treuhand-dienstleistungen-steuervogt-zuerich.jpg",
+      "/images/steuervogt-ch/pool/c2d2d0944f__treuhand-beratung-steuervogt.jpg",
+      "/images/steuervogt-ch/pool/stock-office-159839.jpg",
+      "/images/steuervogt-ch/pool/stock-meeting-7433869.jpg",
+      "/images/steuervogt-ch/pool/stock-consultation-7821698.jpg"
+    ],
+    "serviceImages": {
+      "Steuerberatung": "/images/steuervogt-ch/pool/71c20b7aac__treuhand-dienstleistungen-steuervogt-zuerich.jpg",
+      "Unternehmensberatung": "/images/steuervogt-ch/pool/c2d2d0944f__treuhand-beratung-steuervogt.jpg",
+      "Buchhaltung": "/images/steuervogt-ch/pool/stock-office-5511098.jpg",
+      "Lohnadministration": "/images/steuervogt-ch/pool/stock-desk-7821716.jpg",
+      "Jahresabschluss": "/images/steuervogt-ch/pool/stock-meeting-7693692.jpg",
+      "Mehrwertsteuer": "/images/steuervogt-ch/pool/stock-finance-7413936.jpg",
+      "Revision": "/images/steuervogt-ch/pool/stock-desk-7680744.jpg"
+    },
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/steuervogt-ch/pool/192267529d__cropped-steuervogt-steuerberatung-logo-square-192x192.jpg",
+        "kind": "logo",
+        "alt": "",
+        "bytes": 3436,
+        "width": 192,
+        "height": 192,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/d4e70b0905__corporate-design-logo-steuervogt-gmbh.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 47779,
+        "width": 1272,
+        "height": 487,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/71c20b7aac__treuhand-dienstleistungen-steuervogt-zuerich.jpg",
+        "kind": "photo",
+        "alt": "Steuervogt Treuhand-Dienstleistungen aus Zürich",
+        "bytes": 291820,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/c2d2d0944f__treuhand-beratung-steuervogt.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 110373,
+        "width": 900,
+        "height": 1350,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-office-159839.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 166999,
+        "width": 1600,
+        "height": 1064,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Pixabay (Pexels)",
+        "source": "https://www.pexels.com/photo/black-study-lamp-on-black-table-159839/",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-meeting-7433869.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 132437,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Vlada Karpovich (Pexels)",
+        "source": "https://www.pexels.com/photo/a-meeting-in-an-office-7433869/",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-consultation-7821698.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 101971,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/man-in-black-suit-jacket-holding-white-paper-7821698/",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-office-5511098.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 148205,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Mike van Schoonderwalt (Pexels)",
+        "source": "https://www.pexels.com/photo/an-interior-of-an-office-5511098/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-desk-7821716.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 84692,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/a-man-sitting-at-the-table-7821716/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-meeting-7693692.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 128706,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Yan Krukau (Pexels)",
+        "source": "https://www.pexels.com/photo/businesspeople-brainstorming-in-a-meeting-7693692/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-finance-7413936.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 83802,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/business-analytics-printout-on-wooden-table-7413936/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-desk-7680744.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 91291,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "www.kaboompics.com (Pexels)",
+        "source": "https://www.pexels.com/photo/person-holding-oink-calculator-7680744/",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/steuervogt-ch/pool/stock-office-159839.jpg",
+      "/images/steuervogt-ch/pool/stock-meeting-7433869.jpg",
+      "/images/steuervogt-ch/pool/stock-consultation-7821698.jpg"
+    ],
+    "stock": true,
+    "credits": [
+      "Pixabay (Pexels)",
+      "Vlada Karpovich (Pexels)",
+      "RDNE Stock project (Pexels)",
+      "Mike van Schoonderwalt (Pexels)",
+      "Yan Krukau (Pexels)",
+      "www.kaboompics.com (Pexels)"
+    ]
+  },
+  "nav": {
+    "brand": "SteuerVogt GmbH",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/steuervogt-ch/pool/192267529d__cropped-steuervogt-steuerberatung-logo-square-192x192.jpg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "SteuerVogt  GmbH Treuhand & Steuerberatung",
+    "titleAccent": "",
+    "lede": "Treuhand- und Steuerberatung im Herzen von Zürich. Kompetente Beratung und Unterstützung in sämtlichen treuhänderischen Bereichen. Das massgeschneiderte Treuhandpaket für Privatpersonen und Unternehmen. Ihr treuhänderisches Anliegen steht bei der SteuerVogt GmbH im Mittelpunkt.",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Firmengründung und Sitzverlegung",
+    "asideAttribution": "SteuerVogt GmbH",
+    "image": "/images/steuervogt-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Wir decken alle Bereiche Ihres Rechnungswesen professionell ab: Finanzbuchhaltung, Jahresabschluss, Mehrwertsteuer sowie sämtliche Personal- & Lohnadministrations-Themen.",
+        "body": "Das Rechnungswesen oder auch die Buchführung/Buchhaltung ist so individuell wie ihre Firma, was eine individuelle Lösung für KMU- und Einzelunternehmen umso wichtiger macht.\n\nMit der Unterstützung durch die SteuerVogt GmbH können Sie wertvolle Zeit und Energie sparen, welche Sie in Ihr Unternehmen investieren können und Sie erhalten zudem die kompetente Betreuung die Sie benötigen und verdient haben.\n\nDas Rechnungswesen umfasst heute weit mehr als nur die simple Darstellung von Zahlen. Es ist eine Verkettung aus Rechnungslegungsrecht und individuellen Ansätzen, welche Ihren Unternehmenserfolg beeinflusst und misst.\n\nAls vertrauensvoller und kompetenter Partner zeigt Ihnen die SteuerVogt GmbH aufgrund des Rechnungswesens gerne Ihr Verbesserungspotential auf und hilft Ihnen bei der Umsetzung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/steuervogt-ch/pool/stock-office-5511098.jpg"
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Personenbezogene Daten (nachfolgend zumeist nur „Daten“ genannt) werden von uns nur im Rahmen der Erforderlichkeit sowie zum Zwecke der Bereitstellung eines funktionsfähigen und nutzerfreundlichen Internetauftritts, inklusive seiner Inhalte und der dort angebotenen Leistungen, ve",
+        "body": "Personenbezogene Daten (nachfolgend zumeist nur „Daten“ genannt) werden von uns nur im Rahmen der Erforderlichkeit sowie zum Zwecke der Bereitstellung eines funktionsfähigen und nutzerfreundlichen Internetauftritts, inklusive seiner Inhalte und der dort angebotenen Leistungen, verarbeitet.\n\nauf Bestätigung, ob sie betreffende Daten verarbeitet werden, auf Auskunft über die verarbeiteten Daten, auf weitere Informationen über die Datenverarbeitung sowie auf Kopien der Daten (vgl. auch Art. 15 DSGVO);\n\nauf Berichtigung oder Vervollständigung unrichtiger bzw. unvollständiger Daten (vgl. auch Art. 16 DSGVO);\n\nauf unverzügliche Löschung der sie betreffenden Daten (vgl. auch Art. 17 DSGVO), oder, alternativ, soweit eine weitere Verarbeitung gemäss Art. 17 Abs. 3 DSGVO erforderlich ist, auf Einschränkung der Verarbeitung nach Massgabe von Art. 18 DSGVO;",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/steuervogt-ch/pool/71c20b7aac__treuhand-dienstleistungen-steuervogt-zuerich.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Beratung im Bereich der Lohnbuchhaltung, Personaladministration und sämtlichen sozialversicherungsrechtlichen Themen.",
+        "body": "Die Lohn- und Personaladministration ist ein umfangreiches und komplexes Thema. Dieses beginnt bei der Ausarbeitung des Arbeitsvertrages, über die Anmeldungen bei den verschiedenen Sozialversicherungen, die Lohnabrechnungen bis hin zum Lohnausweis am Jahresende oder bei Beendigung des Arbeitsverhältnisses.\n\nEin wesentlicher Teil der Lohn- und Personaladministration bilden die Sozialversicherungen wie die AHV, Unfallversicherung, Krankentaggeldversicherung und Pensionskasse. Insbesondere selbständig Erwerbende wissen oftmals nicht, welchen Sozialversicherungen sie sich anschliessen müssen oder können.\n\nDas Thema Sozialversicherungen kann sogar – insbesondere bei selbständig Erwerbenden – ein grosser Bestandteil der Vorsorgeplanung ausmachen. Somit ist die Lohn- und Personaladministration ein wichtiger Bestandteil Ihres Unternehmens.\n\nMöchten Sie die Lohnbuchhaltung Ihres Unternehmens ausl",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/steuervogt-ch/pool/stock-desk-7821716.jpg"
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/steuervogt-ch/pool/stock-meeting-7693692.jpg"
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/steuervogt-ch/pool/stock-finance-7413936.jpg"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Unterstützung und Beratung in Hinblick auf die Firmengründung sowie Unterstützung bei der Ausarbeitung der relevanten Dokumente.",
+        "body": "Sie möchten sich selbständig machen? Dabei stellt sich Ihnen jedoch die Frage, ob Sie lieber eine Personengesellschaft bilden oder eine Firma gründen wollen. Dies wiederum führt Sie zu der Frage, ob eine Gesellschaft mit beschränkter Haftung (GmbH) oder eine Aktiengesellschaft (AG) für Sie mehr Vorteile ergibt, oder ob eine Einzelunternehmung/Einzelfirma oder Kollektivgesellschaft doch geeigneter für Ihr Business wäre . Alles in Allem kann eine Firmengründung durchaus überwältigend sein und es kommen in diesem Prozess viele Fragen auf:\n\nDiese Aufzählung deckt nur eine kleine Auswahl von Fragen ab, mit denen sich die meisten Neu-Unternehmer und Startups im Zusammenhang mit der Firmengründung konfrontiert sehen.\n\nDie SteuerVogt GmbH berät Sie bei der Unternehmensgründung und Ihren damit verbundenen treuhänderischen Fragen kompetent, unterstützt Sie bei der Findung der für Sie passenden Rec",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/steuervogt-ch/pool/c2d2d0944f__treuhand-beratung-steuervogt.jpg"
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Steuern",
+        "body": ". Um das bestmögliche Paket für Sie und/oder Ihr Unternehmen ausarbeiten zu können, freue ich mich Sie telefonisch oder persönlich zu einem ersten"
+      },
+      {
+        "title": "Firmengründung und Sitzverlegung",
+        "body": "Haben Sie vor eine Firma zu gründen oder den Standort Ihrer bereits bestehenden Firma zu ändern, dann können Sie gerne unverbindlich Kontakt aufnehmen."
+      },
+      {
+        "title": "Buchhaltung und Treuhand",
+        "body": "Haben Sie bereits eine Firma oder Einzelunternehmung und benötigen Hilfe im Bereich der Buchhaltung und weiteren Treuhandbereichen, dann sind Sie bei mir an der richtigen Adresse."
+      },
+      {
+        "title": "Lohn- und Personaladministration",
+        "body": "Beschäftigen Sie personal oder benötigen Sie eine kompetente und individuelle Beratung im Zusammenhang mit Löhnen und sozialversicherungsrechtlichen Themen, dann wenden Sie sich gerne an mich."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "SteuerVogt Team",
+        "role": "Geschäftsführung",
+        "initials": "ST",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "eidg. Diplom/Fachausweis",
+      "klara"
+    ],
+    "badges": [
+      "/images/steuervogt-ch/pool/d4e70b0905__corporate-design-logo-steuervogt-gmbh.jpg"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 79 785 84 51",
+      "email": "laura.vogt@steuervogt.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "SteuerVogt GmbH",
+    "tagline": "Firmengründung und Sitzverlegung",
+    "logo": "/images/steuervogt-ch/pool/192267529d__cropped-steuervogt-steuerberatung-logo-square-192x192.jpg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 79 785 84 51",
+          "laura.vogt@steuervogt.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

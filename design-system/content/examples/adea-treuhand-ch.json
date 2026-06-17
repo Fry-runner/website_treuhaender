@@ -1,0 +1,788 @@
+{
+  "meta": {
+    "firm": "Treuhandbüro Ivanova / Adea",
+    "domain": "adea-treuhand.ch",
+    "archetype": "swiss-digital",
+    "lookId": "swiss-clean",
+    "sourceUrl": "https://adea-treuhand.ch/",
+    "basePresetId": "swiss-clean",
+    "look": {
+      "meta": {
+        "id": "adea-treuhand-ch-brand",
+        "name": "Swiss Clean · brand-tinted",
+        "source": "synthesized (references) + scraped brand",
+        "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
+        "derived": [
+          "base: swiss-clean",
+          "accent #2C5A82 (scraped · medium)",
+          "heading: Space Grotesk (inventory)",
+          "body: Inter (inventory)",
+          "mono: JetBrains Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "medium",
+        "density": "airy",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F2F7F8",
+        "text": "#0E2A33",
+        "textMuted": "#5B7682",
+        "border": "#DCE7EA",
+        "primary": "#2C5A82",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EEF2F5",
+        "secondary": "#01A570",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Inter\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Space Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "6xl",
+        "headlineWeight": "semibold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "wider",
+          "weight": "semibold"
+        }
+      },
+      "radius": {
+        "base": "md",
+        "pill": "full",
+        "scale": "medium"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-20",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 260,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "moderate"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--accent-teal": "#0EA5A5",
+        "--ink-navy": "#1E3A5F",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "primary": "#2C5A82",
+      "secondary": "#02E49B",
+      "palette": [
+        "#2C5A82",
+        "#1EA0C3",
+        "#0757FE",
+        "#0A7AFF",
+        "#1E1F26",
+        "#02E49B",
+        "#5865F2",
+        "#E94C89",
+        "#4280FF",
+        "#F45800",
+        "#0866FF",
+        "#0461DD"
+      ],
+      "fontsSeen": [],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "stats",
+        "process",
+        "partners",
+        "faq",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "echte Kennzahlen gefunden",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "echte FAQ gefunden",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "stats",
+      "values",
+      "faq",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "services.images",
+      "media.documents",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "hero": "/images/adea-treuhand-ch/hero.jpg",
+    "badges": [],
+    "photos": [
+      "/images/adea-treuhand-ch/pool/cc93ee6ea1__677d5b183ceb4ad2d1da7855-HeadshotPro.png",
+      "/images/adea-treuhand-ch/pool/cd41b4a057__Gemini_Generated_Image_415r8u415r8u415r-2048x1434.png",
+      "/images/adea-treuhand-ch/pool/32f03765d7__Gemini_Generated_Image_4gbh344gbh344gbh-1.png",
+      "/images/adea-treuhand-ch/pool/e63c31935f__Teilrevision-MWSTG-und-MWSTV_sh-scaled-1.jpg",
+      "/images/adea-treuhand-ch/pool/fce8dc7c86__laptop-3196481_1920.jpg",
+      "/images/adea-treuhand-ch/pool/dee8099e44__pexels-mikhail-nilov-8297031-scaled.jpg",
+      "/images/adea-treuhand-ch/pool/f4ce37ba5d__pexels-artempodrez-6779716-scaled.jpg",
+      "/images/adea-treuhand-ch/pool/06e1e89608__pexels-sora-shimazaki-5673502-scaled.jpg",
+      "/images/adea-treuhand-ch/pool/9ac8868eac__pexels-lexovertoom-1109543-scaled.jpg",
+      "/images/adea-treuhand-ch/pool/00268fb382__csm_Hilfskredit_Corona_Franken_Bartolomiej_Pietrzyk-12RF_1e2ebbd586-847x450.jpg",
+      "/images/adea-treuhand-ch/pool/d9a1416e3c__csm_v01_steuern-einfach-erklaert_11f48599ca-4.jpg",
+      "/images/adea-treuhand-ch/pool/f12c9827e6__DALL_E-2024-12-11-12.13.56-A-visually-appealing-image-representing-starting-a-bu",
+      "/images/adea-treuhand-ch/pool/f26211e426__DALL_E-2025-01-06-14.47.42-Ein-minimalistisches-professionelles-Bild-das-die-Kos",
+      "/images/adea-treuhand-ch/pool/cf1c31ee2f__677d5b183ceb4ad2d1da78c7-HeadshotPro.png",
+      "/images/adea-treuhand-ch/pool/c62d5a1961__677d5b183ceb4ad2d1da78d3-HeadshotPro.png",
+      "/images/adea-treuhand-ch/pool/15a6cb1a1d__Gemini_Generated_Image_1he79y1he79y1he7.png"
+    ],
+    "serviceImages": {
+      "Steuerberatung": "/images/adea-treuhand-ch/pool/d9a1416e3c__csm_v01_steuern-einfach-erklaert_11f48599ca-4.jpg",
+      "Mehrwertsteuer": "/images/adea-treuhand-ch/pool/e63c31935f__Teilrevision-MWSTG-und-MWSTV_sh-scaled-1.jpg"
+    },
+    "documents": [
+      {
+        "src": "/files/adea-treuhand-ch/f7ca688991__d_Betr_ge_202026.pdf",
+        "title": "Bundesamt für Sozialversicherungen (BSV), „Beträge gültig ab dem 1. Januar 2026“, bsv.admin.ch",
+        "kind": "pdf",
+        "bytes": 201668
+      },
+      {
+        "src": "/files/adea-treuhand-ch/f15e9fc2f4__Preisliste-2026.pdf",
+        "title": "Preisliste",
+        "kind": "pdf",
+        "bytes": 199273
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/adea-treuhand-ch/pool/cd41b4a057__Gemini_Generated_Image_415r8u415r8u415r-2048x1434.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 1090253,
+        "width": 1600,
+        "height": 1120,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/cc93ee6ea1__677d5b183ceb4ad2d1da7855-HeadshotPro.png",
+        "kind": "photo",
+        "alt": "Alexandra Ivanova am Schreibtisch",
+        "bytes": 1062467,
+        "width": 1600,
+        "height": 1300,
+        "orientation": "landscape",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/cf1c31ee2f__677d5b183ceb4ad2d1da78c7-HeadshotPro.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 1048194,
+        "width": 1600,
+        "height": 1300,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/c62d5a1961__677d5b183ceb4ad2d1da78d3-HeadshotPro.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 982196,
+        "width": 1600,
+        "height": 1300,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/32f03765d7__Gemini_Generated_Image_4gbh344gbh344gbh-1.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 309127,
+        "width": 1376,
+        "height": 768,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/15a6cb1a1d__Gemini_Generated_Image_1he79y1he79y1he7.png",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 308978,
+        "width": 864,
+        "height": 1087,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/e63c31935f__Teilrevision-MWSTG-und-MWSTV_sh-scaled-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 174753,
+        "width": 1600,
+        "height": 985,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/fce8dc7c86__laptop-3196481_1920.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 161355,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/dee8099e44__pexels-mikhail-nilov-8297031-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 140367,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/f12c9827e6__DALL_E-2024-12-11-12.13.56-A-visually-appealing-image-representing-starting-a-bu",
+        "kind": "photo",
+        "alt": "Unternehmen gründen in der Schweiz",
+        "bytes": 162478,
+        "width": 1024,
+        "height": 1024,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/f4ce37ba5d__pexels-artempodrez-6779716-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 136672,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/06e1e89608__pexels-sora-shimazaki-5673502-scaled.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 127709,
+        "width": 1600,
+        "height": 824,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/f26211e426__DALL_E-2025-01-06-14.47.42-Ein-minimalistisches-professionelles-Bild-das-die-Kos",
+        "kind": "photo",
+        "alt": "Warum kosten Treuhand-Dienstleistungen oft so unterschiedlich?",
+        "bytes": 113226,
+        "width": 1024,
+        "height": 1024,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/9ac8868eac__pexels-lexovertoom-1109543-scaled.jpg",
+        "kind": "photo",
+        "alt": "Buchhaltung für KMU",
+        "bytes": 86780,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/00268fb382__csm_Hilfskredit_Corona_Franken_Bartolomiej_Pietrzyk-12RF_1e2ebbd586-847x450.jpg",
+        "kind": "photo",
+        "alt": "Liquidationsgewinne von Einzelunternehmen",
+        "bytes": 76803,
+        "width": 847,
+        "height": 450,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/adea-treuhand-ch/pool/d9a1416e3c__csm_v01_steuern-einfach-erklaert_11f48599ca-4.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 75936,
+        "width": 1284,
+        "height": 822,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/adea-treuhand-ch/pool/cd41b4a057__Gemini_Generated_Image_415r8u415r8u415r-2048x1434.png",
+      "/images/adea-treuhand-ch/pool/cc93ee6ea1__677d5b183ceb4ad2d1da7855-HeadshotPro.png",
+      "/images/adea-treuhand-ch/pool/32f03765d7__Gemini_Generated_Image_4gbh344gbh344gbh-1.png"
+    ]
+  },
+  "nav": {
+    "brand": "Treuhandbüro Ivanova / Adea",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Ihre Treuhänderin in Zürich & im Freiamt – persönlich, digital, effizient",
+    "titleAccent": "",
+    "lede": "Buchhaltung, Steuererklärung & Lohn für KMU und Privatpersonen in Zürich (Kreis 3) und im Freiamt. Persönlich, digital, fair.",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Buchhaltung, Steuererklärung & Lohn für KMU und Privatpersonen in Zürich (Kreis 3) und im Freiamt. Persönlich, digital, fair.",
+    "asideAttribution": "Treuhandbüro Ivanova / Adea",
+    "image": "/images/adea-treuhand-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Digitale Buchhaltung für KMUs Sparen Sie Zeit und Kosten durch Outsourcing Ihrer Finanzprozesse an Treuhandbüro Ivanova.",
+        "body": "Einer der größten Vorteile der digitalen Buchhaltung ist die Automatisierung wiederkehrender Aufgaben. Mit modernen Softwarelösungen lassen sich:\n\nAnstelle stundenlanger manueller Arbeit können KMUs wertvolle Zeit sparen und sich auf ihr Kerngeschäft konzentrieren.\n\nFehler in der Buchhaltung können teuer werden. Mahngebühren, falsche Steuerzahlungen oder verpasste Fristen sind keine Seltenheit. Mit digitaler Buchhaltung werden solche Risiken minimiert. Zudem reduzieren sich die Kosten für Papier, Druck und Lagerung von physischen Dokumenten erheblich.\n\nDarüber hinaus ermöglicht die Digitalisierung, dass Buchhalter oder externe Treuhänder effizienter arbeiten, wodurch sich die Kosten für externe Dienstleistungen senken lassen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Das Schweizer Volk hat die Individualbesteuerung angenommen. Treuhänderin Alexandra Ivanova erklärt, was sich ändert und wer profitiert.",
+        "body": "Am 8. März 2026 hat das Schweizer Stimmvolk die Individualbesteuerung Schweiz 2026 mit 54 % Ja-Stimmen angenommen – ein historischer Wechsel im Schweizer Steuerrecht. Als Treuhänderin begleite ich viele Ehepaare und Familien, die sich nun fragen: Was ändert sich konkret für uns?\n\nBisher besteuert der Staat Ehepaare gemeinsam: Er zählt ihre Einkommen zusammen, was durch die Steuerprogression oft zu einer höheren Belastung führt – die sogenannte «Heiratsstrafe». Mit der Reform besteuert der Staat künftig jede Person unabhängig vom Zivilstand individuell. Ausserdem reichen Ehepaare künftig zwei separate Steuererklärungen ein statt einer gemeinsamen.\n\nDas Stimmvolk hat den Kinderabzug von CHF 6’800 auf CHF 12’000 pro Kind erhöht.\n\nDer Staat weist Einkommen und Vermögen künftig nach den Eigentumsverhältnissen zu.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/adea-treuhand-ch/pool/d9a1416e3c__csm_v01_steuern-einfach-erklaert_11f48599ca-4.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Entdecken Sie die umfangreichen Leistungen – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices.",
+        "body": "Buchhaltung, Steuerberatung, MWST, Lohnadministration und Finanzmanagement.\n\nEntdecken Sie die umfangreichen Leistungen des Treuhandbüros Ivanova – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices. Ihre Finanzen, perfekt organisiert.\n\nWir übernehmen die komplette Buchführung – von der Belegerfassung bis hin zur Erstellung von Jahresabschlüssen und betriebswirtschaftlichen Auswertungen.\n\nTransparenz und Klarheit in Ihren Finanzen. Effiziente digitale Prozesse zur Zeitersparnis.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "Entdecken Sie die umfangreichen Leistungen – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices.",
+        "body": "Buchhaltung, Steuerberatung, MWST, Lohnadministration und Finanzmanagement.\n\nEntdecken Sie die umfangreichen Leistungen des Treuhandbüros Ivanova – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices. Ihre Finanzen, perfekt organisiert.\n\nWir übernehmen die komplette Buchführung – von der Belegerfassung bis hin zur Erstellung von Jahresabschlüssen und betriebswirtschaftlichen Auswertungen.\n\nTransparenz und Klarheit in Ihren Finanzen. Effiziente digitale Prozesse zur Zeitersparnis.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/adea-treuhand-ch/pool/e63c31935f__Teilrevision-MWSTG-und-MWSTV_sh-scaled-1.jpg"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Entdecken Sie die umfangreichen Leistungen – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices.",
+        "body": "Buchhaltung, Steuerberatung, MWST, Lohnadministration und Finanzmanagement.\n\nEntdecken Sie die umfangreichen Leistungen des Treuhandbüros Ivanova – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices. Ihre Finanzen, perfekt organisiert.\n\nWir übernehmen die komplette Buchführung – von der Belegerfassung bis hin zur Erstellung von Jahresabschlüssen und betriebswirtschaftlichen Auswertungen.\n\nTransparenz und Klarheit in Ihren Finanzen. Effiziente digitale Prozesse zur Zeitersparnis.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Warum Sie mit uns zusammenarbeiten sollten",
+        "body": "Sie können sich darauf verlassen, dass Ihre Buchhaltung und Steuerangelegenheiten korrekt und pünktlich erledigt werden."
+      },
+      {
+        "title": "Unsere Fokus",
+        "body": "Präzise und digital – wir sorgen dafür, dass Ihre Zahlen immer stimmen."
+      },
+      {
+        "title": "Mitgliedschaft – Teil eines starken Netzwerks",
+        "body": ", dem schweizerischen Branchen- und Berufsverband der Treuhänder:innen mit Fokus auf KMU und Privatkundschaft. Die laufende fachliche Weiterbildung unterstützt eine fachlich korrekte und aktuelle Beratung."
+      },
+      {
+        "title": "Unsere Vision – Für die Zukunft der Treuhandbranche",
+        "body": "Die Treuhandwelt entwickelt sich ständig weiter, und wir davon überzeugt, dass Digitalisierung, Effizienz und persönliche Betreuung der Schlüssel zum Erfolg sind. Deshalb haben wir es uns zur Aufgabe gemacht, innovative Prozesse zu entwickeln und unseren Kunden stets den besten Service zu bieten."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Treuhandbüro Team",
+        "role": "Geschäftsführung",
+        "initials": "TR",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "15+",
+        "label": "Mitarbeitende"
+      },
+      {
+        "value": "35000+",
+        "label": "Unternehmen"
+      },
+      {
+        "value": "15+",
+        "label": "Jahre Erfahrung"
+      }
+    ]
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "TREUHAND|SUISSE",
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "abacus",
+      "bexio",
+      "klara"
+    ],
+    "badges": []
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": [
+      {
+        "q": "Übernehmen Sie auch Lohnbuchhaltung für kleine Firmen?",
+        "a": "Ja. Wir betreuen Firmen jeder Grösse – auch kleine Teams oder Einzelunternehmen."
+      },
+      {
+        "q": "Wie kann ich meine Belege einreichen?",
+        "a": "Ganz unkompliziert: per Post, persönlich oder digital (OneDrive / Upload / E-Mail). Auf Wunsch vollständig papierlos."
+      },
+      {
+        "q": "Sind Online-Beratungen möglich?",
+        "a": "Ja. Beratungen sind flexibel online möglich – per Zoom, Telefon oder E-Mail."
+      },
+      {
+        "q": "Warum kosten Treuhand-Dienstleistungen oft so unterschiedlich?",
+        "a": "Haben Sie sich schon einmal gefragt, warum Treuhand-Dienstleistungen so unterschiedlich bepreist werden? Während manche Anbieter sehr günstige Preise verlangen, können die Kosten bei anderen um ein Vielfaches höher sein. Als Unternehmerin oder Unternehmer ist es entscheidend zu verstehen, was hinter diesen Unterschieden steckt – schließlich wollen Sie eine Dienstleistung, die nicht nur preiswert, sondern auch…"
+      },
+      {
+        "q": "Was ist CARF — und was hat das mit Ihrer Steuererklärung zu tun?",
+        "a": "— ein internationales Regelwerk der OECD, dem sich die Schweiz gemeinsam mit rund 74 Staaten verpflichtet hat. Das Ziel: Krypto-Vermögen sollen steuerlich gleich behandelt werden wie klassische Bankkonten."
+      },
+      {
+        "q": "Sind Sie Privatanleger oder gewerbsmässiger Händler?",
+        "a": "Diese Grenze ist nicht immer eindeutig — und CARF macht die Antwort darauf sichtbarer als je zuvor."
+      },
+      {
+        "q": "Das Zeitfenster: Jetzt handeln oder abwarten?",
+        "a": "— das bedeutet: keine Busse, aber Nachsteuern und Verzugszinsen fallen trotzdem an, sofern es sich um die erste handelt und die Tat noch nicht entdeckt wurde."
+      },
+      {
+        "q": "Einschätzung: Privatvermögen oder gewerbsmässiger Handel?",
+        "a": "Ich führe diese Beratungen persönlich durch — in unserem Büro an der Kalkbreitestrasse 59 in Zürich Kreis 3, telefonisch oder per Videocall."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 (0)62 535 09 99",
+      "email": "alexandra@adea-treuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Treuhandbüro Ivanova / Adea",
+    "tagline": "Buchhaltung, Steuererklärung & Lohn für KMU und Privatpersonen in Zürich (Kreis 3) und im Freiamt. Persönlich, digital, fair.",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 (0)62 535 09 99",
+          "alexandra@adea-treuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

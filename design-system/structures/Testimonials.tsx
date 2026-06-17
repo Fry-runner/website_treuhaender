@@ -5,6 +5,7 @@
  */
 import React from "react";
 import { Container, Eyebrow } from "./primitives";
+import { Icon } from "../icons/iconSets";
 
 export interface Testimonial {
   quote: string;
@@ -26,14 +27,14 @@ export const Testimonials: React.FC<{ content: TestimonialsContent }> = ({ conte
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "1rem", marginBottom: "2.2rem" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
-          <h2 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "1.9rem", letterSpacing: "var(--ds-headline-tracking)", color: "var(--ds-text)", margin: 0 }}>
+          <h2 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display-h2, 2rem)", letterSpacing: "var(--ds-headline-tracking)", color: "var(--ds-text)", margin: 0 }}>
             {content.heading}
           </h2>
         </div>
         {/* aggregate rating badge */}
         <div style={{ display: "inline-flex", alignItems: "center", gap: "0.6rem", padding: "0.6rem 1rem", borderRadius: "var(--ds-radius-pill)", background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)" }}>
-          <span style={{ color: "var(--ds-primary)", fontWeight: 700, letterSpacing: "0.05em" }}>★ {content.rating}</span>
-          <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--ds-text-muted)" }}>{content.reviewCount}</span>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", color: "var(--ds-primary)", fontWeight: 700, letterSpacing: "0.05em" }}><Icon name="star" size={16} /> {content.rating}</span>
+          <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>{content.reviewCount}</span>
         </div>
       </div>
 
@@ -44,7 +45,7 @@ export const Testimonials: React.FC<{ content: TestimonialsContent }> = ({ conte
               “{t.quote}”
             </blockquote>
             <div style={{ height: "2px", width: "2rem", background: "var(--ds-primary)" }} />
-            <figcaption style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.06em", color: "var(--ds-text-muted)", lineHeight: 1.5 }}>
+            <figcaption style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)", lineHeight: 1.5 }}>
               <strong style={{ color: "var(--ds-text)" }}>{t.person}</strong><br />
               {t.company} · {t.city}
             </figcaption>

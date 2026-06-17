@@ -5,6 +5,7 @@
  */
 import React from "react";
 import { Container, Eyebrow, Heading, Accent, Lede, Button } from "./primitives";
+import { Icon } from "../icons/iconSets";
 import type { HeroContent } from "../content/types";
 
 const gradientLight: React.CSSProperties = {
@@ -17,19 +18,19 @@ const gradientVivid: React.CSSProperties = {
 };
 const photo = (src: string): React.CSSProperties => ({ backgroundImage: `url("${src}")`, backgroundSize: "cover", backgroundPosition: "center" });
 const lightBtn: React.CSSProperties = {
-  fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", textTransform: "uppercase", letterSpacing: "0.08em",
-  fontWeight: 600, padding: "0.9rem 1.6rem", borderRadius: "var(--ds-radius)", cursor: "pointer", lineHeight: 1,
-};
+  fontFamily: "var(--ds-font-body)", fontSize: "0.9rem",
+  fontWeight: 600, padding: "0.95rem 1.7rem", minHeight: "2.75rem", borderRadius: "var(--ds-radius)", cursor: "pointer", lineHeight: 1,
+  display: "inline-flex", alignItems: "center", gap: "0.4rem" };
 
 /** 1) Text centered over the image, with a light scrim for legibility. */
 export const HeroImageCentered: React.FC<{ content: HeroContent }> = ({ content }) => (
   <section style={{ position: "relative", overflow: "hidden", paddingBlock: "calc(var(--ds-section-y) * 1.3)", borderBottom: "1px solid var(--ds-border)", ...(content.image ? photo(content.image) : gradientLight) }}>
-    {content.image && <div aria-hidden style={{ position: "absolute", inset: 0, background: "rgba(255,255,255,0.80)" }} />}
+    {content.image && <div aria-hidden style={{ position: "absolute", inset: 0, background: "rgba(255,255,255,0.88)" }} />}
     <Container style={{ position: "relative", maxWidth: "min(var(--ds-container), 820px)" }}>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.5rem" }}>
         <Eyebrow>{content.eyebrow}</Eyebrow>
         <Heading>{content.titleLead} <Accent>{content.titleAccent}</Accent>{content.titleTail ? <> {content.titleTail}</> : null}</Heading>
-        <Lede style={{ maxWidth: "52ch" }}>{content.lede}</Lede>
+        <Lede style={{ maxWidth: "52ch", color: "var(--ds-text)" }}>{content.lede}</Lede>
         <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", justifyContent: "center" }}>
           <Button variant="primary">{content.primaryCta}</Button>
           <Button variant="outline">{content.secondaryCta}</Button>
@@ -62,16 +63,16 @@ export const HeroImageSplit: React.FC<{ content: HeroContent }> = ({ content }) 
 /** 3) Full-bleed photo with scrim, light text bottom-left. */
 export const HeroImageFull: React.FC<{ content: HeroContent }> = ({ content }) => (
   <section style={{ position: "relative", overflow: "hidden", borderBottom: "1px solid var(--ds-border)", ...(content.image ? photo(content.image) : { backgroundImage: "linear-gradient(120deg, var(--ds-primary), var(--ds-secondary))" }) }}>
-    <div aria-hidden style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0.35))" }} />
+    <div aria-hidden style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.78), rgba(0,0,0,0.48))" }} />
     <Container style={{ position: "relative", paddingBlock: "calc(var(--ds-section-y) * 1.8)" }}>
       <div style={{ display: "flex", flexDirection: "column", gap: "1.3rem", maxWidth: "60ch" }}>
-        <div style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.12em", color: "rgba(255,255,255,0.85)" }}>{content.eyebrow}</div>
+        <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "rgba(255,255,255,0.85)" }}>{content.eyebrow}</div>
         <h1 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display)", letterSpacing: "var(--ds-headline-tracking)", lineHeight: 1.05, color: "#fff", margin: 0 }}>
           {content.titleLead} {content.titleAccent} {content.titleTail ?? ""}
         </h1>
         <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "1.1rem", lineHeight: 1.6, color: "rgba(255,255,255,0.92)", maxWidth: "50ch", margin: 0 }}>{content.lede}</p>
         <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", marginTop: "0.3rem" }}>
-          <button style={{ ...lightBtn, background: "#fff", color: "#111", border: "none" }}>{content.primaryCta} →</button>
+          <button style={{ ...lightBtn, background: "#fff", color: "#111", border: "none" }}>{content.primaryCta} <Icon name="arrowRight" size={14} style={{ verticalAlign: "-0.1em" }} /></button>
           <button style={{ ...lightBtn, background: "transparent", color: "#fff", border: "1px solid rgba(255,255,255,0.7)" }}>{content.secondaryCta}</button>
         </div>
       </div>

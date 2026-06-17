@@ -1,0 +1,745 @@
+{
+  "meta": {
+    "firm": "Rebex AG",
+    "domain": "rebex.ch",
+    "archetype": "boutique",
+    "lookId": "zueri-swiss",
+    "sourceUrl": "https://www.rebex.ch/",
+    "basePresetId": "zueri-swiss",
+    "look": {
+      "meta": {
+        "id": "rebex-ch-brand",
+        "name": "Züri Swiss Blue · brand-generated",
+        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
+        "source": "Züri-Treuhand + generated accent",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAF1F8 tint)",
+          "color.secondaryFg (#FFFFFF)",
+          "color.textMuted (#737373 neutral-500)",
+          "base: zueri-swiss",
+          "accent #2C6D42 (generated · scraped #00722B rejected: low)",
+          "heading: Familjen Grotesk (inventory)",
+          "body: Mulish (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F9FAFB",
+        "text": "#333333",
+        "textMuted": "#737373",
+        "border": "#EAEAEA",
+        "primary": "#2C6D42",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EEF3F0",
+        "secondary": "#368731",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-16",
+        "rhythm": "normal",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-blue": "#084687",
+        "--color-accent-blue": "#0b549f",
+        "--color-charcoal": "#333333",
+        "--color-soft-gray": "#F9FAFB",
+        "--color-border-gray": "#EAEAEA",
+        "--font-sans": "Inter",
+        "--font-serif": "Playfair Display",
+        "--font-display": "Space Grotesk",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "primary": "#00722B",
+      "secondary": "#68CCD1",
+      "palette": [
+        "#00722B",
+        "#68CCD1",
+        "#463939"
+      ],
+      "fontsSeen": [],
+      "confidence": "low"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "values",
+        "audience",
+        "process",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": false,
+        "jobs": true,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "kein echtes Team gefunden",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✗ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "faq",
+      "look.colors (generated)",
+      "team.members"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.headline",
+      "hero.lede",
+      "services.text",
+      "values",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "media.documents"
+    ]
+  },
+  "media": {
+    "logo": "/images/rebex-ch/pool/5b4d70d8b0__ES_Logo_QL_rgb_pos-1920w.jpeg",
+    "hero": "/images/rebex-ch/hero.jpg",
+    "badges": [
+      "/images/rebex-ch/pool/1e9aad56ee__RebexAGTreuhand-RevisionsgesellschaftLogofarbig2022-1920w.jpg"
+    ],
+    "photos": [
+      "/images/rebex-ch/pool/65802ebd6a__VESNAGAJICPHOTOGRAPHY_9U6B8411_fb-1920w.jpg",
+      "/images/rebex-ch/pool/345e3e37ab__VESNAGAJICPHOTOGRAPHY_9U6B8418_fb-1920w.jpg",
+      "/images/rebex-ch/pool/15a5515023__VESNAGAJICPHOTOGRAPHY_9U6B8395_fb-1920w.jpg",
+      "/images/rebex-ch/pool/89caa5d967__AdobeStock_296453780-1920w.jpg",
+      "/images/rebex-ch/pool/fe9b8ae957__VESNAGAJICPHOTOGRAPHY_9U6B8375_fb-1920w.jpg",
+      "/images/rebex-ch/pool/5d5dc60c43__VESNAGAJICPHOTOGRAPHY_9U6B8382_fb-1920w.jpg",
+      "/images/rebex-ch/pool/eb850083b0__VESNAGAJICPHOTOGRAPHY_9U6B8382_fb-9e9e831a-1920w.jpg",
+      "/images/rebex-ch/pool/e43635ecd6__VESNAGAJICPHOTOGRAPHY_9U6B8316_fb-1920w.jpg",
+      "/images/rebex-ch/pool/b06ab6d99a__VESNAGAJICPHOTOGRAPHY_9U6B8368_fb-1920w.jpg",
+      "/images/rebex-ch/pool/2ff1bb014d__VESNAGAJICPHOTOGRAPHY_9U6B8398_fb-1920w.jpg",
+      "/images/rebex-ch/pool/82ae43c9c1__VESNAGAJICPHOTOGRAPHY_9U6B8368_fb-ca4c94f5-640w.jpg",
+      "/images/rebex-ch/pool/f973fb2a96__Michelle-3--281-29-1920w.jpg",
+      "/images/rebex-ch/pool/00d7a40b3a__Unbenannt_274-1920w.png",
+      "/images/rebex-ch/pool/56c7b8f833__VESNAGAJICPHOTOGRAPHY_9U6B8330_fb_366-1920w.jpg",
+      "/images/rebex-ch/pool/ede859376b__Hobi_357-1920w.png",
+      "/images/rebex-ch/pool/689b59ad23__IMG20220908172137-28778d44-1920w.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [
+      {
+        "src": "/files/rebex-ch/bf4b64167c__Datenschutzerkl_rung_Rebex_AG_20230912.pdf",
+        "title": "Datenschutzerklärung",
+        "kind": "pdf",
+        "bytes": 197024
+      },
+      {
+        "src": "/files/rebex-ch/0249b1aa17__KadermitarbeiterTreuhandJobinserat2023.pdf",
+        "title": "Kadermitarbeiter Treuhand Jobinserat 2023",
+        "kind": "pdf",
+        "bytes": 643249
+      },
+      {
+        "src": "/files/rebex-ch/4e421f22ec__April_2026_News.pdf",
+        "title": "News April 2026",
+        "kind": "pdf",
+        "bytes": 165867
+      },
+      {
+        "src": "/files/rebex-ch/12725f2a11__Privacy_policy_Rebex_Ltd._20230912_englisch.pdf",
+        "title": "Privacy policy",
+        "kind": "pdf",
+        "bytes": 235746
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/rebex-ch/pool/5b4d70d8b0__ES_Logo_QL_rgb_pos-1920w.jpeg",
+        "kind": "logo",
+        "alt": "Rebex AG - Dietikon 1",
+        "bytes": 7723,
+        "width": 372,
+        "height": 115,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/rebex-ch/pool/1e9aad56ee__RebexAGTreuhand-RevisionsgesellschaftLogofarbig2022-1920w.jpg",
+        "kind": "badge",
+        "alt": "[company_name] - [city]",
+        "bytes": 9970,
+        "width": 365,
+        "height": 158,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": []
+      },
+      {
+        "src": "/images/rebex-ch/pool/689b59ad23__IMG20220908172137-28778d44-1920w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 281652,
+        "width": 1200,
+        "height": 1600,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/rebex-ch/pool/f973fb2a96__Michelle-3--281-29-1920w.jpg",
+        "kind": "photo",
+        "alt": "Rebex AG - Dietikon 1",
+        "bytes": 163923,
+        "width": 1280,
+        "height": 1280,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/rebex-ch/pool/65802ebd6a__VESNAGAJICPHOTOGRAPHY_9U6B8411_fb-1920w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 122382,
+        "width": 1157,
+        "height": 771,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/rebex-ch/pool/345e3e37ab__VESNAGAJICPHOTOGRAPHY_9U6B8418_fb-1920w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 114300,
+        "width": 1124,
+        "height": 750,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/rebex-ch/pool/15a5515023__VESNAGAJICPHOTOGRAPHY_9U6B8395_fb-1920w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 106795,
+        "width": 1165,
+        "height": 777,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/rebex-ch/pool/89caa5d967__AdobeStock_296453780-1920w.jpg",
+        "kind": "photo",
+        "alt": "Rebex AG",
+        "bytes": 101264,
+        "width": 1262,
+        "height": 841,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/rebex-ch/pool/fe9b8ae957__VESNAGAJICPHOTOGRAPHY_9U6B8375_fb-1920w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 94217,
+        "width": 1302,
+        "height": 868,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/rebex-ch/pool/5d5dc60c43__VESNAGAJICPHOTOGRAPHY_9U6B8382_fb-1920w.jpg",
+        "kind": "photo",
+        "alt": "Rebex AG",
+        "bytes": 94321,
+        "width": 1260,
+        "height": 840,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/rebex-ch/pool/eb850083b0__VESNAGAJICPHOTOGRAPHY_9U6B8382_fb-9e9e831a-1920w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 94400,
+        "width": 1260,
+        "height": 840,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/rebex-ch/pool/e43635ecd6__VESNAGAJICPHOTOGRAPHY_9U6B8316_fb-1920w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 87136,
+        "width": 1168,
+        "height": 779,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/rebex-ch/pool/b06ab6d99a__VESNAGAJICPHOTOGRAPHY_9U6B8368_fb-1920w.jpg",
+        "kind": "photo",
+        "alt": "Rebex AG",
+        "bytes": 82803,
+        "width": 1165,
+        "height": 777,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/rebex-ch/pool/00d7a40b3a__Unbenannt_274-1920w.png",
+        "kind": "photo",
+        "alt": "Rebex AG - Dietikon 1",
+        "bytes": 39870,
+        "width": 293,
+        "height": 293,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/rebex-ch/pool/2ff1bb014d__VESNAGAJICPHOTOGRAPHY_9U6B8398_fb-1920w.jpg",
+        "kind": "photo",
+        "alt": "Rebex Ltd. - Dietikon 1",
+        "bytes": 40220,
+        "width": 555,
+        "height": 370,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/rebex-ch/pool/56c7b8f833__VESNAGAJICPHOTOGRAPHY_9U6B8330_fb_366-1920w.jpg",
+        "kind": "photo",
+        "alt": "Rebex AG - Dietikon 1",
+        "bytes": 33869,
+        "width": 536,
+        "height": 537,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/rebex-ch/pool/ede859376b__Hobi_357-1920w.png",
+        "kind": "photo",
+        "alt": "Rebex AG",
+        "bytes": 27459,
+        "width": 239,
+        "height": 239,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/rebex-ch/pool/82ae43c9c1__VESNAGAJICPHOTOGRAPHY_9U6B8368_fb-ca4c94f5-640w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 32152,
+        "width": 640,
+        "height": 427,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "service"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/rebex-ch/pool/65802ebd6a__VESNAGAJICPHOTOGRAPHY_9U6B8411_fb-1920w.jpg",
+      "/images/rebex-ch/pool/345e3e37ab__VESNAGAJICPHOTOGRAPHY_9U6B8418_fb-1920w.jpg",
+      "/images/rebex-ch/pool/15a5515023__VESNAGAJICPHOTOGRAPHY_9U6B8395_fb-1920w.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Rebex AG",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/rebex-ch/pool/5b4d70d8b0__ES_Logo_QL_rgb_pos-1920w.jpeg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Dietikon",
+    "titleLead": "Rebex AG seit 1997",
+    "titleAccent": "",
+    "lede": "Wir übernehmen alle Treuhand-Arbeiten, damit Sie sich auf Ihr Hauptgeschäft konzentrieren können. Wir sind Ihre Treuhand- und Revisionsgesellschaft!",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Wir übernehmen alle Treuhand-Arbeiten, damit Sie sich auf Ihr Hauptgeschäft konzentrieren können. Wir sind Ihre Treuhand- und Revisionsgesellschaft!",
+    "asideAttribution": "Rebex AG",
+    "image": "/images/rebex-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Wir übernehmen alles von der Buchführung bis zur Wirtschaftsprüfung. Zu unseren Kunden gehören sowohl private als auch juristische Personen.",
+        "body": "Die Rebex AG in Dietikon ist ihr kompetenter Partner für Treuhandarbeiten. Zudem sind wir zugelassene Revisionsexperten nach dem Revisionsaufsichtsgesetz.\n\nZu unseren Kunden gehören Privatpersonen und mehrheitlich juristische Personen wie kleinere bis grössere Familienbetriebe, KMUs, Kollektivgesellschaften und Einzelunternehmen.\n\nGerne unterstützen wir Sie in allen aufgeführten Belangen. Auf Anfrage stellen wir Ihnen eine Offerte aus. Vereinbaren Sie mit uns einen\n\nBegleitung im Verkehr mit den Handelsregistern, Notariaten, Grundbuchämtern und Banken (u.a. Finanzierungscoaching)",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Wir sind eine Treuhand- und Revisionsgesellschaft im schönen Limmattal. Besuchen Sie uns doch einmal und geniessen Sie unseren tollen Standort.",
+        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": [
+      {
+        "title": "Rebex AG in Dietikon und Zürich",
+        "body": "Verantwortungsvoll und gründlich übernimmt die Rebex AG alle Treuhandarbeiten - vom Zahlungsverkehr bis zur Nachfolgeregelung."
+      },
+      {
+        "title": "Wirtschaftsprüfung &  -beratung",
+        "body": "Unabhängig, transparent und massgeschneidert -  von der Revision über die Sanierung bis zur Liquidation."
+      },
+      {
+        "title": "Steuern & Rechnungswesen",
+        "body": "Verantwortungsvoll und gründlich übernimmt die Rebex AG Arbeiten in den Bereichen Steuern und Rechnungswesen."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Rebex Team",
+        "role": "Geschäftsführung",
+        "initials": "RE",
+        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
+      },
+      {
+        "name": "Mandatsleitung",
+        "role": "Treuhand & Steuern",
+        "initials": "ML",
+        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
+      },
+      {
+        "name": "Kundenbetreuung",
+        "role": "Lohn & Administration",
+        "initials": "KB",
+        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "EXPERTsuisse",
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "klara",
+      "sage"
+    ],
+    "badges": [
+      "/images/rebex-ch/pool/1e9aad56ee__RebexAGTreuhand-RevisionsgesellschaftLogofarbig2022-1920w.jpg"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 744 76 76",
+      "email": "a.g.florian@rebex.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Rebex AG",
+    "tagline": "Wir übernehmen alle Treuhand-Arbeiten, damit Sie sich auf Ihr Hauptgeschäft konzentrieren können. Wir sind Ihre Treuhand- und Revisionsgesellschaft!",
+    "logo": "/images/rebex-ch/pool/5b4d70d8b0__ES_Logo_QL_rgb_pos-1920w.jpeg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Offene Stellen",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Dietikon",
+          "+41 44 744 76 76",
+          "a.g.florian@rebex.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "meta": {
+    "firm": "Hermann Treuhand",
+    "domain": "hermanntreuhand.ch",
+    "archetype": "swiss-digital",
+    "lookId": "zueri-swiss",
+    "sourceUrl": "https://hermanntreuhand.ch/",
+    "basePresetId": "zueri-swiss",
+    "look": {
+      "meta": {
+        "id": "hermanntreuhand-ch-brand",
+        "name": "Züri Swiss Blue · brand-tinted",
+        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
+        "source": "Züri-Treuhand + scraped brand",
+        "derived": [
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (#EAF1F8 tint)",
+          "color.secondaryFg (#FFFFFF)",
+          "color.textMuted (#737373 neutral-500)",
+          "base: zueri-swiss",
+          "accent #1863DC (scraped · medium)",
+          "heading: Familjen Grotesk (inventory)",
+          "body: Mulish (inventory)",
+          "mono: Space Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
+        "era": "timeless",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F9FAFB",
+        "text": "#333333",
+        "textMuted": "#737373",
+        "border": "#EAEAEA",
+        "primary": "#1863DC",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EDF3FC",
+        "secondary": "#DF0505",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-grotesk"
+      },
+      "type": {
+        "displayMax": "7xl",
+        "headlineWeight": "bold",
+        "bodyWeight": "light",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "widest",
+          "weight": "bold"
+        }
+      },
+      "radius": {
+        "base": "sm",
+        "pill": "full",
+        "scale": "sharp"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-16",
+        "rhythm": "normal",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--color-brand-blue": "#084687",
+        "--color-accent-blue": "#0b549f",
+        "--color-charcoal": "#333333",
+        "--color-soft-gray": "#F9FAFB",
+        "--color-border-gray": "#EAEAEA",
+        "--font-sans": "Inter",
+        "--font-serif": "Playfair Display",
+        "--font-display": "Space Grotesk",
+        "--font-mono": "JetBrains Mono"
+      }
+    },
+    "brand": {
+      "primary": "#1863DC",
+      "secondary": "#DF0505",
+      "palette": [
+        "#1863DC",
+        "#4667AE",
+        "#0056A7",
+        "#4E4B66",
+        "#DF0505",
+        "#008000",
+        "#FF0044",
+        "#333399",
+        "#3D5499"
+      ],
+      "fontsSeen": [
+        "PT Sans"
+      ],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "stats",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": true,
+        "newsletter": true,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "echte Kennzahlen gefunden",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "stats",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "services.images",
+      "media.documents",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "logo": "/images/hermanntreuhand-ch/pool/6b36bb9728__HT-Hermann_Treuhand_Logo-V4.jpg",
+    "hero": "/images/hermanntreuhand-ch/hero.jpg",
+    "badges": [
+      "/images/hermanntreuhand-ch/pool/7f59b19916__lgo_sage.png",
+      "/images/hermanntreuhand-ch/pool/3449840ee0__bexio-e1477291875174.jpg"
+    ],
+    "photos": [
+      "/images/hermanntreuhand-ch/pool/c035c4ed9f__B_roeingang-Hermann-Treuhand-Winterthur-2.jpg",
+      "/images/hermanntreuhand-ch/pool/1c8a009cb1__lopardo-1140214.jpg",
+      "/images/hermanntreuhand-ch/pool/755d3982d8__lopardo_P7060293_web_med.jpg",
+      "/images/hermanntreuhand-ch/pool/a35b69ec0b__HT_googlemaps_standort.jpg",
+      "/images/hermanntreuhand-ch/pool/9b39f1e3c2__MWST-Form-Hermann-Treuhand-e1485894290345.jpg"
+    ],
+    "serviceImages": {
+      "Mehrwertsteuer": "/images/hermanntreuhand-ch/pool/9b39f1e3c2__MWST-Form-Hermann-Treuhand-e1485894290345.jpg"
+    },
+    "documents": [
+      {
+        "src": "/files/hermanntreuhand-ch/b71394ad53__2020-Kennzahlen.pdf",
+        "title": "2020 Kennzahlen",
+        "kind": "pdf",
+        "bytes": 202090
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/0c2bac29b7__Arbeitsvertr_ge-f_r-Kaderangestellte.pdf",
+        "title": "Arbeitsverträge für Kaderangestellte",
+        "kind": "pdf",
+        "bytes": 21782
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/a1ce098099__Ehevertrag-sinnvoll.pdf",
+        "title": "Ehevertrag sinnvoll",
+        "kind": "pdf",
+        "bytes": 18387
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/bf4c7b84f7__EU-Umsatzsteuer-Registration-Wettbewerbsf_higkeit.pdf",
+        "title": "EU Umsatzsteuer Registration – Wettbewerbsfähigkeit",
+        "kind": "pdf",
+        "bytes": 25604
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/004f4147a6__Geistiges-Eigentum.doc",
+        "title": "Geistiges Eigentum",
+        "kind": "doc",
+        "bytes": 25600
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/07177a468f__Grenzg_nger-mit-Gesch_ftsfahrzeuge-Achtung.pdf",
+        "title": "Grenzgänger mit Geschäftsfahrzeuge – Achtung",
+        "kind": "pdf",
+        "bytes": 29253
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/221ccf11da__H_here-AHV-Beitr_ge-ab-1.-Januar-2020.pdf",
+        "title": "Höhere AHV-Beiträge ab 1. Januar 2020",
+        "kind": "pdf",
+        "bytes": 77976
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/7e154036e2__Jahresabschlussmappe.xls",
+        "title": "Jahresabschlussmappe",
+        "kind": "xls",
+        "bytes": 167424
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/0ec3bf6297__MWST-Aenderungen-per-1.1.2018.pdf",
+        "title": "MWST-Aenderungen per 1.1.2018",
+        "kind": "pdf",
+        "bytes": 190357
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/0868589c9b__Nachlassplanung-fr_hzeitig-angehen.pdf",
+        "title": "Nachlassplanung frühzeitig angehen",
+        "kind": "pdf",
+        "bytes": 19812
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/248490895d__News-09.17-Straflose-Selbstanzeige-wird-teilweise-abgeschafft.pdf",
+        "title": "News 09.17 -Straflose Selbstanzeige wird teilweise abgeschafft",
+        "kind": "pdf",
+        "bytes": 40115
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/00c0c95d00__Standortf_rderung-Kt.-ZH.pdf",
+        "title": "Standortförderung Kt. ZH",
+        "kind": "pdf",
+        "bytes": 391932
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/05a20f9870__Steuer-Tipps-f_r-Liegenschaftenbesitzer.pdf",
+        "title": "Steuer-Tipps",
+        "kind": "pdf",
+        "bytes": 137971
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/6c6501dcf3__Steuererkl_rungs-Checkliste.pdf",
+        "title": "Steuererklärungs-Checkliste",
+        "kind": "pdf",
+        "bytes": 111234
+      },
+      {
+        "src": "/files/hermanntreuhand-ch/adb3a1d3a9__Untermiete-bei-Wohn-u.-Gesch_ftsr_umen.pdf",
+        "title": "Untermiete bei Wohn- u. Geschäftsräumen",
+        "kind": "pdf",
+        "bytes": 31466
+      }
+    ],
+    "assets": [
+      {
+        "src": "/images/hermanntreuhand-ch/pool/6b36bb9728__HT-Hermann_Treuhand_Logo-V4.jpg",
+        "kind": "logo",
+        "alt": "Hermann Treuhand GmbH",
+        "bytes": 37481,
+        "width": 468,
+        "height": 68,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/hermanntreuhand-ch/pool/7f59b19916__lgo_sage.png",
+        "kind": "badge",
+        "alt": "sage-Logo",
+        "bytes": 4937,
+        "width": 181,
+        "height": 76,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/hermanntreuhand-ch/pool/3449840ee0__bexio-e1477291875174.jpg",
+        "kind": "badge",
+        "alt": "bexio-Logo",
+        "bytes": 5747,
+        "width": 160,
+        "height": 162,
+        "orientation": "square",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/hermanntreuhand-ch/pool/1c8a009cb1__lopardo-1140214.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 169951,
+        "width": 1200,
+        "height": 800,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/hermanntreuhand-ch/pool/755d3982d8__lopardo_P7060293_web_med.jpg",
+        "kind": "photo",
+        "alt": "Thomas Hermann, Treuhandexperte und Fachmann Finanz & Rechnungswesen mit eidg. Fachausweis",
+        "bytes": 121687,
+        "width": 1200,
+        "height": 900,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/hermanntreuhand-ch/pool/c035c4ed9f__B_roeingang-Hermann-Treuhand-Winterthur-2.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 79441,
+        "width": 878,
+        "height": 852,
+        "orientation": "square",
+        "subject": "office",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/hermanntreuhand-ch/pool/a35b69ec0b__HT_googlemaps_standort.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 91105,
+        "width": 1200,
+        "height": 800,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/hermanntreuhand-ch/pool/9b39f1e3c2__MWST-Form-Hermann-Treuhand-e1485894290345.jpg",
+        "kind": "photo",
+        "alt": "e-Buchhaltung (Cloud-Lösung für KMU's)",
+        "bytes": 35205,
+        "width": 500,
+        "height": 375,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/hermanntreuhand-ch/pool/1c8a009cb1__lopardo-1140214.jpg",
+      "/images/hermanntreuhand-ch/pool/755d3982d8__lopardo_P7060293_web_med.jpg",
+      "/images/hermanntreuhand-ch/pool/a35b69ec0b__HT_googlemaps_standort.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "Hermann Treuhand",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Termin buchen",
+    "logo": "/images/hermanntreuhand-ch/pool/6b36bb9728__HT-Hermann_Treuhand_Logo-V4.jpg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Winterthur",
+    "titleLead": "Ihre Finanzen,",
+    "titleAccent": "klar geführt.",
+    "lede": "Wir betreuen, beraten und unterstützen Sie bei Ihrer unternehmerischen Tätigkeit als verlässlicher Treuhandpartner für KMU-Betriebe und Privatpersonen.",
+    "primaryCta": "Termin buchen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Wir betreuen, beraten und unterstützen Sie bei Ihrer unternehmerischen Tätigkeit als verlässlicher Treuhandpartner für KMU-Betriebe und Privatpersonen.",
+    "asideAttribution": "Hermann Treuhand",
+    "image": "/images/hermanntreuhand-ch/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "Die Hermann Treuhand GmbH betreut und berät Sie professionell und zuverlässig in allen Ihren Belangen für die private sowie unternehmerische Buchhaltung.",
+        "body": "Jede Branche, jede Firma, jede Person hat andere Anforderungen an die Buchhaltung. Wir beraten Sie wie Sie Ihre Buchhaltung organisieren und führen können.\n\nWir stellen uns ganz in Ihren Dienst indem wir Ihre Buchhaltung zuverlässig führen und einen korrekten Buchhaltungsabschluss erstellen.\n\nWir sind in der Lage Ihre Buchhaltungsdaten auf unterschiedliche Weise zu übernehmen und zu verarbeiten. Indem wir ganz auf Ihre Ausgangslage und Ihre Bedürfnisse eingehen können wir die Schnittstelle von Ihrem Betrieb zu uns individuell definieren. Wir legen grossen Wert, dass unsere Arbeitsqualität Ihren Ansprüchen immer gerecht wird sowie die steuerlichen und gesetzlichen Anforderungen erfüllt werden.\n\nverschiedene Buchhaltungslösungen stehen Ihnen zur Verfügung (Vorerfassungsmöglichkeiten, Buchhaltungssoftware, ERP, u.a.)",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Als Mehrwertsteuer-Spezialist kennen wir die spezifischen Anforderungen der Mehrwertsteuer und helfen Ihnen gezielt in der praktischen Umsetzung.",
+        "body": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.\n\nGerne stehe ich Ihnen unverbindlich zur Verfügung und freue mich Sie kennenzulernen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "Als Mehrwertsteuer-Spezialist kennen wir die spezifischen Anforderungen der Mehrwertsteuer und helfen Ihnen gezielt in der praktischen Umsetzung.",
+        "body": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.\n\nGerne stehe ich Ihnen unverbindlich zur Verfügung und freue mich Sie kennenzulernen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/hermanntreuhand-ch/pool/9b39f1e3c2__MWST-Form-Hermann-Treuhand-e1485894290345.jpg"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Eine gut durchdachte EDV kann Ihnen viel Zeit und schliesslich unnötigen Ärger ersparen. Gerne beraten wir Sie in der effektiven Auswahl Ihrer Software.",
+        "body": "Der richtige Umgang mit EDV und den dazugehörigen Programmen ist ein zentraler Teil jedes Unternehmens. Wir beraten und unterstützen Sie in der effizienten Auswahl und dem Einsatz von Programmen, die für Ihren Betrieb relevant sind\n\nBexio ist zur Zeit die inovativste Cloud-basierende Buchhaltungssoftwarelösung für KMU-Betriebe. Einen grossen Teil unserer Mandaten nutzen die Software einerseits für die Finanzbuchhaltung und weitere administratische Arbeiten wie; Fakturierung, Offertwesen, Lohnbuchhaltung, Kreditorenbuchhaltung.\n\nWir arbeiten mit dieser Buchhaltungslösungen seit 20 Jahren und können diese sehr empfehlen.\n\nSage hat verschiedene Lösungen für verschiedene Bedürfnisse im Angebot. Sage bietet auch Cloud basierende Buchhaltungslösungen für KMU-Betriebe an.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Thomas Hermann",
+        "role": "Treuhandexperte und Fachmann Finanz- & Rechnungswesen mit eidg. Fachausweis",
+        "initials": "TH",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "8+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "value": "1997+",
+        "label": "Kunden"
+      }
+    ]
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "abacus",
+      "banana",
+      "bexio"
+    ],
+    "badges": [
+      "/images/hermanntreuhand-ch/pool/7f59b19916__lgo_sage.png",
+      "/images/hermanntreuhand-ch/pool/3449840ee0__bexio-e1477291875174.jpg"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Termin buchen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 (0)52 246 04 26",
+      "email": "info@hermanntreuhand.ch",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "Hermann Treuhand",
+    "tagline": "Wir betreuen, beraten und unterstützen Sie bei Ihrer unternehmerischen Tätigkeit als verlässlicher Treuhandpartner für KMU-Betriebe und Privatpersonen.",
+    "logo": "/images/hermanntreuhand-ch/pool/6b36bb9728__HT-Hermann_Treuhand_Logo-V4.jpg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Winterthur",
+          "+41 (0)52 246 04 26",
+          "info@hermanntreuhand.ch"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

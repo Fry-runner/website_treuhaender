@@ -1,0 +1,769 @@
+{
+  "meta": {
+    "firm": "STG Zürich",
+    "domain": "stg.zuerich",
+    "archetype": "boutique",
+    "lookId": "swiss-clean",
+    "sourceUrl": "https://www.stg.zuerich/",
+    "basePresetId": "swiss-clean",
+    "look": {
+      "meta": {
+        "id": "stg-zuerich-brand",
+        "name": "Swiss Clean · brand-tinted",
+        "source": "synthesized (references) + scraped brand",
+        "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
+        "derived": [
+          "base: swiss-clean",
+          "accent #00224F (scraped · medium)",
+          "heading: Bricolage Grotesque (inventory)",
+          "body: Work Sans (inventory)",
+          "mono: IBM Plex Mono (inventory)"
+        ]
+      },
+      "tags": {
+        "tone": "formal",
+        "warmth": "cool",
+        "corner": "medium",
+        "density": "airy",
+        "contrast": "high",
+        "era": "modern",
+        "accentEnergy": "medium"
+      },
+      "color": {
+        "bg": "#FFFFFF",
+        "surface": "#F2F7F8",
+        "text": "#0E2A33",
+        "textMuted": "#5B7682",
+        "border": "#DCE7EA",
+        "primary": "#00224F",
+        "primaryFg": "#FFFFFF",
+        "primarySoft": "#EBEDF1",
+        "secondary": "#00224F",
+        "secondaryFg": "#FFFFFF"
+      },
+      "font": {
+        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Bricolage Grotesque\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+      },
+      "type": {
+        "displayMax": "6xl",
+        "headlineWeight": "semibold",
+        "bodyWeight": "normal",
+        "headlineTracking": "tight",
+        "eyebrow": {
+          "uppercase": true,
+          "tracking": "wider",
+          "weight": "semibold"
+        }
+      },
+      "radius": {
+        "base": "md",
+        "pill": "full",
+        "scale": "medium"
+      },
+      "shadow": {
+        "elevation": "subtle",
+        "card": "sm"
+      },
+      "spacing": {
+        "sectionY": "py-20",
+        "rhythm": "airy",
+        "containerMax": "1280px",
+        "gutter": "1.5rem"
+      },
+      "motion": {
+        "durationMs": 260,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "moderate"
+      },
+      "background": {
+        "treatment": "flat-white",
+        "blur": true
+      },
+      "raw": {
+        "--accent-teal": "#0EA5A5",
+        "--ink-navy": "#1E3A5F",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
+      }
+    },
+    "brand": {
+      "primary": "#00224F",
+      "palette": [
+        "#00224F"
+      ],
+      "fontsSeen": [
+        "Merriweather"
+      ],
+      "confidence": "medium"
+    },
+    "fontsToLoad": [],
+    "brief": {
+      "homepageSlots": [
+        "nav",
+        "hero",
+        "services",
+        "audience",
+        "process",
+        "team",
+        "partners",
+        "cta",
+        "contact",
+        "footer"
+      ],
+      "pageRefs": [
+        {
+          "pageType": "home",
+          "presence": "always"
+        },
+        {
+          "pageType": "services",
+          "presence": "always"
+        },
+        {
+          "pageType": "service-detail",
+          "presence": "often",
+          "note": "per-service SEO tree"
+        },
+        {
+          "pageType": "about",
+          "presence": "often"
+        },
+        {
+          "pageType": "contact",
+          "presence": "always"
+        },
+        {
+          "pageType": "legal",
+          "presence": "always"
+        }
+      ],
+      "functions": {
+        "onlineBooking": false,
+        "newsletter": false,
+        "jobs": false,
+        "cookieConsent": true
+      },
+      "reasons": {
+        "home:nav": "Kernsektion",
+        "home:hero": "Kernsektion",
+        "home:intro": "kein Homepage-Renderer",
+        "home:services": "Kernsektion",
+        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:audience": "Kernsektion",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
+        "home:process": "Kernsektion",
+        "home:team": "echte Teammitglieder gescraped",
+        "home:pricing": "keine echten Preise → weggelassen",
+        "home:partners": "echte Zertifikate/Partner gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
+        "home:map": "kein Homepage-Renderer",
+        "home:cta": "Kernsektion",
+        "home:contact": "Kernsektion",
+        "home:footer": "Kernsektion",
+        "page:services": "✓ Leistungen vorhanden",
+        "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
+        "page:about": "✓ Über-uns-Seite im Scrape",
+        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:pricing": "✗ Preisseite + echte Preise",
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
+      }
+    },
+    "placeholders": [
+      "hero.aside",
+      "values",
+      "faq"
+    ],
+    "real": [
+      "meta.firm",
+      "meta.domain",
+      "contact.email",
+      "contact.phone",
+      "hero.lede",
+      "services.text",
+      "team.members",
+      "team.photos",
+      "footer.tagline",
+      "trust.items",
+      "media.pool",
+      "media.logo",
+      "trust.badges",
+      "brand.colors"
+    ]
+  },
+  "media": {
+    "logo": "/images/stg-zuerich/pool/1657b164e5__logo.svg",
+    "hero": "/images/stg-zuerich/hero.jpg",
+    "badges": [
+      "/images/stg-zuerich/pool/7d785c542c__logo-pict.svg",
+      "/images/stg-zuerich/pool/52c9e49225__membership-treuhand-2022-03-01.svg"
+    ],
+    "photos": [
+      "/images/stg-zuerich/pool/bea49eb128__stg_zh_header_5.jpg",
+      "/images/stg-zuerich/pool/c10d7025d5__stg_zh_header_5-1134.jpg",
+      "/images/stg-zuerich/pool/32bb81e0bb__irene_waser-707.jpg",
+      "/images/stg-zuerich/pool/1a7101878e__stg_zh_sabrina_gholampour-1-1134.jpg",
+      "/images/stg-zuerich/pool/b1fc8dc1e3__stg_zh_sabrina_gholampour-1.jpg",
+      "/images/stg-zuerich/pool/b8c86477e7__stg_zh_thomas_gass.jpg",
+      "/images/stg-zuerich/pool/7d2ecc8317__stg_zh_thomas_gass-1134.jpg",
+      "/images/stg-zuerich/pool/f61684cf80__stg_zh_pia_gubser_quote-707.jpg",
+      "/images/stg-zuerich/pool/5e0be209d6__stg_zh_annette_widmann_quote-707.jpg",
+      "/images/stg-zuerich/pool/d0ad00c7f1__stg_zh_annette_widmann-1-707.jpg",
+      "/images/stg-zuerich/pool/025ee6423f__stg_zh_doris_buerge_quote-707.jpg",
+      "/images/stg-zuerich/pool/970917ec4e__stg_zh_doris_buerge-707.jpg",
+      "/images/stg-zuerich/pool/8a2c3181c2__manuela-gugger-707.jpg",
+      "/images/stg-zuerich/pool/47b8a99aad__stg_zh_sabrina_gholampour-1-707.jpg",
+      "/images/stg-zuerich/pool/7ced4ba4e5__stg_zh_thomas_gass-707.jpg",
+      "/images/stg-zuerich/pool/6eea7d9d9d__stg_zh_christian_sager-707.jpg",
+      "/images/stg-zuerich/pool/beee3234f4__stg_zh_thomas_gass_quote-707.jpg",
+      "/images/stg-zuerich/pool/913cd8551d__stg_zh_thomas_brunner_quote-707.jpg"
+    ],
+    "serviceImages": {},
+    "documents": [],
+    "assets": [
+      {
+        "src": "/images/stg-zuerich/pool/1657b164e5__logo.svg",
+        "kind": "logo",
+        "alt": "STG – Zürich",
+        "bytes": 24044,
+        "width": 330,
+        "height": 64,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": []
+      },
+      {
+        "src": "/images/stg-zuerich/pool/7d785c542c__logo-pict.svg",
+        "kind": "badge",
+        "alt": "STG – Zürich",
+        "bytes": 1444,
+        "width": 600,
+        "height": 478,
+        "orientation": "landscape",
+        "subject": "city",
+        "roles": []
+      },
+      {
+        "src": "/images/stg-zuerich/pool/52c9e49225__membership-treuhand-2022-03-01.svg",
+        "kind": "badge",
+        "alt": "Treuhand Suisse",
+        "bytes": 3026,
+        "width": 86,
+        "height": 18,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": []
+      },
+      {
+        "src": "/images/stg-zuerich/pool/bea49eb128__stg_zh_header_5.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 115145,
+        "width": 1200,
+        "height": 627,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/c10d7025d5__stg_zh_header_5-1134.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 101554,
+        "width": 1134,
+        "height": 576,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/32bb81e0bb__irene_waser-707.jpg",
+        "kind": "photo",
+        "alt": "Irene Waser",
+        "bytes": 56969,
+        "width": 707,
+        "height": 497,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/1a7101878e__stg_zh_sabrina_gholampour-1-1134.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 49188,
+        "width": 1134,
+        "height": 576,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/b1fc8dc1e3__stg_zh_sabrina_gholampour-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 53826,
+        "width": 1134,
+        "height": 576,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/b8c86477e7__stg_zh_thomas_gass.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 53278,
+        "width": 1200,
+        "height": 627,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/7d2ecc8317__stg_zh_thomas_gass-1134.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 42790,
+        "width": 1134,
+        "height": 576,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/beee3234f4__stg_zh_thomas_gass_quote-707.jpg",
+        "kind": "photo",
+        "alt": "Jürg TH. Gass",
+        "bytes": 52741,
+        "width": 707,
+        "height": 884,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/913cd8551d__stg_zh_thomas_brunner_quote-707.jpg",
+        "kind": "photo",
+        "alt": "Thomas Brunner",
+        "bytes": 49216,
+        "width": 707,
+        "height": 884,
+        "orientation": "portrait",
+        "subject": "portrait",
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/f61684cf80__stg_zh_pia_gubser_quote-707.jpg",
+        "kind": "photo",
+        "alt": "Pia Gubser",
+        "bytes": 33616,
+        "width": 707,
+        "height": 442,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/5e0be209d6__stg_zh_annette_widmann_quote-707.jpg",
+        "kind": "photo",
+        "alt": "Annette Widmann",
+        "bytes": 29041,
+        "width": 707,
+        "height": 442,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/d0ad00c7f1__stg_zh_annette_widmann-1-707.jpg",
+        "kind": "photo",
+        "alt": "Annette Widmann",
+        "bytes": 37705,
+        "width": 707,
+        "height": 497,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/025ee6423f__stg_zh_doris_buerge_quote-707.jpg",
+        "kind": "photo",
+        "alt": "Doris Bürge",
+        "bytes": 28881,
+        "width": 707,
+        "height": 442,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/970917ec4e__stg_zh_doris_buerge-707.jpg",
+        "kind": "photo",
+        "alt": "Doris Bürge",
+        "bytes": 32593,
+        "width": 707,
+        "height": 497,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/8a2c3181c2__manuela-gugger-707.jpg",
+        "kind": "photo",
+        "alt": "Manuela Gugger",
+        "bytes": 23898,
+        "width": 707,
+        "height": 472,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/47b8a99aad__stg_zh_sabrina_gholampour-1-707.jpg",
+        "kind": "photo",
+        "alt": "Sabrina Gholampour",
+        "bytes": 32252,
+        "width": 707,
+        "height": 497,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/7ced4ba4e5__stg_zh_thomas_gass-707.jpg",
+        "kind": "photo",
+        "alt": "Jürg Thomas Gass",
+        "bytes": 32194,
+        "width": 707,
+        "height": 497,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/stg-zuerich/pool/6eea7d9d9d__stg_zh_christian_sager-707.jpg",
+        "kind": "photo",
+        "alt": "Christian Sager",
+        "bytes": 29891,
+        "width": 707,
+        "height": 497,
+        "orientation": "landscape",
+        "subject": "generic",
+        "roles": [
+          "gallery",
+          "service"
+        ]
+      }
+    ],
+    "sectionBackgrounds": [
+      "/images/stg-zuerich/pool/bea49eb128__stg_zh_header_5.jpg",
+      "/images/stg-zuerich/pool/c10d7025d5__stg_zh_header_5-1134.jpg",
+      "/images/stg-zuerich/pool/1a7101878e__stg_zh_sabrina_gholampour-1-1134.jpg"
+    ]
+  },
+  "nav": {
+    "brand": "STG Zürich",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "Leistungen",
+        "href": "#services"
+      },
+      {
+        "label": "Über uns",
+        "href": "#about"
+      }
+    ],
+    "cta": "Kontakt aufnehmen",
+    "logo": "/images/stg-zuerich/pool/1657b164e5__logo.svg"
+  },
+  "hero": {
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Ihre Finanzen,",
+    "titleAccent": "klar geführt.",
+    "lede": "Dienstleistungen der Schweizerischen Treuhandgesellschaft (Zürich) AG: Steuern, Treuhand, Trust & Gestion und Immobilien",
+    "primaryCta": "Kontakt aufnehmen",
+    "secondaryCta": "Leistungen",
+    "asideLabel": "Über uns",
+    "asideQuote": "Dienstleistungen der Schweizerischen Treuhandgesellschaft (Zürich) AG: Steuern, Treuhand, Trust & Gestion und Immobilien",
+    "asideAttribution": "STG Zürich",
+    "image": "/images/stg-zuerich/hero.jpg"
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "heading": "Alles aus einer Hand.",
+    "items": [
+      {
+        "title": "Buchhaltung",
+        "summary": "STG-Zürich bietet ganzheitliche Beratung und Unterstützung in Fragen zu Finanz- und Rechnungswesen, Lohnbuchhaltung, Finanzplanung",
+        "body": "Finanz- und Rechnungswesen, Lohnbuchhaltung, Finanzplanung, Family Office.\n\nFür unternehmerische Entscheide sind korrekte und vollständige Jahresrechnungen eine wichtige Grundlage. Unsere engagierten Mitarbeitenden bieten Ihnen eine ganzheitliche Beratung und Unterstützung in sämtlichen buchhalterischen Fragen. Vom Start-up bis zum KMU begleiten wir Unternehmen in jeder Entwicklungsphase. Wir erfassen Ihre Bedürfnisse, erarbeiten mit Effort Lösungen und begleiten persönlich deren Umsetzung – zuverlässig, versiert und vorausschauend.\n\nKleine und mittelgrosse Unternehmen unterstützen wir fachkundig im Aufbau eines aussagekräftigen Finanz- und Rechnungswesens. Nach Bedarf erledigen wir die gesamte Finanzbuchhaltung mit Zwischen- und Jahresabschlüssen von A bis Z. Auch die Übernahme von Teilbereichen, die temporäre Übernahme von Buchhaltungsaufgaben oder die Bearbeitung und Optimierung des J",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Die Beratungen der STG-Zürich umfassen alle Steuerarten und Abgaben wie Einkommens- und Gewinnsteuern, Vermögens- und Kapitalsteuern",
+        "body": "In der komplexen Welt der direkten und indirekten Steuern sind wir zu Hause. Natürliche und juristische Personen begleiten wir in sämtlichen steuerlichen Fragestellungen – sachkundig, verlässlich und mit einem geschärften Blick aufs Ganze und der Liebe zum Detail.\n\nUnsere Beratungen umfassen alle Steuerarten und Abgaben wie Einkommens- und Gewinnsteuern, Vermögens- und Kapitalsteuern, Grundstückgewinn- und Handänderungssteuern, Erbschafts- und Schenkungssteuern, Mehrwertsteuer und das interkantonale Steuerrecht.\n\nUnternehmerinnen und Unternehmer begleiten wir ganzheitlich in allen Phasen der Unternehmensentwicklung – von der Gründung über die Umstrukturierung, den Unternehmensverkauf und -kauf bis zur Nachfolgeregelung. Je nach Bedarf umfasst unser Dienstleistungsangebot auch die Erarbeitung von Mitarbeiterbeteiligungsplänen und massgeschneiderten Spesenreglementen.\n\nBei einer fundierten",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "STG-Zürich bietet ganzheitliche Beratung und Unterstützung in Fragen zu Finanz- und Rechnungswesen, Lohnbuchhaltung, Finanzplanung",
+        "body": "Finanz- und Rechnungswesen, Lohnbuchhaltung, Finanzplanung, Family Office.\n\nFür unternehmerische Entscheide sind korrekte und vollständige Jahresrechnungen eine wichtige Grundlage. Unsere engagierten Mitarbeitenden bieten Ihnen eine ganzheitliche Beratung und Unterstützung in sämtlichen buchhalterischen Fragen. Vom Start-up bis zum KMU begleiten wir Unternehmen in jeder Entwicklungsphase. Wir erfassen Ihre Bedürfnisse, erarbeiten mit Effort Lösungen und begleiten persönlich deren Umsetzung – zuverlässig, versiert und vorausschauend.\n\nKleine und mittelgrosse Unternehmen unterstützen wir fachkundig im Aufbau eines aussagekräftigen Finanz- und Rechnungswesens. Nach Bedarf erledigen wir die gesamte Finanzbuchhaltung mit Zwischen- und Jahresabschlüssen von A bis Z. Auch die Übernahme von Teilbereichen, die temporäre Übernahme von Buchhaltungsaufgaben oder die Bearbeitung und Optimierung des J",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Die Beratungen der STG-Zürich umfassen alle Steuerarten und Abgaben wie Einkommens- und Gewinnsteuern, Vermögens- und Kapitalsteuern",
+        "body": "In der komplexen Welt der direkten und indirekten Steuern sind wir zu Hause. Natürliche und juristische Personen begleiten wir in sämtlichen steuerlichen Fragestellungen – sachkundig, verlässlich und mit einem geschärften Blick aufs Ganze und der Liebe zum Detail.\n\nUnsere Beratungen umfassen alle Steuerarten und Abgaben wie Einkommens- und Gewinnsteuern, Vermögens- und Kapitalsteuern, Grundstückgewinn- und Handänderungssteuern, Erbschafts- und Schenkungssteuern, Mehrwertsteuer und das interkantonale Steuerrecht.\n\nUnternehmerinnen und Unternehmer begleiten wir ganzheitlich in allen Phasen der Unternehmensentwicklung – von der Gründung über die Umstrukturierung, den Unternehmensverkauf und -kauf bis zur Nachfolgeregelung. Je nach Bedarf umfasst unser Dienstleistungsangebot auch die Erarbeitung von Mitarbeiterbeteiligungsplänen und massgeschneiderten Spesenreglementen.\n\nBei einer fundierten",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      }
+    ]
+  },
+  "values": {
+    "eyebrow": "Warum wir",
+    "heading": "Ihr Vorteil.",
+    "items": []
+  },
+  "team": {
+    "eyebrow": "Team",
+    "heading": "Menschen, die Ihre Zahlen kennen.",
+    "members": [
+      {
+        "name": "Jürg Thomas Gass",
+        "role": "Partner, Mitglied des Verwaltungsrates",
+        "initials": "JG",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/stg-zuerich/team/0-gass.jpg"
+      },
+      {
+        "name": "Sabrina Gholampour",
+        "role": "Partnerin, Mitglied des Verwaltungsrates",
+        "initials": "SG",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/stg-zuerich/team/1-gholampour.jpg"
+      },
+      {
+        "name": "Leiterin Treuhand",
+        "role": "Dipl. Expertin in Rechnungslegung und Controlling",
+        "initials": "LT",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.",
+        "photo": "/images/stg-zuerich/team/2-treuhand.jpg"
+      },
+      {
+        "name": "Doris Bürge",
+        "role": "Vizedirektorin",
+        "initials": "DB",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/stg-zuerich/team/3-bürge.jpg"
+      },
+      {
+        "name": "Tina Siebenmann",
+        "role": "Mandatsleiterin Treuhand",
+        "initials": "TS",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/stg-zuerich/team/4-siebenmann.jpg"
+      },
+      {
+        "name": "Mandatsleiterin Treuhand",
+        "role": "Fachfrau im Finanz- und Rechnungswesen mit eidg. Fachausweis",
+        "initials": "MT",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/stg-zuerich/team/5-treuhand.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Preise",
+    "heading": "Transparente Pauschalen.",
+    "tiers": []
+  },
+  "testimonials": {
+    "eyebrow": "Mandantenstimmen",
+    "heading": "Unternehmen vertrauen uns.",
+    "rating": "",
+    "reviewCount": "",
+    "items": []
+  },
+  "stats": {
+    "items": []
+  },
+  "trust": {
+    "label": "Mitglied · Zertifiziert",
+    "items": [
+      "RAB/zugel. Revisor",
+      "eidg. Diplom/Fachausweis",
+      "klara",
+      "sage"
+    ],
+    "badges": [
+      "/images/stg-zuerich/pool/7d785c542c__logo-pict.svg",
+      "/images/stg-zuerich/pool/52c9e49225__membership-treuhand-2022-03-01.svg"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "heading": "Häufige Fragen.",
+    "items": []
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Finanzen abzugeben?",
+    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "button": "Kontakt aufnehmen"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Sprechen wir.",
+    "info": {
+      "phone": "+41 44 219 78 00",
+      "email": "annette.widmann@stg.zuerich",
+      "hours": "Mo–Fr 08:00–17:00"
+    },
+    "formCta": "Nachricht senden"
+  },
+  "footer": {
+    "brand": "STG Zürich",
+    "tagline": "Dienstleistungen der Schweizerischen Treuhandgesellschaft (Zürich) AG: Steuern, Treuhand, Trust & Gestion und Immobilien",
+    "logo": "/images/stg-zuerich/pool/1657b164e5__logo.svg",
+    "columns": [
+      {
+        "title": "Sitemap",
+        "links": [
+          "Leistungen",
+          "Über uns",
+          "Kontakt"
+        ]
+      },
+      {
+        "title": "Standort",
+        "links": [
+          "Zürich",
+          "+41 44 219 78 00",
+          "annette.widmann@stg.zuerich"
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          "Impressum",
+          "Datenschutz"
+        ]
+      }
+    ],
+    "legal": [
+      "Impressum",
+      "Datenschutz"
+    ],
+    "year": 2026
+  }
+}

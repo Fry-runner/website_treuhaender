@@ -1,13 +1,13 @@
 import React from "react";
 import { Container } from "./primitives";
-import { SectionHead } from "./SectionHead";
+import { SectionHead, type MoreLink } from "./SectionHead";
 import type { ValuesContent } from "../content/types";
 
 /** Why-us pillars in a divided column band (briefing §3 values). */
-export const Values: React.FC<{ content: ValuesContent }> = ({ content }) => (
+export const Values: React.FC<{ content: ValuesContent; more?: MoreLink }> = ({ content, more }) => (
   <section style={{ background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
-      <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
+      <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: 0, border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden", background: "var(--ds-bg)" }}>
         {content.items.map((v, i) => (
           <div key={i} style={{ padding: "1.6rem", borderLeft: i === 0 ? "none" : "1px solid var(--ds-border)", display: "flex", flexDirection: "column", gap: "0.7rem" }}>
