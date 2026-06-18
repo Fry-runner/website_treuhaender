@@ -162,7 +162,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -192,23 +192,17 @@
     ]
   },
   "media": {
-    "hero": "/images/wuerth-treuhand-ch/pool/stock-skyline-18388935.jpg",
+    "hero": "/images/wuerth-treuhand-ch/pool/stock-architecture-15577446.jpg",
     "badges": [],
-    "photos": [
-      "/images/wuerth-treuhand-ch/pool/stock-office-7511748.jpg",
-      "/images/wuerth-treuhand-ch/pool/stock-meeting-7433930.jpg",
-      "/images/wuerth-treuhand-ch/pool/stock-consultation-7821671.jpg",
-      "/images/wuerth-treuhand-ch/pool/stock-advisory-7821683.jpg",
-      "/images/wuerth-treuhand-ch/pool/stock-reception-2451616.jpg"
-    ],
+    "photos": [],
     "serviceImages": {
-      "Buchhaltung": "/images/wuerth-treuhand-ch/pool/stock-success-30711884.jpg",
-      "Steuerberatung": "/images/wuerth-treuhand-ch/pool/stock-meeting-7640793.jpg",
-      "Lohnadministration": "/images/wuerth-treuhand-ch/pool/stock-meeting-7433869.jpg",
-      "Jahresabschluss": "/images/wuerth-treuhand-ch/pool/stock-documents-7876037.jpg",
-      "Mehrwertsteuer": "/images/wuerth-treuhand-ch/pool/stock-documents-7567551.jpg",
-      "Unternehmensberatung": "/images/wuerth-treuhand-ch/pool/stock-finance-7947744.jpg",
-      "Revision": "/images/wuerth-treuhand-ch/pool/stock-documents-7567600.jpg"
+      "Buchhaltung": "/images/wuerth-treuhand-ch/pool/stock-success-5849583.jpg",
+      "Steuerberatung": "/images/wuerth-treuhand-ch/pool/stock-laptop-7948060.jpg",
+      "Lohnadministration": "/images/wuerth-treuhand-ch/pool/stock-advisory-7821543.jpg",
+      "Jahresabschluss": "/images/wuerth-treuhand-ch/pool/stock-success-6289026.jpg",
+      "Mehrwertsteuer": "/images/wuerth-treuhand-ch/pool/stock-desk-8872717.jpg",
+      "Unternehmensberatung": "/images/wuerth-treuhand-ch/pool/stock-success-6289065.jpg",
+      "Revision": "/images/wuerth-treuhand-ch/pool/stock-meeting-7495291.jpg"
     },
     "documents": [
       {
@@ -262,17 +256,19 @@
     ],
     "assets": [
       {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-skyline-18388935.jpg",
+        "src": "/images/wuerth-treuhand-ch/pool/stock-architecture-15577446.jpg",
         "kind": "hero",
         "alt": "",
-        "bytes": 336110,
+        "bytes": 383175,
         "width": 1880,
-        "height": 1211,
+        "height": 1057,
         "orientation": "landscape",
         "subject": "city",
         "stock": true,
-        "credit": "Denil Dominic (Pexels)",
-        "source": "https://www.pexels.com/photo/one-wtc-in-nyc-18388935/",
+        "credit": "ZhiCheng Zhang (Pexels)",
+        "source": "https://www.pexels.com/photo/facade-of-contemporary-building-in-downtown-15577446/",
+        "quality": 0.84,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -282,136 +278,97 @@
         ]
       },
       {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-office-7511748.jpg",
+        "src": "/images/wuerth-treuhand-ch/pool/stock-success-5849583.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 115255,
-        "width": 1600,
-        "height": 1068,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "Max Vakhtbovych (Pexels)",
-        "source": "https://www.pexels.com/photo/modern-office-interior-with-table-7511748/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-meeting-7433930.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 124630,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "Vlada Karpovich (Pexels)",
-        "source": "https://www.pexels.com/photo/two-women-having-a-conversation-7433930/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-consultation-7821671.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 101385,
-        "width": 1600,
-        "height": 1066,
+        "bytes": 30094,
+        "width": 1280,
+        "height": 751,
         "orientation": "landscape",
         "subject": "generic",
+        "stock": true,
+        "credit": "Monstera Production (Pexels)",
+        "source": "https://www.pexels.com/photo/decorative-cardboard-illustration-of-hand-with-diagram-and-dollar-coin-5849583/",
+        "quality": 0.2,
+        "faces": 0,
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-laptop-7948060.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 79767,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/an-agent-showing-documents-to-his-client-7821671/",
+        "source": "https://www.pexels.com/photo/person-using-black-laptop-computer-7948060/",
+        "quality": 0.63,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
           "service",
           "feature"
         ]
       },
       {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-advisory-7821683.jpg",
+        "src": "/images/wuerth-treuhand-ch/pool/stock-advisory-7821543.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 112033,
-        "width": 1600,
-        "height": 1066,
+        "bytes": 62361,
+        "width": 1280,
+        "height": 853,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/professional-man-holding-papers-7821683/",
+        "source": "https://www.pexels.com/photo/close-up-photo-of-person-pointing-on-documents-7821543/",
+        "quality": 0.62,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
           "service",
           "feature"
         ]
       },
       {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-reception-2451616.jpg",
+        "src": "/images/wuerth-treuhand-ch/pool/stock-success-6289026.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 211736,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "Proxyclick Visitor Management System (Pexels)",
-        "source": "https://www.pexels.com/photo/people-near-white-counter-desk-2451616/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-success-30711884.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 239741,
+        "bytes": 17986,
         "width": 1280,
-        "height": 853,
+        "height": 720,
         "orientation": "landscape",
         "subject": "generic",
         "stock": true,
-        "credit": "Aurelijus U. (Pexels)",
-        "source": "https://www.pexels.com/photo/creative-financial-growth-concept-with-coins-30711884/",
+        "credit": "Monstera Production (Pexels)",
+        "source": "https://www.pexels.com/photo/graph-with-increasing-euro-profitable-investment-6289026/",
+        "quality": 0.11,
+        "faces": 0,
         "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
+          "gallery"
         ]
       },
       {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-meeting-7640793.jpg",
+        "src": "/images/wuerth-treuhand-ch/pool/stock-desk-8872717.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 78886,
+        "bytes": 120736,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Yan Krukau (Pexels)",
-        "source": "https://www.pexels.com/photo/a-man-scolding-a-woman-sitting-at-a-desk-7640793/",
+        "credit": "MART  PRODUCTION (Pexels)",
+        "source": "https://www.pexels.com/photo/high-angle-shot-of-a-typewriter-and-money-on-the-table-8872717/",
+        "quality": 0.8,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -420,93 +377,37 @@
         ]
       },
       {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-meeting-7433869.jpg",
+        "src": "/images/wuerth-treuhand-ch/pool/stock-success-6289065.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 93906,
+        "bytes": 19783,
         "width": 1280,
-        "height": 853,
+        "height": 720,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Monstera Production (Pexels)",
+        "source": "https://www.pexels.com/photo/illustration-of-woman-analyzing-financial-line-graphic-6289065/",
+        "quality": 0.2,
+        "faces": 0,
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-meeting-7495291.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 87002,
+        "width": 1280,
+        "height": 830,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Vlada Karpovich (Pexels)",
-        "source": "https://www.pexels.com/photo/a-meeting-in-an-office-7433869/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-documents-7876037.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 56686,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "www.kaboompics.com (Pexels)",
-        "source": "https://www.pexels.com/photo/a-person-signing-divorce-documents-7876037/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-documents-7567551.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 68271,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "Tima Miroshnichenko (Pexels)",
-        "source": "https://www.pexels.com/photo/a-hand-holding-a-pen-7567551/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-finance-7947744.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 65323,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/close-up-of-a-colorful-chart-7947744/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/wuerth-treuhand-ch/pool/stock-documents-7567600.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 60126,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "Tima Miroshnichenko (Pexels)",
-        "source": "https://www.pexels.com/photo/person-signing-on-a-paper-7567600/",
+        "credit": "Moe Magners (Pexels)",
+        "source": "https://www.pexels.com/photo/office-team-having-a-meeting-in-the-room-7495291/",
+        "quality": 0.74,
+        "faces": 3,
         "roles": [
           "gallery",
           "background",
@@ -516,21 +417,17 @@
       }
     ],
     "sectionBackgrounds": [
-      "/images/wuerth-treuhand-ch/pool/stock-skyline-18388935.jpg",
-      "/images/wuerth-treuhand-ch/pool/stock-office-7511748.jpg",
-      "/images/wuerth-treuhand-ch/pool/stock-meeting-7433930.jpg"
+      "/images/wuerth-treuhand-ch/pool/stock-architecture-15577446.jpg",
+      "/images/wuerth-treuhand-ch/pool/stock-success-5849583.jpg",
+      "/images/wuerth-treuhand-ch/pool/stock-laptop-7948060.jpg"
     ],
     "stock": true,
     "credits": [
-      "Denil Dominic (Pexels)",
-      "Max Vakhtbovych (Pexels)",
-      "Vlada Karpovich (Pexels)",
+      "ZhiCheng Zhang (Pexels)",
+      "Monstera Production (Pexels)",
       "RDNE Stock project (Pexels)",
-      "Proxyclick Visitor Management System (Pexels)",
-      "Aurelijus U. (Pexels)",
-      "Yan Krukau (Pexels)",
-      "www.kaboompics.com (Pexels)",
-      "Tima Miroshnichenko (Pexels)"
+      "MART  PRODUCTION (Pexels)",
+      "Moe Magners (Pexels)"
     ]
   },
   "nav": {
@@ -561,7 +458,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Treuhandbüro an der Norastrasse in Zürich: Ihr spezialisierter Partner für Steuerberatung, Revision, Unternehmensberatung und Treuhand",
     "asideAttribution": "Würth Treuhand AG",
-    "image": "/images/wuerth-treuhand-ch/pool/stock-skyline-18388935.jpg"
+    "image": "/images/wuerth-treuhand-ch/pool/stock-architecture-15577446.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -577,7 +474,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/wuerth-treuhand-ch/pool/stock-success-30711884.jpg"
+        "image": "/images/wuerth-treuhand-ch/pool/stock-success-5849583.jpg"
       },
       {
         "title": "Steuerberatung",
@@ -589,7 +486,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/wuerth-treuhand-ch/pool/stock-meeting-7640793.jpg"
+        "image": "/images/wuerth-treuhand-ch/pool/stock-laptop-7948060.jpg"
       },
       {
         "title": "Lohnadministration",
@@ -601,7 +498,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/wuerth-treuhand-ch/pool/stock-meeting-7433869.jpg"
+        "image": "/images/wuerth-treuhand-ch/pool/stock-advisory-7821543.jpg"
       },
       {
         "title": "Jahresabschluss",
@@ -613,7 +510,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/wuerth-treuhand-ch/pool/stock-documents-7876037.jpg"
+        "image": "/images/wuerth-treuhand-ch/pool/stock-success-6289026.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -625,7 +522,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/wuerth-treuhand-ch/pool/stock-documents-7567551.jpg"
+        "image": "/images/wuerth-treuhand-ch/pool/stock-desk-8872717.jpg"
       },
       {
         "title": "Unternehmensberatung",
@@ -637,7 +534,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/wuerth-treuhand-ch/pool/stock-finance-7947744.jpg"
+        "image": "/images/wuerth-treuhand-ch/pool/stock-success-6289065.jpg"
       }
     ]
   },

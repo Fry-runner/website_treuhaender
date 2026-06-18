@@ -141,10 +141,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -180,7 +176,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -211,25 +207,24 @@
     ]
   },
   "media": {
-    "hero": "/images/steuerberater365-zuerich-ch/hero.jpg",
+    "hero": "/images/steuerberater365-zuerich-ch/pool/stock-architecture-37344875.jpg",
     "badges": [
       "/images/steuerberater365-zuerich-ch/pool/d9e726e0f0__jimdo-logoCreatorDark.svg"
     ],
     "photos": [
-      "/images/steuerberater365-zuerich-ch/pool/e27c067e70__steuerberater-z_C3_BCrich.png",
-      "/images/steuerberater365-zuerich-ch/pool/0bf5b2caa8__steuererkl_C3_A4rung-ausf_C3_BCllen-lassen-z_C3_BCrich.jpg",
-      "/images/steuerberater365-zuerich-ch/pool/671d38d345__steuerberatung-kloten.jpg",
       "/images/steuerberater365-zuerich-ch/pool/eeb2694a6c__image.jpg",
-      "/images/steuerberater365-zuerich-ch/pool/159905c9d6__steuerberatung-h_C3_B6ngg.png"
+      "/images/steuerberater365-zuerich-ch/pool/0bf5b2caa8__steuererkl_C3_A4rung-ausf_C3_BCllen-lassen-z_C3_BCrich.jpg",
+      "/images/steuerberater365-zuerich-ch/pool/e27c067e70__steuerberater-z_C3_BCrich.png",
+      "/images/steuerberater365-zuerich-ch/pool/671d38d345__steuerberatung-kloten.jpg"
     ],
     "serviceImages": {
       "Steuerberatung": "/images/steuerberater365-zuerich-ch/pool/159905c9d6__steuerberatung-h_C3_B6ngg.png",
-      "Buchhaltung": "/images/steuerberater365-zuerich-ch/pool/stock-meeting-7433930.jpg",
-      "Lohnadministration": "/images/steuerberater365-zuerich-ch/pool/stock-documents-5387258.jpg",
-      "Jahresabschluss": "/images/steuerberater365-zuerich-ch/pool/stock-meeting-7640793.jpg",
-      "Mehrwertsteuer": "/images/steuerberater365-zuerich-ch/pool/stock-documents-7567551.jpg",
-      "Unternehmensberatung": "/images/steuerberater365-zuerich-ch/pool/stock-advisory-7821683.jpg",
-      "Revision": "/images/steuerberater365-zuerich-ch/pool/stock-success-30711884.jpg"
+      "Buchhaltung": "/images/steuerberater365-zuerich-ch/pool/stock-documents-590045.jpg",
+      "Lohnadministration": "/images/steuerberater365-zuerich-ch/pool/stock-advisory-13701589.jpg",
+      "Jahresabschluss": "/images/steuerberater365-zuerich-ch/pool/stock-documents-7821684.jpg",
+      "Mehrwertsteuer": "/images/steuerberater365-zuerich-ch/pool/stock-desk-8872622.jpg",
+      "Unternehmensberatung": "/images/steuerberater365-zuerich-ch/pool/stock-success-6289026.jpg",
+      "Revision": "/images/steuerberater365-zuerich-ch/pool/stock-finance-7580854.jpg"
     },
     "documents": [],
     "assets": [
@@ -242,6 +237,7 @@
         "height": 29,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "2434ca8989c93424",
         "roles": []
       },
       {
@@ -252,7 +248,10 @@
         "width": 832,
         "height": 468,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "5b5b495ddd7d6f87",
+        "quality": 0.8,
+        "faces": 3,
         "roles": [
           "gallery",
           "service"
@@ -266,11 +265,11 @@
         "width": 820,
         "height": 820,
         "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "6fef2e2c6c485c6c",
+        "quality": 0.8,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/steuerberater365-zuerich-ch/pool/e27c067e70__steuerberater-z_C3_BCrich.png",
@@ -280,7 +279,10 @@
         "width": 756,
         "height": 552,
         "orientation": "landscape",
-        "subject": "city",
+        "subject": "office",
+        "phash": "5858197c74859199",
+        "quality": 0.74,
+        "faces": 1,
         "roles": [
           "gallery",
           "service"
@@ -295,6 +297,9 @@
         "height": 532,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "60f0d2f6ea6ad85",
+        "quality": 0.8,
+        "faces": 2,
         "roles": [
           "service"
         ]
@@ -307,21 +312,87 @@
         "width": 409,
         "height": 295,
         "orientation": "landscape",
-        "subject": "city",
+        "subject": "office",
+        "phash": "cc9985c5d5e2c1e5",
+        "quality": 0.76,
+        "faces": 1,
         "roles": []
       },
       {
-        "src": "/images/steuerberater365-zuerich-ch/pool/stock-meeting-7433930.jpg",
+        "src": "/images/steuerberater365-zuerich-ch/pool/stock-architecture-37344875.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 217986,
+        "width": 1880,
+        "height": 1251,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Truls Brubakken (Pexels)",
+        "source": "https://www.pexels.com/photo/modern-architectural-structure-against-cloudy-sky-37344875/",
+        "quality": 0.67,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuerberater365-zuerich-ch/pool/stock-documents-590045.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 89129,
+        "bytes": 43402,
+        "width": 1280,
+        "height": 848,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/graph-and-line-chart-printed-paper-590045/",
+        "quality": 0.34,
+        "faces": 0,
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/steuerberater365-zuerich-ch/pool/stock-advisory-13701589.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 89584,
+        "width": 1280,
+        "height": 852,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Luke Miller (Pexels)",
+        "source": "https://www.pexels.com/photo/a-man-and-woman-holding-a-paper-13701589/",
+        "quality": 0.58,
+        "faces": 2,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuerberater365-zuerich-ch/pool/stock-documents-7821684.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 89178,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Vlada Karpovich (Pexels)",
-        "source": "https://www.pexels.com/photo/two-women-having-a-conversation-7433930/",
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/handing-out-of-documents-7821684/",
+        "quality": 0.64,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -330,36 +401,19 @@
         ]
       },
       {
-        "src": "/images/steuerberater365-zuerich-ch/pool/stock-documents-5387258.jpg",
+        "src": "/images/steuerberater365-zuerich-ch/pool/stock-desk-8872622.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 56901,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "www.kaboompics.com (Pexels)",
-        "source": "https://www.pexels.com/photo/person-signing-a-contract-5387258/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/steuerberater365-zuerich-ch/pool/stock-meeting-7640793.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 78886,
+        "bytes": 97363,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Yan Krukau (Pexels)",
-        "source": "https://www.pexels.com/photo/a-man-scolding-a-woman-sitting-at-a-desk-7640793/",
+        "credit": "MART  PRODUCTION (Pexels)",
+        "source": "https://www.pexels.com/photo/money-on-wooden-table-8872622/",
+        "quality": 0.61,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -368,55 +422,37 @@
         ]
       },
       {
-        "src": "/images/steuerberater365-zuerich-ch/pool/stock-documents-7567551.jpg",
+        "src": "/images/steuerberater365-zuerich-ch/pool/stock-success-6289026.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 68271,
+        "bytes": 17986,
         "width": 1280,
-        "height": 853,
+        "height": 720,
         "orientation": "landscape",
         "subject": "generic",
         "stock": true,
-        "credit": "Tima Miroshnichenko (Pexels)",
-        "source": "https://www.pexels.com/photo/a-hand-holding-a-pen-7567551/",
+        "credit": "Monstera Production (Pexels)",
+        "source": "https://www.pexels.com/photo/graph-with-increasing-euro-profitable-investment-6289026/",
+        "quality": 0.14,
+        "faces": 0,
         "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
+          "gallery"
         ]
       },
       {
-        "src": "/images/steuerberater365-zuerich-ch/pool/stock-advisory-7821683.jpg",
+        "src": "/images/steuerberater365-zuerich-ch/pool/stock-finance-7580854.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 79818,
+        "bytes": 79610,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
         "subject": "generic",
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/professional-man-holding-papers-7821683/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/steuerberater365-zuerich-ch/pool/stock-success-30711884.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 239741,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "Aurelijus U. (Pexels)",
-        "source": "https://www.pexels.com/photo/creative-financial-growth-concept-with-coins-30711884/",
+        "source": "https://www.pexels.com/photo/calculator-on-top-of-the-paper-7580854/",
+        "quality": 0.53,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -426,18 +462,18 @@
       }
     ],
     "sectionBackgrounds": [
-      "/images/steuerberater365-zuerich-ch/pool/stock-meeting-7433930.jpg",
-      "/images/steuerberater365-zuerich-ch/pool/stock-documents-5387258.jpg",
-      "/images/steuerberater365-zuerich-ch/pool/stock-meeting-7640793.jpg"
+      "/images/steuerberater365-zuerich-ch/pool/stock-architecture-37344875.jpg",
+      "/images/steuerberater365-zuerich-ch/pool/stock-documents-590045.jpg",
+      "/images/steuerberater365-zuerich-ch/pool/stock-advisory-13701589.jpg"
     ],
     "stock": true,
     "credits": [
-      "Vlada Karpovich (Pexels)",
-      "www.kaboompics.com (Pexels)",
-      "Yan Krukau (Pexels)",
-      "Tima Miroshnichenko (Pexels)",
+      "Truls Brubakken (Pexels)",
+      "Lukas Blazek (Pexels)",
+      "Luke Miller (Pexels)",
       "RDNE Stock project (Pexels)",
-      "Aurelijus U. (Pexels)"
+      "MART  PRODUCTION (Pexels)",
+      "Monstera Production (Pexels)"
     ]
   },
   "nav": {
@@ -468,7 +504,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Steuerberater Zürich für Steuererklärung ausfüllen lassen ab CHF 49.-. Jetzt kostenlos anrufen auf 044 508 75 30 oder eine Nachricht senden.",
     "asideAttribution": "Steuerberater365 Zürich",
-    "image": "/images/steuerberater365-zuerich-ch/hero.jpg"
+    "image": "/images/steuerberater365-zuerich-ch/pool/stock-architecture-37344875.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -484,7 +520,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/steuerberater365-zuerich-ch/pool/stock-meeting-7433930.jpg"
+        "image": "/images/steuerberater365-zuerich-ch/pool/stock-documents-590045.jpg"
       },
       {
         "title": "Steuerberatung",
@@ -508,7 +544,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/steuerberater365-zuerich-ch/pool/stock-documents-5387258.jpg"
+        "image": "/images/steuerberater365-zuerich-ch/pool/stock-advisory-13701589.jpg"
       },
       {
         "title": "Jahresabschluss",
@@ -520,7 +556,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/steuerberater365-zuerich-ch/pool/stock-meeting-7640793.jpg"
+        "image": "/images/steuerberater365-zuerich-ch/pool/stock-documents-7821684.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -532,7 +568,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/steuerberater365-zuerich-ch/pool/stock-documents-7567551.jpg"
+        "image": "/images/steuerberater365-zuerich-ch/pool/stock-desk-8872622.jpg"
       },
       {
         "title": "Unternehmensberatung",
@@ -544,7 +580,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/steuerberater365-zuerich-ch/pool/stock-advisory-7821683.jpg"
+        "image": "/images/steuerberater365-zuerich-ch/pool/stock-success-6289026.jpg"
       }
     ]
   },

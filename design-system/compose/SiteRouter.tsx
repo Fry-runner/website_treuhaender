@@ -10,7 +10,7 @@ import { applyLook } from "../looks/applyLook";
 import { type ArchetypeId } from "../blueprints";
 import { composeSite, resolvePages, slugify, pageTypes, type ResolvedPage } from "../pages";
 import { presets } from "../tokens";
-import { planSite, heroById, sectionComponent, decollideSections } from "../variants/select";
+import { planSite, heroById, pageHeaderById, sectionComponent, decollideSections, spaciousTeamVariant } from "../variants/select";
 import { dedupeImages } from "../content/uniqueImages";
 import { PrimaryStyleProvider, type PrimaryStyle } from "../structures/primitives";
 import { IconSetProvider, iconSetById } from "../icons/iconSets";
@@ -31,7 +31,6 @@ import { Faq } from "../structures/Faq";
 import { CtaBand } from "../structures/CtaBand";
 import { Contact } from "../structures/Contact";
 import { Footer } from "../structures/Footer";
-import { PageHeader } from "../structures/PageHeader";
 import { ServiceBody } from "../structures/ServiceBody";
 import { Related } from "../structures/Related";
 import { LegalBody } from "../structures/LegalBody";
@@ -137,8 +136,6 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
     links: navPages.map((p) => ({ label: p.pageType === "home" ? "Home" : pageTypes[p.pageType]?.name ?? p.title, href: p.slug })),
   };
 
-  const crumb = (p: ResolvedPage) => (p.pageType === "service-detail" ? "Home / Leistungen" : p.pageType === "legal" ? "Home" : "Home");
-
   const isHome = page.pageType === "home";
 
   // Service cards deep-link only where the target exists: detail page > overview > inert.
@@ -175,7 +172,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       case "nav": return <Nav key={i} content={navContent} current={page.slug} />;
       case "footer": return <Footer key={i} content={content.footer} />;
       case "hero": return <HeroComp key={i} content={content.hero} />;
-      case "page-header": return <PageHeader key={i} eyebrow={pageTypes[page.pageType]?.name ?? "Seite"} title={page.title} breadcrumb={crumb(page)} image={headerImageFor(page)} />;
+      case "page-header": { const PH = pageHeaderById(plan.pageHeaderId).component; return <PH key={i} eyebrow={pageTypes[page.pageType]?.name ?? "Seite"} title={page.title} image={headerImageFor(page)} />; }
       case "services": { const C = sectionComponent("services", renderPlan) ?? Services; const { items, more } = homeTeaser("services", content.services.items); return <C key={i} content={{ ...content.services, items }} more={more} onPick={servicePick} />; }
       case "service-body": {
         const it = content.services.items.find((x) => x.title === page.item);
@@ -207,9 +204,10 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
     }
   };
 
-  // Image-embedding axis: surface a media gallery on the home page when the firm
-  // actually has photos (or when the studio forces a gallery variant).
-  const wantGallery = (content.media?.photos?.length ?? 0) >= 2 || !!sectionOverrides?.["gallery"];
+  // Image-embedding axis: surface a media gallery on the home page only when the firm
+  // has >=3 REAL gallery-suitable photos (media.photos is scrape-only — no stock, no
+  // portraits); fewer than that ⇒ no gallery. The studio can still force one.
+  const wantGallery = (content.media?.photos?.length ?? 0) >= 3 || !!sectionOverrides?.["gallery"];
   const featImg = content.media?.photos?.[0] ?? content.media?.sectionBackgrounds?.[0];
   const homeSections = isHome ? (featImg ? injectFeature(withGenericSlots(page.sections)) : withGenericSlots(page.sections)) : page.sections;
   const displaySections = isHome && wantGallery && !homeSections.includes("gallery")
@@ -229,19 +227,23 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       case "stats": return statItems.length > 0;
       case "faq": return content.faq.items.length > 0;
       case "partners": return content.trust.items.length > 0 || (content.media?.badges?.length ?? 0) > 0;
-      case "gallery": return galleryContent.images.length > 0;
+      case "gallery": return galleryContent.images.length >= 3 || !!sectionOverrides?.["gallery"];
       default: return true;
     }
   };
   const visibleSections = displaySections.filter(slotHasContent);
   // Now that the rendered order is known, keep two same-family sections from sitting
   // directly adjacent (studio-forced slots stay locked).
-  renderPlan = {
-    ...activePlan,
-    sections: decollideSections(visibleSections, activePlan, content, {
-      seed, locked: new Set(Object.keys(sectionOverrides ?? {})),
-    }),
-  };
+  const decollided = decollideSections(visibleSections, activePlan, content, {
+    seed, locked: new Set(Object.keys(sectionOverrides ?? {})),
+  });
+  // On the dedicated Team page, give each person more room: swap the compact
+  // homepage team grid for a spacious team layout (a studio override wins).
+  if (page.pageType === "team" && !sectionOverrides?.["team"]) {
+    const roomy = spaciousTeamVariant(content, activePlan, seed);
+    if (roomy) decollided.team = roomy;
+  }
+  renderPlan = { ...activePlan, sections: decollided };
 
   return (
     <div style={applyLook(look)}>

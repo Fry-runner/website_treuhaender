@@ -174,7 +174,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -183,8 +183,7 @@
     "placeholders": [
       "hero.aside",
       "look.colors (generated)",
-      "media.stock (CC fallback)",
-      "team.members"
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -206,7 +205,7 @@
   },
   "media": {
     "logo": "/images/accuratus-treuhand-ch/pool/901d35a719__accuratus-logo.jpg",
-    "hero": "/images/accuratus-treuhand-ch/pool/stock-boardroom-6949383.jpg",
+    "hero": "/images/accuratus-treuhand-ch/pool/stock-finance-577195.jpg",
     "badges": [
       "/images/accuratus-treuhand-ch/pool/e0ce24a215__logo-treuhand-suisse.gif",
       "/images/accuratus-treuhand-ch/pool/bad9d9f7bc__logo-tondolo-one-gmbh.png",
@@ -216,25 +215,15 @@
       "/images/accuratus-treuhand-ch/pool/80e69549d2__AbaNinja_Logo.png",
       "/images/accuratus-treuhand-ch/pool/1b8a3b0187__bexio-green-claim.png"
     ],
-    "photos": [
-      "/images/accuratus-treuhand-ch/pool/c588bbe003__andrea-jenze-0.jpg",
-      "/images/accuratus-treuhand-ch/pool/f9918fcb13__theo-herg-0.jpg",
-      "/images/accuratus-treuhand-ch/pool/5c69464402__rupa-herger_1500x100-0.jpg",
-      "/images/accuratus-treuhand-ch/pool/fc6fcbdeaa__andrea-header-slider.png",
-      "/images/accuratus-treuhand-ch/pool/66f98c2c38__kerstin-moeri-header-slider.png",
-      "/images/accuratus-treuhand-ch/pool/c3ec825bc5__rupa-header-slider.png",
-      "/images/accuratus-treuhand-ch/pool/a4a9d83b8c__theo-header-slider.png",
-      "/images/accuratus-treuhand-ch/pool/b492de41d6__bexio-gold.png",
-      "/images/accuratus-treuhand-ch/pool/df58463670__team-ne-0.jpg"
-    ],
+    "photos": [],
     "serviceImages": {
-      "Buchhaltung": "/images/accuratus-treuhand-ch/pool/stock-desk-8297351.jpg",
-      "Steuerberatung": "/images/accuratus-treuhand-ch/pool/stock-desk-7821716.jpg",
-      "Lohnadministration": "/images/accuratus-treuhand-ch/pool/stock-meeting-7433869.jpg",
-      "Jahresabschluss": "/images/accuratus-treuhand-ch/pool/stock-desk-8296974.jpg",
-      "Mehrwertsteuer": "/images/accuratus-treuhand-ch/pool/stock-office-7511748.jpg",
-      "Unternehmensberatung": "/images/accuratus-treuhand-ch/pool/stock-success-6289065.jpg",
-      "Revision": "/images/accuratus-treuhand-ch/pool/stock-laptop-7691749.jpg"
+      "Buchhaltung": "/images/accuratus-treuhand-ch/pool/stock-desk-8580716.jpg",
+      "Steuerberatung": "/images/accuratus-treuhand-ch/pool/stock-desk-5668471.jpg",
+      "Lohnadministration": "/images/accuratus-treuhand-ch/pool/stock-office-36175674.jpg",
+      "Jahresabschluss": "/images/accuratus-treuhand-ch/pool/stock-desk-8872717.jpg",
+      "Mehrwertsteuer": "/images/accuratus-treuhand-ch/pool/stock-office-36175676.jpg",
+      "Unternehmensberatung": "/images/accuratus-treuhand-ch/pool/stock-finance-590011.jpg",
+      "Revision": "/images/accuratus-treuhand-ch/pool/stock-laptop-3760368.jpg"
     },
     "documents": [],
     "assets": [
@@ -247,6 +236,7 @@
         "height": 250,
         "orientation": "square",
         "subject": "generic",
+        "phash": "88009caad6ea0040",
         "roles": []
       },
       {
@@ -258,6 +248,7 @@
         "height": 43,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "4d044d6212a6848c",
         "roles": []
       },
       {
@@ -269,6 +260,7 @@
         "height": 48,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "402043cac2d40402",
         "roles": []
       },
       {
@@ -280,6 +272,7 @@
         "height": 107,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "607068205d34265a",
         "roles": []
       },
       {
@@ -291,6 +284,7 @@
         "height": 102,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "44444c6cacae2949",
         "roles": []
       },
       {
@@ -302,6 +296,7 @@
         "height": 128,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "b0b0b0b0b1bdb2b",
         "roles": []
       },
       {
@@ -313,6 +308,7 @@
         "height": 127,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "6c6d3d6c6851622a",
         "roles": []
       },
       {
@@ -324,66 +320,8 @@
         "height": 371,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "4c2a6240582a5828",
         "roles": []
-      },
-      {
-        "src": "/images/accuratus-treuhand-ch/pool/fc6fcbdeaa__andrea-header-slider.png",
-        "kind": "hero",
-        "alt": "Accuratus-Treuhand GmbH - Andrea Jenzer",
-        "bytes": 50423,
-        "width": 350,
-        "height": 376,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/accuratus-treuhand-ch/pool/66f98c2c38__kerstin-moeri-header-slider.png",
-        "kind": "hero",
-        "alt": "Accuratus-Treuhand GmbH - Kerstin Möri",
-        "bytes": 49027,
-        "width": 350,
-        "height": 376,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/accuratus-treuhand-ch/pool/c3ec825bc5__rupa-header-slider.png",
-        "kind": "hero",
-        "alt": "Accuratus-Treuhand GmbH - Rupa Herger",
-        "bytes": 47881,
-        "width": 350,
-        "height": 376,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/accuratus-treuhand-ch/pool/a4a9d83b8c__theo-header-slider.png",
-        "kind": "hero",
-        "alt": "Accuratus-Treuhand GmbH - Theo Herger",
-        "bytes": 48232,
-        "width": 350,
-        "height": 376,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/accuratus-treuhand-ch/pool/b492de41d6__bexio-gold.png",
-        "kind": "photo",
-        "alt": "bexio gold",
-        "bytes": 37021,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
       },
       {
         "src": "/images/accuratus-treuhand-ch/pool/c588bbe003__andrea-jenze-0.jpg",
@@ -393,7 +331,10 @@
         "width": 380,
         "height": 250,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "5959b5b5b4b46464",
+        "quality": 0.43,
+        "faces": 1,
         "roles": []
       },
       {
@@ -405,6 +346,9 @@
         "height": 250,
         "orientation": "landscape",
         "subject": "portrait",
+        "phash": "29595959b1b43070",
+        "quality": 0.6,
+        "faces": 1,
         "roles": []
       },
       {
@@ -415,7 +359,10 @@
         "width": 380,
         "height": 250,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "1a59595b99b4b4b4",
+        "quality": 0.52,
+        "faces": 1,
         "roles": []
       },
       {
@@ -426,21 +373,26 @@
         "width": 380,
         "height": 253,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "a5959b1b4b4b4ac",
+        "quality": 0.5,
+        "faces": 1,
         "roles": []
       },
       {
-        "src": "/images/accuratus-treuhand-ch/pool/stock-boardroom-6949383.jpg",
+        "src": "/images/accuratus-treuhand-ch/pool/stock-finance-577195.jpg",
         "kind": "hero",
         "alt": "",
-        "bytes": 102252,
-        "width": 1600,
-        "height": 1066,
+        "bytes": 322913,
+        "width": 1880,
+        "height": 1245,
         "orientation": "landscape",
-        "subject": "office",
+        "subject": "generic",
         "stock": true,
-        "credit": "Werner Pfennig (Pexels)",
-        "source": "https://www.pexels.com/photo/black-monitors-on-wooden-table-top-6949383/",
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/turned-on-laptop-computer-577195/",
+        "quality": 0.85,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -450,36 +402,19 @@
         ]
       },
       {
-        "src": "/images/accuratus-treuhand-ch/pool/stock-desk-8297351.jpg",
+        "src": "/images/accuratus-treuhand-ch/pool/stock-desk-8580716.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 110939,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "Mikhail Nilov (Pexels)",
-        "source": "https://www.pexels.com/photo/an-accountant-using-a-calculator-8297351/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/accuratus-treuhand-ch/pool/stock-desk-7821716.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 84692,
+        "bytes": 82926,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/a-man-sitting-at-the-table-7821716/",
+        "source": "https://www.pexels.com/photo/black-pen-on-white-pad-paper-8580716/",
+        "quality": 0.63,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -488,17 +423,19 @@
         ]
       },
       {
-        "src": "/images/accuratus-treuhand-ch/pool/stock-meeting-7433869.jpg",
+        "src": "/images/accuratus-treuhand-ch/pool/stock-desk-5668471.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 93906,
+        "bytes": 107733,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Vlada Karpovich (Pexels)",
-        "source": "https://www.pexels.com/photo/a-meeting-in-an-office-7433869/",
+        "credit": "Sora Shimazaki (Pexels)",
+        "source": "https://www.pexels.com/photo/workplace-with-laptop-and-notepad-placed-near-coffee-cup-5668471/",
+        "quality": 0.58,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -507,17 +444,40 @@
         ]
       },
       {
-        "src": "/images/accuratus-treuhand-ch/pool/stock-desk-8296974.jpg",
+        "src": "/images/accuratus-treuhand-ch/pool/stock-office-36175674.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 121120,
+        "bytes": 77788,
+        "width": 1280,
+        "height": 852,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Samkit desai (Pexels)",
+        "source": "https://www.pexels.com/photo/elegant-modern-office-interior-with-art-36175674/",
+        "quality": 0.56,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/accuratus-treuhand-ch/pool/stock-desk-8872717.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 120736,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Mikhail Nilov (Pexels)",
-        "source": "https://www.pexels.com/photo/a-woman-computing-with-a-calculator-8296974/",
+        "credit": "MART  PRODUCTION (Pexels)",
+        "source": "https://www.pexels.com/photo/high-angle-shot-of-a-typewriter-and-money-on-the-table-8872717/",
+        "quality": 0.63,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -526,17 +486,19 @@
         ]
       },
       {
-        "src": "/images/accuratus-treuhand-ch/pool/stock-office-7511748.jpg",
+        "src": "/images/accuratus-treuhand-ch/pool/stock-office-36175676.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 80917,
+        "bytes": 86020,
         "width": 1280,
-        "height": 854,
+        "height": 852,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Max Vakhtbovych (Pexels)",
-        "source": "https://www.pexels.com/photo/modern-office-interior-with-table-7511748/",
+        "credit": "Samkit desai (Pexels)",
+        "source": "https://www.pexels.com/photo/modern-minimalist-office-interior-with-desk-36175676/",
+        "quality": 0.64,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -545,17 +507,19 @@
         ]
       },
       {
-        "src": "/images/accuratus-treuhand-ch/pool/stock-success-6289065.jpg",
+        "src": "/images/accuratus-treuhand-ch/pool/stock-finance-590011.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 19783,
+        "bytes": 171089,
         "width": 1280,
-        "height": 720,
+        "height": 848,
         "orientation": "landscape",
         "subject": "generic",
         "stock": true,
-        "credit": "Monstera Production (Pexels)",
-        "source": "https://www.pexels.com/photo/illustration-of-woman-analyzing-financial-line-graphic-6289065/",
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/white-printer-paper-590011/",
+        "quality": 0.69,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -564,17 +528,19 @@
         ]
       },
       {
-        "src": "/images/accuratus-treuhand-ch/pool/stock-laptop-7691749.jpg",
+        "src": "/images/accuratus-treuhand-ch/pool/stock-laptop-3760368.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 89950,
+        "bytes": 47758,
         "width": 1280,
-        "height": 853,
+        "height": 797,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
         "stock": true,
-        "credit": "Yan Krukau (Pexels)",
-        "source": "https://www.pexels.com/photo/man-looking-at-laptop-with-data-on-screen-7691749/",
+        "credit": "Andrea Piacquadio (Pexels)",
+        "source": "https://www.pexels.com/photo/a-man-using-laptop-computer-on-white-table-3760368/",
+        "quality": 0.51,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -584,19 +550,18 @@
       }
     ],
     "sectionBackgrounds": [
-      "/images/accuratus-treuhand-ch/pool/stock-boardroom-6949383.jpg",
-      "/images/accuratus-treuhand-ch/pool/stock-desk-8297351.jpg",
-      "/images/accuratus-treuhand-ch/pool/stock-desk-7821716.jpg"
+      "/images/accuratus-treuhand-ch/pool/stock-finance-577195.jpg",
+      "/images/accuratus-treuhand-ch/pool/stock-desk-8580716.jpg",
+      "/images/accuratus-treuhand-ch/pool/stock-desk-5668471.jpg"
     ],
     "stock": true,
     "credits": [
-      "Werner Pfennig (Pexels)",
-      "Mikhail Nilov (Pexels)",
+      "Lukas Blazek (Pexels)",
       "RDNE Stock project (Pexels)",
-      "Vlada Karpovich (Pexels)",
-      "Max Vakhtbovych (Pexels)",
-      "Monstera Production (Pexels)",
-      "Yan Krukau (Pexels)"
+      "Sora Shimazaki (Pexels)",
+      "Samkit desai (Pexels)",
+      "MART  PRODUCTION (Pexels)",
+      "Andrea Piacquadio (Pexels)"
     ]
   },
   "nav": {
@@ -628,7 +593,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Accuratus Treuhand – Ihr Partner für  Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision in Zürich.",
     "asideAttribution": "Accuratus Treuhand",
-    "image": "/images/accuratus-treuhand-ch/pool/stock-boardroom-6949383.jpg"
+    "image": "/images/accuratus-treuhand-ch/pool/stock-finance-577195.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -644,7 +609,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/accuratus-treuhand-ch/pool/stock-desk-8297351.jpg"
+        "image": "/images/accuratus-treuhand-ch/pool/stock-desk-8580716.jpg"
       },
       {
         "title": "Steuerberatung",
@@ -656,7 +621,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/accuratus-treuhand-ch/pool/stock-desk-7821716.jpg"
+        "image": "/images/accuratus-treuhand-ch/pool/stock-desk-5668471.jpg"
       },
       {
         "title": "Lohnadministration",
@@ -668,7 +633,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/accuratus-treuhand-ch/pool/stock-meeting-7433869.jpg"
+        "image": "/images/accuratus-treuhand-ch/pool/stock-office-36175674.jpg"
       },
       {
         "title": "Jahresabschluss",
@@ -680,7 +645,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/accuratus-treuhand-ch/pool/stock-desk-8296974.jpg"
+        "image": "/images/accuratus-treuhand-ch/pool/stock-desk-8872717.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -692,7 +657,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/accuratus-treuhand-ch/pool/stock-office-7511748.jpg"
+        "image": "/images/accuratus-treuhand-ch/pool/stock-office-36175676.jpg"
       },
       {
         "title": "Unternehmensberatung",
@@ -704,7 +669,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/accuratus-treuhand-ch/pool/stock-success-6289065.jpg"
+        "image": "/images/accuratus-treuhand-ch/pool/stock-finance-590011.jpg"
       }
     ]
   },
@@ -733,26 +698,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Accuratus Team",
-        "role": "Geschäftsführung",
-        "initials": "AC",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

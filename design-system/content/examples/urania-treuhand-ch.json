@@ -188,7 +188,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -198,7 +198,8 @@
       "hero.aside",
       "values",
       "faq",
-      "services.text"
+      "services.text",
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -213,22 +214,22 @@
       "trust.items",
       "media.pool",
       "media.logo",
+      "trust.badges",
       "brand.colors",
       "brand.fonts"
     ]
   },
   "media": {
     "logo": "/images/urania-treuhand-ch/pool/cf48162133__cropped-Logo_urania_treuhand_cmyk-1024x550.png",
-    "hero": "/images/urania-treuhand-ch/hero.jpeg",
-    "badges": [],
+    "hero": "/images/urania-treuhand-ch/pool/stock-architecture-7424584.jpg",
+    "badges": [
+      "/images/urania-treuhand-ch/pool/d808d47f6e__IMG_0262.jpeg"
+    ],
     "photos": [
-      "/images/urania-treuhand-ch/pool/7a8e179ab8__064A9273-scaled.jpg",
       "/images/urania-treuhand-ch/pool/ce7d71f41c__064A9276-scaled.jpg",
-      "/images/urania-treuhand-ch/pool/626c957ae8__064A9323-scaled.jpg",
+      "/images/urania-treuhand-ch/pool/7a8e179ab8__064A9273-scaled.jpg",
       "/images/urania-treuhand-ch/pool/0fbc2f8c32__064A9293-scaled.jpg",
-      "/images/urania-treuhand-ch/pool/d1dfa62a4b__Design_ohne_Titel-3-removebg-preview.png",
-      "/images/urania-treuhand-ch/pool/3a54e8f2f7__cropped-064A9275-scaled-1-192x192.jpg",
-      "/images/urania-treuhand-ch/pool/62d7f18f66__roger_neu.png"
+      "/images/urania-treuhand-ch/pool/626c957ae8__064A9323-scaled.jpg"
     ],
     "serviceImages": {},
     "documents": [],
@@ -242,32 +243,20 @@
         "height": 550,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "958246199ba134b4",
         "roles": []
       },
       {
-        "src": "/images/urania-treuhand-ch/pool/d1dfa62a4b__Design_ohne_Titel-3-removebg-preview.png",
-        "kind": "hero",
-        "alt": "logo_transp.weiss",
-        "bytes": 15876,
-        "width": 500,
-        "height": 500,
-        "orientation": "square",
+        "src": "/images/urania-treuhand-ch/pool/d808d47f6e__IMG_0262.jpeg",
+        "kind": "badge",
+        "alt": "Treuhand_suisse",
+        "bytes": 70480,
+        "width": 552,
+        "height": 156,
+        "orientation": "landscape",
         "subject": "generic",
+        "phash": "181a26e69a181090",
         "roles": []
-      },
-      {
-        "src": "/images/urania-treuhand-ch/pool/62d7f18f66__roger_neu.png",
-        "kind": "photo",
-        "alt": "roger neu",
-        "bytes": 691984,
-        "width": 1066,
-        "height": 1600,
-        "orientation": "portrait",
-        "subject": "portrait",
-        "roles": [
-          "gallery",
-          "feature"
-        ]
       },
       {
         "src": "/images/urania-treuhand-ch/pool/7a8e179ab8__064A9273-scaled.jpg",
@@ -278,6 +267,9 @@
         "height": 1067,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "5f9bd9f8f9f0f8fd",
+        "quality": 0.54,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -294,7 +286,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "90c7c1c5c94b3333",
+        "quality": 0.7,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -312,12 +307,13 @@
         "height": 1067,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "309d5cb6476bbb4",
+        "quality": 0.45,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -329,6 +325,9 @@
         "height": 1067,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "dadadadadadbdada",
+        "quality": 0.5,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -338,16 +337,31 @@
         ]
       },
       {
-        "src": "/images/urania-treuhand-ch/pool/3a54e8f2f7__cropped-064A9275-scaled-1-192x192.jpg",
-        "kind": "photo",
+        "src": "/images/urania-treuhand-ch/pool/stock-architecture-7424584.jpg",
+        "kind": "hero",
         "alt": "",
-        "bytes": 5104,
-        "width": 192,
-        "height": 192,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
+        "bytes": 268284,
+        "width": 1880,
+        "height": 1251,
+        "orientation": "landscape",
+        "subject": "city",
+        "stock": true,
+        "credit": "Brett Sayles (Pexels)",
+        "source": "https://www.pexels.com/photo/facade-of-modern-building-on-street-7424584/",
+        "quality": 0.81,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
       }
+    ],
+    "stock": true,
+    "credits": [
+      "Brett Sayles (Pexels)"
     ],
     "sectionBackgrounds": [
       "/images/urania-treuhand-ch/pool/7a8e179ab8__064A9273-scaled.jpg",
@@ -384,7 +398,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Willkommen bei der Urania Treuhand AG dein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung Ob Start-up, KMU, Verein oder",
     "asideAttribution": "Urania Treuhand AG",
-    "image": "/images/urania-treuhand-ch/hero.jpeg"
+    "image": "/images/urania-treuhand-ch/pool/stock-architecture-7424584.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -505,7 +519,9 @@
       "RAB/zugel. Revisor",
       "eidg. Diplom/Fachausweis"
     ],
-    "badges": []
+    "badges": [
+      "/images/urania-treuhand-ch/pool/d808d47f6e__IMG_0262.jpeg"
+    ]
   },
   "faq": {
     "eyebrow": "Fragen & Antworten",

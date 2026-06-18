@@ -173,7 +173,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✗ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -181,8 +181,7 @@
     },
     "placeholders": [
       "hero.aside",
-      "media.stock (CC fallback)",
-      "team.members"
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -206,21 +205,15 @@
     "logo": "/images/v-buchhaltung-ch/pool/525ee59978__logo_vbuchhaltung__msi___png.png",
     "hero": "/images/v-buchhaltung-ch/hero.jpg",
     "badges": [],
-    "photos": [
-      "/images/v-buchhaltung-ch/pool/6cb2c158d4__Kusigerski__msi___jpg.jpg",
-      "/images/v-buchhaltung-ch/pool/stock-office-9845176.jpg",
-      "/images/v-buchhaltung-ch/pool/stock-meeting-7640793.jpg",
-      "/images/v-buchhaltung-ch/pool/stock-consultation-7821698.jpg",
-      "/images/v-buchhaltung-ch/pool/stock-advisory-7821671.jpg"
-    ],
+    "photos": [],
     "serviceImages": {
-      "Buchhaltung": "/images/v-buchhaltung-ch/pool/stock-documents-7876037.jpg",
-      "Steuerberatung": "/images/v-buchhaltung-ch/pool/stock-desk-7680744.jpg",
-      "Lohnadministration": "/images/v-buchhaltung-ch/pool/stock-finance-7413936.jpg",
-      "Jahresabschluss": "/images/v-buchhaltung-ch/pool/stock-laptop-9260568.jpg",
-      "Mehrwertsteuer": "/images/v-buchhaltung-ch/pool/stock-success-5849583.jpg",
-      "Unternehmensberatung": "/images/v-buchhaltung-ch/pool/stock-laptop-7691749.jpg",
-      "Revision": "/images/v-buchhaltung-ch/pool/stock-laptop-5717713.jpg"
+      "Buchhaltung": "/images/v-buchhaltung-ch/pool/stock-finance-590045.jpg",
+      "Steuerberatung": "/images/v-buchhaltung-ch/pool/stock-finance-577210.jpg",
+      "Lohnadministration": "/images/v-buchhaltung-ch/pool/stock-documents-7821684.jpg",
+      "Jahresabschluss": "/images/v-buchhaltung-ch/pool/stock-advisory-13701589.jpg",
+      "Mehrwertsteuer": "/images/v-buchhaltung-ch/pool/stock-documents-7567600.jpg",
+      "Unternehmensberatung": "/images/v-buchhaltung-ch/pool/stock-desk-7821540.jpg",
+      "Revision": "/images/v-buchhaltung-ch/pool/stock-laptop-7693693.jpg"
     },
     "documents": [],
     "assets": [
@@ -233,6 +226,7 @@
         "height": 66,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "10a8a8b2b2b28200",
         "roles": []
       },
       {
@@ -244,216 +238,148 @@
         "height": 1024,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "61f47a33bbccded8",
+        "quality": 0.57,
+        "faces": 1,
+        "roles": []
+      },
+      {
+        "src": "/images/v-buchhaltung-ch/pool/stock-finance-590045.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 43402,
+        "width": 1280,
+        "height": 848,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/graph-and-line-chart-printed-paper-590045/",
+        "quality": 0.34,
+        "faces": 0,
         "roles": [
           "gallery"
         ]
       },
       {
-        "src": "/images/v-buchhaltung-ch/pool/stock-office-9845176.jpg",
+        "src": "/images/v-buchhaltung-ch/pool/stock-finance-577210.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 169334,
-        "width": 1600,
-        "height": 1066,
+        "bytes": 61573,
+        "width": 1280,
+        "height": 848,
         "orientation": "landscape",
-        "subject": "office",
+        "subject": "generic",
         "stock": true,
-        "credit": "Mathias Reding (Pexels)",
-        "source": "https://www.pexels.com/photo/low-angle-view-of-overpass-bridge-joining-buildings-9845176/",
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/close-up-photo-of-gray-laptop-577210/",
+        "quality": 0.76,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
           "service",
           "feature"
         ]
       },
       {
-        "src": "/images/v-buchhaltung-ch/pool/stock-meeting-7640793.jpg",
+        "src": "/images/v-buchhaltung-ch/pool/stock-documents-7821684.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 109023,
-        "width": 1600,
-        "height": 1066,
+        "bytes": 89178,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/handing-out-of-documents-7821684/",
+        "quality": 0.71,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/v-buchhaltung-ch/pool/stock-advisory-13701589.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 89584,
+        "width": 1280,
+        "height": 852,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Luke Miller (Pexels)",
+        "source": "https://www.pexels.com/photo/a-man-and-woman-holding-a-paper-13701589/",
+        "quality": 0.67,
+        "faces": 2,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/v-buchhaltung-ch/pool/stock-documents-7567600.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 61870,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Tima Miroshnichenko (Pexels)",
+        "source": "https://www.pexels.com/photo/person-signing-on-a-paper-7567600/",
+        "quality": 0.54,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/v-buchhaltung-ch/pool/stock-desk-7821540.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 106149,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/person-working-on-documents-7821540/",
+        "quality": 0.81,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/v-buchhaltung-ch/pool/stock-laptop-7693693.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 96073,
+        "width": 1280,
+        "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
         "credit": "Yan Krukau (Pexels)",
-        "source": "https://www.pexels.com/photo/a-man-scolding-a-woman-sitting-at-a-desk-7640793/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/v-buchhaltung-ch/pool/stock-consultation-7821698.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 101971,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/man-in-black-suit-jacket-holding-white-paper-7821698/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/v-buchhaltung-ch/pool/stock-advisory-7821671.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 101385,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/an-agent-showing-documents-to-his-client-7821671/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/v-buchhaltung-ch/pool/stock-documents-7876037.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 56686,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "www.kaboompics.com (Pexels)",
-        "source": "https://www.pexels.com/photo/a-person-signing-divorce-documents-7876037/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/v-buchhaltung-ch/pool/stock-desk-7680744.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 91291,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "www.kaboompics.com (Pexels)",
-        "source": "https://www.pexels.com/photo/person-holding-oink-calculator-7680744/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/v-buchhaltung-ch/pool/stock-finance-7413936.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 83802,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/business-analytics-printout-on-wooden-table-7413936/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/v-buchhaltung-ch/pool/stock-laptop-9260568.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 82341,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "Atlantic Ambience (Pexels)",
-        "source": "https://www.pexels.com/photo/a-person-writing-on-a-paper-9260568/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/v-buchhaltung-ch/pool/stock-success-5849583.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 30094,
-        "width": 1280,
-        "height": 751,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "Monstera Production (Pexels)",
-        "source": "https://www.pexels.com/photo/decorative-cardboard-illustration-of-hand-with-diagram-and-dollar-coin-5849583/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/v-buchhaltung-ch/pool/stock-laptop-7691749.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 89950,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "Yan Krukau (Pexels)",
-        "source": "https://www.pexels.com/photo/man-looking-at-laptop-with-data-on-screen-7691749/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/v-buchhaltung-ch/pool/stock-laptop-5717713.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 88876,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "www.kaboompics.com (Pexels)",
-        "source": "https://www.pexels.com/photo/a-person-writing-on-the-paper-5717713/",
+        "source": "https://www.pexels.com/photo/a-person-using-a-laptop-7693693/",
+        "quality": 0.86,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -463,18 +389,17 @@
       }
     ],
     "sectionBackgrounds": [
-      "/images/v-buchhaltung-ch/pool/stock-office-9845176.jpg",
-      "/images/v-buchhaltung-ch/pool/stock-meeting-7640793.jpg",
-      "/images/v-buchhaltung-ch/pool/stock-consultation-7821698.jpg"
+      "/images/v-buchhaltung-ch/pool/stock-finance-590045.jpg",
+      "/images/v-buchhaltung-ch/pool/stock-finance-577210.jpg",
+      "/images/v-buchhaltung-ch/pool/stock-documents-7821684.jpg"
     ],
     "stock": true,
     "credits": [
-      "Mathias Reding (Pexels)",
-      "Yan Krukau (Pexels)",
+      "Lukas Blazek (Pexels)",
       "RDNE Stock project (Pexels)",
-      "www.kaboompics.com (Pexels)",
-      "Atlantic Ambience (Pexels)",
-      "Monstera Production (Pexels)"
+      "Luke Miller (Pexels)",
+      "Tima Miroshnichenko (Pexels)",
+      "Yan Krukau (Pexels)"
     ]
   },
   "nav": {
@@ -522,7 +447,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/v-buchhaltung-ch/pool/stock-documents-7876037.jpg"
+        "image": "/images/v-buchhaltung-ch/pool/stock-finance-590045.jpg"
       },
       {
         "title": "Steuerberatung",
@@ -534,7 +459,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/v-buchhaltung-ch/pool/stock-desk-7680744.jpg"
+        "image": "/images/v-buchhaltung-ch/pool/stock-finance-577210.jpg"
       },
       {
         "title": "Lohnadministration",
@@ -546,7 +471,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/v-buchhaltung-ch/pool/stock-finance-7413936.jpg"
+        "image": "/images/v-buchhaltung-ch/pool/stock-documents-7821684.jpg"
       },
       {
         "title": "Jahresabschluss",
@@ -558,7 +483,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/v-buchhaltung-ch/pool/stock-laptop-9260568.jpg"
+        "image": "/images/v-buchhaltung-ch/pool/stock-advisory-13701589.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -570,7 +495,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/v-buchhaltung-ch/pool/stock-success-5849583.jpg"
+        "image": "/images/v-buchhaltung-ch/pool/stock-documents-7567600.jpg"
       },
       {
         "title": "Unternehmensberatung",
@@ -582,7 +507,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/v-buchhaltung-ch/pool/stock-laptop-7691749.jpg"
+        "image": "/images/v-buchhaltung-ch/pool/stock-desk-7821540.jpg"
       }
     ]
   },
@@ -611,26 +536,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "V-Buchhaltung Team",
-        "role": "Geschäftsführung",
-        "initials": "V-",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

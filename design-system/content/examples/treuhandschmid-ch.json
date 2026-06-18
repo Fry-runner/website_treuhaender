@@ -183,7 +183,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -193,7 +193,8 @@
       "hero.aside",
       "values",
       "faq",
-      "look.colors (generated)"
+      "look.colors (generated)",
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -214,13 +215,11 @@
   },
   "media": {
     "logo": "/images/treuhandschmid-ch/pool/e78fa5ae95__logoNew.png",
-    "hero": "/images/treuhandschmid-ch/hero.jpg",
+    "hero": "/images/treuhandschmid-ch/pool/stock-reception-28999494.jpg",
     "badges": [],
     "photos": [
-      "/images/treuhandschmid-ch/pool/faa07e3c49__pic_61266.png",
       "/images/treuhandschmid-ch/pool/878edbb3e6__pic_60915.jpg",
-      "/images/treuhandschmid-ch/pool/119a740a1e__pic_72979.jpg",
-      "/images/treuhandschmid-ch/pool/a87d09346d__pic_60919.jpg"
+      "/images/treuhandschmid-ch/pool/119a740a1e__pic_72979.jpg"
     ],
     "serviceImages": {},
     "documents": [
@@ -265,24 +264,8 @@
         "height": 80,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "32b2cccce0e071b2",
         "roles": []
-      },
-      {
-        "src": "/images/treuhandschmid-ch/pool/faa07e3c49__pic_61266.png",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 618845,
-        "width": 1920,
-        "height": 993,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
       },
       {
         "src": "/images/treuhandschmid-ch/pool/878edbb3e6__pic_60915.jpg",
@@ -292,7 +275,10 @@
         "width": 1920,
         "height": 662,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "f0f2f6fffcf6f9f9",
+        "quality": 0.84,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -308,6 +294,9 @@
         "height": 662,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "654b59534b332bcb",
+        "quality": 0.63,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -315,23 +304,33 @@
         ]
       },
       {
-        "src": "/images/treuhandschmid-ch/pool/a87d09346d__pic_60919.jpg",
+        "src": "/images/treuhandschmid-ch/pool/stock-reception-28999494.jpg",
         "kind": "hero",
         "alt": "",
-        "bytes": 147783,
-        "width": 1920,
-        "height": 662,
+        "bytes": 266221,
+        "width": 1880,
+        "height": 1105,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "stock": true,
+        "credit": "Quang Nguyen Vinh (Pexels)",
+        "source": "https://www.pexels.com/photo/modern-hotel-lobby-with-artistic-beach-decor-28999494/",
+        "quality": 0.74,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
-          "background"
+          "background",
+          "service",
+          "feature"
         ]
       }
     ],
+    "stock": true,
+    "credits": [
+      "Quang Nguyen Vinh (Pexels)"
+    ],
     "sectionBackgrounds": [
-      "/images/treuhandschmid-ch/pool/faa07e3c49__pic_61266.png",
       "/images/treuhandschmid-ch/pool/878edbb3e6__pic_60915.jpg",
       "/images/treuhandschmid-ch/pool/119a740a1e__pic_72979.jpg"
     ]
@@ -365,7 +364,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Treuhand Catherine Schmid GmbH",
     "asideAttribution": "Treuhand Catherine Schmid GmbH",
-    "image": "/images/treuhandschmid-ch/hero.jpg"
+    "image": "/images/treuhandschmid-ch/pool/stock-reception-28999494.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",

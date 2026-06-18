@@ -168,7 +168,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -177,8 +177,7 @@
     "placeholders": [
       "hero.aside",
       "faq",
-      "look.colors (generated)",
-      "team.members"
+      "look.colors (generated)"
     ],
     "real": [
       "meta.firm",
@@ -203,27 +202,20 @@
     "hero": "/images/sutertreuhand-ch/hero.jpg",
     "badges": [],
     "photos": [
-      "/images/sutertreuhand-ch/pool/20f7dc8389__header_treuhand_zuerich-16b10b6e.webp",
+      "/images/sutertreuhand-ch/pool/bdf19ef9c8__disturber-02.jpg",
+      "/images/sutertreuhand-ch/pool/27459e3361__istock-1209835473-596833d1.jpg",
+      "/images/sutertreuhand-ch/pool/56e8618384__istock-1209835473-7ef0e0e6.jpg",
+      "/images/sutertreuhand-ch/pool/92adb2056d__mwst_firmengruendung-11501e60.jpg",
+      "/images/sutertreuhand-ch/pool/f07748b530__2259920251-huge-d83605bf.jpg",
       "/images/sutertreuhand-ch/pool/a3bcd6f29e__2259920251-huge-853e0dec.jpg",
       "/images/sutertreuhand-ch/pool/82f5da8ead__2259920251-huge-06f536d4.jpg",
+      "/images/sutertreuhand-ch/pool/37ad62aca8__2259920251-huge-03f7299b.webp",
+      "/images/sutertreuhand-ch/pool/c9d4429f93__hero-a99e9628.webp",
       "/images/sutertreuhand-ch/pool/4845e2b0bc__treuhandbuero_luzern-min-840ec175.jpg",
       "/images/sutertreuhand-ch/pool/50c16fe351__treuhandbuero_luzern-min-c394ad5c.webp",
-      "/images/sutertreuhand-ch/pool/bdf19ef9c8__disturber-02.jpg",
       "/images/sutertreuhand-ch/pool/d2c7957cab__hero-0d792f63.jpg",
-      "/images/sutertreuhand-ch/pool/c9d4429f93__hero-a99e9628.webp",
-      "/images/sutertreuhand-ch/pool/2c2bac5009__disturber-01.jpg",
-      "/images/sutertreuhand-ch/pool/3656664070__gewinnsteuersatze_2024-cdb7db51.png",
-      "/images/sutertreuhand-ch/pool/3f3f422bc7__header_einzelfirma-eac2d2fd.jpg",
-      "/images/sutertreuhand-ch/pool/56e8618384__istock-1209835473-7ef0e0e6.jpg",
-      "/images/sutertreuhand-ch/pool/28d693a635__firmengruendung-e644ef7d.jpg",
-      "/images/sutertreuhand-ch/pool/c737495ae2__notebook-baf2c75f.png",
-      "/images/sutertreuhand-ch/pool/6e8cfd0369__istock-1209835473-a89cc22e.webp",
-      "/images/sutertreuhand-ch/pool/0170cc252d__einkommenssteuersatze2024-bb01ca15.png",
-      "/images/sutertreuhand-ch/pool/99b1a3f931__2259920251-huge-4eaa5816.webp",
-      "/images/sutertreuhand-ch/pool/27459e3361__istock-1209835473-596833d1.jpg",
-      "/images/sutertreuhand-ch/pool/f07748b530__2259920251-huge-d83605bf.jpg",
-      "/images/sutertreuhand-ch/pool/92adb2056d__mwst_firmengruendung-11501e60.jpg",
-      "/images/sutertreuhand-ch/pool/37ad62aca8__2259920251-huge-03f7299b.webp"
+      "/images/sutertreuhand-ch/pool/20f7dc8389__header_treuhand_zuerich-16b10b6e.webp",
+      "/images/sutertreuhand-ch/pool/28d693a635__firmengruendung-e644ef7d.jpg"
     ],
     "serviceImages": {
       "Mehrwertsteuer": "/images/sutertreuhand-ch/pool/92adb2056d__mwst_firmengruendung-11501e60.jpg"
@@ -282,6 +274,7 @@
         "height": 960,
         "orientation": "square",
         "subject": "generic",
+        "phash": "3824a2b2bca66a06",
         "roles": []
       },
       {
@@ -293,6 +286,9 @@
         "height": 1015,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "8e8f1b565ab366dd",
+        "quality": 0.71,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -310,27 +306,15 @@
         "height": 1015,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "60f0b165ab7769d",
+        "quality": 0.76,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
           "background",
           "service",
           "feature"
-        ]
-      },
-      {
-        "src": "/images/sutertreuhand-ch/pool/3f3f422bc7__header_einzelfirma-eac2d2fd.jpg",
-        "kind": "hero",
-        "alt": "Einzelfirma",
-        "bytes": 304137,
-        "width": 1869,
-        "height": 662,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
         ]
       },
       {
@@ -341,7 +325,10 @@
         "width": 1869,
         "height": 662,
         "orientation": "landscape",
-        "subject": "city",
+        "subject": "generic",
+        "phash": "b9bdfefefcecedf6",
+        "quality": 0.54,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -356,7 +343,10 @@
         "width": 1600,
         "height": 1065,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "7264f4e04475559",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -373,30 +363,11 @@
         "width": 1365,
         "height": 734,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sutertreuhand-ch/pool/3656664070__gewinnsteuersatze_2024-cdb7db51.png",
-        "kind": "photo",
-        "alt": "Karte Schweiz",
-        "bytes": 378501,
-        "width": 1608,
-        "height": 1115,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
+        "subject": "portrait",
+        "phash": "1c181919156464e4",
+        "quality": 0.43,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/sutertreuhand-ch/pool/56e8618384__istock-1209835473-7ef0e0e6.jpg",
@@ -406,7 +377,10 @@
         "width": 1180,
         "height": 890,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "d4d49cbce9f8c8e",
+        "quality": 0.76,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -423,27 +397,12 @@
         "height": 567,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "939b9999bafafafa",
+        "quality": 0.45,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background"
-        ]
-      },
-      {
-        "src": "/images/sutertreuhand-ch/pool/c737495ae2__notebook-baf2c75f.png",
-        "kind": "photo",
-        "alt": "gmbh gründen",
-        "bytes": 285988,
-        "width": 1608,
-        "height": 935,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
         ]
       },
       {
@@ -454,23 +413,10 @@
         "width": 1180,
         "height": 890,
         "orientation": "landscape",
-        "subject": "city",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sutertreuhand-ch/pool/6e8cfd0369__istock-1209835473-a89cc22e.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 247700,
-        "width": 1180,
-        "height": 890,
-        "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "9f6f67dbfaf1f3f3",
+        "quality": 0.64,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -486,41 +432,12 @@
         "width": 960,
         "height": 960,
         "orientation": "square",
-        "subject": "city",
+        "subject": "office",
+        "phash": "1fef6791f9f9b961",
+        "quality": 0.59,
+        "faces": 0,
         "roles": [
           "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sutertreuhand-ch/pool/0170cc252d__einkommenssteuersatze2024-bb01ca15.png",
-        "kind": "photo",
-        "alt": "Karte Schweiz",
-        "bytes": 192929,
-        "width": 1162,
-        "height": 806,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sutertreuhand-ch/pool/99b1a3f931__2259920251-huge-4eaa5816.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 209346,
-        "width": 1180,
-        "height": 890,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "background",
           "service",
           "feature"
         ]
@@ -533,7 +450,10 @@
         "width": 960,
         "height": 960,
         "orientation": "square",
-        "subject": "office",
+        "subject": "generic",
+        "phash": "fb3f8fc767b36904",
+        "quality": 0.74,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -548,7 +468,10 @@
         "width": 960,
         "height": 960,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "3fef6351f0f9f9e1",
+        "quality": 0.57,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -563,7 +486,10 @@
         "width": 920,
         "height": 517,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "4d4b4bcb4f4dddcd",
+        "quality": 0.79,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -578,7 +504,10 @@
         "width": 960,
         "height": 960,
         "orientation": "square",
-        "subject": "office",
+        "subject": "generic",
+        "phash": "7f3f9fc767512104",
+        "quality": 0.71,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -593,7 +522,10 @@
         "width": 920,
         "height": 517,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "bf67a7d3f3f3f3f2",
+        "quality": 0.67,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -608,14 +540,17 @@
         "width": 390,
         "height": 263,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "362e7d7a7d1fb727",
+        "quality": 0.69,
+        "faces": 0,
         "roles": []
       }
     ],
     "sectionBackgrounds": [
       "/images/sutertreuhand-ch/pool/d2c7957cab__hero-0d792f63.jpg",
       "/images/sutertreuhand-ch/pool/c9d4429f93__hero-a99e9628.webp",
-      "/images/sutertreuhand-ch/pool/3f3f422bc7__header_einzelfirma-eac2d2fd.jpg"
+      "/images/sutertreuhand-ch/pool/20f7dc8389__header_treuhand_zuerich-16b10b6e.webp"
     ]
   },
   "nav": {
@@ -747,26 +682,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Suter Team",
-        "role": "Geschäftsführung",
-        "initials": "SU",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

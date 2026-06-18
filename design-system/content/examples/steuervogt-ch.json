@@ -177,7 +177,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✗ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -186,8 +186,7 @@
     "placeholders": [
       "hero.aside",
       "faq",
-      "media.stock (CC fallback)",
-      "team.members"
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -213,21 +212,15 @@
     "badges": [
       "/images/steuervogt-ch/pool/d4e70b0905__corporate-design-logo-steuervogt-gmbh.jpg"
     ],
-    "photos": [
-      "/images/steuervogt-ch/pool/71c20b7aac__treuhand-dienstleistungen-steuervogt-zuerich.jpg",
-      "/images/steuervogt-ch/pool/c2d2d0944f__treuhand-beratung-steuervogt.jpg",
-      "/images/steuervogt-ch/pool/stock-office-159839.jpg",
-      "/images/steuervogt-ch/pool/stock-meeting-7433869.jpg",
-      "/images/steuervogt-ch/pool/stock-consultation-7821698.jpg"
-    ],
+    "photos": [],
     "serviceImages": {
-      "Steuerberatung": "/images/steuervogt-ch/pool/71c20b7aac__treuhand-dienstleistungen-steuervogt-zuerich.jpg",
       "Unternehmensberatung": "/images/steuervogt-ch/pool/c2d2d0944f__treuhand-beratung-steuervogt.jpg",
-      "Buchhaltung": "/images/steuervogt-ch/pool/stock-office-5511098.jpg",
-      "Lohnadministration": "/images/steuervogt-ch/pool/stock-desk-7821716.jpg",
-      "Jahresabschluss": "/images/steuervogt-ch/pool/stock-meeting-7693692.jpg",
-      "Mehrwertsteuer": "/images/steuervogt-ch/pool/stock-finance-7413936.jpg",
-      "Revision": "/images/steuervogt-ch/pool/stock-desk-7680744.jpg"
+      "Buchhaltung": "/images/steuervogt-ch/pool/stock-office-34978180.jpg",
+      "Steuerberatung": "/images/steuervogt-ch/pool/stock-office-8453801.jpg",
+      "Lohnadministration": "/images/steuervogt-ch/pool/stock-laptop-7948060.jpg",
+      "Jahresabschluss": "/images/steuervogt-ch/pool/stock-office-5483051.jpg",
+      "Mehrwertsteuer": "/images/steuervogt-ch/pool/stock-desk-5668471.jpg",
+      "Revision": "/images/steuervogt-ch/pool/stock-meeting-7433840.jpg"
     },
     "documents": [],
     "assets": [
@@ -240,6 +233,7 @@
         "height": 192,
         "orientation": "square",
         "subject": "generic",
+        "phash": "b2f0e8ccccec71b2",
         "roles": []
       },
       {
@@ -251,24 +245,8 @@
         "height": 487,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "8299959456949090",
         "roles": []
-      },
-      {
-        "src": "/images/steuervogt-ch/pool/71c20b7aac__treuhand-dienstleistungen-steuervogt-zuerich.jpg",
-        "kind": "photo",
-        "alt": "Steuervogt Treuhand-Dienstleistungen aus Zürich",
-        "bytes": 291820,
-        "width": 1600,
-        "height": 1067,
-        "orientation": "landscape",
-        "subject": "city",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
       },
       {
         "src": "/images/steuervogt-ch/pool/c2d2d0944f__treuhand-beratung-steuervogt.jpg",
@@ -279,159 +257,130 @@
         "height": 1350,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "31226e6c98940d3",
+        "quality": 0.63,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
       {
-        "src": "/images/steuervogt-ch/pool/stock-office-159839.jpg",
+        "src": "/images/steuervogt-ch/pool/stock-office-34978180.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 166999,
-        "width": 1600,
-        "height": 1064,
+        "bytes": 127520,
+        "width": 1280,
+        "height": 741,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Pixabay (Pexels)",
-        "source": "https://www.pexels.com/photo/black-study-lamp-on-black-table-159839/",
+        "credit": "Ananda (Pexels)",
+        "source": "https://www.pexels.com/photo/cozy-scandinavian-winter-bedroom-interior-34978180/",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
           "service",
           "feature"
         ]
       },
       {
-        "src": "/images/steuervogt-ch/pool/stock-meeting-7433869.jpg",
+        "src": "/images/steuervogt-ch/pool/stock-office-8453801.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 132437,
-        "width": 1600,
-        "height": 1066,
+        "bytes": 88774,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "cottonbro studio (Pexels)",
+        "source": "https://www.pexels.com/photo/photo-of-a-workplace-8453801/",
+        "quality": 0.66,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-laptop-7948060.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 79767,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/person-using-black-laptop-computer-7948060/",
+        "quality": 0.49,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-office-5483051.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 65172,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "cottonbro studio (Pexels)",
+        "source": "https://www.pexels.com/photo/black-rolling-chairs-beside-desk-5483051/",
+        "quality": 0.46,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-desk-5668471.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 107733,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Sora Shimazaki (Pexels)",
+        "source": "https://www.pexels.com/photo/workplace-with-laptop-and-notepad-placed-near-coffee-cup-5668471/",
+        "quality": 0.75,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-meeting-7433840.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 98769,
+        "width": 1280,
+        "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
         "credit": "Vlada Karpovich (Pexels)",
-        "source": "https://www.pexels.com/photo/a-meeting-in-an-office-7433869/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/steuervogt-ch/pool/stock-consultation-7821698.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 101971,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/man-in-black-suit-jacket-holding-white-paper-7821698/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/steuervogt-ch/pool/stock-office-5511098.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 148205,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "Mike van Schoonderwalt (Pexels)",
-        "source": "https://www.pexels.com/photo/an-interior-of-an-office-5511098/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/steuervogt-ch/pool/stock-desk-7821716.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 84692,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/a-man-sitting-at-the-table-7821716/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/steuervogt-ch/pool/stock-meeting-7693692.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 128706,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "Yan Krukau (Pexels)",
-        "source": "https://www.pexels.com/photo/businesspeople-brainstorming-in-a-meeting-7693692/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/steuervogt-ch/pool/stock-finance-7413936.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 83802,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/business-analytics-printout-on-wooden-table-7413936/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/steuervogt-ch/pool/stock-desk-7680744.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 91291,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "www.kaboompics.com (Pexels)",
-        "source": "https://www.pexels.com/photo/person-holding-oink-calculator-7680744/",
+        "source": "https://www.pexels.com/photo/a-group-of-people-discussing-in-a-room-7433840/",
+        "quality": 0.8,
+        "faces": 5,
         "roles": [
           "gallery",
           "background",
@@ -441,18 +390,17 @@
       }
     ],
     "sectionBackgrounds": [
-      "/images/steuervogt-ch/pool/stock-office-159839.jpg",
-      "/images/steuervogt-ch/pool/stock-meeting-7433869.jpg",
-      "/images/steuervogt-ch/pool/stock-consultation-7821698.jpg"
+      "/images/steuervogt-ch/pool/stock-office-34978180.jpg",
+      "/images/steuervogt-ch/pool/stock-office-8453801.jpg",
+      "/images/steuervogt-ch/pool/stock-laptop-7948060.jpg"
     ],
     "stock": true,
     "credits": [
-      "Pixabay (Pexels)",
-      "Vlada Karpovich (Pexels)",
+      "Ananda (Pexels)",
+      "cottonbro studio (Pexels)",
       "RDNE Stock project (Pexels)",
-      "Mike van Schoonderwalt (Pexels)",
-      "Yan Krukau (Pexels)",
-      "www.kaboompics.com (Pexels)"
+      "Sora Shimazaki (Pexels)",
+      "Vlada Karpovich (Pexels)"
     ]
   },
   "nav": {
@@ -500,7 +448,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/steuervogt-ch/pool/stock-office-5511098.jpg"
+        "image": "/images/steuervogt-ch/pool/stock-office-34978180.jpg"
       },
       {
         "title": "Steuerberatung",
@@ -512,7 +460,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/steuervogt-ch/pool/71c20b7aac__treuhand-dienstleistungen-steuervogt-zuerich.jpg"
+        "image": "/images/steuervogt-ch/pool/stock-office-8453801.jpg"
       },
       {
         "title": "Lohnadministration",
@@ -524,7 +472,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/steuervogt-ch/pool/stock-desk-7821716.jpg"
+        "image": "/images/steuervogt-ch/pool/stock-laptop-7948060.jpg"
       },
       {
         "title": "Jahresabschluss",
@@ -536,7 +484,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/steuervogt-ch/pool/stock-meeting-7693692.jpg"
+        "image": "/images/steuervogt-ch/pool/stock-office-5483051.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -548,7 +496,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/steuervogt-ch/pool/stock-finance-7413936.jpg"
+        "image": "/images/steuervogt-ch/pool/stock-desk-5668471.jpg"
       },
       {
         "title": "Unternehmensberatung",
@@ -589,26 +537,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "SteuerVogt Team",
-        "role": "Geschäftsführung",
-        "initials": "ST",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

@@ -132,6 +132,10 @@
           "presence": "often"
         },
         {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -167,7 +171,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✓ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -202,26 +206,7 @@
       "/images/stg-zuerich/pool/7d785c542c__logo-pict.svg",
       "/images/stg-zuerich/pool/52c9e49225__membership-treuhand-2022-03-01.svg"
     ],
-    "photos": [
-      "/images/stg-zuerich/pool/bea49eb128__stg_zh_header_5.jpg",
-      "/images/stg-zuerich/pool/c10d7025d5__stg_zh_header_5-1134.jpg",
-      "/images/stg-zuerich/pool/32bb81e0bb__irene_waser-707.jpg",
-      "/images/stg-zuerich/pool/1a7101878e__stg_zh_sabrina_gholampour-1-1134.jpg",
-      "/images/stg-zuerich/pool/b1fc8dc1e3__stg_zh_sabrina_gholampour-1.jpg",
-      "/images/stg-zuerich/pool/b8c86477e7__stg_zh_thomas_gass.jpg",
-      "/images/stg-zuerich/pool/7d2ecc8317__stg_zh_thomas_gass-1134.jpg",
-      "/images/stg-zuerich/pool/f61684cf80__stg_zh_pia_gubser_quote-707.jpg",
-      "/images/stg-zuerich/pool/5e0be209d6__stg_zh_annette_widmann_quote-707.jpg",
-      "/images/stg-zuerich/pool/d0ad00c7f1__stg_zh_annette_widmann-1-707.jpg",
-      "/images/stg-zuerich/pool/025ee6423f__stg_zh_doris_buerge_quote-707.jpg",
-      "/images/stg-zuerich/pool/970917ec4e__stg_zh_doris_buerge-707.jpg",
-      "/images/stg-zuerich/pool/8a2c3181c2__manuela-gugger-707.jpg",
-      "/images/stg-zuerich/pool/47b8a99aad__stg_zh_sabrina_gholampour-1-707.jpg",
-      "/images/stg-zuerich/pool/7ced4ba4e5__stg_zh_thomas_gass-707.jpg",
-      "/images/stg-zuerich/pool/6eea7d9d9d__stg_zh_christian_sager-707.jpg",
-      "/images/stg-zuerich/pool/beee3234f4__stg_zh_thomas_gass_quote-707.jpg",
-      "/images/stg-zuerich/pool/913cd8551d__stg_zh_thomas_brunner_quote-707.jpg"
-    ],
+    "photos": [],
     "serviceImages": {},
     "documents": [],
     "assets": [
@@ -234,6 +219,7 @@
         "height": 64,
         "orientation": "landscape",
         "subject": "city",
+        "phash": "96ad9400191000b8",
         "roles": []
       },
       {
@@ -245,6 +231,7 @@
         "height": 478,
         "orientation": "landscape",
         "subject": "city",
+        "phash": "d6eca892a6cc94e4",
         "roles": []
       },
       {
@@ -256,39 +243,8 @@
         "height": 18,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "1818195565971818",
         "roles": []
-      },
-      {
-        "src": "/images/stg-zuerich/pool/bea49eb128__stg_zh_header_5.jpg",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 115145,
-        "width": 1200,
-        "height": 627,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/stg-zuerich/pool/c10d7025d5__stg_zh_header_5-1134.jpg",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 101554,
-        "width": 1134,
-        "height": 576,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
       },
       {
         "src": "/images/stg-zuerich/pool/32bb81e0bb__irene_waser-707.jpg",
@@ -298,27 +254,11 @@
         "width": 707,
         "height": 497,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
-      },
-      {
-        "src": "/images/stg-zuerich/pool/1a7101878e__stg_zh_sabrina_gholampour-1-1134.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 49188,
-        "width": 1134,
-        "height": 576,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
+        "subject": "portrait",
+        "phash": "b3716969787838f0",
+        "quality": 0.79,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/stg-zuerich/pool/b1fc8dc1e3__stg_zh_sabrina_gholampour-1.jpg",
@@ -328,11 +268,11 @@
         "width": 1134,
         "height": 576,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "2dfde6ecc4ccec2c",
+        "quality": 0.71,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -344,11 +284,11 @@
         "width": 1200,
         "height": 627,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "6f7ddcd8c0a2e7a3",
+        "quality": 0.54,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -360,11 +300,11 @@
         "width": 1134,
         "height": 576,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "6f6f6fdcdcd0e0a7",
+        "quality": 0.59,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -377,9 +317,10 @@
         "height": 884,
         "orientation": "portrait",
         "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
+        "phash": "f3b3e7cbd3d9d9d3",
+        "quality": 0.69,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/stg-zuerich/pool/913cd8551d__stg_zh_thomas_brunner_quote-707.jpg",
@@ -390,9 +331,10 @@
         "height": 884,
         "orientation": "portrait",
         "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
+        "phash": "fb337be5c7d4d4d9",
+        "quality": 0.62,
+        "faces": 2,
+        "roles": []
       },
       {
         "src": "/images/stg-zuerich/pool/f61684cf80__stg_zh_pia_gubser_quote-707.jpg",
@@ -402,11 +344,11 @@
         "width": 707,
         "height": 442,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "6f4c48d8d3c9cdc9",
+        "quality": 0.78,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/stg-zuerich/pool/5e0be209d6__stg_zh_annette_widmann_quote-707.jpg",
@@ -416,11 +358,11 @@
         "width": 707,
         "height": 442,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "b7bfb66ec8c9c9ca",
+        "quality": 0.76,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/stg-zuerich/pool/d0ad00c7f1__stg_zh_annette_widmann-1-707.jpg",
@@ -430,11 +372,11 @@
         "width": 707,
         "height": 497,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "6f6ed4d0d193d4e4",
+        "quality": 0.86,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/stg-zuerich/pool/025ee6423f__stg_zh_doris_buerge_quote-707.jpg",
@@ -444,11 +386,11 @@
         "width": 707,
         "height": 442,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "3d9b1bda5e565e5e",
+        "quality": 0.79,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/stg-zuerich/pool/970917ec4e__stg_zh_doris_buerge-707.jpg",
@@ -458,11 +400,11 @@
         "width": 707,
         "height": 497,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "7d3b3b7a76363e56",
+        "quality": 0.74,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/stg-zuerich/pool/8a2c3181c2__manuela-gugger-707.jpg",
@@ -472,11 +414,11 @@
         "width": 707,
         "height": 472,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "56f2b2e0606ccccc",
+        "quality": 0.51,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/stg-zuerich/pool/47b8a99aad__stg_zh_sabrina_gholampour-1-707.jpg",
@@ -486,11 +428,11 @@
         "width": 707,
         "height": 497,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "3df5e4cccc3c6c6c",
+        "quality": 0.67,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/stg-zuerich/pool/7ced4ba4e5__stg_zh_thomas_gass-707.jpg",
@@ -500,11 +442,11 @@
         "width": 707,
         "height": 497,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "6f6fdcd8c0a7a7e1",
+        "quality": 0.64,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/stg-zuerich/pool/6eea7d9d9d__stg_zh_christian_sager-707.jpg",
@@ -514,17 +456,12 @@
         "width": 707,
         "height": 497,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "767707252c6c3c10",
+        "quality": 0.48,
+        "faces": 1,
+        "roles": []
       }
-    ],
-    "sectionBackgrounds": [
-      "/images/stg-zuerich/pool/bea49eb128__stg_zh_header_5.jpg",
-      "/images/stg-zuerich/pool/c10d7025d5__stg_zh_header_5-1134.jpg",
-      "/images/stg-zuerich/pool/1a7101878e__stg_zh_sabrina_gholampour-1-1134.jpg"
     ]
   },
   "nav": {

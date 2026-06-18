@@ -152,10 +152,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -191,7 +187,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
@@ -234,23 +230,19 @@
       "/images/stg-revision-ch/pool/4423e8dccc__Logo-HEV-Schweiz.svg"
     ],
     "photos": [
-      "/images/stg-revision-ch/pool/e68d451acf__Philipp_Akeret_neu-Kopie-Web.jpg",
-      "/images/stg-revision-ch/pool/bc95f67a00__Christine_Perler_neu-Kopie-Web.jpg",
-      "/images/stg-revision-ch/pool/c701d8046b__Schweizerische-Treuhandgesellschaft-Revision-Kontakt.jpg",
       "/images/stg-revision-ch/pool/6e1c1e5974__Schweizerische-Treuhandgesellschaft-Revision-Lohnadministration.jpg",
-      "/images/stg-revision-ch/pool/5170c0d51b__Schweizerische-Treuhandgesellschaft-Revision-U_ber-uns.jpg",
       "/images/stg-revision-ch/pool/e45f8043a3__Schweizerische-Treuhandgesellschaft-Revision-Gestion.jpg",
-      "/images/stg-revision-ch/pool/f46c68880e__Akeret_Philipp.jpg",
-      "/images/stg-revision-ch/pool/1939a5f81e__Schweizerische-Treuhandgesellschaft-Revision-Strukturen-oder-Organisation.jpg",
+      "/images/stg-revision-ch/pool/e36f08f234__Schweizerische-Treuhandgesellschaft-Revision-Finanzbuchhaltung.jpg",
+      "/images/stg-revision-ch/pool/5170c0d51b__Schweizerische-Treuhandgesellschaft-Revision-U_ber-uns.jpg",
+      "/images/stg-revision-ch/pool/c701d8046b__Schweizerische-Treuhandgesellschaft-Revision-Kontakt.jpg",
+      "/images/stg-revision-ch/pool/e61666ee70__Schweizerische-Treuhandgesellschaft-Revision-Uns-Vertrauen-Generationen-seit-190",
       "/images/stg-revision-ch/pool/3be48dc810__Schweizerische-Treuhandgesellschaft-Revision-Geschichte.jpg",
-      "/images/stg-revision-ch/pool/51a3ba9e2e__Schweizerische-Treuhandgesellschaft-Revision-Nachfolgeregelung.jpg",
-      "/images/stg-revision-ch/pool/da16435de3__Schweizerische-Treuhandgesellschaft-Revision-Finanzielle-Fu_hrung.jpg",
+      "/images/stg-revision-ch/pool/1939a5f81e__Schweizerische-Treuhandgesellschaft-Revision-Strukturen-oder-Organisation.jpg",
       "/images/stg-revision-ch/pool/30e6d3d167__Schweizerische-Treuhandgesellschaft-Revision-Recht.jpg",
       "/images/stg-revision-ch/pool/66a55c923c__Schweizerische-Treuhandgesellschaft-Revision-eingeschra_nkte-und-ordentliche-Rev",
-      "/images/stg-revision-ch/pool/08c98aded7__Schweizerische-Treuhandgesellschaft-Revision-Spezialmandate.jpg",
-      "/images/stg-revision-ch/pool/53a60ecb74__Schweizerische-Treuhandgesellschaft-Revision-Steuerberatung.jpg",
-      "/images/stg-revision-ch/pool/cc6fe29d09__Schweizerische-Treuhandgesellschaft-Revision-Sonderpru_fungen.jpg",
-      "/images/stg-revision-ch/pool/e36f08f234__Schweizerische-Treuhandgesellschaft-Revision-Finanzbuchhaltung.jpg"
+      "/images/stg-revision-ch/pool/da16435de3__Schweizerische-Treuhandgesellschaft-Revision-Finanzielle-Fu_hrung.jpg",
+      "/images/stg-revision-ch/pool/51a3ba9e2e__Schweizerische-Treuhandgesellschaft-Revision-Nachfolgeregelung.jpg",
+      "/images/stg-revision-ch/pool/08c98aded7__Schweizerische-Treuhandgesellschaft-Revision-Spezialmandate.jpg"
     ],
     "serviceImages": {
       "Buchhaltung": "/images/stg-revision-ch/pool/e36f08f234__Schweizerische-Treuhandgesellschaft-Revision-Finanzbuchhaltung.jpg",
@@ -330,17 +322,7 @@
         "height": 85.9,
         "orientation": "landscape",
         "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/stg-revision-ch/pool/fe978ea9ce__Logo-STG-Revision.svg",
-        "kind": "logo",
-        "alt": "Logo STG Revision AG",
-        "bytes": 23569,
-        "width": 443.5,
-        "height": 85.9,
-        "orientation": "landscape",
-        "subject": "generic",
+        "phash": "94ad9400291000b8",
         "roles": []
       },
       {
@@ -352,6 +334,7 @@
         "height": 35.7,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "808080848287652",
         "roles": []
       },
       {
@@ -363,6 +346,7 @@
         "height": 20.792,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "1818137666951818",
         "roles": []
       },
       {
@@ -374,6 +358,7 @@
         "height": 40.37,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "dd8a8f4d98985b4b",
         "roles": []
       },
       {
@@ -385,6 +370,7 @@
         "height": 25.865,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "ca7475adca93d726",
         "roles": []
       },
       {
@@ -396,6 +382,7 @@
         "height": 30.3,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "c0c8a46450c0a68e",
         "roles": []
       },
       {
@@ -406,12 +393,11 @@
         "width": 1600,
         "height": 1066,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "1e1f1f1f5fdbcfcf",
+        "quality": 0.65,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -423,12 +409,11 @@
         "width": 1600,
         "height": 1066,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "1e1f1717979f9bda",
+        "quality": 0.54,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -441,6 +426,9 @@
         "height": 1067,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "8d032890b9239393",
+        "quality": 0.75,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -457,7 +445,10 @@
         "width": 1024,
         "height": 663,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "236d4f67731a8627",
+        "quality": 0.84,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -473,6 +464,9 @@
         "height": 683,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "e2f64e60f0380e03",
+        "quality": 0.81,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -487,7 +481,10 @@
         "width": 1024,
         "height": 683,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "3b23c59273dbd9cc",
+        "quality": 0.8,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -502,12 +499,11 @@
         "width": 1613,
         "height": 1075,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "1733333333e9c9c5",
+        "quality": 0.75,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -520,6 +516,27 @@
         "height": 683,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "7e27f0e0cc1f0f07",
+        "quality": 0.61,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/stg-revision-ch/pool/e61666ee70__Schweizerische-Treuhandgesellschaft-Revision-Uns-Vertrauen-Generationen-seit-190",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 87867,
+        "width": 1024,
+        "height": 606,
+        "orientation": "landscape",
+        "subject": "generic",
+        "phash": "3171d1971f0794d",
+        "quality": 0.74,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -535,6 +552,9 @@
         "height": 683,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "96be9f8ebef672ef",
+        "quality": 0.63,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -550,6 +570,9 @@
         "height": 683,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "3202da9c36141e36",
+        "quality": 0.5,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -565,6 +588,9 @@
         "height": 768,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "703070f070f1f1f",
+        "quality": 0.58,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -580,6 +606,9 @@
         "height": 683,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "96a4347c6c6c6859",
+        "quality": 0.61,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -595,6 +624,9 @@
         "height": 683,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "6180a4716031a46d",
+        "quality": 0.61,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -610,10 +642,12 @@
         "height": 769,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "3171f7e639a7161c",
+        "quality": 0.43,
+        "faces": 0,
         "roles": [
           "gallery",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -624,27 +658,11 @@
         "width": 1024,
         "height": 737,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/stg-revision-ch/pool/cc6fe29d09__Schweizerische-Treuhandgesellschaft-Revision-Sonderpru_fungen.jpg",
-        "kind": "photo",
-        "alt": "Schweizerische Treuhandgesellschaft Revision Sonderprüfungen",
-        "bytes": 47594,
-        "width": 1024,
-        "height": 680,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
+        "subject": "portrait",
+        "phash": "1783c3d3e3c0ccf3",
+        "quality": 0.42,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/stg-revision-ch/pool/e36f08f234__Schweizerische-Treuhandgesellschaft-Revision-Finanzbuchhaltung.jpg",
@@ -654,7 +672,10 @@
         "width": 1024,
         "height": 683,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "9183478d8f2e2080",
+        "quality": 0.51,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -663,8 +684,6 @@
       }
     ],
     "sectionBackgrounds": [
-      "/images/stg-revision-ch/pool/e68d451acf__Philipp_Akeret_neu-Kopie-Web.jpg",
-      "/images/stg-revision-ch/pool/bc95f67a00__Christine_Perler_neu-Kopie-Web.jpg",
       "/images/stg-revision-ch/pool/c701d8046b__Schweizerische-Treuhandgesellschaft-Revision-Kontakt.jpg"
     ]
   },

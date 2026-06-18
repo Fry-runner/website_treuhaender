@@ -11,8 +11,8 @@
  * The HOME page's section order still comes from blueprints.ts (composeHomepage);
  * every other page type carries its own section sequence here.
  */
-import { composeHomepage, archetypes, type ArchetypeId, type LayoutSlot, type Presence } from "./blueprints";
-import type { SiteContent } from "./content/types";
+import { composeHomepage, archetypes, type ArchetypeId, type LayoutSlot, type Presence } from "./blueprints.ts";
+import type { SiteContent } from "./content/types.ts";
 
 /** Section slots usable on a page — homepage slots plus a few page-only ones. */
 export type PageSlot =
@@ -130,6 +130,30 @@ export function slugify(s: string): string {
 const LEGAL_DOCS = ["Impressum", "Datenschutz"];
 
 /**
+ * A SEPARATE Team page is only worth its own subpage once the team is large
+ * enough to fill it; with a handful of people a dedicated page reads thin. Below
+ * this count the members ride along on the "Über uns" page instead (see the
+ * About-page team de-dup in resolvePages). "More than 4" → 5+.
+ */
+export const TEAM_PAGE_MIN_MEMBERS = 5;
+
+/**
+ * A non-repeatable page only exists when it has REAL content to justify it —
+ * otherwise it would render as an empty shell (page-header + CTA only). The Team
+ * page is gated twice over: real members must exist AND there must be enough of
+ * them (>4) to warrant a standalone page; otherwise the firm introduces itself
+ * via the generic "Über uns" (with the small team folded into it).
+ * With no content context (archetype-only previews) every page is kept.
+ */
+function pageHasRealContent(pageType: string, content?: SiteContent): boolean {
+  if (!content) return true;
+  switch (pageType) {
+    case "team": return content.team.members.length >= TEAM_PAGE_MIN_MEMBERS;
+    default: return true;
+  }
+}
+
+/**
  * Resolve a page-ref list into a full sitemap, expanding repeatable page types.
  * `homeSlots` is the homepage section sequence (from the content-driven brief,
  * or composeHomepage for the archetype fallback).
@@ -140,11 +164,21 @@ export function resolvePages(
   content?: SiteContent,
   opts: { includeOptional?: boolean } = {},
 ): ResolvedPage[] {
+  // Whether a dedicated Team page will exist — so the About page doesn't also
+  // render the full team (avoids two near-identical "people" pages).
+  const hasTeamPage = refs.some((r) =>
+    r.pageType === "team"
+    && (r.presence !== "optional" || opts.includeOptional)
+    && pageHasRealContent("team", content));
+
   const out: ResolvedPage[] = [];
   for (const ref of refs) {
     if (ref.presence === "optional" && !opts.includeOptional) continue;
     const pt = pageTypes[ref.pageType];
     if (!pt) continue;
+    // Drop pages with no real content to back them (e.g. a Team page when the
+    // scrape found no members) — never create an empty subpage shell.
+    if (!pt.repeat && pt.id !== "home" && !pageHasRealContent(pt.id, content)) continue;
 
     if (pt.id === "home") {
       out.push({
@@ -164,8 +198,13 @@ export function resolvePages(
           sections: pt.sections, presence: ref.presence, item: d });
       }
     } else {
+      // The About page tells the company story; if a dedicated Team page exists,
+      // drop its team section so the two pages don't duplicate the same people.
+      const sections = (pt.id === "about" && hasTeamPage)
+        ? pt.sections.filter((s) => s !== "team")
+        : pt.sections;
       out.push({ pageType: pt.id, slug: pt.slugBase, title: pt.name,
-        sections: pt.sections, presence: ref.presence });
+        sections, presence: ref.presence });
     }
   }
   return out;

@@ -197,7 +197,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
@@ -207,8 +207,7 @@
       "hero.aside",
       "values",
       "services.text",
-      "media.stock (CC fallback)",
-      "team.members"
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -230,32 +229,28 @@
   },
   "media": {
     "logo": "/images/aawi-ch/pool/29a44f761c__Logo_200px.png",
-    "hero": "/images/aawi-ch/hero.png",
+    "hero": "/images/aawi-ch/pool/stock-desk-7821716.jpg",
     "badges": [
+      "/images/aawi-ch/pool/ca9e7bfcf4__Logo_shadow2-300x240.png",
       "/images/aawi-ch/pool/af6810ab80__bexio.png"
     ],
     "photos": [
-      "/images/aawi-ch/pool/5ab7faa389__wir-ueber-uns.png",
-      "/images/aawi-ch/pool/462960ae75__Logo_shadow2.png",
-      "/images/aawi-ch/pool/d7572170c0__vision-mission.jpg",
-      "/images/aawi-ch/pool/3e5799df2a__steuerberatung.jpg",
-      "/images/aawi-ch/pool/eb89601bb2__Christa_Stuermer_quad.jpg",
-      "/images/aawi-ch/pool/bb8d8e8fcc__lohnuchhaltung.jpg",
       "/images/aawi-ch/pool/1d7608f6c4__buchhaltung-2.jpg",
       "/images/aawi-ch/pool/8f6424739c__jahresabschluss-1.jpg",
       "/images/aawi-ch/pool/26a25b69e6__unternehmensberatung-1.jpg",
-      "/images/aawi-ch/pool/8e50c5bb21__firmengruendung-1.jpg",
-      "/images/aawi-ch/pool/1e29174ed6__marco_portrait-1.png",
-      "/images/aawi-ch/pool/016555cb11__marco_portrait-300x274.png"
+      "/images/aawi-ch/pool/3e5799df2a__steuerberatung.jpg",
+      "/images/aawi-ch/pool/d7572170c0__vision-mission.jpg",
+      "/images/aawi-ch/pool/bb8d8e8fcc__lohnuchhaltung.jpg",
+      "/images/aawi-ch/pool/8e50c5bb21__firmengruendung-1.jpg"
     ],
     "serviceImages": {
       "Buchhaltung": "/images/aawi-ch/pool/1d7608f6c4__buchhaltung-2.jpg",
       "Steuerberatung": "/images/aawi-ch/pool/3e5799df2a__steuerberatung.jpg",
       "Lohnadministration": "/images/aawi-ch/pool/bb8d8e8fcc__lohnuchhaltung.jpg",
       "Unternehmensberatung": "/images/aawi-ch/pool/26a25b69e6__unternehmensberatung-1.jpg",
-      "Jahresabschluss": "/images/aawi-ch/pool/stock-laptop-7693224.jpg",
-      "Mehrwertsteuer": "/images/aawi-ch/pool/stock-laptop-9260568.jpg",
-      "Revision": "/images/aawi-ch/pool/stock-documents-7876037.jpg"
+      "Jahresabschluss": "/images/aawi-ch/pool/stock-laptop-8091204.jpg",
+      "Mehrwertsteuer": "/images/aawi-ch/pool/stock-documents-13431445.jpg",
+      "Revision": "/images/aawi-ch/pool/stock-meeting-7433840.jpg"
     },
     "documents": [],
     "assets": [
@@ -268,6 +263,19 @@
         "height": 109,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "16a62eaeac888890",
+        "roles": []
+      },
+      {
+        "src": "/images/aawi-ch/pool/ca9e7bfcf4__Logo_shadow2-300x240.png",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 29406,
+        "width": 300,
+        "height": 240,
+        "orientation": "landscape",
+        "subject": "generic",
+        "phash": "a0a2a2cecc8c196",
         "roles": []
       },
       {
@@ -279,33 +287,8 @@
         "height": 200,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "71f0e0a4deccf071",
         "roles": []
-      },
-      {
-        "src": "/images/aawi-ch/pool/1e29174ed6__marco_portrait-1.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 103206,
-        "width": 600,
-        "height": 548,
-        "orientation": "square",
-        "subject": "portrait",
-        "roles": []
-      },
-      {
-        "src": "/images/aawi-ch/pool/5ab7faa389__wir-ueber-uns.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 136201,
-        "width": 1023,
-        "height": 741,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
       },
       {
         "src": "/images/aawi-ch/pool/3e5799df2a__steuerberatung.jpg",
@@ -316,6 +299,9 @@
         "height": 682,
         "orientation": "square",
         "subject": "generic",
+        "phash": "b0a0c18aa3bb3dcc",
+        "quality": 0.82,
+        "faces": 0,
         "roles": [
           "service"
         ]
@@ -328,24 +314,12 @@
         "width": 904,
         "height": 904,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "4e98b88028686220",
+        "quality": 0.7,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "service",
           "feature"
-        ]
-      },
-      {
-        "src": "/images/aawi-ch/pool/462960ae75__Logo_shadow2.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 52630,
-        "width": 679,
-        "height": 543,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "service"
         ]
       },
       {
@@ -357,6 +331,9 @@
         "height": 682,
         "orientation": "square",
         "subject": "generic",
+        "phash": "3326c1073ef1830b",
+        "quality": 0.67,
+        "faces": 0,
         "roles": [
           "service"
         ]
@@ -369,18 +346,10 @@
         "width": 512,
         "height": 512,
         "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/aawi-ch/pool/016555cb11__marco_portrait-300x274.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 26401,
-        "width": 300,
-        "height": 274,
-        "orientation": "square",
-        "subject": "portrait",
+        "subject": "office",
+        "phash": "4e404dfbe1a13b31",
+        "quality": 0.83,
+        "faces": 0,
         "roles": []
       },
       {
@@ -391,7 +360,10 @@
         "width": 539,
         "height": 539,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "c8e4e4c936ac3fe7",
+        "quality": 0.8,
+        "faces": 0,
         "roles": []
       },
       {
@@ -402,7 +374,10 @@
         "width": 682,
         "height": 682,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "1696869753f0f161",
+        "quality": 0.5,
+        "faces": 0,
         "roles": [
           "service"
         ]
@@ -416,6 +391,9 @@
         "height": 360,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "31290001000391d",
+        "quality": 0.75,
+        "faces": 0,
         "roles": []
       },
       {
@@ -427,22 +405,67 @@
         "height": 642,
         "orientation": "square",
         "subject": "generic",
+        "phash": "dae0e0f2b4b433ef",
+        "quality": 0.48,
+        "faces": 0,
         "roles": [
           "service"
         ]
       },
       {
-        "src": "/images/aawi-ch/pool/stock-laptop-7693224.jpg",
+        "src": "/images/aawi-ch/pool/stock-desk-7821716.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 168447,
+        "width": 1880,
+        "height": 1253,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/a-man-sitting-at-the-table-7821716/",
+        "quality": 0.52,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/stock-laptop-8091204.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 89466,
+        "bytes": 98587,
         "width": 1280,
-        "height": 853,
+        "height": 852,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
         "stock": true,
-        "credit": "Yan Krukau (Pexels)",
-        "source": "https://www.pexels.com/photo/gray-laptop-on-the-table-7693224/",
+        "credit": "PNW Production (Pexels)",
+        "source": "https://www.pexels.com/photo/woman-in-white-dress-sitting-on-brown-wooden-table-using-macbook-pro-8091204/",
+        "quality": 0.66,
+        "faces": 1,
+        "roles": [
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/stock-documents-13431445.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 82097,
+        "width": 1280,
+        "height": 852,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Jurie Maree (Pexels)",
+        "source": "https://www.pexels.com/photo/a-close-up-shot-of-labeled-binder-clips-13431445/",
+        "quality": 0.54,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -451,36 +474,19 @@
         ]
       },
       {
-        "src": "/images/aawi-ch/pool/stock-laptop-9260568.jpg",
+        "src": "/images/aawi-ch/pool/stock-meeting-7433840.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 82341,
+        "bytes": 98769,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
         "stock": true,
-        "credit": "Atlantic Ambience (Pexels)",
-        "source": "https://www.pexels.com/photo/a-person-writing-on-a-paper-9260568/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/aawi-ch/pool/stock-documents-7876037.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 56686,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "www.kaboompics.com (Pexels)",
-        "source": "https://www.pexels.com/photo/a-person-signing-divorce-documents-7876037/",
+        "credit": "Vlada Karpovich (Pexels)",
+        "source": "https://www.pexels.com/photo/a-group-of-people-discussing-in-a-room-7433840/",
+        "quality": 0.64,
+        "faces": 5,
         "roles": [
           "gallery",
           "background",
@@ -490,15 +496,16 @@
       }
     ],
     "sectionBackgrounds": [
-      "/images/aawi-ch/pool/stock-laptop-7693224.jpg",
-      "/images/aawi-ch/pool/stock-laptop-9260568.jpg",
-      "/images/aawi-ch/pool/stock-documents-7876037.jpg"
+      "/images/aawi-ch/pool/stock-desk-7821716.jpg",
+      "/images/aawi-ch/pool/stock-laptop-8091204.jpg",
+      "/images/aawi-ch/pool/stock-documents-13431445.jpg"
     ],
     "stock": true,
     "credits": [
-      "Yan Krukau (Pexels)",
-      "Atlantic Ambience (Pexels)",
-      "www.kaboompics.com (Pexels)"
+      "RDNE Stock project (Pexels)",
+      "PNW Production (Pexels)",
+      "Jurie Maree (Pexels)",
+      "Vlada Karpovich (Pexels)"
     ]
   },
   "nav": {
@@ -530,7 +537,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "aawi treuhand ag in Wetzikon Treuhandfirma mit dem Hauptfokus Steuerberatung, Online-/Buchhaltung und Unternehmensberatung.",
     "asideAttribution": "aawi treuhand ag",
-    "image": "/images/aawi-ch/hero.png"
+    "image": "/images/aawi-ch/pool/stock-desk-7821716.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -582,7 +589,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/aawi-ch/pool/stock-laptop-7693224.jpg"
+        "image": "/images/aawi-ch/pool/stock-laptop-8091204.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -594,7 +601,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/aawi-ch/pool/stock-laptop-9260568.jpg"
+        "image": "/images/aawi-ch/pool/stock-documents-13431445.jpg"
       },
       {
         "title": "Unternehmensberatung",
@@ -618,26 +625,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "aawi Team",
-        "role": "Geschäftsführung",
-        "initials": "AA",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -662,6 +650,7 @@
       "sage"
     ],
     "badges": [
+      "/images/aawi-ch/pool/ca9e7bfcf4__Logo_shadow2-300x240.png",
       "/images/aawi-ch/pool/af6810ab80__bexio.png"
     ]
   },

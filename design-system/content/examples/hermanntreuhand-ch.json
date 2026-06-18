@@ -151,10 +151,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -190,7 +186,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -199,7 +195,8 @@
     "placeholders": [
       "hero.aside",
       "values",
-      "faq"
+      "faq",
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -222,17 +219,16 @@
   },
   "media": {
     "logo": "/images/hermanntreuhand-ch/pool/6b36bb9728__HT-Hermann_Treuhand_Logo-V4.jpg",
-    "hero": "/images/hermanntreuhand-ch/hero.jpg",
+    "hero": "/images/hermanntreuhand-ch/pool/stock-city-35599423.jpg",
     "badges": [
       "/images/hermanntreuhand-ch/pool/7f59b19916__lgo_sage.png",
       "/images/hermanntreuhand-ch/pool/3449840ee0__bexio-e1477291875174.jpg"
     ],
     "photos": [
+      "/images/hermanntreuhand-ch/pool/d92b8db85f__lopardo_winterthur_web_med.jpg",
       "/images/hermanntreuhand-ch/pool/c035c4ed9f__B_roeingang-Hermann-Treuhand-Winterthur-2.jpg",
-      "/images/hermanntreuhand-ch/pool/1c8a009cb1__lopardo-1140214.jpg",
-      "/images/hermanntreuhand-ch/pool/755d3982d8__lopardo_P7060293_web_med.jpg",
-      "/images/hermanntreuhand-ch/pool/a35b69ec0b__HT_googlemaps_standort.jpg",
-      "/images/hermanntreuhand-ch/pool/9b39f1e3c2__MWST-Form-Hermann-Treuhand-e1485894290345.jpg"
+      "/images/hermanntreuhand-ch/pool/9b39f1e3c2__MWST-Form-Hermann-Treuhand-e1485894290345.jpg",
+      "/images/hermanntreuhand-ch/pool/1c8a009cb1__lopardo-1140214.jpg"
     ],
     "serviceImages": {
       "Mehrwertsteuer": "/images/hermanntreuhand-ch/pool/9b39f1e3c2__MWST-Form-Hermann-Treuhand-e1485894290345.jpg"
@@ -339,6 +335,7 @@
         "height": 68,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "2020c9e6e64500",
         "roles": []
       },
       {
@@ -350,6 +347,7 @@
         "height": 76,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "aa3435d4d4a85919",
         "roles": []
       },
       {
@@ -361,7 +359,27 @@
         "height": 162,
         "orientation": "square",
         "subject": "generic",
+        "phash": "f0ccb25717b2ccf0",
         "roles": []
+      },
+      {
+        "src": "/images/hermanntreuhand-ch/pool/d92b8db85f__lopardo_winterthur_web_med.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 180454,
+        "width": 1200,
+        "height": 600,
+        "orientation": "landscape",
+        "subject": "city",
+        "phash": "3134f2b351d79e3",
+        "quality": 0.85,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
       },
       {
         "src": "/images/hermanntreuhand-ch/pool/1c8a009cb1__lopardo-1140214.jpg",
@@ -372,22 +390,9 @@
         "height": 800,
         "orientation": "landscape",
         "subject": "generic",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/hermanntreuhand-ch/pool/755d3982d8__lopardo_P7060293_web_med.jpg",
-        "kind": "photo",
-        "alt": "Thomas Hermann, Treuhandexperte und Fachmann Finanz & Rechnungswesen mit eidg. Fachausweis",
-        "bytes": 121687,
-        "width": 1200,
-        "height": 900,
-        "orientation": "landscape",
-        "subject": "generic",
+        "phash": "6f1f42211449038b",
+        "quality": 0.68,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -404,26 +409,27 @@
         "height": 852,
         "orientation": "square",
         "subject": "office",
+        "phash": "f77979787c781838",
+        "quality": 0.53,
+        "faces": 1,
         "roles": [
           "gallery",
           "service"
         ]
       },
       {
-        "src": "/images/hermanntreuhand-ch/pool/a35b69ec0b__HT_googlemaps_standort.jpg",
+        "src": "/images/hermanntreuhand-ch/pool/ec596f033d__lopardo_P7060293_web_med-980x735.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 91105,
-        "width": 1200,
-        "height": 800,
+        "bytes": 88376,
+        "width": 980,
+        "height": 735,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
+        "subject": "portrait",
+        "phash": "98989c9c98191f0d",
+        "quality": 0.41,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/hermanntreuhand-ch/pool/9b39f1e3c2__MWST-Form-Hermann-Treuhand-e1485894290345.jpg",
@@ -434,13 +440,41 @@
         "height": 375,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "f4f030b03233306",
+        "quality": 0.76,
+        "faces": 0,
         "roles": []
+      },
+      {
+        "src": "/images/hermanntreuhand-ch/pool/stock-city-35599423.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 479254,
+        "width": 1880,
+        "height": 1253,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Elijah Cobb (Pexels)",
+        "source": "https://www.pexels.com/photo/blue-tram-on-bahnhofstrasse-in-zurich-at-twilight-35599423/",
+        "quality": 0.64,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
       }
     ],
+    "stock": true,
+    "credits": [
+      "Elijah Cobb (Pexels)"
+    ],
     "sectionBackgrounds": [
-      "/images/hermanntreuhand-ch/pool/1c8a009cb1__lopardo-1140214.jpg",
-      "/images/hermanntreuhand-ch/pool/755d3982d8__lopardo_P7060293_web_med.jpg",
-      "/images/hermanntreuhand-ch/pool/a35b69ec0b__HT_googlemaps_standort.jpg"
+      "/images/hermanntreuhand-ch/pool/d92b8db85f__lopardo_winterthur_web_med.jpg",
+      "/images/hermanntreuhand-ch/pool/1c8a009cb1__lopardo-1140214.jpg"
     ]
   },
   "nav": {
@@ -472,7 +506,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Wir betreuen, beraten und unterstützen Sie bei Ihrer unternehmerischen Tätigkeit als verlässlicher Treuhandpartner für KMU-Betriebe und Privatpersonen.",
     "asideAttribution": "Hermann Treuhand",
-    "image": "/images/hermanntreuhand-ch/hero.jpg"
+    "image": "/images/hermanntreuhand-ch/pool/stock-city-35599423.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",

@@ -136,10 +136,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -175,7 +171,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -185,7 +181,8 @@
       "hero.aside",
       "values",
       "faq",
-      "look.colors (generated)"
+      "look.colors (generated)",
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -206,28 +203,23 @@
   },
   "media": {
     "logo": "/images/latreuhand-ch/pool/34e876c5cb__logo_footer-scaled.jpg",
-    "hero": "/images/latreuhand-ch/hero.jpg",
+    "hero": "/images/latreuhand-ch/pool/stock-documents-7841478.jpg",
     "badges": [
       "/images/latreuhand-ch/pool/289186b0d8__bexio.svg",
       "/images/latreuhand-ch/pool/f968340e83__treuhand-suisse.svg"
     ],
     "photos": [
-      "/images/latreuhand-ch/pool/069cb033ef__pic1.png",
       "/images/latreuhand-ch/pool/341632d187__pic.jpg",
-      "/images/latreuhand-ch/pool/48e37331b6__Untitled-11.png",
       "/images/latreuhand-ch/pool/b6375c4735__pic-1.jpg",
       "/images/latreuhand-ch/pool/2545b3d28a__curated-lifestyle-89Nq3BH8mqs-unsplash-scaled.jpg",
-      "/images/latreuhand-ch/pool/5c41834cea__matt-bennett-78hTqvjYMS4-unsplash-scaled.jpg",
+      "/images/latreuhand-ch/pool/c06015c199__andy-quezada-UccdYgxycUI-unsplash-scaled.jpg",
       "/images/latreuhand-ch/pool/2c43032b26__gabrielle-henderson-HJckKnwCXxQ-unsplash-scaled.jpg",
+      "/images/latreuhand-ch/pool/3a82beb247__planet-volumes-aAZqXTcMn2A-unsplash-scaled.jpg",
       "/images/latreuhand-ch/pool/5a85969b9b__scott-graham-5fNmWej4tAA-unsplash-scaled.jpg",
+      "/images/latreuhand-ch/pool/5c41834cea__matt-bennett-78hTqvjYMS4-unsplash-scaled.jpg",
       "/images/latreuhand-ch/pool/7799588577__noor-younis-mId2gG0a9GU-unsplash-scaled-1.jpg",
       "/images/latreuhand-ch/pool/c775d664c0__tingey-injury-law-firm-DZpc4UY8ZtY-unsplash-scaled.jpg",
-      "/images/latreuhand-ch/pool/3d873f2aa3__dan-cristian-padure-xJLN32FO7AY-unsplash-scaled.jpg",
-      "/images/latreuhand-ch/pool/c06015c199__andy-quezada-UccdYgxycUI-unsplash-scaled.jpg",
-      "/images/latreuhand-ch/pool/3a82beb247__planet-volumes-aAZqXTcMn2A-unsplash-scaled.jpg",
-      "/images/latreuhand-ch/pool/2f85cb6329__pic3.png",
-      "/images/latreuhand-ch/pool/329582f4c8__pic2.png",
-      "/images/latreuhand-ch/pool/0091413351__janosch-lino-snDUMdYF7o8-unsplash-scaled.jpg"
+      "/images/latreuhand-ch/pool/069cb033ef__pic1.png"
     ],
     "serviceImages": {},
     "documents": [
@@ -338,6 +330,7 @@
         "height": 642,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "b2b2b2b23100e4e6",
         "roles": []
       },
       {
@@ -349,6 +342,7 @@
         "height": 323,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "969d9d9990988c0c",
         "roles": []
       },
       {
@@ -360,6 +354,7 @@
         "height": 351,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "40c2a224559a2ae",
         "roles": []
       },
       {
@@ -371,6 +366,7 @@
         "height": 116.998,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "8089ae6e4940808",
         "roles": []
       },
       {
@@ -381,7 +377,10 @@
         "width": 520,
         "height": 534,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "8d1d9d1d2d2f131f",
+        "quality": 0.88,
+        "faces": 2,
         "roles": []
       },
       {
@@ -393,11 +392,11 @@
         "height": 790,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "40004018688c8ecf",
+        "quality": 0.29,
+        "faces": 0,
         "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
+          "gallery"
         ]
       },
       {
@@ -408,38 +407,15 @@
         "width": 1300,
         "height": 790,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "d6d4f0f8e8ece8e8",
+        "quality": 0.83,
+        "faces": 6,
         "roles": [
           "gallery",
           "background",
           "service",
           "feature"
-        ]
-      },
-      {
-        "src": "/images/latreuhand-ch/pool/48e37331b6__Untitled-11.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 447,
-        "width": 638,
-        "height": 534,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "service"
-        ]
-      },
-      {
-        "src": "/images/latreuhand-ch/pool/329582f4c8__pic2.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 156237,
-        "width": 636,
-        "height": 728,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "service"
         ]
       },
       {
@@ -450,7 +426,10 @@
         "width": 1300,
         "height": 790,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "9029d6d4f0f8e8e8",
+        "quality": 0.81,
+        "faces": 6,
         "roles": [
           "gallery",
           "background",
@@ -466,7 +445,10 @@
         "width": 1600,
         "height": 1213,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "9c1cd8bcd8fc9cdc",
+        "quality": 0.78,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -484,6 +466,9 @@
         "height": 1067,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "f7ffffe1e4266a78",
+        "quality": 0.7,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -500,7 +485,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "cfcfc767252b0307",
+        "quality": 0.67,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -518,10 +506,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
-        "roles": [
-          "gallery",
-          "feature"
-        ]
+        "phash": "cfc7479534343514",
+        "quality": 0.49,
+        "faces": 0,
+        "roles": []
       },
       {
         "src": "/images/latreuhand-ch/pool/5a85969b9b__scott-graham-5fNmWej4tAA-unsplash-scaled.jpg",
@@ -531,13 +519,14 @@
         "width": 1600,
         "height": 1068,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "f0f8749171653d2",
+        "quality": 0.49,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -549,6 +538,9 @@
         "height": 994,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "672b0f191343cf96",
+        "quality": 0.62,
+        "faces": 2,
         "roles": [
           "gallery",
           "hero",
@@ -566,23 +558,9 @@
         "height": 1067,
         "orientation": "landscape",
         "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/latreuhand-ch/pool/3d873f2aa3__dan-cristian-padure-xJLN32FO7AY-unsplash-scaled.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 175996,
-        "width": 1600,
-        "height": 1191,
-        "orientation": "landscape",
-        "subject": "generic",
+        "phash": "96a4347c6c6c6859",
+        "quality": 0.57,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -599,7 +577,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "eecededfd6366ac8",
+        "quality": 0.73,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -616,7 +597,32 @@
         "width": 1600,
         "height": 1148,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "6f773a3b9363333e",
+        "quality": 0.55,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/latreuhand-ch/pool/stock-documents-7841478.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 159158,
+        "width": 1880,
+        "height": 1253,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/close-up-shot-of-a-person-holding-divorce-papers-7841478/",
+        "quality": 0.52,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -626,10 +632,14 @@
         ]
       }
     ],
+    "stock": true,
+    "credits": [
+      "RDNE Stock project (Pexels)"
+    ],
     "sectionBackgrounds": [
-      "/images/latreuhand-ch/pool/069cb033ef__pic1.png",
       "/images/latreuhand-ch/pool/341632d187__pic.jpg",
-      "/images/latreuhand-ch/pool/b6375c4735__pic-1.jpg"
+      "/images/latreuhand-ch/pool/b6375c4735__pic-1.jpg",
+      "/images/latreuhand-ch/pool/2545b3d28a__curated-lifestyle-89Nq3BH8mqs-unsplash-scaled.jpg"
     ]
   },
   "nav": {
@@ -661,7 +671,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Ihre Partner für Treuhand und Steuerberater in Zürich – individuelle Beratung und umfassende Unterstützung für Ihre Steuern und Finanzen.",
     "asideAttribution": "L+A Treuhand",
-    "image": "/images/latreuhand-ch/hero.jpg"
+    "image": "/images/latreuhand-ch/pool/stock-documents-7841478.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",

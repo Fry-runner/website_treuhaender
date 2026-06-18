@@ -138,10 +138,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -177,7 +173,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -210,25 +206,19 @@
   },
   "media": {
     "logo": "/images/balbiani-ch/pool/358fecb2e4__Balbiani_Logo-1920w.png",
-    "hero": "/images/balbiani-ch/hero.jpg",
+    "hero": "/images/balbiani-ch/pool/stock-reception-11719831.jpg",
     "badges": [
       "/images/balbiani-ch/pool/185497a874__Download-1920w.png"
     ],
-    "photos": [
-      "/images/balbiani-ch/pool/stock-office-6803550.jpg",
-      "/images/balbiani-ch/pool/stock-meeting-7640793.jpg",
-      "/images/balbiani-ch/pool/stock-consultation-7821714.jpg",
-      "/images/balbiani-ch/pool/stock-advisory-7821671.jpg",
-      "/images/balbiani-ch/pool/stock-reception-8236022.jpg"
-    ],
+    "photos": [],
     "serviceImages": {
-      "Buchhaltung": "/images/balbiani-ch/pool/stock-office-5444195.jpg",
-      "Steuerberatung": "/images/balbiani-ch/pool/stock-advisory-7821711.jpg",
-      "Lohnadministration": "/images/balbiani-ch/pool/stock-success-5849583.jpg",
-      "Jahresabschluss": "/images/balbiani-ch/pool/stock-documents-7567551.jpg",
-      "Mehrwertsteuer": "/images/balbiani-ch/pool/stock-finance-590045.jpg",
-      "Unternehmensberatung": "/images/balbiani-ch/pool/stock-office-9845176.jpg",
-      "Revision": "/images/balbiani-ch/pool/stock-desk-7821716.jpg"
+      "Buchhaltung": "/images/balbiani-ch/pool/stock-finance-7580854.jpg",
+      "Steuerberatung": "/images/balbiani-ch/pool/stock-meeting-7433869.jpg",
+      "Lohnadministration": "/images/balbiani-ch/pool/stock-documents-7876037.jpg",
+      "Jahresabschluss": "/images/balbiani-ch/pool/stock-office-4680351.jpg",
+      "Mehrwertsteuer": "/images/balbiani-ch/pool/stock-office-8453801.jpg",
+      "Unternehmensberatung": "/images/balbiani-ch/pool/stock-advisory-7821543.jpg",
+      "Revision": "/images/balbiani-ch/pool/stock-success-6289065.jpg"
     },
     "documents": [
       {
@@ -296,6 +286,7 @@
         "height": 169,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "808090995b7b4d9c",
         "roles": []
       },
       {
@@ -307,139 +298,149 @@
         "height": 110,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "181a66a828b09080",
         "roles": []
       },
       {
-        "src": "/images/balbiani-ch/pool/stock-office-6803550.jpg",
+        "src": "/images/balbiani-ch/pool/stock-reception-11719831.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 210515,
+        "width": 1880,
+        "height": 1231,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Zakir Rushanly (Pexels)",
+        "source": "https://www.pexels.com/photo/couches-and-coffee-tables-in-a-lobby-11719831/",
+        "quality": 0.77,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/balbiani-ch/pool/stock-finance-7580854.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 158244,
-        "width": 1600,
-        "height": 1066,
+        "bytes": 79610,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/calculator-on-top-of-the-paper-7580854/",
+        "quality": 0.59,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/balbiani-ch/pool/stock-meeting-7433869.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 93906,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Vlada Karpovich (Pexels)",
+        "source": "https://www.pexels.com/photo/a-meeting-in-an-office-7433869/",
+        "quality": 0.67,
+        "faces": 3,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/balbiani-ch/pool/stock-documents-7876037.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 57715,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "www.kaboompics.com (Pexels)",
+        "source": "https://www.pexels.com/photo/a-person-signing-divorce-documents-7876037/",
+        "quality": 0.46,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/balbiani-ch/pool/stock-office-4680351.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 95288,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "KATRIN  BOLOVTSOVA (Pexels)",
+        "source": "https://www.pexels.com/photo/computer-on-white-desk-4680351/",
+        "quality": 0.73,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/balbiani-ch/pool/stock-office-8453801.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 88774,
+        "width": 1280,
+        "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
         "credit": "cottonbro studio (Pexels)",
-        "source": "https://www.pexels.com/photo/modern-office-desk-setup-with-a-computer-6803550/",
+        "source": "https://www.pexels.com/photo/photo-of-a-workplace-8453801/",
+        "quality": 0.68,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
           "service",
           "feature"
         ]
       },
       {
-        "src": "/images/balbiani-ch/pool/stock-meeting-7640793.jpg",
+        "src": "/images/balbiani-ch/pool/stock-advisory-7821543.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 109023,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "Yan Krukau (Pexels)",
-        "source": "https://www.pexels.com/photo/a-man-scolding-a-woman-sitting-at-a-desk-7640793/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/balbiani-ch/pool/stock-consultation-7821714.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 135744,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/man-in-black-suit-sitting-in-front-of-woman-in-brown-blazer-7821714/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/balbiani-ch/pool/stock-advisory-7821671.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 101385,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/an-agent-showing-documents-to-his-client-7821671/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/balbiani-ch/pool/stock-reception-8236022.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 191428,
-        "width": 1600,
-        "height": 1051,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "RAJESH KUMAR    VERMA (Pexels)",
-        "source": "https://www.pexels.com/photo/white-reception-counter-8236022/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/balbiani-ch/pool/stock-office-5444195.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 122692,
+        "bytes": 62361,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "myHQ-Workspaces (Pexels)",
-        "source": "https://www.pexels.com/photo/brown-wooden-table-with-chairs-5444195/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/balbiani-ch/pool/stock-advisory-7821711.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 78249,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
         "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/a-woman-sitting-at-the-table-7821711/",
+        "source": "https://www.pexels.com/photo/close-up-photo-of-person-pointing-on-documents-7821543/",
+        "quality": 0.62,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -448,117 +449,38 @@
         ]
       },
       {
-        "src": "/images/balbiani-ch/pool/stock-success-5849583.jpg",
+        "src": "/images/balbiani-ch/pool/stock-success-6289065.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 30094,
+        "bytes": 19783,
         "width": 1280,
-        "height": 751,
+        "height": 720,
         "orientation": "landscape",
         "subject": "generic",
         "stock": true,
         "credit": "Monstera Production (Pexels)",
-        "source": "https://www.pexels.com/photo/decorative-cardboard-illustration-of-hand-with-diagram-and-dollar-coin-5849583/",
+        "source": "https://www.pexels.com/photo/illustration-of-woman-analyzing-financial-line-graphic-6289065/",
+        "quality": 0.2,
+        "faces": 0,
         "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/balbiani-ch/pool/stock-documents-7567551.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 68271,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "Tima Miroshnichenko (Pexels)",
-        "source": "https://www.pexels.com/photo/a-hand-holding-a-pen-7567551/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/balbiani-ch/pool/stock-finance-590045.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 41558,
-        "width": 1280,
-        "height": 848,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "Lukas Blazek (Pexels)",
-        "source": "https://www.pexels.com/photo/graph-and-line-chart-printed-paper-590045/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/balbiani-ch/pool/stock-office-9845176.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 103101,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "Mathias Reding (Pexels)",
-        "source": "https://www.pexels.com/photo/low-angle-view-of-overpass-bridge-joining-buildings-9845176/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/balbiani-ch/pool/stock-desk-7821716.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 84692,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/a-man-sitting-at-the-table-7821716/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
+          "gallery"
         ]
       }
     ],
     "sectionBackgrounds": [
-      "/images/balbiani-ch/pool/stock-office-6803550.jpg",
-      "/images/balbiani-ch/pool/stock-meeting-7640793.jpg",
-      "/images/balbiani-ch/pool/stock-consultation-7821714.jpg"
+      "/images/balbiani-ch/pool/stock-reception-11719831.jpg",
+      "/images/balbiani-ch/pool/stock-finance-7580854.jpg",
+      "/images/balbiani-ch/pool/stock-meeting-7433869.jpg"
     ],
     "stock": true,
     "credits": [
-      "cottonbro studio (Pexels)",
-      "Yan Krukau (Pexels)",
+      "Zakir Rushanly (Pexels)",
       "RDNE Stock project (Pexels)",
-      "RAJESH KUMAR    VERMA (Pexels)",
-      "myHQ-Workspaces (Pexels)",
-      "Monstera Production (Pexels)",
-      "Tima Miroshnichenko (Pexels)",
-      "Lukas Blazek (Pexels)",
-      "Mathias Reding (Pexels)"
+      "Vlada Karpovich (Pexels)",
+      "www.kaboompics.com (Pexels)",
+      "KATRIN  BOLOVTSOVA (Pexels)",
+      "cottonbro studio (Pexels)",
+      "Monstera Production (Pexels)"
     ]
   },
   "nav": {
@@ -590,7 +512,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Unsere persönliche Beratung hilft Ihnen schnell Ihre Problem- und Fragestellungen zu lösen bei Ihrer Buchhaltung, den Steuern, Personaladministration und mehr.",
     "asideAttribution": "Treuhandbüro Balbiani",
-    "image": "/images/balbiani-ch/hero.jpg"
+    "image": "/images/balbiani-ch/pool/stock-reception-11719831.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -606,7 +528,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/balbiani-ch/pool/stock-office-5444195.jpg"
+        "image": "/images/balbiani-ch/pool/stock-finance-7580854.jpg"
       },
       {
         "title": "Steuerberatung",
@@ -618,7 +540,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/balbiani-ch/pool/stock-advisory-7821711.jpg"
+        "image": "/images/balbiani-ch/pool/stock-meeting-7433869.jpg"
       },
       {
         "title": "Lohnadministration",
@@ -630,7 +552,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/balbiani-ch/pool/stock-success-5849583.jpg"
+        "image": "/images/balbiani-ch/pool/stock-documents-7876037.jpg"
       },
       {
         "title": "Jahresabschluss",
@@ -642,7 +564,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/balbiani-ch/pool/stock-documents-7567551.jpg"
+        "image": "/images/balbiani-ch/pool/stock-office-4680351.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -654,7 +576,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/balbiani-ch/pool/stock-finance-590045.jpg"
+        "image": "/images/balbiani-ch/pool/stock-office-8453801.jpg"
       },
       {
         "title": "Unternehmensberatung",
@@ -666,7 +588,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/balbiani-ch/pool/stock-office-9845176.jpg"
+        "image": "/images/balbiani-ch/pool/stock-advisory-7821543.jpg"
       }
     ]
   },

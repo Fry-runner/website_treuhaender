@@ -178,7 +178,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✗ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -188,8 +188,7 @@
       "hero.aside",
       "values",
       "faq",
-      "media.stock (CC fallback)",
-      "team.members"
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -209,7 +208,7 @@
     ]
   },
   "media": {
-    "hero": "/images/sbt-treuhand-ch/pool/stock-city-15779002.jpg",
+    "hero": "/images/sbt-treuhand-ch/pool/stock-skyline-20768136.jpg",
     "badges": [
       "/images/sbt-treuhand-ch/pool/c8c2eae9e7__treu-suisse-logo.png",
       "/images/sbt-treuhand-ch/pool/a6acd3f93b__Logo_Saeulen-schriftzug.svg",
@@ -217,21 +216,15 @@
       "/images/sbt-treuhand-ch/pool/208b5b2151__expertsuisse-logo.png",
       "/images/sbt-treuhand-ch/pool/a6dcd91edc__veb-logo.png"
     ],
-    "photos": [
-      "/images/sbt-treuhand-ch/pool/77c65048c1__kmu-hsg_logo_de_rgb_1884x686.jpeg",
-      "/images/sbt-treuhand-ch/pool/stock-office-7511748.jpg",
-      "/images/sbt-treuhand-ch/pool/stock-meeting-7433869.jpg",
-      "/images/sbt-treuhand-ch/pool/stock-consultation-7821698.jpg",
-      "/images/sbt-treuhand-ch/pool/stock-advisory-7821711.jpg"
-    ],
+    "photos": [],
     "serviceImages": {
-      "Buchhaltung": "/images/sbt-treuhand-ch/pool/stock-office-5444195.jpg",
-      "Steuerberatung": "/images/sbt-treuhand-ch/pool/stock-success-6289065.jpg",
-      "Lohnadministration": "/images/sbt-treuhand-ch/pool/stock-office-9845176.jpg",
-      "Jahresabschluss": "/images/sbt-treuhand-ch/pool/stock-meeting-7433930.jpg",
-      "Mehrwertsteuer": "/images/sbt-treuhand-ch/pool/stock-documents-7876037.jpg",
-      "Unternehmensberatung": "/images/sbt-treuhand-ch/pool/stock-desk-8296974.jpg",
-      "Revision": "/images/sbt-treuhand-ch/pool/stock-finance-7413936.jpg"
+      "Buchhaltung": "/images/sbt-treuhand-ch/pool/stock-success-5849583.jpg",
+      "Steuerberatung": "/images/sbt-treuhand-ch/pool/stock-office-159839.jpg",
+      "Lohnadministration": "/images/sbt-treuhand-ch/pool/stock-documents-8478387.jpg",
+      "Jahresabschluss": "/images/sbt-treuhand-ch/pool/stock-office-36175676.jpg",
+      "Mehrwertsteuer": "/images/sbt-treuhand-ch/pool/stock-office-8453801.jpg",
+      "Unternehmensberatung": "/images/sbt-treuhand-ch/pool/stock-finance-577195.jpg",
+      "Revision": "/images/sbt-treuhand-ch/pool/stock-office-20314954.jpg"
     },
     "documents": [
       {
@@ -299,6 +292,7 @@
         "height": 418,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "241816b6180400",
         "roles": []
       },
       {
@@ -310,6 +304,7 @@
         "height": 42.8,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "9486b2b09091b296",
         "roles": []
       },
       {
@@ -321,6 +316,7 @@
         "height": 192,
         "orientation": "square",
         "subject": "generic",
+        "phash": "f8d8ccc8c8c8c8d8",
         "roles": []
       },
       {
@@ -332,6 +328,7 @@
         "height": 354,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "20dadccad69a9a00",
         "roles": []
       },
       {
@@ -343,37 +340,23 @@
         "height": 580,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "6869696969697161",
         "roles": []
       },
       {
-        "src": "/images/sbt-treuhand-ch/pool/77c65048c1__kmu-hsg_logo_de_rgb_1884x686.jpeg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 54514,
-        "width": 1600,
-        "height": 900,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sbt-treuhand-ch/pool/stock-city-15779002.jpg",
+        "src": "/images/sbt-treuhand-ch/pool/stock-skyline-20768136.jpg",
         "kind": "hero",
         "alt": "",
-        "bytes": 354920,
+        "bytes": 270287,
         "width": 1880,
-        "height": 1253,
+        "height": 1057,
         "orientation": "landscape",
         "subject": "city",
         "stock": true,
-        "credit": "Malte Luk (Pexels)",
-        "source": "https://www.pexels.com/photo/rudolf-brun-bridge-river-limmat-zurich-switzerland-15779002/",
+        "credit": "Anita Kieseler (Pexels)",
+        "source": "https://www.pexels.com/photo/view-of-the-modern-singapore-skyline-20768136/",
+        "quality": 0.81,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -383,135 +366,37 @@
         ]
       },
       {
-        "src": "/images/sbt-treuhand-ch/pool/stock-office-7511748.jpg",
+        "src": "/images/sbt-treuhand-ch/pool/stock-success-5849583.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 115255,
-        "width": 1600,
-        "height": 1068,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "Max Vakhtbovych (Pexels)",
-        "source": "https://www.pexels.com/photo/modern-office-interior-with-table-7511748/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sbt-treuhand-ch/pool/stock-meeting-7433869.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 132437,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "Vlada Karpovich (Pexels)",
-        "source": "https://www.pexels.com/photo/a-meeting-in-an-office-7433869/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sbt-treuhand-ch/pool/stock-consultation-7821698.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 101971,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/man-in-black-suit-jacket-holding-white-paper-7821698/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sbt-treuhand-ch/pool/stock-advisory-7821711.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 111868,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/a-woman-sitting-at-the-table-7821711/",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sbt-treuhand-ch/pool/stock-office-5444195.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 122692,
+        "bytes": 30094,
         "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "myHQ-Workspaces (Pexels)",
-        "source": "https://www.pexels.com/photo/brown-wooden-table-with-chairs-5444195/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sbt-treuhand-ch/pool/stock-success-6289065.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 19783,
-        "width": 1280,
-        "height": 720,
+        "height": 751,
         "orientation": "landscape",
         "subject": "generic",
         "stock": true,
         "credit": "Monstera Production (Pexels)",
-        "source": "https://www.pexels.com/photo/illustration-of-woman-analyzing-financial-line-graphic-6289065/",
+        "source": "https://www.pexels.com/photo/decorative-cardboard-illustration-of-hand-with-diagram-and-dollar-coin-5849583/",
+        "quality": 0.17,
+        "faces": 0,
         "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
+          "gallery"
         ]
       },
       {
-        "src": "/images/sbt-treuhand-ch/pool/stock-office-9845176.jpg",
+        "src": "/images/sbt-treuhand-ch/pool/stock-office-159839.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 103101,
+        "bytes": 117251,
         "width": 1280,
-        "height": 853,
+        "height": 851,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Mathias Reding (Pexels)",
-        "source": "https://www.pexels.com/photo/low-angle-view-of-overpass-bridge-joining-buildings-9845176/",
+        "credit": "Pixabay (Pexels)",
+        "source": "https://www.pexels.com/photo/black-study-lamp-on-black-table-159839/",
+        "quality": 0.79,
+        "faces": 1,
         "roles": [
           "gallery",
           "background",
@@ -520,36 +405,37 @@
         ]
       },
       {
-        "src": "/images/sbt-treuhand-ch/pool/stock-meeting-7433930.jpg",
+        "src": "/images/sbt-treuhand-ch/pool/stock-documents-8478387.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 89129,
+        "bytes": 58145,
         "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "office",
-        "stock": true,
-        "credit": "Vlada Karpovich (Pexels)",
-        "source": "https://www.pexels.com/photo/two-women-having-a-conversation-7433930/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sbt-treuhand-ch/pool/stock-documents-7876037.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 56686,
-        "width": 1280,
-        "height": 853,
+        "height": 786,
         "orientation": "landscape",
         "subject": "generic",
         "stock": true,
-        "credit": "www.kaboompics.com (Pexels)",
-        "source": "https://www.pexels.com/photo/a-person-signing-divorce-documents-7876037/",
+        "credit": "Sergey  Meshkov (Pexels)",
+        "source": "https://www.pexels.com/photo/assorted-colored-papers-8478387/",
+        "quality": 0.25,
+        "faces": 0,
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/sbt-treuhand-ch/pool/stock-office-36175676.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 86020,
+        "width": 1280,
+        "height": 852,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Samkit desai (Pexels)",
+        "source": "https://www.pexels.com/photo/modern-minimalist-office-interior-with-desk-36175676/",
+        "quality": 0.68,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -558,17 +444,19 @@
         ]
       },
       {
-        "src": "/images/sbt-treuhand-ch/pool/stock-desk-8296974.jpg",
+        "src": "/images/sbt-treuhand-ch/pool/stock-office-8453801.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 121120,
+        "bytes": 88774,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Mikhail Nilov (Pexels)",
-        "source": "https://www.pexels.com/photo/a-woman-computing-with-a-calculator-8296974/",
+        "credit": "cottonbro studio (Pexels)",
+        "source": "https://www.pexels.com/photo/photo-of-a-workplace-8453801/",
+        "quality": 0.58,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -577,17 +465,40 @@
         ]
       },
       {
-        "src": "/images/sbt-treuhand-ch/pool/stock-finance-7413936.jpg",
+        "src": "/images/sbt-treuhand-ch/pool/stock-finance-577195.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 83802,
+        "bytes": 128971,
         "width": 1280,
-        "height": 853,
+        "height": 848,
         "orientation": "landscape",
         "subject": "generic",
         "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/business-analytics-printout-on-wooden-table-7413936/",
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/turned-on-laptop-computer-577195/",
+        "quality": 0.75,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sbt-treuhand-ch/pool/stock-office-20314954.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 50679,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "The Juggle Studio (Pexels)",
+        "source": "https://www.pexels.com/photo/tables-in-minimalist-interior-20314954/",
+        "quality": 0.54,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -597,21 +508,20 @@
       }
     ],
     "sectionBackgrounds": [
-      "/images/sbt-treuhand-ch/pool/stock-city-15779002.jpg",
-      "/images/sbt-treuhand-ch/pool/stock-office-7511748.jpg",
-      "/images/sbt-treuhand-ch/pool/stock-meeting-7433869.jpg"
+      "/images/sbt-treuhand-ch/pool/stock-skyline-20768136.jpg",
+      "/images/sbt-treuhand-ch/pool/stock-success-5849583.jpg",
+      "/images/sbt-treuhand-ch/pool/stock-office-159839.jpg"
     ],
     "stock": true,
     "credits": [
-      "Malte Luk (Pexels)",
-      "Max Vakhtbovych (Pexels)",
-      "Vlada Karpovich (Pexels)",
-      "RDNE Stock project (Pexels)",
-      "myHQ-Workspaces (Pexels)",
+      "Anita Kieseler (Pexels)",
       "Monstera Production (Pexels)",
-      "Mathias Reding (Pexels)",
-      "www.kaboompics.com (Pexels)",
-      "Mikhail Nilov (Pexels)"
+      "Pixabay (Pexels)",
+      "Sergey  Meshkov (Pexels)",
+      "Samkit desai (Pexels)",
+      "cottonbro studio (Pexels)",
+      "Lukas Blazek (Pexels)",
+      "The Juggle Studio (Pexels)"
     ]
   },
   "nav": {
@@ -642,7 +552,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
     "asideAttribution": "SBT Treuhand Zürich",
-    "image": "/images/sbt-treuhand-ch/pool/stock-city-15779002.jpg"
+    "image": "/images/sbt-treuhand-ch/pool/stock-skyline-20768136.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -658,7 +568,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/sbt-treuhand-ch/pool/stock-office-5444195.jpg"
+        "image": "/images/sbt-treuhand-ch/pool/stock-success-5849583.jpg"
       },
       {
         "title": "Steuerberatung",
@@ -670,7 +580,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/sbt-treuhand-ch/pool/stock-success-6289065.jpg"
+        "image": "/images/sbt-treuhand-ch/pool/stock-office-159839.jpg"
       },
       {
         "title": "Lohnadministration",
@@ -682,7 +592,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/sbt-treuhand-ch/pool/stock-office-9845176.jpg"
+        "image": "/images/sbt-treuhand-ch/pool/stock-documents-8478387.jpg"
       },
       {
         "title": "Jahresabschluss",
@@ -694,7 +604,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/sbt-treuhand-ch/pool/stock-meeting-7433930.jpg"
+        "image": "/images/sbt-treuhand-ch/pool/stock-office-36175676.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -706,7 +616,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/sbt-treuhand-ch/pool/stock-documents-7876037.jpg"
+        "image": "/images/sbt-treuhand-ch/pool/stock-office-8453801.jpg"
       },
       {
         "title": "Unternehmensberatung",
@@ -718,7 +628,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/sbt-treuhand-ch/pool/stock-desk-8296974.jpg"
+        "image": "/images/sbt-treuhand-ch/pool/stock-finance-577195.jpg"
       }
     ]
   },
@@ -730,26 +640,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "SBT Team",
-        "role": "Geschäftsführung",
-        "initials": "SB",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

@@ -145,10 +145,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -184,7 +180,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -213,17 +209,9 @@
   },
   "media": {
     "logo": "/images/treuhandgraf-ch/pool/4457ab85dc__Treuhandburo-Graf-AG-1-1024x80.png",
-    "hero": "/images/treuhandgraf-ch/pool/stock-swiss-19244948.jpg",
+    "hero": "/images/treuhandgraf-ch/pool/stock-office-20314954.jpg",
     "badges": [],
-    "photos": [
-      "/images/treuhandgraf-ch/pool/16cb0d2e9b__fi-img.jpg",
-      "/images/treuhandgraf-ch/pool/e447358f8e__DSC01375-scaled.jpg",
-      "/images/treuhandgraf-ch/pool/792972de0b__DSC01260-scaled.jpg",
-      "/images/treuhandgraf-ch/pool/972186cbdc__DSC01266-scaled.jpg",
-      "/images/treuhandgraf-ch/pool/a0a67f11fc__DSC01216-scaled.jpg",
-      "/images/treuhandgraf-ch/pool/8075b774fd__Ayse-Demirkan-scaled.jpg",
-      "/images/treuhandgraf-ch/pool/239eca656e__Kaan-Atilgan-scaled.jpg"
-    ],
+    "photos": [],
     "serviceImages": {},
     "documents": [],
     "assets": [
@@ -236,6 +224,7 @@
         "height": 80,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "0",
         "roles": []
       },
       {
@@ -247,8 +236,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "d0e4cccc1e4edede",
+        "quality": 0.65,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -261,8 +252,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "20cf5f599aa6dccc",
+        "quality": 0.77,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -275,8 +268,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "d23f2f9a9f2f070f",
+        "quality": 0.62,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -289,8 +284,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "716d2db8cc7a33d4",
+        "quality": 0.59,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -303,10 +300,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
-        "roles": [
-          "gallery",
-          "feature"
-        ]
+        "phash": "3d392f6d6555d969",
+        "quality": 0.47,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/treuhandgraf-ch/pool/239eca656e__Kaan-Atilgan-scaled.jpg",
@@ -317,38 +314,27 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "c167e5e1b57171f",
+        "quality": 0.51,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
       {
-        "src": "/images/treuhandgraf-ch/pool/16cb0d2e9b__fi-img.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 15015,
-        "width": 1024,
-        "height": 1024,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhandgraf-ch/pool/stock-swiss-19244948.jpg",
+        "src": "/images/treuhandgraf-ch/pool/stock-office-20314954.jpg",
         "kind": "hero",
         "alt": "",
-        "bytes": 604375,
+        "bytes": 97970,
         "width": 1880,
         "height": 1253,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
         "stock": true,
-        "credit": "Jean-Paul Wettstein (Pexels)",
-        "source": "https://www.pexels.com/photo/apartment-buildings-around-parish-church-st-mauritius-in-the-alpine-town-of-zermatt-switzerland-19244948/",
+        "credit": "The Juggle Studio (Pexels)",
+        "source": "https://www.pexels.com/photo/tables-in-minimalist-interior-20314954/",
+        "quality": 0.67,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -360,7 +346,7 @@
     ],
     "stock": true,
     "credits": [
-      "Jean-Paul Wettstein (Pexels)"
+      "The Juggle Studio (Pexels)"
     ]
   },
   "nav": {
@@ -392,7 +378,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Das Treuhandbüro Graf ist Ihr kompetenter Treuhänder in Zürich. Wir helfen Ihnen bei allen Ihren kaufmännischen Pflichten unter die Arme.",
     "asideAttribution": "Treuhandbüro Graf AG",
-    "image": "/images/treuhandgraf-ch/pool/stock-swiss-19244948.jpg"
+    "image": "/images/treuhandgraf-ch/pool/stock-office-20314954.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",

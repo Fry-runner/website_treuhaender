@@ -157,6 +157,10 @@
           "presence": "often"
         },
         {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -192,7 +196,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✓ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
@@ -226,22 +230,18 @@
     "hero": "/images/mueller-schuhmacher-ch/hero.jpg",
     "badges": [],
     "photos": [
-      "/images/mueller-schuhmacher-ch/pool/a26cf85c24__Empfang_v3.jpg",
-      "/images/mueller-schuhmacher-ch/pool/3c0d2425a4__Office2zugeschnitten-scaled.jpg",
+      "/images/mueller-schuhmacher-ch/pool/7331d36b65__Verkaufen1.jpg",
       "/images/mueller-schuhmacher-ch/pool/1bcbf918c1__Office3.jpg",
-      "/images/mueller-schuhmacher-ch/pool/32a2f39467__MS_6.jpg",
-      "/images/mueller-schuhmacher-ch/pool/68940536ed__Christian-2.jpg",
+      "/images/mueller-schuhmacher-ch/pool/3c0d2425a4__Office2zugeschnitten-scaled.jpg",
+      "/images/mueller-schuhmacher-ch/pool/298211cde9__GettyImages-533837953.jpg",
+      "/images/mueller-schuhmacher-ch/pool/f095501190__GettyImages-1358582944.jpg",
+      "/images/mueller-schuhmacher-ch/pool/c3a501ca23__GettyImages-909157366.jpg",
+      "/images/mueller-schuhmacher-ch/pool/772765a6d6__GettyImages-1398229420.jpg",
+      "/images/mueller-schuhmacher-ch/pool/24df344941__break_img1.jpg",
       "/images/mueller-schuhmacher-ch/pool/30e7e3d86c__GettyImages-2207483372.jpg",
       "/images/mueller-schuhmacher-ch/pool/e26b3aa3d0__GettyImages-1350377117.jpg",
-      "/images/mueller-schuhmacher-ch/pool/f095501190__GettyImages-1358582944.jpg",
-      "/images/mueller-schuhmacher-ch/pool/298211cde9__GettyImages-533837953.jpg",
-      "/images/mueller-schuhmacher-ch/pool/7331d36b65__Verkaufen1.jpg",
-      "/images/mueller-schuhmacher-ch/pool/c3a501ca23__GettyImages-909157366.jpg",
       "/images/mueller-schuhmacher-ch/pool/e76eac8b6a__GettyImages-1403453245.jpg",
-      "/images/mueller-schuhmacher-ch/pool/772765a6d6__GettyImages-1398229420.jpg",
-      "/images/mueller-schuhmacher-ch/pool/c1ffdb4133__Handshake.jpg",
-      "/images/mueller-schuhmacher-ch/pool/4298ce6ac2__Dominik_v2.jpg",
-      "/images/mueller-schuhmacher-ch/pool/24df344941__break_img1.jpg"
+      "/images/mueller-schuhmacher-ch/pool/32a2f39467__MS_6.jpg"
     ],
     "serviceImages": {},
     "documents": [
@@ -274,24 +274,8 @@
         "height": 177.75,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "212dccd5c5200",
         "roles": []
-      },
-      {
-        "src": "/images/mueller-schuhmacher-ch/pool/a26cf85c24__Empfang_v3.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 234886,
-        "width": 1600,
-        "height": 896,
-        "orientation": "landscape",
-        "subject": "office",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
       },
       {
         "src": "/images/mueller-schuhmacher-ch/pool/32a2f39467__MS_6.jpg",
@@ -302,6 +286,9 @@
         "height": 934,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "474707377777c5ac",
+        "quality": 0.72,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -318,12 +305,11 @@
         "width": 1400,
         "height": 1035,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "d4d8cbc7f1f171d6",
+        "quality": 0.79,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -335,7 +321,10 @@
         "width": 1400,
         "height": 945,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "ce634e38668e98d0",
+        "quality": 0.54,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -352,7 +341,10 @@
         "width": 1400,
         "height": 933,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "87c3c1c78281d094",
+        "quality": 0.54,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -370,6 +362,9 @@
         "height": 1066,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "e3db932715d4dc38",
+        "quality": 0.72,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -386,7 +381,10 @@
         "width": 1400,
         "height": 927,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "c34390c3c34124e2",
+        "quality": 0.61,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -403,7 +401,10 @@
         "width": 1400,
         "height": 933,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "33059ccd1f0d7d35",
+        "quality": 0.72,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -420,7 +421,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "e362292c24043c32",
+        "quality": 0.85,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -438,6 +442,9 @@
         "height": 933,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "232626326a6e7e07",
+        "quality": 0.74,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -454,7 +461,10 @@
         "width": 1400,
         "height": 933,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "73f6dd696d65e0e8",
+        "quality": 0.59,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -471,7 +481,10 @@
         "width": 1400,
         "height": 933,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "9f8f1e9f8def735b",
+        "quality": 0.5,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -488,7 +501,10 @@
         "width": 1400,
         "height": 830,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "cf4f4f735f5fefb3",
+        "quality": 0.57,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -505,12 +521,11 @@
         "width": 1400,
         "height": 1000,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "b858198de773d818",
+        "quality": 0.68,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -522,12 +537,11 @@
         "width": 1400,
         "height": 910,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "630e0c062e6ccccc",
+        "quality": 0.55,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -539,18 +553,37 @@
         "width": 1600,
         "height": 1477,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "131b3b1905243120",
+        "quality": 0.57,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
           "feature"
         ]
+      },
+      {
+        "src": "/images/mueller-schuhmacher-ch/pool/0c1e6150fc__Michael.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 151820,
+        "width": 1400,
+        "height": 956,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "phash": "e30e2d0d2cccc8d8",
+        "quality": 0.79,
+        "faces": 1,
+        "roles": [
+          "feature"
+        ]
       }
     ],
     "sectionBackgrounds": [
-      "/images/mueller-schuhmacher-ch/pool/a26cf85c24__Empfang_v3.jpg",
       "/images/mueller-schuhmacher-ch/pool/32a2f39467__MS_6.jpg",
-      "/images/mueller-schuhmacher-ch/pool/68940536ed__Christian-2.jpg"
+      "/images/mueller-schuhmacher-ch/pool/30e7e3d86c__GettyImages-2207483372.jpg",
+      "/images/mueller-schuhmacher-ch/pool/e26b3aa3d0__GettyImages-1350377117.jpg"
     ]
   },
   "nav": {

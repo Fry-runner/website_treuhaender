@@ -180,14 +180,15 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✓ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
       }
     },
     "placeholders": [
-      "hero.aside"
+      "hero.aside",
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -213,32 +214,24 @@
   },
   "media": {
     "logo": "/images/spp-treuhand-ch/pool/c6bbe31b0e__SPP-Rechnungswesen.svg",
-    "hero": "/images/spp-treuhand-ch/hero.jpg",
+    "hero": "/images/spp-treuhand-ch/pool/stock-desk-7792775.jpg",
     "badges": [
-      "/images/spp-treuhand-ch/pool/35d06e416d__SPP-Bexio-Buchhalter.svg",
       "/images/spp-treuhand-ch/pool/a1d5a8c0b8__SPP-Logo-Text.svg"
     ],
     "photos": [
-      "/images/spp-treuhand-ch/pool/de822edda2__News_SPP-Update-September-2025.jpg",
-      "/images/spp-treuhand-ch/pool/76bfd8096d__spp-treuhand-update-dezember-2024.jpg",
-      "/images/spp-treuhand-ch/pool/bc1531f6ea__csm_retirement_cb27d2f8d4-scaled.jpg",
-      "/images/spp-treuhand-ch/pool/ad84ede2e7__SPP-Update-April-2025.jpg",
-      "/images/spp-treuhand-ch/pool/edadc7c2ab__SPP-buchhaltung-und-rechnungswesen.png",
-      "/images/spp-treuhand-ch/pool/5bcaac9a21__SPP-Online-Buchhaltung.png",
-      "/images/spp-treuhand-ch/pool/a7eac76496__SPP-firmengruendung-und-unternehmensberatung.png",
-      "/images/spp-treuhand-ch/pool/8f7c1f1d24__SPP-steuerberatung.png",
-      "/images/spp-treuhand-ch/pool/28cb907e4f__da820e97-7de0-45c1-8e17-da862117cef0-scaled.jpeg",
-      "/images/spp-treuhand-ch/pool/940c1bbd76__csm_Chiara_Schnetzer.jpg",
       "/images/spp-treuhand-ch/pool/223bbfc076__Jaehrliche_MwSt.png",
-      "/images/spp-treuhand-ch/pool/0f4c7197d5__csm_Jason_Johansson.jpg",
-      "/images/spp-treuhand-ch/pool/03001c0327__csm_Aleandro_Frautschi_4df36467a8.jpg",
+      "/images/spp-treuhand-ch/pool/28cb907e4f__da820e97-7de0-45c1-8e17-da862117cef0-scaled.jpeg",
+      "/images/spp-treuhand-ch/pool/76bfd8096d__spp-treuhand-update-dezember-2024.jpg",
+      "/images/spp-treuhand-ch/pool/a7eac76496__SPP-firmengruendung-und-unternehmensberatung.png",
+      "/images/spp-treuhand-ch/pool/edadc7c2ab__SPP-buchhaltung-und-rechnungswesen.png",
+      "/images/spp-treuhand-ch/pool/05c2fc903b__istockphoto-1219697051-2048x2048-1.jpg",
+      "/images/spp-treuhand-ch/pool/bc1531f6ea__csm_retirement_cb27d2f8d4-scaled.jpg",
       "/images/spp-treuhand-ch/pool/a571d68c08__csm_Taxdome_55ab3e0196.png",
-      "/images/spp-treuhand-ch/pool/53acef87f5__csm_Sona_5e6222c09d.jpg",
-      "/images/spp-treuhand-ch/pool/f53cfdf8ce__News_SPP-Jahresabschluss-Checkliste.png"
+      "/images/spp-treuhand-ch/pool/ad84ede2e7__SPP-Update-April-2025.jpg",
+      "/images/spp-treuhand-ch/pool/5bcaac9a21__SPP-Online-Buchhaltung.png"
     ],
     "serviceImages": {
       "Buchhaltung": "/images/spp-treuhand-ch/pool/edadc7c2ab__SPP-buchhaltung-und-rechnungswesen.png",
-      "Steuerberatung": "/images/spp-treuhand-ch/pool/8f7c1f1d24__SPP-steuerberatung.png",
       "Mehrwertsteuer": "/images/spp-treuhand-ch/pool/223bbfc076__Jaehrliche_MwSt.png",
       "Unternehmensberatung": "/images/spp-treuhand-ch/pool/a7eac76496__SPP-firmengruendung-und-unternehmensberatung.png"
     },
@@ -320,28 +313,7 @@
         "height": 756,
         "orientation": "square",
         "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/spp-treuhand-ch/pool/973d795017__SPP-Lohnbuchhaltung.svg",
-        "kind": "logo",
-        "alt": "SPP-Lohnbuchhaltung",
-        "bytes": 438825,
-        "width": 756,
-        "height": 756,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/spp-treuhand-ch/pool/35d06e416d__SPP-Bexio-Buchhalter.svg",
-        "kind": "badge",
-        "alt": "SPP-Bexio Buchhalter",
-        "bytes": 323811,
-        "width": 756,
-        "height": 756,
-        "orientation": "square",
-        "subject": "generic",
+        "phash": "40d0a0ac94cc6832",
         "roles": []
       },
       {
@@ -353,6 +325,7 @@
         "height": 134,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "d2d2cc68408480a0",
         "roles": []
       },
       {
@@ -363,12 +336,11 @@
         "width": 1500,
         "height": 1000,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "2a2c31613198c8c8",
+        "quality": 0.77,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -380,7 +352,10 @@
         "width": 1600,
         "height": 1578,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "d8f85008c870f0e8",
+        "quality": 0.79,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -395,13 +370,14 @@
         "width": 1500,
         "height": 1000,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "276627c72b2d2b19",
+        "quality": 0.48,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -413,6 +389,9 @@
         "height": 1116,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "793f3d2a9ee43617",
+        "quality": 0.64,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -430,12 +409,13 @@
         "height": 1000,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "dfdfc4ce9e9a3e36",
+        "quality": 0.42,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -446,10 +426,32 @@
         "width": 800,
         "height": 500,
         "orientation": "landscape",
+        "subject": "office",
+        "phash": "6d6d2d0c1e1e9f9b",
+        "quality": 0.26,
+        "faces": 0,
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/spp-treuhand-ch/pool/05c2fc903b__istockphoto-1219697051-2048x2048-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 174766,
+        "width": 1600,
+        "height": 970,
+        "orientation": "landscape",
         "subject": "generic",
+        "phash": "e7667666666e6461",
+        "quality": 0.7,
+        "faces": 0,
         "roles": [
           "gallery",
-          "service"
+          "hero",
+          "background",
+          "service",
+          "feature"
         ]
       },
       {
@@ -461,9 +463,11 @@
         "height": 500,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "30edcf1e2e47131",
+        "quality": 0.36,
+        "faces": 0,
         "roles": [
-          "gallery",
-          "service"
+          "gallery"
         ]
       },
       {
@@ -474,11 +478,11 @@
         "width": 712,
         "height": 712,
         "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "726948cc68ecc49a",
+        "quality": 0.6,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/spp-treuhand-ch/pool/223bbfc076__Jaehrliche_MwSt.png",
@@ -488,7 +492,10 @@
         "width": 605,
         "height": 601,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "c76ff796260784ca",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
           "service"
         ]
@@ -501,11 +508,11 @@
         "width": 712,
         "height": 712,
         "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "73e1d9c8e8c99c9a",
+        "quality": 0.59,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/spp-treuhand-ch/pool/a7eac76496__SPP-firmengruendung-und-unternehmensberatung.png",
@@ -515,10 +522,12 @@
         "width": 800,
         "height": 500,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "3631f1b13818044c",
+        "quality": 0.29,
+        "faces": 0,
         "roles": [
-          "gallery",
-          "service"
+          "gallery"
         ]
       },
       {
@@ -529,25 +538,11 @@
         "width": 712,
         "height": 712,
         "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
-      },
-      {
-        "src": "/images/spp-treuhand-ch/pool/8f7c1f1d24__SPP-steuerberatung.png",
-        "kind": "photo",
-        "alt": "SPP-steuerberatung",
-        "bytes": 102362,
-        "width": 800,
-        "height": 500,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "6393f27373f8d4b2",
+        "quality": 0.55,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/spp-treuhand-ch/pool/a571d68c08__csm_Taxdome_55ab3e0196.png",
@@ -558,6 +553,9 @@
         "height": 470,
         "orientation": "square",
         "subject": "generic",
+        "phash": "aaaaaa1796334d4d",
+        "quality": 0.62,
+        "faces": 0,
         "roles": []
       },
       {
@@ -568,32 +566,43 @@
         "width": 712,
         "height": 712,
         "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "73716dcd4d6c64ee",
+        "quality": 0.77,
+        "faces": 1,
+        "roles": []
       },
       {
-        "src": "/images/spp-treuhand-ch/pool/f53cfdf8ce__News_SPP-Jahresabschluss-Checkliste.png",
-        "kind": "photo",
+        "src": "/images/spp-treuhand-ch/pool/stock-desk-7792775.jpg",
+        "kind": "hero",
         "alt": "",
-        "bytes": 29977,
-        "width": 1080,
-        "height": 1080,
-        "orientation": "square",
-        "subject": "generic",
+        "bytes": 157837,
+        "width": 1880,
+        "height": 1253,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Yan Krukau (Pexels)",
+        "source": "https://www.pexels.com/photo/gray-laptop-on-the-table-7792775/",
+        "quality": 0.61,
+        "faces": 0,
         "roles": [
           "gallery",
+          "hero",
+          "background",
           "service",
           "feature"
         ]
       }
     ],
+    "stock": true,
+    "credits": [
+      "Yan Krukau (Pexels)"
+    ],
     "sectionBackgrounds": [
-      "/images/spp-treuhand-ch/pool/de822edda2__News_SPP-Update-September-2025.jpg",
       "/images/spp-treuhand-ch/pool/76bfd8096d__spp-treuhand-update-dezember-2024.jpg",
-      "/images/spp-treuhand-ch/pool/bc1531f6ea__csm_retirement_cb27d2f8d4-scaled.jpg"
+      "/images/spp-treuhand-ch/pool/bc1531f6ea__csm_retirement_cb27d2f8d4-scaled.jpg",
+      "/images/spp-treuhand-ch/pool/ad84ede2e7__SPP-Update-April-2025.jpg"
     ]
   },
   "nav": {
@@ -625,7 +634,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "SPP - Treuhand AG Zürich: Treuhand-Support und Beratung in allen Bereichen für KMU, Rechnungswesen, Steuern, Lohnbuchhaltung, Firmengründung",
     "asideAttribution": "SPP Treuhand AG",
-    "image": "/images/spp-treuhand-ch/hero.jpg"
+    "image": "/images/spp-treuhand-ch/pool/stock-desk-7792775.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -652,8 +661,7 @@
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/spp-treuhand-ch/pool/8f7c1f1d24__SPP-steuerberatung.png"
+        ]
       },
       {
         "title": "Lohnadministration",
@@ -793,7 +801,6 @@
       "sage"
     ],
     "badges": [
-      "/images/spp-treuhand-ch/pool/35d06e416d__SPP-Bexio-Buchhalter.svg",
       "/images/spp-treuhand-ch/pool/a1d5a8c0b8__SPP-Logo-Text.svg"
     ]
   },

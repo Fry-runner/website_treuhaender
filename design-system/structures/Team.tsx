@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "./primitives";
+import { Container, PORTRAIT_FOCUS } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
 import type { TeamContent } from "../content/types";
 
@@ -11,7 +11,7 @@ export const Team: React.FC<{ content: TeamContent; more?: MoreLink }> = ({ cont
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.2rem" }}>
         {content.members.map((m, i) => (
           <div key={i} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", overflow: "hidden", display: "flex", flexDirection: "column" }}>
-            <div role="img" aria-label={m.name} style={{ height: "13rem", background: "var(--ds-primary-soft)", display: "flex", alignItems: "center", justifyContent: "center", ...(m.photo ? { backgroundImage: `url("${m.photo}")`, backgroundSize: "cover", backgroundPosition: "center top" } : {}) }}>
+            <div role="img" aria-label={m.name} style={{ aspectRatio: "4 / 5", background: "var(--ds-primary-soft)", display: "flex", alignItems: "center", justifyContent: "center", ...(m.photo ? { backgroundImage: `url("${m.photo}")`, backgroundSize: "cover", backgroundPosition: PORTRAIT_FOCUS } : {}) }}>
               {!m.photo && <span style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "2rem", color: "var(--ds-primary)" }}>{m.initials}</span>}
             </div>
             <div style={{ padding: "1.2rem", display: "flex", flexDirection: "column", gap: "0.4rem" }}>

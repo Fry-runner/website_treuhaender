@@ -192,7 +192,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✓ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
@@ -231,23 +231,21 @@
       "/images/wespipartner-ch/pool/fbb0e2a929__Abacus-1000x185.png"
     ],
     "photos": [
-      "/images/wespipartner-ch/pool/e35b9d8e43__WespiPartner_Office-3-2000x1334.jpg",
-      "/images/wespipartner-ch/pool/fbd5ed3c8f__WespiPartner_Office-2.jpg",
       "/images/wespipartner-ch/pool/9593c77f39__WespiPartner_Office-1-2000x1347.jpg",
-      "/images/wespipartner-ch/pool/474a79a483__2024-07-09_WespiPartner_0414.jpg",
       "/images/wespipartner-ch/pool/5ba0c002cc__Wespi_GlattZentrum_Outdoor-2048x1628.jpg",
-      "/images/wespipartner-ch/pool/373fe97c9c__2024-07-09_WespiPartner_0157.jpg",
-      "/images/wespipartner-ch/pool/516e03db1f__2024-07-09_WespiPartner_0040.jpg",
-      "/images/wespipartner-ch/pool/19d609736c__lifecycle_bg_01.jpg",
-      "/images/wespipartner-ch/pool/4c1c3604e0__2024-07-09_WespiPartner_0348.jpg",
-      "/images/wespipartner-ch/pool/48593059d5__2024-07-09_WespiPartner_0087.jpg",
-      "/images/wespipartner-ch/pool/afab0dfaa4__2024-07-09_WespiPartner_0277.jpg",
+      "/images/wespipartner-ch/pool/474a79a483__2024-07-09_WespiPartner_0414.jpg",
       "/images/wespipartner-ch/pool/f63e0562b7__2024-07-09_WespiPartner_0138.jpg",
+      "/images/wespipartner-ch/pool/373fe97c9c__2024-07-09_WespiPartner_0157.jpg",
+      "/images/wespipartner-ch/pool/48593059d5__2024-07-09_WespiPartner_0087.jpg",
+      "/images/wespipartner-ch/pool/fbd5ed3c8f__WespiPartner_Office-2.jpg",
+      "/images/wespipartner-ch/pool/516e03db1f__2024-07-09_WespiPartner_0040.jpg",
+      "/images/wespipartner-ch/pool/afab0dfaa4__2024-07-09_WespiPartner_0277.jpg",
       "/images/wespipartner-ch/pool/4efed3332c__2024-07-09_WespiPartner_0484.jpg",
       "/images/wespipartner-ch/pool/6ae7627157__2024-07-09_WespiPartner_0225.jpg",
       "/images/wespipartner-ch/pool/6f92b53fdd__lifecycle_bg_02.jpg",
       "/images/wespipartner-ch/pool/d45297bbe4__WespiPartner_HomeCover-2048x1152.jpg",
-      "/images/wespipartner-ch/pool/fa81eddb81__lifecycle_bg_04.jpg"
+      "/images/wespipartner-ch/pool/fa81eddb81__lifecycle_bg_04.jpg",
+      "/images/wespipartner-ch/pool/19d609736c__lifecycle_bg_01.jpg"
     ],
     "serviceImages": {},
     "documents": [
@@ -292,6 +290,7 @@
         "height": 78,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "0",
         "roles": []
       },
       {
@@ -303,6 +302,7 @@
         "height": 371,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "4c2a6240582a5838",
         "roles": []
       },
       {
@@ -314,6 +314,7 @@
         "height": 72,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "dddc8aca9e4d9b9a",
         "roles": []
       },
       {
@@ -325,6 +326,7 @@
         "height": 189,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "50522b6b4d5b5999",
         "roles": []
       },
       {
@@ -336,6 +338,7 @@
         "height": 185,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "82deecaca4a6d08",
         "roles": []
       },
       {
@@ -347,23 +350,9 @@
         "height": 1080,
         "orientation": "landscape",
         "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/wespipartner-ch/pool/e35b9d8e43__WespiPartner_Office-3-2000x1334.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 279926,
-        "width": 1600,
-        "height": 1067,
-        "orientation": "landscape",
-        "subject": "office",
+        "phash": "f6f4d98cbcbcbcc8",
+        "quality": 0.57,
+        "faces": 3,
         "roles": [
           "gallery",
           "hero",
@@ -380,7 +369,10 @@
         "width": 1600,
         "height": 1005,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "f2dac99939ba92da",
+        "quality": 0.81,
+        "faces": 3,
         "roles": [
           "gallery",
           "hero",
@@ -397,7 +389,10 @@
         "width": 1600,
         "height": 1272,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "917168c8e0ec683c",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -415,6 +410,9 @@
         "height": 1082,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "90b090b0b0707c5",
+        "quality": 0.71,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -431,7 +429,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "1a909696968f6f2f",
+        "quality": 0.75,
+        "faces": 2,
         "roles": [
           "gallery",
           "hero",
@@ -448,7 +449,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "c285858504091105",
+        "quality": 0.7,
+        "faces": 2,
         "roles": [
           "gallery",
           "hero",
@@ -466,12 +470,13 @@
         "height": 1067,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "c7c1e3c3a3317878",
+        "quality": 0.41,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -483,6 +488,9 @@
         "height": 1078,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "9da1a7ae98a1a1c1",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -499,12 +507,11 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "2c2c0d2da5636363",
+        "quality": 0.6,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -516,7 +523,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "666773490a223233",
+        "quality": 0.74,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -533,7 +543,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "939393210fcbca88",
+        "quality": 0.68,
+        "faces": 2,
         "roles": [
           "gallery",
           "hero",
@@ -550,7 +563,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "29230999190a0485",
+        "quality": 0.77,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -567,7 +583,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "98999938383d2d8",
+        "quality": 0.63,
+        "faces": 2,
         "roles": [
           "gallery",
           "hero",
@@ -584,7 +603,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "1535b1b1a2a36369",
+        "quality": 0.56,
+        "faces": 2,
         "roles": [
           "gallery",
           "hero",
@@ -602,6 +624,9 @@
         "height": 1066,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "2e9f2e27410d6713",
+        "quality": 0.57,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -619,6 +644,9 @@
         "height": 1067,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "8386b460c4b464c6",
+        "quality": 0.51,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -630,8 +658,8 @@
     ],
     "sectionBackgrounds": [
       "/images/wespipartner-ch/pool/d45297bbe4__WespiPartner_HomeCover-2048x1152.jpg",
-      "/images/wespipartner-ch/pool/e35b9d8e43__WespiPartner_Office-3-2000x1334.jpg",
-      "/images/wespipartner-ch/pool/474a79a483__2024-07-09_WespiPartner_0414.jpg"
+      "/images/wespipartner-ch/pool/474a79a483__2024-07-09_WespiPartner_0414.jpg",
+      "/images/wespipartner-ch/pool/5ba0c002cc__Wespi_GlattZentrum_Outdoor-2048x1628.jpg"
     ]
   },
   "nav": {

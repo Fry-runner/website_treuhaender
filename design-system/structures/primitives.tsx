@@ -14,6 +14,16 @@ export const Container: React.FC<Div> = ({ children, style }) => (
   </div>
 );
 
+/**
+ * Focal point for cropped PERSON photos (`background-size: cover` / `object-fit:
+ * cover`). Anchoring the image's top edge ("center top") keeps a tight headshot
+ * but, when a photo has headroom or the container is wide-and-short (avatars,
+ * masonry tiles), it shows hair/forehead and crops the face. Faces sit in the
+ * upper third, so anchor ~25% down — keeps the face framed across aspect ratios.
+ * Single knob: nudge toward 18% if heads still clip, toward 32% if too low.
+ */
+export const PORTRAIT_FOCUS = "center 25%";
+
 // Section kicker/overline. De-telled: no mono face, no uppercase, no tracking and
 // no leading primary dash — those together were the generic "AI section label".
 // Now a quiet small-caps-free label in the body face; the look still varies per

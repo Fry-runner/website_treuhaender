@@ -173,7 +173,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✗ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
@@ -183,7 +183,7 @@
       "hero.aside",
       "faq",
       "look.colors (generated)",
-      "team.members"
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -204,27 +204,20 @@
   },
   "media": {
     "logo": "/images/rebex-ch/pool/5b4d70d8b0__ES_Logo_QL_rgb_pos-1920w.jpeg",
-    "hero": "/images/rebex-ch/hero.jpg",
+    "hero": "/images/rebex-ch/pool/stock-boardroom-6794965.jpg",
     "badges": [
       "/images/rebex-ch/pool/1e9aad56ee__RebexAGTreuhand-RevisionsgesellschaftLogofarbig2022-1920w.jpg"
     ],
     "photos": [
-      "/images/rebex-ch/pool/65802ebd6a__VESNAGAJICPHOTOGRAPHY_9U6B8411_fb-1920w.jpg",
+      "/images/rebex-ch/pool/2ff1bb014d__VESNAGAJICPHOTOGRAPHY_9U6B8398_fb-1920w.jpg",
       "/images/rebex-ch/pool/345e3e37ab__VESNAGAJICPHOTOGRAPHY_9U6B8418_fb-1920w.jpg",
-      "/images/rebex-ch/pool/15a5515023__VESNAGAJICPHOTOGRAPHY_9U6B8395_fb-1920w.jpg",
       "/images/rebex-ch/pool/89caa5d967__AdobeStock_296453780-1920w.jpg",
-      "/images/rebex-ch/pool/fe9b8ae957__VESNAGAJICPHOTOGRAPHY_9U6B8375_fb-1920w.jpg",
-      "/images/rebex-ch/pool/5d5dc60c43__VESNAGAJICPHOTOGRAPHY_9U6B8382_fb-1920w.jpg",
-      "/images/rebex-ch/pool/eb850083b0__VESNAGAJICPHOTOGRAPHY_9U6B8382_fb-9e9e831a-1920w.jpg",
+      "/images/rebex-ch/pool/15a5515023__VESNAGAJICPHOTOGRAPHY_9U6B8395_fb-1920w.jpg",
       "/images/rebex-ch/pool/e43635ecd6__VESNAGAJICPHOTOGRAPHY_9U6B8316_fb-1920w.jpg",
       "/images/rebex-ch/pool/b06ab6d99a__VESNAGAJICPHOTOGRAPHY_9U6B8368_fb-1920w.jpg",
-      "/images/rebex-ch/pool/2ff1bb014d__VESNAGAJICPHOTOGRAPHY_9U6B8398_fb-1920w.jpg",
-      "/images/rebex-ch/pool/82ae43c9c1__VESNAGAJICPHOTOGRAPHY_9U6B8368_fb-ca4c94f5-640w.jpg",
-      "/images/rebex-ch/pool/f973fb2a96__Michelle-3--281-29-1920w.jpg",
-      "/images/rebex-ch/pool/00d7a40b3a__Unbenannt_274-1920w.png",
-      "/images/rebex-ch/pool/56c7b8f833__VESNAGAJICPHOTOGRAPHY_9U6B8330_fb_366-1920w.jpg",
-      "/images/rebex-ch/pool/ede859376b__Hobi_357-1920w.png",
-      "/images/rebex-ch/pool/689b59ad23__IMG20220908172137-28778d44-1920w.jpg"
+      "/images/rebex-ch/pool/eb850083b0__VESNAGAJICPHOTOGRAPHY_9U6B8382_fb-9e9e831a-1920w.jpg",
+      "/images/rebex-ch/pool/fe9b8ae957__VESNAGAJICPHOTOGRAPHY_9U6B8375_fb-1920w.jpg",
+      "/images/rebex-ch/pool/65802ebd6a__VESNAGAJICPHOTOGRAPHY_9U6B8411_fb-1920w.jpg"
     ],
     "serviceImages": {},
     "documents": [
@@ -263,6 +256,7 @@
         "height": 115,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "8098989898b8b000",
         "roles": []
       },
       {
@@ -274,6 +268,7 @@
         "height": 158,
         "orientation": "landscape",
         "subject": "city",
+        "phash": "d4869296ccb200a9",
         "roles": []
       },
       {
@@ -285,8 +280,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "8459181c3a38481c",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -298,10 +295,11 @@
         "width": 1280,
         "height": 1280,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "8da52b494d49c8cc",
+        "quality": 0.52,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "service",
           "feature"
         ]
       },
@@ -314,6 +312,9 @@
         "height": 771,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "f1616371f170e1f",
+        "quality": 0.81,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -329,7 +330,10 @@
         "width": 1124,
         "height": 750,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "2b39303476545433",
+        "quality": 0.76,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -345,7 +349,10 @@
         "width": 1165,
         "height": 777,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "545c18585252507",
+        "quality": 0.67,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -361,7 +368,10 @@
         "width": 1262,
         "height": 841,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "a7e29baeaeddfcef",
+        "quality": 0.69,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -377,28 +387,14 @@
         "width": 1302,
         "height": 868,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "8191b1b189b0f888",
+        "quality": 0.47,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/rebex-ch/pool/5d5dc60c43__VESNAGAJICPHOTOGRAPHY_9U6B8382_fb-1920w.jpg",
-        "kind": "photo",
-        "alt": "Rebex AG",
-        "bytes": 94321,
-        "width": 1260,
-        "height": 840,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -409,7 +405,10 @@
         "width": 1260,
         "height": 840,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "6c77674b66466364",
+        "quality": 0.54,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -425,7 +424,10 @@
         "width": 1168,
         "height": 779,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "377f65676579139f",
+        "quality": 0.64,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -441,7 +443,10 @@
         "width": 1165,
         "height": 777,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "3f1cdb59191b1919",
+        "quality": 0.57,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -457,7 +462,10 @@
         "width": 293,
         "height": 293,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "88aaa2eacde9ecec",
+        "quality": 0.59,
+        "faces": 1,
         "roles": []
       },
       {
@@ -468,7 +476,10 @@
         "width": 555,
         "height": 370,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "919dcc46c4c4817",
+        "quality": 0.84,
+        "faces": 0,
         "roles": []
       },
       {
@@ -479,7 +490,10 @@
         "width": 536,
         "height": 537,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "a4b48c4e0e6ee2d2",
+        "quality": 0.57,
+        "faces": 1,
         "roles": []
       },
       {
@@ -490,22 +504,38 @@
         "width": 239,
         "height": 239,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "1b4f6cc949cccccc",
+        "quality": 0.71,
+        "faces": 1,
         "roles": []
       },
       {
-        "src": "/images/rebex-ch/pool/82ae43c9c1__VESNAGAJICPHOTOGRAPHY_9U6B8368_fb-ca4c94f5-640w.jpg",
-        "kind": "photo",
+        "src": "/images/rebex-ch/pool/stock-boardroom-6794965.jpg",
+        "kind": "hero",
         "alt": "",
-        "bytes": 32152,
-        "width": 640,
-        "height": 427,
+        "bytes": 265776,
+        "width": 1880,
+        "height": 1224,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "stock": true,
+        "credit": "Max Vakhtbovych (Pexels)",
+        "source": "https://www.pexels.com/photo/table-with-chairs-in-conference-room-6794965/",
+        "quality": 0.79,
+        "faces": 0,
         "roles": [
-          "service"
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
         ]
       }
+    ],
+    "stock": true,
+    "credits": [
+      "Max Vakhtbovych (Pexels)"
     ],
     "sectionBackgrounds": [
       "/images/rebex-ch/pool/65802ebd6a__VESNAGAJICPHOTOGRAPHY_9U6B8411_fb-1920w.jpg",
@@ -542,7 +572,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Wir übernehmen alle Treuhand-Arbeiten, damit Sie sich auf Ihr Hauptgeschäft konzentrieren können. Wir sind Ihre Treuhand- und Revisionsgesellschaft!",
     "asideAttribution": "Rebex AG",
-    "image": "/images/rebex-ch/hero.jpg"
+    "image": "/images/rebex-ch/pool/stock-boardroom-6794965.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -637,26 +667,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Rebex Team",
-        "role": "Geschäftsführung",
-        "initials": "RE",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

@@ -167,7 +167,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -176,8 +176,7 @@
     "placeholders": [
       "hero.aside",
       "faq",
-      "look.colors (generated)",
-      "team.members"
+      "look.colors (generated)"
     ],
     "real": [
       "meta.firm",
@@ -199,11 +198,8 @@
     "hero": "/images/treuhand-service-zh-ch/hero.jpg",
     "badges": [],
     "photos": [
-      "/images/treuhand-service-zh-ch/pool/d5f1a08481__treuhand-service-zuerich-Lena-Petz-a.jpg",
-      "/images/treuhand-service-zh-ch/pool/8d7e917d17__treuhandservice_kuemmerling_roger.jpg",
-      "/images/treuhand-service-zh-ch/pool/f97b122944__treuhandservice_laetsch_mi.jpg",
-      "/images/treuhand-service-zh-ch/pool/399a188abc__csm_portrait_roger_kuemmerling_ca5da85adb.jpg",
-      "/images/treuhand-service-zh-ch/pool/1076fa59ed__csm_portrait_mi_laetsch_9de78c3015.jpg"
+      "/images/treuhand-service-zh-ch/pool/3f7a4521dc__csm_treuhand-service-zuerich-Lena-Petz-b_788c5bf376.jpg",
+      "/images/treuhand-service-zh-ch/pool/f97b122944__treuhandservice_laetsch_mi.jpg"
     ],
     "serviceImages": {},
     "documents": [],
@@ -217,6 +213,7 @@
         "height": 500,
         "orientation": "landscape",
         "subject": "city",
+        "phash": "9006d4d4828000",
         "roles": []
       },
       {
@@ -227,12 +224,11 @@
         "width": 1400,
         "height": 681,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "6393929a2b7a62f1",
+        "quality": 0.58,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -244,13 +240,33 @@
         "width": 1400,
         "height": 681,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "cba5e96161313161",
+        "quality": 0.69,
+        "faces": 2,
         "roles": [
           "gallery",
           "hero",
           "background",
           "service",
           "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhand-service-zh-ch/pool/3f7a4521dc__csm_treuhand-service-zuerich-Lena-Petz-b_788c5bf376.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 65063,
+        "width": 795,
+        "height": 386,
+        "orientation": "landscape",
+        "subject": "office",
+        "phash": "226b666e4f0d2a28",
+        "quality": 0.83,
+        "faces": 1,
+        "roles": [
+          "gallery",
+          "service"
         ]
       },
       {
@@ -262,9 +278,10 @@
         "height": 386,
         "orientation": "landscape",
         "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
+        "phash": "112d6d5b592c2daf",
+        "quality": 0.78,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/treuhand-service-zh-ch/pool/1076fa59ed__csm_portrait_mi_laetsch_9de78c3015.jpg",
@@ -275,28 +292,13 @@
         "height": 386,
         "orientation": "landscape",
         "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
-      },
-      {
-        "src": "/images/treuhand-service-zh-ch/pool/d5f1a08481__treuhand-service-zuerich-Lena-Petz-a.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 54400,
-        "width": 1000,
-        "height": 486,
-        "orientation": "landscape",
-        "subject": "city",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
+        "phash": "4bcf4747cbd151d9",
+        "quality": 0.52,
+        "faces": 1,
+        "roles": []
       }
     ],
     "sectionBackgrounds": [
-      "/images/treuhand-service-zh-ch/pool/8d7e917d17__treuhandservice_kuemmerling_roger.jpg",
       "/images/treuhand-service-zh-ch/pool/f97b122944__treuhandservice_laetsch_mi.jpg"
     ]
   },
@@ -428,26 +430,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Treuhand Team",
-        "role": "Geschäftsführung",
-        "initials": "TR",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

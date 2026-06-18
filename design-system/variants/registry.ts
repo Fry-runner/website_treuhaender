@@ -21,6 +21,13 @@ import {
   HeroCenteredCard, HeroSplitReverse, HeroTwoLine, HeroStackedCta, HeroBanner,
   HeroPortraitFrame, HeroDarkSplit, HeroGridBg, HeroChapter, HeroAsideStat,
 } from "../structures/HeroExtended2";
+import {
+  type PageHeaderProps,
+  PageHeaderClassic, PageHeaderCentered, PageHeaderTopRule, PageHeaderBordered, PageHeaderBigType,
+  PageHeaderSplitMeta, PageHeaderUnderline, PageHeaderChip, PageHeaderGradient, PageHeaderDark,
+  PageHeaderMinimal, PageHeaderRuleUnder, PageHeaderImageBand, PageHeaderImageCentered, PageHeaderImageSplit,
+  PageHeaderKickerLine, PageHeaderBoxedDark, PageHeaderBannerTint, PageHeaderWatermark, PageHeaderImageSide,
+} from "../structures/PageHeaderVariants";
 import { Services } from "../structures/Services";
 import { ServicesBordered } from "../structures/ServicesBordered";
 import { ServicesAccordion } from "../structures/ServicesAccordion";
@@ -192,6 +199,33 @@ export const heroVariants: VariantDef<HeroContent>[] = [
   { id: "hero/grid-bg",        component: HeroGridBg,        looks: ["swiss", "soft"],               note: "centered over masked dotted-grid background" },
   { id: "hero/chapter",        component: HeroChapter,       looks: ["editorial", "swiss"],          note: "numbered chapter opener with rule" },
   { id: "hero/aside-stat",     component: HeroAsideStat,     looks: ["warm", "editorial"],           note: "text left + single focal credential panel right" },
+];
+
+/** Subpage header ("hero-lite") variants — one is picked per firm so inner pages
+ *  don't all share the same header. `needsImage` ones prefer a real photo but fall
+ *  back to a token band when none exists. No breadcrumb (removed by design). */
+export interface PageHeaderVariant { id: string; component: React.FC<PageHeaderProps>; looks: StyleAffinity[]; needsImage?: boolean; }
+export const pageHeaderVariants: PageHeaderVariant[] = [
+  { id: "page-header/classic",     component: PageHeaderClassic,     looks: ["any"] },
+  { id: "page-header/centered",    component: PageHeaderCentered,    looks: ["soft", "swiss"] },
+  { id: "page-header/top-rule",    component: PageHeaderTopRule,     looks: ["swiss", "editorial"] },
+  { id: "page-header/bordered",    component: PageHeaderBordered,    looks: ["editorial", "swiss"] },
+  { id: "page-header/big-type",    component: PageHeaderBigType,     looks: ["soft", "swiss", "editorial"] },
+  { id: "page-header/split-meta",  component: PageHeaderSplitMeta,   looks: ["editorial", "warm"] },
+  { id: "page-header/underline",   component: PageHeaderUnderline,   looks: ["warm", "editorial"] },
+  { id: "page-header/chip",        component: PageHeaderChip,        looks: ["soft", "warm"] },
+  { id: "page-header/gradient",    component: PageHeaderGradient,    looks: ["soft", "swiss"] },
+  { id: "page-header/dark",        component: PageHeaderDark,        looks: ["swiss", "soft"] },
+  { id: "page-header/minimal",     component: PageHeaderMinimal,     looks: ["editorial", "swiss", "soft"] },
+  { id: "page-header/rule-under",  component: PageHeaderRuleUnder,   looks: ["editorial", "swiss"] },
+  { id: "page-header/kicker-line", component: PageHeaderKickerLine,   looks: ["warm", "soft", "swiss"] },
+  { id: "page-header/boxed-dark",  component: PageHeaderBoxedDark,    looks: ["swiss", "editorial"] },
+  { id: "page-header/banner-tint", component: PageHeaderBannerTint,   looks: ["soft", "warm"] },
+  { id: "page-header/watermark",   component: PageHeaderWatermark,    looks: ["editorial", "swiss"] },
+  { id: "page-header/image-band",     component: PageHeaderImageBand,     looks: ["soft", "swiss", "warm"], needsImage: true },
+  { id: "page-header/image-centered", component: PageHeaderImageCentered, looks: ["soft", "swiss"],         needsImage: true },
+  { id: "page-header/image-split",    component: PageHeaderImageSplit,    looks: ["editorial", "warm", "soft"], needsImage: true },
+  { id: "page-header/image-side",     component: PageHeaderImageSide,     looks: ["editorial", "swiss", "warm"], needsImage: true },
 ];
 
 /** Primary-button looks (rendered via PrimaryStyle context). */

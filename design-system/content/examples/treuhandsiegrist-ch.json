@@ -179,15 +179,13 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
       }
     },
-    "placeholders": [
-      "team.members"
-    ],
+    "placeholders": [],
     "real": [
       "meta.firm",
       "meta.domain",
@@ -210,32 +208,20 @@
     ]
   },
   "media": {
-    "hero": "/images/treuhandsiegrist-ch/hero.png",
+    "hero": "/images/treuhandsiegrist-ch/hero.jpg",
     "badges": [
       "/images/treuhandsiegrist-ch/pool/704415539e__STS-Logo-2-e1638354689286.png",
-      "/images/treuhandsiegrist-ch/pool/3176dca68b__STS-Logo-gross-e1638354759593.png",
       "/images/treuhandsiegrist-ch/pool/4d55bdb68f__bexio_zertifikat.png"
     ],
     "photos": [
-      "/images/treuhandsiegrist-ch/pool/a13d69d41f__Map_Badenerstrasse.png",
-      "/images/treuhandsiegrist-ch/pool/acf5560c0b__Firmengruendung-Kopie.jpg",
-      "/images/treuhandsiegrist-ch/pool/b236a61fac__Steuererklaerung-Kopie.jpg",
-      "/images/treuhandsiegrist-ch/pool/c256635d20__google-review-new-1024x493.png",
       "/images/treuhandsiegrist-ch/pool/3d290fdf28__werkzeuge-1200x1200.png",
+      "/images/treuhandsiegrist-ch/pool/acf5560c0b__Firmengruendung-Kopie.jpg",
       "/images/treuhandsiegrist-ch/pool/0159b65623__planung-1536x1536.png",
-      "/images/treuhandsiegrist-ch/pool/6577a3dbc6__Mit_uns-1536x1536.png",
-      "/images/treuhandsiegrist-ch/pool/6537c6eb2f__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square.png",
-      "/images/treuhandsiegrist-ch/pool/4957c86d20__Wie-800x800.png",
-      "/images/treuhandsiegrist-ch/pool/9f7771c70f__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-800x",
-      "/images/treuhandsiegrist-ch/pool/3b631d866d__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-600x",
-      "/images/treuhandsiegrist-ch/pool/b7631c1ff8__Green-And-White-Isometric-Business-Growth-Instagram-Post.jpg",
-      "/images/treuhandsiegrist-ch/pool/ada6549cf4__final-file.jpg",
-      "/images/treuhandsiegrist-ch/pool/b70ba57e5c__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-400x",
-      "/images/treuhandsiegrist-ch/pool/818c2ed5a3__Blue-Modern-Company-Profile-Presentation-Instagram-Post-Square.jpg",
-      "/images/treuhandsiegrist-ch/pool/edc1f67be4__Sumayya-Kantarevic-website.jpg"
+      "/images/treuhandsiegrist-ch/pool/10d7453126__Vr-Mandat-Kopie.jpg",
+      "/images/treuhandsiegrist-ch/pool/6577a3dbc6__Mit_uns-1536x1536.png"
     ],
     "serviceImages": {
-      "Steuerberatung": "/images/treuhandsiegrist-ch/pool/b236a61fac__Steuererklaerung-Kopie.jpg"
+      "Steuerberatung": "/images/treuhandsiegrist-ch/pool/ed07e47992__Steuererklaerung-einfach-und-effizient-abwickeln.jpg"
     },
     "documents": [
       {
@@ -291,17 +277,7 @@
         "height": 57,
         "orientation": "landscape",
         "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/treuhandsiegrist-ch/pool/3176dca68b__STS-Logo-gross-e1638354759593.png",
-        "kind": "badge",
-        "alt": "",
-        "bytes": 17055,
-        "width": 325,
-        "height": 57,
-        "orientation": "landscape",
-        "subject": "generic",
+        "phash": "9496627ad9c900",
         "roles": []
       },
       {
@@ -313,6 +289,7 @@
         "height": 137,
         "orientation": "square",
         "subject": "generic",
+        "phash": "71f0e09edec4e071",
         "roles": []
       },
       {
@@ -323,7 +300,10 @@
         "width": 1200,
         "height": 1200,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "1818082b2de5a723",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -338,7 +318,10 @@
         "width": 1536,
         "height": 1536,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "f9e9f4091949c9e9",
+        "quality": 0.68,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -354,10 +337,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
-        "roles": [
-          "gallery",
-          "feature"
-        ]
+        "phash": "d0d4fcbedc568c1",
+        "quality": 0.47,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/treuhandsiegrist-ch/pool/6577a3dbc6__Mit_uns-1536x1536.png",
@@ -368,10 +351,12 @@
         "height": 1536,
         "orientation": "square",
         "subject": "generic",
+        "phash": "4346034b080b132",
+        "quality": 0.44,
+        "faces": 0,
         "roles": [
           "gallery",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -382,26 +367,12 @@
         "width": 1080,
         "height": 1080,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "ed26160c91656d6f",
+        "quality": 0.86,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "service",
           "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhandsiegrist-ch/pool/a13d69d41f__Map_Badenerstrasse.png",
-        "kind": "photo",
-        "alt": "Map_Badenerstrasse",
-        "bytes": 388542,
-        "width": 1600,
-        "height": 576,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
         ]
       },
       {
@@ -412,11 +383,11 @@
         "width": 800,
         "height": 800,
         "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "656776793939ce60",
+        "quality": 0.76,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/treuhandsiegrist-ch/pool/9f7771c70f__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-800x",
@@ -426,24 +397,11 @@
         "width": 800,
         "height": 800,
         "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
-      },
-      {
-        "src": "/images/treuhandsiegrist-ch/pool/3b631d866d__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-600x",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 54673,
-        "width": 600,
-        "height": 600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "ed064e4891656d6f",
+        "quality": 0.8,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/treuhandsiegrist-ch/pool/acf5560c0b__Firmengruendung-Kopie.jpg",
@@ -453,7 +411,10 @@
         "width": 1600,
         "height": 1066,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "2aaae8e968696969",
+        "quality": 0.71,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -466,31 +427,15 @@
         "src": "/images/treuhandsiegrist-ch/pool/b7631c1ff8__Green-And-White-Isometric-Business-Growth-Instagram-Post.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 178194,
-        "width": 1600,
-        "height": 1600,
+        "bytes": 293395,
+        "width": 2025,
+        "height": 2025,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "213753477cb3c181",
+        "quality": 0.66,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhandsiegrist-ch/pool/b236a61fac__Steuererklaerung-Kopie.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 82927,
-        "width": 1600,
-        "height": 751,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -502,58 +447,52 @@
         "width": 1600,
         "height": 1600,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "50101191b16261b",
+        "quality": 0.6,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "service",
           "feature"
         ]
       },
       {
-        "src": "/images/treuhandsiegrist-ch/pool/b70ba57e5c__Dark-Blue-and-Orange-Simple-Trading-Youtube-Thumbnail-Instagram-Post-Square-400x",
+        "src": "/images/treuhandsiegrist-ch/pool/10d7453126__Vr-Mandat-Kopie.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 28338,
-        "width": 400,
-        "height": 400,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/treuhandsiegrist-ch/pool/c256635d20__google-review-new-1024x493.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 68211,
-        "width": 1024,
-        "height": 493,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhandsiegrist-ch/pool/818c2ed5a3__Blue-Modern-Company-Profile-Presentation-Instagram-Post-Square.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 125663,
+        "bytes": 55011,
         "width": 1600,
-        "height": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "office",
+        "phash": "1be3c7cb3f7c3573",
+        "quality": 0.43,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/treuhandsiegrist-ch/pool/ed07e47992__Steuererklaerung-einfach-und-effizient-abwickeln.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 110752,
+        "width": 1080,
+        "height": 1080,
         "orientation": "square",
         "subject": "portrait",
+        "phash": "5470707670e0709",
+        "quality": 0.72,
+        "faces": 2,
         "roles": [
-          "gallery",
           "feature"
         ]
       }
     ],
     "sectionBackgrounds": [
-      "/images/treuhandsiegrist-ch/pool/a13d69d41f__Map_Badenerstrasse.png",
       "/images/treuhandsiegrist-ch/pool/acf5560c0b__Firmengruendung-Kopie.jpg",
-      "/images/treuhandsiegrist-ch/pool/b236a61fac__Steuererklaerung-Kopie.jpg"
+      "/images/treuhandsiegrist-ch/pool/10d7453126__Vr-Mandat-Kopie.jpg"
     ]
   },
   "nav": {
@@ -584,7 +523,7 @@
     "asideLabel": "Mandantenstimme",
     "asideQuote": "They are professionals and the timemanagement is perfect.",
     "asideAttribution": "— Ivan O.",
-    "image": "/images/treuhandsiegrist-ch/hero.png"
+    "image": "/images/treuhandsiegrist-ch/hero.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -611,7 +550,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/treuhandsiegrist-ch/pool/b236a61fac__Steuererklaerung-Kopie.jpg"
+        "image": "/images/treuhandsiegrist-ch/pool/ed07e47992__Steuererklaerung-einfach-und-effizient-abwickeln.jpg"
       },
       {
         "title": "Lohnadministration",
@@ -684,26 +623,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Swiss Team",
-        "role": "Geschäftsführung",
-        "initials": "SW",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -749,7 +669,6 @@
     ],
     "badges": [
       "/images/treuhandsiegrist-ch/pool/704415539e__STS-Logo-2-e1638354689286.png",
-      "/images/treuhandsiegrist-ch/pool/3176dca68b__STS-Logo-gross-e1638354759593.png",
       "/images/treuhandsiegrist-ch/pool/4d55bdb68f__bexio_zertifikat.png"
     ]
   },

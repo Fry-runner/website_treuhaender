@@ -185,7 +185,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -194,8 +194,7 @@
     "placeholders": [
       "hero.aside",
       "values",
-      "faq",
-      "team.members"
+      "faq"
     ],
     "real": [
       "meta.firm",
@@ -221,21 +220,15 @@
     ],
     "photos": [
       "/images/monere-ch/pool/c58d3833e7__f4c47f_394466a6654243ac98c3cbaf545f9b4f_mv2.png",
-      "/images/monere-ch/pool/ac37c45ea7__f4c47f_27799c12ea13418aab8857a925a76ffc_mv2.png",
-      "/images/monere-ch/pool/030c48e99b__f4c47f_c7dd5302203644e7afee7ee8adb47418_mv2.png",
+      "/images/monere-ch/pool/688334ed01__1109_AP06_V02.jpg",
+      "/images/monere-ch/pool/7b4c159a82__Regus_20Business_20Park.jpg",
+      "/images/monere-ch/pool/0223680471__monere_20treuhand_20gmbh_201_edited.jpg",
+      "/images/monere-ch/pool/27206c6d1a__Unternehmensberatung.jpeg",
+      "/images/monere-ch/pool/f91c53735d__Monere-16-11-2018-1023.jpg",
       "/images/monere-ch/pool/9b016372a4__f4c47f_f5e2d9ffb7354c8db4176eb1d63c7431_mv2.png",
       "/images/monere-ch/pool/ae87721606__f4c47f_b36ded06ad854a6991d51a808ddf5c18_mv2.png",
-      "/images/monere-ch/pool/03573520e3__b8f8d72c-4eac-4e94-9d33-e6f69982214c.png",
-      "/images/monere-ch/pool/17153558cc__f4c47f_6a966b6b4bf3493fb6f716b6a603f40a_7Emv2_d_2868_1492_s_2.png",
-      "/images/monere-ch/pool/f91c53735d__Monere-16-11-2018-1023.jpg",
-      "/images/monere-ch/pool/27206c6d1a__Unternehmensberatung.jpeg",
-      "/images/monere-ch/pool/688334ed01__1109_AP06_V02.jpg",
-      "/images/monere-ch/pool/0223680471__monere_20treuhand_20gmbh_201_edited.jpg",
-      "/images/monere-ch/pool/7b4c159a82__Regus_20Business_20Park.jpg",
-      "/images/monere-ch/pool/f36d9f9bf8__Monere-16-11-2018-988.jpg",
-      "/images/monere-ch/pool/e02a70f245__Steuerberater_in.jpeg",
-      "/images/monere-ch/pool/35a0ccc034__monere_20treuhand_20gmbh_20Monika_20Baumann_202.jpg",
-      "/images/monere-ch/pool/d1e9a3cd0c__Monere-16-11-2018-1009.jpg"
+      "/images/monere-ch/pool/ac37c45ea7__f4c47f_27799c12ea13418aab8857a925a76ffc_mv2.png",
+      "/images/monere-ch/pool/030c48e99b__f4c47f_c7dd5302203644e7afee7ee8adb47418_mv2.png"
     ],
     "serviceImages": {
       "Steuerberatung": "/images/monere-ch/pool/e02a70f245__Steuerberater_in.jpeg",
@@ -295,6 +288,7 @@
         "height": 72,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "20293b0a2e3212",
         "roles": []
       },
       {
@@ -306,6 +300,9 @@
         "height": 571,
         "orientation": "landscape",
         "subject": "city",
+        "phash": "f0f0f0f26664707",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -321,6 +318,9 @@
         "height": 571,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "d0f870f3d0f2707",
+        "quality": 0.53,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -336,6 +336,9 @@
         "height": 563,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "6767335e0f2f0f0f",
+        "quality": 0.51,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -351,6 +354,9 @@
         "height": 571,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "1595cdc5cfcfc503",
+        "quality": 0.57,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -365,10 +371,11 @@
         "width": 1024,
         "height": 427,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "d6d69a3a7272b216",
+        "quality": 0.62,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "service",
           "feature"
         ]
       },
@@ -381,25 +388,11 @@
         "height": 563,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "c1c4c0f0f0f070f",
+        "quality": 0.57,
+        "faces": 0,
         "roles": [
           "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/monere-ch/pool/17153558cc__f4c47f_6a966b6b4bf3493fb6f716b6a603f40a_7Emv2_d_2868_1492_s_2.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 47016,
-        "width": 1600,
-        "height": 832,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
           "service",
           "feature"
         ]
@@ -413,9 +406,10 @@
         "height": 500,
         "orientation": "landscape",
         "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
+        "phash": "93939797a199c88b",
+        "quality": 0.73,
+        "faces": 0,
+        "roles": []
       },
       {
         "src": "/images/monere-ch/pool/35a0ccc034__monere_20treuhand_20gmbh_20Monika_20Baumann_202.jpg",
@@ -426,9 +420,10 @@
         "height": 500,
         "orientation": "landscape",
         "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
+        "phash": "931732323385cdce",
+        "quality": 0.68,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/monere-ch/pool/f91c53735d__Monere-16-11-2018-1023.jpg",
@@ -438,7 +433,10 @@
         "width": 1200,
         "height": 500,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "78687178787c78f8",
+        "quality": 0.59,
+        "faces": 0,
         "roles": [
           "gallery",
           "background"
@@ -452,7 +450,10 @@
         "width": 1086,
         "height": 452,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "6777673b1b3c9cdc",
+        "quality": 0.62,
+        "faces": 0,
         "roles": [
           "gallery"
         ]
@@ -465,7 +466,10 @@
         "width": 600,
         "height": 500,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "fffffffd61f14128",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
           "service"
         ]
@@ -478,7 +482,10 @@
         "width": 860,
         "height": 412,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "b3d8f3f8f0b8b9b0",
+        "quality": 0.67,
+        "faces": 0,
         "roles": [
           "gallery",
           "service"
@@ -492,7 +499,10 @@
         "width": 699,
         "height": 264,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "9eb6dab671b2f290",
+        "quality": 0.81,
+        "faces": 0,
         "roles": []
       },
       {
@@ -504,6 +514,9 @@
         "height": 500,
         "orientation": "landscape",
         "subject": "portrait",
+        "phash": "164e4ec6c4f1390f",
+        "quality": 0.61,
+        "faces": 2,
         "roles": []
       },
       {
@@ -514,12 +527,14 @@
         "width": 480,
         "height": 316,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "d1d3d395b52f2f7b",
+        "quality": 0.72,
+        "faces": 1,
         "roles": []
       }
     ],
     "sectionBackgrounds": [
-      "/images/monere-ch/pool/17153558cc__f4c47f_6a966b6b4bf3493fb6f716b6a603f40a_7Emv2_d_2868_1492_s_2.png",
       "/images/monere-ch/pool/f91c53735d__Monere-16-11-2018-1023.jpg"
     ]
   },
@@ -635,26 +650,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Monere Team",
-        "role": "Geschäftsführung",
-        "initials": "MO",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

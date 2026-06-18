@@ -157,10 +157,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -196,7 +192,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -204,7 +200,8 @@
     },
     "placeholders": [
       "hero.aside",
-      "values"
+      "values",
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -227,28 +224,16 @@
     ]
   },
   "media": {
-    "hero": "/images/zhtreuhand-ch/hero.jpg",
+    "hero": "/images/zhtreuhand-ch/pool/stock-city-29148085.jpg",
     "badges": [
       "/images/zhtreuhand-ch/pool/6df739d301__01_EXP_ZH_Treuhand_Logo_Web-1024x184.png",
       "/images/zhtreuhand-ch/pool/d38c8232bb__01_EXP_ZH_Aerzte_Revisionstreuhand_Logo_Web-1024x192.png"
     ],
     "photos": [
-      "/images/zhtreuhand-ch/pool/07b67d527a__ZH_Treuhand_Prov_298.jpg",
-      "/images/zhtreuhand-ch/pool/a769d7b30c__ZH_Treuhand_Prov_281.jpg",
-      "/images/zhtreuhand-ch/pool/4d70386af1__ZH_Treuhand_Prov_291-1-e1737126434125.jpg",
-      "/images/zhtreuhand-ch/pool/3d2e1a605c__ZH_Treuhand_Prov_324-e1737109458733-1024x865.jpg",
       "/images/zhtreuhand-ch/pool/1f8ec9953a__ZH_Treuhand_Prov_268-1024x682.jpg",
-      "/images/zhtreuhand-ch/pool/e41eb44304__ZH_Treuhand_Prov_309-1024x682.jpg",
-      "/images/zhtreuhand-ch/pool/949b58e182__ZH_Treuhand_Prov_274-1024x682.jpg",
-      "/images/zhtreuhand-ch/pool/577df9ebb2__ZH_Treuhand_Prov_344-e1737116843154-1024x657.jpg",
-      "/images/zhtreuhand-ch/pool/9bf59998ec__Werner_ZH_Treuhand_Web.jpg",
-      "/images/zhtreuhand-ch/pool/55354de12f__ZH_Treuhand_Monica.jpg",
-      "/images/zhtreuhand-ch/pool/02c1b3b2a4__ZH_Treuhand_Prov_308-e1737112347122-1024x1012.jpg",
-      "/images/zhtreuhand-ch/pool/c7f5534e23__ZH_Treuhand_Beni_-104_Frei-scaled-e1739546421931.jpg",
-      "/images/zhtreuhand-ch/pool/45a655cca4__ZH_Treuhand_Prov_354-e1737111735778-1024x999.jpg",
-      "/images/zhtreuhand-ch/pool/6e4d8c7309__Simon_ZH_Treuhand_Web.jpg",
-      "/images/zhtreuhand-ch/pool/023ece13b8__Jill_Menendez_Web.jpg",
-      "/images/zhtreuhand-ch/pool/3ec35a9615__ZH_Treuhand_Prov_267-682x1024.jpg"
+      "/images/zhtreuhand-ch/pool/ac931b29a9__ZH_Treuhand_Prov_304-e1737109206501-1024x654.jpg",
+      "/images/zhtreuhand-ch/pool/07b67d527a__ZH_Treuhand_Prov_298.jpg",
+      "/images/zhtreuhand-ch/pool/45a655cca4__ZH_Treuhand_Prov_354-e1737111735778-1024x999.jpg"
     ],
     "serviceImages": {},
     "documents": [
@@ -269,6 +254,7 @@
         "height": 184,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "d54dcdb5964d59d2",
         "roles": []
       },
       {
@@ -280,6 +266,7 @@
         "height": 192,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "d8425292494d55d4",
         "roles": []
       },
       {
@@ -290,7 +277,10 @@
         "width": 1600,
         "height": 1066,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "99cc4bd8ec951d99",
+        "quality": 0.63,
+        "faces": 4,
         "roles": [
           "gallery",
           "hero",
@@ -307,12 +297,11 @@
         "width": 1600,
         "height": 1066,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "9d9d2d656541c164",
+        "quality": 0.6,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -324,12 +313,11 @@
         "width": 1600,
         "height": 1066,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "a9a189b465a8bd91",
+        "quality": 0.61,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -342,6 +330,9 @@
         "height": 640,
         "orientation": "square",
         "subject": "portrait",
+        "phash": "b2b2b271d8d4dcdc",
+        "quality": 0.84,
+        "faces": 1,
         "roles": []
       },
       {
@@ -352,10 +343,11 @@
         "width": 690,
         "height": 640,
         "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "b27ab271d8dcdcdc",
+        "quality": 0.82,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/zhtreuhand-ch/pool/55354de12f__ZH_Treuhand_Monica.jpg",
@@ -365,10 +357,11 @@
         "width": 690,
         "height": 640,
         "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "b2b2a8b0e8e8f968",
+        "quality": 0.71,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/zhtreuhand-ch/pool/023ece13b8__Jill_Menendez_Web.jpg",
@@ -379,6 +372,9 @@
         "height": 640,
         "orientation": "square",
         "subject": "portrait",
+        "phash": "b27a7979c8dcdcdc",
+        "quality": 0.78,
+        "faces": 1,
         "roles": []
       },
       {
@@ -389,10 +385,11 @@
         "width": 1024,
         "height": 1012,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "6d6d6767e6c6c666",
+        "quality": 0.79,
+        "faces": 2,
         "roles": [
-          "gallery",
-          "service",
           "feature"
         ]
       },
@@ -404,10 +401,11 @@
         "width": 1463,
         "height": 1295,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "30b2b271e9e8d4f0",
+        "quality": 0.52,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "service",
           "feature"
         ]
       },
@@ -419,7 +417,26 @@
         "width": 1024,
         "height": 865,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "16666636e6cac626",
+        "quality": 0.53,
+        "faces": 1,
+        "roles": [
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/zhtreuhand-ch/pool/ac931b29a9__ZH_Treuhand_Prov_304-e1737109206501-1024x654.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 79595,
+        "width": 1024,
+        "height": 654,
+        "orientation": "landscape",
+        "subject": "office",
+        "phash": "3bbbfafcdcd89180",
+        "quality": 0.72,
+        "faces": 3,
         "roles": [
           "gallery",
           "service",
@@ -434,11 +451,13 @@
         "width": 1024,
         "height": 999,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "c656d60d1bd3d3f3",
+        "quality": 0.45,
+        "faces": 0,
         "roles": [
           "gallery",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -449,7 +468,10 @@
         "width": 1024,
         "height": 682,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "f53474f074b9b3b",
+        "quality": 0.74,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -465,6 +487,9 @@
         "height": 1024,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "5f338d07590c7c64",
+        "quality": 0.68,
+        "faces": 0,
         "roles": []
       },
       {
@@ -475,10 +500,11 @@
         "width": 1024,
         "height": 682,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "5b75b7337333b3d3",
+        "quality": 0.53,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "service",
           "feature"
         ]
       },
@@ -490,33 +516,43 @@
         "width": 1024,
         "height": 682,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "291b391986466763",
+        "quality": 0.54,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "service",
           "feature"
         ]
       },
       {
-        "src": "/images/zhtreuhand-ch/pool/577df9ebb2__ZH_Treuhand_Prov_344-e1737116843154-1024x657.jpg",
-        "kind": "photo",
+        "src": "/images/zhtreuhand-ch/pool/stock-city-29148085.jpg",
+        "kind": "hero",
         "alt": "",
-        "bytes": 57532,
-        "width": 1024,
-        "height": 657,
+        "bytes": 423606,
+        "width": 1880,
+        "height": 1253,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "stock": true,
+        "credit": "Naimish Verma (Pexels)",
+        "source": "https://www.pexels.com/photo/scenic-view-of-zurich-overlooking-limmat-river-29148085/",
+        "quality": 0.86,
+        "faces": 0,
         "roles": [
           "gallery",
+          "hero",
+          "background",
           "service",
           "feature"
         ]
       }
     ],
+    "stock": true,
+    "credits": [
+      "Naimish Verma (Pexels)"
+    ],
     "sectionBackgrounds": [
-      "/images/zhtreuhand-ch/pool/07b67d527a__ZH_Treuhand_Prov_298.jpg",
-      "/images/zhtreuhand-ch/pool/a769d7b30c__ZH_Treuhand_Prov_281.jpg",
-      "/images/zhtreuhand-ch/pool/4d70386af1__ZH_Treuhand_Prov_291-1-e1737126434125.jpg"
+      "/images/zhtreuhand-ch/pool/07b67d527a__ZH_Treuhand_Prov_298.jpg"
     ]
   },
   "nav": {
@@ -547,7 +583,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Unser erfahrenes Team unterstützt Sie bei Finanzangelegenheiten wie Buchhaltung, Steueroptimierung und eingeschränkter Revision.",
     "asideAttribution": "ZH Treuhand",
-    "image": "/images/zhtreuhand-ch/hero.jpg"
+    "image": "/images/zhtreuhand-ch/pool/stock-city-29148085.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",

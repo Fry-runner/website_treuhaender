@@ -184,7 +184,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
@@ -194,8 +194,7 @@
       "hero.aside",
       "values",
       "footer.tagline",
-      "look.colors (generated)",
-      "team.members"
+      "look.colors (generated)"
     ],
     "real": [
       "meta.firm",
@@ -215,29 +214,27 @@
   },
   "media": {
     "logo": "/images/taxalis-ch/pool/16a88d3fb8__taxalis_logo.png",
-    "hero": "/images/taxalis-ch/hero.jpg",
+    "hero": "/images/taxalis-ch/hero.png",
     "badges": [],
     "photos": [
-      "/images/taxalis-ch/pool/0273459226__Bahnhofstrasse_20128-132_2C_20Wetzikon_202.png",
+      "/images/taxalis-ch/pool/0991778cce__F-1.jpeg",
+      "/images/taxalis-ch/pool/f20e69cff5__Saumstrasse_2024_2C_208625_20Gossau_20ZH.JPG",
       "/images/taxalis-ch/pool/fe04765221__Eichholzstrasse_209_2C_20Bertschikon.png",
+      "/images/taxalis-ch/pool/bb865aae7a__Adetswilerstrasse_206_2C_208344_20B_C3_A4retswil_komp..png",
+      "/images/taxalis-ch/pool/d2db5f5dac__Trichtenhausenstrasse_20130_2C_208053_20Z_C3_BCrich.JPG",
+      "/images/taxalis-ch/pool/22e1dda77a__Weiherstrasse_202_2C_208620_20Wetzikon.JPG",
       "/images/taxalis-ch/pool/909905b827__Hofstrasse_20106_2C_208620_20Wetzikon_Angepasst.JPG.png",
+      "/images/taxalis-ch/pool/f070475d7d__Morgenstrasse_2030_2C_208620_20Wetzikon.jpg",
       "/images/taxalis-ch/pool/4ffab9de92__Carmenstrasse_2045_2C_208032_20Z_C3_BCrich.png",
+      "/images/taxalis-ch/pool/fd51ec5397__Schlossbergstrasse_2040_2C_208820_20W_C3_A4denswil.JPG",
+      "/images/taxalis-ch/pool/940e5f97c3__Haldenstrasse_205_2C_208625_20Gossau.JPG",
+      "/images/taxalis-ch/pool/e8e06e9a0b__Br_C3_BCnneliweid_2016_2C_20Hinwil.jpg",
       "/images/taxalis-ch/pool/fc2e8a611a__Fochenmattweg_202_2C_208624_20Gr_C3_BCt.JPG",
       "/images/taxalis-ch/pool/02fdfe29a3__T_C3_B6sstalstrasse_20102_104_2C_208400_20Winterthur_komp..png",
-      "/images/taxalis-ch/pool/d2db5f5dac__Trichtenhausenstrasse_20130_2C_208053_20Z_C3_BCrich.JPG",
-      "/images/taxalis-ch/pool/bb865aae7a__Adetswilerstrasse_206_2C_208344_20B_C3_A4retswil_komp..png",
       "/images/taxalis-ch/pool/8bde750eba__Tr_C3_BCbelstrasse_2062_2C_208712_20St_C3_A4fak_komp..png",
-      "/images/taxalis-ch/pool/f20e69cff5__Saumstrasse_2024_2C_208625_20Gossau_20ZH.JPG",
-      "/images/taxalis-ch/pool/940e5f97c3__Haldenstrasse_205_2C_208625_20Gossau.JPG",
-      "/images/taxalis-ch/pool/fd51ec5397__Schlossbergstrasse_2040_2C_208820_20W_C3_A4denswil.JPG",
-      "/images/taxalis-ch/pool/22e1dda77a__Weiherstrasse_202_2C_208620_20Wetzikon.JPG",
-      "/images/taxalis-ch/pool/e8e06e9a0b__Br_C3_BCnneliweid_2016_2C_20Hinwil.jpg",
-      "/images/taxalis-ch/pool/0991778cce__F-1.jpeg",
       "/images/taxalis-ch/pool/85152a79f5__Frohbergstrasse_2068_2C_20Wetzikon.jpg",
-      "/images/taxalis-ch/pool/a9074e7a25__Web_Header.jpg",
       "/images/taxalis-ch/pool/6c37450ed2__Titelbild_20DT_20Druck.JPG",
-      "/images/taxalis-ch/pool/12cb4eff28__Immobilien-und-Steuern-Webseite.jpg",
-      "/images/taxalis-ch/pool/9adfcb6712__Taxalis_News_August_MWST_Erhoehung_Website_718x313px.jpg"
+      "/images/taxalis-ch/pool/12cb4eff28__Immobilien-und-Steuern-Webseite.jpg"
     ],
     "serviceImages": {
       "Steuerberatung": "/images/taxalis-ch/pool/12cb4eff28__Immobilien-und-Steuern-Webseite.jpg",
@@ -309,22 +306,8 @@
         "height": 76,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "2556a7a991a9696d",
         "roles": []
-      },
-      {
-        "src": "/images/taxalis-ch/pool/a9074e7a25__Web_Header.jpg",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 77817,
-        "width": 1920,
-        "height": 409,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
-        ]
       },
       {
         "src": "/images/taxalis-ch/pool/6c37450ed2__Titelbild_20DT_20Druck.JPG",
@@ -335,6 +318,9 @@
         "height": 400,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "bd7df0b031616134",
+        "quality": 0.59,
+        "faces": 0,
         "roles": []
       },
       {
@@ -345,7 +331,10 @@
         "width": 1600,
         "height": 1200,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "851959e367678f1b",
+        "quality": 0.73,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -362,7 +351,10 @@
         "width": 1600,
         "height": 1200,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "80e0d1f834479e01",
+        "quality": 0.6,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -379,7 +371,10 @@
         "width": 1600,
         "height": 1200,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "61f0d8bb7a585919",
+        "quality": 0.54,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -397,6 +392,9 @@
         "height": 1200,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "9638e9e8e9e979e9",
+        "quality": 0.78,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -414,6 +412,9 @@
         "height": 1200,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "3197feb099cfdf9f",
+        "quality": 0.78,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -430,7 +431,10 @@
         "width": 1600,
         "height": 1200,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "d074eb0b1890d4e",
+        "quality": 0.66,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -447,7 +451,10 @@
         "width": 1600,
         "height": 1200,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "cc60383c6b6972b3",
+        "quality": 0.71,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -465,6 +472,9 @@
         "height": 1200,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "7162aa8f2d4a686c",
+        "quality": 0.73,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -481,26 +491,14 @@
         "width": 1600,
         "height": 1200,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "e7fdf3a61637cf79",
+        "quality": 0.8,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
           "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/taxalis-ch/pool/0273459226__Bahnhofstrasse_20128-132_2C_20Wetzikon_202.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 418728,
-        "width": 1053,
-        "height": 790,
-        "orientation": "landscape",
-        "subject": "city",
-        "roles": [
-          "gallery",
           "service",
           "feature"
         ]
@@ -514,6 +512,9 @@
         "height": 1200,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "1d4d635155349c05",
+        "quality": 0.82,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -530,13 +531,14 @@
         "width": 1600,
         "height": 1200,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "8ce0b6b8985ee2de",
+        "quality": 0.48,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -547,7 +549,10 @@
         "width": 1600,
         "height": 1200,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "58d886870d2d11",
+        "quality": 0.62,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -565,6 +570,9 @@
         "height": 1200,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "75f2fec64f7ccd8e",
+        "quality": 0.81,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -581,7 +589,10 @@
         "width": 1600,
         "height": 900,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "1359ccee6e0c050f",
+        "quality": 0.82,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -599,6 +610,29 @@
         "height": 1178,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "b23d2637379526b6",
+        "quality": 0.59,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/f070475d7d__Morgenstrasse_2030_2C_208620_20Wetzikon.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 281640,
+        "width": 1600,
+        "height": 1200,
+        "orientation": "landscape",
+        "subject": "city",
+        "phash": "29093464242e274b",
+        "quality": 0.6,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -616,6 +650,9 @@
         "height": 313,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "a4a22164646464e4",
+        "quality": 0.43,
+        "faces": 0,
         "roles": [
           "gallery",
           "service"
@@ -629,17 +666,17 @@
         "width": 718,
         "height": 313,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "ed2927232b6b63e7",
+        "quality": 0.53,
+        "faces": 1,
+        "roles": []
       }
     ],
     "sectionBackgrounds": [
-      "/images/taxalis-ch/pool/a9074e7a25__Web_Header.jpg",
       "/images/taxalis-ch/pool/fe04765221__Eichholzstrasse_209_2C_20Bertschikon.png",
-      "/images/taxalis-ch/pool/909905b827__Hofstrasse_20106_2C_208620_20Wetzikon_Angepasst.JPG.png"
+      "/images/taxalis-ch/pool/909905b827__Hofstrasse_20106_2C_208620_20Wetzikon_Angepasst.JPG.png",
+      "/images/taxalis-ch/pool/4ffab9de92__Carmenstrasse_2045_2C_208032_20Z_C3_BCrich.png"
     ]
   },
   "nav": {
@@ -671,7 +708,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Persönliche Treuhand-Betreuung für KMU und Private in Winterthur.",
     "asideAttribution": "Taxalis Treuhand AG",
-    "image": "/images/taxalis-ch/hero.jpg"
+    "image": "/images/taxalis-ch/hero.png"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -755,26 +792,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Taxalis Team",
-        "role": "Geschäftsführung",
-        "initials": "TA",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

@@ -3,7 +3,7 @@
  * Real portrait (member.photo) or initials monogram.
  */
 import React from "react";
-import { Container } from "./primitives";
+import { Container, PORTRAIT_FOCUS } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
 import type { TeamContent, TeamMember } from "../content/types";
 
@@ -15,7 +15,7 @@ const bio: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: 
 const photoBg = (m: TeamMember, extra?: React.CSSProperties): React.CSSProperties => ({
   background: "var(--ds-primary-soft)", color: "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center",
   fontFamily: "var(--ds-font-heading)", fontWeight: 700, overflow: "hidden",
-  ...(m.photo ? { backgroundImage: `url("${m.photo}")`, backgroundSize: "cover", backgroundPosition: "center top" } : {}), ...extra,
+  ...(m.photo ? { backgroundImage: `url("${m.photo}")`, backgroundSize: "cover", backgroundPosition: PORTRAIT_FOCUS } : {}), ...extra,
 });
 
 /** 1) Square photo grid, caption below. */
@@ -148,7 +148,7 @@ export const TeamMasonry: React.FC<Props> = ({ content, more }) => (
       <div style={{ columnCount: 3, columnGap: "1.2rem" }}>
         {content.members.map((m, i) => (
           <div key={i} style={{ margin: "0 0 1.2rem", breakInside: "avoid", background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden", display: "inline-block", width: "100%" }}>
-            <div role="img" aria-label={m.name} style={photoBg(m, { height: i % 3 === 1 ? "180px" : "140px", fontSize: "1.5rem" })}>{m.photo ? "" : m.initials}</div>
+            <div role="img" aria-label={m.name} style={photoBg(m, { aspectRatio: i % 3 === 1 ? "3 / 4" : "4 / 5", fontSize: "1.5rem" })}>{m.photo ? "" : m.initials}</div>
             <div style={{ padding: "1rem 1.2rem" }}><h3 style={name}>{m.name}</h3><span style={role}>{m.role}</span></div>
           </div>
         ))}
@@ -167,13 +167,13 @@ export const TeamSplitLead: React.FC<Props> = ({ content, more }) => {
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
         <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.4fr)", gap: "2rem", alignItems: "start" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
-            <div role="img" aria-label={first.name} style={photoBg(first, { width: "100%", height: "320px", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", fontSize: "2.6rem" })}>{first.photo ? "" : first.initials}</div>
+            <div role="img" aria-label={first.name} style={photoBg(first, { width: "100%", aspectRatio: "4 / 5", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", fontSize: "2.6rem" })}>{first.photo ? "" : first.initials}</div>
             <h3 style={{ ...name, fontSize: "1.3rem" }}>{first.name}</h3><span style={role}>{first.role}</span><p style={bio}>{first.bio}</p>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px,1fr))", gap: "1rem", alignContent: "start" }}>
             {rest.map((m, i) => (
               <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
-                <div role="img" aria-label={m.name} style={photoBg(m, { width: "100%", height: "150px", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", fontSize: "1.2rem" })}>{m.photo ? "" : m.initials}</div>
+                <div role="img" aria-label={m.name} style={photoBg(m, { width: "100%", aspectRatio: "4 / 5", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", fontSize: "1.2rem" })}>{m.photo ? "" : m.initials}</div>
                 <h3 style={{ ...name, fontSize: "0.95rem" }}>{m.name}</h3><span style={{ ...role, fontSize: "0.62rem" }}>{m.role}</span>
               </div>
             ))}

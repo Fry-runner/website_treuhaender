@@ -146,10 +146,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -185,7 +181,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
@@ -221,27 +217,19 @@
     "badges": [
       "/images/divisia-treuhand-ch/pool/46eee31450__treu-suisse-logo-verband-de.svg",
       "/images/divisia-treuhand-ch/pool/069e80fac2__logo_treuhand-suisse-300x63.png",
-      "/images/divisia-treuhand-ch/pool/3495c72d67__abacus-logo-w.svg",
       "/images/divisia-treuhand-ch/pool/f9410928ab__RAB-logo.png"
     ],
     "photos": [
       "/images/divisia-treuhand-ch/pool/40b2b8b2c9__Divisia-Treuhand-1200x675-Einfamilienhaus-Eigentum.jpg",
-      "/images/divisia-treuhand-ch/pool/1cbb17ec8e__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung.jpg",
-      "/images/divisia-treuhand-ch/pool/837074c37f__Divisia-Treuhand-1200x675-Liegenschaft-Immobilien.jpg",
-      "/images/divisia-treuhand-ch/pool/617541d425__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung-1024",
-      "/images/divisia-treuhand-ch/pool/9af4a8da7e__Divisia-Treuhand-1200x675-Couple-Tablet-Silver-Ager.jpg",
-      "/images/divisia-treuhand-ch/pool/521b170517__Divisia-Treuhand-Wallisellen-Revision-1920x600-1.jpg",
+      "/images/divisia-treuhand-ch/pool/05e91d0ae5__Unternehmensberatung.jpg",
       "/images/divisia-treuhand-ch/pool/61322ad013__Divisia-Treuhand-1200x675-Immobilien.jpg",
       "/images/divisia-treuhand-ch/pool/db7988e60a__Divisia-Treuhand-1200x675-Weiterbildung.jpg",
-      "/images/divisia-treuhand-ch/pool/e9c49d9a26__Divisia-Treuhand-1200x675-Ferienkurse-Ferienbetreuung-abziehbar.jpg",
-      "/images/divisia-treuhand-ch/pool/d7c912b3c0__Divisia-Treuhand-1200x675-Vertrag-1.jpg",
-      "/images/divisia-treuhand-ch/pool/05e91d0ae5__Unternehmensberatung.jpg",
-      "/images/divisia-treuhand-ch/pool/6dde75048c__Benjamin-Schenk-Divisia-Treuhand-AG-800x800-3.jpg",
-      "/images/divisia-treuhand-ch/pool/7d7215d926__Divisia-Treuhand-Marina-Boller-2400x3157-2.jpg",
-      "/images/divisia-treuhand-ch/pool/dd25379f41__Divisia-Treuhand-Benjamin-Schenk-2400x3200-1.jpg",
-      "/images/divisia-treuhand-ch/pool/42c8b786f1__Divisia-Treuhand-Patricia-Horn-2400x3200-1.jpg",
-      "/images/divisia-treuhand-ch/pool/f486b51a99__Divisia-Treuhand-Aleksandra-Pantic-2400x3200-1.jpg",
-      "/images/divisia-treuhand-ch/pool/12b6319677__Divisia-Treuhand-Sina-Blind-2400x3200-1.jpg"
+      "/images/divisia-treuhand-ch/pool/9af4a8da7e__Divisia-Treuhand-1200x675-Couple-Tablet-Silver-Ager.jpg",
+      "/images/divisia-treuhand-ch/pool/521b170517__Divisia-Treuhand-Wallisellen-Revision-1920x600-1.jpg",
+      "/images/divisia-treuhand-ch/pool/093aeb1a1e__treuhand1-1920x600.jpg",
+      "/images/divisia-treuhand-ch/pool/1cbb17ec8e__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung.jpg",
+      "/images/divisia-treuhand-ch/pool/837074c37f__Divisia-Treuhand-1200x675-Liegenschaft-Immobilien.jpg",
+      "/images/divisia-treuhand-ch/pool/e9c49d9a26__Divisia-Treuhand-1200x675-Ferienkurse-Ferienbetreuung-abziehbar.jpg"
     ],
     "serviceImages": {
       "Steuerberatung": "/images/divisia-treuhand-ch/pool/1cbb17ec8e__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung.jpg",
@@ -278,6 +266,7 @@
         "height": 89.89,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "54cdd2ecd80088d2",
         "roles": []
       },
       {
@@ -289,6 +278,7 @@
         "height": 107.6,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "181a16a61a189094",
         "roles": []
       },
       {
@@ -300,17 +290,7 @@
         "height": 63,
         "orientation": "landscape",
         "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/3495c72d67__abacus-logo-w.svg",
-        "kind": "badge",
-        "alt": "abacus logo w",
-        "bytes": 5950,
-        "width": 256.1,
-        "height": 44.8,
-        "orientation": "landscape",
-        "subject": "generic",
+        "phash": "0",
         "roles": []
       },
       {
@@ -322,6 +302,7 @@
         "height": 134,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "c1a191d17535636",
         "roles": []
       },
       {
@@ -333,8 +314,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "607032d9cccee2e0",
+        "quality": 0.66,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -347,8 +330,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "b2b230c8ccf2f06c",
+        "quality": 0.81,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -360,7 +345,10 @@
         "width": 1200,
         "height": 675,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "b2b8b2b203160513",
+        "quality": 0.85,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -377,11 +365,32 @@
         "height": 675,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "2b2b0f0f2b1a9a9a",
+        "quality": 0.79,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
           "service",
           "feature"
+        ]
+      },
+      {
+        "src": "/images/divisia-treuhand-ch/pool/093aeb1a1e__treuhand1-1920x600.jpg",
+        "kind": "photo",
+        "alt": "treuhand1",
+        "bytes": 218417,
+        "width": 1600,
+        "height": 500,
+        "orientation": "landscape",
+        "subject": "generic",
+        "phash": "71f5f2dc5436226e",
+        "quality": 0.81,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "hero",
+          "background"
         ]
       },
       {
@@ -393,6 +402,9 @@
         "height": 675,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "171b3b5325632327",
+        "quality": 0.76,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -409,8 +421,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "90b99990704a6266",
+        "quality": 0.5,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -423,8 +437,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "323b69ec647839f4",
+        "quality": 0.57,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -437,23 +453,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "83b3b3e3c9d87879",
+        "quality": 0.52,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/617541d425__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung-1024",
-        "kind": "photo",
-        "alt": "Divisia Treuhand 1200x675 Kryptowährung steuerpflichtig Gewinnversteuerung",
-        "bytes": 170631,
-        "width": 1024,
-        "height": 576,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
           "feature"
         ]
       },
@@ -465,7 +468,10 @@
         "width": 1200,
         "height": 675,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "c9c9c1a1a9243412",
+        "quality": 0.58,
+        "faces": 2,
         "roles": [
           "gallery",
           "background",
@@ -481,7 +487,10 @@
         "width": 1600,
         "height": 500,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "323a1e2e36363eeb",
+        "quality": 0.54,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -496,7 +505,10 @@
         "width": 1200,
         "height": 675,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "f0d84a9009196c25",
+        "quality": 0.64,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -512,7 +524,10 @@
         "width": 1200,
         "height": 675,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "58505a6aaaa446ec",
+        "quality": 0.63,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -529,22 +544,9 @@
         "height": 675,
         "orientation": "landscape",
         "subject": "generic",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/d7c912b3c0__Divisia-Treuhand-1200x675-Vertrag-1.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand 1200x675 Vertrag",
-        "bytes": 81530,
-        "width": 1200,
-        "height": 675,
-        "orientation": "landscape",
-        "subject": "generic",
+        "phash": "eac9353dd9c9c8c2",
+        "quality": 0.68,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -560,11 +562,11 @@
         "width": 800,
         "height": 800,
         "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "subject": "portrait",
+        "phash": "7aeecec7e7332627",
+        "quality": 0.72,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/divisia-treuhand-ch/pool/05e91d0ae5__Unternehmensberatung.jpg",
@@ -574,7 +576,10 @@
         "width": 1600,
         "height": 500,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "4f4f078d0d2d4f4e",
+        "quality": 0.7,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -585,7 +590,7 @@
     "sectionBackgrounds": [
       "/images/divisia-treuhand-ch/pool/40b2b8b2c9__Divisia-Treuhand-1200x675-Einfamilienhaus-Eigentum.jpg",
       "/images/divisia-treuhand-ch/pool/1cbb17ec8e__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung.jpg",
-      "/images/divisia-treuhand-ch/pool/837074c37f__Divisia-Treuhand-1200x675-Liegenschaft-Immobilien.jpg"
+      "/images/divisia-treuhand-ch/pool/093aeb1a1e__treuhand1-1920x600.jpg"
     ]
   },
   "nav": {
@@ -755,7 +760,6 @@
     "badges": [
       "/images/divisia-treuhand-ch/pool/46eee31450__treu-suisse-logo-verband-de.svg",
       "/images/divisia-treuhand-ch/pool/069e80fac2__logo_treuhand-suisse-300x63.png",
-      "/images/divisia-treuhand-ch/pool/3495c72d67__abacus-logo-w.svg",
       "/images/divisia-treuhand-ch/pool/f9410928ab__RAB-logo.png"
     ]
   },

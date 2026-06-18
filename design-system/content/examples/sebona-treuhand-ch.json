@@ -186,7 +186,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
@@ -228,22 +228,16 @@
       "/images/sebona-treuhand-ch/pool/3fc0320bd0__buero-6.jpg",
       "/images/sebona-treuhand-ch/pool/823cf15f66__buero-3.jpg",
       "/images/sebona-treuhand-ch/pool/8695beb5ba__buero-5.jpg",
-      "/images/sebona-treuhand-ch/pool/8c77dfcda6__buero-1.jpg",
+      "/images/sebona-treuhand-ch/pool/ae894db1a3__banner-common.BzpOmRvW_Z8Cjux.webp",
       "/images/sebona-treuhand-ch/pool/82363990b4__buero-4.jpg",
-      "/images/sebona-treuhand-ch/pool/afeb3cdf01__zuerich-skyline.r2deDm9B_2iO7FO.webp",
-      "/images/sebona-treuhand-ch/pool/7172995286__zuerich-skyline.r2deDm9B_22GT5v.webp",
-      "/images/sebona-treuhand-ch/pool/5b540e6bba__zuerich-skyline.r2deDm9B_1S02UR.webp",
-      "/images/sebona-treuhand-ch/pool/6191739a05__footer-font-bg.CgLeq-Ib_yrDo0.webp",
-      "/images/sebona-treuhand-ch/pool/17809d7cbd__og-image.jpg",
-      "/images/sebona-treuhand-ch/pool/0e2ef40f29__post-7.D1ocRhUy_Z1b0w5h.webp",
       "/images/sebona-treuhand-ch/pool/214d21e045__banner-common.BzpOmRvW_1M2Cuw.webp",
-      "/images/sebona-treuhand-ch/pool/a0b6d70eef__post-7.D1ocRhUy_1TMS9j.webp",
-      "/images/sebona-treuhand-ch/pool/3920b4d804__post-7.D1ocRhUy_Z2pvT2x.webp",
+      "/images/sebona-treuhand-ch/pool/6191739a05__footer-font-bg.CgLeq-Ib_yrDo0.webp",
+      "/images/sebona-treuhand-ch/pool/8c77dfcda6__buero-1.jpg",
+      "/images/sebona-treuhand-ch/pool/53fc2f658b__default.BsJpqiZf_2bY6j2.webp",
+      "/images/sebona-treuhand-ch/pool/0e2ef40f29__post-7.D1ocRhUy_Z1b0w5h.webp",
       "/images/sebona-treuhand-ch/pool/7b0f4143e5__post-1.CIu8gpNu_1tahwJ.webp",
-      "/images/sebona-treuhand-ch/pool/0e1d7c3cc3__banner-common.BzpOmRvW_Z1Dmc0X.webp",
-      "/images/sebona-treuhand-ch/pool/b884697135__banner-common.BzpOmRvW_Z1trvnL.webp",
-      "/images/sebona-treuhand-ch/pool/55b59f427e__bexio-platinum.png",
-      "/images/sebona-treuhand-ch/pool/3aea7af6c5__web-app-manifest-512x512.png"
+      "/images/sebona-treuhand-ch/pool/afeb3cdf01__zuerich-skyline.r2deDm9B_2iO7FO.webp",
+      "/images/sebona-treuhand-ch/pool/17809d7cbd__og-image.jpg"
     ],
     "serviceImages": {},
     "documents": [],
@@ -257,17 +251,7 @@
         "height": 251,
         "orientation": "landscape",
         "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/sebona-treuhand-ch/pool/32d9e16d0f__logo-1200.webp",
-        "kind": "logo",
-        "alt": "SEBONA Treuhand Böhner",
-        "bytes": 47670,
-        "width": 1200,
-        "height": 502,
-        "orientation": "landscape",
-        "subject": "generic",
+        "phash": "9094ca920000",
         "roles": []
       },
       {
@@ -279,6 +263,7 @@
         "height": 769,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "c8ccccccc8a4f6d2",
         "roles": []
       },
       {
@@ -290,6 +275,7 @@
         "height": 500,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "5f8dae7a6c7c6f6f",
         "roles": []
       },
       {
@@ -300,7 +286,10 @@
         "width": 1920,
         "height": 1331,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "60717865171f7f53",
+        "quality": 0.59,
+        "faces": 2,
         "roles": [
           "gallery",
           "hero",
@@ -317,7 +306,10 @@
         "width": 1344,
         "height": 617,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "b6a6e6d6daa2a2e3",
+        "quality": 0.66,
+        "faces": 3,
         "roles": [
           "gallery",
           "background",
@@ -326,28 +318,17 @@
         ]
       },
       {
-        "src": "/images/sebona-treuhand-ch/pool/0e1d7c3cc3__banner-common.BzpOmRvW_Z1Dmc0X.webp",
-        "kind": "hero",
-        "alt": "Hintergrund",
-        "bytes": 44640,
-        "width": 1320,
-        "height": 420,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "background"
-        ]
-      },
-      {
-        "src": "/images/sebona-treuhand-ch/pool/b884697135__banner-common.BzpOmRvW_Z1trvnL.webp",
+        "src": "/images/sebona-treuhand-ch/pool/ae894db1a3__banner-common.BzpOmRvW_Z8Cjux.webp",
         "kind": "hero",
         "alt": "",
-        "bytes": 42482,
-        "width": 1280,
-        "height": 411,
+        "bytes": 50916,
+        "width": 1344,
+        "height": 432,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "a6e6e6d2d2baa2a2",
+        "quality": 0.68,
+        "faces": 3,
         "roles": [
           "gallery",
           "background"
@@ -362,6 +343,9 @@
         "height": 1200,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "71617373273c785",
+        "quality": 0.79,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -379,6 +363,9 @@
         "height": 1200,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "8b6f373569c947cd",
+        "quality": 0.78,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -396,6 +383,9 @@
         "height": 1200,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "3e4e6a226c677279",
+        "quality": 0.75,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -413,6 +403,9 @@
         "height": 1200,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "39db73f79b981c1c",
+        "quality": 0.74,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -430,6 +423,9 @@
         "height": 1170,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "10101610d37370f",
+        "quality": 0.52,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -447,6 +443,9 @@
         "height": 840,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "484968246ed8f0c8",
+        "quality": 0.52,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -464,25 +463,13 @@
         "height": 428,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "b5333333591b1b1b",
+        "quality": 0.66,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
           "background"
-        ]
-      },
-      {
-        "src": "/images/sebona-treuhand-ch/pool/55b59f427e__bexio-platinum.png",
-        "kind": "photo",
-        "alt": "Bexio Platinum-Partner",
-        "bytes": 37426,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
         ]
       },
       {
@@ -493,7 +480,10 @@
         "width": 1024,
         "height": 720,
         "orientation": "landscape",
-        "subject": "city",
+        "subject": "generic",
+        "phash": "a23a2725e5c6e70f",
+        "quality": 0.82,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
@@ -508,73 +498,14 @@
         "width": 1280,
         "height": 587,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "c8cc8ecccc4ec28f",
+        "quality": 0.49,
+        "faces": 2,
         "roles": [
           "gallery",
           "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sebona-treuhand-ch/pool/a0b6d70eef__post-7.D1ocRhUy_1TMS9j.webp",
-        "kind": "photo",
-        "alt": "Treuhänder vs. selber buchen – der Kostenvergleich",
-        "bytes": 63642,
-        "width": 1200,
-        "height": 550,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sebona-treuhand-ch/pool/7172995286__zuerich-skyline.r2deDm9B_22GT5v.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 62482,
-        "width": 1024,
-        "height": 480,
-        "orientation": "landscape",
-        "subject": "city",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sebona-treuhand-ch/pool/3920b4d804__post-7.D1ocRhUy_Z2pvT2x.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 57806,
-        "width": 1080,
-        "height": 495,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/sebona-treuhand-ch/pool/5b540e6bba__zuerich-skyline.r2deDm9B_1S02UR.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 49468,
-        "width": 960,
-        "height": 450,
-        "orientation": "landscape",
-        "subject": "city",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -585,30 +516,38 @@
         "width": 1280,
         "height": 587,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "4b6a263635353199",
+        "quality": 0.46,
+        "faces": 3,
         "roles": [
           "gallery",
           "background",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
-        "src": "/images/sebona-treuhand-ch/pool/3aea7af6c5__web-app-manifest-512x512.png",
+        "src": "/images/sebona-treuhand-ch/pool/53fc2f658b__default.BsJpqiZf_2bY6j2.webp",
         "kind": "photo",
-        "alt": "",
-        "bytes": 20758,
-        "width": 512,
-        "height": 512,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
+        "alt": "Wissenswertes rund um Buchhaltung & Steuern",
+        "bytes": 45894,
+        "width": 1320,
+        "height": 550,
+        "orientation": "landscape",
+        "subject": "office",
+        "phash": "2c8c8cbc3999cd4a",
+        "quality": 0.5,
+        "faces": 4,
+        "roles": [
+          "gallery",
+          "background"
+        ]
       }
     ],
     "sectionBackgrounds": [
       "/images/sebona-treuhand-ch/pool/6191739a05__footer-font-bg.CgLeq-Ib_yrDo0.webp",
       "/images/sebona-treuhand-ch/pool/214d21e045__banner-common.BzpOmRvW_1M2Cuw.webp",
-      "/images/sebona-treuhand-ch/pool/0e1d7c3cc3__banner-common.BzpOmRvW_Z1Dmc0X.webp"
+      "/images/sebona-treuhand-ch/pool/ae894db1a3__banner-common.BzpOmRvW_Z8Cjux.webp"
     ]
   },
   "nav": {

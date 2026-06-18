@@ -191,7 +191,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✗ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -202,7 +202,7 @@
       "values",
       "faq",
       "footer.tagline",
-      "team.members"
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -219,27 +219,18 @@
     ]
   },
   "media": {
-    "hero": "/images/treuhandmitherz-ch/hero.jpg",
+    "hero": "/images/treuhandmitherz-ch/pool/stock-office-5483059.jpg",
     "badges": [
       "/images/treuhandmitherz-ch/pool/27f9d70e6b__Treuhand-mit-Herz-Logo-gross_Zeichenflaeche-1-Kopie.png"
     ],
     "photos": [
       "/images/treuhandmitherz-ch/pool/ed7e4bcdd8__Aussenansicht_Rafz_Homepage.jpg",
-      "/images/treuhandmitherz-ch/pool/86aa55355a__treuhand-mit-herz-winterthur-63.jpg",
-      "/images/treuhandmitherz-ch/pool/c2b7fdb52f__treuhand-mit-herz-winterthur-12.jpg",
-      "/images/treuhandmitherz-ch/pool/039fb37fce__treuhand-mit-herz-winterthur-36.jpg",
-      "/images/treuhandmitherz-ch/pool/60ba3660e1__treuhand-mit-herz-winterthur-37.jpg",
-      "/images/treuhandmitherz-ch/pool/5eae033ed5__treuhand-mit-herz-winterthur-64.jpg",
-      "/images/treuhandmitherz-ch/pool/a3df2e5c0e__treuhand-mit-herz-6.jpg",
-      "/images/treuhandmitherz-ch/pool/12f2bd11d7__treuhand-mit-herz-4.jpg",
-      "/images/treuhandmitherz-ch/pool/9f786473fd__treuhand-mit-herz-3.jpg",
       "/images/treuhandmitherz-ch/pool/51dafbcd12__treuhand-mit-herz-5.jpg",
-      "/images/treuhandmitherz-ch/pool/fa8cac1505__a_Treuhand-mit-Herz-Logo_Zeichenflaeche-1-Kopie.jpg",
-      "/images/treuhandmitherz-ch/pool/454305c747__Benjamin-Bolli_Homepage.jpg",
-      "/images/treuhandmitherz-ch/pool/a62e1876ee__Kathrin-Urich_Homepage.jpg",
-      "/images/treuhandmitherz-ch/pool/1006f269c7__Tabea-Klauser_Homepage.jpg",
-      "/images/treuhandmitherz-ch/pool/9af5cfc325__Anita-Willener_Homepage.jpg",
-      "/images/treuhandmitherz-ch/pool/beb9afa7ec__treuhand-mit-herz-team.jpg"
+      "/images/treuhandmitherz-ch/pool/5eae033ed5__treuhand-mit-herz-winterthur-64.jpg",
+      "/images/treuhandmitherz-ch/pool/e33828c190__treuhand-mit-herz-winterthur-46-1.jpg",
+      "/images/treuhandmitherz-ch/pool/9f786473fd__treuhand-mit-herz-3.jpg",
+      "/images/treuhandmitherz-ch/pool/86aa55355a__treuhand-mit-herz-winterthur-63.jpg",
+      "/images/treuhandmitherz-ch/pool/a3df2e5c0e__treuhand-mit-herz-6.jpg"
     ],
     "serviceImages": {},
     "documents": [],
@@ -253,6 +244,7 @@
         "height": 277,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "93999bd130b23838",
         "roles": []
       },
       {
@@ -263,26 +255,16 @@
         "width": 1600,
         "height": 1066,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "6771715959592d8f",
+        "quality": 0.84,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
           "background",
           "service",
           "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhandmitherz-ch/pool/fa8cac1505__a_Treuhand-mit-Herz-Logo_Zeichenflaeche-1-Kopie.jpg",
-        "kind": "photo",
-        "alt": "Treuhand mit Herz",
-        "bytes": 22460,
-        "width": 920,
-        "height": 277,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery"
         ]
       },
       {
@@ -294,8 +276,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "93d9d95c4c0ccd1f",
+        "quality": 0.65,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -308,8 +292,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "48e96929283d073e",
+        "quality": 0.8,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -322,8 +308,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "48c848c80cbcdf67",
+        "quality": 0.82,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -335,7 +323,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "165e464656555404",
+        "quality": 0.62,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -353,8 +344,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "27a3ad2d2715e365",
+        "quality": 0.66,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -366,14 +359,11 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
+        "subject": "portrait",
+        "phash": "4b4b6b3b9f9ba5f3",
+        "quality": 0.48,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/treuhandmitherz-ch/pool/beb9afa7ec__treuhand-mit-herz-team.jpg",
@@ -384,8 +374,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "31634933323756e9",
+        "quality": 0.65,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -397,12 +389,11 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "e1c1a1edee46d13",
+        "quality": 0.61,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -414,12 +405,11 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "191b1b1bcbe46419",
+        "quality": 0.56,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -431,7 +421,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "8c2319392b2b2b41",
+        "quality": 0.71,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -449,6 +442,9 @@
         "height": 1067,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "b2b43983c6327af2",
+        "quality": 0.76,
+        "faces": 18,
         "roles": [
           "gallery",
           "hero",
@@ -465,12 +461,11 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "7353d9f967676f7f",
+        "quality": 0.54,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -482,7 +477,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "b7b6db6b4f6f7f4f",
+        "quality": 0.63,
+        "faces": 4,
         "roles": [
           "gallery",
           "hero",
@@ -499,7 +497,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "cf6ecf6d6d953f0f",
+        "quality": 0.84,
+        "faces": 6,
         "roles": [
           "gallery",
           "hero",
@@ -507,12 +508,56 @@
           "service",
           "feature"
         ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/e33828c190__treuhand-mit-herz-winterthur-46-1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 195145,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "office",
+        "phash": "6e7e5ccfe725250f",
+        "quality": 0.71,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/treuhandmitherz-ch/pool/stock-office-5483059.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 129932,
+        "width": 1880,
+        "height": 1253,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "cottonbro studio (Pexels)",
+        "source": "https://www.pexels.com/photo/empty-lounge-interior-5483059/",
+        "quality": 0.43,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service"
+        ]
       }
+    ],
+    "stock": true,
+    "credits": [
+      "cottonbro studio (Pexels)"
     ],
     "sectionBackgrounds": [
       "/images/treuhandmitherz-ch/pool/ed7e4bcdd8__Aussenansicht_Rafz_Homepage.jpg",
       "/images/treuhandmitherz-ch/pool/86aa55355a__treuhand-mit-herz-winterthur-63.jpg",
-      "/images/treuhandmitherz-ch/pool/c2b7fdb52f__treuhand-mit-herz-winterthur-12.jpg"
+      "/images/treuhandmitherz-ch/pool/5eae033ed5__treuhand-mit-herz-winterthur-64.jpg"
     ]
   },
   "nav": {
@@ -543,7 +588,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Persönliche Treuhand-Betreuung für KMU und Private in Rafz.",
     "asideAttribution": "Treuhand mit Herz",
-    "image": "/images/treuhandmitherz-ch/hero.jpg"
+    "image": "/images/treuhandmitherz-ch/pool/stock-office-5483059.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -625,26 +670,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Treuhand Team",
-        "role": "Geschäftsführung",
-        "initials": "TR",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

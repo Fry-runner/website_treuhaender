@@ -6,7 +6,7 @@
  */
 import { presets } from "../tokens";
 import { archetypes, type ArchetypeId } from "../blueprints";
-import { heroVariants, primaryStyleVariants, presetAffinity, sectionVariants } from "./registry";
+import { heroVariants, primaryStyleVariants, presetAffinity, sectionVariants, pageHeaderVariants } from "./registry";
 import { kitById, kitsForAffinity } from "./kits";
 import { pickIconSet } from "../icons/iconSets";
 import type { StyleAffinity } from "../component-inventory";
@@ -152,6 +152,9 @@ function pickAvoiding<T extends { id: string }>(pool: T[], seed: number, avoid: 
 export interface SitePlan {
   lookId: string;
   heroId: string;
+  /** subpage header variant id — one per firm (subpages consistent), picked to
+   *  contrast with the home hero. */
+  pageHeaderId: string;
   primaryStyle: PrimaryStyle;
   affinity: StyleAffinity;
   /** the coherent style kit that constrained this plan */
@@ -181,16 +184,29 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
   const kit = (opts.kitId ? kitById(opts.kitId) : undefined) ?? pick(kitsForAffinity(affinity), base + 3);
   let heroId = pickFit(heroVariants, kit.hero, affinity, base, Infinity, hasHeroImage(content)).id;
   // Bias HARD toward a LARGE, FULL-BLEED image hero whenever the firm has a usable
-  // image — a big photo hero is the default look. ~92% full-bleed (image-full/
-  // centered), ~7% large photo incl. split, ~1% keep kit pick. We never force the
-  // small framed portrait hero here (not "großflächig").
+  // image — a big photo hero is the default look. ~92% image-full (showcases the
+  // photo under a legibility scrim), ~7% large photo incl. centered/split, ~1% keep
+  // kit pick. image-centered is kept OUT of the dominant pick: it lays an ~88% wash
+  // over the photo, so the image barely shows — wrong when the goal is to feature it.
   if (hasHeroImage(content)) {
-    const big = heroVariants.filter((h) => /hero\/image-(full|centered)/.test(h.id));
+    const big = heroVariants.filter((h) => /hero\/image-full/.test(h.id));
     const wide = heroVariants.filter((h) => /hero\/image-(full|centered|split)/.test(h.id));
     const r = base % 100;
     if (r < 92 && big.length) heroId = pick(big, base).id;
     else if (r < 99 && wide.length) heroId = pick(wide, base).id;
   }
+  // Subpage header: ONE variant for the whole site (subpages stay consistent), in a
+  // different VISUAL FAMILY than the home hero so inner pages don't echo it — a photo
+  // hero ⇒ text/toned header; a plain-text hero ⇒ photo/dark/tinted header; etc.
+  const heroFamily = /image-|portrait-frame/.test(heroId) ? "photo"
+    : /spotlight|dark-split/.test(heroId) ? "dark"
+    : /gradient/.test(heroId) ? "tint" : "plain";
+  const phFamily = (id: string) => /image-/.test(id) ? "photo"
+    : /\/(dark|boxed-dark)$/.test(id) ? "dark"
+    : /\/(gradient|banner-tint)$/.test(id) ? "tint" : "plain";
+  const hasSubpageImg = hasHeroImage(content) || (content.media?.photos?.length ?? 0) > 0 || (content.media?.sectionBackgrounds?.length ?? 0) > 0;
+  const phContrast = pageHeaderVariants.filter((v) => phFamily(v.id) !== heroFamily);
+  const pageHeaderId = pickFit(phContrast.length ? phContrast : pageHeaderVariants, undefined, affinity, base + hash("page-header"), Infinity, hasSubpageImg).id;
   const primaryStyle: PrimaryStyle = pickFrom(primaryStyleVariants, kit.button, affinity, base + 1).id;
   const iconSetId = pickIconSet(affinity, content.meta.domain || content.meta.firm || "x", opts.seed ?? 0, kit.icons).id;
   const sections: Record<string, string> = {};
@@ -229,7 +245,7 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
   // No real person photos → force the tile-free text team layout, so employee
   // cards never show empty placeholder image tiles (we never fake faces with stock).
   if (sectionVariants.team && !(content.team?.members?.some((m) => m.photo))) sections.team = "team/plain";
-  return { lookId, heroId, primaryStyle, affinity, kitId: kit.id, iconSetId, sections };
+  return { lookId, heroId, pageHeaderId, primaryStyle, affinity, kitId: kit.id, iconSetId, sections };
 }
 
 /** Adjacency de-collision: walk a page's ACTUAL section order and, wherever two
@@ -261,7 +277,34 @@ export function decollideSections(
   return out;
 }
 
+/** Team layouts that give each person GENEROUS room (big portraits, ≤2 columns,
+ *  full-width rows or a featured lead) — used on the standalone Team page instead
+ *  of the compact homepage grid. Covers every palette affinity. */
+const SPACIOUS_TEAM = [
+  "team/two-col",      // 2-col large cards         (warm/soft)
+  "team/split-lead",   // lead portrait + grid      (warm/editorial)
+  "team/spotlight",    // featured + rest           (warm/editorial)
+  "team/centered-bio", // centered avatar + big bio (editorial/warm)
+  "team/alternating",  // zig-zag full-width rows   (warm/editorial)
+  "team/rows",         // full-width list rows      (editorial/swiss)
+];
+
+/** Pick a roomy team layout for the dedicated Team page (≥5 people), honouring
+ *  palette affinity and the no-photo rule (text-only stays text-only — we never
+ *  fake faces). Returns undefined when no override is warranted, so the caller
+ *  keeps the plan's chosen variant. */
+export function spaciousTeamVariant(content: SiteContent, plan: SitePlan, seed = 0): string | undefined {
+  const members = content.team?.members ?? [];
+  if (!members.some((m) => m.photo)) return undefined; // honour the team/plain no-photo force
+  const base = hash(content.meta.domain || content.meta.firm || "x") + seed;
+  const pool = sectionVariants.team.filter((v) => SPACIOUS_TEAM.includes(v.id) && (v.min ?? 1) <= members.length);
+  if (!pool.length) return undefined;
+  return pick(compatible(pool, plan.affinity), base + hash("team-page")).id;
+}
+
 export const heroById = (id: string) => heroVariants.find((v) => v.id === id) ?? heroVariants[0];
+
+export const pageHeaderById = (id: string) => pageHeaderVariants.find((v) => v.id === id) ?? pageHeaderVariants[0];
 
 /** Resolve the chosen section-variant component for a slot (or undefined). */
 export function sectionComponent(slot: string, plan: SitePlan) {

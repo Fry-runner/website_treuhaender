@@ -152,10 +152,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -191,13 +187,15 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✗ keine Jobs im Scrape"
       }
     },
-    "placeholders": [],
+    "placeholders": [
+      "media.stock (CC fallback)"
+    ],
     "real": [
       "meta.firm",
       "meta.domain",
@@ -225,39 +223,27 @@
   },
   "media": {
     "logo": "/images/onetreuhand-ch/pool/8a1f832586__Logo-OneTreuhand.webp",
-    "hero": "/images/onetreuhand-ch/hero.webp",
+    "hero": "/images/onetreuhand-ch/pool/stock-city-35602629.jpg",
     "badges": [
       "/images/onetreuhand-ch/pool/7f51be2706__treu-suisse-logo-verband-de.svg",
       "/images/onetreuhand-ch/pool/4a7e735b8f__AdobeColor_treu-suisse-logo-verband-de_recolored.svg",
       "/images/onetreuhand-ch/pool/b664003965__google-logo.svg",
-      "/images/onetreuhand-ch/pool/11fd4bd5d2__AdobeColor_TeamViewer_logo_new_recolored.svg",
       "/images/onetreuhand-ch/pool/f69ddca5aa__Treuhand-Logo-Wand-Content.webp",
       "/images/onetreuhand-ch/pool/7d83c9a8d3__Brand-Logo-Dokumente-Teaser.webp"
     ],
     "photos": [
-      "/images/onetreuhand-ch/pool/f7695289c7__Steuerberatung-Zuerich-Hero.webp",
       "/images/onetreuhand-ch/pool/46d8fdbd86__Schreibtisch-Teaser.webp",
-      "/images/onetreuhand-ch/pool/25f8e06a7a__Steuerberatung-Privat-Content.webp",
-      "/images/onetreuhand-ch/pool/45ffa4c828__Krypto-Ledger-Laptop-Content.webp",
       "/images/onetreuhand-ch/pool/008897a8b7__Steuerberatung-Zuerich-Content.webp",
-      "/images/onetreuhand-ch/pool/b904a70b13__Kontenstruktur-Finanzdaten-Content.webp",
-      "/images/onetreuhand-ch/pool/fe20a3306a__Beratungsgespraech-Content.webp",
-      "/images/onetreuhand-ch/pool/3c9ec1ab77__App-Beleg-scannen-Hero.webp",
-      "/images/onetreuhand-ch/pool/367f9ff589__Steuerberatung-Privat-Hero.webp",
-      "/images/onetreuhand-ch/pool/d498ab60db__Kontenstruktur-Finanzdaten-Hero.webp",
-      "/images/onetreuhand-ch/pool/ef78e5c867__Treuhand-App-Beleg-Teaser.webp",
-      "/images/onetreuhand-ch/pool/3ce6d4373f__Steuermappen-Schweiz-Content-1.webp",
-      "/images/onetreuhand-ch/pool/3e97f9f5c3__Treuhand-Liquiditaetsplanung-Content.webp",
+      "/images/onetreuhand-ch/pool/f7695289c7__Steuerberatung-Zuerich-Hero.webp",
       "/images/onetreuhand-ch/pool/14cd2039ec__Steuerunterlagen-Ordner-Content.webp",
+      "/images/onetreuhand-ch/pool/45ffa4c828__Krypto-Ledger-Laptop-Content.webp",
       "/images/onetreuhand-ch/pool/684de842af__Smart-Profit-System-Content.webp",
+      "/images/onetreuhand-ch/pool/3c9ec1ab77__App-Beleg-scannen-Hero.webp",
+      "/images/onetreuhand-ch/pool/fe20a3306a__Beratungsgespraech-Content.webp",
       "/images/onetreuhand-ch/pool/337f60857b__Belege-Steuern-Content.webp",
-      "/images/onetreuhand-ch/pool/e8e5b8c3e7__Notizblock-Fueller-Content.webp",
-      "/images/onetreuhand-ch/pool/68b2a1dcbe__Treuhand-Team-Content.webp",
-      "/images/onetreuhand-ch/pool/d05c2a8b25__Intaglietta-Profil.webp",
-      "/images/onetreuhand-ch/pool/db2cc3e673__Portrait-Rodolfo-Intaglietta-Content.webp"
+      "/images/onetreuhand-ch/pool/e8e5b8c3e7__Notizblock-Fueller-Content.webp"
     ],
     "serviceImages": {
-      "Steuerberatung": "/images/onetreuhand-ch/pool/25f8e06a7a__Steuerberatung-Privat-Content.webp",
       "Unternehmensberatung": "/images/onetreuhand-ch/pool/fe20a3306a__Beratungsgespraech-Content.webp"
     },
     "documents": [
@@ -278,6 +264,7 @@
         "height": 211,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "989818c5549384b4",
         "roles": []
       },
       {
@@ -289,6 +276,7 @@
         "height": 107.6,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "181a16a61a189094",
         "roles": []
       },
       {
@@ -300,6 +288,7 @@
         "height": 107.6,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "28000000000",
         "roles": []
       },
       {
@@ -311,17 +300,7 @@
         "height": 24,
         "orientation": "square",
         "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/onetreuhand-ch/pool/11fd4bd5d2__AdobeColor_TeamViewer_logo_new_recolored.svg",
-        "kind": "badge",
-        "alt": "Teamviewer Logo",
-        "bytes": 3271,
-        "width": 830.73,
-        "height": 111.33,
-        "orientation": "landscape",
-        "subject": "portrait",
+        "phash": "70c888989e8ecc70",
         "roles": []
       },
       {
@@ -333,6 +312,7 @@
         "height": 719,
         "orientation": "square",
         "subject": "office",
+        "phash": "7f7f7f737f7f3f7f",
         "roles": []
       },
       {
@@ -344,6 +324,7 @@
         "height": 300,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "1ea63e0e5ddc33b7",
         "roles": []
       },
       {
@@ -354,22 +335,10 @@
         "width": 1920,
         "height": 630,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
-        ]
-      },
-      {
-        "src": "/images/onetreuhand-ch/pool/367f9ff589__Steuerberatung-Privat-Hero.webp",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 62698,
-        "width": 1920,
-        "height": 630,
-        "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "bfbed3b7a767ebe3",
+        "quality": 0.66,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -384,67 +353,14 @@
         "width": 1920,
         "height": 630,
         "orientation": "landscape",
-        "subject": "city",
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
-        ]
-      },
-      {
-        "src": "/images/onetreuhand-ch/pool/d498ab60db__Kontenstruktur-Finanzdaten-Hero.webp",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 45430,
-        "width": 1920,
-        "height": 630,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
-        ]
-      },
-      {
-        "src": "/images/onetreuhand-ch/pool/68b2a1dcbe__Treuhand-Team-Content.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 49038,
-        "width": 800,
-        "height": 713,
-        "orientation": "square",
-        "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
-      },
-      {
-        "src": "/images/onetreuhand-ch/pool/25f8e06a7a__Steuerberatung-Privat-Content.webp",
-        "kind": "photo",
-        "alt": "Zwei Fachleute besprechen Finanzdokumente im Treuhandbüro, was präzise Steuerberatung gewährleistet.",
-        "bytes": 46622,
-        "width": 800,
-        "height": 713,
-        "orientation": "square",
         "subject": "office",
+        "phash": "91a1a1c6d65674b",
+        "quality": 0.78,
+        "faces": 1,
         "roles": [
           "gallery",
-          "service"
-        ]
-      },
-      {
-        "src": "/images/onetreuhand-ch/pool/3ce6d4373f__Steuermappen-Schweiz-Content-1.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 45452,
-        "width": 800,
-        "height": 719,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
+          "hero",
+          "background"
         ]
       },
       {
@@ -456,20 +372,9 @@
         "height": 719,
         "orientation": "square",
         "subject": "office",
-        "roles": [
-          "gallery",
-          "service"
-        ]
-      },
-      {
-        "src": "/images/onetreuhand-ch/pool/3e97f9f5c3__Treuhand-Liquiditaetsplanung-Content.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 39724,
-        "width": 800,
-        "height": 713,
-        "orientation": "square",
-        "subject": "generic",
+        "phash": "cdccecf8e0f9f4e8",
+        "quality": 0.72,
+        "faces": 0,
         "roles": [
           "gallery",
           "service"
@@ -483,21 +388,10 @@
         "width": 800,
         "height": 713,
         "orientation": "square",
-        "subject": "city",
-        "roles": [
-          "gallery",
-          "service"
-        ]
-      },
-      {
-        "src": "/images/onetreuhand-ch/pool/b904a70b13__Kontenstruktur-Finanzdaten-Content.webp",
-        "kind": "photo",
-        "alt": "Ein Laptop zeigt Finanzanalysen in einem modernem Treuhand-Büro, wobei Steuerberatung kompetent integriert ist.",
-        "bytes": 35120,
-        "width": 800,
-        "height": 713,
-        "orientation": "square",
         "subject": "office",
+        "phash": "125243da5a8e26e4",
+        "quality": 0.8,
+        "faces": 2,
         "roles": [
           "gallery",
           "service"
@@ -511,7 +405,10 @@
         "width": 800,
         "height": 719,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "8f060c806667a000",
+        "quality": 0.75,
+        "faces": 0,
         "roles": [
           "gallery",
           "service"
@@ -525,7 +422,10 @@
         "width": 800,
         "height": 713,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "b99f9ab1b131ccdc",
+        "quality": 0.69,
+        "faces": 0,
         "roles": [
           "gallery",
           "service"
@@ -539,7 +439,10 @@
         "width": 800,
         "height": 719,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "1e1c1c1e3e9fc674",
+        "quality": 0.54,
+        "faces": 0,
         "roles": [
           "gallery",
           "service"
@@ -553,7 +456,10 @@
         "width": 800,
         "height": 719,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "d9953f3b1e1fdff0",
+        "quality": 0.52,
+        "faces": 0,
         "roles": [
           "gallery",
           "service"
@@ -568,9 +474,10 @@
         "height": 719,
         "orientation": "square",
         "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
+        "phash": "2f97b3bbb9b898cd",
+        "quality": 0.58,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/onetreuhand-ch/pool/db2cc3e673__Portrait-Rodolfo-Intaglietta-Content.webp",
@@ -581,9 +488,10 @@
         "height": 719,
         "orientation": "square",
         "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
+        "phash": "3d3a5b71690919d3",
+        "quality": 0.58,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/onetreuhand-ch/pool/46d8fdbd86__Schreibtisch-Teaser.webp",
@@ -594,6 +502,9 @@
         "height": 299,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "a120218999e96b0",
+        "quality": 0.86,
+        "faces": 0,
         "roles": [
           "service"
         ]
@@ -607,28 +518,43 @@
         "height": 719,
         "orientation": "square",
         "subject": "office",
+        "phash": "bfbfb3b7dcd6dedf",
+        "quality": 0.63,
+        "faces": 3,
         "roles": [
           "gallery",
           "service"
         ]
       },
       {
-        "src": "/images/onetreuhand-ch/pool/ef78e5c867__Treuhand-App-Beleg-Teaser.webp",
-        "kind": "photo",
-        "alt": "Ein modernes Smartphone scannt ein Finanzdokument, optimiert für Treuhandlösungen und effektive Steuerberatung.",
-        "bytes": 21000,
-        "width": 600,
-        "height": 300,
+        "src": "/images/onetreuhand-ch/pool/stock-city-35602629.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 259449,
+        "width": 1880,
+        "height": 1253,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "stock": true,
+        "credit": "Jean-Paul Wettstein (Pexels)",
+        "source": "https://www.pexels.com/photo/charming-swiss-architecture-in-zurich-35602629/",
+        "quality": 0.8,
+        "faces": 0,
         "roles": [
-          "service"
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
         ]
       }
     ],
+    "stock": true,
+    "credits": [
+      "Jean-Paul Wettstein (Pexels)"
+    ],
     "sectionBackgrounds": [
       "/images/onetreuhand-ch/pool/3c9ec1ab77__App-Beleg-scannen-Hero.webp",
-      "/images/onetreuhand-ch/pool/367f9ff589__Steuerberatung-Privat-Hero.webp",
       "/images/onetreuhand-ch/pool/f7695289c7__Steuerberatung-Zuerich-Hero.webp"
     ]
   },
@@ -661,7 +587,7 @@
     "asideLabel": "Mandantenstimme",
     "asideQuote": "Mit Euch ist meine Crew happy: pünktliche Löhne, null Fehler – ich kann mich endlich aufs Wachstum konzentrieren.",
     "asideAttribution": "— Sarah K.",
-    "image": "/images/onetreuhand-ch/hero.webp"
+    "image": "/images/onetreuhand-ch/pool/stock-city-35602629.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -687,8 +613,7 @@
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/onetreuhand-ch/pool/25f8e06a7a__Steuerberatung-Privat-Content.webp"
+        ]
       },
       {
         "title": "Lohnadministration",
@@ -832,7 +757,6 @@
       "/images/onetreuhand-ch/pool/7f51be2706__treu-suisse-logo-verband-de.svg",
       "/images/onetreuhand-ch/pool/4a7e735b8f__AdobeColor_treu-suisse-logo-verband-de_recolored.svg",
       "/images/onetreuhand-ch/pool/b664003965__google-logo.svg",
-      "/images/onetreuhand-ch/pool/11fd4bd5d2__AdobeColor_TeamViewer_logo_new_recolored.svg",
       "/images/onetreuhand-ch/pool/f69ddca5aa__Treuhand-Logo-Wand-Content.webp",
       "/images/onetreuhand-ch/pool/7d83c9a8d3__Brand-Logo-Dokumente-Teaser.webp"
     ]

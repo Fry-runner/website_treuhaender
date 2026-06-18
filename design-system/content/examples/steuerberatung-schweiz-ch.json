@@ -137,10 +137,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -176,7 +172,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -185,7 +181,8 @@
     "placeholders": [
       "hero.aside",
       "values",
-      "look.colors (generated)"
+      "look.colors (generated)",
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -202,11 +199,10 @@
     ]
   },
   "media": {
-    "hero": "/images/steuerberatung-schweiz-ch/hero.jpg",
+    "hero": "/images/steuerberatung-schweiz-ch/pool/stock-office-4597993.jpg",
     "badges": [],
     "photos": [
-      "/images/steuerberatung-schweiz-ch/pool/118cc311c7__image.jpg",
-      "/images/steuerberatung-schweiz-ch/pool/8c3b963c33__steuerberater-kosten.jpg"
+      "/images/steuerberatung-schweiz-ch/pool/118cc311c7__image.jpg"
     ],
     "serviceImages": {
       "Steuerberatung": "/images/steuerberatung-schweiz-ch/pool/8c3b963c33__steuerberater-kosten.jpg"
@@ -221,7 +217,10 @@
         "width": 1920,
         "height": 1280,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "88a7b23616565656",
+        "quality": 0.52,
+        "faces": 7,
         "roles": [
           "gallery",
           "hero",
@@ -239,11 +238,39 @@
         "height": 853,
         "orientation": "landscape",
         "subject": "portrait",
+        "phash": "3131934361c5c2a",
+        "quality": 0.83,
+        "faces": 0,
+        "roles": [
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuerberatung-schweiz-ch/pool/stock-office-4597993.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 148151,
+        "width": 1880,
+        "height": 1253,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "I'm Zion (Pexels)",
+        "source": "https://www.pexels.com/photo/design-of-a-home-office-workspace-4597993/",
+        "quality": 0.56,
+        "faces": 0,
         "roles": [
           "gallery",
+          "hero",
+          "background",
+          "service",
           "feature"
         ]
       }
+    ],
+    "stock": true,
+    "credits": [
+      "I'm Zion (Pexels)"
     ],
     "sectionBackgrounds": [
       "/images/steuerberatung-schweiz-ch/pool/118cc311c7__image.jpg"
@@ -277,7 +304,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Günstige Steuerberatung in der Schweiz",
     "asideAttribution": "Steuerberatung Schweiz",
-    "image": "/images/steuerberatung-schweiz-ch/hero.jpg"
+    "image": "/images/steuerberatung-schweiz-ch/pool/stock-office-4597993.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",

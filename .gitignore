@@ -19,3 +19,6 @@ dist/
 # Secrets
 .pexels-key
 .env
+
+# Transformers.js model cache (downloaded once, not committed)
+.models-cache/

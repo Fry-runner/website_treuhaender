@@ -170,7 +170,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✗ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
@@ -180,8 +180,7 @@
       "hero.aside",
       "values",
       "footer.tagline",
-      "media.stock (CC fallback)",
-      "team.members"
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -201,35 +200,22 @@
   },
   "media": {
     "logo": "/images/turicum-treuhand-ch/pool/bef7f8a977__logo_blau.svg",
-    "hero": "/images/turicum-treuhand-ch/hero.jpg",
+    "hero": "/images/turicum-treuhand-ch/pool/stock-city-33684043.jpg",
     "badges": [
       "/images/turicum-treuhand-ch/pool/45ce9a7928__signet_mitglied_tk_09.jpg",
       "/images/turicum-treuhand-ch/pool/37605c8ede__logo_ttn.png",
       "/images/turicum-treuhand-ch/pool/fce5c0509d__logo-accurata-holding-mobile.png",
-      "/images/turicum-treuhand-ch/pool/a185b6205c__bexio-blue-claim.png",
-      "/images/turicum-treuhand-ch/pool/4789308ed6__fuerrer-klein.jpg"
+      "/images/turicum-treuhand-ch/pool/a185b6205c__bexio-blue-claim.png"
     ],
-    "photos": [
-      "/images/turicum-treuhand-ch/pool/43e9f1ed95__logo_fmh_services_rgb.png",
-      "/images/turicum-treuhand-ch/pool/0af099bb55__accurata-wirtschaftspruefung-klein.jpg",
-      "/images/turicum-treuhand-ch/pool/55c7861f44__turicum-wirtschaftspruefung-klein.jpg",
-      "/images/turicum-treuhand-ch/pool/887956da76__aerzte-treuhand-klein.jpg",
-      "/images/turicum-treuhand-ch/pool/44968d9660__accurata-holding.jpg",
-      "/images/turicum-treuhand-ch/pool/d143331653__turicum-treuhand-klein.jpg",
-      "/images/turicum-treuhand-ch/pool/fa8d6bd7ee__sliderkugel-luigi.png",
-      "/images/turicum-treuhand-ch/pool/9ae804f124__sliderkugel-aeth.png",
-      "/images/turicum-treuhand-ch/pool/112d39c2e8__sliderkugel-awp.png",
-      "/images/turicum-treuhand-ch/pool/fefd5504e2__sliderkugel-turicum-treuhand.png",
-      "/images/turicum-treuhand-ch/pool/3120582de1__urkunde_aertze.png"
-    ],
+    "photos": [],
     "serviceImages": {
-      "Revision": "/images/turicum-treuhand-ch/pool/0af099bb55__accurata-wirtschaftspruefung-klein.jpg",
-      "Buchhaltung": "/images/turicum-treuhand-ch/pool/stock-office-9845176.jpg",
-      "Steuerberatung": "/images/turicum-treuhand-ch/pool/stock-documents-7567600.jpg",
-      "Lohnadministration": "/images/turicum-treuhand-ch/pool/stock-advisory-7821683.jpg",
-      "Jahresabschluss": "/images/turicum-treuhand-ch/pool/stock-office-7511748.jpg",
-      "Mehrwertsteuer": "/images/turicum-treuhand-ch/pool/stock-success-5849583.jpg",
-      "Unternehmensberatung": "/images/turicum-treuhand-ch/pool/stock-finance-7413936.jpg"
+      "Buchhaltung": "/images/turicum-treuhand-ch/pool/stock-documents-7876037.jpg",
+      "Steuerberatung": "/images/turicum-treuhand-ch/pool/stock-desk-8872622.jpg",
+      "Lohnadministration": "/images/turicum-treuhand-ch/pool/stock-office-20314954.jpg",
+      "Jahresabschluss": "/images/turicum-treuhand-ch/pool/stock-success-5849583.jpg",
+      "Mehrwertsteuer": "/images/turicum-treuhand-ch/pool/stock-finance-590022.jpg",
+      "Unternehmensberatung": "/images/turicum-treuhand-ch/pool/stock-office-36175674.jpg",
+      "Revision": "/images/turicum-treuhand-ch/pool/stock-desk-8580716.jpg"
     },
     "documents": [],
     "assets": [
@@ -242,6 +228,7 @@
         "height": 60,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "d6b5b1aa161600",
         "roles": []
       },
       {
@@ -253,6 +240,7 @@
         "height": 90,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "c848e1e0787800",
         "roles": []
       },
       {
@@ -264,6 +252,7 @@
         "height": 50,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "5012706969653030",
         "roles": []
       },
       {
@@ -275,6 +264,7 @@
         "height": 34,
         "orientation": "landscape",
         "subject": "city",
+        "phash": "a4a636e6d20c4c2c",
         "roles": []
       },
       {
@@ -286,215 +276,86 @@
         "height": 50,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "4c2a6a41592a5828",
         "roles": []
       },
       {
-        "src": "/images/turicum-treuhand-ch/pool/4789308ed6__fuerrer-klein.jpg",
-        "kind": "badge",
-        "alt": "Luigi A. Führer & Partner AG",
-        "bytes": 59367,
-        "width": 480,
-        "height": 380,
+        "src": "/images/turicum-treuhand-ch/pool/stock-city-33684043.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 401794,
+        "width": 1880,
+        "height": 1253,
         "orientation": "landscape",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/fa8d6bd7ee__sliderkugel-luigi.png",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 48283,
-        "width": 483,
-        "height": 483,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/9ae804f124__sliderkugel-aeth.png",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 41631,
-        "width": 483,
-        "height": 483,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/112d39c2e8__sliderkugel-awp.png",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 40394,
-        "width": 483,
-        "height": 483,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/fefd5504e2__sliderkugel-turicum-treuhand.png",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 39588,
-        "width": 483,
-        "height": 483,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/3120582de1__urkunde_aertze.png",
-        "kind": "photo",
-        "alt": "Image",
-        "bytes": 150272,
-        "width": 826,
-        "height": 1169,
-        "orientation": "portrait",
-        "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/43e9f1ed95__logo_fmh_services_rgb.png",
-        "kind": "photo",
-        "alt": "Image",
-        "bytes": 43757,
-        "width": 1548,
-        "height": 322,
-        "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "stock": true,
+        "credit": "Jean-Paul Wettstein (Pexels)",
+        "source": "https://www.pexels.com/photo/scenic-view-of-lake-lucerne-and-cityscape-33684043/",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
-          "background"
+          "background",
+          "service",
+          "feature"
         ]
       },
       {
-        "src": "/images/turicum-treuhand-ch/pool/0af099bb55__accurata-wirtschaftspruefung-klein.jpg",
-        "kind": "photo",
-        "alt": "Image",
-        "bytes": 7650,
-        "width": 480,
-        "height": 380,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/55c7861f44__turicum-wirtschaftspruefung-klein.jpg",
-        "kind": "photo",
-        "alt": "Image",
-        "bytes": 11849,
-        "width": 480,
-        "height": 380,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/887956da76__aerzte-treuhand-klein.jpg",
-        "kind": "photo",
-        "alt": "Image",
-        "bytes": 5862,
-        "width": 480,
-        "height": 380,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/44968d9660__accurata-holding.jpg",
-        "kind": "photo",
-        "alt": "Fehler: 404",
-        "bytes": 10210,
-        "width": 600,
-        "height": 137,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/d143331653__turicum-treuhand-klein.jpg",
-        "kind": "photo",
-        "alt": "Image",
-        "bytes": 7837,
-        "width": 480,
-        "height": 380,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/stock-office-9845176.jpg",
+        "src": "/images/turicum-treuhand-ch/pool/stock-documents-7876037.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 103101,
+        "bytes": 57715,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Mathias Reding (Pexels)",
-        "source": "https://www.pexels.com/photo/low-angle-view-of-overpass-bridge-joining-buildings-9845176/",
+        "credit": "www.kaboompics.com (Pexels)",
+        "source": "https://www.pexels.com/photo/a-person-signing-divorce-documents-7876037/",
+        "quality": 0.46,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
-        "src": "/images/turicum-treuhand-ch/pool/stock-documents-7567600.jpg",
+        "src": "/images/turicum-treuhand-ch/pool/stock-desk-8872622.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 60126,
+        "bytes": 97363,
         "width": 1280,
         "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "Tima Miroshnichenko (Pexels)",
-        "source": "https://www.pexels.com/photo/person-signing-on-a-paper-7567600/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/stock-advisory-7821683.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 79818,
-        "width": 1280,
-        "height": 853,
-        "orientation": "landscape",
-        "subject": "generic",
-        "stock": true,
-        "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/professional-man-holding-papers-7821683/",
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/turicum-treuhand-ch/pool/stock-office-7511748.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 80917,
-        "width": 1280,
-        "height": 854,
         "orientation": "landscape",
         "subject": "office",
         "stock": true,
-        "credit": "Max Vakhtbovych (Pexels)",
-        "source": "https://www.pexels.com/photo/modern-office-interior-with-table-7511748/",
+        "credit": "MART  PRODUCTION (Pexels)",
+        "source": "https://www.pexels.com/photo/money-on-wooden-table-8872622/",
+        "quality": 0.62,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/turicum-treuhand-ch/pool/stock-office-20314954.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 50679,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "The Juggle Studio (Pexels)",
+        "source": "https://www.pexels.com/photo/tables-in-minimalist-interior-20314954/",
+        "quality": 0.63,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -514,6 +375,46 @@
         "stock": true,
         "credit": "Monstera Production (Pexels)",
         "source": "https://www.pexels.com/photo/decorative-cardboard-illustration-of-hand-with-diagram-and-dollar-coin-5849583/",
+        "quality": 0.2,
+        "faces": 0,
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/turicum-treuhand-ch/pool/stock-finance-590022.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 54755,
+        "width": 1280,
+        "height": 848,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/close-up-photo-of-survey-spreadsheet-590022/",
+        "quality": 0.42,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/turicum-treuhand-ch/pool/stock-office-36175674.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 77788,
+        "width": 1280,
+        "height": 852,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Samkit desai (Pexels)",
+        "source": "https://www.pexels.com/photo/elegant-modern-office-interior-with-art-36175674/",
+        "quality": 0.66,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -522,17 +423,19 @@
         ]
       },
       {
-        "src": "/images/turicum-treuhand-ch/pool/stock-finance-7413936.jpg",
+        "src": "/images/turicum-treuhand-ch/pool/stock-desk-8580716.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 83802,
+        "bytes": 82926,
         "width": 1280,
         "height": 853,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
-        "source": "https://www.pexels.com/photo/business-analytics-printout-on-wooden-table-7413936/",
+        "source": "https://www.pexels.com/photo/black-pen-on-white-pad-paper-8580716/",
+        "quality": 0.7,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -542,17 +445,20 @@
       }
     ],
     "sectionBackgrounds": [
-      "/images/turicum-treuhand-ch/pool/stock-office-9845176.jpg",
-      "/images/turicum-treuhand-ch/pool/stock-documents-7567600.jpg",
-      "/images/turicum-treuhand-ch/pool/stock-advisory-7821683.jpg"
+      "/images/turicum-treuhand-ch/pool/stock-city-33684043.jpg",
+      "/images/turicum-treuhand-ch/pool/stock-documents-7876037.jpg",
+      "/images/turicum-treuhand-ch/pool/stock-desk-8872622.jpg"
     ],
     "stock": true,
     "credits": [
-      "Mathias Reding (Pexels)",
-      "Tima Miroshnichenko (Pexels)",
-      "RDNE Stock project (Pexels)",
-      "Max Vakhtbovych (Pexels)",
-      "Monstera Production (Pexels)"
+      "Jean-Paul Wettstein (Pexels)",
+      "www.kaboompics.com (Pexels)",
+      "MART  PRODUCTION (Pexels)",
+      "The Juggle Studio (Pexels)",
+      "Monstera Production (Pexels)",
+      "Lukas Blazek (Pexels)",
+      "Samkit desai (Pexels)",
+      "RDNE Stock project (Pexels)"
     ]
   },
   "nav": {
@@ -584,7 +490,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Persönliche Treuhand-Betreuung für KMU und Private in Zürich.",
     "asideAttribution": "Turicum Treuhand AG",
-    "image": "/images/turicum-treuhand-ch/hero.jpg"
+    "image": "/images/turicum-treuhand-ch/pool/stock-city-33684043.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -600,7 +506,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/turicum-treuhand-ch/pool/stock-office-9845176.jpg"
+        "image": "/images/turicum-treuhand-ch/pool/stock-documents-7876037.jpg"
       },
       {
         "title": "Steuerberatung",
@@ -612,7 +518,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/turicum-treuhand-ch/pool/stock-documents-7567600.jpg"
+        "image": "/images/turicum-treuhand-ch/pool/stock-desk-8872622.jpg"
       },
       {
         "title": "Lohnadministration",
@@ -624,7 +530,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/turicum-treuhand-ch/pool/stock-advisory-7821683.jpg"
+        "image": "/images/turicum-treuhand-ch/pool/stock-office-20314954.jpg"
       },
       {
         "title": "Jahresabschluss",
@@ -636,7 +542,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/turicum-treuhand-ch/pool/stock-office-7511748.jpg"
+        "image": "/images/turicum-treuhand-ch/pool/stock-success-5849583.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -648,7 +554,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/turicum-treuhand-ch/pool/stock-success-5849583.jpg"
+        "image": "/images/turicum-treuhand-ch/pool/stock-finance-590022.jpg"
       },
       {
         "title": "Unternehmensberatung",
@@ -660,7 +566,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/turicum-treuhand-ch/pool/stock-finance-7413936.jpg"
+        "image": "/images/turicum-treuhand-ch/pool/stock-office-36175674.jpg"
       }
     ]
   },
@@ -672,26 +578,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Turicum Team",
-        "role": "Geschäftsführung",
-        "initials": "TU",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -718,8 +605,7 @@
       "/images/turicum-treuhand-ch/pool/45ce9a7928__signet_mitglied_tk_09.jpg",
       "/images/turicum-treuhand-ch/pool/37605c8ede__logo_ttn.png",
       "/images/turicum-treuhand-ch/pool/fce5c0509d__logo-accurata-holding-mobile.png",
-      "/images/turicum-treuhand-ch/pool/a185b6205c__bexio-blue-claim.png",
-      "/images/turicum-treuhand-ch/pool/4789308ed6__fuerrer-klein.jpg"
+      "/images/turicum-treuhand-ch/pool/a185b6205c__bexio-blue-claim.png"
     ]
   },
   "faq": {

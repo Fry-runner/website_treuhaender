@@ -147,10 +147,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -186,7 +182,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -195,7 +191,8 @@
     "placeholders": [
       "hero.aside",
       "values",
-      "faq"
+      "faq",
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -218,36 +215,24 @@
   "media": {
     "hero": "/images/langhart-partner-ch/hero.jpg",
     "badges": [
+      "/images/langhart-partner-ch/pool/52365ac2ec__Langhart-Partner-Treuhand_Team_neu-1024x678.webp",
       "/images/langhart-partner-ch/pool/c67cf3e629__Langhart-Partner-Treuhand_Pusteblume_2-1024x493.jpg",
       "/images/langhart-partner-ch/pool/d77ebf0c26__Langhart-Partner-Treuhand_Urs-Langhart-1024x768.jpg",
       "/images/langhart-partner-ch/pool/d4360e0aa5__Langhart-Partner_Referenzen_Hairfact_GmbH-768x768.jpg",
+      "/images/langhart-partner-ch/pool/67061fb2ac__Langhart-Partner_Referenzen_PEGE-Werbetechnik_Thomas_Graf-300x300.jpg",
       "/images/langhart-partner-ch/pool/7e2581f0d7__header_steuern.jpg",
-      "/images/langhart-partner-ch/pool/4708ed1c8e__Langhart-Partner_Referenzen_Rodaro.jpg",
-      "/images/langhart-partner-ch/pool/c27fc140e8__Langhart-Partner_Lukas_Manser-1024x768.webp",
-      "/images/langhart-partner-ch/pool/a751b6ef2c__Langhart_Partner_Treuhand_Logo-2048x761.webp",
-      "/images/langhart-partner-ch/pool/5dcac0be15__Langhart-Partner_Referenzen_Sinas_Backstube_GmbH.jpg"
+      "/images/langhart-partner-ch/pool/a728900549__Langhart-Partner_30-Jahre_Siegel-300x289.webp",
+      "/images/langhart-partner-ch/pool/711894ed5f__Langhart-Partner_Referenzen_Portrait_Markus_Kradolfer-300x300.jpg"
     ],
-    "photos": [
-      "/images/langhart-partner-ch/pool/e9d8ae3578__finance.jpg",
-      "/images/langhart-partner-ch/pool/b7c7abac9a__dandelion-seeds-fly-near-the-dandelion-on-a-blurred-background-natural-macro-bac",
-      "/images/langhart-partner-ch/pool/f00278a8c9__pexels-pixabay-209224-2048x1365.jpg",
-      "/images/langhart-partner-ch/pool/39ab76157c__Langhart-Parter_QR-Rechung.jpg",
-      "/images/langhart-partner-ch/pool/54598af947__dandelion-1.jpg",
-      "/images/langhart-partner-ch/pool/d54f86f941__mwst-ab-2025.webp",
-      "/images/langhart-partner-ch/pool/415d80f0d7__Langhart-Partner-Treuhand_Nathalie-Wittausch-1024x768.jpg",
-      "/images/langhart-partner-ch/pool/aa3bf74ec6__Langhart-Partner-Treuhand_Sabrina-Schaefer-Langhart-1024x768.jpg",
-      "/images/langhart-partner-ch/pool/26264ccff1__Langhart-Partner-Treuhand_Lidia-Cerra-1024x768.jpg",
-      "/images/langhart-partner-ch/pool/fa0997ba2f__dandelion-fluff-on-a-blue-background.jpg",
-      "/images/langhart-partner-ch/pool/7f1233f147__Langhart-Partner_30-Jahre_Siegel-2048x1970.webp",
-      "/images/langhart-partner-ch/pool/02fe7202f8__Langhart-Partner_Referenzen_Millenium.webp",
-      "/images/langhart-partner-ch/pool/68705b2c2a__Langhart-Partner_Referenzen_Bau_Pfister_Rueti_GmbH-2048x2048.jpg",
-      "/images/langhart-partner-ch/pool/f22817074e__Langhart-Partner_Referenzen_PEGE-Werbetechnik_Thomas_Graf.jpg",
-      "/images/langhart-partner-ch/pool/eac386ab02__Langhart-Partner_Referenzen_Krauer-Carrosserie.jpg",
-      "/images/langhart-partner-ch/pool/4b4a597abf__Langhart-Partner-Treuhand_Team_neu-2048x1357.webp",
-      "/images/langhart-partner-ch/pool/7ba6d88e68__Langhart-Partner_Referenzen_Portrait_Markus_Kradolfer-768x768.jpg"
-    ],
+    "photos": [],
     "serviceImages": {
-      "Mehrwertsteuer": "/images/langhart-partner-ch/pool/d54f86f941__mwst-ab-2025.webp"
+      "Buchhaltung": "/images/langhart-partner-ch/pool/stock-finance-590020.jpg",
+      "Steuerberatung": "/images/langhart-partner-ch/pool/stock-office-4597993.jpg",
+      "Lohnadministration": "/images/langhart-partner-ch/pool/stock-finance-590022.jpg",
+      "Jahresabschluss": "/images/langhart-partner-ch/pool/stock-office-5483059.jpg",
+      "Mehrwertsteuer": "/images/langhart-partner-ch/pool/stock-finance-577195.jpg",
+      "Unternehmensberatung": "/images/langhart-partner-ch/pool/stock-laptop-7948060.jpg",
+      "Revision": "/images/langhart-partner-ch/pool/stock-office-159839.jpg"
     },
     "documents": [
       {
@@ -295,6 +280,18 @@
     ],
     "assets": [
       {
+        "src": "/images/langhart-partner-ch/pool/52365ac2ec__Langhart-Partner-Treuhand_Team_neu-1024x678.webp",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 57048,
+        "width": 1024,
+        "height": 678,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "phash": "3f36363a58da3e7e",
+        "roles": []
+      },
+      {
         "src": "/images/langhart-partner-ch/pool/c67cf3e629__Langhart-Partner-Treuhand_Pusteblume_2-1024x493.jpg",
         "kind": "badge",
         "alt": "",
@@ -303,6 +300,7 @@
         "height": 493,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "f37198307474f2f",
         "roles": []
       },
       {
@@ -314,6 +312,7 @@
         "height": 768,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "e5f2f2f33373e9e9",
         "roles": []
       },
       {
@@ -325,6 +324,19 @@
         "height": 768,
         "orientation": "square",
         "subject": "generic",
+        "phash": "2454f2b500000",
+        "roles": []
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/67061fb2ac__Langhart-Partner_Referenzen_PEGE-Werbetechnik_Thomas_Graf-300x300.jpg",
+        "kind": "badge",
+        "alt": "",
+        "bytes": 17408,
+        "width": 300,
+        "height": 300,
+        "orientation": "square",
+        "subject": "generic",
+        "phash": "2938383829334727",
         "roles": []
       },
       {
@@ -336,321 +348,191 @@
         "height": 200,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "181c1c0cacac4e46",
         "roles": []
       },
       {
-        "src": "/images/langhart-partner-ch/pool/4708ed1c8e__Langhart-Partner_Referenzen_Rodaro.jpg",
+        "src": "/images/langhart-partner-ch/pool/a728900549__Langhart-Partner_30-Jahre_Siegel-300x289.webp",
         "kind": "badge",
         "alt": "",
-        "bytes": 39021,
-        "width": 1500,
-        "height": 1500,
+        "bytes": 28474,
+        "width": 300,
+        "height": 289,
         "orientation": "square",
         "subject": "generic",
+        "phash": "f08e0f21a4b38ed4",
         "roles": []
       },
       {
-        "src": "/images/langhart-partner-ch/pool/c27fc140e8__Langhart-Partner_Lukas_Manser-1024x768.webp",
+        "src": "/images/langhart-partner-ch/pool/711894ed5f__Langhart-Partner_Referenzen_Portrait_Markus_Kradolfer-300x300.jpg",
         "kind": "badge",
         "alt": "",
-        "bytes": 42706,
-        "width": 1024,
-        "height": 768,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/a751b6ef2c__Langhart_Partner_Treuhand_Logo-2048x761.webp",
-        "kind": "badge",
-        "alt": "",
-        "bytes": 59118,
-        "width": 2048,
-        "height": 761,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/5dcac0be15__Langhart-Partner_Referenzen_Sinas_Backstube_GmbH.jpg",
-        "kind": "badge",
-        "alt": "Langhart-Partner: Logo von Sinas Backstube GmbH",
-        "bytes": 65388,
-        "width": 1000,
-        "height": 1000,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/fa0997ba2f__dandelion-fluff-on-a-blue-background.jpg",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 190842,
-        "width": 1920,
-        "height": 1920,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/b7c7abac9a__dandelion-seeds-fly-near-the-dandelion-on-a-blurred-background-natural-macro-bac",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 161491,
-        "width": 1920,
-        "height": 1282,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/e9d8ae3578__finance.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 137096,
-        "width": 1600,
-        "height": 900,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/f00278a8c9__pexels-pixabay-209224-2048x1365.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 140955,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/7f1233f147__Langhart-Partner_30-Jahre_Siegel-2048x1970.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 208394,
-        "width": 1600,
-        "height": 1539,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/39ab76157c__Langhart-Parter_QR-Rechung.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 139766,
-        "width": 1600,
-        "height": 1062,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/02fe7202f8__Langhart-Partner_Referenzen_Millenium.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 84526,
-        "width": 1500,
-        "height": 1500,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/54598af947__dandelion-1.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 91054,
-        "width": 1600,
-        "height": 1066,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/d54f86f941__mwst-ab-2025.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 112390,
-        "width": 1500,
-        "height": 844,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/68705b2c2a__Langhart-Partner_Referenzen_Bau_Pfister_Rueti_GmbH-2048x2048.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 64092,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/4b4a597abf__Langhart-Partner-Treuhand_Team_neu-2048x1357.webp",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 126132,
-        "width": 1600,
-        "height": 1060,
-        "orientation": "landscape",
-        "subject": "portrait",
-        "roles": [
-          "gallery",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/f22817074e__Langhart-Partner_Referenzen_PEGE-Werbetechnik_Thomas_Graf.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 163075,
-        "width": 1500,
-        "height": 1500,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/langhart-partner-ch/pool/7ba6d88e68__Langhart-Partner_Referenzen_Portrait_Markus_Kradolfer-768x768.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 110810,
-        "width": 768,
-        "height": 768,
+        "bytes": 37731,
+        "width": 300,
+        "height": 300,
         "orientation": "square",
         "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
+        "phash": "28684cc6a2846969",
+        "roles": []
       },
       {
-        "src": "/images/langhart-partner-ch/pool/415d80f0d7__Langhart-Partner-Treuhand_Nathalie-Wittausch-1024x768.jpg",
+        "src": "/images/langhart-partner-ch/pool/stock-finance-590020.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 72937,
-        "width": 1024,
-        "height": 768,
+        "bytes": 69224,
+        "width": 1280,
+        "height": 848,
         "orientation": "landscape",
         "subject": "generic",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/person-holding-pen-pointing-at-graph-590020/",
+        "quality": 0.59,
+        "faces": 0,
         "roles": [
           "gallery",
+          "background",
           "service",
           "feature"
         ]
       },
       {
-        "src": "/images/langhart-partner-ch/pool/aa3bf74ec6__Langhart-Partner-Treuhand_Sabrina-Schaefer-Langhart-1024x768.jpg",
+        "src": "/images/langhart-partner-ch/pool/stock-office-4597993.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 71951,
-        "width": 1024,
-        "height": 768,
+        "bytes": 80185,
+        "width": 1280,
+        "height": 853,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "stock": true,
+        "credit": "I'm Zion (Pexels)",
+        "source": "https://www.pexels.com/photo/design-of-a-home-office-workspace-4597993/",
+        "quality": 0.62,
+        "faces": 0,
         "roles": [
           "gallery",
+          "background",
           "service",
           "feature"
         ]
       },
       {
-        "src": "/images/langhart-partner-ch/pool/26264ccff1__Langhart-Partner-Treuhand_Lidia-Cerra-1024x768.jpg",
+        "src": "/images/langhart-partner-ch/pool/stock-finance-590022.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 68572,
-        "width": 1024,
-        "height": 768,
+        "bytes": 54755,
+        "width": 1280,
+        "height": 848,
         "orientation": "landscape",
         "subject": "generic",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/close-up-photo-of-survey-spreadsheet-590022/",
+        "quality": 0.37,
+        "faces": 0,
         "roles": [
           "gallery",
+          "background"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/stock-office-5483059.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 65536,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "cottonbro studio (Pexels)",
+        "source": "https://www.pexels.com/photo/empty-lounge-interior-5483059/",
+        "quality": 0.57,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
           "service",
           "feature"
         ]
       },
       {
-        "src": "/images/langhart-partner-ch/pool/eac386ab02__Langhart-Partner_Referenzen_Krauer-Carrosserie.jpg",
+        "src": "/images/langhart-partner-ch/pool/stock-finance-577195.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 73482,
-        "width": 1500,
-        "height": 1500,
-        "orientation": "square",
+        "bytes": 128971,
+        "width": 1280,
+        "height": 848,
+        "orientation": "landscape",
         "subject": "generic",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/turned-on-laptop-computer-577195/",
+        "quality": 0.79,
+        "faces": 0,
         "roles": [
           "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/stock-laptop-7948060.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 79767,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/person-using-black-laptop-computer-7948060/",
+        "quality": 0.55,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/stock-office-159839.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 117251,
+        "width": 1280,
+        "height": 851,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Pixabay (Pexels)",
+        "source": "https://www.pexels.com/photo/black-study-lamp-on-black-table-159839/",
+        "quality": 0.84,
+        "faces": 1,
+        "roles": [
+          "gallery",
+          "background",
           "service",
           "feature"
         ]
       }
     ],
     "sectionBackgrounds": [
-      "/images/langhart-partner-ch/pool/b7c7abac9a__dandelion-seeds-fly-near-the-dandelion-on-a-blurred-background-natural-macro-bac",
-      "/images/langhart-partner-ch/pool/e9d8ae3578__finance.jpg",
-      "/images/langhart-partner-ch/pool/f00278a8c9__pexels-pixabay-209224-2048x1365.jpg"
+      "/images/langhart-partner-ch/pool/stock-finance-590020.jpg",
+      "/images/langhart-partner-ch/pool/stock-office-4597993.jpg",
+      "/images/langhart-partner-ch/pool/stock-finance-590022.jpg"
+    ],
+    "stock": true,
+    "credits": [
+      "Lukas Blazek (Pexels)",
+      "I'm Zion (Pexels)",
+      "cottonbro studio (Pexels)",
+      "RDNE Stock project (Pexels)",
+      "Pixabay (Pexels)"
     ]
   },
   "nav": {
@@ -696,7 +578,8 @@
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/langhart-partner-ch/pool/stock-finance-590020.jpg"
       },
       {
         "title": "Steuerberatung",
@@ -707,7 +590,8 @@
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/langhart-partner-ch/pool/stock-office-4597993.jpg"
       },
       {
         "title": "Lohnadministration",
@@ -718,7 +602,8 @@
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/langhart-partner-ch/pool/stock-finance-590022.jpg"
       },
       {
         "title": "Jahresabschluss",
@@ -729,7 +614,8 @@
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/langhart-partner-ch/pool/stock-office-5483059.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -741,7 +627,7 @@
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/langhart-partner-ch/pool/d54f86f941__mwst-ab-2025.webp"
+        "image": "/images/langhart-partner-ch/pool/stock-finance-577195.jpg"
       },
       {
         "title": "Unternehmensberatung",
@@ -752,7 +638,8 @@
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/langhart-partner-ch/pool/stock-laptop-7948060.jpg"
       }
     ]
   },
@@ -796,14 +683,14 @@
       "klara"
     ],
     "badges": [
+      "/images/langhart-partner-ch/pool/52365ac2ec__Langhart-Partner-Treuhand_Team_neu-1024x678.webp",
       "/images/langhart-partner-ch/pool/c67cf3e629__Langhart-Partner-Treuhand_Pusteblume_2-1024x493.jpg",
       "/images/langhart-partner-ch/pool/d77ebf0c26__Langhart-Partner-Treuhand_Urs-Langhart-1024x768.jpg",
       "/images/langhart-partner-ch/pool/d4360e0aa5__Langhart-Partner_Referenzen_Hairfact_GmbH-768x768.jpg",
+      "/images/langhart-partner-ch/pool/67061fb2ac__Langhart-Partner_Referenzen_PEGE-Werbetechnik_Thomas_Graf-300x300.jpg",
       "/images/langhart-partner-ch/pool/7e2581f0d7__header_steuern.jpg",
-      "/images/langhart-partner-ch/pool/4708ed1c8e__Langhart-Partner_Referenzen_Rodaro.jpg",
-      "/images/langhart-partner-ch/pool/c27fc140e8__Langhart-Partner_Lukas_Manser-1024x768.webp",
-      "/images/langhart-partner-ch/pool/a751b6ef2c__Langhart_Partner_Treuhand_Logo-2048x761.webp",
-      "/images/langhart-partner-ch/pool/5dcac0be15__Langhart-Partner_Referenzen_Sinas_Backstube_GmbH.jpg"
+      "/images/langhart-partner-ch/pool/a728900549__Langhart-Partner_30-Jahre_Siegel-300x289.webp",
+      "/images/langhart-partner-ch/pool/711894ed5f__Langhart-Partner_Referenzen_Portrait_Markus_Kradolfer-300x300.jpg"
     ]
   },
   "faq": {

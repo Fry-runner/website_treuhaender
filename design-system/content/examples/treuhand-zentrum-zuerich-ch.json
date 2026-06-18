@@ -145,10 +145,6 @@
           "presence": "often"
         },
         {
-          "pageType": "team",
-          "presence": "often"
-        },
-        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -184,7 +180,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -224,21 +220,8 @@
     ],
     "photos": [
       "/images/treuhand-zentrum-zuerich-ch/pool/36c77c0345__ccdaf09d-f4e9-47de-8900-1e8297254033.jpg",
-      "/images/treuhand-zentrum-zuerich-ch/pool/b8315404c1__6f2aa3a9-36f9-449c-8096-c5ca3404457c.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/fd95757108__7286f5c5-2db6-4d18-82c8-40d299323590.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/4ac5295f83__72fc2a6a-0b62-4c61-8b31-7cb62404d38a.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/6112ff3e79__01c9167b-dac9-42d8-a13f-c94f6f759621.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/8e9abb9cd4__istockphoto-1006263266-1024x1024_1_J5pzATIscujuYAevNGbFK.png",
       "/images/treuhand-zentrum-zuerich-ch/pool/a7cd4a0dad__shutterstock_2663818517__3__Tjwy8wnyXOdxKC4jdcUkw.jpg",
-      "/images/treuhand-zentrum-zuerich-ch/pool/eee94051fa__77e8e0a7-af20-434a-8177-20447b9cf390.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/23cafb563b__b94eca0e-6142-4b65-9486-9aada86427e0.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/069d334428__5e5a14e4-647b-4b10-9c34-436d7a7ff9c3.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/34df2ef722__fa5f9a6a-0555-46fb-8137-1570024d7a2e.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/c1480d0c87__f7e512e6-3a63-4229-850d-4f5bb86e0718.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/530947dc0c__20cf6092-1536-43ec-b78b-c7b3653c156a.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/789cfd6df2__3fb8a412-e6d8-42b4-a60f-523e64b8fa09.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/11b347e2c7__2621a166-1796-4d64-8de5-48de8e449cce.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/ca08289b28__2ba988c4-cfd0-4118-8594-d699a73155b8.png"
+      "/images/treuhand-zentrum-zuerich-ch/pool/8e9abb9cd4__istockphoto-1006263266-1024x1024_1_J5pzATIscujuYAevNGbFK.png"
     ],
     "serviceImages": {},
     "documents": [],
@@ -252,6 +235,7 @@
         "height": 30.4,
         "orientation": "landscape",
         "subject": "city",
+        "phash": "a3a30000",
         "roles": []
       },
       {
@@ -263,6 +247,7 @@
         "height": 31,
         "orientation": "landscape",
         "subject": "city",
+        "phash": "70d0e402a3633270",
         "roles": []
       },
       {
@@ -274,6 +259,7 @@
         "height": 156.9,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "0",
         "roles": []
       },
       {
@@ -285,6 +271,7 @@
         "height": 431,
         "orientation": "square",
         "subject": "generic",
+        "phash": "e4f2f2e6619896be",
         "roles": []
       },
       {
@@ -296,6 +283,7 @@
         "height": 431,
         "orientation": "square",
         "subject": "generic",
+        "phash": "e2d2d2e663d8b6b2",
         "roles": []
       },
       {
@@ -306,154 +294,14 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "657f1d0d8f1f0e1f",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
           "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/b8315404c1__6f2aa3a9-36f9-449c-8096-c5ca3404457c.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 637150,
-        "width": 1600,
-        "height": 1135,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/fd95757108__7286f5c5-2db6-4d18-82c8-40d299323590.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 636644,
-        "width": 1600,
-        "height": 1135,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/eee94051fa__77e8e0a7-af20-434a-8177-20447b9cf390.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 682029,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/4ac5295f83__72fc2a6a-0b62-4c61-8b31-7cb62404d38a.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 427305,
-        "width": 1600,
-        "height": 1214,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/6112ff3e79__01c9167b-dac9-42d8-a13f-c94f6f759621.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 418956,
-        "width": 1600,
-        "height": 1214,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/23cafb563b__b94eca0e-6142-4b65-9486-9aada86427e0.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 516970,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/069d334428__5e5a14e4-647b-4b10-9c34-436d7a7ff9c3.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 519223,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/34df2ef722__fa5f9a6a-0555-46fb-8137-1570024d7a2e.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 401805,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/c1480d0c87__f7e512e6-3a63-4229-850d-4f5bb86e0718.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 393738,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
           "service",
           "feature"
         ]
@@ -466,13 +314,14 @@
         "width": 1440,
         "height": 656,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "fef391702193be58",
+        "quality": 0.48,
+        "faces": 0,
         "roles": [
           "gallery",
-          "hero",
           "background",
-          "service",
-          "feature"
+          "service"
         ]
       },
       {
@@ -483,7 +332,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "phash": "f06133e6e6363330",
+        "quality": 0.69,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -491,72 +343,12 @@
           "service",
           "feature"
         ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/530947dc0c__20cf6092-1536-43ec-b78b-c7b3653c156a.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 374276,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/789cfd6df2__3fb8a412-e6d8-42b4-a60f-523e64b8fa09.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 279593,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/11b347e2c7__2621a166-1796-4d64-8de5-48de8e449cce.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 349040,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zentrum-zuerich-ch/pool/ca08289b28__2ba988c4-cfd0-4118-8594-d699a73155b8.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 270825,
-        "width": 1600,
-        "height": 1600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
       }
     ],
     "sectionBackgrounds": [
       "/images/treuhand-zentrum-zuerich-ch/pool/36c77c0345__ccdaf09d-f4e9-47de-8900-1e8297254033.jpg",
-      "/images/treuhand-zentrum-zuerich-ch/pool/b8315404c1__6f2aa3a9-36f9-449c-8096-c5ca3404457c.png",
-      "/images/treuhand-zentrum-zuerich-ch/pool/fd95757108__7286f5c5-2db6-4d18-82c8-40d299323590.png"
+      "/images/treuhand-zentrum-zuerich-ch/pool/8e9abb9cd4__istockphoto-1006263266-1024x1024_1_J5pzATIscujuYAevNGbFK.png",
+      "/images/treuhand-zentrum-zuerich-ch/pool/a7cd4a0dad__shutterstock_2663818517__3__Tjwy8wnyXOdxKC4jdcUkw.jpg"
     ]
   },
   "nav": {

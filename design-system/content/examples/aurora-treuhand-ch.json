@@ -176,7 +176,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -187,7 +187,7 @@
       "values",
       "faq",
       "look.colors (generated)",
-      "team.members"
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -205,14 +205,12 @@
   },
   "media": {
     "logo": "/images/aurora-treuhand-ch/pool/0e26d8a0bd__auroratreuhand_281_29-1920w.png",
-    "hero": "/images/aurora-treuhand-ch/hero.jpg",
+    "hero": "/images/aurora-treuhand-ch/pool/stock-architecture-26238613.jpg",
     "badges": [],
     "photos": [
+      "/images/aurora-treuhand-ch/pool/db9db0996a__AdobeStock_219623144.jpeg-1920w.jpg",
       "/images/aurora-treuhand-ch/pool/7c6a89fc22__AdobeStock_229235697.jpeg-1920w.jpg",
-      "/images/aurora-treuhand-ch/pool/ad46fe5912__AdobeStock_252348284.jpeg-1920w.jpg",
-      "/images/aurora-treuhand-ch/pool/a51c44c7cd__AdobeStock_229235697.jpeg_281_29-1920w.jpg",
-      "/images/aurora-treuhand-ch/pool/52592a7bf8__AdobeStock_252348284.jpeg_281_29-1920w.jpg",
-      "/images/aurora-treuhand-ch/pool/e54de35adc__AdobeStock_219623144.jpeg-640w.jpg"
+      "/images/aurora-treuhand-ch/pool/ad46fe5912__AdobeStock_252348284.jpeg-1920w.jpg"
     ],
     "serviceImages": {},
     "documents": [],
@@ -226,7 +224,28 @@
         "height": 172,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "1ab2a4ca6caaca0b",
         "roles": []
+      },
+      {
+        "src": "/images/aurora-treuhand-ch/pool/db9db0996a__AdobeStock_219623144.jpeg-1920w.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 134472,
+        "width": 1600,
+        "height": 1067,
+        "orientation": "landscape",
+        "subject": "office",
+        "phash": "62199cccce5b6d7",
+        "quality": 0.73,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
       },
       {
         "src": "/images/aurora-treuhand-ch/pool/7c6a89fc22__AdobeStock_229235697.jpeg-1920w.jpg",
@@ -236,7 +255,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "71322b22267e4670",
+        "quality": 0.63,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -253,7 +275,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "e1e1e74e5bcbc00b",
+        "quality": 0.52,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
@@ -263,50 +288,34 @@
         ]
       },
       {
-        "src": "/images/aurora-treuhand-ch/pool/a51c44c7cd__AdobeStock_229235697.jpeg_281_29-1920w.jpg",
-        "kind": "photo",
-        "alt": "Erbrecht - Küsnacht ZH - aurora treuhand ag",
-        "bytes": 60130,
-        "width": 1069,
-        "height": 713,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/aurora-treuhand-ch/pool/52592a7bf8__AdobeStock_252348284.jpeg_281_29-1920w.jpg",
-        "kind": "photo",
-        "alt": "Steuerberatung - Küsnacht ZH - aurora treuhand ag",
-        "bytes": 50282,
-        "width": 1069,
-        "height": 713,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/aurora-treuhand-ch/pool/e54de35adc__AdobeStock_219623144.jpeg-640w.jpg",
-        "kind": "photo",
+        "src": "/images/aurora-treuhand-ch/pool/stock-architecture-26238613.jpg",
+        "kind": "hero",
         "alt": "",
-        "bytes": 35990,
-        "width": 640,
-        "height": 427,
+        "bytes": 191900,
+        "width": 1880,
+        "height": 1175,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "city",
+        "stock": true,
+        "credit": "Wolfgang Weiser (Pexels)",
+        "source": "https://www.pexels.com/photo/low-angle-shot-of-a-modern-skyscraper-26238613/",
+        "quality": 0.83,
+        "faces": 0,
         "roles": [
-          "service"
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
         ]
       }
     ],
+    "stock": true,
+    "credits": [
+      "Wolfgang Weiser (Pexels)"
+    ],
     "sectionBackgrounds": [
+      "/images/aurora-treuhand-ch/pool/db9db0996a__AdobeStock_219623144.jpeg-1920w.jpg",
       "/images/aurora-treuhand-ch/pool/7c6a89fc22__AdobeStock_229235697.jpeg-1920w.jpg",
       "/images/aurora-treuhand-ch/pool/ad46fe5912__AdobeStock_252348284.jpeg-1920w.jpg"
     ]
@@ -340,7 +349,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Herzlich willkommen bei aurora treuhand ag, Ihr Treuhandbüro für Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
     "asideAttribution": "aurora treuhand ag",
-    "image": "/images/aurora-treuhand-ch/hero.jpg"
+    "image": "/images/aurora-treuhand-ch/pool/stock-architecture-26238613.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -400,26 +409,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "aurora Team",
-        "role": "Geschäftsführung",
-        "initials": "AU",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

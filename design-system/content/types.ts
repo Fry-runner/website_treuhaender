@@ -63,6 +63,9 @@ export interface MediaAsset {
   width?: number; height?: number; orientation?: Orientation; // intrinsic size for layout
   subject?: ImageSubject; // classified motif: person portrait · Zürich/city · office · generic
   roles?: ImageRole[];    // slots this asset suits: hero · gallery · background · service · feature
+  phash?: string;         // perceptual dHash (hex) — same picture under different bytes/names shares a near-identical value
+  quality?: number;       // 0..1 technical-quality score (sharpness/detail/exposure/compression) — ranks the pool + gates hero/feature
+  faces?: number;         // detected face count (Tier-2 ONNX pass) — firms up portrait classification, keeps faces out of the hero
   stock?: boolean; credit?: string; source?: string; // set for CC stock fallback images
 }
 

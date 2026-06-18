@@ -151,6 +151,10 @@
           "presence": "often"
         },
         {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -186,7 +190,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✓ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -194,7 +198,8 @@
     },
     "placeholders": [
       "hero.aside",
-      "faq"
+      "faq",
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -219,7 +224,7 @@
   "media": {
     "logo": "/images/maurer-treuhand-ch/pool/690ba3589b__IMG_Logo_Finanzkonsulenten.png",
     "logoLight": "/images/maurer-treuhand-ch/pool/1430e63a40__LOGO_maurer-treuhand-white.svg",
-    "hero": "/images/maurer-treuhand-ch/hero.jpg",
+    "hero": "/images/maurer-treuhand-ch/pool/stock-laptop-7948060.jpg",
     "badges": [
       "/images/maurer-treuhand-ch/pool/4da4fb57c5__LOGO_treu-suisse.svg",
       "/images/maurer-treuhand-ch/pool/667ba0ac5c__PETER-HIRT-GmbH-Logo-e1653382787364.jpg",
@@ -228,32 +233,12 @@
       "/images/maurer-treuhand-ch/pool/e6a6305a91__PARTNER_kanzlei-caro-logo.png"
     ],
     "photos": [
-      "/images/maurer-treuhand-ch/pool/8fc59d3c4e__IMG_Header_Home_desktop.png",
-      "/images/maurer-treuhand-ch/pool/2a5fba0c84__Maurer-Treuhand-01-1.jpg",
-      "/images/maurer-treuhand-ch/pool/5bd8c134ef__Maurer-Treuhand-11.jpg",
-      "/images/maurer-treuhand-ch/pool/3391d3c01e__Maurer-Treuhand-03.jpg",
-      "/images/maurer-treuhand-ch/pool/bd8e09daca__0M6A7446-bearbeitet.jpg",
-      "/images/maurer-treuhand-ch/pool/c61c6e8339__Header-Hintergrund-02.jpg",
-      "/images/maurer-treuhand-ch/pool/1d85ba6db1__IMG_Header_Kundengruppen.png",
-      "/images/maurer-treuhand-ch/pool/2219edacbc__Header-Hintergrund-06.jpg",
-      "/images/maurer-treuhand-ch/pool/f276cb24a8__IMG_Treuhand-und-Buchhaltung.png",
-      "/images/maurer-treuhand-ch/pool/8315bd3dbe__IMG_Steuerberatung.png",
       "/images/maurer-treuhand-ch/pool/c79c52901c__NPO.jpg",
-      "/images/maurer-treuhand-ch/pool/1dea5e0ae6__Unternehmensberatung.jpg",
-      "/images/maurer-treuhand-ch/pool/64371322f6__Mitarbeiter-3.jpg",
-      "/images/maurer-treuhand-ch/pool/c754e129b9__Foto-R.Bigger.jpg",
-      "/images/maurer-treuhand-ch/pool/a856289bda__Simone-Boss_011-A5-Kopie-2.jpg",
-      "/images/maurer-treuhand-ch/pool/2f590503ab__Yanik-Kunz_05-A5-e1696239269413.png",
-      "/images/maurer-treuhand-ch/pool/b3a4cc9be4__Maurer_Treuhand_Karin_2853_pp-2.jpg",
-      "/images/maurer-treuhand-ch/pool/c7b333f4d7__Maurer_Treuhand_Lea_3199_pp-2.jpg",
-      "/images/maurer-treuhand-ch/pool/f0b1f23146__Maurer_Treuhand_Regina_2865_pp-2.jpg",
-      "/images/maurer-treuhand-ch/pool/2a4721de16__Maurer_Treuhand_Mischa_3142_pp-3.jpg",
-      "/images/maurer-treuhand-ch/pool/b428bddeff__Maurer_Treuhand_Susanne_9022_pp-2.jpg",
-      "/images/maurer-treuhand-ch/pool/0b19657603__Maurer_Treuhand_Kaltrina_20.0278999_pp-2.jpg"
+      "/images/maurer-treuhand-ch/pool/bd8e09daca__0M6A7446-bearbeitet.jpg",
+      "/images/maurer-treuhand-ch/pool/2a5fba0c84__Maurer-Treuhand-01-1.jpg",
+      "/images/maurer-treuhand-ch/pool/8fc59d3c4e__IMG_Header_Home_desktop.png"
     ],
     "serviceImages": {
-      "Buchhaltung": "/images/maurer-treuhand-ch/pool/f276cb24a8__IMG_Treuhand-und-Buchhaltung.png",
-      "Steuerberatung": "/images/maurer-treuhand-ch/pool/8315bd3dbe__IMG_Steuerberatung.png",
       "Unternehmensberatung": "/images/maurer-treuhand-ch/pool/1dea5e0ae6__Unternehmensberatung.jpg"
     },
     "documents": [],
@@ -267,6 +252,7 @@
         "height": 111,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "4000e0e4dcc00000",
         "roles": []
       },
       {
@@ -278,6 +264,7 @@
         "height": 83,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "a060627172726252",
         "roles": []
       },
       {
@@ -289,6 +276,7 @@
         "height": 52.649,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "1818137666951818",
         "roles": []
       },
       {
@@ -300,6 +288,7 @@
         "height": 129,
         "orientation": "square",
         "subject": "generic",
+        "phash": "f0e8c8d4cce8e0f0",
         "roles": []
       },
       {
@@ -311,6 +300,7 @@
         "height": 265,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "18587961716800",
         "roles": []
       },
       {
@@ -322,6 +312,7 @@
         "height": 265,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "10303078696000",
         "roles": []
       },
       {
@@ -333,6 +324,7 @@
         "height": 265,
         "orientation": "landscape",
         "subject": "office",
+        "phash": "8000a494a88e0002",
         "roles": []
       },
       {
@@ -343,58 +335,16 @@
         "width": 1778,
         "height": 1000,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "9082e3e1c8090908",
+        "quality": 0.5,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
           "background",
           "service",
           "feature"
-        ]
-      },
-      {
-        "src": "/images/maurer-treuhand-ch/pool/c61c6e8339__Header-Hintergrund-02.jpg",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 47610,
-        "width": 1920,
-        "height": 474,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
-        ]
-      },
-      {
-        "src": "/images/maurer-treuhand-ch/pool/1d85ba6db1__IMG_Header_Kundengruppen.png",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 295321,
-        "width": 1920,
-        "height": 525,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
-        ]
-      },
-      {
-        "src": "/images/maurer-treuhand-ch/pool/2219edacbc__Header-Hintergrund-06.jpg",
-        "kind": "hero",
-        "alt": "",
-        "bytes": 36466,
-        "width": 1920,
-        "height": 476,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
         ]
       },
       {
@@ -406,8 +356,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "b3b3694848616163",
+        "quality": 0.83,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -420,9 +372,10 @@
         "height": 1049,
         "orientation": "portrait",
         "subject": "portrait",
-        "roles": [
-          "gallery"
-        ]
+        "phash": "b3b3b179f1f3f3b1",
+        "quality": 0.73,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/maurer-treuhand-ch/pool/b3a4cc9be4__Maurer_Treuhand_Karin_2853_pp-2.jpg",
@@ -433,8 +386,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "938b070e0e1d092",
+        "quality": 0.82,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -447,8 +402,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "30c2c2e1e0f4fca6",
+        "quality": 0.78,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -461,8 +418,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "4938b47468f0b074",
+        "quality": 0.7,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -475,8 +434,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "3292b969e1716172",
+        "quality": 0.64,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -489,8 +450,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "32b2e9e4f4f179b9",
+        "quality": 0.62,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -503,8 +466,10 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "32b2e1e1f179b1b2",
+        "quality": 0.6,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -516,7 +481,10 @@
         "width": 1200,
         "height": 800,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "c3cedadbe666ae59",
+        "quality": 0.78,
+        "faces": 3,
         "roles": [
           "gallery",
           "background",
@@ -532,7 +500,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "84c7d85c7471e3c3",
+        "quality": 0.56,
+        "faces": 2,
         "roles": [
           "gallery",
           "hero",
@@ -549,10 +520,11 @@
         "width": 1200,
         "height": 1200,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "d2c28b2f2523632",
+        "quality": 0.69,
+        "faces": 2,
         "roles": [
-          "gallery",
-          "service",
           "feature"
         ]
       },
@@ -564,12 +536,11 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "989c9ca482464506",
+        "quality": 0.57,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -582,8 +553,10 @@
         "height": 1076,
         "orientation": "landscape",
         "subject": "portrait",
+        "phash": "4c84a6a28b8c4260",
+        "quality": 0.76,
+        "faces": 3,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -596,8 +569,10 @@
         "height": 1200,
         "orientation": "square",
         "subject": "portrait",
+        "phash": "3763632365cc8e9a",
+        "quality": 0.82,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
@@ -609,12 +584,11 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "392dede1e7e6c6b2",
+        "quality": 0.54,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -626,7 +600,10 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "26686cbc9c8ecc9c",
+        "quality": 0.68,
+        "faces": 2,
         "roles": [
           "gallery",
           "hero",
@@ -636,34 +613,34 @@
         ]
       },
       {
-        "src": "/images/maurer-treuhand-ch/pool/f276cb24a8__IMG_Treuhand-und-Buchhaltung.png",
-        "kind": "photo",
+        "src": "/images/maurer-treuhand-ch/pool/stock-laptop-7948060.jpg",
+        "kind": "hero",
         "alt": "",
-        "bytes": 69751,
-        "width": 443,
-        "height": 455,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": []
-      },
-      {
-        "src": "/images/maurer-treuhand-ch/pool/8315bd3dbe__IMG_Steuerberatung.png",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 140388,
-        "width": 665,
-        "height": 683,
-        "orientation": "square",
-        "subject": "generic",
+        "bytes": 143563,
+        "width": 1880,
+        "height": 1253,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/person-using-black-laptop-computer-7948060/",
+        "quality": 0.49,
+        "faces": 0,
         "roles": [
+          "gallery",
+          "background",
           "service"
         ]
       }
     ],
+    "stock": true,
+    "credits": [
+      "RDNE Stock project (Pexels)"
+    ],
     "sectionBackgrounds": [
       "/images/maurer-treuhand-ch/pool/8fc59d3c4e__IMG_Header_Home_desktop.png",
-      "/images/maurer-treuhand-ch/pool/c61c6e8339__Header-Hintergrund-02.jpg",
-      "/images/maurer-treuhand-ch/pool/1d85ba6db1__IMG_Header_Kundengruppen.png"
+      "/images/maurer-treuhand-ch/pool/c79c52901c__NPO.jpg",
+      "/images/maurer-treuhand-ch/pool/2a5fba0c84__Maurer-Treuhand-01-1.jpg"
     ]
   },
   "nav": {
@@ -696,7 +673,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Wir beraten Sie umfassend zu Ihren Finanz- und Rechnungsfragen, führen Ihre Buchhaltung, erstellen die Jahresabschlüsse und agieren als Fiskalvertretung.",
     "asideAttribution": "Maurer Treuhand",
-    "image": "/images/maurer-treuhand-ch/hero.jpg"
+    "image": "/images/maurer-treuhand-ch/pool/stock-laptop-7948060.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -711,8 +688,7 @@
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/maurer-treuhand-ch/pool/f276cb24a8__IMG_Treuhand-und-Buchhaltung.png"
+        ]
       },
       {
         "title": "Steuerberatung",
@@ -723,8 +699,7 @@
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/maurer-treuhand-ch/pool/8315bd3dbe__IMG_Steuerberatung.png"
+        ]
       },
       {
         "title": "Lohnadministration",

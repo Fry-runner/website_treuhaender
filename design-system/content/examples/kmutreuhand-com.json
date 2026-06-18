@@ -183,7 +183,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -192,7 +192,7 @@
     "placeholders": [
       "hero.aside",
       "values",
-      "team.members"
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -214,12 +214,9 @@
   "media": {
     "logo": "/images/kmutreuhand-com/pool/fcf5fbe2e5__Logo-KMUTREUHAND.svg",
     "logoLight": "/images/kmutreuhand-com/pool/4c77542b0e__Logo-KMUTREUHAND-Weiss.svg",
-    "hero": "/images/kmutreuhand-com/hero.jpg",
+    "hero": "/images/kmutreuhand-com/pool/stock-swiss-30131123.jpg",
     "badges": [],
     "photos": [
-      "/images/kmutreuhand-com/pool/6314de24e7__Monika-Ausgepfadet.png",
-      "/images/kmutreuhand-com/pool/f1dfb2a39e__Bild-Content-Home-03.jpg",
-      "/images/kmutreuhand-com/pool/638c887c50__Bild-Content-Home-02.jpg",
       "/images/kmutreuhand-com/pool/de81daa6c5__Bild-Content-Home-01.jpg"
     ],
     "serviceImages": {},
@@ -234,6 +231,7 @@
         "height": 574.9,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "90905059b39290a0",
         "roles": []
       },
       {
@@ -245,21 +243,22 @@
         "height": 574.9,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "0",
         "roles": []
       },
       {
-        "src": "/images/kmutreuhand-com/pool/6314de24e7__Monika-Ausgepfadet.png",
-        "kind": "photo",
-        "alt": "Monika kmuTREUHAND",
-        "bytes": 131920,
-        "width": 700,
-        "height": 749,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "service"
-        ]
+        "src": "/images/kmutreuhand-com/pool/9690a9a1ea__Home-Slider-01.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 94997,
+        "width": 1920,
+        "height": 1280,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "phash": "766466e4b0b0646",
+        "quality": 0.36,
+        "faces": 1,
+        "roles": []
       },
       {
         "src": "/images/kmutreuhand-com/pool/f1dfb2a39e__Bild-Content-Home-03.jpg",
@@ -269,10 +268,11 @@
         "width": 1080,
         "height": 1072,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "ca3272f0d0624a44",
+        "quality": 0.86,
+        "faces": 2,
         "roles": [
-          "gallery",
-          "service",
           "feature"
         ]
       },
@@ -284,10 +284,11 @@
         "width": 1080,
         "height": 1072,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "d0609c1c5e348884",
+        "quality": 0.73,
+        "faces": 2,
         "roles": [
-          "gallery",
-          "service",
           "feature"
         ]
       },
@@ -299,13 +300,42 @@
         "width": 1080,
         "height": 1072,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "c39434949c1c0c80",
+        "quality": 0.69,
+        "faces": 0,
         "roles": [
           "gallery",
           "service",
           "feature"
         ]
+      },
+      {
+        "src": "/images/kmutreuhand-com/pool/stock-swiss-30131123.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 152183,
+        "width": 1880,
+        "height": 1056,
+        "orientation": "landscape",
+        "subject": "city",
+        "stock": true,
+        "credit": "Ollie Craig (Pexels)",
+        "source": "https://www.pexels.com/photo/winter-landscape-of-altendorf-switzerland-30131123/",
+        "quality": 0.53,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
       }
+    ],
+    "stock": true,
+    "credits": [
+      "Ollie Craig (Pexels)"
     ]
   },
   "nav": {
@@ -338,7 +368,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Kompetenz, Innovation und Vertrauen in allen Angelegenheiten rund um Treuhand und Steuerberatung in der Region Thun",
     "asideAttribution": "kmuTREUHAND",
-    "image": "/images/kmutreuhand-com/hero.jpg"
+    "image": "/images/kmutreuhand-com/pool/stock-swiss-30131123.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -420,26 +450,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "kmuTREUHAND Team",
-        "role": "Geschäftsführung",
-        "initials": "KM",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

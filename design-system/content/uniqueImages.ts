@@ -45,6 +45,7 @@ export function dedupeImages(content: SiteContent): SiteContent {
     const ids = ["n:" + normName(src)];
     const a = assetBySrc.get(src);
     if (a?.bytes) ids.push(`b:${a.bytes}|${a.width ?? ""}x${a.height ?? ""}`);
+    if (a?.phash) ids.push("p:" + a.phash);   // perceptual identity: same picture, different bytes/name
     return ids;
   };
 

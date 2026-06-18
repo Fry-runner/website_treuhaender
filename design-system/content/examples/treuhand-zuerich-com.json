@@ -175,7 +175,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✓ Team-Seite + echte Mitglieder",
+        "page:team": "✓ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
@@ -210,13 +210,7 @@
     "badges": [
       "/images/treuhand-zuerich-com/pool/97dfb28c77__treu-suisse-logo-verband-de.svg"
     ],
-    "photos": [
-      "/images/treuhand-zuerich-com/pool/dd5efd36af__7Q6A4786-copy.jpg",
-      "/images/treuhand-zuerich-com/pool/aba1a3fe20__7Q6A4538-copy.jpg",
-      "/images/treuhand-zuerich-com/pool/9c041b6866__7Q6A5019-copy.jpg",
-      "/images/treuhand-zuerich-com/pool/20a8f7b98d__DSC04363-copy-2_1-1536x1024.jpg",
-      "/images/treuhand-zuerich-com/pool/62b22def08__Gian-Gadient-quadratisch.jpg"
-    ],
+    "photos": [],
     "serviceImages": {},
     "documents": [
       {
@@ -248,6 +242,7 @@
         "height": 71,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "dade5ba7a84941a",
         "roles": []
       },
       {
@@ -259,6 +254,7 @@
         "height": 107.6,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "181a16a61a189094",
         "roles": []
       },
       {
@@ -269,29 +265,11 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "32b2b27069696969",
+        "quality": 0.6,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zuerich-com/pool/aba1a3fe20__7Q6A4538-copy.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 69135,
-        "width": 1600,
-        "height": 1067,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -303,12 +281,25 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "73b3b3f3e9f96969",
+        "quality": 0.46,
+        "faces": 1,
+        "roles": []
+      },
+      {
+        "src": "/images/treuhand-zuerich-com/pool/64ae5ffec6__DSC04363-copy-2_1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 67917,
+        "width": 1600,
+        "height": 1066,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "phash": "1130313269696969",
+        "quality": 0.57,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -320,35 +311,14 @@
         "width": 1280,
         "height": 1280,
         "orientation": "square",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "3222203260ccccc8",
+        "quality": 0.74,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/treuhand-zuerich-com/pool/20a8f7b98d__DSC04363-copy-2_1-1536x1024.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 61476,
-        "width": 1536,
-        "height": 1024,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       }
-    ],
-    "sectionBackgrounds": [
-      "/images/treuhand-zuerich-com/pool/dd5efd36af__7Q6A4786-copy.jpg",
-      "/images/treuhand-zuerich-com/pool/aba1a3fe20__7Q6A4538-copy.jpg",
-      "/images/treuhand-zuerich-com/pool/9c041b6866__7Q6A5019-copy.jpg"
     ]
   },
   "nav": {

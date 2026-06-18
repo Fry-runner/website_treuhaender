@@ -16,7 +16,7 @@
  */
 import { canonicalHomepage } from "../blueprints.ts";
 import type { ArchetypeId } from "../blueprints.ts";
-import type { SitePageRef } from "../pages.ts";
+import { TEAM_PAGE_MIN_MEMBERS, type SitePageRef } from "../pages.ts";
 
 export interface SiteFunctions {
   onlineBooking: boolean;
@@ -40,6 +40,8 @@ export interface DecisionInputs {
   has: Record<string, boolean>;
   pageTypes: Record<string, number>;
   servicesCount: number;
+  /** How many REAL team members were scraped (drives the separate-Team-page rule). */
+  teamCount: number;
   /** Whether each section could be filled with REAL (non-fabricated) data. */
   real: {
     services: boolean;
@@ -91,7 +93,10 @@ export function decideStructure(input: DecisionInputs): SiteBrief {
   addPage("services", real.services, "always", "Leistungen vorhanden");
   addPage("service-detail", real.services && input.servicesCount >= 3, "often", "≥3 Leistungen → SEO-Detailseiten", "per-service SEO tree");
   addPage("about", !!has.about, "often", "Über-uns-Seite im Scrape");
-  addPage("team", !!has.team && real.team, "often", "Team-Seite + echte Mitglieder");
+  // Purely team-SIZE driven (not whether the source had a /team URL): a firm with
+  // a large team earns its own page; a small team rides along on "Über uns".
+  addPage("team", input.teamCount >= TEAM_PAGE_MIN_MEMBERS, "often",
+    `${TEAM_PAGE_MIN_MEMBERS}+ Mitarbeitende → eigene Team-Seite (bis ${TEAM_PAGE_MIN_MEMBERS - 1} auf Über-uns)`);
   addPage("pricing", !!has.pricing && real.pricing, "often", "Preisseite + echte Preise");
   pageRefs.push({ pageType: "contact", presence: "always" });
   pageRefs.push({ pageType: "legal", presence: "always" });

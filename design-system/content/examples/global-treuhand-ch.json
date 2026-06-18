@@ -158,7 +158,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✗ Über-uns-Seite im Scrape",
-        "page:team": "✗ Team-Seite + echte Mitglieder",
+        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -168,7 +168,7 @@
       "hero.aside",
       "values",
       "look.colors (generated)",
-      "team.members"
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
@@ -185,16 +185,11 @@
     ]
   },
   "media": {
-    "hero": "/images/global-treuhand-ch/hero.jpg",
+    "hero": "/images/global-treuhand-ch/pool/stock-desk-8872717.jpg",
     "badges": [],
     "photos": [
-      "/images/global-treuhand-ch/pool/3708f2842a__1201156.jpg",
-      "/images/global-treuhand-ch/pool/e453619349__325457.jpg",
       "/images/global-treuhand-ch/pool/6b8689a28a__214352.jpg",
-      "/images/global-treuhand-ch/pool/90eab12dea__325447.jpg",
-      "/images/global-treuhand-ch/pool/47da750549__956862.png",
-      "/images/global-treuhand-ch/pool/2bce52f204__956863.png",
-      "/images/global-treuhand-ch/pool/38e672c6bf__706096.jpg"
+      "/images/global-treuhand-ch/pool/90eab12dea__325447.jpg"
     ],
     "serviceImages": {},
     "documents": [
@@ -207,23 +202,6 @@
     ],
     "assets": [
       {
-        "src": "/images/global-treuhand-ch/pool/3708f2842a__1201156.jpg",
-        "kind": "photo",
-        "alt": "",
-        "bytes": 28929,
-        "width": 1600,
-        "height": 900,
-        "orientation": "landscape",
-        "subject": "generic",
-        "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
         "src": "/images/global-treuhand-ch/pool/e453619349__325457.jpg",
         "kind": "photo",
         "alt": "",
@@ -231,12 +209,11 @@
         "width": 2000,
         "height": 1603,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "portrait",
+        "phash": "4d0d0d07164e4e48",
+        "quality": 0.59,
+        "faces": 1,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
           "feature"
         ]
       },
@@ -248,26 +225,16 @@
         "width": 1600,
         "height": 1067,
         "orientation": "landscape",
-        "subject": "generic",
+        "subject": "office",
+        "phash": "4f2f0f8ec020e081",
+        "quality": 0.78,
+        "faces": 0,
         "roles": [
           "gallery",
           "hero",
           "background",
           "service",
           "feature"
-        ]
-      },
-      {
-        "src": "/images/global-treuhand-ch/pool/47da750549__956862.png",
-        "kind": "photo",
-        "alt": "BELA CLEAN",
-        "bytes": 46814,
-        "width": 600,
-        "height": 600,
-        "orientation": "square",
-        "subject": "generic",
-        "roles": [
-          "service"
         ]
       },
       {
@@ -279,12 +246,11 @@
         "height": 1325,
         "orientation": "landscape",
         "subject": "generic",
+        "phash": "f0f13464f0f87d0",
+        "quality": 0.34,
+        "faces": 0,
         "roles": [
-          "gallery",
-          "hero",
-          "background",
-          "service",
-          "feature"
+          "gallery"
         ]
       },
       {
@@ -296,28 +262,41 @@
         "height": 1600,
         "orientation": "portrait",
         "subject": "portrait",
+        "phash": "f336969cc8c8e8e",
+        "quality": 0.61,
+        "faces": 1,
         "roles": [
-          "gallery",
           "feature"
         ]
       },
       {
-        "src": "/images/global-treuhand-ch/pool/2bce52f204__956863.png",
-        "kind": "photo",
-        "alt": "Master Investment",
-        "bytes": 19437,
-        "width": 600,
-        "height": 600,
-        "orientation": "square",
-        "subject": "generic",
+        "src": "/images/global-treuhand-ch/pool/stock-desk-8872717.jpg",
+        "kind": "hero",
+        "alt": "",
+        "bytes": 240383,
+        "width": 1880,
+        "height": 1253,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "MART  PRODUCTION (Pexels)",
+        "source": "https://www.pexels.com/photo/high-angle-shot-of-a-typewriter-and-money-on-the-table-8872717/",
+        "quality": 0.85,
+        "faces": 0,
         "roles": [
-          "service"
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
         ]
       }
     ],
+    "stock": true,
+    "credits": [
+      "MART  PRODUCTION (Pexels)"
+    ],
     "sectionBackgrounds": [
-      "/images/global-treuhand-ch/pool/3708f2842a__1201156.jpg",
-      "/images/global-treuhand-ch/pool/e453619349__325457.jpg",
       "/images/global-treuhand-ch/pool/6b8689a28a__214352.jpg"
     ]
   },
@@ -349,7 +328,7 @@
     "asideLabel": "Über uns",
     "asideQuote": "Wir fokussieren uns auf die Buchführung für kleine bis mittlere Unternehmen in Kloten & Umgebung. Wenn Sie zufrieden sind, sind wir es auch.",
     "asideAttribution": "Global-Treuhand GmbH",
-    "image": "/images/global-treuhand-ch/hero.jpg"
+    "image": "/images/global-treuhand-ch/pool/stock-desk-8872717.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -431,26 +410,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Global-Treuhand Team",
-        "role": "Geschäftsführung",
-        "initials": "GL",
-        "bio": "Eidg. dipl. Treuhandexperte mit langjähriger Erfahrung in der Betreuung von KMU."
-      },
-      {
-        "name": "Mandatsleitung",
-        "role": "Treuhand & Steuern",
-        "initials": "ML",
-        "bio": "Verantwortlich für Buchhaltung, Abschlüsse und Steuerberatung Ihrer Mandate."
-      },
-      {
-        "name": "Kundenbetreuung",
-        "role": "Lohn & Administration",
-        "initials": "KB",
-        "bio": "Ihre erste Ansprechperson für Lohnwesen, Sozialversicherungen und Administration."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",

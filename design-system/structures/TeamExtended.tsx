@@ -4,7 +4,7 @@
  * Each renders the firm's real portrait (member.photo) or an initials monogram.
  */
 import React from "react";
-import { Container } from "./primitives";
+import { Container, PORTRAIT_FOCUS } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
 import type { TeamContent, TeamMember } from "../content/types";
 
@@ -16,7 +16,7 @@ const bio: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: 
 const photoBg = (m: TeamMember, extra?: React.CSSProperties): React.CSSProperties => ({
   background: "var(--ds-primary-soft)", color: "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center",
   fontFamily: "var(--ds-font-heading)", fontWeight: 700, overflow: "hidden",
-  ...(m.photo ? { backgroundImage: `url("${m.photo}")`, backgroundSize: "cover", backgroundPosition: "center top" } : {}), ...extra,
+  ...(m.photo ? { backgroundImage: `url("${m.photo}")`, backgroundSize: "cover", backgroundPosition: PORTRAIT_FOCUS } : {}), ...extra,
 });
 
 /** 1) Centered round avatars, name/role below. */
@@ -108,7 +108,7 @@ export const TeamOverlay: React.FC<Props> = ({ content, more }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.members.length, 4)}, minmax(0,1fr))`, gap: "1.2rem" }}>
         {content.members.map((m, i) => (
-          <div key={i} role="img" aria-label={m.name} style={{ position: "relative", height: "16rem", borderRadius: "var(--ds-radius)", overflow: "hidden", border: "1px solid var(--ds-border)", ...photoBg(m, { alignItems: "center", justifyContent: "center", fontSize: "2.4rem" }) }}>
+          <div key={i} role="img" aria-label={m.name} style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "var(--ds-radius)", overflow: "hidden", border: "1px solid var(--ds-border)", ...photoBg(m, { alignItems: "center", justifyContent: "center", fontSize: "2.4rem" }) }}>
             {!m.photo && <span>{m.initials}</span>}
             <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, padding: "1rem", background: "linear-gradient(to top, rgba(0,0,0,0.78), rgba(0,0,0,0))" }}>
               <h3 style={{ ...name, color: "#fff" }}>{m.name}</h3>
