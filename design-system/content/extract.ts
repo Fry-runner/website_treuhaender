@@ -14,7 +14,7 @@ import { createHash } from "node:crypto";
 import { type ArchetypeId } from "../blueprints.ts";
 import { whyUsPillars, canonicalFaq } from "./ch.ts";
 import type { SiteContent, MediaLibrary, MediaAsset, MediaKind, Orientation, ImageSubject, ImageRole, DocAsset, DocKind } from "./types.ts";
-import type { ProcessContent, AudienceContent, AboutContent, StepItem, AudienceItem, FeatureContent } from "./sectionContent.ts";
+import type { ProcessContent, AudienceContent, AboutContent, StepItem, AudienceItem, FeatureContent, HistoryContent, HistoryEntry } from "./sectionContent.ts";
 import { imageSize } from "./imageSize.ts";
 import { extractBrand } from "./brand.ts";
 import { deriveLook, fontsToLoad } from "../looks/deriveLook.ts";
@@ -1375,19 +1375,86 @@ function realTagline(): string | undefined {
 function realAbout(): AboutContent | undefined {
   const scan = dePages.filter((p) => {
     const hay = `${p.url || ""} ${p.title || ""}`;
-    return /ueber-?uns|über-?uns|about-?us|\babout\b|philosoph|leitbild|wer-wir|unternehmen|portrait|portr[äa]t|firma|geschichte|wir-ueber/i.test(hay)
-      && !/blog|news|ratgeber|aktuell|artikel|magazin|publikation|\/20\d\d\//i.test(hay);
+    // A genuine ABOUT/company page — NOT a how-to guide, ratgeber or blog. "firma" is
+    // deliberately gone (it matched "EinzelFIRMA" / "FIRMengründung-guide"); a guide is
+    // excluded even if its SEO title says "Unternehmen gründen". Bare path segments
+    // (/wir, /team, /uns) are matched too (e.g. budliger.ch/wir).
+    const isAbout = /ueber-?uns|über-?uns|about-?us|\babout\b|philosoph|leitbild|wer-wir|unternehmensprofil|firmenportr[äa]t|\bportrait\b|portr[äa]t|wir-ueber|unser-?team|\/(wir|team|uns)\b/i.test(hay);
+    const isGuide = /blog|news|ratgeber|aktuell|artikel|magazin|publikation|guide|leitfaden|tipps?|\bwissen\b|\bfaq\b|gr[üu]ndung|checkliste|\/20\d\d\//i.test(hay);
+    return isAbout && !isGuide;
   });
+  const WE = /\b(wir|uns|unser|unsere|unserem|unseren|unserer)\b/i;
+  // A real about PARAGRAPH: a complete sentence (not a truncated "… je nach Kanton. In"
+  // fragment), no SEO meta-title pipe, German, non-boilerplate.
+  // NB: VALUE_STOP is deliberately NOT applied to paragraph bodies — it lists section
+  // labels (Team, Leistungen, …) that legitimately appear inside about prose ("Ich und
+  // mein Team …"); it stays on the heading filter only.
+  const okPara = (t: string) => t.length >= 70 && t.length <= 520
+    && /[.!?]["»“)]?$/.test(t) && !/\s[|·]\s/.test(t)
+    && !SVC_BOILER.test(t) && !looksFrench(t);
   for (const p of scan) {
     const bl = pageContentBlocks(p);
-    const paras = [...new Set(bl.filter((b) => b.tag === "p" && b.text.length >= 60 && b.text.length <= 520
-      && /[.!?]/.test(b.text) && !SVC_BOILER.test(b.text) && !VALUE_STOP.test(b.text) && !looksFrench(b.text)).map((b) => b.text))];
-    if (paras.length < 2) continue;
+    const paras = [...new Set(bl.filter((b) => b.tag === "p" && okPara(b.text)).map((b) => b.text))];
+    // The page must speak AS THE FIRM (we-language) — generic guide prose ("Die
+    // Gründungskosten variieren je nach Kanton …") never does, so it's filtered out.
+    // A single solid we-paragraph is enough (lead-only); extras ride along.
+    const lead = paras.find((t) => WE.test(t));
+    if (!lead) continue;
+    const rest = paras.filter((t) => t !== lead).slice(0, 3);
     const heads = [...(p.headings?.h1 || []), ...(p.headings?.h2 || [])].map((h: string) => fixEncoding(h).trim())
-      .filter((h) => h.length >= 6 && h.length <= 70 && !/\?$/.test(h) && !VALUE_STOP.test(h) && !/^\d/.test(h) && /[a-zäöü]/i.test(h) && !looksFrench(h));
-    return { eyebrow: "Über uns", heading: heads[0] || "Über uns", lead: paras[0], paragraphs: paras.slice(1, 4) };
+      .filter((h) => h.length >= 6 && h.length <= 70 && !/\?$/.test(h) && !/\s[|·]\s/.test(h) && !VALUE_STOP.test(h) && !/^\d/.test(h) && /[a-zäöü]/i.test(h) && !looksFrench(h));
+    // Heading must NOT echo the page-header title ("Über uns"); fall back to a distinct
+    // sub-headline when the page exposes no usable own heading.
+    return { eyebrow: "Über uns", heading: heads[0] || "Wer wir sind", lead, paragraphs: rest };
   }
   return undefined;
+}
+
+/** REAL company timeline: dated milestones (year + event) from the firm's own
+ *  Geschichte / Chronik / About page. Conservative — needs ≥3 DISTINCT years each
+ *  with a multi-word event (so a postal code / address like "8032 Zürich" can never
+ *  pose as a milestone). Omitted entirely when too sparse — never scaffolded. */
+function realHistory(): HistoryContent | undefined {
+  const scan = dePages.filter((p) => {
+    const hay = `${p.url || ""} ${p.title || ""}`;
+    return /geschichte|chronik|historie|history|meilenstein|werdegang|tradition|firmengeschichte|ueber-?uns|über-?uns|unternehmen/i.test(hay)
+      && !/blog|news|ratgeber|aktuell|artikel|magazin|publikation|\/20\d\d\//i.test(hay);
+  });
+  const seen = new Set<string>();
+  const entries: HistoryEntry[] = [];
+  const add = (year: string, raw: string) => {
+    const y = +year; if (!(y >= 1850 && y <= 2026)) return;
+    const body = (raw || "").replace(/^[\s–—:.\-•|]+/, "")
+      // strip a leading range END-year or "heute" ("1982–1990 Banklehre" → "Banklehre")
+      .replace(/^(?:(?:18|19|20)\d{2}|bis heute|heute)\s*[–—:.\-]?\s*/i, "")
+      .replace(/\s+/g, " ").trim();
+    if (body.length < 12 || body.length > 240 || !/\s/.test(body)) return; // single word ⇒ likely a city, not an event
+    if (looksFrench(body) || SVC_BOILER.test(body) || /^(impressum|datenschutz|cookie)/i.test(body)) return;
+    if (seen.has(year)) return; seen.add(year);
+    entries.push({ year, body });
+  };
+  for (const p of scan) {
+    const bl = pageContentBlocks(p);
+    // (a) a heading/dt that IS or STARTS WITH a year → inline rest, else the next p/dd.
+    for (let i = 0; i < bl.length - 1 && entries.length < 8; i++) {
+      const m = bl[i].text.match(/^\s*((?:18|19|20)\d{2})\b\s*[–—:.\-]?\s*(.*)$/);
+      if (!m) continue;
+      const rest = m[2].trim(), nx = bl[i + 1];
+      add(m[1], rest.length >= 12 ? rest : (nx && /^(p|dd)$/.test(nx.tag) ? nx.text : ""));
+    }
+    // (b) inline "YYYY – Event …" lines — a separator is REQUIRED, so a bare
+    //     "8032 Zürich" address never matches.
+    if (entries.length < 3) {
+      for (const l of fixEncoding(p.text || "").split(/\n+/).map((s) => s.trim())) {
+        const m = l.match(/^((?:18|19|20)\d{2})\s*[–—:.\-]\s*(.{12,200})$/);
+        if (m) add(m[1], m[2]);
+      }
+    }
+    if (entries.length >= 3) break;
+  }
+  if (entries.length < 3) return undefined;
+  entries.sort((a, b) => +a.year - +b.year);
+  return { heading: "Unsere Geschichte", entries: entries.slice(0, 8) };
 }
 
 /** REAL "So arbeiten wir" process: numbered step headings (+ body) from a page
@@ -1568,6 +1635,7 @@ const faqItems = realFaq();
 const tagline = realTagline();
 // --- real editorial sections (or omitted → composer renders a neutral default) ---
 const aboutContent = realAbout();
+const historyContent = realHistory();
 const processContent = realProcess();
 const audienceContent = realAudience();
 const hours = realHours();
@@ -1630,7 +1698,7 @@ const content: SiteContent = {
       realTeam && realTeam.some((m) => m.photo) ? "team.photos" : null,
       testimonialItems ? "testimonials" : null, statItems ? "stats" : null,
       valueItems ? "values" : null, faqItems ? "faq" : null,
-      aboutContent ? "about" : null, processContent ? "process" : null,
+      aboutContent ? "about" : null, historyContent ? "history" : null, processContent ? "process" : null,
       audienceContent ? "audience" : null, featureAngles ? "feature" : null,
       hours ? "contact.hours" : null,
       tagline ? "footer.tagline" : null, testimonialItems ? "hero.aside" : null,
@@ -1666,6 +1734,7 @@ const content: SiteContent = {
   // Scrape-driven where the firm exposed it; undefined ⇒ composer renders a neutral
   // default (omitted from the JSON, so the provenance flags it as "(generic)").
   about: aboutContent,
+  history: historyContent,
   process: processContent,
   audience: audienceContent,
   featureAngles,
@@ -1719,6 +1788,6 @@ const dropped = ["partners", "team", "testimonials", "stats", "pricing"].filter(
 console.log(`Extracted ${slug} -> archetype=${arch} base=${basePresetId} color=${derived.tokens.color.primary} (${derived.colourSource}; scraped=${brand.primary ?? "none"}/${brand.confidence})${brand.heading ? " font=" + brand.heading.family : ""}`);
 console.log(`  media: ${media.assets.length} assets (logo=${media.logo ? "y" : "n"} badges=${media.badges.length} photos=${media.photos.length} serviceImages=${Object.keys(media.serviceImages || {}).length}) docs=${media.documents.length} optimized=${opt.n} (-${(opt.saved / 1048576).toFixed(1)}MB) prunedLowQ=${droppedLowQ} faces=${facePhotos} clip=${clip.refined}r/${clip.removed}x stock=${stockN}${media.stock ? " (CC fallback)" : ""}`);
 console.log(`  homepage: ${brief.homepageSlots.join(" › ")}`);
-console.log(`  editorial: about=${aboutContent ? "y" : "n"} process=${processContent ? processContent.steps.length + "steps" : "n"} audience=${audienceContent ? audienceContent.items.length + "items" : "n"} feature=${featureAngles ? featureAngles.length + "angles" : "generic"} hours=${hours ? "y(" + hours + ")" : "n"}`);
+console.log(`  editorial: about=${aboutContent ? "y" : "n"} history=${historyContent ? historyContent.entries.length + "yrs" : "n"} process=${processContent ? processContent.steps.length + "steps" : "n"} audience=${audienceContent ? audienceContent.items.length + "items" : "n"} feature=${featureAngles ? featureAngles.length + "angles" : "generic"} hours=${hours ? "y(" + hours + ")" : "n"}`);
 console.log(`  dropped:  ${dropped.length ? dropped.join(", ") : "none"}  | pages: ${brief.pageRefs.map((r) => r.pageType).join(", ")}`);
 console.log(`  fns: booking=${fns.onlineBooking} jobs=${fns.jobs} | media=${media.assets.length}(logo=${media.logo ? "y" : "n"} badges=${media.badges.length})`);

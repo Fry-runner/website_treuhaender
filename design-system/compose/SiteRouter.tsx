@@ -13,12 +13,14 @@ import { HOME_MAX_CONTENT, HOME_DROP_ORDER, PREVIEW, PREVIEW_PREF } from "../ia-
 import { presets } from "../tokens";
 import { planSite, heroById, pageHeaderById, sectionComponent, decollideSections, spaciousTeamVariant } from "../variants/select";
 import { dedupeImages } from "../content/uniqueImages";
-import { PrimaryStyleProvider, type PrimaryStyle } from "../structures/primitives";
+import { PrimaryStyleProvider, MoreStyleProvider, type PrimaryStyle } from "../structures/primitives";
 import { IconSetProvider, iconSetById } from "../icons/iconSets";
 import { NavigationContext } from "./nav-context";
 import { Reveal } from "../motion/Reveal";
 import { useBrandFonts } from "../looks/useBrandFonts";
 import { ResponsiveStyles } from "../structures/Responsive";
+import { MotionStyles } from "../motion/MotionStyles";
+import { motionStyleForKit } from "../motion/motionStyle";
 import { defaultProcess, defaultAudience, defaultAbout, featureBand, withGenericSlots, enforceImageRhythm } from "../content/sectionDefaults";
 import { firmHeadings } from "../content/sectionHeads";
 import { stockPick, STOCK_TOPICS } from "./pitchStock";
@@ -247,19 +249,30 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
     return { items: capped, more: { label: def.label, href: target.slug } };
   }
 
+  // R1 — a subpage's page-header already shows the page TITLE as its H1, so a content
+  // section serving that page must NEVER repeat it as its own heading ("Über uns" under
+  // an "Über uns" header). `ddh` blanks such an echo (SectionHead then renders headless);
+  // the About section, whose variants can render the heading directly, gets a DISTINCT
+  // sub-headline instead so it never shows an empty head.
+  const normHead = (s?: string) => (s || "").toLowerCase().replace(/[^a-z0-9äöüé]/gi, "");
+  const echoesPageTitle = (h?: string) => !isHome && !!h && normHead(h) === normHead(page.title);
+  const ddh = (h?: string): string => echoesPageTitle(h) ? "" : (h ?? "");
+  const ABOUT_ALT = ["Wer wir sind.", "Das sind wir.", "Lernen Sie uns kennen.", "Hinter Ihren Zahlen."];
+  const aboutAlt = ABOUT_ALT[genericHash(content.meta.domain || content.meta.firm || "x") % ABOUT_ALT.length];
+
   const renderSlot = (s: string, i: number): React.ReactNode => {
     switch (s) {
       case "nav": return <Nav key={i} content={navContent} current={page.slug} />;
       case "footer": return <Footer key={i} content={content.footer} />;
       case "hero": return <HeroComp key={i} content={content.hero} />;
       case "page-header": { const PH = pageHeaderById(plan.pageHeaderId).component; return <PH key={i} title={page.title} image={headerImageFor(page)} />; }
-      case "services": { const C = sectionComponent("services", renderPlan) ?? Services; const { items, more } = sectionTeaser("services", content.services.items); return <C key={i} content={{ ...content.services, ...heads.services, items }} more={more} onPick={servicePick} />; }
+      case "services": { const C = sectionComponent("services", renderPlan) ?? Services; const { items, more } = sectionTeaser("services", content.services.items); return <C key={i} content={{ ...content.services, ...heads.services, heading: ddh(heads.services.heading), items }} more={more} onPick={servicePick} />; }
       case "service-body": {
         const it = content.services.items.find((x) => x.title === page.item);
         return it ? <ServiceBody key={i} title={it.title} summary={it.summary} bullets={it.bullets ?? SERVICE_BULLETS} body={it.body} image={it.image} /> : null;
       }
-      case "team": { const C = sectionComponent("team", renderPlan) ?? Team; const { items, more } = sectionTeaser("team", content.team.members); const members = items.map((m) => ({ ...m, role: cleanRole(m.role) })); return <C key={i} content={{ ...content.team, ...heads.team, members }} more={more} />; }
-      case "pricing": { const C = sectionComponent("pricing", renderPlan) ?? Pricing; const { items, more } = sectionTeaser("pricing", content.pricing.tiers); return <C key={i} content={{ ...content.pricing, ...heads.pricing, tiers: items }} more={more} />; }
+      case "team": { const C = sectionComponent("team", renderPlan) ?? Team; const { items, more } = sectionTeaser("team", content.team.members); const members = items.map((m) => ({ ...m, role: cleanRole(m.role) })); return <C key={i} content={{ ...content.team, ...heads.team, heading: ddh(heads.team.heading), members }} more={more} />; }
+      case "pricing": { const C = sectionComponent("pricing", renderPlan) ?? Pricing; const { items, more } = sectionTeaser("pricing", content.pricing.tiers); return <C key={i} content={{ ...content.pricing, ...heads.pricing, heading: ddh(heads.pricing.heading), tiers: items }} more={more} />; }
       case "related": {
         // Two further services + a "back to all services" button (third grid cell) —
         // never three more cards with no way back to the overview.
@@ -271,11 +284,13 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
             onAll={overview ? () => navigate(overview.slug) : undefined} />
         );
       }
-      case "values": { const C = sectionComponent("values", renderPlan) ?? Values; const { items, more } = sectionTeaser("values", content.values.items); return <C key={i} content={{ ...content.values, ...heads.values, items }} more={more} />; }
+      case "values": { const C = sectionComponent("values", renderPlan) ?? Values; const { items, more } = sectionTeaser("values", content.values.items); return <C key={i} content={{ ...content.values, ...heads.values, heading: ddh(heads.values.heading), items }} more={more} />; }
       case "stats": { const C = sectionComponent("stats", renderPlan) ?? Stats; return <C key={i} content={{ ...content.stats, items: statItems }} />; }
       case "process": { const C = sectionComponent("process", renderPlan); return C ? <C key={i} content={content.process ?? defaultProcess(genericVariant)} /> : null; }
       case "audience": { const C = sectionComponent("audience", renderPlan); if (!C) return null; const a = content.audience ?? defaultAudience(genericVariant); return <C key={i} content={isHome ? { ...a, items: a.items.slice(0, 3) } : a} />; }
-      case "about": { const C = sectionComponent("about", renderPlan); if (!C) return null; return <C key={i} content={content.about ?? defaultAbout()} />; }
+      case "about": { const C = sectionComponent("about", renderPlan); if (!C) return null; const a = content.about ?? defaultAbout(); const heading = echoesPageTitle(a.heading) ? aboutAlt : a.heading; return <C key={i} content={{ ...a, heading }} />; }
+      // Scrape-ONLY: rendered solely from real dated milestones, never scaffolded.
+      case "history": { const C = sectionComponent("history", renderPlan); if (!C || !content.history) return null; return <C key={i} content={content.history} />; }
       case "feature": { const C = sectionComponent("feature", renderPlan); if (!C || !scenePool.length) return null; const ord = rhythmSections.slice(0, i).filter((x) => x === "feature").length; return <C key={i} content={featureBand(featureImageAt(ord), ord, content.featureAngles)} />; }
       case "testimonials": { const C = sectionComponent("testimonials", renderPlan) ?? Testimonials; return <C key={i} content={{ ...content.testimonials, ...heads.testimonials }} />; }
       case "faq": { const C = sectionComponent("faq", renderPlan) ?? Faq; const fq = { ...content.faq, ...heads.faq }; return <C key={i} content={isHome ? { ...fq, items: fq.items.slice(0, 5) } : fq} />; }
@@ -316,6 +331,9 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       case "faq": return content.faq.items.length > 0;
       case "partners": return content.trust.items.length > 0 || (content.media?.badges?.length ?? 0) > 0;
       case "gallery": return galleryContent.images.length >= 3 || !!sectionOverrides?.["gallery"];
+      // Company timeline: ONLY when ≥3 real dated milestones were scraped, else the
+      // slot is dropped from the page entirely (never an empty or scaffolded section).
+      case "history": return (content.history?.entries.length ?? 0) >= 3;
       // Phantom slots that render nothing must NOT survive into the section list:
       // otherwise the image-rhythm pass counts them as image-less content and pads a
       // generic feature band between them (e.g. a "let's talk" band under the contact
@@ -428,10 +446,12 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   renderPlan = { ...activePlan, sections: decollided };
 
   return (
-    <div style={applyLook(look)}>
+    <div className="ds-motion" data-motion={motionStyleForKit(plan.kitId)} style={applyLook(look)}>
       <ResponsiveStyles />
+      <MotionStyles />
       <IconSetProvider value={iconSetById(plan.iconSetId)}>
       <PrimaryStyleProvider value={buttonStyle}>
+      <MoreStyleProvider value={plan.moreStyle}>
         <NavigationContext.Provider value={navigate}>
           {rhythmSections.map((s, i) => {
             const node = renderSlot(s, i);
@@ -441,6 +461,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
             return <Reveal key={i}>{node}</Reveal>;
           })}
         </NavigationContext.Provider>
+      </MoreStyleProvider>
       </PrimaryStyleProvider>
       </IconSetProvider>
     </div>

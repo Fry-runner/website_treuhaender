@@ -20,8 +20,8 @@ export const FaqIconQ: React.FC<Props> = ({ content }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
       <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
         {content.items.map((f, i) => (
-          <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1rem", background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem" }}>
-            <div style={{ width: "2.2rem", height: "2.2rem", borderRadius: "9999px", background: "var(--ds-primary-soft)", color: "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 700, fontFamily: "var(--ds-font-mono)" }}>?</div>
+          <div key={i} className="ds-card" style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1rem", background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem" }}>
+            <div style={{ width: "2.2rem", height: "2.2rem", borderRadius: "9999px", background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 700, fontFamily: "var(--ds-font-mono)" }}>?</div>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}><h3 style={q}>{f.q}</h3><p style={a}>{f.a}</p></div>
           </div>
         ))}
@@ -72,7 +72,7 @@ export const FaqThreeCol: React.FC<Props> = ({ content }) => (
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.8rem 2rem" }}>
         {content.items.map((f, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
-            <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.7rem", color: "var(--ds-primary)", fontWeight: 700 }}>{num(i)}</span>
+            <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.7rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>{num(i)}</span>
             <h3 style={q}>{f.q}</h3><p style={a}>{f.a}</p>
           </div>
         ))}
@@ -88,7 +88,7 @@ export const FaqCardsBordered: React.FC<Props> = ({ content }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px,1fr))", gap: "1rem" }}>
         {content.items.map((f, i) => (
-          <div key={i} style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+          <div key={i} className="ds-card" style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
             <h3 style={q}>{f.q}</h3><p style={a}>{f.a}</p>
           </div>
         ))}
@@ -121,8 +121,8 @@ export const FaqNumberedCards: React.FC<Props> = ({ content }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.2rem" }}>
         {content.items.map((f, i) => (
-          <div key={i} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-            <div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "1.6rem", color: "var(--ds-primary)" }}>{num(i)}</div>
+          <div key={i} className="ds-card" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+            <div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "1.6rem", color: "var(--ds-primary-ink, var(--ds-primary))" }}>{num(i)}</div>
             <h3 style={q}>{f.q}</h3><p style={a}>{f.a}</p>
           </div>
         ))}
@@ -164,7 +164,7 @@ export const FaqHighlightFirst: React.FC<Props> = ({ content }) => {
           {rest.map((f, i) => (
             <div key={i} style={{ borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
               <button aria-expanded={open === i} aria-controls={`${uid}-p${i}`} onClick={() => setOpen(open === i ? -1 : i)} style={{ width: "100%", textAlign: "left", background: open === i ? "var(--ds-surface)" : "transparent", border: "none", cursor: "pointer", padding: "1rem 1.4rem", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
-                <span style={q}>{f.q}</span><span style={{ color: "var(--ds-primary)", lineHeight: 1, display: "inline-flex" }}>{open === i ? <Icon name="minus" size={18} /> : <Icon name="plus" size={18} />}</span>
+                <span style={q}>{f.q}</span><span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 1, display: "inline-flex" }}>{open === i ? <Icon name="minus" size={18} /> : <Icon name="plus" size={18} />}</span>
               </button>
               {open === i && <p id={`${uid}-p${i}`} role="region" style={{ ...a, padding: "0 1.4rem 1.1rem" }}>{f.a}</p>}
             </div>

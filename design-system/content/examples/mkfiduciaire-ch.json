@@ -165,7 +165,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -196,6 +195,7 @@
       "footer.tagline",
       "process (generic)",
       "audience (generic)",
+      "about (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -204,7 +204,6 @@
       "contact.email",
       "contact.phone",
       "services.text",
-      "about",
       "feature",
       "trust.items",
       "media.pool",
@@ -519,15 +518,6 @@
     "eyebrow": "Warum wir",
     "heading": "Ihr Vorteil.",
     "items": []
-  },
-  "about": {
-    "eyebrow": "Über uns",
-    "heading": "Gründungsschritte einer GmbH",
-    "lead": "Firmengründung in der Schweiz 2026: GmbH, AG oder Einzelfirma? | MK Treuhand",
-    "paragraphs": [
-      "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In",
-      "3-7 Tage. Die Notarkosten sind in der Deutschschweiz generell etwas tiefer als in der Romandie."
-    ]
   },
   "featureAngles": [
     {

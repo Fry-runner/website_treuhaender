@@ -167,7 +167,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -208,6 +207,7 @@
       "services.text",
       "stats",
       "about",
+      "history",
       "feature",
       "footer.tagline",
       "trust.items",
@@ -590,11 +590,37 @@
   },
   "about": {
     "eyebrow": "Über uns",
-    "heading": "Über uns",
-    "lead": "und Abgaben. Dieses Ziel verfolgen wir erfolgreich seit unserer Gründung im Jahre 1997.",
-    "paragraphs": [
-      "Das digitale Zeitalter hat bei uns schon vor ein paar Jahren Einzug gehalten. Gerne zeigen wir Ihnen die",
-      ", die Ihren administrativen Alltag wesentlich erleichtern und Kosten reduzieren werden."
+    "heading": "Die Geschichte der Hermann Treuhand GmbH",
+    "lead": "Ich und mein Team setzen uns für Sie und Ihren geschätzten Auftrag ein. Ich bin bedacht, dass Sie eine hervorragende Qualität und einen echten Mehrwert durch unsere Beratung und Service erhalten. Auf eine persönliche und kompetente Betreuung können Sie immer zählen.",
+    "paragraphs": []
+  },
+  "history": {
+    "heading": "Unsere Geschichte",
+    "entries": [
+      {
+        "year": "1982",
+        "body": "Banklehre bei der Thurgauer Kantonalbank in Sirnach"
+      },
+      {
+        "year": "1985",
+        "body": "Buchhaltungs-/Treuhandsachbearbeiter in Zürcher Treuhandbüro"
+      },
+      {
+        "year": "1988",
+        "body": "Fachmann Finanz- & Rechnungswesen mit eidg. Fachausweis"
+      },
+      {
+        "year": "1991",
+        "body": "Leiter Finanzen/Rechnungswesen bei der Soffex AG u. Schweizer Börse (SIX) in Zürich"
+      },
+      {
+        "year": "1995",
+        "body": "Kunden-/Mandatsleiter in Winterthurer Treuhandbüro"
+      },
+      {
+        "year": "1997",
+        "body": "Geschäftsführer und Inhaber der Hermann Treuhand GmbH in Winterthur"
+      }
     ]
   },
   "featureAngles": [

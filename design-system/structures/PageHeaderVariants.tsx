@@ -52,7 +52,7 @@ export const PageHeaderEditorial: React.FC<PageHeaderProps> = ({ title }) => (
     <Container style={{ paddingBlock: "calc(var(--ds-section-y) * 1.1)" }}>
       <div aria-hidden style={{ height: 2, background: "var(--ds-text)", marginBottom: "clamp(1.4rem, 4vw, 2.6rem)" }} />
       <h1 style={{ ...titleS, fontSize: "clamp(2.6rem, 1.6rem + 4vw, 4.4rem)" }}>
-        {title}{/[.!?]$/.test(title) ? null : <span style={{ color: "var(--ds-primary)" }}>.</span>}
+        {title}{/[.!?]$/.test(title) ? null : <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))" }}>.</span>}
       </h1>
     </Container>
   </section>

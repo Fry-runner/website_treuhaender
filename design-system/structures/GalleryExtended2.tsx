@@ -4,7 +4,7 @@
  */
 import React from "react";
 import { Container } from "./primitives";
-import { SectionHead, type MoreLink } from "./SectionHead";
+import { SectionHead, SectionMore, type MoreLink } from "./SectionHead";
 import { useNavigate } from "../compose/nav-context";
 import { Icon } from "../icons/iconSets";
 import type { GalleryContent } from "./GalleryExtended";
@@ -72,8 +72,8 @@ export const GalleryPolaroid: React.FC<Props> = ({ content, more }) => {
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1.4rem" }}>
           {imgs.map((src, i) => (
-            <div key={i} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", boxShadow: "var(--ds-shadow-card)", padding: "0.6rem 0.6rem 1.4rem", transform: `rotate(${i % 2 ? 2 : -2}deg)` }}>
-              <div aria-hidden style={{ width: "180px", height: "180px", ...cover(src) }} />
+            <div key={i} className="ds-img-zoom" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", boxShadow: "var(--ds-shadow-card)", padding: "0.6rem 0.6rem 1.4rem", transform: `rotate(${i % 2 ? 2 : -2}deg)` }}>
+              <div className="ds-zoom" aria-hidden style={{ width: "180px", height: "180px", ...cover(src) }} />
             </div>
           ))}
         </div>
@@ -149,9 +149,7 @@ export const GalleryFrameSingle: React.FC<Props> = ({ content, more }) => {
         </div>
         <div style={{ textAlign: "center", marginTop: "1.2rem", display: "flex", flexDirection: "column", alignItems: "center", gap: "0.9rem" }}>
           <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>{content.heading}</span>
-          {more && (
-            <a href={more.href} onClick={(e) => { e.preventDefault(); nav(more.href); }} style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.74rem",   color: "var(--ds-primary)", textDecoration: "none", borderBottom: "2px solid var(--ds-primary)", paddingBottom: "0.25rem", cursor: "pointer" }}>{more.label}<Icon name="arrowRight" size={13} style={{ verticalAlign: "-0.1em", marginLeft: "0.35em" }} /></a>
-          )}
+          {more && <SectionMore link={more} />}
         </div>
       </Container>
     </section>

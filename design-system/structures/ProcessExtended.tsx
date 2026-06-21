@@ -26,7 +26,7 @@ export const ProcessNumberedRows: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <div>{content.steps.map((s, i) => (
       <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.4rem", padding: "1.3rem 0", borderTop: "1px solid var(--ds-border)", alignItems: "baseline" }}>
-        <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "1.2rem", color: "var(--ds-primary)", fontWeight: 700 }}>{num(i)}</span>
+        <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "1.2rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>{num(i)}</span>
         <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}><h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.body}</p></div>
       </div>
     ))}</div>
@@ -72,7 +72,7 @@ export const ProcessCards: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
     <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.2rem" }}>
       {content.steps.map((s, i) => (
-        <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.7rem" }}>
+        <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.7rem" }}>
           <Dot i={i} /><h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.body}</p>
         </div>
       ))}
@@ -87,11 +87,11 @@ export const ProcessConnectedCards: React.FC<Props> = ({ content }) => (
     <div style={{ display: "flex", alignItems: "stretch", gap: "0.6rem", flexWrap: "wrap" }}>
       {content.steps.map((s, i) => (
         <React.Fragment key={i}>
-          <div style={{ flex: "1 1 12rem", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.4rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-            <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", color: "var(--ds-primary)", fontWeight: 700 }}>Schritt {num(i)}</span>
+          <div className="ds-card" style={{ flex: "1 1 12rem", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.4rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+            <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>Schritt {num(i)}</span>
             <h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.body}</p>
           </div>
-          {i < content.steps.length - 1 && <span aria-hidden style={{ alignSelf: "center", color: "var(--ds-primary)", display: "inline-flex" }}><Icon name="arrowRight" size={22} /></span>}
+          {i < content.steps.length - 1 && <span aria-hidden style={{ alignSelf: "center", color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex" }}><Icon name="arrowRight" size={22} /></span>}
         </React.Fragment>
       ))}
     </div>
@@ -107,7 +107,7 @@ export const ProcessZigzag: React.FC<Props> = ({ content }) => (
         const right = i % 2 === 1;
         return (
           <div key={i} style={{ display: "flex", justifyContent: right ? "flex-end" : "flex-start" }}>
-            <div style={{ maxWidth: "66%", display: "flex", gap: "1rem", alignItems: "flex-start", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem" }}>
+            <div className="ds-card" style={{ maxWidth: "66%", display: "flex", gap: "1rem", alignItems: "flex-start", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem" }}>
               <Dot i={i} /><div style={{ display: "flex", flexDirection: "column", gap: "0.35rem" }}><h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.body}</p></div>
             </div>
           </div>
@@ -123,7 +123,7 @@ export const ProcessBigIndex: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
     <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.4rem" }}>
       {content.steps.map((s, i) => (
-        <div key={i} style={{ position: "relative", overflow: "hidden", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+        <div key={i} className="ds-card" style={{ position: "relative", overflow: "hidden", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <span aria-hidden style={{ position: "absolute", top: "-0.6rem", right: "0.4rem", fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "4rem", color: "var(--ds-primary-soft)", lineHeight: 1 }}>{num(i)}</span>
           <h3 style={{ ...titleS, position: "relative" }}>{s.title}</h3><p style={{ ...bodyS, position: "relative" }}>{s.body}</p>
         </div>
@@ -155,8 +155,8 @@ export const ProcessArrowFlow: React.FC<Props> = ({ content }) => (
     <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "center", gap: "0.8rem" }}>
       {content.steps.map((s, i) => (
         <React.Fragment key={i}>
-          <span style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "var(--ds-primary-soft)", color: "var(--ds-text)", borderRadius: "var(--ds-radius-pill)", padding: "0.5rem 1rem", fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "0.92rem" }}><span style={{ color: "var(--ds-primary)", fontFamily: "var(--ds-font-mono)" }}>{num(i)}</span>{s.title}</span>
-          {i < content.steps.length - 1 && <span aria-hidden style={{ color: "var(--ds-primary)", display: "inline-flex", verticalAlign: "-0.1em" }}><Icon name="arrowRight" size={16} /></span>}
+          <span style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "var(--ds-primary-soft)", color: "var(--ds-text)", borderRadius: "var(--ds-radius-pill)", padding: "0.5rem 1rem", fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "0.92rem" }}><span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontFamily: "var(--ds-font-mono)" }}>{num(i)}</span>{s.title}</span>
+          {i < content.steps.length - 1 && <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex", verticalAlign: "-0.1em" }}><Icon name="arrowRight" size={16} /></span>}
         </React.Fragment>
       ))}
     </div>
@@ -174,8 +174,8 @@ export const ProcessAccordion: React.FC<Props> = ({ content }) => {
         {content.steps.map((s, i) => (
           <div key={i} style={{ borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
             <button type="button" aria-expanded={open === i} aria-controls={`${uid}-p${i}`} onClick={() => setOpen(open === i ? -1 : i)} style={{ width: "100%", textAlign: "left", background: open === i ? "var(--ds-bg)" : "transparent", border: "none", cursor: "pointer", padding: "1.1rem 1.4rem", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
-              <span style={{ display: "flex", gap: "0.8rem", alignItems: "center" }}><span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", color: "var(--ds-primary)", fontWeight: 700 }}>{num(i)}</span><span style={titleS}>{s.title}</span></span>
-              <span style={{ color: "var(--ds-primary)", lineHeight: 1, display: "inline-flex" }}>{open === i ? <Icon name="minus" size={18} /> : <Icon name="plus" size={18} />}</span>
+              <span style={{ display: "flex", gap: "0.8rem", alignItems: "center" }}><span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>{num(i)}</span><span style={titleS}>{s.title}</span></span>
+              <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 1, display: "inline-flex" }}>{open === i ? <Icon name="minus" size={18} /> : <Icon name="plus" size={18} />}</span>
             </button>
             {open === i && <p id={`${uid}-p${i}`} role="region" style={{ ...bodyS, padding: "0 1.4rem 1.2rem" }}>{s.body}</p>}
           </div>
@@ -206,7 +206,7 @@ export const ProcessMinimal: React.FC<Props> = ({ content }) => (
     <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "2rem" }}>
       {content.steps.map((s, i) => (
         <div key={i} style={{ borderTop: "2px solid var(--ds-text)", paddingTop: "1rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-          <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.8rem", color: "var(--ds-primary)", fontWeight: 700 }}>{num(i)}</span>
+          <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.8rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>{num(i)}</span>
           <h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.body}</p>
         </div>
       ))}
@@ -222,7 +222,7 @@ export const ProcessDark: React.FC<Props> = ({ content }) => (
     </div>
     <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.2rem" }}>
       {content.steps.map((s, i) => (
-        <div key={i} style={{ border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+        <div key={i} className="ds-card" style={{ border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <Dot i={i} light /><h3 style={{ ...titleS, color: "#fff" }}>{s.title}</h3><p style={{ ...bodyS, color: "rgba(255,255,255,0.9)" }}>{s.body}</p>
         </div>
       ))}
@@ -237,7 +237,7 @@ export const ProcessChips: React.FC<Props> = ({ content }) => (
     <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.2rem" }}>
       {content.steps.map((s, i) => (
         <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.7rem", alignItems: "center", textAlign: "center" }}>
-          <span style={{ border: "1px solid var(--ds-primary)", color: "var(--ds-primary)", borderRadius: "var(--ds-radius-pill)", padding: "0.3rem 0.9rem", fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", fontWeight: 700 }}>Schritt {num(i)}</span>
+          <span style={{ border: "1px solid var(--ds-primary)", color: "var(--ds-primary-ink, var(--ds-primary))", borderRadius: "var(--ds-radius-pill)", padding: "0.3rem 0.9rem", fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", fontWeight: 700 }}>Schritt {num(i)}</span>
           <h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.body}</p>
         </div>
       ))}
@@ -281,7 +281,7 @@ export const ProcessBordered: React.FC<Props> = ({ content }) => (
     <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
       {content.steps.map((s, i) => (
         <div key={i} style={{ borderLeft: i % Math.min(content.steps.length, 4) ? "1px solid var(--ds-border)" : "none", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-          <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", color: "var(--ds-primary)", fontWeight: 700 }}>{num(i)}</span>
+          <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>{num(i)}</span>
           <h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.body}</p>
         </div>
       ))}
@@ -295,7 +295,7 @@ export const ProcessTinted: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
     <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.2rem" }}>
       {content.steps.map((s, i) => (
-        <div key={i} style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+        <div key={i} className="ds-card" style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <Dot i={i} /><h3 style={titleS}>{s.title}</h3><p style={{ ...bodyS, color: "var(--ds-text)" }}>{s.body}</p>
         </div>
       ))}
@@ -330,7 +330,7 @@ export const ProcessRail: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <div style={{ display: "flex", gap: "1.2rem", overflowX: "auto", scrollSnapType: "x mandatory", paddingBottom: "0.6rem" }}>
       {content.steps.map((s, i) => (
-        <div key={i} style={{ flex: "0 0 74%", maxWidth: "300px", scrollSnapAlign: "start", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+        <div key={i} className="ds-card" style={{ flex: "0 0 74%", maxWidth: "300px", scrollSnapAlign: "start", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <Dot i={i} /><h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.body}</p>
         </div>
       ))}

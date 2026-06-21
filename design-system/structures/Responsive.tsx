@@ -48,9 +48,11 @@ input:focus, textarea:focus, select:focus { border-color: var(--ds-primary); }
     padding: 1.1rem var(--ds-gutter) 1.4rem;
     background: var(--ds-bg); border-bottom: 1px solid var(--ds-border);
     box-shadow: var(--ds-shadow-card);
-    display: none !important;
+    /* animatable open/close (the motion itself lives in MotionStyles, so it stays
+       reduced-motion-safe): hidden + offset when closed, out of flow via absolute. */
+    opacity: 0; visibility: hidden; transform: translateY(-8px); pointer-events: none;
   }
-  .ds-nav-links[data-open="true"] { display: flex !important; }
+  .ds-nav-links[data-open="true"] { opacity: 1; visibility: visible; transform: none; pointer-events: auto; }
 }
 
 /* Tablet: thin 3+ column content grids down to 2 columns. */

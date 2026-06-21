@@ -9,9 +9,9 @@ import type { TestimonialsContent } from "../structures/Testimonials";
 import type { DesignTokens } from "../tokens";
 import type { BrandSignals } from "./brand";
 import type { SiteBrief } from "./plan";
-import type { ProcessContent, AudienceContent, AboutContent, FeatureContent } from "./sectionContent";
+import type { ProcessContent, AudienceContent, AboutContent, FeatureContent, HistoryContent } from "./sectionContent";
 export type { HeroContent, TestimonialsContent };
-export type { ProcessContent, AudienceContent, AboutContent, FeatureContent };
+export type { ProcessContent, AudienceContent, AboutContent, FeatureContent, HistoryContent };
 
 /** Image-less "feature" band copy — the composer attaches the image at render time. */
 export type FeatureAngle = Omit<FeatureContent, "image">;
@@ -119,6 +119,9 @@ export interface SiteContent {
   process?: ProcessContent;
   audience?: AudienceContent;
   about?: AboutContent;
+  /** Company timeline for the About page — present ONLY when ≥3 real dated
+   *  milestones were scraped; otherwise omitted (the section is never scaffolded). */
+  history?: HistoryContent;
   /** Image-less feature-band copy distilled from the firm's REAL values/services;
    *  absent ⇒ generic feature copy. The composer supplies the photo. */
   featureAngles?: FeatureAngle[];

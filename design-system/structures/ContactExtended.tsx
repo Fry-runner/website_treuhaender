@@ -258,7 +258,7 @@ export const ContactLocation: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.4fr)", gap: "2rem", alignItems: "stretch" }}>
       <div style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", justifyContent: "center", gap: "0.6rem" }}>
-        <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem",   color: "var(--ds-primary)" }}>Standort</span>
+        <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem",   color: "var(--ds-primary-ink, var(--ds-primary))" }}>Standort</span>
         <span style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.2rem", color: "var(--ds-text)", lineHeight: 1.4 }}>{content.info.address ?? "—"}</span>
         <InfoList info={{ phone: content.info.phone, email: content.info.email, hours: content.info.hours }} />
       </div>
@@ -272,8 +272,8 @@ export const ContactQuickActions: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
     <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", justifyContent: "center", marginBottom: "1.8rem" }}>
-      {content.info.phone && <a href={`tel:${content.info.phone}`} style={{ display: "inline-flex", alignItems: "center", gap: "0.55rem", textDecoration: "none", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "0.9rem 1.4rem", color: "var(--ds-text)", fontFamily: "var(--ds-font-body)", fontSize: "0.92rem" }}><span aria-hidden style={{ color: "var(--ds-primary)", display: "inline-flex" }}><Icon name="phone" size={16} /></span>{content.info.phone}</a>}
-      {content.info.email && <a href={`mailto:${content.info.email}`} style={{ display: "inline-flex", alignItems: "center", gap: "0.55rem", textDecoration: "none", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "0.9rem 1.4rem", color: "var(--ds-text)", fontFamily: "var(--ds-font-body)", fontSize: "0.92rem" }}><span aria-hidden style={{ color: "var(--ds-primary)", display: "inline-flex" }}><Icon name="mail" size={16} /></span>{content.info.email}</a>}
+      {content.info.phone && <a href={`tel:${content.info.phone}`} style={{ display: "inline-flex", alignItems: "center", gap: "0.55rem", textDecoration: "none", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "0.9rem 1.4rem", color: "var(--ds-text)", fontFamily: "var(--ds-font-body)", fontSize: "0.92rem" }}><span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex" }}><Icon name="phone" size={16} /></span>{content.info.phone}</a>}
+      {content.info.email && <a href={`mailto:${content.info.email}`} style={{ display: "inline-flex", alignItems: "center", gap: "0.55rem", textDecoration: "none", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "0.9rem 1.4rem", color: "var(--ds-text)", fontFamily: "var(--ds-font-body)", fontSize: "0.92rem" }}><span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex" }}><Icon name="mail" size={16} /></span>{content.info.email}</a>}
     </div>
     <Form cta={content.formCta} />
   </Container></section>

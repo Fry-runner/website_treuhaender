@@ -36,14 +36,14 @@ export const Testimonials: React.FC<{ content: TestimonialsContent }> = ({ conte
         </div>
         {/* aggregate rating badge */}
         <div style={{ display: "inline-flex", alignItems: "center", gap: "0.6rem", padding: "0.6rem 1rem", borderRadius: "var(--ds-radius-pill)", background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)" }}>
-          <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", color: "var(--ds-primary)", fontWeight: 700, letterSpacing: "0.05em" }}><Icon name="star" size={16} /> {content.rating}</span>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700, letterSpacing: "0.05em" }}><Icon name="star" size={16} /> {content.rating}</span>
           <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>{content.reviewCount}</span>
         </div>
       </div>
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.2rem" }}>
         {content.items.map((t, i) => (
-          <figure key={i} style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.98rem", lineHeight: 1.55, color: "var(--ds-text)" }}>
               “{t.quote}”
             </blockquote>

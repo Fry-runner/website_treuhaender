@@ -33,7 +33,7 @@ export const TestimonialsCarousel: React.FC<{ content: TestimonialsContent }> = 
           style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.4rem", textAlign: "center" }}
         >
           <Eyebrow>{content.eyebrow}</Eyebrow>
-          <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", color: "var(--ds-primary)", fontWeight: 700 }}>
+          <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>
             <Icon name="star" size={15} /> {content.rating} <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>{content.reviewCount}</span>
           </div>
           <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-heading)", fontSize: "1.45rem", lineHeight: 1.4, color: "var(--ds-text)", minHeight: "4.2em", transition: "opacity var(--ds-duration) var(--ds-ease)" }}>

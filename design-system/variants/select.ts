@@ -10,7 +10,7 @@ import { heroVariants, primaryStyleVariants, presetAffinity, sectionVariants, pa
 import { kitById, kitsForAffinity } from "./kits";
 import { pickIconSet } from "../icons/iconSets";
 import type { StyleAffinity } from "../component-inventory";
-import type { PrimaryStyle } from "../structures/primitives";
+import type { PrimaryStyle, MoreStyle } from "../structures/primitives";
 import type { SiteContent } from "../content/types";
 
 function hash(s: string): number {
@@ -156,6 +156,9 @@ export interface SitePlan {
    *  contrast with the home hero. */
   pageHeaderId: string;
   primaryStyle: PrimaryStyle;
+  /** the minimalist section→subpage "view all" link style — one per firm, supplied
+   *  site-wide via MoreStyleProvider (consistent within a site, varied across firms). */
+  moreStyle: MoreStyle;
   affinity: StyleAffinity;
   /** the coherent style kit that constrained this plan */
   kitId: string;
@@ -164,6 +167,22 @@ export interface SitePlan {
   iconSetId: string;
   /** slot -> chosen section-variant id */
   sections: Record<string, string>;
+}
+
+/** Minimalist section→subpage "view all" styles, biased per affinity so the chosen
+ *  forward link harmonises with the look. One is picked per firm (deterministic), then
+ *  applied site-wide — so these links are consistent within a site but differ across
+ *  firms (no single hardcoded "text + arrow"). */
+const MORE_STYLES_BY_AFF: Record<string, MoreStyle[]> = {
+  editorial: ["underline", "chevron", "arrow"],
+  swiss: ["boxed", "underline", "arrow"],
+  soft: ["ghost", "chip", "chevron"],
+  warm: ["underline", "ghost", "chip"],
+  any: ["underline", "arrow", "chip", "ghost", "boxed", "chevron"],
+};
+function pickMoreStyle(aff: StyleAffinity, firmKey: string, seed: number): MoreStyle {
+  const pool = MORE_STYLES_BY_AFF[aff] ?? MORE_STYLES_BY_AFF.any;
+  return pick(pool, hash(firmKey) + seed);
 }
 
 /** Choose a palette compatible with the firm's archetype. */
@@ -211,8 +230,18 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
     : /dark/.test(id) ? "dark"
     : /brand-band|tint-wash|gradient|banner-tint/.test(id) ? "tint" : "plain";
   const hasSubpageImg = hasHeroImage(content) || (content.media?.photos?.length ?? 0) > 0 || (content.media?.sectionBackgrounds?.length ?? 0) > 0;
-  const phContrast = pageHeaderVariants.filter((v) => phFamily(v.id) !== heroFamily);
-  const pageHeaderId = pickFit(phContrast.length ? phContrast : pageHeaderVariants, undefined, affinity, base + hash("page-header"), Infinity, hasSubpageImg).id;
+  // WARMTH GUARANTEE: every subpage must carry at least one real image. The per-site
+  // subpage header is the ONE element present on every subpage (home uses the hero,
+  // contact none), so when the firm has any usable image we force it to a PHOTO header
+  // — it fronts the firm's real photo, and no inner page is a cold, image-less text
+  // band. When the home hero is itself a full-bleed photo, prefer a differently-shaped
+  // photo header (framed split / overlap card) so subpages are warm without echoing it.
+  // Only a firm with NO usable image at all falls back to a text/brand header.
+  const heroIsFullBleedPhoto = /image-(full|centered)|image-band/.test(heroId);
+  const photoHeaders = pageHeaderVariants.filter((v) => v.needsImage && !(heroIsFullBleedPhoto && /signature/.test(v.id)));
+  const textHeaders = pageHeaderVariants.filter((v) => phFamily(v.id) !== heroFamily);
+  const phPool = hasSubpageImg && photoHeaders.length ? photoHeaders : (textHeaders.length ? textHeaders : pageHeaderVariants);
+  const pageHeaderId = pickFit(phPool, undefined, affinity, base + hash("page-header"), Infinity, hasSubpageImg).id;
   const primaryStyle: PrimaryStyle = pickFrom(primaryStyleVariants, kit.button, affinity, base + 1).id;
   const iconSetId = pickIconSet(affinity, content.meta.domain || content.meta.firm || "x", opts.seed ?? 0, kit.icons).id;
   const sections: Record<string, string> = {};
@@ -267,7 +296,8 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
   // No real person photos → force the tile-free text team layout, so employee
   // cards never show empty placeholder image tiles (we never fake faces with stock).
   if (sectionVariants.team && !(content.team?.members?.some((m) => m.photo))) sections.team = "team/plain";
-  return { lookId, heroId, pageHeaderId, primaryStyle, affinity, kitId: kit.id, iconSetId, sections };
+  const moreStyle = pickMoreStyle(affinity, content.meta.domain || content.meta.firm || "x", opts.seed ?? 0);
+  return { lookId, heroId, pageHeaderId, primaryStyle, moreStyle, affinity, kitId: kit.id, iconSetId, sections };
 }
 
 /** Adjacency de-collision: walk a page's ACTUAL section order and, wherever two

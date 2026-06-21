@@ -37,7 +37,7 @@ export const ValuesRowsIcon: React.FC<Props> = ({ content, more }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
         {content.items.map((v, i) => (
-          <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.1rem", alignItems: "start", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem" }}>
+          <div key={i} className="ds-card" style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.1rem", alignItems: "start", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem" }}>
             <span aria-hidden style={{ flex: "0 0 auto", marginTop: "0.55rem", width: "0.7rem", height: "0.7rem", borderRadius: "9999px", background: "var(--ds-primary)" }} />
             <div style={{ display: "flex", flexDirection: "column", gap: "0.35rem" }}><h4 style={title}>{v.title}</h4><p style={body}>{v.body}</p></div>
           </div>
@@ -60,7 +60,7 @@ export const ValuesAccordion: React.FC<Props> = ({ content, more }) => {
             <div key={i} style={{ borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
               <button aria-expanded={open === i} aria-controls={`${uid}-p${i}`} onClick={() => setOpen(open === i ? -1 : i)} style={{ width: "100%", textAlign: "left", background: open === i ? "var(--ds-bg)" : "transparent", border: "none", cursor: "pointer", padding: "1.1rem 1.4rem", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                 <span style={title as React.CSSProperties}>{v.title}</span>
-                <span style={{ color: "var(--ds-primary)", lineHeight: 1, display: "inline-flex" }}>{open === i ? <Icon name="minus" size={18} /> : <Icon name="plus" size={18} />}</span>
+                <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 1, display: "inline-flex" }}>{open === i ? <Icon name="minus" size={18} /> : <Icon name="plus" size={18} />}</span>
               </button>
               {open === i && <p id={`${uid}-p${i}`} role="region" style={{ ...body, padding: "0 1.4rem 1.2rem" }}>{v.body}</p>}
             </div>
@@ -81,7 +81,7 @@ export const ValuesAlternating: React.FC<Props> = ({ content, more }) => (
           const right = i % 2 === 1;
           return (
             <div key={i} style={{ display: "flex", justifyContent: right ? "flex-end" : "flex-start" }}>
-              <div style={{ maxWidth: "64%", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem", textAlign: right ? "right" : "left", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+              <div className="ds-card" style={{ maxWidth: "64%", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem", textAlign: right ? "right" : "left", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
                 <h4 style={title}>{v.title}</h4><p style={body}>{v.body}</p>
               </div>
             </div>
@@ -117,7 +117,7 @@ export const ValuesBigIndex: React.FC<Props> = ({ content, more }) => {
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
         <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, minmax(0,1fr))`, gap: "1.4rem" }}>
           {content.items.map((v, i) => (
-            <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderTop: "3px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+            <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderTop: "3px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               <h4 style={title}>{v.title}</h4>
               <p style={body}>{v.body}</p>
             </div>
@@ -135,7 +135,7 @@ export const ValuesTiles: React.FC<Props> = ({ content, more }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.2rem" }}>
         {content.items.map((v, i) => (
-          <div key={i} style={{ gridColumn: i === 0 ? "span 2" : "span 1", background: i === 0 ? "var(--ds-primary-soft)" : "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: i === 0 ? "2rem" : "1.5rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+          <div key={i} className="ds-card" style={{ gridColumn: i === 0 ? "span 2" : "span 1", background: i === 0 ? "var(--ds-primary-soft)" : "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: i === 0 ? "2rem" : "1.5rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
             <h4 style={{ ...title, fontSize: i === 0 ? "1.4rem" : "1.1rem" }}>{v.title}</h4>
             <p style={body}>{v.body}</p>
           </div>
@@ -189,7 +189,7 @@ export const ValuesCheckList: React.FC<Props> = ({ content, more }) => {
         <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, minmax(0,1fr))`, gap: "1.2rem 2.4rem" }}>
           {content.items.map((v, i) => (
             <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "0.9rem", alignItems: "start", padding: "0.6rem 0" }}>
-              <span style={{ color: "var(--ds-primary)", fontWeight: 700, fontSize: "1.1rem", lineHeight: 1.3 }}><Icon name="check" size={16} /></span>
+              <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700, fontSize: "1.1rem", lineHeight: 1.3 }}><Icon name="check" size={16} /></span>
               <div style={{ display: "flex", flexDirection: "column", gap: "0.3rem" }}><h4 style={title}>{v.title}</h4><p style={body}>{v.body}</p></div>
             </div>
           ))}

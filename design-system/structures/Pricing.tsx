@@ -11,7 +11,7 @@ export const Pricing: React.FC<{ content: PricingContent; more?: MoreLink }> = (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.tiers.length}, minmax(0,1fr))`, gap: "1.2rem", alignItems: "start" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} style={{
+          <div key={i} className="ds-card" style={{
             background: "var(--ds-bg)", borderRadius: "var(--ds-radius)", padding: "1.8rem",
             border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)",
             boxShadow: t.recommended ? "var(--ds-shadow-card)" : "none",
@@ -28,7 +28,7 @@ export const Pricing: React.FC<{ content: PricingContent; more?: MoreLink }> = (
             <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: "0.6rem", flex: 1 }}>
               {t.features.map((f, j) => (
                 <li key={j} style={{ display: "flex", gap: "0.5rem", fontSize: "0.9rem", color: "var(--ds-text)" }}>
-                  <span style={{ color: "var(--ds-primary)", fontWeight: 700 }}><Icon name="check" size={15} style={{ verticalAlign: "-0.15em" }} /></span> {f}
+                  <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}><Icon name="check" size={15} style={{ verticalAlign: "-0.15em" }} /></span> {f}
                 </li>
               ))}
             </ul>

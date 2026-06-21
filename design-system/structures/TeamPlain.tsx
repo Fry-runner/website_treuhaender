@@ -18,13 +18,13 @@ export const TeamPlain: React.FC<{ content: TeamContent; more?: MoreLink }> = ({
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
         <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, minmax(0,1fr))`, gap: "1.2rem" }}>
           {content.members.map((m, i) => (
-            <article key={i} style={{
+            <article key={i} className="ds-card" style={{
               background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)",
               boxShadow: "var(--ds-shadow-card)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.5rem",
               borderTop: "3px solid var(--ds-primary)",
             }}>
               <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.15rem", color: "var(--ds-text)", margin: 0 }}>{m.name}</h3>
-              <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.7rem",   color: "var(--ds-primary)" }}>{m.role}</div>
+              <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.7rem",   color: "var(--ds-primary-ink, var(--ds-primary))" }}>{m.role}</div>
               <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: "0.3rem 0 0" }}>{m.bio}</p>
             </article>
           ))}

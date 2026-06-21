@@ -6,7 +6,7 @@
  */
 import React from "react";
 import { Container } from "./primitives";
-import { SectionHead, type MoreLink } from "./SectionHead";
+import { SectionHead, SectionMore, type MoreLink } from "./SectionHead";
 import { useNavigate } from "../compose/nav-context";
 import { Icon } from "../icons/iconSets";
 
@@ -22,16 +22,10 @@ type Props = { content: GalleryContent; more?: MoreLink };
 const sectionBase: React.CSSProperties = { background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" };
 const cover = (src: string): React.CSSProperties => ({ backgroundImage: `url("${src}")`, backgroundSize: "cover", backgroundPosition: "center" });
 
-/** Light "view all" link for use over dark imagery (full-bleed / band variants). */
-const OverlayMore: React.FC<{ more?: MoreLink }> = ({ more }) => {
-  const nav = useNavigate();
-  if (!more) return null;
-  return (
-    <a href={more.href} onClick={(e) => { e.preventDefault(); nav(more.href); }} style={{ display: "inline-block", marginTop: "1.1rem", fontFamily: "var(--ds-font-body)", fontSize: "0.74rem",   color: "#fff", textDecoration: "none", borderBottom: "2px solid #fff", paddingBottom: "0.25rem", cursor: "pointer" }}>
-      {more.label}<Icon name="arrowRight" size={13} style={{ verticalAlign: "-0.1em", marginLeft: "0.35em" }} />
-    </a>
-  );
-};
+/** "View all" link for use over dark imagery (full-bleed / band variants) — the
+ *  per-firm minimalist forward style, rendered in its light-on-dark tone. */
+const OverlayMore: React.FC<{ more?: MoreLink }> = ({ more }) =>
+  more ? <div style={{ marginTop: "1.1rem" }}><SectionMore link={more} tone="onImage" /></div> : null;
 
 /** 1) Uniform responsive photo grid. */
 export const GalleryGrid: React.FC<Props> = ({ content, more }) => {

@@ -103,7 +103,7 @@ export const PartnersCards: React.FC<Props> = ({ content }) => {
       <div style={{ textAlign: "center", marginBottom: "1.6rem" }}><span style={labelS}>{content.label}</span></div>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", justifyContent: "center" }}>
         {marks.map((m, i) => (
-          <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1rem 1.4rem", display: "flex", alignItems: "center", justifyContent: "center", minWidth: "8rem", minHeight: "3.4rem" }}>
+          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1rem 1.4rem", display: "flex", alignItems: "center", justifyContent: "center", minWidth: "8rem", minHeight: "3.4rem" }}>
             {isImg ? <img src={m} alt="" style={badgeS} /> : <span style={itemS}>{m}</span>}
           </div>
         ))}
@@ -206,7 +206,7 @@ export const PartnersSplit: React.FC<Props> = ({ content }) => (
 export const PartnersTinted: React.FC<Props> = ({ content }) => (
   <section style={{ background: "var(--ds-primary-soft)", paddingBlock: "2rem" }}><Container>
     <div style={{ display: "flex", alignItems: "center", gap: "1.8rem", flexWrap: "wrap", justifyContent: "center" }}>
-      <span style={{ ...labelS, color: "var(--ds-primary)" }}>{content.label}</span><Marks content={content} />
+      <span style={{ ...labelS, color: "var(--ds-primary-ink, var(--ds-primary))" }}>{content.label}</span><Marks content={content} />
     </div>
   </Container></section>
 );
@@ -218,7 +218,7 @@ export const PartnersChecklist: React.FC<Props> = ({ content }) => (
     {content.badges && content.badges.length
       ? <div style={{ display: "flex", flexWrap: "wrap", gap: "1.6rem 2.4rem", justifyContent: "center", alignItems: "center" }}><Marks content={content} /></div>
       : <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 2)}, minmax(0,1fr))`, gap: "0.8rem 2rem" }}>
-          {content.items.map((it, i) => <div key={i} style={{ display: "flex", gap: "0.6rem", alignItems: "center", fontSize: "0.92rem", color: "var(--ds-text)" }}><span style={{ color: "var(--ds-primary)", fontWeight: 700 }}><Icon name="check" size={15} style={{ verticalAlign: "-0.15em" }} /></span>{it}</div>)}
+          {content.items.map((it, i) => <div key={i} style={{ display: "flex", gap: "0.6rem", alignItems: "center", fontSize: "0.92rem", color: "var(--ds-text)" }}><span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}><Icon name="check" size={15} style={{ verticalAlign: "-0.15em" }} /></span>{it}</div>)}
         </div>}
   </Container></section>
 );
@@ -277,7 +277,7 @@ export const PartnersBoxed: React.FC<Props> = ({ content }) => (
 export const PartnersTagLabel: React.FC<Props> = ({ content }) => (
   <section style={band}><Container>
     <div style={{ display: "flex", alignItems: "center", gap: "1.4rem", flexWrap: "wrap", justifyContent: "center" }}>
-      <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.62rem",   color: "var(--ds-primary)", background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius-pill)", padding: "0.3rem 0.8rem" }}>{content.label}</span>
+      <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.62rem",   color: "var(--ds-primary-ink, var(--ds-primary))", background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius-pill)", padding: "0.3rem 0.8rem" }}>{content.label}</span>
       <div style={{ display: "flex", alignItems: "center", gap: "1.6rem", flexWrap: "wrap" }}><Marks content={content} /></div>
     </div>
   </Container></section>

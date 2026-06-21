@@ -111,6 +111,7 @@
         "nav",
         "hero",
         "services",
+        "values",
         "audience",
         "stats",
         "process",
@@ -160,9 +161,8 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
-        "home:values": "keine echten Werte-Texte → weggelassen",
+        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "echte Kennzahlen gefunden",
@@ -186,7 +186,6 @@
     },
     "placeholders": [
       "hero.aside",
-      "values",
       "faq",
       "process (generic)",
       "audience (generic)",
@@ -201,6 +200,7 @@
       "services.text",
       "team.members",
       "stats",
+      "values",
       "about",
       "feature",
       "footer.tagline",
@@ -904,62 +904,60 @@
   "values": {
     "eyebrow": "Warum wir",
     "heading": "Ihr Vorteil.",
-    "items": []
+    "items": [
+      {
+        "title": "So können wir Sie unterstützen",
+        "body": "Mit langjähriger Erfahrung unterstützen wir Sie bei allen Steuerfragen."
+      },
+      {
+        "title": "Unsere Werte: Verbundenheit und Kompetenz",
+        "body": "«Ihnen dienen zu dürfen» – dieser Leitsatz begleitet uns seit unserer Gründung."
+      },
+      {
+        "title": "Persönliche Beratung",
+        "body": "Wir verwenden Cookies auf dieser Webseite, um ein möglichst gutes Online-Erlebnis zu bieten. Weiter Informationen unter"
+      }
+    ]
   },
   "about": {
     "eyebrow": "Über uns",
-    "heading": "Über uns",
-    "lead": "Flurina Sialm hat langjährige Erfahrung in der Beratung und Betreuung von KMU’s wie auch von natürlichen Personen insbesondere in den Bereichen Buchführung, Revision und Wirtschaftsberatung. Der Kunde steht im Zentrum all Ihrer Überlegungen.",
+    "heading": "Unsere Werte",
+    "lead": "Seit unserer Gründung 1942 orientieren wir uns am Leitsatz «Ihnen dienen zu dürfen.» Wir sind Dienstleister aus Überzeugung und stellen die individuellen Bedürfnisse und Wünsche unserer Kunden immer an den Anfang unseres Handelns.",
     "paragraphs": [
-      "Christian Affolter ist hauptsächlich für eingeschränkte und ordentliche Revisionen verantwortlich. Zudem steht er Unternehmungen in allen Themen rund um die Wirtschaftsberatung zur Seite. Er verfügt über langjährige Erfahrung in der Wirtschaftsprüfung, im nationalen wie auch im internationalen Umfeld. Zusätzlich unterrichtet er an Hochschulen im Bereich Financial Accounting und Controlling.",
-      "insb. im Rechnungswesen und der Lohnverarbeitung, jedoch auch in Wirtschaftsberatung und Steuern. Die langjährige Berufspraxis ermöglicht ihm eine umfassende Kundenbetreuung.",
-      "Tom Lawson leitet die Steuerabteilung bei Budliger. Er verfügt über mehr als 20 Jahre Erfahrung im nationalen sowie internationalen Steuerrecht, davon 12 Jahre in einer renommierten Zürcher Steuerberatungskanzlei. Sein Schwerpunkt liegt im Bereich der Unternehmenssteuern. Zudem unterrichtet er zu verschiedenen Steuerthemen mit Fokus auf Banken und Anlagefonds."
+      "Budliger begegnet dem komplexen Umfeld und den Herausforderungen der Gegenwart mit Spezialist*innen. Wir setzen auf Mitarbeitende, die ihr Wissen und Können, aber auch ihre Einfühlsamkeit unter Beweis stellen. Sie verfügen über treuhänderische Fähigkeiten, die sie konstant weiterentwickeln. Unsere Kund*innen profitieren nicht nur von ihrem Wissen, sondern auch von einer lösungsorientierten Haltung und einer empathischen Beratung.",
+      "Als Top-Arbeitgeber sind wir ein «Geheimtipp» und schaffen Rahmenbedingungen, damit Sie Privates und Beruf in Balance bringen können. Teilzeit und Karriere? Bei uns kein Problem. Wir planen gemeinsam Ihre berufliche Reise bei Budliger und entwickeln für Sie passende berufliche Perspektiven. Wir sind für Sie da.",
+      "Seit acht Jahrzehnten steht Budliger seinen Kunden als aufmerksamer, erfahrener und verlässlicher Dienstleistungspartner zur Verfügung."
     ]
   },
   "featureAngles": [
     {
+      "eyebrow": "Unser Ansatz",
+      "heading": "So können wir Sie unterstützen",
+      "body": "Mit langjähriger Erfahrung unterstützen wir Sie bei allen Steuerfragen.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Unsere Werte: Verbundenheit und Kompetenz",
+      "body": "«Ihnen dienen zu dürfen» – dieser Leitsatz begleitet uns seit unserer Gründung.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Persönliche Beratung",
+      "body": "Wir verwenden Cookies auf dieser Webseite, um ein möglichst gutes Online-Erlebnis zu bieten. Weiter Informationen unter",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
       "eyebrow": "Leistung",
       "heading": "Buchhaltung",
       "body": "Wir unterstützen Ihre Organisation effizient und transparent. Wir entlasten Sie nachhaltig und garantieren ein Rechnungswesen nach aktuellem Standard.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Wer Liegenschaften im Ausland besitzt, muss diese in der Schweizer Steuererklärung deklarieren. Sie werden in der Schweiz zwar nicht direkt besteuert, sind aber für die Bestimmung des anwendbaren Steuersatzes massgebend.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Lohnadministration",
-      "body": "Mit dem am 1. Juli 1996 in Kraft getretenen Bundesgesetz über die Gleichstellung von Frau und Mann (Gleichstellungsgesetz, GlG) soll der verfassungsrechtliche Anspruch auf gleichen Lohn für gleichwertige Arbeit auf Gesetzesstufe verankert und umgesetzt werden.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Mehrwertsteuer",
-      "body": "Mehrwertsteuersatzerhöhung per 1. Januar 2024 - Budliger Treuhand AG Zürich",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",

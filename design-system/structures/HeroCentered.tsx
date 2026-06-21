@@ -29,7 +29,7 @@ export const HeroCentered: React.FC<{ content: HeroContent }> = ({ content }) =>
           background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)",
           fontFamily: "var(--ds-font-body)", fontSize: "0.72rem", 
            color: "var(--ds-text-muted)" }}>
-          <span aria-hidden style={{ color: "var(--ds-primary)", display: "inline-flex" }}><Icon name="star" size={14} /></span> {content.asideLabel}
+          <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex" }}><Icon name="star" size={14} /></span> {content.asideLabel}
         </div>
       </div>
     </Container>

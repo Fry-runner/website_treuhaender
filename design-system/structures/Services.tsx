@@ -13,6 +13,7 @@ export const Services: React.FC<{ content: ServicesContent; more?: MoreLink; onP
         {content.items.map((s, i) => (
           <article
             key={i}
+            className={onPick ? "ds-card ds-nudge ds-img-zoom" : "ds-img-zoom"}
             onClick={onPick ? () => onPick(s.title) : undefined}
             role={onPick ? "button" : undefined}
             tabIndex={onPick ? 0 : undefined}
@@ -23,13 +24,13 @@ export const Services: React.FC<{ content: ServicesContent; more?: MoreLink; onP
             cursor: onPick ? "pointer" : "default",
           }}>
             {s.image && (
-              <div aria-hidden style={{ height: "9rem", backgroundImage: `url("${s.image}")`, backgroundSize: "cover", backgroundPosition: "center" }} />
+              <div aria-hidden className="ds-zoom" style={{ height: "9rem", backgroundImage: `url("${s.image}")`, backgroundSize: "cover", backgroundPosition: "center" }} />
             )}
             <div style={{ padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.7rem", flex: 1 }}>
             <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.15rem", color: "var(--ds-text)", margin: 0 }}>{s.title}</h3>
             <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0, flex: 1 }}>{s.summary}</p>
             {s.price && (
-              <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.78rem",   color: "var(--ds-primary)", fontWeight: 600 }}>{s.price}</div>
+              <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.78rem",   color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 600 }}>{s.price}</div>
             )}
             <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>Mehr <Icon name="arrowRight" size={13} style={{ verticalAlign: "-0.1em" }} /></span>
             </div>

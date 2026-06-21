@@ -35,7 +35,7 @@ export const HeroGradient: React.FC<{ content: HeroContent }> = ({ content }) =>
           <Button variant="outline">{content.secondaryCta}</Button>
         </div>
         <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)", marginTop: "0.2rem" }}>
-          <span aria-hidden style={{ color: "var(--ds-primary)", display: "inline-flex", verticalAlign: "-0.12em" }}><Icon name="star" size={14} /></span> {content.asideLabel}
+          <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex", verticalAlign: "-0.12em" }}><Icon name="star" size={14} /></span> {content.asideLabel}
         </div>
       </div>
     </Container>

@@ -15,6 +15,7 @@ export const ServicesBordered: React.FC<{ content: ServicesContent; more?: MoreL
           {content.items.map((s, i) => (
             <article
               key={i}
+              className="ds-nudge"
               onClick={onPick ? () => onPick(s.title) : undefined}
               role={onPick ? "button" : undefined}
               tabIndex={onPick ? 0 : undefined}
@@ -29,7 +30,7 @@ export const ServicesBordered: React.FC<{ content: ServicesContent; more?: MoreL
               )}
               <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.1rem", color: "var(--ds-text)", margin: 0, textTransform: "none" }}>{s.title}</h3>
               <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0, flex: 1 }}>{s.summary}</p>
-              {s.price && <div style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", color: "var(--ds-primary)", fontWeight: 600 }}>{s.price}</div>}
+              {s.price && <div style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 600 }}>{s.price}</div>}
               <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>Mehr <Icon name="arrowRight" size={13} style={{ verticalAlign: "-0.1em" }} /></span>
             </article>
           ))}

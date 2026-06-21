@@ -20,7 +20,7 @@ export const ServiceBody: React.FC<{ title: string; summary: string; bullets: st
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.68rem",   color: "var(--ds-text-muted)" }}>Inklusive</div>
           {bullets.map((b, i) => (
             <div key={i} style={{ display: "flex", gap: "0.6rem", alignItems: "flex-start", fontSize: "0.92rem", color: "var(--ds-text)" }}>
-              <span aria-hidden style={{ color: "var(--ds-primary)", display: "inline-flex", marginTop: "0.1rem" }}><Icon name="check" size={16} /></span> {b}
+              <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex", marginTop: "0.1rem" }}><Icon name="check" size={16} /></span> {b}
             </div>
           ))}
         </aside>

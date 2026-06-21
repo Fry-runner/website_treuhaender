@@ -18,6 +18,7 @@ import type { SiteContent } from "./content/types.ts";
 export type PageSlot =
   | LayoutSlot
   | "page-header"   // inner-page hero-lite (eyebrow + H1)
+  | "history"       // company timeline (scrape-only; omitted when <3 dated milestones)
   | "service-body"  // a single service's deep content
   | "related"       // related items strip
   | "gallery"       // media-pool photo grid (office / impressions)
@@ -65,7 +66,9 @@ export const pageTypes: Record<string, PageType> = {
   },
   about: {
     id: "about", name: "Über uns", slugBase: "/ueber-uns",
-    sections: ["nav", "page-header", "about", "values", "stats", "team", "gallery", "cta", "footer"],
+    // `history` (company timeline) sits right after the story prose; it only renders
+    // when the scrape yielded ≥3 dated milestones (gated in SiteRouter), else dropped.
+    sections: ["nav", "page-header", "about", "history", "values", "stats", "team", "gallery", "cta", "footer"],
     attributes: { purpose: "Trust + story", seoWeight: "medium", contentNeeds: ["about", "values", "team"] },
   },
   team: {

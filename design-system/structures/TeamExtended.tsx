@@ -11,10 +11,10 @@ import type { TeamContent, TeamMember } from "../content/types";
 type Props = { content: TeamContent; more?: MoreLink };
 const sectionBase: React.CSSProperties = { background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" };
 const name: React.CSSProperties = { fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.05rem", color: "var(--ds-text)", margin: 0 };
-const role: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.68rem",   color: "var(--ds-primary)" };
+const role: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.68rem",   color: "var(--ds-primary-ink, var(--ds-primary))" };
 const bio: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", lineHeight: 1.5, color: "var(--ds-text-muted)", margin: 0 };
 const photoBg = (m: TeamMember, extra?: React.CSSProperties): React.CSSProperties => ({
-  background: "var(--ds-primary-soft)", color: "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center",
+  background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", display: "flex", alignItems: "center", justifyContent: "center",
   fontFamily: "var(--ds-font-heading)", fontWeight: 700, overflow: "hidden",
   ...(m.photo ? { backgroundImage: `url("${m.photo}")`, backgroundSize: "cover", backgroundPosition: PORTRAIT_FOCUS } : {}), ...extra,
 });
@@ -63,7 +63,7 @@ export const TeamSpotlight: React.FC<Props> = ({ content, more }) => {
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
         <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.3fr)", gap: "2rem", alignItems: "center" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.4rem", alignItems: "center", background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem" }}>
+          <div className="ds-card" style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.4rem", alignItems: "center", background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem" }}>
             <div role="img" aria-label={first.name} style={photoBg(first, { width: "7rem", height: "7rem", borderRadius: "var(--ds-radius)", flexShrink: 0, fontSize: "1.8rem" })}>{first.photo ? "" : first.initials}</div>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}><h3 style={{ ...name, fontSize: "1.3rem" }}>{first.name}</h3><span style={role}>{first.role}</span><p style={bio}>{first.bio}</p></div>
           </div>
@@ -108,7 +108,7 @@ export const TeamOverlay: React.FC<Props> = ({ content, more }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.members.length, 4)}, minmax(0,1fr))`, gap: "1.2rem" }}>
         {content.members.map((m, i) => (
-          <div key={i} role="img" aria-label={m.name} style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "var(--ds-radius)", overflow: "hidden", border: "1px solid var(--ds-border)", ...photoBg(m, { alignItems: "center", justifyContent: "center", fontSize: "2.4rem" }) }}>
+          <div key={i} className="ds-card" role="img" aria-label={m.name} style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "var(--ds-radius)", overflow: "hidden", border: "1px solid var(--ds-border)", ...photoBg(m, { alignItems: "center", justifyContent: "center", fontSize: "2.4rem" }) }}>
             {!m.photo && <span>{m.initials}</span>}
             <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, padding: "1rem", background: "linear-gradient(to top, rgba(0,0,0,0.78), rgba(0,0,0,0))" }}>
               <h3 style={{ ...name, color: "#fff" }}>{m.name}</h3>
@@ -128,7 +128,7 @@ export const TeamTwoCol: React.FC<Props> = ({ content, more }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: "1.4rem" }}>
         {content.members.map((m, i) => (
-          <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.4rem", background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", alignItems: "center" }}>
+          <div key={i} className="ds-card" style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.4rem", background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", alignItems: "center" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { width: "5.5rem", height: "5.5rem", borderRadius: "var(--ds-radius)", flexShrink: 0, fontSize: "1.4rem" })}>{m.photo ? "" : m.initials}</div>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.35rem" }}><h3 style={{ ...name, fontSize: "1.15rem" }}>{m.name}</h3><span style={role}>{m.role}</span><p style={bio}>{m.bio}</p></div>
           </div>
@@ -182,7 +182,7 @@ export const TeamCompact4: React.FC<Props> = ({ content, more }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: "1rem" }}>
         {content.members.map((m, i) => (
-          <div key={i} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.2rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.5rem" }}>
+          <div key={i} className="ds-card" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.2rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.5rem" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { width: "4rem", height: "4rem", borderRadius: "9999px", fontSize: "1.1rem" })}>{m.photo ? "" : m.initials}</div>
             <h3 style={{ ...name, fontSize: "0.98rem" }}>{m.name}</h3><span style={{ ...role, fontSize: "0.62rem" }}>{m.role}</span>
           </div>
@@ -199,8 +199,8 @@ export const TeamQuoteCard: React.FC<Props> = ({ content, more }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.members.length, 3)}, minmax(0,1fr))`, gap: "1.2rem" }}>
         {content.members.map((m, i) => (
-          <figure key={i} style={{ margin: 0, background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
-            <span style={{ color: "var(--ds-primary)", fontSize: "1.8rem", lineHeight: 1 }}>“</span>
+          <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+            <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontSize: "1.8rem", lineHeight: 1 }}>“</span>
             <p style={{ ...bio, fontFamily: "var(--ds-font-heading)", fontStyle: "italic", color: "var(--ds-text)", flex: 1 }}>{m.bio}</p>
             <figcaption style={{ display: "flex", alignItems: "center", gap: "0.8rem", borderTop: "1px solid var(--ds-border)", paddingTop: "0.9rem" }}>
               <div role="img" aria-label={m.name} style={photoBg(m, { width: "2.6rem", height: "2.6rem", borderRadius: "9999px", flexShrink: 0, fontSize: "0.75rem" })}>{m.photo ? "" : m.initials}</div>

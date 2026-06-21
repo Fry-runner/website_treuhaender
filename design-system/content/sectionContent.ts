@@ -22,6 +22,13 @@ export interface AboutContent {
   highlights?: { value: string; label: string }[];
 }
 
+/** A single dated milestone on the company timeline. `year` is a real 4-digit year
+ *  from the scrape; `body` is the event. Optional short `title`. */
+export interface HistoryEntry { year: string; title?: string; body: string }
+/** Company history / "Unsere Geschichte" timeline. Rendered ONLY from real scraped
+ *  milestones — extract.ts requires ≥3 dated entries, else the section is omitted. */
+export interface HistoryContent { heading: string; entries: HistoryEntry[] }
+
 export interface JobItem { title: string; location?: string; workload?: string; summary: string }
 export interface JobsContent { eyebrow: string; heading: string; items: JobItem[] }
 

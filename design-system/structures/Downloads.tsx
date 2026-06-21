@@ -28,12 +28,12 @@ export const Downloads: React.FC<{
             }}>
               <span style={{
                 fontFamily: "var(--ds-font-mono)", fontSize: "0.62rem", fontWeight: 700, letterSpacing: "0.06em",
-                color: "var(--ds-primary)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)",
+                color: "var(--ds-primary-ink, var(--ds-primary))", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)",
                 padding: "0.3rem 0.5rem", minWidth: "2.6rem", textAlign: "center",
               }}>{KIND_LABEL[d.kind] ?? "DATEI"}</span>
               <span style={{ flex: 1, fontFamily: "var(--ds-font-body)", fontSize: "0.95rem", color: "var(--ds-text)" }}>{d.title}</span>
               <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", color: "var(--ds-text-muted)" }}>{fmtSize(d.bytes)}</span>
-              <span aria-hidden style={{ color: "var(--ds-primary)", display: "inline-flex" }}><Icon name="download" size={18} /></span>
+              <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex" }}><Icon name="download" size={18} /></span>
             </a>
           ))}
         </div>

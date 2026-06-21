@@ -31,6 +31,13 @@ export function applyLook(t: DesignTokens): LookVars {
   const harderForPrimary = Math.abs(luminance(t.color.surface) - lp) < Math.abs(luminance(t.color.bg) - lp)
     ? t.color.surface : t.color.bg;
   const primaryInk = ensureContrast(t.color.primary, harderForPrimary, 4.5);
+  // Micro-interaction magnitudes scale with the look's motion intensity, so hover
+  // lifts / presses / image zoom / arrow nudges stay COHERENT per firm (a "subtle"
+  // look barely moves; an "expressive" one is livelier). Consumed by the global
+  // MotionStyles classes (.ds-btn/.ds-card/.ds-nudge/.ds-img-zoom), all of which are
+  // gated behind prefers-reduced-motion: no-preference.
+  const ix = t.motion.intensity;
+  const m3 = (s: string, m: string, e: string) => (ix === "subtle" ? s : ix === "expressive" ? e : m);
   return {
     // colors
     "--ds-bg": t.color.bg,
@@ -70,6 +77,14 @@ export function applyLook(t: DesignTokens): LookVars {
     // scroll-reveal distance/duration scale with the look's motion intensity
     "--ds-reveal-dist": t.motion.intensity === "subtle" ? "10px" : t.motion.intensity === "expressive" ? "26px" : "18px",
     "--ds-reveal-dur": t.motion.intensity === "subtle" ? "500ms" : t.motion.intensity === "expressive" ? "640ms" : "560ms",
+    // micro-interaction magnitudes (hover/press/zoom/nudge), intensity-scaled
+    "--ds-hover-lift": m3("-2px", "-3px", "-5px"),
+    "--ds-hover-dur": `${Math.round(t.motion.durationMs * 0.7)}ms`,
+    "--ds-press-scale": m3("0.99", "0.985", "0.97"),
+    "--ds-img-zoom": m3("1.012", "1.018", "1.025"),
+    "--ds-nudge": m3("2px", "3px", "4px"),
+    "--ds-stagger-step": m3("50ms", "70ms", "90ms"),
+    "--ds-shadow-hover": "0 18px 40px -16px rgba(0,0,0,0.34)",
     // also set the inherited base so children read sensible defaults
     background: "var(--ds-bg)",
     color: "var(--ds-text)",

@@ -105,7 +105,7 @@ export const CtaBadge: React.FC<Props> = ({ content }) => (
   <section style={{ ...sectionBase, background: "var(--ds-bg)" }}>
     <Container style={{ maxWidth: "min(var(--ds-container), 720px)" }}>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.1rem" }}>
-        <span style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", padding: "0.45rem 0.9rem", borderRadius: "9999px", background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)", fontFamily: "var(--ds-font-body)", fontSize: "0.68rem",   color: "var(--ds-primary)" }}>
+        <span style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", padding: "0.45rem 0.9rem", borderRadius: "9999px", background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)", fontFamily: "var(--ds-font-body)", fontSize: "0.68rem",   color: "var(--ds-primary-ink, var(--ds-primary))" }}>
           <span style={{ width: "0.4rem", height: "0.4rem", borderRadius: "9999px", background: "var(--ds-primary)" }} /> Jetzt starten
         </span>
         <h2 style={h2}>{content.heading}</h2>

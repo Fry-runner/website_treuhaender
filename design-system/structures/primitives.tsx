@@ -74,6 +74,16 @@ const PrimaryStyleCtx = React.createContext<PrimaryStyle>("solid");
 export const PrimaryStyleProvider = PrimaryStyleCtx.Provider;
 export const usePrimaryStyle = () => React.useContext(PrimaryStyleCtx);
 
+/** The minimalist "view all / forward" affordance used by section→subpage teasers
+ *  (the <SectionMore> link). Chosen ONCE per firm — like the primary-button style and
+ *  icon set — and supplied via context, so every forward link across the whole site
+ *  shares one coherent minimalist treatment (consistency within a site), while it
+ *  varies firm-to-firm (no single hardcoded "text + arrow" everywhere). */
+export type MoreStyle = "underline" | "arrow" | "chip" | "ghost" | "boxed" | "chevron";
+const MoreStyleCtx = React.createContext<MoreStyle>("underline");
+export const MoreStyleProvider = MoreStyleCtx.Provider;
+export const useMoreStyle = (): MoreStyle => React.useContext(MoreStyleCtx);
+
 type BtnProps = React.PropsWithChildren<{ variant?: "primary" | "outline"; onClick?: () => void; to?: string; type?: "button" | "submit" }>;
 
 // De-telled button base: body face, normal case, normal tracking (was the
@@ -137,13 +147,13 @@ export const Button: React.FC<BtnProps> = ({ children, variant = "primary", onCl
   const handle = onClick ?? (type === "submit" ? undefined : () => navigate(to ?? "/kontakt"));
   if (variant === "primary") {
     return (
-      <button type={type} onClick={handle} style={{ ...btnBase, ...primaryStyleProps(ps) }}>
+      <button className="ds-btn" type={type} onClick={handle} style={{ ...btnBase, ...primaryStyleProps(ps) }}>
         {children}
       </button>
     );
   }
   return (
-    <button type={type} onClick={handle} style={{ ...btnBase, background: "transparent", color: "var(--ds-text)", border: "1px solid var(--ds-text)" }}>
+    <button className="ds-btn" type={type} onClick={handle} style={{ ...btnBase, background: "transparent", color: "var(--ds-text)", border: "1px solid var(--ds-text)" }}>
       {children}
     </button>
   );
@@ -155,7 +165,7 @@ export const Button: React.FC<BtnProps> = ({ children, variant = "primary", onCl
 export const ActionButton: React.FC<React.PropsWithChildren<{ to?: string; style?: React.CSSProperties; ariaLabel?: string }>> = ({ children, to, style, ariaLabel }) => {
   const navigate = useNavigate();
   return (
-    <button type="button" aria-label={ariaLabel} onClick={() => navigate(to ?? "/kontakt")} style={style}>
+    <button className="ds-btn" type="button" aria-label={ariaLabel} onClick={() => navigate(to ?? "/kontakt")} style={style}>
       {children}
     </button>
   );

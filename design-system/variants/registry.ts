@@ -151,6 +151,9 @@ import {
   AboutLeadHighlightsSplit, AboutMilestones,
 } from "../structures/AboutExtended";
 import {
+  HistoryTimeline, HistoryRows, HistoryDotted, HistoryCards, HistorySidebar,
+} from "../structures/History";
+import {
   FeatureSplitLeft, FeatureSplitRight, FeatureWideImage, FeatureOverlapCard, FeatureBordered,
   FeatureTinted, FeatureImageTop, FeatureDark, FeatureOffsetFrame, FeatureRounded,
   FeatureBandFull, FeatureCaption, FeatureTwoThirds, FeatureMinimal, FeatureChipOverlay,
@@ -568,6 +571,13 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
     { id: "about/quiet-prose", component: AboutQuietProse, looks: ["soft", "swiss"] },                  // quiet prose column
     { id: "about/lead-highlights-split", component: AboutLeadHighlightsSplit, looks: ["editorial", "warm"] }, // lead+highlights | body
     { id: "about/milestones", component: AboutMilestones, looks: ["swiss", "editorial"] },              // numbered paragraphs
+  ],
+  history: [
+    { id: "history/timeline", component: HistoryTimeline, looks: ["swiss", "editorial", "soft"] },      // vertical connector timeline
+    { id: "history/rows", component: HistoryRows, looks: ["editorial", "swiss", "warm"] },              // big year | body rows
+    { id: "history/dotted", component: HistoryDotted, looks: ["editorial", "warm"] },                   // dashed line + markers
+    { id: "history/cards", component: HistoryCards, looks: ["soft", "warm"], min: 3 },                  // year-headed cards grid
+    { id: "history/sidebar", component: HistorySidebar, looks: ["editorial", "swiss"] },                // sticky heading + timeline
   ],
   feature: [
     { id: "feature/split-left", component: FeatureSplitLeft, looks: ["soft", "warm"], needsImage: true },        // image left, text right

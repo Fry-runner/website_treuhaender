@@ -21,7 +21,7 @@ const Bullets: React.FC<{ items?: string[]; light?: boolean }> = ({ items, light
   <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: "0.55rem" }}>
     {items.map((b, i) => (
       <li key={i} style={{ display: "flex", gap: "0.5rem", fontSize: "0.92rem", lineHeight: 1.45, color: light ? "rgba(255,255,255,0.9)" : "var(--ds-text)" }}>
-        <span aria-hidden style={{ color: "var(--ds-primary)", display: "inline-flex", marginTop: "0.15rem" }}><Icon name="check" size={15} /></span>{b}
+        <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex", marginTop: "0.15rem" }}><Icon name="check" size={15} /></span>{b}
       </li>
     ))}
   </ul>

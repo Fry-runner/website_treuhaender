@@ -169,7 +169,7 @@ export const HeroChapter: React.FC<{ content: HeroContent }> = ({ content }) => 
   <section style={sectionBase}>
     <Container style={{ maxWidth: "min(var(--ds-container), 920px)" }}>
       <div style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "2rem", alignItems: "start" }}>
-        <div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "calc(var(--ds-display) * 0.9)", color: "var(--ds-primary)", lineHeight: 0.9 }}>01</div>
+        <div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "calc(var(--ds-display) * 0.9)", color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 0.9 }}>01</div>
         <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
           <div style={{ height: "2px", width: "100%", background: "var(--ds-border)" }} />
           <Eyebrow>{content.eyebrow}</Eyebrow>
@@ -194,7 +194,7 @@ export const HeroAsideStat: React.FC<{ content: HeroContent }> = ({ content }) =
           <div style={ctaRow}><Button variant="primary">{content.primaryCta}</Button><Button variant="outline">{content.secondaryCta}</Button></div>
         </div>
         <div style={{ background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "2rem", display: "flex", flexDirection: "column", gap: "0.6rem", textAlign: "center" }}>
-          <div style={{ color: "var(--ds-primary)", lineHeight: 1, display: "flex" }}><Icon name="star" size={36} /></div>
+          <div style={{ color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 1, display: "flex" }}><Icon name="star" size={36} /></div>
           <div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.1rem", color: "var(--ds-text)" }}>{content.asideLabel}</div>
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.85rem", color: "var(--ds-text-muted)" }}>{content.asideAttribution}</div>
         </div>

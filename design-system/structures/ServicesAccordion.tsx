@@ -17,7 +17,7 @@ export const ServicesAccordion: React.FC<{ content: ServicesContent; more?: More
             <div key={i} style={{ borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
               <button onClick={() => setOpen(open === i ? -1 : i)} aria-expanded={open === i} aria-controls={`${uid}-p${i}`} style={{ width: "100%", textAlign: "left", background: open === i ? "var(--ds-surface)" : "var(--ds-bg)", border: "none", cursor: "pointer", padding: "1.1rem 1.4rem", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
                 <span style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.05rem", color: "var(--ds-text)" }}>{s.title}</span>
-                <span style={{ color: "var(--ds-primary)", lineHeight: 1, display: "inline-flex" }}>{open === i ? <Icon name="minus" size={18} /> : <Icon name="plus" size={18} />}</span>
+                <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 1, display: "inline-flex" }}>{open === i ? <Icon name="minus" size={18} /> : <Icon name="plus" size={18} />}</span>
               </button>
               {open === i && (
                 <div id={`${uid}-p${i}`} role="region" style={{ padding: "0 1.4rem 1.3rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}>
@@ -25,7 +25,7 @@ export const ServicesAccordion: React.FC<{ content: ServicesContent; more?: More
                     <div aria-hidden style={{ height: "10rem", borderRadius: "var(--ds-radius)", backgroundImage: `url("${s.image}")`, backgroundSize: "cover", backgroundPosition: "center" }} />
                   )}
                   <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0 }}>{s.summary}</p>
-                  {onPick && <button onClick={() => onPick(s.title)} style={{ alignSelf: "flex-start", background: "none", border: "none", cursor: "pointer", fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-primary)" }}>Mehr erfahren <Icon name="arrowRight" size={13} style={{ verticalAlign: "-0.1em" }} /></button>}
+                  {onPick && <button className="ds-nudge" onClick={() => onPick(s.title)} style={{ alignSelf: "flex-start", background: "none", border: "none", cursor: "pointer", fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-primary-ink, var(--ds-primary))" }}>Mehr erfahren <Icon name="arrowRight" size={13} style={{ verticalAlign: "-0.1em" }} /></button>}
                 </div>
               )}
             </div>

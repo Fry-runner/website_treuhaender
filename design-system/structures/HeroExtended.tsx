@@ -35,7 +35,7 @@ export const HeroFactband: React.FC<{ content: HeroContent }> = ({ content }) =>
     <Container style={{ marginTop: "2.6rem" }}>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)" }}>
         <div style={{ padding: "1.1rem 1.4rem", borderRight: "1px solid var(--ds-border)", fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>
-          <span aria-hidden style={{ color: "var(--ds-primary)", display: "inline-flex", verticalAlign: "-0.12em" }}><Icon name="star" size={14} /></span> {content.asideLabel}
+          <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex", verticalAlign: "-0.12em" }}><Icon name="star" size={14} /></span> {content.asideLabel}
         </div>
         <div style={{ padding: "1.1rem 1.4rem", fontFamily: "var(--ds-font-body)", fontSize: "0.85rem", color: "var(--ds-text-muted)" }}>
           {content.asideAttribution}
@@ -125,7 +125,7 @@ export const HeroColumnsDivider: React.FC<{ content: HeroContent }> = ({ content
             <Button variant="outline">{content.secondaryCta}</Button>
           </div>
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.7rem",   color: "var(--ds-text-muted)" }}>
-            <span aria-hidden style={{ color: "var(--ds-primary)", display: "inline-flex", verticalAlign: "-0.12em" }}><Icon name="star" size={14} /></span> {content.asideLabel}
+            <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex", verticalAlign: "-0.12em" }}><Icon name="star" size={14} /></span> {content.asideLabel}
           </div>
         </div>
       </div>
@@ -145,7 +145,7 @@ export const HeroFramed: React.FC<{ content: HeroContent }> = ({ content }) => (
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr auto", alignItems: "center", gap: "1rem", padding: "1.2rem clamp(1.8rem, 5vw, 3.4rem)", borderTop: "1px solid var(--ds-border)", background: "var(--ds-bg)" }}>
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.7rem",   color: "var(--ds-text-muted)" }}>
-            <span aria-hidden style={{ color: "var(--ds-primary)", display: "inline-flex", verticalAlign: "-0.12em" }}><Icon name="star" size={14} /></span> {content.asideLabel}
+            <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex", verticalAlign: "-0.12em" }}><Icon name="star" size={14} /></span> {content.asideLabel}
           </div>
           <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap" }}>
             <Button variant="primary">{content.primaryCta}</Button>
@@ -225,7 +225,7 @@ export const HeroRibbon: React.FC<{ content: HeroContent }> = ({ content }) => {
         <div className="ds-hero-ribbon" style={{ display: "inline-flex", gap: "2.5rem", animation: "ds-hero-marquee 26s linear infinite", willChange: "transform" }}>
           {row.map((t, i) => (
             <span key={i} style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>
-              <span style={{ color: "var(--ds-primary)", marginRight: "0.5rem", display: "inline-flex", verticalAlign: "-0.1em" }}><Icon name="check" size={12} /></span>{t}
+              <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", marginRight: "0.5rem", display: "inline-flex", verticalAlign: "-0.1em" }}><Icon name="check" size={12} /></span>{t}
             </span>
           ))}
         </div>

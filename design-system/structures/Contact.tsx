@@ -50,7 +50,7 @@ const InfoRow: React.FC<{ icon: IconName; label: string; value: string }> = ({ i
     : icon === "mail" ? `mailto:${value.trim()}` : undefined;
   return (
   <div style={{ display: "flex", gap: "0.7rem", alignItems: "flex-start" }}>
-    <span aria-hidden style={{ color: "var(--ds-primary)", marginTop: "0.15rem", display: "inline-flex" }}><Icon name={icon} size={18} /></span>
+    <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", marginTop: "0.15rem", display: "inline-flex" }}><Icon name={icon} size={18} /></span>
     <div style={{ display: "flex", flexDirection: "column", gap: "0.2rem" }}>
       <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem", color: "var(--ds-text-muted)" }}>{l}</span>
       {href

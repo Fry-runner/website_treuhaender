@@ -173,7 +173,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
@@ -480,8 +479,8 @@
     "lead": "Bei uns kennen Sie Ihre Ansprechpartner persönlich -- und wir kennen Ihr Unternehmen. Keine Sachbearbeiter-Rotation, kein Callcenter.",
     "paragraphs": [
       "IT-Enthusiast mit Leidenschaft für Zahlen. Roger verbindet technisches Know-how mit Treuhand-Expertise und sorgt dafür, dass bei MRG alles digital und effizient läuft.",
-      "Keine Warteschleifen, keine Ticket-Systeme. Bei uns erreichen Sie immer einen echten Menschen.",
-      "Wir mögen Technologie und setzen auf moderne Tools, die Ihnen Zeit und Nerven sparen."
+      "Die Zahlenflüsterin im Team. Melanie hat den Überblick über Buchhaltung und Löhne und kümmert sich darum, dass bei unseren Kunden alles stimmt – ruhig, präzis und zuverlässig.",
+      "Keine Warteschleifen, keine Ticket-Systeme. Bei uns erreichen Sie immer einen echten Menschen."
     ]
   },
   "featureAngles": [

@@ -23,14 +23,14 @@ export const Related: React.FC<{
             fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", color: "var(--ds-text)",
             transition: "all var(--ds-duration) var(--ds-ease)",
           }}>
-            {s.title} <span style={{ color: "var(--ds-primary)", display: "inline-flex", verticalAlign: "-0.1em" }}><Icon name="arrowRight" size={16} /></span>
+            {s.title} <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex", verticalAlign: "-0.1em" }}><Icon name="arrowRight" size={16} /></span>
           </button>
         ))}
         {onAll && (
           <button onClick={onAll} style={{
             textAlign: "left", cursor: "pointer", background: "var(--ds-primary-soft)",
             border: "1px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", padding: "1.2rem",
-            fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", color: "var(--ds-primary)",
+            fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", color: "var(--ds-primary-ink, var(--ds-primary))",
             transition: "all var(--ds-duration) var(--ds-ease)",
           }}>
             {allLabel} <span style={{ display: "inline-flex", verticalAlign: "-0.1em" }}><Icon name="arrowRight" size={16} /></span>

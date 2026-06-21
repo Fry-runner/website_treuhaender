@@ -47,7 +47,7 @@ export const Reveal: React.FC<React.PropsWithChildren<{ index?: number }>> = ({ 
         opacity: shown ? 1 : 0,
         transform: shown ? "none" : "translateY(var(--ds-reveal-dist, 18px))",
         transition: reduced ? "none"
-          : `opacity var(--ds-reveal-dur, 560ms) var(--ds-ease, ease-out) ${delay}, transform var(--ds-reveal-dur, 560ms) var(--ds-ease, ease-out) ${delay}`,
+          : `opacity var(--ds-reveal-dur, 560ms) var(--ds-reveal-ease, var(--ds-ease, ease-out)) ${delay}, transform var(--ds-reveal-dur, 560ms) var(--ds-reveal-ease, var(--ds-ease, ease-out)) ${delay}`,
         willChange: shown ? "auto" : "opacity, transform",
       }}
     >

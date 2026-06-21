@@ -70,7 +70,7 @@ export const StatsCards: React.FC<Props> = ({ content }) => (
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.2rem" }}>
         {content.items.map((s, i) => (
-          <div key={i} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", textAlign: "center", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+          <div key={i} className="ds-card" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", textAlign: "center", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
             <div style={big("2.4rem")}><CountUp value={s.value} /></div>
             <div style={label}>{s.label}</div>
           </div>
