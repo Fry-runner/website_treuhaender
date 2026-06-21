@@ -9,6 +9,31 @@ const toSlug = (s: string) => "/" + s.toLowerCase()
   .replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss")
   .replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const PHONE_RE = /^\+?[\d][\d\s()\/.-]{6,}$/;
+/** Known navigable site-page labels (umlaut-folded, lowercased) → real internal slugs. */
+const PAGE_LABELS = new Set([
+  "leistungen", "ueber uns", "über uns", "offene stellen", "kontakt",
+  "preise", "home", "impressum", "datenschutz",
+]);
+
+type LinkKind =
+  | { kind: "mailto"; href: string }
+  | { kind: "tel"; href: string }
+  | { kind: "page"; href: string }
+  | { kind: "plain" };
+
+/** Classify a footer label so phone/e-mail become real external links, known
+ *  page labels keep internal navigation, and bare values (e.g. a town) render
+ *  as plain text instead of dead internal slug routes. */
+const hrefFor = (label: string): LinkKind => {
+  const trimmed = label.trim();
+  if (EMAIL_RE.test(trimmed)) return { kind: "mailto", href: `mailto:${trimmed}` };
+  if (PHONE_RE.test(trimmed)) return { kind: "tel", href: `tel:${trimmed.replace(/[^\d+]/g, "")}` };
+  if (PAGE_LABELS.has(trimmed.toLowerCase())) return { kind: "page", href: toSlug(label) };
+  return { kind: "plain" };
+};
+
 /** Multi-column footer (briefing §3 footer). */
 export const Footer: React.FC<{ content: FooterContent }> = ({ content }) => {
   const navigate = useNavigate();
@@ -25,9 +50,15 @@ export const Footer: React.FC<{ content: FooterContent }> = ({ content }) => {
         {content.columns.map((c) => (
           <div key={c.title} style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
             <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.8rem", fontWeight: 600, color: "var(--ds-text-muted)" }}>{c.title}</div>
-            {c.links.map((l) => (
-              <a key={l} href={toSlug(l)} onClick={(e) => { e.preventDefault(); navigate(toSlug(l)); }} style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", color: "var(--ds-text)", textDecoration: "none", cursor: "pointer" }}>{l}</a>
-            ))}
+            {c.links.map((l) => {
+              const linkStyle = { fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", color: "var(--ds-text)", textDecoration: "none" } as const;
+              const t = hrefFor(l);
+              if (t.kind === "mailto" || t.kind === "tel")
+                return <a key={l} href={t.href} style={{ ...linkStyle, cursor: "pointer" }}>{l}</a>;
+              if (t.kind === "page")
+                return <a key={l} href={t.href} onClick={(e) => { e.preventDefault(); navigate(t.href); }} style={{ ...linkStyle, cursor: "pointer" }}>{l}</a>;
+              return <span key={l} style={linkStyle}>{l}</span>;
+            })}
           </div>
         ))}
       </div>

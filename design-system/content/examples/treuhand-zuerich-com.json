@@ -185,7 +185,11 @@
       "hero.aside",
       "values",
       "faq",
-      "services.text"
+      "services.text",
+      "process (generic)",
+      "audience (generic)",
+      "about (generic)",
+      "feature (generic)"
     ],
     "real": [
       "meta.firm",
@@ -507,9 +511,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zürich",
       "phone": "+41 44 204 20 10",
-      "email": "amir.hanna@treuhand-zuerich.com",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "amir.hanna@treuhand-zuerich.com"
     },
     "formCta": "Nachricht senden"
   },

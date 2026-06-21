@@ -178,6 +178,8 @@
     "placeholders": [
       "hero.aside",
       "faq",
+      "process (generic)",
+      "audience (generic)",
       "look.colors (generated)"
     ],
     "real": [
@@ -190,6 +192,8 @@
       "services.text",
       "team.members",
       "values",
+      "about",
+      "feature",
       "footer.tagline",
       "media.pool",
       "media.logo",
@@ -419,7 +423,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Ihre Buchhaltung auslagern und Zeit sparen: Treuhandfinanz© Zürich bietet professionelle Buchhaltung für KMU. Schnell, sicher und effizient",
+        "summary": "Deshalb profitieren KMU in der Schweiz … wenn Sie Ihre Buchhaltung auslagern. Wenn Sie ein eigenes Unternehmen führen, wissen Sie: Buchhaltung auszulagern, spart Kosten sowie Zeit und Nerven.",
         "body": "Deshalb profitieren KMU in der Schweiz … wenn Sie Ihre Buchhaltung auslagern. Wenn Sie ein eigenes Unternehmen führen, wissen Sie: Buchhaltung auszulagern, spart Kosten sowie Zeit und Nerven.\n\nBuchhaltung ist weit mehr als Zahlen abtippen. Es geht um gesetzliche Vorgaben, Fristen, korrekte Mehrwertsteuer-Abrechnungen, seriöse Steueroptimierung und die lückenlose Dokumentation aller Geschäftsvorgänge. Fehler können schnell teuer werden.\n\nEin professioneller Treuhänder kennt die aktuellen Vorschriften und sorgt dafür, dass Ihre Buchhaltung jederzeit korrekt und effizient erledigt wird.\n\n: Statt Stunden mit Rechnungen zu verbringen, können Sie sich auf Ihre Kunden und Ihr Wachstum konzentrieren.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -431,7 +435,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Neuigkeiten, Tipps und Fachwissen zu Buchhaltung, Jahresabschluss und Steuern in der Schweiz. Bleiben Sie mit Treuhandfinanz© immer auf dem neuesten Stand!",
+        "summary": "Ihr Treuhänder in Zürich: So finden Sie den passenden Partner für Ihr Unternehmen … Wer ein Unternehmen in Zürich führt, weiss: Vertrauen, Genauigkeit und Fachwissen sind unerlässlich, wenn es um Buchhaltung, Steuern und Finanzen geht. Ein professioneller Treuhänder in Zürich bzw",
         "body": "Ihr Treuhänder in Zürich: So finden Sie den passenden Partner für Ihr Unternehmen … Wer ein Unternehmen in Zürich führt, weiss: Vertrauen, Genauigkeit und Fachwissen sind unerlässlich, wenn es um Buchhaltung, Steuern und Finanzen geht. Ein professioneller Treuhänder in Zürich bzw. ein erfahrenes Treuhandunternehmen ist dabei mehr als nur ein Zahlenverwalter – er ist strategischer Partner, […]\n\nDas Treuhandunternehmen – die Treuhandfinanz AG in Zürich: Ihr professioneller Partner für effiziente Buchhaltung und Steuerberatung für Unternehmen in der Schweiz. In der dynamischen Finanzlandschaft der Schweiz sind professionelle Treuhandlösungen wichtiger denn je. Ob in Zürich, Küsnacht, Zug, Basel, Bern, Luzern oder anderen Kantonen: Unternehmen jeder Grösse profitieren von einem erfahrenen Treuhandunternehmen, das Buchhaltung, Steuern […]\n\nSteueroptimierung für KMU: Tipps vom Treuhänder … Ste",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -443,7 +447,7 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Entdecken Sie die Kompetenzen von Treuhandfinanz©: Buchhaltung, Steuern, Jahresabschluss & mehr. Ihr erfahrenes Treuhandbüro in Zürich ...",
+        "summary": "Jeder Unternehmer weiß: Ein Unternehmen zu gründen ist nicht immer einfach. Treuhandfinanz unterstützt Gründer auf ihrem Weg zur Firma. Damit später auch die Finanzen stimmen, bieten wir Neu- & Altfirmen unsere Finanzbuchhaltungsservices an – so gewinnen Sie Zeit & Geld.",
         "body": "Jeder Unternehmer weiß: Ein Unternehmen zu gründen ist nicht immer einfach. Treuhandfinanz unterstützt Gründer auf ihrem Weg zur Firma. Damit später auch die Finanzen stimmen, bieten wir Neu- & Altfirmen unsere Finanzbuchhaltungsservices an – so gewinnen Sie Zeit & Geld.\n\nDie Finanz- oder Lohnbuchhaltung macht den wenigsten von uns Freude. Zum Glück gibt es dafür Lohnbuchhalter, die immer den Überblick haben.\n\nDamit Sie sich jeden Tag aufs Neue auf und über Ihr Unternehmen freuen können, übernimmt Treuhandfinanz Ihre Lohn- und Finanzbuchhaltung.\n\nDamit stellen wir für Sie sicher, dass alle Abrechnungen immer pünktlich und fristgerecht erstellt und eingereicht werden. Ausserdem übernehmen wir für Sie professionell & kompetent die Erstellung der Jahresabschlüsse.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -454,7 +458,7 @@
       },
       {
         "title": "Jahresabschluss",
-        "summary": "Jahresabschluss stressfrei erledigen: Treuhandfinanz© Zürich unterstützt Unternehmen + KMU in der Schweiz. Buchhaltung & Steueroptimierung",
+        "summary": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz …  Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.",
         "body": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz …  Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.\n\nGleichzeitig stellt er Unternehmer jedes Jahr vor neue Herausforderungen: fehlende Belege, unklare Abgrenzungen, offene Fragen zur Mehrwertsteuer oder Unsicherheiten bei der Bewertung von Vermögenswerten.\n\n, die Kommunikation mit dem Steueramt und nicht zuletzt für Ihre interne Planung.\n\nDie relevanten Bestandteile – Bilanz, Erfolgsrechnung, Anhang und ggf. Lagebericht – geben einen strukturierten Überblick über die finanzielle Lage Ihres Unternehmens.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -465,7 +469,7 @@
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "Wir unterstützen Unternehmen bei der korrekten MWST-Abrechnung in der Schweiz. Ihr Treuhandbüro in Zürich für Buchhaltung & Steuerpflichten",
+        "summary": "Die Mehrwertsteuer, kurz MWST: Wir alle kennen sie, wir alle zahlen sie. Und zwar auf alles, was wir täglich kaufen. Also auch auf Dienstleistungen und Produkte, die beispielsweise Ihr Unternehmen anbietet und vertreibt. Für Sie als Chef heisst das: Diese MWST müssen Sie irgendwa",
         "body": "Die Mehrwertsteuer, kurz MWST: Wir alle kennen sie, wir alle zahlen sie. Und zwar auf alles, was wir täglich kaufen. Also auch auf Dienstleistungen und Produkte, die beispielsweise Ihr Unternehmen anbietet und vertreibt. Für Sie als Chef heisst das: Diese MWST müssen Sie irgendwann auch wieder abführen.\n\nEinfach gesagt: Die Mehrwertsteuer ist eine allgemeine Verbrauchs- und Konsumsteuer. Ausschliesslich vom Bund erhoben, dient sie v.a. der Decking der sog. allgemeinen Bundesausgaben.\n\nDefinition hin oder her: Wenn Sie ein Unternehmen führen, müssen Sie diese Mehrwertsteuer Ihren Kunden für die in Anspruch genommenen Dienstleistungen nicht nur in Rechnung stellen.\n\nSie müssen diese auch in der Steuererklärung wieder abführen. Beim Wort “Steuererklärung” bekommt der ein oder andere von Ihnen nun vielleicht Kopfschmerzen. Denn: Rechnungen, Belege und Quittungen müssen sortiert und eingereic",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -476,7 +480,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Jahresabschluss stressfrei erledigen: Treuhandfinanz© Zürich unterstützt Unternehmen + KMU in der Schweiz. Buchhaltung & Steueroptimierung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz …  Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.\n\nGleichzeitig stellt er Unternehmer jedes Jahr vor neue Herausforderungen: fehlende Belege, unklare Abgrenzungen, offene Fragen zur Mehrwertsteuer oder Unsicherheiten bei der Bewertung von Vermögenswerten.\n\n, die Kommunikation mit dem Steueramt und nicht zuletzt für Ihre interne Planung.\n\nDie relevanten Bestandteile – Bilanz, Erfolgsrechnung, Anhang und ggf. Lagebericht – geben einen strukturierten Überblick über die finanzielle Lage Ihres Unternehmens.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -506,6 +510,55 @@
       }
     ]
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Jahresabschluss für Unternehmen",
+    "lead": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz …  Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.",
+    "paragraphs": [
+      "Gleichzeitig stellt er Unternehmer jedes Jahr vor neue Herausforderungen: fehlende Belege, unklare Abgrenzungen, offene Fragen zur Mehrwertsteuer oder Unsicherheiten bei der Bewertung von Vermögenswerten.",
+      ", die Kommunikation mit dem Steueramt und nicht zuletzt für Ihre interne Planung.",
+      "Die relevanten Bestandteile – Bilanz, Erfolgsrechnung, Anhang und ggf. Lagebericht – geben einen strukturierten Überblick über die finanzielle Lage Ihres Unternehmens."
+    ]
+  },
+  "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Jahresabschluss für Ihre Firma",
+      "body": "Wir erstellen Ihren Jahresabschluss oder übernehmen die komplette Finanzbuchhaltung.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "100% anonym & diskret",
+      "body": "Übermittelte Mitarbeiter- und Firmendaten unterliegen dem Datenschutz – Ihre Sicherheit hat Vorrang!",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "100% perfekte Lohnbuchhaltung",
+      "body": "Sie suchen einen erfahrenen  Treuhänder in Zürich? Dann bestellen Sie jetzt gleich Ihre kostenlose Offerte!",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Deshalb profitieren KMU in der Schweiz … wenn Sie Ihre Buchhaltung auslagern. Wenn Sie ein eigenes Unternehmen führen, wissen Sie: Buchhaltung auszulagern, spart Kosten sowie Zeit und Nerven.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -560,9 +613,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zürich",
       "phone": "+41 (0)58 502 85 00",
-      "email": "info@treuhandfinanz.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "info@treuhandfinanz.ch"
     },
     "formCta": "Nachricht senden"
   },

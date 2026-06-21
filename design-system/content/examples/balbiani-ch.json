@@ -113,7 +113,6 @@
         "services",
         "audience",
         "process",
-        "team",
         "partners",
         "cta",
         "contact",
@@ -162,7 +161,7 @@
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "echte Teammitglieder gescraped",
+        "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -183,6 +182,9 @@
       "hero.aside",
       "values",
       "faq",
+      "process (generic)",
+      "audience (generic)",
+      "about (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -193,7 +195,7 @@
       "hero.headline",
       "hero.lede",
       "services.text",
-      "team.members",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -520,7 +522,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung. Kontaktieren Sie uns.",
+        "summary": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung und können Sie kompetent und zielführend von A bis Z begleiten.",
         "body": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung und können Sie kompetent und zielführend von A bis Z begleiten.\n\nDank uns verfügen Sie jederzeit über die wichtigen Kennziffern, welche Ihnen bestimmt in der Unternehmensführung helfen werden.\n\nSparen Sie Ihre Zeit und vertrauen Sie uns Ihre Buchhaltung an. Wir freuen uns, für Sie da zu sein.\n\nSie können Ihre Buchungen vorerfassen und wir können diese mittels Schnittstelle in unser Finanz-Programm übertragen. Gerne betreuen wir Ihre Buchhaltung auch vor Ort.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -532,7 +534,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen u.v.m.",
+        "summary": "Albert Einstein sagte einst, warum er einen Steuerberater beschäftigte: \"Das ist für einen Mathematiker zu schwierig, dazu muss man Philosoph sein\".",
         "body": "Albert Einstein sagte einst, warum er einen Steuerberater beschäftigte: \"Das ist für einen Mathematiker zu schwierig, dazu muss man Philosoph sein\".\n\nWenn es um Steuerfragen geht, sind wir gerne Ihre Philosophen. Bei uns sparen Sie Zeit und Steuern und können sich als Privatperson oder juristische Person bei uns melden. Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen und vieles mehr.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -544,7 +546,7 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Wir unterstützen Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.",
+        "summary": "Wir unterstützen Sie in der Pflege Ihrer wertvollsten Investition, dem Personal.",
         "body": "Wir unterstützen Sie in der Pflege Ihrer wertvollsten Investition, dem Personal.\n\nKlare Verhältnisse mit Ihren Mitarbeiterinnen und Mitarbeiter sind eine wichtige Investition für den Erfolg Ihres Unternehmens. Genau deshalb unterstützen wir Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.\n\nvon Balbiani tatkräftig unterstützen. Sie sind uns genauso wichtig, wie Ihre Mitarbeitenden Ihnen wichtig sind. Wir freuen uns auf Ihre",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -568,7 +570,7 @@
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung. Kontaktieren Sie uns.",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung und können Sie kompetent und zielführend von A bis Z begleiten.\n\nDank uns verfügen Sie jederzeit über die wichtigen Kennziffern, welche Ihnen bestimmt in der Unternehmensführung helfen werden.\n\nSparen Sie Ihre Zeit und vertrauen Sie uns Ihre Buchhaltung an. Wir freuen uns, für Sie da zu sein.\n\nSie können Ihre Buchungen vorerfassen und wir können diese mittels Schnittstelle in unser Finanz-Programm übertragen. Gerne betreuen wir Ihre Buchhaltung auch vor Ort.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -580,7 +582,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Gerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
+        "summary": "Sie haben eine Geschäftsidee und sind auf der Suche nach einem kompetenten Partner, welcher Sie bis zur Gründung begleitet? Dank jahrelanger Erfahrung in der Materie sind wir der ideale Partner für Ihre Bedürfnisse.",
         "body": "Sie haben eine Geschäftsidee und sind auf der Suche nach einem kompetenten Partner, welcher Sie bis zur Gründung begleitet? Dank jahrelanger Erfahrung in der Materie sind wir der ideale Partner für Ihre Bedürfnisse.\n\nGerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -597,23 +599,64 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung und können Sie kompetent und zielführend von A bis Z begleiten.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Albert Einstein sagte einst, warum er einen Steuerberater beschäftigte: \"Das ist für einen Mathematiker zu schwierig, dazu muss man Philosoph sein\".",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Lohnadministration",
+      "body": "Wir unterstützen Sie in der Pflege Ihrer wertvollsten Investition, dem Personal.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "Sie haben eine Geschäftsidee und sind auf der Suche nach einem kompetenten Partner, welcher Sie bis zur Gründung begleitet? Dank jahrelanger Erfahrung in der Materie sind wir der ideale Partner für Ihre Bedürfnisse.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Vanja Dancilovic",
-        "role": "Gesellschafterin und Mitglied Geschäftsleitung",
-        "initials": "VD",
-        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
-      },
-      {
-        "name": "Katia De Feo",
-        "role": "Gesellschafterin und Mitglied Geschäftsleitung",
-        "initials": "KF",
-        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -654,9 +697,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Dietikon",
       "phone": "044 746 40 60",
-      "email": "jean-pierre@balbiani.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "jean-pierre@balbiani.ch"
     },
     "formCta": "Nachricht senden"
   },

@@ -111,9 +111,7 @@
         "services",
         "audience",
         "process",
-        "team",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -161,10 +159,10 @@
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "echte Teammitglieder gescraped",
+        "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -181,6 +179,10 @@
     "placeholders": [
       "hero.aside",
       "values",
+      "faq",
+      "process (generic)",
+      "audience (generic)",
+      "about (generic)",
       "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
@@ -190,8 +192,7 @@
       "contact.email",
       "contact.phone",
       "services.text",
-      "team.members",
-      "faq",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -368,7 +369,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "steht seit über 15 Jahren für kompetente Beratung und individuelle Betreuung in der Finanz- und Versicherungsbranche.",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "steht seit über 15 Jahren für kompetente Beratung und individuelle Betreuung in der Finanz- und Versicherungsbranche.\n\nUnsere langjährige Erfahrung und tiefgehende Fachkenntnis machen uns zu Ihrem verlässlichen Partner in allen steuerlichen Belangen – sowohl für Privatpersonen als auch für Unternehmen.\n\nUnser Anspruch ist es, komplexe steuerliche Themen verständlich zu erklären und Ihnen praktikable Lösungen anzubieten. Dabei legen wir grossen Wert auf Transparenz, Vertrauen und persönliche\n\nOb Steuererklärung, Optimierung, Unternehmensberatung oder Vorsorgeplanung – wir begleiten Sie persönlich und effizient durch den Schweizer Steuerdschungel.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -384,35 +385,25 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "steht seit über 15 Jahren für kompetente Beratung und individuelle Betreuung in der Finanz- und Versicherungsbranche.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Steuerberater Kosten",
-        "role": "Steuerberater finden",
-        "initials": "SK",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
-      },
-      {
-        "name": "Steuererklärung Preise",
-        "role": "Steuerberatung Preise",
-        "initials": "SP",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
-      },
-      {
-        "name": "Steuerberatung Preise",
-        "role": "Steuererklärung günstig",
-        "initials": "SP",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
-      },
-      {
-        "name": "Steuererklärung Familien",
-        "role": "Vermögenssteuer",
-        "initials": "SF",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -444,24 +435,7 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "Was kostet Steuerberatung in der Schweiz?",
-        "a": "Die Kosten für eine Steuerberatung in der Schweiz variieren stark, abhängig vom Umfang der Leistungen und der Komplexität der Steuererklärung. Für einfache Steuererklärungen von Privatpersonen"
-      },
-      {
-        "q": "Wer profitiert von günstiger Steuerhilfe?",
-        "a": "Wir haben uns darauf spezialisiert, besonders günstige Steuerberatungslösungen anzubieten. Diese richten sich speziell an Privatpersonen mit einfacher Steuerlage, aber auch an Lehrlinge,"
-      },
-      {
-        "q": "Welche Situationen machen Beratung sinnvoll?",
-        "a": "Eine professionelle Steuerberatung lohnt sich immer dann, wenn die eigene finanzielle Situation komplex ist oder wenn man das Gefühl hat, zu viel Steuern zu zahlen. Besonders bei folgenden"
-      },
-      {
-        "q": "Wie es funktioniert?",
-        "a": "Unsere Partner beraten in den Sprachen Deutsch, Englisch und Französisch."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
@@ -472,8 +446,8 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "phone": "+41 58 345 30 30",
-      "hours": "Mo–Fr 08:00–17:00"
+      "address": "Zürich",
+      "phone": "+41 58 345 30 30"
     },
     "formCta": "Nachricht senden"
   },

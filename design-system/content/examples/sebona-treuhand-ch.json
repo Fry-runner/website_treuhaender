@@ -127,7 +127,6 @@
         "process",
         "team",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -178,7 +177,7 @@
         "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -193,7 +192,10 @@
       }
     },
     "placeholders": [
-      "hero.aside"
+      "hero.aside",
+      "faq",
+      "process (generic)",
+      "audience (generic)"
     ],
     "real": [
       "meta.firm",
@@ -207,7 +209,9 @@
       "team.photos",
       "stats",
       "values",
-      "faq",
+      "about",
+      "feature",
+      "contact.hours",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -587,7 +591,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Wissenswertes rund um Buchhaltung, Steuern und Firmengründung in der Schweiz – Praxisartikel für KMU und Selbstständige.",
+        "summary": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.",
         "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nWas kostet die Buchhaltung für eine GmbH 2026? Realistische Preise, alle Kostenfaktoren und ein Rechenbeispiel – plus Online-Preisrechner für Ihren Festpreis.\n\nTreuhänder beauftragen oder selbst buchen? Der ehrliche Kostenvergleich 2026 mit Zeitaufwand, Software, Fehlerrisiko – plus Preisrechner für Ihren Festpreis.\n\nBezugssteuer Art. 45 MWSTG: Ab CHF 10'000 Auslandsdienstleistungen wird die MwSt selbst geschuldet. Was Schweizer KMU wissen müssen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -598,7 +602,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Wissenswertes rund um Buchhaltung, Steuern und Firmengründung in der Schweiz – Praxisartikel für KMU und Selbstständige.",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nWas kostet die Buchhaltung für eine GmbH 2026? Realistische Preise, alle Kostenfaktoren und ein Rechenbeispiel – plus Online-Preisrechner für Ihren Festpreis.\n\nTreuhänder beauftragen oder selbst buchen? Der ehrliche Kostenvergleich 2026 mit Zeitaufwand, Software, Fehlerrisiko – plus Preisrechner für Ihren Festpreis.\n\nBezugssteuer Art. 45 MWSTG: Ab CHF 10'000 Auslandsdienstleistungen wird die MwSt selbst geschuldet. Was Schweizer KMU wissen müssen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -609,7 +613,7 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Buchhaltung selber machen oder auslagern? Kostenvergleich, Vor- und Nachteile, Software-Optionen. Inkl. Preisrechner für Ihr KMU.",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
         "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nBezugssteuer Schweiz – wenn Google, Facebook & Co. MwSt-pflichtig machen\n\nBuchhaltung selbst erledigen, an Bürohilfe delegieren oder komplett auslagern? Für viele KMU-Inhaber:innen ist das eine der ersten strategischen Fragen. Hier erfahren Sie, wann sich Outsourcing lohnt – und wann nicht.\n\nvor dem Jahresabschluss, damit nichts Wesentliches falsch verbucht ist.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -620,7 +624,7 @@
       },
       {
         "title": "Jahresabschluss",
-        "summary": "Jahresabschluss nach Schweizer OR: Bilanz, Erfolgsrechnung und Anhang. Pflichten, Fristen und Tipps zur Steueroptimierung – kompakt erklärt für KMU.",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
         "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nBezugssteuer Schweiz – wenn Google, Facebook & Co. MwSt-pflichtig machen\n\nDer Jahresabschluss ist die Visitenkarte Ihres Unternehmens. Wir erklären, was Pflicht ist.\n\nbei Überschreiten von zwei Schwellen: Bilanzsumme > 20 Mio., Umsatz > 40 Mio., > 250 Vollzeitstellen",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -631,7 +635,7 @@
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "Bezugssteuer Art. 45 MWSTG: Ab CHF 10'000 Auslandsdienstleistungen wird die MwSt selbst geschuldet. Was Schweizer KMU wissen müssen.",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nSie buchen Google Ads für CHF 500 pro Monat. Sie zahlen ein Adobe-Abo aus den USA. Sie nutzen ein Cloud-Tool aus Irland. Und plötzlich kommt ein Brief der ESTV: Bezugssteuer-Nachforderung. Was steckt dahinter – und wie vermeiden Sie böse Überraschungen?\n\n(Art. 45 MWSTG) ist eine besondere Form der Mehrwertsteuer: Wenn ein Schweizer Unternehmen oder eine Privatperson\n\nHintergrund: Ausländische Anbieter wie Google, Meta, Amazon oder Adobe sind oft nicht in der Schweiz registriert. Damit der Schweizer Fiskus trotzdem MwSt einnehmen kann, wird die Steuerpflicht auf den Bezüger übertragen – Stichwort",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -642,7 +646,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Businessplan erstellen: Aufbau, Finanzplan und typische Fehler. Schritt-für-Schritt-Leitfaden für Gründer und KMU in der Schweiz – mit Praxis-Tipps.",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.\n\nBezugssteuer Schweiz – wenn Google, Facebook & Co. MwSt-pflichtig machen\n\nEin Businessplan ist mehr als nur eine Pflichtübung – er ist Ihr strategischer Kompass. Wir zeigen Ihnen, welche Elemente in einen überzeugenden Businessplan gehören und wie Sie diesen strukturiert aufbauen.\n\nBrauchen Sie Unterstützung beim Aufbau Ihres Businessplans? SEBONA Treuhand begleitet Sie von der ersten Idee bis zur Umsetzung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -658,23 +662,67 @@
     "heading": "Ihr Vorteil.",
     "items": [
       {
-        "title": "Sebastian Böhner",
-        "body": "Eidg. Fachausweis Finanz- & Rechnungswesen. Mehrjährige Praxiserfahrung in Automobil, Unternehmensberatung, Immobilien und Hotellerie."
-      },
-      {
-        "title": "Sabina Höfer",
-        "body": "Erfahrene Treuhand-Fachfrau mit Fokus auf Buchhaltung, MwSt-Abrechnungen und Lohnadministration für KMU im Grossraum Zürich."
-      },
-      {
         "title": "Gian-Carlo Fossa",
         "body": "Buchhaltung, Jahresabschlüsse und Steuererklärungen für Firmen- und Privatkunden. Italienischsprachige Beratung möglich."
       },
       {
-        "title": "Mayra Guarin",
-        "body": "Erste Anlaufstelle für administrative Anfragen, Termine und Organisation im Büro Kloten."
+        "title": "Warum Sie von SEBONA profitieren",
+        "body": "Unsere Treuhand-Dienstleistungen haben ein Ziel: Ihren Unternehmenserfolg fördern und Sie bestmöglich unterstützen."
+      },
+      {
+        "title": "Verständnis für KMU",
+        "body": "Wir kennen die Seite der Unternehmerin und des Unternehmers. Buchhaltung muss aus Unternehmenssicht praktikabel und effizient sein – nicht selbstzweck."
+      },
+      {
+        "title": "Spezialthemen aus einer Hand",
+        "body": "Neben normalen Buchhaltungsarbeiten unterstützen wir Sie auch bei Gründung, Liquiditätsplanung, Budgetierung, Controlling und Investitionsrechnung."
       }
     ]
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Persönliche Treuhand-Partner für Ihr KMU",
+    "lead": "SEBONA Treuhand Böhner – Ihr persönlicher Treuhand-Partner für KMU im Grossraum Zürich. Buchhaltung, Steuern, Domizilservice.",
+    "paragraphs": [
+      "Bei uns sind Sie nicht einfach ein Mandant. Wir setzen uns mit all unserem Know-how für Ihren Geschäftserfolg ein – persönlich, vorausschauend und auf Augenhöhe.",
+      "Eidg. Fachausweis Finanz- & Rechnungswesen. Mehrjährige Praxiserfahrung in Automobil, Unternehmensberatung, Immobilien und Hotellerie.",
+      "Erfahrene Treuhand-Fachfrau mit Fokus auf Buchhaltung, MwSt-Abrechnungen und Lohnadministration für KMU im Grossraum Zürich."
+    ]
+  },
+  "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Gian-Carlo Fossa",
+      "body": "Buchhaltung, Jahresabschlüsse und Steuererklärungen für Firmen- und Privatkunden. Italienischsprachige Beratung möglich.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Warum Sie von SEBONA profitieren",
+      "body": "Unsere Treuhand-Dienstleistungen haben ein Ziel: Ihren Unternehmenserfolg fördern und Sie bestmöglich unterstützen.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Verständnis für KMU",
+      "body": "Wir kennen die Seite der Unternehmerin und des Unternehmers. Buchhaltung muss aus Unternehmenssicht praktikabel und effizient sein – nicht selbstzweck.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Spezialthemen aus einer Hand",
+      "body": "Neben normalen Buchhaltungsarbeiten unterstützen wir Sie auch bei Gründung, Liquiditätsplanung, Budgetierung, Controlling und Investitionsrechnung.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -736,20 +784,7 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "Was kostet Buchhaltung für eine GmbH 2026?",
-        "a": "Was kostet die Buchhaltung für eine GmbH 2026? Realistische Preise, alle Kostenfaktoren und ein Rechenbeispiel – plus Online-Preisrechner für Ihren Festpreis."
-      },
-      {
-        "q": "Bevor Sie gehen – kennen Sie schon unseren Preisrechner?",
-        "a": "Ab CHF 160/Monat für Einzelfirma mit 120 Belegen · inkl. Jahresabschluss & Steuererklärung"
-      },
-      {
-        "q": "Mehrwertsteuerpflicht Schweiz – ab wann müssen Sie sich anmelden?",
-        "a": "Ab CHF 100'000 Umsatz MwSt-pflichtig? Anmeldefristen, Saldosteuersatz und Stolperfallen – kompakt erklärt. Mit kostenfreiem MWST-Schnelltest."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
@@ -760,8 +795,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Kloten",
       "phone": "+41 43 883 90 60",
-      "hours": "Mo–Fr 08:00–17:00"
+      "hours": "Mo–Fr 09:00–12:00, 13:00–18:00"
     },
     "formCta": "Nachricht senden"
   },

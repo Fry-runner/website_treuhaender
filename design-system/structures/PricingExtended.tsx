@@ -97,7 +97,6 @@ export const PricingDark: React.FC<Props> = ({ content, more }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)" }}>
     <Container>
       <div style={{ marginBottom: "2.2rem", textAlign: "center" }}>
-        <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "rgba(255,255,255,0.8)", marginBottom: "0.6rem" }}>{content.eyebrow}</div>
         <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "#fff", margin: 0 }}>{content.heading}</h2>
       </div>
       <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.2rem" }}>

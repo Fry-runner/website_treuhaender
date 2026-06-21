@@ -118,10 +118,8 @@
         "nav",
         "hero",
         "services",
-        "values",
         "audience",
         "process",
-        "team",
         "partners",
         "cta",
         "contact",
@@ -165,12 +163,12 @@
         "home:hero": "Kernsektion",
         "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
-        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "echte Teammitglieder gescraped",
+        "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -189,7 +187,10 @@
     },
     "placeholders": [
       "hero.aside",
-      "faq"
+      "values",
+      "faq",
+      "process (generic)",
+      "audience (generic)"
     ],
     "real": [
       "meta.firm",
@@ -199,9 +200,8 @@
       "hero.headline",
       "hero.lede",
       "services.text",
-      "team.members",
-      "team.photos",
-      "values",
+      "about",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -522,7 +522,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Buchhaltung zum fairen Preis - umfassende Treuhandberatung Zürich Altstetten. - Mehr als 20 Jahre Erfahrung in Buchhaltung.",
+        "summary": "Jedes Unternehmen muss seine Buchhaltung korrekt und vollständig führen. Das ist nicht nur eine gesetzliche Pflicht, sondern auch eine Vorsichtsmassnahme. Eine gut geführte Buchhaltung liefert im Streitfall wertvolle Beweismittel und stimmt die Steuerbehörden positiv.",
         "body": "Jedes Unternehmen muss seine Buchhaltung korrekt und vollständig führen. Das ist nicht nur eine gesetzliche Pflicht, sondern auch eine Vorsichtsmassnahme. Eine gut geführte Buchhaltung liefert im Streitfall wertvolle Beweismittel und stimmt die Steuerbehörden positiv.\n\nSie sehen: Das Führen der Buchhaltung stellt eine grosse Verantwortung dar. Legen Sie diese Aufgabe vertrauensvoll in unsere Hände. Sie können sich darauf verlassen, dass Ihre gesamte Finanzbuchhaltung stets in Ordnung ist und Sie vor unliebsamen Überraschungen sicher sein werden.\n\nWir sorgen dafür, dass Ihre alltäglichen Geschäftsfälle korrekt und pünktlich gebucht werden.\n\nKontrolle der bereits vorgenommenen Verbuchungen auf Vollständigkeit, Korrektheit, Konsistenz, usw.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -546,7 +546,7 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Wir übernehmen für Sie die Lohnadministration, Lohnbuchhaltung und diverse Abrechnung mit den Behörden. Arbeitsbewilligung für Status S.",
+        "summary": "In einer erfolgreichen Unternehmensführung ist die effektive Personalverwaltung unerlässlich. Wir von Zürich Tax & Treuhand GmbH wissen, dass Sie sich auf das Führen Ihres Teams konzentrieren müssen. Genau deshalb bieten wir Ihnen unsere Expertise an, um Ihnen den administrativen",
         "body": "In einer erfolgreichen Unternehmensführung ist die effektive Personalverwaltung unerlässlich. Wir von Zürich Tax & Treuhand GmbH wissen, dass Sie sich auf das Führen Ihres Teams konzentrieren müssen. Genau deshalb bieten wir Ihnen unsere Expertise an, um Ihnen den administrativen Teil abzunehmen und Ihnen den Rücken freizuhalten.\n\nWir behalten den Überblick über Ihre Lohnabrechnungen und sorgen für pünktliche und korrekte Zahlungen.\n\nDer administrative Verkehr mit Behörden wie der Sozialversicherungsanstalt (SVA) oder Ihrer Pensionskasse wird von uns sorgfältig abgewickelt.\n\nWir unterstützen Sie bei der Erstellung von Arbeitsverträgen, Kündigungsschreiben und Zeugnissen – alles rechtssicher und individuell angepasst.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -580,7 +580,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Firmengründungen, Umwandlungen und Umstrukturierung, Businessplan und weitere Dientsleistungen. Gerne informieren wir Sie.",
+        "summary": "Lassen Sie sich dabei von uns beraten und unterstützen! Dies sind unsere Dienstleistungen:",
         "body": "Lassen Sie sich dabei von uns beraten und unterstützen! Dies sind unsere Dienstleistungen:\n\nProzess-Steuerung: Auf Wunsch übernehmen wir die Projektleitung und sorgen dafür, dass alles in Ihrem besten Interesse abgewickelt wird.\n\nBeratung zur Wahl der Rechtsform (AG, GmbH, usw.) in finanzieller und steuerlicher Hinsicht\n\nBeratung zur Wahl der Rechtsform (AG, GmbH, usw.) in finanzieller und steuerlicher Hinsicht",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -595,33 +595,63 @@
   "values": {
     "eyebrow": "Warum wir",
     "heading": "Ihr Vorteil.",
-    "items": [
-      {
-        "title": "Wie wir arbeiten",
-        "body": "Weil jede Firma anders funktioniert und jede Buchhaltung anders organisiert ist, passen wir unsere Arbeitsweise individuell an Ihre Anforderungen an. Hier ist vieles möglich:"
-      },
-      {
-        "title": "Unsere Stärken",
-        "body": "Unsere Kundschaft schätzt die kompetente Beratung, die gewissenhafte Ausführung und die persönliche Betreuung."
-      },
-      {
-        "title": "Fatih Özonar",
-        "body": "Ich bin Fatih Özonar, Ihr Ansprechpartner für alle Treuhand-Dienstleistungen. Zwar trage ich einen ausländischen Namen, aber geboren und aufgewachsen bin ich in der Schweiz."
-      }
+    "items": []
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Wie wir arbeiten",
+    "lead": "Zürich Tax & Treuhand GmbH hilft Schweizer KMU aus der Region Zürich und angrenzenden Kantonen bei allen Aufgaben rund um die Buchhaltung: Finanzbuchhaltung, Steuererklärungen, Personaladministration, Firmengründungen und Versicherungen.",
+    "paragraphs": [
+      "Weil jede Firma anders funktioniert und jede Buchhaltung anders organisiert ist, passen wir unsere Arbeitsweise individuell an Ihre Anforderungen an. Hier ist vieles möglich:",
+      "Unsere Kundschaft schätzt die kompetente Beratung, die gewissenhafte Ausführung und die persönliche Betreuung.",
+      "Der persönliche Ansprechpartner, welcher jederzeit für Sie erreichbar ist und auf Sie eingeht."
     ]
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Jedes Unternehmen muss seine Buchhaltung korrekt und vollständig führen. Das ist nicht nur eine gesetzliche Pflicht, sondern auch eine Vorsichtsmassnahme. Eine gut geführte Buchhaltung liefert im Streitfall wertvolle Beweismittel und stimmt die Steuerbehörden positiv.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Lohnadministration",
+      "body": "In einer erfolgreichen Unternehmensführung ist die effektive Personalverwaltung unerlässlich. Wir von Zürich Tax & Treuhand GmbH wissen, dass Sie sich auf das Führen Ihres Teams konzentrieren müssen. Genau deshalb bieten wir Ihnen unsere Expertise an, um Ihnen den administrativen",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "Lassen Sie sich dabei von uns beraten und unterstützen! Dies sind unsere Dienstleistungen:",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Fatih Özonar",
-        "role": "Mandatsleitung Treuhand",
-        "initials": "FÖ",
-        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
-        "photo": "/images/zurichtaxtreuhand-ch/team/0-özonar.jpg"
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -664,9 +694,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zürich",
       "phone": "+41 43 569 69 69",
-      "email": "fo@zurichtaxtreuhand.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "fo@zurichtaxtreuhand.ch"
     },
     "formCta": "Nachricht senden"
   },

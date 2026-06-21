@@ -90,7 +90,6 @@ export const GalleryFullBleed: React.FC<Props> = ({ content, more }) => {
     <section style={{ position: "relative", overflow: "hidden", borderBottom: "1px solid var(--ds-border)", minHeight: "360px", display: "flex", alignItems: "flex-end", ...cover(src) }}>
       <div aria-hidden style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.1))" }} />
       <Container style={{ position: "relative", paddingBlock: "2.4rem" }}>
-        <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "rgba(255,255,255,0.85)" }}>{content.eyebrow}</div>
         <h2 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display-h2, 2.2rem)", color: "#fff", margin: "0.4rem 0 0" }}>{content.heading}</h2>
         <OverlayMore more={more} />
       </Container>

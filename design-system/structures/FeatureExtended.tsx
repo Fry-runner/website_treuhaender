@@ -14,7 +14,6 @@ type Props = { content: FeatureContent };
 
 const sectionBase: React.CSSProperties = { background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" };
 const cover = (img: string): React.CSSProperties => ({ backgroundImage: `url("${img}")`, backgroundSize: "cover", backgroundPosition: "center" });
-const eyebrowS = (light?: boolean): React.CSSProperties => ({ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.1em", color: light ? "rgba(255,255,255,0.7)" : "var(--ds-text-muted)" });
 const headingS = (light?: boolean): React.CSSProperties => ({ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display-h2, 1.9rem)", lineHeight: 1.15, color: light ? "#fff" : "var(--ds-text)", margin: 0 });
 const bodyS = (light?: boolean): React.CSSProperties => ({ fontFamily: "var(--ds-font-body)", fontSize: "1.02rem", lineHeight: 1.6, color: light ? "rgba(255,255,255,0.85)" : "var(--ds-text-muted)", margin: 0 });
 
@@ -30,7 +29,6 @@ const Bullets: React.FC<{ items?: string[]; light?: boolean }> = ({ items, light
 
 const Text: React.FC<{ c: FeatureContent; light?: boolean }> = ({ c, light }) => (
   <div style={{ display: "flex", flexDirection: "column", gap: "1.1rem" }}>
-    <span style={eyebrowS(light)}>{c.eyebrow}</span>
     <h2 style={headingS(light)}>{c.heading}</h2>
     <p style={bodyS(light)}>{c.body}</p>
     <Bullets items={c.bullets} light={light} />
@@ -104,7 +102,7 @@ export const FeatureImageTop: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 900px)" }}>
     <Photo img={content.image} style={{ minHeight: "300px", marginBottom: "1.8rem" }} />
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.3fr) minmax(0,1fr)", gap: "2rem", alignItems: "start" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "0.9rem" }}><span style={eyebrowS()}>{content.eyebrow}</span><h2 style={headingS()}>{content.heading}</h2><p style={bodyS()}>{content.body}</p></div>
+      <div style={{ display: "flex", flexDirection: "column", gap: "0.9rem" }}><h2 style={headingS()}>{content.heading}</h2><p style={bodyS()}>{content.body}</p></div>
       <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}><Bullets items={content.bullets} />{content.cta && <Button variant="primary" to={content.cta.href}>{content.cta.label}</Button>}</div>
     </div>
   </Container></section>
@@ -147,7 +145,6 @@ export const FeatureBandFull: React.FC<Props> = ({ content }) => (
     <div aria-hidden style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg, rgba(0,0,0,0.72), rgba(0,0,0,0.30))" }} />
     <Container style={{ position: "relative", paddingBlock: "calc(var(--ds-section-y) * 1.4)" }}>
       <div style={{ maxWidth: "44ch", display: "flex", flexDirection: "column", gap: "1.1rem" }}>
-        <span style={{ ...eyebrowS(true) }}>{content.eyebrow}</span>
         <h2 style={{ ...headingS(true), fontSize: "var(--ds-display-h2, 2.2rem)" }}>{content.heading}</h2>
         <p style={bodyS(true)}>{content.body}</p>
         <Bullets items={content.bullets} light />
@@ -162,7 +159,7 @@ export const FeatureCaption: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div aria-hidden style={{ minHeight: "360px", borderRadius: "var(--ds-radius) var(--ds-radius) 0 0", ...cover(content.image) }} />
     <div style={{ border: "1px solid var(--ds-border)", borderTop: "none", borderRadius: "0 0 var(--ds-radius) var(--ds-radius)", padding: "1.8rem 2rem", display: "grid", gridTemplateColumns: "minmax(0,1.5fr) minmax(0,1fr)", gap: "1.6rem", alignItems: "center" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}><span style={eyebrowS()}>{content.eyebrow}</span><h2 style={{ ...headingS(), fontSize: "1.5rem" }}>{content.heading}</h2><p style={bodyS()}>{content.body}</p></div>
+      <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}><h2 style={{ ...headingS(), fontSize: "1.5rem" }}>{content.heading}</h2><p style={bodyS()}>{content.body}</p></div>
       {content.cta && <div style={{ justifySelf: "end" }}><Button variant="primary" to={content.cta.href}>{content.cta.label}</Button></div>}
     </div>
   </Container></section>
@@ -193,7 +190,6 @@ export const FeatureChipOverlay: React.FC<Props> = ({ content }) => (
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: "2.6rem", alignItems: "center" }}>
       <div style={{ position: "relative" }}>
         <Photo img={content.image} style={{ minHeight: "360px" }} />
-        <span style={{ position: "absolute", top: "1rem", left: "1rem", background: "var(--ds-bg)", color: "var(--ds-primary)", fontFamily: "var(--ds-font-mono)", fontSize: "0.68rem", textTransform: "uppercase", letterSpacing: "0.08em", borderRadius: "var(--ds-radius-pill)", padding: "0.35rem 0.8rem", boxShadow: "var(--ds-shadow-card)" }}>{content.eyebrow}</span>
       </div>
       <div style={{ display: "flex", flexDirection: "column", gap: "1.1rem" }}><h2 style={headingS()}>{content.heading}</h2><p style={bodyS()}>{content.body}</p><Bullets items={content.bullets} />{content.cta && <div><Button variant="primary" to={content.cta.href}>{content.cta.label}</Button></div>}</div>
     </div>
@@ -205,7 +201,6 @@ export const FeatureStatement: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.1fr) minmax(0,1fr)", gap: "2.6rem", alignItems: "center" }}>
       <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
-        <span style={eyebrowS()}>{content.eyebrow}</span>
         <h2 style={{ ...headingS(), fontSize: "var(--ds-display-h2, 2.2rem)", lineHeight: 1.2 }}>{content.heading}</h2>
         <Bullets items={content.bullets} />
         {content.cta && <div><Button variant="primary" to={content.cta.href}>{content.cta.label}</Button></div>}

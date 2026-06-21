@@ -107,7 +107,6 @@
         "services",
         "values",
         "audience",
-        "stats",
         "process",
         "partners",
         "cta",
@@ -155,7 +154,7 @@
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
-        "home:stats": "echte Kennzahlen gefunden",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
         "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
@@ -177,6 +176,8 @@
     "placeholders": [
       "hero.aside",
       "faq",
+      "process (generic)",
+      "audience (generic)",
       "look.colors (generated)"
     ],
     "real": [
@@ -187,8 +188,9 @@
       "hero.headline",
       "hero.lede",
       "services.text",
-      "stats",
       "values",
+      "about",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -590,7 +592,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Suter Treuhand in Zürich & Luzern ☝ zuverlässig und partnerschaftlich ✅Ich biete Steuerberatung ✅Beratung bei Firmengründunge ✅GmbH und AG",
+        "summary": "Sie möchten Ihre Steuern, Ihre Buchhaltung oder Ihr Lohnwesen in verlässliche Hände geben? Sie legen Wert auf eine persönliche Betreuung mit gleichbleibendem Ansprechpartner, auf individuelle Strategien und auf ein angenehmes Miteinander?",
         "body": "Sie möchten Ihre Steuern, Ihre Buchhaltung oder Ihr Lohnwesen in verlässliche Hände geben? Sie legen Wert auf eine persönliche Betreuung mit gleichbleibendem Ansprechpartner, auf individuelle Strategien und auf ein angenehmes Miteinander?\n\nRufen Sie mich an, schreiben Sie mir eine E-Mail oder nutzen Sie das nachstehende Formular zur Kontaktaufnahme. Gemeinsam besprechen wir in Ruhe, ob und in welcher Form ich Sie am besten unterstützen kann.\n\nSchön, dass ich Ihr Interesse geweckt habe. Sie haben noch Fragen? Rufen Sie mich an oder senden Sie mir eine E-Mail, ich helfe Ihnen sehr gerne weiter.\n\nzur Kenntnis genommen. Ich erteile Ihnen die Erlaubnis, meine Angaben zur Kontaktaufnahme und für Rückfragen dauerhaft zu speichern. (Diese Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie eine E-Mail an",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -601,7 +603,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Hier erfahren Sie mehr über Treuhand Luzern, aktuelle Themen vom Treuhandbüro und News aus dem Themen Buchhaltung und Firmengründung",
+        "summary": "Neue Gesetze, aktuelle Trends und Entwicklungen – ich bleibe für Sie stets auf dem Laufenden und bewerte die aktuellen Geschehnisse für Sie.",
         "body": "Neue Gesetze, aktuelle Trends und Entwicklungen – ich bleibe für Sie stets auf dem Laufenden und bewerte die aktuellen Geschehnisse für Sie.\n\nGeschäftsfahrzeuge sind für viele Unternehmen unverzichtbar. Erfahren Sie, wie sie steuerlich und mehrwertsteuerlich korrekt behandelt werden – inklusive Elektrofahrzeuge.\n\nAb 2025 wird das Referenzalter für Frauen schrittweise erhöht. Die AHV-21-Reform bringt wichtige Änderungen für Arbeitgeber und Versicherte – insbesondere bei Renten, Übergangsjahrgängen und HR-Prozessen.\n\nTrinkgelder fliessen in die Bemessungsgrundlage der Mehrwertsteuer ein: nun sind keine Bedenken mehr erforderlich.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -612,7 +614,7 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Der Inhaber einer AG oder GmbH tritt meistens in einer Doppelfunktion auf: Er ist Angestellter und Anteilseigner. Steueroptimierung ist ein wichtiges Thema.",
+        "summary": "Um Steuerlast und Sozialabgaben gering zu halten, setzen einige Unternehmen bewusst einen niedrigen Lohn für den Inhaber an. Dieser kann bei einer Prüfung revidiert werden, wenn die ausgeschüttete Dividende als zu hoch identifiziert wird (niedriger als 10 % des Unternehmenswerts)",
         "body": "Um Steuerlast und Sozialabgaben gering zu halten, setzen einige Unternehmen bewusst einen niedrigen Lohn für den Inhaber an. Dieser kann bei einer Prüfung revidiert werden, wenn die ausgeschüttete Dividende als zu hoch identifiziert wird (niedriger als 10 % des Unternehmenswerts) und der Lohn analog zur Lohntabelle des Bundes als nicht angemessen betrachtet wird. AHV und SUVA nehmen in diesem Fall eine Lohnanpassung vor, die sich auch auf die Steuerlast auswirkt und die Festsetzung von Schuldzinsen nach sich zieht.\n\nEin Lohnverzicht als Inhaber ist prinzipiell möglich, da die Gesellschaft und er zwei getrennte Rechtspersönlichkeiten sind, selbst, wenn es sich um Einpersonengesellschaften handelt. Der Gedanke an einen Lohnverzicht als Inhaber liegt dabei nahe, dabei muss aber bedacht werden, dass trotzdem Mindestbeiträge an AHV/IV/EO gezahlt werden müssen und dass die Entnahme von Vermöge",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -634,7 +636,7 @@
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "Trinkgelder fliessen in die Bemessungsgrundlage der Mehrwertsteuer ein: nun sind keine Bedenken mehr erforderlich.",
+        "summary": "Im vergangenen Jahr war ungewiss, ob Trinkgelder in bestimmten Fällen in Zukunft steuerpflichtig sein könnten. Lange Zeit schien es so, als ob die Eidgenössische Steuerverwaltung (ESTV) an ihrer diesbezüglichen Position festhalten würde. Kurz vor Weihnachten hat sie jedoch ihren ",
         "body": "Im vergangenen Jahr war ungewiss, ob Trinkgelder in bestimmten Fällen in Zukunft steuerpflichtig sein könnten. Lange Zeit schien es so, als ob die Eidgenössische Steuerverwaltung (ESTV) an ihrer diesbezüglichen Position festhalten würde. Kurz vor Weihnachten hat sie jedoch ihren Standpunkt geändert.\n\nFür meine Mandantin, die mit erheblichen Umsetzungsproblemen konfrontiert war, stellte diese Entscheidung ein unerwartetes Weihnachtsgeschenk dar. Da es sich jedoch um eine Gabe an alle Branchen handelt, in denen Trinkgelder üblich sind, möchte ich dieses Geschenk gerne weitergeben.\n\nUm die weitreichende Bedeutung dieser Frage zu verstehen, ist ein Rückblick auf ihre Entstehung notwendig.\n\nDer Umfang der Trinkgelder lässt sich bei Barzahlung nicht genau bestimmen. Im Rahmen einer bargeldlosen Bezahlung können sie nun genau beziffert werden. Dies kommt nun auch den Behörden entgegen, die sich",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -646,7 +648,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "AG gründen einfach online in Zürich und Horgen - Ihr kompetentes ☝ Treuhandbüro im Bereich ✅Firmengründung ✅AG gründen ✅online ✅bereits ab CHF 450",
+        "summary": "Profitieren Sie von meiner Expertise und umfassenden Unterstützung bei Ihrer Firmengründung.",
         "body": "Profitieren Sie von meiner Expertise und umfassenden Unterstützung bei Ihrer Firmengründung.\n\nOR) kann von einer oder mehreren natürlichen oder juristischen Personen gegründet werden. Diese stellen ein festgelegtes Kapital zur Verfügung, das in einzelne Anteile, sogenannte Aktien, unterteilt ist.\n\nIn der Schweiz zählt die AG zusammen mit der GmbH zu den am häufigsten gewählten Rechtsformen. Sie bietet aufgrund ihrer Regelungen zur Haftung und Kapitalstruktur auch für kleinere Unternehmen zahlreiche Vorteile.\n\nFür die Schulden der Aktiengesellschaft haftet ausschließlich das Gesellschaftsvermögen. Aktionäre tragen im Falle eines Konkurses lediglich das Risiko, ihr eingebrachtes Aktienkapital zu verlieren.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -679,6 +681,50 @@
       }
     ]
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Treu­hand Luzern – persönlich, kompetent und digital",
+    "lead": "Buchhaltung, Steuern und Firmengründungen für KMU und Privatpersonen in Luzern und Zürich.",
+    "paragraphs": [
+      "Konzentrieren Sie sich auf Ihr Unternehmen – ich kümmere mich um Ihre Buchhaltung, Steuern und Administration.",
+      "Mit persönlicher Betreuung, langjähriger Erfahrung und individuellen Lösungen entlaste ich Sie zuverlässig und effizient.",
+      "Eine professionelle Buchhaltung schafft Sicherheit und spart wertvolle Zeit. Ich übernehme Ihre Finanzbuchhaltung zuverlässig, effizient und zu einem fairen Fixpreis. Dank moderner digitaler Lösungen können Sie sich auf Ihr Unternehmen konzentrieren, während ich mich um Ihre Zahlen kümmere."
+    ]
+  },
+  "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Steuern",
+      "body": "Buchhaltung, Steuern und Firmengründungen für KMU und Privatpersonen in Luzern und Zürich.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Buchhaltung",
+      "body": "Eine professionelle Buchhaltung schafft Sicherheit und spart wertvolle Zeit. Ich übernehme Ihre Finanzbuchhaltung zuverlässig, effizient und zu einem fairen Fixpreis. Dank moderner digitaler Lösungen können Sie sich auf Ihr Unternehmen konzentrieren, während ich mich um Ihre Zahlen kümmere.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Lohnwesen",
+      "body": "Die Lohnadministration erfordert Fachwissen und Sorgfalt. Ich übernehme für Sie die monatlichen Lohnabrechnungen, Sozialversicherungsdeklarationen sowie An- und Abmeldungen bei den Versicherungen. Gerne unterstütze ich Sie auch bei der Gestaltung und Überprüfung von Arbeitsverträgen.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Steuerberatung und Steuererklärung",
+      "body": "Steuern bieten oft Sparpotenzial – vorausgesetzt, sie werden fachgerecht geplant und erstellt. Ich unterstütze Sie bei Ihrer Steuererklärung und berate Sie kompetent, damit Sie alle gesetzlichen Möglichkeiten zur Steueroptimierung ausschöpfen und keine Chancen ungenutzt bleiben.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -697,16 +743,7 @@
     "items": []
   },
   "stats": {
-    "items": [
-      {
-        "value": "18+",
-        "label": "Jahre Erfahrung"
-      },
-      {
-        "value": "112000+",
-        "label": "Unternehmen"
-      }
-    ]
+    "items": []
   },
   "trust": {
     "label": "Mitglied · Zertifiziert",
@@ -732,9 +769,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Luzern",
       "phone": "+41 (0) 41 911 25 20",
-      "email": "contact@sutertreuhand.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "contact@sutertreuhand.ch"
     },
     "formCta": "Nachricht senden"
   },

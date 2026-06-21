@@ -125,7 +125,6 @@
         "audience",
         "process",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -176,7 +175,7 @@
         "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -193,7 +192,11 @@
     "placeholders": [
       "hero.aside",
       "values",
+      "faq",
       "footer.tagline",
+      "process (generic)",
+      "audience (generic)",
+      "about (generic)",
       "look.colors (generated)"
     ],
     "real": [
@@ -203,7 +206,7 @@
       "contact.phone",
       "hero.headline",
       "services.text",
-      "faq",
+      "feature",
       "trust.items",
       "media.pool",
       "media.logo",
@@ -727,8 +730,8 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Die Abschaffung des Eigenmietwerts und die damit verknüpften Aspekte haben zahlreiche Auswirkungen auf unterschiedlicher Ebene. Wer profitiert? Wer verliert? Welche Folgen sind zu relativieren? Lesen Sie unsere Auslegeordnung bzw. unseren Überblick.",
-        "body": "Die Abschaffung des Eigenmietwerts und die damit verknüpften Aspekte haben zahlreiche Auswirkungen auf unterschiedlicher Ebene. Wer profitiert? Wer verliert? Welche Folgen sind zu relativieren? Lesen Sie unsere Auslegeordnung bzw. unseren Überblick.\n\nDer Regierungsrat des Kantons Zürich hat die bislang geltende Weisung zur Neubewertung von Liegenschaften aus dem Jahr 2009 überarbeitet, um mit der Entwicklung der Immobilienpreise Schritt zu halten und Ungerechtigkeiten zu beseitigen. Doch was sind die konkreten Folgen?\n\nZuerst gilt es, sich einen Überblick zu verschaffen, worüber wir eigentlich abstimmen. Welches sind die wichtigsten Elemente der geplanten Reform? Was ist die jeweilige Idee dahinter? Inwieweit sind Sie überhaupt betroffen?\n\nDie modernisierte Alters- und Hinterlassenenversicherung tritt am 1. Januar 2024 in Kraft. Neue Mehrwertsteuersätze ergänzen die AHV-Finanzierung. Was",
+        "summary": "Der Regierungsrat des Kantons Zürich hat die bislang geltende Weisung zur Neubewertung von Liegenschaften aus dem Jahr 2009 überarbeitet, um mit der Entwicklung der Immobilienpreise Schritt zu halten und Ungerechtigkeiten zu beseitigen. Doch was sind die konkreten Folgen?",
+        "body": "Der Regierungsrat des Kantons Zürich hat die bislang geltende Weisung zur Neubewertung von Liegenschaften aus dem Jahr 2009 überarbeitet, um mit der Entwicklung der Immobilienpreise Schritt zu halten und Ungerechtigkeiten zu beseitigen. Doch was sind die konkreten Folgen?\n\nZuerst gilt es, sich einen Überblick zu verschaffen, worüber wir eigentlich abstimmen. Welches sind die wichtigsten Elemente der geplanten Reform? Was ist die jeweilige Idee dahinter? Inwieweit sind Sie überhaupt betroffen?\n\nDie modernisierte Alters- und Hinterlassenenversicherung tritt am 1. Januar 2024 in Kraft. Neue Mehrwertsteuersätze ergänzen die AHV-Finanzierung. Was geändert wurde und was diese Anpassungen für Sie heissen, erfahren Sie hier.\n\nBewahren Sie Ihre Unterlagen lieber in digitaler Form auf? Taxalis hat gute Neuigkeiten für Sie: Wir bieten Ihnen auch die digitale Einreichung Ihrer Steuererklärung an. Da",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -761,7 +764,7 @@
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "Per 1. Januar 2024 gelten neue Mehrwertsteuersätze in der Schweiz. Die Anpassung der indirekten Konsumsteuer dient der AHV-Finanzierung. Um wie viel Prozente die Sätze angehoben werden und worauf Ihr Unternehmen achten muss, lesen Sie hier.",
+        "summary": "Mit Konsum Steuereinnahmen generieren – das Konzept der Mehrwertsteuer lässt sich in einem Satz erklären. Seit 1995 zahlt man in der Schweiz auf fast jedes Produkt und auf fast jede Dienstleistung eine Mehrwertsteuer. Unternehmen geben diese im Anschluss an den Staat weiter. Die ",
         "body": "Mit Konsum Steuereinnahmen generieren – das Konzept der Mehrwertsteuer lässt sich in einem Satz erklären. Seit 1995 zahlt man in der Schweiz auf fast jedes Produkt und auf fast jede Dienstleistung eine Mehrwertsteuer. Unternehmen geben diese im Anschluss an den Staat weiter. Die Mehrheit der KMU in der Schweiz überschreiten die Umsatzgrenze von CHF 100'000 pro Jahr und sind im Normalfall umsatzsteuerpflichtig.\n\nDie Mehrwertsteuern sind eine der essenziellsten Einnahmequellen des Bundes: Mit über 24 Milliarden Franken bilden sie 2022 mehr als 30 Prozent der Gesamteinnahmen – Tendenz steigend. Denn per 1. Januar gelten neue Mehrwertsteuersätze.\n\nIm nächsten Jahr bezahlt man für Produkte wie digitale Geräte oder Dienstleistungen wie ein Fitnessabonnement 0.4 Prozent mehr – so hoch fällt die Differenz des angepassten MWST-Normalsatzes aus – von 7.7 Prozent auf 8.1 Prozent. Für Nahrungsmittel",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -789,6 +792,47 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Der Regierungsrat des Kantons Zürich hat die bislang geltende Weisung zur Neubewertung von Liegenschaften aus dem Jahr 2009 überarbeitet, um mit der Entwicklung der Immobilienpreise Schritt zu halten und Ungerechtigkeiten zu beseitigen. Doch was sind die konkreten Folgen?",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Mehrwertsteuer",
+      "body": "Mit Konsum Steuereinnahmen generieren – das Konzept der Mehrwertsteuer lässt sich in einem Satz erklären. Seit 1995 zahlt man in der Schweiz auf fast jedes Produkt und auf fast jede Dienstleistung eine Mehrwertsteuer. Unternehmen geben diese im Anschluss an den Staat weiter. Die ",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "Unsere engagierten Experten nehmen sich gerne für Sie Zeit, sich Ihren Steuerangelegenheiten anzunehmen und diese für Sie optimal umzusetzen.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -823,24 +867,7 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "Was bedeutet die Teuerung für den Immobilienmarkt?",
-        "a": "Damit erhöhen sich auch die Hypothekarzinsen. Für eine 10-jährige Festhypothek zahlt man etwa 3 Prozent, eine Saron-Hypothek kostet ungefähr 2,4 Prozent."
-      },
-      {
-        "q": "Wie ist der aktuelle Zustand des Immobilienmarkts?",
-        "a": "Das Angebot an Wohneigentum ist hierzulande knapp – diese ungünstige Lage für potenzielle Hauseigentümerinnen und Hauseigentümer wird sich nicht so schnell ändern. Das hat mehrere Gründe: Der Anstieg der Hypothekarzinsen und die Erhöhung der Baukosten führen zu einer Verteuerung der Bautätigkeit, die Anzahl von Neubaubewilligungen nimmt ab. Gleichzeitig bleiben zum Verkauf ausgeschriebene Liegenschaften nicht lange auf dem Markt."
-      },
-      {
-        "q": "Ich besitze bereits eine Liegenschaft. Was soll ich jetzt tun?",
-        "a": "Das kommt auf Ihre individuelle Situation darauf an. Falls Sie eine Festhypothek haben, sind Sie vor steigenden Zinsen gut geschützt. Eine Saron-Hypothek mag wegen den Zinsschwankungen etwas riskant klingen, aber: Sie wird auf lange Sicht nur teurer als etwa 5- oder 10-jährige Festhypotheken, wenn der Leitzins mehrere Jahre auf einem Niveau von über 2 Prozent liegt. Bis jetzt waren Festmarkthypotheken fast immer kostspieliger als Saron-Hypotheken. Eine persönliche Beratung ist aber immer zu empfehlen, wenn es um Geldfragen geht."
-      },
-      {
-        "q": "Benötigen Sie Unterstützung bei der Hypothekenbewirtschaftung Ihrer Immobilie?",
-        "a": "Bei Taxalis steht eine klare Kommunikation im Vordergrund. Wir weisen Sie darauf hin, dass wir mit Ihrem Einverständnis nur funktionelle Cookies einsetzen, um Ihnen eine bestmögliche User Experience auf unserer Website anzubieten."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
@@ -851,9 +878,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Winterthur",
       "phone": "+41 52 260 20 10",
-      "email": "andrea.vettiger@taxalis.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "andrea.vettiger@taxalis.ch"
     },
     "formCta": "Nachricht senden"
   },

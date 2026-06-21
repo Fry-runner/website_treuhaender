@@ -186,6 +186,9 @@
       "hero.aside",
       "values",
       "faq",
+      "process (generic)",
+      "audience (generic)",
+      "about (generic)",
       "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
@@ -197,6 +200,7 @@
       "hero.headline",
       "hero.lede",
       "services.text",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -390,7 +394,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Auf dieser Seite finden sie aktuelle Informationen zu den Themen Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen von aurora treuhand ag.",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -406,6 +410,34 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Sie finden unter den Dienstleistungen des Treuhandbüros aurora treuhand ag Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Auf dieser Seite finden sie aktuelle Informationen zu den Themen Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen von aurora treuhand ag.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -448,9 +480,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zumikon",
       "phone": "044 492 41 75",
-      "email": "aurora.ag@bluewin.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "aurora.ag@bluewin.ch"
     },
     "formCta": "Nachricht senden"
   },

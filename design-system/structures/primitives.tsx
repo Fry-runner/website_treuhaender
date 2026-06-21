@@ -28,14 +28,12 @@ export const PORTRAIT_FOCUS = "center 25%";
 // no leading primary dash — those together were the generic "AI section label".
 // Now a quiet small-caps-free label in the body face; the look still varies per
 // firm because --ds-font-body does.
-export const Eyebrow: React.FC<Div> = ({ children }) => (
-  <div style={{
-    fontFamily: "var(--ds-font-body)", fontSize: "0.85rem",
-    fontWeight: 600, color: "var(--ds-text-muted)",
-  }}>
-    {children}
-  </div>
-);
+// Eyebrows/kickers are removed site-wide by design — a heading stands on its own.
+// This primitive (and every <SectionHead> that uses it) renders nothing, so all
+// section/hero eyebrows disappear centrally; the prop is kept only so call sites
+// stay valid. Inline eyebrow labels that bypass this primitive are removed at their
+// own call sites.
+export const Eyebrow: React.FC<Div> = () => null;
 
 export const Heading: React.FC<Div> = ({ children, style }) => (
   <h1 style={{
@@ -50,7 +48,7 @@ export const Heading: React.FC<Div> = ({ children, style }) => (
 );
 
 export const Accent: React.FC<Div> = ({ children }) => (
-  <span style={{ color: "var(--ds-primary)" }}>{children}</span>
+  <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))" }}>{children}</span>
 );
 
 export const Lede: React.FC<Div> = ({ children, style }) => (
@@ -102,28 +100,28 @@ function primaryStyleProps(s: PrimaryStyle): React.CSSProperties {
     case "mono":     return { ...base, borderRadius: "var(--ds-radius)", boxShadow: "none", letterSpacing: "0.16em" };
     case "gradient": return { ...base, borderRadius: "var(--ds-radius)", border: "none", backgroundImage: "linear-gradient(120deg, var(--ds-primary), var(--ds-secondary))", boxShadow: "var(--ds-shadow-card)", ...body };
     case "soft":     return { ...base, borderRadius: "0.85rem", boxShadow: "0 14px 34px -12px var(--ds-primary)", ...body };
-    case "ghost":    return { ...base, background: "var(--ds-primary-soft)", color: "var(--ds-primary)", border: "1px solid transparent", borderRadius: "var(--ds-radius)", boxShadow: "none", ...body };
-    case "bordered": return { ...base, background: "transparent", color: "var(--ds-primary)", border: "1px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", boxShadow: "none" };
-    case "link":     return { ...base, background: "transparent", color: "var(--ds-primary)", border: "none", borderRadius: 0, boxShadow: "none", padding: "0.4rem 0", borderBottom: "2px solid var(--ds-primary)", ...body };
-    case "outlineBold": return { ...base, background: "transparent", color: "var(--ds-primary)", border: "2px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", boxShadow: "none", letterSpacing: "0.1em" };
-    case "pillOutline": return { ...base, background: "transparent", color: "var(--ds-primary)", border: "1.5px solid var(--ds-primary)", borderRadius: "9999px", boxShadow: "none", ...body };
+    case "ghost":    return { ...base, background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", border: "1px solid transparent", borderRadius: "var(--ds-radius)", boxShadow: "none", ...body };
+    case "bordered": return { ...base, background: "transparent", color: "var(--ds-primary-ink, var(--ds-primary))", border: "1px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", boxShadow: "none" };
+    case "link":     return { ...base, background: "transparent", color: "var(--ds-primary-ink, var(--ds-primary))", border: "none", borderRadius: 0, boxShadow: "none", padding: "0.4rem 0", borderBottom: "2px solid var(--ds-primary)", ...body };
+    case "outlineBold": return { ...base, background: "transparent", color: "var(--ds-primary-ink, var(--ds-primary))", border: "2px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", boxShadow: "none", letterSpacing: "0.1em" };
+    case "pillOutline": return { ...base, background: "transparent", color: "var(--ds-primary-ink, var(--ds-primary))", border: "1.5px solid var(--ds-primary)", borderRadius: "9999px", boxShadow: "none", ...body };
     case "offset":   return { ...base, borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-text)", boxShadow: "4px 4px 0 var(--ds-secondary)" };
-    case "glass":    return { ...base, background: "var(--ds-primary-soft)", color: "var(--ds-primary)", border: "1px solid var(--ds-border)", borderRadius: "0.75rem", boxShadow: "var(--ds-shadow-card)", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)", ...body };
+    case "glass":    return { ...base, background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", border: "1px solid var(--ds-border)", borderRadius: "0.75rem", boxShadow: "var(--ds-shadow-card)", backdropFilter: "blur(8px)", WebkitBackdropFilter: "blur(8px)", ...body };
     case "elevated": return { ...base, borderRadius: "0.85rem", boxShadow: "0 16px 30px -12px rgba(0,0,0,0.45)" };
     case "inset":    return { ...base, borderRadius: "var(--ds-radius)", boxShadow: "inset 0 1px 0 rgba(255,255,255,0.25), inset 0 -2px 0 rgba(0,0,0,0.18)" };
     case "slab":     return { ...base, borderRadius: 0, borderBottom: "3px solid var(--ds-secondary)", boxShadow: "none", letterSpacing: "0.14em" };
     case "notch":    return { ...base, borderRadius: 0, boxShadow: "none", clipPath: "polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%)" };
-    case "ring":     return { ...base, background: "transparent", color: "var(--ds-primary)", border: "1px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", boxShadow: "0 0 0 4px var(--ds-primary-soft)" };
-    case "chip":     return { ...base, background: "var(--ds-primary-soft)", color: "var(--ds-primary)", border: "none", borderRadius: "9999px", boxShadow: "none", padding: "0.55rem 1.1rem", fontSize: "0.7rem", ...body };
-    case "gradientBorder": return { ...base, color: "var(--ds-primary)", border: "2px solid transparent", borderRadius: "var(--ds-radius)", boxShadow: "none", background: "linear-gradient(var(--ds-bg), var(--ds-bg)) padding-box, linear-gradient(120deg, var(--ds-primary), var(--ds-secondary)) border-box", ...body };
+    case "ring":     return { ...base, background: "transparent", color: "var(--ds-primary-ink, var(--ds-primary))", border: "1px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", boxShadow: "0 0 0 4px var(--ds-primary-soft)" };
+    case "chip":     return { ...base, background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", border: "none", borderRadius: "9999px", boxShadow: "none", padding: "0.55rem 1.1rem", fontSize: "0.7rem", ...body };
+    case "gradientBorder": return { ...base, color: "var(--ds-primary-ink, var(--ds-primary))", border: "2px solid transparent", borderRadius: "var(--ds-radius)", boxShadow: "none", background: "linear-gradient(var(--ds-bg), var(--ds-bg)) padding-box, linear-gradient(120deg, var(--ds-primary), var(--ds-secondary)) border-box", ...body };
     case "gradientPill": return { ...base, border: "none", borderRadius: "9999px", backgroundImage: "linear-gradient(120deg, var(--ds-primary), var(--ds-secondary))", boxShadow: "0 12px 32px -8px var(--ds-primary)", ...body };
-    case "dashed":   return { ...base, background: "transparent", color: "var(--ds-primary)", border: "1.5px dashed var(--ds-primary)", borderRadius: "var(--ds-radius)", boxShadow: "none", ...body };
+    case "dashed":   return { ...base, background: "transparent", color: "var(--ds-primary-ink, var(--ds-primary))", border: "1.5px dashed var(--ds-primary)", borderRadius: "var(--ds-radius)", boxShadow: "none", ...body };
     case "bevel":    return { ...base, borderRadius: 0, boxShadow: "none", clipPath: "polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px)" };
     case "surfaceCard": return { ...base, background: "var(--ds-surface)", color: "var(--ds-text)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", ...body };
-    case "tintBorder": return { ...base, background: "var(--ds-primary-soft)", color: "var(--ds-primary)", border: "1px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", boxShadow: "none", ...body };
+    case "tintBorder": return { ...base, background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", border: "1px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", boxShadow: "none", ...body };
     case "xl":       return { ...base, borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.15rem 2.2rem", fontSize: "0.9rem" };
     case "wide":     return { ...base, borderRadius: "var(--ds-radius)", boxShadow: "none", letterSpacing: "0.24em" };
-    case "underlineThick": return { ...base, background: "transparent", color: "var(--ds-primary)", border: "none", borderRadius: 0, boxShadow: "none", padding: "0.4rem 0", borderBottom: "3px solid var(--ds-primary)", ...body };
+    case "underlineThick": return { ...base, background: "transparent", color: "var(--ds-primary-ink, var(--ds-primary))", border: "none", borderRadius: 0, boxShadow: "none", padding: "0.4rem 0", borderBottom: "3px solid var(--ds-primary)", ...body };
     case "raisedPill": return { ...base, borderRadius: "9999px", boxShadow: "0 16px 30px -12px rgba(0,0,0,0.45)" };
     case "solid":
     default:         return { ...base, borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)" };

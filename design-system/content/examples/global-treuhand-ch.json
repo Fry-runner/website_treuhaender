@@ -103,7 +103,6 @@
         "audience",
         "process",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -150,7 +149,7 @@
         "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -167,6 +166,10 @@
     "placeholders": [
       "hero.aside",
       "values",
+      "faq",
+      "process (generic)",
+      "audience (generic)",
+      "about (generic)",
       "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
@@ -177,7 +180,7 @@
       "contact.phone",
       "hero.lede",
       "services.text",
-      "faq",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -347,7 +350,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Global Treuhand unterstützt Privatpersonen bei der Steuererklärung und berät Sie kompetent bei der Steueroptimierung nach den aktuellen Standards.",
+        "summary": "Global Treuhand berät Sie kompetent und fachmännisch zur Steueroptimierung. Wenden Sie Ihren Steuerstress ab und übergeben Sie uns Ihre Steuererklärung. Bei uns sind Sie in guten Händen aufgehoben.",
         "body": "Global Treuhand berät Sie kompetent und fachmännisch zur Steueroptimierung. Wenden Sie Ihren Steuerstress ab und übergeben Sie uns Ihre Steuererklärung. Bei uns sind Sie in guten Händen aufgehoben.\n\nAls Ihr Steuerberater kontrollieren wir für Sie die Einschätzungsentscheide und erheben allenfalls Einsprache für Sie.\n\nWir beraten den Bedürfnissen entsprechend und erstellen für Sie die notwendigen Dokumente.\n\nBei weiteren Fragen nehmen Sie mit uns Kontakt auf. Wir helfen Ihnen gerne weiter.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -407,6 +410,21 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Global Treuhand berät Sie kompetent und fachmännisch zur Steueroptimierung. Wenden Sie Ihren Steuerstress ab und übergeben Sie uns Ihre Steuererklärung. Bei uns sind Sie in guten Händen aufgehoben.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -439,28 +457,7 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "Wer ist verantwortlich für die Datenerfassung auf dieser Website?",
-        "a": "Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen."
-      },
-      {
-        "q": "Wie erfassen wir Ihre Daten?",
-        "a": "Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben."
-      },
-      {
-        "q": "Wofür nutzen wir Ihre Daten?",
-        "a": "Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden."
-      },
-      {
-        "q": "Welche Rechte haben Sie bezüglich Ihrer Daten?",
-        "a": "Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu."
-      },
-      {
-        "q": "Mit welchem Buchhaltungssystem arbeiten Sie?",
-        "a": "Diese Webseite verwendet Cookies. Hier kannst du auswählen, welche Cookies du zulassen willst und deine Auswahl jederzeit ändern. Klickst du auf 'Zustimmen', stimmst du der Verwendung von Cookies zu."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
@@ -471,9 +468,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Wallisellen",
       "phone": "+41 44 523 69 99",
-      "email": "info@global-treuhand.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "info@global-treuhand.ch"
     },
     "formCta": "Nachricht senden"
   },

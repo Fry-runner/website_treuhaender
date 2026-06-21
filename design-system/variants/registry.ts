@@ -23,10 +23,8 @@ import {
 } from "../structures/HeroExtended2";
 import {
   type PageHeaderProps,
-  PageHeaderClassic, PageHeaderCentered, PageHeaderTopRule, PageHeaderBordered, PageHeaderBigType,
-  PageHeaderSplitMeta, PageHeaderUnderline, PageHeaderChip, PageHeaderGradient, PageHeaderDark,
-  PageHeaderMinimal, PageHeaderRuleUnder, PageHeaderImageBand, PageHeaderImageCentered, PageHeaderImageSplit,
-  PageHeaderKickerLine, PageHeaderBoxedDark, PageHeaderBannerTint, PageHeaderWatermark, PageHeaderImageSide,
+  PageHeaderBrandBand, PageHeaderEditorial, PageHeaderTintWash, PageHeaderDarkPanel,
+  PageHeaderPhotoSignature, PageHeaderPhotoSplit, PageHeaderPhotoCard,
 } from "../structures/PageHeaderVariants";
 import { Services } from "../structures/Services";
 import { ServicesBordered } from "../structures/ServicesBordered";
@@ -201,31 +199,19 @@ export const heroVariants: VariantDef<HeroContent>[] = [
   { id: "hero/aside-stat",     component: HeroAsideStat,     looks: ["warm", "editorial"],           note: "text left + single focal credential panel right" },
 ];
 
-/** Subpage header ("hero-lite") variants — one is picked per firm so inner pages
- *  don't all share the same header. `needsImage` ones prefer a real photo but fall
- *  back to a token band when none exists. No breadcrumb (removed by design). */
+/** Subpage header building blocks — ONE is picked per firm so every subpage shares
+ *  the same header (home uses the hero; the contact page has none). Title-only,
+ *  brand-forward. `needsImage` photo blocks front the firm's real image and fall
+ *  back to a sibling band per page when a given page has none. */
 export interface PageHeaderVariant { id: string; component: React.FC<PageHeaderProps>; looks: StyleAffinity[]; needsImage?: boolean; }
 export const pageHeaderVariants: PageHeaderVariant[] = [
-  { id: "page-header/classic",     component: PageHeaderClassic,     looks: ["any"] },
-  { id: "page-header/centered",    component: PageHeaderCentered,    looks: ["soft", "swiss"] },
-  { id: "page-header/top-rule",    component: PageHeaderTopRule,     looks: ["swiss", "editorial"] },
-  { id: "page-header/bordered",    component: PageHeaderBordered,    looks: ["editorial", "swiss"] },
-  { id: "page-header/big-type",    component: PageHeaderBigType,     looks: ["soft", "swiss", "editorial"] },
-  { id: "page-header/split-meta",  component: PageHeaderSplitMeta,   looks: ["editorial", "warm"] },
-  { id: "page-header/underline",   component: PageHeaderUnderline,   looks: ["warm", "editorial"] },
-  { id: "page-header/chip",        component: PageHeaderChip,        looks: ["soft", "warm"] },
-  { id: "page-header/gradient",    component: PageHeaderGradient,    looks: ["soft", "swiss"] },
-  { id: "page-header/dark",        component: PageHeaderDark,        looks: ["swiss", "soft"] },
-  { id: "page-header/minimal",     component: PageHeaderMinimal,     looks: ["editorial", "swiss", "soft"] },
-  { id: "page-header/rule-under",  component: PageHeaderRuleUnder,   looks: ["editorial", "swiss"] },
-  { id: "page-header/kicker-line", component: PageHeaderKickerLine,   looks: ["warm", "soft", "swiss"] },
-  { id: "page-header/boxed-dark",  component: PageHeaderBoxedDark,    looks: ["swiss", "editorial"] },
-  { id: "page-header/banner-tint", component: PageHeaderBannerTint,   looks: ["soft", "warm"] },
-  { id: "page-header/watermark",   component: PageHeaderWatermark,    looks: ["editorial", "swiss"] },
-  { id: "page-header/image-band",     component: PageHeaderImageBand,     looks: ["soft", "swiss", "warm"], needsImage: true },
-  { id: "page-header/image-centered", component: PageHeaderImageCentered, looks: ["soft", "swiss"],         needsImage: true },
-  { id: "page-header/image-split",    component: PageHeaderImageSplit,    looks: ["editorial", "warm", "soft"], needsImage: true },
-  { id: "page-header/image-side",     component: PageHeaderImageSide,     looks: ["editorial", "swiss", "warm"], needsImage: true },
+  { id: "page-header/brand-band",      component: PageHeaderBrandBand,      looks: ["any"] },
+  { id: "page-header/editorial",       component: PageHeaderEditorial,      looks: ["editorial", "swiss", "warm"] },
+  { id: "page-header/tint-wash",       component: PageHeaderTintWash,       looks: ["soft", "warm", "swiss"] },
+  { id: "page-header/dark-panel",      component: PageHeaderDarkPanel,      looks: ["swiss", "editorial", "soft"] },
+  { id: "page-header/photo-signature", component: PageHeaderPhotoSignature, looks: ["any"], needsImage: true },
+  { id: "page-header/photo-split",     component: PageHeaderPhotoSplit,     looks: ["editorial", "warm", "soft", "swiss"], needsImage: true },
+  { id: "page-header/photo-card",      component: PageHeaderPhotoCard,      looks: ["soft", "swiss", "warm"], needsImage: true },
 ];
 
 /** Primary-button looks (rendered via PrimaryStyle context). */

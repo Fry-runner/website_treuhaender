@@ -22,7 +22,16 @@
 // SCHEMA
 // ---------------------------------------------------------------------------
 
-/** Attribute tags used by the composition engine to match components to a preset. */
+/**
+ * Descriptive style tags for each preset.
+ *
+ * NOTE on what actually drives behaviour: variant selection keys off the preset's
+ * single `StyleAffinity` (see `presetAffinity`, registry.ts), and spacing rhythm is
+ * driven by `spacing.rhythm` (looks/scales.ts). The tags below are human-readable
+ * METADATA for authoring/inventory and the Variant Studio — they are intentionally
+ * not used as hard selection filters (that would fight the diversity engine). Keep
+ * them accurate; treat them as documentation, not control flow.
+ */
 export interface StyleTags {
   tone: "formal" | "neutral" | "friendly" | "bold";
   warmth: "cool" | "neutral" | "warm";
@@ -63,7 +72,10 @@ export interface TypeTokens {
   headlineWeight: FontWeight;
   bodyWeight: FontWeight;
   headlineTracking: "tighter" | "tight" | "normal";
-  /** Small caps "eyebrow" labels above headlines — a strong shared signal here. */
+  /** Eyebrow/kicker styling. INERT at render: the Eyebrow primitive returns null
+   *  site-wide (eyebrows were de-telled away), so these values are descriptive only
+   *  and no longer emit CSS vars. Kept for inventory + a possible future deliberate,
+   *  named kicker on selected sections (brand voice, not section grammar). */
   eyebrow: {
     uppercase: boolean;
     tracking: "wide" | "wider" | "widest";

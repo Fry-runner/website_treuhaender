@@ -148,7 +148,6 @@ export const AudienceMinimal: React.FC<Props> = ({ content }) => (
 export const AudienceDark: React.FC<Props> = ({ content }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)" }}><Container>
     <div style={{ textAlign: "center", marginBottom: "2rem" }}>
-      <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem", color: "rgba(255,255,255,0.75)", marginBottom: "0.5rem" }}>{content.eyebrow}</div>
       <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "#fff", margin: 0 }}>{content.heading}</h2>
     </div>
     <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.2rem" }}>
@@ -306,16 +305,17 @@ export const AudienceDots: React.FC<Props> = ({ content }) => (
   </Container></section>
 );
 
-/** 20) Segment as an italic statement. */
+/** 20) Segment rows with an initial badge (no decorative quote glyph — these are
+ *  client segments, not quotations). */
 export const AudienceQuote: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 880px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
       {content.items.map((v, i) => (
         <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1rem", alignItems: "start", paddingBlock: "1.4rem", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
-          <span aria-hidden style={{ fontFamily: "var(--ds-font-heading)", fontSize: "2rem", lineHeight: 0.9, color: "var(--ds-primary)" }}>„</span>
+          <Mark s={v.title} />
           <div style={{ display: "flex", flexDirection: "column", gap: "0.3rem" }}>
-            <h3 style={{ ...titleS, fontStyle: "italic" }}>{v.title}</h3><p style={bodyS}>{v.body}</p>
+            <h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p>
           </div>
         </div>
       ))}

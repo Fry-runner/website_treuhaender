@@ -9,6 +9,7 @@ import React, { useState } from "react";
 import { applyLook } from "../looks/applyLook";
 import { type ArchetypeId } from "../blueprints";
 import { composeSite, resolvePages, slugify, pageTypes, type ResolvedPage } from "../pages";
+import { HOME_MAX_CONTENT, HOME_DROP_ORDER, PREVIEW, PREVIEW_PREF } from "../ia-rules";
 import { presets } from "../tokens";
 import { planSite, heroById, pageHeaderById, sectionComponent, decollideSections, spaciousTeamVariant } from "../variants/select";
 import { dedupeImages } from "../content/uniqueImages";
@@ -18,7 +19,9 @@ import { NavigationContext } from "./nav-context";
 import { Reveal } from "../motion/Reveal";
 import { useBrandFonts } from "../looks/useBrandFonts";
 import { ResponsiveStyles } from "../structures/Responsive";
-import { defaultProcess, defaultAudience, defaultAbout, defaultFeature, withGenericSlots, enforceImageRhythm } from "../content/sectionDefaults";
+import { defaultProcess, defaultAudience, defaultAbout, featureBand, withGenericSlots, enforceImageRhythm } from "../content/sectionDefaults";
+import { firmHeadings } from "../content/sectionHeads";
+import { stockPick, STOCK_TOPICS } from "./pitchStock";
 import type { SiteContent } from "../content/types";
 
 import { Nav } from "../structures/Nav";
@@ -47,6 +50,13 @@ const SERVICE_BULLETS = [
   "Transparente Pauschale ohne versteckte Kosten",
 ];
 
+/** Small deterministic string hash (FNV-ish) for per-firm rotation of generic copy. */
+const genericHash = (s: string): number => { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0; return h; };
+
+/** Drop a redundant bilingual role echo ("Geschäftsführer | CEO" → "Geschäftsführer").
+ *  Splits on " | " only — legitimate slash roles ("RAB/zugel. Revisor") stay intact. */
+const cleanRole = (r?: string): string => { const v = (r ?? "").trim(); return v.split(" | ")[0].trim() || v; };
+
 export interface SiteRouterProps {
   content: SiteContent;
   archetype?: ArchetypeId;
@@ -60,12 +70,50 @@ export interface SiteRouterProps {
   sectionOverrides?: Record<string, string>;
   /** Force a coherent style kit (else the selector picks one for the affinity). */
   kitId?: string;
+  /** COLD-ACQUISITION / PITCH mode: strip everything legally risky to host publicly
+   *  for an unsolicited redesign mockup — the firm's logo (→ name wordmark), partner
+   *  badges/third-party logos, team portraits (→ monogram/text) and the firm's real
+   *  scraped photos (gallery hidden; only licensed stock may show). Recognition is
+   *  carried by the brand colour + name + structure, which stay. */
+  pitch?: boolean;
 }
 
-export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, archetype, seed, lookId, heroId, primaryStyle, sectionOverrides, kitId }) => {
+export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, archetype, seed, lookId, heroId, primaryStyle, sectionOverrides, kitId, pitch }) => {
   // No photo may appear twice across the site — hero/service/gallery/background
   // disjoint (team photos exempt). Applied once before planning/rendering.
-  const content = React.useMemo(() => dedupeImages(rawContent), [rawContent]);
+  const content = React.useMemo(() => {
+    const c = dedupeImages(rawContent);
+    if (!pitch) return c;
+    // Cold-acquisition: keep EVERY section, but swap the firm's real/scraped photos
+    // for licensed stock (served at /stock). Logo → name wordmark; third-party
+    // badges dropped (a badge has no stock equivalent); team → monogram (no portrait
+    // stock — never fake a real person's face). Recognition stays via brand colour +
+    // name + structure. Picks are deterministic per firm so they're stable.
+    const dom = c.meta.domain || c.meta.firm || "x";
+    const heroImg = stockPick(STOCK_TOPICS.hero, dom + "/hero", 1)[0];
+    const svcImgs: Record<string, string> = {};
+    (c.services?.items ?? []).forEach((s, i) => { const u = stockPick(STOCK_TOPICS.work, dom + "/svc/" + s.title, 1, i)[0]; if (u) svcImgs[s.title] = u; });
+    return {
+      ...c,
+      nav: { ...c.nav, logo: undefined, logoLight: undefined },
+      footer: { ...c.footer, logo: undefined, logoLight: undefined },
+      hero: { ...c.hero, image: heroImg },
+      team: { ...c.team, members: (c.team?.members ?? []).map((m) => ({ ...m, photo: undefined })) },
+      // Cold-acquisition: also drop the TEXT trust items (association memberships,
+      // RAB/revisor admissions, third-party software brands) — on an unsolicited
+      // mock these assert unverified credentials in the firm's name. The image
+      // badges are cleared below too, so the partners slot then drops entirely.
+      trust: { ...c.trust, items: [], label: "" },
+      media: {
+        ...c.media,
+        logo: undefined, logoLight: undefined, hero: heroImg,
+        badges: [],
+        photos: stockPick(STOCK_TOPICS.scene, dom + "/gallery", 8),
+        sectionBackgrounds: stockPick(STOCK_TOPICS.wide, dom + "/bg", 3),
+        serviceImages: svcImgs,
+      },
+    };
+  }, [rawContent, pitch]);
   const arch = (archetype ?? (content.meta.archetype as ArchetypeId)) || "boutique";
   useBrandFonts(content.meta.fontsToLoad);
   const baseId = content.meta.basePresetId ?? content.meta.lookId;
@@ -78,8 +126,15 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   const look = lookId ? presets[lookId] : (content.meta.look ?? presets[plan.lookId] ?? presets[content.meta.lookId]);
   const Hero = heroById(heroId ?? plan.heroId).component;
   const buttonStyle = primaryStyle ?? plan.primaryStyle;
+  // Per-firm section framing (deterministic by domain+seed) so headings vary
+  // firm-to-firm instead of every site reading "Alles aus einer Hand." etc.
+  const heads = firmHeadings(content, seed ?? 0);
+  // Per-firm rotation for the generic (non-fabricated) process/audience copy, so the
+  // thin firms that fall back to defaults don't all read identically (the rich firms
+  // drop these first via the budget). Deterministic by domain+seed.
+  const genericVariant = genericHash(content.meta.domain || content.meta.firm || "x") + (seed ?? 0);
   const galleryContent = {
-    eyebrow: "Galerie", heading: "Einblicke",
+    ...heads.gallery,
     images: content.media?.photos ?? [],
     logo: content.media?.logo,
     badges: content.media?.badges ?? [],
@@ -105,18 +160,48 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   // home page falls back to a photo hero if it would otherwise be image-less.
   // Sub-page headers draw from the (already de-duplicated) pool, and never the
   // home hero photo — so the hero image is not repeated on a sub-page header.
-  const headerPhotos = [...new Set([
-    ...(content.media?.sectionBackgrounds ?? []),
+  const stockSrcs = new Set((content.media?.assets ?? []).filter((a) => a.stock).map((a) => a.src));
+  const bgs = content.media?.sectionBackgrounds ?? [];
+  const stockLand = (content.media?.assets ?? []).filter((a) => a.stock && a.orientation === "landscape").map((a) => a.src);
+  const serviceImgs = new Set(Object.values(content.media?.serviceImages ?? {}));
+  // One ordered SCENE pool (real wide shots → real photos → stock) for every subpage
+  // header AND home feature band. Excludes the home hero and per-service header photos
+  // so those are never repeated as a generic scene elsewhere.
+  const scenePool = [...new Set([
+    ...bgs.filter((s) => !stockSrcs.has(s)),
     ...(content.media?.photos ?? []),
-  ].filter(Boolean) as string[])].filter((p) => p !== content.hero?.image);
+    ...bgs.filter((s) => stockSrcs.has(s)),
+    ...stockLand,
+  ].filter(Boolean) as string[])].filter((s) => s !== content.hero?.image && !serviceImgs.has(s));
+  const sceneAt = (i: number): string | undefined =>
+    scenePool.length ? scenePool[((i % scenePool.length) + scenePool.length) % scenePool.length] : undefined;
+  // Pages that pull a header image from the SCENE pool: every subpage with a
+  // page-header EXCEPT service-detail pages that already front their own matched
+  // service photo (home/contact have no header). Each gets a DENSE rank, so
+  // consecutive pages take the next DISTINCT image — the same picture never lands on
+  // two subpage headers (incl. image-less service-detail pages, which used to ALL
+  // fall back to the single hero photo). Repeats only once the pool is physically
+  // exhausted (#scene-header pages > #scene images).
+  const sceneHeaderPages = pages.filter((p) => {
+    if (["home", "contact"].includes(p.pageType) || !p.sections.includes("page-header")) return false;
+    if (p.pageType === "service-detail") {
+      const it = content.services.items.find((x) => x.title === p.item);
+      return !it?.image; // a service-detail WITH a photo uses it; WITHOUT one it pulls a scene
+    }
+    return true;
+  });
+  const headerRank = new Map(sceneHeaderPages.map((p, idx) => [p.slug, idx]));
   const headerImageFor = (p: ResolvedPage): string | undefined => {
     if (p.pageType === "service-detail") {
       const it = content.services.items.find((x) => x.title === p.item);
       if (it?.image) return it.image; // the service's own photo as the header
     }
-    if (!headerPhotos.length) return content.hero?.image;
-    return headerPhotos[Math.max(0, pages.indexOf(p)) % headerPhotos.length];
+    const r = headerRank.get(p.slug);
+    return (r != null ? sceneAt(r) : undefined) ?? content.hero?.image;
   };
+  // Home feature bands draw from the scene pool PAST the header range, so a band never
+  // reuses a subpage header image (until the pool wraps).
+  const featureImageAt = (ord: number): string | undefined => sceneAt(sceneHeaderPages.length + ord);
   const imageHeroIds = ["hero/image-centered", "hero/image-split", "hero/image-full"];
   const resolvedHeroId = heroId ?? plan.heroId;
   const homeImaged =
@@ -147,22 +232,17 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
     ? () => navigate("/leistungen")
     : undefined;
 
-  // --- Homepage teaser: on the HOME page a section that has a dedicated subpage
-  //     shows a capped preview of its items AND carries an integrated "view all"
-  //     link inside its OWN header/footer — never a separate band. Off the home
-  //     page, or when the subpage doesn't exist, the full section renders as-is.
-  const HOME_PREVIEW: Record<string, { type: string; label: string; cap: number }> = {
-    services: { type: "services", label: "Alle Leistungen",   cap: 3 },
-    team:     { type: "team",     label: "Team kennenlernen", cap: 3 },
-    values:   { type: "about",    label: "Mehr über uns",     cap: 3 },
-    gallery:  { type: "about",    label: "Mehr Einblicke",    cap: 6 },
-    pricing:  { type: "pricing",  label: "Alle Pakete",       cap: 3 },
-  };
-  function homeTeaser<T>(slot: string, items: T[]): { items: T[]; more: MoreLink | undefined } {
-    const def = HOME_PREVIEW[slot];
-    if (!isHome || !def) return { items, more: undefined };
+  // --- Cross-page preview (owner-page principle): a section that has a dedicated
+  //     OWNER page renders FULL only on that owner page. Everywhere else — the home
+  //     AND any other subpage — it shows a capped preview with an integrated
+  //     "view all" link inside its own header, never a full duplicate and never a
+  //     separate band. The PREVIEW map lives in ../ia-rules (shared with the guard).
+  function sectionTeaser<T>(slot: string, items: T[]): { items: T[]; more: MoreLink | undefined } {
+    const def = PREVIEW[slot];
+    if (!def) return { items, more: undefined };
     const target = pages.find((p) => p.pageType === def.type);
-    if (!target) return { items, more: undefined };
+    // No owner page, or this IS the owner page → render the section in full.
+    if (!target || target.slug === page.slug) return { items, more: undefined };
     const capped = items.length > def.cap ? items.slice(0, def.cap) : items;
     return { items: capped, more: { label: def.label, href: target.slug } };
   }
@@ -172,34 +252,43 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       case "nav": return <Nav key={i} content={navContent} current={page.slug} />;
       case "footer": return <Footer key={i} content={content.footer} />;
       case "hero": return <HeroComp key={i} content={content.hero} />;
-      case "page-header": { const PH = pageHeaderById(plan.pageHeaderId).component; return <PH key={i} eyebrow={pageTypes[page.pageType]?.name ?? "Seite"} title={page.title} image={headerImageFor(page)} />; }
-      case "services": { const C = sectionComponent("services", renderPlan) ?? Services; const { items, more } = homeTeaser("services", content.services.items); return <C key={i} content={{ ...content.services, items }} more={more} onPick={servicePick} />; }
+      case "page-header": { const PH = pageHeaderById(plan.pageHeaderId).component; return <PH key={i} title={page.title} image={headerImageFor(page)} />; }
+      case "services": { const C = sectionComponent("services", renderPlan) ?? Services; const { items, more } = sectionTeaser("services", content.services.items); return <C key={i} content={{ ...content.services, ...heads.services, items }} more={more} onPick={servicePick} />; }
       case "service-body": {
         const it = content.services.items.find((x) => x.title === page.item);
         return it ? <ServiceBody key={i} title={it.title} summary={it.summary} bullets={it.bullets ?? SERVICE_BULLETS} body={it.body} image={it.image} /> : null;
       }
-      case "team": { const C = sectionComponent("team", renderPlan) ?? Team; const { items, more } = homeTeaser("team", content.team.members); return <C key={i} content={{ ...content.team, members: items }} more={more} />; }
-      case "pricing": { const C = sectionComponent("pricing", renderPlan) ?? Pricing; const { items, more } = homeTeaser("pricing", content.pricing.tiers); return <C key={i} content={{ ...content.pricing, tiers: items }} more={more} />; }
-      case "related": return (
-        <Related key={i} heading="Das könnte Sie auch interessieren"
-          items={content.services.items.filter((x) => x.title !== page.item).slice(0, 3)}
-          onPick={(t) => navigate(`/leistungen/${slugify(t)}`)} />
-      );
-      case "values": { const C = sectionComponent("values", renderPlan) ?? Values; const { items, more } = homeTeaser("values", content.values.items); return <C key={i} content={{ ...content.values, items }} more={more} />; }
+      case "team": { const C = sectionComponent("team", renderPlan) ?? Team; const { items, more } = sectionTeaser("team", content.team.members); const members = items.map((m) => ({ ...m, role: cleanRole(m.role) })); return <C key={i} content={{ ...content.team, ...heads.team, members }} more={more} />; }
+      case "pricing": { const C = sectionComponent("pricing", renderPlan) ?? Pricing; const { items, more } = sectionTeaser("pricing", content.pricing.tiers); return <C key={i} content={{ ...content.pricing, ...heads.pricing, tiers: items }} more={more} />; }
+      case "related": {
+        // Two further services + a "back to all services" button (third grid cell) —
+        // never three more cards with no way back to the overview.
+        const overview = pages.find((p) => p.pageType === "services");
+        return (
+          <Related key={i} heading="Das könnte Sie auch interessieren"
+            items={content.services.items.filter((x) => x.title !== page.item).slice(0, 2)}
+            onPick={(t) => navigate(`/leistungen/${slugify(t)}`)}
+            onAll={overview ? () => navigate(overview.slug) : undefined} />
+        );
+      }
+      case "values": { const C = sectionComponent("values", renderPlan) ?? Values; const { items, more } = sectionTeaser("values", content.values.items); return <C key={i} content={{ ...content.values, ...heads.values, items }} more={more} />; }
       case "stats": { const C = sectionComponent("stats", renderPlan) ?? Stats; return <C key={i} content={{ ...content.stats, items: statItems }} />; }
-      case "process": { const C = sectionComponent("process", renderPlan); return C ? <C key={i} content={defaultProcess()} /> : null; }
-      case "audience": { const C = sectionComponent("audience", renderPlan); return C ? <C key={i} content={defaultAudience()} /> : null; }
-      case "about": { const C = sectionComponent("about", renderPlan); return C ? <C key={i} content={defaultAbout()} /> : null; }
-      case "feature": { const C = sectionComponent("feature", renderPlan); if (!C || !featurePool.length) return null; const ord = rhythmSections.slice(0, i).filter((x) => x === "feature").length; return <C key={i} content={defaultFeature(featurePool[ord % featurePool.length], ord)} />; }
-      case "testimonials": { const C = sectionComponent("testimonials", renderPlan) ?? Testimonials; return <C key={i} content={content.testimonials} />; }
-      case "faq": { const C = sectionComponent("faq", renderPlan) ?? Faq; return <C key={i} content={content.faq} />; }
-      case "gallery": { const C = sectionComponent("gallery", renderPlan); if (!C) return null; const { items, more } = homeTeaser("gallery", galleryContent.images); return <C key={i} content={{ ...galleryContent, images: items }} more={more} />; }
-      case "cta": { const C = sectionComponent("cta", renderPlan); return C ? <C key={i} content={content.cta} /> : <CtaBand key={i} content={content.cta} bgImage={content.media?.sectionBackgrounds?.[0]} />; }
-      case "contact": { const C = sectionComponent("contact", renderPlan) ?? Contact; return <C key={i} content={content.contact} />; }
+      case "process": { const C = sectionComponent("process", renderPlan); return C ? <C key={i} content={content.process ?? defaultProcess(genericVariant)} /> : null; }
+      case "audience": { const C = sectionComponent("audience", renderPlan); if (!C) return null; const a = content.audience ?? defaultAudience(genericVariant); return <C key={i} content={isHome ? { ...a, items: a.items.slice(0, 3) } : a} />; }
+      case "about": { const C = sectionComponent("about", renderPlan); if (!C) return null; return <C key={i} content={content.about ?? defaultAbout()} />; }
+      case "feature": { const C = sectionComponent("feature", renderPlan); if (!C || !scenePool.length) return null; const ord = rhythmSections.slice(0, i).filter((x) => x === "feature").length; return <C key={i} content={featureBand(featureImageAt(ord), ord, content.featureAngles)} />; }
+      case "testimonials": { const C = sectionComponent("testimonials", renderPlan) ?? Testimonials; return <C key={i} content={{ ...content.testimonials, ...heads.testimonials }} />; }
+      case "faq": { const C = sectionComponent("faq", renderPlan) ?? Faq; const fq = { ...content.faq, ...heads.faq }; return <C key={i} content={isHome ? { ...fq, items: fq.items.slice(0, 5) } : fq} />; }
+      case "gallery": { const C = sectionComponent("gallery", renderPlan); if (!C) return null; const { items, more } = sectionTeaser("gallery", galleryContent.images); return <C key={i} content={{ ...galleryContent, images: items }} more={more} />; }
+      case "cta": { const C = sectionComponent("cta", renderPlan); const cta = { ...content.cta, ...heads.cta }; return C ? <C key={i} content={cta} /> : <CtaBand key={i} content={cta} bgImage={content.media?.sectionBackgrounds?.[0]} />; }
+      // Contact renders only on pages WITHOUT a CTA band (i.e. /kontakt) — pages that
+      // carry a CTA drop the contact slot earlier (one contact affordance per page).
+      case "contact": { const C = sectionComponent("contact", renderPlan) ?? Contact; return <C key={i} content={{ ...content.contact, ...heads.contact }} />; }
       case "partners": { const C = sectionComponent("partners", renderPlan); const tc = { label: content.trust.label, items: content.trust.items, badges: content.media?.badges }; return C ? <C key={i} content={tc} /> : <TrustBar key={i} label={tc.label} items={tc.items} badges={tc.badges} />; }
       case "downloads": return content.media?.documents?.length ? <Downloads key={i} documents={content.media.documents} /> : null;
       case "legal-body": return <LegalBody key={i} doc={page.item ?? "Impressum"} firm={content.meta.firm} contact={content.contact} />;
-      // intro, audience, process, team, pricing, profile, quote, map, article-body — no structure yet
+      // No renderer yet (planned slots, intentionally absent from the homepage backbone):
+      // intro, profile, quote, map, article-body. audience/process/about ARE rendered above.
       default: return null;
     }
   };
@@ -208,20 +297,6 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   // has >=3 REAL gallery-suitable photos (media.photos is scrape-only — no stock, no
   // portraits); fewer than that ⇒ no gallery. The studio can still force one.
   const wantGallery = (content.media?.photos?.length ?? 0) >= 3 || !!sectionOverrides?.["gallery"];
-  // Feature-band image pool, distinct: real wide shots first, then stock landscape,
-  // then gallery photos. Stock IS allowed for feature bands (unlike the gallery) so
-  // the image rhythm can always come back to a picture even on image-poor firms.
-  const stockSrcs = new Set((content.media?.assets ?? []).filter((a) => a.stock).map((a) => a.src));
-  const bgs = content.media?.sectionBackgrounds ?? [];
-  const stockLand = (content.media?.assets ?? []).filter((a) => a.stock && a.orientation === "landscape").map((a) => a.src);
-  // Prefer REAL images (real wide shots, then real photos); fall back to stock only
-  // when the scrape lacks enough — the briefing's honesty rule, applied to bands.
-  const featurePool = [...new Set([
-    ...bgs.filter((s) => !stockSrcs.has(s)),
-    ...(content.media?.photos ?? []),
-    ...bgs.filter((s) => stockSrcs.has(s)),
-    ...stockLand,
-  ])].filter(Boolean) as string[];
   const homeSections = isHome ? withGenericSlots(page.sections) : page.sections;
   const displaySections = isHome && wantGallery && !homeSections.includes("gallery")
     ? (() => { const at = homeSections.indexOf("cta"); return at >= 0 ? [...homeSections.slice(0, at), "gallery", ...homeSections.slice(at)] : [...homeSections, "gallery"]; })()
@@ -241,10 +316,86 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       case "faq": return content.faq.items.length > 0;
       case "partners": return content.trust.items.length > 0 || (content.media?.badges?.length ?? 0) > 0;
       case "gallery": return galleryContent.images.length >= 3 || !!sectionOverrides?.["gallery"];
+      // Phantom slots that render nothing must NOT survive into the section list:
+      // otherwise the image-rhythm pass counts them as image-less content and pads a
+      // generic feature band between them (e.g. a "let's talk" band under the contact
+      // form, because the contact page's `downloads`/`map` slots are empty). `map` has
+      // no renderer yet; `downloads` only renders when the firm has documents.
+      case "map": return false;
+      case "downloads": return (content.media?.documents?.length ?? 0) > 0;
       default: return true;
     }
   };
-  const visibleSections = displaySections.filter(slotHasContent);
+  // One contact affordance per page: if the page already carries a CTA band (which
+  // always renders a "Kontakt aufnehmen / Termin buchen" button), drop the standalone
+  // contact section — a separate "Sprechen wir" preview next to a CTA is redundant.
+  // The dedicated /kontakt page has no CTA band, so its form is kept.
+  const pageHasCtaBand = displaySections.includes("cta");
+  // One preview per subpage on the HOME: each subpage that exists is teased by
+  // exactly ONE home section. Several home sections can map to the same subpage
+  // (e.g. `values` AND `gallery` both → /ueber-uns) — keep ONE, drop the rest, so the
+  // home never carries two previews of one page. The kept one follows a stable
+  // PREFERENCE (not brief order): /ueber-uns prefers `values`, else `gallery`. Off
+  // the home this is inert (sections render full on their own pages). PREVIEW_PREF is
+  // shared with the guard via ../ia-rules.
+  const previewTargetOf = (s: string): string | null => {
+    const def = PREVIEW[s];
+    if (!def) return null;
+    const target = pages.find((p) => p.pageType === def.type);
+    return target && target.slug !== page.slug ? def.type : null;
+  };
+  const keptPreviewSlot = new Map<string, string>(); // subpage pageType -> chosen home slot
+  if (isHome) {
+    for (const s of displaySections) {
+      const t = previewTargetOf(s);
+      if (!t || !slotHasContent(s)) continue;
+      const cur = keptPreviewSlot.get(t);
+      if (!cur || PREVIEW_PREF.indexOf(s) < PREVIEW_PREF.indexOf(cur)) keptPreviewSlot.set(t, s);
+    }
+  }
+  const onePreviewPerSubpage = (s: string): boolean => {
+    const t = isHome ? previewTargetOf(s) : null;
+    return !t || keptPreviewSlot.get(t) === s;
+  };
+  const visibleSections = displaySections
+    .filter(slotHasContent)
+    .filter((s) => !(s === "contact" && pageHasCtaBand))
+    .filter(onePreviewPerSubpage);
+  // R5 — Homepage budget: a focused Treuhänder home shows ~HOME_MAX_CONTENT content
+  // sections, not 12 (rule lives in ../ia-rules). When the brief stacks more, drop the
+  // lowest-priority SUPPORTING sections — never hero/services/cta/contact, never
+  // values/team (they aren't in HOME_DROP_ORDER). On top of that priority baseline we
+  // tie-break by CONTENT STRENGTH: a section the firm has the LEAST real material for is
+  // dropped before a richer one, so the budget is scrape-driven instead of a blind
+  // fixed order (generic process/audience = strength 0 → go first; a firm's 8 real
+  // testimonials outrank its thin stats). The final COUNT is identical either way.
+  const slotStrength = (s: string): number => {
+    switch (s) {
+      case "services": return content.services.items.length;
+      case "values": return content.values.items.length;
+      case "team": return content.team.members.length;
+      case "pricing": return content.pricing.tiers.length;
+      case "testimonials": return content.testimonials.items.length;
+      case "stats": return statItems.length;
+      case "faq": return content.faq.items.length;
+      case "partners": return content.trust.items.length + (content.media?.badges?.length ?? 0);
+      case "gallery": return galleryContent.images.length;
+      default: return 0; // process/audience = generic boilerplate → weakest, drop first
+    }
+  };
+  const budgetedSections = (() => {
+    if (!isHome) return visibleSections;
+    const countContent = (ss: string[]) => ss.filter((s) => s !== "nav" && s !== "footer").length;
+    const candidates = HOME_DROP_ORDER
+      .filter((s) => visibleSections.includes(s))
+      .sort((a, b) => (slotStrength(a) - slotStrength(b)) || (HOME_DROP_ORDER.indexOf(a) - HOME_DROP_ORDER.indexOf(b)));
+    const drop = new Set<string>();
+    for (const s of candidates) {
+      if (countContent(visibleSections.filter((x) => !drop.has(x))) <= HOME_MAX_CONTENT) break;
+      drop.add(s);
+    }
+    return visibleSections.filter((s) => !drop.has(s));
+  })();
   // Image rhythm: never more than 2 image-less content sections in a row — insert an
   // image-forward feature band (real photo, else stock) to break a longer run, so the
   // page keeps coming back to a picture.
@@ -258,7 +409,11 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       default: return false;
     }
   };
-  const rhythmSections = enforceImageRhythm(visibleSections, isImageSection, featurePool.length > 0);
+  // Generic image-rhythm feature bands are a HOME-page device only. On focused
+  // subpages (service-detail, contact, …) an inserted band re-advertises another
+  // service ("…noch mal der Steuerberatungsbaustein") with no reason — so subpages
+  // render their defined sections as-is.
+  const rhythmSections = isHome ? enforceImageRhythm(budgetedSections, isImageSection, scenePool.length > 0) : budgetedSections;
   // Now that the rendered order is known, keep two same-family sections from sitting
   // directly adjacent (studio-forced slots stay locked).
   const decollided = decollideSections(rhythmSections, activePlan, content, {

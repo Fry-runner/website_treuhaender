@@ -2,7 +2,37 @@ import { defineConfig, type PluginOption } from "vite";
 import react from "@vitejs/plugin-react";
 import { spawn } from "node:child_process";
 import { readFile } from "node:fs/promises";
-import { join } from "node:path";
+import { createReadStream, existsSync, statSync, cpSync } from "node:fs";
+import { join, normalize } from "node:path";
+
+/**
+ * Serve the licensed stock pack (design-system/stock/) at /stock/<topic>/<file>.
+ * Pitch/cold-acquisition mode swaps the prospect's real photos for these. We do
+ * NOT copy the 30 MB pack into public/ (no git bloat); instead we stream it in dev
+ * and copy it into the build output (dist/stock) so it ships on Vercel too.
+ */
+function serveStock(): PluginOption {
+  const stockDir = join(import.meta.dirname, "stock");
+  return {
+    name: "serve-stock",
+    configureServer(server) {
+      server.middlewares.use("/stock", (req, res, next) => {
+        const rel = normalize(decodeURIComponent((req.url || "").split("?")[0])).replace(/^([/\\])+/, "");
+        // Images ONLY — never intercept module/JSON requests Vite needs to serve.
+        if (!/\.(jpe?g|png|webp)$/i.test(rel)) { next(); return; }
+        const file = join(stockDir, rel);
+        if (!file.startsWith(stockDir) || !existsSync(file) || !statSync(file).isFile()) { next(); return; }
+        res.setHeader("Content-Type", "image/jpeg");
+        res.setHeader("Cache-Control", "public, max-age=3600");
+        createReadStream(file).pipe(res);
+      });
+    },
+    closeBundle() {
+      // Production build (Vercel): copy the pack into dist so /stock resolves there.
+      try { cpSync(stockDir, join(import.meta.dirname, "dist", "stock"), { recursive: true }); } catch { /* no dist yet */ }
+    },
+  };
+}
 
 /**
  * Dev-only endpoint: GET /__generate?slug=<slug>
@@ -37,6 +67,6 @@ function onDemandExtract(): PluginOption {
 }
 
 export default defineConfig({
-  plugins: [react(), onDemandExtract()],
+  plugins: [react(), onDemandExtract(), serveStock()],
   server: { port: 3010, host: "0.0.0.0" },
 });

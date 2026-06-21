@@ -13,14 +13,16 @@ const label: React.CSSProperties = {
   fontFamily: "var(--ds-font-body)", fontSize: "0.82rem", fontWeight: 600,
   color: "var(--ds-text)", marginBottom: "0.4rem", display: "block" };
 
-/** Contact: form (left) + office info card (right). */
-export const Contact: React.FC<{ content: ContactContent }> = ({ content }) => {
+/** Contact: form (left) + office info card (right). With `infoOnly`, the form is
+ *  dropped and the info card spans the full width (contact = info-only). */
+export const Contact: React.FC<{ content: ContactContent; infoOnly?: boolean }> = ({ content, infoOnly }) => {
   const id = React.useId();
   return (
   <section style={{ background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-      <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.6fr) minmax(0,1fr)", gap: "2rem", alignItems: "start" }}>
+      <div style={{ display: "grid", gridTemplateColumns: infoOnly ? "minmax(0,1fr)" : "minmax(0,1.6fr) minmax(0,1fr)", gap: "2rem", alignItems: "start" }}>
+        {!infoOnly && (
         <form style={{ display: "flex", flexDirection: "column", gap: "1rem" }} onSubmit={(e) => e.preventDefault()}>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
             <div><label style={label} htmlFor={`${id}-name`}>Name <span aria-hidden="true">*</span></label><input id={`${id}-name`} name="name" type="text" autoComplete="name" required style={field} /></div>
@@ -29,6 +31,7 @@ export const Contact: React.FC<{ content: ContactContent }> = ({ content }) => {
           <div><label style={label} htmlFor={`${id}-msg`}>Nachricht <span aria-hidden="true">*</span></label><textarea id={`${id}-msg`} name="message" required style={{ ...field, minHeight: "7rem", resize: "vertical" }} /></div>
           <div><Button variant="primary" type="submit">{content.formCta}</Button></div>
         </form>
+        )}
         <aside style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
           {content.info.address && <InfoRow icon="location" label="Adresse" value={content.info.address} />}
           {content.info.phone && <InfoRow icon="phone" label="Telefon" value={content.info.phone} />}
@@ -41,12 +44,19 @@ export const Contact: React.FC<{ content: ContactContent }> = ({ content }) => {
   );
 };
 
-const InfoRow: React.FC<{ icon: IconName; label: string; value: string }> = ({ icon, label: l, value }) => (
+const InfoRow: React.FC<{ icon: IconName; label: string; value: string }> = ({ icon, label: l, value }) => {
+  const valueStyle: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.95rem", color: "var(--ds-text)" };
+  const href = icon === "phone" ? `tel:${value.replace(/[^\d+]/g, "")}`
+    : icon === "mail" ? `mailto:${value.trim()}` : undefined;
+  return (
   <div style={{ display: "flex", gap: "0.7rem", alignItems: "flex-start" }}>
     <span aria-hidden style={{ color: "var(--ds-primary)", marginTop: "0.15rem", display: "inline-flex" }}><Icon name={icon} size={18} /></span>
     <div style={{ display: "flex", flexDirection: "column", gap: "0.2rem" }}>
       <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem", color: "var(--ds-text-muted)" }}>{l}</span>
-      <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.95rem", color: "var(--ds-text)" }}>{value}</span>
+      {href
+        ? <a href={href} style={{ ...valueStyle, textDecoration: "none" }}>{value}</a>
+        : <span style={valueStyle}>{value}</span>}
     </div>
   </div>
-);
+  );
+};

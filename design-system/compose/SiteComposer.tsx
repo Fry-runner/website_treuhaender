@@ -9,7 +9,8 @@ import { applyLook } from "../looks/applyLook";
 import { composeHomepage, type ArchetypeId } from "../blueprints";
 import { presets } from "../tokens";
 import type { SiteContent } from "../content/types";
-import { defaultProcess, defaultAudience, defaultFeature, withGenericSlots, injectFeature } from "../content/sectionDefaults";
+import { defaultProcess, defaultAudience, featureBand, withGenericSlots, injectFeature } from "../content/sectionDefaults";
+import { firmHeadings } from "../content/sectionHeads";
 import { planSite, heroById, sectionComponent, decollideSections } from "../variants/select";
 import { dedupeImages } from "../content/uniqueImages";
 import { PrimaryStyleProvider } from "../structures/primitives";
@@ -83,23 +84,26 @@ export const SiteComposer: React.FC<SiteComposerProps> = ({ content: rawContent,
     const d = String(it.value).replace(/[^0-9]/g, "");
     return d === "" || Number(d) !== 0;
   });
+  // Per-firm section framing (deterministic by domain+seed) so headings vary
+  // firm-to-firm instead of every generated site reading identically.
+  const heads = firmHeadings(content, seed ?? 0);
   const slotRender: Record<string, Renderer> = {
     ...renderers,
     hero: (c) => <Hero content={c.hero} />,
-    services: (c) => { const C = sectionComponent("services", renderPlan) ?? Services; return <C content={c.services} />; },
-    cta: (c) => { const C = sectionComponent("cta", renderPlan); return C ? <C content={c.cta} /> : <CtaBand content={c.cta} bgImage={c.media?.sectionBackgrounds?.[0]} />; },
-    testimonials: (c) => { const C = sectionComponent("testimonials", renderPlan) ?? Testimonials; return <C content={c.testimonials} />; },
-    values: (c) => { const C = sectionComponent("values", renderPlan) ?? Values; return <C content={c.values} />; },
+    services: (c) => { const C = sectionComponent("services", renderPlan) ?? Services; return <C content={{ ...c.services, ...heads.services }} />; },
+    cta: (c) => { const C = sectionComponent("cta", renderPlan); const cta = { ...c.cta, ...heads.cta }; return C ? <C content={cta} /> : <CtaBand content={cta} bgImage={c.media?.sectionBackgrounds?.[0]} />; },
+    testimonials: (c) => { const C = sectionComponent("testimonials", renderPlan) ?? Testimonials; return <C content={{ ...c.testimonials, ...heads.testimonials }} />; },
+    values: (c) => { const C = sectionComponent("values", renderPlan) ?? Values; return <C content={{ ...c.values, ...heads.values }} />; },
     stats: (c) => { const C = sectionComponent("stats", renderPlan) ?? Stats; return <C content={{ ...c.stats, items: statItems }} />; },
-    team: (c) => { const C = sectionComponent("team", renderPlan) ?? Team; return <C content={c.team} />; },
-    faq: (c) => { const C = sectionComponent("faq", renderPlan) ?? Faq; return <C content={c.faq} />; },
-    gallery: (c) => { const C = sectionComponent("gallery", renderPlan); return C ? <C content={{ eyebrow: "Galerie", heading: "Einblicke", images: c.media?.photos ?? [], logo: c.media?.logo, badges: c.media?.badges ?? [] }} /> : null; },
-    pricing: (c) => { const C = sectionComponent("pricing", renderPlan) ?? Pricing; return <C content={c.pricing} />; },
+    team: (c) => { const C = sectionComponent("team", renderPlan) ?? Team; return <C content={{ ...c.team, ...heads.team }} />; },
+    faq: (c) => { const C = sectionComponent("faq", renderPlan) ?? Faq; return <C content={{ ...c.faq, ...heads.faq }} />; },
+    gallery: (c) => { const C = sectionComponent("gallery", renderPlan); return C ? <C content={{ ...heads.gallery, images: c.media?.photos ?? [], logo: c.media?.logo, badges: c.media?.badges ?? [] }} /> : null; },
+    pricing: (c) => { const C = sectionComponent("pricing", renderPlan) ?? Pricing; return <C content={{ ...c.pricing, ...heads.pricing }} />; },
     partners: (c) => { const C = sectionComponent("partners", renderPlan); const tc = { label: c.trust.label, items: c.trust.items, badges: c.media?.badges }; return C ? <C content={tc} /> : <TrustBar label={tc.label} items={tc.items} badges={tc.badges} />; },
-    contact: (c) => { const C = sectionComponent("contact", renderPlan) ?? Contact; return <C content={c.contact} />; },
-    process: () => { const C = sectionComponent("process", renderPlan); return C ? <C content={defaultProcess()} /> : null; },
-    audience: () => { const C = sectionComponent("audience", renderPlan); return C ? <C content={defaultAudience()} /> : null; },
-    feature: (c) => { const C = sectionComponent("feature", renderPlan); const img = c.media?.photos?.[0] ?? c.media?.sectionBackgrounds?.[0]; return (C && img) ? <C content={defaultFeature(img)} /> : null; },
+    contact: (c) => { const C = sectionComponent("contact", renderPlan) ?? Contact; return <C content={{ ...c.contact, ...heads.contact }} />; },
+    process: (c) => { const C = sectionComponent("process", renderPlan); return C ? <C content={c.process ?? defaultProcess()} /> : null; },
+    audience: (c) => { const C = sectionComponent("audience", renderPlan); return C ? <C content={c.audience ?? defaultAudience()} /> : null; },
+    feature: (c) => { const C = sectionComponent("feature", renderPlan); const img = c.media?.photos?.[0] ?? c.media?.sectionBackgrounds?.[0]; return (C && img) ? <C content={featureBand(img, 0, c.featureAngles)} /> : null; },
   };
   // Content-driven section sequence from the brief; archetype backbone as fallback.
   let baseSeq = withGenericSlots(content.meta.brief?.homepageSlots ?? composeHomepage(arch).map((s) => s.slot));

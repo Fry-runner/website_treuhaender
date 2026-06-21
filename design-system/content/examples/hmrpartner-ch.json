@@ -176,6 +176,10 @@
       "values",
       "faq",
       "services.text",
+      "process (generic)",
+      "audience (generic)",
+      "about (generic)",
+      "feature (generic)",
       "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
@@ -717,9 +721,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Rapperswil",
       "phone": "055 222 77 00",
-      "email": "karin.baumgartner@hmrpartner.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "karin.baumgartner@hmrpartner.ch"
     },
     "formCta": "Nachricht senden"
   },

@@ -176,6 +176,8 @@
     "placeholders": [
       "hero.aside",
       "faq",
+      "process (generic)",
+      "audience (generic)",
       "look.colors (generated)"
     ],
     "real": [
@@ -187,6 +189,8 @@
       "hero.lede",
       "services.text",
       "values",
+      "about",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -339,7 +343,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Wir beraten Sie in Buchhaltung, Finanzberatung, Gesellschaftsgründung und Steuerberatung.",
+        "summary": "Abrechnungen MwSt., BVG, FAK, UVG, Pensionskasse/BVG, Mehrwertsteuer/Umsatzsteuer",
         "body": "Abrechnungen MwSt., BVG, FAK, UVG, Pensionskasse/BVG, Mehrwertsteuer/Umsatzsteuer\n\nBesprechung des provisorischen Jahresabschlusses (Inventar, Debitoren, Kreditoren, Abschreibungen, Abgrenzungen, Rückstellungen usw.).\n\nErstellen des Jahresabschlusses/Buchhaltungsabschluss unter Berücksichtigung der steuerlichen Optimierung und Steuerplanung.\n\nErstellen Geschäftsbericht inkl. Anhang (der Gesetzgeber schreibt obligatorische Bestandteile des Jahresabschlusses vor)!",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -350,7 +354,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Wir beraten Sie in Buchhaltung, Finanzberatung, Gesellschaftsgründung und Steuerberatung.",
+        "summary": "«Ihre Steuererklärung wird kompetent und kostengünstig erledigt, inklusiv Optimierungsberatung.»",
         "body": "«Ihre Steuererklärung wird kompetent und kostengünstig erledigt, inklusiv Optimierungsberatung.»\n\nSteuerberechnung, d.h. Berechnung der Einkommenssteuer und der Vermögenssteuer\n\n: der Gemeindesteuer, Kantonssteuer (Staatssteuer), Bundessteuer, Vermögenssteuer, Verrechnungssteuer (Wertschriftenverzeichnis), Erbschaftssteuer, Grundstücksgewinnsteuer, Kirchensteuer, Steuerverrechnung und Steuerguthaben.\n\nPer Todestag muss ein Inventar erstellt werden. Bank- und Postcheckkonten müssen durch die Bank per Todestag abgeschlossen werden. Im Todesjahr müssen 2 Steuererklärungen erstellt werden: Eine mit Einkommen, Abzügen und Vermögen bis und mit Todestag. Die zweite Steuererklärung ab Todestag bis 31. Dezember. Dabei geht es um die Steuerberechnungen von Verheiratetentarif und den Tarif für Alleinstehende (unterschiedliche Steuersätze!).",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -394,7 +398,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Wir beraten Sie in Buchhaltung, Finanzberatung, Gesellschaftsgründung und Steuerberatung.",
+        "summary": "«Wir sind der fachliche Ansprechpartner für Privatpersonen, KMUs und alle die eine KMU gründen wollen.»",
         "body": "«Wir sind der fachliche Ansprechpartner für Privatpersonen, KMUs und alle die eine KMU gründen wollen.»\n\ndenn jede Gesellschaftsform hat spezielle Konsequenzen in Bezug auf Steuern, beim Entwicklungspotential, bei der Vererbung, bei Änderung des Gesellschaftszwecks, bei der Nachfolgeregelung z.B. beim Verkauf, beim Konkurs und bei der Liquidation usw.\n\nDabei spielen der Zweck der Firma wie auch die persönlichen Verhältnisse und Zielsetzungen eine zentrale Rolle. Es ist wichtig zu wissen, dass die richtige\n\nfür den langfristigen Erfolg der Firma steht. Ebenso die Wahl des Firmen- bzw. Steuerdomizils. Mit der richtigen Wahl können Sie auch Kosten sparen!",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -422,11 +426,55 @@
         "body": "Nach dem pädagogischen und mathematischen Studium hat sich Frau Lätsch zur Betriebsökonomin mit Fachvertiefung Rechnungswesen, Steuer und Controlling weitergebildet. Berufserfahrung in den Bereichen Treuhand, Buchhaltung, Steuern sowie Inkasso."
       },
       {
-        "title": "Lena Petz",
-        "body": "Nach erfolgreichem KV-Abschluss war Frau  Lena Petz als Buchhalterin (Finanz- und Lohnbuchhaltung) in einem Treuhandunternehmen und in der Immobilienbranche tätig."
+        "title": "Tags",
+        "body": "steuerbüro, treuhandbüro, treuhandservice, beratung, treuhanddienste, quellensteuer, quellensteuertarif, formulare, treuhanddienstleistungen, treuhandgesellschaft, buchhaltungsmandate, steuermandate, steuererklärungsmandate, treuhandmandate."
       }
     ]
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Firmenportrait",
+    "lead": "Wir stehen Ihnen auch für Lösungen im Zusammenhang mit der Unternehmensnachfolge zur Verfügung.",
+    "paragraphs": [
+      "Nach betriebswirtschaftlicher Ausbildung 4 Jahre Anlageberater (Prokurist) bei einer  Grossbank, anschliessend 14 Jahre als Personal- und Finanzdirektor tätig. Militärische Fach- und Führungsausbildung- und Erfahrung.",
+      "Prüfungsexperte und Examinator bei der AKAD/IMAKA in betriebswirtschaftlichen Fächern.",
+      "Prüfungsexperte der Züricher Gesellschaft für Personalfragen ZGP. Moderator und Prüfungsexperte im Assessment-Center für Führungsausbildung des Schweizerischen Bankverein, heutige UBS. Zusatzfunktionen in der Personalausbildung- und Entwicklung."
+    ]
+  },
+  "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Herzlich Willkommen",
+      "body": "Ich und mein Team (Betriebswirtschafter, Buchhalter und Steuerexperten) unterstützen Sie bei der steuerlichen Optimierung, Gesellschaftsgründung und Buchhaltung. Wir sind der fachliche Ansprechpartner für Privatpersonen, KMU's und alle die eine KMU gründen wollen.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Roger Kümmerling - Geschäftsführer",
+      "body": "Nach betriebswirtschaftlicher Ausbildung 4 Jahre Anlageberater (Prokurist) bei einer  Grossbank, anschliessend 14 Jahre als Personal- und Finanzdirektor tätig. Militärische Fach- und Führungsausbildung- und Erfahrung.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Mi Lätsch - Mandatsleiterin",
+      "body": "Nach dem pädagogischen und mathematischen Studium hat sich Frau Lätsch zur Betriebsökonomin mit Fachvertiefung Rechnungswesen, Steuer und Controlling weitergebildet. Berufserfahrung in den Bereichen Treuhand, Buchhaltung, Steuern sowie Inkasso.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Tags",
+      "body": "steuerbüro, treuhandbüro, treuhandservice, beratung, treuhanddienste, quellensteuer, quellensteuertarif, formulare, treuhanddienstleistungen, treuhandgesellschaft, buchhaltungsmandate, steuermandate, steuererklärungsmandate, treuhandmandate.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -469,9 +517,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zürich",
       "phone": "043 960 98 41",
-      "email": "info@treuhand-service-zh.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "info@treuhand-service-zh.ch"
     },
     "formCta": "Nachricht senden"
   },

@@ -133,7 +133,6 @@
         "process",
         "team",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -188,7 +187,7 @@
         "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -205,6 +204,9 @@
     "placeholders": [
       "hero.aside",
       "values",
+      "faq",
+      "process (generic)",
+      "audience (generic)",
       "look.colors (generated)"
     ],
     "real": [
@@ -216,7 +218,9 @@
       "services.text",
       "team.members",
       "team.photos",
-      "faq",
+      "about",
+      "feature",
+      "contact.hours",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -606,7 +610,7 @@
     "logo": "/images/mueller-schuhmacher-ch/pool/8b371d9207__logo_ms.svg"
   },
   "hero": {
-    "eyebrow": "Treuhand · Winterthur",
+    "eyebrow": "Treuhand · Durchschnittliche",
     "titleLead": "Ihre Finanzen,",
     "titleAccent": "klar geführt.",
     "lede": "Suchen Sie Unterstützung beim Verkauf, in der Bewirtschaftung oder in Treuhandfragen rund um Ihre Immobilie? Unser erfahrenes Team begleitet Sie persönlich",
@@ -694,6 +698,31 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Über uns",
+    "lead": "Ich wohne fürs Leben gerne. Zudem geniesse ich Gespräche mit Familie oder Freunden bei einem guten Essen und bin gerne am oder auf dem Wasser.",
+    "paragraphs": [
+      "Tatsächlich verbindet mich die Arbeit mit Winterthur, da sich mein Lebensmittelpunkt in ländlicher Region befindet. Es ist immer wieder schön, wenn sich langjährige Eigentümer freuen mich an der Versammlung wieder zu sehen und für einen kurzen Schwatz zu haben sind.",
+      "Zeit mit der Familie und unseren Gotti-Kindern geniesse ich sehr. Zudem bin ich gerne kreativ und sportlich engagiert.",
+      "Ich bin in Winterthur aufgewachsen. Die Stadt ist schön, vielseitig und hat viel zu bieten."
+    ]
+  },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Für eine effiziente Abwicklung der Beratung, stellen Sie uns vorab folgende Unterlagen zu (per E-Mail):",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -711,12 +740,6 @@
         "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
       },
       {
-        "name": "Christine Müller",
-        "role": "Wirtschaftsfachfrau SWS",
-        "initials": "CM",
-        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
-      },
-      {
         "name": "Daniela Steiner",
         "role": "Eidg. dipl. Immobilientreuhänderin",
         "initials": "DS",
@@ -727,14 +750,14 @@
         "role": "Eidg. dipl. Immobilientreuhänder",
         "initials": "DS",
         "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
-        "photo": "/images/mueller-schuhmacher-ch/team/4-schuhmacher.webp"
+        "photo": "/images/mueller-schuhmacher-ch/team/3-schuhmacher.webp"
       },
       {
-        "name": "Hermina Gaus",
-        "role": "Steuerfachangestellte",
-        "initials": "HG",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden.",
-        "photo": "/images/mueller-schuhmacher-ch/team/5-gaus.webp"
+        "name": "Lena Senn",
+        "role": "Sachbearbeiterin Immobilienbewirtschaftung SVIT",
+        "initials": "LS",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.",
+        "photo": "/images/mueller-schuhmacher-ch/team/4-senn.webp"
       }
     ]
   },
@@ -768,40 +791,7 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "Immobilien verkaufen?",
-        "a": "Wir begleiten Sie vom ersten Gedanken bis zur Schlüsselübergabe verlässlich, persönlich und mit Blick auf den bestmöglichen Verkauf."
-      },
-      {
-        "q": "Immobilien bewirtschaften?",
-        "a": "Machen wir seit mehr als 35 Jahren. Wir kümmern uns um Ihre Liegenschaften, als wären es unsere eigenen. Zuverlässig, nachhaltig und immer auf Augenhöhe mit Eigentümer:innen, Mieter:innen und Partner:innen."
-      },
-      {
-        "q": "Bau planen und leiten?",
-        "a": "Machen wir praxisnah. Ob Sanierung, Umbau oder Neubau: Wir koordinieren Abläufe, behalten Kosten im Griff und vertreten Ihre Interessen gegenüber allen Beteiligten."
-      },
-      {
-        "q": "wer blickt durch?",
-        "a": "Wir. Wir entlasten Sie im Alltag und bringen Struktur in Ihre Finanzen. Von der Buchhaltung bis zur Steuererklärung – wir helfen genau dort, wo Sie uns brauchen."
-      },
-      {
-        "q": "für Ihre Immobilie?",
-        "a": "Wir. Mit fundierter Marktkenntnis und einem klaren Blick für passende Lösungen. Unsere Experten bewerten Ihre Immobilie realistisch und begleiten Sie persönlich bis zum erfolgreichen Abschluss."
-      },
-      {
-        "q": "Bereit für den Verkauf?",
-        "a": "Registrieren Sie sich unverbindlich und nehmen Sie bei Fragen gerne direkt Kontakt mit uns auf. Wir freuen uns auf Ihre Anfrage."
-      },
-      {
-        "q": "Selber verkaufen oder lieber einen Profi beauftragen?",
-        "a": "Beides kann gut funktionieren. Es kommt darauf an, wie viel Zeit, Wissen und Nerven Sie investieren möchten. In unserem Online-Ratgeber finden Sie viele Tipps für den erfolgreichen Immobilienverkauf."
-      },
-      {
-        "q": "Was zeichnet ein starkes Team aus?",
-        "a": "Bei Müller Schuhmacher setzen wir auf Erfahrung, Fachwissen und persönliche Nähe."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
@@ -812,9 +802,10 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Durchschnittliche",
       "phone": "052 212 85 54",
       "email": "andrin.baumann@mueller-schuhmacher.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "hours": "Mo–So 09:00–17:00"
     },
     "formCta": "Nachricht senden"
   },
@@ -835,7 +826,7 @@
       {
         "title": "Standort",
         "links": [
-          "Winterthur",
+          "Durchschnittliche",
           "052 212 85 54",
           "andrin.baumann@mueller-schuhmacher.ch"
         ]

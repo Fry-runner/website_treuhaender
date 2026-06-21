@@ -31,7 +31,36 @@ const DISPLAY_H2: Record<string, string> = {
 };
 const HEAD_TRACK: Record<string, string> = { tighter: "-0.04em", tight: "-0.02em", normal: "0" };
 
-export const sectionY = (py: string) => `${Number(py.replace("py-", "")) * 0.25}rem`;
+// Vertical section padding — FLUID. The desktop max equals the old fixed value (so
+// the verified desktop rhythm is unchanged), while the mobile floor is ~70% of it
+// so small screens don't carry a desktop-sized band. Type was already fluid
+// (DISPLAY); this puts spacing on the same fluid system instead of a fixed stride.
+const SECTION_Y: Record<string, string> = {
+  "py-12": "clamp(2.25rem, 1.6rem + 2.2vw, 3rem)",
+  "py-16": "clamp(2.75rem, 1.9rem + 3vw, 4rem)",
+  "py-20": "clamp(3.25rem, 2.1rem + 4vw, 5rem)",
+  "py-24": "clamp(3.75rem, 2.3rem + 5vw, 6rem)",
+  "py-28": "clamp(4.25rem, 2.5rem + 6vw, 7rem)",
+};
+// Intra-section spacing, driven by the look's RHYTHM/density (previously a dead
+// token — every section shared one stride). `space` is the base unit (gaps),
+// `spaceBlock` the section-header→body rhythm; an "airy" look now genuinely breathes
+// more than a "tight" one without a single fixed value baked into components.
+const SPACE: Record<string, string> = { tight: "0.7rem", normal: "1rem", airy: "1.35rem" };
+const SPACE_BLOCK: Record<string, string> = { tight: "1.8rem", normal: "2.4rem", airy: "3.1rem" };
+
+export const sectionY = (py: string) => SECTION_Y[py] ?? SECTION_Y["py-20"];
+export const space = (r: string) => SPACE[r] ?? SPACE.normal;
+export const spaceBlock = (r: string) => SPACE_BLOCK[r] ?? SPACE_BLOCK.normal;
+/** Horizontal gutter, fluid: tightens on phones, opens up to the preset value on
+ *  desktop. Falls back to the raw value if the preset gutter isn't a plain rem. */
+export const gutter = (g: string) => {
+  const m = /^([\d.]+)rem$/.exec(g.trim());
+  if (!m) return g;
+  const max = Number(m[1]);
+  const min = Math.max(1, +(max * 0.73).toFixed(2));
+  return `clamp(${min}rem, 0.6rem + 2.2vw, ${max}rem)`;
+};
 export const radius = (b: string) => RADIUS[b] ?? "0.5rem";
 export const shadow = (c: string) => SHADOW[c] ?? "none";
 export const weight = (w: string) => WEIGHT[w] ?? 600;

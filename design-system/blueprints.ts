@@ -15,11 +15,17 @@ export interface BlueprintSection {
   note?: string;
 }
 
-/** Canonical homepage section order shared by the strongest reference sites (§2.1). */
+/**
+ * Canonical homepage section order shared by the strongest reference sites (§2.1).
+ * NOTE: `presence: "always"` here is the BACKBONE intent; the home still respects the
+ * budget in ia-rules.ts (HOME_MAX_CONTENT) — supporting "always" sections like
+ * testimonials/faq can be trimmed on an over-stuffed home. Only slots with a renderer
+ * appear here; planned-but-unrendered slots (intro/profile/quote/article-body) are
+ * intentionally kept out of the backbone (`map` stays as a gated optional).
+ */
 export const canonicalHomepage: BlueprintSection[] = [
   { slot: "nav",          presence: "always",   note: "logo L · nav C · 'Termin buchen' R + language switch" },
   { slot: "hero",         presence: "always",   note: "benefit headline + 2 CTAs + in-hero trust nibble (rating/clients)" },
-  { slot: "intro",        presence: "often",    note: "one-line who we are / why we exist" },
   { slot: "services",     presence: "always",   note: "cards; inline 'ab CHF X/Monat' where the model allows" },
   { slot: "values",       presence: "always",   note: "4-6 pillars: digital · transparent · personal · compliant" },
   { slot: "audience",     presence: "often",    note: "industry pages or persona cards" },
@@ -57,13 +63,14 @@ export const archetypes: Record<ArchetypeId, Archetype> = {
     presets: ["tureva-soft", "swiss-clean", "boost-editorial"],
     pricing: "inline", heroStyle: "benefit + price + rating", voice: "efficient, modern",
     emphasize: ["services", "pricing", "audience", "stats", "partners", "faq"],
-    downplay: ["profile"],
+    downplay: [],
   },
   "boutique": {
     id: "boutique", name: "Swiss/DE boutique (owner-led)", reference: "Controva, Gruber Renger",
     presets: ["ruerup-swiss", "boost-editorial", "uds-warm-editorial", "dark-premium"],
     pricing: "hidden", heroStyle: "restrained statement", voice: "calm, understated",
-    emphasize: ["profile", "team", "values", "quote", "testimonials"],
+    // (profile/quote dropped — no renderer; re-add here once those structures exist.)
+    emphasize: ["team", "values", "testimonials"],
     downplay: ["pricing", "map", "audience"],
   },
   "intl-conversion": {

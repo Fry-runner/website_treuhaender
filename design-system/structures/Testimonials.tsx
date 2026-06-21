@@ -21,6 +21,9 @@ export interface TestimonialsContent {
   items: Testimonial[];
 }
 
+/** Build the attribution line from the present fields only — no dangling "·". */
+const meta = (t: Testimonial) => [t.company, t.city].filter(Boolean).join(" · ");
+
 export const Testimonials: React.FC<{ content: TestimonialsContent }> = ({ content }) => (
   <section style={{ background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
@@ -46,8 +49,8 @@ export const Testimonials: React.FC<{ content: TestimonialsContent }> = ({ conte
             </blockquote>
             <div style={{ height: "2px", width: "2rem", background: "var(--ds-primary)" }} />
             <figcaption style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)", lineHeight: 1.5 }}>
-              <strong style={{ color: "var(--ds-text)" }}>{t.person}</strong><br />
-              {t.company} · {t.city}
+              <strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>
+              {meta(t) && <><br />{meta(t)}</>}
             </figcaption>
           </figure>
         ))}

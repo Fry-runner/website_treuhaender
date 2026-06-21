@@ -7,27 +7,82 @@
  */
 import type { ProcessContent, AudienceContent, AboutContent, FeatureContent } from "./sectionContent";
 
-export const defaultProcess = (): ProcessContent => ({
-  eyebrow: "Ablauf",
-  heading: "So arbeiten wir",
-  steps: [
-    { title: "Kennenlernen", body: "Kostenloses Erstgespräch: Wir klären Ihre Situation, Ihre Ziele und den passenden Leistungsumfang." },
-    { title: "Unterlagen & Einrichtung", body: "Sie übergeben uns Ihre Belege digital oder physisch; wir richten Buchhaltung und Zugänge ein." },
-    { title: "Laufende Betreuung", body: "Buchhaltung, Abschlüsse und Steuern erledigen wir termingerecht — mit einem festen Ansprechpartner." },
-    { title: "Reporting & Beratung", body: "Sie erhalten verständliche Auswertungen und proaktive Empfehlungen für Ihre Entscheidungen." },
-  ],
-});
+/** Non-fabricated "how we work" copy, in a few angles so the firms that fall back to
+ *  the generic default don't all read identically. All variants are true for any
+ *  Treuhänder (no invented claims). Picked per firm by `defaultProcess(variant)`. */
+const PROCESS_VARIANTS: ProcessContent[] = [
+  {
+    eyebrow: "Ablauf",
+    heading: "So arbeiten wir",
+    steps: [
+      { title: "Kennenlernen", body: "Kostenloses Erstgespräch: Wir klären Ihre Situation, Ihre Ziele und den passenden Leistungsumfang." },
+      { title: "Unterlagen & Einrichtung", body: "Sie übergeben uns Ihre Belege digital oder physisch; wir richten Buchhaltung und Zugänge ein." },
+      { title: "Laufende Betreuung", body: "Buchhaltung, Abschlüsse und Steuern erledigen wir termingerecht — mit einem festen Ansprechpartner." },
+      { title: "Reporting & Beratung", body: "Sie erhalten verständliche Auswertungen und proaktive Empfehlungen für Ihre Entscheidungen." },
+    ],
+  },
+  {
+    eyebrow: "Ablauf",
+    heading: "In vier Schritten zu klaren Zahlen",
+    steps: [
+      { title: "Erstgespräch", body: "Wir hören zu, verstehen Ihr Geschäft und zeigen ehrlich, wo wir den grössten Nutzen stiften." },
+      { title: "Übernahme", body: "Wir übernehmen Ihre Unterlagen und richten saubere, digitale Abläufe ein — ohne Reibungsverlust." },
+      { title: "Betreuung", body: "Fristen, Buchhaltung und Abschluss laufen zuverlässig — Sie haben jederzeit einen festen Ansprechpartner." },
+      { title: "Mitdenken", body: "Wir melden uns proaktiv, wenn sich Chancen oder Handlungsbedarf bei Steuern und Liquidität zeigen." },
+    ],
+  },
+  {
+    eyebrow: "Ablauf",
+    heading: "Ihr Weg zu uns",
+    steps: [
+      { title: "Termin vereinbaren", body: "Unverbindlich und kostenlos: Wir besprechen Ihren Bedarf und den passenden Umfang." },
+      { title: "Onboarding", body: "Digitale Belegerfassung, Zugänge und Verantwortlichkeiten werden sauber aufgesetzt." },
+      { title: "Im Tagesgeschäft", body: "Buchhaltung, Lohn und Steuern erledigen wir termingerecht und nachvollziehbar." },
+      { title: "Vorausschauend", body: "Verständliche Auswertungen und rechtzeitige Hinweise für Ihre Entscheidungen." },
+    ],
+  },
+];
 
-export const defaultAudience = (): AudienceContent => ({
-  eyebrow: "Für wen",
-  heading: "Für wen wir arbeiten",
-  items: [
-    { title: "KMU & Unternehmen", body: "Von der Gründung bis zum Wachstum: Buchhaltung, Löhne und Abschlüsse aus einer Hand." },
-    { title: "Selbständige & Freiberufler", body: "Schlanke Lösungen für Einzelfirmen — damit Sie sich aufs Kerngeschäft konzentrieren können." },
-    { title: "Privatpersonen", body: "Steuererklärung, Vorsorge und persönliche Finanzfragen — klar erklärt und diskret behandelt." },
-    { title: "Vereine & Stiftungen", body: "Ordentliche Rechnungslegung und Revision für gemeinnützige Organisationen." },
-  ],
-});
+export const defaultProcess = (variant = 0): ProcessContent =>
+  PROCESS_VARIANTS[((variant % PROCESS_VARIANTS.length) + PROCESS_VARIANTS.length) % PROCESS_VARIANTS.length];
+
+/** Non-fabricated "who we work for" copy, in a few angles (same rationale as
+ *  PROCESS_VARIANTS). The four Treuhand segments are stable; the framing rotates. */
+const AUDIENCE_VARIANTS: AudienceContent[] = [
+  {
+    eyebrow: "Für wen",
+    heading: "Für wen wir arbeiten",
+    items: [
+      { title: "KMU & Unternehmen", body: "Von der Gründung bis zum Wachstum: Buchhaltung, Löhne und Abschlüsse aus einer Hand." },
+      { title: "Selbständige & Freiberufler", body: "Schlanke Lösungen für Einzelfirmen — damit Sie sich aufs Kerngeschäft konzentrieren können." },
+      { title: "Privatpersonen", body: "Steuererklärung, Vorsorge und persönliche Finanzfragen — klar erklärt und diskret behandelt." },
+      { title: "Vereine & Stiftungen", body: "Ordentliche Rechnungslegung und Revision für gemeinnützige Organisationen." },
+    ],
+  },
+  {
+    eyebrow: "Für wen",
+    heading: "Wen wir begleiten",
+    items: [
+      { title: "Kleine & mittlere Unternehmen", body: "Verlässliche Buchhaltung, Löhne und Jahresabschluss — damit der Betrieb läuft." },
+      { title: "Einzelfirmen & Startups", body: "Pragmatische Unterstützung von der Gründung bis zur ersten Bilanz." },
+      { title: "Privatpersonen", body: "Steuererklärung und persönliche Finanzthemen — diskret und verständlich." },
+      { title: "Vereine & Stiftungen", body: "Saubere Rechnungslegung und Revision für gemeinnützige Organisationen." },
+    ],
+  },
+  {
+    eyebrow: "Für wen",
+    heading: "Wir sind für Sie da",
+    items: [
+      { title: "Unternehmen & KMU", body: "Ein Partner für Buchhaltung, Lohn, Steuern und Abschluss — vorausschauend betreut." },
+      { title: "Selbständige", body: "Damit Sie sich aufs Kerngeschäft konzentrieren — wir kümmern uns um die Zahlen." },
+      { title: "Privatpersonen", body: "Steuern, Vorsorge und Finanzfragen — klar erklärt, sorgfältig erledigt." },
+      { title: "Vereine & Stiftungen", body: "Ordentliche Rechnungslegung und Revision, auf gemeinnützige Strukturen zugeschnitten." },
+    ],
+  },
+];
+
+export const defaultAudience = (variant = 0): AudienceContent =>
+  AUDIENCE_VARIANTS[((variant % AUDIENCE_VARIANTS.length) + AUDIENCE_VARIANTS.length) % AUDIENCE_VARIANTS.length];
 
 export const defaultAbout = (): AboutContent => ({
   eyebrow: "Über uns",
@@ -45,14 +100,14 @@ export const defaultAbout = (): AboutContent => ({
  *  image bands doesn't repeat the same copy. */
 const FEATURE_VARIANTS: Omit<FeatureContent, "image">[] = [
   {
-    eyebrow: "Warum wir",
+    eyebrow: "Unser Ansatz",
     heading: "Persönliche Beratung, digital gedacht",
     body: "Wir verbinden den persönlichen Draht eines lokalen Treuhänders mit effizienten, digitalen Abläufen — für klare Zahlen, weniger Aufwand und Entscheidungen auf Basis aktueller Daten.",
     bullets: ["Fester Ansprechpartner statt Callcenter", "Digitale Belegerfassung & Echtzeit-Auswertungen", "Transparente Pauschalen ohne versteckte Kosten"],
     cta: { label: "Termin vereinbaren" },
   },
   {
-    eyebrow: "Ihr Vorteil",
+    eyebrow: "Klartext",
     heading: "Klare Zahlen, bessere Entscheidungen",
     body: "Statt einmal im Jahr eine Überraschung: laufend aktuelle, verständlich aufbereitete Auswertungen — damit Sie unternehmerische Entscheidungen auf gesicherter Basis treffen.",
     bullets: ["Aktuelle Auswertungen statt Jahresend-Überraschung", "Kennzahlen verständlich erklärt", "Proaktive Hinweise zu Steuern & Liquidität"],
@@ -82,6 +137,15 @@ export const defaultFeature = (image: string, variant = 0): FeatureContent => ({
   image,
 });
 
+/** Feature band = one copy "angle" + an image. Prefers the firm's REAL angles
+ *  (distilled from scraped values/services in extract.ts); falls back to the
+ *  generic, non-fabricated FEATURE_VARIANTS when the scrape yielded none. */
+export const featureBand = (image: string, variant = 0, angles?: Omit<FeatureContent, "image">[]): FeatureContent => {
+  const pool = angles && angles.length ? angles : FEATURE_VARIANTS;
+  const i = ((variant % pool.length) + pool.length) % pool.length;
+  return { ...pool[i], image };
+};
+
 /** Inject the always-on safe-generic slots (audience, process) into a homepage
  *  sequence when a PRECOMPUTED brief predates them — idempotent (skips if already
  *  present). Mirrors how the composer injects the media gallery. */
@@ -108,14 +172,18 @@ export function injectFeature(slots: string[]): string[] {
  *  comes back to a picture. `isImage(slot)` reports whether a slot renders a photo;
  *  nav/footer are chrome and don't count. No-op when no feature image is available
  *  (`hasImage` false) — the caller supplies a real-photo-else-stock pool. */
-export function enforceImageRhythm(order: string[], isImage: (slot: string) => boolean, hasImage: boolean, maxGap = 2): string[] {
+export function enforceImageRhythm(order: string[], isImage: (slot: string) => boolean, hasImage: boolean, maxGap = 2, maxInserts = 2): string[] {
   if (!hasImage) return order;
   const out: string[] = [];
   let gap = 0;
+  // Cap the number of generic feature bands inserted — without a ceiling an
+  // image-poor (or pitch-mode, stock-only) page sprouts a fresh benefit band on
+  // every long run, and they all say the same thing. Redundancy > a perfect rhythm.
+  let inserts = 0;
   for (const slot of order) {
     if (slot === "nav" || slot === "footer") { out.push(slot); continue; }
     if (isImage(slot)) { out.push(slot); gap = 0; continue; }
-    if (gap >= maxGap) { out.push("feature"); gap = 0; }
+    if (gap >= maxGap && inserts < maxInserts) { out.push("feature"); inserts += 1; gap = 0; }
     out.push(slot);
     gap += 1;
   }

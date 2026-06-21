@@ -188,7 +188,9 @@
     },
     "placeholders": [
       "hero.aside",
-      "faq"
+      "faq",
+      "process (generic)",
+      "audience (generic)"
     ],
     "real": [
       "meta.firm",
@@ -202,6 +204,8 @@
       "team.photos",
       "stats",
       "values",
+      "about",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -387,7 +391,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Professionelle Treuhand-Dienstleistungen in Zürich: Buchhaltung, Jahresabschlüsse, Personaladministration und Wirtschaftsberatung. Über 17 Jahre Erfahrung - kompetent, kundennah, lösungsorientiert. Jetzt Erstgespräch vereinbaren.",
+        "summary": "Das Treuhandzentrum Zürich steht für mehr als nur Zahlen. Wir begleiten Unternehmen und Privatpersonen mit Weitblick, Fachkompetenz und einem starken Netzwerk – in jeder Phase Ihres wirtschaftlichen Handelns.",
         "body": "Das Treuhandzentrum Zürich steht für mehr als nur Zahlen. Wir begleiten Unternehmen und Privatpersonen mit Weitblick, Fachkompetenz und einem starken Netzwerk – in jeder Phase Ihres wirtschaftlichen Handelns.\n\nAls modernes Treuhandunternehmen mit über 17 Jahren Erfahrung verstehen wir die Herausforderungen von heute – und die Fragen von morgen.\n\nOb es um eine reibungslos geführte Buchhaltung, die gesetzeskonforme Abwicklung von Löhnen, komplexe Unternehmensfragen oder Ihre private Vorsorge geht: Unsere Lösungen sind ganzheitlich, verständlich und individuell auf Sie abgestimmt.\n\nUnser Anspruch ist es, nicht nur sauber zu verwalten, sondern aktiv mitzugestalten. Wir denken unternehmerisch, handeln praxisnah und beraten stets auf Augenhöhe.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -398,7 +402,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Kostenlose Checkliste für Ihre Steuererklärung. Alle wichtigen Unterlagen und Belege auf einen Blick. Vermeiden Sie häufige Fehler und sparen Sie Zeit. Jetzt herunterladen.",
+        "summary": "behalten Sie den �berblick und vermeiden h�ufige Fehler, die zu Nachfragen oder Verz�gerungen f�hren k�nnen.",
         "body": "behalten Sie den �berblick und vermeiden h�ufige Fehler, die zu Nachfragen oder Verz�gerungen f�hren k�nnen.\n\n«Wir sind Ihr vertrauenswürdiger Partner, der da ist, wenn die See stürmt.»\n\nWir sind stolz auf das Vertrauen, das uns unsere Kunden entgegenbringen. Jede Bewertung spiegelt persönliche Erfahrungen wider und gibt einen authentischen Einblick in unsere Arbeit. Ihr Feedback ist für uns nicht nur wertvoll, um weiter zu wachsen, sondern zeigt auch neuen Kunden, was sie bei uns erwarten dürfen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -409,7 +413,7 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Professionelle Personaladministration in Zürich: Lohnbuchhaltung, Arbeitsverträge und Spesenreglemente. Rechtssicher, effizient und praxisnah. Für KMU und Unternehmen. Jetzt anfragen.",
+        "summary": "Wir unterstützen Sie bei Payroll, Spesenreglementen und Arbeitsverträgen – damit Sie sich ganz auf Ihr Kerngeschäft konzentrieren können.",
         "body": "Wir unterstützen Sie bei Payroll, Spesenreglementen und Arbeitsverträgen – damit Sie sich ganz auf Ihr Kerngeschäft konzentrieren können.\n\nOb Lohnbuchhaltung, Arbeitsvertr�ge oder Spesenabrechnungen: Eine korrekte Personaladministration ist essenziell f�r jedes Unternehmen.\n\nWir helfen Ihnen, gesetzliche Anforderungen sicher zu erf�llen, administrativen Aufwand zu reduzieren und Klarheit f�r Ihre Mitarbeitenden zu schaffen.\n\nAls erfahrene Payroll Spezialisten unterst�tzen wir KMU in der ganzen Schweiz mit praxisnahen L�sungen \u0013 von der lohnabrechnung vorlage schweiz bis zur rechtssicheren Gestaltung von arbeitsvertr�gen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -420,8 +424,8 @@
       },
       {
         "title": "Jahresabschluss",
-        "summary": "Kostenlose Jahresabschluss-Checkliste für KMU: Alle relevanten Unterlagen und Tipps für die Zusammenarbeit mit Ihrem Treuhänder. Ideal für Einzelfirmen, GmbHs und AGs. Jetzt herunterladen.",
-        "body": "Mit unserer kompakten Checkliste f�r KMU behalten Sie den �berblick und vermeiden h�ufige Fehler, die Zeit und Geld kosten k�nnen.\n\n«Ein exakt auf die Bedürfnisse und Ziele des Unternehmens ausgerichtetes Finanz- und Rechnungswesen ist ein wichtiges Führungsinstrument.»\n\nWir sind stolz auf das Vertrauen, das uns unsere Kunden entgegenbringen. Jede Bewertung spiegelt persönliche Erfahrungen wider und gibt einen authentischen Einblick in unsere Arbeit. Ihr Feedback ist für uns nicht nur wertvoll, um weiter zu wachsen, sondern zeigt auch neuen Kunden, was sie bei uns erwarten dürfen.",
+        "summary": "«Ein exakt auf die Bedürfnisse und Ziele des Unternehmens ausgerichtetes Finanz- und Rechnungswesen ist ein wichtiges Führungsinstrument.»",
+        "body": "«Ein exakt auf die Bedürfnisse und Ziele des Unternehmens ausgerichtetes Finanz- und Rechnungswesen ist ein wichtiges Führungsinstrument.»\n\nWir sind stolz auf das Vertrauen, das uns unsere Kunden entgegenbringen. Jede Bewertung spiegelt persönliche Erfahrungen wider und gibt einen authentischen Einblick in unsere Arbeit. Ihr Feedback ist für uns nicht nur wertvoll, um weiter zu wachsen, sondern zeigt auch neuen Kunden, was sie bei uns erwarten dürfen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -442,7 +446,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Kostenlose Checkliste für die Gründung einer AG in der Schweiz. Von der Rechtsformwahl bis zur Handelsregistereintragung - alle Schritte im Überblick. Jetzt downloaden.",
+        "summary": "behalten Sie den �berblick �ber alle Anforderungen und vermeiden Verz�gerungen im Gr�ndungsprozess.",
         "body": "behalten Sie den �berblick �ber alle Anforderungen und vermeiden Verz�gerungen im Gr�ndungsprozess.\n\n«Wir sind Ihr vertrauenswürdiger Partner, der da ist, wenn die See stürmt.»\n\nWir sind stolz auf das Vertrauen, das uns unsere Kunden entgegenbringen. Jede Bewertung spiegelt persönliche Erfahrungen wider und gibt einen authentischen Einblick in unsere Arbeit. Ihr Feedback ist für uns nicht nur wertvoll, um weiter zu wachsen, sondern zeigt auch neuen Kunden, was sie bei uns erwarten dürfen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -462,19 +466,63 @@
         "body": "Wir kombinieren modernste Technologien mit traditionellem Expertenwissen, um Ihnen eine 360�-Beratung zu bieten. Unser Ziel ist es, Prozesse zu optimieren, Transparenz zu schaffen und Ihnen so mehr Zeit f�r das Wesentliche zu geben \u0013 Ihr Kerngesch�ft."
       },
       {
-        "title": "Ganzheitliche Kompetenz",
-        "body": "Treuhand, Personaladministration, Recht und Steuern unter einem Dach – für effiziente, abgestimmte Lösungen."
-      },
-      {
-        "title": "Verlässliche Partnerschaft",
-        "body": "Im Treuhandzentrum stehen wir für Vertrauen und Beständigkeit. Unsere Mandanten können sich darauf verlassen, dass wir ihre Anliegen mit höchster Sorgfalt und Transparenz begleiten – heute und in Zukunft."
-      },
-      {
         "title": "Lösungsorientierung",
         "body": "Herausforderungen begegnen wir mit einem klaren Blick nach vorn. Statt Probleme in den Vordergrund zu stellen, entwickeln wir pragmatische und passgenaue Lösungen, die echten Mehrwert schaffen."
+      },
+      {
+        "title": "Arbeiten beim Treuhandzentrum Zürich",
+        "body": "Beim Treuhandzentrum Zürich arbeiten Menschen, die mehr wollen als nur Belege sortieren. Wir sind ein engagiertes Team aus Treuhänder:innen, Steuerexpert:innen, Personalprofis und Beratenden – mit klarem Fokus auf Qualität, Partnerschaft und Weiterentwicklung."
+      },
+      {
+        "title": "Unsere Experten im Hintergrund",
+        "body": "Je nach Fragestellung arbeiten wir eng mit externen Spezialisten zusammen – z. B. in den Bereichen internationales Steuerrecht, Recht, Immobilien oder Vorsorgeplanung. Diese Zusammenarbeit ermöglicht uns, auch in komplexen Situationen ganzheitliche Lösungen anzubieten – abgestimmt, professionell und aus einer Hand."
       }
     ]
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Ihre Experten für Firmengründungen",
+    "lead": "Ob GmbH, AG oder Einzelfirma: Wir unterstützen Sie zuverlässig bei jedem Schritt zur eigenen Firma – von der Rechtsformwahl bis zur Handelsregistereintragung.",
+    "paragraphs": [
+      "Wer in der Schweiz ein Unternehmen gr�nden m�chte, hat viele Fragen \u0013 von den rechtlichen Voraussetzungen bis zu den Kosten. Wir begleiten Gr�nder:innen, Startups und KMU bei der Wahl der passenden Rechtsform und k�mmern uns um alle Formalit�ten.",
+      "Ob Sie eine GmbH gr�nden, eine AG aufbauen oder eine Einzelfirma gr�nden m�chten \u0013 mit unserer Unterst�tzung wird der Start einfacher, schneller und sicherer.",
+      "Wir kennen die Abläufe und Anforderungen der Schweizer Behörden und wissen, worauf es bei einer erfolgreichen Gründung ankommt – egal ob Sie ein Start-up gründen oder eine Einzelfirma starten."
+    ]
+  },
+  "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Unser Ansatz:",
+      "body": "Wir kombinieren modernste Technologien mit traditionellem Expertenwissen, um Ihnen eine 360�-Beratung zu bieten. Unser Ziel ist es, Prozesse zu optimieren, Transparenz zu schaffen und Ihnen so mehr Zeit f�r das Wesentliche zu geben \u0013 Ihr Kerngesch�ft.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Lösungsorientierung",
+      "body": "Herausforderungen begegnen wir mit einem klaren Blick nach vorn. Statt Probleme in den Vordergrund zu stellen, entwickeln wir pragmatische und passgenaue Lösungen, die echten Mehrwert schaffen.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Arbeiten beim Treuhandzentrum Zürich",
+      "body": "Beim Treuhandzentrum Zürich arbeiten Menschen, die mehr wollen als nur Belege sortieren. Wir sind ein engagiertes Team aus Treuhänder:innen, Steuerexpert:innen, Personalprofis und Beratenden – mit klarem Fokus auf Qualität, Partnerschaft und Weiterentwicklung.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Unsere Experten im Hintergrund",
+      "body": "Je nach Fragestellung arbeiten wir eng mit externen Spezialisten zusammen – z. B. in den Bereichen internationales Steuerrecht, Recht, Immobilien oder Vorsorgeplanung. Diese Zusammenarbeit ermöglicht uns, auch in komplexen Situationen ganzheitliche Lösungen anzubieten – abgestimmt, professionell und aus einer Hand.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -485,12 +533,6 @@
         "initials": "JA",
         "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
         "photo": "/images/treuhand-zentrum-zuerich-ch/team/0-amstalden.png"
-      },
-      {
-        "name": "Social Media",
-        "role": "Treuhandzentrum Zürich AG",
-        "initials": "SM",
-        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
       }
     ]
   },
@@ -548,9 +590,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zürich",
       "phone": "+41 44 421 33 77",
-      "email": "albana.jetishi@tz-zuerich.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "albana.jetishi@tz-zuerich.ch"
     },
     "formCta": "Nachricht senden"
   },

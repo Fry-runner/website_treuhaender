@@ -66,7 +66,6 @@ export const HeroImageFull: React.FC<{ content: HeroContent }> = ({ content }) =
     <div aria-hidden style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.78), rgba(0,0,0,0.48))" }} />
     <Container style={{ position: "relative", paddingBlock: "calc(var(--ds-section-y) * 1.8)" }}>
       <div style={{ display: "flex", flexDirection: "column", gap: "1.3rem", maxWidth: "60ch" }}>
-        <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "rgba(255,255,255,0.85)" }}>{content.eyebrow}</div>
         <h1 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display)", letterSpacing: "var(--ds-headline-tracking)", lineHeight: 1.05, color: "#fff", margin: 0 }}>
           {content.titleLead} {content.titleAccent} {content.titleTail ?? ""}
         </h1>

@@ -115,9 +115,7 @@
         "services",
         "audience",
         "process",
-        "team",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -165,10 +163,10 @@
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "echte Teammitglieder gescraped",
+        "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -185,6 +183,10 @@
     "placeholders": [
       "hero.aside",
       "values",
+      "faq",
+      "process (generic)",
+      "audience (generic)",
+      "about (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -195,9 +197,7 @@
       "hero.headline",
       "hero.lede",
       "services.text",
-      "team.members",
-      "team.photos",
-      "faq",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -572,7 +572,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Jetzt einen guten Steuerberater in Adlikon finden ✅ Steuererklärung ausfüllen lassenAdlikon von Steuerexperten ✅ Steuerberatung Adlikon zu fairen Preisen ✅ ",
+        "summary": "ist es wichtig, dass sie von unserer Firma die Steuererklärung richtig ausfüllen lassen und wir ihnen Steueroptimierungsvorschläge machen können. Wir sind eine professionelle Firma in Adlikon",
         "body": "ist es wichtig, dass sie von unserer Firma die Steuererklärung richtig ausfüllen lassen und wir ihnen Steueroptimierungsvorschläge machen können. Wir sind eine professionelle Firma in Adlikon\n\nund haben bereits tausende von Steuererklärungen in Adlikon für unsere Kunden ausgefüllt.\n\nwir sie in den Sprachen Deutsch, Englisch, Französisch und Italienisch. Unser Büro liegt zentral im Kanton Adlikon.\n\nDie ersten 30 Minuten vom Beratungsgespräch sind für Sie kostenlos, damit wir eine Standortbestimmung machen können.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -589,36 +589,38 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Wir sind ein kleines Team von Steuerexperten in Zürich und haben mehr als 10 Jahre Erfahrung im Steuer und Treuhandbereich.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "ist es wichtig, dass sie von unserer Firma die Steuererklärung richtig ausfüllen lassen und wir ihnen Steueroptimierungsvorschläge machen können. Wir sind eine professionelle Firma in Adlikon",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Checkliste Steuererklärung",
-        "role": "Steuerfrist",
-        "initials": "CS",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
-      },
-      {
-        "name": "Online Steuererklärung",
-        "role": "Steuerrechner",
-        "initials": "OS",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
-      },
-      {
-        "name": "Tax Return",
-        "role": "Erbschaftssteuer",
-        "initials": "TR",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
-      },
-      {
-        "name": "Steuern Zürich",
-        "role": "Steuererklärung ausfüllen",
-        "initials": "SZ",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden.",
-        "photo": "/images/steuerberater365-zuerich-ch/team/3-zürich.png"
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -649,28 +651,7 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "Was sagen unsere Kunden in zürich?",
-        "a": "\" Zuerst war ich etwas skeptisch, aber danach war ich sehr froh, dass ich mich für diese Firma entschieden habe. Die Steuerberatung war sehr kompetent und sympathisch. Innert kürzester Zeit war"
-      },
-      {
-        "q": "Was sagen unsere Kunden?",
-        "a": "\" Zuerst war ich etwas skeptisch, aber danach war ich sehr froh, dass ich mich für diese Firma entschieden habe. Die Steuerberatung war sehr kompetent und sympathisch. Innert kürzester Zeit war"
-      },
-      {
-        "q": "Warum professionelle Unterstützung bei der Steuererklärung?",
-        "a": "Die Steuergesetze ändern sich regelmässig, und oft schlummern in der Steuererklärung Möglichkeiten, Geld zu sparen. Viele wissen nicht, welche Abzüge sie geltend machen können oder übersehen"
-      },
-      {
-        "q": "Was sagen unsere in Albisrieden Kunden?",
-        "a": "\" Zuerst war ich etwas skeptisch, aber danach war ich sehr froh, dass ich mich für diese Firma entschieden habe. Die Steuerberatung war sehr kompetent und sympathisch. Innert kürzester Zeit war"
-      },
-      {
-        "q": "WELCHE KOSTEN KÖNNEN SIE VON DER STEUER ABZIEHEN?",
-        "a": "✅ Fahrtkosten zur Arbeit – Ob mit dem ÖV oder dem Auto, Pendlerabzüge sind möglich."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
@@ -681,8 +662,8 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "phone": "043 259 40 50",
-      "hours": "Mo–Fr 08:00–17:00"
+      "address": "Zürich",
+      "phone": "043 259 40 50"
     },
     "formCta": "Nachricht senden"
   },

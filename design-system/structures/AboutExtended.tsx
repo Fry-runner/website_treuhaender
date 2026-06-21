@@ -105,7 +105,6 @@ export const AboutBordered: React.FC<Props> = ({ content }) => (
 /** 8) Inverted dark band. */
 export const AboutDark: React.FC<Props> = ({ content }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)" }}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
-    <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem", color: "rgba(255,255,255,0.75)", marginBottom: "0.6rem" }}>{content.eyebrow}</div>
     <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "#fff", margin: "0 0 1.1rem" }}>{content.heading}</h2>
     <p style={{ ...leadS, color: "#fff" }}>{content.lead}</p>
     <div style={{ marginTop: "0.8rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}><Paras items={content.paragraphs} light /></div>
@@ -126,7 +125,6 @@ export const AboutTinted: React.FC<Props> = ({ content }) => (
 /** 10) Borderless minimal — big lead. */
 export const AboutMinimal: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 780px)" }}>
-    <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--ds-text-muted)" }}>{content.eyebrow}</span>
     <p style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.7rem", lineHeight: 1.35, color: "var(--ds-text)", margin: "0.8rem 0 1.4rem" }}>{content.lead}</p>
     <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}><Paras items={content.paragraphs} /></div>
   </Container></section>
@@ -136,7 +134,6 @@ export const AboutMinimal: React.FC<Props> = ({ content }) => (
 export const AboutEyebrowRule: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ borderTop: "2px solid var(--ds-text)", paddingTop: "1.2rem" }}>
-      <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--ds-text-muted)", marginBottom: "0.6rem" }}>{content.eyebrow}</div>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.4fr)", gap: "2.4rem", alignItems: "start" }}>
         <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 1.9rem)", lineHeight: 1.15, color: "var(--ds-text)", margin: 0 }}>{content.heading}</h2>
         <div style={{ display: "flex", flexDirection: "column", gap: "0.9rem" }}><p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} /></div>
@@ -213,7 +210,6 @@ export const AboutBandHighlights: React.FC<Props> = ({ content }) => (
 /** 18) Big heading, lead, paragraphs stacked. */
 export const AboutStackedBig: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
-    <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--ds-text-muted)" }}>{content.eyebrow}</span>
     <h2 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "var(--ds-display)", lineHeight: 1.05, color: "var(--ds-text)", margin: "0.6rem 0 1.2rem" }}>{content.heading}</h2>
     <p style={leadS}>{content.lead}</p>
     <div style={{ marginTop: "0.8rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}><Paras items={content.paragraphs} /></div>

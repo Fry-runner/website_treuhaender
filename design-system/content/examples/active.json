@@ -1,23 +1,24 @@
 {
   "meta": {
-    "firm": "Divisia Treuhand AG",
-    "domain": "divisia-treuhand.ch",
-    "archetype": "swiss-digital",
-    "lookId": "swiss-clean",
-    "sourceUrl": "https://divisia-treuhand.ch/",
-    "basePresetId": "swiss-clean",
+    "firm": "MK Treuhand",
+    "domain": "mkfiduciaire.ch",
+    "archetype": "boutique",
+    "lookId": "boost-editorial",
+    "sourceUrl": "https://mkfiduciaire.ch/",
+    "basePresetId": "boost-editorial",
     "look": {
       "meta": {
-        "id": "divisia-treuhand-ch-brand",
-        "name": "Swiss Clean · brand-tinted",
-        "source": "synthesized (references) + scraped brand",
-        "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
+        "id": "mkfiduciaire-ch-brand",
+        "name": "Boost Editorial · brand-tinted",
+        "mood": "High-fidelity minimalist; serif display over Inter, navy text, clean blue accent, airy whitespace.",
+        "source": "Boost-Consulting + scraped brand",
         "derived": [
-          "base: swiss-clean",
-          "accent #324D2D (scraped · high)",
-          "heading: Bricolage Grotesque (inventory)",
-          "body: Work Sans (inventory)",
-          "mono: IBM Plex Mono (inventory)"
+          "color.primaryFg (#FFFFFF)",
+          "base: boost-editorial",
+          "accent #D4721A (scraped · medium)",
+          "heading: Be Vietnam Pro (scraped)",
+          "body: Inter (inventory)",
+          "mono: JetBrains Mono (inventory)"
         ]
       },
       "tags": {
@@ -26,40 +27,40 @@
         "corner": "medium",
         "density": "airy",
         "contrast": "high",
-        "era": "modern",
+        "era": "timeless",
         "accentEnergy": "medium"
       },
       "color": {
         "bg": "#FFFFFF",
-        "surface": "#F2F7F8",
-        "text": "#0E2A33",
-        "textMuted": "#5B7682",
-        "border": "#DCE7EA",
-        "primary": "#324D2D",
+        "surface": "#F8FAFC",
+        "text": "#0F172A",
+        "textMuted": "#94A3B8",
+        "border": "#E2E8F0",
+        "primary": "#D4721A",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#EFF1EE",
-        "secondary": "#064F95",
+        "primarySoft": "#FCF4ED",
+        "secondary": "#D4721A",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Bricolage Grotesque\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "headingRole": "display-grotesk",
-        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+        "body": "\"Inter\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Be Vietnam Pro\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-geometric"
       },
       "type": {
         "displayMax": "6xl",
         "headlineWeight": "semibold",
-        "bodyWeight": "normal",
+        "bodyWeight": "light",
         "headlineTracking": "tight",
         "eyebrow": {
           "uppercase": true,
-          "tracking": "wider",
-          "weight": "semibold"
+          "tracking": "widest",
+          "weight": "medium"
         }
       },
       "radius": {
-        "base": "md",
+        "base": "lg",
         "pill": "full",
         "scale": "medium"
       },
@@ -74,55 +75,56 @@
         "gutter": "1.5rem"
       },
       "motion": {
-        "durationMs": 260,
+        "durationMs": 300,
         "easing": "cubic-bezier(0.4,0,0.2,1)",
-        "intensity": "moderate"
+        "intensity": "subtle"
       },
       "background": {
         "treatment": "flat-white",
         "blur": true
       },
       "raw": {
-        "--accent-teal": "#0EA5A5",
-        "--ink-navy": "#1E3A5F",
+        "--color-brand-navy": "#0F172A",
+        "--color-brand-gray": "#F8FAFC",
+        "--color-brand-platinum": "#94A3B8",
+        "--color-brand-border": "#E2E8F0",
+        "--color-brand-accent-blue": "#2563EB",
+        "--color-brand-accent-blue-light": "#EFF6FF",
         "--font-sans": "Inter",
-        "--font-display": "Space Grotesk"
+        "--font-serif": "Playfair Display",
+        "--font-mono": "JetBrains Mono"
       }
     },
     "brand": {
-      "primary": "#324D2D",
-      "secondary": "#064F95",
+      "primary": "#D4721A",
       "palette": [
-        "#324D2D",
-        "#064F95",
-        "#B7A071",
-        "#53664F",
-        "#2563EB",
-        "#0C8C51",
-        "#6EC1E4",
-        "#1EA0C3",
-        "#0757FE",
-        "#0A7AFF",
+        "#D4721A",
+        "#1C1C2E",
+        "#E8913A",
         "#1E1F26",
-        "#02E49B",
-        "#5865F2",
-        "#E94C89"
+        "#5B697B",
+        "#FFB900"
       ],
-      "fontsSeen": [],
-      "confidence": "high"
+      "heading": {
+        "family": "Be Vietnam Pro",
+        "serif": false
+      },
+      "fontsSeen": [
+        "Be Vietnam Pro"
+      ],
+      "confidence": "medium"
     },
-    "fontsToLoad": [],
+    "fontsToLoad": [
+      "Be Vietnam Pro"
+    ],
     "brief": {
       "homepageSlots": [
         "nav",
         "hero",
         "services",
-        "values",
         "audience",
         "process",
-        "team",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -155,9 +157,9 @@
         }
       ],
       "functions": {
-        "onlineBooking": true,
-        "newsletter": true,
-        "jobs": true,
+        "onlineBooking": false,
+        "newsletter": false,
+        "jobs": false,
         "cookieConsent": true
       },
       "reasons": {
@@ -165,15 +167,15 @@
         "home:hero": "Kernsektion",
         "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
-        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "echte Teammitglieder gescraped",
+        "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -183,170 +185,163 @@
         "page:about": "✓ Über-uns-Seite im Scrape",
         "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
-        "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
-        "fn:jobs": "✓ Stellen/Jobs im Scrape"
+        "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
+        "fn:jobs": "✗ keine Jobs im Scrape"
       }
     },
     "placeholders": [
-      "hero.aside"
+      "hero.aside",
+      "values",
+      "faq",
+      "footer.tagline",
+      "process (generic)",
+      "audience (generic)",
+      "media.stock (CC fallback)"
     ],
     "real": [
       "meta.firm",
       "meta.domain",
       "contact.email",
       "contact.phone",
-      "hero.headline",
-      "hero.lede",
       "services.text",
-      "team.members",
-      "values",
-      "faq",
-      "footer.tagline",
+      "about",
+      "feature",
       "trust.items",
       "media.pool",
-      "media.logo",
-      "trust.badges",
       "services.images",
-      "media.documents",
-      "brand.colors"
+      "brand.colors",
+      "brand.fonts"
     ]
   },
   "media": {
-    "logo": "/images/divisia-treuhand-ch/pool/3c98504da9__Logo_Divisia_treuhand.svg",
-    "hero": "/images/divisia-treuhand-ch/hero.jpg",
-    "badges": [
-      "/images/divisia-treuhand-ch/pool/46eee31450__treu-suisse-logo-verband-de.svg",
-      "/images/divisia-treuhand-ch/pool/069e80fac2__logo_treuhand-suisse-300x63.png",
-      "/images/divisia-treuhand-ch/pool/f9410928ab__RAB-logo.png"
-    ],
-    "photos": [
-      "/images/divisia-treuhand-ch/pool/40b2b8b2c9__Divisia-Treuhand-1200x675-Einfamilienhaus-Eigentum.jpg",
-      "/images/divisia-treuhand-ch/pool/05e91d0ae5__Unternehmensberatung.jpg",
-      "/images/divisia-treuhand-ch/pool/61322ad013__Divisia-Treuhand-1200x675-Immobilien.jpg",
-      "/images/divisia-treuhand-ch/pool/db7988e60a__Divisia-Treuhand-1200x675-Weiterbildung.jpg",
-      "/images/divisia-treuhand-ch/pool/9af4a8da7e__Divisia-Treuhand-1200x675-Couple-Tablet-Silver-Ager.jpg",
-      "/images/divisia-treuhand-ch/pool/521b170517__Divisia-Treuhand-Wallisellen-Revision-1920x600-1.jpg",
-      "/images/divisia-treuhand-ch/pool/093aeb1a1e__treuhand1-1920x600.jpg",
-      "/images/divisia-treuhand-ch/pool/1cbb17ec8e__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung.jpg",
-      "/images/divisia-treuhand-ch/pool/837074c37f__Divisia-Treuhand-1200x675-Liegenschaft-Immobilien.jpg",
-      "/images/divisia-treuhand-ch/pool/e9c49d9a26__Divisia-Treuhand-1200x675-Ferienkurse-Ferienbetreuung-abziehbar.jpg"
-    ],
+    "hero": "/images/mkfiduciaire-ch/pool/stock-office-159839.jpg",
+    "badges": [],
+    "photos": [],
     "serviceImages": {
-      "Steuerberatung": "/images/divisia-treuhand-ch/pool/1cbb17ec8e__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung.jpg",
-      "Unternehmensberatung": "/images/divisia-treuhand-ch/pool/05e91d0ae5__Unternehmensberatung.jpg",
-      "Revision": "/images/divisia-treuhand-ch/pool/521b170517__Divisia-Treuhand-Wallisellen-Revision-1920x600-1.jpg"
+      "Buchhaltung": "/images/mkfiduciaire-ch/pool/stock-desk-7821716.jpg",
+      "Steuerberatung": "/images/mkfiduciaire-ch/pool/stock-laptop-8091204.jpg",
+      "Lohnadministration": "/images/mkfiduciaire-ch/pool/stock-desk-7792775.jpg",
+      "Jahresabschluss": "/images/mkfiduciaire-ch/pool/stock-office-5483051.jpg",
+      "Mehrwertsteuer": "/images/mkfiduciaire-ch/pool/stock-finance-577195.jpg",
+      "Unternehmensberatung": "/images/mkfiduciaire-ch/pool/stock-success-6289026.jpg",
+      "Revision": "/images/mkfiduciaire-ch/pool/stock-desk-8580716.jpg"
     },
-    "documents": [
-      {
-        "src": "/files/divisia-treuhand-ch/2e6a6ca988__Liste_notwendiger_Unterlagen_Steuern.pdf",
-        "title": "Checkliste Steuererklärung Deutsch",
-        "kind": "pdf",
-        "bytes": 11754
-      },
-      {
-        "src": "/files/divisia-treuhand-ch/518499f51c__abaweb_treuhand.pdf",
-        "title": "Software as a Service  (AbaWebTreuhand) PDF",
-        "kind": "pdf",
-        "bytes": 797830
-      },
-      {
-        "src": "/files/divisia-treuhand-ch/5bdb3ba395__checklist-for-the-tax-return.pdf",
-        "title": "Tax return checklist",
-        "kind": "pdf",
-        "bytes": 91677
-      }
-    ],
+    "documents": [],
     "assets": [
       {
-        "src": "/images/divisia-treuhand-ch/pool/3c98504da9__Logo_Divisia_treuhand.svg",
-        "kind": "logo",
-        "alt": "Divisia Treuhand",
-        "bytes": 8056,
-        "width": 285,
-        "height": 89.89,
-        "orientation": "landscape",
-        "subject": "generic",
-        "phash": "54cdd2ecd80088d2",
-        "roles": []
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/46eee31450__treu-suisse-logo-verband-de.svg",
-        "kind": "badge",
-        "alt": "treu suisse logo verband de",
-        "bytes": 8511,
-        "width": 355.85,
-        "height": 107.6,
-        "orientation": "landscape",
-        "subject": "generic",
-        "phash": "181a16a61a189094",
-        "roles": []
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/069e80fac2__logo_treuhand-suisse-300x63.png",
-        "kind": "badge",
+        "src": "/images/mkfiduciaire-ch/pool/stock-office-159839.jpg",
+        "kind": "hero",
         "alt": "",
-        "bytes": 3920,
-        "width": 300,
-        "height": 63,
-        "orientation": "landscape",
-        "subject": "generic",
-        "phash": "0",
-        "roles": []
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/f9410928ab__RAB-logo.png",
-        "kind": "badge",
-        "alt": "RAB logo",
-        "bytes": 13335,
-        "width": 223,
-        "height": 134,
-        "orientation": "landscape",
-        "subject": "generic",
-        "phash": "c1a191d17535636",
-        "roles": []
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/7d7215d926__Divisia-Treuhand-Marina-Boller-2400x3157-2.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand Marina Boller 2400x3157",
-        "bytes": 171590,
-        "width": 1169,
-        "height": 1600,
-        "orientation": "portrait",
-        "subject": "portrait",
-        "phash": "607032d9cccee2e0",
-        "quality": 0.66,
-        "faces": 1,
-        "roles": [
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/dd25379f41__Divisia-Treuhand-Benjamin-Schenk-2400x3200-1.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand Benjamin Schenk 2400x3200",
-        "bytes": 301283,
-        "width": 1200,
-        "height": 1600,
-        "orientation": "portrait",
-        "subject": "portrait",
-        "phash": "b2b230c8ccf2f06c",
-        "quality": 0.81,
-        "faces": 1,
-        "roles": [
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/40b2b8b2c9__Divisia-Treuhand-1200x675-Einfamilienhaus-Eigentum.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand 1200x675 Einfamilienhaus Eigentum",
-        "bytes": 255265,
-        "width": 1200,
-        "height": 675,
+        "bytes": 235538,
+        "width": 1880,
+        "height": 1250,
         "orientation": "landscape",
         "subject": "office",
-        "phash": "b2b8b2b203160513",
+        "stock": true,
+        "credit": "Pixabay (Pexels)",
+        "source": "https://www.pexels.com/photo/black-study-lamp-on-black-table-159839/",
+        "quality": 0.79,
+        "faces": 1,
+        "roles": [
+          "gallery",
+          "hero",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/mkfiduciaire-ch/pool/stock-desk-7821716.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 86635,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/a-man-sitting-at-the-table-7821716/",
+        "quality": 0.62,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/mkfiduciaire-ch/pool/stock-laptop-8091204.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 98587,
+        "width": 1280,
+        "height": 852,
+        "orientation": "landscape",
+        "subject": "portrait",
+        "stock": true,
+        "credit": "PNW Production (Pexels)",
+        "source": "https://www.pexels.com/photo/woman-in-white-dress-sitting-on-brown-wooden-table-using-macbook-pro-8091204/",
+        "quality": 0.67,
+        "faces": 1,
+        "roles": [
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/mkfiduciaire-ch/pool/stock-desk-7792775.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 81435,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Yan Krukau (Pexels)",
+        "source": "https://www.pexels.com/photo/gray-laptop-on-the-table-7792775/",
+        "quality": 0.67,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/mkfiduciaire-ch/pool/stock-office-5483051.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 65172,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "cottonbro studio (Pexels)",
+        "source": "https://www.pexels.com/photo/black-rolling-chairs-beside-desk-5483051/",
+        "quality": 0.45,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/mkfiduciaire-ch/pool/stock-finance-577195.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 128971,
+        "width": 1280,
+        "height": 848,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/turned-on-laptop-computer-577195/",
         "quality": 0.85,
         "faces": 0,
         "roles": [
@@ -357,244 +352,63 @@
         ]
       },
       {
-        "src": "/images/divisia-treuhand-ch/pool/1cbb17ec8e__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung.jpg",
+        "src": "/images/mkfiduciaire-ch/pool/stock-success-6289026.jpg",
         "kind": "photo",
-        "alt": "Divisia Treuhand 1200x675 Kryptowährung steuerpflichtig Gewinnversteuerung",
-        "bytes": 231784,
-        "width": 1200,
-        "height": 675,
+        "alt": "",
+        "bytes": 17986,
+        "width": 1280,
+        "height": 720,
         "orientation": "landscape",
         "subject": "generic",
-        "phash": "2b2b0f0f2b1a9a9a",
-        "quality": 0.79,
+        "stock": true,
+        "credit": "Monstera Production (Pexels)",
+        "source": "https://www.pexels.com/photo/graph-with-increasing-euro-profitable-investment-6289026/",
+        "quality": 0.11,
         "faces": 0,
         "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
+          "gallery"
         ]
       },
       {
-        "src": "/images/divisia-treuhand-ch/pool/093aeb1a1e__treuhand1-1920x600.jpg",
+        "src": "/images/mkfiduciaire-ch/pool/stock-desk-8580716.jpg",
         "kind": "photo",
-        "alt": "treuhand1",
-        "bytes": 218417,
-        "width": 1600,
-        "height": 500,
-        "orientation": "landscape",
-        "subject": "generic",
-        "phash": "71f5f2dc5436226e",
-        "quality": 0.81,
-        "faces": 0,
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/837074c37f__Divisia-Treuhand-1200x675-Liegenschaft-Immobilien.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand 1200x675 Liegenschaft Immobilien",
-        "bytes": 168419,
-        "width": 1200,
-        "height": 675,
-        "orientation": "landscape",
-        "subject": "generic",
-        "phash": "171b3b5325632327",
-        "quality": 0.76,
-        "faces": 0,
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/42c8b786f1__Divisia-Treuhand-Patricia-Horn-2400x3200-1.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand Patricia Horn 2400x3200",
-        "bytes": 159523,
-        "width": 1200,
-        "height": 1600,
-        "orientation": "portrait",
-        "subject": "portrait",
-        "phash": "90b99990704a6266",
-        "quality": 0.5,
-        "faces": 1,
-        "roles": [
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/f486b51a99__Divisia-Treuhand-Aleksandra-Pantic-2400x3200-1.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand Aleksandra Pantic 2400x3200",
-        "bytes": 147634,
-        "width": 1200,
-        "height": 1600,
-        "orientation": "portrait",
-        "subject": "portrait",
-        "phash": "323b69ec647839f4",
-        "quality": 0.57,
-        "faces": 1,
-        "roles": [
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/12b6319677__Divisia-Treuhand-Sina-Blind-2400x3200-1.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand Sina Blind 2400x3200",
-        "bytes": 112333,
-        "width": 1200,
-        "height": 1600,
-        "orientation": "portrait",
-        "subject": "portrait",
-        "phash": "83b3b3e3c9d87879",
-        "quality": 0.52,
-        "faces": 1,
-        "roles": [
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/9af4a8da7e__Divisia-Treuhand-1200x675-Couple-Tablet-Silver-Ager.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand 1200x675 Couple Tablet Silver Ager",
-        "bytes": 98203,
-        "width": 1200,
-        "height": 675,
+        "alt": "",
+        "bytes": 82926,
+        "width": 1280,
+        "height": 853,
         "orientation": "landscape",
         "subject": "office",
-        "phash": "c9c9c1a1a9243412",
-        "quality": 0.58,
-        "faces": 2,
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/521b170517__Divisia-Treuhand-Wallisellen-Revision-1920x600-1.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand Wallisellen Revision 1920x600",
-        "bytes": 85945,
-        "width": 1600,
-        "height": 500,
-        "orientation": "landscape",
-        "subject": "office",
-        "phash": "323a1e2e36363eeb",
-        "quality": 0.54,
-        "faces": 0,
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/61322ad013__Divisia-Treuhand-1200x675-Immobilien.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand Immobilienbewertung",
-        "bytes": 82080,
-        "width": 1200,
-        "height": 675,
-        "orientation": "landscape",
-        "subject": "office",
-        "phash": "f0d84a9009196c25",
-        "quality": 0.64,
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/black-pen-on-white-pad-paper-8580716/",
+        "quality": 0.65,
         "faces": 0,
         "roles": [
           "gallery",
           "background",
           "service",
           "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/db7988e60a__Divisia-Treuhand-1200x675-Weiterbildung.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand Stockwerkeigentümer Prozesskosten",
-        "bytes": 91916,
-        "width": 1200,
-        "height": 675,
-        "orientation": "landscape",
-        "subject": "office",
-        "phash": "58505a6aaaa446ec",
-        "quality": 0.63,
-        "faces": 0,
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/e9c49d9a26__Divisia-Treuhand-1200x675-Ferienkurse-Ferienbetreuung-abziehbar.jpg",
-        "kind": "photo",
-        "alt": "Divisia Treuhand 1200x675 Ferienkurse Ferienbetreuung abziehbar",
-        "bytes": 87050,
-        "width": 1200,
-        "height": 675,
-        "orientation": "landscape",
-        "subject": "generic",
-        "phash": "eac9353dd9c9c8c2",
-        "quality": 0.68,
-        "faces": 0,
-        "roles": [
-          "gallery",
-          "background",
-          "service",
-          "feature"
-        ]
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/6dde75048c__Benjamin-Schenk-Divisia-Treuhand-AG-800x800-3.jpg",
-        "kind": "photo",
-        "alt": "Benjamin Schenk Divisia Treuhand AG 800x800",
-        "bytes": 86669,
-        "width": 800,
-        "height": 800,
-        "orientation": "square",
-        "subject": "portrait",
-        "phash": "7aeecec7e7332627",
-        "quality": 0.72,
-        "faces": 1,
-        "roles": []
-      },
-      {
-        "src": "/images/divisia-treuhand-ch/pool/05e91d0ae5__Unternehmensberatung.jpg",
-        "kind": "photo",
-        "alt": "Unternehmensberatung",
-        "bytes": 93827,
-        "width": 1600,
-        "height": 500,
-        "orientation": "landscape",
-        "subject": "office",
-        "phash": "4f4f078d0d2d4f4e",
-        "quality": 0.7,
-        "faces": 0,
-        "roles": [
-          "gallery",
-          "hero",
-          "background"
         ]
       }
     ],
     "sectionBackgrounds": [
-      "/images/divisia-treuhand-ch/pool/40b2b8b2c9__Divisia-Treuhand-1200x675-Einfamilienhaus-Eigentum.jpg",
-      "/images/divisia-treuhand-ch/pool/1cbb17ec8e__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung.jpg",
-      "/images/divisia-treuhand-ch/pool/093aeb1a1e__treuhand1-1920x600.jpg"
+      "/images/mkfiduciaire-ch/pool/stock-office-159839.jpg",
+      "/images/mkfiduciaire-ch/pool/stock-desk-7821716.jpg",
+      "/images/mkfiduciaire-ch/pool/stock-laptop-8091204.jpg"
+    ],
+    "stock": true,
+    "credits": [
+      "Pixabay (Pexels)",
+      "RDNE Stock project (Pexels)",
+      "PNW Production (Pexels)",
+      "Yan Krukau (Pexels)",
+      "cottonbro studio (Pexels)",
+      "Lukas Blazek (Pexels)",
+      "Monstera Production (Pexels)"
     ]
   },
   "nav": {
-    "brand": "Divisia Treuhand AG",
+    "brand": "MK Treuhand",
     "links": [
       {
         "label": "Home",
@@ -609,20 +423,19 @@
         "href": "#about"
       }
     ],
-    "cta": "Termin buchen",
-    "logo": "/images/divisia-treuhand-ch/pool/3c98504da9__Logo_Divisia_treuhand.svg"
+    "cta": "Kontakt aufnehmen"
   },
   "hero": {
-    "eyebrow": "Treuhand · Wallisellen",
-    "titleLead": "Treuhand & Steuerberatung in Zürich Wallisellen",
-    "titleAccent": "",
-    "lede": "Divisia Treuhand AG: Treuhand, Steuerberatung, Revision in der Region Zürich Wallisellen. Umfassend, ganzheitlich und partnerschaftlich. Kontakt 044 811 00 99",
-    "primaryCta": "Termin buchen",
+    "eyebrow": "Treuhand · Zürich",
+    "titleLead": "Ihre Finanzen,",
+    "titleAccent": "klar geführt.",
+    "lede": "Buchhaltung, Steuern und Beratung für KMU und Privatpersonen in Zürich. Persönlich, präzise und vorausschauend an Ihrer Seite.",
+    "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Divisia Treuhand AG: Treuhand, Steuerberatung, Revision in der Region Zürich Wallisellen. Umfassend, ganzheitlich und partnerschaftlich. Kontakt 044 811 00 99",
-    "asideAttribution": "Divisia Treuhand AG",
-    "image": "/images/divisia-treuhand-ch/hero.jpg"
+    "asideQuote": "Persönliche Treuhand-Betreuung für KMU und Private in Zürich.",
+    "asideAttribution": "MK Treuhand",
+    "image": "/images/mkfiduciaire-ch/pool/stock-office-159839.jpg"
   },
   "services": {
     "eyebrow": "Leistungen",
@@ -630,37 +443,39 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Die Tagfertigkeit des gesamten Finanz- und Rechnungswesens Ihrer Unternehmung stellt für Sie ein nicht zu unterschätzendes Kontrollinstrument dar. Die Aktualität der Buchhaltung ist Basis für fristgerechte Auswertungen und eine monatliche Budgetkontrolle. So können positive wie n",
-        "body": "Die Tagfertigkeit des gesamten Finanz- und Rechnungswesens Ihrer Unternehmung stellt für Sie ein nicht zu unterschätzendes Kontrollinstrument dar. Die Aktualität der Buchhaltung ist Basis für fristgerechte Auswertungen und eine monatliche Budgetkontrolle. So können positive wie negative Entwicklungen des Geschäftsverlaufes frühzeitig erkannt und die notwendigen Massnahmen rechtzeitig ergriffen werden – eine zentrale Voraussetzung für Ihren Unternehmenserfolg.\n\nWir führen Ihre komplette Finanzbuchhaltung sowie den Zahlungsverkehr, bewirtschaften Ihre Debitoren und bearbeiten Inkassofälle. Wir erstellen Ihren Jahresabschluss und beraten Sie strategisch. Von Ihnen benötigen wir lediglich periodisch die entsprechenden Belege, welche wir nach der Verarbeitung entweder an Sie retournieren, oder auf Wunsch in unseren Büros ablegen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Steuerberatung",
-        "summary": "Treuhand ist mehr als nur Buchhaltung, sondern individuelle und breit gefächerte Unterstützung als ganzheitliche Dienstleistung. Die Basis dafür ist Ihr Vertrauen, welches wir durch ein hohes Mass an Interesse, Einsatz und Identifikationsbereitschaft gewinnen möchten.",
-        "body": "Treuhand ist mehr als nur Buchhaltung, sondern individuelle und breit gefächerte Unterstützung als ganzheitliche Dienstleistung. Die Basis dafür ist Ihr Vertrauen, welches wir durch ein hohes Mass an Interesse, Einsatz und Identifikationsbereitschaft gewinnen möchten.\n\nKonzentrieren Sie Ihre zeitlichen Ressourcen ganz auf Ihr Kerngeschäft und übergeben Sie uns die zeitraubenden administrativen Arbeiten in der Buchführung, im Rechnungswesen und in der Personaladministration. Bei Ihrer Entscheidung über den Umfang des Outsourcing sollten Sie eines nicht vergessen: je ganzheitlicher die externe Beratung ist, desto grösser wird auch Ihr Nutzen sein.\n\nMit dem digitalen Treuhandportal bieten wir Ihnen eine zentrale Plattform für Buchhaltung, Steuern, Löhne und mehr – jederzeit zugänglich, egal ob im Büro oder unterwegs..\n\nWir führen Ihre komplette Finanzbuchhaltung sowie den Zahlungsverkehr, b",
+        "summary": "Das Obligationenrecht (OR Art. 957-963) regelt die Buchführungspflicht. Jedes im Handelsregister eingetragene Unternehmen muss Bücher führen.",
+        "body": "Das Obligationenrecht (OR Art. 957-963) regelt die Buchführungspflicht. Jedes im Handelsregister eingetragene Unternehmen muss Bücher führen.\n\nEinzelfirmen mit weniger als CHF 500'000 Umsatz: Einnahmen-/Ausgabenrechnung und Vermögensübersicht genügen.\n\nPflicht für AG, GmbH und Einzelfirmen über CHF 500'000: Bilanz, Erfolgsrechnung, Anhang nach Schweizer Kontenrahmen KMU.\n\nPflicht ab CHF 100'000 weltweitem Umsatz. Normalsatz 8.1%, reduzierter Satz 2.6%. Wahl zwischen effektiver Methode und Saldosteuersätzen — die Saldosteuersatz-Methode ist für viele KMU einfacher.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/divisia-treuhand-ch/pool/1cbb17ec8e__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung.jpg"
+        "image": "/images/mkfiduciaire-ch/pool/stock-desk-7821716.jpg"
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Die Beschäftigung von Personal ist für ein Unternehmen eine vielschichtige soziale und administrative Herausforderung. Mit der monatlichen Überweisung des Lohnes alleine ist es nicht getan. Vielmehr ist eine ganzheitliche Betrachtung von Gesetzen, Versicherungen, Verträgen und Lo",
-        "body": "Die Beschäftigung von Personal ist für ein Unternehmen eine vielschichtige soziale und administrative Herausforderung. Mit der monatlichen Überweisung des Lohnes alleine ist es nicht getan. Vielmehr ist eine ganzheitliche Betrachtung von Gesetzen, Versicherungen, Verträgen und Lohnmodellen notwendig, um die Ressourcen gezielt und flexibel einzusetzen – für erfolgreiches Operieren am Markt.\n\nWir wickeln Ihre Lohnbuchhaltung und Personaladministration umfassend und vertraulich ab, beraten Sie in Fragen des Arbeitsrechts und der Sozialversicherungen, erstellen Personal- und Spesenreglemente und informieren Sie über Gesetzesänderungen, die für Ihre Anstellungsverhältnisse relevant sind.",
+        "title": "Steuerberatung",
+        "summary": "gehören zu den wichtigsten Wirtschaftsstandorten der Schweiz. Ihre Steuersysteme unterscheiden sich jedoch deutlich.",
+        "body": "gehören zu den wichtigsten Wirtschaftsstandorten der Schweiz. Ihre Steuersysteme unterscheiden sich jedoch deutlich.\n\nBasel-Stadt hat den Steuersatz in den letzten Jahren massiv gesenkt und ist nun einer der kompetitivsten Kantone für Unternehmen. Zürich kompensiert mit seinem einzigartigen Zugang zu Fachkräften, Kapital und internationalem Netzwerk.\n\n: Gemeindesteuerfuss variiert stark — Zug, Schwyz oder Nidwalden als Alternative prüfen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/mkfiduciaire-ch/pool/stock-laptop-8091204.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/mkfiduciaire-ch/pool/stock-desk-7792775.jpg"
       },
       {
         "title": "Jahresabschluss",
@@ -671,7 +486,8 @@
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/mkfiduciaire-ch/pool/stock-office-5483051.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -682,55 +498,82 @@
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/mkfiduciaire-ch/pool/stock-finance-577195.jpg"
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Treuhand ist mehr als nur Buchhaltung, sondern individuelle und breit gefächerte Unterstützung als ganzheitliche Dienstleistung. Die Basis dafür ist Ihr Vertrauen, welches wir durch ein hohes Mass an Interesse, Einsatz und Identifikationsbereitschaft gewinnen möchten.",
-        "body": "Treuhand ist mehr als nur Buchhaltung, sondern individuelle und breit gefächerte Unterstützung als ganzheitliche Dienstleistung. Die Basis dafür ist Ihr Vertrauen, welches wir durch ein hohes Mass an Interesse, Einsatz und Identifikationsbereitschaft gewinnen möchten.\n\nKonzentrieren Sie Ihre zeitlichen Ressourcen ganz auf Ihr Kerngeschäft und übergeben Sie uns die zeitraubenden administrativen Arbeiten in der Buchführung, im Rechnungswesen und in der Personaladministration. Bei Ihrer Entscheidung über den Umfang des Outsourcing sollten Sie eines nicht vergessen: je ganzheitlicher die externe Beratung ist, desto grösser wird auch Ihr Nutzen sein.\n\nMit dem digitalen Treuhandportal bieten wir Ihnen eine zentrale Plattform für Buchhaltung, Steuern, Löhne und mehr – jederzeit zugänglich, egal ob im Büro oder unterwegs..\n\nWir führen Ihre komplette Finanzbuchhaltung sowie den Zahlungsverkehr, b",
+        "summary": "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In",
+        "body": "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In\n\n3-7 Tage. Die Notarkosten sind in der Deutschschweiz generell etwas tiefer als in der Romandie.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/divisia-treuhand-ch/pool/05e91d0ae5__Unternehmensberatung.jpg"
+        "image": "/images/mkfiduciaire-ch/pool/stock-success-6289026.jpg"
       }
     ]
   },
   "values": {
     "eyebrow": "Warum wir",
     "heading": "Ihr Vorteil.",
-    "items": [
-      {
-        "title": "Treuhand",
-        "body": "Konzentrieren Sie Ihre zeitlichen Ressourcen ganz auf Ihr Kerngeschäft und übergeben Sie uns die zeitraubenden administrativen Arbeiten in der Buchführung, im Rechnungswesen und in der Personaladministration."
-      },
-      {
-        "title": "Unternehmens­beratung",
-        "body": "Aussergewöhnliche Veränderungen Ihrer Geschäftstätigkeit – Gründung, Kauf- und Verkauf, Umstrukturierung oder Fusion – erfordern besondere Massnahmen."
-      },
-      {
-        "title": "Revision",
-        "body": "Wir stimmen den Umfang unserer Revisionstätigkeit mit Ihnen ab und finden eine Lösung, die Ihren Anforderungen und der Grösse Ihres Unternehmens gerecht wird."
-      },
-      {
-        "title": "Digitaler Treuhänder",
-        "body": "Das Treuhandportal ist ein einfaches und effizientes Kommunikationstool zwischen Ihnen und Ihrem Treuhänder. Das Portal funktioniert als webbasierte Lösung und via Mobile App."
-      }
+    "items": []
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Gründungsschritte einer GmbH",
+    "lead": "Firmengründung in der Schweiz 2026: GmbH, AG oder Einzelfirma? | MK Treuhand",
+    "paragraphs": [
+      "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In",
+      "3-7 Tage. Die Notarkosten sind in der Deutschschweiz generell etwas tiefer als in der Romandie."
     ]
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Das Obligationenrecht (OR Art. 957-963) regelt die Buchführungspflicht. Jedes im Handelsregister eingetragene Unternehmen muss Bücher führen.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "gehören zu den wichtigsten Wirtschaftsstandorten der Schweiz. Ihre Steuersysteme unterscheiden sich jedoch deutlich.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Zürcher Anwälte",
-        "role": "Steuerberatung",
-        "initials": "ZA",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -750,79 +593,50 @@
   "trust": {
     "label": "Mitglied · Zertifiziert",
     "items": [
-      "EXPERTsuisse",
-      "RAB/zugel. Revisor",
-      "eidg. Diplom/Fachausweis",
-      "abaweb",
-      "klara",
-      "sage"
+      "abacus",
+      "banana",
+      "bexio"
     ],
-    "badges": [
-      "/images/divisia-treuhand-ch/pool/46eee31450__treu-suisse-logo-verband-de.svg",
-      "/images/divisia-treuhand-ch/pool/069e80fac2__logo_treuhand-suisse-300x63.png",
-      "/images/divisia-treuhand-ch/pool/f9410928ab__RAB-logo.png"
-    ]
+    "badges": []
   },
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "Warum lohnt es sich, mit Divisia Treuhand zusammenzuarbeiten?",
-        "a": "Ob Buchhaltung, Steuern oder Revision – wir sind Ihr digitaler Treuhandpartner in Zürich, Wallisellen, Dübendorf, Dietlikon, Bassersdorf, Kloten und Rümlang. Statt Standardlösungen bieten wir Ihnen individuell abgestimmte Services – effizient, verständlich und auf Augenhöhe. Persönlich dort, wo Sie es wünschen. Digital, wo es Ihnen Zeit und Kosten spart. Unsere Zusammenarbeit ist kein einmaliger Auftrag, sondern eine Partnerschaft mit klarem Ziel: Ihre Entlastung im Alltag und Ihr nachhaltiger Unternehmenserfolg."
-      },
-      {
-        "q": "Was bedeutet «digitales Treuhandportal»?",
-        "a": "Als modernes Treuhandbüro setzen wir auf digitale Prozesse, die Ihren administrativen Aufwand reduzieren und den Austausch mit uns vereinfachen. Mit dem digitalen Treuhandportal bieten wir Ihnen eine zentrale Plattform für Buchhaltung, Steuern, Löhne und mehr – jederzeit zugänglich, egal ob im Büro oder unterwegs."
-      },
-      {
-        "q": "Für wen ist das Portal geeignet?",
-        "a": "Privatpersonen, die gern endlich papierlos auf ihre Steuerunterlagen zugreifen wollen."
-      },
-      {
-        "q": "Bereit für den Wechsel?",
-        "a": "Vereinbaren Sie jetzt ein unverbindliches Beratungsgespräch – wir zeigen Ihnen, wie einfach und zeitsparend Treuhand heute sein kann."
-      },
-      {
-        "q": "Möchten und können Sie einen Teil Ihrer Buchhaltung selber führen?",
-        "a": "Die moderne Softwarelösung AbaWebTreuhand vereinfacht die Zusammenarbeit zwischen Ihnen und uns."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
     "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
-    "button": "Termin buchen"
+    "button": "Kontakt aufnehmen"
   },
   "contact": {
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "phone": "+41 (0)44 811 00 90",
-      "hours": "Mo–Fr 08:00–17:00"
+      "address": "Zürich",
+      "phone": "+41 26 518 00 00",
+      "email": "info@mkfiduciaire.ch"
     },
     "formCta": "Nachricht senden"
   },
   "footer": {
-    "brand": "Divisia Treuhand AG",
-    "tagline": "Divisia Treuhand AG: Treuhand, Steuerberatung, Revision in der Region Zürich Wallisellen. Umfassend, ganzheitlich und partnerschaftlich. Kontakt 044 811 00 99",
-    "logo": "/images/divisia-treuhand-ch/pool/3c98504da9__Logo_Divisia_treuhand.svg",
+    "brand": "MK Treuhand",
+    "tagline": "Ihr Treuhandpartner in Zürich – Buchhaltung, Steuern und Beratung für KMU.",
     "columns": [
       {
         "title": "Sitemap",
         "links": [
           "Leistungen",
           "Über uns",
-          "Offene Stellen",
           "Kontakt"
         ]
       },
       {
         "title": "Standort",
         "links": [
-          "Wallisellen",
-          "+41 (0)44 811 00 90",
-          "info@…"
+          "Zürich",
+          "+41 26 518 00 00",
+          "info@mkfiduciaire.ch"
         ]
       },
       {

@@ -91,7 +91,7 @@ export const ContactSplitDark: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.4fr)", gap: "0", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
       <div style={{ background: "var(--ds-text)", padding: "2rem", display: "flex", flexDirection: "column", gap: "1.4rem" }}>
-        <div><div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.68rem",   color: "rgba(255,255,255,0.6)", marginBottom: "0.5rem" }}>{content.eyebrow}</div><h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.6rem", color: "#fff", margin: 0 }}>{content.heading}</h2></div>
+        <div><h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.6rem", color: "#fff", margin: 0 }}>{content.heading}</h2></div>
         <InfoList info={content.info} light />
       </div>
       <div style={{ background: "var(--ds-bg)", padding: "2rem" }}><Form cta={content.formCta} /></div>
@@ -127,7 +127,6 @@ export const ContactBoxed: React.FC<Props> = ({ content }) => (
 export const ContactCentered: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 640px)" }}>
     <div style={{ textAlign: "center", marginBottom: "1.8rem", display: "flex", flexDirection: "column", gap: "0.6rem", alignItems: "center" }}>
-      <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>{content.eyebrow}</span>
       <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-text)", margin: 0 }}>{content.heading}</h2>
     </div>
     <Form cta={content.formCta} />
@@ -175,7 +174,6 @@ export const ContactBigHeading: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.3fr)", gap: "2.4rem", alignItems: "start" }}>
       <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
-        <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>{content.eyebrow}</span>
         <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display)", lineHeight: 1.05, color: "var(--ds-text)", margin: 0 }}>{content.heading}</h2>
         <InfoList info={content.info} />
       </div>
@@ -201,7 +199,7 @@ export const ContactInfoCards: React.FC<Props> = ({ content }) => {
 /** 13) Inverted dark section with a light form. */
 export const ContactDarkForm: React.FC<Props> = ({ content }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)" }}><Container>
-    <div style={{ marginBottom: "1.8rem" }}><div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "rgba(255,255,255,0.8)", marginBottom: "0.5rem" }}>{content.eyebrow}</div><h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "#fff", margin: 0 }}>{content.heading}</h2></div>
+    <div style={{ marginBottom: "1.8rem" }}><h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "#fff", margin: 0 }}>{content.heading}</h2></div>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.6fr) minmax(0,1fr)", gap: "2rem", alignItems: "start" }}>
       <Form cta={content.formCta} light />
       <InfoList info={content.info} light />
@@ -298,7 +296,6 @@ export const ContactInlineForm: React.FC<Props> = ({ content }) => (
 export const ContactHeadingInfoForm: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 800px)" }}>
     <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem", marginBottom: "1.4rem" }}>
-      <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>{content.eyebrow}</span>
       <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-text)", margin: 0 }}>{content.heading}</h2>
     </div>
     <div style={{ display: "flex", flexWrap: "wrap", gap: "1.2rem 2.4rem", padding: "1.2rem 0", borderBlock: "1px solid var(--ds-border)", marginBottom: "1.6rem" }}><InfoList info={content.info} /></div>

@@ -126,7 +126,6 @@
         "audience",
         "stats",
         "process",
-        "team",
         "partners",
         "cta",
         "contact",
@@ -175,7 +174,7 @@
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "echte Kennzahlen gefunden",
         "home:process": "Kernsektion",
-        "home:team": "echte Teammitglieder gescraped",
+        "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -196,6 +195,8 @@
       "hero.aside",
       "values",
       "faq",
+      "process (generic)",
+      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -205,8 +206,9 @@
       "contact.phone",
       "hero.lede",
       "services.text",
-      "team.members",
       "stats",
+      "about",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -514,7 +516,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Die Hermann Treuhand GmbH betreut und berät Sie professionell und zuverlässig in allen Ihren Belangen für die private sowie unternehmerische Buchhaltung.",
+        "summary": "Jede Branche, jede Firma, jede Person hat andere Anforderungen an die Buchhaltung. Wir beraten Sie wie Sie Ihre Buchhaltung organisieren und führen können.",
         "body": "Jede Branche, jede Firma, jede Person hat andere Anforderungen an die Buchhaltung. Wir beraten Sie wie Sie Ihre Buchhaltung organisieren und führen können.\n\nWir stellen uns ganz in Ihren Dienst indem wir Ihre Buchhaltung zuverlässig führen und einen korrekten Buchhaltungsabschluss erstellen.\n\nWir sind in der Lage Ihre Buchhaltungsdaten auf unterschiedliche Weise zu übernehmen und zu verarbeiten. Indem wir ganz auf Ihre Ausgangslage und Ihre Bedürfnisse eingehen können wir die Schnittstelle von Ihrem Betrieb zu uns individuell definieren. Wir legen grossen Wert, dass unsere Arbeitsqualität Ihren Ansprüchen immer gerecht wird sowie die steuerlichen und gesetzlichen Anforderungen erfüllt werden.\n\nverschiedene Buchhaltungslösungen stehen Ihnen zur Verfügung (Vorerfassungsmöglichkeiten, Buchhaltungssoftware, ERP, u.a.)",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -525,7 +527,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Als Mehrwertsteuer-Spezialist kennen wir die spezifischen Anforderungen der Mehrwertsteuer und helfen Ihnen gezielt in der praktischen Umsetzung.",
+        "summary": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.",
         "body": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.\n\nGerne stehe ich Ihnen unverbindlich zur Verfügung und freue mich Sie kennenzulernen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -558,7 +560,7 @@
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "Als Mehrwertsteuer-Spezialist kennen wir die spezifischen Anforderungen der Mehrwertsteuer und helfen Ihnen gezielt in der praktischen Umsetzung.",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.\n\nGerne stehe ich Ihnen unverbindlich zur Verfügung und freue mich Sie kennenzulernen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -570,7 +572,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Eine gut durchdachte EDV kann Ihnen viel Zeit und schliesslich unnötigen Ärger ersparen. Gerne beraten wir Sie in der effektiven Auswahl Ihrer Software.",
+        "summary": "Der richtige Umgang mit EDV und den dazugehörigen Programmen ist ein zentraler Teil jedes Unternehmens. Wir beraten und unterstützen Sie in der effizienten Auswahl und dem Einsatz von Programmen, die für Ihren Betrieb relevant sind",
         "body": "Der richtige Umgang mit EDV und den dazugehörigen Programmen ist ein zentraler Teil jedes Unternehmens. Wir beraten und unterstützen Sie in der effizienten Auswahl und dem Einsatz von Programmen, die für Ihren Betrieb relevant sind\n\nBexio ist zur Zeit die inovativste Cloud-basierende Buchhaltungssoftwarelösung für KMU-Betriebe. Einen grossen Teil unserer Mandaten nutzen die Software einerseits für die Finanzbuchhaltung und weitere administratische Arbeiten wie; Fakturierung, Offertwesen, Lohnbuchhaltung, Kreditorenbuchhaltung.\n\nWir arbeiten mit dieser Buchhaltungslösungen seit 20 Jahren und können diese sehr empfehlen.\n\nSage hat verschiedene Lösungen für verschiedene Bedürfnisse im Angebot. Sage bietet auch Cloud basierende Buchhaltungslösungen für KMU-Betriebe an.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -586,17 +588,60 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Über uns",
+    "lead": "und Abgaben. Dieses Ziel verfolgen wir erfolgreich seit unserer Gründung im Jahre 1997.",
+    "paragraphs": [
+      "Das digitale Zeitalter hat bei uns schon vor ein paar Jahren Einzug gehalten. Gerne zeigen wir Ihnen die",
+      ", die Ihren administrativen Alltag wesentlich erleichtern und Kosten reduzieren werden."
+    ]
+  },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Jede Branche, jede Firma, jede Person hat andere Anforderungen an die Buchhaltung. Wir beraten Sie wie Sie Ihre Buchhaltung organisieren und führen können.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "Der richtige Umgang mit EDV und den dazugehörigen Programmen ist ein zentraler Teil jedes Unternehmens. Wir beraten und unterstützen Sie in der effizienten Auswahl und dem Einsatz von Programmen, die für Ihren Betrieb relevant sind",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Thomas Hermann",
-        "role": "Treuhandexperte und Fachmann Finanz- & Rechnungswesen mit eidg. Fachausweis",
-        "initials": "TH",
-        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -650,9 +695,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Winterthur",
       "phone": "+41 (0)52 246 04 26",
-      "email": "info@hermanntreuhand.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "info@hermanntreuhand.ch"
     },
     "formCta": "Nachricht senden"
   },

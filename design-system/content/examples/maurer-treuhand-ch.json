@@ -123,7 +123,6 @@
         "nav",
         "hero",
         "services",
-        "values",
         "audience",
         "process",
         "team",
@@ -174,7 +173,7 @@
         "home:hero": "Kernsektion",
         "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
-        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
@@ -198,7 +197,10 @@
     },
     "placeholders": [
       "hero.aside",
+      "values",
       "faq",
+      "process (generic)",
+      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -211,7 +213,8 @@
       "services.text",
       "team.members",
       "team.photos",
-      "values",
+      "about",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -681,7 +684,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Damit Sie den Überblick behalten, unterstützen wir Sie bei der Investitions- und Finanzplanung, bei Analysen und bei der Budgetierung.",
+        "summary": "Eine gesunde finanzielle Basis ist Voraussetzung für den langfristigen Geschäftserfolg. Damit Sie Ihre Finanzen im Griff haben, stehen wir Ihnen in allen Bereichen des Finanzmanagements zur Seite. Transparent, nachhaltig und zuverlässig.",
         "body": "Eine gesunde finanzielle Basis ist Voraussetzung für den langfristigen Geschäftserfolg. Damit Sie Ihre Finanzen im Griff haben, stehen wir Ihnen in allen Bereichen des Finanzmanagements zur Seite. Transparent, nachhaltig und zuverlässig.\n\nDie Anforderungen an Buchhaltung, Rechnungswesen und Controlling verändern sich laufend. Damit Sie dennoch den Überblick behalten unterstützen wir Sie bei der Investitions- und Finanzplanung, bei Analysen und bei der Budgetierung.\n\nKunde von Maurer Treuhand im Bereich Finanz- und Lohnbuchhaltung inkl. Steuererklärung. Mit Maurer Treuhand haben wir nicht nur einen\n\nBereits seit 2007 ist Maurer Treuhand ein zuverlässiger und kompetenter Partner der FC Wil 1900 AG. Wir werden sehr gut betreut und bei Fragen aller Art steht uns der Inhaber Mischa Sammer persönlich zur Verfügung. In Bezug auf Lohnbuchhaltung, Debitoren/Kreditoren, Budgetierung und Lizenzieru",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -692,7 +695,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Ob Unternehmen oder Privatperson: Zusammen mit langjährigen Netzwerkpartnern begleiten wir Sie in der Steuerberatung.",
+        "summary": "Ob Unternehmen oder Privatperson. Zusammen mit langjährigen Netzwerkpartnern begleiten wir Sie in Steuer- und Versicherungsfragen wie auch im Bereich der Immobilienverwaltung. Effizient, diskret und massgeschneidert.",
         "body": "Ob Unternehmen oder Privatperson. Zusammen mit langjährigen Netzwerkpartnern begleiten wir Sie in Steuer- und Versicherungsfragen wie auch im Bereich der Immobilienverwaltung. Effizient, diskret und massgeschneidert.\n\nWir beraten natürliche Personen, Selbständige, Freiberufler und Unternehmen zu allen Steuerfragen und unterstützen Sie bei der Erstellung Ihrer Steuererklärung inkl. Mehrwertsteuer. Dabei steht für uns stets Ihre individuelle Fragestellung im Mittelpunkt sowie das Erarbeiten von langfristigen und sinnvollen Lösungen.\n\nKunde von Maurer Treuhand im Bereich Finanz- und Lohnbuchhaltung inkl. Steuererklärung. Mit Maurer Treuhand haben wir nicht nur einen\n\nBereits seit 2007 ist Maurer Treuhand ein zuverlässiger und kompetenter Partner der FC Wil 1900 AG. Wir werden sehr gut betreut und bei Fragen aller Art steht uns der Inhaber Mischa Sammer persönlich zur Verfügung. In Bezug auf",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -736,7 +739,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Ob Unternehmen oder Privatperson: Zusammen mit langjährigen Netzwerkpartnern begleiten wir Sie in der Steuerberatung.",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Ob Unternehmen oder Privatperson. Zusammen mit langjährigen Netzwerkpartnern begleiten wir Sie in Steuer- und Versicherungsfragen wie auch im Bereich der Immobilienverwaltung. Effizient, diskret und massgeschneidert.\n\nWir beraten natürliche Personen, Selbständige, Freiberufler und Unternehmen zu allen Steuerfragen und unterstützen Sie bei der Erstellung Ihrer Steuererklärung inkl. Mehrwertsteuer. Dabei steht für uns stets Ihre individuelle Fragestellung im Mittelpunkt sowie das Erarbeiten von langfristigen und sinnvollen Lösungen.\n\nKunde von Maurer Treuhand im Bereich Finanz- und Lohnbuchhaltung inkl. Steuererklärung. Mit Maurer Treuhand haben wir nicht nur einen\n\nBereits seit 2007 ist Maurer Treuhand ein zuverlässiger und kompetenter Partner der FC Wil 1900 AG. Wir werden sehr gut betreut und bei Fragen aller Art steht uns der Inhaber Mischa Sammer persönlich zur Verfügung. In Bezug auf",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -751,25 +754,46 @@
   "values": {
     "eyebrow": "Warum wir",
     "heading": "Ihr Vorteil.",
-    "items": [
-      {
-        "title": "Ansprechpartner",
-        "body": "Wir lösen die Probleme unserer Kunden indem wir auf Sie eingehen, Ihre Anliegen ernst nehmen und eine hohe Qualität erbringen. Dank unserer Genauigkeit, der transparenten Kommunikation und unserer Offenheit haben wir viele zufriedene und langjährige Kunden."
-      },
-      {
-        "title": "Kompetenz hat viele Namen",
-        "body": "Unser Team lebt von der Individualität und vom Know-how unserer Mitarbeitenden. Was uns vereint – von der Lernenden bis hin zum Chef – ist die Leidenschaft für Zahlen und das offene Ohr für unsere Kunden."
-      },
-      {
-        "title": "Mischa Sammer",
-        "body": "«Zuverlässigkeit und eine offene Kommunikation sind für mich das Kernstück in der Kundenbeziehung.»"
-      },
-      {
-        "title": "Regina Vaterlaus",
-        "body": "«Mein Ziel ist es zu verstehen was der Kunde erwartet und seine wie meine Sicht auf den selben Level zu bringen.»"
-      }
+    "items": []
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Kompetenz hat viele Namen",
+    "lead": "Wir lösen die Probleme unserer Kunden indem wir auf Sie eingehen, Ihre Anliegen ernst nehmen und eine hohe Qualität erbringen. Dank unserer Genauigkeit, der transparenten Kommunikation und unserer Offenheit haben wir viele zufriedene und langjährige Kunden.",
+    "paragraphs": [
+      "«Spiele aller Art, mit meiner Familie im Freien unterwegs sein, Golfen oder Tennisspielen – dabei tanke ich auf.»",
+      "«Zuverlässigkeit und eine offene Kommunikation sind für mich das Kernstück in der Kundenbeziehung.»",
+      "«Mein Ziel ist es zu verstehen was der Kunde erwartet und seine wie meine Sicht auf den selben Level zu bringen.»"
     ]
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Eine gesunde finanzielle Basis ist Voraussetzung für den langfristigen Geschäftserfolg. Damit Sie Ihre Finanzen im Griff haben, stehen wir Ihnen in allen Bereichen des Finanzmanagements zur Seite. Transparent, nachhaltig und zuverlässig.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Ob Unternehmen oder Privatperson. Zusammen mit langjährigen Netzwerkpartnern begleiten wir Sie in Steuer- und Versicherungsfragen wie auch im Bereich der Immobilienverwaltung. Effizient, diskret und massgeschneidert.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -864,9 +888,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zürich",
       "phone": "043 355 15 15",
-      "email": "k.murtezi@maurer-treuhand.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "k.murtezi@maurer-treuhand.ch"
     },
     "formCta": "Nachricht senden"
   },

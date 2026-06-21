@@ -120,9 +120,7 @@
         "values",
         "audience",
         "process",
-        "team",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -170,10 +168,10 @@
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "echte Teammitglieder gescraped",
+        "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -188,7 +186,10 @@
       }
     },
     "placeholders": [
-      "hero.aside"
+      "hero.aside",
+      "faq",
+      "process (generic)",
+      "audience (generic)"
     ],
     "real": [
       "meta.firm",
@@ -198,9 +199,9 @@
       "hero.headline",
       "hero.lede",
       "services.text",
-      "team.members",
       "values",
-      "faq",
+      "about",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -686,7 +687,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Treuhand ist mehr als nur Buchhaltung, sondern individuelle und breit gefächerte Unterstützung als ganzheitliche Dienstleistung. Die Basis dafür ist Ihr Vertrauen, welches wir durch ein hohes Mass an Interesse, Einsatz und Identifikationsbereitschaft gewinnen möchten.",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Treuhand ist mehr als nur Buchhaltung, sondern individuelle und breit gefächerte Unterstützung als ganzheitliche Dienstleistung. Die Basis dafür ist Ihr Vertrauen, welches wir durch ein hohes Mass an Interesse, Einsatz und Identifikationsbereitschaft gewinnen möchten.\n\nKonzentrieren Sie Ihre zeitlichen Ressourcen ganz auf Ihr Kerngeschäft und übergeben Sie uns die zeitraubenden administrativen Arbeiten in der Buchführung, im Rechnungswesen und in der Personaladministration. Bei Ihrer Entscheidung über den Umfang des Outsourcing sollten Sie eines nicht vergessen: je ganzheitlicher die externe Beratung ist, desto grösser wird auch Ihr Nutzen sein.\n\nMit dem digitalen Treuhandportal bieten wir Ihnen eine zentrale Plattform für Buchhaltung, Steuern, Löhne und mehr – jederzeit zugänglich, egal ob im Büro oder unterwegs..\n\nWir führen Ihre komplette Finanzbuchhaltung sowie den Zahlungsverkehr, b",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -715,22 +716,59 @@
         "body": "Wir stimmen den Umfang unserer Revisionstätigkeit mit Ihnen ab und finden eine Lösung, die Ihren Anforderungen und der Grösse Ihres Unternehmens gerecht wird."
       },
       {
-        "title": "Digitaler Treuhänder",
-        "body": "Das Treuhandportal ist ein einfaches und effizientes Kommunikationstool zwischen Ihnen und Ihrem Treuhänder. Das Portal funktioniert als webbasierte Lösung und via Mobile App."
+        "title": "Unsere Insights. Ihr Mehrwert.",
+        "body": "In unserem Blog teilen wir Know-how, welches Sie im Alltag wirklich weiterbringt – verständlich erklärt, auf Ihre Fragen zugeschnitten und immer auf dem neuesten Stand."
       }
     ]
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Unternehmens­beratung - Planen, Beraten & Umsetzen",
+    "lead": "Aussergewöhnliche Veränderungen Ihrer Geschäftstätigkeit – Gründung, Kauf- und Verkauf, Umstrukturierung oder Fusion – erfordern besondere Massnahmen. Schnelles und kompetentes Agieren und Reagieren sind gefragt, nicht nur im Ausnahmezustand sondern auch im täglichen Geschäft. Voreilige Entscheide sind oft schnell getroffen, haben jedoch unmittelbare finanzielle Konsequenzen und lassen sich langfristig nur schwer korrigieren.",
+    "paragraphs": [
+      "Wir sehen solche Veränderungen als Chance, Neues zu realisieren, Altes zu verbessern aber auch zu erkennen, dass Bewährtes oftmals eine gute Lösung ist. Gerne unterstützen wir Sie bei Veränderungsprozessen in allen betriebswirtschaftlichen, rechtlichen und steuertechnischen Bereichen, damit Sie sich voll auf Ihre alltägliche Geschäftstätigkeit konzentrieren können.",
+      "Sie haben die Geschäftsidee – wir unterstützen Sie bei der Umsetzung und begleiten Sie in allen Phasen Ihrer Geschäftstätigkeit – bis zum Erfolg und weiter.",
+      "Gemeinsam mit unseren Partnern bieten wir Ihnen auch über die Zahlen hinaus Beratung und Unterstützung in betriebswirtschaftlichen Belangen."
+    ]
+  },
+  "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand",
+      "body": "Konzentrieren Sie Ihre zeitlichen Ressourcen ganz auf Ihr Kerngeschäft und übergeben Sie uns die zeitraubenden administrativen Arbeiten in der Buchführung, im Rechnungswesen und in der Personaladministration.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Unternehmens­beratung",
+      "body": "Aussergewöhnliche Veränderungen Ihrer Geschäftstätigkeit – Gründung, Kauf- und Verkauf, Umstrukturierung oder Fusion – erfordern besondere Massnahmen.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Revision",
+      "body": "Wir stimmen den Umfang unserer Revisionstätigkeit mit Ihnen ab und finden eine Lösung, die Ihren Anforderungen und der Grösse Ihres Unternehmens gerecht wird.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Unsere Insights. Ihr Mehrwert.",
+      "body": "In unserem Blog teilen wir Know-how, welches Sie im Alltag wirklich weiterbringt – verständlich erklärt, auf Ihre Fragen zugeschnitten und immer auf dem neuesten Stand.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Zürcher Anwälte",
-        "role": "Steuerberatung",
-        "initials": "ZA",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -766,28 +804,7 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "Warum lohnt es sich, mit Divisia Treuhand zusammenzuarbeiten?",
-        "a": "Ob Buchhaltung, Steuern oder Revision – wir sind Ihr digitaler Treuhandpartner in Zürich, Wallisellen, Dübendorf, Dietlikon, Bassersdorf, Kloten und Rümlang. Statt Standardlösungen bieten wir Ihnen individuell abgestimmte Services – effizient, verständlich und auf Augenhöhe. Persönlich dort, wo Sie es wünschen. Digital, wo es Ihnen Zeit und Kosten spart. Unsere Zusammenarbeit ist kein einmaliger Auftrag, sondern eine Partnerschaft mit klarem Ziel: Ihre Entlastung im Alltag und Ihr nachhaltiger Unternehmenserfolg."
-      },
-      {
-        "q": "Was bedeutet «digitales Treuhandportal»?",
-        "a": "Als modernes Treuhandbüro setzen wir auf digitale Prozesse, die Ihren administrativen Aufwand reduzieren und den Austausch mit uns vereinfachen. Mit dem digitalen Treuhandportal bieten wir Ihnen eine zentrale Plattform für Buchhaltung, Steuern, Löhne und mehr – jederzeit zugänglich, egal ob im Büro oder unterwegs."
-      },
-      {
-        "q": "Für wen ist das Portal geeignet?",
-        "a": "Privatpersonen, die gern endlich papierlos auf ihre Steuerunterlagen zugreifen wollen."
-      },
-      {
-        "q": "Bereit für den Wechsel?",
-        "a": "Vereinbaren Sie jetzt ein unverbindliches Beratungsgespräch – wir zeigen Ihnen, wie einfach und zeitsparend Treuhand heute sein kann."
-      },
-      {
-        "q": "Möchten und können Sie einen Teil Ihrer Buchhaltung selber führen?",
-        "a": "Die moderne Softwarelösung AbaWebTreuhand vereinfacht die Zusammenarbeit zwischen Ihnen und uns."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
@@ -798,8 +815,8 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "phone": "+41 (0)44 811 00 90",
-      "hours": "Mo–Fr 08:00–17:00"
+      "address": "Wallisellen",
+      "phone": "+41 (0)44 811 00 90"
     },
     "formCta": "Nachricht senden"
   },

@@ -118,7 +118,6 @@
         "audience",
         "process",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -165,7 +164,7 @@
         "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -181,6 +180,10 @@
     },
     "placeholders": [
       "hero.aside",
+      "faq",
+      "process (generic)",
+      "audience (generic)",
+      "about (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -192,7 +195,7 @@
       "hero.lede",
       "services.text",
       "values",
-      "faq",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -439,7 +442,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Das Vertrauen unserer Nutzerinnen und Nutzer ist für uns von größter Bedeutung, daher verfolgen wir eine strenge Datenschutzpolitik. Lesen Sie, wie wir Ihre Daten verwenden und schützen.",
+        "summary": "In Zusammenarbeit mit unseren Hosting-Providern bemühen wir uns, die Datenbanken so gut wie möglich vor fremden Zugriffen, Verlusten, Missbrauch oder vor Fälschung zu schützen.",
         "body": "In Zusammenarbeit mit unseren Hosting-Providern bemühen wir uns, die Datenbanken so gut wie möglich vor fremden Zugriffen, Verlusten, Missbrauch oder vor Fälschung zu schützen.\n\nWir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.\n\nPersonendaten sind alle Angaben, die sich auf eine bestimmte oder bestimmbare Person beziehen. Eine betroffene Person ist eine Person, über die Personendaten bearbeitet werden. Bearbeiten umfasst jeden Umgang mit Personendaten, unabhängig von den angewandten Mitteln und Verfahren, insbesondere das Aufbewahren, Bekanntgeben, Beschaffen, Löschen, Speichern, Verändern, Vernichten und Verwenden von Personendaten.\n\n- Die betroffene Person hat ihre Einwilligung in die Verarbeitung der sie betreffenden pers",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -451,7 +454,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Professionelle Treuhand in Winterthur: Buchhaltung, Steuern und Saläre aus einer Hand. Vertrauen Sie auf unsere Erfahrung und sparen Sie Zeit sowie Kosten.",
+        "summary": "Als erfahrene Buchhaltungsagentur im Herzen von Winterthur bieten wir Ihnen umfassende Treuhand-Dienstleistungen. Unser Team unterstützt Sie dabei, Ihren Fokus auf das Wesentliche zu richten, während wir uns um Ihre Finanzen kümmern. Wir wissen, wie wichtig eine exakte und termin",
         "body": "Als erfahrene Buchhaltungsagentur im Herzen von Winterthur bieten wir Ihnen umfassende Treuhand-Dienstleistungen. Unser Team unterstützt Sie dabei, Ihren Fokus auf das Wesentliche zu richten, während wir uns um Ihre Finanzen kümmern. Wir wissen, wie wichtig eine exakte und termingerechte Steuererklärung ist. Dank unserer schnellen und effizienten Bearbeitung müssen Sie sich keine Sorgen über den Kontakt mit Steuerbehörden oder Versicherungen machen. Neukunden profitieren zudem von 10 % Rabatt auf unsere Dienstleistungen.\n\nWir passen unsere Treuhand-Aufgaben exakt an Ihre Bedürfnisse an. So wird ein erhebliches Einsparungspotenzial erreicht, während Sie jederzeit den Überblick behalten. Zu unseren Hauptservices gehören:\n\nZudem übernehmen wir die Kommunikation mit den Behörden im Umkreis von Winterthur rasch und zuverlässig. Gerade bei Themen wie Quellensteuerabrechnungen, Sozialversicheru",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -499,7 +502,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Nutzen Sie unsere individuelle Treuhand-Dienstleistung in der Region Bassersdorf und sparen Sie Zeit und Kosten mit professioneller Buchhaltung und Steuerberatung.",
+        "summary": "Wir bieten Ihnen massgeschneiderte Lösungen in der Region Bassersdorf, damit Sie sich auf Ihr Kerngeschäft konzentrieren können. Dank unserer Erfahrung und professionellen Software profitieren Sie von folgenden Services:",
         "body": "Wir bieten Ihnen massgeschneiderte Lösungen in der Region Bassersdorf, damit Sie sich auf Ihr Kerngeschäft konzentrieren können. Dank unserer Erfahrung und professionellen Software profitieren Sie von folgenden Services:\n\nAusführliche Buchhaltung und Finanzen (inkl. Kreditoren- und Debitorenbuchhaltung)\n\nMit der richtigen Führung Ihrer Buchhaltung lassen sich nicht nur Abläufe vereinfachen, sondern auch erhebliche Einsparungen erzielen. Wir achten darauf, dass alle Abzüge für AHV, ALV und Krankentaggeld korrekt ausgewiesen sind und kümmern uns termingerecht um sämtliche Meldungen an die Sozialversicherungen. Damit sichern Sie sich und Ihre Mitarbeitenden gleichzeitig eine lückenlose Lohnbuchhaltung.\n\nAls Treuhand-Spezialisten im Umkreis von Bassersdorf legen wir grossen Wert darauf, dass Sie stets rechtzeitig informiert werden. So können Sie sich frühzeitig organisieren, ohne sich mit ze",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -533,6 +536,40 @@
       }
     ]
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Buchhaltung und Finanzen",
+      "body": "Die Verwaltung Ihrer Finanzen wird exakt auf Ihre Bedürfnisse angepasst.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Saläre und Lohnbuchhaltung",
+      "body": "Sie und Ihre Mitarbeiter kriegen jeden Monat rechtzeitig Ihre Lohnabrechnungen mit entsprechenden Abzügen betreffend AHV, ALV, KTG und BVG Versicherungen.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Steuerpflichten",
+      "body": "Dank unserm schnellen und effizienten Lohnabrechnungen Sie hätten keine Probleme mit Steuerbehörde und Versicherungen, weil wir in ständigen Kontakt mit denen in Kontakt bleiben.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Professionelle Buchhaltung für Ihr Unternehmen",
+      "body": "VBuchhaltung verfügt über umfangreiche Erfahrung und ein hohes Mass an Fachwissen im Bereich der Buchhaltung und ist auf dem neuesten Stand der aktuellen Gesetze und Vorschriften. Wir verwenden moderne Instrumente und Methoden, um sicherzustellen, dass Sie eine genaue und zuverlässige Buchhaltung vertrauen können.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -565,20 +602,7 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "Sie haben eine Firma aber keine Zeit Ihre Buchhaltung selber zu erledigen?",
-        "a": "Mit unserer langjährigen Erfahrung und unserem hohen Fachwissen stellen wir sicher, dass Sie eine detaillierte und genaue Bewertung Ihrer Immobilie, einen fairen Marktpreis auf der Grundlage einer gründlichen Analyse und einen professionellen Bericht erhalten, den Sie im Verkaufsprozess verwenden können."
-      },
-      {
-        "q": "Warum unsere Treuhand im Umkreis von Dietlikon?",
-        "a": "Wir wissen, wie wertvoll verlässliche Partner bei finanziellen Fragen sind. Darum setzen wir auf Professionalität und Genauigkeit. Unsere Erfahrung zeigt, dass die richtige Führung von Buchhaltung, Lohn- und Steuerauszügen ein enormes Einsparpotenzial mit sich bringt. Zudem legen wir Wert auf eine enge Zusammenarbeit: Wir hören Ihnen zu, beraten Sie kompetent und arbeiten eng mit den Behörden zusammen. Neukunden können sich zudem über einen Willkommensrabatt von 10 % freuen."
-      },
-      {
-        "q": "Warum VBuchhaltung?",
-        "a": "Unser Ziel ist, dass Sie sich auf Ihr Kerngeschäft konzentrieren können, ohne sich mit dem Papierkram zu belasten. Als Buchhaltungsagentur bei Winterthur legen wir Wert auf Professionalität, Genauigkeit und Loyalität gegenüber unseren Kunden. Wir informieren Sie rechtzeitig über wichtige Fristen und Chancen, damit Sie immer vorbereitet sind."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
@@ -589,9 +613,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Winterthur",
       "phone": "+41794460030",
-      "email": "office@vbuchhaltung.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "office@vbuchhaltung.ch"
     },
     "formCta": "Nachricht senden"
   },

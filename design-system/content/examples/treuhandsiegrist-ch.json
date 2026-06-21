@@ -120,7 +120,6 @@
         "testimonials",
         "process",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -171,7 +170,7 @@
         "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -185,7 +184,11 @@
         "fn:jobs": "✗ keine Jobs im Scrape"
       }
     },
-    "placeholders": [],
+    "placeholders": [
+      "faq",
+      "process (generic)",
+      "audience (generic)"
+    ],
     "real": [
       "meta.firm",
       "meta.domain",
@@ -196,7 +199,8 @@
       "services.text",
       "testimonials",
       "values",
-      "faq",
+      "about",
+      "feature",
       "footer.tagline",
       "hero.aside",
       "trust.items",
@@ -427,13 +431,13 @@
         "src": "/images/treuhandsiegrist-ch/pool/b7631c1ff8__Green-And-White-Isometric-Business-Growth-Instagram-Post.jpg",
         "kind": "photo",
         "alt": "",
-        "bytes": 293395,
-        "width": 2025,
-        "height": 2025,
+        "bytes": 178194,
+        "width": 1600,
+        "height": 1600,
         "orientation": "square",
         "subject": "portrait",
-        "phash": "213753477cb3c181",
-        "quality": 0.66,
+        "phash": "253753457cb1c181",
+        "quality": 0.61,
         "faces": 1,
         "roles": [
           "feature"
@@ -449,7 +453,7 @@
         "orientation": "square",
         "subject": "portrait",
         "phash": "50101191b16261b",
-        "quality": 0.6,
+        "quality": 0.63,
         "faces": 1,
         "roles": [
           "feature"
@@ -620,6 +624,50 @@
       }
     ]
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "GESCHICHTE DER FIRMA",
+    "lead": "Die Swiss Treuhand Siegrist GmbH (ehem. ‚MCS, Siegrist & Partner‘) hat ihre Geschäftstätigkeit 1993 aufgenommen und konnte seither in den Bereichen Treuhand und Unternehmensberatung bei vielen KMUs positiven Einfluss ausüben, was zu nachhaltig gesteigerter Produktivität bei den Kunden geführt hat.",
+    "paragraphs": [
+      "Erfolgreich sein ist nicht schwierig, sofern man die grundlegenden Aspekte kennt und umsetzt.",
+      "Dank unser über 25-jährigen Erfahrung in der Führung von Unternehmen, können wir Ihnen praxisnah helfen, die gesteckten Ziele zu erreichen – sei dies im treuhänderischen oder marktwirtschaftlichen Bereich. Gerne beraten wir Sie persönlich.",
+      "Auf Grund der Vielzahl der Mandate suchen wir erfahrene BuchhalterInnen."
+    ]
+  },
+  "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand und Buchhaltung",
+      "body": "Effiziente und schnelle Abwicklungen ohne unnötige Zusätze. Dies sagen unsere Kunden über unsere Tätigkeit im Treuhandwesen. Wir betreuen Kunden aus Zürich resp. der ganzen Schweiz, Deutschland, Österreich und anderen EU Ländern.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Steuererklärung",
+      "body": "Ob Privatperson oder Unternehmen, ob von Zürich oder aus der Schweiz – wir erledigen Ihre Steuererklärung kompetent und schnell.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Firmengründung",
+      "body": "Eine Firma zu gründen ist nicht unbedingt schwierig. Alle Aspekte dabei zu berücksichtigen schon…",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "MEINUNGEN UNSERER KUNDEN",
+      "body": "Wir arbeiten seit der Gründung anfangs 2011 mit der STS GmbH (ehem. MCS, Siegrist & Partner) zusammen. Man wird gut betreut, kompetent geführt und nebst einer tadellosen Buchführung erhalten wir auch sehr nützliche Tipps hinsichtlich Frimenstruktur, -leitung u.ä..",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -675,28 +723,7 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "Oder möchten Sie ganz einfach Ihr Unternehmen administrativ verwalten lassen?",
-        "a": "Domizile im Kanton Zürich, Zug oder auch in den Vereinigten Arabischen Emiraten (UAE) sind bei uns möglich."
-      },
-      {
-        "q": "Wieso mit uns?",
-        "a": "Unser Dienstleistungsportfolio für KMU und Privatpersonen umfasst: Rechnungswesen, Debitorenbuchhaltung, Kreditorenbuchhaltung, allgemeine Buchhaltung, Lohnbuchhaltung, Steuererklärung und Steuerberatung, Gründungen, halten von VR Mandat und die Reorganisation, Umstrukturierung  und Auswertung von Firmen."
-      },
-      {
-        "q": "Möchten Sie Steuern sparen?",
-        "a": "Sie möchten ein geeignetes Domizil für Ihre Firma? Gerne beraten wir Sie über die Möglichkeiten."
-      },
-      {
-        "q": "Sie möchten Ihren Firmensitz in eine steuergünstigere Region verlegen und brauchen dazu eine neue Domiziladresse?",
-        "a": "Wir legen grossen Wert auf persönliche Beratung und stehen Ihnen nach Absprache auch gerne ausserhalb der Bürozeiten zur Verfügung."
-      },
-      {
-        "q": "Warum Swiss Treuhand Siegrist?",
-        "a": "über 35 Jahre Erfahrung und Expertise im Bereich Unternehmensgründungen."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
@@ -707,9 +734,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zürich",
       "phone": "+41 43 818 69 15",
-      "email": "",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": ""
     },
     "formCta": "Nachricht senden"
   },

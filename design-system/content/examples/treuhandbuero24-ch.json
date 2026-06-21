@@ -196,6 +196,9 @@
       "hero.aside",
       "values",
       "faq",
+      "process (generic)",
+      "audience (generic)",
+      "about (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -207,6 +210,8 @@
       "hero.lede",
       "services.text",
       "stats",
+      "feature",
+      "contact.hours",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -476,7 +481,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Günstige externe Buchführung in Aarau ✅ Kreditoren- und Debitorenbuchhaltung ✅ Jahresabschluss & Erfolgsrechnung",
+        "summary": "Du brauchst Hilfe bei der Buchhaltung in Aarau Aarau, 47.392540, 8.044220, Aargau, AG, aargau, aarau? Wir helfen Dir weiter! Hol Dir jetzt kostenlos und unverbindlich eine Offerte für externe Buchführung von einem Treuhänder aus Deiner Region und überlasse die Zahlen-Schieberei k",
         "body": "Du brauchst Hilfe bei der Buchhaltung in Aarau Aarau, 47.392540, 8.044220, Aargau, AG, aargau, aarau? Wir helfen Dir weiter! Hol Dir jetzt kostenlos und unverbindlich eine Offerte für externe Buchführung von einem Treuhänder aus Deiner Region und überlasse die Zahlen-Schieberei künftig einem Profi!\n\nin Anspruch nimmst hat dies für Dich diverse Vorteile. Hier die grössten drei in der Übersicht:\n\nfür Deine selbstständigen Tätigkeiten? Dann überlasse die Verantwortung unseren Buchhaltungsprofis!\n\nNebst der Buchhaltung überlässt Du dem Buchhalter natürlich auch das Ausfüllen der Steuererklärung. Da dieser alle Optimierungsmöglichkeiten kennt, kannst Du",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -488,7 +493,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Günstige Steuerberater in Aarau für Private & KMU ✅ Hilfe bei Steuerfragen für Selbstständige ✅ Steuererklärungen aller Art",
+        "summary": "Du bist auf der Suche nach günstiger Steuerberatung in Aarau? Dann bist Du hier genau richtig! Fülle einfach unser Anfrageformular aus und Du erhältst kostenlos und unverbindlich eine Offerte von einem professionellen Steuerberater aus Deiner Region!",
         "body": "Du bist auf der Suche nach günstiger Steuerberatung in Aarau? Dann bist Du hier genau richtig! Fülle einfach unser Anfrageformular aus und Du erhältst kostenlos und unverbindlich eine Offerte von einem professionellen Steuerberater aus Deiner Region!\n\naus Deiner Region beraten zu lassen hat viele Vorteile für Dich. Hier sind die drei Wichtigsten:\n\nund helfen Dir von diesen zu profitieren. So kannst auch Du dieses Jahr Steuern sparen!\n\nIm Bereich Immobilien kannst mit der richtigen Planung besonders viel erreichen. Unsere Steuerprofis zeigen Dir, wie Du",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -524,7 +529,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Günstige Steuerberater in Aarau für Private & KMU ✅ Hilfe bei Steuerfragen für Selbstständige ✅ Steuererklärungen aller Art",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Du bist auf der Suche nach günstiger Steuerberatung in Aarau? Dann bist Du hier genau richtig! Fülle einfach unser Anfrageformular aus und Du erhältst kostenlos und unverbindlich eine Offerte von einem professionellen Steuerberater aus Deiner Region!\n\naus Deiner Region beraten zu lassen hat viele Vorteile für Dich. Hier sind die drei Wichtigsten:\n\nund helfen Dir von diesen zu profitieren. So kannst auch Du dieses Jahr Steuern sparen!\n\nIm Bereich Immobilien kannst mit der richtigen Planung besonders viel erreichen. Unsere Steuerprofis zeigen Dir, wie Du",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -541,6 +546,34 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Du brauchst Hilfe bei der Buchhaltung in Aarau Aarau, 47.392540, 8.044220, Aargau, AG, aargau, aarau? Wir helfen Dir weiter! Hol Dir jetzt kostenlos und unverbindlich eine Offerte für externe Buchführung von einem Treuhänder aus Deiner Region und überlasse die Zahlen-Schieberei k",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Du bist auf der Suche nach günstiger Steuerberatung in Aarau? Dann bist Du hier genau richtig! Fülle einfach unser Anfrageformular aus und Du erhältst kostenlos und unverbindlich eine Offerte von einem professionellen Steuerberater aus Deiner Region!",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -593,8 +626,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Aargau",
       "phone": "+41326237191",
-      "hours": "Mo–Fr 08:00–17:00"
+      "hours": "Mo–So 00:00–23:59"
     },
     "formCta": "Nachricht senden"
   },

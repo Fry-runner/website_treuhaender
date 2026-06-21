@@ -130,7 +130,6 @@ export const HeroDarkSplit: React.FC<{ content: HeroContent }> = ({ content }) =
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.4fr) minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: "1.3rem" }}>
-          <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-primary)" }}>{content.eyebrow}</div>
           <h1 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display)", letterSpacing: "var(--ds-headline-tracking)", lineHeight: 1.05, color: "var(--ds-bg)", margin: 0 }}>
             {content.titleLead} <span style={{ color: "var(--ds-primary)" }}>{content.titleAccent}</span>{content.titleTail ? ` ${content.titleTail}` : ""}
           </h1>

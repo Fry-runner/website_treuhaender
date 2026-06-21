@@ -120,7 +120,6 @@
         "stats",
         "process",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -171,7 +170,7 @@
         "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -186,7 +185,10 @@
       }
     },
     "placeholders": [
-      "hero.aside"
+      "hero.aside",
+      "faq",
+      "process (generic)",
+      "audience (generic)"
     ],
     "real": [
       "meta.firm",
@@ -198,7 +200,8 @@
       "services.text",
       "stats",
       "values",
-      "faq",
+      "about",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -527,7 +530,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Digitale Buchhaltung für KMUs Sparen Sie Zeit und Kosten durch Outsourcing Ihrer Finanzprozesse an Treuhandbüro Ivanova.",
+        "summary": "Einer der größten Vorteile der digitalen Buchhaltung ist die Automatisierung wiederkehrender Aufgaben. Mit modernen Softwarelösungen lassen sich:",
         "body": "Einer der größten Vorteile der digitalen Buchhaltung ist die Automatisierung wiederkehrender Aufgaben. Mit modernen Softwarelösungen lassen sich:\n\nAnstelle stundenlanger manueller Arbeit können KMUs wertvolle Zeit sparen und sich auf ihr Kerngeschäft konzentrieren.\n\nFehler in der Buchhaltung können teuer werden. Mahngebühren, falsche Steuerzahlungen oder verpasste Fristen sind keine Seltenheit. Mit digitaler Buchhaltung werden solche Risiken minimiert. Zudem reduzieren sich die Kosten für Papier, Druck und Lagerung von physischen Dokumenten erheblich.\n\nDarüber hinaus ermöglicht die Digitalisierung, dass Buchhalter oder externe Treuhänder effizienter arbeiten, wodurch sich die Kosten für externe Dienstleistungen senken lassen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -538,7 +541,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Das Schweizer Volk hat die Individualbesteuerung angenommen. Treuhänderin Alexandra Ivanova erklärt, was sich ändert und wer profitiert.",
+        "summary": "Am 8. März 2026 hat das Schweizer Stimmvolk die Individualbesteuerung Schweiz 2026 mit 54 % Ja-Stimmen angenommen – ein historischer Wechsel im Schweizer Steuerrecht. Als Treuhänderin begleite ich viele Ehepaare und Familien, die sich nun fragen: Was ändert sich konkret für uns?",
         "body": "Am 8. März 2026 hat das Schweizer Stimmvolk die Individualbesteuerung Schweiz 2026 mit 54 % Ja-Stimmen angenommen – ein historischer Wechsel im Schweizer Steuerrecht. Als Treuhänderin begleite ich viele Ehepaare und Familien, die sich nun fragen: Was ändert sich konkret für uns?\n\nBisher besteuert der Staat Ehepaare gemeinsam: Er zählt ihre Einkommen zusammen, was durch die Steuerprogression oft zu einer höheren Belastung führt – die sogenannte «Heiratsstrafe». Mit der Reform besteuert der Staat künftig jede Person unabhängig vom Zivilstand individuell. Ausserdem reichen Ehepaare künftig zwei separate Steuererklärungen ein statt einer gemeinsamen.\n\nDas Stimmvolk hat den Kinderabzug von CHF 6’800 auf CHF 12’000 pro Kind erhöht.\n\nDer Staat weist Einkommen und Vermögen künftig nach den Eigentumsverhältnissen zu.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -550,7 +553,7 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Entdecken Sie die umfangreichen Leistungen – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices.",
+        "summary": "Buchhaltung, Steuerberatung, MWST, Lohnadministration und Finanzmanagement.",
         "body": "Buchhaltung, Steuerberatung, MWST, Lohnadministration und Finanzmanagement.\n\nEntdecken Sie die umfangreichen Leistungen des Treuhandbüros Ivanova – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices. Ihre Finanzen, perfekt organisiert.\n\nWir übernehmen die komplette Buchführung – von der Belegerfassung bis hin zur Erstellung von Jahresabschlüssen und betriebswirtschaftlichen Auswertungen.\n\nTransparenz und Klarheit in Ihren Finanzen. Effiziente digitale Prozesse zur Zeitersparnis.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -572,7 +575,7 @@
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "Entdecken Sie die umfangreichen Leistungen – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices.",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "Buchhaltung, Steuerberatung, MWST, Lohnadministration und Finanzmanagement.\n\nEntdecken Sie die umfangreichen Leistungen des Treuhandbüros Ivanova – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices. Ihre Finanzen, perfekt organisiert.\n\nWir übernehmen die komplette Buchführung – von der Belegerfassung bis hin zur Erstellung von Jahresabschlüssen und betriebswirtschaftlichen Auswertungen.\n\nTransparenz und Klarheit in Ihren Finanzen. Effiziente digitale Prozesse zur Zeitersparnis.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -584,7 +587,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Entdecken Sie die umfangreichen Leistungen – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices.",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Buchhaltung, Steuerberatung, MWST, Lohnadministration und Finanzmanagement.\n\nEntdecken Sie die umfangreichen Leistungen des Treuhandbüros Ivanova – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices. Ihre Finanzen, perfekt organisiert.\n\nWir übernehmen die komplette Buchführung – von der Belegerfassung bis hin zur Erstellung von Jahresabschlüssen und betriebswirtschaftlichen Auswertungen.\n\nTransparenz und Klarheit in Ihren Finanzen. Effiziente digitale Prozesse zur Zeitersparnis.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -617,6 +620,50 @@
       }
     ]
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Liquidationsgewinne von Einzelunternehmen",
+    "lead": "Die Covid-19-Pandemie hat die Schweizer Wirtschaft vor große Herausforderungen gestellt. Dank der Härtefallhilfen von Bund und Kantonen konnten mehr als 35’000 Unternehmen mit über 5,3 Milliarden Franken unterstützt werden. Diese Unterstützung war jedoch an strikte Bedingungen geknüpft – darunter ein vierjähriges Dividendenverbot. Mit einer neuen Regelung wird nun auch der Liquidationsgewinn berücksichtigt, was insbesondere Einzelunternehmerinnen und Einzelunternehmer spürbar entlastet.",
+    "paragraphs": [
+      "Am 27. November 2024 hat der Bundesrat beschlossen, dass Liquidationsgewinne von Einzelunternehmen künftig nicht mehr als Verstoß gegen das Dividendenverbot gelten. Damit reagiert die Regierung auf eine Motion des Parlaments, die auf die besonderen Umstände von Einzelunternehmen abzielt.",
+      "Das Dividendenverbot sollte sicherstellen, dass die Härtefallhilfen ausschließlich für den Fortbestand der Unternehmen eingesetzt werden und nicht zur Gewinnerzielung verwendet werden. In der Praxis hat sich jedoch gezeigt, dass dieses Verbot bei der Liquidation von Einzelunternehmen – etwa durch Pensionierung, Tod des Unternehmers oder externe Faktoren wie die Kündigung eines Mietvertrags – zu Problemen führen kann.",
+      "Die neue Regelung gilt ausschließlich für Einzelunternehmen. Bei Liquidationsgewinnen, die durch den Verkauf von Firmenvermögen entstehen, können die Kantone künftig auf Rückforderungen verzichten, sofern keine missbräuchliche Nutzung der Härtefallhilfen vorliegt. Für Kollektivgesellschaften und andere Unternehmensformen bleibt die bisherige Regelung unverändert."
+    ]
+  },
+  "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Warum Sie mit uns zusammenarbeiten sollten",
+      "body": "Sie können sich darauf verlassen, dass Ihre Buchhaltung und Steuerangelegenheiten korrekt und pünktlich erledigt werden.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Unsere Fokus",
+      "body": "Präzise und digital – wir sorgen dafür, dass Ihre Zahlen immer stimmen.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Mitgliedschaft – Teil eines starken Netzwerks",
+      "body": ", dem schweizerischen Branchen- und Berufsverband der Treuhänder:innen mit Fokus auf KMU und Privatkundschaft. Die laufende fachliche Weiterbildung unterstützt eine fachlich korrekte und aktuelle Beratung.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Unsere Vision – Für die Zukunft der Treuhandbranche",
+      "body": "Die Treuhandwelt entwickelt sich ständig weiter, und wir davon überzeugt, dass Digitalisierung, Effizienz und persönliche Betreuung der Schlüssel zum Erfolg sind. Deshalb haben wir es uns zur Aufgabe gemacht, innovative Prozesse zu entwickeln und unseren Kunden stets den besten Service zu bieten.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -641,10 +688,6 @@
         "label": "Mitarbeitende"
       },
       {
-        "value": "35000+",
-        "label": "Unternehmen"
-      },
-      {
         "value": "15+",
         "label": "Jahre Erfahrung"
       }
@@ -665,40 +708,7 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "Übernehmen Sie auch Lohnbuchhaltung für kleine Firmen?",
-        "a": "Ja. Wir betreuen Firmen jeder Grösse – auch kleine Teams oder Einzelunternehmen."
-      },
-      {
-        "q": "Wie kann ich meine Belege einreichen?",
-        "a": "Ganz unkompliziert: per Post, persönlich oder digital (OneDrive / Upload / E-Mail). Auf Wunsch vollständig papierlos."
-      },
-      {
-        "q": "Sind Online-Beratungen möglich?",
-        "a": "Ja. Beratungen sind flexibel online möglich – per Zoom, Telefon oder E-Mail."
-      },
-      {
-        "q": "Warum kosten Treuhand-Dienstleistungen oft so unterschiedlich?",
-        "a": "Haben Sie sich schon einmal gefragt, warum Treuhand-Dienstleistungen so unterschiedlich bepreist werden? Während manche Anbieter sehr günstige Preise verlangen, können die Kosten bei anderen um ein Vielfaches höher sein. Als Unternehmerin oder Unternehmer ist es entscheidend zu verstehen, was hinter diesen Unterschieden steckt – schließlich wollen Sie eine Dienstleistung, die nicht nur preiswert, sondern auch…"
-      },
-      {
-        "q": "Was ist CARF — und was hat das mit Ihrer Steuererklärung zu tun?",
-        "a": "— ein internationales Regelwerk der OECD, dem sich die Schweiz gemeinsam mit rund 74 Staaten verpflichtet hat. Das Ziel: Krypto-Vermögen sollen steuerlich gleich behandelt werden wie klassische Bankkonten."
-      },
-      {
-        "q": "Sind Sie Privatanleger oder gewerbsmässiger Händler?",
-        "a": "Diese Grenze ist nicht immer eindeutig — und CARF macht die Antwort darauf sichtbarer als je zuvor."
-      },
-      {
-        "q": "Das Zeitfenster: Jetzt handeln oder abwarten?",
-        "a": "— das bedeutet: keine Busse, aber Nachsteuern und Verzugszinsen fallen trotzdem an, sofern es sich um die erste handelt und die Tat noch nicht entdeckt wurde."
-      },
-      {
-        "q": "Einschätzung: Privatvermögen oder gewerbsmässiger Handel?",
-        "a": "Ich führe diese Beratungen persönlich durch — in unserem Büro an der Kalkbreitestrasse 59 in Zürich Kreis 3, telefonisch oder per Videocall."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
@@ -709,9 +719,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zürich",
       "phone": "+41 (0)62 535 09 99",
-      "email": "alexandra@adea-treuhand.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "alexandra@adea-treuhand.ch"
     },
     "formCta": "Nachricht senden"
   },

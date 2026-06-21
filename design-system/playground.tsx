@@ -74,6 +74,7 @@ const VariantStudio = () => {
   const [firm, setFirm] = useState<SiteContent>(content);
   const [firmSlug, setFirmSlug] = useState<string>(DEFAULT_SLUG);
   const [loadingFirm, setLoadingFirm] = useState(false);
+  const [pitchOn, setPitchOn] = useState(false);
   const resetControls = () => { setSeed(0); setLookId("auto"); setHeroId("auto"); setBtn("auto"); setKitId("auto"); setSecs({}); };
   // Generate a REAL, current version of ONE firm on demand (runs extract.ts via the
   // dev endpoint /__generate). Used automatically for stale firms + the 🔄 button.
@@ -125,6 +126,15 @@ const VariantStudio = () => {
             {loadingFirm ? "generiert …" : firm.meta.firm}
           </span>
         </Field>
+        <Field label="Ansicht">
+          <button onClick={() => setPitchOn((p) => !p)}
+            title="Kaltakquise-Modus: Logo → Wortmarke · keine Fremdlogos/Badges · Team ohne Portraits · echte Fotos → Stock · noindex. Für jede Firma einzeln umschaltbar."
+            style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.74rem", fontWeight: 700, padding: "6px 14px", borderRadius: 8, cursor: "pointer", whiteSpace: "nowrap",
+              border: pitchOn ? "1px solid #f5b301" : "1px solid rgba(255,255,255,0.3)",
+              background: pitchOn ? "#f5b301" : "#16181c", color: pitchOn ? "#0b0b0c" : "#fff" }}>
+            {pitchOn ? "🛡 Kaltakquise: AN" : "🛡 Kaltakquise: AUS"}
+          </button>
+        </Field>
         <Field label="Stil-Kit · Kombination">
           <select style={selectStyle} value={kitId} onChange={(e) => setKitId(e.target.value)}>
             <option value="auto">Auto · {plan.kitId}</option>
@@ -168,8 +178,8 @@ const VariantStudio = () => {
           Vollständige Multi-Page-Site · echte Texte · Fotos · Team · Badges · Animationen · Subpages. Jede Auswahl re-skinnt dieselbe generierte Seite.
         </div>
       </div>
-      <Bar text={`Generierte Website · ${firm.meta.firm}`} sub={`${rLook} · ${rHero} · button:${rBtn}`} />
-      <SiteRouter key={`${firmSlug}|${seed}|${lookId}|${heroId}|${btn}|${kitId}|${JSON.stringify(secs)}`} content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} sectionOverrides={sectionOverrides} kitId={kitSel} />
+      <Bar text={`Generierte Website · ${firm.meta.firm}`} sub={`${rLook} · ${rHero} · button:${rBtn}${pitchOn ? " · KALTAKQUISE" : ""}`} />
+      <SiteRouter key={`${firmSlug}|${seed}|${lookId}|${heroId}|${btn}|${kitId}|${JSON.stringify(secs)}|${pitchOn}`} content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} sectionOverrides={sectionOverrides} kitId={kitSel} pitch={pitchOn} />
     </div>
   );
 };
@@ -320,7 +330,7 @@ const BareSite = () => {
       {params.has("still") && (
         <style>{`*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}`}</style>
       )}
-      <SiteRouter content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} kitId={kitSel} />
+      <SiteRouter content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} kitId={kitSel} pitch={params.has("pitch")} />
     </>
   );
 };

@@ -172,6 +172,8 @@
       "hero.aside",
       "values",
       "faq",
+      "process (generic)",
+      "audience (generic)",
       "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
@@ -184,6 +186,9 @@
       "hero.lede",
       "services.text",
       "team.members",
+      "about",
+      "feature",
+      "contact.hours",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -478,7 +483,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Treuhandbüro an der Norastrasse in Zürich: Ihr spezialisierter Partner für Steuerberatung, Revision, Unternehmensberatung und Treuhand",
+        "summary": "Wobei dürfen wir Sie unterstützen? Hier finden Sie weitere Informationen zu unseren Dienstleistungen wie�Steuerberatung, Wirtschaftsprüfung und Treuhand.",
         "body": "Wobei dürfen wir Sie unterstützen? Hier finden Sie weitere Informationen zu unseren Dienstleistungen wie�Steuerberatung, Wirtschaftsprüfung und Treuhand.\n\nDie Würth Treuhand AG steht mit der Kompetenz aus über 40 Jahren in der Treuhand-, Steuerrechts- und Revisionsbranche zu Ihren Diensten.\n\nHaben Sie Fragen oder wünschen Sie einen Termin? Wir freuen uns auf Ihre Kontaktaufnahme.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -526,7 +531,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Eine kontinuierliche Steuerberatung und Steuerplanung ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.",
+        "summary": "ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.�Ebenso ist eine korrekte Anmeldung und Abrechnung der",
         "body": "ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.�Ebenso ist eine korrekte Anmeldung und Abrechnung der\n\nverfügen. Beispielsweise stellt sich bei der Mehrwertsteuer oft die Frage, welche Abrechnungsmethode für Ihr Unternehmen besser geeignet ist.\n\n. Dabei legen wir besonderen Wert auf eine weitsichtige, nachhaltige Analyse und Beratung, welche über die Erzielung unmittelbarer Steuervorteile hinausgeht. Die Schnittstelle zu unserer\n\nin den Bereichen Rechnungswesen, Wirtschaftsprüfung und Unternehmensberatung garantiert Ihnen eine ganzheitliche Sicht auf Ihre Unternehmensprozesse und damit grösstmögliche Effizienz – auch in der interkantonalen und internationalen Steuerplanung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -543,16 +548,47 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Würth Treuhand AG - weil\r\n\t\t\t\t\t\t\t\t\t\t\t\tErfahrung zählt",
+    "lead": "Treuhand und Revisionsbereich tätig. Zu seinem weiteren Fachgebiet zählt",
+    "paragraphs": [
+      "verfügt über einen Bachelor of Science in Banking & Finance. Nach über",
+      "Karoline Frehner setzt ihr breites Wissen und Ihre fundierte Erfahrung für die Führung von Buchhaltungen und die Erstellung von Steuererklärungen ein. Als Office Managerin sorgt sie sich zudem um die administrativen Belangen der Würth Treuhand AG."
+    ]
+  },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Wobei dürfen wir Sie unterstützen? Hier finden Sie weitere Informationen zu unseren Dienstleistungen wie�Steuerberatung, Wirtschaftsprüfung und Treuhand.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.�Ebenso ist eine korrekte Anmeldung und Abrechnung der",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
-      {
-        "name": "Zugelassener Revisionsexperte",
-        "role": "Peter Nesti ist diplomierter Steuerexperte sowie",
-        "initials": "ZR",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
-      },
       {
         "name": "Zugelassene Revisorin",
         "role": "Nadja Arpagaus ist Treuhänderin mit eidgenössischem",
@@ -614,9 +650,10 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zürich",
       "phone": "044 404 70 00",
       "email": "info@wuerth-treuhand.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "hours": "Mo–Fr 08:00–17:30"
     },
     "formCta": "Nachricht senden"
   },

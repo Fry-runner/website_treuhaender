@@ -186,6 +186,9 @@
     "placeholders": [
       "hero.aside",
       "faq",
+      "process (generic)",
+      "audience (generic)",
+      "about (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -197,6 +200,7 @@
       "hero.lede",
       "services.text",
       "values",
+      "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -440,7 +444,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Wir decken alle Bereiche Ihres Rechnungswesen professionell ab: Finanzbuchhaltung, Jahresabschluss, Mehrwertsteuer sowie sämtliche Personal- & Lohnadministrations-Themen.",
+        "summary": "Das Rechnungswesen oder auch die Buchführung/Buchhaltung ist so individuell wie ihre Firma, was eine individuelle Lösung für KMU- und Einzelunternehmen umso wichtiger macht.",
         "body": "Das Rechnungswesen oder auch die Buchführung/Buchhaltung ist so individuell wie ihre Firma, was eine individuelle Lösung für KMU- und Einzelunternehmen umso wichtiger macht.\n\nMit der Unterstützung durch die SteuerVogt GmbH können Sie wertvolle Zeit und Energie sparen, welche Sie in Ihr Unternehmen investieren können und Sie erhalten zudem die kompetente Betreuung die Sie benötigen und verdient haben.\n\nDas Rechnungswesen umfasst heute weit mehr als nur die simple Darstellung von Zahlen. Es ist eine Verkettung aus Rechnungslegungsrecht und individuellen Ansätzen, welche Ihren Unternehmenserfolg beeinflusst und misst.\n\nAls vertrauensvoller und kompetenter Partner zeigt Ihnen die SteuerVogt GmbH aufgrund des Rechnungswesens gerne Ihr Verbesserungspotential auf und hilft Ihnen bei der Umsetzung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -464,7 +468,7 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Beratung im Bereich der Lohnbuchhaltung, Personaladministration und sämtlichen sozialversicherungsrechtlichen Themen.",
+        "summary": "Die Lohn- und Personaladministration ist ein umfangreiches und komplexes Thema. Dieses beginnt bei der Ausarbeitung des Arbeitsvertrages, über die Anmeldungen bei den verschiedenen Sozialversicherungen, die Lohnabrechnungen bis hin zum Lohnausweis am Jahresende oder bei Beendigun",
         "body": "Die Lohn- und Personaladministration ist ein umfangreiches und komplexes Thema. Dieses beginnt bei der Ausarbeitung des Arbeitsvertrages, über die Anmeldungen bei den verschiedenen Sozialversicherungen, die Lohnabrechnungen bis hin zum Lohnausweis am Jahresende oder bei Beendigung des Arbeitsverhältnisses.\n\nEin wesentlicher Teil der Lohn- und Personaladministration bilden die Sozialversicherungen wie die AHV, Unfallversicherung, Krankentaggeldversicherung und Pensionskasse. Insbesondere selbständig Erwerbende wissen oftmals nicht, welchen Sozialversicherungen sie sich anschliessen müssen oder können.\n\nDas Thema Sozialversicherungen kann sogar – insbesondere bei selbständig Erwerbenden – ein grosser Bestandteil der Vorsorgeplanung ausmachen. Somit ist die Lohn- und Personaladministration ein wichtiger Bestandteil Ihres Unternehmens.\n\nMöchten Sie die Lohnbuchhaltung Ihres Unternehmens ausl",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -500,7 +504,7 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Unterstützung und Beratung in Hinblick auf die Firmengründung sowie Unterstützung bei der Ausarbeitung der relevanten Dokumente.",
+        "summary": "Sie möchten sich selbständig machen? Dabei stellt sich Ihnen jedoch die Frage, ob Sie lieber eine Personengesellschaft bilden oder eine Firma gründen wollen. Dies wiederum führt Sie zu der Frage, ob eine Gesellschaft mit beschränkter Haftung (GmbH) oder eine Aktiengesellschaft (A",
         "body": "Sie möchten sich selbständig machen? Dabei stellt sich Ihnen jedoch die Frage, ob Sie lieber eine Personengesellschaft bilden oder eine Firma gründen wollen. Dies wiederum führt Sie zu der Frage, ob eine Gesellschaft mit beschränkter Haftung (GmbH) oder eine Aktiengesellschaft (AG) für Sie mehr Vorteile ergibt, oder ob eine Einzelunternehmung/Einzelfirma oder Kollektivgesellschaft doch geeigneter für Ihr Business wäre . Alles in Allem kann eine Firmengründung durchaus überwältigend sein und es kommen in diesem Prozess viele Fragen auf:\n\nDiese Aufzählung deckt nur eine kleine Auswahl von Fragen ab, mit denen sich die meisten Neu-Unternehmer und Startups im Zusammenhang mit der Firmengründung konfrontiert sehen.\n\nDie SteuerVogt GmbH berät Sie bei der Unternehmensgründung und Ihren damit verbundenen treuhänderischen Fragen kompetent, unterstützt Sie bei der Findung der für Sie passenden Rec",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -534,6 +538,40 @@
       }
     ]
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Steuern",
+      "body": ". Um das bestmögliche Paket für Sie und/oder Ihr Unternehmen ausarbeiten zu können, freue ich mich Sie telefonisch oder persönlich zu einem ersten",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Firmengründung und Sitzverlegung",
+      "body": "Haben Sie vor eine Firma zu gründen oder den Standort Ihrer bereits bestehenden Firma zu ändern, dann können Sie gerne unverbindlich Kontakt aufnehmen.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Buchhaltung und Treuhand",
+      "body": "Haben Sie bereits eine Firma oder Einzelunternehmung und benötigen Hilfe im Bereich der Buchhaltung und weiteren Treuhandbereichen, dann sind Sie bei mir an der richtigen Adresse.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Lohn- und Personaladministration",
+      "body": "Beschäftigen Sie personal oder benötigen Sie eine kompetente und individuelle Beratung im Zusammenhang mit Löhnen und sozialversicherungsrechtlichen Themen, dann wenden Sie sich gerne an mich.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -578,9 +616,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zürich",
       "phone": "+41 79 785 84 51",
-      "email": "laura.vogt@steuervogt.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "laura.vogt@steuervogt.ch"
     },
     "formCta": "Nachricht senden"
   },

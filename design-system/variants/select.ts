@@ -183,17 +183,23 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
   const affinity = presetAffinity[lookId] ?? "any";
   const kit = (opts.kitId ? kitById(opts.kitId) : undefined) ?? pick(kitsForAffinity(affinity), base + 3);
   let heroId = pickFit(heroVariants, kit.hero, affinity, base, Infinity, hasHeroImage(content)).id;
-  // Bias HARD toward a LARGE, FULL-BLEED image hero whenever the firm has a usable
-  // image — a big photo hero is the default look. ~92% image-full (showcases the
-  // photo under a legibility scrim), ~7% large photo incl. centered/split, ~1% keep
-  // kit pick. image-centered is kept OUT of the dominant pick: it lays an ~88% wash
-  // over the photo, so the image barely shows — wrong when the goal is to feature it.
+  // Photo-forward but DIFFERENTIATED across firms. A photo hero is the default strong
+  // move, but a ~92% image-full bias made every firm's hero identical — fighting the
+  // per-firm differentiation goal. Spread the photo heroes instead: ~58% image-full,
+  // ~28% image-split (photo beside text), ~6% image-centered (kept a minority — it
+  // lays a heavy wash over the photo so it barely shows), ~8% keep the kit/affinity
+  // pick (genuine variety; SiteRouter still guarantees the home is imaged, falling
+  // back to a photo hero when the firm has no other imagery).
   if (hasHeroImage(content)) {
-    const big = heroVariants.filter((h) => /hero\/image-full/.test(h.id));
-    const wide = heroVariants.filter((h) => /hero\/image-(full|centered|split)/.test(h.id));
+    const byId = (re: RegExp) => heroVariants.filter((h) => re.test(h.id));
+    const full = byId(/hero\/image-full/);
+    const split = byId(/hero\/image-split/);
+    const centered = byId(/hero\/image-centered/);
     const r = base % 100;
-    if (r < 92 && big.length) heroId = pick(big, base).id;
-    else if (r < 99 && wide.length) heroId = pick(wide, base).id;
+    if (r < 58 && full.length) heroId = pick(full, base).id;
+    else if (r < 86 && split.length) heroId = pick(split, base).id;
+    else if (r < 92 && centered.length) heroId = pick(centered, base).id;
+    // else (r >= 92): keep the kit/affinity hero chosen above.
   }
   // Subpage header: ONE variant for the whole site (subpages stay consistent), in a
   // different VISUAL FAMILY than the home hero so inner pages don't echo it — a photo
@@ -201,9 +207,9 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
   const heroFamily = /image-|portrait-frame/.test(heroId) ? "photo"
     : /spotlight|dark-split/.test(heroId) ? "dark"
     : /gradient/.test(heroId) ? "tint" : "plain";
-  const phFamily = (id: string) => /image-/.test(id) ? "photo"
-    : /\/(dark|boxed-dark)$/.test(id) ? "dark"
-    : /\/(gradient|banner-tint)$/.test(id) ? "tint" : "plain";
+  const phFamily = (id: string) => /photo-|image-/.test(id) ? "photo"
+    : /dark/.test(id) ? "dark"
+    : /brand-band|tint-wash|gradient|banner-tint/.test(id) ? "tint" : "plain";
   const hasSubpageImg = hasHeroImage(content) || (content.media?.photos?.length ?? 0) > 0 || (content.media?.sectionBackgrounds?.length ?? 0) > 0;
   const phContrast = pageHeaderVariants.filter((v) => phFamily(v.id) !== heroFamily);
   const pageHeaderId = pickFit(phContrast.length ? phContrast : pageHeaderVariants, undefined, affinity, base + hash("page-header"), Infinity, hasSubpageImg).id;
@@ -241,6 +247,22 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
     } else {
       tagCounts[tag] = (tagCounts[tag] ?? 0) + 1; // no alternative; keep it
     }
+  }
+  // Page-wide SOFT cap on the "cards" family. Adjacency de-collision keeps two card
+  // grids off each other's heels, but a page that is card-grid after card-grid (just
+  // not adjacent) is still the "identical card grids repeated endlessly" anti-pattern.
+  // Allow at most CARDS_CAP card-family sections; over-budget slots swap to the first
+  // in-kit non-cards alternative (so the kit's coherence is preserved). Deterministic.
+  const CARDS_CAP = 4;
+  let cardsUsed = 0;
+  for (const slot of Object.keys(sectionVariants)) {
+    const id = sections[slot];
+    if (!id || familyOf(id) !== "cards") continue;
+    if (cardsUsed < CARDS_CAP) { cardsUsed += 1; continue; }
+    const pool = eligiblePool(sectionVariants[slot], kit.sections[slot], affinity, slotCount(content, slot), slotHasImage(content, slot));
+    const alt = pool.find((v) => familyOf(v.id) !== "cards");
+    if (alt) sections[slot] = alt.id;
+    else cardsUsed += 1; // no non-cards option in this slot/kit → keep it
   }
   // No real person photos → force the tile-free text team layout, so employee
   // cards never show empty placeholder image tiles (we never fake faces with stock).

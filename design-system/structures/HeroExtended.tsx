@@ -50,7 +50,6 @@ export const HeroSpotlight: React.FC<{ content: HeroContent }> = ({ content }) =
   <section style={{ background: "var(--ds-text)", paddingBlock: "calc(var(--ds-section-y) * 1.2)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container style={{ maxWidth: "min(var(--ds-container), 860px)" }}>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.4rem" }}>
-        <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-primary)" }}>{content.eyebrow}</div>
         <h1 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display)", letterSpacing: "var(--ds-headline-tracking)", lineHeight: 1.05, color: "var(--ds-bg)", margin: 0 }}>
           {content.titleLead} <span style={{ color: "var(--ds-primary)" }}>{content.titleAccent}</span>{content.titleTail ? ` ${content.titleTail}` : ""}
         </h1>

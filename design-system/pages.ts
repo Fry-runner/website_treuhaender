@@ -17,7 +17,7 @@ import type { SiteContent } from "./content/types.ts";
 /** Section slots usable on a page — homepage slots plus a few page-only ones. */
 export type PageSlot =
   | LayoutSlot
-  | "page-header"   // inner-page hero-lite (eyebrow + H1 + breadcrumb)
+  | "page-header"   // inner-page hero-lite (eyebrow + H1)
   | "service-body"  // a single service's deep content
   | "related"       // related items strip
   | "gallery"       // media-pool photo grid (office / impressions)
@@ -46,12 +46,20 @@ export const pageTypes: Record<string, PageType> = {
   },
   services: {
     id: "services", name: "Leistungen", slugBase: "/leistungen",
-    sections: ["nav", "page-header", "services", "values", "testimonials", "faq", "cta", "footer"],
+    // Main content = the services grid (full). `values` rides along but renders as
+    // a capped preview linking to /ueber-uns (its owner page) — see SiteRouter's
+    // sectionTeaser. Testimonials are pure social proof and belong on the home, not
+    // re-stated full on every overview, so they are intentionally NOT listed here.
+    sections: ["nav", "page-header", "services", "values", "faq", "cta", "footer"],
     attributes: { purpose: "Overview of all services", seoWeight: "high", contentNeeds: ["services"] },
   },
   "service-detail": {
     id: "service-detail", name: "Leistung (Detail)", slugBase: "/leistungen",
-    sections: ["nav", "page-header", "service-body", "related", "cta", "contact", "footer"],
+    // No full contact section here: the page's job is the one service + related +
+    // a single conversion band. A full contact FORM directly under the "Bereit?"
+    // CTA would repeat the same ask (and violate the CTA→no-form rule) on every one
+    // of the ~6 detail pages; the nav CTA + footer already carry the contact path.
+    sections: ["nav", "page-header", "service-body", "related", "cta", "footer"],
     repeat: "perService",
     attributes: { purpose: "Deep dive + SEO per service", seoWeight: "high", contentNeeds: ["service item"] },
   },
@@ -72,7 +80,9 @@ export const pageTypes: Record<string, PageType> = {
   },
   contact: {
     id: "contact", name: "Kontakt", slugBase: "/kontakt",
-    sections: ["nav", "page-header", "contact", "downloads", "map", "footer"],
+    // No page-header: the Contact section carries its own heading, so the page opens
+    // straight into the form/contact info (home + contact are the two header-less pages).
+    sections: ["nav", "contact", "downloads", "map", "footer"],
     attributes: { purpose: "Booking + contact", seoWeight: "medium", contentNeeds: ["contact"] },
   },
   legal: {

@@ -138,7 +138,6 @@
         "audience",
         "process",
         "partners",
-        "faq",
         "cta",
         "contact",
         "footer"
@@ -189,7 +188,7 @@
         "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "echte FAQ gefunden",
+        "home:faq": "keine echte FAQ → weggelassen",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -206,7 +205,11 @@
     "placeholders": [
       "hero.aside",
       "values",
+      "faq",
       "services.text",
+      "process (generic)",
+      "audience (generic)",
+      "feature (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -216,7 +219,7 @@
       "contact.phone",
       "hero.headline",
       "hero.lede",
-      "faq",
+      "about",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -622,6 +625,15 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Über uns",
+    "lead": "Wir empfangen Sie sehr gerne zu einem persönlichen Gespräch in unserem Büro. Bitte vereinbaren Sie einen Termin.",
+    "paragraphs": [
+      "Wenn Sie vertrauliche Mitteilungen machen, beachten Sie bitte, dass E-Mails unter Umständen von Drittpersonen gelesen werden könnten.",
+      ". Auch positives Feedback ist willkommen! Für fehlerhaften Inhalt dieser Website oder für Inhalte von anderen Websites, welche Sie über diese Website erreichen, wird keine Verantwortung übernommen."
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -657,40 +669,7 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": [
-      {
-        "q": "1. Worum geht es in dieser Datenschutzerklärung?",
-        "a": "Die aawi treuhand ag (nachstehend auch «wir», «uns») beschafft und bearbeitet Personendaten, die Sie oder auch andere Personen (sogenannte «Dritte») betreffen. Wir verwenden den Begriff «Daten» hier gleichbedeutend mit «Personendaten». Mit Personendaten sind Daten gemeint, die sich auf bestimmte oder bestimmbare Person beziehen (d. h. Rückschlüsse auf deren Identität sind anhand der Daten selbst oder mit entsprechenden Zusatzdaten möglich). «Bearbeiten» meint jeden Umgang mit Personendaten, z. B. das Beschaffen, Speichern, Verwenden, Anpassen, Bekanntgeben und Löschen."
-      },
-      {
-        "q": "2. Wer ist für die Bearbeitung Ihrer Daten verantwortlich?",
-        "a": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder sonstige datenschutzrechtliche Anliegen haben und/oder Ihre Rechte gemäss Ziff. 9 ausüben möchten, können Sie uns unter der vorstehenden Adresse erreichen."
-      },
-      {
-        "q": "3. Welche Daten bearbeiten wir?",
-        "a": "Wir bearbeiten verschiedene Kategorien von Daten über Sie. Die wichtigsten Kategorien sind folgende:"
-      },
-      {
-        "q": "5. Auf welcher Grundlage bearbeiten wir Ihre Daten?",
-        "a": "Soweit Sie uns eine Einwilligung zur Bearbeitung Ihrer Daten für bestimmte Zwecke erteilt haben (z. B. Anmeldung zum Erhalt von Newslettern oder Einwilligung zu anderen regelmässigen Kontakten, Einwilligung in die automatisierte Datenverarbeitung, soweit anwendbar), bearbeiten wir Ihre Daten im Rahmen und gestützt auf diese Einwilligung, soweit wir keine andere Rechtsgrundlage haben und wir eine solche benötigen. Eine erteilte Einwilligung kann jederzeit widerrufen werden, was jedoch keine Auswirkung auf bereits erfolgte Datenbearbeitungen hat (siehe auch Ziff. 9)."
-      },
-      {
-        "q": "6. Wem geben wir Ihre Daten bekannt?",
-        "a": "Im Zusammenhang mit unseren Verträgen, der Website, unseren Dienstleistungen und Produkten, unseren rechtlichen Pflichten oder sonst zur Wahrung unserer berechtigten Interessen und den weiteren in Ziff. 4 aufgeführten Zwecken übermitteln wir Ihre Personendaten auch an Dritte, insbesondere an die folgenden Kategorien von Empfängern:"
-      },
-      {
-        "q": "8. Wie schützen wir Ihre Daten?",
-        "a": "Wir treffen angemessene technische und organisatorische Sicherheitsmassnahmen, um die Vertraulichkeit, Integrität und Verfügbarkeit Ihrer Daten zu wahren, um sie gegen unberechtigte oder unrechtmässige Bearbeitungen zu schützen und den Gefahren des Verlusts, einer unbeabsichtigten Veränderung, einer ungewollten Offenlegung oder eines unberechtigten Zugriffs entgegenzuwirken."
-      },
-      {
-        "q": "9. Welche Rechte haben Sie?",
-        "a": "Das anwendbare Datenschutzrecht gewährt Ihnen unter bestimmten Umständen das Recht, der Bearbeitung Ihrer Daten zu widersprechen oder ihre Einschränkung zu verlangen, insbesondere jener für Zwecke des Direktmarketings, des für Direktwerbung betriebenen Profilings und weiterer berechtigter Interessen an der Bearbeitung."
-      },
-      {
-        "q": "10. Wie verwenden wir Online-Tracking und Online-Werbetechniken?",
-        "a": "Auf unserer Website setzen wir verschiedene Techniken ein, mit denen wir und von uns beigezogenen Dritte Sie bei Ihrer Nutzung wiedererkennen und unter Umständen auch über mehrere Besuche hinweg verfolgen können."
-      }
-    ]
+    "items": []
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
@@ -701,9 +680,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Wetzikon",
       "phone": "+41 (0)44 931 35 35",
-      "email": "a.scherrer@aawi.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "a.scherrer@aawi.ch"
     },
     "formCta": "Nachricht senden"
   },

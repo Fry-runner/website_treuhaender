@@ -9,7 +9,7 @@
  */
 import type { CSSProperties } from "react";
 import type { DesignTokens } from "../tokens";
-import { radius, shadow, sectionY, weight, tracking, display, displayH2, headTracking } from "./scales";
+import { radius, shadow, sectionY, weight, display, displayH2, headTracking, space, spaceBlock, gutter } from "./scales";
 import { ensureContrast, luminance } from "./color";
 
 export type LookVars = CSSProperties & Record<string, string | number>;
@@ -23,6 +23,14 @@ export function applyLook(t: DesignTokens): LookVars {
   const harderBg = Math.abs(luminance(t.color.surface) - lm) < Math.abs(luminance(t.color.bg) - lm)
     ? t.color.surface : t.color.bg;
   const textMuted = ensureContrast(t.color.textMuted, harderBg, 4.5);
+  // The brand primary used AS TEXT / links on a page surface must stay legible too:
+  // vibrant accents (lime, signal-red) fail AA as small text on white. `--ds-primary-ink`
+  // is the primary corrected to >=4.5:1 against the harder of bg/surface for text/link
+  // roles; the raw `--ds-primary` stays for fills/borders (paired with --ds-primary-fg).
+  const lp = luminance(t.color.primary);
+  const harderForPrimary = Math.abs(luminance(t.color.surface) - lp) < Math.abs(luminance(t.color.bg) - lp)
+    ? t.color.surface : t.color.bg;
+  const primaryInk = ensureContrast(t.color.primary, harderForPrimary, 4.5);
   return {
     // colors
     "--ds-bg": t.color.bg,
@@ -31,6 +39,7 @@ export function applyLook(t: DesignTokens): LookVars {
     "--ds-text-muted": textMuted,
     "--ds-border": t.color.border,
     "--ds-primary": t.color.primary,
+    "--ds-primary-ink": primaryInk,
     "--ds-primary-fg": t.color.primaryFg,
     "--ds-primary-soft": t.color.primarySoft,
     "--ds-secondary": t.color.secondary ?? t.color.primary,
@@ -43,17 +52,19 @@ export function applyLook(t: DesignTokens): LookVars {
     "--ds-headline-weight": weight(t.type.headlineWeight),
     "--ds-headline-tracking": headTracking(t.type.headlineTracking),
     "--ds-body-weight": weight(t.type.bodyWeight),
-    "--ds-eyebrow-weight": weight(t.type.eyebrow.weight),
-    "--ds-eyebrow-tracking": tracking(t.type.eyebrow.tracking),
-    "--ds-eyebrow-transform": t.type.eyebrow.uppercase ? "uppercase" : "none",
+    // (eyebrow CSS vars removed — the Eyebrow primitive renders null site-wide, so
+    //  --ds-eyebrow-* advertised a styling capability that no longer exists.)
     // shape & elevation
     "--ds-radius": radius(t.radius.base),
     "--ds-radius-pill": "9999px",
     "--ds-shadow-card": shadow(t.shadow.card),
-    // spacing & motion
+    // spacing & motion — section padding & gutter are fluid (clamp); --ds-space /
+    // --ds-space-block carry the look's rhythm/density into intra-section spacing.
     "--ds-section-y": sectionY(t.spacing.sectionY),
+    "--ds-space": space(t.spacing.rhythm),
+    "--ds-space-block": spaceBlock(t.spacing.rhythm),
     "--ds-container": t.spacing.containerMax,
-    "--ds-gutter": t.spacing.gutter,
+    "--ds-gutter": gutter(t.spacing.gutter),
     "--ds-duration": `${t.motion.durationMs}ms`,
     "--ds-ease": t.motion.easing,
     // scroll-reveal distance/duration scale with the look's motion intensity

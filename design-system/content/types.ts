@@ -9,7 +9,12 @@ import type { TestimonialsContent } from "../structures/Testimonials";
 import type { DesignTokens } from "../tokens";
 import type { BrandSignals } from "./brand";
 import type { SiteBrief } from "./plan";
+import type { ProcessContent, AudienceContent, AboutContent, FeatureContent } from "./sectionContent";
 export type { HeroContent, TestimonialsContent };
+export type { ProcessContent, AudienceContent, AboutContent, FeatureContent };
+
+/** Image-less "feature" band copy — the composer attaches the image at render time. */
+export type FeatureAngle = Omit<FeatureContent, "image">;
 
 export interface NavLink { label: string; href: string; }
 export interface NavContent { brand: string; links: NavLink[]; cta: string; logo?: string; logoLight?: string; }
@@ -109,6 +114,14 @@ export interface SiteContent {
   hero: HeroContent;
   services: ServicesContent;
   values: ValuesContent;
+  /** Scrape-driven safe-generic sections; absent ⇒ the composer renders a neutral,
+   *  true-for-any-Treuhänder default (never fabricated). */
+  process?: ProcessContent;
+  audience?: AudienceContent;
+  about?: AboutContent;
+  /** Image-less feature-band copy distilled from the firm's REAL values/services;
+   *  absent ⇒ generic feature copy. The composer supplies the photo. */
+  featureAngles?: FeatureAngle[];
   team: TeamContent;
   pricing: PricingContent;
   testimonials: TestimonialsContent;

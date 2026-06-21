@@ -122,9 +122,7 @@
         "nav",
         "hero",
         "services",
-        "values",
         "audience",
-        "testimonials",
         "process",
         "partners",
         "cta",
@@ -169,9 +167,9 @@
         "home:hero": "Kernsektion",
         "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
-        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
-        "home:testimonials": "echte Kundenstimmen gefunden",
+        "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
         "home:team": "kein echtes Team gefunden",
@@ -192,7 +190,12 @@
       }
     },
     "placeholders": [
+      "hero.aside",
+      "values",
       "faq",
+      "footer.tagline",
+      "process (generic)",
+      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -200,13 +203,9 @@
       "meta.domain",
       "contact.email",
       "contact.phone",
-      "hero.headline",
-      "hero.lede",
       "services.text",
-      "testimonials",
-      "values",
-      "footer.tagline",
-      "hero.aside",
+      "about",
+      "feature",
       "trust.items",
       "media.pool",
       "services.images",
@@ -428,14 +427,14 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Zürich",
-    "titleLead": "MK Fiduciaire — Comptabilité & Fiscalité",
-    "titleAccent": "",
-    "lede": "Fiduciaire à Suisse : MK Fiduciaire offre comptabilité, fiscalité, création de société et gestion des salaires dans le canton de Fribourg, Valais, Zürich, Basel, Bern. Devis gratuit.",
+    "titleLead": "Ihre Finanzen,",
+    "titleAccent": "klar geführt.",
+    "lede": "Buchhaltung, Steuern und Beratung für KMU und Privatpersonen in Zürich. Persönlich, präzise und vorausschauend an Ihrer Seite.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
-    "asideLabel": "Mandantenstimme",
-    "asideQuote": "MK Fiduciaire m'a accompagné dans la création de ma Sàrl à Suisse. Service impeccable et réactif.",
-    "asideAttribution": "— Marc D.",
+    "asideLabel": "Über uns",
+    "asideQuote": "Persönliche Treuhand-Betreuung für KMU und Private in Zürich.",
+    "asideAttribution": "MK Treuhand",
     "image": "/images/mkfiduciaire-ch/pool/stock-office-159839.jpg"
   },
   "services": {
@@ -444,7 +443,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Ratgeber Buchhaltung für KMU in der Schweiz 2026: gesetzliche Pflichten, empfohlene Software, MWST und Tipps vom Treuhänder.",
+        "summary": "Das Obligationenrecht (OR Art. 957-963) regelt die Buchführungspflicht. Jedes im Handelsregister eingetragene Unternehmen muss Bücher führen.",
         "body": "Das Obligationenrecht (OR Art. 957-963) regelt die Buchführungspflicht. Jedes im Handelsregister eingetragene Unternehmen muss Bücher führen.\n\nEinzelfirmen mit weniger als CHF 500'000 Umsatz: Einnahmen-/Ausgabenrechnung und Vermögensübersicht genügen.\n\nPflicht für AG, GmbH und Einzelfirmen über CHF 500'000: Bilanz, Erfolgsrechnung, Anhang nach Schweizer Kontenrahmen KMU.\n\nPflicht ab CHF 100'000 weltweitem Umsatz. Normalsatz 8.1%, reduzierter Satz 2.6%. Wahl zwischen effektiver Methode und Saldosteuersätzen — die Saldosteuersatz-Methode ist für viele KMU einfacher.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -456,7 +455,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Steuervergleich Zürich vs Basel 2026: effektive Steuersätze, Abzüge, Patent Box und Tipps zur Steueroptimierung für KMU.",
+        "summary": "gehören zu den wichtigsten Wirtschaftsstandorten der Schweiz. Ihre Steuersysteme unterscheiden sich jedoch deutlich.",
         "body": "gehören zu den wichtigsten Wirtschaftsstandorten der Schweiz. Ihre Steuersysteme unterscheiden sich jedoch deutlich.\n\nBasel-Stadt hat den Steuersatz in den letzten Jahren massiv gesenkt und ist nun einer der kompetitivsten Kantone für Unternehmen. Zürich kompensiert mit seinem einzigartigen Zugang zu Fachkräften, Kapital und internationalem Netzwerk.\n\n: Gemeindesteuerfuss variiert stark — Zug, Schwyz oder Nidwalden als Alternative prüfen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -504,8 +503,8 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Ratgeber Firmengründung Schweiz 2026: GmbH vs AG vs Einzelfirma, Kosten, Schritte und kantonale Unterschiede.",
-        "body": "Firmengründung in der Schweiz 2026: GmbH, AG oder Einzelfirma? | MK Treuhand\n\nDie Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In\n\n3-7 Tage. Die Notarkosten sind in der Deutschschweiz generell etwas tiefer als in der Romandie.",
+        "summary": "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In",
+        "body": "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In\n\n3-7 Tage. Die Notarkosten sind in der Deutschschweiz generell etwas tiefer als in der Romandie.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -519,25 +518,58 @@
   "values": {
     "eyebrow": "Warum wir",
     "heading": "Ihr Vorteil.",
-    "items": [
-      {
-        "title": "Services",
-        "body": "MK Fiduciaire est votre partenaire fiduciaire en Suisse romande et alémanique. De Fribourg à Zürich, nous accompagnons PME et indépendants. MK Fiduciaire vous accompagne dans toutes vos démarches comptables, fiscales et administratives."
-      },
-      {
-        "title": "Comptabilité & Fiscalité",
-        "body": "Tenue comptable, bouclements annuels, déclarations fiscales et optimisation pour PME et indépendants."
-      },
-      {
-        "title": "Création de Société",
-        "body": "SA, Sàrl, raison individuelle : de la rédaction des statuts à l'inscription au RC."
-      },
-      {
-        "title": "Gestion des Salaires",
-        "body": "Fiches de paie, charges sociales AVS/LPP, certificats de salaire et déclarations."
-      }
+    "items": []
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Gründungsschritte einer GmbH",
+    "lead": "Firmengründung in der Schweiz 2026: GmbH, AG oder Einzelfirma? | MK Treuhand",
+    "paragraphs": [
+      "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In",
+      "3-7 Tage. Die Notarkosten sind in der Deutschschweiz generell etwas tiefer als in der Romandie."
     ]
   },
+  "featureAngles": [
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Das Obligationenrecht (OR Art. 957-963) regelt die Buchführungspflicht. Jedes im Handelsregister eingetragene Unternehmen muss Bücher führen.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "gehören zu den wichtigsten Wirtschaftsstandorten der Schweiz. Ihre Steuersysteme unterscheiden sich jedoch deutlich.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    }
+  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -553,23 +585,7 @@
     "heading": "Unternehmen vertrauen uns.",
     "rating": "",
     "reviewCount": "",
-    "items": [
-      {
-        "quote": "MK Fiduciaire m'a accompagné dans la création de ma Sàrl à Suisse. Service impeccable et réactif.",
-        "person": "Marc D.",
-        "city": "Zürich"
-      },
-      {
-        "quote": "Excellente gestion comptable. Ils comprennent les spécificités du canton de Fribourg, Valais, Zürich, Basel, Bern.",
-        "person": "Sophie L.",
-        "city": "Zürich"
-      },
-      {
-        "quote": "Grâce à leur optimisation fiscale, j'économise plus de CHF 5'000 par an.",
-        "person": "Thomas R.",
-        "city": "Zürich"
-      }
-    ]
+    "items": []
   },
   "stats": {
     "items": []
@@ -597,15 +613,15 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
+      "address": "Zürich",
       "phone": "+41 26 518 00 00",
-      "email": "info@mkfiduciaire.ch",
-      "hours": "Mo–Fr 08:00–17:00"
+      "email": "info@mkfiduciaire.ch"
     },
     "formCta": "Nachricht senden"
   },
   "footer": {
     "brand": "MK Treuhand",
-    "tagline": "Nos Services à Suisse",
+    "tagline": "Ihr Treuhandpartner in Zürich – Buchhaltung, Steuern und Beratung für KMU.",
     "columns": [
       {
         "title": "Sitemap",

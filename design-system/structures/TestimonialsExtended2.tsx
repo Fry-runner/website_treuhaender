@@ -8,6 +8,12 @@ import { Icon } from "../icons/iconSets";
 import type { TestimonialsContent } from "../content/types";
 
 type Props = { content: TestimonialsContent };
+type Item = TestimonialsContent["items"][number];
+/** Attribution helpers — join only the present fields so empty company/city
+ *  never produce a dangling or doubled "·". */
+const metaFull = (t: Item) => [t.company, t.city].filter(Boolean).join(" · ");
+const metaCompany = (t: Item) => (t.company || "").trim();
+const metaCity = (t: Item) => (t.city || "").trim();
 const sectionBase: React.CSSProperties = { background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" };
 const headingStyle: React.CSSProperties = { fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display-h2, 2rem)", letterSpacing: "var(--ds-headline-tracking)", color: "var(--ds-text)", margin: 0 };
 const cap: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)", lineHeight: 1.5 };
@@ -39,7 +45,7 @@ export const TestimonialsBigQuote: React.FC<Props> = ({ content }) => {
           <span aria-hidden style={{ position: "absolute", top: "-2.5rem", left: "50%", transform: "translateX(-50%)", fontFamily: "var(--ds-font-heading)", fontSize: "8rem", color: "var(--ds-primary-soft)", lineHeight: 1 }}>“</span>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <blockquote style={{ position: "relative", margin: 0, fontFamily: "var(--ds-font-heading)", fontSize: "2rem", lineHeight: 1.3, color: "var(--ds-text)" }}>{t.quote}</blockquote>
-          <div style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong> · {t.company} · {t.city}</div>
+          <div style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaFull(t) && <> · {metaFull(t)}</>}</div>
         </div>
       </Container>
     </section>
@@ -57,7 +63,7 @@ export const TestimonialsAvatarCards: React.FC<Props> = ({ content }) => (
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.98rem", lineHeight: 1.55, color: "var(--ds-text)", flex: 1 }}>“{t.quote}”</blockquote>
             <figcaption style={{ display: "flex", alignItems: "center", gap: "0.8rem", borderTop: "1px solid var(--ds-border)", paddingTop: "0.9rem" }}>
               <Avatar name={t.person} />
-              <div style={{ display: "flex", flexDirection: "column" }}><strong style={{ fontFamily: "var(--ds-font-heading)", fontSize: "0.92rem", color: "var(--ds-text)" }}>{t.person}</strong><span style={cap}>{t.company}</span></div>
+              <div style={{ display: "flex", flexDirection: "column" }}><strong style={{ fontFamily: "var(--ds-font-heading)", fontSize: "0.92rem", color: "var(--ds-text)" }}>{t.person}</strong>{metaCompany(t) && <span style={cap}>{metaCompany(t)}</span>}</div>
             </figcaption>
           </figure>
         ))}
@@ -75,7 +81,7 @@ export const TestimonialsMasonry: React.FC<Props> = ({ content }) => (
         {content.items.map((t, i) => (
           <figure key={i} style={{ margin: "0 0 1.2rem", breakInside: "avoid", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.4rem", display: "inline-block", width: "100%" }}>
             <blockquote style={{ margin: "0 0 0.8rem", fontFamily: "var(--ds-font-body)", fontSize: "0.95rem", lineHeight: 1.55, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
-            <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong> · {t.city}</figcaption>
+            <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaCity(t) && <> · {metaCity(t)}</>}</figcaption>
           </figure>
         ))}
       </div>
@@ -95,7 +101,7 @@ export const TestimonialsDark: React.FC<Props> = ({ content }) => (
         {content.items.map((t, i) => (
           <figure key={i} style={{ margin: 0, background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.16)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.9rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.98rem", lineHeight: 1.55, color: "var(--ds-bg)" }}>“{t.quote}”</blockquote>
-            <figcaption style={{ ...cap, color: "var(--ds-bg)", opacity: 0.75 }}><strong style={{ color: "var(--ds-bg)" }}>{t.person}</strong> · {t.company}</figcaption>
+            <figcaption style={{ ...cap, color: "var(--ds-bg)", opacity: 0.75 }}><strong style={{ color: "var(--ds-bg)" }}>{t.person}</strong>{metaCompany(t) && <> · {metaCompany(t)}</>}</figcaption>
           </figure>
         ))}
       </div>
@@ -112,7 +118,7 @@ export const TestimonialsMinimalList: React.FC<Props> = ({ content }) => (
         {content.items.map((t, i) => (
           <figure key={i} style={{ margin: 0, padding: "1.4rem 0", borderTop: "1px solid var(--ds-border)", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "1.05rem", lineHeight: 1.55, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
-            <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong> · {t.company} · {t.city}</figcaption>
+            <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaFull(t) && <> · {metaFull(t)}</>}</figcaption>
           </figure>
         ))}
       </div>
@@ -132,7 +138,7 @@ export const TestimonialsRatingHeader: React.FC<Props> = ({ content }) => (
         {content.items.map((t, i) => (
           <figure key={i} style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.95rem", lineHeight: 1.55, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
-            <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong> · {t.city}</figcaption>
+            <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaCity(t) && <> · {metaCity(t)}</>}</figcaption>
           </figure>
         ))}
       </div>
@@ -154,7 +160,7 @@ export const TestimonialsZigzagAvatar: React.FC<Props> = ({ content }) => (
                 <Avatar name={t.person} />
                 <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", textAlign: right ? "right" : "left" }}>
                   <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.96rem", lineHeight: 1.55, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
-                  <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong> · {t.company}</figcaption>
+                  <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaCompany(t) && <> · {metaCompany(t)}</>}</figcaption>
                 </div>
               </figure>
             </div>
@@ -178,7 +184,7 @@ export const TestimonialsMarquee: React.FC<Props> = ({ content }) => {
           {row.map((t, i) => (
             <figure key={i} style={{ margin: 0, flex: "0 0 320px", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.4rem", display: "flex", flexDirection: "column", gap: "0.7rem" }}>
               <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.5, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
-              <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong> · {t.city}</figcaption>
+              <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaCity(t) && <> · {metaCity(t)}</>}</figcaption>
             </figure>
           ))}
         </div>
@@ -196,7 +202,7 @@ export const TestimonialsStars: React.FC<Props> = ({ content }) => (
         {content.items.map((t, i) => (
           <figure key={i} style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.96rem", lineHeight: 1.55, color: "var(--ds-text)", flex: 1 }}>“{t.quote}”</blockquote>
-            <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong> · {t.company}</figcaption>
+            <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaCompany(t) && <> · {metaCompany(t)}</>}</figcaption>
           </figure>
         ))}
       </div>
@@ -213,7 +219,7 @@ export const TestimonialsPanel: React.FC<Props> = ({ content }) => (
         {content.items.map((t, i) => (
           <figure key={i} style={{ margin: 0, padding: "1.4rem 0", borderTop: i ? "1px solid var(--ds-border)" : "none", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "1rem", lineHeight: 1.55, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
-            <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong> · {t.company} · {t.city}</figcaption>
+            <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaFull(t) && <> · {metaFull(t)}</>}</figcaption>
           </figure>
         ))}
       </div>

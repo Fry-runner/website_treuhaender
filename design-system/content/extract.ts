@@ -14,6 +14,7 @@ import { createHash } from "node:crypto";
 import { type ArchetypeId } from "../blueprints.ts";
 import { whyUsPillars, canonicalFaq } from "./ch.ts";
 import type { SiteContent, MediaLibrary, MediaAsset, MediaKind, Orientation, ImageSubject, ImageRole, DocAsset, DocKind } from "./types.ts";
+import type { ProcessContent, AudienceContent, AboutContent, StepItem, AudienceItem, FeatureContent } from "./sectionContent.ts";
 import { imageSize } from "./imageSize.ts";
 import { extractBrand } from "./brand.ts";
 import { deriveLook, fontsToLoad } from "../looks/deriveLook.ts";
@@ -32,7 +33,24 @@ try {
 
 const pages: any[] = site.pages || [];
 const home = pages[0] || {};
-const allText = pages.map((p) => p.text || "").join(" ").toLowerCase();
+
+// --- LANGUAGE GATE: a German example site must read 100% German. Foreign-language
+//     pages (fr/it/en/rm — the page's <html lang>) are dropped so French/Italian copy
+//     never leaks into the generated site; pages with no/unknown lang are kept and
+//     vetted per-block by looksFrench below. (Images aren't language-bound, so the
+//     media pipeline keeps using the full `pages`/manifest.)
+const langDe = (p: any): boolean => { const l = String(p?.lang || "").toLowerCase().trim(); return !l || /^de/.test(l); };
+const dePages: any[] = pages.filter(langDe);
+// Secondary net for MIXED pages (lang=de but a French block embedded — quotes, a FR
+// service teaser): a block is French when it carries ≥3 unambiguous French markers
+// and more of them than German ones. Ambiguous tokens shared with German (des/du/les/
+// est/et) are deliberately excluded to avoid false positives on German prose.
+const FR_MARK = /\b(nous|vous|votre|vos|notre|nos|avec|pour|sans|leurs?|ainsi|gestion|comptab(?:le|ilité|ilites?)|fiscale?|fiscaux|fiduciaire|entreprises?|sociétés?|conseils?|clients?|déclarations?|impôts?|salaires?|prestations?|gr[âa]ce|cette|aux|notamment|afin|être|c'est|qu'|d'|l'|n')\b/gi;
+const DE_MARK = /\b(und|der|die|das|wir|sie|ihre?|für|mit|von|den|ein|eine|ist|sind|auch|bei|aus|über|unsere?|treuhand|buchhaltung|steuern?|beratung|unternehmen|abschluss|löhne?|jahres|sowie|werden|sich|nicht)\b/gi;
+const looksFrench = (t: string): boolean => { if (!t || t.length < 20) return false; const fr = (t.match(FR_MARK) || []).length; const de = (t.match(DE_MARK) || []).length; return fr >= 3 && fr > de; };
+const homeDe = langDe(home);
+
+const allText = dePages.map((p) => p.text || "").join(" ").toLowerCase();
 const firm: string = site.name || site.domain;
 const shortName = firm.replace(/\b(AG|GmbH|Treuhand|Treuhand AG)\b/g, "").trim() || firm;
 
@@ -42,7 +60,10 @@ function city(): string {
     const items = Array.isArray(b) ? b : [b];
     for (const it of items) if (it?.address?.addressLocality) return it.address.addressLocality;
   }
-  const m = (home.text || "").match(/\b8\d{3}\s+([A-ZÄÖÜ][a-zäöü]+)/);
+  // Swiss postal codes run 1000–9999 — match ANY (not just Zürich's 8xxx), so a
+  // Romandie/Ticino/Eastern-CH firm isn't silently relabelled "Zürich". Exclude
+  // bare years (19xx/20xx) so "2026 Geschäftsbericht" isn't read as a place.
+  const m = (home.text || "").match(/\b(?!19\d\d|20\d\d)[1-9]\d{3}\s+([A-ZÀ-Ö][A-Za-zÀ-ÿ.\-]{2,})/);
   return m ? m[1] : "Zürich";
 }
 
@@ -124,7 +145,9 @@ function pageContentBlocks(p: any): { tag: string; text: string }[] {
 const realServiceTitles = new Set<string>();
 function pageForService(keys: string[]): any | undefined {
   const kk = keys.map(deUmlaut);
-  return pages.filter((p) => p !== home).find((p) => {
+  // Skip foreign-language subpages (/en/, /fr/, /it/) — a German example site must
+  // not source its service copy from an English "payroll-accounting" page.
+  return dePages.filter((p) => p !== home && !/\/(en|fr|it)\//i.test(p.url || "")).find((p) => {
     const hay = deUmlaut(`${p.url || ""} ${(p.headings?.h1 || []).join(" ")} ${p.title || ""}`);
     return kk.some((k) => hay.includes(k));
   });
@@ -134,9 +157,18 @@ function serviceText(title: string, keys: string[]): { summary?: string; body?: 
   const p = pageForService(keys);
   if (!p) return {};
   const bl = pageContentBlocks(p);
-  const paras = bl.filter((b) => b.tag === "p" && b.text.length >= 60 && b.text.length <= 600 && /[.!?]/.test(b.text) && !SVC_BOILER.test(b.text)).map((b) => b.text);
+  // A real prose paragraph — not a pipe-stuffed <title>/meta line ("Firma – X & Y |
+  // Thurgau, Zürich | Ratgeber") and not a blog teaser. Such lines slip in via the
+  // div-fallback in pageContentBlocks() and must never become summary or body.
+  const PARA_NOISE = /\s\|\s|jetzt mehr erfahren|mehr erfahren!|lesen sie|der komplette guide|in diesem beitrag|\bratgeber\b|devis gratuit|checkliste/i;
+  const paras = bl.filter((b) => b.tag === "p" && b.text.length >= 60 && b.text.length <= 600 && /[.!?]/.test(b.text) && !SVC_BOILER.test(b.text) && !PARA_NOISE.test(b.text)).map((b) => b.text);
+  // Prefer the first REAL paragraph (paras[0]). The SEO meta.description is keyword-
+  // stuffed ("… | 17 Jahre Erfahrung | 300 Kunden | Jetzt mehr erfahren!"), a blog
+  // teaser, or foreign-language — only fall back to it when it is clean prose.
   const desc = fixEncoding(p.meta?.description || "");
-  const summary = (desc.length >= 40 && desc.length <= 300) ? desc : paras[0];
+  const metaOk = !desc.includes("|") && desc.length >= 40 && desc.length <= 280
+    && !/jetzt mehr erfahren|lesen sie|devis gratuit|mehr erfahren!|checkliste/i.test(desc);
+  const summary = paras[0] ?? (metaOk ? desc : undefined);
   const body = paras.slice(0, 4).join("\n\n") || undefined;
   const lis = [...new Set(htmlBlocks(p.raw_html || "").filter((b) => b.tag === "li" && b.text.length >= 6 && b.text.length <= 90
     && !/^(home|kontakt|impressum|datenschutz|leistung|über|ueber|news|blog|team|standort|deutsch|english|fran)/i.test(b.text)
@@ -307,9 +339,23 @@ const isPersonName = (nm: string) => {
   return !parts.some((w) => NAME_STOP.has(w));
 };
 const ROLE_HINT = /(treuh|steuer|experte|expertin|berater|leiter|leitung|ceo|cfo|coo|gesch[äa]ft|fachfrau|fachmann|finanz|rechnungswesen|partner|inhaber|gr[üu]nder|direktor|assistent|mandatsleiter|buchhalt|revisor|wirtschaftspr[üu]f|dipl|lehrling|sachbearbeit)/i;
+// A name candidate that contains a service/topic token is a keyword line, not a
+// person ("Steuerberatung Privat", "Vermögen finden") — reject it outright.
+const NAME_TOPIC = /steuer|buchhalt|lohn|preis|kosten|beratung|mwst|revision|abschluss|verm[öo]gen|treuhand|finanz|immobil|hypothek|g[üu]nstig|finden|privat|kryptow/i;
+// The following line must assert a REAL role (beyond the looser ROLE_HINT) to keep
+// a (name, role) pair — so a stray heading after a name isn't mistaken for a title.
+const ROLE_STRICT = /gesch[äa]ftsf|inhaber|partner|treuh[äa]nder|berater(in)?|leiter(in)?|gr[üu]nder(in)?|dipl\.|mandatsleiter|sachbearbeiter|buchhalter(in)?|assistent(in)?|lernende|mitarbeit/i;
+// A real personal name: 2-3 tokens, each Capitalised, letters only, not ALL-CAPS.
+const looksLikePersonName = (nm: string) => {
+  if (NAME_TOPIC.test(nm)) return false;
+  const parts = nm.trim().split(/\s+/);
+  if (parts.length < 2 || parts.length > 3) return false;
+  if (nm === nm.toUpperCase()) return false;            // ALL-CAPS = label/heading, not a name
+  return parts.every((w) => /^[A-ZÄÖÜ][a-zäöüéèàçA-ZÄÖÜ.]*$/.test(w) && !/\d/.test(w));
+};
 function teamMembers() {
-  const teamPage = pages.find((p) => /\/(team|ueber-uns|ueber|about|wir-?ueber|mitarbeit)/i.test(p.url || "") && !/\/en\//i.test(p.url || ""))
-    || pages.find((p) => /\/(team|ueber|about|mitarbeit)/i.test(p.url || ""));
+  const teamPage = dePages.find((p) => /\/(team|ueber-uns|ueber|about|wir-?ueber|mitarbeit)/i.test(p.url || "") && !/\/en\//i.test(p.url || ""))
+    || dePages.find((p) => /\/(team|ueber|about|mitarbeit)/i.test(p.url || ""));
   if (!teamPage) return undefined;
 
   // 1) (name, role) pairs from the page text — a name line followed by a role line.
@@ -318,9 +364,10 @@ function teamMembers() {
   for (let i = 0; i < lines.length - 1; i++) {
     const nm = lines[i];
     if (!isPersonName(nm)) continue;
+    if (!looksLikePersonName(nm)) continue;             // reject keyword/topic lines & malformed names
     if (firm.toLowerCase().includes(nm.toLowerCase())) continue; // skip firm/brand
     const next = lines[i + 1];
-    if (!(next.length < 80 && ROLE_HINT.test(next))) continue;
+    if (!(next.length < 80 && ROLE_HINT.test(next) && ROLE_STRICT.test(next))) continue;
     if (found.some((f) => f.name.toLowerCase() === nm.toLowerCase())) continue;
     found.push({ name: nm, role: next });
   }
@@ -369,6 +416,9 @@ function teamMembers() {
   return members;
 }
 const realTeam = teamMembers();
+// Names of the firm's real people — so a team bio (person-name heading + bio) is
+// never mis-harvested as a "value" or audience segment further down.
+const teamNameSet = new Set((realTeam ?? []).map((m) => m.name.toLowerCase().trim()));
 
 // --- media library: classify EVERY usable scraped image into a sorted pool, so
 //     the website creator can wire the best-fitting asset onto each chosen
@@ -1154,8 +1204,8 @@ const QUOTE_RE = /[„“"»«”]([^„“"»«”]{40,400})[„“"”«»]/;
 const CREDENTIAL_RE = /eidg\.|dipl\.|diplom|fachausweis|fachfrau|fachmann|zugelassen|treuhandkammer|expertsuisse|zertifizier|mitglied\s+(der|von|des)/i;
 function realTestimonials(cty: string): SiteContent["testimonials"]["items"] | undefined {
   if (!analysis.has?.testimonials) return undefined;
-  const tPages = pages.filter((p) => /testimonial|referenz|kundenstimm|kundenmeinung|bewertung|feedback|das-sagen|stimmen/i.test(`${p.url || ""} ${p.title || ""}`));
-  const scan = (tPages.length ? tPages : [home]);
+  const tPages = dePages.filter((p) => /testimonial|referenz|kundenstimm|kundenmeinung|bewertung|feedback|das-sagen|stimmen/i.test(`${p.url || ""} ${p.title || ""}`));
+  const scan = (tPages.length ? tPages : (homeDe ? [home] : []));
   const items: { quote: string; person: string; company?: string; city?: string }[] = [];
   const seen = new Set<string>();
   for (const p of scan) {
@@ -1165,6 +1215,7 @@ function realTestimonials(cty: string): SiteContent["testimonials"]["items"] | u
       if (!m) continue;
       const quote = m[1].trim();
       if (CREDENTIAL_RE.test(quote)) continue;   // a qualification, not a testimonial
+      if (looksFrench(quote)) continue;          // French quote on a mixed page
       const key = quote.slice(0, 40).toLowerCase();
       if (seen.has(key)) continue;
       seen.add(key);
@@ -1181,13 +1232,14 @@ function realTestimonials(cty: string): SiteContent["testimonials"]["items"] | u
   return items.length >= 2 ? items.slice(0, 4) : undefined;
 }
 function realStats(): SiteContent["stats"]["items"] | undefined {
-  const text = fixEncoding(pages.map((p) => p.text || "").join("\n"));
+  const text = fixEncoding(dePages.map((p) => p.text || "").join("\n"));
   const out: { value: string; label: string }[] = [];
   const push = (value: string, label: string) => { if (!out.some((o) => o.label === label)) out.push({ value, label }); };
-  // "300+ Kunden" and "300+ KMU" are the same metric twice — collapse client-count
-  // synonyms that share a value so a number never appears duplicated.
+  // ALL client synonyms (Mandate/Mandanten/Kunden/Kundinnen/KMU/Unternehmen) are ONE
+  // metric — collect candidates and emit exactly ONE, so the page never shows e.g.
+  // "80000+ Unternehmen" next to "38+ KMU".
   const CLIENTISH = /^(mandate|mandanten|kunden|kundinnen|kmu|unternehmen)$/i;
-  const clientValues = new Set<string>();
+  const clientCounts: { value: string; n: number; label: string }[] = [];
   // Experience under ~3 years undercuts trust and is usually a mis-parse ("seit
   // 2025" → "1+") — only surface a meaningful span.
   const MIN_YEARS = 3;
@@ -1198,19 +1250,35 @@ function realStats(): SiteContent["stats"]["items"] | undefined {
   for (const m of text.matchAll(/\b(\d{1,3}(?:[\s'’.  ]\d{3})+|\d{2,6})\s*\+?\s*(Mandate|Mandanten|Kunden|Kundinnen|Unternehmen|KMU|Mitarbeitende|Mitarbeiter)\b/gi)) {
     const digits = m[1].replace(/\D/g, "");
     if (!/[1-9]/.test(digits)) continue;          // skip mis-parsed fragments like "000"
-    const w = m[2], value = `${digits}+`;
-    if (CLIENTISH.test(w)) { if (clientValues.has(value)) continue; clientValues.add(value); }
-    const label = w.toLowerCase() === "kmu" ? "KMU" : w[0].toUpperCase() + w.slice(1).toLowerCase();
+    const w = m[2], n = +digits, value = `${digits}+`;
+    // "Mitarbeiter" and "Mitarbeitende" are the same metric — one label so a firm
+    // never shows two contradictory headcounts (e.g. "15+" next to "250+").
+    const label = w.toLowerCase() === "kmu" ? "KMU"
+      : /^mitarbeit/i.test(w) ? "Mitarbeitende"
+      : w[0].toUpperCase() + w.slice(1).toLowerCase();
+    if (CLIENTISH.test(w)) {
+      if (n > 5000) continue;                     // absurd client count — discard
+      clientCounts.push({ value, n, label });     // defer: emit only one below
+      continue;
+    }
+    if (/^mitarbeit/i.test(w) && n > 500) continue; // implausible headcount — discard
     push(value, label);
+  }
+  // One client-count stat: prefer a plausible value (10–5000); among those, the
+  // largest; else the largest of whatever remains.
+  if (clientCounts.length) {
+    const inRange = clientCounts.filter((cc) => cc.n >= 10 && cc.n <= 5000);
+    const best = (inRange.length ? inRange : clientCounts).sort((a, b) => b.n - a.n)[0];
+    push(best.value, best.label);
   }
   for (const m of text.matchAll(/\b(\d{1,3})\s*Jahre[n]?\s+(?:Erfahrung|Praxis)\b/gi)) { const yrs = +m[1]; if (yrs >= MIN_YEARS) push(`${yrs}+`, "Jahre Erfahrung"); }
   return out.length >= 2 ? out.slice(0, 4) : undefined;
 }
 function realPricing(): SiteContent["pricing"]["tiers"] | undefined {
   if (!analysis.has?.pricing) return undefined;
-  const pPages = pages.filter((p) => /preis|tarif|pakete|angebot|kosten|pricing/i.test(`${p.url || ""} ${p.title || ""}`));
+  const pPages = dePages.filter((p) => /preis|tarif|pakete|angebot|kosten|pricing/i.test(`${p.url || ""} ${p.title || ""}`));
   const prices: string[] = [];
-  for (const p of (pPages.length ? pPages : [home])) {
+  for (const p of (pPages.length ? pPages : (homeDe ? [home] : []))) {
     const text = fixEncoding(p.text || "");
     for (const m of text.matchAll(/(?:ab\s*)?CHF\s?(\d{2,4})(?:\.[-–]|\.\d{2})?\s*(?:\/\s*|pro\s+)?(?:Monat|Mt\.?|mtl\.?)/gi)) {
       const v = `ab CHF ${m[1]}`;
@@ -1218,6 +1286,10 @@ function realPricing(): SiteContent["pricing"]["tiers"] | undefined {
     }
   }
   if (prices.length < 2) return undefined;
+  // Sort ASCENDING by the numeric CHF amount BEFORE name assignment, so the cheapest
+  // tier becomes "Starter" and the dearest "Komplett" (never "Komplett" < "Starter").
+  const amount = (p: string) => +((p.match(/(\d{2,4})/) || [])[1] || 0);
+  prices.sort((a, b) => amount(a) - amount(b));
   const names = ["Starter", "KMU", "Komplett", "Premium"];
   return prices.slice(0, 4).map((price, i) => ({ name: names[i] ?? `Paket ${i + 1}`, price, period: "/Monat", features: [], recommended: i === 1 }));
 }
@@ -1227,12 +1299,12 @@ function realPricing(): SiteContent["pricing"]["tiers"] | undefined {
 const VALUE_STOP = /leistung|dienstleistung|kontakt|impressum|datenschutz|team|über uns|ueber uns|standort|news|blog|preise|öffnungszeit|cookie|sitemap|navigation|autor|zusammenfassung|inhaltsverzeichnis|\bfazit\b|einleitung|quellen|kommentar|artikel|teilen|\bshare\b|weiterlesen/i;
 function realValues(): SiteContent["values"]["items"] | undefined {
   // only the firm's OWN positioning pages — never blog/ratgeber articles (noise)
-  const scan = pages.filter((p) => {
+  const scan = dePages.filter((p) => {
     const hay = `${p.url || ""} ${p.title || ""}`;
     return /ueber-?uns|über-?uns|about-?us|\babout\b|philosoph|leitbild|unsere-?werte|warum-?wir|vorteile|grundsatz|versprechen/i.test(hay)
       && !/blog|news|ratgeber|aktuell|artikel|magazin|publikation|\/20\d\d\//i.test(hay);
   });
-  const pool = scan.length ? scan : [home];
+  const pool = scan.length ? scan : (homeDe ? [home] : []);
   const items: { title: string; body: string }[] = [];
   const seen = new Set<string>();
   for (const p of pool) {
@@ -1240,9 +1312,12 @@ function realValues(): SiteContent["values"]["items"] | undefined {
     for (let i = 0; i < bl.length - 1; i++) {
       if (!/^h[2-4]$/.test(bl[i].tag)) continue;
       const title = bl[i].text;
-      if (title.length < 4 || title.length > 52 || /\?$/.test(title) || VALUE_STOP.test(title)) continue;
+      if (title.length < 4 || title.length > 52 || /[?!]$/.test(title) || VALUE_STOP.test(title)) continue;
+      if (teamNameSet.has(title.toLowerCase().trim())) continue; // a real team member's bio, not a value
       const nx = bl[i + 1];
-      if (!nx || nx.tag !== "p" || nx.text.length < 40 || nx.text.length > 320) continue;
+      // body must be real prose, not a parenthetical CTA fragment ("(30 Min.) – …").
+      if (!nx || nx.tag !== "p" || nx.text.length < 40 || nx.text.length > 320 || /^[([]/.test(nx.text)) continue;
+      if (looksFrench(title) || looksFrench(nx.text)) continue;   // French block on a mixed page
       const k = title.toLowerCase(); if (seen.has(k)) continue; seen.add(k);
       items.push({ title, body: nx.text });
       if (items.length >= 4) break;
@@ -1252,21 +1327,36 @@ function realValues(): SiteContent["values"]["items"] | undefined {
   return items.length >= 3 ? items.slice(0, 4) : undefined;
 }
 function realFaq(): SiteContent["faq"]["items"] | undefined {
-  const scan = pages.filter((p) => /faq|haeufig|häufig|fragen|wissen|q-?a|ratgeber/i.test(`${p.url || ""} ${p.title || ""}`));
-  const pool = scan.length ? scan : pages.slice(0, 10);
+  const scan = dePages.filter((p) => {
+    const hay = `${p.url || ""} ${p.title || ""}`;
+    if (/datenschutz|impressum|cookie|privacy|agb|blog|news|ratgeber|magazin|aktuell|\/20\d\d\//i.test(hay)) return false;
+    return /faq|haeufig|häufig|fragen|wissen|q-?a/i.test(hay);
+  });
+  // No fallback to arbitrary pages — better no FAQ than legal / blog noise.
+  if (!scan.length) return undefined;
+  const LEGAL_Q = /datenschutzerkl|personendaten|cookies?|bearbeiten wir ihre daten|welche daten|ihre rechte|widerruf|tracking/i;
+  const TEASER_A = /der komplette guide|in diesem beitrag|lesen sie|jetzt mehr erfahren/i;
   const items: { q: string; a: string }[] = [];
   const seen = new Set<string>();
-  for (const p of pool) {
+  for (const p of scan) {
     const bl = pageContentBlocks(p);
     for (let i = 0; i < bl.length - 1; i++) {
       const isQ = /^(h[2-4]|dt|summary)$/.test(bl[i].tag) && /\?$/.test(bl[i].text);
       if (!isQ) continue;
-      const q = bl[i].text;
+      let q = bl[i].text.replace(/^\s*\d{1,2}[.)]\s*/, ""); // strip a leading list number
       if (q.length < 10 || q.length > 160) continue;
+      if (LEGAL_Q.test(q)) continue;                        // privacy / legal question, not a real FAQ
       const nx = bl[i + 1];
       if (!nx || !/^(p|dd)$/.test(nx.tag) || nx.text.length < 25 || nx.text.length > 600) continue;
-      const k = q.slice(0, 40).toLowerCase(); if (seen.has(k)) continue; seen.add(k);
-      items.push({ q, a: nx.text });
+      const a = nx.text;
+      if (SVC_BOILER.test(a) || TEASER_A.test(a)) continue; // cookie/legal boilerplate or blog teaser
+      if (looksFrench(q) || looksFrench(a)) continue;       // French Q/A on a mixed page
+      // Reject truncated answers: must end on sentence punctuation/colon, unless long enough to stand alone.
+      if (!/[.!?:]$/.test(a) && a.length < 60) continue;
+      // Dedup similar questions by their first ~6 normalised words.
+      const k = q.toLowerCase().replace(/[^\wäöüéèàç\s]/g, "").split(/\s+/).filter(Boolean).slice(0, 6).join(" ");
+      if (!k || seen.has(k)) continue; seen.add(k);
+      items.push({ q, a });
       if (items.length >= 8) break;
     }
     if (items.length >= 8) break;
@@ -1274,15 +1364,161 @@ function realFaq(): SiteContent["faq"]["items"] | undefined {
   return items.length >= 3 ? items.slice(0, 8) : undefined;
 }
 function realTagline(): string | undefined {
-  if (desc && desc.length >= 20 && desc.length <= 160) return desc;
+  if (!homeDe) return undefined; // a French home gives no German tagline → scaffold
+  if (desc && desc.length >= 20 && desc.length <= 160 && !looksFrench(desc)) return desc;
   const h2s = (home.headings?.h2 || []).map((t: string) => fixEncoding(t));
-  return h2s.find((t: string) => t.length >= 15 && t.length <= 120 && /[a-zäöü]/.test(t) && !/leistung|kontakt|team|news|blog|impressum|cookie/i.test(t));
+  return h2s.find((t: string) => t.length >= 15 && t.length <= 120 && /[a-zäöü]/.test(t) && !looksFrench(t) && !/leistung|kontakt|team|news|blog|impressum|cookie/i.test(t));
+}
+
+/** REAL "Über uns" prose: lead + up to 3 paragraphs from the firm's own about /
+ *  philosophy / company page. Omitted (→ generic default) when no usable prose. */
+function realAbout(): AboutContent | undefined {
+  const scan = dePages.filter((p) => {
+    const hay = `${p.url || ""} ${p.title || ""}`;
+    return /ueber-?uns|über-?uns|about-?us|\babout\b|philosoph|leitbild|wer-wir|unternehmen|portrait|portr[äa]t|firma|geschichte|wir-ueber/i.test(hay)
+      && !/blog|news|ratgeber|aktuell|artikel|magazin|publikation|\/20\d\d\//i.test(hay);
+  });
+  for (const p of scan) {
+    const bl = pageContentBlocks(p);
+    const paras = [...new Set(bl.filter((b) => b.tag === "p" && b.text.length >= 60 && b.text.length <= 520
+      && /[.!?]/.test(b.text) && !SVC_BOILER.test(b.text) && !VALUE_STOP.test(b.text) && !looksFrench(b.text)).map((b) => b.text))];
+    if (paras.length < 2) continue;
+    const heads = [...(p.headings?.h1 || []), ...(p.headings?.h2 || [])].map((h: string) => fixEncoding(h).trim())
+      .filter((h) => h.length >= 6 && h.length <= 70 && !/\?$/.test(h) && !VALUE_STOP.test(h) && !/^\d/.test(h) && /[a-zäöü]/i.test(h) && !looksFrench(h));
+    return { eyebrow: "Über uns", heading: heads[0] || "Über uns", lead: paras[0], paragraphs: paras.slice(1, 4) };
+  }
+  return undefined;
+}
+
+/** REAL "So arbeiten wir" process: numbered step headings (+ body) from a page
+ *  describing the workflow. Conservative — needs ≥3 numbered steps with prose, so a
+ *  random list never masquerades as a process. Omitted (→ generic default) otherwise. */
+const STEP_NUM_RE = /^\s*(?:schritt\s*)?(\d{1,2})[.):\s]\s*(.{3,60})$/i;
+function realProcess(): ProcessContent | undefined {
+  // Only a dedicated workflow page — never a blog/ratgeber how-to article (those
+  // carry numbered "in N Schritten" headings that would masquerade as the firm's
+  // own client process). No generic fallback: no such page ⇒ neutral default.
+  const scan = dePages.filter((p) => {
+    const hay = `${p.url || ""} ${p.title || ""}`;
+    return /ablauf|vorgehen|so-?arbeiten|so-?funktioniert|zusammenarbeit|ihr-weg|onboarding|so-?gehts|so-?l[äa]uft|unser-?prozess|ihr-?prozess|wie-wir-arbeiten/i.test(hay)
+      && !/blog|news|ratgeber|aktuell|artikel|magazin|publikation|guide|tipps?|wissen|\/20\d\d\//i.test(hay);
+  });
+  for (const p of scan) {
+    const bl = pageContentBlocks(p);
+    const steps: StepItem[] = [];
+    const seen = new Set<string>();
+    for (let i = 0; i < bl.length - 1; i++) {
+      if (!/^h[2-4]$/.test(bl[i].tag)) continue;
+      const hm = bl[i].text.match(STEP_NUM_RE);
+      if (!hm) continue;
+      const title = hm[2].trim().replace(/[\s:–-]+$/, "");
+      const nx = bl[i + 1];
+      if (!title || /[a-zäöü]/i.test(title) === false) continue;
+      if (!nx || nx.tag !== "p" || nx.text.length < 30 || nx.text.length > 360 || SVC_BOILER.test(nx.text)) continue;
+      if (looksFrench(title) || looksFrench(nx.text)) continue; // French step on a mixed page
+      const k = title.toLowerCase(); if (seen.has(k)) continue; seen.add(k);
+      steps.push({ title, body: nx.text });
+      if (steps.length >= 6) break;
+    }
+    if (steps.length >= 3) return { eyebrow: "Ablauf", heading: "So arbeiten wir", steps };
+  }
+  return undefined;
+}
+
+/** REAL audience segmentation: (audience-noun heading + body) pairs from a "Für wen /
+ *  Zielgruppen / Branchen" page. Needs ≥3. Omitted (→ generic default) otherwise. */
+// Whole-word audience nouns only — NO bare stems (e.g. "gen" would match any
+// German "-gen" plural like "Erklärungen"/"Augenhöhe" and mislabel it an audience).
+const AUDIENCE_HINT = /\b(kmu|unternehmen|firmen|selbst[äa]ndige?|selbstst[äa]ndige?|freiberufler?|einzelfirmen?|einzelunternehmen?|privatpersonen?|private?|vereine?|stiftungen?|startups?|start-ups?|gr[üu]nder(innen)?|gewerbe|gastronomie|gastronomen|[äa]rzte|mediziner|handwerker?|immobilien|landwirte?|expats?|holdings?|genossenschaften?|freelancer?|gmbh|ag)\b/i;
+function realAudience(): AudienceContent | undefined {
+  const scan = dePages.filter((p) => /fuer-wen|für-wen|zielgrupp|branchen|kundenkreis|wen-wir|for-whom|mandate|kundensegment/i.test(`${p.url || ""} ${p.title || ""}`));
+  const pool = scan.length ? scan : (homeDe ? [home] : []);
+  for (const p of pool) {
+    const bl = pageContentBlocks(p);
+    const items: AudienceItem[] = [];
+    const seen = new Set<string>();
+    for (let i = 0; i < bl.length - 1; i++) {
+      if (!/^h[2-4]$/.test(bl[i].tag)) continue;
+      const title = bl[i].text;
+      if (title.length < 3 || title.length > 46 || /\?$/.test(title) || VALUE_STOP.test(title) || !AUDIENCE_HINT.test(title)) continue;
+      const nx = bl[i + 1];
+      if (!nx || nx.tag !== "p" || nx.text.length < 30 || nx.text.length > 300 || SVC_BOILER.test(nx.text)) continue;
+      if (looksFrench(nx.text)) continue;                       // French block on a mixed page
+      const k = title.toLowerCase(); if (seen.has(k)) continue; seen.add(k);
+      items.push({ title, body: nx.text });
+      if (items.length >= 4) break;
+    }
+    if (items.length >= 3) return { eyebrow: "Für wen", heading: "Für wen wir arbeiten", items };
+  }
+  return undefined;
+}
+
+/** REAL opening hours from the firm's structured data (schema.org
+ *  openingHoursSpecification / openingHours) — formatted to compact German
+ *  ("Mo–Fr 08:00–17:00 · Sa 09:00–12:00"). Returns undefined when none is
+ *  published, so the contact card omits hours rather than asserting a guess. */
+const DAY_IDX: Record<string, number> = {
+  mo: 0, mon: 0, monday: 0, montag: 0, tu: 1, tue: 1, tuesday: 1, di: 1, dienstag: 1,
+  we: 2, wed: 2, wednesday: 2, mi: 2, mittwoch: 2, th: 3, thu: 3, thursday: 3, do: 3, donnerstag: 3,
+  fr: 4, fri: 4, friday: 4, freitag: 4, sa: 5, sat: 5, saturday: 5, samstag: 5,
+  su: 6, sun: 6, sunday: 6, so: 6, sonntag: 6,
+};
+const DE_DAYS = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
+const dayIdx = (tok: string): number | undefined => DAY_IDX[tok.trim().toLowerCase().replace(/^.*\//, "").replace(/[^a-zäöü]/g, "")];
+const padTime = (t: string): string | undefined => { const m = String(t).match(/^(\d{1,2})[:.h](\d{2})$/); return m ? `${m[1].padStart(2, "0")}:${m[2]}` : undefined; };
+function realHours(): string | undefined {
+  const ranges = new Map<number, Set<string>>();
+  const addRange = (day: number, opens: string, closes: string) => {
+    const o = padTime(opens), c = padTime(closes);
+    if (o == null || c == null) return;
+    (ranges.get(day) ?? ranges.set(day, new Set()).get(day)!).add(`${o}–${c}`);
+  };
+  const addSpec = (spec: any) => {
+    for (const s of (Array.isArray(spec) ? spec : [spec])) {
+      if (!s || typeof s !== "object") continue;
+      const days = (Array.isArray(s.dayOfWeek) ? s.dayOfWeek : (s.dayOfWeek != null ? [s.dayOfWeek] : []))
+        .map((d: any) => dayIdx(String(d))).filter((x: number | undefined): x is number => x != null);
+      if (!days.length || !s.opens || !s.closes) continue;
+      for (const d of days) addRange(d, s.opens, s.closes);
+    }
+  };
+  // "Mo-Fr 08:00-17:00" | "Monday,Tuesday 09:00-17:00"
+  const addOHString = (str: string) => {
+    const m = str.match(/^\s*([A-Za-zÄÖÜäöü,–\-\s]+?)\s+(\d{1,2}[:.h]\d{2})\s*(?:[-–]|bis)\s*(\d{1,2}[:.h]\d{2})/);
+    if (!m) return;
+    for (const seg of m[1].split(",")) {
+      const rg = seg.split(/[–-]/).map((x) => dayIdx(x)).filter((x): x is number => x != null);
+      if (rg.length === 1) addRange(rg[0], m[2], m[3]);
+      else if (rg.length >= 2) for (let d = rg[0]; d <= rg[rg.length - 1]; d++) addRange(d, m[2], m[3]);
+    }
+  };
+  const walk = (o: any) => {
+    if (!o || typeof o !== "object") return;
+    if (Array.isArray(o)) { o.forEach(walk); return; }
+    if (o.openingHoursSpecification) addSpec(o.openingHoursSpecification);
+    if (o.openingHours) for (const s of (Array.isArray(o.openingHours) ? o.openingHours : [o.openingHours])) if (typeof s === "string") addOHString(s);
+    for (const k of Object.keys(o)) walk(o[k]);
+  };
+  for (const p of pages) for (const b of (p.jsonld || [])) walk(b);
+  if (!ranges.size) return undefined;
+  const val = (d: number) => [...(ranges.get(d) ?? [])].sort().join(", ");
+  const out: string[] = [];
+  for (let i = 0; i < 7;) {
+    if (!ranges.has(i)) { i++; continue; }
+    const v = val(i); let j = i;
+    while (j + 1 < 7 && ranges.has(j + 1) && val(j + 1) === v) j++;
+    out.push(`${i === j ? DE_DAYS[i] : `${DE_DAYS[i]}–${DE_DAYS[j]}`} ${v}`);
+    i = j + 1;
+  }
+  return out.length ? out.join(" · ") : undefined;
 }
 
 const h1: string = fixEncoding((home.headings?.h1 || [])[0] || "");
 const desc: string = fixEncoding(home.meta?.description || "");
-const heroHeadlineReal = h1 && h1.length > 8 && h1.length < 90 && h1.toLowerCase() !== firm.toLowerCase();
-const ledeReal = desc && desc.length > 30;
+// Hero headline/lede come from the HOME page — only honoured when the home is German
+// (a French home → German scaffold defaults), and never when the text itself is French.
+const heroHeadlineReal = homeDe && h1 && h1.length > 8 && h1.length < 90 && h1.toLowerCase() !== firm.toLowerCase() && !looksFrench(h1);
+const ledeReal = homeDe && desc && desc.length > 30 && !looksFrench(desc);
 
 // --- archetype (still drives variant affinity + per-page section sets) ---
 const a = analysis.has || {};
@@ -1305,12 +1541,36 @@ const trustItems = [...realCerts, ...realSoftware];
 
 // --- real social proof (or omitted) ---
 const serviceItems = services();
+// Dedup service summaries: no two services may show the same paragraph, and none
+// may echo the hero lede / its own meta.description. Collisions are replaced with
+// the service's curated default summary (SERVICE_CANON) or dropped (→ undefined).
+{
+  const curatedSummary = (title: string) => SERVICE_CANON.find((s) => s.title === title)?.summary;
+  const norm = (s?: string) => (s || "").toLowerCase().replace(/\s+/g, " ").trim();
+  const heroLede = norm(desc);
+  const usedSummaries = new Set<string>();
+  for (const s of serviceItems) {
+    const n = norm(s.summary);
+    if (!n) continue;
+    if (n === heroLede || usedSummaries.has(n)) {
+      const def = curatedSummary(s.title);
+      s.summary = def && !usedSummaries.has(norm(def)) ? def : undefined;
+      realServiceTitles.delete(s.title); // summary no longer real firm copy
+    }
+    if (s.summary) usedSummaries.add(norm(s.summary));
+  }
+}
 const testimonialItems = realTestimonials(c);
 const statItems = realStats();
 const pricingTiers = realPricing();
 const valueItems = realValues();
 const faqItems = realFaq();
 const tagline = realTagline();
+// --- real editorial sections (or omitted → composer renders a neutral default) ---
+const aboutContent = realAbout();
+const processContent = realProcess();
+const audienceContent = realAudience();
+const hours = realHours();
 
 // --- decide the structure from what the scrape actually shows ---
 const brief = decideStructure({
@@ -1334,6 +1594,15 @@ const fns = brief.functions;
 const bookCta = fns.onlineBooking ? "Termin buchen" : "Kontakt aufnehmen";
 const lookId = basePresetId; // kept for backwards-compat; affinity source for variants
 
+// Feature-band angles distilled from REAL editorial material only (the firm's own
+// values, then its real service copy) — so an image band echoes the firm's actual
+// positioning, not generic copy. None real ⇒ undefined ⇒ composer uses the crafted,
+// non-fabricated FEATURE_VARIANTS fallback.
+const realFeatureAngles: Omit<FeatureContent, "image">[] = [];
+for (const v of (valueItems ?? [])) realFeatureAngles.push({ eyebrow: "Unser Ansatz", heading: v.title, body: v.body, cta: { label: bookCta } });
+for (const s of serviceItems) if (realServiceTitles.has(s.title) && s.summary) realFeatureAngles.push({ eyebrow: "Leistung", heading: s.title, body: s.summary, bullets: s.bullets?.slice(0, 3), cta: { label: bookCta } });
+const featureAngles = realFeatureAngles.length ? realFeatureAngles.slice(0, 4) : undefined;
+
 const content: SiteContent = {
   meta: {
     firm, domain: site.domain, archetype: arch, lookId, sourceUrl: site.start_url,
@@ -1345,6 +1614,11 @@ const content: SiteContent = {
       faqItems ? null : "faq",
       tagline ? null : "footer.tagline",
       realServiceTitles.size ? null : "services.text",
+      // safe-generic sections: scaffolded copy renders when the scrape exposed none.
+      processContent ? null : "process (generic)",
+      audienceContent ? null : "audience (generic)",
+      aboutContent ? null : "about (generic)",
+      featureAngles ? null : "feature (generic)",
       derived.colourSource === "generated" ? "look.colors (generated)" : null,
       media.stock ? "media.stock (CC fallback)" : null,
       // team is real-only now (no generic fallback) → never a placeholder, just absent.
@@ -1356,6 +1630,9 @@ const content: SiteContent = {
       realTeam && realTeam.some((m) => m.photo) ? "team.photos" : null,
       testimonialItems ? "testimonials" : null, statItems ? "stats" : null,
       valueItems ? "values" : null, faqItems ? "faq" : null,
+      aboutContent ? "about" : null, processContent ? "process" : null,
+      audienceContent ? "audience" : null, featureAngles ? "feature" : null,
+      hours ? "contact.hours" : null,
       tagline ? "footer.tagline" : null, testimonialItems ? "hero.aside" : null,
       pricingTiers ? "pricing" : null, trustItems.length ? "trust.items" : null,
       media.assets.length ? "media.pool" : null,
@@ -1386,6 +1663,12 @@ const content: SiteContent = {
   },
   services: { eyebrow: "Leistungen", heading: "Alles aus einer Hand.", items: serviceItems },
   values: { eyebrow: "Warum wir", heading: "Ihr Vorteil.", items: valueItems ?? [] },
+  // Scrape-driven where the firm exposed it; undefined ⇒ composer renders a neutral
+  // default (omitted from the JSON, so the provenance flags it as "(generic)").
+  about: aboutContent,
+  process: processContent,
+  audience: audienceContent,
+  featureAngles,
   team: {
     eyebrow: "Team", heading: "Menschen, die Ihre Zahlen kennen.",
     // Real members only — never fabricate generic placeholders. An empty list
@@ -1408,8 +1691,9 @@ const content: SiteContent = {
   contact: {
     eyebrow: "Kontakt", heading: "Sprechen wir.",
     info: {
-      address: undefined, phone: site.contact?.phones?.[0], email: site.contact?.emails?.[0],
-      hours: "Mo–Fr 08:00–17:00",
+      address: site.contact?.address ?? c, phone: site.contact?.phones?.[0], email: site.contact?.emails?.[0],
+      // Real published hours (schema.org) or omitted — never a guessed default.
+      hours,
     },
     formCta: "Nachricht senden",
   },
@@ -1435,5 +1719,6 @@ const dropped = ["partners", "team", "testimonials", "stats", "pricing"].filter(
 console.log(`Extracted ${slug} -> archetype=${arch} base=${basePresetId} color=${derived.tokens.color.primary} (${derived.colourSource}; scraped=${brand.primary ?? "none"}/${brand.confidence})${brand.heading ? " font=" + brand.heading.family : ""}`);
 console.log(`  media: ${media.assets.length} assets (logo=${media.logo ? "y" : "n"} badges=${media.badges.length} photos=${media.photos.length} serviceImages=${Object.keys(media.serviceImages || {}).length}) docs=${media.documents.length} optimized=${opt.n} (-${(opt.saved / 1048576).toFixed(1)}MB) prunedLowQ=${droppedLowQ} faces=${facePhotos} clip=${clip.refined}r/${clip.removed}x stock=${stockN}${media.stock ? " (CC fallback)" : ""}`);
 console.log(`  homepage: ${brief.homepageSlots.join(" › ")}`);
+console.log(`  editorial: about=${aboutContent ? "y" : "n"} process=${processContent ? processContent.steps.length + "steps" : "n"} audience=${audienceContent ? audienceContent.items.length + "items" : "n"} feature=${featureAngles ? featureAngles.length + "angles" : "generic"} hours=${hours ? "y(" + hours + ")" : "n"}`);
 console.log(`  dropped:  ${dropped.length ? dropped.join(", ") : "none"}  | pages: ${brief.pageRefs.map((r) => r.pageType).join(", ")}`);
 console.log(`  fns: booking=${fns.onlineBooking} jobs=${fns.jobs} | media=${media.assets.length}(logo=${media.logo ? "y" : "n"} badges=${media.badges.length})`);

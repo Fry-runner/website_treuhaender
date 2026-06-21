@@ -21,12 +21,12 @@ export const SectionHead: React.FC<{ eyebrow: string; heading: string; center?: 
     </div>
   );
   return (
-    <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: "1rem", flexWrap: "wrap", marginBottom: "2.2rem" }}>
+    <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: "1rem", flexWrap: "wrap", marginBottom: "var(--ds-space-block, 2.2rem)" }}>
       {headingBlock}
       {more && (
         <a href={more.href} onClick={(e) => { e.preventDefault(); navigate(more.href); }} style={{
           fontFamily: "var(--ds-font-body)", fontSize: "0.88rem", fontWeight: 600,
-          color: "var(--ds-primary)", textDecoration: "none", cursor: "pointer", whiteSpace: "nowrap", paddingBottom: "0.3rem",
+          color: "var(--ds-primary-ink, var(--ds-primary))", textDecoration: "none", cursor: "pointer", whiteSpace: "nowrap", paddingBottom: "0.3rem",
         }}>
           {more.label}<Icon name="arrowRight" size={14} style={{ verticalAlign: "-0.1em", marginLeft: "0.35em" }} />
         </a>

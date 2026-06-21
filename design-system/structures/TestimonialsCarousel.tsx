@@ -4,6 +4,9 @@ import { Icon } from "../icons/iconSets";
 import { usePrefersReducedMotion } from "../motion/Reveal";
 import type { TestimonialsContent } from "../content/types";
 
+/** Build the attribution line from the present fields only — no dangling "·". */
+const meta = (t: { company?: string; city?: string }) => [t.company, t.city].filter(Boolean).join(" · ");
+
 /** Testimonials variant: a SLIDER — one quote at a time, auto-advancing, with
  *  prev/next + dots. Token-only. (soft/friendly element.) */
 export const TestimonialsCarousel: React.FC<{ content: TestimonialsContent }> = ({ content }) => {
@@ -37,7 +40,7 @@ export const TestimonialsCarousel: React.FC<{ content: TestimonialsContent }> = 
             “{t.quote}”
           </blockquote>
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.74rem",   color: "var(--ds-text-muted)" }}>
-            <strong style={{ color: "var(--ds-text)" }}>{t.person}</strong> · {t.company} · {t.city}
+            <strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{meta(t) && <> · {meta(t)}</>}
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginTop: "0.4rem" }}>
             <button onClick={() => go(idx - 1)} aria-label="prev" style={navBtn}>‹</button>
