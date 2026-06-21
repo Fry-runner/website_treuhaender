@@ -18,7 +18,7 @@ import { NavigationContext } from "./nav-context";
 import { Reveal } from "../motion/Reveal";
 import { useBrandFonts } from "../looks/useBrandFonts";
 import { ResponsiveStyles } from "../structures/Responsive";
-import { defaultProcess, defaultAudience, defaultAbout, defaultFeature, withGenericSlots, injectFeature } from "../content/sectionDefaults";
+import { defaultProcess, defaultAudience, defaultAbout, defaultFeature, withGenericSlots, enforceImageRhythm } from "../content/sectionDefaults";
 import type { SiteContent } from "../content/types";
 
 import { Nav } from "../structures/Nav";
@@ -190,7 +190,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       case "process": { const C = sectionComponent("process", renderPlan); return C ? <C key={i} content={defaultProcess()} /> : null; }
       case "audience": { const C = sectionComponent("audience", renderPlan); return C ? <C key={i} content={defaultAudience()} /> : null; }
       case "about": { const C = sectionComponent("about", renderPlan); return C ? <C key={i} content={defaultAbout()} /> : null; }
-      case "feature": { const C = sectionComponent("feature", renderPlan); const img = content.media?.photos?.[0] ?? content.media?.sectionBackgrounds?.[0]; return (C && img) ? <C key={i} content={defaultFeature(img)} /> : null; }
+      case "feature": { const C = sectionComponent("feature", renderPlan); if (!C || !featurePool.length) return null; const ord = rhythmSections.slice(0, i).filter((x) => x === "feature").length; return <C key={i} content={defaultFeature(featurePool[ord % featurePool.length], ord)} />; }
       case "testimonials": { const C = sectionComponent("testimonials", renderPlan) ?? Testimonials; return <C key={i} content={content.testimonials} />; }
       case "faq": { const C = sectionComponent("faq", renderPlan) ?? Faq; return <C key={i} content={content.faq} />; }
       case "gallery": { const C = sectionComponent("gallery", renderPlan); if (!C) return null; const { items, more } = homeTeaser("gallery", galleryContent.images); return <C key={i} content={{ ...galleryContent, images: items }} more={more} />; }
@@ -208,8 +208,21 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   // has >=3 REAL gallery-suitable photos (media.photos is scrape-only — no stock, no
   // portraits); fewer than that ⇒ no gallery. The studio can still force one.
   const wantGallery = (content.media?.photos?.length ?? 0) >= 3 || !!sectionOverrides?.["gallery"];
-  const featImg = content.media?.photos?.[0] ?? content.media?.sectionBackgrounds?.[0];
-  const homeSections = isHome ? (featImg ? injectFeature(withGenericSlots(page.sections)) : withGenericSlots(page.sections)) : page.sections;
+  // Feature-band image pool, distinct: real wide shots first, then stock landscape,
+  // then gallery photos. Stock IS allowed for feature bands (unlike the gallery) so
+  // the image rhythm can always come back to a picture even on image-poor firms.
+  const stockSrcs = new Set((content.media?.assets ?? []).filter((a) => a.stock).map((a) => a.src));
+  const bgs = content.media?.sectionBackgrounds ?? [];
+  const stockLand = (content.media?.assets ?? []).filter((a) => a.stock && a.orientation === "landscape").map((a) => a.src);
+  // Prefer REAL images (real wide shots, then real photos); fall back to stock only
+  // when the scrape lacks enough — the briefing's honesty rule, applied to bands.
+  const featurePool = [...new Set([
+    ...bgs.filter((s) => !stockSrcs.has(s)),
+    ...(content.media?.photos ?? []),
+    ...bgs.filter((s) => stockSrcs.has(s)),
+    ...stockLand,
+  ])].filter(Boolean) as string[];
+  const homeSections = isHome ? withGenericSlots(page.sections) : page.sections;
   const displaySections = isHome && wantGallery && !homeSections.includes("gallery")
     ? (() => { const at = homeSections.indexOf("cta"); return at >= 0 ? [...homeSections.slice(0, at), "gallery", ...homeSections.slice(at)] : [...homeSections, "gallery"]; })()
     : homeSections;
@@ -232,9 +245,23 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
     }
   };
   const visibleSections = displaySections.filter(slotHasContent);
+  // Image rhythm: never more than 2 image-less content sections in a row — insert an
+  // image-forward feature band (real photo, else stock) to break a longer run, so the
+  // page keeps coming back to a picture.
+  const isImageSection = (slot: string): boolean => {
+    switch (slot) {
+      case "feature": case "gallery": return true;
+      case "hero": return !!content.hero?.image && (imageHeroIds.includes(resolvedHeroId) || !homeImaged);
+      case "page-header": return /image-/.test(plan.pageHeaderId) && !!headerImageFor(page);
+      case "team": return content.team.members.some((m) => m.photo) && activePlan.sections.team !== "team/plain";
+      case "services": return activePlan.sections.services === "services/media-cards";
+      default: return false;
+    }
+  };
+  const rhythmSections = enforceImageRhythm(visibleSections, isImageSection, featurePool.length > 0);
   // Now that the rendered order is known, keep two same-family sections from sitting
   // directly adjacent (studio-forced slots stay locked).
-  const decollided = decollideSections(visibleSections, activePlan, content, {
+  const decollided = decollideSections(rhythmSections, activePlan, content, {
     seed, locked: new Set(Object.keys(sectionOverrides ?? {})),
   });
   // On the dedicated Team page, give each person more room: swap the compact
@@ -251,7 +278,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       <IconSetProvider value={iconSetById(plan.iconSetId)}>
       <PrimaryStyleProvider value={buttonStyle}>
         <NavigationContext.Provider value={navigate}>
-          {visibleSections.map((s, i) => {
+          {rhythmSections.map((s, i) => {
             const node = renderSlot(s, i);
             if (!node) return null;
             // nav is sticky — wrapping it in a transform would break sticky; render raw

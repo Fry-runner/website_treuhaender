@@ -3,7 +3,7 @@
  * White text over a primary→secondary gradient. Reduced-motion safe.
  */
 import React from "react";
-import { Container } from "./primitives";
+import { Container, ActionButton } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import type { CtaContent } from "../content/types";
 
@@ -25,12 +25,12 @@ export const CtaGradient: React.FC<{ content: CtaContent }> = ({ content }) => (
           {content.heading}
         </h2>
         <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "1.05rem", lineHeight: 1.55, color: "var(--ds-primary-fg)", opacity: 0.92, maxWidth: "46ch", margin: 0 }}>{content.sub}</p>
-        <button style={{
-          marginTop: "0.4rem", fontFamily: "var(--ds-font-body)", fontSize: "0.8rem", 
+        <ActionButton to="/kontakt" style={{
+          marginTop: "0.4rem", fontFamily: "var(--ds-font-body)", fontSize: "0.8rem",
            fontWeight: 600, padding: "0.9rem 1.8rem", borderRadius: "var(--ds-radius-pill)",
           background: "var(--ds-bg)", color: "var(--ds-text)", border: "none", cursor: "pointer" }}>
           {content.button} <Icon name="arrowRight" size={14} style={{ verticalAlign: "-0.1em" }} />
-        </button>
+        </ActionButton>
       </div>
     </Container>
   </section>

@@ -2,7 +2,7 @@
  * CTA STRUCTURES — batch 2. Same CtaContent ({heading, sub, button}); token-only.
  */
 import React from "react";
-import { Container, Button } from "./primitives";
+import { Container, Button, ActionButton } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import type { CtaContent } from "../content/types";
 
@@ -20,7 +20,7 @@ export const CtaGradientSplit: React.FC<Props> = ({ content }) => (
           <h2 style={{ ...h2, color: "var(--ds-primary-fg)" }}>{content.heading}</h2>
           <p style={{ ...sub, color: "var(--ds-primary-fg)", opacity: 0.92 }}>{content.sub}</p>
         </div>
-        <button style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.8rem",   fontWeight: 600, padding: "0.95rem 1.8rem", borderRadius: "var(--ds-radius-pill)", background: "var(--ds-bg)", color: "var(--ds-text)", border: "none", cursor: "pointer", whiteSpace: "nowrap" }}>{content.button} <Icon name="arrowRight" size={14} style={{ verticalAlign: "-0.1em" }} /></button>
+        <ActionButton to="/kontakt" style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.8rem",   fontWeight: 600, padding: "0.95rem 1.8rem", borderRadius: "var(--ds-radius-pill)", background: "var(--ds-bg)", color: "var(--ds-text)", border: "none", cursor: "pointer", whiteSpace: "nowrap" }}>{content.button} <Icon name="arrowRight" size={14} style={{ verticalAlign: "-0.1em" }} /></ActionButton>
       </div>
     </Container>
   </section>

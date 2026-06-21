@@ -4,7 +4,7 @@
  * when present; otherwise falls back to a token-driven gradient placeholder.
  */
 import React from "react";
-import { Container, Eyebrow, Heading, Accent, Lede, Button } from "./primitives";
+import { Container, Eyebrow, Heading, Accent, Lede, Button, ActionButton } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import type { HeroContent } from "../content/types";
 
@@ -72,8 +72,8 @@ export const HeroImageFull: React.FC<{ content: HeroContent }> = ({ content }) =
         </h1>
         <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "1.1rem", lineHeight: 1.6, color: "rgba(255,255,255,0.92)", maxWidth: "50ch", margin: 0 }}>{content.lede}</p>
         <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", marginTop: "0.3rem" }}>
-          <button style={{ ...lightBtn, background: "#fff", color: "#111", border: "none" }}>{content.primaryCta} <Icon name="arrowRight" size={14} style={{ verticalAlign: "-0.1em" }} /></button>
-          <button style={{ ...lightBtn, background: "transparent", color: "#fff", border: "1px solid rgba(255,255,255,0.7)" }}>{content.secondaryCta}</button>
+          <ActionButton to="/kontakt" style={{ ...lightBtn, background: "#fff", color: "#111", border: "none" }}>{content.primaryCta} <Icon name="arrowRight" size={14} style={{ verticalAlign: "-0.1em" }} /></ActionButton>
+          <ActionButton to="/leistungen" style={{ ...lightBtn, background: "transparent", color: "#fff", border: "1px solid rgba(255,255,255,0.7)" }}>{content.secondaryCta}</ActionButton>
         </div>
       </div>
     </Container>

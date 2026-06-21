@@ -150,3 +150,15 @@ export const Button: React.FC<BtnProps> = ({ children, variant = "primary", onCl
     </button>
   );
 };
+
+/** A style-passthrough button that ALWAYS navigates (default: the contact/booking
+ *  path). Use it for CTAs whose look is hand-styled (e.g. light buttons on a dark
+ *  hero scrim) so they stay clickable without adopting the token Button style. */
+export const ActionButton: React.FC<React.PropsWithChildren<{ to?: string; style?: React.CSSProperties; ariaLabel?: string }>> = ({ children, to, style, ariaLabel }) => {
+  const navigate = useNavigate();
+  return (
+    <button type="button" aria-label={ariaLabel} onClick={() => navigate(to ?? "/kontakt")} style={style}>
+      {children}
+    </button>
+  );
+};
