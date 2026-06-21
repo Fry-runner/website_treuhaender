@@ -20,6 +20,8 @@ import type { PrimaryStyle } from "./structures/primitives";
 import { composeSite, pageTypes } from "./pages";
 import { archetypes, type ArchetypeId } from "./blueprints";
 import { SiteRouter } from "./compose/SiteRouter";
+import { ApproveOverlay } from "./compose/ApproveOverlay";
+import type { PublishedManifest } from "./compose/outreach";
 
 const content = active as unknown as SiteContent;
 
@@ -75,7 +77,9 @@ const VariantStudio = () => {
   const [firmSlug, setFirmSlug] = useState<string>(DEFAULT_SLUG);
   const [loadingFirm, setLoadingFirm] = useState(false);
   const [pitchOn, setPitchOn] = useState(false);
-  const resetControls = () => { setSeed(0); setLookId("auto"); setHeroId("auto"); setBtn("auto"); setKitId("auto"); setSecs({}); };
+  const [imageSeed, setImageSeed] = useState(0);
+  const [approveOpen, setApproveOpen] = useState(false);
+  const resetControls = () => { setSeed(0); setLookId("auto"); setHeroId("auto"); setBtn("auto"); setKitId("auto"); setSecs({}); setImageSeed(0); };
   // Generate a REAL, current version of ONE firm on demand (runs extract.ts via the
   // dev endpoint /__generate). Used automatically for stale firms + the 🔄 button.
   const generateFirm = (slug: string) => {
@@ -135,6 +139,14 @@ const VariantStudio = () => {
             {pitchOn ? "🛡 Kaltakquise: AN" : "🛡 Kaltakquise: AUS"}
           </button>
         </Field>
+        <Field label="Freigabe">
+          <button onClick={() => setApproveOpen(true)} disabled={loadingFirm}
+            title="Diesen Prototyp durchwinken: auf Vercel veröffentlichen + Outreach-E-Mail mit Link formulieren"
+            style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.74rem", fontWeight: 700, padding: "6px 14px", borderRadius: 8,
+              cursor: "pointer", whiteSpace: "nowrap", border: "1px solid #34d399", background: "#34d399", color: "#0b0b0c" }}>
+            ✅ Durchwinken &amp; Versenden
+          </button>
+        </Field>
         <Field label="Stil-Kit · Kombination">
           <select style={selectStyle} value={kitId} onChange={(e) => setKitId(e.target.value)}>
             <option value="auto">Auto · {plan.kitId}</option>
@@ -179,7 +191,16 @@ const VariantStudio = () => {
         </div>
       </div>
       <Bar text={`Generierte Website · ${firm.meta.firm}`} sub={`${rLook} · ${rHero} · button:${rBtn}${pitchOn ? " · KALTAKQUISE" : ""}`} />
-      <SiteRouter key={`${firmSlug}|${seed}|${lookId}|${heroId}|${btn}|${kitId}|${JSON.stringify(secs)}|${pitchOn}`} content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} sectionOverrides={sectionOverrides} kitId={kitSel} pitch={pitchOn} />
+      <SiteRouter key={`${firmSlug}|${seed}|${lookId}|${heroId}|${btn}|${kitId}|${JSON.stringify(secs)}|${pitchOn}|${imageSeed}`} content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} sectionOverrides={sectionOverrides} kitId={kitSel} pitch={pitchOn} imageSeed={imageSeed} />
+      <ApproveOverlay
+        open={approveOpen} onClose={() => setApproveOpen(false)}
+        firm={firm} firmSlug={firmSlug} loadingFirm={loadingFirm}
+        onRegenerate={() => generateFirm(firmSlug)}
+        lookId={lookId} setLookId={setLookId} heroId={heroId} setHeroId={setHeroId}
+        btn={btn} setBtn={setBtn} kitId={kitId} setKitId={setKitId}
+        secs={secs} setSecs={setSecs} seed={seed} setSeed={setSeed}
+        pitchOn={pitchOn} setPitchOn={setPitchOn}
+        imageSeed={imageSeed} setImageSeed={setImageSeed} />
     </div>
   );
 };
@@ -330,9 +351,45 @@ const BareSite = () => {
       {params.has("still") && (
         <style>{`*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}`}</style>
       )}
-      <SiteRouter content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} kitId={kitSel} pitch={params.has("pitch")} />
+      <SiteRouter content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} kitId={kitSel} pitch={params.has("pitch")} imageSeed={Number(params.get("imageSeed")) || 0} />
     </>
   );
 };
 
-createRoot(document.getElementById("root")!).render(isBare ? <BareSite /> : <App />);
+// --- PUBLIC PROTOTYPE ROUTE: /p/<slug> ------------------------------------------
+// The link that goes into the outreach e-mail. Renders ONE approved firm in its
+// frozen plan (read from /published.json, written on "Durchwinken"), chrome-free.
+// One Vercel deploy serves every prototype this way. In dev the same path works
+// via Vite's SPA fallback. Falls back to an auto-plan pitch render if no record
+// exists yet, and to a 404-style notice if the firm is unknown.
+const protoMatch = location.pathname.match(/^\/p\/([a-z0-9._-]+)\/?$/i);
+
+const Centered: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <div style={{ minHeight: "100vh", display: "grid", placeItems: "center", fontFamily: "ui-monospace, monospace", color: "#555", fontSize: "0.85rem", padding: 24, textAlign: "center" }}>{children}</div>
+);
+
+const PrototypeSite: React.FC<{ slug: string }> = ({ slug }) => {
+  const entry = firmList.find((f) => f.slug === slug);
+  const [firm, setFirm] = useState<SiteContent | null>(slug === DEFAULT_SLUG ? content : null);
+  const [rec, setRec] = useState<PublishedManifest[string] | null | undefined>(undefined);
+  const [missing, setMissing] = useState(false);
+  useEffect(() => {
+    fetch("/published.json").then((r) => (r.ok ? r.json() : {})).then((m: PublishedManifest) => setRec(m[slug] ?? null)).catch(() => setRec(null));
+    if (slug === DEFAULT_SLUG) return;
+    if (!entry) { setMissing(true); return; }
+    loadFirm(entry.path).then(setFirm).catch(() => setMissing(true));
+  }, [slug]);
+
+  if (missing) return <Centered>Kein Prototyp für „{slug}".</Centered>;
+  if (!firm || rec === undefined) return <Centered>Prototyp wird geladen …</Centered>;
+  // No frozen record → render a sensible default (pitch on; auto plan from seed 0).
+  const p = rec ?? { seed: 0, pitch: true } as PublishedManifest[string];
+  return (
+    <SiteRouter content={firm} seed={p.seed} lookId={p.lookId} heroId={p.heroId}
+      primaryStyle={p.primaryStyle} kitId={p.kitId} sectionOverrides={p.sectionOverrides}
+      pitch={p.pitch !== false} imageSeed={p.imageSeed} />
+  );
+};
+
+const root = createRoot(document.getElementById("root")!);
+root.render(protoMatch ? <PrototypeSite slug={protoMatch[1]} /> : isBare ? <BareSite /> : <App />);

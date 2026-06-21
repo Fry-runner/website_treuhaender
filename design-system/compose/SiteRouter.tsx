@@ -78,23 +78,44 @@ export interface SiteRouterProps {
    *  scraped photos (gallery hidden; only licensed stock may show). Recognition is
    *  carried by the brand colour + name + structure, which stay. */
   pitch?: boolean;
+  /** Re-roll ONLY the imagery (hero/service/gallery/background) without touching the
+   *  layout/variant plan: in pitch mode it shifts the licensed-stock picks, in real
+   *  mode it rotates the firm's own photo pools. 0/undefined = the deterministic default. */
+  imageSeed?: number;
 }
 
-export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, archetype, seed, lookId, heroId, primaryStyle, sectionOverrides, kitId, pitch }) => {
+export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, archetype, seed, lookId, heroId, primaryStyle, sectionOverrides, kitId, pitch, imageSeed }) => {
   // No photo may appear twice across the site — hero/service/gallery/background
   // disjoint (team photos exempt). Applied once before planning/rendering.
   const content = React.useMemo(() => {
-    const c = dedupeImages(rawContent);
-    if (!pitch) return c;
+    let c = dedupeImages(rawContent);
+    const k = imageSeed ?? 0;
+    if (!pitch) {
+      // Real-image re-roll: rotate the firm's own photo pools so a different photo
+      // lands in the hero / gallery / feature bands (k===0 → untouched default).
+      if (k) {
+        const rot = <T,>(a: T[]): T[] => { if (!a.length) return a; const n = ((k % a.length) + a.length) % a.length; return [...a.slice(n), ...a.slice(0, n)]; };
+        const photos = rot(c.media?.photos ?? []);
+        const bgs = rot([...(c.media?.sectionBackgrounds ?? [])].reverse());
+        const pool = [c.hero?.image, ...bgs, ...photos].filter(Boolean) as string[];
+        const heroImg = pool.length ? pool[k % pool.length] : c.hero?.image;
+        c = {
+          ...c,
+          hero: { ...c.hero, image: heroImg },
+          media: { ...c.media, photos: photos.filter((s) => s !== heroImg), sectionBackgrounds: bgs.filter((s) => s !== heroImg) },
+        };
+      }
+      return c;
+    }
     // Cold-acquisition: keep EVERY section, but swap the firm's real/scraped photos
     // for licensed stock (served at /stock). Logo → name wordmark; third-party
     // badges dropped (a badge has no stock equivalent); team → monogram (no portrait
     // stock — never fake a real person's face). Recognition stays via brand colour +
     // name + structure. Picks are deterministic per firm so they're stable.
     const dom = c.meta.domain || c.meta.firm || "x";
-    const heroImg = stockPick(STOCK_TOPICS.hero, dom + "/hero", 1)[0];
+    const heroImg = stockPick(STOCK_TOPICS.hero, dom + "/hero", 1, k)[0];
     const svcImgs: Record<string, string> = {};
-    (c.services?.items ?? []).forEach((s, i) => { const u = stockPick(STOCK_TOPICS.work, dom + "/svc/" + s.title, 1, i)[0]; if (u) svcImgs[s.title] = u; });
+    (c.services?.items ?? []).forEach((s, i) => { const u = stockPick(STOCK_TOPICS.work, dom + "/svc/" + s.title, 1, i + k * 7)[0]; if (u) svcImgs[s.title] = u; });
     return {
       ...c,
       nav: { ...c.nav, logo: undefined, logoLight: undefined },
@@ -110,12 +131,12 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
         ...c.media,
         logo: undefined, logoLight: undefined, hero: heroImg,
         badges: [],
-        photos: stockPick(STOCK_TOPICS.scene, dom + "/gallery", 8),
-        sectionBackgrounds: stockPick(STOCK_TOPICS.wide, dom + "/bg", 3),
+        photos: stockPick(STOCK_TOPICS.scene, dom + "/gallery", 8, k),
+        sectionBackgrounds: stockPick(STOCK_TOPICS.wide, dom + "/bg", 3, k),
         serviceImages: svcImgs,
       },
     };
-  }, [rawContent, pitch]);
+  }, [rawContent, pitch, imageSeed]);
   const arch = (archetype ?? (content.meta.archetype as ArchetypeId)) || "boutique";
   useBrandFonts(content.meta.fontsToLoad);
   const baseId = content.meta.basePresetId ?? content.meta.lookId;
@@ -125,7 +146,10 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   // adjacency de-collision pass (after the page's section order is known) reassigns
   // this so no two neighbouring sections share a layout family.
   let renderPlan = activePlan;
-  const look = lookId ? presets[lookId] : (content.meta.look ?? presets[plan.lookId] ?? presets[content.meta.lookId]);
+  // A forced lookId wins ONLY if it resolves to a real preset; an unknown id (e.g. a
+  // published-plan record frozen against a since-renamed preset) falls back to the
+  // brand/auto look instead of crashing the whole render with `undefined`.
+  const look = (lookId && presets[lookId]) ? presets[lookId] : (content.meta.look ?? presets[plan.lookId] ?? presets[content.meta.lookId]);
   const Hero = heroById(heroId ?? plan.heroId).component;
   const buttonStyle = primaryStyle ?? plan.primaryStyle;
   // Per-firm section framing (deterministic by domain+seed) so headings vary

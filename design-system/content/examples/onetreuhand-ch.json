@@ -167,7 +167,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
@@ -195,6 +194,7 @@
       "faq",
       "process (generic)",
       "audience (generic)",
+      "about (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -209,7 +209,6 @@
       "team.photos",
       "testimonials",
       "values",
-      "about",
       "feature",
       "footer.tagline",
       "hero.aside",
@@ -668,6 +667,10 @@
     "heading": "Ihr Vorteil.",
     "items": [
       {
+        "title": "Deutliche Kostensenkung",
+        "body": "Viele Unternehmen, insbesondere KMU oder Start-ups, stehen ständig vor der Herausforderung, ihre Ausgaben zu optimieren. Die Einstellung eines Vollzeit-CFOs kann teuer sein."
+      },
+      {
         "title": "Flexibilität und Anpassungsfähigkeit",
         "body": "In der heutigen schnelllebigen Geschäftswelt ist Anpassungsfähigkeit ein Schlüssel zum Erfolg. Externe CFOs können flexibel auf die ständig wechselnden Bedingungen und Anforderungen von Unternehmen reagieren."
       },
@@ -678,24 +681,18 @@
       {
         "title": "Ihr externer CFO mit Weitsicht",
         "body": "Saubere finanzielle Entscheidungen und Planung aus der Perspektive Dritter!"
-      },
-      {
-        "title": "Gezieltes Finanzmanagement und Strategie",
-        "body": "Egal ob es um die Vorbereitung auf eine Kapitalerhöhung, die Optimierung der Liquidität oder die Überarbeitung des Geschäftsmodells geht, ein externer CFO kann sich auf spezifische Projekte konzentrieren und so sicherstellen, dass die Finanzen in bester Ordnung sind."
       }
     ]
   },
-  "about": {
-    "eyebrow": "Über uns",
-    "heading": "Der Grundunterschied: nicht nur Aufwand, sondern Systemlogik",
-    "lead": "Die richtige MWST-Methode senkt nicht nur Aufwand, sondern verhindert auch teure Fehlentscheide bei Vorsteuer, Liquidität und Abrechnung.",
-    "paragraphs": [
-      "Rodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH. Als",
-      "begleitet er Unternehmerinnen und Unternehmer in der ganzen Schweiz mit klaren Zahlen, digitalen Prozessen und persönlicher Beratung auf Augenhöhe.",
-      "Der Abschluss „eidg. diplomierter Experte in Rechnungslegung und Controlling“ entspricht dem Qualifikationsniveau NQR 8 und liegt damit auf dem höchsten Bildungsniveau – vergleichbar mit einem Doktorat in Bezug auf fachliche Tiefe und Verantwortung."
-    ]
-  },
   "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Deutliche Kostensenkung",
+      "body": "Viele Unternehmen, insbesondere KMU oder Start-ups, stehen ständig vor der Herausforderung, ihre Ausgaben zu optimieren. Die Einstellung eines Vollzeit-CFOs kann teuer sein.",
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
     {
       "eyebrow": "Unser Ansatz",
       "heading": "Flexibilität und Anpassungsfähigkeit",
@@ -716,14 +713,6 @@
       "eyebrow": "Unser Ansatz",
       "heading": "Ihr externer CFO mit Weitsicht",
       "body": "Saubere finanzielle Entscheidungen und Planung aus der Perspektive Dritter!",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Gezieltes Finanzmanagement und Strategie",
-      "body": "Egal ob es um die Vorbereitung auf eine Kapitalerhöhung, die Optimierung der Liquidität oder die Überarbeitung des Geschäftsmodells geht, ein externer CFO kann sich auf spezifische Projekte konzentrieren und so sicherstellen, dass die Finanzen in bester Ordnung sind.",
       "cta": {
         "label": "Termin buchen"
       }

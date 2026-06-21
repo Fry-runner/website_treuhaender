@@ -66,7 +66,95 @@ function onDemandExtract(): PluginOption {
   };
 }
 
+/**
+ * Dev-only endpoint: POST /__deploy  (body: { slug, plan })
+ * Approves ONE lead: runs scripts/publish.mjs, which merges the frozen plan into
+ * public/published.json, builds dist/, and deploys to the single Vercel project
+ * (REST API, VERCEL_TOKEN). Streams the script's JSON result back to the overlay.
+ * With no token it falls back to a build + manual-deploy instructions.
+ */
+function deployLead(): PluginOption {
+  return {
+    name: "deploy-lead",
+    apply: "serve",
+    configureServer(server) {
+      server.middlewares.use("/__deploy", (req, res) => {
+        if (req.method !== "POST") { res.statusCode = 405; res.end(JSON.stringify({ ok: false, error: "POST only" })); return; }
+        let body = "";
+        req.on("data", (c) => (body += c));
+        req.on("end", () => {
+          const child = spawn(process.execPath, ["scripts/publish.mjs"], { cwd: import.meta.dirname });
+          child.stdin.write(body);
+          child.stdin.end();
+          let out = "", err = "";
+          child.stdout.on("data", (d) => (out += d));
+          child.stderr.on("data", (d) => (err += d));
+          child.on("close", () => {
+            res.setHeader("Content-Type", "application/json");
+            // The script prints exactly one JSON line on stdout; pass it through.
+            const line = out.trim().split("\n").filter(Boolean).pop() || "";
+            if (line && line.startsWith("{")) { res.end(line); return; }
+            res.statusCode = 500;
+            res.end(JSON.stringify({ ok: false, error: "publish script produced no result", log: (out + err).slice(-1500) }));
+          });
+        });
+      });
+    },
+  };
+}
+
+/**
+ * Dev-only endpoint: POST /__send  (body: { to, subject, body })
+ * Relays ONE outreach mail through the operator's ETH mailbox via
+ * scripts/send-mail.mjs (authenticated SMTP). Opt-in path; needs ETH_SMTP_*
+ * credentials in env or design-system/.env. Streams the script's JSON result back.
+ */
+function sendMail(): PluginOption {
+  return {
+    name: "send-mail",
+    apply: "serve",
+    configureServer(server) {
+      server.middlewares.use("/__send", (req, res) => {
+        if (req.method !== "POST") { res.statusCode = 405; res.end(JSON.stringify({ ok: false, error: "POST only" })); return; }
+        let body = "";
+        req.on("data", (c) => (body += c));
+        req.on("end", () => {
+          const child = spawn(process.execPath, ["scripts/send-mail.mjs"], { cwd: import.meta.dirname });
+          child.stdin.write(body);
+          child.stdin.end();
+          let out = "", err = "";
+          child.stdout.on("data", (d) => (out += d));
+          child.stderr.on("data", (d) => (err += d));
+          child.on("close", () => {
+            res.setHeader("Content-Type", "application/json");
+            const line = out.trim().split("\n").filter(Boolean).pop() || "";
+            if (line && line.startsWith("{")) { res.end(line); return; }
+            res.statusCode = 500;
+            res.end(JSON.stringify({ ok: false, error: "send script produced no result", log: (out + err).slice(-1500) }));
+          });
+        });
+      });
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [react(), onDemandExtract(), serveStock()],
-  server: { port: 3010, host: "0.0.0.0" },
+  plugins: [react(), onDemandExtract(), deployLead(), sendMail(), serveStock()],
+  server: {
+    port: 3010, host: "0.0.0.0",
+    // The on-demand endpoints WRITE into the project: /__generate (extract.ts) rewrites
+    // content/examples/<slug>.json + public/images/<slug>/…, /__deploy rewrites
+    // public/published.json. Those writes must NOT trip Vite's HMR/full-reload — a reload
+    // remounts the studio and EJECTS the user from the open "Durchwinken" overlay (and
+    // wipes its deploy/e-mail progress). The studio already shows the fresh content from
+    // the /__generate fetch response, so it needs no file-watch HMR for these outputs.
+    watch: {
+      ignored: [
+        "**/content/examples/**",
+        "**/public/images/**",
+        "**/public/files/**",
+        "**/public/published.json",
+      ],
+    },
+  },
 });

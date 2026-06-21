@@ -19,6 +19,11 @@ dist/
 # Secrets
 .pexels-key
 .env
+.vercel-token
+
+# Vercel (deploy link + CLI scratch for the outreach publish flow)
+.vercel/
+.vercel-project.json
 
 # Transformers.js model cache (downloaded once, not committed)
 .models-cache/

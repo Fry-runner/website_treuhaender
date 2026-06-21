@@ -1,0 +1,39 @@
+{
+  "onetreuhand-ch": {
+    "slug": "onetreuhand-ch",
+    "firm": "One Treuhand",
+    "domain": "onetreuhand.ch",
+    "sourceUrl": "https://onetreuhand.ch/",
+    "contactEmail": "elcome@onetreuhand.ch",
+    "seed": 0,
+    "pitch": true,
+    "prototypeUrl": "https://treuhand-prototypes.vercel.app/p/onetreuhand-ch",
+    "approvedAt": "2026-06-21T20:31:49.118Z"
+  },
+  "mkfiduciaire-ch": {
+    "slug": "mkfiduciaire-ch",
+    "firm": "MK Treuhand",
+    "domain": "mkfiduciaire.ch",
+    "sourceUrl": "https://mkfiduciaire.ch/",
+    "contactEmail": "info@mkfiduciaire.ch",
+    "seed": 0,
+    "pitch": true,
+    "prototypeUrl": "https://treuhand-prototypes.vercel.app/p/mkfiduciaire-ch",
+    "approvedAt": "2026-06-21T19:55:03.554Z"
+  },
+  "kmu-trex-ch": {
+    "slug": "kmu-trex-ch",
+    "firm": "KMU Treuhandexperte GmbH",
+    "domain": "kmu-trex.ch",
+    "sourceUrl": "https://www.kmu-trex.ch/",
+    "contactEmail": "info@kmu-trex.ch",
+    "seed": 0,
+    "lookId": "boost-editorial",
+    "sectionOverrides": {
+      "services": "services/grid-4"
+    },
+    "pitch": true,
+    "prototypeUrl": "https://treuhand-prototypes.vercel.app/p/kmu-trex-ch",
+    "approvedAt": "2026-06-21T20:02:38.881Z"
+  }
+}

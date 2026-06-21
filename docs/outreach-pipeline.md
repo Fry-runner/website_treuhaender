@@ -4,11 +4,16 @@
 > Website-Prototyp → Review/Freigabe → Veröffentlichung auf Vercel → (optional)
 > E-Mail an die Kontaktadresse der Originalseite mit Link zum Prototyp.
 
-**Status dieses Dokuments:** Architektur/Plan. Noch kein Code für Cockpit, Next-App,
-Deploy oder E-Mail. Entscheidungen bisher:
-- **Hosting:** eine Multi-Tenant **Next.js-App** auf Vercel (nicht 50 Einzelprojekte).
-- **E-Mail:** Versand-Implementierung **noch offen** — Variante 1 vs. 2 siehe §7.
-- **Reihenfolge:** zuerst dieses Doc, dann Implementierung.
+**Status dieses Dokuments:** Architektur/Plan. Die Next-App (§3.7/§8) ist weiterhin
+offen; **Durchwinken + Veröffentlichen + E-Mail-Entwurf laufen bereits**, aber als
+pragmatische Stufe 1 direkt im **Vite-Variant-Studio** statt im Next-Cockpit
+(siehe „§12 — Implementiert (Stufe 1)"). Entscheidungen bisher:
+- **Hosting:** **ein** Multi-Tenant-Vercel-Projekt bedient alle Prototypen unter
+  `/p/<slug>` (nicht 50 Einzelprojekte). Stufe 1 deployt das gebaute Vite-`dist/`
+  per Vercel-REST-API; der Renderer-Split auf Next bleibt der spätere Schritt.
+- **E-Mail:** **Variante 1 umgesetzt** — System erzeugt den Entwurf, Versand aus
+  dem eigenen Postfach (Vor-/Nachteile + Auto-Send-Option §7).
+- **Reihenfolge:** dieses Doc, dann Stufe-1-Studio-Overlay, dann (offen) Next-Cockpit.
 
 ---
 
@@ -307,3 +312,63 @@ Umbaute.
 - **Renderer-Split:** echtes Workspace-Package jetzt oder erst später (path-alias-Übergang)?
 - **E-Mail:** Start mit Variante 1 bestätigt? Auto-Send (V2) überhaupt gewünscht?
 ```
+
+---
+
+## 12. Implementiert (Stufe 1 — Studio-Overlay)
+
+Statt der vollen Next-App ist der Durchwinken→Veröffentlichen→E-Mail-Fluss zuerst
+direkt ins bestehende **Vite-Variant-Studio** gebaut (sofort nutzbar, geteilter
+Renderer). Die Next-Migration (§3.7/§8/§10) bleibt der spätere Schritt.
+
+**Bedienung:** Im Studio eine Firma + Variante einstellen (Kaltakquise i.d.R. AN) →
+Knopf **„✅ Durchwinken & Versenden"** → Overlay:
+1. *Plan einfrieren* — zeigt die exakten Variant-Entscheidungen.
+2. *Auf Vercel veröffentlichen* — ein Klick baut + deployt auf das **eine**
+   Vercel-Projekt; der Prototyp ist live unter `/p/<slug>`.
+3. *E-Mail formulieren* — DE-Entwurf (Variante 1) mit Live-Link, Empfänger aus dem
+   Scrape (editierbar); **„Über ETH-Postfach senden"** (direkter SMTP-Versand) plus
+   manuelle Optionen „In Mail-App öffnen" (`mailto:`), „Text kopieren", „.eml".
+
+**Bausteine:**
+| Datei | Rolle |
+|-------|-------|
+| `design-system/compose/outreach.ts` | Typen (`PublishedRecord`/`Plan`), E-Mail-Builder, `mailto:`/`.eml` |
+| `design-system/compose/ApproveOverlay.tsx` | das 3-Schritte-Overlay |
+| `design-system/playground.tsx` | „Durchwinken"-Knopf + öffentliche Route `/p/<slug>` |
+| `design-system/public/published.json` | Manifest `slug → Record` (eingefrorener Plan); von der Route gelesen |
+| `design-system/scripts/publish.mjs` | Manifest mergen → `vite build` → Vercel-REST-Deploy |
+| `design-system/scripts/send-mail.mjs` | Versand über ETH-Postfach (authentifiziertes SMTP, Nodemailer) |
+| `design-system/vite.config.ts` | Dev-Endpoints `POST /__deploy` + `POST /__send` |
+| `design-system/vercel.json` | SPA-Rewrite `/p/:slug` → `index.html`, `noindex`-Header |
+
+**Deploy (ein Projekt, REST-API, kein CLI nötig):** `scripts/publish.mjs` lädt
+`dist/` mit Datei-Digests hoch (lädt nur fehlende Blobs) und erstellt ein
+Production-Deployment auf dem festen Projekt → stabile URL
+`https://<projekt>.vercel.app/p/<slug>`.
+
+**Env / Secrets** (in env ODER `design-system/.env`, gitignored — Vorlage:
+`.env.example`. Alles optional: ohne Vercel-Token → Build + manuelle Deploy-Anleitung;
+ohne ETH-SMTP → nur manueller Mailversand):
+| Var | Zweck | Default |
+|-----|-------|---------|
+| `VERCEL_TOKEN` *(oder `design-system/.vercel-token`)* | Deploy-Auth | — (sonst Fallback) |
+| `VERCEL_PROJECT_NAME` | das eine Zielprojekt | `treuhand-prototypes` |
+| `VERCEL_TEAM_ID` / `VERCEL_ORG_ID` | bei Team-Account | — |
+| `ETH_SMTP_USER` / `ETH_SMTP_PASS` | ETH-Versand (Login) | — (sonst manuell) |
+| `ETH_SMTP_FROM` / `ETH_SMTP_HOST` / `ETH_SMTP_PORT` / `ETH_SMTP_REPLYTO` | Versand-Feintuning | `=USER` / `smtp.office365.com` / `587` / — |
+
+**E-Mail-Versand (Stufe 1.5):** statt Resend-Sendedomain (V2) geht die Mail direkt
+über das **eigene ETH-Postfach** (authentifiziertes SMTP, Nodemailer) — rechtlich/
+zustellungstechnisch wie Variante 1 (echtes 1:1-Postfach), nur ohne manuelles
+Copy-Paste. **Zugang:** ETH-Adresse + Passwort werden **direkt im Overlay** eingegeben
+(nur im Browser via localStorage gespeichert, nie im Repo) ODER aus env/`.env`
+(`ETH_SMTP_*`) gelesen — Request-Eingabe gewinnt. Danach sendet der Knopf „Über
+ETH-Postfach senden" direkt. ⚠ M365 hat SMTP-AUTH oft deaktiviert + ETH erzwingt MFA:
+schlägt der Versand mit 535/"SMTP AUTH disabled" fehl, muss ETH-IT „Authenticated SMTP"
+fürs Postfach aktivieren (oder App-/Geräte-Passwort) — sonst greift der manuelle Fallback.
+
+**Bewusste Grenzen ggü. Vollausbau:** kein Lead-Store/Status-Machine (§4/§5) — der
+Record IST der Status; kein Auth (Studio ist lokal); Re-Deploy baut komplett neu
+statt ISR-`revalidatePath`; Prompt-Edit (§3.9) und Resend-Auto-Send mit eigener
+Sendedomain + Tracking/Webhooks (§7 V2) weiterhin offen.
