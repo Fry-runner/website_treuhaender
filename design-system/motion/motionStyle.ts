@@ -13,6 +13,8 @@
  * soft = bouncy playful; premium = smooth glow/gradient; bold = dramatic high-contrast.
  */
 export type MotionStyleId = "editorial" | "precise" | "soft" | "premium" | "bold";
+/** All motion families — exposed in the studio / Durchwinken overlay for manual pick. */
+export const MOTION_STYLE_IDS: MotionStyleId[] = ["editorial", "precise", "soft", "premium", "bold"];
 
 /** kit id (variants/kits.ts) → motion family. */
 const KIT_MOTION: Record<string, MotionStyleId> = {

@@ -9,9 +9,9 @@
     "look": {
       "meta": {
         "id": "idp-treuhand-ch-brand",
-        "name": "Quabba Editorial Red · brand-tinted",
+        "name": "Quabba Editorial Red · logo-tinted",
         "mood": "Editorial graphite-on-white with a restrained Swiss-red accent; all-Inter with mono micro-labels, hairline borders, scroll-triggered color-shift reveals and a hand-drawn signature line.",
-        "source": "Quabba-Treuhand + scraped brand",
+        "source": "Quabba-Treuhand + logo colour",
         "derived": [
           "color.surface (#F7F8F8 tint of gray-light)",
           "color.primaryFg (#FFFFFF)",
@@ -19,7 +19,7 @@
           "color.secondaryFg (#22272B)",
           "font.mono (Tailwind default mono stack)",
           "base: quabba-editorial",
-          "accent #2B6CB0 (scraped · medium)",
+          "accent #3D5164 (logo)",
           "heading: Schibsted Grotesk (inventory)",
           "body: Public Sans (inventory)",
           "mono: JetBrains Mono (inventory)"
@@ -40,10 +40,10 @@
         "text": "#22272B",
         "textMuted": "#7C868C",
         "border": "#E9ECEC",
-        "primary": "#2B6CB0",
+        "primary": "#3D5164",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#EEF3F9",
-        "secondary": "#DA532C",
+        "primarySoft": "#EFF1F3",
+        "secondary": "#3D5164",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -86,7 +86,7 @@
       "background": {
         "treatment": "flat-white",
         "blur": true,
-        "bloom": "rgba(43,108,176,0.18)"
+        "bloom": "rgba(61,81,100,0.18)"
       },
       "raw": {
         "--color-brand-violet": "#D91A21",
@@ -153,6 +153,10 @@
           "presence": "often"
         },
         {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -170,7 +174,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
@@ -188,7 +191,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
+        "page:team": "✓ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✓ Online-Terminbuchung im Scrape",
         "fn:jobs": "✓ Stellen/Jobs im Scrape"
@@ -208,7 +211,6 @@
       "hero.lede",
       "services.text",
       "team.members",
-      "team.photos",
       "values",
       "about",
       "audience",
@@ -219,7 +221,7 @@
       "media.logo",
       "trust.badges",
       "media.documents",
-      "brand.colors"
+      "logo.colors"
     ]
   },
   "media": {
@@ -883,53 +885,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Sie brauchen viel Zeit für Ihre Buchhaltung, die Sie lieber in Ihr Kerngeschäft investieren möchten? Sie suchen eine effiziente Lohnbuchhaltung? Und Sie wollen sicher sein, dass alle Vorschriften erfüllt sind? Wir übernehmen Ihre Buchhaltung gern.",
-        "body": "Sie brauchen viel Zeit für Ihre Buchhaltung, die Sie lieber in Ihr Kerngeschäft investieren möchten? Sie suchen eine effiziente Lohnbuchhaltung? Und Sie wollen sicher sein, dass alle Vorschriften erfüllt sind? Wir übernehmen Ihre Buchhaltung gern.\n\nWir kümmern uns um Ihr Finanz- und Rechnungswesen, erledigen die Debitoren- und Kreditoren-Buchhaltung und organisieren die gesamte Buchführung effizient und korrekt.\n\nWir helfen Ihnen, einen gesetzeskonformen Jahresabschluss zu erstellen, der einen aussagekräftigen Überblick über die wirtschaftliche Lage des Unternehmens gibt.\n\nDieses Führungsinstrument zeigt, was bis zu einem bestimmten Zeitpunkt erreicht wurde (IST) und wo Sie gemäss Planung sein sollten (SOLL).",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
         "title": "Steuerberatung",
-        "summary": "Viele Eltern überlegen, ob und wann sie ihre Liegenschaften auf die Nachkommen übertragen sollen. Bei einem Erbvorbezug kann es sinnvoll sein, Liegenschaften zu Gesamteigentum statt zu Miteigentum zuzuweisen. Eine Erbvorbezugsgemeinschaft kann sich vor allem eignen, um eine Rendi",
-        "body": "Viele Eltern überlegen, ob und wann sie ihre Liegenschaften auf die Nachkommen übertragen sollen. Bei einem Erbvorbezug kann es sinnvoll sein, Liegenschaften zu Gesamteigentum statt zu Miteigentum zuzuweisen. Eine Erbvorbezugsgemeinschaft kann sich vor allem eignen, um eine Rendite-Liegenschaft auf mehrere Nachkommen zu übertragen, um ihnen zusätzliches Einkommen zu verschaffen und gleichzeitig sicherzustellen, dass sie im Familienbesitz bleibt.\n\nAls Schenkung gilt jede Zuwendung unter Lebenden, mit der jemand einen anderen ohne entsprechende Gegenleistung bereichert. Für die Besteuerung sind drei oder vier Elemente relevant, nämlich die Vermögenszuwendung, die Bereicherung, die fehlende Gegenleistung und in einigen Kantonen – wie bspw. Zürich – der Schenkungswille. Bei Schenkungen wird die Grundstückgewinnsteuer aufgeschoben.\n\nEin Erbvorbezug ist eine ausgleichungspflichtige Schenkung. ",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Lohnadministration",
-        "summary": "Die monatliche Lohnabrechnung macht Ihnen Sorgen? Sie sind unsicher, ob Ihre Lohnausweise gesetzeskonform sind? Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.",
-        "body": "Die monatliche Lohnabrechnung macht Ihnen Sorgen? Sie sind unsicher, ob Ihre Lohnausweise gesetzeskonform sind? Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.\n\nBeratung für den Bezug von Renten und anderen Leistungen, Rentenberechnung, etc.\n\nSie suchen Unterstützung für Ihre Lohn- und Personal-Administration? Wir kümmern uns gerne darum, damit Sie den Kopf frei haben für Ihr Kerngeschäft.\n\nWir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Sie brauchen viel Zeit für Ihre Buchhaltung, die Sie lieber in Ihr Kerngeschäft investieren möchten? Sie suchen eine effiziente Lohnbuchhaltung? Und Sie wollen sicher sein, dass alle Vorschriften erfüllt sind? Wir übernehmen Ihre Buchhaltung gern.\n\nWir kümmern uns um Ihr Finanz- und Rechnungswesen, erledigen die Debitoren- und Kreditoren-Buchhaltung und organisieren die gesamte Buchführung effizient und korrekt.\n\nWir helfen Ihnen, einen gesetzeskonformen Jahresabschluss zu erstellen, der einen aussagekräftigen Überblick über die wirtschaftliche Lage des Unternehmens gibt.\n\nDieses Führungsinstrument zeigt, was bis zu einem bestimmten Zeitpunkt erreicht wurde (IST) und wo Sie gemäss Planung sein sollten (SOLL).",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "summary": "Ein Erbvorbezug kann Steuerplanungspotenzial haben. Im Beitrag wird erläutert welche Vorteile und Risiken eine Erbvorbezugsgemeinschaft hat.",
+        "body": "Viele Eltern überlegen, ob und wann sie ihre Liegenschaften auf die Nachkommen übertragen sollen. Bei einem Erbvorbezug kann es sinnvoll sein, Liegenschaften zu Gesamteigentum statt zu Miteigentum zuzuweisen. Eine Erbvorbezugsgemeinschaft kann sich vor allem eignen, um eine Rendite-Liegenschaft auf mehrere Nachkommen zu übertragen, um ihnen zusätzliches Einkommen zu verschaffen und gleichzeitig sicherzustellen, dass sie im Familienbesitz bleibt.\n\nAls Schenkung gilt jede Zuwendung unter Lebenden, mit der jemand einen anderen ohne entsprechende Gegenleistung bereichert. Für die Besteuerung sind drei oder vier Elemente relevant, nämlich die Vermögenszuwendung, die Bereicherung, die fehlende Gegenleistung und in einigen Kantonen – wie bspw. Zürich – der Schenkungswille. Bei Schenkungen wird die Grundstückgewinnsteuer aufgeschoben.\n\nEin Erbvorbezug ist eine ausgleichungspflichtige Schenkung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -939,8 +897,52 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Sie haben eine Geschäftsidee und möchten eine Firma gründen? Sie wissen noch nicht, welche Gesellschaftsform die richtige ist? Und Sie möchten die Finanzen Ihrer Firma von Anfang an richtig aufgleisen? Wir unterstützen Sie bei allen administrativen und rechtlichen Aspekten Ihrer ",
+        "summary": "Wir helfen bei der Gründung, Führung und Übertragung Ihres Unternehmens und teilen unsere Erfahrung und unser Netzwerk mit Ihnen.",
         "body": "Sie haben eine Geschäftsidee und möchten eine Firma gründen? Sie wissen noch nicht, welche Gesellschaftsform die richtige ist? Und Sie möchten die Finanzen Ihrer Firma von Anfang an richtig aufgleisen? Wir unterstützen Sie bei allen administrativen und rechtlichen Aspekten Ihrer Firmengründung.\n\nAG, GmbH, Einzelfirma oder Kollektivgesellschaft: Wir kennen die Unterschiede und wissen, wann sich welche Rechtsform am besten eignet.\n\nEine sorgfältige Planung der Finanzierung und der Steuern bei der Gründung ist entscheidend für das Gedeihen Ihres Unternehmens.\n\nGerne beraten wir Sie, damit von Anfang alles optimal organisiert ist.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Nachlass & Erbrecht",
+        "summary": "Diese Dissertation zeigt auf, welchen Anforderungen Willensvollstrecker genügen müssen, um vor Schadenersatzforderungen geschützt zu sein.",
+        "body": "Wir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.\n\nWir unterstützen Sie von der Gründung bis zur Weitergabe Ihre Unternehmen.\n\nWir kümmern uns um die Organisation, Verwaltung oder den Verkauf Ihrer Liegenschaft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Immobilien",
+        "summary": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
+        "body": "Bei der Übertragung einer Liegenschaft von den Eltern an die Kinder sind die steuerlichen und erbrechtlichen Folgen genau abzuklären. Sonst droht Streit in der Familie.\n\nWir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.\n\nWir unterstützen Sie von der Gründung bis zur Weitergabe Ihre Unternehmen.\n\nWir kümmern uns um die Organisation, Verwaltung oder den Verkauf Ihrer Liegenschaft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.",
+        "body": "Die monatliche Lohnabrechnung macht Ihnen Sorgen? Sie sind unsicher, ob Ihre Lohnausweise gesetzeskonform sind? Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.\n\nBeratung für den Bezug von Renten und anderen Leistungen, Rentenberechnung, etc.\n\nSie suchen Unterstützung für Ihre Lohn- und Personal-Administration? Wir kümmern uns gerne darum, damit Sie den Kopf frei haben für Ihr Kerngeschäft.\n\nWir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Buchhaltung, Jahresabschluss und Inkasso: Wir führen Ihre Buchhaltung korrekt, professionell und koordinieren diese mit Ihrer Steuererklärung.",
+        "body": "Sie brauchen viel Zeit für Ihre Buchhaltung, die Sie lieber in Ihr Kerngeschäft investieren möchten? Sie suchen eine effiziente Lohnbuchhaltung? Und Sie wollen sicher sein, dass alle Vorschriften erfüllt sind? Wir übernehmen Ihre Buchhaltung gern.\n\nWir kümmern uns um Ihr Finanz- und Rechnungswesen, erledigen die Debitoren- und Kreditoren-Buchhaltung und organisieren die gesamte Buchführung effizient und korrekt.\n\nWir helfen Ihnen, einen gesetzeskonformen Jahresabschluss zu erstellen, der einen aussagekräftigen Überblick über die wirtschaftliche Lage des Unternehmens gibt.\n\nDieses Führungsinstrument zeigt, was bis zu einem bestimmten Zeitpunkt erreicht wurde (IST) und wo Sie gemäss Planung sein sollten (SOLL).",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -974,12 +976,12 @@
   },
   "about": {
     "eyebrow": "Über uns",
-    "heading": "Firmengründung",
-    "lead": "Sie haben eine Geschäftsidee und möchten eine Firma gründen? Sie wissen noch nicht, welche Gesellschaftsform die richtige ist? Und Sie möchten die Finanzen Ihrer Firma von Anfang an richtig aufgleisen? Wir unterstützen Sie bei allen administrativen und rechtlichen Aspekten Ihrer Firmengründung.",
+    "heading": "Mitgliedschaften",
+    "lead": "Mit unserer Beratung und unseren Treuhand-Dienstleistungen helfen wir, dass Ihr Vorhaben gelingt.",
     "paragraphs": [
-      "AG, GmbH, Einzelfirma oder Kollektivgesellschaft: Wir kennen die Unterschiede und wissen, wann sich welche Rechtsform am besten eignet.",
-      "Eine sorgfältige Planung der Finanzierung und der Steuern bei der Gründung ist entscheidend für das Gedeihen Ihres Unternehmens.",
-      "Gerne beraten wir Sie, damit von Anfang alles optimal organisiert ist."
+      "Beratungs- und Treuhanddienstleistungen für Firmen und Privatpersonen.",
+      "Gerne übernehmen wir Ihre administrativen und steuerlichen Aufgaben. Sorgfältig, effizient und zuverlässig.",
+      "Wir sind seit 1992 bekannt als unabhängiges, flexibles und vertrauenswürdiges Unternehmen. Unsere Kundinnen und Kunden beraten wir in Steuerangelegenheiten und Erbschaftssachen, bei der Buchhaltung, Firmengründung und Altersvorsorge sowie bei der Verwaltung und Übertragung von Liegenschaften."
     ]
   },
   "audience": {
@@ -1039,25 +1041,28 @@
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
       {
-        "name": "Rita Macsenti",
-        "role": "Mandatsleiterin",
-        "initials": "RM",
-        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
-        "photo": "/images/idp-treuhand-ch/team/0-macsenti.jpg"
+        "name": "Mathias Dudli",
+        "role": "Co-Geschäftsführer",
+        "initials": "MD",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
       },
       {
-        "name": "Mathias Dudli",
-        "role": "Verwaltungsrat und Co-Geschäftsführer",
-        "initials": "MD",
-        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
-        "photo": "/images/idp-treuhand-ch/team/1-dudli.jpg"
+        "name": "Beatrice Greter",
+        "role": "Mandatsleiterin",
+        "initials": "BG",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
       },
       {
         "name": "Anja Schneider",
         "role": "Sachbearbeiterin",
         "initials": "AS",
-        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.",
-        "photo": "/images/idp-treuhand-ch/team/2-schneider.jpg"
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      },
+      {
+        "name": "Rita Macsenti",
+        "role": "Mandatsleiterin",
+        "initials": "RM",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
       },
       {
         "name": "Felix Städeli",
@@ -1112,9 +1117,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Bahnhaldenstrasse 6, 8052 Zürich",
       "phone": "+41 44 308 25 50",
-      "email": "%20info@idp-treuhand.ch%20"
+      "email": "info@idp-treuhand.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -1135,9 +1140,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Bahnhaldenstrasse 6, 8052 Zürich",
           "+41 44 308 25 50",
-          "%20info@idp-treuhand.ch%20"
+          "info@idp-treuhand.ch"
         ]
       },
       {

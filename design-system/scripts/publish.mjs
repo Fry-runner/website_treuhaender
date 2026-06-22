@@ -19,7 +19,7 @@
  * Output (stdout, JSON): { ok, deployed, url?, prototypeUrl?, productionUrl?,
  *                          record, instructions?, error?, log? }
  */
-import { readFileSync, writeFileSync, existsSync, readdirSync, statSync, copyFileSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, readdirSync, statSync, cpSync, renameSync } from "node:fs";
 import { join, relative, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
@@ -27,15 +27,35 @@ import { spawn } from "node:child_process";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PUBLISHED = join(ROOT, "public", "published.json");
+const PROTO_DATA = join(ROOT, "prototype.data.json"); // single-firm payload for the build
 const DIST = join(ROOT, "dist");
 const API = "https://api.vercel.com";
 
-const PROJECT = (process.env.VERCEL_PROJECT_NAME || "treuhand-prototypes").toLowerCase();
-const TEAM = process.env.VERCEL_TEAM_ID || process.env.VERCEL_ORG_ID || "";
+/** process.env wins; otherwise pull the key out of design-system/.env (KEY=VALUE). */
+function envFile() {
+  const f = join(ROOT, ".env");
+  if (!existsSync(f)) return {};
+  const out = {};
+  for (const line of readFileSync(f, "utf-8").split(/\r?\n/)) {
+    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/i);
+    if (!m) continue;
+    let v = m[2].trim();
+    if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) v = v.slice(1, -1);
+    out[m[1]] = v;
+  }
+  return out;
+}
+const FILE = envFile();
+const cfg = (k) => (process.env[k] ?? FILE[k] ?? "").trim();
+
+const PROJECT = (cfg("VERCEL_PROJECT_NAME") || "treuhand-prototypes").toLowerCase();
+const TEAM = cfg("VERCEL_TEAM_ID") || cfg("VERCEL_ORG_ID") || "";
 const teamQ = TEAM ? `?teamId=${encodeURIComponent(TEAM)}` : "";
 
 function readToken() {
-  if (process.env.VERCEL_TOKEN) return process.env.VERCEL_TOKEN.trim();
+  // env / .env first, then the standalone .vercel-token file.
+  const t = cfg("VERCEL_TOKEN");
+  if (t) return t;
   const f = join(ROOT, ".vercel-token");
   if (existsSync(f)) return readFileSync(f, "utf-8").trim();
   return "";
@@ -69,15 +89,22 @@ function firmMeta(slug) {
   } catch { return {}; }
 }
 
+/** Build ONLY the single-firm prototype (vite.prototype.config.ts) — no studio,
+ *  no firm glob, no public/ copy. dist/ ends up self-contained for one firm. */
 function buildDist() {
   return new Promise((resolve, reject) => {
     const vite = join(ROOT, "node_modules", "vite", "bin", "vite.js");
-    const child = spawn(process.execPath, [vite, "build"], { cwd: ROOT });
+    const child = spawn(process.execPath, [vite, "build", "--config", "vite.prototype.config.ts"], { cwd: ROOT });
     let log = "";
     child.stdout.on("data", (d) => (log += d));
     child.stderr.on("data", (d) => (log += d));
     child.on("close", (code) => (code === 0 ? resolve(log) : reject(new Error("vite build failed:\n" + log.slice(-2000)))));
   });
+}
+
+function firmContent(slug) {
+  const p = join(ROOT, "content", "examples", `${slug}.json`);
+  return existsSync(p) ? JSON.parse(readFileSync(p, "utf-8")) : null;
 }
 
 function walk(dir) {
@@ -127,8 +154,14 @@ async function deploy(token) {
 
   const createBody = () => ({
     name: PROJECT,
-    target: "production",
+    // NOT a production deploy: each firm is its OWN isolated deployment under the one
+    // project, reachable only via its own alias (see aliasDeployment). The site lives
+    // at "/" (state-based nav), so the route below is just a safety net for stray paths.
     projectSettings: { framework: null },
+    routes: [
+      { handle: "filesystem" },
+      { src: "/(.*)", dest: "/index.html" },
+    ],
     files: files.map((f) => ({ file: f.file, sha: f.sha, size: f.size })),
   });
 
@@ -142,8 +175,7 @@ async function deploy(token) {
     });
     if (last.ok) {
       const d = last.json;
-      const productionUrl = `https://${PROJECT}.vercel.app`;
-      return { deploymentUrl: d.url ? `https://${d.url}` : productionUrl, productionUrl, id: d.id };
+      return { deploymentUrl: d.url ? `https://${d.url}` : "", id: d.id };
     }
     // Missing blobs → upload them and retry.
     const missing = last.json?.error?.missing || last.json?.missing;
@@ -157,6 +189,52 @@ async function deploy(token) {
   throw new Error(`Vercel deployment failed: ${msg}`);
 }
 
+/** Wait until a deployment is READY (static deploys settle in seconds). Best-effort. */
+async function waitReady(token, id) {
+  const auth = { Authorization: `Bearer ${token}` };
+  for (let i = 0; i < 30; i++) {
+    const r = await vercelFetch(`/v13/deployments/${id}${teamQ}`, { headers: auth });
+    const s = r.json?.readyState || r.json?.status;
+    if (s === "READY") return true;
+    if (s === "ERROR" || s === "CANCELED") return false;
+    await new Promise((res) => setTimeout(res, 1500));
+  }
+  return false;
+}
+
+/** Point a stable alias at this deployment so the firm keeps ONE clean URL across
+ *  re-deploys. Returns the alias URL, or null if Vercel refuses it (name taken/not
+ *  permitted) → caller falls back to the immutable deployment URL. */
+async function aliasDeployment(token, id, alias) {
+  const r = await vercelFetch(`/v2/deployments/${id}/aliases${teamQ}`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ alias }),
+  });
+  // 200/409 (already assigned to this deployment) both count as success.
+  if (r.ok || r.json?.error?.code === "alias_already_exists") return `https://${alias}`;
+  return null;
+}
+
+/** New Vercel projects often default to "Deployment Protection" (a Vercel-login wall)
+ *  which would gate the public prototype behind a 401. Turn it off so the /p/<slug>
+ *  link is openly reachable by the cold-outreach recipient. Idempotent + non-fatal. */
+async function ensurePublic(token) {
+  try {
+    await vercelFetch(`/v9/projects/${encodeURIComponent(PROJECT)}${teamQ}`, {
+      method: "PATCH",
+      headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ ssoProtection: null, passwordProtection: null }),
+    });
+  } catch { /* deploy already succeeded; protection can also be toggled in the dashboard */ }
+}
+
+/** treuhand-<slug>.vercel.app — clean, stable, per-firm alias host. */
+function aliasHostFor(slug) {
+  const label = slug.replace(/[^a-z0-9-]/gi, "-").replace(/-+/g, "-").replace(/^-|-$/g, "").toLowerCase();
+  return `treuhand-${label}.vercel.app`;
+}
+
 async function main() {
   const raw = await readStdin();
   let input;
@@ -165,75 +243,83 @@ async function main() {
   const plan = input.plan || {};
   if (!slug) { console.log(JSON.stringify({ ok: false, error: "no slug" })); return; }
 
+  // PUBLISH GUARD: a firm without a scrape source (scraper/output/<slug>/site.json)
+  // cannot be regenerated, so its example JSON is stale/uncorrected — it must never be
+  // deployed. This blocks the four source-less leads (mkfiduciaire, steuerberater365-
+  // zuerich, steuerberatung-schweiz, treuhandbuero24) and any future orphan.
+  const sourcePath = join(ROOT, "..", "scraper", "output", slug, "site.json");
+  if (!existsSync(sourcePath)) {
+    console.log(JSON.stringify({ ok: false, error: `Firma "${slug}" ist nicht veröffentlichbar: keine Scrape-Quelle (scraper/output/${slug}/site.json fehlt). Bitte zuerst neu scrapen.` }));
+    return;
+  }
+
+  const content = firmContent(slug);
+  if (!content) { console.log(JSON.stringify({ ok: false, error: `Firma "${slug}" nicht gefunden (content/examples/${slug}.json).` })); return; }
+
   const token = readToken();
   const meta = firmMeta(slug);
-  const productionUrl = `https://${PROJECT}.vercel.app`;
-  const prototypeUrl = `${productionUrl}/p/${slug}`;
+  const pitch = plan.pitch !== false;
+  const aliasHost = aliasHostFor(slug);
+  const aliasGuess = `https://${aliasHost}`;
 
-  // 1. Merge the frozen plan into the manifest the prototype route reads.
-  const manifest = loadManifest();
+  // Record kept ONLY locally (for the studio's own tracking). It is NOT shipped to the
+  // customer — the single-firm build sets publicDir:false, so published.json never deploys.
   const record = {
-    slug,
-    firm: meta.firm || slug,
-    domain: meta.domain || "",
-    sourceUrl: meta.sourceUrl,
-    contactEmail: meta.contactEmail,
-    seed: plan.seed ?? 0,
-    lookId: plan.lookId,
-    heroId: plan.heroId,
-    primaryStyle: plan.primaryStyle,
-    kitId: plan.kitId,
-    sectionOverrides: plan.sectionOverrides,
-    pitch: plan.pitch !== false,
-    prototypeUrl,
-    approvedAt: new Date().toISOString(),
+    slug, firm: meta.firm || slug, domain: meta.domain || "", sourceUrl: meta.sourceUrl, contactEmail: meta.contactEmail,
+    seed: plan.seed ?? 0, lookId: plan.lookId, heroId: plan.heroId, primaryStyle: plan.primaryStyle, kitId: plan.kitId,
+    sectionOverrides: plan.sectionOverrides, pageHeaderId: plan.pageHeaderId, iconSetId: plan.iconSetId,
+    moreStyle: plan.moreStyle, motionStyle: plan.motionStyle, imageSeed: plan.imageSeed, pitch,
+    prototypeUrl: aliasGuess, approvedAt: new Date().toISOString(),
   };
+  const manifest = loadManifest();
   manifest[slug] = { ...manifest[slug], ...record };
   writeFileSync(PUBLISHED, JSON.stringify(manifest, null, 2) + "\n");
 
-  // 2. Build the static site (bundles the updated manifest into /published.json).
+  // 1. Inject ONLY this firm's data, then build the ISOLATED single-firm site
+  //    (no studio, no firm glob, no manifest — see vite.prototype.config.ts).
+  writeFileSync(PROTO_DATA, JSON.stringify({ content, plan }));
   let buildLog = "";
   try { buildLog = await buildDist(); }
   catch (e) { console.log(JSON.stringify({ ok: false, error: String(e.message || e), record })); return; }
 
-  // Ship the SPA rewrite config alongside the build so /p/<slug> resolves on Vercel.
-  const vjson = join(ROOT, "vercel.json");
-  if (existsSync(vjson)) copyFileSync(vjson, join(DIST, "vercel.json"));
+  // 2. Serve the firm at "/" and copy in ONLY what this one firm needs.
+  try {
+    if (existsSync(join(DIST, "prototype.html"))) renameSync(join(DIST, "prototype.html"), join(DIST, "index.html"));
+    const stockDir = join(ROOT, "stock");
+    if (existsSync(stockDir)) cpSync(stockDir, join(DIST, "stock"), { recursive: true }); // pitch imagery
+    if (!pitch) { const img = join(ROOT, "public", "images", slug); if (existsSync(img)) cpSync(img, join(DIST, "images", slug), { recursive: true }); }
+  } catch (e) { console.log(JSON.stringify({ ok: false, error: "dist-prep fehlgeschlagen: " + String(e.message || e), record })); return; }
 
-  // 3. Deploy — or, with no token, hand back the manual path.
+  // 3. No token → the isolated build is ready; hand back the manual path.
   if (!token) {
     console.log(JSON.stringify({
-      ok: true,
-      deployed: false,
-      record,
-      productionUrl,
-      prototypeUrl,
+      ok: true, deployed: false, record, prototypeUrl: aliasGuess,
       instructions: [
-        "Kein VERCEL_TOKEN gefunden — Build liegt bereit unter design-system/dist/.",
-        "Token einmalig setzen: design-system/.vercel-token anlegen (Inhalt = dein Vercel-Token)",
-        `oder VERCEL_TOKEN als Umgebungsvariable. Projektname via VERCEL_PROJECT_NAME (Default: ${PROJECT}).`,
-        "Danach erneut 'Durchwinken & Versenden' klicken — dann deployt es automatisch.",
+        "Kein VERCEL_TOKEN gefunden — die isolierte Kundenseite liegt bereit unter design-system/dist/.",
+        "Token in design-system/.env setzen (VERCEL_TOKEN=…).",
+        "Danach erneut 'Durchwinken & Versenden' klicken — dann deployt + aliased es automatisch.",
       ],
     }));
     return;
   }
 
+  // 4. Deploy this firm as its OWN isolated deployment under the one project, make the
+  //    project public, then pin the stable alias so the firm keeps one clean URL.
   try {
     const { deploymentUrl, id } = await deploy(token);
+    await ensurePublic(token);
+    await waitReady(token, id);
+    const aliased = await aliasDeployment(token, id, aliasHost);
+    const prototypeUrl = aliased || deploymentUrl;
     manifest[slug].prototypeUrl = prototypeUrl;
     writeFileSync(PUBLISHED, JSON.stringify(manifest, null, 2) + "\n");
     console.log(JSON.stringify({
-      ok: true,
-      deployed: true,
-      project: PROJECT,
-      deploymentId: id,
-      deploymentUrl,   // immutable, ready immediately (good for verification)
-      productionUrl,   // stable alias
-      prototypeUrl,    // stable per-firm link for the e-mail
-      record,
+      ok: true, deployed: true, project: PROJECT, deploymentId: id,
+      deploymentUrl, aliased: !!aliased, prototypeUrl,
+      record: { ...record, prototypeUrl },
     }));
   } catch (e) {
-    console.log(JSON.stringify({ ok: false, deployed: false, error: String(e.message || e), record, productionUrl, prototypeUrl, log: buildLog.slice(-500) }));
+    console.log(JSON.stringify({ ok: false, deployed: false, error: String(e.message || e), record, prototypeUrl: aliasGuess, log: buildLog.slice(-500) }));
   }
 }
 

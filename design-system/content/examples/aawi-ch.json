@@ -9,9 +9,9 @@
     "look": {
       "meta": {
         "id": "aawi-ch-brand",
-        "name": "Quabba Editorial Red · brand-tinted",
+        "name": "Quabba Editorial Red · logo-tinted",
         "mood": "Editorial graphite-on-white with a restrained Swiss-red accent; all-Inter with mono micro-labels, hairline borders, scroll-triggered color-shift reveals and a hand-drawn signature line.",
-        "source": "Quabba-Treuhand + scraped brand",
+        "source": "Quabba-Treuhand + logo colour",
         "derived": [
           "color.surface (#F7F8F8 tint of gray-light)",
           "color.primaryFg (#FFFFFF)",
@@ -19,7 +19,7 @@
           "color.secondaryFg (#22272B)",
           "font.mono (Tailwind default mono stack)",
           "base: quabba-editorial",
-          "accent #149132 (scraped · high)",
+          "accent #07672A (logo)",
           "heading: Roboto Slab (scraped)",
           "body: Montserrat (scraped)",
           "mono: JetBrains Mono (inventory)"
@@ -40,10 +40,10 @@
         "text": "#22272B",
         "textMuted": "#7C868C",
         "border": "#E9ECEC",
-        "primary": "#149132",
+        "primary": "#07672A",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#ECF6EF",
-        "secondary": "#26595E",
+        "primarySoft": "#EBF3EE",
+        "secondary": "#07672A",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -86,7 +86,7 @@
       "background": {
         "treatment": "flat-white",
         "blur": true,
-        "bloom": "rgba(20,145,50,0.18)"
+        "bloom": "rgba(7,103,42,0.18)"
       },
       "raw": {
         "--color-brand-violet": "#D91A21",
@@ -137,6 +137,7 @@
         "services",
         "audience",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -178,14 +179,13 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "kein echtes Team gefunden",
+        "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -219,6 +219,7 @@
       "contact.phone",
       "hero.headline",
       "hero.lede",
+      "team.members",
       "about",
       "footer.tagline",
       "trust.items",
@@ -226,7 +227,7 @@
       "media.logo",
       "trust.badges",
       "services.images",
-      "brand.colors",
+      "logo.colors",
       "brand.fonts"
     ]
   },
@@ -253,7 +254,9 @@
       "Unternehmensberatung": "/images/aawi-ch/pool/26a25b69e6__unternehmensberatung-1.jpg",
       "Jahresabschluss": "/images/aawi-ch/pool/stock-laptop-8091204.jpg",
       "Mehrwertsteuer": "/images/aawi-ch/pool/stock-documents-13431445.jpg",
-      "Revision": "/images/aawi-ch/pool/stock-meeting-7433840.jpg"
+      "Revision": "/images/aawi-ch/pool/stock-meeting-7433840.jpg",
+      "Immobilien": "/images/aawi-ch/pool/stock-office-36175676.jpg",
+      "Nachlass & Erbrecht": "/images/aawi-ch/pool/stock-desk-8296974.jpg"
     },
     "documents": [],
     "assets": [
@@ -319,7 +322,7 @@
         "orientation": "square",
         "subject": "portrait",
         "phash": "4e98b88028686220",
-        "quality": 0.7,
+        "quality": 0.69,
         "faces": 1,
         "roles": [
           "feature"
@@ -335,7 +338,7 @@
         "orientation": "square",
         "subject": "generic",
         "phash": "3326c1073ef1830b",
-        "quality": 0.67,
+        "quality": 0.65,
         "faces": 0,
         "roles": [
           "service"
@@ -365,7 +368,7 @@
         "orientation": "square",
         "subject": "office",
         "phash": "c8e4e4c936ac3fe7",
-        "quality": 0.8,
+        "quality": 0.81,
         "faces": 0,
         "roles": []
       },
@@ -379,7 +382,7 @@
         "orientation": "square",
         "subject": "office",
         "phash": "1696869753f0f161",
-        "quality": 0.5,
+        "quality": 0.49,
         "faces": 0,
         "roles": [
           "service"
@@ -395,7 +398,7 @@
         "orientation": "landscape",
         "subject": "generic",
         "phash": "31290001000391d",
-        "quality": 0.75,
+        "quality": 0.77,
         "faces": 0,
         "roles": []
       },
@@ -449,7 +452,7 @@
         "stock": true,
         "credit": "PNW Production (Pexels)",
         "source": "https://www.pexels.com/photo/woman-in-white-dress-sitting-on-brown-wooden-table-using-macbook-pro-8091204/",
-        "quality": 0.66,
+        "quality": 0.63,
         "faces": 1,
         "roles": [
           "feature"
@@ -467,7 +470,7 @@
         "stock": true,
         "credit": "Jurie Maree (Pexels)",
         "source": "https://www.pexels.com/photo/a-close-up-shot-of-labeled-binder-clips-13431445/",
-        "quality": 0.54,
+        "quality": 0.53,
         "faces": 0,
         "roles": [
           "gallery",
@@ -488,8 +491,50 @@
         "stock": true,
         "credit": "Vlada Karpovich (Pexels)",
         "source": "https://www.pexels.com/photo/a-group-of-people-discussing-in-a-room-7433840/",
-        "quality": 0.64,
+        "quality": 0.62,
         "faces": 5,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/stock-office-36175676.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 86020,
+        "width": 1280,
+        "height": 852,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Samkit desai (Pexels)",
+        "source": "https://www.pexels.com/photo/modern-minimalist-office-interior-with-desk-36175676/",
+        "quality": 0.67,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/aawi-ch/pool/stock-desk-8296974.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 125342,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Mikhail Nilov (Pexels)",
+        "source": "https://www.pexels.com/photo/a-woman-computing-with-a-calculator-8296974/",
+        "quality": 0.74,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -508,7 +553,9 @@
       "RDNE Stock project (Pexels)",
       "PNW Production (Pexels)",
       "Jurie Maree (Pexels)",
-      "Vlada Karpovich (Pexels)"
+      "Vlada Karpovich (Pexels)",
+      "Samkit desai (Pexels)",
+      "Mikhail Nilov (Pexels)"
     ]
   },
   "nav": {
@@ -547,9 +594,21 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/aawi-ch/pool/26a25b69e6__unternehmensberatung-1.jpg"
+      },
+      {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -561,7 +620,7 @@
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -573,7 +632,7 @@
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -585,7 +644,7 @@
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -597,7 +656,7 @@
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -605,18 +664,6 @@
           "Transparente Pauschale ohne versteckte Kosten"
         ],
         "image": "/images/aawi-ch/pool/stock-documents-13431445.jpg"
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/aawi-ch/pool/26a25b69e6__unternehmensberatung-1.jpg"
       }
     ]
   },
@@ -627,7 +674,7 @@
   },
   "about": {
     "eyebrow": "Über uns",
-    "heading": "Über uns",
+    "heading": "Wer wir sind",
     "lead": "Wir empfangen Sie sehr gerne zu einem persönlichen Gespräch in unserem Büro. Bitte vereinbaren Sie einen Termin.",
     "paragraphs": [
       "Wenn Sie vertrauliche Mitteilungen machen, beachten Sie bitte, dass E-Mails unter Umständen von Drittpersonen gelesen werden könnten.",
@@ -637,7 +684,26 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "Marco Krähenbühl",
+        "role": "Geschäftsführer, Inhaber",
+        "initials": "MK",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Astrid Scherrer",
+        "role": "Sachbearbeiterin",
+        "initials": "AS",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      },
+      {
+        "name": "Christa Stürmer",
+        "role": "Sachbearbeiterin",
+        "initials": "CS",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -680,9 +746,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Wetzikon",
+      "address": "Krähenbühl Buchgrindelstrasse 13, 8623 Wetzikon",
       "phone": "+41 (0)44 931 35 35",
-      "email": "a.scherrer@aawi.ch"
+      "email": "info@aawi.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -703,9 +769,9 @@
       {
         "title": "Standort",
         "links": [
-          "Wetzikon",
+          "Krähenbühl Buchgrindelstrasse 13, 8623 Wetzikon",
           "+41 (0)44 931 35 35",
-          "a.scherrer@aawi.ch"
+          "info@aawi.ch"
         ]
       },
       {

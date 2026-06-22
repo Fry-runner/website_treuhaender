@@ -3,95 +3,96 @@
     "firm": "Treuhand Service Zürich",
     "domain": "treuhand-service-zh.ch",
     "archetype": "boutique",
-    "lookId": "tureva-soft",
+    "lookId": "ruerup-swiss",
     "sourceUrl": "https://www.treuhand-service-zh.ch/home/",
-    "basePresetId": "tureva-soft",
+    "basePresetId": "ruerup-swiss",
     "look": {
       "meta": {
         "id": "treuhand-service-zh-ch-brand",
-        "name": "Tureva Soft Modern · brand-generated",
-        "mood": "Friendly premium; rounded cards, soft shadows, geometric Outfit/Jakarta type, vibrant lime-green CTA bloom.",
-        "source": "Tureva + generated accent",
+        "name": "Rürup Swiss Corporate · logo-tinted",
+        "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
+        "source": "Steuerberatung-Andreas-Rürup + logo colour",
         "derived": [
-          "color.primarySoft (#ECFFE8 tint)",
-          "color.border (= surface)",
-          "base: tureva-soft",
-          "accent #853249 (generated · no scraped colour)",
-          "heading: Epilogue (inventory)",
-          "body: Public Sans (inventory)",
-          "mono: JetBrains Mono (inventory)"
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (tint of beige surface)",
+          "base: ruerup-swiss",
+          "accent #4799C3 → #3E93BF (logo · raised for contrast)",
+          "heading: Familjen Grotesk (inventory)",
+          "body: Mulish (inventory)",
+          "mono: Space Mono (inventory)"
         ]
       },
       "tags": {
-        "tone": "friendly",
+        "tone": "formal",
         "warmth": "neutral",
-        "corner": "soft",
-        "density": "airy",
-        "contrast": "medium",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
         "era": "modern",
         "accentEnergy": "vibrant"
       },
       "color": {
         "bg": "#FFFFFF",
-        "surface": "#F0F2F4",
-        "text": "#2D3136",
-        "textMuted": "#828E99",
-        "border": "#F0F2F4",
-        "primary": "#853249",
+        "surface": "#E5E7EB",
+        "text": "#1C1C1A",
+        "textMuted": "#71717A",
+        "border": "#E5E7EB",
+        "primary": "#3E93BF",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#F5EFF0",
-        "secondary": "#A13676",
+        "primarySoft": "#F0F6FA",
+        "secondary": "#3E93BF",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Epilogue\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "headingRole": "display-geometric",
-        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
         "displayMax": "7xl",
-        "headlineWeight": "bold",
-        "bodyWeight": "medium",
+        "headlineWeight": "medium",
+        "bodyWeight": "light",
         "headlineTracking": "tight",
         "eyebrow": {
           "uppercase": true,
-          "tracking": "wider",
-          "weight": "semibold"
+          "tracking": "widest",
+          "weight": "medium"
         }
       },
       "radius": {
-        "base": "2xl",
+        "base": "sm",
         "pill": "full",
-        "scale": "soft"
+        "scale": "sharp"
       },
       "shadow": {
-        "elevation": "soft",
-        "card": "md"
+        "elevation": "flat",
+        "card": "none"
       },
       "spacing": {
-        "sectionY": "py-20",
-        "rhythm": "airy",
-        "containerMax": "1280px",
+        "sectionY": "py-12",
+        "rhythm": "normal",
+        "containerMax": "1200px",
         "gutter": "1.5rem"
       },
       "motion": {
         "durationMs": 300,
-        "easing": "cubic-bezier(0.16,1,0.3,1)",
-        "intensity": "expressive"
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
       },
       "background": {
         "treatment": "flat-white",
-        "blur": true,
-        "bloom": "rgba(133,50,73,0.18)"
+        "blur": true
       },
       "raw": {
-        "--color-brand-green": "#34FF18",
-        "--color-brand-graphite": "#2D3136",
-        "--color-brand-light-gray": "#F0F2F4",
-        "--color-brand-mid-gray": "#828E99",
-        "--font-sans": "Plus Jakarta Sans",
-        "--font-display": "Outfit"
+        "--color-brand-offwhite": "#FFFFFF",
+        "--color-brand-anthracite": "#1C1C1A",
+        "--color-brand-red": "#C8102E",
+        "--color-brand-green": "#1F4E3D",
+        "--color-brand-beige": "#E5E7EB",
+        "--color-brand-grey": "#71717A",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
       }
     },
     "brand": {
@@ -149,7 +150,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
@@ -176,9 +176,9 @@
     "placeholders": [
       "hero.aside",
       "faq",
+      "services.text",
       "process (generic)",
-      "audience (generic)",
-      "look.colors (generated)"
+      "audience (generic)"
     ],
     "real": [
       "meta.firm",
@@ -187,14 +187,14 @@
       "contact.phone",
       "hero.headline",
       "hero.lede",
-      "services.text",
       "values",
       "about",
       "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
-      "media.logo"
+      "media.logo",
+      "logo.colors"
     ]
   },
   "media": {
@@ -342,9 +342,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Abrechnungen MwSt., BVG, FAK, UVG, Pensionskasse/BVG, Mehrwertsteuer/Umsatzsteuer",
-        "body": "Abrechnungen MwSt., BVG, FAK, UVG, Pensionskasse/BVG, Mehrwertsteuer/Umsatzsteuer\n\nBesprechung des provisorischen Jahresabschlusses (Inventar, Debitoren, Kreditoren, Abschreibungen, Abgrenzungen, Rückstellungen usw.).\n\nErstellen des Jahresabschlusses/Buchhaltungsabschluss unter Berücksichtigung der steuerlichen Optimierung und Steuerplanung.\n\nErstellen Geschäftsbericht inkl. Anhang (der Gesetzgeber schreibt obligatorische Bestandteile des Jahresabschlusses vor)!",
+        "title": "Steuerberatung",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "«Ihre Steuererklärung wird kompetent und kostengünstig erledigt, inklusiv Optimierungsberatung.»\n\nSteuerberechnung, d.h. Berechnung der Einkommenssteuer und der Vermögenssteuer\n\n: der Gemeindesteuer, Kantonssteuer (Staatssteuer), Bundessteuer, Vermögenssteuer, Verrechnungssteuer (Wertschriftenverzeichnis), Erbschaftssteuer, Grundstücksgewinnsteuer, Kirchensteuer, Steuerverrechnung und Steuerguthaben.\n\nPer Todestag muss ein Inventar erstellt werden. Bank- und Postcheckkonten müssen durch die Bank per Todestag abgeschlossen werden. Im Todesjahr müssen 2 Steuererklärungen erstellt werden: Eine mit Einkommen, Abzügen und Vermögen bis und mit Todestag. Die zweite Steuererklärung ab Todestag bis 31. Dezember. Dabei geht es um die Steuerberechnungen von Verheiratetentarif und den Tarif für Alleinstehende (unterschiedliche Steuersätze!).",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -353,9 +353,20 @@
         ]
       },
       {
-        "title": "Steuerberatung",
-        "summary": "«Ihre Steuererklärung wird kompetent und kostengünstig erledigt, inklusiv Optimierungsberatung.»",
-        "body": "«Ihre Steuererklärung wird kompetent und kostengünstig erledigt, inklusiv Optimierungsberatung.»\n\nSteuerberechnung, d.h. Berechnung der Einkommenssteuer und der Vermögenssteuer\n\n: der Gemeindesteuer, Kantonssteuer (Staatssteuer), Bundessteuer, Vermögenssteuer, Verrechnungssteuer (Wertschriftenverzeichnis), Erbschaftssteuer, Grundstücksgewinnsteuer, Kirchensteuer, Steuerverrechnung und Steuerguthaben.\n\nPer Todestag muss ein Inventar erstellt werden. Bank- und Postcheckkonten müssen durch die Bank per Todestag abgeschlossen werden. Im Todesjahr müssen 2 Steuererklärungen erstellt werden: Eine mit Einkommen, Abzügen und Vermögen bis und mit Todestag. Die zweite Steuererklärung ab Todestag bis 31. Dezember. Dabei geht es um die Steuerberechnungen von Verheiratetentarif und den Tarif für Alleinstehende (unterschiedliche Steuersätze!).",
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "«Wir sind der fachliche Ansprechpartner für Privatpersonen, KMUs und alle die eine KMU gründen wollen.»\n\ndenn jede Gesellschaftsform hat spezielle Konsequenzen in Bezug auf Steuern, beim Entwicklungspotential, bei der Vererbung, bei Änderung des Gesellschaftszwecks, bei der Nachfolgeregelung z.B. beim Verkauf, beim Konkurs und bei der Liquidation usw.\n\nDabei spielen der Zweck der Firma wie auch die persönlichen Verhältnisse und Zielsetzungen eine zentrale Rolle. Es ist wichtig zu wissen, dass die richtige\n\nfür den langfristigen Erfolg der Firma steht. Ebenso die Wahl des Firmen- bzw. Steuerdomizils. Mit der richtigen Wahl können Sie auch Kosten sparen!",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Abrechnungen MwSt., BVG, FAK, UVG, Pensionskasse/BVG, Mehrwertsteuer/Umsatzsteuer\n\nBesprechung des provisorischen Jahresabschlusses (Inventar, Debitoren, Kreditoren, Abschreibungen, Abgrenzungen, Rückstellungen usw.).\n\nErstellen des Jahresabschlusses/Buchhaltungsabschluss unter Berücksichtigung der steuerlichen Optimierung und Steuerplanung.\n\nErstellen Geschäftsbericht inkl. Anhang (der Gesetzgeber schreibt obligatorische Bestandteile des Jahresabschlusses vor)!",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -366,18 +377,7 @@
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -388,7 +388,7 @@
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -397,9 +397,9 @@
         ]
       },
       {
-        "title": "Unternehmensberatung",
-        "summary": "«Wir sind der fachliche Ansprechpartner für Privatpersonen, KMUs und alle die eine KMU gründen wollen.»",
-        "body": "«Wir sind der fachliche Ansprechpartner für Privatpersonen, KMUs und alle die eine KMU gründen wollen.»\n\ndenn jede Gesellschaftsform hat spezielle Konsequenzen in Bezug auf Steuern, beim Entwicklungspotential, bei der Vererbung, bei Änderung des Gesellschaftszwecks, bei der Nachfolgeregelung z.B. beim Verkauf, beim Konkurs und bei der Liquidation usw.\n\nDabei spielen der Zweck der Firma wie auch die persönlichen Verhältnisse und Zielsetzungen eine zentrale Rolle. Es ist wichtig zu wissen, dass die richtige\n\nfür den langfristigen Erfolg der Firma steht. Ebenso die Wahl des Firmen- bzw. Steuerdomizils. Mit der richtigen Wahl können Sie auch Kosten sparen!",
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -419,26 +419,26 @@
       },
       {
         "title": "Roger Kümmerling - Geschäftsführer",
-        "body": "Nach betriebswirtschaftlicher Ausbildung 4 Jahre Anlageberater (Prokurist) bei einer  Grossbank, anschliessend 14 Jahre als Personal- und Finanzdirektor tätig. Militärische Fach- und Führungsausbildung- und Erfahrung."
+        "body": "Nach betriebswirtschaftlicher Ausbildung 4 Jahre Anlageberater (Prokurist) bei einer Grossbank, anschliessend 14 Jahre als Personal- und Finanzdirektor tätig. Militärische Fach- und Führungsausbildung- und Erfahrung."
       },
       {
         "title": "Mi Lätsch - Mandatsleiterin",
         "body": "Nach dem pädagogischen und mathematischen Studium hat sich Frau Lätsch zur Betriebsökonomin mit Fachvertiefung Rechnungswesen, Steuer und Controlling weitergebildet. Berufserfahrung in den Bereichen Treuhand, Buchhaltung, Steuern sowie Inkasso."
       },
       {
-        "title": "Tags",
-        "body": "steuerbüro, treuhandbüro, treuhandservice, beratung, treuhanddienste, quellensteuer, quellensteuertarif, formulare, treuhanddienstleistungen, treuhandgesellschaft, buchhaltungsmandate, steuermandate, steuererklärungsmandate, treuhandmandate."
+        "title": "Lena Petz",
+        "body": "Nach erfolgreichem KV-Abschluss war Frau Lena Petz als Buchhalterin (Finanz- und Lohnbuchhaltung) in einem Treuhandunternehmen und in der Immobilienbranche tätig."
       }
     ]
   },
   "about": {
     "eyebrow": "Über uns",
     "heading": "Firmenportrait",
-    "lead": "Wir stehen Ihnen auch für Lösungen im Zusammenhang mit der Unternehmensnachfolge zur Verfügung.",
+    "lead": "Ich und mein Team (Betriebswirtschafter, Buchhalter und Steuerexperten) unterstützen Sie bei der steuerlichen Optimierung, Gesellschaftsgründung und Buchhaltung. Wir sind der fachliche Ansprechpartner für Privatpersonen, KMU's und alle die eine KMU gründen wollen.",
     "paragraphs": [
-      "Nach betriebswirtschaftlicher Ausbildung 4 Jahre Anlageberater (Prokurist) bei einer  Grossbank, anschliessend 14 Jahre als Personal- und Finanzdirektor tätig. Militärische Fach- und Führungsausbildung- und Erfahrung.",
-      "Prüfungsexperte und Examinator bei der AKAD/IMAKA in betriebswirtschaftlichen Fächern.",
-      "Prüfungsexperte der Züricher Gesellschaft für Personalfragen ZGP. Moderator und Prüfungsexperte im Assessment-Center für Führungsausbildung des Schweizerischen Bankverein, heutige UBS. Zusatzfunktionen in der Personalausbildung- und Entwicklung."
+      "«Ich und mein Team - Betriebswirtschafter, Buchhalter und Steuerexperten- unterstützen Sie bei der steuerlichen Optimierung, Gesellschaftsgründung und Buchhaltung.»",
+      "Wir stehen Ihnen auch für Lösungen im Zusammenhang mit der Unternehmensnachfolge zur Verfügung.",
+      "Firmendomizil, Steuerdomizil, Finanzberatung im Zusammenhang mit der Vorbereitung von Trennung/Scheidung. Ebenso bieten wir allgemeine Treuhand- und Finanzdienstleistungen zur Sicherung von Einkommen und Vermögen an."
     ]
   },
   "featureAngles": [
@@ -453,7 +453,7 @@
     {
       "eyebrow": "Unser Ansatz",
       "heading": "Roger Kümmerling - Geschäftsführer",
-      "body": "Nach betriebswirtschaftlicher Ausbildung 4 Jahre Anlageberater (Prokurist) bei einer  Grossbank, anschliessend 14 Jahre als Personal- und Finanzdirektor tätig. Militärische Fach- und Führungsausbildung- und Erfahrung.",
+      "body": "Nach betriebswirtschaftlicher Ausbildung 4 Jahre Anlageberater (Prokurist) bei einer Grossbank, anschliessend 14 Jahre als Personal- und Finanzdirektor tätig. Militärische Fach- und Führungsausbildung- und Erfahrung.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -468,8 +468,8 @@
     },
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Tags",
-      "body": "steuerbüro, treuhandbüro, treuhandservice, beratung, treuhanddienste, quellensteuer, quellensteuertarif, formulare, treuhanddienstleistungen, treuhandgesellschaft, buchhaltungsmandate, steuermandate, steuererklärungsmandate, treuhandmandate.",
+      "heading": "Lena Petz",
+      "body": "Nach erfolgreichem KV-Abschluss war Frau Lena Petz als Buchhalterin (Finanz- und Lohnbuchhaltung) in einem Treuhandunternehmen und in der Immobilienbranche tätig.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -517,7 +517,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Treuhandservice Badenerstrasse 745, 8048 Zürich",
       "phone": "043 960 98 41",
       "email": "info@treuhand-service-zh.ch"
     },
@@ -539,7 +539,7 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Treuhandservice Badenerstrasse 745, 8048 Zürich",
           "043 960 98 41",
           "info@treuhand-service-zh.ch"
         ]

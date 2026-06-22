@@ -31,17 +31,21 @@ export const HeroCenteredCard: React.FC<{ content: HeroContent }> = ({ content }
 );
 
 /** 2) Mirror split — aside quote left, text right. */
-export const HeroSplitReverse: React.FC<{ content: HeroContent }> = ({ content }) => (
+export const HeroSplitReverse: React.FC<{ content: HeroContent }> = ({ content }) => {
+  const showAside = !!content.asideQuote && content.asideQuote.trim() !== content.lede.trim();
+  return (
   <section style={sectionBase}>
     <Container>
-      <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,2fr)", gap: "3rem", alignItems: "center" }}>
+      <div style={{ display: "grid", gridTemplateColumns: showAside ? "minmax(0,1fr) minmax(0,2fr)" : "minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
+        {showAside && (
         <aside style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1rem", order: 0 }}>
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem",   color: "var(--ds-text-muted)" }}>{content.asideLabel}</div>
           <p style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.15rem", lineHeight: 1.4, color: "var(--ds-text)", margin: 0, fontStyle: "italic" }}>“{content.asideQuote}”</p>
           <div style={{ height: "2px", width: "2.5rem", background: "var(--ds-primary)" }} />
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.85rem", color: "var(--ds-text-muted)" }}>{content.asideAttribution}</div>
         </aside>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem" }}>
+        )}
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem", maxWidth: showAside ? undefined : "62ch" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading><Title c={content} /></Heading>
           <Lede>{content.lede}</Lede>
@@ -50,7 +54,8 @@ export const HeroSplitReverse: React.FC<{ content: HeroContent }> = ({ content }
       </div>
     </Container>
   </section>
-);
+  );
+};
 
 /** 3) Type-forward, accent word on its own line. */
 export const HeroTwoLine: React.FC<{ content: HeroContent }> = ({ content }) => (
@@ -125,11 +130,13 @@ export const HeroPortraitFrame: React.FC<{ content: HeroContent }> = ({ content 
 );
 
 /** 7) Inverted dark split — light text left, surface card right. */
-export const HeroDarkSplit: React.FC<{ content: HeroContent }> = ({ content }) => (
+export const HeroDarkSplit: React.FC<{ content: HeroContent }> = ({ content }) => {
+  const showAside = !!content.asideQuote && content.asideQuote.trim() !== content.lede.trim();
+  return (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
-      <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.4fr) minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.3rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: showAside ? "minmax(0,1.4fr) minmax(0,1fr)" : "minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.3rem", maxWidth: showAside ? undefined : "60ch" }}>
           <h1 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display)", letterSpacing: "var(--ds-headline-tracking)", lineHeight: 1.05, color: "var(--ds-bg)", margin: 0 }}>
             {content.titleLead} <span style={{ color: "var(--ds-primary)" }}>{content.titleAccent}</span>{content.titleTail ? ` ${content.titleTail}` : ""}
           </h1>
@@ -139,15 +146,18 @@ export const HeroDarkSplit: React.FC<{ content: HeroContent }> = ({ content }) =
             <ActionButton to="/leistungen" style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.78rem",   fontWeight: 600, padding: "0.9rem 1.6rem", borderRadius: "var(--ds-radius)", cursor: "pointer", background: "transparent", color: "var(--ds-bg)", border: "1px solid var(--ds-bg)" }}>{content.secondaryCta}</ActionButton>
           </div>
         </div>
+        {showAside && (
         <aside style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "0.9rem" }}>
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem",   color: "var(--ds-primary)" }}>{content.asideLabel}</div>
           <p style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.1rem", lineHeight: 1.4, color: "var(--ds-bg)", margin: 0, fontStyle: "italic" }}>“{content.asideQuote}”</p>
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.82rem", color: "var(--ds-bg)", opacity: 0.8 }}>{content.asideAttribution}</div>
         </aside>
+        )}
       </div>
     </Container>
   </section>
-);
+  );
+};
 
 /** 8) Centered content over a dotted-grid background. */
 export const HeroGridBg: React.FC<{ content: HeroContent }> = ({ content }) => (

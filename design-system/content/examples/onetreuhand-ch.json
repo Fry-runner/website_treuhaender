@@ -9,13 +9,13 @@
     "look": {
       "meta": {
         "id": "onetreuhand-ch-brand",
-        "name": "Boost Editorial · brand-tinted",
+        "name": "Boost Editorial · logo-tinted",
         "mood": "High-fidelity minimalist; serif display over Inter, navy text, clean blue accent, airy whitespace.",
-        "source": "Boost-Consulting + scraped brand",
+        "source": "Boost-Consulting + logo colour",
         "derived": [
           "color.primaryFg (#FFFFFF)",
           "base: boost-editorial",
-          "accent #690A0A (scraped · medium)",
+          "accent #5A0605 (logo)",
           "heading: Lora (inventory)",
           "body: Karla (inventory)",
           "mono: IBM Plex Mono (inventory)"
@@ -36,10 +36,10 @@
         "text": "#0F172A",
         "textMuted": "#94A3B8",
         "border": "#E2E8F0",
-        "primary": "#690A0A",
+        "primary": "#5A0605",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#F3EBEB",
-        "secondary": "#0083BA",
+        "primarySoft": "#F2EBEB",
+        "secondary": "#5A0605",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -218,7 +218,7 @@
       "trust.badges",
       "services.images",
       "media.documents",
-      "brand.colors"
+      "logo.colors"
     ]
   },
   "media": {
@@ -594,19 +594,8 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Mit unserer digitalen Buchhaltung in Zürich übernehmen wir Ihre laufenden Zahlen – effizient, persönlich und ohne Papierkram. So gewinnen Sie Zeit fürs Wesentliche und behalten Ihre Finanzen jederzeit im Blick.",
-        "body": "Mit unserer digitalen Buchhaltung in Zürich übernehmen wir Ihre laufenden Zahlen – effizient, persönlich und ohne Papierkram. So gewinnen Sie Zeit fürs Wesentliche und behalten Ihre Finanzen jederzeit im Blick.\n\nEine saubere Buchhaltung ist die Grundlage jeder erfolgreichen Unternehmung – und gleichzeitig eine der zeitintensivsten Aufgaben im Geschäftsalltag. Genau hier setzt ONE! Treuhand an: Wir übernehmen Ihre komplette Finanzbuchhaltung, digital, effizient und zuverlässig – damit Sie sich auf Ihr Unternehmen konzentrieren können.\n\nUnser Buchhaltungsbüro in Zürich sorgt für klare Zahlen, strukturierte Abläufe und korrekte Abschlüsse.\n\n, der Ihre Buchhaltung führt, Ihre Fragen beantwortet und Sie steuerlich auf Kurs hält – verständlich, persönlich und ohne unnötige Komplexität.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
         "title": "Steuerberatung",
-        "summary": "Alle Unterlagen, Schritte und Tipps, damit Ihre Steuererklärung vollständig, korrekt und stressfrei eingereicht werden kann.",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Alle Unterlagen, Schritte und Tipps, damit Ihre Steuererklärung vollständig, korrekt und stressfrei eingereicht werden kann.\n\nRodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH. Als\n\nbegleitet er Unternehmerinnen und Unternehmer in der ganzen Schweiz mit klaren Zahlen, digitalen Prozessen und persönlicher Beratung auf Augenhöhe.\n\nDer Abschluss „eidg. diplomierter Experte in Rechnungslegung und Controlling“ entspricht dem Qualifikationsniveau NQR 8 und liegt damit auf dem höchsten Bildungsniveau – vergleichbar mit einem Doktorat in Bezug auf fachliche Tiefe und Verantwortung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -616,8 +605,42 @@
         ]
       },
       {
+        "title": "Unternehmensberatung",
+        "summary": "Effektive Methode oder Saldosteuersatz? – Ein kuratierter Beitrag zur richtigen Entscheidung für MWST-Anliegen schweizer KMU.",
+        "body": "Die richtige MWST-Methode senkt nicht nur Aufwand, sondern verhindert auch teure Fehlentscheide bei Vorsteuer, Liquidität und Abrechnung.\n\nRodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH. Als\n\nbegleitet er Unternehmerinnen und Unternehmer in der ganzen Schweiz mit klaren Zahlen, digitalen Prozessen und persönlicher Beratung auf Augenhöhe.\n\nDer Abschluss „eidg. diplomierter Experte in Rechnungslegung und Controlling“ entspricht dem Qualifikationsniveau NQR 8 und liegt damit auf dem höchsten Bildungsniveau – vergleichbar mit einem Doktorat in Bezug auf fachliche Tiefe und Verantwortung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/onetreuhand-ch/pool/fe20a3306a__Beratungsgespraech-Content.webp"
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Mit unserer digitalen Buchhaltung in Zürich übernehmen wir Ihre laufenden Zahlen – effizient, persönlich und ohne Papierkram. So gewinnen Sie Zeit fürs Wesentliche und behalten Ihre Finanzen jederzeit im Blick.\n\nEine saubere Buchhaltung ist die Grundlage jeder erfolgreichen Unternehmung – und gleichzeitig eine der zeitintensivsten Aufgaben im Geschäftsalltag. Genau hier setzt ONE! Treuhand an: Wir übernehmen Ihre komplette Finanzbuchhaltung, digital, effizient und zuverlässig – damit Sie sich auf Ihr Unternehmen konzentrieren können.\n\nUnser Buchhaltungsbüro in Zürich sorgt für klare Zahlen, strukturierte Abläufe und korrekte Abschlüsse.\n\n, der Ihre Buchhaltung führt, Ihre Fragen beantwortet und Sie steuerlich auf Kurs hält – verständlich, persönlich und ohne unnötige Komplexität.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Die richtige MWST-Methode senkt nicht nur Aufwand, sondern verhindert auch teure Fehlentscheide bei Vorsteuer, Liquidität und Abrechnung.\n\nRodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH. Als\n\nbegleitet er Unternehmerinnen und Unternehmer in der ganzen Schweiz mit klaren Zahlen, digitalen Prozessen und persönlicher Beratung auf Augenhöhe.\n\nDer Abschluss „eidg. diplomierter Experte in Rechnungslegung und Controlling“ entspricht dem Qualifikationsniveau NQR 8 und liegt damit auf dem höchsten Bildungsniveau – vergleichbar mit einem Doktorat in Bezug auf fachliche Tiefe und Verantwortung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
         "title": "Lohnadministration",
-        "summary": "Die Lohnabrechnung ist ein wichtiger Aspekt der Finanzverwaltung, der nicht nur für angestellte Arbeitnehmer, sondern auch zu den Aufgaben von Selbstständige gehört. Selbständige, welche Mitarbeiter beschäftigen, müssen eine korrekte und rechtzeitige Lohnabrechnung durchführen, u",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
         "body": "Die Lohnabrechnung ist ein wichtiger Aspekt der Finanzverwaltung, der nicht nur für angestellte Arbeitnehmer, sondern auch zu den Aufgaben von Selbstständige gehört. Selbständige, welche Mitarbeiter beschäftigen, müssen eine korrekte und rechtzeitige Lohnabrechnung durchführen, um die Gehälter ihrer Angestellten zu berechnen und alle gesetzlichen Verpflichtungen zu erfüllen.\n\nRodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH. Als\n\nbegleitet er Unternehmerinnen und Unternehmer in der ganzen Schweiz mit klaren Zahlen, digitalen Prozessen und persönlicher Beratung auf Augenhöhe.\n\nDer Abschluss „eidg. diplomierter Experte in Rechnungslegung und Controlling“ entspricht dem Qualifikationsniveau NQR 8 und liegt damit auf dem höchsten Bildungsniveau – vergleichbar mit einem Doktorat in Bezug auf fachliche Tiefe und Verantwortung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -628,37 +651,14 @@
       },
       {
         "title": "Jahresabschluss",
-        "summary": "Das sind zwei der wichtigsten Finanzdokumente, die jedes Unternehmen regelmässig erstellen muss.",
-        "body": "Das sind zwei der wichtigsten Finanzdokumente, die jedes Unternehmen regelmässig erstellen muss.\n\nSie bieten einen detaillierten Überblick über die finanzielle Situation einer Firma und sind daher für Stakeholder, Investoren und die Geschäftsleitung von entscheidender Bedeutung.\n\nAls Treuhänder ist es unsere Aufgabe, sicherzustellen, dass diese Dokumente korrekt, transparent und gemäss den geltenden Rechnungslegungsvorschriften erstellt werden.\n\nRodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH. Als",
+        "summary": "Bilanz und Erfolgsrechnung verständlich erklärt: Aufbau, Aussagekraft, Unterschiede & Rolle für Unternehmen und Geschäftsleitung.",
+        "body": "Das sind zwei der wichtigsten Finanzdokumente, die jedes Unternehmen regelmässig erstellen muss.\n\nSie bieten einen detaillierten Überblick über die finanzielle Situation einer Firma und sind daher für Stakeholder, Investoren und die Geschäftsleitung von entscheidender Bedeutung.\n\nAls Treuhänder ist es unsere Aufgabe, sicherzustellen, dass diese Dokumente korrekt, transparent und gemäss den geltenden Rechnungslegungsvorschriften erstellt werden.\n\nRodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "Die richtige MWST-Methode senkt nicht nur Aufwand, sondern verhindert auch teure Fehlentscheide bei Vorsteuer, Liquidität und Abrechnung.",
-        "body": "Die richtige MWST-Methode senkt nicht nur Aufwand, sondern verhindert auch teure Fehlentscheide bei Vorsteuer, Liquidität und Abrechnung.\n\nRodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH. Als\n\nbegleitet er Unternehmerinnen und Unternehmer in der ganzen Schweiz mit klaren Zahlen, digitalen Prozessen und persönlicher Beratung auf Augenhöhe.\n\nDer Abschluss „eidg. diplomierter Experte in Rechnungslegung und Controlling“ entspricht dem Qualifikationsniveau NQR 8 und liegt damit auf dem höchsten Bildungsniveau – vergleichbar mit einem Doktorat in Bezug auf fachliche Tiefe und Verantwortung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Die richtige MWST-Methode senkt nicht nur Aufwand, sondern verhindert auch teure Fehlentscheide bei Vorsteuer, Liquidität und Abrechnung.\n\nRodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH. Als\n\nbegleitet er Unternehmerinnen und Unternehmer in der ganzen Schweiz mit klaren Zahlen, digitalen Prozessen und persönlicher Beratung auf Augenhöhe.\n\nDer Abschluss „eidg. diplomierter Experte in Rechnungslegung und Controlling“ entspricht dem Qualifikationsniveau NQR 8 und liegt damit auf dem höchsten Bildungsniveau – vergleichbar mit einem Doktorat in Bezug auf fachliche Tiefe und Verantwortung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/onetreuhand-ch/pool/fe20a3306a__Beratungsgespraech-Content.webp"
       }
     ]
   },
@@ -794,9 +794,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich-Glattbrugg",
+      "address": "Europa-Strasse 19, 8152 Zürich-Glattbrugg",
       "phone": "+41 (0) 44 533 34 25",
-      "email": "elcome@onetreuhand.ch"
+      "email": "welcome@onetreuhand.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -816,9 +816,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich-Glattbrugg",
+          "Europa-Strasse 19, 8152 Zürich-Glattbrugg",
           "+41 (0) 44 533 34 25",
-          "elcome@onetreuhand.ch"
+          "welcome@onetreuhand.ch"
         ]
       },
       {

@@ -173,7 +173,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
@@ -700,9 +699,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Effiziente, digitale, sichere und zuverlässige Payrollprozesse erwarten nicht nur deine Mitarbeitenden, sondern auch der Fiskus und die Sozialversicherungen. Mit digitalen Lohnprozessen sorgen wir für eine korrekte und vollständige Deklaration deiner Löhne, begleiten dich bei Rev",
-        "body": "Effiziente, digitale, sichere und zuverlässige Payrollprozesse erwarten nicht nur deine Mitarbeitenden, sondern auch der Fiskus und die Sozialversicherungen. Mit digitalen Lohnprozessen sorgen wir für eine korrekte und vollständige Deklaration deiner Löhne, begleiten dich bei Revisionen der Sozialversicherungen, realisieren Mitarbeiterbeteiligungsprogramme und unterstützen dich in Fragen zu internationalen Sachverhalten oder zum Spesenmanagement.\n\nPlanung und Aufsetzung der richtigen Pläne (ESOPs, Phantom Stock Programme, etc.)\n\nUnsere Dienstleistungen passen sich deinen Bedürfnisse an. Gerne zeigen wir dir die passende Lösung in einem persönlichen Gespräch auf.\n\nMit dem untenstehenden Formular kannst du direkt mit Seraina Klossner in Kontakt treten.",
+        "title": "Unternehmensberatung",
+        "summary": "Professionelle Beratung in allen Unternehmensphasen. Von der Idee bis zur Nachfolge. Treuhand, Unternehmensberatung, Steuerberatung und Wirtschaftsprüfung.",
+        "body": "Seit 2013 begleiten wir als Treuhänder ein vielfältiges Portfolio von Unternehmen durch alle Phasen des Unternehmertums – von der Gründung bis zur Nachfolgeplanung.\n\nMit umfassendem Know-how unterstützen wir dich bei der erfolgreichen Bewältigung unternehmerischer Herausforderungen. Unser Angebot umfasst interdisziplinäre Dienstleistungen in den Bereichen Treuhand, Unternehmensberatung, Steuerberatung und Wirtschaftsprüfung.\n\nWir begleiten dich dabei, deine Idee in eine Unternehmung zu verwandeln. Dabei unterstützen wir dich, die richtige Rechtsform zu wählen, deine Gesellschaft zu gründen, von Start weg effiziente Finanz- und Buchhaltungsprozesse zu etablieren, und die notwendigen Anmeldungen und Registrationen vorzunehmen.\n\nDein Unternehmen ist bereits erfolgreich am Markt etabliert und verfügt über das Potenzial, weiter zu wachsen?",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -712,7 +711,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Sei es bei der Steuerplanung oder bei Themen der direkten und indirekten Steuern sowie anderen Abgaben. Wir sorgen für eine korrekte und vollständige Deklaration, begleiten bei Steuerprüfungen und -revisionen und unterstützen dich mit Steuerchecks und Risikoanalysen.",
+        "summary": "Steuerberatung und -planung. Wir unterstützen Unternehmen, deren Eigner und Anspruchsgruppen in allen Steuerfragen.",
         "body": "Sei es bei der Steuerplanung oder bei Themen der direkten und indirekten Steuern sowie anderen Abgaben. Wir sorgen für eine korrekte und vollständige Deklaration, begleiten bei Steuerprüfungen und -revisionen und unterstützen dich mit Steuerchecks und Risikoanalysen.\n\nSteuererklärungen für juristische Personen (AGs, GmbHs, Vereine, etc.)\n\nSteuerliche Erfassung und Beratung i.S. Mitarbeiterbeteiligungsplänen (ESOPs, etc.)\n\nUnsere Dienstleistungen passen sich deinen Bedürfnisse an. Gerne zeigen wir dir die passende Lösung in einem persönlichen Gespräch auf.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -722,8 +721,19 @@
         ]
       },
       {
+        "title": "Revision",
+        "summary": "Professionelle Revision für Startups, wachsende und etablierte KMUs. Wirtschaftsprüfung, die Vertrauen und Transparenz schafft.",
+        "body": "Eine unabhängige, objektive Revision unterstreicht die Glaubwürdigkeit deiner Unternehmenszahlen. Damit deine Eigentümer und weitere Stakeholder den Durchblick behalten.\n\nanalysieren wir den Abschluss und prüfen risikoorientiert wichtige Positionen sowie Transaktionen. Durch strukturierte Besprechungen erfragen wir Informationen, erläutern Auffälligkeiten und ziehen daraus Schlussfolgerungen.\n\nverschaffen wir uns ein Verständnis der Geschäftstätigkeit und prüfen risikoorientiert Finanzprozesse, interne Kontrollen, wesentliche Positionen, Transaktionen sowie Offenlegungen in Finanzberichten.\n\nPrüfung von Jahres- und Konzernrechnungen nach OR inkl.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
         "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "summary": "Payroll – digital, umfassend und zuverlässig. Wir unterstützen Unternehmen und deren Mitarbeitende in allen Belangen der Lohnadministration.",
         "body": "Effiziente, digitale, sichere und zuverlässige Payrollprozesse erwarten nicht nur deine Mitarbeitenden, sondern auch der Fiskus und die Sozialversicherungen. Mit digitalen Lohnprozessen sorgen wir für eine korrekte und vollständige Deklaration deiner Löhne, begleiten dich bei Revisionen der Sozialversicherungen, realisieren Mitarbeiterbeteiligungsprogramme und unterstützen dich in Fragen zu internationalen Sachverhalten oder zum Spesenmanagement.\n\nPlanung und Aufsetzung der richtigen Pläne (ESOPs, Phantom Stock Programme, etc.)\n\nUnsere Dienstleistungen passen sich deinen Bedürfnisse an. Gerne zeigen wir dir die passende Lösung in einem persönlichen Gespräch auf.\n\nMit dem untenstehenden Formular kannst du direkt mit Seraina Klossner in Kontakt treten.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -733,9 +743,9 @@
         ]
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Effiziente, digitale, sichere und zuverlässige Payrollprozesse erwarten nicht nur deine Mitarbeitenden, sondern auch der Fiskus und die Sozialversicherungen. Mit digitalen Lohnprozessen sorgen wir für eine korrekte und vollständige Deklaration deiner Löhne, begleiten dich bei Revisionen der Sozialversicherungen, realisieren Mitarbeiterbeteiligungsprogramme und unterstützen dich in Fragen zu internationalen Sachverhalten oder zum Spesenmanagement.\n\nPlanung und Aufsetzung der richtigen Pläne (ESOPs, Phantom Stock Programme, etc.)\n\nUnsere Dienstleistungen passen sich deinen Bedürfnisse an. Gerne zeigen wir dir die passende Lösung in einem persönlichen Gespräch auf.\n\nMit dem untenstehenden Formular kannst du direkt mit Seraina Klossner in Kontakt treten.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -746,18 +756,7 @@
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Seit 2013 begleiten wir als Treuhänder ein vielfältiges Portfolio von Unternehmen durch alle Phasen des Unternehmertums – von der Gründung bis zur Nachfolgeplanung.",
-        "body": "Seit 2013 begleiten wir als Treuhänder ein vielfältiges Portfolio von Unternehmen durch alle Phasen des Unternehmertums – von der Gründung bis zur Nachfolgeplanung.\n\nMit umfassendem Know-how unterstützen wir dich bei der erfolgreichen Bewältigung unternehmerischer Herausforderungen. Unser Angebot umfasst interdisziplinäre Dienstleistungen in den Bereichen Treuhand, Unternehmensberatung, Steuerberatung und Wirtschaftsprüfung.\n\nWir begleiten dich dabei, deine Idee in eine Unternehmung zu verwandeln. Dabei unterstützen wir dich, die richtige Rechtsform zu wählen, deine Gesellschaft zu gründen, von Start weg effiziente Finanz- und Buchhaltungsprozesse zu etablieren, und die notwendigen Anmeldungen und Registrationen vorzunehmen.\n\nDein Unternehmen ist bereits erfolgreich am Markt etabliert und verfügt über das Potenzial, weiter zu wachsen? Wir begleiten dich dabei, die Wachstumsphase optimal ",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -784,19 +783,19 @@
         "body": "Professionalität bedeutet für uns das optimale Zusammenspiel von Fachwissen, individuellen Talenten und der Bereitschaft, sich kontinuierlich weiterzuentwickeln."
       },
       {
-        "title": "Gründung",
-        "body": "Du suchst spannende Herausforderungen, ein motiviertes Team und eine ausgewogene Work-Life-Balance? Dann bist du bei uns genau richtig."
+        "title": "Huyen Nguyen",
+        "body": "Huyen stiess im Sommer 2018 als Treuhandsachbearbeiterin zum Team. Aufgrund ihrer ausgezeichneten Leistungen wurde sie im Januar 2023 zur Treuhänderin befördert."
       }
     ]
   },
   "about": {
     "eyebrow": "Über uns",
-    "heading": "Unternehmensphasen",
-    "lead": "Seit 2013 begleiten wir als Treuhänder ein vielfältiges Portfolio von Unternehmen durch alle Phasen des Unternehmertums – von der Gründung bis zur Nachfolgeplanung.",
+    "heading": "Wir sind ein digitales, partnergeführtes Treuhandunternehmen",
+    "lead": "Seit 2013 begleiten wir ein vielfältiges Portfolio von Unternehmen durch alle Phasen des Unternehmertums – von der Gründung bis zur Nachfolgeplanung. Unser Angebot umfasst interdisziplinäre Dienstleistungen in den Bereichen Treuhand, Unternehmensberatung, Steuerberatung und Wirtschaftsprüfung.",
     "paragraphs": [
-      "Wir begleiten dich dabei, deine Idee in eine Unternehmung zu verwandeln. Dabei unterstützen wir dich, die richtige Rechtsform zu wählen, deine Gesellschaft zu gründen, von Start weg effiziente Finanz- und Buchhaltungsprozesse zu etablieren, und die notwendigen Anmeldungen und Registrationen vorzunehmen.",
-      "Dein Unternehmen ist bereits erfolgreich am Markt etabliert und verfügt über das Potenzial, weiter zu wachsen? Wir begleiten dich dabei, die Wachstumsphase optimal zu gestalten – von Mitarbeiterbeteiligungsplänen über die Begleitung deiner Expansion bis hin zur umfassenden Absicherung deines Unternehmens.",
-      "Du führst ein etabliertes Unternehmen und möchtest Prozesse verbessern, Kostenstrukturen optimieren und Geschäftsrisiken minimieren? Wir unterstützen dich dabei, die administrative, steuerliche und finanzielle Effizienz deines Unternehmens langfristig zu sichern."
+      "Wir umgeben uns mit Menschen, die mit Hingabe tun, was ihnen am Herzen liegt. Es motiviert uns, andere bei ihren Zielen zu unterstützen und gemeinsam Grosses zu erreichen.",
+      "Unsere Leidenschaft für Herausforderungen und die Suche nach den bestmöglichen Lösungen treiben uns an. Mit vollem Einsatz, Fachwissen und Erfahrung erbringen wir Höchstleistungen.",
+      "Unser Erfolg basiert auf einem Arbeitsumfeld, in dem jedes Teammitglied sein volles Potenzial entfalten kann."
     ]
   },
   "featureAngles": [
@@ -826,8 +825,8 @@
     },
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Gründung",
-      "body": "Du suchst spannende Herausforderungen, ein motiviertes Team und eine ausgewogene Work-Life-Balance? Dann bist du bei uns genau richtig.",
+      "heading": "Huyen Nguyen",
+      "body": "Huyen stiess im Sommer 2018 als Treuhandsachbearbeiterin zum Team. Aufgrund ihrer ausgezeichneten Leistungen wurde sie im Januar 2023 zur Treuhänderin befördert.",
       "cta": {
         "label": "Termin buchen"
       }
@@ -924,7 +923,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Wallisellen",
+      "address": "Neue Winterthurerstrasse 99, 8304 Wallisellen",
       "phone": "+41 43 266 36 20",
       "email": "info@wespipartner.ch"
     },
@@ -946,7 +945,7 @@
       {
         "title": "Standort",
         "links": [
-          "Wallisellen",
+          "Neue Winterthurerstrasse 99, 8304 Wallisellen",
           "+41 43 266 36 20",
           "info@wespipartner.ch"
         ]

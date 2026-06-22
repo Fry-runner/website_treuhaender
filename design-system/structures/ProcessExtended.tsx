@@ -367,3 +367,26 @@ export const ProcessStackedBig: React.FC<Props> = ({ content }) => (
     </div>
   </Container></section>
 );
+
+/** 23) Numbered steps beside a framed scene photo. The image-rhythm pass promotes THIS
+ *  already-needed section to carry the picture, instead of inserting a filler band.
+ *  Falls back to the numbered-rows layout when no image is supplied. */
+export const ProcessPhotoSplit: React.FC<Props> = ({ content }) =>
+  content.image ? (
+    <section style={sectionBase}><Container>
+      <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.05fr) minmax(0,0.95fr)", gap: "clamp(1.8rem, 4vw, 3.4rem)", alignItems: "center" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+          <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.1rem" }}>
+            {content.steps.map((s, i) => (
+              <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1rem", alignItems: "start" }}>
+                <Dot i={i} />
+                <div style={{ display: "flex", flexDirection: "column", gap: "0.3rem" }}><h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.body}</p></div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div aria-hidden style={{ minHeight: "clamp(280px, 34vw, 440px)", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", boxShadow: "var(--ds-shadow-card)", backgroundImage: `url("${content.image}")`, backgroundSize: "cover", backgroundPosition: "center" }} />
+      </div>
+    </Container></section>
+  ) : <ProcessNumberedRows content={content} />;

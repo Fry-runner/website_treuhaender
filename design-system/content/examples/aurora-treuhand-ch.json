@@ -3,99 +3,95 @@
     "firm": "aurora treuhand ag",
     "domain": "aurora-treuhand.ch",
     "archetype": "boutique",
-    "lookId": "zueri-swiss",
+    "lookId": "tureva-soft",
     "sourceUrl": "https://www.aurora-treuhand.ch/",
-    "basePresetId": "zueri-swiss",
+    "basePresetId": "tureva-soft",
     "look": {
       "meta": {
         "id": "aurora-treuhand-ch-brand",
-        "name": "Züri Swiss Blue · brand-generated",
-        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
-        "source": "Züri-Treuhand + generated accent",
+        "name": "Tureva Soft Modern · logo-tinted",
+        "mood": "Friendly premium; rounded cards, soft shadows, geometric Outfit/Jakarta type, vibrant lime-green CTA bloom.",
+        "source": "Tureva + logo colour",
         "derived": [
-          "color.primaryFg (#FFFFFF)",
-          "color.primarySoft (#EAF1F8 tint)",
-          "color.secondaryFg (#FFFFFF)",
-          "color.textMuted (#737373 neutral-500)",
-          "base: zueri-swiss",
-          "accent #267875 (generated · scraped #68CCD1 rejected: low)",
-          "heading: Familjen Grotesk (inventory)",
-          "body: Mulish (inventory)",
-          "mono: Space Mono (inventory)"
+          "color.primarySoft (#ECFFE8 tint)",
+          "color.border (= surface)",
+          "base: tureva-soft",
+          "accent #D55736 (logo)",
+          "heading: Epilogue (inventory)",
+          "body: Public Sans (inventory)",
+          "mono: JetBrains Mono (inventory)"
         ]
       },
       "tags": {
-        "tone": "formal",
-        "warmth": "cool",
-        "corner": "sharp",
-        "density": "normal",
-        "contrast": "high",
-        "era": "timeless",
-        "accentEnergy": "medium"
+        "tone": "friendly",
+        "warmth": "neutral",
+        "corner": "soft",
+        "density": "airy",
+        "contrast": "medium",
+        "era": "modern",
+        "accentEnergy": "vibrant"
       },
       "color": {
         "bg": "#FFFFFF",
-        "surface": "#F9FAFB",
-        "text": "#333333",
-        "textMuted": "#737373",
-        "border": "#EAEAEA",
-        "primary": "#267875",
+        "surface": "#F0F2F4",
+        "text": "#2D3136",
+        "textMuted": "#828E99",
+        "border": "#F0F2F4",
+        "primary": "#D55736",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#EEF4F4",
-        "secondary": "#295094",
+        "primarySoft": "#FCF2EF",
+        "secondary": "#D55736",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
-        "headingRole": "display-grotesk"
+        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Epilogue\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-geometric",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
         "displayMax": "7xl",
         "headlineWeight": "bold",
-        "bodyWeight": "light",
+        "bodyWeight": "medium",
         "headlineTracking": "tight",
         "eyebrow": {
           "uppercase": true,
-          "tracking": "widest",
-          "weight": "bold"
+          "tracking": "wider",
+          "weight": "semibold"
         }
       },
       "radius": {
-        "base": "sm",
+        "base": "2xl",
         "pill": "full",
-        "scale": "sharp"
+        "scale": "soft"
       },
       "shadow": {
-        "elevation": "subtle",
-        "card": "sm"
+        "elevation": "soft",
+        "card": "md"
       },
       "spacing": {
-        "sectionY": "py-16",
-        "rhythm": "normal",
+        "sectionY": "py-20",
+        "rhythm": "airy",
         "containerMax": "1280px",
         "gutter": "1.5rem"
       },
       "motion": {
-        "durationMs": 400,
-        "easing": "cubic-bezier(0.4,0,0.2,1)",
-        "intensity": "subtle"
+        "durationMs": 300,
+        "easing": "cubic-bezier(0.16,1,0.3,1)",
+        "intensity": "expressive"
       },
       "background": {
         "treatment": "flat-white",
-        "blur": true
+        "blur": true,
+        "bloom": "rgba(213,87,54,0.18)"
       },
       "raw": {
-        "--color-brand-blue": "#084687",
-        "--color-accent-blue": "#0b549f",
-        "--color-charcoal": "#333333",
-        "--color-soft-gray": "#F9FAFB",
-        "--color-border-gray": "#EAEAEA",
-        "--font-sans": "Inter",
-        "--font-serif": "Playfair Display",
-        "--font-display": "Space Grotesk",
-        "--font-mono": "JetBrains Mono"
+        "--color-brand-green": "#34FF18",
+        "--color-brand-graphite": "#2D3136",
+        "--color-brand-light-gray": "#F0F2F4",
+        "--color-brand-mid-gray": "#828E99",
+        "--font-sans": "Plus Jakarta Sans",
+        "--font-display": "Outfit"
       }
     },
     "brand": {
@@ -158,7 +154,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -189,7 +184,6 @@
       "process (generic)",
       "audience (generic)",
       "about (generic)",
-      "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -204,7 +198,8 @@
       "footer.tagline",
       "trust.items",
       "media.pool",
-      "media.logo"
+      "media.logo",
+      "logo.colors"
     ]
   },
   "media": {
@@ -360,31 +355,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Sie finden unter den Dienstleistungen des Treuhandbüros aurora treuhand ag Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
         "title": "Steuerberatung",
         "summary": "Auf dieser Seite finden sie aktuelle Informationen zu den Themen Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen von aurora treuhand ag.",
-        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -395,7 +368,40 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Sie finden unter den Dienstleistungen des Treuhandbüros aurora treuhand ag Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Nachlass & Erbrecht",
+        "summary": "Nachlassplanung, Willensvollstreckung und Erbteilung – sorgfältig und diskret begleitet.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -413,8 +419,8 @@
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Sie finden unter den Dienstleistungen des Treuhandbüros aurora treuhand ag Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
+      "heading": "Steuerberatung",
+      "body": "Auf dieser Seite finden sie aktuelle Informationen zu den Themen Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen von aurora treuhand ag.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -426,8 +432,8 @@
     },
     {
       "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Auf dieser Seite finden sie aktuelle Informationen zu den Themen Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen von aurora treuhand ag.",
+      "heading": "Buchhaltung",
+      "body": "Sie finden unter den Dienstleistungen des Treuhandbüros aurora treuhand ag Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -480,9 +486,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zumikon",
+      "address": "Ebmatingerstrasse 4, 8126 Zumikon",
       "phone": "044 492 41 75",
-      "email": "aurora.ag@bluewin.ch"
+      "email": "info@aurora-treuhand.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -502,9 +508,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zumikon",
+          "Ebmatingerstrasse 4, 8126 Zumikon",
           "044 492 41 75",
-          "aurora.ag@bluewin.ch"
+          "info@aurora-treuhand.ch"
         ]
       },
       {

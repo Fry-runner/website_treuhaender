@@ -119,6 +119,7 @@
         "audience",
         "testimonials",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -160,14 +161,13 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
         "home:testimonials": "echte Kundenstimmen gefunden",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "kein echtes Team gefunden",
+        "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -197,6 +197,7 @@
       "hero.headline",
       "hero.lede",
       "services.text",
+      "team.members",
       "testimonials",
       "values",
       "about",
@@ -534,9 +535,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Als erfahrener Partner für Privatpersonen, Klein- und Mittelunternehmen (KMU) in den Kerngebieten Firmengründung, Buchhaltung und Übernahme von Verwaltungsratsmandaten finden Sie bei uns die nötige Sicherheit um sich auf IHR Kerngebiet zu konzentieren – die Zielsetzungen Ihres Un",
-        "body": "Als erfahrener Partner für Privatpersonen, Klein- und Mittelunternehmen (KMU) in den Kerngebieten Firmengründung, Buchhaltung und Übernahme von Verwaltungsratsmandaten finden Sie bei uns die nötige Sicherheit um sich auf IHR Kerngebiet zu konzentieren – die Zielsetzungen Ihres Unternehmens.\n\nUnsere 25-jährige Erfahrung im erfolgreichen Führen von Unternehmen mit bis zu 150 Mitarbeitern erlaubt es uns, Sie in jeder Hinsicht kompetent und zielgerichtet zu unterstützen.\n\nUnser Klientel bewegt sich vom Autohändler über Restaurantbetriebe, Einzelunternehmen in den verschiedensten Bereichen bis hin zur Immobilienbranche. Sie sind bei uns in guten Händen – kontaktieren Sie uns um genauere Informationen zu erhalten.\n\nZum Einsatz kommen bei uns die Buchhaltungsprogramme Sage50 und auf Wunsch auch das Programm Bexio, welches eine stabile und für KMUs zugeschnittene Cloudversion ist und den meisten",
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Sie möchten eine GmbH oder Aktiengesellschaft in der Schweiz gründen? Oder überlegen Sie, ob eine Einzelfirma die richtige Wahl ist? Die\n\nist Ihr verlässlicher Partner für Unternehmensgründungen in der Schweiz. Unser Team übernimmt alle administrativen Aufgaben und unterstützt Sie bei der Wahl der passenden Rechtsform – unkompliziert, effizient und individuell auf Ihre Bedürfnisse abgestimmt.\n\nErstellung von Statuten, Anmeldung beim Handelsregister und Behördengänge.\n\nauf Wunsch übernehmen wir Ihre Buchhaltung, Jahresabschlüsse, Lohnabrechnungen und Steuerberatung nach der Gründung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -546,8 +547,8 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Steuererklärung Anfrage\r\nSchreiben Sie uns und wir kontaktieren Sie umgehend",
-        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -557,9 +558,9 @@
         "image": "/images/treuhandsiegrist-ch/pool/ed07e47992__Steuererklaerung-einfach-und-effizient-abwickeln.jpg"
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Als erfahrener Partner für Privatpersonen, Klein- und Mittelunternehmen (KMU) in den Kerngebieten Firmengründung, Buchhaltung und Übernahme von Verwaltungsratsmandaten finden Sie bei uns die nötige Sicherheit um sich auf IHR Kerngebiet zu konzentieren – die Zielsetzungen Ihres Unternehmens.\n\nUnsere 25-jährige Erfahrung im erfolgreichen Führen von Unternehmen mit bis zu 150 Mitarbeitern erlaubt es uns, Sie in jeder Hinsicht kompetent und zielgerichtet zu unterstützen.\n\nUnser Klientel bewegt sich vom Autohändler über Restaurantbetriebe, Einzelunternehmen in den verschiedensten Bereichen bis hin zur Immobilienbranche. Sie sind bei uns in guten Händen – kontaktieren Sie uns um genauere Informationen zu erhalten.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -570,7 +571,7 @@
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -579,9 +580,9 @@
         ]
       },
       {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -590,9 +591,9 @@
         ]
       },
       {
-        "title": "Unternehmensberatung",
-        "summary": "Sie möchten eine GmbH oder Aktiengesellschaft in der Schweiz gründen? Oder überlegen Sie, ob eine Einzelfirma die richtige Wahl ist? Die",
-        "body": "Sie möchten eine GmbH oder Aktiengesellschaft in der Schweiz gründen? Oder überlegen Sie, ob eine Einzelfirma die richtige Wahl ist? Die\n\nist Ihr verlässlicher Partner für Unternehmensgründungen in der Schweiz. Unser Team übernimmt alle administrativen Aufgaben und unterstützt Sie bei der Wahl der passenden Rechtsform – unkompliziert, effizient und individuell auf Ihre Bedürfnisse abgestimmt.\n\nErstellung von Statuten, Anmeldung beim Handelsregister und Behördengänge.\n\nauf Wunsch übernehmen wir Ihre Buchhaltung, Jahresabschlüsse, Lohnabrechnungen und Steuerberatung nach der Gründung.",
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -620,18 +621,18 @@
       },
       {
         "title": "MEINUNGEN UNSERER KUNDEN",
-        "body": "Wir arbeiten seit der Gründung anfangs 2011 mit der STS GmbH (ehem. MCS, Siegrist & Partner) zusammen. Man wird gut betreut, kompetent geführt und nebst einer tadellosen Buchführung erhalten wir auch sehr nützliche Tipps hinsichtlich Frimenstruktur, -leitung u.ä.."
+        "body": "Wir arbeiten seit der Gründung anfangs 2011 mit der STS GmbH (ehem. MCS, Siegrist & Partner) zusammen. Man wird gut betreut, kompetent geführt und nebst einer tadellosen Buchführung erhalten wir auch sehr nützliche Tipps hinsichtlich Frimenstruktur, -leitung u.ä."
       }
     ]
   },
   "about": {
     "eyebrow": "Über uns",
-    "heading": "GESCHICHTE DER FIRMA",
-    "lead": "Die Swiss Treuhand Siegrist GmbH (ehem. ‚MCS, Siegrist & Partner‘) hat ihre Geschäftstätigkeit 1993 aufgenommen und konnte seither in den Bereichen Treuhand und Unternehmensberatung bei vielen KMUs positiven Einfluss ausüben, was zu nachhaltig gesteigerter Produktivität bei den Kunden geführt hat.",
+    "heading": "Wer wir sind",
+    "lead": "Frau Togni – Lazzarin ist seit 2008 in unserem Team als Assistentin der Geschäftsleitung tätig und kümmert sich ebenfalls um personelle und administrative Aspekte der Firma.",
     "paragraphs": [
-      "Erfolgreich sein ist nicht schwierig, sofern man die grundlegenden Aspekte kennt und umsetzt.",
-      "Dank unser über 25-jährigen Erfahrung in der Führung von Unternehmen, können wir Ihnen praxisnah helfen, die gesteckten Ziele zu erreichen – sei dies im treuhänderischen oder marktwirtschaftlichen Bereich. Gerne beraten wir Sie persönlich.",
-      "Auf Grund der Vielzahl der Mandate suchen wir erfahrene BuchhalterInnen."
+      "Seit 1995 baut Herr Siegrist die Treuhandtätigkeiten der Firma auf und erweitert seither kontinuierlich das Dienstleistungsportfolio der Firma.",
+      "Seit 2002 arbeitet Claudia Siegrist als Mandatsleiterin und stellv. Geschäftsführerin. Sie betreut Kunden die vorwiegend im architektonischen Sektor zu Hause sind.",
+      "Seit Februar 2021 ist Herr Müller bei uns tätig. Zuerst als Mandatsleiter, dann als Chief of Operations und seit 2025 Deputy CEO. Mit fundierter Fachkenntnis und Erfahrung trägt er zur optimalen Steuerung und Maximierung der Unternehmensleistung bei."
     ]
   },
   "featureAngles": [
@@ -662,7 +663,7 @@
     {
       "eyebrow": "Unser Ansatz",
       "heading": "MEINUNGEN UNSERER KUNDEN",
-      "body": "Wir arbeiten seit der Gründung anfangs 2011 mit der STS GmbH (ehem. MCS, Siegrist & Partner) zusammen. Man wird gut betreut, kompetent geführt und nebst einer tadellosen Buchführung erhalten wir auch sehr nützliche Tipps hinsichtlich Frimenstruktur, -leitung u.ä..",
+      "body": "Wir arbeiten seit der Gründung anfangs 2011 mit der STS GmbH (ehem. MCS, Siegrist & Partner) zusammen. Man wird gut betreut, kompetent geführt und nebst einer tadellosen Buchführung erhalten wir auch sehr nützliche Tipps hinsichtlich Frimenstruktur, -leitung u.ä.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -671,7 +672,14 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "René Siegrist",
+        "role": "Geschäftsführer und Inhaber",
+        "initials": "RS",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -734,9 +742,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Badenerstrasse 551, 8048 Zürich",
       "phone": "+41 43 818 69 15",
-      "email": ""
+      "email": "info@treuhandsiegrist.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -755,9 +763,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Badenerstrasse 551, 8048 Zürich",
           "+41 43 818 69 15",
-          "info@…"
+          "info@treuhandsiegrist.ch"
         ]
       },
       {

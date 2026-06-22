@@ -25,5 +25,8 @@ dist/
 .vercel/
 .vercel-project.json
 
+# Per-deploy single-firm payload (written by scripts/publish.mjs)
+design-system/prototype.data.json
+
 # Transformers.js model cache (downloaded once, not committed)
 .models-cache/

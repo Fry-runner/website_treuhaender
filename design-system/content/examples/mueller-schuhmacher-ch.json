@@ -9,14 +9,14 @@
     "look": {
       "meta": {
         "id": "mueller-schuhmacher-ch-brand",
-        "name": "Rürup Swiss Corporate · brand-generated",
+        "name": "Rürup Swiss Corporate · logo-tinted",
         "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
-        "source": "Steuerberatung-Andreas-Rürup + generated accent",
+        "source": "Steuerberatung-Andreas-Rürup + logo colour",
         "derived": [
           "color.primaryFg (#FFFFFF)",
           "color.primarySoft (tint of beige surface)",
           "base: ruerup-swiss",
-          "accent #66418B (generated · scraped #7A00DF rejected: low)",
+          "accent #1B64A5 (logo)",
           "heading: Sora (inventory)",
           "body: Figtree (scraped)",
           "mono: IBM Plex Mono (inventory)"
@@ -37,10 +37,10 @@
         "text": "#1C1C1A",
         "textMuted": "#71717A",
         "border": "#E5E7EB",
-        "primary": "#66418B",
+        "primary": "#1B64A5",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#F3F0F6",
-        "secondary": "#4C45A5",
+        "primarySoft": "#EDF3F8",
+        "secondary": "#1B64A5",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -177,7 +177,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -206,8 +205,7 @@
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
-      "look.colors (generated)"
+      "audience (generic)"
     ],
     "real": [
       "meta.firm",
@@ -220,12 +218,12 @@
       "team.photos",
       "about",
       "feature",
-      "contact.hours",
       "footer.tagline",
       "trust.items",
       "media.pool",
       "media.logo",
       "media.documents",
+      "logo.colors",
       "brand.fonts"
     ]
   },
@@ -626,9 +624,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Immobilien",
+        "summary": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
+        "body": "Ein verlässlicher Partner, der organisiert handelt, Menschen versteht und die lokalen Märkte kennt. Als führende STWEG-Verwaltung in der Region betreuen wir Privatkundschaft vom Einzeleigentum bis hin zum gesamten Immobilienportfolio mit Routine, Transparenz und einem offenen Ohr.\n\nAls einer der führenden Anbieter im Raum Winterthur begleiten wir Stockwerkeigentümergemeinschaften mit langjähriger Erfahrung, persönlichem Engagement und einem starken Netzwerk.\n\nOb administrative, technische oder finanzielle Aufgaben: Wir kümmern uns um alle Belange Ihrer Liegenschaft.\n\nEine Erstvermietung verlangt Marktkenntnis, Fingerspitzengefühl und vollen Einsatz.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -638,41 +636,8 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Für eine effiziente Abwicklung der Beratung, stellen Sie uns vorab folgende Unterlagen zu (per E-Mail):",
-        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -683,7 +648,40 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -700,19 +698,19 @@
   },
   "about": {
     "eyebrow": "Über uns",
-    "heading": "Über uns",
-    "lead": "Ich wohne fürs Leben gerne. Zudem geniesse ich Gespräche mit Familie oder Freunden bei einem guten Essen und bin gerne am oder auf dem Wasser.",
+    "heading": "Wer wir sind",
+    "lead": "Wir sind Müller Schuhmacher. In Winterthur verwurzelt, persönlich engagiert und fachlich breit aufgestellt. Seit 1987 begleiten wir unsere Kunden in Treuhand- und Immobilienfragen mit Erfahrung, Weitblick und einem Team aus über 30 verlässlichen Persönlichkeiten, die wissen, worauf es wirklich ankommt.",
     "paragraphs": [
-      "Tatsächlich verbindet mich die Arbeit mit Winterthur, da sich mein Lebensmittelpunkt in ländlicher Region befindet. Es ist immer wieder schön, wenn sich langjährige Eigentümer freuen mich an der Versammlung wieder zu sehen und für einen kurzen Schwatz zu haben sind.",
-      "Zeit mit der Familie und unseren Gotti-Kindern geniesse ich sehr. Zudem bin ich gerne kreativ und sportlich engagiert.",
-      "Ich bin in Winterthur aufgewachsen. Die Stadt ist schön, vielseitig und hat viel zu bieten."
+      "Gemeinsam im Team das Beste für unsere Kundinnen und Kunden zu geben. Vertrauen, Respekt, Kommunikation und gemeinsame Ziele bilden das Fundament dazu.",
+      "Ich wohne fürs Leben gerne. Zudem geniesse ich Gespräche mit Familie oder Freunden bei einem guten Essen und bin gerne am oder auf dem Wasser.",
+      "Tatsächlich verbindet mich die Arbeit mit Winterthur, da sich mein Lebensmittelpunkt in ländlicher Region befindet. Es ist immer wieder schön, wenn sich langjährige Eigentümer freuen mich an der Versammlung wieder zu sehen und für einen kurzen Schwatz zu haben sind."
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Für eine effiziente Abwicklung der Beratung, stellen Sie uns vorab folgende Unterlagen zu (per E-Mail):",
+      "heading": "Immobilien",
+      "body": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -740,6 +738,12 @@
         "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
       },
       {
+        "name": "Christine Müller",
+        "role": "Wirtschaftsfachfrau SWS",
+        "initials": "CM",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      },
+      {
         "name": "Daniela Steiner",
         "role": "Eidg. dipl. Immobilientreuhänderin",
         "initials": "DS",
@@ -750,14 +754,14 @@
         "role": "Eidg. dipl. Immobilientreuhänder",
         "initials": "DS",
         "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
-        "photo": "/images/mueller-schuhmacher-ch/team/3-schuhmacher.webp"
+        "photo": "/images/mueller-schuhmacher-ch/team/4-schuhmacher.webp"
       },
       {
         "name": "Lena Senn",
         "role": "Sachbearbeiterin Immobilienbewirtschaftung SVIT",
         "initials": "LS",
         "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.",
-        "photo": "/images/mueller-schuhmacher-ch/team/4-senn.webp"
+        "photo": "/images/mueller-schuhmacher-ch/team/5-senn.webp"
       }
     ]
   },
@@ -802,10 +806,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Durchschnittliche",
+      "address": "Bürglistrasse 29, 8401 Winterthur",
       "phone": "052 212 85 54",
-      "email": "andrin.baumann@mueller-schuhmacher.ch",
-      "hours": "Mo–So 09:00–17:00"
+      "email": "info@mueller-schuhmacher.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -826,9 +829,9 @@
       {
         "title": "Standort",
         "links": [
-          "Durchschnittliche",
+          "Bürglistrasse 29, 8401 Winterthur",
           "052 212 85 54",
-          "andrin.baumann@mueller-schuhmacher.ch"
+          "info@mueller-schuhmacher.ch"
         ]
       },
       {

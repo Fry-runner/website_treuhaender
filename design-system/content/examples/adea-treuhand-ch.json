@@ -160,7 +160,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
@@ -529,19 +528,8 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Einer der größten Vorteile der digitalen Buchhaltung ist die Automatisierung wiederkehrender Aufgaben. Mit modernen Softwarelösungen lassen sich:",
-        "body": "Einer der größten Vorteile der digitalen Buchhaltung ist die Automatisierung wiederkehrender Aufgaben. Mit modernen Softwarelösungen lassen sich:\n\nAnstelle stundenlanger manueller Arbeit können KMUs wertvolle Zeit sparen und sich auf ihr Kerngeschäft konzentrieren.\n\nFehler in der Buchhaltung können teuer werden. Mahngebühren, falsche Steuerzahlungen oder verpasste Fristen sind keine Seltenheit. Mit digitaler Buchhaltung werden solche Risiken minimiert. Zudem reduzieren sich die Kosten für Papier, Druck und Lagerung von physischen Dokumenten erheblich.\n\nDarüber hinaus ermöglicht die Digitalisierung, dass Buchhalter oder externe Treuhänder effizienter arbeiten, wodurch sich die Kosten für externe Dienstleistungen senken lassen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
         "title": "Steuerberatung",
-        "summary": "Am 8. März 2026 hat das Schweizer Stimmvolk die Individualbesteuerung Schweiz 2026 mit 54 % Ja-Stimmen angenommen – ein historischer Wechsel im Schweizer Steuerrecht. Als Treuhänderin begleite ich viele Ehepaare und Familien, die sich nun fragen: Was ändert sich konkret für uns?",
+        "summary": "Das Schweizer Volk hat die Individualbesteuerung angenommen. Treuhänderin Alexandra Ivanova erklärt, was sich ändert und wer profitiert.",
         "body": "Am 8. März 2026 hat das Schweizer Stimmvolk die Individualbesteuerung Schweiz 2026 mit 54 % Ja-Stimmen angenommen – ein historischer Wechsel im Schweizer Steuerrecht. Als Treuhänderin begleite ich viele Ehepaare und Familien, die sich nun fragen: Was ändert sich konkret für uns?\n\nBisher besteuert der Staat Ehepaare gemeinsam: Er zählt ihre Einkommen zusammen, was durch die Steuerprogression oft zu einer höheren Belastung führt – die sogenannte «Heiratsstrafe». Mit der Reform besteuert der Staat künftig jede Person unabhängig vom Zivilstand individuell. Ausserdem reichen Ehepaare künftig zwei separate Steuererklärungen ein statt einer gemeinsamen.\n\nDas Stimmvolk hat den Kinderabzug von CHF 6’800 auf CHF 12’000 pro Kind erhöht.\n\nDer Staat weist Einkommen und Vermögen künftig nach den Eigentumsverhältnissen zu.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -552,20 +540,9 @@
         "image": "/images/adea-treuhand-ch/pool/d9a1416e3c__csm_v01_steuern-einfach-erklaert_11f48599ca-4.jpg"
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Buchhaltung, Steuerberatung, MWST, Lohnadministration und Finanzmanagement.",
+        "title": "Unternehmensberatung",
+        "summary": "Entdecken Sie die umfangreichen Leistungen – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices.",
         "body": "Buchhaltung, Steuerberatung, MWST, Lohnadministration und Finanzmanagement.\n\nEntdecken Sie die umfangreichen Leistungen des Treuhandbüros Ivanova – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices. Ihre Finanzen, perfekt organisiert.\n\nWir übernehmen die komplette Buchführung – von der Belegerfassung bis hin zur Erstellung von Jahresabschlüssen und betriebswirtschaftlichen Auswertungen.\n\nTransparenz und Klarheit in Ihren Finanzen. Effiziente digitale Prozesse zur Zeitersparnis.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -586,9 +563,31 @@
         "image": "/images/adea-treuhand-ch/pool/e63c31935f__Teilrevision-MWSTG-und-MWSTV_sh-scaled-1.jpg"
       },
       {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "title": "Buchhaltung",
+        "summary": "Digitale Buchhaltung für KMUs Sparen Sie Zeit und Kosten durch Outsourcing Ihrer Finanzprozesse an Treuhandbüro Ivanova.",
+        "body": "Einer der größten Vorteile der digitalen Buchhaltung ist die Automatisierung wiederkehrender Aufgaben. Mit modernen Softwarelösungen lassen sich:\n\nAnstelle stundenlanger manueller Arbeit können KMUs wertvolle Zeit sparen und sich auf ihr Kerngeschäft konzentrieren.\n\nFehler in der Buchhaltung können teuer werden. Mahngebühren, falsche Steuerzahlungen oder verpasste Fristen sind keine Seltenheit. Mit digitaler Buchhaltung werden solche Risiken minimiert. Zudem reduzieren sich die Kosten für Papier, Druck und Lagerung von physischen Dokumenten erheblich.\n\nDarüber hinaus ermöglicht die Digitalisierung, dass Buchhalter oder externe Treuhänder effizienter arbeiten, wodurch sich die Kosten für externe Dienstleistungen senken lassen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
         "body": "Buchhaltung, Steuerberatung, MWST, Lohnadministration und Finanzmanagement.\n\nEntdecken Sie die umfangreichen Leistungen des Treuhandbüros Ivanova – von Buchhaltung über Steuerberatung bis hin zu MWST- und Unternehmensgründungsservices. Ihre Finanzen, perfekt organisiert.\n\nWir übernehmen die komplette Buchführung – von der Belegerfassung bis hin zur Erstellung von Jahresabschlüssen und betriebswirtschaftlichen Auswertungen.\n\nTransparenz und Klarheit in Ihren Finanzen. Effiziente digitale Prozesse zur Zeitersparnis.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -622,12 +621,12 @@
   },
   "about": {
     "eyebrow": "Über uns",
-    "heading": "Liquidationsgewinne von Einzelunternehmen",
-    "lead": "Die Covid-19-Pandemie hat die Schweizer Wirtschaft vor große Herausforderungen gestellt. Dank der Härtefallhilfen von Bund und Kantonen konnten mehr als 35’000 Unternehmen mit über 5,3 Milliarden Franken unterstützt werden. Diese Unterstützung war jedoch an strikte Bedingungen geknüpft – darunter ein vierjähriges Dividendenverbot. Mit einer neuen Regelung wird nun auch der Liquidationsgewinn berücksichtigt, was insbesondere Einzelunternehmerinnen und Einzelunternehmer spürbar entlastet.",
+    "heading": "Alexandra Ivanova – Ihre Treuhänderin für Ihre Anliegen",
+    "lead": "Egal ob Sie eine digitale Lösung oder persönliche Beratung bevorzugen, wir passen uns Ihren Bedürfnissen an.",
     "paragraphs": [
-      "Am 27. November 2024 hat der Bundesrat beschlossen, dass Liquidationsgewinne von Einzelunternehmen künftig nicht mehr als Verstoß gegen das Dividendenverbot gelten. Damit reagiert die Regierung auf eine Motion des Parlaments, die auf die besonderen Umstände von Einzelunternehmen abzielt.",
-      "Das Dividendenverbot sollte sicherstellen, dass die Härtefallhilfen ausschließlich für den Fortbestand der Unternehmen eingesetzt werden und nicht zur Gewinnerzielung verwendet werden. In der Praxis hat sich jedoch gezeigt, dass dieses Verbot bei der Liquidation von Einzelunternehmen – etwa durch Pensionierung, Tod des Unternehmers oder externe Faktoren wie die Kündigung eines Mietvertrags – zu Problemen führen kann.",
-      "Die neue Regelung gilt ausschließlich für Einzelunternehmen. Bei Liquidationsgewinnen, die durch den Verkauf von Firmenvermögen entstehen, können die Kantone künftig auf Rückforderungen verzichten, sofern keine missbräuchliche Nutzung der Härtefallhilfen vorliegt. Für Kollektivgesellschaften und andere Unternehmensformen bleibt die bisherige Regelung unverändert."
+      ", Ihre verlässliche Expertin für Buchhaltung, Steuern und Finanzplanung. Während meiner Karriere habe ich zahlreiche Herausforderungen gemeistert, Prozesse optimiert und vielen Kunden geholfen, Ordnung und Struktur in ihre Finanzen zu bringen.",
+      "gegründet, um kleinen und mittelständischen Unternehmen (KMUs) eine persönliche und gleichzeitig digitale Treuhandberatung zu bieten. Meine Arbeit vereint moderne Technologien mit individueller Betreuung – ein Ansatz, der nicht nur effizient, sondern auch vertrauensvoll ist.",
+      "Ich glaube daran, dass jedes Unternehmen einzigartig ist und individuelle Lösungen verdient. Deshalb ist es mein Ziel, meine Kunden nicht nur fachlich kompetent zu beraten, sondern auch ihre Geschäftsprozesse zu verstehen und maßgeschneiderte Strategien zu entwickeln. Bei mir stehen persönliche Betreuung und digitale Effizienz im Mittelpunkt."
     ]
   },
   "featureAngles": [
@@ -719,9 +718,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Ivanova Ringstrasse 8, 5620 Bremgarten",
       "phone": "+41 (0)62 535 09 99",
-      "email": "alexandra@adea-treuhand.ch"
+      "email": "info@adea-treuhand.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -740,9 +739,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Ivanova Ringstrasse 8, 5620 Bremgarten",
           "+41 (0)62 535 09 99",
-          "alexandra@adea-treuhand.ch"
+          "info@adea-treuhand.ch"
         ]
       },
       {

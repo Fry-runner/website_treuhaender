@@ -86,10 +86,21 @@ function pickBase(o: { serif: boolean; accentHue: number; firmKey?: string; seed
 function usableScrapedColour(brand: BrandSignals): string | undefined {
   const p = brand.primary;
   if (!p) return undefined;
-  if (brand.confidence === "low") return undefined;   // not clearly the brand → generate
-  if (saturation(p) < 0.18) return undefined;          // washed-out / greyish → generate
-  if (luminance(p) > 0.92) return undefined;           // near-white → generate
+  if (brand.confidence === "low") return undefined;   // not clearly the brand → logo/generate
+  if (saturation(p) < 0.18) return undefined;          // washed-out / greyish → logo/generate
+  if (luminance(p) > 0.92) return undefined;           // near-white → logo/generate
   return p;
+}
+
+/** A colour recovered from the LOGO, IF it is a real chromatic accent (not a washed-out
+ *  near-white or a monochrome black/grey mark). Used as the fallback when the scraped
+ *  page colour isn't clearly the brand — the logo IS the brand, so its colour wins over
+ *  a generated guess. No confidence dimension: the caller (extract) already vetted it. */
+function usableLogoColour(c?: string): string | undefined {
+  if (!c) return undefined;
+  if (saturation(c) < 0.20) return undefined;          // greyscale / near-monochrome logo
+  if (luminance(c) > 0.92 || luminance(c) < 0.02) return undefined; // near-white / true-black (a saturated dark navy/green stays)
+  return c;
 }
 
 /**
@@ -111,7 +122,7 @@ function generatedAccent(firmKey: string, seed: number, hintHue?: number): { pri
   return { primary, secondary };
 }
 
-export type ColourSource = "scraped" | "generated";
+export type ColourSource = "scraped" | "logo" | "generated";
 export interface DerivedLook {
   tokens: DesignTokens;
   basePresetId: string;
@@ -122,17 +133,22 @@ export interface DerivedLook {
 
 export function deriveLook(
   brand: BrandSignals,
-  opts: { firmKey?: string; archetype?: string; seed?: number } = {},
+  opts: { firmKey?: string; archetype?: string; seed?: number; logoColor?: string } = {},
 ): DerivedLook {
   const notes: string[] = [];
 
-  // 1) Decide the accent: scraped when sensible, else generated.
-  const scraped = usableScrapedColour(brand);
-  const colourSource: ColourSource = scraped ? "scraped" : "generated";
-  // A rejected-but-present scraped colour still hints the generated hue family.
-  const gen = generatedAccent(opts.firmKey || "x", opts.seed ?? 0, brand.primary ? hue(brand.primary) : undefined);
-  const accentPrimary = scraped ?? gen.primary;
-  const accentSecondary = scraped ? brand.secondary : gen.secondary; // scraped secondary may be undefined
+  // 1) Decide the accent. The LOGO's own colour ALWAYS wins — the logo IS the brand
+  //    identity. ONLY when the logo is greyscale/monochrome (usableLogoColour → undefined)
+  //    do we fall back to the scraped page colour when it's clearly the brand; and only
+  //    when neither is determinable, a generated, profession-appropriate accent.
+  const logo = usableLogoColour(opts.logoColor);
+  const scraped = logo ? undefined : usableScrapedColour(brand);
+  const colourSource: ColourSource = logo ? "logo" : scraped ? "scraped" : "generated";
+  // A rejected-but-present logo/scraped colour still hints the generated hue family.
+  const hintHue = opts.logoColor ? hue(opts.logoColor) : (brand.primary ? hue(brand.primary) : undefined);
+  const gen = generatedAccent(opts.firmKey || "x", opts.seed ?? 0, hintHue);
+  const accentPrimary = logo ?? scraped ?? gen.primary;
+  const accentSecondary = scraped ? brand.secondary : (logo ? undefined : gen.secondary); // logo/scraped secondary may be undefined
 
   // 2) Frame it in a modern preset chosen for the effective accent hue.
   const basePresetId = pickBase({ serif: !!brand.heading?.serif, accentHue: hue(accentPrimary), firmKey: opts.firmKey, seed: opts.seed });
@@ -161,10 +177,14 @@ export function deriveLook(
     notes.push(brand.primary === primary
       ? `accent ${primary} (scraped · ${brand.confidence})`
       : `accent ${brand.primary} → ${primary} (scraped · raised for contrast)`);
+  } else if (colourSource === "logo") {
+    notes.push(opts.logoColor === primary
+      ? `accent ${primary} (logo)`
+      : `accent ${opts.logoColor} → ${primary} (logo · raised for contrast)`);
   } else {
     notes.push(brand.primary
-      ? `accent ${primary} (generated · scraped ${brand.primary} rejected: ${brand.confidence})`
-      : `accent ${primary} (generated · no scraped colour)`);
+      ? `accent ${primary} (generated · scraped ${brand.primary} rejected: ${brand.confidence}; no usable logo colour)`
+      : `accent ${primary} (generated · no scraped or logo colour)`);
   }
 
   // 4) Fonts — adopt the firm's REAL faces when the scrape recovered a quality
@@ -197,8 +217,8 @@ export function deriveLook(
   t.meta = {
     ...t.meta,
     id: opts.firmKey ? `${opts.firmKey}-brand` : `${t.meta.id}-brand`,
-    name: `${t.meta.name} · ${colourSource === "scraped" ? "brand-tinted" : "brand-generated"}`,
-    source: `${t.meta.source} + ${colourSource === "scraped" ? "scraped brand" : "generated accent"}`,
+    name: `${t.meta.name} · ${colourSource === "scraped" ? "brand-tinted" : colourSource === "logo" ? "logo-tinted" : "brand-generated"}`,
+    source: `${t.meta.source} + ${colourSource === "scraped" ? "scraped brand" : colourSource === "logo" ? "logo colour" : "generated accent"}`,
     derived: [...(t.meta.derived ?? []), ...notes],
   };
   return { tokens: t, basePresetId, colourSource, notes };

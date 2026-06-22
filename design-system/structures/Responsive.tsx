@@ -67,6 +67,13 @@ input:focus, textarea:focus, select:focus { border-color: var(--ds-primary); }
   [style*="grid-template-columns"][style*="repeat("],
   [style*="grid-template-columns"][style*="1fr 1fr"],
   [style*="grid-template-columns"][style*="fr) minmax("] { grid-template-columns: 1fr !important; }
+  /* Bento/mosaic/collage tiles: an item with "grid-area/column: span N" keeps spanning
+     even after the grid collapses to one column — the extra span spills into an implicit,
+     content-sized auto column (→ horizontal overflow). Drop every explicit span on phones
+     so the tiles flow as a single stacked column. */
+  [style*="grid-area: span"], [style*="grid-column: span"], [style*="grid-row: span"] {
+    grid-area: auto !important;
+  }
   /* Feature overlap card: drop the desktop negative overlap on phones (no left bleed). */
   .ds-feat-overlap { margin-left: 0 !important; }
 }

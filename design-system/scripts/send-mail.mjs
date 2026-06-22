@@ -103,8 +103,8 @@ async function main() {
     console.log(JSON.stringify({
       ok: false, sent: false, error: msg,
       hint: authBlocked
-        ? "ETH/M365 blockiert SMTP-AUTH für dieses Postfach. Lösung: ETH-IT bitten, „Authenticated SMTP\" für dein Postfach zu aktivieren, oder ein App-/Geräte-Passwort verwenden. Bis dahin: manueller Versand (Webmail/.eml)."
-        : "Versand fehlgeschlagen. Zugangsdaten/Host/Port in design-system/.env prüfen.",
+        ? "ETH/M365 blockiert Basic-SMTP-Auth (MFA/Conditional Access) für dieses Postfach. Optionen: (1) App-Passwort unter https://mysignins.microsoft.com/security-info erstellen und hier statt des Passworts eintragen; (2) im Overlay einen anderen SMTP-Server wählen — Gmail mit App-Passwort (smtp.gmail.com) oder dein eigenes fam-glaeser.de-Postfach; (3) ETH-IT bitten, „Authenticated SMTP\" zu aktivieren. Bis dahin: manueller Versand (.eml/Mail-App)."
+        : "Versand fehlgeschlagen. SMTP-Server/Port/Login im Overlay prüfen (Gmail & Co. brauchen ein App-Passwort, nicht das normale Passwort).",
     }));
   }
 }

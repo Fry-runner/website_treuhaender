@@ -14,7 +14,8 @@
  * opt-out, never a mass-mailing tone.
  */
 import type { SiteContent } from "../content/types";
-import type { PrimaryStyle } from "../structures/primitives";
+import type { PrimaryStyle, MoreStyle } from "../structures/primitives";
+import type { MotionStyleId } from "../motion/motionStyle";
 
 /** The frozen variant choices for one approved lead. `undefined` = "auto" (the
  *  selector picks deterministically from the seed), mirroring the studio controls. */
@@ -25,6 +26,12 @@ export interface PublishedPlan {
   primaryStyle?: PrimaryStyle;
   kitId?: string;
   sectionOverrides?: Record<string, string>;
+  /** Per-element variant picks (else auto): subpage header · icon set · forward-link
+   *  style · motion family. */
+  pageHeaderId?: string;
+  iconSetId?: string;
+  moreStyle?: MoreStyle;
+  motionStyle?: MotionStyleId;
   /** Cold-acquisition mode — strips logo/badges/portraits/real photos before hosting. */
   pitch: boolean;
   /** Re-rolls the imagery only (stock picks in pitch, photo-pool rotation in real mode). */
@@ -70,22 +77,68 @@ export function recipientFor(content: SiteContent): string | undefined {
   return content.contact?.info?.email?.trim() || undefined;
 }
 
+/** Deterministic per-firm hash (FNV-1a) → stable phrasing picks; same firm always
+ *  yields the same mail, different firms differ. */
+const genHash = (s: string): number => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; };
+const pick = <T>(arr: T[], h: number): T => arr[h % arr.length];
+
+/** Best-effort city from the scraped contact address ("8000 Zürich", "Zürich-Glattbrugg"
+ *  → "Zürich"). Returns undefined when nothing clean is recoverable (then no city is named). */
+function cityFrom(content: SiteContent): string | undefined {
+  const a = content.contact?.info?.address?.trim();
+  if (!a) return undefined;
+  const plz = a.match(/\b\d{4}\s+([A-Za-zÄÖÜäöü.\-\s]+)$/);
+  let city = (plz ? plz[1] : a.split(",").pop() || a).replace(/^\d{4}\s+/, "").trim();
+  if (city.includes("-")) city = city.split("-")[0].trim();
+  if (!city || /\d/.test(city) || city.length < 2 || city.length > 24) return undefined;
+  return city;
+}
+
 /**
  * Draft the cold-outreach mail (German, Swiss orthography — "ss", not "ß").
- * Variante 1: this is the operator's real template (Oliver Gläser) with the live
- * prototype link templated in — still a STARTING POINT to personalise per firm
- * (the niche line + recipient are edited in the overlay before sending).
+ * Variante 1: the operator's real template (Oliver Gläser) with the live link
+ * templated in AND lightly personalised per firm from REAL scrape data — city,
+ * firm wording, and a deterministic phrasing rotation so two mails never read
+ * identically (less "mass mail", which is also the safer 1:1 character). The
+ * Deutschland-Schweiz angle appears ONLY when the scrape actually mentions it;
+ * otherwise a neutral, true-for-any-Treuhänder line is used. Still a STARTING
+ * POINT — recipient and wording stay editable in the overlay before sending.
  */
 export function buildOutreachEmail(content: SiteContent, prototypeUrl: string): OutreachEmail {
   const firm = content.meta.firm || content.meta.domain || "Ihr Unternehmen";
   const to = recipientFor(content) ?? "";
   const subject = `Moderner Website-Entwurf für ${firm}`;
+
+  const h = genHash(content.meta.domain || firm);
+  const city = cityFrom(content);
+  const cityPhrase = city ? ` in ${city}` : "";
+  // Scan only the copy fields (not the media pool) for a real cross-border focus.
+  const corpus = JSON.stringify({ h: content.hero, a: content.about, s: content.services, f: content.faq, m: content.meta?.brief }).toLowerCase();
+  const crossBorder = /deutschland|grenzüberschreit|grenzgänger|wegzug|zuzug|d-a-ch|deutsch-schweiz/.test(corpus);
+  // "Kanzlei" only for firms that actually position as a tax/law practice — judged by
+  // NAME/domain, not by having "Steuerberatung" in the (universal) service list.
+  const lawish = /steuerberat|kanzlei|anwalt|advoka|rechtsber/.test((firm + " " + (content.meta.domain || "")).toLowerCase());
+
+  const context = crossBorder
+    ? `Auf Ihre Website bin ich im Zuge einer Recherche zu Steuer- und Treuhandberatung im Bereich Deutschland-Schweiz gestossen.`
+    : pick([
+        `Auf Ihre Website bin ich bei einer Recherche zu Treuhand- und Steuerdienstleistungen${cityPhrase} gestossen.`,
+        `Auf der Suche nach Treuhandbüros${cityPhrase} ist mir Ihre Website aufgefallen.`,
+        `Bei einer Recherche zu Treuhand- und Steuerberatung${cityPhrase} bin ich auf Ihren Auftritt gestossen.`,
+      ], h);
+  const firmRef = lawish ? "Ihrer Kanzlei" : pick(["Ihres Treuhandbüros", "Ihres Unternehmens", "Ihrer Firma"], h >> 5);
+  const descriptor = pick([
+    `mit einem frischen, professionellen und vertrauenswürdigen Erscheinungsbild, das die Kompetenz Ihrer Arbeit widerspiegelt`,
+    `modern, klar und vertrauenswürdig gestaltet`,
+    `mit einem ruhigen, hochwertigen Auftritt, der Seriosität ausstrahlt`,
+  ], h >> 3);
+
   const body = [
     `Guten Tag,`,
     ``,
     `Mein Name ist Oliver Gläser, ich studiere an der ETH Zürich und entwickle nebenbei Webauftritte für lokale Unternehmen.`,
     ``,
-    `Auf Ihre Website bin ich im Zuge einer Recherche zu spezialisierter Steuerberatung im Bereich Deutschland-Schweiz gestossen. Dabei habe ich aus eigener Initiative einen Prototypen für eine modernisierte Website Ihrer Kanzlei erstellt – mit einem frischen, professionellen und vertrauenswürdigen Erscheinungsbild, das die Kompetenz Ihrer Beratung widerspiegelt. Sie finden den Entwurf hier:`,
+    `${context} Dabei habe ich aus eigener Initiative einen Prototypen für eine modernisierte Website ${firmRef} erstellt – ${descriptor}. Sie finden den Entwurf hier:`,
     ``,
     prototypeUrl,
     ``,

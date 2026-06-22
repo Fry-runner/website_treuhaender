@@ -14,13 +14,19 @@ import type { SiteContent } from "./content/types";
 import active from "./content/examples/onetreuhand-ch.json";
 import { InventoryBrowser } from "./InventoryBrowser";
 import { planSite } from "./variants/select";
-import { heroVariants, primaryStyleVariants, sectionVariants } from "./variants/registry";
+import { heroVariants, primaryStyleVariants, sectionVariants, pageHeaderVariants } from "./variants/registry";
+import { ICON_SETS } from "./icons/iconSets";
+import type { MoreStyle } from "./structures/primitives";
+import { MOTION_STYLE_IDS, type MotionStyleId } from "./motion/motionStyle";
+// Per-element option pools exposed in the studio / Durchwinken overlay.
+const MORE_STYLE_IDS: MoreStyle[] = ["underline", "arrow", "chip", "ghost", "boxed", "chevron"];
 import { kits } from "./variants/kits";
 import type { PrimaryStyle } from "./structures/primitives";
 import { composeSite, pageTypes } from "./pages";
 import { archetypes, type ArchetypeId } from "./blueprints";
 import { SiteRouter } from "./compose/SiteRouter";
 import { ApproveOverlay } from "./compose/ApproveOverlay";
+import { SendOverlay } from "./compose/SendOverlay";
 import type { PublishedManifest } from "./compose/outreach";
 
 const content = active as unknown as SiteContent;
@@ -33,9 +39,16 @@ const firmList = Object.keys(firmGlob)
   .map((p) => ({ path: p, slug: p.split("/").pop()!.replace(/\.json$/, "") }))
   .filter((f) => f.slug !== "active")
   .sort((a, b) => a.slug.localeCompare(b.slug));
+const firmSlugs = firmList.map((f) => f.slug);
 const loadFirm = async (path: string): Promise<SiteContent> => {
   const m: any = await firmGlob[path]();
   return (m.default ?? m) as SiteContent;
+};
+/** Load a firm's content by slug — used by the Versand cockpit to draft the mail
+ *  for each published lead. */
+const loadFirmBySlug = async (slug: string): Promise<SiteContent | null> => {
+  const e = firmList.find((f) => f.slug === slug);
+  return e ? loadFirm(e.path).catch(() => null) : null;
 };
 const DEFAULT_SLUG = "onetreuhand-ch";
 
@@ -73,13 +86,18 @@ const VariantStudio = () => {
   const [kitId, setKitId] = useState<string>("auto");
   const [secs, setSecs] = useState<Record<string, string>>({});
   const [seed, setSeed] = useState(0);
+  const [phId, setPhId] = useState<string>("auto");
+  const [iconId, setIconId] = useState<string>("auto");
+  const [moreId, setMoreId] = useState<string>("auto");
+  const [motionId, setMotionId] = useState<string>("auto");
   const [firm, setFirm] = useState<SiteContent>(content);
   const [firmSlug, setFirmSlug] = useState<string>(DEFAULT_SLUG);
   const [loadingFirm, setLoadingFirm] = useState(false);
   const [pitchOn, setPitchOn] = useState(false);
   const [imageSeed, setImageSeed] = useState(0);
   const [approveOpen, setApproveOpen] = useState(false);
-  const resetControls = () => { setSeed(0); setLookId("auto"); setHeroId("auto"); setBtn("auto"); setKitId("auto"); setSecs({}); setImageSeed(0); };
+  const [sendOpen, setSendOpen] = useState(false);
+  const resetControls = () => { setSeed(0); setLookId("auto"); setHeroId("auto"); setBtn("auto"); setKitId("auto"); setSecs({}); setImageSeed(0); setPhId("auto"); setIconId("auto"); setMoreId("auto"); setMotionId("auto"); };
   // Generate a REAL, current version of ONE firm on demand (runs extract.ts via the
   // dev endpoint /__generate). Used automatically for stale firms + the 🔄 button.
   const generateFirm = (slug: string) => {
@@ -106,6 +124,10 @@ const VariantStudio = () => {
   const hero = heroId === "auto" ? undefined : heroId;
   const primary = btn === "auto" ? undefined : (btn as PrimaryStyle);
   const kitSel = kitId === "auto" ? undefined : kitId;
+  const ph = phId === "auto" ? undefined : phId;
+  const icon = iconId === "auto" ? undefined : iconId;
+  const more = moreId === "auto" ? undefined : (moreId as MoreStyle);
+  const motion = motionId === "auto" ? undefined : (motionId as MotionStyleId);
   const sectionOverrides = Object.fromEntries(Object.entries(secs).filter(([, v]) => v && v !== "auto"));
   // Auto keeps off the BASE preset (the brand-tinted look's design language), so the
   // labels match what SiteRouter actually renders.
@@ -140,12 +162,20 @@ const VariantStudio = () => {
           </button>
         </Field>
         <Field label="Freigabe">
-          <button onClick={() => setApproveOpen(true)} disabled={loadingFirm}
-            title="Diesen Prototyp durchwinken: auf Vercel veröffentlichen + Outreach-E-Mail mit Link formulieren"
-            style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.74rem", fontWeight: 700, padding: "6px 14px", borderRadius: 8,
-              cursor: "pointer", whiteSpace: "nowrap", border: "1px solid #34d399", background: "#34d399", color: "#0b0b0c" }}>
-            ✅ Durchwinken &amp; Versenden
-          </button>
+          <div style={{ display: "flex", gap: 6 }}>
+            <button onClick={() => setApproveOpen(true)} disabled={loadingFirm}
+              title="Diesen Prototyp durchwinken: auf Vercel veröffentlichen (das Deploy läuft im Hintergrund). Versendet wird danach im Versand-Cockpit."
+              style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.74rem", fontWeight: 700, padding: "6px 14px", borderRadius: 8,
+                cursor: "pointer", whiteSpace: "nowrap", border: "1px solid #34d399", background: "#34d399", color: "#0b0b0c" }}>
+              ✅ Durchwinken &amp; Veröffentlichen
+            </button>
+            <button onClick={() => setSendOpen(true)}
+              title="Versand-Cockpit: alle veröffentlichten Prototypen per Galerie durchgehen und einzeln per E-Mail versenden"
+              style={{ fontFamily: "ui-monospace, monospace", fontSize: "0.74rem", fontWeight: 700, padding: "6px 14px", borderRadius: 8,
+                cursor: "pointer", whiteSpace: "nowrap", border: "1px solid #60a5fa", background: "#0e1116", color: "#60a5fa" }}>
+              📤 Versand
+            </button>
+          </div>
         </Field>
         <Field label="Stil-Kit · Kombination">
           <select style={selectStyle} value={kitId} onChange={(e) => setKitId(e.target.value)}>
@@ -171,6 +201,30 @@ const VariantStudio = () => {
             {primaryStyleVariants.map((b) => <option key={b.id} value={b.id}>{b.id}</option>)}
           </select>
         </Field>
+        <Field label="Page-Header">
+          <select style={selectStyle} value={phId} onChange={(e) => setPhId(e.target.value)}>
+            <option value="auto">Auto · {(plan.pageHeaderId ?? "").replace("page-header/", "")}</option>
+            {pageHeaderVariants.map((v) => <option key={v.id} value={v.id}>{v.id.replace("page-header/", "")}</option>)}
+          </select>
+        </Field>
+        <Field label="Icon-Set">
+          <select style={selectStyle} value={iconId} onChange={(e) => setIconId(e.target.value)}>
+            <option value="auto">Auto · {plan.iconSetId}</option>
+            {ICON_SETS.map((s) => <option key={s.id} value={s.id}>{s.id}</option>)}
+          </select>
+        </Field>
+        <Field label="Verweis-Link">
+          <select style={selectStyle} value={moreId} onChange={(e) => setMoreId(e.target.value)}>
+            <option value="auto">Auto · {plan.moreStyle}</option>
+            {MORE_STYLE_IDS.map((m) => <option key={m} value={m}>{m}</option>)}
+          </select>
+        </Field>
+        <Field label="Motion">
+          <select style={selectStyle} value={motionId} onChange={(e) => setMotionId(e.target.value)}>
+            <option value="auto">Auto</option>
+            {MOTION_STYLE_IDS.map((m) => <option key={m} value={m}>{m}</option>)}
+          </select>
+        </Field>
         {sectionSlots.map((slot) => (
           <Field key={slot} label={slot}>
             <select style={selectStyle} value={secs[slot] ?? "auto"} onChange={(e) => setSecs((m) => ({ ...m, [slot]: e.target.value }))}>
@@ -191,7 +245,7 @@ const VariantStudio = () => {
         </div>
       </div>
       <Bar text={`Generierte Website · ${firm.meta.firm}`} sub={`${rLook} · ${rHero} · button:${rBtn}${pitchOn ? " · KALTAKQUISE" : ""}`} />
-      <SiteRouter key={`${firmSlug}|${seed}|${lookId}|${heroId}|${btn}|${kitId}|${JSON.stringify(secs)}|${pitchOn}|${imageSeed}`} content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} sectionOverrides={sectionOverrides} kitId={kitSel} pitch={pitchOn} imageSeed={imageSeed} />
+      <SiteRouter key={`${firmSlug}|${seed}|${lookId}|${heroId}|${btn}|${kitId}|${JSON.stringify(secs)}|${pitchOn}|${imageSeed}|${phId}|${iconId}|${moreId}|${motionId}`} content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} sectionOverrides={sectionOverrides} kitId={kitSel} pitch={pitchOn} imageSeed={imageSeed} pageHeaderId={ph} iconSetId={icon} moreStyle={more} motionStyle={motion} />
       <ApproveOverlay
         open={approveOpen} onClose={() => setApproveOpen(false)}
         firm={firm} firmSlug={firmSlug} loadingFirm={loadingFirm}
@@ -199,8 +253,14 @@ const VariantStudio = () => {
         lookId={lookId} setLookId={setLookId} heroId={heroId} setHeroId={setHeroId}
         btn={btn} setBtn={setBtn} kitId={kitId} setKitId={setKitId}
         secs={secs} setSecs={setSecs} seed={seed} setSeed={setSeed}
+        phId={phId} setPhId={setPhId} iconId={iconId} setIconId={setIconId}
+        moreId={moreId} setMoreId={setMoreId} motionId={motionId} setMotionId={setMotionId}
         pitchOn={pitchOn} setPitchOn={setPitchOn}
-        imageSeed={imageSeed} setImageSeed={setImageSeed} />
+        imageSeed={imageSeed} setImageSeed={setImageSeed}
+        firmSlugs={firmSlugs} onPick={pickFirm} />
+      <SendOverlay
+        open={sendOpen} onClose={() => setSendOpen(false)}
+        loadFirmBySlug={loadFirmBySlug} />
     </div>
   );
 };
@@ -387,6 +447,7 @@ const PrototypeSite: React.FC<{ slug: string }> = ({ slug }) => {
   return (
     <SiteRouter content={firm} seed={p.seed} lookId={p.lookId} heroId={p.heroId}
       primaryStyle={p.primaryStyle} kitId={p.kitId} sectionOverrides={p.sectionOverrides}
+      pageHeaderId={p.pageHeaderId} iconSetId={p.iconSetId} moreStyle={p.moreStyle} motionStyle={p.motionStyle}
       pitch={p.pitch !== false} imageSeed={p.imageSeed} />
   );
 };

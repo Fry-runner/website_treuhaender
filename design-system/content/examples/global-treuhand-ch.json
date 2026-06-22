@@ -14,7 +14,7 @@
         "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
         "derived": [
           "base: swiss-clean",
-          "accent #2C6D42 (generated · no scraped colour)",
+          "accent #2C6D42 (generated · no scraped or logo colour)",
           "heading: Schibsted Grotesk (inventory)",
           "body: Public Sans (inventory)",
           "mono: JetBrains Mono (inventory)"
@@ -139,7 +139,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -338,53 +337,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
         "title": "Steuerberatung",
-        "summary": "Global Treuhand berät Sie kompetent und fachmännisch zur Steueroptimierung. Wenden Sie Ihren Steuerstress ab und übergeben Sie uns Ihre Steuererklärung. Bei uns sind Sie in guten Händen aufgehoben.",
+        "summary": "Global Treuhand unterstützt Privatpersonen bei der Steuererklärung und berät Sie kompetent bei der Steueroptimierung nach den aktuellen Standards.",
         "body": "Global Treuhand berät Sie kompetent und fachmännisch zur Steueroptimierung. Wenden Sie Ihren Steuerstress ab und übergeben Sie uns Ihre Steuererklärung. Bei uns sind Sie in guten Händen aufgehoben.\n\nAls Ihr Steuerberater kontrollieren wir für Sie die Einschätzungsentscheide und erheben allenfalls Einsprache für Sie.\n\nWir beraten den Bedürfnissen entsprechend und erstellen für Sie die notwendigen Dokumente.\n\nBei weiteren Fragen nehmen Sie mit uns Kontakt auf. Wir helfen Ihnen gerne weiter.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -395,7 +350,51 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -414,7 +413,7 @@
     {
       "eyebrow": "Leistung",
       "heading": "Steuerberatung",
-      "body": "Global Treuhand berät Sie kompetent und fachmännisch zur Steueroptimierung. Wenden Sie Ihren Steuerstress ab und übergeben Sie uns Ihre Steuererklärung. Bei uns sind Sie in guten Händen aufgehoben.",
+      "body": "Global Treuhand unterstützt Privatpersonen bei der Steuererklärung und berät Sie kompetent bei der Steueroptimierung nach den aktuellen Standards.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -468,7 +467,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Wallisellen",
+      "address": "Grindelstrasse 6, 8304 Wallisellen",
       "phone": "+41 44 523 69 99",
       "email": "info@global-treuhand.ch"
     },
@@ -489,7 +488,7 @@
       {
         "title": "Standort",
         "links": [
-          "Wallisellen",
+          "Grindelstrasse 6, 8304 Wallisellen",
           "+41 44 523 69 99",
           "info@global-treuhand.ch"
         ]

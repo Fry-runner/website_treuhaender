@@ -9,16 +9,16 @@
     "look": {
       "meta": {
         "id": "rebex-ch-brand",
-        "name": "Züri Swiss Blue · brand-generated",
+        "name": "Züri Swiss Blue · logo-tinted",
         "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
-        "source": "Züri-Treuhand + generated accent",
+        "source": "Züri-Treuhand + logo colour",
         "derived": [
           "color.primaryFg (#FFFFFF)",
           "color.primarySoft (#EAF1F8 tint)",
           "color.secondaryFg (#FFFFFF)",
           "color.textMuted (#737373 neutral-500)",
           "base: zueri-swiss",
-          "accent #2C6D42 (generated · scraped #00722B rejected: low)",
+          "accent #97D6D8 → #3A999C (logo · raised for contrast)",
           "heading: Familjen Grotesk (inventory)",
           "body: Mulish (inventory)",
           "mono: Space Mono (inventory)"
@@ -39,10 +39,10 @@
         "text": "#333333",
         "textMuted": "#737373",
         "border": "#EAEAEA",
-        "primary": "#2C6D42",
+        "primary": "#3A999C",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#EEF3F0",
-        "secondary": "#368731",
+        "primarySoft": "#EFF7F7",
+        "secondary": "#3A999C",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -118,6 +118,7 @@
         "values",
         "audience",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -155,14 +156,13 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "kein echtes Team gefunden",
+        "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -184,8 +184,6 @@
       "faq",
       "process (generic)",
       "audience (generic)",
-      "about (generic)",
-      "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -196,14 +194,17 @@
       "hero.headline",
       "hero.lede",
       "services.text",
+      "team.members",
       "values",
+      "about",
       "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
       "media.logo",
       "trust.badges",
-      "media.documents"
+      "media.documents",
+      "logo.colors"
     ]
   },
   "media": {
@@ -583,20 +584,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Die Rebex AG in Dietikon ist ihr kompetenter Partner für Treuhandarbeiten. Zudem sind wir zugelassene Revisionsexperten nach dem Revisionsaufsichtsgesetz.",
-        "body": "Die Rebex AG in Dietikon ist ihr kompetenter Partner für Treuhandarbeiten. Zudem sind wir zugelassene Revisionsexperten nach dem Revisionsaufsichtsgesetz.\n\nZu unseren Kunden gehören Privatpersonen und mehrheitlich juristische Personen wie kleinere bis grössere Familienbetriebe, KMUs, Kollektivgesellschaften und Einzelunternehmen.\n\nGerne unterstützen wir Sie in allen aufgeführten Belangen. Auf Anfrage stellen wir Ihnen eine Offerte aus. Vereinbaren Sie mit uns einen\n\nBegleitung im Verkehr mit den Handelsregistern, Notariaten, Grundbuchämtern und Banken (u.a. Finanzierungscoaching)",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
         "title": "Steuerberatung",
         "summary": "Wir sind eine Treuhand- und Revisionsgesellschaft im schönen Limmattal. Besuchen Sie uns doch einmal und geniessen Sie unseren tollen Standort.",
-        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -605,9 +595,9 @@
         ]
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Revision",
+        "summary": "Wir sind Ihr Treuhänder und Revisionsexperte seit März 1997. Dabei pflegen wir eine gute und langfristige Zusammenarbeit mit unseren Kunden.",
+        "body": "Die Rebex AG in Dietikon wird als Treuhand- und Revisionsexperte von Alfons Florian geführt. Unser Team besteht aus 7 Personen. Gemeinsam bieten wir Ihnen eine persönliche Beratung und massgeschneiderte Treuhand-Dienstleistungen an. Eine langfristige Zusammenarbeit mit unseren Kunden liegt uns am Herzen.\n\nAls Generalisten mit langjähriger Erfahrung und breiter, fundierter Ausbildung beraten wir Sie gerne in allen Treuhandbelangen.\n\nDie Rebex AG ist eine Treuhand- und Revisionsgesellschaft, die im März 1997 als Gesellschaft mit beschränkter Haftung (GmbH) gegründet wurde. Im März 2000 erfolgte die Umwandlung in eine Aktiengesellschaft.\n\nDie Rebex AG bietet verschiedene Dienstleistungen im Bereich des Treuhand- und Wirtschaftsprüfungssektors an, die auf die Bedürfnisse des Kunden zugeschnitten werden. Die Auftragsabwicklung erfolgt vertraulich, qualitätsbewusst und persönlich.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -616,20 +606,9 @@
         ]
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Buchhaltung",
+        "summary": "Wir übernehmen alles von der Buchführung bis zur Wirtschaftsprüfung. Zu unseren Kunden gehören sowohl private als auch juristische Personen.",
+        "body": "Die Rebex AG in Dietikon ist ihr kompetenter Partner für Treuhandarbeiten. Zudem sind wir zugelassene Revisionsexperten nach dem Revisionsaufsichtsgesetz.\n\nZu unseren Kunden gehören Privatpersonen und mehrheitlich juristische Personen wie kleinere bis grössere Familienbetriebe, KMUs, Kollektivgesellschaften und Einzelunternehmen.\n\nGerne unterstützen wir Sie in allen aufgeführten Belangen. Auf Anfrage stellen wir Ihnen eine Offerte aus. Vereinbaren Sie mit uns einen\n\nBegleitung im Verkehr mit den Handelsregistern, Notariaten, Grundbuchämtern und Banken (u.a.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -640,7 +619,29 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -659,13 +660,21 @@
         "body": "Verantwortungsvoll und gründlich übernimmt die Rebex AG alle Treuhandarbeiten - vom Zahlungsverkehr bis zur Nachfolgeregelung."
       },
       {
-        "title": "Wirtschaftsprüfung &  -beratung",
-        "body": "Unabhängig, transparent und massgeschneidert -  von der Revision über die Sanierung bis zur Liquidation."
+        "title": "Wirtschaftsprüfung & -beratung",
+        "body": "Unabhängig, transparent und massgeschneidert - von der Revision über die Sanierung bis zur Liquidation."
       },
       {
         "title": "Steuern & Rechnungswesen",
         "body": "Verantwortungsvoll und gründlich übernimmt die Rebex AG Arbeiten in den Bereichen Steuern und Rechnungswesen."
       }
+    ]
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Alfons G. Florian",
+    "lead": "Das Team der Rebex AG in Dietikon unterstützt Sie in allen treuhänderischen Belangen. Mit uns steht Ihnen ein qualifiziertes Team zur Seite.",
+    "paragraphs": [
+      "Wir bauen auf langjährige Erfahrung und stete Weiterbildung, damit wir Ihnen eine massgeschneiderte und zeitgemässe Dienstleistung bieten können."
     ]
   },
   "featureAngles": [
@@ -679,8 +688,8 @@
     },
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Wirtschaftsprüfung &  -beratung",
-      "body": "Unabhängig, transparent und massgeschneidert -  von der Revision über die Sanierung bis zur Liquidation.",
+      "heading": "Wirtschaftsprüfung & -beratung",
+      "body": "Unabhängig, transparent und massgeschneidert - von der Revision über die Sanierung bis zur Liquidation.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -695,8 +704,8 @@
     },
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Die Rebex AG in Dietikon ist ihr kompetenter Partner für Treuhandarbeiten. Zudem sind wir zugelassene Revisionsexperten nach dem Revisionsaufsichtsgesetz.",
+      "heading": "Steuerberatung",
+      "body": "Wir sind eine Treuhand- und Revisionsgesellschaft im schönen Limmattal. Besuchen Sie uns doch einmal und geniessen Sie unseren tollen Standort.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -710,7 +719,26 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "Alfons G. Florian",
+        "role": "Verwaltungsrat und Mitglied der Geschäftsführung",
+        "initials": "AF",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Michelle Oswald",
+        "role": "Treuhänderin mit eidg. Fachausweis",
+        "initials": "MO",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
+      {
+        "name": "Rosemarie Oeschger",
+        "role": "Treuhandsachbearbeiterin",
+        "initials": "RO",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -754,9 +782,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Dietikon",
+      "address": "Baumackerstrasse 24, 8050 Zürich",
       "phone": "+41 44 744 76 76",
-      "email": "a.g.florian@rebex.ch"
+      "email": "rebex@rebex.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -777,9 +805,9 @@
       {
         "title": "Standort",
         "links": [
-          "Dietikon",
+          "Baumackerstrasse 24, 8050 Zürich",
           "+41 44 744 76 76",
-          "a.g.florian@rebex.ch"
+          "rebex@rebex.ch"
         ]
       },
       {

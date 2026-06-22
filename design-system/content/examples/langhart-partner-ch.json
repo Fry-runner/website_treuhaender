@@ -122,6 +122,7 @@
         "services",
         "audience",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -163,14 +164,13 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "kein echtes Team gefunden",
+        "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -203,9 +203,10 @@
       "hero.headline",
       "hero.lede",
       "services.text",
+      "team.members",
+      "team.photos",
       "about",
       "feature",
-      "contact.hours",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -235,7 +236,9 @@
       "Jahresabschluss": "/images/langhart-partner-ch/pool/stock-office-5483059.jpg",
       "Mehrwertsteuer": "/images/langhart-partner-ch/pool/stock-finance-577195.jpg",
       "Unternehmensberatung": "/images/langhart-partner-ch/pool/stock-laptop-7948060.jpg",
-      "Revision": "/images/langhart-partner-ch/pool/stock-office-159839.jpg"
+      "Revision": "/images/langhart-partner-ch/pool/stock-office-159839.jpg",
+      "Immobilien": "/images/langhart-partner-ch/pool/stock-documents-13431445.jpg",
+      "Nachlass & Erbrecht": "/images/langhart-partner-ch/pool/stock-desk-8296974.jpg"
     },
     "documents": [
       {
@@ -390,7 +393,7 @@
         "stock": true,
         "credit": "Lukas Blazek (Pexels)",
         "source": "https://www.pexels.com/photo/person-holding-pen-pointing-at-graph-590020/",
-        "quality": 0.59,
+        "quality": 0.56,
         "faces": 0,
         "roles": [
           "gallery",
@@ -411,7 +414,7 @@
         "stock": true,
         "credit": "I'm Zion (Pexels)",
         "source": "https://www.pexels.com/photo/design-of-a-home-office-workspace-4597993/",
-        "quality": 0.62,
+        "quality": 0.6,
         "faces": 0,
         "roles": [
           "gallery",
@@ -451,7 +454,7 @@
         "stock": true,
         "credit": "cottonbro studio (Pexels)",
         "source": "https://www.pexels.com/photo/empty-lounge-interior-5483059/",
-        "quality": 0.57,
+        "quality": 0.53,
         "faces": 0,
         "roles": [
           "gallery",
@@ -472,7 +475,7 @@
         "stock": true,
         "credit": "Lukas Blazek (Pexels)",
         "source": "https://www.pexels.com/photo/turned-on-laptop-computer-577195/",
-        "quality": 0.79,
+        "quality": 0.8,
         "faces": 0,
         "roles": [
           "gallery",
@@ -493,7 +496,7 @@
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
         "source": "https://www.pexels.com/photo/person-using-black-laptop-computer-7948060/",
-        "quality": 0.55,
+        "quality": 0.53,
         "faces": 0,
         "roles": [
           "gallery",
@@ -522,6 +525,48 @@
           "service",
           "feature"
         ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/stock-documents-13431445.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 82097,
+        "width": 1280,
+        "height": 852,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Jurie Maree (Pexels)",
+        "source": "https://www.pexels.com/photo/a-close-up-shot-of-labeled-binder-clips-13431445/",
+        "quality": 0.62,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/langhart-partner-ch/pool/stock-desk-8296974.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 125342,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Mikhail Nilov (Pexels)",
+        "source": "https://www.pexels.com/photo/a-woman-computing-with-a-calculator-8296974/",
+        "quality": 0.76,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
       }
     ],
     "sectionBackgrounds": [
@@ -535,7 +580,9 @@
       "I'm Zion (Pexels)",
       "cottonbro studio (Pexels)",
       "RDNE Stock project (Pexels)",
-      "Pixabay (Pexels)"
+      "Pixabay (Pexels)",
+      "Jurie Maree (Pexels)",
+      "Mikhail Nilov (Pexels)"
     ]
   },
   "nav": {
@@ -573,20 +620,8 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/langhart-partner-ch/pool/stock-finance-590020.jpg"
-      },
-      {
         "title": "Steuerberatung",
-        "summary": "Ab dem Steuerjahr 2029 muss der Eigenmietwert auf selbstgenutztem Wohneigentum nicht mehr versteuert werden. Die Forderung der Gebirgskantone nach einer Abschaffung nicht vor 2030 wird damit nicht erfüllt. Ein halbes Jahr nach dem deutlichen Ja an der Urne schafft die Landesregie",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Ab dem Steuerjahr 2029 muss der Eigenmietwert auf selbstgenutztem Wohneigentum nicht mehr versteuert werden. Die Forderung der Gebirgskantone nach einer Abschaffung nicht vor 2030 wird damit nicht erfüllt. Ein halbes Jahr nach dem deutlichen Ja an der Urne schafft die Landesregierung nun Klarheit über die Inkraftsetzung der Reform der Wohneigentumsbesteuerung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -597,28 +632,28 @@
         "image": "/images/langhart-partner-ch/pool/stock-office-4597993.jpg"
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Unternehmensberatung",
+        "summary": "Wir begleiten und unterstützen Sie auf dem Weg zur Firmengründung. Wir sind dabei Ihr Ansprechpartner für jegliche rechtlichen Fragen.",
+        "body": "Wir helfen Ihnen, sich im Dschungel der Bürokratie zurechtzufinden. Über das Schreiben von Statuten bis zum definitiven Handelsregistereintrag begleiten wir Sie auf diesem spannenden Weg.\n\nFirmengründungen sind komplex und mit einer Vielzahl von rechtlichen Vorschriften verbunden.\n\nWir beraten Sie vorausschauend und unter Berücksichtigung der aktuellen Gesetzgebung in allen Steuerfragen, und erledigen Ihre Steuererklärung inkl. Nachbearbeitung.\n\nErsparen Sie sich die zeitraubende Arbeit und geniessen Sie Ihre Freizeit.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/langhart-partner-ch/pool/stock-finance-590022.jpg"
+        "image": "/images/langhart-partner-ch/pool/stock-laptop-7948060.jpg"
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/langhart-partner-ch/pool/stock-office-5483059.jpg"
+        "image": "/images/langhart-partner-ch/pool/stock-office-159839.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -633,16 +668,28 @@
         "image": "/images/langhart-partner-ch/pool/stock-finance-577195.jpg"
       },
       {
-        "title": "Unternehmensberatung",
-        "summary": "Wir helfen Ihnen, sich im Dschungel der Bürokratie zurechtzufinden. Über das Schreiben von Statuten bis zum definitiven Handelsregistereintrag begleiten wir Sie auf diesem spannenden Weg.",
-        "body": "Wir helfen Ihnen, sich im Dschungel der Bürokratie zurechtzufinden. Über das Schreiben von Statuten bis zum definitiven Handelsregistereintrag begleiten wir Sie auf diesem spannenden Weg.\n\nFirmengründungen sind komplex und mit einer Vielzahl von rechtlichen Vorschriften verbunden.\n\nWir beraten Sie vorausschauend und unter Berücksichtigung der aktuellen Gesetzgebung in allen Steuerfragen, und erledigen Ihre Steuererklärung inkl. Nachbearbeitung.\n\nErsparen Sie sich die zeitraubende Arbeit und geniessen Sie Ihre Freizeit.",
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/langhart-partner-ch/pool/stock-laptop-7948060.jpg"
+        "image": "/images/langhart-partner-ch/pool/stock-finance-590020.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/langhart-partner-ch/pool/stock-finance-590022.jpg"
       }
     ]
   },
@@ -654,17 +701,18 @@
   "about": {
     "eyebrow": "Über uns",
     "heading": "Geschichte der Langhart & Partner Treuhand AG",
-    "lead": "Gründer der heutigen Langhart & Partner Treuhand AG war Urs Langhart. Im Jahre 1994 wurde die Firma U. Langhart Treuhandbüro ursprünglich als Einzelfirma im Handelsregister eingetragen.",
+    "lead": "Seit über drei Jahrzehnten sind wir Ihr verlässlicher Partner in finanziellen Angelegenheiten. Wir schätzen die langjährigen Beziehungen, die wir aufbauen durften, und sind stolz auf unseren Beitrag zu Ihrem Erfolg. Ein herzlicher Dank geht an unser engagiertes Team und an Sie, unsere geschätzten Kunden, für Ihr Vertrauen.",
     "paragraphs": [
-      "2011 gelang der grosse Schritt zu Aktiengesellschaft. Hauptaktionär der neuen Langhart & Partner Treuhand AG ist Urs Langhart. Die langjährigen Mitarbeiterinnen Sabrina Langhart und Nathalie Wittausch wurden als Teilhaberinnen und Partner mit ins Boot geholt.",
-      "2019 gab Urs Langhart die operative Leitung der AG ab und übertrug die Mehrheit seiner Anteile an Sabrina Langhart, die heutige Präsidentin des Verwaltungsrates, und Nathalie Wittausch. Ebenfalls erhielt im Jahr 2022 Lidia Cerra die Partnerschaft in der AG. Die Nachfolge und Philosophie einer familiär geführten Treuhandfirma konnten so gesichert und gefestigt werden."
+      "Gründer der heutigen Langhart & Partner Treuhand AG war Urs Langhart. Im Jahre 1994 wurde die Firma U. Langhart Treuhandbüro ursprünglich als Einzelfirma im Handelsregister eingetragen.",
+      "Was im Dachgeschoss der Privatwohnung begann, nahm rasant an Grösse zu, und so war es bereits ein Jahr später möglich, in die ersten eigenen Büroräumlichkeiten zu ziehen. Im Jahr 2004 fand der Umzug an den heutigen Standort im Herzen von Wetzikon statt.",
+      "2011 gelang der grosse Schritt zu Aktiengesellschaft. Hauptaktionär der neuen Langhart & Partner Treuhand AG ist Urs Langhart. Die langjährigen Mitarbeiterinnen Sabrina Langhart und Nathalie Wittausch wurden als Teilhaberinnen und Partner mit ins Boot geholt."
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Leistung",
       "heading": "Steuerberatung",
-      "body": "Ab dem Steuerjahr 2029 muss der Eigenmietwert auf selbstgenutztem Wohneigentum nicht mehr versteuert werden. Die Forderung der Gebirgskantone nach einer Abschaffung nicht vor 2030 wird damit nicht erfüllt. Ein halbes Jahr nach dem deutlichen Ja an der Urne schafft die Landesregie",
+      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -677,7 +725,20 @@
     {
       "eyebrow": "Leistung",
       "heading": "Unternehmensberatung",
-      "body": "Wir helfen Ihnen, sich im Dschungel der Bürokratie zurechtzufinden. Über das Schreiben von Statuten bis zum definitiven Handelsregistereintrag begleiten wir Sie auf diesem spannenden Weg.",
+      "body": "Wir begleiten und unterstützen Sie auf dem Weg zur Firmengründung. Wir sind dabei Ihr Ansprechpartner für jegliche rechtlichen Fragen.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Mehrwertsteuer",
+      "body": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -691,7 +752,34 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "Lidia Cerra",
+        "role": "Fachfrau im Finanz-und Rechnungswesen mit eidg. Fachausweis",
+        "initials": "LC",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
+      {
+        "name": "Nathalie Wittausch",
+        "role": "Sachbearbeiterin Rechnungswesen Edupool",
+        "initials": "NW",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
+      {
+        "name": "Sabrina Langhart",
+        "role": "Fachfrau im Finanz- und Rechnungswesen mit eidg. Fachausweis",
+        "initials": "SL",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/langhart-partner-ch/team/2-langhart.jpg"
+      },
+      {
+        "name": "Urs Langhart",
+        "role": "Gründer",
+        "initials": "UL",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/langhart-partner-ch/team/3-langhart.jpg"
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -740,10 +828,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Wetzikon",
+      "address": "Bahnhofstrasse 156, 8620 Wetzikon",
       "phone": "+41 44 933 50 20",
-      "email": "info@hingucker.ch",
-      "hours": "Mo–So 09:00–17:00"
+      "email": "info@langhart-partner.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -762,9 +849,9 @@
       {
         "title": "Standort",
         "links": [
-          "Wetzikon",
+          "Bahnhofstrasse 156, 8620 Wetzikon",
           "+41 44 933 50 20",
-          "info@hingucker.ch"
+          "info@langhart-partner.ch"
         ]
       },
       {

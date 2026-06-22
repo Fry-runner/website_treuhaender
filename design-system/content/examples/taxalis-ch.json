@@ -9,15 +9,15 @@
     "look": {
       "meta": {
         "id": "taxalis-ch-brand",
-        "name": "Unter dem Strich Warm Editorial · brand-generated",
+        "name": "Unter dem Strich Warm Editorial · logo-tinted",
         "mood": "Boutique editorial on warm paper; sharp corners, hairline borders, ink-blue + rose accents, snappy underline link motion.",
-        "source": "Unter-Dem-Strich + generated accent",
+        "source": "Unter-Dem-Strich + logo colour",
         "derived": [
           "color.surface (#FFFFFF cards on paper)",
           "color.primaryFg (#FFFFFF)",
           "color.primarySoft (#EAECF6 tint)",
           "base: uds-warm-editorial",
-          "accent #2C4C96 (generated · no scraped colour)",
+          "accent #003566 (logo)",
           "heading: Faustina (scraped)",
           "body: Raleway (scraped)",
           "mono: JetBrains Mono (inventory)"
@@ -38,10 +38,10 @@
         "text": "#1C1C1A",
         "textMuted": "#8A8782",
         "border": "#E7E4DD",
-        "primary": "#2C4C96",
+        "primary": "#003566",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#EAEBEE",
-        "secondary": "#2D99B4",
+        "primarySoft": "#E6E9EA",
+        "secondary": "#003566",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -195,8 +195,7 @@
       "footer.tagline",
       "process (generic)",
       "audience (generic)",
-      "about (generic)",
-      "look.colors (generated)"
+      "about (generic)"
     ],
     "real": [
       "meta.firm",
@@ -211,6 +210,7 @@
       "media.logo",
       "services.images",
       "media.documents",
+      "logo.colors",
       "brand.fonts"
     ]
   },
@@ -229,6 +229,7 @@
       "/images/taxalis-ch/pool/f070475d7d__Morgenstrasse_2030_2C_208620_20Wetzikon.jpg",
       "/images/taxalis-ch/pool/4ffab9de92__Carmenstrasse_2045_2C_208032_20Z_C3_BCrich.png",
       "/images/taxalis-ch/pool/fd51ec5397__Schlossbergstrasse_2040_2C_208820_20W_C3_A4denswil.JPG",
+      "/images/taxalis-ch/pool/df6ca78b92__Immobilienverkauf-Webseite1.jpg",
       "/images/taxalis-ch/pool/940e5f97c3__Haldenstrasse_205_2C_208625_20Gossau.JPG",
       "/images/taxalis-ch/pool/e8e06e9a0b__Br_C3_BCnneliweid_2016_2C_20Hinwil.jpg",
       "/images/taxalis-ch/pool/fc2e8a611a__Fochenmattweg_202_2C_208624_20Gr_C3_BCt.JPG",
@@ -236,11 +237,14 @@
       "/images/taxalis-ch/pool/8bde750eba__Tr_C3_BCbelstrasse_2062_2C_208712_20St_C3_A4fak_komp..png",
       "/images/taxalis-ch/pool/85152a79f5__Frohbergstrasse_2068_2C_20Wetzikon.jpg",
       "/images/taxalis-ch/pool/6c37450ed2__Titelbild_20DT_20Druck.JPG",
+      "/images/taxalis-ch/pool/3b44e056f0__Taxalis_News_November_Erbrecht_718x313px.jpg",
       "/images/taxalis-ch/pool/12cb4eff28__Immobilien-und-Steuern-Webseite.jpg"
     ],
     "serviceImages": {
       "Steuerberatung": "/images/taxalis-ch/pool/12cb4eff28__Immobilien-und-Steuern-Webseite.jpg",
-      "Mehrwertsteuer": "/images/taxalis-ch/pool/9adfcb6712__Taxalis_News_August_MWST_Erhoehung_Website_718x313px.jpg"
+      "Mehrwertsteuer": "/images/taxalis-ch/pool/9adfcb6712__Taxalis_News_August_MWST_Erhoehung_Website_718x313px.jpg",
+      "Immobilien": "/images/taxalis-ch/pool/df6ca78b92__Immobilienverkauf-Webseite1.jpg",
+      "Nachlass & Erbrecht": "/images/taxalis-ch/pool/3b44e056f0__Taxalis_News_November_Erbrecht_718x313px.jpg"
     },
     "documents": [
       {
@@ -321,7 +325,7 @@
         "orientation": "landscape",
         "subject": "generic",
         "phash": "bd7df0b031616134",
-        "quality": 0.59,
+        "quality": 0.62,
         "faces": 0,
         "roles": []
       },
@@ -335,7 +339,7 @@
         "orientation": "landscape",
         "subject": "office",
         "phash": "851959e367678f1b",
-        "quality": 0.73,
+        "quality": 0.74,
         "faces": 0,
         "roles": [
           "gallery",
@@ -355,7 +359,7 @@
         "orientation": "landscape",
         "subject": "office",
         "phash": "80e0d1f834479e01",
-        "quality": 0.6,
+        "quality": 0.62,
         "faces": 0,
         "roles": [
           "gallery",
@@ -375,7 +379,7 @@
         "orientation": "landscape",
         "subject": "office",
         "phash": "61f0d8bb7a585919",
-        "quality": 0.54,
+        "quality": 0.55,
         "faces": 0,
         "roles": [
           "gallery",
@@ -395,7 +399,7 @@
         "orientation": "landscape",
         "subject": "generic",
         "phash": "9638e9e8e9e979e9",
-        "quality": 0.78,
+        "quality": 0.79,
         "faces": 0,
         "roles": [
           "gallery",
@@ -415,7 +419,7 @@
         "orientation": "landscape",
         "subject": "generic",
         "phash": "3197feb099cfdf9f",
-        "quality": 0.78,
+        "quality": 0.79,
         "faces": 0,
         "roles": [
           "gallery",
@@ -435,7 +439,7 @@
         "orientation": "landscape",
         "subject": "city",
         "phash": "d074eb0b1890d4e",
-        "quality": 0.66,
+        "quality": 0.68,
         "faces": 0,
         "roles": [
           "gallery",
@@ -455,7 +459,7 @@
         "orientation": "landscape",
         "subject": "office",
         "phash": "cc60383c6b6972b3",
-        "quality": 0.71,
+        "quality": 0.73,
         "faces": 0,
         "roles": [
           "gallery",
@@ -475,7 +479,7 @@
         "orientation": "landscape",
         "subject": "generic",
         "phash": "7162aa8f2d4a686c",
-        "quality": 0.73,
+        "quality": 0.75,
         "faces": 0,
         "roles": [
           "gallery",
@@ -495,7 +499,7 @@
         "orientation": "landscape",
         "subject": "office",
         "phash": "e7fdf3a61637cf79",
-        "quality": 0.8,
+        "quality": 0.81,
         "faces": 0,
         "roles": [
           "gallery",
@@ -515,7 +519,7 @@
         "orientation": "landscape",
         "subject": "generic",
         "phash": "1d4d635155349c05",
-        "quality": 0.82,
+        "quality": 0.83,
         "faces": 0,
         "roles": [
           "gallery",
@@ -535,7 +539,7 @@
         "orientation": "landscape",
         "subject": "office",
         "phash": "8ce0b6b8985ee2de",
-        "quality": 0.48,
+        "quality": 0.49,
         "faces": 0,
         "roles": [
           "gallery",
@@ -553,7 +557,7 @@
         "orientation": "landscape",
         "subject": "office",
         "phash": "58d886870d2d11",
-        "quality": 0.62,
+        "quality": 0.64,
         "faces": 0,
         "roles": [
           "gallery",
@@ -613,7 +617,7 @@
         "orientation": "landscape",
         "subject": "generic",
         "phash": "b23d2637379526b6",
-        "quality": 0.59,
+        "quality": 0.62,
         "faces": 0,
         "roles": [
           "gallery",
@@ -633,7 +637,7 @@
         "orientation": "landscape",
         "subject": "city",
         "phash": "29093464242e274b",
-        "quality": 0.6,
+        "quality": 0.62,
         "faces": 0,
         "roles": [
           "gallery",
@@ -653,7 +657,7 @@
         "orientation": "landscape",
         "subject": "generic",
         "phash": "a4a22164646464e4",
-        "quality": 0.43,
+        "quality": 0.44,
         "faces": 0,
         "roles": [
           "gallery",
@@ -670,9 +674,42 @@
         "orientation": "landscape",
         "subject": "portrait",
         "phash": "ed2927232b6b63e7",
-        "quality": 0.53,
+        "quality": 0.54,
         "faces": 1,
         "roles": []
+      },
+      {
+        "src": "/images/taxalis-ch/pool/df6ca78b92__Immobilienverkauf-Webseite1.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 11352,
+        "width": 718,
+        "height": 313,
+        "orientation": "landscape",
+        "subject": "office",
+        "phash": "80ad0c0c0c0d0686",
+        "quality": 0.34,
+        "faces": 0,
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/taxalis-ch/pool/3b44e056f0__Taxalis_News_November_Erbrecht_718x313px.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 40352,
+        "width": 718,
+        "height": 313,
+        "orientation": "landscape",
+        "subject": "generic",
+        "phash": "e2e2f3f9e8c8cbfb",
+        "quality": 0.58,
+        "faces": 5,
+        "roles": [
+          "gallery",
+          "service"
+        ]
       }
     ],
     "sectionBackgrounds": [
@@ -717,20 +754,33 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Immobilien",
+        "summary": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
+        "body": "Am Dorfrand von Saland, an sonniger Lage bietet dieser Neubau 8 Eigentumswohnungen, sowie 16 Mietwohnungen. Wohnluxus pur in der Naturoase Saland. Der Wohnungsmix besteht aus grosszügigen 4.5- und 5.5-Zimmer-Wohnungen. Über die Tiefgarage gelangt man direkt per Lift oder Treppe ins Haus. Die nach dem neusten Stand der Technik geplanten Wohnungen bieten Ihnen und Ihrer Familie ein perfektes Zuhause. Lassen Sie sich von der sonnigen Lage und dem modernen Ausbau sowie dem grosszügigen, offenen Grundriss überzeugen.\n\nDie Erstvermietung sowie die Verwaltung der Gebäude wird von uns abgewickelt. Füllen Sie jetzt das\n\naus, um alsdann die Informationen zu erhalten. Mit der Erstvermietung (inkl. Mitteilung Mietzinsen und weitere Informationen) werden wir September 2025 starten.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/taxalis-ch/pool/df6ca78b92__Immobilienverkauf-Webseite1.jpg"
+      },
+      {
+        "title": "Nachlass & Erbrecht",
+        "summary": "Nachlassplanung, Willensvollstreckung und Erbteilung – sorgfältig und diskret begleitet.",
+        "body": "Mit unserem jahrelangen Fachwissen können wir Sie individuell beraten. Wünschen Sie Erstellung entsprechender Entwürfe oder Klärung von Fragen? Wir bieten Hand…(\n\nWer soll Ihr Vermögen nach Ihrem Tod erben? Welchen Gestaltungsspielraum haben Sie (z.B. für Vermächtnisse)? Wie können Sie Ihren Ehepartner meistbegünstigen? Diese Fragen können bereits vor dem Tod mittels Testament, Ehe- oder Erbvertrag geklärt werden.\n\nMit dem Vorsorgeauftrag können Sie heute bestimmen, wer sich im Falle einer eintretenden Urteilsunfähigkeit (u.a. Demenz/Folge eines Unfalls) um ihre persönlichen und finanziellen Angelegenheiten kümmern soll. Der Vorsorgeauftrag tritt erst in Kraft, wenn der Zustand der Urteilsunfähigkeit eintritt und berücksichtigt dabei die von Ihnen gewünschte/n Person/en.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/taxalis-ch/pool/3b44e056f0__Taxalis_News_November_Erbrecht_718x313px.jpg"
       },
       {
         "title": "Steuerberatung",
-        "summary": "Der Regierungsrat des Kantons Zürich hat die bislang geltende Weisung zur Neubewertung von Liegenschaften aus dem Jahr 2009 überarbeitet, um mit der Entwicklung der Immobilienpreise Schritt zu halten und Ungerechtigkeiten zu beseitigen. Doch was sind die konkreten Folgen?",
-        "body": "Der Regierungsrat des Kantons Zürich hat die bislang geltende Weisung zur Neubewertung von Liegenschaften aus dem Jahr 2009 überarbeitet, um mit der Entwicklung der Immobilienpreise Schritt zu halten und Ungerechtigkeiten zu beseitigen. Doch was sind die konkreten Folgen?\n\nZuerst gilt es, sich einen Überblick zu verschaffen, worüber wir eigentlich abstimmen. Welches sind die wichtigsten Elemente der geplanten Reform? Was ist die jeweilige Idee dahinter? Inwieweit sind Sie überhaupt betroffen?\n\nDie modernisierte Alters- und Hinterlassenenversicherung tritt am 1. Januar 2024 in Kraft. Neue Mehrwertsteuersätze ergänzen die AHV-Finanzierung. Was geändert wurde und was diese Anpassungen für Sie heissen, erfahren Sie hier.\n\nBewahren Sie Ihre Unterlagen lieber in digitaler Form auf? Taxalis hat gute Neuigkeiten für Sie: Wir bieten Ihnen auch die digitale Einreichung Ihrer Steuererklärung an. Da",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Der Regierungsrat des Kantons Zürich hat die bislang geltende Weisung zur Neubewertung von Liegenschaften aus dem Jahr 2009 überarbeitet, um mit der Entwicklung der Immobilienpreise Schritt zu halten und Ungerechtigkeiten zu beseitigen. Doch was sind die konkreten Folgen?\n\nZuerst gilt es, sich einen Überblick zu verschaffen, worüber wir eigentlich abstimmen. Welches sind die wichtigsten Elemente der geplanten Reform? Was ist die jeweilige Idee dahinter? Inwieweit sind Sie überhaupt betroffen?\n\nDie modernisierte Alters- und Hinterlassenenversicherung tritt am 1. Januar 2024 in Kraft. Neue Mehrwertsteuersätze ergänzen die AHV-Finanzierung. Was geändert wurde und was diese Anpassungen für Sie heissen, erfahren Sie hier.\n\nBewahren Sie Ihre Unterlagen lieber in digitaler Form auf? Taxalis hat gute Neuigkeiten für Sie: Wir bieten Ihnen auch die digitale Einreichung Ihrer Steuererklärung an.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -740,9 +790,9 @@
         "image": "/images/taxalis-ch/pool/12cb4eff28__Immobilien-und-Steuern-Webseite.jpg"
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Unsere engagierten Experten nehmen sich gerne für Sie Zeit, sich Ihren Steuerangelegenheiten anzunehmen und diese für Sie optimal umzusetzen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -751,9 +801,9 @@
         ]
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Befinden sich Ehegatten oder eingetragene Partner in einem Scheidungsverfahren, so bleibt nach aktueller gesetzlicher Grundlage der Pflichtteilsanspruch des Ehegatten resp. des eingetragenen Partners:in während des Verfahrens weiter bestehen. Eine Änderung ist bis heute nicht möglich.\n\nDieser Pflichtteilsschutz fällt gemäss der neuen Gesetzgebung dahin. Neu kann der Ehegatte resp. der/die eingetragene Partner:in, unter gewissen Voraussetzungen, von der Erbfolge ausgeschlossen und der Pflichtteilsschutz mittels letztwilliger Verfügung entzogen werden.\n\nWird der Wunsch nicht letztwillig verfügt, so greift weiterhin das gesetzliche Erbrecht und somit der Anspruch des Partners:in.\n\nNach dem neuen Recht kann eine Person nach Abschluss eines Erbvertrages lediglich Gelegenheitsgeschenke ausrichten. Weitere Schenkungen sind nicht möglich.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -763,8 +813,8 @@
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "Mit Konsum Steuereinnahmen generieren – das Konzept der Mehrwertsteuer lässt sich in einem Satz erklären. Seit 1995 zahlt man in der Schweiz auf fast jedes Produkt und auf fast jede Dienstleistung eine Mehrwertsteuer. Unternehmen geben diese im Anschluss an den Staat weiter. Die ",
-        "body": "Mit Konsum Steuereinnahmen generieren – das Konzept der Mehrwertsteuer lässt sich in einem Satz erklären. Seit 1995 zahlt man in der Schweiz auf fast jedes Produkt und auf fast jede Dienstleistung eine Mehrwertsteuer. Unternehmen geben diese im Anschluss an den Staat weiter. Die Mehrheit der KMU in der Schweiz überschreiten die Umsatzgrenze von CHF 100'000 pro Jahr und sind im Normalfall umsatzsteuerpflichtig.\n\nDie Mehrwertsteuern sind eine der essenziellsten Einnahmequellen des Bundes: Mit über 24 Milliarden Franken bilden sie 2022 mehr als 30 Prozent der Gesamteinnahmen – Tendenz steigend. Denn per 1. Januar gelten neue Mehrwertsteuersätze.\n\nIm nächsten Jahr bezahlt man für Produkte wie digitale Geräte oder Dienstleistungen wie ein Fitnessabonnement 0.4 Prozent mehr – so hoch fällt die Differenz des angepassten MWST-Normalsatzes aus – von 7.7 Prozent auf 8.1 Prozent. Für Nahrungsmittel",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Mit Konsum Steuereinnahmen generieren – das Konzept der Mehrwertsteuer lässt sich in einem Satz erklären. Seit 1995 zahlt man in der Schweiz auf fast jedes Produkt und auf fast jede Dienstleistung eine Mehrwertsteuer. Unternehmen geben diese im Anschluss an den Staat weiter. Die Mehrheit der KMU in der Schweiz überschreiten die Umsatzgrenze von CHF 100'000 pro Jahr und sind im Normalfall umsatzsteuerpflichtig.\n\nDie Mehrwertsteuern sind eine der essenziellsten Einnahmequellen des Bundes: Mit über 24 Milliarden Franken bilden sie 2022 mehr als 30 Prozent der Gesamteinnahmen – Tendenz steigend. Denn per 1. Januar gelten neue Mehrwertsteuersätze.\n\nIm nächsten Jahr bezahlt man für Produkte wie digitale Geräte oder Dienstleistungen wie ein Fitnessabonnement 0.4 Prozent mehr – so hoch fällt die Differenz des angepassten MWST-Normalsatzes aus – von 7.7 Prozent auf 8.1 Prozent.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -772,17 +822,6 @@
           "Transparente Pauschale ohne versteckte Kosten"
         ],
         "image": "/images/taxalis-ch/pool/9adfcb6712__Taxalis_News_August_MWST_Erhoehung_Website_718x313px.jpg"
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Unsere engagierten Experten nehmen sich gerne für Sie Zeit, sich Ihren Steuerangelegenheiten anzunehmen und diese für Sie optimal umzusetzen.",
-        "body": "Unsere engagierten Experten nehmen sich gerne für Sie Zeit, sich Ihren Steuerangelegenheiten anzunehmen und diese für Sie optimal umzusetzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
       }
     ]
   },
@@ -794,8 +833,8 @@
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Der Regierungsrat des Kantons Zürich hat die bislang geltende Weisung zur Neubewertung von Liegenschaften aus dem Jahr 2009 überarbeitet, um mit der Entwicklung der Immobilienpreise Schritt zu halten und Ungerechtigkeiten zu beseitigen. Doch was sind die konkreten Folgen?",
+      "heading": "Immobilien",
+      "body": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -807,8 +846,21 @@
     },
     {
       "eyebrow": "Leistung",
-      "heading": "Mehrwertsteuer",
-      "body": "Mit Konsum Steuereinnahmen generieren – das Konzept der Mehrwertsteuer lässt sich in einem Satz erklären. Seit 1995 zahlt man in der Schweiz auf fast jedes Produkt und auf fast jede Dienstleistung eine Mehrwertsteuer. Unternehmen geben diese im Anschluss an den Staat weiter. Die ",
+      "heading": "Nachlass & Erbrecht",
+      "body": "Nachlassplanung, Willensvollstreckung und Erbteilung – sorgfältig und diskret begleitet.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -821,7 +873,7 @@
     {
       "eyebrow": "Leistung",
       "heading": "Unternehmensberatung",
-      "body": "Unsere engagierten Experten nehmen sich gerne für Sie Zeit, sich Ihren Steuerangelegenheiten anzunehmen und diese für Sie optimal umzusetzen.",
+      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -877,9 +929,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Winterthur",
+      "address": "Merkurstrasse 23, 8400 Winterthur",
       "phone": "+41 52 260 20 10",
-      "email": "andrea.vettiger@taxalis.ch"
+      "email": "info@taxalis.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -900,9 +952,9 @@
       {
         "title": "Standort",
         "links": [
-          "Winterthur",
+          "Merkurstrasse 23, 8400 Winterthur",
           "+41 52 260 20 10",
-          "andrea.vettiger@taxalis.ch"
+          "info@taxalis.ch"
         ]
       },
       {

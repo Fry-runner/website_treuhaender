@@ -174,11 +174,13 @@ export const HeroMinimalType: React.FC<{ content: HeroContent }> = ({ content })
 );
 
 /** 8) Headline/lede left, stacked offset quote panels right (layered cards). */
-export const HeroOffsetAside: React.FC<{ content: HeroContent }> = ({ content }) => (
+export const HeroOffsetAside: React.FC<{ content: HeroContent }> = ({ content }) => {
+  const showAside = !!content.asideQuote && content.asideQuote.trim() !== content.lede.trim();
+  return (
   <section style={sectionBase}>
     <Container>
-      <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.3fr) minmax(0,1fr)", gap: "3.2rem", alignItems: "center" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: showAside ? "minmax(0,1.3fr) minmax(0,1fr)" : "minmax(0,1fr)", gap: "3.2rem", alignItems: "center" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem", maxWidth: showAside ? undefined : "62ch" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading><Title c={content} /></Heading>
           <Lede>{content.lede}</Lede>
@@ -187,6 +189,7 @@ export const HeroOffsetAside: React.FC<{ content: HeroContent }> = ({ content })
             <Button variant="outline">{content.secondaryCta}</Button>
           </div>
         </div>
+        {showAside && (
         <div style={{ position: "relative", paddingTop: "1.2rem", paddingRight: "1.2rem" }}>
           <div aria-hidden style={{ position: "absolute", top: 0, right: 0, width: "78%", height: "82%", background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)" }} />
           <blockquote style={{ position: "relative", margin: 0, background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -195,10 +198,12 @@ export const HeroOffsetAside: React.FC<{ content: HeroContent }> = ({ content })
             <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.85rem", color: "var(--ds-text-muted)" }}>{content.asideAttribution}</span>
           </blockquote>
         </div>
+        )}
       </div>
     </Container>
   </section>
-);
+  );
+};
 
 /** 9) Centered hero with a bottom marquee ribbon of repeated trust labels. */
 export const HeroRibbon: React.FC<{ content: HeroContent }> = ({ content }) => {
@@ -235,18 +240,23 @@ export const HeroRibbon: React.FC<{ content: HeroContent }> = ({ content }) => {
 };
 
 /** 10) Quote-led hero — a large pull-quote opens, headline/CTA follow beneath. */
-export const HeroQuoteLead: React.FC<{ content: HeroContent }> = ({ content }) => (
+export const HeroQuoteLead: React.FC<{ content: HeroContent }> = ({ content }) => {
+  // The big pull-quote leads; use a real distinct quote, else the lede (and then don't
+  // repeat that same lede again below — it would show the identical sentence twice).
+  const distinctQuote = !!content.asideQuote && content.asideQuote.trim() !== content.lede.trim();
+  const bigQuote = distinctQuote ? content.asideQuote : content.lede;
+  return (
   <section style={sectionBase}>
     <Container style={{ maxWidth: "min(var(--ds-container), 920px)" }}>
       <div style={{ display: "flex", flexDirection: "column", gap: "1.8rem" }}>
         <Eyebrow>{content.eyebrow}</Eyebrow>
         <p style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "calc(var(--ds-display) * 0.8)", lineHeight: 1.15, letterSpacing: "var(--ds-headline-tracking)", color: "var(--ds-text)", margin: 0, maxWidth: "20ch" }}>
-          “{content.asideQuote}”
+          “{bigQuote}”
         </p>
         <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: "2.4rem", alignItems: "end", paddingTop: "1.4rem", borderTop: "1px solid var(--ds-border)" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
             <h1 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.6rem", lineHeight: 1.15, color: "var(--ds-text)", margin: 0 }}><Title c={content} /></h1>
-            <Lede>{content.lede}</Lede>
+            {distinctQuote && <Lede>{content.lede}</Lede>}
           </div>
           <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", justifyContent: "flex-end" }}>
             <Button variant="primary">{content.primaryCta}</Button>
@@ -256,4 +266,5 @@ export const HeroQuoteLead: React.FC<{ content: HeroContent }> = ({ content }) =
       </div>
     </Container>
   </section>
-);
+  );
+};

@@ -9,14 +9,14 @@
     "look": {
       "meta": {
         "id": "balbiani-ch-brand",
-        "name": "Rürup Swiss Corporate · brand-tinted",
+        "name": "Rürup Swiss Corporate · logo-tinted",
         "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
-        "source": "Steuerberatung-Andreas-Rürup + scraped brand",
+        "source": "Steuerberatung-Andreas-Rürup + logo colour",
         "derived": [
           "color.primaryFg (#FFFFFF)",
           "color.primarySoft (tint of beige surface)",
           "base: ruerup-swiss",
-          "accent #75A4E0 → #568FD9 (scraped · raised for contrast)",
+          "accent #215BA3 (logo)",
           "heading: Sora (inventory)",
           "body: IBM Plex Sans (inventory)",
           "mono: IBM Plex Mono (inventory)"
@@ -37,10 +37,10 @@
         "text": "#1C1C1A",
         "textMuted": "#71717A",
         "border": "#E5E7EB",
-        "primary": "#568FD9",
+        "primary": "#215BA3",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#F1F6FC",
-        "secondary": "#568FD9",
+        "primarySoft": "#EDF2F8",
+        "secondary": "#215BA3",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -154,7 +154,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -184,7 +183,6 @@
       "faq",
       "process (generic)",
       "audience (generic)",
-      "about (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -195,6 +193,7 @@
       "hero.headline",
       "hero.lede",
       "services.text",
+      "about",
       "feature",
       "footer.tagline",
       "trust.items",
@@ -203,7 +202,7 @@
       "trust.badges",
       "services.images",
       "media.documents",
-      "brand.colors"
+      "logo.colors"
     ]
   },
   "media": {
@@ -220,7 +219,9 @@
       "Jahresabschluss": "/images/balbiani-ch/pool/stock-office-4680351.jpg",
       "Mehrwertsteuer": "/images/balbiani-ch/pool/stock-office-8453801.jpg",
       "Unternehmensberatung": "/images/balbiani-ch/pool/stock-advisory-7821543.jpg",
-      "Revision": "/images/balbiani-ch/pool/stock-success-6289065.jpg"
+      "Revision": "/images/balbiani-ch/pool/stock-success-6289065.jpg",
+      "Immobilien": "/images/balbiani-ch/pool/stock-documents-590045.jpg",
+      "Nachlass & Erbrecht": "/images/balbiani-ch/pool/stock-laptop-6172578.jpg"
     },
     "documents": [
       {
@@ -315,7 +316,7 @@
         "stock": true,
         "credit": "Zakir Rushanly (Pexels)",
         "source": "https://www.pexels.com/photo/couches-and-coffee-tables-in-a-lobby-11719831/",
-        "quality": 0.77,
+        "quality": 0.73,
         "faces": 0,
         "roles": [
           "gallery",
@@ -337,7 +338,7 @@
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
         "source": "https://www.pexels.com/photo/calculator-on-top-of-the-paper-7580854/",
-        "quality": 0.59,
+        "quality": 0.57,
         "faces": 0,
         "roles": [
           "gallery",
@@ -379,12 +380,13 @@
         "stock": true,
         "credit": "www.kaboompics.com (Pexels)",
         "source": "https://www.pexels.com/photo/a-person-signing-divorce-documents-7876037/",
-        "quality": 0.46,
+        "quality": 0.5,
         "faces": 0,
         "roles": [
           "gallery",
           "background",
-          "service"
+          "service",
+          "feature"
         ]
       },
       {
@@ -399,7 +401,7 @@
         "stock": true,
         "credit": "KATRIN  BOLOVTSOVA (Pexels)",
         "source": "https://www.pexels.com/photo/computer-on-white-desk-4680351/",
-        "quality": 0.73,
+        "quality": 0.7,
         "faces": 0,
         "roles": [
           "gallery",
@@ -420,7 +422,7 @@
         "stock": true,
         "credit": "cottonbro studio (Pexels)",
         "source": "https://www.pexels.com/photo/photo-of-a-workplace-8453801/",
-        "quality": 0.68,
+        "quality": 0.67,
         "faces": 0,
         "roles": [
           "gallery",
@@ -441,7 +443,7 @@
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
         "source": "https://www.pexels.com/photo/close-up-photo-of-person-pointing-on-documents-7821543/",
-        "quality": 0.62,
+        "quality": 0.63,
         "faces": 0,
         "roles": [
           "gallery",
@@ -467,6 +469,45 @@
         "roles": [
           "gallery"
         ]
+      },
+      {
+        "src": "/images/balbiani-ch/pool/stock-documents-590045.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 43402,
+        "width": 1280,
+        "height": 848,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/graph-and-line-chart-printed-paper-590045/",
+        "quality": 0.34,
+        "faces": 0,
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/balbiani-ch/pool/stock-laptop-6172578.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 121594,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/a-person-using-laptop-6172578/",
+        "quality": 0.86,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
       }
     ],
     "sectionBackgrounds": [
@@ -482,7 +523,8 @@
       "www.kaboompics.com (Pexels)",
       "KATRIN  BOLOVTSOVA (Pexels)",
       "cottonbro studio (Pexels)",
-      "Monstera Production (Pexels)"
+      "Monstera Production (Pexels)",
+      "Lukas Blazek (Pexels)"
     ]
   },
   "nav": {
@@ -521,20 +563,8 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung und können Sie kompetent und zielführend von A bis Z begleiten.",
-        "body": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung und können Sie kompetent und zielführend von A bis Z begleiten.\n\nDank uns verfügen Sie jederzeit über die wichtigen Kennziffern, welche Ihnen bestimmt in der Unternehmensführung helfen werden.\n\nSparen Sie Ihre Zeit und vertrauen Sie uns Ihre Buchhaltung an. Wir freuen uns, für Sie da zu sein.\n\nSie können Ihre Buchungen vorerfassen und wir können diese mittels Schnittstelle in unser Finanz-Programm übertragen. Gerne betreuen wir Ihre Buchhaltung auch vor Ort.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/balbiani-ch/pool/stock-finance-7580854.jpg"
-      },
-      {
         "title": "Steuerberatung",
-        "summary": "Albert Einstein sagte einst, warum er einen Steuerberater beschäftigte: \"Das ist für einen Mathematiker zu schwierig, dazu muss man Philosoph sein\".",
+        "summary": "Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen u.v.m.",
         "body": "Albert Einstein sagte einst, warum er einen Steuerberater beschäftigte: \"Das ist für einen Mathematiker zu schwierig, dazu muss man Philosoph sein\".\n\nWenn es um Steuerfragen geht, sind wir gerne Ihre Philosophen. Bei uns sparen Sie Zeit und Steuern und können sich als Privatperson oder juristische Person bei uns melden. Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen und vieles mehr.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -545,9 +575,33 @@
         "image": "/images/balbiani-ch/pool/stock-meeting-7433869.jpg"
       },
       {
+        "title": "Unternehmensberatung",
+        "summary": "Gerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
+        "body": "Sie haben eine Geschäftsidee und sind auf der Suche nach einem kompetenten Partner, welcher Sie bis zur Gründung begleitet? Dank jahrelanger Erfahrung in der Materie sind wir der ideale Partner für Ihre Bedürfnisse.\n\nGerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/balbiani-ch/pool/stock-advisory-7821543.jpg"
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung und können Sie kompetent und zielführend von A bis Z begleiten.\n\nDank uns verfügen Sie jederzeit über die wichtigen Kennziffern, welche Ihnen bestimmt in der Unternehmensführung helfen werden.\n\nSparen Sie Ihre Zeit und vertrauen Sie uns Ihre Buchhaltung an. Wir freuen uns, für Sie da zu sein.\n\nSie können Ihre Buchungen vorerfassen und wir können diese mittels Schnittstelle in unser Finanz-Programm übertragen. Gerne betreuen wir Ihre Buchhaltung auch vor Ort.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/balbiani-ch/pool/stock-finance-7580854.jpg"
+      },
+      {
         "title": "Lohnadministration",
-        "summary": "Wir unterstützen Sie in der Pflege Ihrer wertvollsten Investition, dem Personal.",
-        "body": "Wir unterstützen Sie in der Pflege Ihrer wertvollsten Investition, dem Personal.\n\nKlare Verhältnisse mit Ihren Mitarbeiterinnen und Mitarbeiter sind eine wichtige Investition für den Erfolg Ihres Unternehmens. Genau deshalb unterstützen wir Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.\n\nvon Balbiani tatkräftig unterstützen. Sie sind uns genauso wichtig, wie Ihre Mitarbeitenden Ihnen wichtig sind. Wir freuen uns auf Ihre",
+        "summary": "Wir unterstützen Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.",
+        "body": "Wir unterstützen Sie in der Pflege Ihrer wertvollsten Investition, dem Personal.\n\nKlare Verhältnisse mit Ihren Mitarbeiterinnen und Mitarbeiter sind eine wichtige Investition für den Erfolg Ihres Unternehmens. Genau deshalb unterstützen wir Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.\n\nvon Balbiani tatkräftig unterstützen. Sie sind uns genauso wichtig, wie Ihre Mitarbeitenden Ihnen wichtig sind.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -557,16 +611,16 @@
         "image": "/images/balbiani-ch/pool/stock-documents-7876037.jpg"
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Revision",
+        "summary": "Wir prüfen Ihre Bilanz- und Jahresrechnung gemäss den schweiz. Prüfungsstandards zur eingeschränkten Revision. Dank unserem Revisor RAB, Jean-Pierre Balbiani.",
+        "body": "Gerne prüfen wir Ihre Bilanz- und Jahresrechnung gemäss den schweizerischen Prüfungsstandards zur eingeschränkten Revision. Dank unserem zugelassenen\n\n, Jean-Pierre Balbiani (Zulassungs-Nr. 106 509), können Sie auf eine fachgerechte Revision zählen und nicht zuletzt an Sicherheit gewinnen.\n\nPrüfung der Bilanz- und Jahresrechnung gemäss den schweiz.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/balbiani-ch/pool/stock-office-4680351.jpg"
+        "image": "/images/balbiani-ch/pool/stock-success-6289065.jpg"
       },
       {
         "title": "Mehrwertsteuer",
@@ -579,18 +633,6 @@
           "Transparente Pauschale ohne versteckte Kosten"
         ],
         "image": "/images/balbiani-ch/pool/stock-office-8453801.jpg"
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Sie haben eine Geschäftsidee und sind auf der Suche nach einem kompetenten Partner, welcher Sie bis zur Gründung begleitet? Dank jahrelanger Erfahrung in der Materie sind wir der ideale Partner für Ihre Bedürfnisse.",
-        "body": "Sie haben eine Geschäftsidee und sind auf der Suche nach einem kompetenten Partner, welcher Sie bis zur Gründung begleitet? Dank jahrelanger Erfahrung in der Materie sind wir der ideale Partner für Ihre Bedürfnisse.\n\nGerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/balbiani-ch/pool/stock-advisory-7821543.jpg"
       }
     ]
   },
@@ -599,37 +641,17 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Über das Balbiani Treuhand GmbH",
+    "lead": "Wir gewähren die Einhaltung der Richtlinien und Standards unseres Berufsstandes.",
+    "paragraphs": []
+  },
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Eine korrekt geführte Finanzbuchhaltung ist Ihre Basis zum Erfolg. Wir verfügen über ein langjähriges Know-how im Bereich der Buchführung und können Sie kompetent und zielführend von A bis Z begleiten.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
       "heading": "Steuerberatung",
-      "body": "Albert Einstein sagte einst, warum er einen Steuerberater beschäftigte: \"Das ist für einen Mathematiker zu schwierig, dazu muss man Philosoph sein\".",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Lohnadministration",
-      "body": "Wir unterstützen Sie in der Pflege Ihrer wertvollsten Investition, dem Personal.",
+      "body": "Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen u.v.m.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -642,7 +664,33 @@
     {
       "eyebrow": "Leistung",
       "heading": "Unternehmensberatung",
-      "body": "Sie haben eine Geschäftsidee und sind auf der Suche nach einem kompetenten Partner, welcher Sie bis zur Gründung begleitet? Dank jahrelanger Erfahrung in der Materie sind wir der ideale Partner für Ihre Bedürfnisse.",
+      "body": "Gerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Lohnadministration",
+      "body": "Wir unterstützen Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -697,9 +745,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Dietikon",
+      "address": "Oberdorfstrasse 11, 8953 Dietikon",
       "phone": "044 746 40 60",
-      "email": "jean-pierre@balbiani.ch"
+      "email": "treuhand@balbiani.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -719,9 +767,9 @@
       {
         "title": "Standort",
         "links": [
-          "Dietikon",
+          "Oberdorfstrasse 11, 8953 Dietikon",
           "044 746 40 60",
-          "jean-pierre@balbiani.ch"
+          "treuhand@balbiani.ch"
         ]
       },
       {

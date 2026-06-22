@@ -9,16 +9,16 @@
     "look": {
       "meta": {
         "id": "urania-treuhand-ch-brand",
-        "name": "Züri Swiss Blue · brand-tinted",
+        "name": "Züri Swiss Blue · logo-tinted",
         "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
-        "source": "Züri-Treuhand + scraped brand",
+        "source": "Züri-Treuhand + logo colour",
         "derived": [
           "color.primaryFg (#FFFFFF)",
           "color.primarySoft (#EAF1F8 tint)",
           "color.secondaryFg (#FFFFFF)",
           "color.textMuted (#737373 neutral-500)",
           "base: zueri-swiss",
-          "accent #009916 (scraped · medium)",
+          "accent #43AD47 → #3C9B3F (logo · raised for contrast)",
           "heading: Montserrat (scraped)",
           "body: Karla (inventory)",
           "mono: Space Mono (inventory)"
@@ -39,10 +39,10 @@
         "text": "#333333",
         "textMuted": "#737373",
         "border": "#EAEAEA",
-        "primary": "#009916",
+        "primary": "#3C9B3F",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#EBF7EC",
-        "secondary": "#009916",
+        "primarySoft": "#EFF7F0",
+        "secondary": "#3C9B3F",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -170,7 +170,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -218,7 +217,7 @@
       "media.pool",
       "media.logo",
       "trust.badges",
-      "brand.colors",
+      "logo.colors",
       "brand.fonts"
     ]
   },
@@ -408,9 +407,20 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -421,7 +431,7 @@
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -430,20 +440,9 @@
         ]
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Immobilien",
+        "summary": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -454,7 +453,18 @@
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-        "body": "Wir übernehmen revision vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -526,9 +536,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Uzwil",
+      "address": "Bahnhofstrasse 82, 9240 Uzwil",
       "phone": "+41 71 744 09 71",
-      "email": "%20info@urania-treuhand.ch"
+      "email": "info@urania-treuhand.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -548,9 +558,9 @@
       {
         "title": "Standort",
         "links": [
-          "Uzwil",
+          "Bahnhofstrasse 82, 9240 Uzwil",
           "+41 71 744 09 71",
-          "%20info@urania-treuhand.ch"
+          "info@urania-treuhand.ch"
         ]
       },
       {

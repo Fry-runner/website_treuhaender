@@ -167,7 +167,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -577,19 +576,20 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Ein transparenter und periodengerechter Jahresabschluss ist ein Führungsinstrument, das Ihnen die finanziellen Zusammenhänge zum Geschäftsverlauf im Unternehmen aufzeigt. Mit unserer langjährigen Erfahrung im Finanz- und Rechnungswesen haben wir anspruchsvolle Projekte, wie Einfü",
-        "body": "Ein transparenter und periodengerechter Jahresabschluss ist ein Führungsinstrument, das Ihnen die finanziellen Zusammenhänge zum Geschäftsverlauf im Unternehmen aufzeigt. Mit unserer langjährigen Erfahrung im Finanz- und Rechnungswesen haben wir anspruchsvolle Projekte, wie Einführung neuer Softwarelösungen, Betriebseröffnungen und Reorganisationen erfolgreich abgeschlossen.\n\nOb Sie Ihre Buchungen selbst vornehmen oder die Organisation und Führung der gesamten Buchhaltung uns übertragen, wir gehen auf Ihre Bedürfnisse ein und nehmen Ihre Wünsche ernst. Wir zeigen Ihnen, wie Sie Ihre Abläufe im Rechnungswesen einfach und effizient gestalten können und damit schneller und kostengünstiger arbeiten. Mit einem Minimum an Digitalisierung können wir auch hier die Effizienz noch zusätzlich verbessern.\n\nFühren der Finanz-, Debitoren- und Kreditorenbuchhaltung inkl. Zahlungsverkehr bei uns, in Ihr",
+        "title": "Unternehmensberatung",
+        "summary": "Persönliche Beratung für Unternehmen und Privatpersonen in Dietikon. Spezialisiert auf Nachfolgeregelungen und individuelle Lösungen.",
+        "body": "Es bedeutet, die Bedürfnisse auf dem Markt und die eigenen Fähigkeiten zu kennen, um sich wettbewerbsfähig und erfolgreich zu positionieren. Einen Businessplan zu erstellen ist elementar und zwingt vor Firmengründung dazu, die Geschäftsidee sowie Ziele zu konkretisieren und Alleinstellungsmerkmale hervorzuheben. Damit wird die Strategie zur Umsetzung festgelegt und die wirtschaftlichen Ziele werden in messbaren Kennzahlen dargestellt. Ein Businessplan ist ein wertvolles Dokument in Gesprächen mit Banken, Investoren und Mitarbeitenden.\n\nDie Wahl der geeigneten Rechtsform basiert auf den im Businessplan definierten Entscheidungen und dem daraus resultierenden Kapitalbedarf.\n\nEine fundierte Planung ist die Basis in allen Phasen der Unternehmensführung, auch im Falle einer Nachfolgeregelung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/monere-ch/pool/27206c6d1a__Unternehmensberatung.jpeg"
       },
       {
         "title": "Steuerberatung",
-        "summary": "Damit Ihre Steuererklärung korrekt, reibungslos und termingerecht erledigt wird, tragen wir Sorge. Wir kennen die neueste Gesetzgebung und schöpfen alle Vorteile für Sie aus. Wir beraten Sie individuell, abgestimmt auf Ihre Lebens- und Arbeitssituation. Nehmen Sie es gelassen und",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Damit Ihre Steuererklärung korrekt, reibungslos und termingerecht erledigt wird, tragen wir Sorge. Wir kennen die neueste Gesetzgebung und schöpfen alle Vorteile für Sie aus. Wir beraten Sie individuell, abgestimmt auf Ihre Lebens- und Arbeitssituation. Nehmen Sie es gelassen und sprechen Sie mit uns. Wir kümmern uns darum.\n\nFür Kapitalgesellschaften, wie beispielsweise eine Aktiengesellschaft oder GmbH, werden Steuern für juristische Personen erhoben. Diese basieren auf Gewinn und Kapital.\n\nDie optimale Steuerplanung beinhaltet nicht nur die Gewinnoptimierung, sondern berücksichtigt auch Ihre wirtschaftlichen Ziele.\n\nErstellen der Steuererklärung für natürliche und juristische Personen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -600,9 +600,31 @@
         "image": "/images/monere-ch/pool/e02a70f245__Steuerberater_in.jpeg"
       },
       {
+        "title": "Immobilien",
+        "summary": "Erstes Treuhandunternehmen im neuen Stadtteil Limmatfeld in Dietikon. Wir beraten Sie als Unternehmen oder Privatperson, persönlich und individuell.",
+        "body": "Wir beraten Sie umfassend zu allen Möglichkeiten bei Vermietungen und Verkauf sowie bei sämtlichen finanziellen und steuerlichen Fragen, die sich dabei stellen.\n\nDie Vermietung einer Liegenschaft bietet verschiedene Vorteile. Regelmässige Einkünfte, eine solide Geldanlage oder die Diversifikation Ihres Portfolios können Ihre Entscheidung motivieren. In jedem Fall empfehlen wir eine sorgfältige Kostenkalkulation, damit Ihr Objekt auch nach Rücklagen für Renovationen eine attraktive Rendite einbringt.​\n\nDer Verkauf der eigenen Liegenschaft ist eine wichtige und nicht alltägliche Entscheidung. Der notwendige Aufwand wird meist unterschätzt und oft fehlt dem Eigentümer die emotionale Distanz, um einen marktgerechten Kaufpreis festzulegen. Wir beobachten und kennen die Entwicklungen im Immobilienmarkt. Damit es sich auch für Sie lohnt, ermitteln wir realistische Verkaufspreise.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Ein transparenter und periodengerechter Jahresabschluss ist ein Führungsinstrument, das Ihnen die finanziellen Zusammenhänge zum Geschäftsverlauf im Unternehmen aufzeigt. Mit unserer langjährigen Erfahrung im Finanz- und Rechnungswesen haben wir anspruchsvolle Projekte, wie Einführung neuer Softwarelösungen, Betriebseröffnungen und Reorganisationen erfolgreich abgeschlossen.\n\nOb Sie Ihre Buchungen selbst vornehmen oder die Organisation und Führung der gesamten Buchhaltung uns übertragen, wir gehen auf Ihre Bedürfnisse ein und nehmen Ihre Wünsche ernst. Wir zeigen Ihnen, wie Sie Ihre Abläufe im Rechnungswesen einfach und effizient gestalten können und damit schneller und kostengünstiger arbeiten. Mit einem Minimum an Digitalisierung können wir auch hier die Effizienz noch zusätzlich verbessern.\n\nFühren der Finanz-, Debitoren- und Kreditorenbuchhaltung inkl. Zahlungsverkehr bei uns, in Ihr",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -613,36 +635,13 @@
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Es bedeutet, die Bedürfnisse auf dem Markt und die eigenen Fähigkeiten zu kennen, um sich wettbewerbsfähig und erfolgreich zu positionieren. Einen Businessplan zu erstellen ist elementar und zwingt vor Firmengründung dazu, die Geschäftsidee sowie Ziele zu konkretisieren und Allei",
-        "body": "Es bedeutet, die Bedürfnisse auf dem Markt und die eigenen Fähigkeiten zu kennen, um sich wettbewerbsfähig und erfolgreich zu positionieren. Einen Businessplan zu erstellen ist elementar und zwingt vor Firmengründung dazu, die Geschäftsidee sowie Ziele zu konkretisieren und Alleinstellungsmerkmale hervorzuheben. Damit wird die Strategie zur Umsetzung festgelegt und die wirtschaftlichen Ziele werden in messbaren Kennzahlen dargestellt. Ein Businessplan ist ein wertvolles Dokument in Gesprächen mit Banken, Investoren und Mitarbeitenden.\n\nDie Wahl der geeigneten Rechtsform basiert auf den im Businessplan definierten Entscheidungen und dem daraus resultierenden Kapitalbedarf.\n\nEine fundierte Planung ist die Basis in allen Phasen der Unternehmensführung, auch im Falle einer Nachfolgeregelung. Die Entscheidung, das Unternehmen abzugeben, muss definitiv und der Zeitraum festgelegt sein, um mögl",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/monere-ch/pool/27206c6d1a__Unternehmensberatung.jpeg"
       }
     ]
   },
@@ -653,19 +652,19 @@
   },
   "about": {
     "eyebrow": "Über uns",
-    "heading": "Über uns",
-    "lead": "Die Wahl der geeigneten Rechtsform basiert auf den im Businessplan definierten Entscheidungen und dem daraus resultierenden Kapitalbedarf.",
+    "heading": "Wer wir sind",
+    "lead": "In unserem Unternehmen steht «monere» für unsere Grundsätze. Wir beraten Sie vorausschauend und lassen uns von den ethischen Werten wie Vertraulichkeit, Objektivität, Fairness und fachlicher Kompetenz leiten.",
     "paragraphs": [
-      "Eine fundierte Planung ist die Basis in allen Phasen der Unternehmensführung, auch im Falle einer Nachfolgeregelung. Die Entscheidung, das Unternehmen abzugeben, muss definitiv und der Zeitraum festgelegt sein, um mögliche Nachfolgemodelle und Übertragungsformen konkret und zielführend erarbeiten zu können.",
-      "Wir unterstützen Sie fachkundig, wenn es um Start-up, Neuausrichtung, Nachfolgeregelung oder andere richtungsweisende Entscheidungen geht.",
-      "Begleitung bei der Erstellung von Businessplänen und Erstellen von Investitionsrechnungen, Liquiditätsplanungen und Budgets."
+      "Unsere Kunden vertrauen auf unsere fachkundige und individuelle Beratung. Sie schätzen das persönliche Engagement und die sorgfältige persönliche Bearbeitung ihrer Daten.",
+      "Wir nutzen unsere langjährige Erfahrung und unsere Kompetenzen, um das beste Ergebnis für Sie und Ihr Unternehmen zu erzielen. Dafür vertiefen wir uns mit aufrichtigem Interesse in Ihre Geschäftstätigkeit und verstehen Ihre individuellen Zielsetzungen. Nur so erreichen wir einen objektiven Einblick und wertvolle Erkenntnisse für eine gewinnbringende Zusammenarbeit.",
+      "Wir halten Schritt mit den aktuellen Gesetzesänderungen und bilden uns kontinuierlich weiter. Wir nutzen zeitgemässe und intelligente Software Tools, um unsere Aufgaben effizient und wirtschaftlich zu erledigen."
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Ein transparenter und periodengerechter Jahresabschluss ist ein Führungsinstrument, das Ihnen die finanziellen Zusammenhänge zum Geschäftsverlauf im Unternehmen aufzeigt. Mit unserer langjährigen Erfahrung im Finanz- und Rechnungswesen haben wir anspruchsvolle Projekte, wie Einfü",
+      "heading": "Unternehmensberatung",
+      "body": "Persönliche Beratung für Unternehmen und Privatpersonen in Dietikon. Spezialisiert auf Nachfolgeregelungen und individuelle Lösungen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -678,7 +677,7 @@
     {
       "eyebrow": "Leistung",
       "heading": "Steuerberatung",
-      "body": "Damit Ihre Steuererklärung korrekt, reibungslos und termingerecht erledigt wird, tragen wir Sorge. Wir kennen die neueste Gesetzgebung und schöpfen alle Vorteile für Sie aus. Wir beraten Sie individuell, abgestimmt auf Ihre Lebens- und Arbeitssituation. Nehmen Sie es gelassen und",
+      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -690,8 +689,8 @@
     },
     {
       "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Es bedeutet, die Bedürfnisse auf dem Markt und die eigenen Fähigkeiten zu kennen, um sich wettbewerbsfähig und erfolgreich zu positionieren. Einen Businessplan zu erstellen ist elementar und zwingt vor Firmengründung dazu, die Geschäftsidee sowie Ziele zu konkretisieren und Allei",
+      "heading": "Immobilien",
+      "body": "Erstes Treuhandunternehmen im neuen Stadtteil Limmatfeld in Dietikon. Wir beraten Sie als Unternehmen oder Privatperson, persönlich und individuell.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -749,7 +748,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Wallisellen",
+      "address": "Richtistrasse 7, 8304 Wallisellen",
       "phone": "+41 44 540 00 41",
       "email": "info@monere.ch"
     },
@@ -770,7 +769,7 @@
       {
         "title": "Standort",
         "links": [
-          "Wallisellen",
+          "Richtistrasse 7, 8304 Wallisellen",
           "+41 44 540 00 41",
           "info@monere.ch"
         ]

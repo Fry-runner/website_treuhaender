@@ -321,31 +321,41 @@ Statt der vollen Next-App ist der Durchwinken→Veröffentlichen→E-Mail-Fluss 
 direkt ins bestehende **Vite-Variant-Studio** gebaut (sofort nutzbar, geteilter
 Renderer). Die Next-Migration (§3.7/§8/§10) bleibt der spätere Schritt.
 
-**Bedienung:** Im Studio eine Firma + Variante einstellen (Kaltakquise i.d.R. AN) →
-Knopf **„✅ Durchwinken & Versenden"** → Overlay:
-1. *Plan einfrieren* — zeigt die exakten Variant-Entscheidungen.
-2. *Auf Vercel veröffentlichen* — ein Klick baut + deployt auf das **eine**
-   Vercel-Projekt; der Prototyp ist live unter `/p/<slug>`.
-3. *E-Mail formulieren* — DE-Entwurf (Variante 1) mit Live-Link, Empfänger aus dem
-   Scrape (editierbar); **„Über ETH-Postfach senden"** (direkter SMTP-Versand) plus
-   manuelle Optionen „In Mail-App öffnen" (`mailto:`), „Text kopieren", „.eml".
+**Bedienung:** Im Studio Firma + Variante einstellen (Kaltakquise i.d.R. AN), dann zwei
+getrennte Cockpits (Deploy dauert → nicht aufs Senden warten):
+- **„✅ Durchwinken & Veröffentlichen"** (`ApproveOverlay`) — baut + deployt die
+  **isolierte** Kundenseite und schreibt den Record nach `public/published.json`.
+- **„📤 Versand"** (`SendOverlay`) — Galerie-Cockpit über `published.json`: iframe der
+  Live-URL + DE-E-Mail-Entwurf (Variante 1) + **„Über ETH-Postfach senden"** (SMTP) plus
+  manuelle Optionen (`mailto:` / kopieren / `.eml`); auto-advance nach Versand.
+
+**Isolation (wichtig):** Auf Vercel landet **NUR die jeweilige Kundenseite** — kein
+Studio, keine anderen Firmen, kein Manifest. Erreicht durch einen eigenen Single-Firm-
+Build (`vite.prototype.config.ts`, `publicDir:false`) der nur `prototype.html` +
+EINE eingebettete Firma rendert (Site liegt an `/`, In-Page-Nav ist state-basiert).
+`published.json` bleibt **rein lokal** (Studio-Queue) und wird nie mitdeployt.
 
 **Bausteine:**
 | Datei | Rolle |
 |-------|-------|
-| `design-system/compose/outreach.ts` | Typen (`PublishedRecord`/`Plan`), E-Mail-Builder, `mailto:`/`.eml` |
-| `design-system/compose/ApproveOverlay.tsx` | das 3-Schritte-Overlay |
-| `design-system/playground.tsx` | „Durchwinken"-Knopf + öffentliche Route `/p/<slug>` |
-| `design-system/public/published.json` | Manifest `slug → Record` (eingefrorener Plan); von der Route gelesen |
-| `design-system/scripts/publish.mjs` | Manifest mergen → `vite build` → Vercel-REST-Deploy |
-| `design-system/scripts/send-mail.mjs` | Versand über ETH-Postfach (authentifiziertes SMTP, Nodemailer) |
-| `design-system/vite.config.ts` | Dev-Endpoints `POST /__deploy` + `POST /__send` |
-| `design-system/vercel.json` | SPA-Rewrite `/p/:slug` → `index.html`, `noindex`-Header |
+| `design-system/compose/outreach.ts` | Typen, E-Mail-Builder (personalisiert pro Firma), `mailto:`/`.eml` |
+| `design-system/compose/ApproveOverlay.tsx` | Deploy-Cockpit (Durchwinken & Veröffentlichen) |
+| `design-system/compose/SendOverlay.tsx` | Versand-Cockpit (Queue · iframe · E-Mail · ETH-Send) |
+| `design-system/prototype.html` + `prototype.tsx` | isolierte Single-Firm-Entry (nur EINE Firma an `/`) |
+| `design-system/vite.prototype.config.ts` | Build NUR der Kundenseite (`publicDir:false`) |
+| `design-system/public/published.json` | LOKALE Queue `slug → Record`; **nicht** deployt |
+| `design-system/scripts/publish.mjs` | Payload schreiben → Single-Firm-Build → Vercel-Deploy + Alias |
+| `design-system/scripts/send-mail.mjs` | Versand über ETH-Postfach (SMTP, Nodemailer) |
+| `design-system/vite.config.ts` | Studio-Dev-Server + Dev-Endpoints `POST /__deploy` + `POST /__send` |
 
-**Deploy (ein Projekt, REST-API, kein CLI nötig):** `scripts/publish.mjs` lädt
-`dist/` mit Datei-Digests hoch (lädt nur fehlende Blobs) und erstellt ein
-Production-Deployment auf dem festen Projekt → stabile URL
-`https://<projekt>.vercel.app/p/<slug>`.
+**Deploy (ein Projekt, isoliert pro Kunde, REST-API):** `scripts/publish.mjs` baut die
+Single-Firm-`dist/`, lädt sie mit Datei-Digests hoch (nur fehlende Blobs) und erstellt
+ein **eigenständiges Deployment pro Firma** unter dem einen Projekt `treuhand-prototypes`.
+Danach: Projekt **öffentlich** schalten (`PATCH /v9/projects`, sonst 401-Login-Wall) und
+einen **stabilen Alias** `treuhand-<slug>.vercel.app` auf das Deployment setzen
+(`POST /v2/deployments/{id}/aliases`; Fallback = unveränderliche Deploy-URL). Die Firma
+behält so über Re-Deploys EINE saubere Root-URL. SPA-Routing wird inline als `routes` im
+Deploy-Body mitgegeben (REST-API wendet `vercel.json`-`rewrites` nicht an).
 
 **Env / Secrets** (in env ODER `design-system/.env`, gitignored — Vorlage:
 `.env.example`. Alles optional: ohne Vercel-Token → Build + manuelle Deploy-Anleitung;

@@ -159,7 +159,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
@@ -224,7 +223,9 @@
       "Lohnadministration": "/images/steuervogt-ch/pool/stock-laptop-7948060.jpg",
       "Jahresabschluss": "/images/steuervogt-ch/pool/stock-office-5483051.jpg",
       "Mehrwertsteuer": "/images/steuervogt-ch/pool/stock-desk-5668471.jpg",
-      "Revision": "/images/steuervogt-ch/pool/stock-meeting-7433840.jpg"
+      "Revision": "/images/steuervogt-ch/pool/stock-meeting-7433840.jpg",
+      "Immobilien": "/images/steuervogt-ch/pool/stock-finance-590045.jpg",
+      "Nachlass & Erbrecht": "/images/steuervogt-ch/pool/stock-desk-8580716.jpg"
     },
     "documents": [],
     "assets": [
@@ -262,7 +263,7 @@
         "orientation": "portrait",
         "subject": "portrait",
         "phash": "31226e6c98940d3",
-        "quality": 0.63,
+        "quality": 0.65,
         "faces": 1,
         "roles": [
           "feature"
@@ -280,7 +281,7 @@
         "stock": true,
         "credit": "Ananda (Pexels)",
         "source": "https://www.pexels.com/photo/cozy-scandinavian-winter-bedroom-interior-34978180/",
-        "quality": 0.83,
+        "quality": 0.79,
         "faces": 0,
         "roles": [
           "gallery",
@@ -322,12 +323,13 @@
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
         "source": "https://www.pexels.com/photo/person-using-black-laptop-computer-7948060/",
-        "quality": 0.49,
+        "quality": 0.53,
         "faces": 0,
         "roles": [
           "gallery",
           "background",
-          "service"
+          "service",
+          "feature"
         ]
       },
       {
@@ -342,7 +344,7 @@
         "stock": true,
         "credit": "cottonbro studio (Pexels)",
         "source": "https://www.pexels.com/photo/black-rolling-chairs-beside-desk-5483051/",
-        "quality": 0.46,
+        "quality": 0.49,
         "faces": 0,
         "roles": [
           "gallery",
@@ -362,7 +364,7 @@
         "stock": true,
         "credit": "Sora Shimazaki (Pexels)",
         "source": "https://www.pexels.com/photo/workplace-with-laptop-and-notepad-placed-near-coffee-cup-5668471/",
-        "quality": 0.75,
+        "quality": 0.73,
         "faces": 0,
         "roles": [
           "gallery",
@@ -383,8 +385,47 @@
         "stock": true,
         "credit": "Vlada Karpovich (Pexels)",
         "source": "https://www.pexels.com/photo/a-group-of-people-discussing-in-a-room-7433840/",
-        "quality": 0.8,
+        "quality": 0.78,
         "faces": 5,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-finance-590045.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 43402,
+        "width": 1280,
+        "height": 848,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/graph-and-line-chart-printed-paper-590045/",
+        "quality": 0.34,
+        "faces": 0,
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/steuervogt-ch/pool/stock-desk-8580716.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 82926,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/black-pen-on-white-pad-paper-8580716/",
+        "quality": 0.75,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -404,7 +445,8 @@
       "cottonbro studio (Pexels)",
       "RDNE Stock project (Pexels)",
       "Sora Shimazaki (Pexels)",
-      "Vlada Karpovich (Pexels)"
+      "Vlada Karpovich (Pexels)",
+      "Lukas Blazek (Pexels)"
     ]
   },
   "nav": {
@@ -443,20 +485,8 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Das Rechnungswesen oder auch die Buchführung/Buchhaltung ist so individuell wie ihre Firma, was eine individuelle Lösung für KMU- und Einzelunternehmen umso wichtiger macht.",
-        "body": "Das Rechnungswesen oder auch die Buchführung/Buchhaltung ist so individuell wie ihre Firma, was eine individuelle Lösung für KMU- und Einzelunternehmen umso wichtiger macht.\n\nMit der Unterstützung durch die SteuerVogt GmbH können Sie wertvolle Zeit und Energie sparen, welche Sie in Ihr Unternehmen investieren können und Sie erhalten zudem die kompetente Betreuung die Sie benötigen und verdient haben.\n\nDas Rechnungswesen umfasst heute weit mehr als nur die simple Darstellung von Zahlen. Es ist eine Verkettung aus Rechnungslegungsrecht und individuellen Ansätzen, welche Ihren Unternehmenserfolg beeinflusst und misst.\n\nAls vertrauensvoller und kompetenter Partner zeigt Ihnen die SteuerVogt GmbH aufgrund des Rechnungswesens gerne Ihr Verbesserungspotential auf und hilft Ihnen bei der Umsetzung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/steuervogt-ch/pool/stock-office-34978180.jpg"
-      },
-      {
         "title": "Steuerberatung",
-        "summary": "Personenbezogene Daten (nachfolgend zumeist nur „Daten“ genannt) werden von uns nur im Rahmen der Erforderlichkeit sowie zum Zwecke der Bereitstellung eines funktionsfähigen und nutzerfreundlichen Internetauftritts, inklusive seiner Inhalte und der dort angebotenen Leistungen, ve",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Personenbezogene Daten (nachfolgend zumeist nur „Daten“ genannt) werden von uns nur im Rahmen der Erforderlichkeit sowie zum Zwecke der Bereitstellung eines funktionsfähigen und nutzerfreundlichen Internetauftritts, inklusive seiner Inhalte und der dort angebotenen Leistungen, verarbeitet.\n\nauf Bestätigung, ob sie betreffende Daten verarbeitet werden, auf Auskunft über die verarbeiteten Daten, auf weitere Informationen über die Datenverarbeitung sowie auf Kopien der Daten (vgl. auch Art. 15 DSGVO);\n\nauf Berichtigung oder Vervollständigung unrichtiger bzw. unvollständiger Daten (vgl. auch Art. 16 DSGVO);\n\nauf unverzügliche Löschung der sie betreffenden Daten (vgl. auch Art. 17 DSGVO), oder, alternativ, soweit eine weitere Verarbeitung gemäss Art. 17 Abs. 3 DSGVO erforderlich ist, auf Einschränkung der Verarbeitung nach Massgabe von Art. 18 DSGVO;",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -467,9 +497,21 @@
         "image": "/images/steuervogt-ch/pool/stock-office-8453801.jpg"
       },
       {
+        "title": "Unternehmensberatung",
+        "summary": "Unterstützung und Beratung in Hinblick auf die Firmengründung sowie Unterstützung bei der Ausarbeitung der relevanten Dokumente.",
+        "body": "Sie möchten sich selbständig machen? Dabei stellt sich Ihnen jedoch die Frage, ob Sie lieber eine Personengesellschaft bilden oder eine Firma gründen wollen. Dies wiederum führt Sie zu der Frage, ob eine Gesellschaft mit beschränkter Haftung (GmbH) oder eine Aktiengesellschaft (AG) für Sie mehr Vorteile ergibt, oder ob eine Einzelunternehmung/Einzelfirma oder Kollektivgesellschaft doch geeigneter für Ihr Business wäre. Alles in Allem kann eine Firmengründung durchaus überwältigend sein und es kommen in diesem Prozess viele Fragen auf:\n\nDiese Aufzählung deckt nur eine kleine Auswahl von Fragen ab, mit denen sich die meisten Neu-Unternehmer und Startups im Zusammenhang mit der Firmengründung konfrontiert sehen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/steuervogt-ch/pool/c2d2d0944f__treuhand-beratung-steuervogt.jpg"
+      },
+      {
         "title": "Lohnadministration",
-        "summary": "Die Lohn- und Personaladministration ist ein umfangreiches und komplexes Thema. Dieses beginnt bei der Ausarbeitung des Arbeitsvertrages, über die Anmeldungen bei den verschiedenen Sozialversicherungen, die Lohnabrechnungen bis hin zum Lohnausweis am Jahresende oder bei Beendigun",
-        "body": "Die Lohn- und Personaladministration ist ein umfangreiches und komplexes Thema. Dieses beginnt bei der Ausarbeitung des Arbeitsvertrages, über die Anmeldungen bei den verschiedenen Sozialversicherungen, die Lohnabrechnungen bis hin zum Lohnausweis am Jahresende oder bei Beendigung des Arbeitsverhältnisses.\n\nEin wesentlicher Teil der Lohn- und Personaladministration bilden die Sozialversicherungen wie die AHV, Unfallversicherung, Krankentaggeldversicherung und Pensionskasse. Insbesondere selbständig Erwerbende wissen oftmals nicht, welchen Sozialversicherungen sie sich anschliessen müssen oder können.\n\nDas Thema Sozialversicherungen kann sogar – insbesondere bei selbständig Erwerbenden – ein grosser Bestandteil der Vorsorgeplanung ausmachen. Somit ist die Lohn- und Personaladministration ein wichtiger Bestandteil Ihres Unternehmens.\n\nMöchten Sie die Lohnbuchhaltung Ihres Unternehmens ausl",
+        "summary": "Beratung im Bereich der Lohnbuchhaltung, Personaladministration und sämtlichen sozialversicherungsrechtlichen Themen.",
+        "body": "Die Lohn- und Personaladministration ist ein umfangreiches und komplexes Thema. Dieses beginnt bei der Ausarbeitung des Arbeitsvertrages, über die Anmeldungen bei den verschiedenen Sozialversicherungen, die Lohnabrechnungen bis hin zum Lohnausweis am Jahresende oder bei Beendigung des Arbeitsverhältnisses.\n\nEin wesentlicher Teil der Lohn- und Personaladministration bilden die Sozialversicherungen wie die AHV, Unfallversicherung, Krankentaggeldversicherung und Pensionskasse. Insbesondere selbständig Erwerbende wissen oftmals nicht, welchen Sozialversicherungen sie sich anschliessen müssen oder können.\n\nDas Thema Sozialversicherungen kann sogar – insbesondere bei selbständig Erwerbenden – ein grosser Bestandteil der Vorsorgeplanung ausmachen. Somit ist die Lohn- und Personaladministration ein wichtiger Bestandteil Ihres Unternehmens.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -479,9 +521,21 @@
         "image": "/images/steuervogt-ch/pool/stock-laptop-7948060.jpg"
       },
       {
+        "title": "Buchhaltung",
+        "summary": "Wir decken alle Bereiche Ihres Rechnungswesen professionell ab: Finanzbuchhaltung, Jahresabschluss, Mehrwertsteuer sowie sämtliche Personal- & Lohnadministrations-Themen.",
+        "body": "Das Rechnungswesen oder auch die Buchführung/Buchhaltung ist so individuell wie ihre Firma, was eine individuelle Lösung für KMU- und Einzelunternehmen umso wichtiger macht.\n\nMit der Unterstützung durch die SteuerVogt GmbH können Sie wertvolle Zeit und Energie sparen, welche Sie in Ihr Unternehmen investieren können und Sie erhalten zudem die kompetente Betreuung die Sie benötigen und verdient haben.\n\nDas Rechnungswesen umfasst heute weit mehr als nur die simple Darstellung von Zahlen. Es ist eine Verkettung aus Rechnungslegungsrecht und individuellen Ansätzen, welche Ihren Unternehmenserfolg beeinflusst und misst.\n\nAls vertrauensvoller und kompetenter Partner zeigt Ihnen die SteuerVogt GmbH aufgrund des Rechnungswesens gerne Ihr Verbesserungspotential auf und hilft Ihnen bei der Umsetzung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/steuervogt-ch/pool/stock-office-34978180.jpg"
+      },
+      {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -493,7 +547,7 @@
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -501,18 +555,6 @@
           "Transparente Pauschale ohne versteckte Kosten"
         ],
         "image": "/images/steuervogt-ch/pool/stock-desk-5668471.jpg"
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Sie möchten sich selbständig machen? Dabei stellt sich Ihnen jedoch die Frage, ob Sie lieber eine Personengesellschaft bilden oder eine Firma gründen wollen. Dies wiederum führt Sie zu der Frage, ob eine Gesellschaft mit beschränkter Haftung (GmbH) oder eine Aktiengesellschaft (A",
-        "body": "Sie möchten sich selbständig machen? Dabei stellt sich Ihnen jedoch die Frage, ob Sie lieber eine Personengesellschaft bilden oder eine Firma gründen wollen. Dies wiederum führt Sie zu der Frage, ob eine Gesellschaft mit beschränkter Haftung (GmbH) oder eine Aktiengesellschaft (AG) für Sie mehr Vorteile ergibt, oder ob eine Einzelunternehmung/Einzelfirma oder Kollektivgesellschaft doch geeigneter für Ihr Business wäre . Alles in Allem kann eine Firmengründung durchaus überwältigend sein und es kommen in diesem Prozess viele Fragen auf:\n\nDiese Aufzählung deckt nur eine kleine Auswahl von Fragen ab, mit denen sich die meisten Neu-Unternehmer und Startups im Zusammenhang mit der Firmengründung konfrontiert sehen.\n\nDie SteuerVogt GmbH berät Sie bei der Unternehmensgründung und Ihren damit verbundenen treuhänderischen Fragen kompetent, unterstützt Sie bei der Findung der für Sie passenden Rec",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/steuervogt-ch/pool/c2d2d0944f__treuhand-beratung-steuervogt.jpg"
       }
     ]
   },
@@ -616,7 +658,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Erismannstrasse 52, 8004 Zürich",
       "phone": "+41 79 785 84 51",
       "email": "laura.vogt@steuervogt.ch"
     },
@@ -638,7 +680,7 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Erismannstrasse 52, 8004 Zürich",
           "+41 79 785 84 51",
           "laura.vogt@steuervogt.ch"
         ]

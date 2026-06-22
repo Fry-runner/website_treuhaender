@@ -173,7 +173,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -599,19 +598,8 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Wir beraten und unterstützen Start-ups, Einzelfirmen und KMU-Betriebe, Vereine wie auch Privatpersonen. Von der Firmengründung über das gesamte Rechnungswesen bis zur Pensionsplanung. Wir schaffen Ordnung, damit Sie sich auf Ihre Arbeit konzentrieren können.",
-        "body": "Wir beraten und unterstützen Start-ups, Einzelfirmen und KMU-Betriebe, Vereine wie auch Privatpersonen. Von der Firmengründung über das gesamte Rechnungswesen bis zur Pensionsplanung. Wir schaffen Ordnung, damit Sie sich auf Ihre Arbeit konzentrieren können.\n\nDie Buchhaltung ist ein wesentliches Instrument, um in Ihrem Unternehmen die Kontrolle und Übersicht über die finanzielle Lage zu behalten. Sie entscheiden selbst, ob wir die gesamte Buchhaltung für Sie übernehmen, oder ob Sie nur einzelne Teilgebiete auslagern wollen.\n\nEigenheim, Selbstständigkeit, Erbschaften, Schenkungen oder Quellensteuer – Steuerfragen können vielfältig und komplex sein. Wir beraten Sie bei allen Fragen und finden Optimierungen. Ihre Steuererklärungen übernehmen wir gerne für Sie, oder unterstützen Sie dabei, diese selbst auszufüllen.\n\nEine einfache, einheitliche und effiziente Personaladministration ist die Ba",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
         "title": "Steuerberatung",
-        "summary": "Steuererklärung Winterthur – welche Tipps und Tricks gibt es? Als Treuhandbüro in Winterthur beschäftigen wir uns seit Jahren mit dem Thema Steuererklärung. Wir haben für Sie einige Tipps zusammengestellt: 1. Vorausplanung: Stellen Sie sicher, dass Sie genügend...",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Steuererklärung Winterthur – welche Tipps und Tricks gibt es? Als Treuhandbüro in Winterthur beschäftigen wir uns seit Jahren mit dem Thema Steuererklärung. Wir haben für Sie einige Tipps zusammengestellt: 1. Vorausplanung: Stellen Sie sicher, dass Sie genügend...\n\nSteuerklärung selber ausfüllen oder einen Treuhänder engagieren? In der Regel kann man die Steuererklärung selbst ausfüllen. Ein Treuhänder kann jedoch hilfreich sein, wenn man sich mit steuerlichen Fragen nicht auskennt oder komplexe finanzielle Verhältnisse hat. Ein...\n\nSteuererklärung 2022 im Kanton Zürich – worauf muss ich achten? 1. Frist zur Einreichung: Stellen Sie sicher, dass Sie die Steuererklärung innerhalb der geltenden Frist einreichen. Die Frist ist auf der Steuererklärung vermerkt. 2. Korrekte Angaben: Überprüfen...",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -621,31 +609,9 @@
         ]
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Buchhaltung",
+        "summary": "Wir sind das Treuhandbüro in Winterthur für jedes Budget. Wir beraten Sie zu allen Fragen rund um Buchhaltung, Steuern oder Versicherungen.",
+        "body": "Wir beraten und unterstützen Start-ups, Einzelfirmen und KMU-Betriebe, Vereine wie auch Privatpersonen. Von der Firmengründung über das gesamte Rechnungswesen bis zur Pensionsplanung. Wir schaffen Ordnung, damit Sie sich auf Ihre Arbeit konzentrieren können.\n\nDie Buchhaltung ist ein wesentliches Instrument, um in Ihrem Unternehmen die Kontrolle und Übersicht über die finanzielle Lage zu behalten. Sie entscheiden selbst, ob wir die gesamte Buchhaltung für Sie übernehmen, oder ob Sie nur einzelne Teilgebiete auslagern wollen.\n\nEigenheim, Selbstständigkeit, Erbschaften, Schenkungen oder Quellensteuer – Steuerfragen können vielfältig und komplex sein. Wir beraten Sie bei allen Fragen und finden Optimierungen. Ihre Steuererklärungen übernehmen wir gerne für Sie, oder unterstützen Sie dabei, diese selbst auszufüllen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -656,7 +622,40 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -674,8 +673,8 @@
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Wir beraten und unterstützen Start-ups, Einzelfirmen und KMU-Betriebe, Vereine wie auch Privatpersonen. Von der Firmengründung über das gesamte Rechnungswesen bis zur Pensionsplanung. Wir schaffen Ordnung, damit Sie sich auf Ihre Arbeit konzentrieren können.",
+      "heading": "Steuerberatung",
+      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -687,8 +686,8 @@
     },
     {
       "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärung Winterthur – welche Tipps und Tricks gibt es? Als Treuhandbüro in Winterthur beschäftigen wir uns seit Jahren mit dem Thema Steuererklärung. Wir haben für Sie einige Tipps zusammengestellt: 1. Vorausplanung: Stellen Sie sicher, dass Sie genügend...",
+      "heading": "Buchhaltung",
+      "body": "Wir sind das Treuhandbüro in Winterthur für jedes Budget. Wir beraten Sie zu allen Fragen rund um Buchhaltung, Steuern oder Versicherungen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -745,7 +744,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Rafz",
+      "address": "Bahnhofstrasse 88, 8197 Rafz",
       "phone": "+41\n52 551 50 00",
       "email": "info@treuhandmitherz.ch"
     },
@@ -766,7 +765,7 @@
       {
         "title": "Standort",
         "links": [
-          "Rafz",
+          "Bahnhofstrasse 88, 8197 Rafz",
           "+41\n52 551 50 00",
           "info@treuhandmitherz.ch"
         ]

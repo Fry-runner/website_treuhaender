@@ -3,29 +3,31 @@
     "firm": "Accuratus Treuhand",
     "domain": "accuratus-treuhand.ch",
     "archetype": "boutique",
-    "lookId": "uds-warm-editorial",
+    "lookId": "quabba-editorial",
     "sourceUrl": "https://accuratus-treuhand.ch/",
-    "basePresetId": "uds-warm-editorial",
+    "basePresetId": "quabba-editorial",
     "look": {
       "meta": {
         "id": "accuratus-treuhand-ch-brand",
-        "name": "Unter dem Strich Warm Editorial · brand-generated",
-        "mood": "Boutique editorial on warm paper; sharp corners, hairline borders, ink-blue + rose accents, snappy underline link motion.",
-        "source": "Unter-Dem-Strich + generated accent",
+        "name": "Quabba Editorial Red · logo-tinted",
+        "mood": "Editorial graphite-on-white with a restrained Swiss-red accent; all-Inter with mono micro-labels, hairline borders, scroll-triggered color-shift reveals and a hand-drawn signature line.",
+        "source": "Quabba-Treuhand + logo colour",
         "derived": [
-          "color.surface (#FFFFFF cards on paper)",
+          "color.surface (#F7F8F8 tint of gray-light)",
           "color.primaryFg (#FFFFFF)",
-          "color.primarySoft (#EAECF6 tint)",
-          "base: uds-warm-editorial",
-          "accent #916430 (generated · no scraped colour)",
-          "heading: Outfit (inventory)",
-          "body: Figtree (inventory)",
+          "color.primarySoft (#FCEBEC tint)",
+          "color.secondaryFg (#22272B)",
+          "font.mono (Tailwind default mono stack)",
+          "base: quabba-editorial",
+          "accent #0A259A (logo)",
+          "heading: Space Grotesk (inventory)",
+          "body: Inter (inventory)",
           "mono: JetBrains Mono (inventory)"
         ]
       },
       "tags": {
         "tone": "formal",
-        "warmth": "warm",
+        "warmth": "neutral",
         "corner": "sharp",
         "density": "airy",
         "contrast": "high",
@@ -33,32 +35,32 @@
         "accentEnergy": "medium"
       },
       "color": {
-        "bg": "#FAF9F6",
-        "surface": "#FFFFFF",
-        "text": "#1C1C1A",
-        "textMuted": "#8A8782",
-        "border": "#E7E4DD",
-        "primary": "#916430",
+        "bg": "#FFFFFF",
+        "surface": "#F7F8F8",
+        "text": "#22272B",
+        "textMuted": "#7C868C",
+        "border": "#E9ECEC",
+        "primary": "#0A259A",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#F2EDE6",
-        "secondary": "#3264AE",
+        "primarySoft": "#EBEEF7",
+        "secondary": "#0A259A",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Figtree\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Outfit\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "body": "\"Inter\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Space Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
         "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
-        "headingRole": "display-geometric"
+        "headingRole": "display-grotesk"
       },
       "type": {
         "displayMax": "7xl",
-        "headlineWeight": "semibold",
+        "headlineWeight": "bold",
         "bodyWeight": "normal",
         "headlineTracking": "tight",
         "eyebrow": {
           "uppercase": true,
           "tracking": "widest",
-          "weight": "medium"
+          "weight": "bold"
         }
       },
       "radius": {
@@ -68,33 +70,33 @@
       },
       "shadow": {
         "elevation": "flat",
-        "card": "sm"
+        "card": "none"
       },
       "spacing": {
         "sectionY": "py-24",
         "rhythm": "airy",
-        "containerMax": "1200px",
+        "containerMax": "1280px",
         "gutter": "1.5rem"
       },
       "motion": {
-        "durationMs": 200,
-        "easing": "ease-out",
-        "intensity": "subtle"
+        "durationMs": 600,
+        "easing": "cubic-bezier(0.22,1,0.36,1)",
+        "intensity": "expressive"
       },
       "background": {
-        "treatment": "warm-paper",
-        "blur": true
+        "treatment": "flat-white",
+        "blur": true,
+        "bloom": "rgba(10,37,154,0.18)"
       },
       "raw": {
-        "--color-brand-bg": "#FAF9F6",
-        "--color-brand-text": "#1C1C1A",
-        "--color-brand-blue": "#2C3E91",
-        "--color-brand-rose": "#E3A39B",
-        "--color-brand-border": "#E7E4DD",
-        "--color-brand-muted": "#8A8782",
+        "--color-brand-violet": "#D91A21",
+        "--color-brand-coral": "#E39699",
+        "--color-brand-graphite": "#22272B",
+        "--color-brand-gray-light": "#E9ECEC",
+        "--color-brand-gray-medium": "#7C868C",
         "--font-sans": "Inter",
-        "--font-display": "Plus Jakarta Sans",
-        "--font-mono": "JetBrains Mono"
+        "--font-display": "Inter",
+        "--font-heading": "Inter"
       }
     },
     "brand": {
@@ -155,7 +157,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
@@ -184,7 +185,7 @@
       "faq",
       "process (generic)",
       "audience (generic)",
-      "look.colors (generated)",
+      "about (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -196,14 +197,14 @@
       "hero.lede",
       "services.text",
       "values",
-      "about",
       "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
       "media.logo",
       "trust.badges",
-      "services.images"
+      "services.images",
+      "logo.colors"
     ]
   },
   "media": {
@@ -226,7 +227,9 @@
       "Jahresabschluss": "/images/accuratus-treuhand-ch/pool/stock-desk-8872717.jpg",
       "Mehrwertsteuer": "/images/accuratus-treuhand-ch/pool/stock-office-36175676.jpg",
       "Unternehmensberatung": "/images/accuratus-treuhand-ch/pool/stock-finance-590011.jpg",
-      "Revision": "/images/accuratus-treuhand-ch/pool/stock-laptop-3760368.jpg"
+      "Revision": "/images/accuratus-treuhand-ch/pool/stock-laptop-3760368.jpg",
+      "Immobilien": "/images/accuratus-treuhand-ch/pool/stock-office-8092458.jpg",
+      "Nachlass & Erbrecht": "/images/accuratus-treuhand-ch/pool/stock-desk-8296974.jpg"
     },
     "documents": [],
     "assets": [
@@ -336,7 +339,7 @@
         "orientation": "landscape",
         "subject": "portrait",
         "phash": "5959b5b5b4b46464",
-        "quality": 0.43,
+        "quality": 0.45,
         "faces": 1,
         "roles": []
       },
@@ -350,7 +353,7 @@
         "orientation": "landscape",
         "subject": "portrait",
         "phash": "29595959b1b43070",
-        "quality": 0.6,
+        "quality": 0.61,
         "faces": 1,
         "roles": []
       },
@@ -364,7 +367,7 @@
         "orientation": "landscape",
         "subject": "portrait",
         "phash": "1a59595b99b4b4b4",
-        "quality": 0.52,
+        "quality": 0.53,
         "faces": 1,
         "roles": []
       },
@@ -416,7 +419,7 @@
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
         "source": "https://www.pexels.com/photo/black-pen-on-white-pad-paper-8580716/",
-        "quality": 0.63,
+        "quality": 0.65,
         "faces": 0,
         "roles": [
           "gallery",
@@ -437,7 +440,7 @@
         "stock": true,
         "credit": "Sora Shimazaki (Pexels)",
         "source": "https://www.pexels.com/photo/workplace-with-laptop-and-notepad-placed-near-coffee-cup-5668471/",
-        "quality": 0.58,
+        "quality": 0.6,
         "faces": 0,
         "roles": [
           "gallery",
@@ -458,7 +461,7 @@
         "stock": true,
         "credit": "Samkit desai (Pexels)",
         "source": "https://www.pexels.com/photo/elegant-modern-office-interior-with-art-36175674/",
-        "quality": 0.56,
+        "quality": 0.57,
         "faces": 0,
         "roles": [
           "gallery",
@@ -479,7 +482,7 @@
         "stock": true,
         "credit": "MART  PRODUCTION (Pexels)",
         "source": "https://www.pexels.com/photo/high-angle-shot-of-a-typewriter-and-money-on-the-table-8872717/",
-        "quality": 0.63,
+        "quality": 0.64,
         "faces": 0,
         "roles": [
           "gallery",
@@ -500,7 +503,7 @@
         "stock": true,
         "credit": "Samkit desai (Pexels)",
         "source": "https://www.pexels.com/photo/modern-minimalist-office-interior-with-desk-36175676/",
-        "quality": 0.64,
+        "quality": 0.65,
         "faces": 0,
         "roles": [
           "gallery",
@@ -550,6 +553,47 @@
           "service",
           "feature"
         ]
+      },
+      {
+        "src": "/images/accuratus-treuhand-ch/pool/stock-office-8092458.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 47937,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "www.kaboompics.com (Pexels)",
+        "source": "https://www.pexels.com/photo/laptop-and-notebook-on-brown-wooden-table-8092458/",
+        "quality": 0.41,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service"
+        ]
+      },
+      {
+        "src": "/images/accuratus-treuhand-ch/pool/stock-desk-8296974.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 125342,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Mikhail Nilov (Pexels)",
+        "source": "https://www.pexels.com/photo/a-woman-computing-with-a-calculator-8296974/",
+        "quality": 0.71,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
       }
     ],
     "sectionBackgrounds": [
@@ -564,7 +608,9 @@
       "Sora Shimazaki (Pexels)",
       "Samkit desai (Pexels)",
       "MART  PRODUCTION (Pexels)",
-      "Andrea Piacquadio (Pexels)"
+      "Andrea Piacquadio (Pexels)",
+      "www.kaboompics.com (Pexels)",
+      "Mikhail Nilov (Pexels)"
     ]
   },
   "nav": {
@@ -603,21 +649,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Ganz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.",
-        "body": "Ganz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.\n\nOft ist im Finanz- und Rechnungswesen die Angst gross, Fehler zu machen. Vor allem, wenn Angestellte betroffen sind – z.B. bei Lohnabrechnungen oder bei den Sozialversicherungen.  Accuratus-Treuhand kümmert sich mit professionellem Finanz- und Rechnungswesen schnell um Ihre Bedenken.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWer eine Firma neu gründet, geht in der Regel ein unternehmerisches Risiko ein. Mit der Unterstützung von Accuratus-Treuhand minimieren Sie dieses: Wir beraten Sie in allen Belange",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/accuratus-treuhand-ch/pool/stock-desk-8580716.jpg"
-      },
-      {
         "title": "Steuerberatung",
-        "summary": "für mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.",
-        "body": "für mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWir sind für Sie da. Jetzt und auch als langfristiger Beratungspartner.\n\nSehen Sie der nächsten Steuerrechnung mit gemischten Gefühlen entgegen? Schieben Sie die Steuererklärung so lange vor sich her, bis es fast zu spät ist? Möchten Sie Ihre Steuererklärung korrekt ausgefüllt wissen? Können Sie eine, zwei oder drei dieser Fragen mit «JA» beantworten, dann sind Sie bei uns richtig.",
+        "summary": "Die Dienstleistungen des Treuhandbüros Accuratus Treuhand in Zürich umfassen Finanzwesen und Rechnungswesen, Buchhaltung, Lohnbuchhaltung, Mehrwertsteuer, Steuerberatung, Wirtschaftsprüfung/Revision.",
+        "body": "für mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWir sind für Sie da. Jetzt und auch als langfristiger Beratungspartner.\n\nSehen Sie der nächsten Steuerrechnung mit gemischten Gefühlen entgegen? Schieben Sie die Steuererklärung so lange vor sich her, bis es fast zu spät ist? Möchten Sie Ihre Steuererklärung korrekt ausgefüllt wissen? Können Sie eine, zwei oder drei dieser Fragen mit «JA» beantworten, dann sind Sie bei uns richtig.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -627,21 +661,45 @@
         "image": "/images/accuratus-treuhand-ch/pool/stock-desk-5668471.jpg"
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Ganz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.\n\nOft ist im Finanz- und Rechnungswesen die Angst gross, Fehler zu machen. Vor allem, wenn Angestellte betroffen sind – z.B. bei Lohnabrechnungen oder bei den Sozialversicherungen.  Accuratus-Treuhand kümmert sich mit professionellem Finanz- und Rechnungswesen schnell um Ihre Bedenken.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWer eine Firma neu gründet, geht in der Regel ein unternehmerisches Risiko ein. Mit der Unterstützung von Accuratus-Treuhand minimieren Sie dieses: Wir beraten Sie in allen Belange",
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Ganz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.\n\nOft ist im Finanz- und Rechnungswesen die Angst gross, Fehler zu machen. Vor allem, wenn Angestellte betroffen sind – z.B. bei Lohnabrechnungen oder bei den Sozialversicherungen. Accuratus-Treuhand kümmert sich mit professionellem Finanz- und Rechnungswesen schnell um Ihre Bedenken.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWer eine Firma neu gründet, geht in der Regel ein unternehmerisches Risiko ein.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/accuratus-treuhand-ch/pool/stock-office-36175674.jpg"
+        "image": "/images/accuratus-treuhand-ch/pool/stock-desk-8580716.jpg"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "für mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWir sind für Sie da. Jetzt und auch als langfristiger Beratungspartner.\n\nSehen Sie der nächsten Steuerrechnung mit gemischten Gefühlen entgegen? Schieben Sie die Steuererklärung so lange vor sich her, bis es fast zu spät ist? Möchten Sie Ihre Steuererklärung korrekt ausgefüllt wissen? Können Sie eine, zwei oder drei dieser Fragen mit «JA» beantworten, dann sind Sie bei uns richtig.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/accuratus-treuhand-ch/pool/stock-finance-590011.jpg"
+      },
+      {
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "für mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWir sind für Sie da. Jetzt und auch als langfristiger Beratungspartner.\n\nSehen Sie der nächsten Steuerrechnung mit gemischten Gefühlen entgegen? Schieben Sie die Steuererklärung so lange vor sich her, bis es fast zu spät ist? Möchten Sie Ihre Steuererklärung korrekt ausgefüllt wissen? Können Sie eine, zwei oder drei dieser Fragen mit «JA» beantworten, dann sind Sie bei uns richtig.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/accuratus-treuhand-ch/pool/stock-laptop-3760368.jpg"
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Ganz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.\n\nOft ist im Finanz- und Rechnungswesen die Angst gross, Fehler zu machen. Vor allem, wenn Angestellte betroffen sind – z.B. bei Lohnabrechnungen oder bei den Sozialversicherungen.  Accuratus-Treuhand kümmert sich mit professionellem Finanz- und Rechnungswesen schnell um Ihre Bedenken.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWer eine Firma neu gründet, geht in der Regel ein unternehmerisches Risiko ein. Mit der Unterstützung von Accuratus-Treuhand minimieren Sie dieses: Wir beraten Sie in allen Belange",
+        "body": "Ganz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.\n\nOft ist im Finanz- und Rechnungswesen die Angst gross, Fehler zu machen. Vor allem, wenn Angestellte betroffen sind – z.B. bei Lohnabrechnungen oder bei den Sozialversicherungen. Accuratus-Treuhand kümmert sich mit professionellem Finanz- und Rechnungswesen schnell um Ihre Bedenken.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWer eine Firma neu gründet, geht in der Regel ein unternehmerisches Risiko ein.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -651,28 +709,16 @@
         "image": "/images/accuratus-treuhand-ch/pool/stock-desk-8872717.jpg"
       },
       {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Ganz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.\n\nOft ist im Finanz- und Rechnungswesen die Angst gross, Fehler zu machen. Vor allem, wenn Angestellte betroffen sind – z.B. bei Lohnabrechnungen oder bei den Sozialversicherungen. Accuratus-Treuhand kümmert sich mit professionellem Finanz- und Rechnungswesen schnell um Ihre Bedenken.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWer eine Firma neu gründet, geht in der Regel ein unternehmerisches Risiko ein.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/accuratus-treuhand-ch/pool/stock-office-36175676.jpg"
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "für mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWir sind für Sie da. Jetzt und auch als langfristiger Beratungspartner.\n\nSehen Sie der nächsten Steuerrechnung mit gemischten Gefühlen entgegen? Schieben Sie die Steuererklärung so lange vor sich her, bis es fast zu spät ist? Möchten Sie Ihre Steuererklärung korrekt ausgefüllt wissen? Können Sie eine, zwei oder drei dieser Fragen mit «JA» beantworten, dann sind Sie bei uns richtig.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/accuratus-treuhand-ch/pool/stock-finance-590011.jpg"
+        "image": "/images/accuratus-treuhand-ch/pool/stock-office-36175674.jpg"
       }
     ]
   },
@@ -680,6 +726,10 @@
     "eyebrow": "Warum wir",
     "heading": "Ihr Vorteil.",
     "items": [
+      {
+        "title": "Live Support",
+        "body": "Seit 2001 Ihr Partner für Finanz- und Rechnungswesen, Steuerberatung, Abaweb- und Abaninja-Treuhänder, Bexio-Treuhänder."
+      },
       {
         "title": "Steuerberatung",
         "body": "Übergeben Sie Ihr Steuerdossier an uns Profis. Ärger und Stress bleiben Ihnen erspart. Wir vertreten Ihre Interessen fair, zuverlässig und korrekt."
@@ -694,17 +744,15 @@
       }
     ]
   },
-  "about": {
-    "eyebrow": "Über uns",
-    "heading": "Das sind WIR",
-    "lead": "Seit mehr als 20 Jahren unterstützen wir unsere Kunden fair, zuverlässig und «akkurat». Accuratus-Treuhand GmbH wurde Ende 2001 gegründet. Ein Name für das Unternehmen war schnell gefunden.",
-    "paragraphs": [
-      "«Accuratus» steht für unsere genaue, sorgfältige und ordentliche Arbeitsweise.",
-      "Bei aller Sorgfalt suchen wir für unsere Kunden nach effizienten und digitalen Lösungen. Wir sind sofort nach Mandatserteilung einsatzbereit und flexibel bezüglich Einsatzzeiten.",
-      "Das stete Wachstum der Accuratus-Treuhand GmbH bestätigt uns und unseren Kurs. Viele unserer Kunden begleiten wir seit vielen Jahren. Ein Beweis dafür, dass sich unser persönliches Engagement für unsere Kunden auszahlt."
-    ]
-  },
   "featureAngles": [
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Live Support",
+      "body": "Seit 2001 Ihr Partner für Finanz- und Rechnungswesen, Steuerberatung, Abaweb- und Abaninja-Treuhänder, Bexio-Treuhänder.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
     {
       "eyebrow": "Unser Ansatz",
       "heading": "Steuerberatung",
@@ -725,19 +773,6 @@
       "eyebrow": "Unser Ansatz",
       "heading": "Accuratus-Treuhand GmbH",
       "body": "der mich versteht und den ich verstehe. Geldangelegenheiten & Treuhand sind Vertrauenssache – und meine Vertrauen hat Herr Herger bereits beim ersten Kontakt anhaltend gewonnen.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Ganz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -797,9 +832,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Norastrasse 7, 8004 Zürich",
       "phone": "+41 (0)76 426 66 34",
-      "email": "info@campfire.ch"
+      "email": "mail@accuratus-treuhand.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -819,9 +854,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Norastrasse 7, 8004 Zürich",
           "+41 (0)76 426 66 34",
-          "info@campfire.ch"
+          "mail@accuratus-treuhand.ch"
         ]
       },
       {

@@ -9,10 +9,10 @@
  */
 
 export interface StepItem { title: string; body: string }
-export interface ProcessContent { eyebrow: string; heading: string; steps: StepItem[] }
+export interface ProcessContent { eyebrow: string; heading: string; steps: StepItem[]; image?: string }
 
 export interface AudienceItem { title: string; body: string }
-export interface AudienceContent { eyebrow: string; heading: string; items: AudienceItem[] }
+export interface AudienceContent { eyebrow: string; heading: string; items: AudienceItem[]; image?: string }
 
 export interface AboutContent {
   eyebrow: string;
@@ -20,6 +20,9 @@ export interface AboutContent {
   lead: string;
   paragraphs: string[];
   highlights?: { value: string; label: string }[];
+  /** Optional scene photo — only the image-bearing about variant (about/photo-frame)
+   *  renders it; the composer feeds it when the image rhythm promotes this section. */
+  image?: string;
 }
 
 /** A single dated milestone on the company timeline. `year` is a real 4-digit year

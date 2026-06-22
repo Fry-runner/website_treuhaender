@@ -9,14 +9,14 @@
     "look": {
       "meta": {
         "id": "mrg-treuhand-ch-brand",
-        "name": "Rürup Swiss Corporate · brand-tinted",
+        "name": "Rürup Swiss Corporate · logo-tinted",
         "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
-        "source": "Steuerberatung-Andreas-Rürup + scraped brand",
+        "source": "Steuerberatung-Andreas-Rürup + logo colour",
         "derived": [
           "color.primaryFg (#FFFFFF)",
           "color.primarySoft (tint of beige surface)",
           "base: ruerup-swiss",
-          "accent #2563EB (scraped · medium)",
+          "accent #041A85 (logo)",
           "heading: Familjen Grotesk (inventory)",
           "body: Mulish (inventory)",
           "mono: Space Mono (inventory)"
@@ -37,10 +37,10 @@
         "text": "#1C1C1A",
         "textMuted": "#71717A",
         "border": "#E5E7EB",
-        "primary": "#2563EB",
+        "primary": "#041A85",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#EEF3FD",
-        "secondary": "#B68403",
+        "primarySoft": "#EBEDF5",
+        "secondary": "#041A85",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -224,7 +224,7 @@
       "media.logo",
       "trust.badges",
       "services.images",
-      "brand.colors"
+      "logo.colors"
     ]
   },
   "media": {
@@ -388,53 +388,8 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Klara (gratis Einstieg) oder Bexio (ab CHF 35/Mt.) – Cloud-basiert und intuitiv.",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Klara (gratis Einstieg) oder Bexio (ab CHF 35/Mt.) – Cloud-basiert und intuitiv.\n\nProffix (ERP mit Buchhaltung, CRM, Aufträge) oder Topal (modulare Treuhänder-Lösung).\n\nWelche Buchhaltungssoftware ist die richtige für Ihr KMU? Diese Frage stellen sich Schweizer Unternehmer immer wieder – sei es bei der Gründung, beim Wechsel von Excel oder wenn die aktuelle Lösung an ihre Grenzen stösst. Die Auswahl ist gross, und jeder Anbieter verspricht, die beste Lösung zu sein. Ein vertieftes Verständnis zum Thema Umstieg von Excel finden Sie in unserem\n\nEinzelfirmen und kleine KMU (1–15 Mitarbeitende), die eine einfache, moderne Cloud-Lösung suchen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Steuerberatung",
-        "summary": "Buchhaltung, Löhne, Steuern, Gründung & Digitalisierung — persönlich erreichbar, digital aufgestellt, transparente Fixpreise.",
-        "body": "Buchhaltung, Löhne, Steuern, Gründung & Digitalisierung — persönlich erreichbar, digital aufgestellt, transparente Fixpreise.\n\nKeine Zeit mehr für Belege und MWST? Wir übernehmen Ihre laufende Buchhaltung, Löhne und Steuern — Sie konzentrieren sich auf Ihr Geschäft.\n\nSoftware einrichten, Prozesse automatisieren, KI sinnvoll einsetzen — wir zeigen Ihnen, was wirklich Zeit spart.\n\nGmbH oder AG? Stampa, Sozialversicherungen, Handelsregister — wir begleiten Sie von A bis Z und übernehmen danach die Buchhaltung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Lohnadministration",
-        "summary": "Löhne pünktlich am 25., Sozialversicherungen korrekt, Quellensteuer erledigt. Wir sind die Anlaufstelle für Ihre Mitarbeiter -- von der Anstellung bis zum Arbeitszeugnis.",
-        "body": "Löhne pünktlich am 25., Sozialversicherungen korrekt, Quellensteuer erledigt. Wir sind die Anlaufstelle für Ihre Mitarbeiter -- von der Anstellung bis zum Arbeitszeugnis.\n\nPräzise Berechnung aller Komponenten. Stundenlohn, Monatslohn, Überstunden, Spesen & Zulagen.\n\nWir übernehmen die komplette Korrespondenz und Abrechnung mit den Sozialversicherungen.\n\nBesonders wichtig bei ausländischen Mitarbeitern. Wir ermitteln den Tarif und melden direkt ans Amt.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/mrg-treuhand-ch/pool/72549974e5__epost-app-lohnabrechnung.png"
-      },
-      {
-        "title": "Jahresabschluss",
-        "summary": "Bilanz, Erfolgsrechnung und Anhang -- termingerecht, revisionssicher und verständlich aufbereitet. Sie konzentrieren sich auf Ihr Geschäft, wir liefern die Zahlen.",
-        "body": "Bilanz, Erfolgsrechnung und Anhang -- termingerecht, revisionssicher und verständlich aufbereitet. Sie konzentrieren sich auf Ihr Geschäft, wir liefern die Zahlen.\n\nFehler im Abschluss kosten nicht nur Nerven -- sie können teuer werden.\n\nWir prüfen alle Konten, stimmen Banksaldi ab und klären offene Posten.\n\nAbschreibungen, Rückstellungen, Abgrenzungen -- alles nach OR oder Swiss GAAP.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "Ab CHF 100’000 Jahresumsatz aus steuerbaren Leistungen im Inland sind Sie MWST-pflichtig.",
-        "body": "Ab CHF 100’000 Jahresumsatz aus steuerbaren Leistungen im Inland sind Sie MWST-pflichtig.\n\nAnmeldung innert 30 Tagen nach Überschreiten der Grenze. Rückwirkende Pflicht!\n\n«Muss ich MWST abrechnen?» – diese Frage stellen sich Gründer, Freelancer und wachsende KMU gleichermassen. Die Antwort ist nicht immer so einfach, wie die magische Zahl CHF 100’000 vermuten lässt. Denn es gibt Ausnahmen, Sonderfälle und eine Frage, die mindestens genauso wichtig ist:\n\nim Inland erzielt (Art. 10 MWSTG). Die Pflicht gilt für alle Rechtsformen. Unterhalb dieser Grenze ist eine",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -446,6 +401,51 @@
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Buchhaltung, Löhne, Steuern, Gründung & Digitalisierung — persönlich erreichbar, digital aufgestellt, transparente Fixpreise.\n\nKeine Zeit mehr für Belege und MWST? Wir übernehmen Ihre laufende Buchhaltung, Löhne und Steuern — Sie konzentrieren sich auf Ihr Geschäft.\n\nSoftware einrichten, Prozesse automatisieren, KI sinnvoll einsetzen — wir zeigen Ihnen, was wirklich Zeit spart.\n\nGmbH oder AG? Stampa, Sozialversicherungen, Handelsregister — wir begleiten Sie von A bis Z und übernehmen danach die Buchhaltung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Buchhaltung, Löhne, Steuern, Gründung & Digitalisierung — persönlich erreichbar, digital aufgestellt, transparente Fixpreise.\n\nKeine Zeit mehr für Belege und MWST? Wir übernehmen Ihre laufende Buchhaltung, Löhne und Steuern — Sie konzentrieren sich auf Ihr Geschäft.\n\nSoftware einrichten, Prozesse automatisieren, KI sinnvoll einsetzen — wir zeigen Ihnen, was wirklich Zeit spart.\n\nGmbH oder AG? Stampa, Sozialversicherungen, Handelsregister — wir begleiten Sie von A bis Z und übernehmen danach die Buchhaltung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohn & HR Services für Schweizer KMU. Swissdec-zertifizierte Lohnabrechnung, Quellensteuer, Sozialversicherungen. MRG Treuhand Aadorf.",
+        "body": "Löhne pünktlich am 25., Sozialversicherungen korrekt, Quellensteuer erledigt. Wir sind die Anlaufstelle für Ihre Mitarbeiter -- von der Anstellung bis zum Arbeitszeugnis.\n\nPräzise Berechnung aller Komponenten. Stundenlohn, Monatslohn, Überstunden, Spesen & Zulagen.\n\nWir übernehmen die komplette Korrespondenz und Abrechnung mit den Sozialversicherungen.\n\nBesonders wichtig bei ausländischen Mitarbeitern. Wir ermitteln den Tarif und melden direkt ans Amt.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/mrg-treuhand-ch/pool/72549974e5__epost-app-lohnabrechnung.png"
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Ab CHF 100’000 Jahresumsatz aus steuerbaren Leistungen im Inland sind Sie MWST-pflichtig.\n\nAnmeldung innert 30 Tagen nach Überschreiten der Grenze. Rückwirkende Pflicht!\n\n«Muss ich MWST abrechnen?» – diese Frage stellen sich Gründer, Freelancer und wachsende KMU gleichermassen. Die Antwort ist nicht immer so einfach, wie die magische Zahl CHF 100’000 vermuten lässt. Denn es gibt Ausnahmen, Sonderfälle und eine Frage, die mindestens genauso wichtig ist:\n\nim Inland erzielt (Art. 10 MWSTG). Die Pflicht gilt für alle Rechtsformen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresabschluss für KMU: Bilanz, Erfolgsrechnung und Anhang termingerecht und revisionssicher. Ab CHF 1'200 oder im Buchhaltungspaket inklusive. MRG Treuhand Aadorf.",
+        "body": "Bilanz, Erfolgsrechnung und Anhang -- termingerecht, revisionssicher und verständlich aufbereitet. Sie konzentrieren sich auf Ihr Geschäft, wir liefern die Zahlen.\n\nFehler im Abschluss kosten nicht nur Nerven -- sie können teuer werden.\n\nWir prüfen alle Konten, stimmen Banksaldi ab und klären offene Posten.\n\nAbschreibungen, Rückstellungen, Abgrenzungen -- alles nach OR oder Swiss GAAP.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -510,8 +510,8 @@
     },
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Klara (gratis Einstieg) oder Bexio (ab CHF 35/Mt.) – Cloud-basiert und intuitiv.",
+      "heading": "Lohnadministration",
+      "body": "Lohn & HR Services für Schweizer KMU. Swissdec-zertifizierte Lohnabrechnung, Quellensteuer, Sozialversicherungen. MRG Treuhand Aadorf.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -664,7 +664,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Aadorf",
+      "address": "Heidelbergstrasse 9, 8355 Aadorf",
       "phone": "+41 52 558 52 77",
       "email": "info@mrg-treuhand.ch",
       "hours": "Mo–Fr 08:00–17:00"
@@ -688,7 +688,7 @@
       {
         "title": "Standort",
         "links": [
-          "Aadorf",
+          "Heidelbergstrasse 9, 8355 Aadorf",
           "+41 52 558 52 77",
           "info@mrg-treuhand.ch"
         ]

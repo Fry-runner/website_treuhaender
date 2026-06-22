@@ -14,7 +14,7 @@
         "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
         "derived": [
           "base: swiss-clean",
-          "accent #2C6D42 (generated · no scraped colour)",
+          "accent #2C6D42 (generated · no scraped or logo colour)",
           "heading: Schibsted Grotesk (inventory)",
           "body: Public Sans (inventory)",
           "mono: JetBrains Mono (inventory)"
@@ -144,7 +144,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -174,6 +173,7 @@
       "faq",
       "process (generic)",
       "audience (generic)",
+      "about (generic)",
       "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
@@ -186,7 +186,6 @@
       "hero.lede",
       "services.text",
       "team.members",
-      "about",
       "feature",
       "contact.hours",
       "footer.tagline",
@@ -207,7 +206,9 @@
       "Jahresabschluss": "/images/wuerth-treuhand-ch/pool/stock-success-6289026.jpg",
       "Mehrwertsteuer": "/images/wuerth-treuhand-ch/pool/stock-desk-8872717.jpg",
       "Unternehmensberatung": "/images/wuerth-treuhand-ch/pool/stock-success-6289065.jpg",
-      "Revision": "/images/wuerth-treuhand-ch/pool/stock-meeting-7495291.jpg"
+      "Revision": "/images/wuerth-treuhand-ch/pool/stock-meeting-7495291.jpg",
+      "Immobilien": "/images/wuerth-treuhand-ch/pool/stock-office-36175676.jpg",
+      "Nachlass & Erbrecht": "/images/wuerth-treuhand-ch/pool/stock-documents-229820.jpg"
     },
     "documents": [
       {
@@ -312,7 +313,7 @@
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
         "source": "https://www.pexels.com/photo/person-using-black-laptop-computer-7948060/",
-        "quality": 0.63,
+        "quality": 0.6,
         "faces": 0,
         "roles": [
           "gallery",
@@ -333,7 +334,7 @@
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
         "source": "https://www.pexels.com/photo/close-up-photo-of-person-pointing-on-documents-7821543/",
-        "quality": 0.62,
+        "quality": 0.6,
         "faces": 0,
         "roles": [
           "gallery",
@@ -372,7 +373,7 @@
         "stock": true,
         "credit": "MART  PRODUCTION (Pexels)",
         "source": "https://www.pexels.com/photo/high-angle-shot-of-a-typewriter-and-money-on-the-table-8872717/",
-        "quality": 0.8,
+        "quality": 0.77,
         "faces": 0,
         "roles": [
           "gallery",
@@ -393,7 +394,7 @@
         "stock": true,
         "credit": "Monstera Production (Pexels)",
         "source": "https://www.pexels.com/photo/illustration-of-woman-analyzing-financial-line-graphic-6289065/",
-        "quality": 0.2,
+        "quality": 0.19,
         "faces": 0,
         "roles": [
           "gallery"
@@ -411,8 +412,50 @@
         "stock": true,
         "credit": "Moe Magners (Pexels)",
         "source": "https://www.pexels.com/photo/office-team-having-a-meeting-in-the-room-7495291/",
-        "quality": 0.74,
+        "quality": 0.72,
         "faces": 3,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-office-36175676.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 86020,
+        "width": 1280,
+        "height": 852,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Samkit desai (Pexels)",
+        "source": "https://www.pexels.com/photo/modern-minimalist-office-interior-with-desk-36175676/",
+        "quality": 0.79,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/wuerth-treuhand-ch/pool/stock-documents-229820.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 122583,
+        "width": 1280,
+        "height": 851,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Caio (Pexels)",
+        "source": "https://www.pexels.com/photo/black-frame-wayfarer-sunglasses-on-white-notebook-229820/",
+        "quality": 0.7,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -432,7 +475,9 @@
       "Monstera Production (Pexels)",
       "RDNE Stock project (Pexels)",
       "MART  PRODUCTION (Pexels)",
-      "Moe Magners (Pexels)"
+      "Moe Magners (Pexels)",
+      "Samkit desai (Pexels)",
+      "Caio (Pexels)"
     ]
   },
   "nav": {
@@ -470,21 +515,21 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Unternehmensberatung",
+        "summary": "Eine kontinuierliche Steuerberatung und Steuerplanung ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.",
+        "body": "verfügen. Beispielsweise stellt sich bei der Mehrwertsteuer oft die Frage, welche Abrechnungsmethode für Ihr Unternehmen besser geeignet ist.\n\n. Dabei legen wir besonderen Wert auf eine weitsichtige, nachhaltige Analyse und Beratung, welche über die Erzielung unmittelbarer Steuervorteile hinausgeht. Die Schnittstelle zu unserer\n\nin den Bereichen Rechnungswesen, Wirtschaftsprüfung und Unternehmensberatung garantiert Ihnen eine ganzheitliche Sicht auf Ihre Unternehmensprozesse und damit grösstmögliche Effizienz – auch in der interkantonalen und internationalen Steuerplanung.\n\nSelbstverständlich agieren wir ebenso als kompetente Vertretung gegenüber allen Finanzbehörden und Instanzen, etwa bei Einsprachen oder Rekursen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/wuerth-treuhand-ch/pool/stock-success-5849583.jpg"
+        "image": "/images/wuerth-treuhand-ch/pool/stock-success-6289065.jpg"
       },
       {
         "title": "Steuerberatung",
-        "summary": "Wobei dürfen wir Sie unterstützen? Hier finden Sie weitere Informationen zu unseren Dienstleistungen wie�Steuerberatung, Wirtschaftsprüfung und Treuhand.",
-        "body": "Wobei dürfen wir Sie unterstützen? Hier finden Sie weitere Informationen zu unseren Dienstleistungen wie�Steuerberatung, Wirtschaftsprüfung und Treuhand.\n\nDie Würth Treuhand AG steht mit der Kompetenz aus über 40 Jahren in der Treuhand-, Steuerrechts- und Revisionsbranche zu Ihren Diensten.\n\nHaben Sie Fragen oder wünschen Sie einen Termin? Wir freuen uns auf Ihre Kontaktaufnahme.",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Die Würth Treuhand AG steht mit der Kompetenz aus über 40 Jahren in der Treuhand-, Steuerrechts- und Revisionsbranche zu Ihren Diensten.\n\nHaben Sie Fragen oder wünschen Sie einen Termin? Wir freuen uns auf Ihre Kontaktaufnahme.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -494,33 +539,33 @@
         "image": "/images/wuerth-treuhand-ch/pool/stock-laptop-7948060.jpg"
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Die Würth Treuhand AG steht mit der Kompetenz aus über 40 Jahren in der Treuhand-, Steuerrechts- und Revisionsbranche zu Ihren Diensten.\n\nHaben Sie Fragen oder wünschen Sie einen Termin? Wir freuen uns auf Ihre Kontaktaufnahme.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/wuerth-treuhand-ch/pool/stock-advisory-7821543.jpg"
+        "image": "/images/wuerth-treuhand-ch/pool/stock-meeting-7495291.jpg"
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/wuerth-treuhand-ch/pool/stock-success-6289026.jpg"
+        "image": "/images/wuerth-treuhand-ch/pool/stock-success-5849583.jpg"
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -530,16 +575,16 @@
         "image": "/images/wuerth-treuhand-ch/pool/stock-desk-8872717.jpg"
       },
       {
-        "title": "Unternehmensberatung",
-        "summary": "ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.�Ebenso ist eine korrekte Anmeldung und Abrechnung der",
-        "body": "ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.�Ebenso ist eine korrekte Anmeldung und Abrechnung der\n\nverfügen. Beispielsweise stellt sich bei der Mehrwertsteuer oft die Frage, welche Abrechnungsmethode für Ihr Unternehmen besser geeignet ist.\n\n. Dabei legen wir besonderen Wert auf eine weitsichtige, nachhaltige Analyse und Beratung, welche über die Erzielung unmittelbarer Steuervorteile hinausgeht. Die Schnittstelle zu unserer\n\nin den Bereichen Rechnungswesen, Wirtschaftsprüfung und Unternehmensberatung garantiert Ihnen eine ganzheitliche Sicht auf Ihre Unternehmensprozesse und damit grösstmögliche Effizienz – auch in der interkantonalen und internationalen Steuerplanung.",
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/wuerth-treuhand-ch/pool/stock-success-6289065.jpg"
+        "image": "/images/wuerth-treuhand-ch/pool/stock-advisory-7821543.jpg"
       }
     ]
   },
@@ -548,20 +593,11 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
-  "about": {
-    "eyebrow": "Über uns",
-    "heading": "Würth Treuhand AG - weil\r\n\t\t\t\t\t\t\t\t\t\t\t\tErfahrung zählt",
-    "lead": "Treuhand und Revisionsbereich tätig. Zu seinem weiteren Fachgebiet zählt",
-    "paragraphs": [
-      "verfügt über einen Bachelor of Science in Banking & Finance. Nach über",
-      "Karoline Frehner setzt ihr breites Wissen und Ihre fundierte Erfahrung für die Führung von Buchhaltungen und die Erstellung von Steuererklärungen ein. Als Office Managerin sorgt sie sich zudem um die administrativen Belangen der Würth Treuhand AG."
-    ]
-  },
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Wobei dürfen wir Sie unterstützen? Hier finden Sie weitere Informationen zu unseren Dienstleistungen wie�Steuerberatung, Wirtschaftsprüfung und Treuhand.",
+      "heading": "Unternehmensberatung",
+      "body": "Eine kontinuierliche Steuerberatung und Steuerplanung ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -573,8 +609,21 @@
     },
     {
       "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.�Ebenso ist eine korrekte Anmeldung und Abrechnung der",
+      "heading": "Steuerberatung",
+      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Revision",
+      "body": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -650,7 +699,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Norastrasse 7, 8004 Zürich",
       "phone": "044 404 70 00",
       "email": "info@wuerth-treuhand.ch",
       "hours": "Mo–Fr 08:00–17:30"
@@ -672,7 +721,7 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Norastrasse 7, 8004 Zürich",
           "044 404 70 00",
           "info@wuerth-treuhand.ch"
         ]

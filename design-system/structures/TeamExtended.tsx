@@ -200,9 +200,13 @@ export const TeamQuoteCard: React.FC<Props> = ({ content, more }) => (
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.members.length, 3)}, minmax(0,1fr))`, gap: "1.2rem" }}>
         {content.members.map((m, i) => (
           <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
-            <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontSize: "1.8rem", lineHeight: 1 }}>“</span>
-            <p style={{ ...bio, fontFamily: "var(--ds-font-heading)", fontStyle: "italic", color: "var(--ds-text)", flex: 1 }}>{m.bio}</p>
-            <figcaption style={{ display: "flex", alignItems: "center", gap: "0.8rem", borderTop: "1px solid var(--ds-border)", paddingTop: "0.9rem" }}>
+            {/* Only a real bio becomes a quote; without one the card is a plain name+role
+                tile (never an empty “” quote). */}
+            {m.bio && <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontSize: "1.8rem", lineHeight: 1 }}>“</span>}
+            {m.bio
+              ? <p style={{ ...bio, fontFamily: "var(--ds-font-heading)", fontStyle: "italic", color: "var(--ds-text)", flex: 1 }}>{m.bio}</p>
+              : <div style={{ flex: 1 }} />}
+            <figcaption style={{ display: "flex", alignItems: "center", gap: "0.8rem", borderTop: m.bio ? "1px solid var(--ds-border)" : "none", paddingTop: m.bio ? "0.9rem" : 0 }}>
               <div role="img" aria-label={m.name} style={photoBg(m, { width: "2.6rem", height: "2.6rem", borderRadius: "9999px", flexShrink: 0, fontSize: "0.75rem" })}>{m.photo ? "" : m.initials}</div>
               <div style={{ display: "flex", flexDirection: "column" }}><span style={{ ...name, fontSize: "0.95rem" }}>{m.name}</span><span style={role}>{m.role}</span></div>
             </figcaption>

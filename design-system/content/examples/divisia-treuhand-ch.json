@@ -9,12 +9,12 @@
     "look": {
       "meta": {
         "id": "divisia-treuhand-ch-brand",
-        "name": "Swiss Clean · brand-tinted",
-        "source": "synthesized (references) + scraped brand",
+        "name": "Swiss Clean · logo-tinted",
+        "source": "synthesized (references) + logo colour",
         "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
         "derived": [
           "base: swiss-clean",
-          "accent #324D2D (scraped · high)",
+          "accent #0A5A40 (logo)",
           "heading: Bricolage Grotesque (inventory)",
           "body: Work Sans (inventory)",
           "mono: IBM Plex Mono (inventory)"
@@ -35,10 +35,10 @@
         "text": "#0E2A33",
         "textMuted": "#5B7682",
         "border": "#DCE7EA",
-        "primary": "#324D2D",
+        "primary": "#0A5A40",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#EFF1EE",
-        "secondary": "#064F95",
+        "primarySoft": "#EBF2F0",
+        "secondary": "#0A5A40",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -120,6 +120,7 @@
         "values",
         "audience",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -161,14 +162,13 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "kein echtes Team gefunden",
+        "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -189,7 +189,8 @@
       "hero.aside",
       "faq",
       "process (generic)",
-      "audience (generic)"
+      "audience (generic)",
+      "about (generic)"
     ],
     "real": [
       "meta.firm",
@@ -199,8 +200,9 @@
       "hero.headline",
       "hero.lede",
       "services.text",
+      "team.members",
+      "team.photos",
       "values",
-      "about",
       "feature",
       "footer.tagline",
       "trust.items",
@@ -209,7 +211,7 @@
       "trust.badges",
       "services.images",
       "media.documents",
-      "brand.colors"
+      "logo.colors"
     ]
   },
   "media": {
@@ -235,7 +237,8 @@
     "serviceImages": {
       "Steuerberatung": "/images/divisia-treuhand-ch/pool/1cbb17ec8e__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung.jpg",
       "Unternehmensberatung": "/images/divisia-treuhand-ch/pool/05e91d0ae5__Unternehmensberatung.jpg",
-      "Revision": "/images/divisia-treuhand-ch/pool/521b170517__Divisia-Treuhand-Wallisellen-Revision-1920x600-1.jpg"
+      "Revision": "/images/divisia-treuhand-ch/pool/521b170517__Divisia-Treuhand-Wallisellen-Revision-1920x600-1.jpg",
+      "Immobilien": "/images/divisia-treuhand-ch/pool/837074c37f__Divisia-Treuhand-1200x675-Liegenschaft-Immobilien.jpg"
     },
     "documents": [
       {
@@ -630,20 +633,21 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Die Tagfertigkeit des gesamten Finanz- und Rechnungswesens Ihrer Unternehmung stellt für Sie ein nicht zu unterschätzendes Kontrollinstrument dar. Die Aktualität der Buchhaltung ist Basis für fristgerechte Auswertungen und eine monatliche Budgetkontrolle. So können positive wie n",
-        "body": "Die Tagfertigkeit des gesamten Finanz- und Rechnungswesens Ihrer Unternehmung stellt für Sie ein nicht zu unterschätzendes Kontrollinstrument dar. Die Aktualität der Buchhaltung ist Basis für fristgerechte Auswertungen und eine monatliche Budgetkontrolle. So können positive wie negative Entwicklungen des Geschäftsverlaufes frühzeitig erkannt und die notwendigen Massnahmen rechtzeitig ergriffen werden – eine zentrale Voraussetzung für Ihren Unternehmenserfolg.\n\nWir führen Ihre komplette Finanzbuchhaltung sowie den Zahlungsverkehr, bewirtschaften Ihre Debitoren und bearbeiten Inkassofälle. Wir erstellen Ihren Jahresabschluss und beraten Sie strategisch. Von Ihnen benötigen wir lediglich periodisch die entsprechenden Belege, welche wir nach der Verarbeitung entweder an Sie retournieren, oder auf Wunsch in unseren Büros ablegen.",
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Treuhand ist mehr als nur Buchhaltung, sondern individuelle und breit gefächerte Unterstützung als ganzheitliche Dienstleistung. Die Basis dafür ist Ihr Vertrauen, welches wir durch ein hohes Mass an Interesse, Einsatz und Identifikationsbereitschaft gewinnen möchten.\n\nKonzentrieren Sie Ihre zeitlichen Ressourcen ganz auf Ihr Kerngeschäft und übergeben Sie uns die zeitraubenden administrativen Arbeiten in der Buchführung, im Rechnungswesen und in der Personaladministration. Bei Ihrer Entscheidung über den Umfang des Outsourcing sollten Sie eines nicht vergessen: je ganzheitlicher die externe Beratung ist, desto grösser wird auch Ihr Nutzen sein.\n\nMit dem digitalen Treuhandportal bieten wir Ihnen eine zentrale Plattform für Buchhaltung, Steuern, Löhne und mehr – jederzeit zugänglich, egal ob im Büro oder unterwegs.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/divisia-treuhand-ch/pool/05e91d0ae5__Unternehmensberatung.jpg"
       },
       {
         "title": "Steuerberatung",
-        "summary": "Treuhand ist mehr als nur Buchhaltung, sondern individuelle und breit gefächerte Unterstützung als ganzheitliche Dienstleistung. Die Basis dafür ist Ihr Vertrauen, welches wir durch ein hohes Mass an Interesse, Einsatz und Identifikationsbereitschaft gewinnen möchten.",
-        "body": "Treuhand ist mehr als nur Buchhaltung, sondern individuelle und breit gefächerte Unterstützung als ganzheitliche Dienstleistung. Die Basis dafür ist Ihr Vertrauen, welches wir durch ein hohes Mass an Interesse, Einsatz und Identifikationsbereitschaft gewinnen möchten.\n\nKonzentrieren Sie Ihre zeitlichen Ressourcen ganz auf Ihr Kerngeschäft und übergeben Sie uns die zeitraubenden administrativen Arbeiten in der Buchführung, im Rechnungswesen und in der Personaladministration. Bei Ihrer Entscheidung über den Umfang des Outsourcing sollten Sie eines nicht vergessen: je ganzheitlicher die externe Beratung ist, desto grösser wird auch Ihr Nutzen sein.\n\nMit dem digitalen Treuhandportal bieten wir Ihnen eine zentrale Plattform für Buchhaltung, Steuern, Löhne und mehr – jederzeit zugänglich, egal ob im Büro oder unterwegs..\n\nWir führen Ihre komplette Finanzbuchhaltung sowie den Zahlungsverkehr, b",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Treuhand ist mehr als nur Buchhaltung, sondern individuelle und breit gefächerte Unterstützung als ganzheitliche Dienstleistung. Die Basis dafür ist Ihr Vertrauen, welches wir durch ein hohes Mass an Interesse, Einsatz und Identifikationsbereitschaft gewinnen möchten.\n\nKonzentrieren Sie Ihre zeitlichen Ressourcen ganz auf Ihr Kerngeschäft und übergeben Sie uns die zeitraubenden administrativen Arbeiten in der Buchführung, im Rechnungswesen und in der Personaladministration. Bei Ihrer Entscheidung über den Umfang des Outsourcing sollten Sie eines nicht vergessen: je ganzheitlicher die externe Beratung ist, desto grösser wird auch Ihr Nutzen sein.\n\nMit dem digitalen Treuhandportal bieten wir Ihnen eine zentrale Plattform für Buchhaltung, Steuern, Löhne und mehr – jederzeit zugänglich, egal ob im Büro oder unterwegs.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -654,7 +658,7 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Die Beschäftigung von Personal ist für ein Unternehmen eine vielschichtige soziale und administrative Herausforderung. Mit der monatlichen Überweisung des Lohnes alleine ist es nicht getan. Vielmehr ist eine ganzheitliche Betrachtung von Gesetzen, Versicherungen, Verträgen und Lo",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
         "body": "Die Beschäftigung von Personal ist für ein Unternehmen eine vielschichtige soziale und administrative Herausforderung. Mit der monatlichen Überweisung des Lohnes alleine ist es nicht getan. Vielmehr ist eine ganzheitliche Betrachtung von Gesetzen, Versicherungen, Verträgen und Lohnmodellen notwendig, um die Ressourcen gezielt und flexibel einzusetzen – für erfolgreiches Operieren am Markt.\n\nWir wickeln Ihre Lohnbuchhaltung und Personaladministration umfassend und vertraulich ab, beraten Sie in Fragen des Arbeitsrechts und der Sozialversicherungen, erstellen Personal- und Spesenreglemente und informieren Sie über Gesetzesänderungen, die für Ihre Anstellungsverhältnisse relevant sind.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -664,9 +668,9 @@
         ]
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Die Tagfertigkeit des gesamten Finanz- und Rechnungswesens Ihrer Unternehmung stellt für Sie ein nicht zu unterschätzendes Kontrollinstrument dar. Die Aktualität der Buchhaltung ist Basis für fristgerechte Auswertungen und eine monatliche Budgetkontrolle. So können positive wie negative Entwicklungen des Geschäftsverlaufes frühzeitig erkannt und die notwendigen Massnahmen rechtzeitig ergriffen werden – eine zentrale Voraussetzung für Ihren Unternehmenserfolg.\n\nWir führen Ihre komplette Finanzbuchhaltung sowie den Zahlungsverkehr, bewirtschaften Ihre Debitoren und bearbeiten Inkassofälle. Wir erstellen Ihren Jahresabschluss und beraten Sie strategisch. Von Ihnen benötigen wir lediglich periodisch die entsprechenden Belege, welche wir nach der Verarbeitung entweder an Sie retournieren, oder auf Wunsch in unseren Büros ablegen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -675,27 +679,27 @@
         ]
       },
       {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Treuhand ist mehr als nur Buchhaltung, sondern individuelle und breit gefächerte Unterstützung als ganzheitliche Dienstleistung. Die Basis dafür ist Ihr Vertrauen, welches wir durch ein hohes Mass an Interesse, Einsatz und Identifikationsbereitschaft gewinnen möchten.\n\nKonzentrieren Sie Ihre zeitlichen Ressourcen ganz auf Ihr Kerngeschäft und übergeben Sie uns die zeitraubenden administrativen Arbeiten in der Buchführung, im Rechnungswesen und in der Personaladministration. Bei Ihrer Entscheidung über den Umfang des Outsourcing sollten Sie eines nicht vergessen: je ganzheitlicher die externe Beratung ist, desto grösser wird auch Ihr Nutzen sein.\n\nMit dem digitalen Treuhandportal bieten wir Ihnen eine zentrale Plattform für Buchhaltung, Steuern, Löhne und mehr – jederzeit zugänglich, egal ob im Büro oder unterwegs..\n\nWir führen Ihre komplette Finanzbuchhaltung sowie den Zahlungsverkehr, b",
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Seit den Änderungen des Obligationen- und Aktienrechts ist die Revisionspflicht nicht mehr von der Rechtsform sondern von der Grösse Ihres Unternehmens abhängig. Die Einführung der eingeschränkten Revision und der Möglichkeit des „opting out“ kommt den Bedürfnissen von KMU mit Sicherheit entgegen.\n\nDie freiwillige Durchführung einer Revision signalisiert ein gewisses Verantwortungsbewusstsein. Dank einer besseren Qualität der Jahresrechnung werden die Sicherheit erhöht beziehungsweise die Risiken reduziert – ein Mehrwert für Ihr Unternehmen.\n\nWir stimmen den Umfang unserer Revisionstätigkeit mit Ihnen ab und finden eine Lösung, die Ihren Anforderungen und der Grösse Ihres Unternehmens gerecht wird.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/divisia-treuhand-ch/pool/05e91d0ae5__Unternehmensberatung.jpg"
+        "image": "/images/divisia-treuhand-ch/pool/521b170517__Divisia-Treuhand-Wallisellen-Revision-1920x600-1.jpg"
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
       }
     ]
   },
@@ -716,19 +720,9 @@
         "body": "Wir stimmen den Umfang unserer Revisionstätigkeit mit Ihnen ab und finden eine Lösung, die Ihren Anforderungen und der Grösse Ihres Unternehmens gerecht wird."
       },
       {
-        "title": "Unsere Insights. Ihr Mehrwert.",
-        "body": "In unserem Blog teilen wir Know-how, welches Sie im Alltag wirklich weiterbringt – verständlich erklärt, auf Ihre Fragen zugeschnitten und immer auf dem neuesten Stand."
+        "title": "Digitaler Treuhänder",
+        "body": "Das Treuhandportal ist ein einfaches und effizientes Kommunikationstool zwischen Ihnen und Ihrem Treuhänder. Das Portal funktioniert als webbasierte Lösung und via Mobile App."
       }
-    ]
-  },
-  "about": {
-    "eyebrow": "Über uns",
-    "heading": "Unternehmens­beratung - Planen, Beraten & Umsetzen",
-    "lead": "Aussergewöhnliche Veränderungen Ihrer Geschäftstätigkeit – Gründung, Kauf- und Verkauf, Umstrukturierung oder Fusion – erfordern besondere Massnahmen. Schnelles und kompetentes Agieren und Reagieren sind gefragt, nicht nur im Ausnahmezustand sondern auch im täglichen Geschäft. Voreilige Entscheide sind oft schnell getroffen, haben jedoch unmittelbare finanzielle Konsequenzen und lassen sich langfristig nur schwer korrigieren.",
-    "paragraphs": [
-      "Wir sehen solche Veränderungen als Chance, Neues zu realisieren, Altes zu verbessern aber auch zu erkennen, dass Bewährtes oftmals eine gute Lösung ist. Gerne unterstützen wir Sie bei Veränderungsprozessen in allen betriebswirtschaftlichen, rechtlichen und steuertechnischen Bereichen, damit Sie sich voll auf Ihre alltägliche Geschäftstätigkeit konzentrieren können.",
-      "Sie haben die Geschäftsidee – wir unterstützen Sie bei der Umsetzung und begleiten Sie in allen Phasen Ihrer Geschäftstätigkeit – bis zum Erfolg und weiter.",
-      "Gemeinsam mit unseren Partnern bieten wir Ihnen auch über die Zahlen hinaus Beratung und Unterstützung in betriebswirtschaftlichen Belangen."
     ]
   },
   "featureAngles": [
@@ -758,8 +752,8 @@
     },
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Unsere Insights. Ihr Mehrwert.",
-      "body": "In unserem Blog teilen wir Know-how, welches Sie im Alltag wirklich weiterbringt – verständlich erklärt, auf Ihre Fragen zugeschnitten und immer auf dem neuesten Stand.",
+      "heading": "Digitaler Treuhänder",
+      "body": "Das Treuhandportal ist ein einfaches und effizientes Kommunikationstool zwischen Ihnen und Ihrem Treuhänder. Das Portal funktioniert als webbasierte Lösung und via Mobile App.",
       "cta": {
         "label": "Termin buchen"
       }
@@ -768,7 +762,15 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "Benjamin Schenk",
+        "role": "Dipl. Treuhänder",
+        "initials": "BS",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/divisia-treuhand-ch/team/0-schenk.jpg"
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -815,7 +817,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Wallisellen",
+      "address": "Rosenbergstrasse 27, 8304 Wallisellen",
       "phone": "+41 (0)44 811 00 90"
     },
     "formCta": "Nachricht senden"
@@ -837,7 +839,7 @@
       {
         "title": "Standort",
         "links": [
-          "Wallisellen",
+          "Rosenbergstrasse 27, 8304 Wallisellen",
           "+41 (0)44 811 00 90",
           "info@…"
         ]

@@ -9,14 +9,14 @@
     "look": {
       "meta": {
         "id": "latreuhand-ch-brand",
-        "name": "Rürup Swiss Corporate · brand-generated",
+        "name": "Rürup Swiss Corporate · logo-tinted",
         "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
-        "source": "Steuerberatung-Andreas-Rürup + generated accent",
+        "source": "Steuerberatung-Andreas-Rürup + logo colour",
         "derived": [
           "color.primaryFg (#FFFFFF)",
           "color.primarySoft (tint of beige surface)",
           "base: ruerup-swiss",
-          "accent #276E91 (generated · scraped #008AC9 rejected: low)",
+          "accent #0289C8 (logo)",
           "heading: Sora (inventory)",
           "body: IBM Plex Sans (inventory)",
           "mono: IBM Plex Mono (inventory)"
@@ -37,10 +37,10 @@
         "text": "#1C1C1A",
         "textMuted": "#71717A",
         "border": "#E5E7EB",
-        "primary": "#276E91",
+        "primary": "#0289C8",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#EEF3F6",
-        "secondary": "#AF283E",
+        "primarySoft": "#EBF6FB",
+        "secondary": "#0289C8",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -153,7 +153,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -183,7 +182,6 @@
       "faq",
       "process (generic)",
       "audience (generic)",
-      "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -202,7 +200,8 @@
       "media.pool",
       "media.logo",
       "trust.badges",
-      "media.documents"
+      "media.documents",
+      "logo.colors"
     ]
   },
   "media": {
@@ -682,9 +681,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Unser umfassendes Dienstleistungsangebot im Bereich Treuhand ist darauf ausgerichtet, Ihnen den Rücken freizuhalten, damit Sie sich uneingeschränkt auf Ihr Kerngeschäft konzentrieren können. Wir unterstützen Sie mit fundiertem Fachwissen, langjähriger Erfahrung und modernen Lösun",
-        "body": "Unser umfassendes Dienstleistungsangebot im Bereich Treuhand ist darauf ausgerichtet, Ihnen den Rücken freizuhalten, damit Sie sich uneingeschränkt auf Ihr Kerngeschäft konzentrieren können. Wir unterstützen Sie mit fundiertem Fachwissen, langjähriger Erfahrung und modernen Lösungen, um Ihre finanziellen und administrativen Prozesse effizient und gesetzeskonform zu gestalten.\n\nEine ordnungsgemässe Buchhaltung ist wichtig für den nachhaltigen Erfolg Ihres Unternehmens. Wir bieten Ihnen eine vollumfängliche Betreuung im Finanz- und Rechnungswesen, sodass Sie stets einen klaren Überblick über Ihre finanzielle Situation haben. Unsere Leistungen umfassen:\n\nDurch unsere professionelle Betreuung können Sie sicher sein, dass Ihre Buchhaltung stets korrekt, aktuell und transparent geführt wird.\n\nEin gut strukturierter und detaillierter Jahresabschluss liefert wertvolle Erkenntnisse über die wirts",
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut dolore magna aliquyam erat, sed diam Eos et accusam et justo duo dolores et ea rebum.\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Eos et accusam et justo duo dolores et ea rebum.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -694,8 +693,19 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Eine korrekte, fristgerechte und strategisch optimierte Steuererklärung ist wichtig, um unnötige Nachzahlungen, Verzugszinsen oder gar rechtliche Probleme zu vermeiden. Wir übernehmen diesen Prozess für Sie mit höchster Sorgfalt und unter Berücksichtigung aller aktuellen gesetzli",
-        "body": "Eine korrekte, fristgerechte und strategisch optimierte Steuererklärung ist wichtig, um unnötige Nachzahlungen, Verzugszinsen oder gar rechtliche Probleme zu vermeiden. Wir übernehmen diesen Prozess für Sie mit höchster Sorgfalt und unter Berücksichtigung aller aktuellen gesetzlichen Änderungen. Dabei prüfen wir genau, welche ABzüge und steuerlichen Vorsteile für Sie in Frage kommen, um Ihre Steueralst maximal zu reduzieren. Egal, ob Einkommenssteuer oder Gewinnsteuer wir kümmern uns um alle Details, damit Sie sich um nichts sorgen müssen.\n\nSollten Steuerprüfungen, Nachfragen oder Auseinandersetzungen mit den Steuerbörden auftreten, ist es wichtig, einen kompetenten Partner an Ihrer Seite zu haben. Unsere Mitarbeiter und Mitarbeiterinnen übernehmen für Sie die komplette Kommunikation mit den Steuerbehörden, prüfen behördliche Forderungen kritisch und setzen sich mit Nachdruck für Ihre In",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Eine korrekte, fristgerechte und strategisch optimierte Steuererklärung ist wichtig, um unnötige Nachzahlungen, Verzugszinsen oder gar rechtliche Probleme zu vermeiden. Wir übernehmen diesen Prozess für Sie mit höchster Sorgfalt und unter Berücksichtigung aller aktuellen gesetzlichen Änderungen. Dabei prüfen wir genau, welche ABzüge und steuerlichen Vorsteile für Sie in Frage kommen, um Ihre Steueralst maximal zu reduzieren. Egal, ob Einkommenssteuer oder Gewinnsteuer wir kümmern uns um alle Details, damit Sie sich um nichts sorgen müssen.\n\nSollten Steuerprüfungen, Nachfragen oder Auseinandersetzungen mit den Steuerbörden auftreten, ist es wichtig, einen kompetenten Partner an Ihrer Seite zu haben.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Immobilien",
+        "summary": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
+        "body": "Der Immobilienbereich erfordert fundierte Kenntnisse und sorgfältige Planung. Ganz gleich, ob Sie eine Immobilie kaufen, verkaufen oder verwalten möchten, wir stehen Ihnen mit unserer langjährigen Erfahrung und unserem Fachwissen zur Seite. Unser umfassendes Dienstleistungsangebot begleitet Sie in jeder Phase Ihres Immobilienprojekts und sorgt dafür, dass Sie stets dies besten Entscheidungen treffen.\n\nDer Kauf oder Verkauf einer Immobilie ist eine bedeutende Entscheidung, die gut überlegt sein sollte. Unser Team begleitet Sie dabei Schritt für Schritt, von der ersten Marktanalyse über die Preisverhandlung bis hin zum erfolgreichen Abschluss des Geschäfts. Wir helfen Ihnen, den bestmöglichen Preis zu erzielen und unterstützen Sie bei allen vertraglichen sowie administrativen Angelegenheiten.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -705,8 +715,8 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Eine reibungslose und professionelle Personaladministration ist das Fundament eines erfolgreichen Unternehmens. Wir sind Ihr verlässlicher Partner in Zürich und übernehmen sämtliche administrativen Aufgaben im Personalwesen mit höchster Sorgfalt und Fachkompetenz. Unsere Dienstle",
-        "body": "Eine reibungslose und professionelle Personaladministration ist das Fundament eines erfolgreichen Unternehmens. Wir sind Ihr verlässlicher Partner in Zürich und übernehmen sämtliche administrativen Aufgaben im Personalwesen mit höchster Sorgfalt und Fachkompetenz. Unsere Dienstleistungen entlasten Sie von komplexen bürokratischen Anforderungen, sodass Sie sich voll und ganz auf Ihr Kerngeschäft konzentrieren können.\n\nSo erstellen wir Ihre Lohnabrechnungen und Lohnausweise. Wir sorgen für die pünktliche Auszahlung der Gehälter und garantieren eine effiziente Abwicklung unter Berücksichtigung aller sozialversicherungsrechtlichen Vorgaben. Dabei übernehmen wir nicht nur die Berechnung der Löhne, sondern auch die Anmeldung und Abführung der Sozialversicherungsbeiträge sodass Sie rechtlich stets auf der sicheren Seiten sind.\n\nEin rechtssicherer und gut organisierter Personalbereich ist für je",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Eine reibungslose und professionelle Personaladministration ist das Fundament eines erfolgreichen Unternehmens. Wir sind Ihr verlässlicher Partner in Zürich und übernehmen sämtliche administrativen Aufgaben im Personalwesen mit höchster Sorgfalt und Fachkompetenz. Unsere Dienstleistungen entlasten Sie von komplexen bürokratischen Anforderungen, sodass Sie sich voll und ganz auf Ihr Kerngeschäft konzentrieren können.\n\nSo erstellen wir Ihre Lohnabrechnungen und Lohnausweise. Wir sorgen für die pünktliche Auszahlung der Gehälter und garantieren eine effiziente Abwicklung unter Berücksichtigung aller sozialversicherungsrechtlichen Vorgaben. Dabei übernehmen wir nicht nur die Berechnung der Löhne, sondern auch die Anmeldung und Abführung der Sozialversicherungsbeiträge sodass Sie rechtlich stets auf der sicheren Seiten sind.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -715,9 +725,9 @@
         ]
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Nachlass & Erbrecht",
+        "summary": "Nachlassplanung, Willensvollstreckung und Erbteilung – sorgfältig und diskret begleitet.",
+        "body": "Die rechtliche und finanzielle Absicherung ist eine der wichtigsten Vorsorgemassnahmen für Sie und Ihre Familie. Wir stehen Ihnen mit umfassender Expertise und persönlicher Beratung zur Seite, um Ihre privaten Angelegenheiten rechtssicher und nach Ihren individuellen Vorstellungen zu gestalten. Ob Ehevertrag, Nachlassregelung oder Vorsorgedokument, wir unterstützen Sie dabei, langfristige Klarheit und Sicherheit zu schaffen.\n\nJede Ehe ist einzigartig, also wie die finanziellen und rechtlichen Rahmenbedingungen, die mit ihr einhergehen. Ein Ehevertrag kann helfen, finanzielle Unklarheiten zu vermeiden und für beide Partner faire Regelungen zu schaffen. Wir beraten Sie kompetent zu den verschiedenen Güterständen, wie Gütertrennung oder Gütergemeinschaft und erarbeiten gemeinsam mit Ihnen eine rechtssichere Lösung, die Ihren individuellen Bedürfnissen entspricht.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -726,20 +736,9 @@
         ]
       },
       {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut dolore magna aliquyam erat, sed diam Eos et accusam et justo duo dolores et ea rebum.",
-        "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut dolore magna aliquyam erat, sed diam Eos et accusam et justo duo dolores et ea rebum.\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Eos et accusam et justo duo dolores et ea rebum.\n\nStet clita kasd gu",
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Unser umfassendes Dienstleistungsangebot im Bereich Treuhand ist darauf ausgerichtet, Ihnen den Rücken freizuhalten, damit Sie sich uneingeschränkt auf Ihr Kerngeschäft konzentrieren können. Wir unterstützen Sie mit fundiertem Fachwissen, langjähriger Erfahrung und modernen Lösungen, um Ihre finanziellen und administrativen Prozesse effizient und gesetzeskonform zu gestalten.\n\nEine ordnungsgemässe Buchhaltung ist wichtig für den nachhaltigen Erfolg Ihres Unternehmens. Wir bieten Ihnen eine vollumfängliche Betreuung im Finanz- und Rechnungswesen, sodass Sie stets einen klaren Überblick über Ihre finanzielle Situation haben. Unsere Leistungen umfassen:\n\nDurch unsere professionelle Betreuung können Sie sicher sein, dass Ihre Buchhaltung stets korrekt, aktuell und transparent geführt wird.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -757,8 +756,9 @@
   "about": {
     "eyebrow": "Über uns",
     "heading": "Geschichte",
-    "lead": "Unsere Philosophie basiert auf der kontinuierlichen Weiterentwicklung unserer Fachkompetenzen. Gleichzeitig unterstützen wir unsere Mitarbeitenden aktiv bei der Erlangung anerkannter Fachausweise und eidgenössischer Diplome. Diese Kombination aus erstklassiger Aus- und Weiterbildung und langjähriger Berufserfahrung bildet das Fundament für die hohe Qualität unserer Kundenbetreuung.",
+    "lead": "Die L+A Steuerberatung & Treuhand AG wurde 1981 in Dietikon gegründet und hat sich seither zu einem etablierten Unternehmen in der Treuhandbranche entwickelt. Seit 1992 befindet sich unser Firmensitz an der Badenerstrasse 745 in Zürich-Altstetten. Mit einem engagierten Team betreuen wir heute rund 450 zufriedene Kunden aus dem In- und Ausland.",
     "paragraphs": [
+      "Unsere Philosophie basiert auf der kontinuierlichen Weiterentwicklung unserer Fachkompetenzen. Gleichzeitig unterstützen wir unsere Mitarbeitenden aktiv bei der Erlangung anerkannter Fachausweise und eidgenössischer Diplome. Diese Kombination aus erstklassiger Aus- und Weiterbildung und langjähriger Berufserfahrung bildet das Fundament für die hohe Qualität unserer Kundenbetreuung.",
       "Als Mitglied des Schweizerischen Treuhänderverbandes (STV) sind wir höchsten ethischen Standards verpflichtet. Zudem unterstehen wir den gesetzlichen Vorgaben des Geldwäschereigesetzes, was für zusätzliche Sicherheit und Transparenz sorgt.",
       ". Diese Werte prägen unser Handeln und garantieren, dass Sie bei uns nicht nur fachlich, sondern auch menschlich gut aufgehoben sind."
     ]
@@ -766,8 +766,8 @@
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Unser umfassendes Dienstleistungsangebot im Bereich Treuhand ist darauf ausgerichtet, Ihnen den Rücken freizuhalten, damit Sie sich uneingeschränkt auf Ihr Kerngeschäft konzentrieren können. Wir unterstützen Sie mit fundiertem Fachwissen, langjähriger Erfahrung und modernen Lösun",
+      "heading": "Unternehmensberatung",
+      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -780,7 +780,20 @@
     {
       "eyebrow": "Leistung",
       "heading": "Steuerberatung",
-      "body": "Eine korrekte, fristgerechte und strategisch optimierte Steuererklärung ist wichtig, um unnötige Nachzahlungen, Verzugszinsen oder gar rechtliche Probleme zu vermeiden. Wir übernehmen diesen Prozess für Sie mit höchster Sorgfalt und unter Berücksichtigung aller aktuellen gesetzli",
+      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Immobilien",
+      "body": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -793,20 +806,7 @@
     {
       "eyebrow": "Leistung",
       "heading": "Lohnadministration",
-      "body": "Eine reibungslose und professionelle Personaladministration ist das Fundament eines erfolgreichen Unternehmens. Wir sind Ihr verlässlicher Partner in Zürich und übernehmen sämtliche administrativen Aufgaben im Personalwesen mit höchster Sorgfalt und Fachkompetenz. Unsere Dienstle",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut dolore magna aliquyam erat, sed diam Eos et accusam et justo duo dolores et ea rebum.",
+      "body": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -888,7 +888,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Badenerstrasse 745, 8048 Zürich",
       "phone": "+41 44 438 83 83",
       "email": "info@latreuhand.ch"
     },
@@ -910,7 +910,7 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Badenerstrasse 745, 8048 Zürich",
           "+41 44 438 83 83",
           "info@latreuhand.ch"
         ]

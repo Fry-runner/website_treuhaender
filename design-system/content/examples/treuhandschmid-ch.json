@@ -3,98 +3,90 @@
     "firm": "Treuhand Catherine Schmid GmbH",
     "domain": "treuhandschmid.ch",
     "archetype": "boutique",
-    "lookId": "uds-warm-editorial",
+    "lookId": "swiss-clean",
     "sourceUrl": "https://www.treuhandschmid.ch/",
-    "basePresetId": "uds-warm-editorial",
+    "basePresetId": "swiss-clean",
     "look": {
       "meta": {
         "id": "treuhandschmid-ch-brand",
-        "name": "Unter dem Strich Warm Editorial · brand-generated",
-        "mood": "Boutique editorial on warm paper; sharp corners, hairline borders, ink-blue + rose accents, snappy underline link motion.",
-        "source": "Unter-Dem-Strich + generated accent",
+        "name": "Swiss Clean · logo-tinted",
+        "source": "synthesized (references) + logo colour",
+        "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
         "derived": [
-          "color.surface (#FFFFFF cards on paper)",
-          "color.primaryFg (#FFFFFF)",
-          "color.primarySoft (#EAECF6 tint)",
-          "base: uds-warm-editorial",
-          "accent #955337 (generated · scraped #FF6400 rejected: low)",
+          "base: swiss-clean",
+          "accent #54A67A → #509E74 (logo · raised for contrast)",
           "heading: Poppins (scraped)",
-          "body: Mulish (inventory)",
-          "mono: DM Mono (inventory)"
+          "body: Work Sans (inventory)",
+          "mono: IBM Plex Mono (inventory)"
         ]
       },
       "tags": {
         "tone": "formal",
-        "warmth": "warm",
-        "corner": "sharp",
+        "warmth": "cool",
+        "corner": "medium",
         "density": "airy",
         "contrast": "high",
-        "era": "timeless",
+        "era": "modern",
         "accentEnergy": "medium"
       },
       "color": {
-        "bg": "#FAF9F6",
-        "surface": "#FFFFFF",
-        "text": "#1C1C1A",
-        "textMuted": "#8A8782",
-        "border": "#E7E4DD",
-        "primary": "#955337",
+        "bg": "#FFFFFF",
+        "surface": "#F2F7F8",
+        "text": "#0E2A33",
+        "textMuted": "#5B7682",
+        "border": "#DCE7EA",
+        "primary": "#509E74",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#F2ECE7",
-        "secondary": "#3698A7",
+        "primarySoft": "#F1F7F4",
+        "secondary": "#509E74",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
         "heading": "\"Poppins\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "mono": "\"DM Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
-        "headingRole": "display-geometric"
+        "headingRole": "display-geometric",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
-        "displayMax": "7xl",
+        "displayMax": "6xl",
         "headlineWeight": "semibold",
         "bodyWeight": "normal",
         "headlineTracking": "tight",
         "eyebrow": {
           "uppercase": true,
-          "tracking": "widest",
-          "weight": "medium"
+          "tracking": "wider",
+          "weight": "semibold"
         }
       },
       "radius": {
-        "base": "sm",
+        "base": "md",
         "pill": "full",
-        "scale": "sharp"
+        "scale": "medium"
       },
       "shadow": {
-        "elevation": "flat",
+        "elevation": "subtle",
         "card": "sm"
       },
       "spacing": {
-        "sectionY": "py-24",
+        "sectionY": "py-20",
         "rhythm": "airy",
-        "containerMax": "1200px",
+        "containerMax": "1280px",
         "gutter": "1.5rem"
       },
       "motion": {
-        "durationMs": 200,
-        "easing": "ease-out",
-        "intensity": "subtle"
+        "durationMs": 260,
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "moderate"
       },
       "background": {
-        "treatment": "warm-paper",
+        "treatment": "flat-white",
         "blur": true
       },
       "raw": {
-        "--color-brand-bg": "#FAF9F6",
-        "--color-brand-text": "#1C1C1A",
-        "--color-brand-blue": "#2C3E91",
-        "--color-brand-rose": "#E3A39B",
-        "--color-brand-border": "#E7E4DD",
-        "--color-brand-muted": "#8A8782",
+        "--accent-teal": "#0EA5A5",
+        "--ink-navy": "#1E3A5F",
         "--font-sans": "Inter",
-        "--font-display": "Plus Jakarta Sans",
-        "--font-mono": "JetBrains Mono"
+        "--font-display": "Space Grotesk"
       }
     },
     "brand": {
@@ -165,7 +157,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -196,7 +187,6 @@
       "process (generic)",
       "audience (generic)",
       "about (generic)",
-      "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -214,6 +204,7 @@
       "media.pool",
       "media.logo",
       "media.documents",
+      "logo.colors",
       "brand.fonts"
     ]
   },
@@ -375,9 +366,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Buchhaltung erfordert Disziplin und Konzentration. Konzentriert zu sein und zu bleiben, ist gar nicht so einfach, wenn man an mehreren Orten gleichzeitig sein sollte oder ständig neue Kundenanfragen eingehen. Damit Sie sich ruhigen Gewissens auf das Kerngeschäft konzentrieren kön",
-        "body": "Buchhaltung erfordert Disziplin und Konzentration. Konzentriert zu sein und zu bleiben, ist gar nicht so einfach, wenn man an mehreren Orten gleichzeitig sein sollte oder ständig neue Kundenanfragen eingehen. Damit Sie sich ruhigen Gewissens auf das Kerngeschäft konzentrieren können, nehmen wir Ihnen folgende Arbeiten auf Wunsch ab:\n\nZufriedene Mitarbeiter sind gute Mitarbeiter. Eine transparente und zuverlässige Lohnabrechnung ist ein Parameter der Zufriedenheit, der Sie keinen zeitlichen Aufwand kosten muss.\n\nKoordination und Abklärungen mit Sozialversicherungen und Behörden (Ausgleichskassen, Versicherungen, Quellensteuern usw.)\n\nWir setzen uns gerne mit Ihnen zusammen, um den Abschluss zu analysieren und zu kommentieren, mit dem Ziel, Ihr Unternehmen effizient zu optimieren.",
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Sie möchten bereits längere Zeit eine eigene Unternehmung gründen, sind jedoch unentschlossen, welche Form Sie bevorzugen sollen? Wir stehen Ihnen gerne beratend zur Seite. Wir kümmern uns um die Vorbereitungen aller Papiere, bis die Unternehmung notariell beglaubigt werden kann und im Handelsregister eingetragen wird.\n\nSie sind mit dem Preis-Leistungs-Verhältnis Ihrer bisherigen Versicherung unzufrieden? Oder hat Sie das leise Gefühl beschlichen, hoffnungslos überversichert zu sein? Wir beraten Sie gerne und arbeiten dabei Hand in Hand mit Versicherungsexperten.\n\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -387,8 +378,19 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Die alljährliche Steuererklärung ist ein aufwendiges Muss. Bestimmt sind Sie froh, wenn wir Ihnen diese Arbeit abnehmen würden, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Die alljährliche Steuererklärung ist ein aufwendiges Muss. Bestimmt sind Sie froh, wenn wir Ihnen diese Arbeit abnehmen würden, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.\n\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Buchhaltung erfordert Disziplin und Konzentration. Konzentriert zu sein und zu bleiben, ist gar nicht so einfach, wenn man an mehreren Orten gleichzeitig sein sollte oder ständig neue Kundenanfragen eingehen. Damit Sie sich ruhigen Gewissens auf das Kerngeschäft konzentrieren können, nehmen wir Ihnen folgende Arbeiten auf Wunsch ab:\n\nZufriedene Mitarbeiter sind gute Mitarbeiter. Eine transparente und zuverlässige Lohnabrechnung ist ein Parameter der Zufriedenheit, der Sie keinen zeitlichen Aufwand kosten muss.\n\nKoordination und Abklärungen mit Sozialversicherungen und Behörden (Ausgleichskassen, Versicherungen, Quellensteuern usw.)\n\nWir setzen uns gerne mit Ihnen zusammen, um den Abschluss zu analysieren und zu kommentieren, mit dem Ziel, Ihr Unternehmen effizient zu optimieren.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -399,7 +401,7 @@
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -410,7 +412,7 @@
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -421,18 +423,7 @@
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Sie möchten bereits längere Zeit eine eigene Unternehmung gründen, sind jedoch unentschlossen, welche Form Sie bevorzugen sollen? Wir stehen Ihnen gerne beratend zur Seite. Wir kümmern uns um die Vorbereitungen aller Papiere, bis die Unternehmung notariell beglaubigt werden kann ",
-        "body": "Sie möchten bereits längere Zeit eine eigene Unternehmung gründen, sind jedoch unentschlossen, welche Form Sie bevorzugen sollen? Wir stehen Ihnen gerne beratend zur Seite. Wir kümmern uns um die Vorbereitungen aller Papiere, bis die Unternehmung notariell beglaubigt werden kann und im Handelsregister eingetragen wird.\n\nSie sind mit dem Preis-Leistungs-Verhältnis Ihrer bisherigen Versicherung unzufrieden? Oder hat Sie das leise Gefühl beschlichen, hoffnungslos überversichert zu sein? Wir beraten Sie gerne und arbeiten dabei Hand in Hand mit Versicherungsexperten.\n\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -450,8 +441,8 @@
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Buchhaltung erfordert Disziplin und Konzentration. Konzentriert zu sein und zu bleiben, ist gar nicht so einfach, wenn man an mehreren Orten gleichzeitig sein sollte oder ständig neue Kundenanfragen eingehen. Damit Sie sich ruhigen Gewissens auf das Kerngeschäft konzentrieren kön",
+      "heading": "Unternehmensberatung",
+      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -464,7 +455,7 @@
     {
       "eyebrow": "Leistung",
       "heading": "Steuerberatung",
-      "body": "Die alljährliche Steuererklärung ist ein aufwendiges Muss. Bestimmt sind Sie froh, wenn wir Ihnen diese Arbeit abnehmen würden, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.",
+      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -476,8 +467,8 @@
     },
     {
       "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Sie möchten bereits längere Zeit eine eigene Unternehmung gründen, sind jedoch unentschlossen, welche Form Sie bevorzugen sollen? Wir stehen Ihnen gerne beratend zur Seite. Wir kümmern uns um die Vorbereitungen aller Papiere, bis die Unternehmung notariell beglaubigt werden kann ",
+      "heading": "Buchhaltung",
+      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -492,6 +483,12 @@
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
+      {
+        "name": "Catherine Schmid",
+        "role": "Fachfrau im Finanz- und Rechnungswesen",
+        "initials": "CS",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
       {
         "name": "Franziska Sigg",
         "role": "Sachbearbeiterin Buchhaltung",
@@ -542,7 +539,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Gubelstrasse 19, 8050 Zürich",
       "phone": "+41 44 317 61 91",
       "email": "info@treuhandschmid.ch"
     },
@@ -564,7 +561,7 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Gubelstrasse 19, 8050 Zürich",
           "+41 44 317 61 91",
           "info@treuhandschmid.ch"
         ]

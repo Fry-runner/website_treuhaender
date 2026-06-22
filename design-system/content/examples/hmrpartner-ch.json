@@ -17,7 +17,7 @@
           "color.primaryFg (#FFFFFF)",
           "color.primarySoft (#EAECF6 tint)",
           "base: uds-warm-editorial",
-          "accent #916430 (generated · no scraped colour)",
+          "accent #916430 (generated · no scraped or logo colour)",
           "heading: Be Vietnam Pro (inventory)",
           "body: Mulish (inventory)",
           "mono: DM Mono (inventory)"
@@ -110,6 +110,7 @@
         "services",
         "audience",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -147,14 +148,13 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "kein echtes Team gefunden",
+        "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -189,6 +189,8 @@
       "contact.email",
       "contact.phone",
       "hero.lede",
+      "team.members",
+      "team.photos",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -211,7 +213,9 @@
       "Jahresabschluss": "/images/hmrpartner-ch/pool/stock-meeting-7651927.jpg",
       "Mehrwertsteuer": "/images/hmrpartner-ch/pool/stock-office-5483059.jpg",
       "Unternehmensberatung": "/images/hmrpartner-ch/pool/stock-documents-7567551.jpg",
-      "Revision": "/images/hmrpartner-ch/pool/stock-advisory-13701589.jpg"
+      "Revision": "/images/hmrpartner-ch/pool/stock-advisory-13701589.jpg",
+      "Immobilien": "/images/hmrpartner-ch/pool/stock-documents-590045.jpg",
+      "Nachlass & Erbrecht": "/images/hmrpartner-ch/pool/stock-office-4680351.jpg"
     },
     "documents": [
       {
@@ -330,7 +334,7 @@
         "orientation": "landscape",
         "subject": "portrait",
         "phash": "1a192d09130c0e4a",
-        "quality": 0.64,
+        "quality": 0.66,
         "faces": 1,
         "roles": []
       },
@@ -372,7 +376,7 @@
         "orientation": "landscape",
         "subject": "portrait",
         "phash": "719191919343434",
-        "quality": 0.63,
+        "quality": 0.64,
         "faces": 1,
         "roles": []
       },
@@ -410,7 +414,7 @@
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
         "source": "https://www.pexels.com/photo/calculator-on-top-of-the-paper-7580854/",
-        "quality": 0.57,
+        "quality": 0.56,
         "faces": 0,
         "roles": [
           "gallery",
@@ -452,7 +456,7 @@
         "stock": true,
         "credit": "Lukas Blazek (Pexels)",
         "source": "https://www.pexels.com/photo/close-up-photo-of-survey-spreadsheet-590022/",
-        "quality": 0.37,
+        "quality": 0.39,
         "faces": 0,
         "roles": [
           "gallery",
@@ -471,7 +475,7 @@
         "stock": true,
         "credit": "Thirdman (Pexels)",
         "source": "https://www.pexels.com/photo/young-business-people-sitting-and-discussing-inside-an-office-room-7651927/",
-        "quality": 0.61,
+        "quality": 0.62,
         "faces": 2,
         "roles": [
           "gallery",
@@ -492,7 +496,7 @@
         "stock": true,
         "credit": "cottonbro studio (Pexels)",
         "source": "https://www.pexels.com/photo/empty-lounge-interior-5483059/",
-        "quality": 0.52,
+        "quality": 0.53,
         "faces": 0,
         "roles": [
           "gallery",
@@ -513,7 +517,7 @@
         "stock": true,
         "credit": "Tima Miroshnichenko (Pexels)",
         "source": "https://www.pexels.com/photo/a-hand-holding-a-pen-7567551/",
-        "quality": 0.51,
+        "quality": 0.52,
         "faces": 0,
         "roles": [
           "gallery",
@@ -534,8 +538,47 @@
         "stock": true,
         "credit": "Luke Miller (Pexels)",
         "source": "https://www.pexels.com/photo/a-man-and-woman-holding-a-paper-13701589/",
-        "quality": 0.55,
+        "quality": 0.57,
         "faces": 2,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/hmrpartner-ch/pool/stock-documents-590045.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 43402,
+        "width": 1280,
+        "height": 848,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/graph-and-line-chart-printed-paper-590045/",
+        "quality": 0.34,
+        "faces": 0,
+        "roles": [
+          "gallery"
+        ]
+      },
+      {
+        "src": "/images/hmrpartner-ch/pool/stock-office-4680351.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 95288,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "KATRIN  BOLOVTSOVA (Pexels)",
+        "source": "https://www.pexels.com/photo/computer-on-white-desk-4680351/",
+        "quality": 0.68,
+        "faces": 0,
         "roles": [
           "gallery",
           "background",
@@ -558,7 +601,8 @@
       "Thirdman (Pexels)",
       "cottonbro studio (Pexels)",
       "Tima Miroshnichenko (Pexels)",
-      "Luke Miller (Pexels)"
+      "Luke Miller (Pexels)",
+      "KATRIN  BOLOVTSOVA (Pexels)"
     ]
   },
   "nav": {
@@ -596,21 +640,21 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/hmrpartner-ch/pool/stock-finance-7580854.jpg"
+        "image": "/images/hmrpartner-ch/pool/stock-documents-7567551.jpg"
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Wir übernehmen steuerberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -620,9 +664,33 @@
         "image": "/images/hmrpartner-ch/pool/stock-office-4597993.jpg"
       },
       {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/hmrpartner-ch/pool/stock-finance-7580854.jpg"
+      },
+      {
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/hmrpartner-ch/pool/stock-advisory-13701589.jpg"
+      },
+      {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -634,7 +702,7 @@
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -642,30 +710,6 @@
           "Transparente Pauschale ohne versteckte Kosten"
         ],
         "image": "/images/hmrpartner-ch/pool/stock-meeting-7651927.jpg"
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Wir übernehmen unternehmensberatung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/hmrpartner-ch/pool/stock-documents-7567551.jpg"
-      },
-      {
-        "title": "Revision",
-        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-        "body": "Wir übernehmen revision vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/hmrpartner-ch/pool/stock-advisory-13701589.jpg"
       }
     ]
   },
@@ -677,7 +721,36 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "Karin Baumgartner",
+        "role": "Inhaberin und Geschäftsführerin",
+        "initials": "KB",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/hmrpartner-ch/team/0-baumgartner.jpg"
+      },
+      {
+        "name": "Sandro Zatti",
+        "role": "Fachmann im Finanz- und Rechnungswesen mit eidg. Fachausweis",
+        "initials": "SZ",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/hmrpartner-ch/team/1-zatti.jpg"
+      },
+      {
+        "name": "Andrina Löhle",
+        "role": "Sachbearbeiterin Treuhand / Rechnungswesen",
+        "initials": "AL",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/hmrpartner-ch/team/2-löhle.jpg"
+      },
+      {
+        "name": "Patrizia Fleischmann",
+        "role": "Sachbearbeiterin Treuhand / Rechnungswesen",
+        "initials": "PF",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/hmrpartner-ch/team/3-fleischmann.jpg"
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -721,7 +794,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Rapperswil",
+      "address": "Neue Jonastrasse 79, 8640 Rapperswil",
       "phone": "055 222 77 00",
       "email": "karin.baumgartner@hmrpartner.ch"
     },
@@ -742,7 +815,7 @@
       {
         "title": "Standort",
         "links": [
-          "Rapperswil",
+          "Neue Jonastrasse 79, 8640 Rapperswil",
           "055 222 77 00",
           "karin.baumgartner@hmrpartner.ch"
         ]

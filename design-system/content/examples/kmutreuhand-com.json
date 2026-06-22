@@ -9,16 +9,16 @@
     "look": {
       "meta": {
         "id": "kmutreuhand-com-brand",
-        "name": "Züri Swiss Blue · brand-tinted",
+        "name": "Züri Swiss Blue · logo-tinted",
         "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
-        "source": "Züri-Treuhand + scraped brand",
+        "source": "Züri-Treuhand + logo colour",
         "derived": [
           "color.primaryFg (#FFFFFF)",
           "color.primarySoft (#EAF1F8 tint)",
           "color.secondaryFg (#FFFFFF)",
           "color.textMuted (#737373 neutral-500)",
           "base: zueri-swiss",
-          "accent #2766A7 (scraped · medium)",
+          "accent #2766A7 (logo)",
           "heading: Montserrat (scraped)",
           "body: Karla (inventory)",
           "mono: Space Mono (inventory)"
@@ -123,6 +123,7 @@
         "services",
         "audience",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -164,14 +165,13 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "kein echtes Team gefunden",
+        "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -204,13 +204,14 @@
       "hero.headline",
       "hero.lede",
       "services.text",
+      "team.members",
       "about",
       "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
       "media.logo",
-      "brand.colors",
+      "logo.colors",
       "brand.fonts"
     ]
   },
@@ -378,9 +379,20 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Suchen Sie eine professionelle Unterstützung bei der Finanzbuchhaltung? Mit unserer langjährigen Erfahrung entlasten wir Sie gerne in sämtlichen Belangen Ihrer Buchhaltung.\n\nZudem kennen wir uns mit verschiedenen Finanzbuchhaltungs- und ERP-Systemen aus und bieten Ihnen nebst verschiedenen Treuhanddienstleistungen auch gerne zu diesen Themen kompetente Unterstützung.\n\nWir erstellen Ihren Jahresabschluss und beraten Sie gerne bei den finanzwirtschaftlichen und steuerlichen Themen.\n\nWir erstellen Ihre monatlichen Lohnabrechnungen, kümmern uns um Ihre Lohndeklarationen bei Sozialversicherungen und verfassen die Lohnausweise. Zudem informieren wir Sie über wichtige Änderungen im Sozialversicherungsrecht.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
         "title": "Buchhaltung",
-        "summary": "Wir führen Ihre Buchhaltung periodisch nach und erstellen die MWST-Abrechnung auf Basis der gesetzlichen Grundlagen und steuerrechtlichen Aspekte.",
-        "body": "Wir führen Ihre Buchhaltung periodisch nach und erstellen die MWST-Abrechnung auf Basis der gesetzlichen Grundlagen und steuerrechtlichen Aspekte.\n\nNatürlich besteht auch die Möglichkeit, dass Sie Ihre Buchhaltung (teilweise oder vollständig) selbst führen: in diesem Fall beraten wir Sie gerne bei der Auswahl einer geeigneten Buchhaltungs-Software, bieten Ihnen die Schulung Ihres Personals an und informieren Sie laufend über zu berücksichtigende Änderungen in der Buchführung.\n\nWir unterstützen Sie gerne mit verschiedensten Buchhaltungssoftware und Finanzsystemen. Durch lange Erfahrung und kontinuierliche Weiterbildung nutzen wir die digitalen Möglichkeiten, um möglichst effizient zu arbeiten. Sie können uns den Zugriff zu Ihrer Software freigeben oder über eine Server-Lösung mit uns zusammenarbeiten.\n\nHier einige Finanzbuchhaltungs- und ERP-Systeme, mit welchen wir Sie unterstützen könne",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Wir führen Ihre Buchhaltung periodisch nach und erstellen die MWST-Abrechnung auf Basis der gesetzlichen Grundlagen und steuerrechtlichen Aspekte.\n\nNatürlich besteht auch die Möglichkeit, dass Sie Ihre Buchhaltung (teilweise oder vollständig) selbst führen: in diesem Fall beraten wir Sie gerne bei der Auswahl einer geeigneten Buchhaltungs-Software, bieten Ihnen die Schulung Ihres Personals an und informieren Sie laufend über zu berücksichtigende Änderungen in der Buchführung.\n\nWir unterstützen Sie gerne mit verschiedensten Buchhaltungssoftware und Finanzsystemen. Durch lange Erfahrung und kontinuierliche Weiterbildung nutzen wir die digitalen Möglichkeiten, um möglichst effizient zu arbeiten. Sie können uns den Zugriff zu Ihrer Software freigeben oder über eine Server-Lösung mit uns zusammenarbeiten.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -390,7 +402,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Suchen Sie eine professionelle Unterstützung bei der Finanzbuchhaltung? Mit unserer langjährigen Erfahrung entlasten wir Sie gerne in sämtlichen Belangen Ihrer Buchhaltung.",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Suchen Sie eine professionelle Unterstützung bei der Finanzbuchhaltung? Mit unserer langjährigen Erfahrung entlasten wir Sie gerne in sämtlichen Belangen Ihrer Buchhaltung.\n\nZudem kennen wir uns mit verschiedenen Finanzbuchhaltungs- und ERP-Systemen aus und bieten Ihnen nebst verschiedenen Treuhanddienstleistungen auch gerne zu diesen Themen kompetente Unterstützung.\n\nWir erstellen Ihren Jahresabschluss und beraten Sie gerne bei den finanzwirtschaftlichen und steuerlichen Themen.\n\nWir erstellen Ihre monatlichen Lohnabrechnungen, kümmern uns um Ihre Lohndeklarationen bei Sozialversicherungen und verfassen die Lohnausweise. Zudem informieren wir Sie über wichtige Änderungen im Sozialversicherungsrecht.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -401,7 +413,7 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Mitarbeitende sind das wichtigste Gut in einem Unternehmen. Eine zuverlässige Lohnbuchhaltung sowie Sozialversicherungsdeklarationen und Abrechnungen sind grundlegend für eine stabile Personaladministration.",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
         "body": "Mitarbeitende sind das wichtigste Gut in einem Unternehmen. Eine zuverlässige Lohnbuchhaltung sowie Sozialversicherungsdeklarationen und Abrechnungen sind grundlegend für eine stabile Personaladministration.\n\nKontaktieren Sie uns jederzeit unverbindlich und wir werden uns so bald wie möglich bei Ihnen melden.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -412,7 +424,7 @@
       },
       {
         "title": "Jahresabschluss",
-        "summary": "Wir erstellen Ihren Jahresabschluss steueroptimiert und nach den gesetzlichen Vorschriften und führen gemeinsam mit Ihnen eine persönliche Abschlussbesprechung vor Ort oder online durch.",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
         "body": "Wir erstellen Ihren Jahresabschluss steueroptimiert und nach den gesetzlichen Vorschriften und führen gemeinsam mit Ihnen eine persönliche Abschlussbesprechung vor Ort oder online durch.\n\nKontaktieren Sie uns jederzeit unverbindlich und wir werden uns so bald wie möglich bei Ihnen melden.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -424,18 +436,7 @@
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Suchen Sie eine professionelle Unterstützung bei der Finanzbuchhaltung? Mit unserer langjährigen Erfahrung entlasten wir Sie gerne in sämtlichen Belangen Ihrer Buchhaltung.\n\nZudem kennen wir uns mit verschiedenen Finanzbuchhaltungs- und ERP-Systemen aus und bieten Ihnen nebst verschiedenen Treuhanddienstleistungen auch gerne zu diesen Themen kompetente Unterstützung.\n\nWir erstellen Ihren Jahresabschluss und beraten Sie gerne bei den finanzwirtschaftlichen und steuerlichen Themen.\n\nWir erstellen Ihre monatlichen Lohnabrechnungen, kümmern uns um Ihre Lohndeklarationen bei Sozialversicherungen und verfassen die Lohnausweise. Zudem informieren wir Sie über wichtige Änderungen im Sozialversicherungsrecht.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -453,16 +454,31 @@
   "about": {
     "eyebrow": "Über uns",
     "heading": "Treuhand ist für uns mehr als Vertrauenssache",
-    "lead": "Wir sind regional verankert und unser Gebiet erstreckt sich von Meiringen bis ins Seeland.",
+    "lead": "Im Jahr 2014 gründete Monika Manco-Hostettler die Einzelunternehmung «kmuTREUHAND Manco». Durch die stetige Weiterentwicklung übertrug Monika Manco-Hostettler die Einzelunternehmung in eine Gesellschaft mit beschränkter Haftung, die «kmuTREUHAND Schweiz GmbH» mit Sitz in Steffisburg. Noch im selben Jahr stiess Anna Reinhard dazu. Mit Ihrem wertvollen Fachwissen komplettiert Sie das Team und unterstützt unsere Kunden leidenschaftlich bei allen Anliegen.",
     "paragraphs": [
-      "Die langjährige Erfahrung in der Treuhandbranche macht es uns möglich, verschiedenste Privat- und Firmenkunden zu unterstützen. Durch Einblicke in Betriebe aus unterschiedlichen Branchen durften wir unsere Fachkompetenzen erweitern und können Sie auch bei spezifischen Angelegenheiten persönlich, kompetent und effizient unterstützen."
+      "Wir sind regional verankert und unser Gebiet erstreckt sich von Meiringen bis ins Seeland.",
+      "Die langjährige Erfahrung in der Treuhandbranche macht es uns möglich, verschiedenste Privat- und Firmenkunden zu unterstützen. Durch Einblicke in Betriebe aus unterschiedlichen Branchen durften wir unsere Fachkompetenzen erweitern und können Sie auch bei spezifischen Angelegenheiten persönlich, kompetent und effizient unterstützen.",
+      "Kontaktieren Sie uns jederzeit unverbindlich und wir werden uns so bald wie möglich bei Ihnen melden."
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Termin buchen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
       "heading": "Buchhaltung",
-      "body": "Wir führen Ihre Buchhaltung periodisch nach und erstellen die MWST-Abrechnung auf Basis der gesetzlichen Grundlagen und steuerrechtlichen Aspekte.",
+      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -475,7 +491,7 @@
     {
       "eyebrow": "Leistung",
       "heading": "Steuerberatung",
-      "body": "Suchen Sie eine professionelle Unterstützung bei der Finanzbuchhaltung? Mit unserer langjährigen Erfahrung entlasten wir Sie gerne in sämtlichen Belangen Ihrer Buchhaltung.",
+      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -488,20 +504,7 @@
     {
       "eyebrow": "Leistung",
       "heading": "Lohnadministration",
-      "body": "Mitarbeitende sind das wichtigste Gut in einem Unternehmen. Eine zuverlässige Lohnbuchhaltung sowie Sozialversicherungsdeklarationen und Abrechnungen sind grundlegend für eine stabile Personaladministration.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Jahresabschluss",
-      "body": "Wir erstellen Ihren Jahresabschluss steueroptimiert und nach den gesetzlichen Vorschriften und führen gemeinsam mit Ihnen eine persönliche Abschlussbesprechung vor Ort oder online durch.",
+      "body": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -515,7 +518,14 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "Anna Reinhard",
+        "role": "Sachbearbeiterin",
+        "initials": "AR",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -556,9 +566,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Steffisburg",
+      "address": "Bernstrasse 134, 3613 Steffisburg",
       "phone": "+41 33 550 01 62",
-      "email": "anna.reinhard@kmutreuhand.com"
+      "email": "info@kmutreuhand.com"
     },
     "formCta": "Nachricht senden"
   },
@@ -579,9 +589,9 @@
       {
         "title": "Standort",
         "links": [
-          "Steffisburg",
+          "Bernstrasse 134, 3613 Steffisburg",
           "+41 33 550 01 62",
-          "anna.reinhard@kmutreuhand.com"
+          "info@kmutreuhand.com"
         ]
       },
       {

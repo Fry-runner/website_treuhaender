@@ -9,12 +9,12 @@
     "look": {
       "meta": {
         "id": "kmu-trex-ch-brand",
-        "name": "Swiss Clean · brand-generated",
-        "source": "synthesized (references) + generated accent",
+        "name": "Swiss Clean · logo-tinted",
+        "source": "synthesized (references) + logo colour",
         "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
         "derived": [
           "base: swiss-clean",
-          "accent #2C6D42 (generated · no scraped colour)",
+          "accent #B6D5EB → #4896CD (logo · raised for contrast)",
           "heading: Bricolage Grotesque (inventory)",
           "body: Lato (scraped)",
           "mono: IBM Plex Mono (inventory)"
@@ -35,10 +35,10 @@
         "text": "#0E2A33",
         "textMuted": "#5B7682",
         "border": "#DCE7EA",
-        "primary": "#2C6D42",
+        "primary": "#4896CD",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#EEF3F0",
-        "secondary": "#368731",
+        "primarySoft": "#F0F7FB",
+        "secondary": "#4896CD",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -112,6 +112,7 @@
         "services",
         "audience",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -153,14 +154,13 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "kein echtes Team gefunden",
+        "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -183,8 +183,6 @@
       "faq",
       "process (generic)",
       "audience (generic)",
-      "about (generic)",
-      "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -195,6 +193,8 @@
       "hero.headline",
       "hero.lede",
       "services.text",
+      "team.members",
+      "about",
       "feature",
       "footer.tagline",
       "trust.items",
@@ -202,6 +202,7 @@
       "media.logo",
       "trust.badges",
       "media.documents",
+      "logo.colors",
       "brand.fonts"
     ]
   },
@@ -433,8 +434,19 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Firmengründungen geht. Mit viel Leidenschaft sind wir seit mehreren Jahren erfolgreich tätig und arbeiten stets daran, unsere Leistungen effizienter und für Sie adäquat zu gestalten. Im Fokus unserer Arbeit steht, dass wir Ihnen diverse Arbeiten abnehmen, um Ihnen zu ermöglich, sich auf das Wesentliche zu konzentrieren. Klicken Sie sich durch unsere Seite und entdecken Sie unser Angebot.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
         "title": "Buchhaltung",
-        "summary": "Firmengründungen geht. Mit viel Leidenschaft sind wir seit mehreren Jahren erfolgreich tätig und arbeiten stets daran, unsere Leistungen effizienter und für Sie adäquat zu gestalten. Im Fokus unserer Arbeit steht, dass wir Ihnen diverse Arbeiten abnehmen, um Ihnen zu ermöglich, s",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Firmengründungen geht. Mit viel Leidenschaft sind wir seit mehreren Jahren erfolgreich tätig und arbeiten stets daran, unsere Leistungen effizienter und für Sie adäquat zu gestalten. Im Fokus unserer Arbeit steht, dass wir Ihnen diverse Arbeiten abnehmen, um Ihnen zu ermöglich, sich auf das Wesentliche zu konzentrieren. Klicken Sie sich durch unsere Seite und entdecken Sie unser Angebot.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -455,6 +467,17 @@
         ]
       },
       {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Die Schweiz bereitet sich auf eine bedeutende Veränderung im Steuersystem vor, die ab dem 1. Januar 2024 in Kraft treten wird. Diese Veränderung betrifft die Mehrwertsteuer (MWST) und hat weitreichende Auswirkungen auf Unternehmen im Land. Es ist entscheidend, sich frühzeitig auf diese Anpassungen vorzubereiten und die Buchhaltung entsprechend anzupassen. In diesem Blogbeitrag erfahren Sie, was Sie über die bevorstehende MWST-Erhöhung in der Schweiz wissen müssen.\n\nAb dem 1. Januar 2024 wird die MWST in der Schweiz angehoben. Die aktuellen MWST-Sätze von 7,7% für den Normalsteuersatz, 3,7% für den Sondersatz für Beherbergung und 2.5% für den reduzierten Satz werden auf 8,1%/ 3.8% und 2.6% erhöht.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
         "body": "Firmengründungen geht. Mit viel Leidenschaft sind wir seit mehreren Jahren erfolgreich tätig und arbeiten stets daran, unsere Leistungen effizienter und für Sie adäquat zu gestalten. Im Fokus unserer Arbeit steht, dass wir Ihnen diverse Arbeiten abnehmen, um Ihnen zu ermöglich, sich auf das Wesentliche zu konzentrieren. Klicken Sie sich durch unsere Seite und entdecken Sie unser Angebot.",
@@ -466,31 +489,9 @@
         ]
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "Die Schweiz bereitet sich auf eine bedeutende Veränderung im Steuersystem vor, die ab dem 1. Januar 2024 in Kraft treten wird. Diese Veränderung betrifft die Mehrwertsteuer (MWST) und hat weitreichende Auswirkungen auf Unternehmen im Land. Es ist entscheidend, sich frühzeitig auf",
-        "body": "Die Schweiz bereitet sich auf eine bedeutende Veränderung im Steuersystem vor, die ab dem 1. Januar 2024 in Kraft treten wird. Diese Veränderung betrifft die Mehrwertsteuer (MWST) und hat weitreichende Auswirkungen auf Unternehmen im Land. Es ist entscheidend, sich frühzeitig auf diese Anpassungen vorzubereiten und die Buchhaltung entsprechend anzupassen. In diesem Blogbeitrag erfahren Sie, was Sie über die bevorstehende MWST-Erhöhung in der Schweiz wissen müssen.\n\nAb dem 1. Januar 2024 wird die MWST in der Schweiz angehoben. Die aktuellen MWST-Sätze von 7,7% für den Normalsteuersatz, 3,7% für den Sondersatz für Beherbergung und 2.5% für den reduzierten Satz werden auf 8,1%/ 3.8% und 2.6% erhöht. Diese Erhöhung wirkt sich auf die Preise von Produkten und Dienstleistungen aus, und Unternehmen müssen sicherstellen, dass sie ihre Preise entsprechend anpassen, um die neuen Steuersätze zu ber",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Firmengründungen geht. Mit viel Leidenschaft sind wir seit mehreren Jahren erfolgreich tätig und arbeiten stets daran, unsere Leistungen effizienter und für Sie adäquat zu gestalten. Im Fokus unserer Arbeit steht, dass wir Ihnen diverse Arbeiten abnehmen, um Ihnen zu ermöglich, sich auf das Wesentliche zu konzentrieren. Klicken Sie sich durch unsere Seite und entdecken Sie unser Angebot.",
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Wir streben stets nach höchster Transparenz und Integrität in der Geschäftsprüfung.\n\nBeim Thema Revision setzen wir auf unsere Partnerschaft, welche uns ermöglicht, Ihnen eingeschränkte Revisionen anzubieten, die den strengen Anforderungen des heutigen Geschäftsumfelds gerecht werden.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -505,11 +506,47 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Unsere Geschichte",
+    "lead": "Seit 2016 kümmern wir uns um die Anliegen unserer Kundinnen und Kunden. Mit Fokus auf Effizienz und transparenter Kommunikation sind wir der ideale Partner für alle Anliegen rund um Ihre Geschäftstätigkeit. Von Steuerberatungen, Buchhaltung, dem Lohnwesen, Immobilienberatungen oder Firmenneugründungen bieten wir Ihnen alles, was Sie von einem Treuhänder erwarten. Unser Anliegen ist, dass Sie sich aufs Wesentliche konzentrieren. Alles andere übernehmen wir für Sie.",
+    "paragraphs": [
+      "Im Jahr 2016 in Thalwil, wurde die KMU Treuhandexperte GmbH gegründet mit der Mission, Klein- und Mittelunternehmen in der Schweiz zu entlasten, sodass Sie sich wieder auf die umsatzfördernden Tätigkeiten fokussieren können. Da wir uns ständig den Kundenbedürfnissen anpassen, erweiterten wir unser Angebot mit Immobilien- und Versicherungsdienstleistungen, um die Kunden mit Zeiteinsparungen zu begünstigen und als gleichbleibende Vertrauensperson für ihre Anliegen zu fungieren.",
+      "Wir verwenden ausschliesslich moderne Technologien, um unseren Kunden mehr Sicherheit, mehr Dienstleistungsqualität und speditive Ausführung zu gewährleisten. Die KMU Treuhandexperte GmbH positioniert sich als Unternehmen, das kontinuierlich mit der Digitalisierung mitgeht und hochwertige Partnerschaften eingeht, damit die Kunden von den Vorteilen profitieren können.",
+      "Aktuell zählen zu unseren Kunden kleine und mittlere Unternehmen unterschiedlichster Rechtsformen, Vereine, Startups und Privatpersonen mit nationalem sowie internationalem Auftritt. Für unser Portfolio erbringen wir hochstehende Dienstleistungen im Bereich der Buchführung, Steuerberatung, Versicherungs- sowie Immobiliendienstleistungen und Firmengründungen."
+    ]
+  },
   "featureAngles": [
     {
       "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
       "heading": "Buchhaltung",
-      "body": "Firmengründungen geht. Mit viel Leidenschaft sind wir seit mehreren Jahren erfolgreich tätig und arbeiten stets daran, unsere Leistungen effizienter und für Sie adäquat zu gestalten. Im Fokus unserer Arbeit steht, dass wir Ihnen diverse Arbeiten abnehmen, um Ihnen zu ermöglich, s",
+      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -522,7 +559,7 @@
     {
       "eyebrow": "Leistung",
       "heading": "Mehrwertsteuer",
-      "body": "Die Schweiz bereitet sich auf eine bedeutende Veränderung im Steuersystem vor, die ab dem 1. Januar 2024 in Kraft treten wird. Diese Veränderung betrifft die Mehrwertsteuer (MWST) und hat weitreichende Auswirkungen auf Unternehmen im Land. Es ist entscheidend, sich frühzeitig auf",
+      "body": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -536,7 +573,20 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "Jovica Granula",
+        "role": "Unsere externen Partner",
+        "initials": "JG",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Meriton Krasniqi",
+        "role": "Geschäftsführender Partner",
+        "initials": "MK",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -577,7 +627,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Thalwil",
+      "address": "Zürcherstrasse 100, 8800 Thalwil",
       "phone": "044 536 12 65",
       "email": "info@kmu-trex.ch"
     },
@@ -599,7 +649,7 @@
       {
         "title": "Standort",
         "links": [
-          "Thalwil",
+          "Zürcherstrasse 100, 8800 Thalwil",
           "044 536 12 65",
           "info@kmu-trex.ch"
         ]

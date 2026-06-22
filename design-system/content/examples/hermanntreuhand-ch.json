@@ -9,16 +9,16 @@
     "look": {
       "meta": {
         "id": "hermanntreuhand-ch-brand",
-        "name": "Züri Swiss Blue · brand-tinted",
+        "name": "Züri Swiss Blue · logo-tinted",
         "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
-        "source": "Züri-Treuhand + scraped brand",
+        "source": "Züri-Treuhand + logo colour",
         "derived": [
           "color.primaryFg (#FFFFFF)",
           "color.primarySoft (#EAF1F8 tint)",
           "color.secondaryFg (#FFFFFF)",
           "color.textMuted (#737373 neutral-500)",
           "base: zueri-swiss",
-          "accent #1863DC (scraped · medium)",
+          "accent #66A9D7 → #3E92CC (logo · raised for contrast)",
           "heading: Familjen Grotesk (inventory)",
           "body: Mulish (inventory)",
           "mono: Space Mono (inventory)"
@@ -39,10 +39,10 @@
         "text": "#333333",
         "textMuted": "#737373",
         "border": "#EAEAEA",
-        "primary": "#1863DC",
+        "primary": "#3E92CC",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#EDF3FC",
-        "secondary": "#DF0505",
+        "primarySoft": "#F0F6FB",
+        "secondary": "#3E92CC",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -124,8 +124,8 @@
         "hero",
         "services",
         "audience",
-        "stats",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -171,9 +171,9 @@
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
-        "home:stats": "echte Kennzahlen gefunden",
+        "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "kein echtes Team gefunden",
+        "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -205,7 +205,7 @@
       "contact.phone",
       "hero.lede",
       "services.text",
-      "stats",
+      "team.members",
       "about",
       "history",
       "feature",
@@ -216,7 +216,7 @@
       "trust.badges",
       "services.images",
       "media.documents",
-      "brand.colors"
+      "logo.colors"
     ]
   },
   "media": {
@@ -515,20 +515,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Jede Branche, jede Firma, jede Person hat andere Anforderungen an die Buchhaltung. Wir beraten Sie wie Sie Ihre Buchhaltung organisieren und führen können.",
-        "body": "Jede Branche, jede Firma, jede Person hat andere Anforderungen an die Buchhaltung. Wir beraten Sie wie Sie Ihre Buchhaltung organisieren und führen können.\n\nWir stellen uns ganz in Ihren Dienst indem wir Ihre Buchhaltung zuverlässig führen und einen korrekten Buchhaltungsabschluss erstellen.\n\nWir sind in der Lage Ihre Buchhaltungsdaten auf unterschiedliche Weise zu übernehmen und zu verarbeiten. Indem wir ganz auf Ihre Ausgangslage und Ihre Bedürfnisse eingehen können wir die Schnittstelle von Ihrem Betrieb zu uns individuell definieren. Wir legen grossen Wert, dass unsere Arbeitsqualität Ihren Ansprüchen immer gerecht wird sowie die steuerlichen und gesetzlichen Anforderungen erfüllt werden.\n\nverschiedene Buchhaltungslösungen stehen Ihnen zur Verfügung (Vorerfassungsmöglichkeiten, Buchhaltungssoftware, ERP, u.a.)",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
         "title": "Steuerberatung",
-        "summary": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.",
-        "body": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.\n\nGerne stehe ich Ihnen unverbindlich zur Verfügung und freue mich Sie kennenzulernen.",
+        "summary": "Als Mehrwertsteuer-Spezialist kennen wir die spezifischen Anforderungen der Mehrwertsteuer und helfen Ihnen gezielt in der praktischen Umsetzung.",
+        "body": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.\n\nGerne stehe ich Ihnen unverbindlich zur Verfügung und freue mich Sie kennenzulernen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -537,9 +526,9 @@
         ]
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Buchhaltung",
+        "summary": "Die Hermann Treuhand GmbH betreut und berät Sie professionell und zuverlässig in allen Ihren Belangen für die private sowie unternehmerische Buchhaltung.",
+        "body": "Jede Branche, jede Firma, jede Person hat andere Anforderungen an die Buchhaltung. Wir beraten Sie wie Sie Ihre Buchhaltung organisieren und führen können.\n\nWir stellen uns ganz in Ihren Dienst indem wir Ihre Buchhaltung zuverlässig führen und einen korrekten Buchhaltungsabschluss erstellen.\n\nWir sind in der Lage Ihre Buchhaltungsdaten auf unterschiedliche Weise zu übernehmen und zu verarbeiten. Indem wir ganz auf Ihre Ausgangslage und Ihre Bedürfnisse eingehen können wir die Schnittstelle von Ihrem Betrieb zu uns individuell definieren. Wir legen grossen Wert, dass unsere Arbeitsqualität Ihren Ansprüchen immer gerecht wird sowie die steuerlichen und gesetzlichen Anforderungen erfüllt werden.\n\nverschiedene Buchhaltungslösungen stehen Ihnen zur Verfügung (Vorerfassungsmöglichkeiten, Buchhaltungssoftware, ERP, u.a.)",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -548,9 +537,9 @@
         ]
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Unternehmensberatung",
+        "summary": "Eine gut durchdachte EDV kann Ihnen viel Zeit und schliesslich unnötigen Ärger ersparen. Gerne beraten wir Sie in der effektiven Auswahl Ihrer Software.",
+        "body": "Der richtige Umgang mit EDV und den dazugehörigen Programmen ist ein zentraler Teil jedes Unternehmens. Wir beraten und unterstützen Sie in der effizienten Auswahl und dem Einsatz von Programmen, die für Ihren Betrieb relevant sind\n\nBexio ist zur Zeit die inovativste Cloud-basierende Buchhaltungssoftwarelösung für KMU-Betriebe. Einen grossen Teil unserer Mandaten nutzen die Software einerseits für die Finanzbuchhaltung und weitere administratische Arbeiten wie; Fakturierung, Offertwesen, Lohnbuchhaltung, Kreditorenbuchhaltung.\n\nWir arbeiten mit dieser Buchhaltungslösungen seit 20 Jahren und können diese sehr empfehlen.\n\nSage hat verschiedene Lösungen für verschiedene Bedürfnisse im Angebot. Sage bietet auch Cloud basierende Buchhaltungslösungen für KMU-Betriebe an.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -561,7 +550,7 @@
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.\n\nGerne stehe ich Ihnen unverbindlich zur Verfügung und freue mich Sie kennenzulernen.",
+        "body": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.\n\nGerne stehe ich Ihnen unverbindlich zur Verfügung und freue mich Sie kennenzulernen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -571,9 +560,20 @@
         "image": "/images/hermanntreuhand-ch/pool/9b39f1e3c2__MWST-Form-Hermann-Treuhand-e1485894290345.jpg"
       },
       {
-        "title": "Unternehmensberatung",
-        "summary": "Der richtige Umgang mit EDV und den dazugehörigen Programmen ist ein zentraler Teil jedes Unternehmens. Wir beraten und unterstützen Sie in der effizienten Auswahl und dem Einsatz von Programmen, die für Ihren Betrieb relevant sind",
-        "body": "Der richtige Umgang mit EDV und den dazugehörigen Programmen ist ein zentraler Teil jedes Unternehmens. Wir beraten und unterstützen Sie in der effizienten Auswahl und dem Einsatz von Programmen, die für Ihren Betrieb relevant sind\n\nBexio ist zur Zeit die inovativste Cloud-basierende Buchhaltungssoftwarelösung für KMU-Betriebe. Einen grossen Teil unserer Mandaten nutzen die Software einerseits für die Finanzbuchhaltung und weitere administratische Arbeiten wie; Fakturierung, Offertwesen, Lohnbuchhaltung, Kreditorenbuchhaltung.\n\nWir arbeiten mit dieser Buchhaltungslösungen seit 20 Jahren und können diese sehr empfehlen.\n\nSage hat verschiedene Lösungen für verschiedene Bedürfnisse im Angebot. Sage bietet auch Cloud basierende Buchhaltungslösungen für KMU-Betriebe an.",
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -591,7 +591,7 @@
   "about": {
     "eyebrow": "Über uns",
     "heading": "Die Geschichte der Hermann Treuhand GmbH",
-    "lead": "Ich und mein Team setzen uns für Sie und Ihren geschätzten Auftrag ein. Ich bin bedacht, dass Sie eine hervorragende Qualität und einen echten Mehrwert durch unsere Beratung und Service erhalten. Auf eine persönliche und kompetente Betreuung können Sie immer zählen.",
+    "lead": "Ich und mein Team setzen uns für Sie und Ihren geschätzten Auftrag ein. Ich bin bedacht, dass Sie eine hervorragende Qualität und einen echten Mehrwert durch unsere Beratung und Service erhalten. Auf eine persönliche und kompetente Betreuung können Sie immer zählen.",
     "paragraphs": []
   },
   "history": {
@@ -626,8 +626,8 @@
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Jede Branche, jede Firma, jede Person hat andere Anforderungen an die Buchhaltung. Wir beraten Sie wie Sie Ihre Buchhaltung organisieren und führen können.",
+      "heading": "Steuerberatung",
+      "body": "Als Mehrwertsteuer-Spezialist kennen wir die spezifischen Anforderungen der Mehrwertsteuer und helfen Ihnen gezielt in der praktischen Umsetzung.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -639,8 +639,8 @@
     },
     {
       "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Für die richtige Umsetzung der MWST in Ihrem Betrieb setzen wir uns ein. Als MWST-Spezialist kennen wir die spezifischen Anforderungen der MWST und helfen Ihnen in der praktischen Umsetzung.",
+      "heading": "Buchhaltung",
+      "body": "Die Hermann Treuhand GmbH betreut und berät Sie professionell und zuverlässig in allen Ihren Belangen für die private sowie unternehmerische Buchhaltung.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -653,7 +653,7 @@
     {
       "eyebrow": "Leistung",
       "heading": "Unternehmensberatung",
-      "body": "Der richtige Umgang mit EDV und den dazugehörigen Programmen ist ein zentraler Teil jedes Unternehmens. Wir beraten und unterstützen Sie in der effizienten Auswahl und dem Einsatz von Programmen, die für Ihren Betrieb relevant sind",
+      "body": "Eine gut durchdachte EDV kann Ihnen viel Zeit und schliesslich unnötigen Ärger ersparen. Gerne beraten wir Sie in der effektiven Auswahl Ihrer Software.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -667,7 +667,14 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "Thomas Hermann",
+        "role": "Inhaber / Geschäftsführer",
+        "initials": "TH",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -682,16 +689,7 @@
     "items": []
   },
   "stats": {
-    "items": [
-      {
-        "value": "8+",
-        "label": "Jahre Erfahrung"
-      },
-      {
-        "value": "1997+",
-        "label": "Kunden"
-      }
-    ]
+    "items": []
   },
   "trust": {
     "label": "Mitglied · Zertifiziert",
@@ -721,7 +719,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Winterthur",
+      "address": "Schaffhauserstrasse 37, 8400 Winterthur",
       "phone": "+41 (0)52 246 04 26",
       "email": "info@hermanntreuhand.ch"
     },
@@ -743,7 +741,7 @@
       {
         "title": "Standort",
         "links": [
-          "Winterthur",
+          "Schaffhauserstrasse 37, 8400 Winterthur",
           "+41 (0)52 246 04 26",
           "info@hermanntreuhand.ch"
         ]

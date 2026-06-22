@@ -19,7 +19,7 @@
           "color.secondaryFg (#22272B)",
           "font.mono (Tailwind default mono stack)",
           "base: quabba-editorial",
-          "accent #267363 (generated · no scraped colour)",
+          "accent #267363 (generated · no scraped or logo colour)",
           "heading: Raleway (scraped)",
           "body: Public Sans (inventory)",
           "mono: JetBrains Mono (inventory)"
@@ -158,7 +158,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -188,7 +187,6 @@
       "faq",
       "process (generic)",
       "audience (generic)",
-      "about (generic)",
       "look.colors (generated)",
       "media.stock (CC fallback)"
     ],
@@ -200,6 +198,7 @@
       "hero.headline",
       "hero.lede",
       "services.text",
+      "about",
       "feature",
       "footer.tagline",
       "trust.items",
@@ -228,7 +227,9 @@
       "Jahresabschluss": "/images/interconsulta-ch/pool/stock-advisory-7821708.jpg",
       "Mehrwertsteuer": "/images/interconsulta-ch/pool/stock-desk-8947691.jpg",
       "Unternehmensberatung": "/images/interconsulta-ch/pool/stock-office-4680351.jpg",
-      "Revision": "/images/interconsulta-ch/pool/stock-office-5483055.jpg"
+      "Revision": "/images/interconsulta-ch/pool/stock-office-5483055.jpg",
+      "Immobilien": "/images/interconsulta-ch/pool/stock-laptop-574089.jpg",
+      "Nachlass & Erbrecht": "/images/interconsulta-ch/pool/stock-documents-590045.jpg"
     },
     "documents": [],
     "assets": [
@@ -278,7 +279,7 @@
         "orientation": "landscape",
         "subject": "office",
         "phash": "37272d174f071f1f",
-        "quality": 0.54,
+        "quality": 0.57,
         "faces": 0,
         "roles": [
           "gallery",
@@ -300,12 +301,14 @@
         "stock": true,
         "credit": "www.kaboompics.com (Pexels)",
         "source": "https://www.pexels.com/photo/a-person-signing-divorce-documents-7876037/",
-        "quality": 0.46,
+        "quality": 0.5,
         "faces": 0,
         "roles": [
           "gallery",
+          "hero",
           "background",
-          "service"
+          "service",
+          "feature"
         ]
       },
       {
@@ -320,7 +323,7 @@
         "stock": true,
         "credit": "Lukas Blazek (Pexels)",
         "source": "https://www.pexels.com/photo/close-up-photo-of-gray-laptop-577210/",
-        "quality": 0.69,
+        "quality": 0.72,
         "faces": 0,
         "roles": [
           "gallery",
@@ -341,7 +344,7 @@
         "stock": true,
         "credit": "Thirdman (Pexels)",
         "source": "https://www.pexels.com/photo/young-business-people-sitting-and-discussing-inside-an-office-room-7651927/",
-        "quality": 0.61,
+        "quality": 0.62,
         "faces": 2,
         "roles": [
           "gallery",
@@ -383,7 +386,7 @@
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
         "source": "https://www.pexels.com/photo/white-papers-on-the-table-7821708/",
-        "quality": 0.82,
+        "quality": 0.83,
         "faces": 0,
         "roles": [
           "gallery",
@@ -404,7 +407,7 @@
         "stock": true,
         "credit": "www.kaboompics.com (Pexels)",
         "source": "https://www.pexels.com/photo/spiral-notebook-beside-cork-tray-and-pencil-8947691/",
-        "quality": 0.7,
+        "quality": 0.72,
         "faces": 0,
         "roles": [
           "gallery",
@@ -425,7 +428,7 @@
         "stock": true,
         "credit": "KATRIN  BOLOVTSOVA (Pexels)",
         "source": "https://www.pexels.com/photo/computer-on-white-desk-4680351/",
-        "quality": 0.65,
+        "quality": 0.68,
         "faces": 0,
         "roles": [
           "gallery",
@@ -446,13 +449,52 @@
         "stock": true,
         "credit": "cottonbro studio (Pexels)",
         "source": "https://www.pexels.com/photo/man-walking-near-the-benches-inside-the-room-5483055/",
-        "quality": 0.53,
+        "quality": 0.58,
         "faces": 0,
         "roles": [
           "gallery",
           "background",
           "service",
           "feature"
+        ]
+      },
+      {
+        "src": "/images/interconsulta-ch/pool/stock-laptop-574089.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 50978,
+        "width": 1280,
+        "height": 848,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/person-using-laptop-574089/",
+        "quality": 0.66,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/interconsulta-ch/pool/stock-documents-590045.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 43402,
+        "width": 1280,
+        "height": 848,
+        "orientation": "landscape",
+        "subject": "generic",
+        "stock": true,
+        "credit": "Lukas Blazek (Pexels)",
+        "source": "https://www.pexels.com/photo/graph-and-line-chart-printed-paper-590045/",
+        "quality": 0.34,
+        "faces": 0,
+        "roles": [
+          "gallery"
         ]
       }
     ],
@@ -508,20 +550,32 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Unternehmensberatung",
+        "summary": "Die Interconsulta in Zürich bietet Wirtschaftsprüfung, Revisionen, Steuern, Buchhaltung und Mehrwertsteuer für KMU und Privatpersonen.",
+        "body": "Die Interconsulta gewährleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\n\nAlle unsere Kunden werden persönlich von einem der zwei geschäftsführenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/interconsulta-ch/pool/stock-finance-577210.jpg"
+        "image": "/images/interconsulta-ch/pool/stock-office-4680351.jpg"
+      },
+      {
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Die Interconsulta gewährleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\n\nAlle unsere Kunden werden persönlich von einem der zwei geschäftsführenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/interconsulta-ch/pool/stock-office-5483055.jpg"
       },
       {
         "title": "Steuerberatung",
-        "summary": "Die Interconsulta gewährleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Die Interconsulta gewährleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\n\nAlle unsere Kunden werden persönlich von einem der zwei geschäftsführenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -532,9 +586,21 @@
         "image": "/images/interconsulta-ch/pool/stock-meeting-7651927.jpg"
       },
       {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/interconsulta-ch/pool/stock-finance-577210.jpg"
+      },
+      {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -546,7 +612,7 @@
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -554,30 +620,6 @@
           "Transparente Pauschale ohne versteckte Kosten"
         ],
         "image": "/images/interconsulta-ch/pool/stock-advisory-7821708.jpg"
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/interconsulta-ch/pool/stock-desk-8947691.jpg"
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Die Interconsulta gewährleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.\n\nAlle unsere Kunden werden persönlich von einem der zwei geschäftsführenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/interconsulta-ch/pool/stock-office-4680351.jpg"
       }
     ]
   },
@@ -586,11 +628,20 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Eine Erfolgsgeschichte mit Tradition",
+    "lead": "In einer Zeit, in der sich alles immer schneller zu drehen scheint, sind wir ein beständiger Partner. Seit Gründung der Interconsulta im Jahre 1964 sind wir dennoch niemals stehen geblieben, sondern haben uns immer wieder neu erfunden und sind gemeinsam mit unseren Mandanten vorangeschritten. Der schönste Beweis dafür sind unsere Kunden, von denen uns einige seit Jahrzehnten und über mehrere Generationen hinweg die Treue halten.",
+    "paragraphs": [
+      "Die Interconsulta gewährleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.",
+      "Alle unsere Kunden werden persönlich von einem der zwei geschäftsführenden Inhaber und unserem fachlich bestens qualifizierten Mitarbeiterteam betreut."
+    ]
+  },
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Die Interconsulta gewährleistet kompetente Beratung im jeweiligen Spezialgebiet und einen festen Ansprechpartner.",
+      "heading": "Unternehmensberatung",
+      "body": "Die Interconsulta in Zürich bietet Wirtschaftsprüfung, Revisionen, Steuern, Buchhaltung und Mehrwertsteuer für KMU und Privatpersonen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -649,7 +700,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zug",
+      "address": "Waaggasse 5, 8001 Zürich",
       "phone": "+41 41 711 70 70",
       "email": "info@interconsulta.ch"
     },
@@ -673,7 +724,7 @@
       {
         "title": "Standort",
         "links": [
-          "Zug",
+          "Waaggasse 5, 8001 Zürich",
           "+41 41 711 70 70",
           "info@interconsulta.ch"
         ]

@@ -9,12 +9,12 @@
     "look": {
       "meta": {
         "id": "turicum-treuhand-ch-brand",
-        "name": "Swiss Clean · brand-tinted",
-        "source": "synthesized (references) + scraped brand",
+        "name": "Swiss Clean · logo-tinted",
+        "source": "synthesized (references) + logo colour",
         "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
         "derived": [
           "base: swiss-clean",
-          "accent #0053A1 (scraped · medium)",
+          "accent #0053A1 (logo)",
           "heading: Space Grotesk (inventory)",
           "body: Inter (inventory)",
           "mono: JetBrains Mono (inventory)"
@@ -38,7 +38,7 @@
         "primary": "#0053A1",
         "primaryFg": "#FFFFFF",
         "primarySoft": "#EBF1F7",
-        "secondary": "#EB0000",
+        "secondary": "#0053A1",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -114,7 +114,6 @@
         "services",
         "audience",
         "process",
-        "team",
         "partners",
         "cta",
         "contact",
@@ -198,9 +197,7 @@
       "media.logo",
       "trust.badges",
       "services.images",
-      "brand.colors",
-      "team.members",
-      "contact.address"
+      "logo.colors"
     ]
   },
   "media": {
@@ -534,7 +531,7 @@
     "eyebrow": "Treuhand · Zürich",
     "titleLead": "Ihre Finanzen,",
     "titleAccent": "klar geführt.",
-    "lede": "Die Turicum Treuhand- und Steuerberatungsgesellschaft AG begleitet KMU und Privatpersonen in Zürich in Buchführung, Steuerberatung und betriebswirtschaftlicher Beratung – treffend, präzise und sorgfältig.",
+    "lede": "Die ACCURATA Holding AG ist eine schweizerische, partnerschaftlich getragene und gegenüber Dritten finanziell und organisatorisch vollständig unabhängige Gesellschaft, deren Tochtergesellschaften im Bereich der Wirtschaftsprüfung, Beratung und Treuhandwesen tätig sind. International gehört die ACCURATA-Gruppe dem TTN-Netzwerk an.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
@@ -549,7 +546,7 @@
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-        "body": "Spezialprüfungen (Stiftungen, Gründungsprüfung, Kapitalerhöhung und -herabsetzung, Sonderprüfung u.a.m.)",
+        "body": "Spezialprüfungen (Stiftungen, Gründungsprüfung, Kapitalerhöhung und -herabsetzung, Sonderprüfung u.a.m.)\n\nVom Hauptbahnhof erreichen Sie uns bequem mit der SBB in ca. 5 Minuten\n\nVom Flughafen mit der SBB in ca. 7 Minuten Tram Nr. 11 bis Bahnhof Oerlikon Tram Nr. 10 und 14 bis Sternen Oerlikon\n\nDie ACCURATA Holding AG ist eine schweizerische, partnerschaftlich getragene und gegenüber Dritten finanziell und organisatorisch vollständig unabhängige Gesellschaft, deren Tochtergesellschaften im Bereich der Wirtschaftsprüfung, Beratung und Treuhandwesen tätig sind.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -561,7 +558,7 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Vom Hauptbahnhof erreichen Sie uns bequem mit der SBB in ca. 5 Minuten\n\nVom Flughafen mit der SBB in ca. 7 Minuten Tram Nr. 11 bis Bahnhof Oerlikon Tram Nr. 10 und 14 bis Sternen Oerlikon\n\nDie ACCURATA Holding AG ist eine schweizerische, partnerschaftlich getragene und gegenüber Dritten finanziell und organisatorisch vollständig unabhängige Gesellschaft, deren Tochtergesellschaften im Bereich der Wirtschaftsprüfung, Beratung und Treuhandwesen tätig sind.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -573,7 +570,7 @@
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Vom Hauptbahnhof erreichen Sie uns bequem mit der SBB in ca. 5 Minuten\n\nVom Flughafen mit der SBB in ca. 7 Minuten Tram Nr. 11 bis Bahnhof Oerlikon Tram Nr. 10 und 14 bis Sternen Oerlikon\n\nDie ACCURATA Holding AG ist eine schweizerische, partnerschaftlich getragene und gegenüber Dritten finanziell und organisatorisch vollständig unabhängige Gesellschaft, deren Tochtergesellschaften im Bereich der Wirtschaftsprüfung, Beratung und Treuhandwesen tätig sind.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -638,67 +635,38 @@
       "cta": {
         "label": "Kontakt aufnehmen"
       }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Steuerberatung",
+      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
     }
   ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Jürg Badertscher",
-        "role": "Dipl. Wirtschaftsprüfer, Präsident des Verwaltungsrates",
-        "initials": "JB",
-        "bio": "Zugelassene Fachperson für eingeschränkte und ordentliche Revision sowie prüfungssichere Abschlüsse."
-      },
-      {
-        "name": "Beatrice Aschwanden",
-        "role": "Treuhänderin mit eidg. Fachausweis, Delegierte des Verwaltungsrates",
-        "initials": "BA",
-        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
-      },
-      {
-        "name": "Adrian Meier",
-        "role": "Treuhänder mit eidg. Fachausweis, Mitglied der Geschäftsleitung",
-        "initials": "AM",
-        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
-      },
-      {
-        "name": "Maya Diggelmann",
-        "role": "Fachfrau Finanz- und Rechnungswesen, Mitglied der Geschäftsleitung",
-        "initials": "MD",
-        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
-      },
-      {
-        "name": "Philip Vinzi",
-        "role": "Sachbearbeiter, Mandatsverantwortlicher",
-        "initials": "PV",
-        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
-      },
-      {
-        "name": "Nadine Spohn",
-        "role": "Sachbearbeiterin",
-        "initials": "NS",
-        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
-      },
-      {
-        "name": "Isabel Rohr",
-        "role": "Sachbearbeiterin",
-        "initials": "IR",
-        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
-      },
-      {
-        "name": "André Loosli",
-        "role": "Sachbearbeiter",
-        "initials": "AL",
-        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
-      },
-      {
-        "name": "Svenja Wenger",
-        "role": "In Ausbildung",
-        "initials": "SW",
-        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -743,7 +711,7 @@
     "heading": "Sprechen wir.",
     "info": {
       "address": "Baumackerstrasse 24, 8050 Zürich",
-      "phone": "+41 44 487 34 68",
+      "phone": "+41 44 487 34 10",
       "email": "info@turicum-treuhand.ch"
     },
     "formCta": "Nachricht senden"
@@ -766,7 +734,7 @@
         "title": "Standort",
         "links": [
           "Baumackerstrasse 24, 8050 Zürich",
-          "+41 44 487 34 68",
+          "+41 44 487 34 10",
           "info@turicum-treuhand.ch"
         ]
       },

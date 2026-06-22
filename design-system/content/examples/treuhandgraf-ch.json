@@ -162,7 +162,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -389,9 +388,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Sie suchen einen zuverlässigen und vertrauensvollen Buchhalter in Zürich? Dann sind Sie bei uns genau richtig. Wir kümmern uns um alle notwendigen Schritte – vom Zahlungsverkehr bis zum Jahresabschluss – und entlasten Sie somit in Ihrem Alltag als Unternehmer. Unsere Dienstleistu",
-        "body": "Sie suchen einen zuverlässigen und vertrauensvollen Buchhalter in Zürich? Dann sind Sie bei uns genau richtig. Wir kümmern uns um alle notwendigen Schritte – vom Zahlungsverkehr bis zum Jahresabschluss – und entlasten Sie somit in Ihrem Alltag als Unternehmer. Unsere Dienstleistungen ermöglichen es Ihnen, sich voll und ganz auf Ihr Kernbusiness zu fokussieren. Auf Wunsch können Sie auch selbst Teile der Buchhaltung übernehmen und wir stellen sicher, dass am Ende alles stimmt.\n\nUnter Berücksichtigung Ihrer branchenspezifischen Anforderungen übernehmen wir für Sie die regelmässige Kontierung, Erfassung und Auswertung Ihrer Buchhaltungsdaten. Dafür verwenden wir eine fortschrittliche Software, die stets den aktuellen handels- und steuerrechtlichen Anforderungen entspricht.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.\n\nIhr vertrauenswürdiger Pa",
+        "title": "Unternehmensberatung",
+        "summary": "Graf Treuhandbüro. Können Sie bei steuerrelevanten und rechtlichen Fragen bezüglich ihrer Buchhaltung auf unseren profunden Rat zählen.",
+        "body": "Sie fühlen sich unsicher, wenn es um das Ausfüllen Ihrer Steuererklärung oder um die Buchhaltung Ihres Unternehmens geht? Sie fragen sich, welche Vorgaben Sie erfüllen und welche Fristen Sie einhalten müssen? Keine Sorge, wir sind für Sie da! Wir sind bestens mit den Gegebenheiten und Anforderungen im Bereich Steuerrecht und Buchhaltung vertraut und bieten Ihnen gerne unsere Expertise an. Setzen Sie sich mit uns in Verbindung und vereinbaren Sie einen Termin für eine umfassende Beratung.\n\nIn einem ausführlichen Gespräch erhalten Sie alle relevanten Informationen, die Sie benötigen. Auch wenn Sie Ihre Steuererklärung und Buchhaltung komplett in die Hände der Profis legen möchten, sind Sie hier richtig. Das Treuhandbüro Graf unterstützt Sie gerne und nimmt Ihnen diese zeitaufwendige Last ab.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -401,8 +400,30 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Das Treuhandbüro Graf ist Ihr zuverlässiger Partner für die Erstellung Ihrer privaten und geschäftlichen Steuererklärung. Hier haben Sie die Gewissheit, dass Sie eine fundierte Beratung erhalten und all Ihre Steuerangelegenheiten schnell und sorgfältig erledigt werden. Ihre Steue",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Das Treuhandbüro Graf ist Ihr zuverlässiger Partner für die Erstellung Ihrer privaten und geschäftlichen Steuererklärung. Hier haben Sie die Gewissheit, dass Sie eine fundierte Beratung erhalten und all Ihre Steuerangelegenheiten schnell und sorgfältig erledigt werden. Ihre Steuerveranlagungen und -rechnungen werden gewissenhaft durch unser Team geprüft und bei Bedarf auch kompetent vor den Steuerbehörden vertreten.\n\nEine durchdachte Steuerplanung ist sowohl für Privatpersonen als auch Unternehmen unerlässlich, um das eigene Vermögen zu bewahren. Wir nehmen Ihre Steuerlast genau unter die Lupe und identifizieren mögliche Stellschrauben, mit deren Hilfe wir Ihre Steuerquote effektiv senken können.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Immobilien",
+        "summary": "Das Treuhandbüro Graf kümmert sich zuverlässig um alle anfallenden Aufgaben rund um Ihre Liegenschaft.",
+        "body": "Eine oder sogar mehrere Immobilien zu verwalten, kann insbesondere für Laien zeitaufwendig und stressig sein. Vertrauen Sie uns diese Aufgabe an – wir kümmern uns gewissenhaft um alles. Wir sorgen dafür, dass Ihre Immobilie stets von passenden Mietern bewohnt wird und beschäftigen uns mit deren Anliegen. In diesem Kontext kümmern wir uns um die Mietzahlungen, Mietzinsanpassungen, Heiz- und Nebenkostenabrechnungen sowie die technische Betreuung.\n\nMit uns an Ihrer Seite können Sie sich darauf verlassen, dass Sie allen Verpflichtungen als Eigentümer Ihrer Liegenschaft ordnungsgemäss und termingerecht nachkommen. Wir gewährleisten ein reibungsloses Tagesgeschäft und behalten im Rahmen dessen auch den Zahlungsverkehr und alle Abrechnungen zu Ihrer Immobilie genauestens im Blick.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Das Treuhandbüro Graf ist Ihr kompetenter Treuhänder in Zürich. Wir erledigen für Sie alle anfallenden Arbeiten rund um Ihre Buchhaltung.",
+        "body": "Sie suchen einen zuverlässigen und vertrauensvollen Buchhalter in Zürich? Dann sind Sie bei uns genau richtig. Wir kümmern uns um alle notwendigen Schritte – vom Zahlungsverkehr bis zum Jahresabschluss – und entlasten Sie somit in Ihrem Alltag als Unternehmer. Unsere Dienstleistungen ermöglichen es Ihnen, sich voll und ganz auf Ihr Kernbusiness zu fokussieren. Auf Wunsch können Sie auch selbst Teile der Buchhaltung übernehmen und wir stellen sicher, dass am Ende alles stimmt.\n\nUnter Berücksichtigung Ihrer branchenspezifischen Anforderungen übernehmen wir für Sie die regelmässige Kontierung, Erfassung und Auswertung Ihrer Buchhaltungsdaten. Dafür verwenden wir eine fortschrittliche Software, die stets den aktuellen handels- und steuerrechtlichen Anforderungen entspricht.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -413,7 +434,7 @@
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -424,29 +445,7 @@
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Sie fühlen sich unsicher, wenn es um das Ausfüllen Ihrer Steuererklärung oder um die Buchhaltung Ihres Unternehmens geht? Sie fragen sich, welche Vorgaben Sie erfüllen und welche Fristen Sie einhalten müssen? Keine Sorge, wir sind für Sie da! Wir sind bestens mit den Gegebenheite",
-        "body": "Sie fühlen sich unsicher, wenn es um das Ausfüllen Ihrer Steuererklärung oder um die Buchhaltung Ihres Unternehmens geht? Sie fragen sich, welche Vorgaben Sie erfüllen und welche Fristen Sie einhalten müssen? Keine Sorge, wir sind für Sie da! Wir sind bestens mit den Gegebenheiten und Anforderungen im Bereich Steuerrecht und Buchhaltung vertraut und bieten Ihnen gerne unsere Expertise an. Setzen Sie sich mit uns in Verbindung und vereinbaren Sie einen Termin für eine umfassende Beratung.\n\nIn einem ausführlichen Gespräch erhalten Sie alle relevanten Informationen, die Sie benötigen. Auch wenn Sie Ihre Steuererklärung und Buchhaltung komplett in die Hände der Profis legen möchten, sind Sie hier richtig. Das Treuhandbüro Graf unterstützt Sie gerne und nimmt Ihnen diese zeitaufwendige Last ab.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.\n\nIhr v",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -464,17 +463,18 @@
   "about": {
     "eyebrow": "Über uns",
     "heading": "Unsere Philosophie",
-    "lead": "Unsere Kunden und ihre individuellen Herausforderungen und Bedürfnisse stehen im Mittelpunkt unserer Arbeit und wir stellen sicher, dass sie jede Unterstützung erhalten, die sie brauchen. Wir freuen uns, unsere Kunden im kleinen und mittelgrossen Segment bei ihren kaufmännischen Aufgaben entlasten zu können.",
+    "lead": "Wir sind ein kleines, engagiertes Treuhandunternehmen mit Fokus auf der praktischen Seite eines Betriebes. Durch unsere langjährige Erfahrung im Treuhandbereich sind wir in der Lage, unseren geschätzten Kunden eine umfassende und zielorientierte Beratung auf höchstem Niveau zu gewährleisten. Bei der Qualität unserer Dienstleistungen gehen wir keinerlei Kompromisse ein. Wir gehen mit grosser Präzision vor und liefern hervorragende Ergebnisse.",
     "paragraphs": [
-      "Das Treuhandbüro Graf in Zürich ist Ihr zuverlässiger Dienstleister für vielfältige kaufmännische Aufgaben – von der Steuererklärung über die Buchhaltung bis hin zur Verwaltung Ihrer Liegenschaften.",
-      "Ihr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung."
+      "Unsere Kunden und ihre individuellen Herausforderungen und Bedürfnisse stehen im Mittelpunkt unserer Arbeit und wir stellen sicher, dass sie jede Unterstützung erhalten, die sie brauchen. Wir freuen uns, unsere Kunden im kleinen und mittelgrossen Segment bei ihren kaufmännischen Aufgaben entlasten zu können.",
+      "Unsere Kunden sind einzigartig und daher ist es unser Ziel, sie langfristig und auf persönliche und individuelle Art und Weise zu betreuen. Wir streben danach, uns durch eine exzellente Dienstleistungsbereitschaft unseren Kunden gegenüber auszuzeichnen.",
+      "Das Treuhandbüro Graf in Zürich ist Ihr zuverlässiger Dienstleister für vielfältige kaufmännische Aufgaben – von der Steuererklärung über die Buchhaltung bis hin zur Verwaltung Ihrer Liegenschaften."
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Sie suchen einen zuverlässigen und vertrauensvollen Buchhalter in Zürich? Dann sind Sie bei uns genau richtig. Wir kümmern uns um alle notwendigen Schritte – vom Zahlungsverkehr bis zum Jahresabschluss – und entlasten Sie somit in Ihrem Alltag als Unternehmer. Unsere Dienstleistu",
+      "heading": "Unternehmensberatung",
+      "body": "Graf Treuhandbüro. Können Sie bei steuerrelevanten und rechtlichen Fragen bezüglich ihrer Buchhaltung auf unseren profunden Rat zählen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -487,7 +487,7 @@
     {
       "eyebrow": "Leistung",
       "heading": "Steuerberatung",
-      "body": "Das Treuhandbüro Graf ist Ihr zuverlässiger Partner für die Erstellung Ihrer privaten und geschäftlichen Steuererklärung. Hier haben Sie die Gewissheit, dass Sie eine fundierte Beratung erhalten und all Ihre Steuerangelegenheiten schnell und sorgfältig erledigt werden. Ihre Steue",
+      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -499,8 +499,21 @@
     },
     {
       "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Sie fühlen sich unsicher, wenn es um das Ausfüllen Ihrer Steuererklärung oder um die Buchhaltung Ihres Unternehmens geht? Sie fragen sich, welche Vorgaben Sie erfüllen und welche Fristen Sie einhalten müssen? Keine Sorge, wir sind für Sie da! Wir sind bestens mit den Gegebenheite",
+      "heading": "Immobilien",
+      "body": "Das Treuhandbüro Graf kümmert sich zuverlässig um alle anfallenden Aufgaben rund um Ihre Liegenschaft.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Das Treuhandbüro Graf ist Ihr kompetenter Treuhänder in Zürich. Wir erledigen für Sie alle anfallenden Arbeiten rund um Ihre Buchhaltung.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -515,6 +528,13 @@
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
     "members": [
+      {
+        "name": "Manuel Graf",
+        "role": "Direktor",
+        "initials": "MG",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/treuhandgraf-ch/team/0-graf.jpg"
+      },
       {
         "name": "Mesude Tunç",
         "role": "Geschäftsführung",
@@ -532,7 +552,7 @@
         "role": "Sachbearbeiterin",
         "initials": "AD",
         "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.",
-        "photo": "/images/treuhandgraf-ch/team/2-demirkan.jpg"
+        "photo": "/images/treuhandgraf-ch/team/3-demirkan.jpg"
       }
     ]
   },
@@ -570,9 +590,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Josefstrasse 92, 8005 Zürich",
       "phone": "+41 44 260 23 00",
-      "email": "info@haugag.ch"
+      "email": "info@treuhandgraf.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -592,9 +612,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Josefstrasse 92, 8005 Zürich",
           "+41 44 260 23 00",
-          "info@haugag.ch"
+          "info@treuhandgraf.ch"
         ]
       },
       {

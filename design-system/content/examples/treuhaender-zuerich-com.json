@@ -3,54 +3,55 @@
     "firm": "Treuhandfinanz / Treuhänder Zürich",
     "domain": "treuhaender-zuerich.com",
     "archetype": "boutique",
-    "lookId": "boost-editorial",
+    "lookId": "ruerup-swiss",
     "sourceUrl": "https://www.treuhaender-zuerich.com/",
-    "basePresetId": "boost-editorial",
+    "basePresetId": "ruerup-swiss",
     "look": {
       "meta": {
         "id": "treuhaender-zuerich-com-brand",
-        "name": "Boost Editorial · brand-generated",
-        "mood": "High-fidelity minimalist; serif display over Inter, navy text, clean blue accent, airy whitespace.",
-        "source": "Boost-Consulting + generated accent",
+        "name": "Rürup Swiss Corporate · logo-tinted",
+        "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
+        "source": "Steuerberatung-Andreas-Rürup + logo colour",
         "derived": [
           "color.primaryFg (#FFFFFF)",
-          "base: boost-editorial",
-          "accent #955337 (generated · no scraped colour)",
-          "heading: Playfair Display (inventory)",
-          "body: Work Sans (inventory)",
-          "mono: JetBrains Mono (inventory)"
+          "color.primarySoft (tint of beige surface)",
+          "base: ruerup-swiss",
+          "accent #173667 (logo)",
+          "heading: Sora (inventory)",
+          "body: IBM Plex Sans (inventory)",
+          "mono: IBM Plex Mono (inventory)"
         ]
       },
       "tags": {
         "tone": "formal",
-        "warmth": "cool",
-        "corner": "medium",
-        "density": "airy",
+        "warmth": "neutral",
+        "corner": "sharp",
+        "density": "normal",
         "contrast": "high",
-        "era": "timeless",
-        "accentEnergy": "medium"
+        "era": "modern",
+        "accentEnergy": "vibrant"
       },
       "color": {
         "bg": "#FFFFFF",
-        "surface": "#F8FAFC",
-        "text": "#0F172A",
-        "textMuted": "#94A3B8",
-        "border": "#E2E8F0",
-        "primary": "#955337",
+        "surface": "#E5E7EB",
+        "text": "#1C1C1A",
+        "textMuted": "#71717A",
+        "border": "#E5E7EB",
+        "primary": "#173667",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#F7F1EF",
-        "secondary": "#39A1B1",
+        "primarySoft": "#ECEFF3",
+        "secondary": "#173667",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Playfair Display\", Georgia, \"Times New Roman\", serif",
-        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
-        "headingRole": "serif-editorial"
+        "body": "\"IBM Plex Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Sora\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
-        "displayMax": "6xl",
-        "headlineWeight": "semibold",
+        "displayMax": "7xl",
+        "headlineWeight": "medium",
         "bodyWeight": "light",
         "headlineTracking": "tight",
         "eyebrow": {
@@ -60,18 +61,18 @@
         }
       },
       "radius": {
-        "base": "lg",
+        "base": "sm",
         "pill": "full",
-        "scale": "medium"
+        "scale": "sharp"
       },
       "shadow": {
-        "elevation": "subtle",
-        "card": "sm"
+        "elevation": "flat",
+        "card": "none"
       },
       "spacing": {
-        "sectionY": "py-20",
-        "rhythm": "airy",
-        "containerMax": "1280px",
+        "sectionY": "py-12",
+        "rhythm": "normal",
+        "containerMax": "1200px",
         "gutter": "1.5rem"
       },
       "motion": {
@@ -84,15 +85,14 @@
         "blur": true
       },
       "raw": {
-        "--color-brand-navy": "#0F172A",
-        "--color-brand-gray": "#F8FAFC",
-        "--color-brand-platinum": "#94A3B8",
-        "--color-brand-border": "#E2E8F0",
-        "--color-brand-accent-blue": "#2563EB",
-        "--color-brand-accent-blue-light": "#EFF6FF",
+        "--color-brand-offwhite": "#FFFFFF",
+        "--color-brand-anthracite": "#1C1C1A",
+        "--color-brand-red": "#C8102E",
+        "--color-brand-green": "#1F4E3D",
+        "--color-brand-beige": "#E5E7EB",
+        "--color-brand-grey": "#71717A",
         "--font-sans": "Inter",
-        "--font-serif": "Playfair Display",
-        "--font-mono": "JetBrains Mono"
+        "--font-display": "Space Grotesk"
       }
     },
     "brand": {
@@ -106,10 +106,8 @@
         "nav",
         "hero",
         "services",
-        "values",
         "audience",
         "process",
-        "team",
         "partners",
         "cta",
         "contact",
@@ -151,14 +149,13 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
-        "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
+        "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "echte Teammitglieder gescraped",
+        "home:team": "kein echtes Team gefunden",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -177,10 +174,11 @@
     },
     "placeholders": [
       "hero.aside",
+      "values",
       "faq",
       "process (generic)",
       "audience (generic)",
-      "look.colors (generated)"
+      "about (generic)"
     ],
     "real": [
       "meta.firm",
@@ -190,15 +188,13 @@
       "hero.headline",
       "hero.lede",
       "services.text",
-      "team.members",
-      "values",
-      "about",
       "feature",
       "footer.tagline",
       "media.pool",
       "media.logo",
       "trust.badges",
-      "services.images"
+      "services.images",
+      "logo.colors"
     ]
   },
   "media": {
@@ -423,7 +419,7 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Deshalb profitieren KMU in der Schweiz … wenn Sie Ihre Buchhaltung auslagern. Wenn Sie ein eigenes Unternehmen führen, wissen Sie: Buchhaltung auszulagern, spart Kosten sowie Zeit und Nerven.",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Deshalb profitieren KMU in der Schweiz … wenn Sie Ihre Buchhaltung auslagern. Wenn Sie ein eigenes Unternehmen führen, wissen Sie: Buchhaltung auszulagern, spart Kosten sowie Zeit und Nerven.\n\nBuchhaltung ist weit mehr als Zahlen abtippen. Es geht um gesetzliche Vorgaben, Fristen, korrekte Mehrwertsteuer-Abrechnungen, seriöse Steueroptimierung und die lückenlose Dokumentation aller Geschäftsvorgänge. Fehler können schnell teuer werden.\n\nEin professioneller Treuhänder kennt die aktuellen Vorschriften und sorgt dafür, dass Ihre Buchhaltung jederzeit korrekt und effizient erledigt wird.\n\n: Statt Stunden mit Rechnungen zu verbringen, können Sie sich auf Ihre Kunden und Ihr Wachstum konzentrieren.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -435,8 +431,8 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Ihr Treuhänder in Zürich: So finden Sie den passenden Partner für Ihr Unternehmen … Wer ein Unternehmen in Zürich führt, weiss: Vertrauen, Genauigkeit und Fachwissen sind unerlässlich, wenn es um Buchhaltung, Steuern und Finanzen geht. Ein professioneller Treuhänder in Zürich bzw",
-        "body": "Ihr Treuhänder in Zürich: So finden Sie den passenden Partner für Ihr Unternehmen … Wer ein Unternehmen in Zürich führt, weiss: Vertrauen, Genauigkeit und Fachwissen sind unerlässlich, wenn es um Buchhaltung, Steuern und Finanzen geht. Ein professioneller Treuhänder in Zürich bzw. ein erfahrenes Treuhandunternehmen ist dabei mehr als nur ein Zahlenverwalter – er ist strategischer Partner, […]\n\nDas Treuhandunternehmen – die Treuhandfinanz AG in Zürich: Ihr professioneller Partner für effiziente Buchhaltung und Steuerberatung für Unternehmen in der Schweiz. In der dynamischen Finanzlandschaft der Schweiz sind professionelle Treuhandlösungen wichtiger denn je. Ob in Zürich, Küsnacht, Zug, Basel, Bern, Luzern oder anderen Kantonen: Unternehmen jeder Grösse profitieren von einem erfahrenen Treuhandunternehmen, das Buchhaltung, Steuern […]\n\nSteueroptimierung für KMU: Tipps vom Treuhänder … Ste",
+        "summary": "Neuigkeiten, Tipps und Fachwissen zu Buchhaltung, Jahresabschluss und Steuern in der Schweiz. Bleiben Sie mit Treuhandfinanz© immer auf dem neuesten Stand!",
+        "body": "Ihr Treuhänder in Zürich: So finden Sie den passenden Partner für Ihr Unternehmen … Wer ein Unternehmen in Zürich führt, weiss: Vertrauen, Genauigkeit und Fachwissen sind unerlässlich, wenn es um Buchhaltung, Steuern und Finanzen geht. Ein professioneller Treuhänder in Zürich bzw. ein erfahrenes Treuhandunternehmen ist dabei mehr als nur ein Zahlenverwalter – er ist strategischer Partner, […]\n\nDas Treuhandunternehmen – die Treuhandfinanz AG in Zürich: Ihr professioneller Partner für effiziente Buchhaltung und Steuerberatung für Unternehmen in der Schweiz. In der dynamischen Finanzlandschaft der Schweiz sind professionelle Treuhandlösungen wichtiger denn je. Ob in Zürich, Küsnacht, Zug, Basel, Bern, Luzern oder anderen Kantonen: Unternehmen jeder Grösse profitieren von einem erfahrenen Treuhandunternehmen, das Buchhaltung, Steuern […]\n\nSteueroptimierung für KMU: Tipps vom Treuhänder …",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -446,8 +442,20 @@
         "image": "/images/treuhaender-zuerich-com/pool/4cb129976c__Steueroptimierung-scaled.jpeg"
       },
       {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz … Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.\n\nGleichzeitig stellt er Unternehmer jedes Jahr vor neue Herausforderungen: fehlende Belege, unklare Abgrenzungen, offene Fragen zur Mehrwertsteuer oder Unsicherheiten bei der Bewertung von Vermögenswerten.\n\n, die Kommunikation mit dem Steueramt und nicht zuletzt für Ihre interne Planung.\n\nDie relevanten Bestandteile – Bilanz, Erfolgsrechnung, Anhang und ggf. Lagebericht – geben einen strukturierten Überblick über die finanzielle Lage Ihres Unternehmens.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/treuhaender-zuerich-com/pool/1c96264a68__Jahresabschluss-Unternehmen-scaled.jpeg"
+      },
+      {
         "title": "Lohnadministration",
-        "summary": "Jeder Unternehmer weiß: Ein Unternehmen zu gründen ist nicht immer einfach. Treuhandfinanz unterstützt Gründer auf ihrem Weg zur Firma. Damit später auch die Finanzen stimmen, bieten wir Neu- & Altfirmen unsere Finanzbuchhaltungsservices an – so gewinnen Sie Zeit & Geld.",
+        "summary": "Entdecken Sie die Kompetenzen von Treuhandfinanz©: Buchhaltung, Steuern, Jahresabschluss & mehr. Ihr erfahrenes Treuhandbüro in Zürich...",
         "body": "Jeder Unternehmer weiß: Ein Unternehmen zu gründen ist nicht immer einfach. Treuhandfinanz unterstützt Gründer auf ihrem Weg zur Firma. Damit später auch die Finanzen stimmen, bieten wir Neu- & Altfirmen unsere Finanzbuchhaltungsservices an – so gewinnen Sie Zeit & Geld.\n\nDie Finanz- oder Lohnbuchhaltung macht den wenigsten von uns Freude. Zum Glück gibt es dafür Lohnbuchhalter, die immer den Überblick haben.\n\nDamit Sie sich jeden Tag aufs Neue auf und über Ihr Unternehmen freuen können, übernimmt Treuhandfinanz Ihre Lohn- und Finanzbuchhaltung.\n\nDamit stellen wir für Sie sicher, dass alle Abrechnungen immer pünktlich und fristgerecht erstellt und eingereicht werden. Ausserdem übernehmen wir für Sie professionell & kompetent die Erstellung der Jahresabschlüsse.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -458,8 +466,8 @@
       },
       {
         "title": "Jahresabschluss",
-        "summary": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz …  Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.",
-        "body": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz …  Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.\n\nGleichzeitig stellt er Unternehmer jedes Jahr vor neue Herausforderungen: fehlende Belege, unklare Abgrenzungen, offene Fragen zur Mehrwertsteuer oder Unsicherheiten bei der Bewertung von Vermögenswerten.\n\n, die Kommunikation mit dem Steueramt und nicht zuletzt für Ihre interne Planung.\n\nDie relevanten Bestandteile – Bilanz, Erfolgsrechnung, Anhang und ggf. Lagebericht – geben einen strukturierten Überblick über die finanzielle Lage Ihres Unternehmens.",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz … Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.\n\nGleichzeitig stellt er Unternehmer jedes Jahr vor neue Herausforderungen: fehlende Belege, unklare Abgrenzungen, offene Fragen zur Mehrwertsteuer oder Unsicherheiten bei der Bewertung von Vermögenswerten.\n\n, die Kommunikation mit dem Steueramt und nicht zuletzt für Ihre interne Planung.\n\nDie relevanten Bestandteile – Bilanz, Erfolgsrechnung, Anhang und ggf. Lagebericht – geben einen strukturierten Überblick über die finanzielle Lage Ihres Unternehmens.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -469,86 +477,66 @@
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "Die Mehrwertsteuer, kurz MWST: Wir alle kennen sie, wir alle zahlen sie. Und zwar auf alles, was wir täglich kaufen. Also auch auf Dienstleistungen und Produkte, die beispielsweise Ihr Unternehmen anbietet und vertreibt. Für Sie als Chef heisst das: Diese MWST müssen Sie irgendwa",
-        "body": "Die Mehrwertsteuer, kurz MWST: Wir alle kennen sie, wir alle zahlen sie. Und zwar auf alles, was wir täglich kaufen. Also auch auf Dienstleistungen und Produkte, die beispielsweise Ihr Unternehmen anbietet und vertreibt. Für Sie als Chef heisst das: Diese MWST müssen Sie irgendwann auch wieder abführen.\n\nEinfach gesagt: Die Mehrwertsteuer ist eine allgemeine Verbrauchs- und Konsumsteuer. Ausschliesslich vom Bund erhoben, dient sie v.a. der Decking der sog. allgemeinen Bundesausgaben.\n\nDefinition hin oder her: Wenn Sie ein Unternehmen führen, müssen Sie diese Mehrwertsteuer Ihren Kunden für die in Anspruch genommenen Dienstleistungen nicht nur in Rechnung stellen.\n\nSie müssen diese auch in der Steuererklärung wieder abführen. Beim Wort “Steuererklärung” bekommt der ein oder andere von Ihnen nun vielleicht Kopfschmerzen. Denn: Rechnungen, Belege und Quittungen müssen sortiert und eingereic",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Die Mehrwertsteuer, kurz MWST: Wir alle kennen sie, wir alle zahlen sie. Und zwar auf alles, was wir täglich kaufen. Also auch auf Dienstleistungen und Produkte, die beispielsweise Ihr Unternehmen anbietet und vertreibt. Für Sie als Chef heisst das: Diese MWST müssen Sie irgendwann auch wieder abführen.\n\nEinfach gesagt: Die Mehrwertsteuer ist eine allgemeine Verbrauchs- und Konsumsteuer. Ausschliesslich vom Bund erhoben, dient sie v.a. der Decking der sog. allgemeinen Bundesausgaben.\n\nDefinition hin oder her: Wenn Sie ein Unternehmen führen, müssen Sie diese Mehrwertsteuer Ihren Kunden für die in Anspruch genommenen Dienstleistungen nicht nur in Rechnung stellen.\n\nSie müssen diese auch in der Steuererklärung wieder abführen. Beim Wort “Steuererklärung” bekommt der ein oder andere von Ihnen nun vielleicht Kopfschmerzen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz …  Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.\n\nGleichzeitig stellt er Unternehmer jedes Jahr vor neue Herausforderungen: fehlende Belege, unklare Abgrenzungen, offene Fragen zur Mehrwertsteuer oder Unsicherheiten bei der Bewertung von Vermögenswerten.\n\n, die Kommunikation mit dem Steueramt und nicht zuletzt für Ihre interne Planung.\n\nDie relevanten Bestandteile – Bilanz, Erfolgsrechnung, Anhang und ggf. Lagebericht – geben einen strukturierten Überblick über die finanzielle Lage Ihres Unternehmens.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/treuhaender-zuerich-com/pool/1c96264a68__Jahresabschluss-Unternehmen-scaled.jpeg"
       }
     ]
   },
   "values": {
     "eyebrow": "Warum wir",
     "heading": "Ihr Vorteil.",
-    "items": [
-      {
-        "title": "Jahresabschluss für Ihre Firma",
-        "body": "Wir erstellen Ihren Jahresabschluss oder übernehmen die komplette Finanzbuchhaltung."
-      },
-      {
-        "title": "100% anonym & diskret",
-        "body": "Übermittelte Mitarbeiter- und Firmendaten unterliegen dem Datenschutz – Ihre Sicherheit hat Vorrang!"
-      },
-      {
-        "title": "100% perfekte Lohnbuchhaltung",
-        "body": "Sie suchen einen erfahrenen  Treuhänder in Zürich? Dann bestellen Sie jetzt gleich Ihre kostenlose Offerte!"
-      }
-    ]
-  },
-  "about": {
-    "eyebrow": "Über uns",
-    "heading": "Jahresabschluss für Unternehmen",
-    "lead": "Der professionelle Jahresabschluss für Unternehmen in der Schweiz …  Der Jahresabschluss ist für viele Schweizer Unternehmen mehr als nur eine formelle Pflicht – er ist ein zentrales Instrument zur Steueroptimierung, Planungssicherheit und zur Erfüllung gesetzlicher Vorgaben.",
-    "paragraphs": [
-      "Gleichzeitig stellt er Unternehmer jedes Jahr vor neue Herausforderungen: fehlende Belege, unklare Abgrenzungen, offene Fragen zur Mehrwertsteuer oder Unsicherheiten bei der Bewertung von Vermögenswerten.",
-      ", die Kommunikation mit dem Steueramt und nicht zuletzt für Ihre interne Planung.",
-      "Die relevanten Bestandteile – Bilanz, Erfolgsrechnung, Anhang und ggf. Lagebericht – geben einen strukturierten Überblick über die finanzielle Lage Ihres Unternehmens."
-    ]
+    "items": []
   },
   "featureAngles": [
     {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Jahresabschluss für Ihre Firma",
-      "body": "Wir erstellen Ihren Jahresabschluss oder übernehmen die komplette Finanzbuchhaltung.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "100% anonym & diskret",
-      "body": "Übermittelte Mitarbeiter- und Firmendaten unterliegen dem Datenschutz – Ihre Sicherheit hat Vorrang!",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "100% perfekte Lohnbuchhaltung",
-      "body": "Sie suchen einen erfahrenen  Treuhänder in Zürich? Dann bestellen Sie jetzt gleich Ihre kostenlose Offerte!",
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     },
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Deshalb profitieren KMU in der Schweiz … wenn Sie Ihre Buchhaltung auslagern. Wenn Sie ein eigenes Unternehmen führen, wissen Sie: Buchhaltung auszulagern, spart Kosten sowie Zeit und Nerven.",
+      "heading": "Steuerberatung",
+      "body": "Neuigkeiten, Tipps und Fachwissen zu Buchhaltung, Jahresabschluss und Steuern in der Schweiz. Bleiben Sie mit Treuhandfinanz© immer auf dem neuesten Stand!",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Unternehmensberatung",
+      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Lohnadministration",
+      "body": "Entdecken Sie die Kompetenzen von Treuhandfinanz©: Buchhaltung, Steuern, Jahresabschluss & mehr. Ihr erfahrenes Treuhandbüro in Zürich...",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -562,20 +550,7 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": [
-      {
-        "name": "Reto Leemann",
-        "role": "Treuhänder",
-        "initials": "RL",
-        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
-      },
-      {
-        "name": "Marc Waldburger",
-        "role": "Geschäftsführer",
-        "initials": "MW",
-        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
-      }
-    ]
+    "members": []
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -613,9 +588,8 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
-      "phone": "+41 (0)58 502 85 00",
-      "email": "info@treuhandfinanz.ch"
+      "address": "Holbeinstrasse 31, 8008 Zürich",
+      "phone": "+41 (0)58 502 85 00"
     },
     "formCta": "Nachricht senden"
   },
@@ -636,9 +610,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Holbeinstrasse 31, 8008 Zürich",
           "+41 (0)58 502 85 00",
-          "info@treuhandfinanz.ch"
+          "info@…"
         ]
       },
       {

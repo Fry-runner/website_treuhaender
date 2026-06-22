@@ -149,6 +149,45 @@ function pickAvoiding<T extends { id: string }>(pool: T[], seed: number, avoid: 
   return undefined;
 }
 
+/** An INVERTED very-dark section — `cta/inverted`, `feature/dark`, `stats/dark`, …
+ *  All render `background: var(--ds-text)` (near-black on a light look, light on a
+ *  dark look). Matched by the `dark`/`inverted` id suffix ONLY — NOT `spotlight`,
+ *  which `familyOf` lumps in but which (team/testimonials spotlight) is a light
+ *  "featured" layout, not a dark band. */
+function isInvertedSection(id: string): boolean {
+  return /dark|inverted/.test((id.split("/")[1] || id).toLowerCase());
+}
+/** First variant in `pool` (rotating from `seed`) that is NOT an inverted dark band. */
+function pickNonInverted<T extends { id: string }>(pool: T[], seed: number): T | undefined {
+  if (!pool.length) return undefined;
+  const start = seed % pool.length;
+  for (let k = 0; k < pool.length; k++) {
+    const v = pool[(start + k) % pool.length];
+    if (!isInvertedSection(v.id)) return v;
+  }
+  return undefined;
+}
+
+/** Perceived lightness (sRGB luma, 0..1) of a hex colour; unknown → 1 (treat light). */
+function hexLuma(hex?: string): number {
+  if (!hex) return 1;
+  const h = hex.replace("#", "").trim();
+  const s = h.length === 3 ? h.replace(/(.)/g, "$1$1") : h;
+  if (s.length < 6) return 1;
+  const n = parseInt(s.slice(0, 6), 16);
+  if (Number.isNaN(n)) return 1;
+  return (0.299 * ((n >> 16) & 255) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255;
+}
+/** Does the site render on a LIGHT background? A light site must never drop a very-dark
+ *  inverted band into its flow — that reads as a jarring break. On a genuinely dark
+ *  look those bands invert to LIGHT and stay coherent, so they're kept. Uses the
+ *  concrete preset planSite was handed (matches a studio look-override AND the curated
+ *  base frame), falling back to the firm's brand-tinted look. */
+function looksLight(content: SiteContent, lookId: string): boolean {
+  const tokens = presets[lookId] ?? content.meta.look ?? presets[content.meta.lookId];
+  return hexLuma(tokens?.color?.bg) >= 0.5;
+}
+
 export interface SitePlan {
   lookId: string;
   heroId: string;
@@ -251,6 +290,20 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
     // media-cards only when every card has a photo — real or stock fallback).
     sections[slot] = pickFit(list, kit.sections[slot], affinity, base + hash(slot), slotCount(content, slot), slotHasImage(content, slot)).id;
   }
+  // Tonal coherence: on a LIGHT site a very-dark inverted band (cta/inverted,
+  // feature/dark, stats/dark …) reads as a jarring break in the otherwise light flow.
+  // Swap each to the first eligible NON-inverted variant in the same slot/kit. On a
+  // genuinely dark look the inverted bands flip to light and stay coherent → kept.
+  const siteLight = looksLight(content, lookId);
+  if (siteLight) {
+    for (const slot of Object.keys(sectionVariants)) {
+      const id = sections[slot];
+      if (!id || !isInvertedSection(id)) continue;
+      const pool = eligiblePool(sectionVariants[slot], kit.sections[slot], affinity, slotCount(content, slot), slotHasImage(content, slot));
+      const alt = pickNonInverted(pool, base + hash(slot));
+      if (alt) sections[slot] = alt.id;
+    }
+  }
   // Diversity pass: a single loud treatment (dark/gradient bands, zig-zag rows,
   // auto-scroll rails) must not repeat across the page. Over-budget slots swap to
   // the first eligible alternative whose treatment still has headroom. Deterministic;
@@ -265,6 +318,9 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
     if ((tagCounts[tag] ?? 0) < cap) { tagCounts[tag] = (tagCounts[tag] ?? 0) + 1; continue; }
     const pool = eligiblePool(sectionVariants[slot], kit.sections[slot], affinity, slotCount(content, slot), slotHasImage(content, slot));
     const alt = pool.find((v) => {
+      // On a light site, "dark" still has headroom after suppression (count 0), so the
+      // generic swap below could pull an inverted band back in — forbid it explicitly.
+      if (siteLight && isInvertedSection(v.id)) return false;
       const t = archetypeTag(v.id);
       const c = ARCHETYPE_CAP[t];
       return c === undefined || (tagCounts[t] ?? 0) < c;
@@ -289,7 +345,7 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
     if (!id || familyOf(id) !== "cards") continue;
     if (cardsUsed < CARDS_CAP) { cardsUsed += 1; continue; }
     const pool = eligiblePool(sectionVariants[slot], kit.sections[slot], affinity, slotCount(content, slot), slotHasImage(content, slot));
-    const alt = pool.find((v) => familyOf(v.id) !== "cards");
+    const alt = pool.find((v) => familyOf(v.id) !== "cards" && !(siteLight && isInvertedSection(v.id)));
     if (alt) sections[slot] = alt.id;
     else cardsUsed += 1; // no non-cards option in this slot/kit → keep it
   }
@@ -313,6 +369,9 @@ export function decollideSections(
 ): Record<string, string> {
   const base = hash(content.meta.domain || content.meta.firm || "x") + (opts.seed ?? 0);
   const kit = kitById(plan.kitId);
+  // Same tonal-coherence rule as planSite: on a light site the adjacency re-pick must
+  // not pull a very-dark inverted band back in (planSite already removed them).
+  const siteLight = looksLight(content, plan.lookId);
   const out: Record<string, string> = { ...plan.sections };
   let prevFam: string | null = null;
   for (const slot of order) {
@@ -320,7 +379,8 @@ export function decollideSections(
     if (!list) continue;                                  // chrome/structure slot: no family
     let id = out[slot];
     if (id && prevFam && familyOf(id) === prevFam && !opts.locked?.has(slot)) {
-      const pool = eligiblePool(list, kit?.sections[slot], plan.affinity, slotCount(content, slot), slotHasImage(content, slot));
+      let pool = eligiblePool(list, kit?.sections[slot], plan.affinity, slotCount(content, slot), slotHasImage(content, slot));
+      if (siteLight) { const nd = pool.filter((v) => !isInvertedSection(v.id)); if (nd.length) pool = nd; }
       const alt = pickAvoiding(pool, base + hash(slot), prevFam);
       if (alt) { id = alt.id; out[slot] = id; }
     }

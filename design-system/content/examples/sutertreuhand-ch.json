@@ -3,95 +3,96 @@
     "firm": "Suter Treuhand",
     "domain": "sutertreuhand.ch",
     "archetype": "swiss-digital",
-    "lookId": "tureva-soft",
+    "lookId": "ruerup-swiss",
     "sourceUrl": "https://sutertreuhand.ch/",
-    "basePresetId": "tureva-soft",
+    "basePresetId": "ruerup-swiss",
     "look": {
       "meta": {
         "id": "sutertreuhand-ch-brand",
-        "name": "Tureva Soft Modern · brand-generated",
-        "mood": "Friendly premium; rounded cards, soft shadows, geometric Outfit/Jakarta type, vibrant lime-green CTA bloom.",
-        "source": "Tureva + generated accent",
+        "name": "Rürup Swiss Corporate · logo-tinted",
+        "mood": "Precise, sharp-cornered, flat; Space Grotesk display, anthracite text, signal-red + forest-green accents.",
+        "source": "Steuerberatung-Andreas-Rürup + logo colour",
         "derived": [
-          "color.primarySoft (#ECFFE8 tint)",
-          "color.border (= surface)",
-          "base: tureva-soft",
-          "accent #955337 (generated · no scraped colour)",
-          "heading: Lexend (inventory)",
-          "body: Work Sans (inventory)",
+          "color.primaryFg (#FFFFFF)",
+          "color.primarySoft (tint of beige surface)",
+          "base: ruerup-swiss",
+          "accent #194582 (logo)",
+          "heading: Sora (inventory)",
+          "body: IBM Plex Sans (inventory)",
           "mono: IBM Plex Mono (inventory)"
         ]
       },
       "tags": {
-        "tone": "friendly",
+        "tone": "formal",
         "warmth": "neutral",
-        "corner": "soft",
-        "density": "airy",
-        "contrast": "medium",
+        "corner": "sharp",
+        "density": "normal",
+        "contrast": "high",
         "era": "modern",
         "accentEnergy": "vibrant"
       },
       "color": {
         "bg": "#FFFFFF",
-        "surface": "#F0F2F4",
-        "text": "#2D3136",
-        "textMuted": "#828E99",
-        "border": "#F0F2F4",
-        "primary": "#955337",
+        "surface": "#E5E7EB",
+        "text": "#1C1C1A",
+        "textMuted": "#71717A",
+        "border": "#E5E7EB",
+        "primary": "#194582",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#F7F1EF",
-        "secondary": "#39A1B1",
+        "primarySoft": "#EDF0F5",
+        "secondary": "#194582",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Lexend\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "headingRole": "display-geometric",
+        "body": "\"IBM Plex Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Sora\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-grotesk",
         "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
         "displayMax": "7xl",
-        "headlineWeight": "bold",
-        "bodyWeight": "medium",
+        "headlineWeight": "medium",
+        "bodyWeight": "light",
         "headlineTracking": "tight",
         "eyebrow": {
           "uppercase": true,
-          "tracking": "wider",
-          "weight": "semibold"
+          "tracking": "widest",
+          "weight": "medium"
         }
       },
       "radius": {
-        "base": "2xl",
+        "base": "sm",
         "pill": "full",
-        "scale": "soft"
+        "scale": "sharp"
       },
       "shadow": {
-        "elevation": "soft",
-        "card": "md"
+        "elevation": "flat",
+        "card": "none"
       },
       "spacing": {
-        "sectionY": "py-20",
-        "rhythm": "airy",
-        "containerMax": "1280px",
+        "sectionY": "py-12",
+        "rhythm": "normal",
+        "containerMax": "1200px",
         "gutter": "1.5rem"
       },
       "motion": {
         "durationMs": 300,
-        "easing": "cubic-bezier(0.16,1,0.3,1)",
-        "intensity": "expressive"
+        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "intensity": "subtle"
       },
       "background": {
         "treatment": "flat-white",
-        "blur": true,
-        "bloom": "rgba(149,83,55,0.18)"
+        "blur": true
       },
       "raw": {
-        "--color-brand-green": "#34FF18",
-        "--color-brand-graphite": "#2D3136",
-        "--color-brand-light-gray": "#F0F2F4",
-        "--color-brand-mid-gray": "#828E99",
-        "--font-sans": "Plus Jakarta Sans",
-        "--font-display": "Outfit"
+        "--color-brand-offwhite": "#FFFFFF",
+        "--color-brand-anthracite": "#1C1C1A",
+        "--color-brand-red": "#C8102E",
+        "--color-brand-green": "#1F4E3D",
+        "--color-brand-beige": "#E5E7EB",
+        "--color-brand-grey": "#71717A",
+        "--font-sans": "Inter",
+        "--font-display": "Space Grotesk"
       }
     },
     "brand": {
@@ -149,7 +150,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
@@ -178,7 +178,7 @@
       "faq",
       "process (generic)",
       "audience (generic)",
-      "look.colors (generated)"
+      "about (generic)"
     ],
     "real": [
       "meta.firm",
@@ -189,14 +189,14 @@
       "hero.lede",
       "services.text",
       "values",
-      "about",
       "feature",
       "footer.tagline",
       "trust.items",
       "media.pool",
       "media.logo",
       "services.images",
-      "media.documents"
+      "media.documents",
+      "logo.colors"
     ]
   },
   "media": {
@@ -591,9 +591,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Sie möchten Ihre Steuern, Ihre Buchhaltung oder Ihr Lohnwesen in verlässliche Hände geben? Sie legen Wert auf eine persönliche Betreuung mit gleichbleibendem Ansprechpartner, auf individuelle Strategien und auf ein angenehmes Miteinander?",
-        "body": "Sie möchten Ihre Steuern, Ihre Buchhaltung oder Ihr Lohnwesen in verlässliche Hände geben? Sie legen Wert auf eine persönliche Betreuung mit gleichbleibendem Ansprechpartner, auf individuelle Strategien und auf ein angenehmes Miteinander?\n\nRufen Sie mich an, schreiben Sie mir eine E-Mail oder nutzen Sie das nachstehende Formular zur Kontaktaufnahme. Gemeinsam besprechen wir in Ruhe, ob und in welcher Form ich Sie am besten unterstützen kann.\n\nSchön, dass ich Ihr Interesse geweckt habe. Sie haben noch Fragen? Rufen Sie mich an oder senden Sie mir eine E-Mail, ich helfe Ihnen sehr gerne weiter.\n\nzur Kenntnis genommen. Ich erteile Ihnen die Erlaubnis, meine Angaben zur Kontaktaufnahme und für Rückfragen dauerhaft zu speichern. (Diese Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie eine E-Mail an",
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Profitieren Sie von meiner Expertise und umfassenden Unterstützung bei Ihrer Firmengründung.\n\nOR) kann von einer oder mehreren natürlichen oder juristischen Personen gegründet werden. Diese stellen ein festgelegtes Kapital zur Verfügung, das in einzelne Anteile, sogenannte Aktien, unterteilt ist.\n\nIn der Schweiz zählt die AG zusammen mit der GmbH zu den am häufigsten gewählten Rechtsformen. Sie bietet aufgrund ihrer Regelungen zur Haftung und Kapitalstruktur auch für kleinere Unternehmen zahlreiche Vorteile.\n\nFür die Schulden der Aktiengesellschaft haftet ausschließlich das Gesellschaftsvermögen. Aktionäre tragen im Falle eines Konkurses lediglich das Risiko, ihr eingebrachtes Aktienkapital zu verlieren.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -603,7 +603,7 @@
       },
       {
         "title": "Steuerberatung",
-        "summary": "Neue Gesetze, aktuelle Trends und Entwicklungen – ich bleibe für Sie stets auf dem Laufenden und bewerte die aktuellen Geschehnisse für Sie.",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Neue Gesetze, aktuelle Trends und Entwicklungen – ich bleibe für Sie stets auf dem Laufenden und bewerte die aktuellen Geschehnisse für Sie.\n\nGeschäftsfahrzeuge sind für viele Unternehmen unverzichtbar. Erfahren Sie, wie sie steuerlich und mehrwertsteuerlich korrekt behandelt werden – inklusive Elektrofahrzeuge.\n\nAb 2025 wird das Referenzalter für Frauen schrittweise erhöht. Die AHV-21-Reform bringt wichtige Änderungen für Arbeitgeber und Versicherte – insbesondere bei Renten, Übergangsjahrgängen und HR-Prozessen.\n\nTrinkgelder fliessen in die Bemessungsgrundlage der Mehrwertsteuer ein: nun sind keine Bedenken mehr erforderlich.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -614,8 +614,8 @@
       },
       {
         "title": "Lohnadministration",
-        "summary": "Um Steuerlast und Sozialabgaben gering zu halten, setzen einige Unternehmen bewusst einen niedrigen Lohn für den Inhaber an. Dieser kann bei einer Prüfung revidiert werden, wenn die ausgeschüttete Dividende als zu hoch identifiziert wird (niedriger als 10 % des Unternehmenswerts)",
-        "body": "Um Steuerlast und Sozialabgaben gering zu halten, setzen einige Unternehmen bewusst einen niedrigen Lohn für den Inhaber an. Dieser kann bei einer Prüfung revidiert werden, wenn die ausgeschüttete Dividende als zu hoch identifiziert wird (niedriger als 10 % des Unternehmenswerts) und der Lohn analog zur Lohntabelle des Bundes als nicht angemessen betrachtet wird. AHV und SUVA nehmen in diesem Fall eine Lohnanpassung vor, die sich auch auf die Steuerlast auswirkt und die Festsetzung von Schuldzinsen nach sich zieht.\n\nEin Lohnverzicht als Inhaber ist prinzipiell möglich, da die Gesellschaft und er zwei getrennte Rechtspersönlichkeiten sind, selbst, wenn es sich um Einpersonengesellschaften handelt. Der Gedanke an einen Lohnverzicht als Inhaber liegt dabei nahe, dabei muss aber bedacht werden, dass trotzdem Mindestbeiträge an AHV/IV/EO gezahlt werden müssen und dass die Entnahme von Vermöge",
+        "summary": "Der Inhaber einer AG oder GmbH tritt meistens in einer Doppelfunktion auf: Er ist Angestellter und Anteilseigner. Steueroptimierung ist ein wichtiges Thema.",
+        "body": "Um Steuerlast und Sozialabgaben gering zu halten, setzen einige Unternehmen bewusst einen niedrigen Lohn für den Inhaber an. Dieser kann bei einer Prüfung revidiert werden, wenn die ausgeschüttete Dividende als zu hoch identifiziert wird (niedriger als 10 % des Unternehmenswerts) und der Lohn analog zur Lohntabelle des Bundes als nicht angemessen betrachtet wird. AHV und SUVA nehmen in diesem Fall eine Lohnanpassung vor, die sich auch auf die Steuerlast auswirkt und die Festsetzung von Schuldzinsen nach sich zieht.\n\nEin Lohnverzicht als Inhaber ist prinzipiell möglich, da die Gesellschaft und er zwei getrennte Rechtspersönlichkeiten sind, selbst, wenn es sich um Einpersonengesellschaften handelt.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -624,9 +624,9 @@
         ]
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Sie möchten Ihre Steuern, Ihre Buchhaltung oder Ihr Lohnwesen in verlässliche Hände geben? Sie legen Wert auf eine persönliche Betreuung mit gleichbleibendem Ansprechpartner, auf individuelle Strategien und auf ein angenehmes Miteinander?\n\nRufen Sie mich an, schreiben Sie mir eine E-Mail oder nutzen Sie das nachstehende Formular zur Kontaktaufnahme. Gemeinsam besprechen wir in Ruhe, ob und in welcher Form ich Sie am besten unterstützen kann.\n\nSchön, dass ich Ihr Interesse geweckt habe. Sie haben noch Fragen? Rufen Sie mich an oder senden Sie mir eine E-Mail, ich helfe Ihnen sehr gerne weiter.\n\nzur Kenntnis genommen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -636,8 +636,8 @@
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "Im vergangenen Jahr war ungewiss, ob Trinkgelder in bestimmten Fällen in Zukunft steuerpflichtig sein könnten. Lange Zeit schien es so, als ob die Eidgenössische Steuerverwaltung (ESTV) an ihrer diesbezüglichen Position festhalten würde. Kurz vor Weihnachten hat sie jedoch ihren ",
-        "body": "Im vergangenen Jahr war ungewiss, ob Trinkgelder in bestimmten Fällen in Zukunft steuerpflichtig sein könnten. Lange Zeit schien es so, als ob die Eidgenössische Steuerverwaltung (ESTV) an ihrer diesbezüglichen Position festhalten würde. Kurz vor Weihnachten hat sie jedoch ihren Standpunkt geändert.\n\nFür meine Mandantin, die mit erheblichen Umsetzungsproblemen konfrontiert war, stellte diese Entscheidung ein unerwartetes Weihnachtsgeschenk dar. Da es sich jedoch um eine Gabe an alle Branchen handelt, in denen Trinkgelder üblich sind, möchte ich dieses Geschenk gerne weitergeben.\n\nUm die weitreichende Bedeutung dieser Frage zu verstehen, ist ein Rückblick auf ihre Entstehung notwendig.\n\nDer Umfang der Trinkgelder lässt sich bei Barzahlung nicht genau bestimmen. Im Rahmen einer bargeldlosen Bezahlung können sie nun genau beziffert werden. Dies kommt nun auch den Behörden entgegen, die sich",
+        "summary": "Trinkgelder fliessen in die Bemessungsgrundlage der Mehrwertsteuer ein: nun sind keine Bedenken mehr erforderlich.",
+        "body": "Im vergangenen Jahr war ungewiss, ob Trinkgelder in bestimmten Fällen in Zukunft steuerpflichtig sein könnten. Lange Zeit schien es so, als ob die Eidgenössische Steuerverwaltung (ESTV) an ihrer diesbezüglichen Position festhalten würde. Kurz vor Weihnachten hat sie jedoch ihren Standpunkt geändert.\n\nFür meine Mandantin, die mit erheblichen Umsetzungsproblemen konfrontiert war, stellte diese Entscheidung ein unerwartetes Weihnachtsgeschenk dar. Da es sich jedoch um eine Gabe an alle Branchen handelt, in denen Trinkgelder üblich sind, möchte ich dieses Geschenk gerne weitergeben.\n\nUm die weitreichende Bedeutung dieser Frage zu verstehen, ist ein Rückblick auf ihre Entstehung notwendig.\n\nDer Umfang der Trinkgelder lässt sich bei Barzahlung nicht genau bestimmen. Im Rahmen einer bargeldlosen Bezahlung können sie nun genau beziffert werden.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -647,9 +647,9 @@
         "image": "/images/sutertreuhand-ch/pool/92adb2056d__mwst_firmengruendung-11501e60.jpg"
       },
       {
-        "title": "Unternehmensberatung",
-        "summary": "Profitieren Sie von meiner Expertise und umfassenden Unterstützung bei Ihrer Firmengründung.",
-        "body": "Profitieren Sie von meiner Expertise und umfassenden Unterstützung bei Ihrer Firmengründung.\n\nOR) kann von einer oder mehreren natürlichen oder juristischen Personen gegründet werden. Diese stellen ein festgelegtes Kapital zur Verfügung, das in einzelne Anteile, sogenannte Aktien, unterteilt ist.\n\nIn der Schweiz zählt die AG zusammen mit der GmbH zu den am häufigsten gewählten Rechtsformen. Sie bietet aufgrund ihrer Regelungen zur Haftung und Kapitalstruktur auch für kleinere Unternehmen zahlreiche Vorteile.\n\nFür die Schulden der Aktiengesellschaft haftet ausschließlich das Gesellschaftsvermögen. Aktionäre tragen im Falle eines Konkurses lediglich das Risiko, ihr eingebrachtes Aktienkapital zu verlieren.",
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -679,16 +679,6 @@
         "title": "Steuerberatung und Steuererklärung",
         "body": "Steuern bieten oft Sparpotenzial – vorausgesetzt, sie werden fachgerecht geplant und erstellt. Ich unterstütze Sie bei Ihrer Steuererklärung und berate Sie kompetent, damit Sie alle gesetzlichen Möglichkeiten zur Steueroptimierung ausschöpfen und keine Chancen ungenutzt bleiben."
       }
-    ]
-  },
-  "about": {
-    "eyebrow": "Über uns",
-    "heading": "Treu­hand Luzern – persönlich, kompetent und digital",
-    "lead": "Buchhaltung, Steuern und Firmengründungen für KMU und Privatpersonen in Luzern und Zürich.",
-    "paragraphs": [
-      "Konzentrieren Sie sich auf Ihr Unternehmen – ich kümmere mich um Ihre Buchhaltung, Steuern und Administration.",
-      "Mit persönlicher Betreuung, langjähriger Erfahrung und individuellen Lösungen entlaste ich Sie zuverlässig und effizient.",
-      "Eine professionelle Buchhaltung schafft Sicherheit und spart wertvolle Zeit. Ich übernehme Ihre Finanzbuchhaltung zuverlässig, effizient und zu einem fairen Fixpreis. Dank moderner digitaler Lösungen können Sie sich auf Ihr Unternehmen konzentrieren, während ich mich um Ihre Zahlen kümmere."
     ]
   },
   "featureAngles": [
@@ -769,9 +759,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Luzern",
+      "address": "Seeburgstrasse 39, 6006 Luzern",
       "phone": "+41 (0) 41 911 25 20",
-      "email": "contact@sutertreuhand.ch"
+      "email": "info@sutertreuhand.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -791,9 +781,9 @@
       {
         "title": "Standort",
         "links": [
-          "Luzern",
+          "Seeburgstrasse 39, 6006 Luzern",
           "+41 (0) 41 911 25 20",
-          "contact@sutertreuhand.ch"
+          "info@sutertreuhand.ch"
         ]
       },
       {

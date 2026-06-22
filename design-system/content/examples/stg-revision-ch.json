@@ -3,63 +3,62 @@
     "firm": "Schweizerische Treuhandgesellschaft Revision AG",
     "domain": "stg-revision.ch",
     "archetype": "swiss-digital",
-    "lookId": "zueri-swiss",
+    "lookId": "uds-warm-editorial",
     "sourceUrl": "https://www.stg-revision.ch/",
-    "basePresetId": "zueri-swiss",
+    "basePresetId": "uds-warm-editorial",
     "look": {
       "meta": {
         "id": "stg-revision-ch-brand",
-        "name": "Züri Swiss Blue · brand-generated",
-        "mood": "Swiss-clean deep-blue on white with editorial serif accents; Space Grotesk display, Playfair serif highlights, JetBrains-mono figures, live Zürich clock and an interactive calculator.",
-        "source": "Züri-Treuhand + generated accent",
+        "name": "Unter dem Strich Warm Editorial · logo-tinted",
+        "mood": "Boutique editorial on warm paper; sharp corners, hairline borders, ink-blue + rose accents, snappy underline link motion.",
+        "source": "Unter-Dem-Strich + logo colour",
         "derived": [
+          "color.surface (#FFFFFF cards on paper)",
           "color.primaryFg (#FFFFFF)",
-          "color.primarySoft (#EAF1F8 tint)",
-          "color.secondaryFg (#FFFFFF)",
-          "color.textMuted (#737373 neutral-500)",
-          "base: zueri-swiss",
-          "accent #66418B (generated · scraped #7A00DF rejected: low)",
-          "heading: Familjen Grotesk (inventory)",
-          "body: Mulish (inventory)",
-          "mono: Space Mono (inventory)"
+          "color.primarySoft (#EAECF6 tint)",
+          "base: uds-warm-editorial",
+          "accent #E24486 (logo)",
+          "heading: Epilogue (inventory)",
+          "body: Public Sans (inventory)",
+          "mono: JetBrains Mono (inventory)"
         ]
       },
       "tags": {
         "tone": "formal",
-        "warmth": "cool",
+        "warmth": "warm",
         "corner": "sharp",
-        "density": "normal",
+        "density": "airy",
         "contrast": "high",
         "era": "timeless",
         "accentEnergy": "medium"
       },
       "color": {
-        "bg": "#FFFFFF",
-        "surface": "#F9FAFB",
-        "text": "#333333",
-        "textMuted": "#737373",
-        "border": "#EAEAEA",
-        "primary": "#66418B",
+        "bg": "#FAF9F6",
+        "surface": "#FFFFFF",
+        "text": "#1C1C1A",
+        "textMuted": "#8A8782",
+        "border": "#E7E4DD",
+        "primary": "#E24486",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#F3F0F6",
-        "secondary": "#4C45A5",
+        "primarySoft": "#F8EBED",
+        "secondary": "#E24486",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
-        "headingRole": "display-grotesk"
+        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Epilogue\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-geometric"
       },
       "type": {
         "displayMax": "7xl",
-        "headlineWeight": "bold",
-        "bodyWeight": "light",
+        "headlineWeight": "semibold",
+        "bodyWeight": "normal",
         "headlineTracking": "tight",
         "eyebrow": {
           "uppercase": true,
           "tracking": "widest",
-          "weight": "bold"
+          "weight": "medium"
         }
       },
       "radius": {
@@ -68,33 +67,33 @@
         "scale": "sharp"
       },
       "shadow": {
-        "elevation": "subtle",
+        "elevation": "flat",
         "card": "sm"
       },
       "spacing": {
-        "sectionY": "py-16",
-        "rhythm": "normal",
-        "containerMax": "1280px",
+        "sectionY": "py-24",
+        "rhythm": "airy",
+        "containerMax": "1200px",
         "gutter": "1.5rem"
       },
       "motion": {
-        "durationMs": 400,
-        "easing": "cubic-bezier(0.4,0,0.2,1)",
+        "durationMs": 200,
+        "easing": "ease-out",
         "intensity": "subtle"
       },
       "background": {
-        "treatment": "flat-white",
+        "treatment": "warm-paper",
         "blur": true
       },
       "raw": {
-        "--color-brand-blue": "#084687",
-        "--color-accent-blue": "#0b549f",
-        "--color-charcoal": "#333333",
-        "--color-soft-gray": "#F9FAFB",
-        "--color-border-gray": "#EAEAEA",
+        "--color-brand-bg": "#FAF9F6",
+        "--color-brand-text": "#1C1C1A",
+        "--color-brand-blue": "#2C3E91",
+        "--color-brand-rose": "#E3A39B",
+        "--color-brand-border": "#E7E4DD",
+        "--color-brand-muted": "#8A8782",
         "--font-sans": "Inter",
-        "--font-serif": "Playfair Display",
-        "--font-display": "Space Grotesk",
+        "--font-display": "Plus Jakarta Sans",
         "--font-mono": "JetBrains Mono"
       }
     },
@@ -169,7 +168,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -198,8 +196,7 @@
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
-      "look.colors (generated)"
+      "audience (generic)"
     ],
     "real": [
       "meta.firm",
@@ -220,7 +217,8 @@
       "media.logo",
       "trust.badges",
       "services.images",
-      "media.documents"
+      "media.documents",
+      "logo.colors"
     ]
   },
   "media": {
@@ -727,20 +725,31 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Die Finanzbuchhaltung ist der Kern für jedes gesunde Unternehmen und für uns das Herzstück, wenn es darum geht mit Ihnen neue Ziele zu erreichen. Gemeinsam erarbeiten wir mit Ihnen massgeschneiderte Lösungen, welche auf Ihre Bedürfnisse zugeschnitten sind. Angefangen mit der pers",
-        "body": "Die Finanzbuchhaltung ist der Kern für jedes gesunde Unternehmen und für uns das Herzstück, wenn es darum geht mit Ihnen neue Ziele zu erreichen. Gemeinsam erarbeiten wir mit Ihnen massgeschneiderte Lösungen, welche auf Ihre Bedürfnisse zugeschnitten sind. Angefangen mit der persönlichen Beratung bis hin zur kompletten Verwaltung Ihrer Buchhaltung. Wir begleiten Sie als treuer Partner durch den Finanzdschungel. Unser Ziel ist es mit Ihnen ein starkes Fundament zu legen und dank Digitalisierung die Prozesse zu optimieren.",
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Ein etabliertes und erfolgreiches Familienunternehmen, das sich seit der Gründung als zuverlässiger und moderner Partner als Tabakwarengeschäft positioniert hat, steht aufgrund der geplanten Nachfolgeregelung zum Verkauf.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/stg-revision-ch/pool/e36f08f234__Schweizerische-Treuhandgesellschaft-Revision-Finanzbuchhaltung.jpg"
+        "image": "/images/stg-revision-ch/pool/c701d8046b__Schweizerische-Treuhandgesellschaft-Revision-Kontakt.jpg"
       },
       {
         "title": "Steuerberatung",
-        "summary": "Für Unternehmen und Privatpersonen ist es keine leichte Aufgabe, sich im Dickicht von Steuergesetzen und -Reglementen zurechtzufinden. Wir lotsen Sie hindurch. Eine umfassende Beratung unter Berücksichtigung Ihrer unternehmerischen oder persönlichen Pläne bildet die Grundlage für",
+        "summary": "Steuerberatung für natürliche & juristische Personen - Es ist keine leichte Aufgabe, sich im Dickicht von Steuergesetzen zurechtzufinden.",
         "body": "Für Unternehmen und Privatpersonen ist es keine leichte Aufgabe, sich im Dickicht von Steuergesetzen und -Reglementen zurechtzufinden. Wir lotsen Sie hindurch. Eine umfassende Beratung unter Berücksichtigung Ihrer unternehmerischen oder persönlichen Pläne bildet die Grundlage für eine optimale Steuerberatung und Steuerplanung. Unsere langjährige Erfahrung in den Bereichen der Unternehmensberatung, Steuern und Finanzplanung gewährleistet Ihnen eine fachliche und professionelle sowie umfassende Betreuung.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -751,8 +760,20 @@
         "image": "/images/stg-revision-ch/pool/53a60ecb74__Schweizerische-Treuhandgesellschaft-Revision-Steuerberatung.jpg"
       },
       {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Die Finanzbuchhaltung ist der Kern für jedes gesunde Unternehmen und für uns das Herzstück, wenn es darum geht mit Ihnen neue Ziele zu erreichen. Gemeinsam erarbeiten wir mit Ihnen massgeschneiderte Lösungen, welche auf Ihre Bedürfnisse zugeschnitten sind. Angefangen mit der persönlichen Beratung bis hin zur kompletten Verwaltung Ihrer Buchhaltung. Wir begleiten Sie als treuer Partner durch den Finanzdschungel. Unser Ziel ist es mit Ihnen ein starkes Fundament zu legen und dank Digitalisierung die Prozesse zu optimieren.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/stg-revision-ch/pool/e36f08f234__Schweizerische-Treuhandgesellschaft-Revision-Finanzbuchhaltung.jpg"
+      },
+      {
         "title": "Lohnadministration",
-        "summary": "Von den Lohnabrechnungen über die Quellensteuer bis zur korrekten Verbuchung der Sozialversicherungen – wir begleiten Sie durch das komplexe Thema der Lohnadministration. So gewinnen Sie Zeit um sich auf Ihr Unternehmen zu fokussieren und wir kümmern uns um die steuerrelevanten B",
+        "summary": "Von Lohnabrechnungen über Quellensteuer bis zur Verbuchung der Versicherungen - wir begleiten Sie durch das Thema der Lohnadministration.",
         "body": "Von den Lohnabrechnungen über die Quellensteuer bis zur korrekten Verbuchung der Sozialversicherungen – wir begleiten Sie durch das komplexe Thema der Lohnadministration. So gewinnen Sie Zeit um sich auf Ihr Unternehmen zu fokussieren und wir kümmern uns um die steuerrelevanten Bestimmungen. Verlieren Sie keine Zeit und arbeiten Sie Hand in Hand mit uns zusammen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -765,29 +786,7 @@
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Unternehmensberatung",
-        "summary": "Ein etabliertes und erfolgreiches Familienunternehmen, das sich seit der Gründung als zuverlässiger und moderner Partner als Tabakwarengeschäft positioniert hat, steht aufgrund der geplanten Nachfolgeregelung zum Verkauf.",
-        "body": "Ein etabliertes und erfolgreiches Familienunternehmen, das sich seit der Gründung als zuverlässiger und moderner Partner als Tabakwarengeschäft positioniert hat, steht aufgrund der geplanten Nachfolgeregelung zum Verkauf.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -804,19 +803,15 @@
   },
   "about": {
     "eyebrow": "Über uns",
-    "heading": "Über die STG-Gruppe",
-    "lead": "Die bisherigen Tochtergesellschaften sind durch jeweilige Management Buy Outs verselbständigt worden. Die STG Gruppe besteht neu aus der Schweizerischen Treuhandgesellschaft AG, Basel, Schweizerischen Treuhandgesellschaft (Bern) AG, Bern, Schweizerischen Treuhandgesellschaft (Zürich) AG, Zürich und der STG Revision AG (Basel, Bern und Zürich).",
-    "paragraphs": [
-      "Der Sitz Zürich wird in eine Tochtergesellschaft, der Schweizerischen Treuhandgesellschaft (Zürich) AG, ausgegliedert. Die Schweizerische Treuhandgesellschaft Gruppe besteht nun aus drei Sitzen: Basel, Bern und Zürich.",
-      ". GGI ist eine Allianz von unabhängigen Firmen im Treuhandbereich. Die Schweizerische Treuhandgesellschaft AG ist wieder mit einem internationalen Netzwerk verbunden.",
-      "Die Gesellschaftssitze in Lausanne und Genf werden an die Mitarbeitenden verkauft. Die Schweizerische Treuhandgesellschaft AG ist neu in Basel (Hauptsitz), Bern und Zürich vertreten und beschäftigt über 33 Mitarbeitende."
-    ]
+    "heading": "Wer wir sind",
+    "lead": "Wir sind immer für Sie da und unterstützen Sie gerne wo immer wir können.",
+    "paragraphs": []
   },
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Die Finanzbuchhaltung ist der Kern für jedes gesunde Unternehmen und für uns das Herzstück, wenn es darum geht mit Ihnen neue Ziele zu erreichen. Gemeinsam erarbeiten wir mit Ihnen massgeschneiderte Lösungen, welche auf Ihre Bedürfnisse zugeschnitten sind. Angefangen mit der pers",
+      "heading": "Unternehmensberatung",
+      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -829,7 +824,20 @@
     {
       "eyebrow": "Leistung",
       "heading": "Steuerberatung",
-      "body": "Für Unternehmen und Privatpersonen ist es keine leichte Aufgabe, sich im Dickicht von Steuergesetzen und -Reglementen zurechtzufinden. Wir lotsen Sie hindurch. Eine umfassende Beratung unter Berücksichtigung Ihrer unternehmerischen oder persönlichen Pläne bildet die Grundlage für",
+      "body": "Steuerberatung für natürliche & juristische Personen - Es ist keine leichte Aufgabe, sich im Dickicht von Steuergesetzen zurechtzufinden.",
+      "bullets": [
+        "Laufende, termingerechte Betreuung",
+        "Digitale Belegerfassung & Echtzeit-Zahlen",
+        "Ein persönlicher Ansprechpartner"
+      ],
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Leistung",
+      "heading": "Buchhaltung",
+      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -842,20 +850,7 @@
     {
       "eyebrow": "Leistung",
       "heading": "Lohnadministration",
-      "body": "Von den Lohnabrechnungen über die Quellensteuer bis zur korrekten Verbuchung der Sozialversicherungen – wir begleiten Sie durch das komplexe Thema der Lohnadministration. So gewinnen Sie Zeit um sich auf Ihr Unternehmen zu fokussieren und wir kümmern uns um die steuerrelevanten B",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Ein etabliertes und erfolgreiches Familienunternehmen, das sich seit der Gründung als zuverlässiger und moderner Partner als Tabakwarengeschäft positioniert hat, steht aufgrund der geplanten Nachfolgeregelung zum Verkauf.",
+      "body": "Von Lohnabrechnungen über Quellensteuer bis zur Verbuchung der Versicherungen - wir begleiten Sie durch das Thema der Lohnadministration.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -941,9 +936,8 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Bern",
-      "phone": "+41 31 310 97 02",
-      "email": "christine.perler@stg.ch"
+      "address": "Kehrstrasse 12, 3904 Naters",
+      "phone": "+41 31 310 97 02"
     },
     "formCta": "Nachricht senden"
   },
@@ -964,9 +958,9 @@
       {
         "title": "Standort",
         "links": [
-          "Bern",
+          "Kehrstrasse 12, 3904 Naters",
           "+41 31 310 97 02",
-          "christine.perler@stg.ch"
+          "info@…"
         ]
       },
       {

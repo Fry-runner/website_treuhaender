@@ -74,5 +74,15 @@
     "pitch": true,
     "prototypeUrl": "https://treuhand-adea-treuhand-ch.vercel.app",
     "approvedAt": "2026-06-21T23:51:35.655Z"
+  },
+  "divisia-treuhand-ch": {
+    "slug": "divisia-treuhand-ch",
+    "firm": "Divisia Treuhand AG",
+    "domain": "divisia-treuhand.ch",
+    "sourceUrl": "https://divisia-treuhand.ch/",
+    "seed": 0,
+    "pitch": true,
+    "prototypeUrl": "https://treuhand-divisia-treuhand-ch.vercel.app",
+    "approvedAt": "2026-06-22T14:39:32.814Z"
   }
 }

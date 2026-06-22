@@ -145,6 +145,10 @@
           "presence": "often"
         },
         {
+          "pageType": "team",
+          "presence": "often"
+        },
+        {
           "pageType": "contact",
           "presence": "always"
         },
@@ -162,7 +166,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
@@ -180,7 +183,7 @@
         "page:services": "✓ Leistungen vorhanden",
         "page:service-detail": "✓ ≥3 Leistungen → SEO-Detailseiten",
         "page:about": "✓ Über-uns-Seite im Scrape",
-        "page:team": "✗ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
+        "page:team": "✓ 5+ Mitarbeitende → eigene Team-Seite (bis 4 auf Über-uns)",
         "page:pricing": "✗ Preisseite + echte Preise",
         "fn:onlineBooking": "✗ keine Online-Buchung → CTA führt zum Kontakt",
         "fn:jobs": "✗ keine Jobs im Scrape"
@@ -390,53 +393,9 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Das Treuhandzentrum Zürich steht für mehr als nur Zahlen. Wir begleiten Unternehmen und Privatpersonen mit Weitblick, Fachkompetenz und einem starken Netzwerk – in jeder Phase Ihres wirtschaftlichen Handelns.",
-        "body": "Das Treuhandzentrum Zürich steht für mehr als nur Zahlen. Wir begleiten Unternehmen und Privatpersonen mit Weitblick, Fachkompetenz und einem starken Netzwerk – in jeder Phase Ihres wirtschaftlichen Handelns.\n\nAls modernes Treuhandunternehmen mit über 17 Jahren Erfahrung verstehen wir die Herausforderungen von heute – und die Fragen von morgen.\n\nOb es um eine reibungslos geführte Buchhaltung, die gesetzeskonforme Abwicklung von Löhnen, komplexe Unternehmensfragen oder Ihre private Vorsorge geht: Unsere Lösungen sind ganzheitlich, verständlich und individuell auf Sie abgestimmt.\n\nUnser Anspruch ist es, nicht nur sauber zu verwalten, sondern aktiv mitzugestalten. Wir denken unternehmerisch, handeln praxisnah und beraten stets auf Augenhöhe.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
         "title": "Steuerberatung",
-        "summary": "behalten Sie den �berblick und vermeiden h�ufige Fehler, die zu Nachfragen oder Verz�gerungen f�hren k�nnen.",
-        "body": "behalten Sie den �berblick und vermeiden h�ufige Fehler, die zu Nachfragen oder Verz�gerungen f�hren k�nnen.\n\n«Wir sind Ihr vertrauenswürdiger Partner, der da ist, wenn die See stürmt.»\n\nWir sind stolz auf das Vertrauen, das uns unsere Kunden entgegenbringen. Jede Bewertung spiegelt persönliche Erfahrungen wider und gibt einen authentischen Einblick in unsere Arbeit. Ihr Feedback ist für uns nicht nur wertvoll, um weiter zu wachsen, sondern zeigt auch neuen Kunden, was sie bei uns erwarten dürfen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Lohnadministration",
-        "summary": "Wir unterstützen Sie bei Payroll, Spesenreglementen und Arbeitsverträgen – damit Sie sich ganz auf Ihr Kerngeschäft konzentrieren können.",
-        "body": "Wir unterstützen Sie bei Payroll, Spesenreglementen und Arbeitsverträgen – damit Sie sich ganz auf Ihr Kerngeschäft konzentrieren können.\n\nOb Lohnbuchhaltung, Arbeitsvertr�ge oder Spesenabrechnungen: Eine korrekte Personaladministration ist essenziell f�r jedes Unternehmen.\n\nWir helfen Ihnen, gesetzliche Anforderungen sicher zu erf�llen, administrativen Aufwand zu reduzieren und Klarheit f�r Ihre Mitarbeitenden zu schaffen.\n\nAls erfahrene Payroll Spezialisten unterst�tzen wir KMU in der ganzen Schweiz mit praxisnahen L�sungen \u0013 von der lohnabrechnung vorlage schweiz bis zur rechtssicheren Gestaltung von arbeitsvertr�gen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Jahresabschluss",
-        "summary": "«Ein exakt auf die Bedürfnisse und Ziele des Unternehmens ausgerichtetes Finanz- und Rechnungswesen ist ein wichtiges Führungsinstrument.»",
-        "body": "«Ein exakt auf die Bedürfnisse und Ziele des Unternehmens ausgerichtetes Finanz- und Rechnungswesen ist ein wichtiges Führungsinstrument.»\n\nWir sind stolz auf das Vertrauen, das uns unsere Kunden entgegenbringen. Jede Bewertung spiegelt persönliche Erfahrungen wider und gibt einen authentischen Einblick in unsere Arbeit. Ihr Feedback ist für uns nicht nur wertvoll, um weiter zu wachsen, sondern zeigt auch neuen Kunden, was sie bei uns erwarten dürfen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "Ab dem 1.1.2025 treten das teilrevidierte Mehrwertsteuergesetz, die teilrevidierte Mehrwertsteuerverordnung und diverse weitere wichtige Änderungen in Kraft.",
-        "body": "Ab dem 1.1.2025 treten das teilrevidierte Mehrwertsteuergesetz, die teilrevidierte Mehrwertsteuerverordnung und diverse weitere wichtige Änderungen in Kraft.\n\nDie Teilrevision des Mehrwertsteuergesetzes betrifft in erster Linie spezielle Unternehmungen wie Versandhandelsplattformen und Reiseb�ros. Der Gesetzgeber hat im Rahmen der Revision jedoch weitere Anpassungen vorgenommen, welche sich auch auf KMU und sonstige Unternehmungen auswirken k�nnen. Hier finden Sie eine kompakte �bersicht mit den wichtigsten �nderungen:\n\nSteuerpflichtige Personen k�nnen die Mehrwertsteuer nach der Saldosteuersatz-Methode (SSS) abrechnen, wenn sie folgende Voraussetzungen kumulativ erf�llen: Der maximale Jahresumsatz aus steuerbaren Leistungen (inkl. Steuer) darf CHF 5'024'000 nicht �berschreiten, und die maximale geschuldete Mehrwertsteuer darf, basierend auf dem massgebenden Saldosteuersatz, CHF 109'000 ",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "«Wir sind Ihr vertrauenswürdiger Partner, der da ist, wenn die See stürmt.»\n\nWir sind stolz auf das Vertrauen, das uns unsere Kunden entgegenbringen. Jede Bewertung spiegelt persönliche Erfahrungen wider und gibt einen authentischen Einblick in unsere Arbeit. Ihr Feedback ist für uns nicht nur wertvoll, um weiter zu wachsen, sondern zeigt auch neuen Kunden, was sie bei uns erwarten dürfen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -446,8 +405,52 @@
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "behalten Sie den �berblick �ber alle Anforderungen und vermeiden Verz�gerungen im Gr�ndungsprozess.",
-        "body": "behalten Sie den �berblick �ber alle Anforderungen und vermeiden Verz�gerungen im Gr�ndungsprozess.\n\n«Wir sind Ihr vertrauenswürdiger Partner, der da ist, wenn die See stürmt.»\n\nWir sind stolz auf das Vertrauen, das uns unsere Kunden entgegenbringen. Jede Bewertung spiegelt persönliche Erfahrungen wider und gibt einen authentischen Einblick in unsere Arbeit. Ihr Feedback ist für uns nicht nur wertvoll, um weiter zu wachsen, sondern zeigt auch neuen Kunden, was sie bei uns erwarten dürfen.",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "«Wir sind Ihr vertrauenswürdiger Partner, der da ist, wenn die See stürmt.»\n\nWir sind stolz auf das Vertrauen, das uns unsere Kunden entgegenbringen. Jede Bewertung spiegelt persönliche Erfahrungen wider und gibt einen authentischen Einblick in unsere Arbeit. Ihr Feedback ist für uns nicht nur wertvoll, um weiter zu wachsen, sondern zeigt auch neuen Kunden, was sie bei uns erwarten dürfen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Das Treuhandzentrum Zürich steht für mehr als nur Zahlen. Wir begleiten Unternehmen und Privatpersonen mit Weitblick, Fachkompetenz und einem starken Netzwerk – in jeder Phase Ihres wirtschaftlichen Handelns.\n\nAls modernes Treuhandunternehmen mit über 17 Jahren Erfahrung verstehen wir die Herausforderungen von heute – und die Fragen von morgen.\n\nOb es um eine reibungslos geführte Buchhaltung, die gesetzeskonforme Abwicklung von Löhnen, komplexe Unternehmensfragen oder Ihre private Vorsorge geht: Unsere Lösungen sind ganzheitlich, verständlich und individuell auf Sie abgestimmt.\n\nUnser Anspruch ist es, nicht nur sauber zu verwalten, sondern aktiv mitzugestalten. Wir denken unternehmerisch, handeln praxisnah und beraten stets auf Augenhöhe.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Professionelle Personaladministration in Zürich: Lohnbuchhaltung, Arbeitsverträge und Spesenreglemente. Rechtssicher, effizient und praxisnah. Für KMU und Unternehmen. Jetzt anfragen.",
+        "body": "Wir unterstützen Sie bei Payroll, Spesenreglementen und Arbeitsverträgen – damit Sie sich ganz auf Ihr Kerngeschäft konzentrieren können.\n\nUnsere Lösungen sind auf Schweizer KMU zugeschnitten – verständlich, klar strukturiert und sofort umsetzbar. Ob Lohnabrechnung oder Spesenreglement – wir liefern praxiserprobte Vorlagen und individuelle Beratung.\n\nWir halten Ihre Arbeitsverträge Schweiz-konform und Ihre Spesenrichtlinien auf dem neuesten Stand. So vermeiden Sie unnötige Risiken und Konflikte.\n\nBei uns haben Sie feste Ansprechpersonen – vom Payroll Spezialist bis zur Rechtsberatung. Wir nehmen uns Zeit für Ihre Fragen und entwickeln gemeinsam nachhaltige Lösungen.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Ab dem 1.1.2025 treten das teilrevidierte Mehrwertsteuergesetz, die teilrevidierte Mehrwertsteuerverordnung und diverse weitere wichtige Änderungen in Kraft.\n\nNeu von der Mehrwertsteuer ausgenommen sind Heilbehandlungen von Psychologinnen und Psychologen, Apothekerinnen und Apothekern sowie Optometristinnen und Optometristen.\n\n«Wir stellen in allen unseren Überlegungen den Kunden mit seinem individuellen Denken und Handeln in den Mittelpunkt.»\n\nWeil uns die Umwelt wichtig ist, haben wir das Klima-Zertifikat von Carbon Connect erneuert.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ]
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "«Ein exakt auf die Bedürfnisse und Ziele des Unternehmens ausgerichtetes Finanz- und Rechnungswesen ist ein wichtiges Führungsinstrument.»\n\nWir sind stolz auf das Vertrauen, das uns unsere Kunden entgegenbringen. Jede Bewertung spiegelt persönliche Erfahrungen wider und gibt einen authentischen Einblick in unsere Arbeit. Ihr Feedback ist für uns nicht nur wertvoll, um weiter zu wachsen, sondern zeigt auch neuen Kunden, was sie bei uns erwarten dürfen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -462,8 +465,12 @@
     "heading": "Ihr Vorteil.",
     "items": [
       {
-        "title": "Unser Ansatz:",
-        "body": "Wir kombinieren modernste Technologien mit traditionellem Expertenwissen, um Ihnen eine 360�-Beratung zu bieten. Unser Ziel ist es, Prozesse zu optimieren, Transparenz zu schaffen und Ihnen so mehr Zeit f�r das Wesentliche zu geben \u0013 Ihr Kerngesch�ft."
+        "title": "Ganzheitliche Kompetenz",
+        "body": "Treuhand, Personaladministration, Recht und Steuern unter einem Dach – für effiziente, abgestimmte Lösungen."
+      },
+      {
+        "title": "Verlässliche Partnerschaft",
+        "body": "Im Treuhandzentrum stehen wir für Vertrauen und Beständigkeit. Unsere Mandanten können sich darauf verlassen, dass wir ihre Anliegen mit höchster Sorgfalt und Transparenz begleiten – heute und in Zukunft."
       },
       {
         "title": "Lösungsorientierung",
@@ -472,28 +479,32 @@
       {
         "title": "Arbeiten beim Treuhandzentrum Zürich",
         "body": "Beim Treuhandzentrum Zürich arbeiten Menschen, die mehr wollen als nur Belege sortieren. Wir sind ein engagiertes Team aus Treuhänder:innen, Steuerexpert:innen, Personalprofis und Beratenden – mit klarem Fokus auf Qualität, Partnerschaft und Weiterentwicklung."
-      },
-      {
-        "title": "Unsere Experten im Hintergrund",
-        "body": "Je nach Fragestellung arbeiten wir eng mit externen Spezialisten zusammen – z. B. in den Bereichen internationales Steuerrecht, Recht, Immobilien oder Vorsorgeplanung. Diese Zusammenarbeit ermöglicht uns, auch in komplexen Situationen ganzheitliche Lösungen anzubieten – abgestimmt, professionell und aus einer Hand."
       }
     ]
   },
   "about": {
     "eyebrow": "Über uns",
-    "heading": "Ihre Experten für Firmengründungen",
-    "lead": "Ob GmbH, AG oder Einzelfirma: Wir unterstützen Sie zuverlässig bei jedem Schritt zur eigenen Firma – von der Rechtsformwahl bis zur Handelsregistereintragung.",
+    "heading": "Vertrauen, Kompetenz und Weitsicht â das ist unser Versprechen",
+    "lead": "Seit über 17 Jahren begleiten wir Unternehmen und Privatpersonen mit massgeschneiderten Treuhand-, Steuer- und Finanzlösungen. Unsere Kund:innen schätzen unsere Nähe, unser Netzwerk – und dass wir da sind, wenn die See stürmt.",
     "paragraphs": [
-      "Wer in der Schweiz ein Unternehmen gr�nden m�chte, hat viele Fragen \u0013 von den rechtlichen Voraussetzungen bis zu den Kosten. Wir begleiten Gr�nder:innen, Startups und KMU bei der Wahl der passenden Rechtsform und k�mmern uns um alle Formalit�ten.",
-      "Ob Sie eine GmbH gr�nden, eine AG aufbauen oder eine Einzelfirma gr�nden m�chten \u0013 mit unserer Unterst�tzung wird der Start einfacher, schneller und sicherer.",
-      "Wir kennen die Abläufe und Anforderungen der Schweizer Behörden und wissen, worauf es bei einer erfolgreichen Gründung ankommt – egal ob Sie ein Start-up gründen oder eine Einzelfirma starten."
+      "Treuhand, Personaladministration, Recht und Steuern unter einem Dach – für effiziente, abgestimmte Lösungen.",
+      "Im Treuhandzentrum stehen wir für Vertrauen und Beständigkeit. Unsere Mandanten können sich darauf verlassen, dass wir ihre Anliegen mit höchster Sorgfalt und Transparenz begleiten – heute und in Zukunft.",
+      "Herausforderungen begegnen wir mit einem klaren Blick nach vorn. Statt Probleme in den Vordergrund zu stellen, entwickeln wir pragmatische und passgenaue Lösungen, die echten Mehrwert schaffen."
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Unser Ansatz:",
-      "body": "Wir kombinieren modernste Technologien mit traditionellem Expertenwissen, um Ihnen eine 360�-Beratung zu bieten. Unser Ziel ist es, Prozesse zu optimieren, Transparenz zu schaffen und Ihnen so mehr Zeit f�r das Wesentliche zu geben \u0013 Ihr Kerngesch�ft.",
+      "heading": "Ganzheitliche Kompetenz",
+      "body": "Treuhand, Personaladministration, Recht und Steuern unter einem Dach – für effiziente, abgestimmte Lösungen.",
+      "cta": {
+        "label": "Kontakt aufnehmen"
+      }
+    },
+    {
+      "eyebrow": "Unser Ansatz",
+      "heading": "Verlässliche Partnerschaft",
+      "body": "Im Treuhandzentrum stehen wir für Vertrauen und Beständigkeit. Unsere Mandanten können sich darauf verlassen, dass wir ihre Anliegen mit höchster Sorgfalt und Transparenz begleiten – heute und in Zukunft.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -513,14 +524,6 @@
       "cta": {
         "label": "Kontakt aufnehmen"
       }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Unsere Experten im Hintergrund",
-      "body": "Je nach Fragestellung arbeiten wir eng mit externen Spezialisten zusammen – z. B. in den Bereichen internationales Steuerrecht, Recht, Immobilien oder Vorsorgeplanung. Diese Zusammenarbeit ermöglicht uns, auch in komplexen Situationen ganzheitliche Lösungen anzubieten – abgestimmt, professionell und aus einer Hand.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
     }
   ],
   "team": {
@@ -533,6 +536,41 @@
         "initials": "JA",
         "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
         "photo": "/images/treuhand-zentrum-zuerich-ch/team/0-amstalden.png"
+      },
+      {
+        "name": "Marco Löhrer",
+        "role": "Partner",
+        "initials": "ML",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/treuhand-zentrum-zuerich-ch/team/1-löhrer.png"
+      },
+      {
+        "name": "Julian Fingerhut",
+        "role": "Partner, BSc ZFH in Betriebsökonomie",
+        "initials": "JF",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/treuhand-zentrum-zuerich-ch/team/2-fingerhut.png"
+      },
+      {
+        "name": "Jackie Herzog",
+        "role": "Partner",
+        "initials": "JH",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/treuhand-zentrum-zuerich-ch/team/3-herzog.png"
+      },
+      {
+        "name": "Nicolas Schärer",
+        "role": "Partner, Treuhänder mit eidg. FA",
+        "initials": "NS",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/treuhand-zentrum-zuerich-ch/team/4-schärer.png"
+      },
+      {
+        "name": "Deniz Müller",
+        "role": "Treuhandsachbearbeiter, Dipl. Wirtschaftsfachmann VSK",
+        "initials": "DM",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
+        "photo": "/images/treuhand-zentrum-zuerich-ch/team/5-müller.png"
       }
     ]
   },
@@ -590,9 +628,8 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
-      "phone": "+41 44 421 33 77",
-      "email": "albana.jetishi@tz-zuerich.ch"
+      "address": "Brandschenkestrasse 178, 8002 Zürich",
+      "phone": "+41 44 421 33 77"
     },
     "formCta": "Nachricht senden"
   },
@@ -611,9 +648,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Brandschenkestrasse 178, 8002 Zürich",
           "+41 44 421 33 77",
-          "albana.jetishi@tz-zuerich.ch"
+          "info@…"
         ]
       },
       {

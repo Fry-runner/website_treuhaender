@@ -123,6 +123,7 @@
         "services",
         "audience",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -160,14 +161,13 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "kein echtes Team gefunden",
+        "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -188,9 +188,11 @@
       "hero.aside",
       "values",
       "faq",
+      "services.text",
       "process (generic)",
       "audience (generic)",
       "about (generic)",
+      "feature (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -200,8 +202,7 @@
       "contact.phone",
       "hero.headline",
       "hero.lede",
-      "services.text",
-      "feature",
+      "team.members",
       "footer.tagline",
       "trust.items",
       "media.pool",
@@ -228,7 +229,9 @@
       "Jahresabschluss": "/images/sbt-treuhand-ch/pool/stock-office-36175676.jpg",
       "Mehrwertsteuer": "/images/sbt-treuhand-ch/pool/stock-office-8453801.jpg",
       "Unternehmensberatung": "/images/sbt-treuhand-ch/pool/stock-finance-577195.jpg",
-      "Revision": "/images/sbt-treuhand-ch/pool/stock-office-20314954.jpg"
+      "Revision": "/images/sbt-treuhand-ch/pool/stock-office-20314954.jpg",
+      "Immobilien": "/images/sbt-treuhand-ch/pool/stock-meeting-7433840.jpg",
+      "Nachlass & Erbrecht": "/images/sbt-treuhand-ch/pool/stock-documents-7876037.jpg"
     },
     "documents": [
       {
@@ -381,7 +384,7 @@
         "stock": true,
         "credit": "Monstera Production (Pexels)",
         "source": "https://www.pexels.com/photo/decorative-cardboard-illustration-of-hand-with-diagram-and-dollar-coin-5849583/",
-        "quality": 0.17,
+        "quality": 0.2,
         "faces": 0,
         "roles": [
           "gallery"
@@ -399,7 +402,7 @@
         "stock": true,
         "credit": "Pixabay (Pexels)",
         "source": "https://www.pexels.com/photo/black-study-lamp-on-black-table-159839/",
-        "quality": 0.79,
+        "quality": 0.8,
         "faces": 1,
         "roles": [
           "gallery",
@@ -438,7 +441,7 @@
         "stock": true,
         "credit": "Samkit desai (Pexels)",
         "source": "https://www.pexels.com/photo/modern-minimalist-office-interior-with-desk-36175676/",
-        "quality": 0.68,
+        "quality": 0.72,
         "faces": 0,
         "roles": [
           "gallery",
@@ -459,7 +462,7 @@
         "stock": true,
         "credit": "cottonbro studio (Pexels)",
         "source": "https://www.pexels.com/photo/photo-of-a-workplace-8453801/",
-        "quality": 0.58,
+        "quality": 0.6,
         "faces": 0,
         "roles": [
           "gallery",
@@ -480,7 +483,7 @@
         "stock": true,
         "credit": "Lukas Blazek (Pexels)",
         "source": "https://www.pexels.com/photo/turned-on-laptop-computer-577195/",
-        "quality": 0.75,
+        "quality": 0.77,
         "faces": 0,
         "roles": [
           "gallery",
@@ -501,13 +504,54 @@
         "stock": true,
         "credit": "The Juggle Studio (Pexels)",
         "source": "https://www.pexels.com/photo/tables-in-minimalist-interior-20314954/",
-        "quality": 0.54,
+        "quality": 0.58,
         "faces": 0,
         "roles": [
           "gallery",
           "background",
           "service",
           "feature"
+        ]
+      },
+      {
+        "src": "/images/sbt-treuhand-ch/pool/stock-meeting-7433840.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 98769,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Vlada Karpovich (Pexels)",
+        "source": "https://www.pexels.com/photo/a-group-of-people-discussing-in-a-room-7433840/",
+        "quality": 0.67,
+        "faces": 5,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/sbt-treuhand-ch/pool/stock-documents-7876037.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 57715,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "www.kaboompics.com (Pexels)",
+        "source": "https://www.pexels.com/photo/a-person-signing-divorce-documents-7876037/",
+        "quality": 0.46,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service"
         ]
       }
     ],
@@ -525,7 +569,9 @@
       "Samkit desai (Pexels)",
       "cottonbro studio (Pexels)",
       "Lukas Blazek (Pexels)",
-      "The Juggle Studio (Pexels)"
+      "The Juggle Studio (Pexels)",
+      "Vlada Karpovich (Pexels)",
+      "www.kaboompics.com (Pexels)"
     ]
   },
   "nav": {
@@ -563,66 +609,6 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/sbt-treuhand-ch/pool/stock-success-5849583.jpg"
-      },
-      {
-        "title": "Steuerberatung",
-        "summary": "Lohnbuchhaltung inkl. Zahlungsverkehr, Jahresendauswertungen und -abrechnungen, Lohnausweise",
-        "body": "Lohnbuchhaltung inkl. Zahlungsverkehr, Jahresendauswertungen und -abrechnungen, Lohnausweise\n\nSpezialsteuererklärungen bei Liegenschaften, Erbengemeinschaften, Todesfällen usw.\n\nDiverse Auswertungen als Führungsmittel (kurzfristige Erfolgsrechnung, Budgets, Finanzpläne, Bilanz- und Erfolgsanalysen, Liquiditätspläne etc.)\n\nDie Geschichte der SBT reicht zurück bis ins Jahr 1938. Dr. Jakob Viel gründete damals innerhalb seiner Anwaltskanzlei eine Treuhandabteilung, welche 1972 als Steuer-Bilanz-Treuhand AG verselbständigt wurde.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/sbt-treuhand-ch/pool/stock-office-159839.jpg"
-      },
-      {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/sbt-treuhand-ch/pool/stock-documents-8478387.jpg"
-      },
-      {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/sbt-treuhand-ch/pool/stock-office-36175676.jpg"
-      },
-      {
-        "title": "Mehrwertsteuer",
-        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/sbt-treuhand-ch/pool/stock-office-8453801.jpg"
-      },
-      {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Lohnbuchhaltung inkl. Zahlungsverkehr, Jahresendauswertungen und -abrechnungen, Lohnausweise\n\nSpezialsteuererklärungen bei Liegenschaften, Erbengemeinschaften, Todesfällen usw.\n\nDiverse Auswertungen als Führungsmittel (kurzfristige Erfolgsrechnung, Budgets, Finanzpläne, Bilanz- und Erfolgsanalysen, Liquiditätspläne etc.)\n\nDie Geschichte der SBT reicht zurück bis ins Jahr 1938. Dr. Jakob Viel gründete damals innerhalb seiner Anwaltskanzlei eine Treuhandabteilung, welche 1972 als Steuer-Bilanz-Treuhand AG verselbständigt wurde.",
@@ -633,6 +619,66 @@
           "Transparente Pauschale ohne versteckte Kosten"
         ],
         "image": "/images/sbt-treuhand-ch/pool/stock-finance-577195.jpg"
+      },
+      {
+        "title": "Steuerberatung",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Lohnbuchhaltung inkl. Zahlungsverkehr, Jahresendauswertungen und -abrechnungen, Lohnausweise\n\nSpezialsteuererklärungen bei Liegenschaften, Erbengemeinschaften, Todesfällen usw.\n\nDiverse Auswertungen als Führungsmittel (kurzfristige Erfolgsrechnung, Budgets, Finanzpläne, Bilanz- und Erfolgsanalysen, Liquiditätspläne etc.)\n\nDie Geschichte der SBT reicht zurück bis ins Jahr 1938. Dr. Jakob Viel gründete damals innerhalb seiner Anwaltskanzlei eine Treuhandabteilung, welche 1972 als Steuer-Bilanz-Treuhand AG verselbständigt wurde.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/sbt-treuhand-ch/pool/stock-office-159839.jpg"
+      },
+      {
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/sbt-treuhand-ch/pool/stock-office-36175676.jpg"
+      },
+      {
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/sbt-treuhand-ch/pool/stock-success-5849583.jpg"
+      },
+      {
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/sbt-treuhand-ch/pool/stock-documents-8478387.jpg"
+      },
+      {
+        "title": "Mehrwertsteuer",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/sbt-treuhand-ch/pool/stock-office-8453801.jpg"
       }
     ]
   },
@@ -641,25 +687,23 @@
     "heading": "Ihr Vorteil.",
     "items": []
   },
-  "featureAngles": [
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Lohnbuchhaltung inkl. Zahlungsverkehr, Jahresendauswertungen und -abrechnungen, Lohnausweise",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    }
-  ],
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "Heidi Ott",
+        "role": "Treuhänderin",
+        "initials": "HO",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
+      {
+        "name": "Cornelia Schneider",
+        "role": "Sachbearbeiterin",
+        "initials": "CS",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -706,9 +750,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Lavaterstrasse 65, 8002 Zürich",
       "phone": "+41 (0)44 438 60 10",
-      "email": "a.bosshard@sbt-treuhand.ch"
+      "email": "info@sbt-treuhand.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -727,9 +771,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Lavaterstrasse 65, 8002 Zürich",
           "+41 (0)44 438 60 10",
-          "a.bosshard@sbt-treuhand.ch"
+          "info@sbt-treuhand.ch"
         ]
       },
       {

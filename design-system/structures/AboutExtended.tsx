@@ -257,3 +257,21 @@ export const AboutMilestones: React.FC<Props> = ({ content }) => (
     ))}</div>
   </Container></section>
 );
+
+/** 23) Text + a framed scene photo. This is the image-bearing About — used by the
+ *  image-rhythm pass to make a SECTION THAT IS ALREADY ON THE PAGE carry the picture
+ *  ("eine nötige Section bildtragend gestalten"), instead of inserting a filler band.
+ *  Falls back to the split layout when no image is supplied, so it degrades cleanly. */
+export const AboutPhotoFrame: React.FC<Props> = ({ content }) =>
+  content.image ? (
+    <section style={sectionBase}><Container>
+      <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.1fr) minmax(0,0.9fr)", gap: "clamp(1.8rem, 4vw, 3.4rem)", alignItems: "center" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.1rem" }}>
+          <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
+          <p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} />
+          {hasHi(content) && <div style={{ marginTop: "0.4rem" }}><Highlights c={content} /></div>}
+        </div>
+        <div aria-hidden style={{ minHeight: "clamp(260px, 32vw, 420px)", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", boxShadow: "var(--ds-shadow-card)", backgroundImage: `url("${content.image}")`, backgroundSize: "cover", backgroundPosition: "center" }} />
+      </div>
+    </Container></section>
+  ) : <AboutSplit content={content} />;

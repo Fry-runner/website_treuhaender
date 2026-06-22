@@ -29,7 +29,7 @@ export interface PricingTier { name: string; price: string; period: string; feat
 export interface PricingContent { eyebrow: string; heading: string; tiers: PricingTier[]; }
 
 export interface ValueItem { title: string; body: string; }
-export interface ValuesContent { eyebrow: string; heading: string; items: ValueItem[]; }
+export interface ValuesContent { eyebrow: string; heading: string; items: ValueItem[]; image?: string; }
 
 export interface StatItem { value: string; label: string; }
 export interface StatsContent { items: StatItem[]; }

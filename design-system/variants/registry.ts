@@ -58,7 +58,7 @@ import {
   TestimonialsBigQuote, TestimonialsAvatarCards, TestimonialsMasonry, TestimonialsDark, TestimonialsMinimalList,
   TestimonialsRatingHeader, TestimonialsZigzagAvatar, TestimonialsMarquee, TestimonialsStars, TestimonialsPanel,
 } from "../structures/TestimonialsExtended2";
-import { Values } from "../structures/Values";
+import { Values, ValuesPhotoSplit } from "../structures/Values";
 import { ValuesCards } from "../structures/ValuesCards";
 import {
   ValuesNumberedRows, ValuesRowsIcon, ValuesAccordion, ValuesAlternating, ValuesSplitIntro,
@@ -134,21 +134,21 @@ import {
   ProcessZigzag, ProcessBigIndex, ProcessStepperBar, ProcessArrowFlow, ProcessAccordion,
   ProcessSplitIntro, ProcessMinimal, ProcessDark, ProcessChips, ProcessDottedVertical,
   ProcessTwoCol, ProcessBordered, ProcessTinted, ProcessFeatureFirst, ProcessRail,
-  ProcessUnderlineNumbers, ProcessStackedBig,
+  ProcessUnderlineNumbers, ProcessStackedBig, ProcessPhotoSplit,
 } from "../structures/ProcessExtended";
 import {
   AudienceCards, AudienceBordered, AudienceTiles, AudienceRows, AudienceSplitIntro,
   AudienceBigLetter, AudienceChecklist, AudienceTwoCol, AudienceMinimal, AudienceDark,
   AudienceTinted, AudiencePillHeaders, AudienceFeatureFirst, AudienceColumns, AudienceAccordion,
   AudienceAlternating, AudienceBanner, AudienceRail, AudienceDots, AudienceQuote,
-  AudienceTopAccent, AudienceInlineList,
+  AudienceTopAccent, AudienceInlineList, AudiencePhotoSplit,
 } from "../structures/AudienceExtended";
 import {
   AboutSplit, AboutCentered, AboutTwoColParagraphs, AboutHighlightsBar, AboutLeadQuote,
   AboutSidebar, AboutBordered, AboutDark, AboutTinted, AboutMinimal,
   AboutEyebrowRule, AboutColumns, AboutHighlightsCards, AboutFeatureLead, AboutCenteredHighlights,
   AboutOffset, AboutBandHighlights, AboutStackedBig, AboutInlineStats, AboutQuietProse,
-  AboutLeadHighlightsSplit, AboutMilestones,
+  AboutLeadHighlightsSplit, AboutMilestones, AboutPhotoFrame,
 } from "../structures/AboutExtended";
 import {
   HistoryTimeline, HistoryRows, HistoryDotted, HistoryCards, HistorySidebar,
@@ -332,6 +332,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
   ],
   values: [
     { id: "values/columns", component: Values, looks: ["editorial", "swiss"], min: 2 },     // divided columns band
+    { id: "values/photo-split", component: ValuesPhotoSplit, looks: ["soft", "warm", "editorial", "swiss"], min: 2, needsImage: true }, // pillars + framed scene photo (image-rhythm promotion target)
     { id: "values/cards", component: ValuesCards, looks: ["soft", "warm"], min: 3 },         // card grid
     { id: "values/numbered-rows", component: ValuesNumberedRows, looks: ["editorial", "swiss"], min: 2 }, // full-width numbered rows
     { id: "values/rows-icon", component: ValuesRowsIcon, looks: ["soft", "warm"], min: 2 },               // horizontal row cards
@@ -523,6 +524,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
     { id: "process/rail", component: ProcessRail, looks: ["soft", "warm"], min: 3 },                    // scroll-snap rail
     { id: "process/underline-numbers", component: ProcessUnderlineNumbers, looks: ["editorial", "swiss"], min: 2 }, // number + underline
     { id: "process/stacked-big", component: ProcessStackedBig, looks: ["editorial", "warm"] },          // big numbered stack
+    { id: "process/photo-split", component: ProcessPhotoSplit, looks: ["soft", "warm", "editorial", "swiss"], needsImage: true }, // steps + framed scene photo (image-rhythm promotion target)
   ],
   audience: [
     { id: "audience/cards", component: AudienceCards, looks: ["soft", "warm"], min: 3 },                // persona card grid
@@ -547,6 +549,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
     { id: "audience/quote", component: AudienceQuote, looks: ["editorial", "warm"] },                   // italic statements
     { id: "audience/top-accent", component: AudienceTopAccent, looks: ["soft", "swiss"], min: 3 },      // top accent cards
     { id: "audience/inline-list", component: AudienceInlineList, looks: ["editorial", "swiss"], min: 2 }, // definition list
+    { id: "audience/photo-split", component: AudiencePhotoSplit, looks: ["soft", "warm", "editorial", "swiss"], min: 2, needsImage: true }, // segments + framed scene photo (image-rhythm promotion target)
   ],
   about: [
     { id: "about/split", component: AboutSplit, looks: ["editorial", "swiss"] },                        // text + highlight panel
@@ -571,6 +574,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
     { id: "about/quiet-prose", component: AboutQuietProse, looks: ["soft", "swiss"] },                  // quiet prose column
     { id: "about/lead-highlights-split", component: AboutLeadHighlightsSplit, looks: ["editorial", "warm"] }, // lead+highlights | body
     { id: "about/milestones", component: AboutMilestones, looks: ["swiss", "editorial"] },              // numbered paragraphs
+    { id: "about/photo-frame", component: AboutPhotoFrame, looks: ["soft", "warm", "editorial", "swiss"], needsImage: true }, // text + framed scene photo (image-rhythm promotion target)
   ],
   history: [
     { id: "history/timeline", component: HistoryTimeline, looks: ["swiss", "editorial", "soft"] },      // vertical connector timeline

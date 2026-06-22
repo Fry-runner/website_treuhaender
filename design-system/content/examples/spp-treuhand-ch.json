@@ -9,12 +9,12 @@
     "look": {
       "meta": {
         "id": "spp-treuhand-ch-brand",
-        "name": "Swiss Clean · brand-tinted",
-        "source": "synthesized (references) + scraped brand",
+        "name": "Swiss Clean · logo-tinted",
+        "source": "synthesized (references) + logo colour",
         "mood": "Trustworthy CH SaaS: clean grotesk, teal accent + deep navy, light card shadows, tidy.",
         "derived": [
           "base: swiss-clean",
-          "accent #112337 (scraped · medium)",
+          "accent #9F0695 (logo)",
           "heading: Bricolage Grotesque (inventory)",
           "body: Work Sans (inventory)",
           "mono: IBM Plex Mono (inventory)"
@@ -35,10 +35,10 @@
         "text": "#0E2A33",
         "textMuted": "#5B7682",
         "border": "#DCE7EA",
-        "primary": "#112337",
+        "primary": "#9F0695",
         "primaryFg": "#FFFFFF",
-        "primarySoft": "#ECEDEF",
-        "secondary": "#112337",
+        "primarySoft": "#F7EBF7",
+        "secondary": "#9F0695",
         "secondaryFg": "#FFFFFF"
       },
       "font": {
@@ -162,7 +162,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "echte Werte/Vorteile aus den eigenen Seiten",
         "home:audience": "Kernsektion",
@@ -213,7 +212,7 @@
       "trust.badges",
       "services.images",
       "media.documents",
-      "brand.colors"
+      "logo.colors"
     ]
   },
   "media": {
@@ -646,8 +645,8 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Die Werte unseres Unternehmens und unseres Teams haben wir bewusst kurz gehalten. Wir sind überzeugt: Verständlich und umsetzbar bleibt nur, was sich klar und ohne Umwege formulieren lässt. Diese wenigen Worte stehen für das, was wir täglich leben – aus Überzeugung und mit Haltun",
-        "body": "Die Werte unseres Unternehmens und unseres Teams haben wir bewusst kurz gehalten. Wir sind überzeugt: Verständlich und umsetzbar bleibt nur, was sich klar und ohne Umwege formulieren lässt. Diese wenigen Worte stehen für das, was wir täglich leben – aus Überzeugung und mit Haltung.\n\nGegründet und geführt von Profis, um in unserer Branche Aussergewöhnliches zu leisten. In der Firmengrösse bewusst so gehalten, dass wir uns für unsere Kundinnen und Kunden Zeit nehmen können. Wir sind gross genug, um ein umfassendes Leistungsspektrum effizient zu betreuen. Und wir bleiben klein genug, damit Qualität, Sorgfalt und der persönliche Touch immer im Zentrum stehen.\n\nWir lieben unsere Arbeit, deshalb geben wir jeden Tag das Beste. An uns gestellte Erwartungen wollen wir nicht nur erfüllen, wir möchten sie übertreffen – wenn immer möglich. Und es ist immer wieder möglich.\n\nHinter Unternehmen stehen ",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Die Werte unseres Unternehmens und unseres Teams haben wir bewusst kurz gehalten. Wir sind überzeugt: Verständlich und umsetzbar bleibt nur, was sich klar und ohne Umwege formulieren lässt. Diese wenigen Worte stehen für das, was wir täglich leben – aus Überzeugung und mit Haltung.\n\nGegründet und geführt von Profis, um in unserer Branche Aussergewöhnliches zu leisten. In der Firmengrösse bewusst so gehalten, dass wir uns für unsere Kundinnen und Kunden Zeit nehmen können. Wir sind gross genug, um ein umfassendes Leistungsspektrum effizient zu betreuen. Und wir bleiben klein genug, damit Qualität, Sorgfalt und der persönliche Touch immer im Zentrum stehen.\n\nWir lieben unsere Arbeit, deshalb geben wir jeden Tag das Beste. An uns gestellte Erwartungen wollen wir nicht nur erfüllen, wir möchten sie übertreffen – wenn immer möglich. Und es ist immer wieder möglich.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -657,20 +656,21 @@
         "image": "/images/spp-treuhand-ch/pool/edadc7c2ab__SPP-buchhaltung-und-rechnungswesen.png"
       },
       {
-        "title": "Steuerberatung",
-        "summary": "Sie sind völlig entlastet von jeder Bürokratie, weil wir uns um das gesamte Steuerwesen von Unternehmen und Inhaber kümmern. Damit gewinnen Sie Zeit und Freiraum – und die Sicherheit, nicht zu viel Steuern zu zahlen.",
-        "body": "Sie sind völlig entlastet von jeder Bürokratie, weil wir uns um das gesamte Steuerwesen von Unternehmen und Inhaber kümmern. Damit gewinnen Sie Zeit und Freiraum – und die Sicherheit, nicht zu viel Steuern zu zahlen.\n\nSelbstverständlich kümmern wir uns nicht nur um Formulare und Deklarationen, wir beraten Sie umfassend in sämtlichen Steuerfragen. Durch eine strategische Planung wird Ihre Steuerlast langfristig optimiert und vermindert. Und auf Wunsch vertreten wir Ihre Interessen im direkten Verkehr mit Amtsstellen, zum Beispiel bei Einsprachen oder Steuerauflagen. So sind Sie wirklich 100%-ig entlastet und behalten Kopf und Hände frei für das wirklich Wesentliche – für Ihr Kerngeschäft.\n\nWir unterstützen Sie punktuell oder umfassend – genau dort, wo Sie Entlastung brauchen. Damit Sie sich nicht selbst mit Steuerfragen befassen müssen. Nutzen Sie das, was Ihnen im Moment Freiraum schafft",
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Sie sind völlig entlastet von jeder Bürokratie, weil wir uns um das gesamte Steuerwesen von Unternehmen und Inhaber kümmern. Damit gewinnen Sie Zeit und Freiraum – und die Sicherheit, nicht zu viel Steuern zu zahlen.\n\nSelbstverständlich kümmern wir uns nicht nur um Formulare und Deklarationen, wir beraten Sie umfassend in sämtlichen Steuerfragen. Durch eine strategische Planung wird Ihre Steuerlast langfristig optimiert und vermindert. Und auf Wunsch vertreten wir Ihre Interessen im direkten Verkehr mit Amtsstellen, zum Beispiel bei Einsprachen oder Steuerauflagen. So sind Sie wirklich 100%-ig entlastet und behalten Kopf und Hände frei für das wirklich Wesentliche – für Ihr Kerngeschäft.\n\nWir unterstützen Sie punktuell oder umfassend – genau dort, wo Sie Entlastung brauchen. Damit Sie sich nicht selbst mit Steuerfragen befassen müssen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        ],
+        "image": "/images/spp-treuhand-ch/pool/a7eac76496__SPP-firmengruendung-und-unternehmensberatung.png"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Werte unseres Unternehmens und unseres Teams haben wir bewusst kurz gehalten. Wir sind überzeugt: Verständlich und umsetzbar bleibt nur, was sich klar und ohne Umwege formulieren lässt. Diese wenigen Worte stehen für das, was wir täglich leben – aus Überzeugung und mit Haltung.\n\nGegründet und geführt von Profis, um in unserer Branche Aussergewöhnliches zu leisten. In der Firmengrösse bewusst so gehalten, dass wir uns für unsere Kundinnen und Kunden Zeit nehmen können. Wir sind gross genug, um ein umfassendes Leistungsspektrum effizient zu betreuen. Und wir bleiben klein genug, damit Qualität, Sorgfalt und der persönliche Touch immer im Zentrum stehen.\n\nWir lieben unsere Arbeit, deshalb geben wir jeden Tag das Beste. An uns gestellte Erwartungen wollen wir nicht nur erfüllen, wir möchten sie übertreffen – wenn immer möglich. Und es ist immer wieder möglich.\n\nHinter Unternehmen stehen ",
+        "body": "Die Werte unseres Unternehmens und unseres Teams haben wir bewusst kurz gehalten. Wir sind überzeugt: Verständlich und umsetzbar bleibt nur, was sich klar und ohne Umwege formulieren lässt. Diese wenigen Worte stehen für das, was wir täglich leben – aus Überzeugung und mit Haltung.\n\nGegründet und geführt von Profis, um in unserer Branche Aussergewöhnliches zu leisten. In der Firmengrösse bewusst so gehalten, dass wir uns für unsere Kundinnen und Kunden Zeit nehmen können. Wir sind gross genug, um ein umfassendes Leistungsspektrum effizient zu betreuen. Und wir bleiben klein genug, damit Qualität, Sorgfalt und der persönliche Touch immer im Zentrum stehen.\n\nWir lieben unsere Arbeit, deshalb geben wir jeden Tag das Beste. An uns gestellte Erwartungen wollen wir nicht nur erfüllen, wir möchten sie übertreffen – wenn immer möglich. Und es ist immer wieder möglich.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -679,9 +679,9 @@
         ]
       },
       {
-        "title": "Jahresabschluss",
-        "summary": "Wir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können.",
-        "body": "Wir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir uns bei Ihnen melden können.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir uns bei Ihnen melden können.",
+        "title": "Steuerberatung",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Sie sind völlig entlastet von jeder Bürokratie, weil wir uns um das gesamte Steuerwesen von Unternehmen und Inhaber kümmern. Damit gewinnen Sie Zeit und Freiraum – und die Sicherheit, nicht zu viel Steuern zu zahlen.\n\nSelbstverständlich kümmern wir uns nicht nur um Formulare und Deklarationen, wir beraten Sie umfassend in sämtlichen Steuerfragen. Durch eine strategische Planung wird Ihre Steuerlast langfristig optimiert und vermindert. Und auf Wunsch vertreten wir Ihre Interessen im direkten Verkehr mit Amtsstellen, zum Beispiel bei Einsprachen oder Steuerauflagen. So sind Sie wirklich 100%-ig entlastet und behalten Kopf und Hände frei für das wirklich Wesentliche – für Ihr Kerngeschäft.\n\nWir unterstützen Sie punktuell oder umfassend – genau dort, wo Sie Entlastung brauchen. Damit Sie sich nicht selbst mit Steuerfragen befassen müssen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -691,7 +691,7 @@
       },
       {
         "title": "Mehrwertsteuer",
-        "summary": "Jährliche MWST-Abrechnung – sinnvoll oder riskant? - SPP Schlunegger Park & Partner Treuhand AG",
+        "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "Jährliche MWST-Abrechnung – sinnvoll oder riskant? - SPP Schlunegger Park & Partner Treuhand AG\n\nSeit dem 1. Januar 2025 können Unternehmen mit einem Jahresumsatz bis CHF 5’005’000 ihre MWST jährlich statt quartalsweise abrechnen – sofern die ESTV den Antrag bewilligt.\n\nDas klingt nach weniger Aufwand – doch die Umstellung will gut überlegt sein.\n\nBei SPP zeigt sich schnell: Fehler ziehen sich durchs ganze Jahr. Der Aufwand wird nicht kleiner – er verschiebt sich nur. Und mit jeder zusätzlichen Woche Abstand zum Buchungszeitpunkt wird die Nachvollziehbarkeit schwieriger. Belege von vor einem Jahr nachzuvollziehen kostet Zeit und Nerven – und führt am Ende oft zu mehr Aufwand statt weniger.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
@@ -702,16 +702,15 @@
         "image": "/images/spp-treuhand-ch/pool/223bbfc076__Jaehrliche_MwSt.png"
       },
       {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Sie sind völlig entlastet von jeder Bürokratie, weil wir uns um das gesamte Steuerwesen von Unternehmen und Inhaber kümmern. Damit gewinnen Sie Zeit und Freiraum – und die Sicherheit, nicht zu viel Steuern zu zahlen.\n\nSelbstverständlich kümmern wir uns nicht nur um Formulare und Deklarationen, wir beraten Sie umfassend in sämtlichen Steuerfragen. Durch eine strategische Planung wird Ihre Steuerlast langfristig optimiert und vermindert. Und auf Wunsch vertreten wir Ihre Interessen im direkten Verkehr mit Amtsstellen, zum Beispiel bei Einsprachen oder Steuerauflagen. So sind Sie wirklich 100%-ig entlastet und behalten Kopf und Hände frei für das wirklich Wesentliche – für Ihr Kerngeschäft.\n\nWir unterstützen Sie punktuell oder umfassend – genau dort, wo Sie Entlastung brauchen. Damit Sie sich nicht selbst mit Steuerfragen befassen müssen. Nutzen Sie das, was Ihnen im Moment Freiraum schafft",
+        "title": "Jahresabschluss",
+        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
+        "body": "Wir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir uns bei Ihnen melden können.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir uns bei Ihnen melden können.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/spp-treuhand-ch/pool/a7eac76496__SPP-firmengruendung-und-unternehmensberatung.png"
+        ]
       }
     ]
   },
@@ -740,11 +739,11 @@
   "about": {
     "eyebrow": "Über uns",
     "heading": "Leitbild",
-    "lead": "Wir lieben unsere Arbeit, deshalb geben wir jeden Tag das Beste. An uns gestellte Erwartungen wollen wir nicht nur erfüllen, wir möchten sie übertreffen – wenn immer möglich. Und es ist immer wieder möglich.",
+    "lead": "Die Werte unseres Unternehmens und unseres Teams haben wir bewusst kurz gehalten. Wir sind überzeugt: Verständlich und umsetzbar bleibt nur, was sich klar und ohne Umwege formulieren lässt. Diese wenigen Worte stehen für das, was wir täglich leben – aus Überzeugung und mit Haltung.",
     "paragraphs": [
-      "Hinter Unternehmen stehen Menschen, denen wir mit Respekt, Achtung, Interesse und Engagement begegnen. Die Ziele unserer Kunden machen wir zu unseren Zielen. Zufrieden sind wir erst dann, wenn wir diese Ziele gemeinsam erreicht haben.",
-      "Mit Ressourcen gehen wir schonend um und wir arbeiten umweltbewusst. Nicht aus ideologischen Gründen, vielmehr aus einer pragmatischen Überlegung: Wir leben und arbeiten gerne in einer schönen und angenehmen privaten und geschäftlichen Welt – deshalb helfen wir mit und leisten unseren Beitrag, damit die Umwelt für alle intakt, gesund und lebenswert bleibt.",
-      "Die Werte unseres Unternehmens und seiner Mitarbeiterinnen und Mitarbeiter haben wir vorsätzlich kurz gefasst."
+      "Gegründet und geführt von Profis, um in unserer Branche Aussergewöhnliches zu leisten. In der Firmengrösse bewusst so gehalten, dass wir uns für unsere Kundinnen und Kunden Zeit nehmen können. Wir sind gross genug, um ein umfassendes Leistungsspektrum effizient zu betreuen. Und wir bleiben klein genug, damit Qualität, Sorgfalt und der persönliche Touch immer im Zentrum stehen.",
+      "Wir lieben unsere Arbeit, deshalb geben wir jeden Tag das Beste. An uns gestellte Erwartungen wollen wir nicht nur erfüllen, wir möchten sie übertreffen – wenn immer möglich. Und es ist immer wieder möglich.",
+      "Hinter Unternehmen stehen Menschen, denen wir mit Respekt, Achtung, Interesse und Engagement begegnen. Die Ziele unserer Kunden machen wir zu unseren Zielen. Zufrieden sind wir erst dann, wenn wir diese Ziele gemeinsam erreicht haben."
     ]
   },
   "featureAngles": [
@@ -899,9 +898,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
+      "address": "Leutschenbachstrasse 45, 8050 Zürich",
       "phone": "+41 44 310 14 44",
-      "email": "%20kontakt@spp-treuhand.ch"
+      "email": "info@spp-treuhand.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -922,9 +921,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
+          "Leutschenbachstrasse 45, 8050 Zürich",
           "+41 44 310 14 44",
-          "%20kontakt@spp-treuhand.ch"
+          "info@spp-treuhand.ch"
         ]
       },
       {

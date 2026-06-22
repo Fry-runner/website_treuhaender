@@ -138,8 +138,46 @@ function sendMail(): PluginOption {
   };
 }
 
+/**
+ * Dev-only endpoint: POST /__send-outlook  (body: { to, subject, body, from? })
+ * Sends ONE outreach mail through the LOCAL classic Outlook via COM
+ * (scripts/send-outlook.ps1). Outlook is signed in with modern auth, so this sends
+ * from the ETH mailbox WITHOUT SMTP credentials — bypassing the M365 basic-auth block
+ * that fails authenticated SMTP with 535. Windows + classic Outlook only.
+ */
+function sendMailOutlook(): PluginOption {
+  return {
+    name: "send-mail-outlook",
+    apply: "serve",
+    configureServer(server) {
+      server.middlewares.use("/__send-outlook", (req, res) => {
+        if (req.method !== "POST") { res.statusCode = 405; res.end(JSON.stringify({ ok: false, error: "POST only" })); return; }
+        if (process.platform !== "win32") { res.statusCode = 200; res.end(JSON.stringify({ ok: false, error: "Outlook-Versand nur unter Windows.", hint: "Stattdessen SMTP oder den manuellen .eml/mailto-Weg nutzen." })); return; }
+        let body = "";
+        req.on("data", (c) => (body += c));
+        req.on("end", () => {
+          const child = spawn("powershell.exe", ["-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", "scripts/send-outlook.ps1"], { cwd: import.meta.dirname });
+          child.stdin.write(body);
+          child.stdin.end();
+          let out = "", err = "";
+          child.stdout.on("data", (d) => (out += d));
+          child.stderr.on("data", (d) => (err += d));
+          child.on("error", (e) => { res.setHeader("Content-Type", "application/json"); res.end(JSON.stringify({ ok: false, error: "powershell konnte nicht gestartet werden: " + String(e?.message || e) })); });
+          child.on("close", () => {
+            res.setHeader("Content-Type", "application/json");
+            const line = out.trim().split("\n").filter(Boolean).pop() || "";
+            if (line && line.startsWith("{")) { res.end(line); return; }
+            res.statusCode = 500;
+            res.end(JSON.stringify({ ok: false, error: "Outlook-Skript lieferte kein Ergebnis", hint: "Klassisches Outlook installiert & ETH-Konto dort eingerichtet? Evtl. Outlook-Sicherheitsabfrage bestätigen.", log: (out + err).slice(-1500) }));
+          });
+        });
+      });
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [react(), onDemandExtract(), deployLead(), sendMail(), serveStock()],
+  plugins: [react(), onDemandExtract(), deployLead(), sendMail(), sendMailOutlook(), serveStock()],
   server: {
     port: 3010, host: "0.0.0.0",
     // The on-demand endpoints WRITE into the project: /__generate (extract.ts) rewrites
