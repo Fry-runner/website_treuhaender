@@ -7,19 +7,8 @@
     "contactEmail": "elcome@onetreuhand.ch",
     "seed": 0,
     "pitch": true,
-    "prototypeUrl": "https://treuhand-prototypes.vercel.app/p/onetreuhand-ch",
-    "approvedAt": "2026-06-21T20:31:49.118Z"
-  },
-  "mkfiduciaire-ch": {
-    "slug": "mkfiduciaire-ch",
-    "firm": "MK Treuhand",
-    "domain": "mkfiduciaire.ch",
-    "sourceUrl": "https://mkfiduciaire.ch/",
-    "contactEmail": "info@mkfiduciaire.ch",
-    "seed": 0,
-    "pitch": true,
-    "prototypeUrl": "https://treuhand-prototypes.vercel.app/p/mkfiduciaire-ch",
-    "approvedAt": "2026-06-21T19:55:03.554Z"
+    "prototypeUrl": "https://treuhand-onetreuhand-ch.vercel.app",
+    "approvedAt": "2026-06-21T23:21:14.334Z"
   },
   "kmu-trex-ch": {
     "slug": "kmu-trex-ch",
@@ -35,5 +24,55 @@
     "pitch": true,
     "prototypeUrl": "https://treuhand-prototypes.vercel.app/p/kmu-trex-ch",
     "approvedAt": "2026-06-21T20:02:38.881Z"
+  },
+  "sbt-treuhand-ch": {
+    "slug": "sbt-treuhand-ch",
+    "firm": "SBT Treuhand Zürich",
+    "domain": "sbt-treuhand.ch",
+    "sourceUrl": "https://www.sbt-treuhand.ch/",
+    "contactEmail": "a.bosshard@sbt-treuhand.ch",
+    "seed": 0,
+    "kitId": "modern-tech",
+    "pitch": true,
+    "prototypeUrl": "https://treuhand-sbt-treuhand-ch.vercel.app",
+    "approvedAt": "2026-06-21T23:44:31.885Z"
+  },
+  "stg-revision-ch": {
+    "slug": "stg-revision-ch",
+    "firm": "Schweizerische Treuhandgesellschaft Revision AG",
+    "domain": "stg-revision.ch",
+    "sourceUrl": "https://www.stg-revision.ch/",
+    "contactEmail": "christine.perler@stg.ch",
+    "seed": 0,
+    "pitch": true,
+    "prototypeUrl": "https://treuhand-stg-revision-ch.vercel.app",
+    "approvedAt": "2026-06-21T23:45:52.768Z"
+  },
+  "aawi-ch": {
+    "slug": "aawi-ch",
+    "firm": "aawi treuhand ag",
+    "domain": "aawi.ch",
+    "sourceUrl": "https://www.aawi.ch/",
+    "contactEmail": "a.scherrer@aawi.ch",
+    "seed": 0,
+    "pitch": true,
+    "prototypeUrl": "https://treuhand-aawi-ch.vercel.app",
+    "approvedAt": "2026-06-21T23:49:43.470Z"
+  },
+  "adea-treuhand-ch": {
+    "slug": "adea-treuhand-ch",
+    "firm": "Treuhandbüro Ivanova / Adea",
+    "domain": "adea-treuhand.ch",
+    "sourceUrl": "https://adea-treuhand.ch/",
+    "contactEmail": "alexandra@adea-treuhand.ch",
+    "seed": 0,
+    "sectionOverrides": {
+      "cta": "cta/slim",
+      "values": "values/checklist",
+      "audience": "audience/tinted"
+    },
+    "pitch": true,
+    "prototypeUrl": "https://treuhand-adea-treuhand-ch.vercel.app",
+    "approvedAt": "2026-06-21T23:51:35.655Z"
   }
 }

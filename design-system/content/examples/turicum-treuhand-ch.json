@@ -114,6 +114,7 @@
         "services",
         "audience",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -151,7 +152,6 @@
       "reasons": {
         "home:nav": "Kernsektion",
         "home:hero": "Kernsektion",
-        "home:intro": "kein Homepage-Renderer",
         "home:services": "Kernsektion",
         "home:values": "keine echten Werte-Texte → weggelassen",
         "home:audience": "Kernsektion",
@@ -198,7 +198,9 @@
       "media.logo",
       "trust.badges",
       "services.images",
-      "brand.colors"
+      "brand.colors",
+      "team.members",
+      "contact.address"
     ]
   },
   "media": {
@@ -218,7 +220,9 @@
       "Jahresabschluss": "/images/turicum-treuhand-ch/pool/stock-success-5849583.jpg",
       "Mehrwertsteuer": "/images/turicum-treuhand-ch/pool/stock-finance-590022.jpg",
       "Unternehmensberatung": "/images/turicum-treuhand-ch/pool/stock-office-36175674.jpg",
-      "Revision": "/images/turicum-treuhand-ch/pool/stock-desk-8580716.jpg"
+      "Revision": "/images/turicum-treuhand-ch/pool/stock-desk-8580716.jpg",
+      "Immobilien": "/images/turicum-treuhand-ch/pool/stock-meeting-13701589.jpg",
+      "Nachlass & Erbrecht": "/images/turicum-treuhand-ch/pool/stock-desk-7821540.jpg"
     },
     "documents": [],
     "assets": [
@@ -336,7 +340,7 @@
         "stock": true,
         "credit": "MART  PRODUCTION (Pexels)",
         "source": "https://www.pexels.com/photo/money-on-wooden-table-8872622/",
-        "quality": 0.62,
+        "quality": 0.63,
         "faces": 0,
         "roles": [
           "gallery",
@@ -357,7 +361,7 @@
         "stock": true,
         "credit": "The Juggle Studio (Pexels)",
         "source": "https://www.pexels.com/photo/tables-in-minimalist-interior-20314954/",
-        "quality": 0.63,
+        "quality": 0.65,
         "faces": 0,
         "roles": [
           "gallery",
@@ -396,7 +400,7 @@
         "stock": true,
         "credit": "Lukas Blazek (Pexels)",
         "source": "https://www.pexels.com/photo/close-up-photo-of-survey-spreadsheet-590022/",
-        "quality": 0.42,
+        "quality": 0.41,
         "faces": 0,
         "roles": [
           "gallery",
@@ -416,7 +420,7 @@
         "stock": true,
         "credit": "Samkit desai (Pexels)",
         "source": "https://www.pexels.com/photo/elegant-modern-office-interior-with-art-36175674/",
-        "quality": 0.66,
+        "quality": 0.69,
         "faces": 0,
         "roles": [
           "gallery",
@@ -437,7 +441,49 @@
         "stock": true,
         "credit": "RDNE Stock project (Pexels)",
         "source": "https://www.pexels.com/photo/black-pen-on-white-pad-paper-8580716/",
-        "quality": 0.7,
+        "quality": 0.71,
+        "faces": 0,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/turicum-treuhand-ch/pool/stock-meeting-13701589.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 89584,
+        "width": 1280,
+        "height": 852,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "Luke Miller (Pexels)",
+        "source": "https://www.pexels.com/photo/a-man-and-woman-holding-a-paper-13701589/",
+        "quality": 0.6,
+        "faces": 2,
+        "roles": [
+          "gallery",
+          "background",
+          "service",
+          "feature"
+        ]
+      },
+      {
+        "src": "/images/turicum-treuhand-ch/pool/stock-desk-7821540.jpg",
+        "kind": "photo",
+        "alt": "",
+        "bytes": 106149,
+        "width": 1280,
+        "height": 853,
+        "orientation": "landscape",
+        "subject": "office",
+        "stock": true,
+        "credit": "RDNE Stock project (Pexels)",
+        "source": "https://www.pexels.com/photo/person-working-on-documents-7821540/",
+        "quality": 0.71,
         "faces": 0,
         "roles": [
           "gallery",
@@ -461,7 +507,8 @@
       "Monstera Production (Pexels)",
       "Lukas Blazek (Pexels)",
       "Samkit desai (Pexels)",
-      "RDNE Stock project (Pexels)"
+      "RDNE Stock project (Pexels)",
+      "Luke Miller (Pexels)"
     ]
   },
   "nav": {
@@ -487,7 +534,7 @@
     "eyebrow": "Treuhand · Zürich",
     "titleLead": "Ihre Finanzen,",
     "titleAccent": "klar geführt.",
-    "lede": "Die ACCURATA Holding AG ist eine schweizerische, partnerschaftlich getragene und gegenüber Dritten finanziell und organisatorisch vollständig unabhängige Gesellschaft, deren Tochtergesellschaften im Bereich der Wirtschaftsprüfung, Beratung und Treuhandwesen tätig sind. International gehört die ACCURATA-Gruppe dem TTN-Netzwerk an.",
+    "lede": "Die Turicum Treuhand- und Steuerberatungsgesellschaft AG begleitet KMU und Privatpersonen in Zürich in Buchführung, Steuerberatung und betriebswirtschaftlicher Beratung – treffend, präzise und sorgfältig.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
@@ -500,21 +547,33 @@
     "heading": "Alles aus einer Hand.",
     "items": [
       {
-        "title": "Buchhaltung",
-        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Revision",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Spezialprüfungen (Stiftungen, Gründungsprüfung, Kapitalerhöhung und -herabsetzung, Sonderprüfung u.a.m.)",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/turicum-treuhand-ch/pool/stock-documents-7876037.jpg"
+        "image": "/images/turicum-treuhand-ch/pool/stock-desk-8580716.jpg"
+      },
+      {
+        "title": "Unternehmensberatung",
+        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "bullets": [
+          "Laufende, termingerechte Betreuung",
+          "Digitale Belegerfassung & Echtzeit-Zahlen",
+          "Ein persönlicher Ansprechpartner",
+          "Transparente Pauschale ohne versteckte Kosten"
+        ],
+        "image": "/images/turicum-treuhand-ch/pool/stock-office-36175674.jpg"
       },
       {
         "title": "Steuerberatung",
-        "summary": "Vom Hauptbahnhof erreichen Sie uns bequem mit der SBB in ca. 5 Minuten",
-        "body": "Vom Hauptbahnhof erreichen Sie uns bequem mit der SBB in ca. 5 Minuten\n\nVom Flughafen mit der SBB in ca. 7 Minuten Tram Nr. 11 bis Bahnhof Oerlikon Tram Nr. 10 und 14 bis Sternen Oerlikon\n\nDie ACCURATA Holding AG ist eine schweizerische, partnerschaftlich getragene und gegenüber Dritten finanziell und organisatorisch vollständig unabhängige Gesellschaft, deren Tochtergesellschaften im Bereich der Wirtschaftsprüfung, Beratung und Treuhandwesen tätig sind. International gehört die ACCURATA-Gruppe dem",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -524,33 +583,21 @@
         "image": "/images/turicum-treuhand-ch/pool/stock-desk-8872622.jpg"
       },
       {
-        "title": "Lohnadministration",
-        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "title": "Buchhaltung",
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/turicum-treuhand-ch/pool/stock-office-20314954.jpg"
-      },
-      {
-        "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
-        "image": "/images/turicum-treuhand-ch/pool/stock-success-5849583.jpg"
+        "image": "/images/turicum-treuhand-ch/pool/stock-documents-7876037.jpg"
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -560,16 +607,16 @@
         "image": "/images/turicum-treuhand-ch/pool/stock-finance-590022.jpg"
       },
       {
-        "title": "Unternehmensberatung",
-        "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Vom Hauptbahnhof erreichen Sie uns bequem mit der SBB in ca. 5 Minuten\n\nVom Flughafen mit der SBB in ca. 7 Minuten Tram Nr. 11 bis Bahnhof Oerlikon Tram Nr. 10 und 14 bis Sternen Oerlikon\n\nDie ACCURATA Holding AG ist eine schweizerische, partnerschaftlich getragene und gegenüber Dritten finanziell und organisatorisch vollständig unabhängige Gesellschaft, deren Tochtergesellschaften im Bereich der Wirtschaftsprüfung, Beratung und Treuhandwesen tätig sind. International gehört die ACCURATA-Gruppe dem",
+        "title": "Lohnadministration",
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
           "Ein persönlicher Ansprechpartner",
           "Transparente Pauschale ohne versteckte Kosten"
         ],
-        "image": "/images/turicum-treuhand-ch/pool/stock-office-36175674.jpg"
+        "image": "/images/turicum-treuhand-ch/pool/stock-office-20314954.jpg"
       }
     ]
   },
@@ -581,8 +628,8 @@
   "featureAngles": [
     {
       "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Vom Hauptbahnhof erreichen Sie uns bequem mit der SBB in ca. 5 Minuten",
+      "heading": "Revision",
+      "body": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
       "bullets": [
         "Laufende, termingerechte Betreuung",
         "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -596,7 +643,62 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "Jürg Badertscher",
+        "role": "Dipl. Wirtschaftsprüfer, Präsident des Verwaltungsrates",
+        "initials": "JB",
+        "bio": "Zugelassene Fachperson für eingeschränkte und ordentliche Revision sowie prüfungssichere Abschlüsse."
+      },
+      {
+        "name": "Beatrice Aschwanden",
+        "role": "Treuhänderin mit eidg. Fachausweis, Delegierte des Verwaltungsrates",
+        "initials": "BA",
+        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+      },
+      {
+        "name": "Adrian Meier",
+        "role": "Treuhänder mit eidg. Fachausweis, Mitglied der Geschäftsleitung",
+        "initials": "AM",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Maya Diggelmann",
+        "role": "Fachfrau Finanz- und Rechnungswesen, Mitglied der Geschäftsleitung",
+        "initials": "MD",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+      },
+      {
+        "name": "Philip Vinzi",
+        "role": "Sachbearbeiter, Mandatsverantwortlicher",
+        "initials": "PV",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      },
+      {
+        "name": "Nadine Spohn",
+        "role": "Sachbearbeiterin",
+        "initials": "NS",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      },
+      {
+        "name": "Isabel Rohr",
+        "role": "Sachbearbeiterin",
+        "initials": "IR",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      },
+      {
+        "name": "André Loosli",
+        "role": "Sachbearbeiter",
+        "initials": "AL",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      },
+      {
+        "name": "Svenja Wenger",
+        "role": "In Ausbildung",
+        "initials": "SW",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",
@@ -640,9 +742,9 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Zürich",
-      "phone": "+41 44 487 34 10",
-      "email": "adrian.meier@accurata.ch"
+      "address": "Baumackerstrasse 24, 8050 Zürich",
+      "phone": "+41 44 487 34 68",
+      "email": "info@turicum-treuhand.ch"
     },
     "formCta": "Nachricht senden"
   },
@@ -663,9 +765,9 @@
       {
         "title": "Standort",
         "links": [
-          "Zürich",
-          "+41 44 487 34 10",
-          "adrian.meier@accurata.ch"
+          "Baumackerstrasse 24, 8050 Zürich",
+          "+41 44 487 34 68",
+          "info@turicum-treuhand.ch"
         ]
       },
       {

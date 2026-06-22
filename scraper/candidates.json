@@ -136,14 +136,6 @@
     "home_title": "Maurer Treuhand - Finanz- & Rechnungswesen, Steuerberatung – Zürich"
   },
   {
-    "name": "MK Treuhand",
-    "url": "https://mkfiduciaire.ch/",
-    "domain": "mkfiduciaire.ch",
-    "slug": "mkfiduciaire-ch",
-    "home_internal_pages": 13,
-    "home_title": "MK Fiduciaire â ComptabilitÃ© & FiscalitÃ© en Suisse (Fribourg, Valais, ZÃ¼rich, Basel, Bern)"
-  },
-  {
     "name": "Monere Wallisellen",
     "url": "https://www.monere.ch/",
     "domain": "monere.ch",
@@ -206,22 +198,6 @@
     "slug": "spp-treuhand-ch",
     "home_internal_pages": 13,
     "home_title": "SPP - Treuhand AG - SPP Schlunegger Park & Partner Treuhand AG"
-  },
-  {
-    "name": "Steuerberater365 Zürich",
-    "url": "https://www.steuerberater365-zuerich.ch/",
-    "domain": "steuerberater365-zuerich.ch",
-    "slug": "steuerberater365-zuerich-ch",
-    "home_internal_pages": 201,
-    "home_title": "Steuerberatung Zürich | Steuererklärung Ausfüllen lassen - Steuerberater"
-  },
-  {
-    "name": "Steuerberatung Schweiz",
-    "url": "https://www.steuerberatung-schweiz.ch/",
-    "domain": "steuerberatung-schweiz.ch",
-    "slug": "steuerberatung-schweiz-ch",
-    "home_internal_pages": 25,
-    "home_title": "Steuerberatung in der Schweiz - Steuerberatung"
   },
   {
     "name": "SteuerVogt GmbH",
@@ -302,14 +278,6 @@
     "slug": "treuhand-zuerich-com",
     "home_internal_pages": 8,
     "home_title": "Treuhand Zürich – Treuhandspezialisten für Reisebüros und Reiseveranstalter"
-  },
-  {
-    "name": "Treuhandbüro24 Zürich",
-    "url": "https://www.treuhandbuero24.ch/",
-    "domain": "treuhandbuero24.ch",
-    "slug": "treuhandbuero24-ch",
-    "home_internal_pages": 62,
-    "home_title": "Treuhandbüro 24 - Deine Adresse für Steuerberatung & Buchhaltung!"
   },
   {
     "name": "Treuhandbüro Graf AG",
