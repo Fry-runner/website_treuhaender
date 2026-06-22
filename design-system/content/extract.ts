@@ -66,6 +66,11 @@ const langDe = (p: any): boolean => {
 };
 const dePages: any[] = pages.filter(langDe);
 const homeDe = langDe(home);
+// Page URLs are often percent-encoded (Swiss "über-uns" → "%C3%BCber-uns"). Page-type
+// detection regexes match the readable form ("über-uns"/"ueber-uns"), so ALWAYS decode
+// the URL before matching — otherwise the whole about/team/history page is missed and
+// its team + about prose silently vanish from the generated site.
+const decU = (u: string): string => { try { return decodeURIComponent(u || ""); } catch { return u || ""; } };
 
 const allText = dePages.map((p) => p.text || "").join(" ").toLowerCase();
 const firm: string = site.name || site.domain;
@@ -105,6 +110,22 @@ const SERVICE_BULLETS = [
   "Ein persönlicher Ansprechpartner",
   "Transparente Pauschale ohne versteckte Kosten",
 ];
+// Curated, service-SPECIFIC detail copy — used as the detail-page body when the scrape
+// has no usable per-service prose (or only a generic, repeated overview). Each text is
+// true for any Swiss Treuhänder (no fabricated firm specifics like client counts) and
+// distinct from the short card summary, so the detail page reads as a real explanation.
+const SERVICE_DETAIL: Record<string, string> = {
+  "Buchhaltung": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
+  "Steuerberatung": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
+  "Lohnadministration": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
+  "Jahresabschluss": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
+  "Mehrwertsteuer": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
+  "Unternehmensberatung": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
+  "Revision": "Eine Revision schafft Vertrauen – bei Eigentümern, Verwaltungsrat, Banken und Geschäftspartnern. Als zugelassene Fachpersonen führen wir die eingeschränkte sowie die ordentliche Revision durch und prüfen Ihre Jahresrechnung auf Gesetzes- und Statutenkonformität. Wir stimmen den Prüfungsumfang auf Grösse und Risikoprofil Ihres Unternehmens ab und liefern neben dem Revisionsbericht auch konkrete Hinweise zur Verbesserung Ihres internen Kontrollsystems. So erfüllen Sie Ihre gesetzlichen Pflichten und gewinnen zugleich verlässliche Erkenntnisse über Ihr Rechnungswesen.",
+  "Immobilien": "Liegenschaften sind werthaltige, aber betreuungsintensive Vermögenswerte. Wir übernehmen die kaufmännische und administrative Bewirtschaftung Ihrer Immobilien – von der Vermietung und der Mietzinsverwaltung über die Nebenkostenabrechnung bis zur Koordination von Unterhalt und Handwerkern. Bei Kauf, Verkauf oder Bewertung stehen wir Ihnen mit Marktkenntnis und einer sauberen Aufbereitung der Zahlen zur Seite. So bleibt Ihre Liegenschaft werterhaltend bewirtschaftet, und Sie behalten jederzeit den Überblick über Erträge und Kosten.",
+  "Nachlass & Erbrecht": "Eine vorausschauende Nachlassplanung erspart Ihren Angehörigen Unsicherheit und Streit. Wir unterstützen Sie bei der Strukturierung Ihres Vermögens, bei Testament und Erbvertrag sowie bei der steuerlich sinnvollen Übertragung zu Lebzeiten oder von Todes wegen. Im Erbfall übernehmen wir auf Wunsch die Willensvollstreckung, erstellen das Nachlassinventar und sorgen für eine faire, gesetzeskonforme Erbteilung. Mit der nötigen Sorgfalt und Diskretion begleiten wir Sie und Ihre Familie durch alle Schritte – sachlich, verständlich und vorausschauend.",
+};
+const DEFAULT_DETAIL = "Diese Leistung erbringen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.";
 function services() {
   // Rank every canonical service by how prominently the firm features it (keyword
   // frequency, de-umlauted so "wirtschaftsprüf" also matches "wirtschaftspruefung"), so
@@ -132,20 +153,30 @@ function services() {
   const ranked = scored.filter((x) => x.n > 0 && (!SPECIALIST.has(x.s.title) || x.n >= 0.2 * maxN))
     .sort((a, b) => (hasPage(b.s) ? 1 : 0) - (hasPage(a.s) ? 1 : 0) || b.n - a.n);
   const chosen = ranked.length >= 2 ? ranked.slice(0, 6).map((x) => x.s) : SERVICE_CANON.slice(0, 6);
-  return chosen.map((s) => {
+  const items = chosen.map((s) => {
     const r = serviceText(s.title, s.key); // real copy from the firm's own service subpage
     return {
       title: s.title,
       summary: r.summary || s.summary,
-      // Fallback body must NOT restate the card summary (s.summary) — else the detail
-      // page's lede and its first body line read identically. A generic continuation
-      // that refers to the service via "Diese Leistung" (the card title sits above it)
-      // also avoids splicing the service name in the wrong case ("… jahresabschluss …").
-      body: r.body || `Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.`,
+      // No usable per-service prose in the scrape → a curated, service-SPECIFIC detail
+      // text (the user authorised writing these). It explains the topic in full and is
+      // distinct from the short card summary, so the detail page never reads as a stub.
+      body: r.body || SERVICE_DETAIL[s.title] || DEFAULT_DETAIL,
       bullets: r.bullets ?? SERVICE_BULLETS,
       image: media.serviceImages?.[s.title],
     };
   });
+  // No two services may show the SAME detail body: a generic overview page ("Entdecken
+  // Sie unsere Leistungen …") often matches several services and would repeat verbatim.
+  // Replace any duplicated (or too-thin) body with the curated service-specific text, so
+  // every detail page reads as its own topic.
+  const normB = (s: string) => s.toLowerCase().replace(/\s+/g, " ").trim();
+  const bodyCount = new Map<string, number>();
+  for (const it of items) bodyCount.set(normB(it.body), (bodyCount.get(normB(it.body)) || 0) + 1);
+  for (const it of items) {
+    if (bodyCount.get(normB(it.body))! > 1 || it.body.length < 120) it.body = SERVICE_DETAIL[it.title] || DEFAULT_DETAIL;
+  }
+  return items;
 }
 
 // --- hero (real headline + lede where possible) ---
@@ -456,13 +487,13 @@ const isPersonName = (nm: string) => {
   const parts = nm.replace(/\./g, "").split(/\s+/).map((w) => w.toLowerCase());
   return !parts.some((w) => NAME_STOP.has(w));
 };
-const ROLE_HINT = /(treuh|steuer|experte|expertin|berater|leiter|leitung|ceo|cfo|coo|gesch[äa]ft|fachfrau|fachmann|finanz|rechnungswesen|partner|inhaber|gr[üu]nder|direktor|assistent|mandatsleiter|buchhalt|revisor|wirtschaftspr[üu]f|dipl|lehrling|sachbearbeit)/i;
+const ROLE_HINT = /(treuh|steuer|experte|expertin|berater|leiter|leitung|ceo|cfo|coo|gesch[äa]ft|fachfrau|fachmann|spezialist|finanz|rechnungswesen|personal|\bhr\b|payroll|lohn|sekretariat|empfang|kundenbe|mandats|partner|inhaber|gr[üu]nder|direktor|assistent|mandatsleiter|buchhalt|revisor|wirtschaftspr[üu]f|dipl|lehrling|sachbearbeit)/i;
 // A name candidate that contains a service/topic token is a keyword line, not a
 // person ("Steuerberatung Privat", "Vermögen finden") — reject it outright.
 const NAME_TOPIC = /steuer|buchhalt|lohn|preis|kosten|beratung|mwst|revision|abschluss|verm[öo]gen|treuhand|finanz|immobil|hypothek|g[üu]nstig|finden|privat|kryptow/i;
 // The following line must assert a REAL role (beyond the looser ROLE_HINT) to keep
 // a (name, role) pair — so a stray heading after a name isn't mistaken for a title.
-const ROLE_STRICT = /gesch[äa]ftsf|inhaber|partner|treuh(?:[äa]nder|andexperte|expert)|direktor(in)?|berater(in)?|leiter(in)?|gr[üu]nder(in)?|dipl\.|mandatsleiter|sachbearbeiter|buchhalter(in)?|revisor(in)?|fachfrau|fachmann|assistent(in)?|lernende|mitarbeit/i;
+const ROLE_STRICT = /gesch[äa]ftsf|inhaber|partner|treuh(?:[äa]nder|andexperte|expert)|direktor(in)?|berater(in)?|leiter(in)?|gr[üu]nder(in)?|dipl\.|mandatsleiter|sachbearbeiter|buchhalter(in)?|revisor(in)?|fachfrau|fachmann|spezialist(in)?|assistent(in)?|lernende|mitarbeit/i;
 // A real personal name: 2-3 tokens, each Capitalised, letters only, not ALL-CAPS.
 const looksLikePersonName = (nm: string) => {
   if (NAME_TOPIC.test(nm)) return false;
@@ -491,7 +522,7 @@ function teamMembers() {
     return out;
   };
   const deNonForeign = dePages.filter((p) => !/\/(en|fr|it)\//i.test(p.url || ""));
-  const isTeamUrl = (u: string) => /\/(team|teammitglieder|team2|mitarbeit(?:ende|er)?|crew|unser-?team|das-?team)/i.test(u);
+  const isTeamUrl = (u: string) => /\/(team|teammitglieder|team2|mitarbeit(?:ende|er)?|crew|unser-?team|das-?team)/i.test(decU(u));
 
   // (a) AGGREGATE the roster across ALL dedicated team pages — handles a roster split
   //     into ONE PAGE PER PERSON (langhart /teammitglieder/urs-langhart/, kmu-trex
@@ -508,7 +539,7 @@ function teamMembers() {
   // (b) No real team page (or too thin) → the SINGLE best about/home page, where smaller
   //     firms list their people (maurer on /ueber-uns, aawi on the home page).
   if (found.length < 2) {
-    const aboutCands = [home, ...deNonForeign.filter((p) => /ueber-?uns|über-?uns|\babout\b|wer-wir|inhaber|\/wir\b/i.test(`${p.url || ""} ${p.title || ""}`))];
+    const aboutCands = [home, ...deNonForeign.filter((p) => /ueber-?uns|über-?uns|\babout\b|wer-wir|inhaber|\/wir\b/i.test(`${decU(p.url)} ${p.title || ""}`))];
     let best = found, bestPage: any;
     for (const p of aboutCands) { const f = extractFrom(p); if (f.length > best.length) { best = f; bestPage = p; } }
     if (best.length > found.length) { found.length = 0; found.push(...best); pagesUsed.length = 0; if (bestPage) pagesUsed.push(bestPage); }
@@ -1444,7 +1475,7 @@ const VALUE_STOP = /leistung|dienstleistung|kontakt|impressum|datenschutz|team|�
 function realValues(): SiteContent["values"]["items"] | undefined {
   // only the firm's OWN positioning pages — never blog/ratgeber articles (noise)
   const scan = dePages.filter((p) => {
-    const hay = `${p.url || ""} ${p.title || ""}`;
+    const hay = `${decU(p.url)} ${p.title || ""}`;
     return /ueber-?uns|über-?uns|about-?us|\babout\b|philosoph|leitbild|unsere-?werte|warum-?wir|vorteile|grundsatz|versprechen/i.test(hay)
       && !/blog|news|ratgeber|aktuell|artikel|magazin|publikation|\/20\d\d\//i.test(hay);
   });
@@ -1473,7 +1504,7 @@ function realValues(): SiteContent["values"]["items"] | undefined {
 }
 function realFaq(): SiteContent["faq"]["items"] | undefined {
   const scan = dePages.filter((p) => {
-    const hay = `${p.url || ""} ${p.title || ""}`;
+    const hay = `${decU(p.url)} ${p.title || ""}`;
     if (/datenschutz|impressum|cookie|privacy|agb|blog|news|ratgeber|magazin|aktuell|\/20\d\d\//i.test(hay)) return false;
     return /faq|haeufig|häufig|fragen|wissen|q-?a/i.test(hay);
   });
@@ -1519,7 +1550,7 @@ function realTagline(): string | undefined {
  *  philosophy / company page. Omitted (→ generic default) when no usable prose. */
 function realAbout(): AboutContent | undefined {
   const scan = dePages.filter((p) => {
-    const hay = `${p.url || ""} ${p.title || ""}`;
+    const hay = `${decU(p.url)} ${p.title || ""}`;
     // A genuine ABOUT/company page — NOT a how-to guide, ratgeber or blog. "firma" is
     // deliberately gone (it matched "EinzelFIRMA" / "FIRMengründung-guide"); a guide is
     // excluded even if its SEO title says "Unternehmen gründen". Bare path segments
@@ -1561,7 +1592,7 @@ function realAbout(): AboutContent | undefined {
  *  pose as a milestone). Omitted entirely when too sparse — never scaffolded. */
 function realHistory(): HistoryContent | undefined {
   const scan = dePages.filter((p) => {
-    const hay = `${p.url || ""} ${p.title || ""}`;
+    const hay = `${decU(p.url)} ${p.title || ""}`;
     return /geschichte|chronik|historie|history|meilenstein|werdegang|tradition|firmengeschichte|ueber-?uns|über-?uns|unternehmen/i.test(hay)
       && !/blog|news|ratgeber|aktuell|artikel|magazin|publikation|\/20\d\d\//i.test(hay);
   });
@@ -1611,7 +1642,7 @@ function realProcess(): ProcessContent | undefined {
   // carry numbered "in N Schritten" headings that would masquerade as the firm's
   // own client process). No generic fallback: no such page ⇒ neutral default.
   const scan = dePages.filter((p) => {
-    const hay = `${p.url || ""} ${p.title || ""}`;
+    const hay = `${decU(p.url)} ${p.title || ""}`;
     return /ablauf|vorgehen|so-?arbeiten|so-?funktioniert|zusammenarbeit|ihr-weg|onboarding|so-?gehts|so-?l[äa]uft|unser-?prozess|ihr-?prozess|wie-wir-arbeiten/i.test(hay)
       && !/blog|news|ratgeber|aktuell|artikel|magazin|publikation|guide|tipps?|wissen|\/20\d\d\//i.test(hay);
   });

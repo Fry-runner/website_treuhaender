@@ -116,6 +116,7 @@
         "values",
         "audience",
         "process",
+        "team",
         "partners",
         "cta",
         "contact",
@@ -163,7 +164,7 @@
         "home:testimonials": "Social Proof ohne echte Daten → weggelassen",
         "home:stats": "Social Proof ohne echte Daten → weggelassen",
         "home:process": "Kernsektion",
-        "home:team": "kein echtes Team gefunden",
+        "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
         "home:faq": "keine echte FAQ → weggelassen",
@@ -185,7 +186,6 @@
       "faq",
       "process (generic)",
       "audience (generic)",
-      "about (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -196,7 +196,10 @@
       "hero.headline",
       "hero.lede",
       "services.text",
+      "team.members",
+      "team.photos",
       "values",
+      "about",
       "feature",
       "footer.tagline",
       "trust.items",
@@ -651,7 +654,7 @@
       {
         "title": "Steuerberatung",
         "summary": "Die Dienstleistungen des Treuhandbüros Accuratus Treuhand in Zürich umfassen Finanzwesen und Rechnungswesen, Buchhaltung, Lohnbuchhaltung, Mehrwertsteuer, Steuerberatung, Wirtschaftsprüfung/Revision.",
-        "body": "für mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWir sind für Sie da. Jetzt und auch als langfristiger Beratungspartner.\n\nSehen Sie der nächsten Steuerrechnung mit gemischten Gefühlen entgegen? Schieben Sie die Steuererklärung so lange vor sich her, bis es fast zu spät ist? Möchten Sie Ihre Steuererklärung korrekt ausgefüllt wissen? Können Sie eine, zwei oder drei dieser Fragen mit «JA» beantworten, dann sind Sie bei uns richtig.",
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -663,7 +666,7 @@
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Ganz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.\n\nOft ist im Finanz- und Rechnungswesen die Angst gross, Fehler zu machen. Vor allem, wenn Angestellte betroffen sind – z.B. bei Lohnabrechnungen oder bei den Sozialversicherungen. Accuratus-Treuhand kümmert sich mit professionellem Finanz- und Rechnungswesen schnell um Ihre Bedenken.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWer eine Firma neu gründet, geht in der Regel ein unternehmerisches Risiko ein.",
+        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -675,7 +678,7 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "für mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWir sind für Sie da. Jetzt und auch als langfristiger Beratungspartner.\n\nSehen Sie der nächsten Steuerrechnung mit gemischten Gefühlen entgegen? Schieben Sie die Steuererklärung so lange vor sich her, bis es fast zu spät ist? Möchten Sie Ihre Steuererklärung korrekt ausgefüllt wissen? Können Sie eine, zwei oder drei dieser Fragen mit «JA» beantworten, dann sind Sie bei uns richtig.",
+        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -687,7 +690,7 @@
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-        "body": "für mich seit mehr als 6 Jahren die gesamte Buchhaltung erledigt und mir auch bei steuerlichen und geschäftlichen Fragen professionell zu Seite steht.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWir sind für Sie da. Jetzt und auch als langfristiger Beratungspartner.\n\nSehen Sie der nächsten Steuerrechnung mit gemischten Gefühlen entgegen? Schieben Sie die Steuererklärung so lange vor sich her, bis es fast zu spät ist? Möchten Sie Ihre Steuererklärung korrekt ausgefüllt wissen? Können Sie eine, zwei oder drei dieser Fragen mit «JA» beantworten, dann sind Sie bei uns richtig.",
+        "body": "Eine Revision schafft Vertrauen – bei Eigentümern, Verwaltungsrat, Banken und Geschäftspartnern. Als zugelassene Fachpersonen führen wir die eingeschränkte sowie die ordentliche Revision durch und prüfen Ihre Jahresrechnung auf Gesetzes- und Statutenkonformität. Wir stimmen den Prüfungsumfang auf Grösse und Risikoprofil Ihres Unternehmens ab und liefern neben dem Revisionsbericht auch konkrete Hinweise zur Verbesserung Ihres internen Kontrollsystems. So erfüllen Sie Ihre gesetzlichen Pflichten und gewinnen zugleich verlässliche Erkenntnisse über Ihr Rechnungswesen.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -699,7 +702,7 @@
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Ganz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.\n\nOft ist im Finanz- und Rechnungswesen die Angst gross, Fehler zu machen. Vor allem, wenn Angestellte betroffen sind – z.B. bei Lohnabrechnungen oder bei den Sozialversicherungen. Accuratus-Treuhand kümmert sich mit professionellem Finanz- und Rechnungswesen schnell um Ihre Bedenken.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWer eine Firma neu gründet, geht in der Regel ein unternehmerisches Risiko ein.",
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -711,7 +714,7 @@
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Ganz gleich, ob Sie Ihre Firma gerade erst gegründet haben oder schon jahrelang erfolgreich damit sind. Die Herausforderungen im Finanz- und Rechnungswesen nehmen nicht ab, sondern eher zu.\n\nOft ist im Finanz- und Rechnungswesen die Angst gross, Fehler zu machen. Vor allem, wenn Angestellte betroffen sind – z.B. bei Lohnabrechnungen oder bei den Sozialversicherungen. Accuratus-Treuhand kümmert sich mit professionellem Finanz- und Rechnungswesen schnell um Ihre Bedenken.\n\nEine sauber geführte Buchhaltung ist zeitaufwändig. Denn es sind nicht nur Einnahmen und Ausgaben sowie die Mehrwertsteuer korrekt zu verbuchen, sondern auch steuer- und handelsrechtliche Vorschriften bei der Bilanzierung zu berücksichtigen.\n\nWer eine Firma neu gründet, geht in der Regel ein unternehmerisches Risiko ein.",
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
         "bullets": [
           "Laufende, termingerechte Betreuung",
           "Digitale Belegerfassung & Echtzeit-Zahlen",
@@ -727,16 +730,16 @@
     "heading": "Ihr Vorteil.",
     "items": [
       {
-        "title": "Live Support",
-        "body": "Seit 2001 Ihr Partner für Finanz- und Rechnungswesen, Steuerberatung, Abaweb- und Abaninja-Treuhänder, Bexio-Treuhänder."
+        "title": "Firmengeschichte und Werte",
+        "body": "Seit mehr als 20 Jahren unterstützen wir unsere Kunden fair, zuverlässig und «akkurat». Accuratus-Treuhand GmbH wurde Ende 2001 gegründet. Ein Name für das Unternehmen war schnell gefunden."
       },
       {
-        "title": "Steuerberatung",
-        "body": "Übergeben Sie Ihr Steuerdossier an uns Profis. Ärger und Stress bleiben Ihnen erspart. Wir vertreten Ihre Interessen fair, zuverlässig und korrekt."
+        "title": "HR-Spezialistin",
+        "body": "Human Resources Fachfrau mit eidg. Fachausweis, Bachelor Psychomotoriktherapeutin"
       },
       {
-        "title": "Online-/Web-Treuhand",
-        "body": "Sie entscheiden welche Aufgaben Sie selber übernehmen wollen und haben immer und von überall Zugang zu Ihrer Buchhaltung."
+        "title": "Andrea Jenzer-Schoch",
+        "body": "Die Treuhandbranche ist für mich – auch nach langjähriger Berufserfahrung – ein sehr interessantes und abwechslungsreiches Tätigkeitsgebiet. Nebst den wiederkehrenden Arbeiten, bietet es immer wieder neue und spannende Herausforderungen."
       },
       {
         "title": "Accuratus-Treuhand GmbH",
@@ -744,27 +747,37 @@
       }
     ]
   },
+  "about": {
+    "eyebrow": "Über uns",
+    "heading": "Das sind WIR",
+    "lead": "Unsere Firmengeschichte, unser Team und die Branchen, für die wir arbeiten.",
+    "paragraphs": [
+      "Seit mehr als 20 Jahren unterstützen wir unsere Kunden fair, zuverlässig und «akkurat». Accuratus-Treuhand GmbH wurde Ende 2001 gegründet. Ein Name für das Unternehmen war schnell gefunden.",
+      "«Accuratus» steht für unsere genaue, sorgfältige und ordentliche Arbeitsweise.",
+      "Bei aller Sorgfalt suchen wir für unsere Kunden nach effizienten und digitalen Lösungen. Wir sind sofort nach Mandatserteilung einsatzbereit und flexibel bezüglich Einsatzzeiten."
+    ]
+  },
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Live Support",
-      "body": "Seit 2001 Ihr Partner für Finanz- und Rechnungswesen, Steuerberatung, Abaweb- und Abaninja-Treuhänder, Bexio-Treuhänder.",
+      "heading": "Firmengeschichte und Werte",
+      "body": "Seit mehr als 20 Jahren unterstützen wir unsere Kunden fair, zuverlässig und «akkurat». Accuratus-Treuhand GmbH wurde Ende 2001 gegründet. Ein Name für das Unternehmen war schnell gefunden.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     },
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Steuerberatung",
-      "body": "Übergeben Sie Ihr Steuerdossier an uns Profis. Ärger und Stress bleiben Ihnen erspart. Wir vertreten Ihre Interessen fair, zuverlässig und korrekt.",
+      "heading": "HR-Spezialistin",
+      "body": "Human Resources Fachfrau mit eidg. Fachausweis, Bachelor Psychomotoriktherapeutin",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     },
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Online-/Web-Treuhand",
-      "body": "Sie entscheiden welche Aufgaben Sie selber übernehmen wollen und haben immer und von überall Zugang zu Ihrer Buchhaltung.",
+      "heading": "Andrea Jenzer-Schoch",
+      "body": "Die Treuhandbranche ist für mich – auch nach langjähriger Berufserfahrung – ein sehr interessantes und abwechslungsreiches Tätigkeitsgebiet. Nebst den wiederkehrenden Arbeiten, bietet es immer wieder neue und spannende Herausforderungen.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -781,7 +794,29 @@
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
-    "members": []
+    "members": [
+      {
+        "name": "Theo Herger",
+        "role": "Geschäftsführer",
+        "initials": "TH",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/accuratus-treuhand-ch/team/0-herger.png"
+      },
+      {
+        "name": "Rupa Herger",
+        "role": "HR-Spezialistin",
+        "initials": "RH",
+        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.",
+        "photo": "/images/accuratus-treuhand-ch/team/1-herger.png"
+      },
+      {
+        "name": "Kerstin Moeri",
+        "role": "Mandatsleiterin",
+        "initials": "KM",
+        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
+        "photo": "/images/accuratus-treuhand-ch/team/2-moeri.png"
+      }
+    ]
   },
   "pricing": {
     "eyebrow": "Preise",

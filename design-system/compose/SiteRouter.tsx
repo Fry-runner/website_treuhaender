@@ -194,11 +194,13 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   const allPages = brief
     ? resolvePages(brief.pageRefs, brief.homepageSlots, content, { includeOptional: true })
     : composeSite(arch, content, { includeOptional: true });
-  // No REAL "Über uns" content → the about subpage must not exist, and nothing may
-  // preview to it. We never show a scaffolded/blog-derived about page: dropping the
-  // owner page makes `sectionTeaser` render the home values/gallery in FULL (no
+  // The "Über uns" page renders the about prose AND the team + company history.
+  // Keep it whenever ANY of those is real; only when ALL are empty do we drop it (and
+  // its previews) so we never ship a hollow, scaffold-/blog-filled about page. Dropping
+  // the owner page makes `sectionTeaser` render the home values/gallery in FULL (no
   // "Mehr über uns" link to an empty page) instead of as about-previews.
-  const pages = content.about ? allPages : allPages.filter((p) => p.pageType !== "about");
+  const hasUeberUns = !!content.about || (content.team?.members?.length ?? 0) > 0 || !!content.history;
+  const pages = hasUeberUns ? allPages : allPages.filter((p) => p.pageType !== "about");
   const [slug, setSlug] = useState("/");
   const navigate = (s: string) => { setSlug(s); if (typeof window !== "undefined") window.scrollTo(0, 0); };
   const page: ResolvedPage = pages.find((p) => p.slug === slug) ?? pages[0];
