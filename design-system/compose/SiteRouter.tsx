@@ -412,7 +412,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
 
   // Never render a content section the firm has no material for — an empty
   // values/faq/stats/… would show as a lone heading. Slots not listed here always
-  // render (nav, hero, cta, contact, and the safe-generic process/audience/about).
+  // render (nav, hero, cta, contact, about).
   const slotHasContent = (s: string): boolean => {
     switch (s) {
       case "services": return content.services.items.length > 0;
@@ -422,6 +422,12 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       case "testimonials": return content.testimonials.items.length > 0;
       case "stats": return statItems.length > 0;
       case "faq": return content.faq.items.length > 0;
+      // process/audience: real-mode shows them ONLY when actually scraped (no generic
+      // "So arbeiten wir"/"Für wen" filler on every site). Pitch mode keeps the generic
+      // framing — it's true-for-any-Treuhänder, not a fabricated fact, and gives the
+      // cold-acquisition mock body. (about stays: it's the cornerstone subpage.)
+      case "process": return pitch || !!content.process;
+      case "audience": return pitch || !!content.audience;
       case "partners": return content.trust.items.length > 0 || (content.media?.badges?.length ?? 0) > 0;
       case "gallery": return galleryContent.images.length >= 3 || !!sectionOverrides?.["gallery"];
       // Company timeline: ONLY when ≥3 real dated milestones were scraped, else the

@@ -80,7 +80,11 @@ export function recipientFor(content: SiteContent): string | undefined {
 /** Deterministic per-firm hash (FNV-1a) → stable phrasing picks; same firm always
  *  yields the same mail, different firms differ. */
 const genHash = (s: string): number => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; };
-const pick = <T>(arr: T[], h: number): T => arr[h % arr.length];
+// Callers seed the rotation with signed shifts (`h >> 5`), which go NEGATIVE when the
+// hash's top bit is set — a raw `h % len` would then index out of range and yield
+// `undefined` (the "…Website undefined erstellt – undefined" bug). Normalise to a
+// non-negative index so every caller is safe regardless of sign.
+const pick = <T>(arr: T[], h: number): T => arr[((h % arr.length) + arr.length) % arr.length];
 
 /** Best-effort city from the scraped contact address ("8000 Zürich", "Zürich-Glattbrugg"
  *  → "Zürich"). Returns undefined when nothing clean is recoverable (then no city is named). */
@@ -126,7 +130,8 @@ export function buildOutreachEmail(content: SiteContent, prototypeUrl: string): 
         `Auf der Suche nach Treuhandbüros${cityPhrase} ist mir Ihre Website aufgefallen.`,
         `Bei einer Recherche zu Treuhand- und Steuerberatung${cityPhrase} bin ich auf Ihren Auftritt gestossen.`,
       ], h);
-  const firmRef = lawish ? "Ihrer Kanzlei" : pick(["Ihres Treuhandbüros", "Ihres Unternehmens", "Ihrer Firma"], h >> 5);
+  // Accusative forms — the template reads "… Website für ${firmRef} …" (für + Akkusativ).
+  const firmRef = lawish ? "Ihre Kanzlei" : pick(["Ihr Treuhandbüro", "Ihr Unternehmen", "Ihre Firma"], h >> 5);
   const descriptor = pick([
     `mit einem frischen, professionellen und vertrauenswürdigen Erscheinungsbild, das die Kompetenz Ihrer Arbeit widerspiegelt`,
     `modern, klar und vertrauenswürdig gestaltet`,
@@ -138,7 +143,7 @@ export function buildOutreachEmail(content: SiteContent, prototypeUrl: string): 
     ``,
     `Mein Name ist Oliver Gläser, ich studiere an der ETH Zürich und entwickle nebenbei Webauftritte für lokale Unternehmen.`,
     ``,
-    `${context} Dabei habe ich aus eigener Initiative einen Prototypen für eine modernisierte Website ${firmRef} erstellt – ${descriptor}. Sie finden den Entwurf hier:`,
+    `${context} Dabei habe ich aus eigener Initiative einen Prototypen für eine modernisierte Website für ${firmRef} erstellt – ${descriptor}. Sie finden den Entwurf hier:`,
     ``,
     prototypeUrl,
     ``,

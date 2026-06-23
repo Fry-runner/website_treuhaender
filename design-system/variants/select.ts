@@ -240,7 +240,14 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
   const lookId = opts.lookId ?? pickPalette(archetype, base + 2);
   const affinity = presetAffinity[lookId] ?? "any";
   const kit = (opts.kitId ? kitById(opts.kitId) : undefined) ?? pick(kitsForAffinity(affinity), base + 3);
-  let heroId = pickFit(heroVariants, kit.hero, affinity, base, Infinity, hasHeroImage(content)).id;
+  // Hero variants whose SIGNATURE element is a customer quote (an aside-quote card or a
+  // pull-quote lead). Only pick one when the firm has a REAL testimonial — otherwise the
+  // aside is empty (no fake firm voice) and the variant collapses to a plain single
+  // column, wasting its distinction. No testimonial ⇒ prefer a quote-independent hero.
+  const hasQuote = (content.testimonials?.items?.length ?? 0) > 0;
+  const QUOTE_HEROES = /^hero\/(split|offset-aside|quote-lead|split-reverse|dark-split)\b/;
+  const heroPool = hasQuote ? heroVariants : heroVariants.filter((h) => !QUOTE_HEROES.test(h.id));
+  let heroId = pickFit(heroPool, kit.hero, affinity, base, Infinity, hasHeroImage(content)).id;
   // Photo-forward but DIFFERENTIATED across firms. A photo hero is the default strong
   // move, but a ~92% image-full bias made every firm's hero identical — fighting the
   // per-firm differentiation goal. Spread the photo heroes instead: ~58% image-full,
