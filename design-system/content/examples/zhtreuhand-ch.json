@@ -582,8 +582,8 @@
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Unser erfahrenes Team unterstützt Sie bei Finanzangelegenheiten wie Buchhaltung, Steueroptimierung und eingeschränkter Revision.",
-    "asideAttribution": "ZH Treuhand",
+    "asideQuote": "",
+    "asideAttribution": "",
     "image": "/images/zhtreuhand-ch/pool/stock-city-29148085.jpg"
   },
   "services": {
@@ -593,68 +593,32 @@
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Suchen Sie als Ärztin oder Arzt einen verlässlichen Partner für Ihre Steuerangelegenheiten? In der komplexen Welt der Steuerplanung stehen wir Ihnen als spezialisiertes Treuhandbüro mit Weitblick und Expertise zur Seite – denn steuerliche Fragen sind entscheidend für unternehmerische Entscheidungen.\n\nAls Ärztin oder Arzt stehen Sie nicht nur vor der Herausforderung, Ihre Patientinnen und Patienten bestmöglich zu betreuen, sondern auch, die komplexen steuerlichen Anforderungen Ihrer Praxis zu erfüllen. Unklarheiten bei steuerpflichtigen und steuerbefreiten Leistungen können schnell zu finanziellen Nachteilen führen. Doch nicht mit uns! Wir verstehen die speziellen Herausforderungen im Gesundheitswesen und unterstützen Sie dabei, Ihre Praxis sowohl steuerlich als auch unternehmerisch optimal aufzustellen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus."
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Suchen Sie als Ärztin oder Arzt einen verlässlichen Partner für Ihre Steuerangelegenheiten? In der komplexen Welt der Steuerplanung stehen wir Ihnen als spezialisiertes Treuhandbüro mit Weitblick und Expertise zur Seite – denn steuerliche Fragen sind entscheidend für unternehmerische Entscheidungen.\n\nAls Ärztin oder Arzt stehen Sie nicht nur vor der Herausforderung, Ihre Patientinnen und Patienten bestmöglich zu betreuen, sondern auch, die komplexen steuerlichen Anforderungen Ihrer Praxis zu erfüllen. Unklarheiten bei steuerpflichtigen und steuerbefreiten Leistungen können schnell zu finanziellen Nachteilen führen. Doch nicht mit uns! Wir verstehen die speziellen Herausforderungen im Gesundheitswesen und unterstützen Sie dabei, Ihre Praxis sowohl steuerlich als auch unternehmerisch optimal aufzustellen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen."
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Sie sind auf der Suche nach einer verlässlichen Buchhaltungslösung für Ihre Praxis? Die finanzielle Verwaltung einer Arztpraxis ist komplex und zeitintensiv. Doch wir kennen alle Besonderheiten und Optimierungsmöglichkeiten der Buchhaltung im Gesundheitswesen und helfen Ihnen, diese gezielt zu nutzen.\n\nEine ordentliche Buchhaltung ist mehr als nur eine Auflistung von Finanzen. Wir optimieren Ihre Buchhaltungsprozesse, erstellen Jahresabschlüsse und unterstützen Sie bei der Betriebsprüfung. Egal, ob Sie spezifische Unterstützung suchen oder Ihre Buchhaltung komplett auslagern möchten – gemeinsam finden wir die perfekte Lösung. Mit unserer Expertise bringen wir Fachkenntnisse und rechtliche Sicherheit in Ihre Buchführung, sodass Sie effizienter arbeiten, steuerliche Vorteile nutzen und finanzielle Risiken minimieren können.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Sie sind auf der Suche nach einer verlässlichen Buchhaltungslösung für Ihre Praxis? Die finanzielle Verwaltung einer Arztpraxis ist komplex und zeitintensiv. Doch wir kennen alle Besonderheiten und Optimierungsmöglichkeiten der Buchhaltung im Gesundheitswesen und helfen Ihnen, diese gezielt zu nutzen.\n\nEine ordentliche Buchhaltung ist mehr als nur eine Auflistung von Finanzen. Wir optimieren Ihre Buchhaltungsprozesse, erstellen Jahresabschlüsse und unterstützen Sie bei der Betriebsprüfung. Egal, ob Sie spezifische Unterstützung suchen oder Ihre Buchhaltung komplett auslagern möchten – gemeinsam finden wir die perfekte Lösung. Mit unserer Expertise bringen wir Fachkenntnisse und rechtliche Sicherheit in Ihre Buchführung, sodass Sie effizienter arbeiten, steuerliche Vorteile nutzen und finanzielle Risiken minimieren können."
       },
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-        "body": "Welche steuerlichen Verpflichtungen hat Ihre Arztpraxis in der Region Zürich und wie können Sie Steuervorteile optimal nutzen? Wann ist eine eingeschränkte Revision für Ihre Praxis erforderlich? Vertrauen Sie auf unsere Expertise und langjährige Erfahrung. Wir kümmern uns um Ihre Finanzen – Sie konzentrieren sich auf Ihr Alltagsgeschäft.\n\nStatt sich mit diesen komplexen Themen auseinanderzusetzen, können Sie auf unsere Expertise zählen. Mit langjähriger Erfahrung im Finanz- und Gesundheitswesen übernehmen wir Ihre Buchhaltung, sodass Sie sich voll und ganz auf Ihre Patientinnen und Patienten konzentrieren können.\n\nWir bieten massgeschneiderte Lösungen für Ihre Praxis – damit Ihre Finanzen gesund bleiben!\n\nDie Abrechnung medizinischer Leistungen mit Krankenkassen, Patientinnen und Patienten sowie mit Versicherungen erfordert eine präzise Buchhaltung und Verwaltung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Welche steuerlichen Verpflichtungen hat Ihre Arztpraxis in der Region Zürich und wie können Sie Steuervorteile optimal nutzen? Wann ist eine eingeschränkte Revision für Ihre Praxis erforderlich? Vertrauen Sie auf unsere Expertise und langjährige Erfahrung. Wir kümmern uns um Ihre Finanzen – Sie konzentrieren sich auf Ihr Alltagsgeschäft.\n\nStatt sich mit diesen komplexen Themen auseinanderzusetzen, können Sie auf unsere Expertise zählen. Mit langjähriger Erfahrung im Finanz- und Gesundheitswesen übernehmen wir Ihre Buchhaltung, sodass Sie sich voll und ganz auf Ihre Patientinnen und Patienten konzentrieren können.\n\nWir bieten massgeschneiderte Lösungen für Ihre Praxis – damit Ihre Finanzen gesund bleiben!\n\nDie Abrechnung medizinischer Leistungen mit Krankenkassen, Patientinnen und Patienten sowie mit Versicherungen erfordert eine präzise Buchhaltung und Verwaltung."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       }
     ]
   },
@@ -668,7 +632,7 @@
     "heading": "Vertrauen ist die beste Medizin – \nlernen Sie uns kennen",
     "lead": "ZH Ärzte & Revisionstreuhand ist ein familiengeführtes Treuhandbüro mit Fokus auf Ärztetreuhand. Dank unserer spezifischen Weiterbildungen und unseres Know-hows über die finanziellen Besonderheiten von Arztpraxen bieten wir eine optimale 360-Grad-Betreuung an. Nur mit gesunden Finanzen können Sie sich voll und ganz auf Ihre Patientinnen und Patienten konzentrieren.",
     "paragraphs": [
-      "und den finanziellen Verpflichtungen. Diese Kombination ist optimal, um Sie und Ihre Praxis bestens zu beraten."
+      "Diese Kombination ist optimal, um Sie und Ihre Praxis bestens zu beraten."
     ]
   },
   "featureAngles": [
@@ -676,11 +640,6 @@
       "eyebrow": "Leistung",
       "heading": "Steuerberatung",
       "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -689,11 +648,6 @@
       "eyebrow": "Leistung",
       "heading": "Unternehmensberatung",
       "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -702,11 +656,6 @@
       "eyebrow": "Leistung",
       "heading": "Buchhaltung",
       "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -715,11 +664,6 @@
       "eyebrow": "Leistung",
       "heading": "Revision",
       "body": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }

@@ -273,7 +273,7 @@
         "orientation": "landscape",
         "subject": "portrait",
         "phash": "2dfde6ecc4ccec2c",
-        "quality": 0.71,
+        "quality": 0.69,
         "faces": 1,
         "roles": [
           "feature"
@@ -321,7 +321,7 @@
         "orientation": "portrait",
         "subject": "portrait",
         "phash": "f3b3e7cbd3d9d9d3",
-        "quality": 0.69,
+        "quality": 0.67,
         "faces": 1,
         "roles": []
       },
@@ -349,7 +349,7 @@
         "orientation": "landscape",
         "subject": "portrait",
         "phash": "6f4c48d8d3c9cdc9",
-        "quality": 0.78,
+        "quality": 0.75,
         "faces": 1,
         "roles": []
       },
@@ -357,13 +357,13 @@
         "src": "/images/stg-zuerich/pool/5e0be209d6__stg_zh_annette_widmann_quote-707.jpg",
         "kind": "photo",
         "alt": "Annette Widmann",
-        "bytes": 29041,
+        "bytes": 39867,
         "width": 707,
         "height": 442,
         "orientation": "landscape",
         "subject": "portrait",
         "phash": "b7bfb66ec8c9c9ca",
-        "quality": 0.76,
+        "quality": 0.74,
         "faces": 1,
         "roles": []
       },
@@ -371,7 +371,7 @@
         "src": "/images/stg-zuerich/pool/d0ad00c7f1__stg_zh_annette_widmann-1-707.jpg",
         "kind": "photo",
         "alt": "Annette Widmann",
-        "bytes": 37705,
+        "bytes": 39166,
         "width": 707,
         "height": 497,
         "orientation": "landscape",
@@ -385,13 +385,13 @@
         "src": "/images/stg-zuerich/pool/025ee6423f__stg_zh_doris_buerge_quote-707.jpg",
         "kind": "photo",
         "alt": "Doris Bürge",
-        "bytes": 28881,
+        "bytes": 39122,
         "width": 707,
         "height": 442,
         "orientation": "landscape",
         "subject": "portrait",
         "phash": "3d9b1bda5e565e5e",
-        "quality": 0.79,
+        "quality": 0.81,
         "faces": 1,
         "roles": []
       },
@@ -399,13 +399,13 @@
         "src": "/images/stg-zuerich/pool/970917ec4e__stg_zh_doris_buerge-707.jpg",
         "kind": "photo",
         "alt": "Doris Bürge",
-        "bytes": 32593,
+        "bytes": 35851,
         "width": 707,
         "height": 497,
         "orientation": "landscape",
         "subject": "portrait",
-        "phash": "7d3b3b7a76363e56",
-        "quality": 0.74,
+        "phash": "3d3b3b7a76363e56",
+        "quality": 0.76,
         "faces": 1,
         "roles": []
       },
@@ -413,7 +413,7 @@
         "src": "/images/stg-zuerich/pool/8a2c3181c2__manuela-gugger-707.jpg",
         "kind": "photo",
         "alt": "Manuela Gugger",
-        "bytes": 23898,
+        "bytes": 34917,
         "width": 707,
         "height": 472,
         "orientation": "landscape",
@@ -427,13 +427,13 @@
         "src": "/images/stg-zuerich/pool/47b8a99aad__stg_zh_sabrina_gholampour-1-707.jpg",
         "kind": "photo",
         "alt": "Sabrina Gholampour",
-        "bytes": 32252,
+        "bytes": 33974,
         "width": 707,
         "height": 497,
         "orientation": "landscape",
         "subject": "portrait",
         "phash": "3df5e4cccc3c6c6c",
-        "quality": 0.67,
+        "quality": 0.71,
         "faces": 1,
         "roles": []
       },
@@ -441,7 +441,7 @@
         "src": "/images/stg-zuerich/pool/7ced4ba4e5__stg_zh_thomas_gass-707.jpg",
         "kind": "photo",
         "alt": "Jürg Thomas Gass",
-        "bytes": 32194,
+        "bytes": 32828,
         "width": 707,
         "height": 497,
         "orientation": "landscape",
@@ -455,7 +455,7 @@
         "src": "/images/stg-zuerich/pool/6eea7d9d9d__stg_zh_christian_sager-707.jpg",
         "kind": "photo",
         "alt": "Christian Sager",
-        "bytes": 29891,
+        "bytes": 31204,
         "width": 707,
         "height": 497,
         "orientation": "landscape",
@@ -494,8 +494,8 @@
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Dienstleistungen der Schweizerischen Treuhandgesellschaft (Zürich) AG: Steuern, Treuhand, Trust & Gestion und Immobilien",
-    "asideAttribution": "STG Zürich",
+    "asideQuote": "",
+    "asideAttribution": "",
     "image": "/images/stg-zuerich/hero.jpg"
   },
   "services": {
@@ -505,68 +505,32 @@
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "In der komplexen Welt der direkten und indirekten Steuern sind wir zu Hause. Natürliche und juristische Personen begleiten wir in sämtlichen steuerlichen Fragestellungen – sachkundig, verlässlich und mit einem geschärften Blick aufs Ganze und der Liebe zum Detail.\n\nUnsere Beratungen umfassen alle Steuerarten und Abgaben wie Einkommens- und Gewinnsteuern, Vermögens- und Kapitalsteuern, Grundstückgewinn- und Handänderungssteuern, Erbschafts- und Schenkungssteuern, Mehrwertsteuer und das interkantonale Steuerrecht.\n\nUnternehmerinnen und Unternehmer begleiten wir ganzheitlich in allen Phasen der Unternehmensentwicklung – von der Gründung über die Umstrukturierung, den Unternehmensverkauf und -kauf bis zur Nachfolgeregelung. Je nach Bedarf umfasst unser Dienstleistungsangebot auch die Erarbeitung von Mitarbeiterbeteiligungsplänen und massgeschneiderten Spesenreglementen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus."
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Finanz- und Rechnungswesen, Lohnbuchhaltung, Finanzplanung, Family Office.\n\nFür unternehmerische Entscheide sind korrekte und vollständige Jahresrechnungen eine wichtige Grundlage. Unsere engagierten Mitarbeitenden bieten Ihnen eine ganzheitliche Beratung und Unterstützung in sämtlichen buchhalterischen Fragen. Vom Start-up bis zum KMU begleiten wir Unternehmen in jeder Entwicklungsphase. Wir erfassen Ihre Bedürfnisse, erarbeiten mit Effort Lösungen und begleiten persönlich deren Umsetzung – zuverlässig, versiert und vorausschauend.\n\nKleine und mittelgrosse Unternehmen unterstützen wir fachkundig im Aufbau eines aussagekräftigen Finanz- und Rechnungswesens. Nach Bedarf erledigen wir die gesamte Finanzbuchhaltung mit Zwischen- und Jahresabschlüssen von A bis Z.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren."
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "In der komplexen Welt der direkten und indirekten Steuern sind wir zu Hause. Natürliche und juristische Personen begleiten wir in sämtlichen steuerlichen Fragestellungen – sachkundig, verlässlich und mit einem geschärften Blick aufs Ganze und der Liebe zum Detail.\n\nUnsere Beratungen umfassen alle Steuerarten und Abgaben wie Einkommens- und Gewinnsteuern, Vermögens- und Kapitalsteuern, Grundstückgewinn- und Handänderungssteuern, Erbschafts- und Schenkungssteuern, Mehrwertsteuer und das interkantonale Steuerrecht.\n\nUnternehmerinnen und Unternehmer begleiten wir ganzheitlich in allen Phasen der Unternehmensentwicklung – von der Gründung über die Umstrukturierung, den Unternehmensverkauf und -kauf bis zur Nachfolgeregelung. Je nach Bedarf umfasst unser Dienstleistungsangebot auch die Erarbeitung von Mitarbeiterbeteiligungsplänen und massgeschneiderten Spesenreglementen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Finanz- und Rechnungswesen, Lohnbuchhaltung, Finanzplanung, Family Office.\n\nFür unternehmerische Entscheide sind korrekte und vollständige Jahresrechnungen eine wichtige Grundlage. Unsere engagierten Mitarbeitenden bieten Ihnen eine ganzheitliche Beratung und Unterstützung in sämtlichen buchhalterischen Fragen. Vom Start-up bis zum KMU begleiten wir Unternehmen in jeder Entwicklungsphase. Wir erfassen Ihre Bedürfnisse, erarbeiten mit Effort Lösungen und begleiten persönlich deren Umsetzung – zuverlässig, versiert und vorausschauend.\n\nKleine und mittelgrosse Unternehmen unterstützen wir fachkundig im Aufbau eines aussagekräftigen Finanz- und Rechnungswesens. Nach Bedarf erledigen wir die gesamte Finanzbuchhaltung mit Zwischen- und Jahresabschlüssen von A bis Z.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       },
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine Revision schafft Vertrauen – bei Eigentümern, Verwaltungsrat, Banken und Geschäftspartnern. Als zugelassene Fachpersonen führen wir die eingeschränkte sowie die ordentliche Revision durch und prüfen Ihre Jahresrechnung auf Gesetzes- und Statutenkonformität. Wir stimmen den Prüfungsumfang auf Grösse und Risikoprofil Ihres Unternehmens ab und liefern neben dem Revisionsbericht auch konkrete Hinweise zur Verbesserung Ihres internen Kontrollsystems. So erfüllen Sie Ihre gesetzlichen Pflichten und gewinnen zugleich verlässliche Erkenntnisse über Ihr Rechnungswesen."
       }
     ]
   },
@@ -578,11 +542,9 @@
   "about": {
     "eyebrow": "Über uns",
     "heading": "Geschichte",
-    "lead": "sind die prägenden Gesichter und Eigentümer der Gesellschaft. Zusammen mit einem eingespielten und engagierten Team schreiben wir die STG-Tradition weiter. Mit Freude pflegen wir vertrauensvolle und meistens langjährige Beziehungen zu unseren Kundinnen und Kunden – darauf sind wir besonders stolz.",
+    "lead": "Zusammen mit einem eingespielten und engagierten Team schreiben wir die STG-Tradition weiter. Mit Freude pflegen wir vertrauensvolle und meistens langjährige Beziehungen zu unseren Kundinnen und Kunden – darauf sind wir besonders stolz.",
     "paragraphs": [
-      "– und eine Spur persönlicher! Das Team der STG Zürich steht Ihnen mit viel Wissen und Können zur Seite. Was unser Team neben der fachlichen Kompetenz sonst noch auszeichnet, lesen Sie in den Porträts zu den einzelnen Persönlichkeiten.",
-      "Dieses Element braucht es für die Definition der Reihenfolge der Filter-Elemente.",
-      "Es ist nur in eingeloggtem Zustand sichtbar und darf nicht gelöscht werden."
+      "Das Team der STG Zürich steht Ihnen mit viel Wissen und Können zur Seite. Was unser Team neben der fachlichen Kompetenz sonst noch auszeichnet, lesen Sie in den Porträts zu den einzelnen Persönlichkeiten."
     ]
   },
   "featureAngles": [
@@ -590,11 +552,6 @@
       "eyebrow": "Leistung",
       "heading": "Steuerberatung",
       "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -603,11 +560,6 @@
       "eyebrow": "Leistung",
       "heading": "Buchhaltung",
       "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -616,11 +568,6 @@
       "eyebrow": "Leistung",
       "heading": "Unternehmensberatung",
       "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -629,11 +576,6 @@
       "eyebrow": "Leistung",
       "heading": "Lohnadministration",
       "body": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }

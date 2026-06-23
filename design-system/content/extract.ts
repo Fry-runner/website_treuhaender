@@ -274,6 +274,9 @@ function pageForService(keys: string[]): any | undefined {
   });
 }
 const SVC_BOILER = /cookie|datenschutz|impressum|©|copyright|alle rechte|mwst-?nr|newsletter|anmelden|öffnungszeit|oeffnungszeit|navigation|toggle|menü|^kontakt$/i;
+// CMS/page-builder helper text that leaks into the scraped prose (e.g. STG Zürich's
+// Webflow filter helper). Never real copy — must be rejected wherever prose is taken.
+const CMS_BOILER = /dieses element|nur in eingeloggtem|eingeloggtem zustand|nicht gel[öo]scht werden|definition der reihenfolge|filter[\s-]?element|sichtbar und darf nicht|platzhalter|lorem ipsum/i;
 function serviceText(title: string, keys: string[]): { summary?: string; body?: string; bullets?: string[] } {
   const p = pageForService(keys);
   if (!p) return {};
@@ -1606,12 +1609,24 @@ function realAbout(): AboutContent | undefined {
   // NB: VALUE_STOP is deliberately NOT applied to paragraph bodies — it lists section
   // labels (Team, Leistungen, …) that legitimately appear inside about prose ("Ich und
   // mein Team …"); it stays on the heading filter only.
+  // A block can start MID-sentence because the firm's name/heading sits in a separate
+  // block ("Jürg … und Christian Sager" heading, then a <p> opening "sind die prägenden
+  // Gesichter …"). Drop that dangling lead fragment so the complete sentences survive.
+  const cleanPara = (raw: string): string => {
+    let t = fixEncoding(raw).trim();
+    if (/^[a-zäöü–—-]/.test(t)) {
+      const m = t.match(/[.!?]\s+(?=[A-ZÄÖÜ])/);   // first sentence boundary before a capital
+      if (m && m.index !== undefined) t = t.slice(m.index + m[0].length).trim();
+    }
+    return t;
+  };
   const okPara = (t: string) => t.length >= 70 && t.length <= 520
+    && /^[A-ZÄÖÜ»„"(]/.test(t)                     // opens a sentence — no mid-sentence fragment
     && /[.!?]["»“)]?$/.test(t) && !/\s[|·]\s/.test(t)
-    && !SVC_BOILER.test(t) && !looksFrench(t);
+    && !SVC_BOILER.test(t) && !CMS_BOILER.test(t) && !looksFrench(t);
   for (const p of scan) {
     const bl = pageContentBlocks(p);
-    const paras = [...new Set(bl.filter((b) => b.tag === "p" && okPara(b.text)).map((b) => b.text))];
+    const paras = [...new Set(bl.filter((b) => b.tag === "p").map((b) => cleanPara(b.text)).filter(okPara))];
     // The page must speak AS THE FIRM (we-language) — generic guide prose ("Die
     // Gründungskosten variieren je nach Kanton …") never does, so it's filtered out.
     // A single solid we-paragraph is enough (lead-only); extras ride along.
