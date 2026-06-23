@@ -144,7 +144,31 @@
       "Bash(node --experimental-strip-types scripts/test-logo-color.ts)",
       "Bash(node --experimental-strip-types scripts/migrate-logo-colors.ts)",
       "Bash(node scripts/audit-webpresence.mjs)",
-      "Bash(node --experimental-strip-types extract.ts stg-zuerich)"
+      "Bash(node --experimental-strip-types extract.ts stg-zuerich)",
+      "Bash(node -e 'const c=require\\(\"./design-system/content/examples/accuratus-treuhand-ch.json\"\\); console.log\\(\"team:\",\\(c.team?.members||[]\\).length, JSON.stringify\\(\\(c.team?.members||[]\\).map\\(m=>m.name\\)\\)\\); console.log\\(\"about:\",c.about?\"present\":\"NONE\"\\); console.log\\(\"history:\",c.history?\\(c.history.entries||[]\\).length+\"yrs\":\"NONE\"\\); console.log\\(\"brief.pageRefs:\",JSON.stringify\\(\\(c.meta?.brief?.pageRefs||[]\\).map\\(r=>r.pageType\\)\\)\\); console.log\\(\"brief.homepageSlots:\",JSON.stringify\\(c.meta?.brief?.homepageSlots\\)\\);')",
+      "Bash(node --experimental-strip-types -e 'import\\(\"./design-system/pages.ts\"\\).then\\(m=>{const a=m.pageTypes&&m.pageTypes.about; console.log\\(\"about sections:\", a?JSON.stringify\\(a.sections\\):\"\\(pageTypes.about not found\\)\"\\); const t=m.pageTypes&&m.pageTypes.team; console.log\\(\"team sections:\", t?JSON.stringify\\(t.sections\\):\"\\(no team pageType\\)\"\\);}\\).catch\\(e=>console.log\\(\"ERR\",e.message\\)\\)')",
+      "Bash(grep -nA8 'about:' design-system/pages.ts)",
+      "Bash(node --experimental-strip-types content/extract.ts accuratus-treuhand-ch)",
+      "Bash(node --experimental-strip-types --check variants/select.ts)",
+      "Bash(xargs ls -la)",
+      "Bash(grep \"\\\\.py$\")",
+      "Bash(node -e 'const c=require\\(\"./design-system/content/examples/mrg-treuhand-ch.json\"\\);console.log\\(\"faq items:\",\\(c.faq?.items||[]\\).length\\);\\(c.faq?.items||[]\\).slice\\(0,4\\).forEach\\(f=>console.log\\(\"  Q:\",f.q,\"\\\\n   A:\",JSON.stringify\\(f.a\\)\\)\\);console.log\\(\"meta.placeholders faq?:\",\\(c.meta?.placeholders||[]\\).includes\\(\"faq\"\\),\"| meta.real faq?:\",\\(c.meta?.real||[]\\).includes\\(\"faq\"\\)\\);')",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "Bash(node --experimental-strip-types content/extract.ts mrg-treuhand-ch)",
+      "Bash(node -e 'const c=require\\(\"./content/examples/mrg-treuhand-ch.json\"\\); console.log\\(\"faq items:\",\\(c.faq?.items||[]\\).length\\); \\(c.faq?.items||[]\\).forEach\\(f=>console.log\\(\"\\\\n  Q:\",f.q,\"\\\\n   A:\",f.a\\)\\);')",
+      "Bash(node -e 'const c=require\\(\"./design-system/content/examples/stg-zuerich.json\"\\); console.log\\(\"about.heading:\",JSON.stringify\\(c.about?.heading\\)\\); console.log\\(\"about.lead:\",JSON.stringify\\(\\(c.about?.lead||\"\"\\).slice\\(0,120\\)\\)\\); console.log\\(\"about.paragraphs:\"\\); \\(c.about?.paragraphs||[]\\).forEach\\(\\(p,i\\)=>console.log\\(\"  [\"+i+\"]\",JSON.stringify\\(p.slice\\(0,110\\)\\)\\)\\); console.log\\(\"history:\",c.history?\"present\":\"NONE\"\\);')",
+      "Bash(node --experimental-strip-types content/extract.ts stg-zuerich)",
+      "Bash(node -e 'const c=require\\(\"./content/examples/stg-zuerich.json\"\\); console.log\\(\"heading:\",JSON.stringify\\(c.about?.heading\\)\\); console.log\\(\"lead:\",JSON.stringify\\(c.about?.lead\\)\\); console.log\\(\"paragraphs:\"\\); \\(c.about?.paragraphs||[]\\).forEach\\(\\(p,i\\)=>console.log\\(\"  [\"+i+\"]\",JSON.stringify\\(p\\)\\)\\);')",
+      "Bash(node \"C:/Users/Oliver/AppData/Local/Temp/treuhand-audit/vercel-clean.mjs\" list)",
+      "Bash(node \"C:/Users/Oliver/AppData/Local/Temp/treuhand-audit/vercel-clean.mjs\" delete treuhand-prototypes)",
+      "Bash(awk 'NR==1{print} /treuhand-prototypes/{tp++} /READY|ERROR/{n++; split\\($0,a,\" \"\\); name[a[3]]++} END{print \"verbleibend treuhand-prototypes:\", tp+0; print \"--- nach Projekt ---\"; for\\(k in name\\) print \"  \"name[k]\" x \"k}')",
+      "Bash(awk '{print $5}')",
+      "Bash(node -e 'const m=require\\(\"./design-system/public/published.json\"\\); const ks=Object.keys\\(m\\); console.log\\(\"published.json records \\(\"+ks.length+\"\\):\"\\); ks.forEach\\(k=>console.log\\(\"  \"+k+\" -> \"+\\(m[k].prototypeUrl||\"\\(no url\\)\"\\)\\)\\);')",
+      "Bash(git -c core.safecrlf=false diff -- design-system/compose/SiteRouter.tsx design-system/compose/nav-context.ts design-system/structures/Nav.tsx design-system/compose/outreach.ts design-system/variants/select.ts design-system/content/sectionDefaults.ts design-system/playground.tsx)",
+      "Bash(git -c core.safecrlf=false diff -- design-system/structures/primitives.tsx)",
+      "Bash(git -c core.safecrlf=false diff -- .claude/settings.local.json)",
+      "Bash(git -c core.safecrlf=false diff -- design-system/content/examples/sutertreuhand-ch.json)"
     ]
   }
 }
