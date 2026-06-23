@@ -1,11 +1,12 @@
 import React from "react";
-import { Container } from "./primitives";
+import { Container, btnBase, primaryStyleProps, usePrimaryStyle } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import { useNavigate } from "../compose/nav-context";
 import type { NavContent } from "../content/types";
 
 export const Nav: React.FC<{ content: NavContent; current?: string }> = ({ content, current }) => {
   const navigate = useNavigate();
+  const primaryStyle = usePrimaryStyle();
   const [open, setOpen] = React.useState(false);
   const go = (href: string) => (e: React.MouseEvent) => { e.preventDefault(); setOpen(false); navigate(href); };
   return (
@@ -43,9 +44,12 @@ export const Nav: React.FC<{ content: NavContent; current?: string }> = ({ conte
           </a>
         ))}
         <button className="ds-btn" onClick={() => { setOpen(false); navigate("/kontakt"); }} style={{
-          fontFamily: "var(--ds-font-body)", fontSize: "0.85rem",
-          fontWeight: 600, padding: "0.7rem 1.3rem", minHeight: "2.75rem", borderRadius: "var(--ds-radius)",
-          background: "var(--ds-primary)", color: "var(--ds-primary-fg)", border: "1px solid var(--ds-primary)", cursor: "pointer",
+          // Adopt the firm's site-wide button style (fill/outline/pill/gradient…) so the
+          // header CTA matches every other Button on the site, then override only the
+          // sizing to keep the nav CTA compact within the sticky header.
+          ...btnBase,
+          ...primaryStyleProps(primaryStyle),
+          fontSize: "0.85rem", padding: "0.7rem 1.3rem", minHeight: "2.75rem",
         }}>
           {content.cta}
         </button>

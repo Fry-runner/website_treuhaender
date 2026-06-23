@@ -8,6 +8,26 @@ import { useNavigate } from "../compose/nav-context";
 
 type Div = React.PropsWithChildren<{ style?: React.CSSProperties; className?: string }>;
 
+/**
+ * Tone context — declares whether the surrounding ground is "inverted", i.e. it
+ * paints `--ds-text` (or a vivid primary gradient) as its BACKGROUND instead of
+ * `--ds-bg`. On such a ground the firm's primary-button STYLE — frequently a
+ * transparent `--ds-primary-ink` one tuned for a LIGHT bg — turns dark-on-dark
+ * and becomes unreadable (the original "black button text on a blue ground" bug).
+ *
+ * Any structure that paints an inverted ground wraps its CTAs in `<InvertedTone>`;
+ * <Button> then swaps to ground-independent inverted buttons (a solid `--ds-bg`
+ * fill / a `--ds-bg` hairline). Because those use `--ds-bg`/`--ds-text`, which
+ * flip with the active look, they stay readable on BOTH light and dark looks.
+ * This is the central safeguard: a new dark/colored variant that simply wraps its
+ * buttons can never silently reintroduce the contrast bug.
+ */
+const ToneContext = React.createContext<"default" | "inverted">("default");
+export const InvertedTone: React.FC<React.PropsWithChildren<unknown>> = ({ children }) => (
+  <ToneContext.Provider value="inverted">{children}</ToneContext.Provider>
+);
+export const useTone = (): "default" | "inverted" => React.useContext(ToneContext);
+
 export const Container: React.FC<Div> = ({ children, style }) => (
   <div style={{ maxWidth: "var(--ds-container)", marginInline: "auto", paddingInline: "var(--ds-gutter)", ...style }}>
     {children}
@@ -89,7 +109,7 @@ type BtnProps = React.PropsWithChildren<{ variant?: "primary" | "outline"; onCli
 // De-telled button base: body face, normal case, normal tracking (was the
 // mono + UPPERCASE + wide-tracking "AI button"). Per-style overrides below may
 // still add tracking as a deliberate signature — that's variety, not the tell.
-const btnBase: React.CSSProperties = {
+export const btnBase: React.CSSProperties = {
   fontFamily: "var(--ds-font-body)", fontSize: "0.92rem",
   fontWeight: 600, padding: "0.9rem 1.6rem",
   borderRadius: "var(--ds-radius)", cursor: "pointer",
@@ -97,8 +117,10 @@ const btnBase: React.CSSProperties = {
   alignItems: "center", gap: "0.5rem", lineHeight: 1,
 };
 
-/** Token-driven look for each primary-button style. */
-function primaryStyleProps(s: PrimaryStyle): React.CSSProperties {
+/** Token-driven look for each primary-button style. Exported so chrome that can't
+ *  use <Button> directly (e.g. the sticky nav CTA) still renders the firm's chosen
+ *  button style instead of a hardcoded one. */
+export function primaryStyleProps(s: PrimaryStyle): React.CSSProperties {
   const base: React.CSSProperties = {
     background: "var(--ds-primary)", color: "var(--ds-primary-fg)", border: "1px solid var(--ds-primary)",
   };
@@ -140,11 +162,27 @@ function primaryStyleProps(s: PrimaryStyle): React.CSSProperties {
 
 export const Button: React.FC<BtnProps> = ({ children, variant = "primary", onClick, to, type = "button" }) => {
   const ps = usePrimaryStyle();
+  const tone = useTone();
   const navigate = useNavigate();
   // Default action: non-submit buttons route to the booking/contact path so every
   // CTA actually does something (override with `onClick` or `to`). Submit buttons
   // keep native form submission and never navigate.
   const handle = onClick ?? (type === "submit" ? undefined : () => navigate(to ?? "/kontakt"));
+  // On an INVERTED ground the firm's primary style (often transparent +
+  // --ds-primary-ink, built for a LIGHT bg) is dark-on-dark and unreadable. Swap
+  // to ground-independent inverted buttons: a solid --ds-bg fill for the primary
+  // CTA and a --ds-bg hairline for the secondary. Both invert with the look, so
+  // they read on dark AND on vivid/gradient grounds. (See ToneContext above.)
+  if (tone === "inverted") {
+    const inv: React.CSSProperties = variant === "primary"
+      ? { background: "var(--ds-bg)", color: "var(--ds-text)", border: "none", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)" }
+      : { background: "transparent", color: "var(--ds-bg)", border: "1px solid var(--ds-bg)" };
+    return (
+      <button className="ds-btn" type={type} onClick={handle} style={{ ...btnBase, ...inv }}>
+        {children}
+      </button>
+    );
+  }
   if (variant === "primary") {
     return (
       <button className="ds-btn" type={type} onClick={handle} style={{ ...btnBase, ...primaryStyleProps(ps) }}>

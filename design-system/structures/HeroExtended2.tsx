@@ -4,7 +4,7 @@
  * from var(--ds-*).
  */
 import React from "react";
-import { Container, Eyebrow, Heading, Accent, Lede, Button, ActionButton } from "./primitives";
+import { Container, Eyebrow, Heading, Accent, Lede, Button, InvertedTone } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import type { HeroContent } from "../content/types";
 
@@ -141,10 +141,15 @@ export const HeroDarkSplit: React.FC<{ content: HeroContent }> = ({ content }) =
             {content.titleLead} <span style={{ color: "var(--ds-primary)" }}>{content.titleAccent}</span>{content.titleTail ? ` ${content.titleTail}` : ""}
           </h1>
           <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "1.1rem", lineHeight: 1.6, color: "var(--ds-bg)", opacity: 0.92, maxWidth: "46ch", margin: 0 }}>{content.lede}</p>
-          <div style={ctaRow}>
-            <Button variant="primary">{content.primaryCta}</Button>
-            <ActionButton to="/leistungen" style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.78rem",   fontWeight: 600, padding: "0.9rem 1.6rem", borderRadius: "var(--ds-radius)", cursor: "pointer", background: "transparent", color: "var(--ds-bg)", border: "1px solid var(--ds-bg)" }}>{content.secondaryCta}</ActionButton>
-          </div>
+          {/* DARK (--ds-text) ground: InvertedTone makes <Button> render the
+              ground-independent inverted buttons instead of the firm's primary
+              style (often transparent + --ds-primary-ink for a LIGHT bg). */}
+          <InvertedTone>
+            <div style={ctaRow}>
+              <Button variant="primary">{content.primaryCta}</Button>
+              <Button variant="outline" to="/leistungen">{content.secondaryCta}</Button>
+            </div>
+          </InvertedTone>
         </div>
         {showAside && (
         <aside style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "0.9rem" }}>
