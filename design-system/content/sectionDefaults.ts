@@ -156,36 +156,10 @@ export function withGenericSlots(slots: string[]): string[] {
   return s;
 }
 
-/** Inject ONE image-forward feature band mid-page (after values, else services,
- *  else before cta). Idempotent. The caller only calls this when a usable image
- *  exists — so images appear "where sensible", not on every section. */
-export function injectFeature(slots: string[]): string[] {
-  if (slots.includes("feature")) return slots;
-  const s = [...slots];
-  const at = (s.indexOf("values") + 1) || (s.indexOf("services") + 1) || (s.includes("cta") ? s.indexOf("cta") : s.length);
-  s.splice(at, 0, "feature");
-  return s;
-}
+// (injectFeature removed together with the legacy single-page SiteComposer — the
+//  production SiteRouter inserts no generic feature band; it PROMOTES an existing
+//  section to a photo variant instead.)
 
-/** Image rhythm: never let more than `maxGap` image-less CONTENT sections sit in a
- *  row — after that many, insert an image-forward "feature" band so a page always
- *  comes back to a picture. `isImage(slot)` reports whether a slot renders a photo;
- *  nav/footer are chrome and don't count. No-op when no feature image is available
- *  (`hasImage` false) — the caller supplies a real-photo-else-stock pool. */
-export function enforceImageRhythm(order: string[], isImage: (slot: string) => boolean, hasImage: boolean, maxGap = 2, maxInserts = 2): string[] {
-  if (!hasImage) return order;
-  const out: string[] = [];
-  let gap = 0;
-  // Cap the number of generic feature bands inserted — without a ceiling an
-  // image-poor (or pitch-mode, stock-only) page sprouts a fresh benefit band on
-  // every long run, and they all say the same thing. Redundancy > a perfect rhythm.
-  let inserts = 0;
-  for (const slot of order) {
-    if (slot === "nav" || slot === "footer") { out.push(slot); continue; }
-    if (isImage(slot)) { out.push(slot); gap = 0; continue; }
-    if (gap >= maxGap && inserts < maxInserts) { out.push("feature"); inserts += 1; gap = 0; }
-    out.push(slot);
-    gap += 1;
-  }
-  return out;
-}
+// (enforceImageRhythm removed — the SiteRouter now achieves image rhythm by PROMOTING
+//  an existing necessary section to a photo variant, not by inserting a generic feature
+//  band. See SiteRouter's promoteTo / homeSceneAt.)

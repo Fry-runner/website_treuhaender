@@ -1,14 +1,13 @@
 /**
- * Pipeline proof: a REAL scraped firm → extracted SiteContent → SiteComposer
- * renders a full generated homepage. Shown in its auto-picked look AND a
- * contrasting look to prove the same generated site re-skins.
+ * Pipeline proof: a REAL scraped firm → extracted SiteContent → SiteRouter
+ * renders the full generated multi-page site. The Variant Studio is the single
+ * production render path; the demo tabs (Variants / re-skin) reuse SiteRouter too.
  *
  * content/examples/active.json is produced by content/extract.ts from a real
  * scraper/output/<slug>/site.json.
  */
 import React, { useState, useEffect } from "react";
 import { createRoot } from "react-dom/client";
-import { SiteComposer } from "./compose/SiteComposer";
 import { presetList } from "./tokens";
 import type { SiteContent } from "./content/types";
 import active from "./content/examples/onetreuhand-ch.json";
@@ -93,7 +92,9 @@ const VariantStudio = () => {
   const [firm, setFirm] = useState<SiteContent>(content);
   const [firmSlug, setFirmSlug] = useState<string>(DEFAULT_SLUG);
   const [loadingFirm, setLoadingFirm] = useState(false);
-  const [pitchOn, setPitchOn] = useState(false);
+  // Kaltakquise (cold-acquisition) is the product's default: unsolicited prototypes must
+  // ship logo→wordmark, no third-party logos, stock photos, noindex. On unless toggled off.
+  const [pitchOn, setPitchOn] = useState(true);
   const [imageSeed, setImageSeed] = useState(0);
   const [approveOpen, setApproveOpen] = useState(false);
   const [sendOpen, setSendOpen] = useState(false);
@@ -268,9 +269,9 @@ const VariantStudio = () => {
 const ReskinDemo = () => (
   <div style={{ fontFamily: "system-ui, sans-serif" }}>
     <Bar text={`Same generated site · re-skinned`} sub={`look: ${pickedLook}`} />
-    <SiteComposer content={content} lookId={pickedLook} />
+    <SiteRouter content={content} lookId={pickedLook} />
     <Bar text="Same generated site · re-skinned" sub={`look: ${contrastLook}`} />
-    <SiteComposer content={content} lookId={contrastLook} />
+    <SiteRouter content={content} lookId={contrastLook} />
   </div>
 );
 void ReskinDemo;
@@ -298,7 +299,7 @@ const VariantsDemo = () => {
         return (
           <div key={s}>
             <Bar text={`Variant set · seed ${s}`} sub={`${p.lookId} · ${p.heroId} · button:${p.primaryStyle}`} />
-            <SiteComposer content={content} seed={s} />
+            <SiteRouter content={content} seed={s} />
           </div>
         );
       })}
