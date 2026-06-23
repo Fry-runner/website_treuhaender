@@ -108,6 +108,7 @@
         "process",
         "team",
         "partners",
+        "faq",
         "cta",
         "contact",
         "footer"
@@ -157,7 +158,7 @@
         "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "keine echte FAQ → weggelassen",
+        "home:faq": "echte FAQ gefunden",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -174,7 +175,6 @@
     "placeholders": [
       "hero.aside",
       "values",
-      "faq",
       "process (generic)",
       "audience (generic)",
       "media.stock (CC fallback)"
@@ -188,6 +188,7 @@
       "services.text",
       "team.members",
       "team.photos",
+      "faq",
       "about",
       "feature",
       "footer.tagline",
@@ -809,8 +810,8 @@
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Steuerberatung, Wirtschaftsprüfung und vieles mehr. Ihre STM Steuerberatung und Treuhand Mettler AG ist für Sie da. Vereinbaren Sie heute noch ein Gespräch!",
-    "asideAttribution": "STM Treuhand Mettler AG",
+    "asideQuote": "",
+    "asideAttribution": "",
     "image": "/images/stmtreuhand-ch/pool/stock-office-8092458.jpg"
   },
   "services": {
@@ -820,72 +821,36 @@
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Steuern zum täglichen Geschäft. Und das sowohl für Unternehmen als auch für Privatpersonen,\n\nmit STM gefunden! Wir sind täglich mit komplexen und vielschichtigen Steuerangelegenheiten\n\nunterstützt? Als Steuerberatung in Zürich sind wir Ihr Partner, auch und vor allem in\n\nÜberzeugen Sie sich davon, bei einem ersten, unverbindlichen Termin.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
         "image": "/images/stmtreuhand-ch/pool/b0ce293518__steuerberatung-zuerich.jpg"
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Steuern zum täglichen Geschäft. Und das sowohl für Unternehmen als auch für Privatpersonen,\n\nmit STM gefunden! Wir sind täglich mit komplexen und vielschichtigen Steuerangelegenheiten\n\nunterstützt? Als Steuerberatung in Zürich sind wir Ihr Partner, auch und vor allem in\n\nÜberzeugen Sie sich davon, bei einem ersten, unverbindlichen Termin.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
         "image": "/images/stmtreuhand-ch/pool/3a11656574__unternehmensbewertung.jpg"
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "\"Die Buchhaltung extern machen lassen? Das ist doch viel zu kostspielig, richtig? Nicht ganz.\n\nDie Buchhaltung ist eine wichtige unternehmerische Aufgabe, welche Zeit und vor allem fundiertes Fachwissen benötigt. Gerade für Selbstständige, Start-ups und für KMU kann es zeitintensiv und fehleranfällig sein, die Buchhaltung inhouse zu machen.\n\nNachfolgend finden Sie daher drei wirklich gute Gründe, welche fürs Outsourcing Ihrer Buchhaltung sprechen, präsentiert von STM Steuerberatung & Treuhand Mettler AG, Ihrem kompetenten Ansprechpartner für Buchhaltung in Zürich.\"\n\nBei den Investitionen in Fortbildungen allein wird es nicht bleiben, auch Software-Lizenzen werden benötigt. Wenn Sie nach Fachpersonal suchen, kommen auch da Zeit- und Geldinvests auf Sie zu, die nicht zu unterschätzen sind.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/stmtreuhand-ch/pool/d03bb0a209__buchhaltung.jpg"
       },
       {
         "title": "Revision",
         "summary": "STM Steuerberatung und Treuhand Mettler ist Ihr Partner für professionelle Wirtschaftsprüfung. Profitiern Sie von unserem Expertenwissen und vereinbaren ein Gespräch!",
         "body": "Wirtschaftlichkeit ist für jedes Unternehmen die Basis des Erfolgs. Genau deshalb gilt es, die\n\ngelegen, im Herzen der Stadt Zürich. Unser mehrköpfiges Expertenteam steht hier für all\n\nPersönliches Gespräch und vertrauensvoller Kontakt gehören für uns zum guten Ton. Unsere\n\nKunden stammen aus allen Bereichen der Wirtschaft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/stmtreuhand-ch/pool/dafb0e56ea__revision.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Diese Leistung übernehmen wir vollständig und termingerecht – digital, transparent und mit einem festen Ansprechpartner. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       }
     ]
   },
@@ -905,11 +870,6 @@
       "eyebrow": "Leistung",
       "heading": "Steuerberatung",
       "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -918,11 +878,6 @@
       "eyebrow": "Leistung",
       "heading": "Unternehmensberatung",
       "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -931,11 +886,6 @@
       "eyebrow": "Leistung",
       "heading": "Buchhaltung",
       "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -944,11 +894,6 @@
       "eyebrow": "Leistung",
       "heading": "Revision",
       "body": "STM Steuerberatung und Treuhand Mettler ist Ihr Partner für professionelle Wirtschaftsprüfung. Profitiern Sie von unserem Expertenwissen und vereinbaren ein Gespräch!",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Kontakt aufnehmen"
       }
@@ -1014,7 +959,40 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": []
+    "items": [
+      {
+        "q": "Warum benötige ich einen Steuerberater?",
+        "a": "Das Steuerrecht ist ausgesprochen komplex und unterliegt einem stetigen Wandel. Zwei variable Faktoren bei einem Fachgebiet, das erhebliche Auswirkungen auf das betriebliche und private Wohlergehen besitzt."
+      },
+      {
+        "q": "Warum soll ich STM als meiner Steuerberater engagieren?",
+        "a": "Heute ist morgen schon gestern. Deshalb haben wir die finanzielle Zukunft unserer Mandanten permanent im Blick. Denn: Nur wer vorausschauend plant und handelt, hat auch morgen noch Erfolg. Dies gilt im Übrigen nicht nur für Sie, als unsere Kunden. Dies gilt insbesondere auch für uns selbst."
+      },
+      {
+        "q": "Wie wird die Kompetenz der Beratung sichergestellt?",
+        "a": "Unser Team umfasst verschiedene eidgenössisch geprüfte Experten der Bereiche Finanz- und Rechnungswesen, Treuhand und Steuerberatung. Damit garantieren wir Ihnen eine ausführliche, zuverlässige und fundierte Beratung zugunsten Ihres Vermögens."
+      },
+      {
+        "q": "Was für Unterlagen benötige ich?",
+        "a": "Wenn Sie Ihre Steuererklärung ausfüllen lassen, erleichtert und beschleunigt eine gute Vorbereitung den Prozess massgeblich. Deshalb sollten Sie relevante Unterlagen schon vorab sammeln. Dazu gehören u.a. Belege über: Lohnausweise, Berufskosten, Weiterbildungen, Beiträge 3. Säule a, Einkauf in die Pensionskasse (2."
+      },
+      {
+        "q": "Welche Kosten mindern die Steuer?",
+        "a": "Beispielsweise Gewinnungskosten – also Kosten, die Sie für die Erzielung Ihres Einkommens aufwenden müssen. Vorsorgebeiträge: Einzahlungen in die 3. Säule a sowie freiwillige Einkäufe in Ihre Pensionskasse (2. Säule)."
+      },
+      {
+        "q": "Wer auf den Fachmann nicht verzichten sollte?",
+        "a": "Von der professionell ausgefüllten Steuererklärung profitieren insbesondere: selbstständige Erwerbstätige. Warum? Wir kennen die Abzüge und Abschreibungen, welche Ihre Steuerbelastung massgeblich reduzieren können. Unternehmer mit doppelter Buchführung beziehungsweise Bilanzierungspflicht."
+      },
+      {
+        "q": "Warum sollte ich eine Wirtschaftsprüfung in Betracht ziehen?",
+        "a": "Gründungsphase, laufender Betrieb oder Nachfolgeregelung: Jeder Abschnitt eines „Firmenlebens“ geht mit anderen Chancen, Risiken und Anforderungen einher. Hier aktuelle Entwicklungen rechtzeitig zu erkennen und zu interpretieren, ist der Beitrag des Revisors zu Ihrem betrieblichen Erfolg."
+      },
+      {
+        "q": "Wann bin ich zu einer Wirtschaftsprüfung verpflichtet?",
+        "a": "Bei einer gesetzlich geforderten Prüfung des Jahresabschlusses kommen Sie um den Wirtschaftsprüfer nicht herum. Die Revisionspflicht besteht unabhängig von der Rechtsform und betrifft sowohl Aktiengesellschaften, Gesellschaften mit beschränkter Haftung und Genossenschaften als auch Kommanditaktiengesellschaften,…"
+      }
+    ]
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",

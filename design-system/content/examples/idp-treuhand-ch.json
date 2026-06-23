@@ -130,6 +130,7 @@
         "process",
         "team",
         "partners",
+        "faq",
         "cta",
         "contact",
         "footer"
@@ -183,7 +184,7 @@
         "home:team": "echte Teammitglieder gescraped",
         "home:pricing": "keine echten Preise → weggelassen",
         "home:partners": "echte Zertifikate/Partner gefunden",
-        "home:faq": "keine echte FAQ → weggelassen",
+        "home:faq": "echte FAQ gefunden",
         "home:map": "kein Homepage-Renderer",
         "home:cta": "Kernsektion",
         "home:contact": "Kernsektion",
@@ -199,7 +200,6 @@
     },
     "placeholders": [
       "hero.aside",
-      "faq",
       "process (generic)",
       "media.stock (CC fallback)"
     ],
@@ -212,6 +212,7 @@
       "services.text",
       "team.members",
       "values",
+      "faq",
       "about",
       "audience",
       "feature",
@@ -876,8 +877,8 @@
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Ihr starker Partner für Steuern, Erbschaftsberatung, Willensvollstreckung, Nachfolgeregelung und Firmengründung in Zürich Nord. Seit bald 30 Jahren.",
-    "asideAttribution": "Dr. Iten, Dudli + Partner",
+    "asideQuote": "",
+    "asideAttribution": "",
     "image": "/images/idp-treuhand-ch/pool/stock-landscape-30131128.jpg"
   },
   "services": {
@@ -887,68 +888,32 @@
       {
         "title": "Steuerberatung",
         "summary": "Ein Erbvorbezug kann Steuerplanungspotenzial haben. Im Beitrag wird erläutert welche Vorteile und Risiken eine Erbvorbezugsgemeinschaft hat.",
-        "body": "Viele Eltern überlegen, ob und wann sie ihre Liegenschaften auf die Nachkommen übertragen sollen. Bei einem Erbvorbezug kann es sinnvoll sein, Liegenschaften zu Gesamteigentum statt zu Miteigentum zuzuweisen. Eine Erbvorbezugsgemeinschaft kann sich vor allem eignen, um eine Rendite-Liegenschaft auf mehrere Nachkommen zu übertragen, um ihnen zusätzliches Einkommen zu verschaffen und gleichzeitig sicherzustellen, dass sie im Familienbesitz bleibt.\n\nAls Schenkung gilt jede Zuwendung unter Lebenden, mit der jemand einen anderen ohne entsprechende Gegenleistung bereichert. Für die Besteuerung sind drei oder vier Elemente relevant, nämlich die Vermögenszuwendung, die Bereicherung, die fehlende Gegenleistung und in einigen Kantonen – wie bspw. Zürich – der Schenkungswille. Bei Schenkungen wird die Grundstückgewinnsteuer aufgeschoben.\n\nEin Erbvorbezug ist eine ausgleichungspflichtige Schenkung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Viele Eltern überlegen, ob und wann sie ihre Liegenschaften auf die Nachkommen übertragen sollen. Bei einem Erbvorbezug kann es sinnvoll sein, Liegenschaften zu Gesamteigentum statt zu Miteigentum zuzuweisen. Eine Erbvorbezugsgemeinschaft kann sich vor allem eignen, um eine Rendite-Liegenschaft auf mehrere Nachkommen zu übertragen, um ihnen zusätzliches Einkommen zu verschaffen und gleichzeitig sicherzustellen, dass sie im Familienbesitz bleibt.\n\nAls Schenkung gilt jede Zuwendung unter Lebenden, mit der jemand einen anderen ohne entsprechende Gegenleistung bereichert. Für die Besteuerung sind drei oder vier Elemente relevant, nämlich die Vermögenszuwendung, die Bereicherung, die fehlende Gegenleistung und in einigen Kantonen – wie bspw. Zürich – der Schenkungswille. Bei Schenkungen wird die Grundstückgewinnsteuer aufgeschoben.\n\nEin Erbvorbezug ist eine ausgleichungspflichtige Schenkung."
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Wir helfen bei der Gründung, Führung und Übertragung Ihres Unternehmens und teilen unsere Erfahrung und unser Netzwerk mit Ihnen.",
-        "body": "Sie haben eine Geschäftsidee und möchten eine Firma gründen? Sie wissen noch nicht, welche Gesellschaftsform die richtige ist? Und Sie möchten die Finanzen Ihrer Firma von Anfang an richtig aufgleisen? Wir unterstützen Sie bei allen administrativen und rechtlichen Aspekten Ihrer Firmengründung.\n\nAG, GmbH, Einzelfirma oder Kollektivgesellschaft: Wir kennen die Unterschiede und wissen, wann sich welche Rechtsform am besten eignet.\n\nEine sorgfältige Planung der Finanzierung und der Steuern bei der Gründung ist entscheidend für das Gedeihen Ihres Unternehmens.\n\nGerne beraten wir Sie, damit von Anfang alles optimal organisiert ist.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Sie haben eine Geschäftsidee und möchten eine Firma gründen? Sie wissen noch nicht, welche Gesellschaftsform die richtige ist? Und Sie möchten die Finanzen Ihrer Firma von Anfang an richtig aufgleisen? Wir unterstützen Sie bei allen administrativen und rechtlichen Aspekten Ihrer Firmengründung.\n\nAG, GmbH, Einzelfirma oder Kollektivgesellschaft: Wir kennen die Unterschiede und wissen, wann sich welche Rechtsform am besten eignet.\n\nEine sorgfältige Planung der Finanzierung und der Steuern bei der Gründung ist entscheidend für das Gedeihen Ihres Unternehmens.\n\nGerne beraten wir Sie, damit von Anfang alles optimal organisiert ist."
       },
       {
         "title": "Nachlass & Erbrecht",
         "summary": "Diese Dissertation zeigt auf, welchen Anforderungen Willensvollstrecker genügen müssen, um vor Schadenersatzforderungen geschützt zu sein.",
-        "body": "Wir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.\n\nWir unterstützen Sie von der Gründung bis zur Weitergabe Ihre Unternehmen.\n\nWir kümmern uns um die Organisation, Verwaltung oder den Verkauf Ihrer Liegenschaft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Wir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.\n\nWir unterstützen Sie von der Gründung bis zur Weitergabe Ihre Unternehmen.\n\nWir kümmern uns um die Organisation, Verwaltung oder den Verkauf Ihrer Liegenschaft."
       },
       {
         "title": "Immobilien",
         "summary": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
-        "body": "Bei der Übertragung einer Liegenschaft von den Eltern an die Kinder sind die steuerlichen und erbrechtlichen Folgen genau abzuklären. Sonst droht Streit in der Familie.\n\nWir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.\n\nWir unterstützen Sie von der Gründung bis zur Weitergabe Ihre Unternehmen.\n\nWir kümmern uns um die Organisation, Verwaltung oder den Verkauf Ihrer Liegenschaft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Bei der Übertragung einer Liegenschaft von den Eltern an die Kinder sind die steuerlichen und erbrechtlichen Folgen genau abzuklären. Sonst droht Streit in der Familie.\n\nWir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.\n\nWir unterstützen Sie von der Gründung bis zur Weitergabe Ihre Unternehmen.\n\nWir kümmern uns um die Organisation, Verwaltung oder den Verkauf Ihrer Liegenschaft."
       },
       {
         "title": "Lohnadministration",
         "summary": "Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.",
-        "body": "Die monatliche Lohnabrechnung macht Ihnen Sorgen? Sie sind unsicher, ob Ihre Lohnausweise gesetzeskonform sind? Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.\n\nBeratung für den Bezug von Renten und anderen Leistungen, Rentenberechnung, etc.\n\nSie suchen Unterstützung für Ihre Lohn- und Personal-Administration? Wir kümmern uns gerne darum, damit Sie den Kopf frei haben für Ihr Kerngeschäft.\n\nWir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die monatliche Lohnabrechnung macht Ihnen Sorgen? Sie sind unsicher, ob Ihre Lohnausweise gesetzeskonform sind? Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.\n\nBeratung für den Bezug von Renten und anderen Leistungen, Rentenberechnung, etc.\n\nSie suchen Unterstützung für Ihre Lohn- und Personal-Administration? Wir kümmern uns gerne darum, damit Sie den Kopf frei haben für Ihr Kerngeschäft.\n\nWir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge."
       },
       {
         "title": "Buchhaltung",
         "summary": "Buchhaltung, Jahresabschluss und Inkasso: Wir führen Ihre Buchhaltung korrekt, professionell und koordinieren diese mit Ihrer Steuererklärung.",
-        "body": "Sie brauchen viel Zeit für Ihre Buchhaltung, die Sie lieber in Ihr Kerngeschäft investieren möchten? Sie suchen eine effiziente Lohnbuchhaltung? Und Sie wollen sicher sein, dass alle Vorschriften erfüllt sind? Wir übernehmen Ihre Buchhaltung gern.\n\nWir kümmern uns um Ihr Finanz- und Rechnungswesen, erledigen die Debitoren- und Kreditoren-Buchhaltung und organisieren die gesamte Buchführung effizient und korrekt.\n\nWir helfen Ihnen, einen gesetzeskonformen Jahresabschluss zu erstellen, der einen aussagekräftigen Überblick über die wirtschaftliche Lage des Unternehmens gibt.\n\nDieses Führungsinstrument zeigt, was bis zu einem bestimmten Zeitpunkt erreicht wurde (IST) und wo Sie gemäss Planung sein sollten (SOLL).",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Sie brauchen viel Zeit für Ihre Buchhaltung, die Sie lieber in Ihr Kerngeschäft investieren möchten? Sie suchen eine effiziente Lohnbuchhaltung? Und Sie wollen sicher sein, dass alle Vorschriften erfüllt sind? Wir übernehmen Ihre Buchhaltung gern.\n\nWir kümmern uns um Ihr Finanz- und Rechnungswesen, erledigen die Debitoren- und Kreditoren-Buchhaltung und organisieren die gesamte Buchführung effizient und korrekt.\n\nWir helfen Ihnen, einen gesetzeskonformen Jahresabschluss zu erstellen, der einen aussagekräftigen Überblick über die wirtschaftliche Lage des Unternehmens gibt.\n\nDieses Führungsinstrument zeigt, was bis zu einem bestimmten Zeitpunkt erreicht wurde (IST) und wo Sie gemäss Planung sein sollten (SOLL)."
       }
     ]
   },
@@ -1106,7 +1071,40 @@
   "faq": {
     "eyebrow": "Fragen & Antworten",
     "heading": "Häufige Fragen.",
-    "items": []
+    "items": [
+      {
+        "q": "Was ist eine Erbvorbezugsgemeinschaft?",
+        "a": "Erbvorbezugsgemeinschaften gibt es nur im Kanton Zürich, und sie betreffen ausschliesslich die kommunale Grundstückgewinnsteuer. Eine solche Gemeinschaft ist eine einfache Gesellschaft, die durch einen Erbvorbezug, die eine Liegenschaft zum Gegenstand hat, begründet wird."
+      },
+      {
+        "q": "Wozu braucht man eine Erbvorbezugsgemeinschaft?",
+        "a": "Viele Eltern überlegen, ob und wann sie ihre Liegenschaften auf die Nachkommen übertragen sollen. Bei einem Erbvorbezug kann es sinnvoll sein, Liegenschaften zu Gesamteigentum statt zu Miteigentum zuzuweisen."
+      },
+      {
+        "q": "Was sind die Risiken bei einer Erbvorbezugsgemeinschaft?",
+        "a": "Steuerliche Aspekte sollten nicht der einzige Grund sein, um seinen Kindern Liegenschaften als Gesamteigentum zu übertragen. Auch die zivilrechtlichen und praktischen Folgen müssen gut überlegt sein, denn die Verwaltung von Gesamteigentum ist anspruchsvoll."
+      },
+      {
+        "q": "Wie unterscheiden sich Schenkungen und Erbvorbezüge?",
+        "a": "Als Schenkung gilt jede Zuwendung unter Lebenden, mit der jemand einen anderen ohne entsprechende Gegenleistung bereichert. Für die Besteuerung sind drei oder vier Elemente relevant, nämlich die Vermögenszuwendung, die Bereicherung, die fehlende Gegenleistung und in einigen Kantonen – wie bspw."
+      },
+      {
+        "q": "Wie wird die Auflösung einer Erbvorbezugsgemeinschaft besteuert?",
+        "a": "Erbvorbezugsgemeinschaften werden bei der Grundstücksteuer wie das Gesamteigentum einer Erbengemeinschaft behandelt. Wenn Liegenschaften bei der Auflösung ins Alleineigentum eines Gesellschafters übertragen werden, wird das als weitere «Handänderung infolge Erbvorbezuges» betrachtet und führt zum Aufschub der…"
+      },
+      {
+        "q": "Weshalb soll ich ein Testament aufsetzen?",
+        "a": "Das Erbrecht wird revidiert. Pünktlich auf den 1.1.2023 tritt die Revision in Kraft. Dabei wird der Pflichtteil der Eltern ganz verschwinden. Derjenige von Kindern wird reduziert. Als künftige Erblasserin oder Erblasser können Sie über einen grösseren Teil Ihres Nachlasses frei verfügen."
+      },
+      {
+        "q": "Soll ich mein Testament auf Anfang 2023 anpassen?",
+        "a": "Bestehende Testamente bleiben auch nach dem 1.1.2023 gültig. Sie sind auf jeden Fall gut beraten, wenn Sie Ihre Nachlassplanung rechtzeitig überdenken und bei Bedarf anpassen. Denn einige Formulierungen, die in älteren Testamenten häufig verwendet werden, können in Zukunft Fragen aufwerfen und zu Streit führen."
+      },
+      {
+        "q": "Was sind Erbschaftssteuern?",
+        "a": "Die Erbschaftssteuer erfasst «unentgeltliche Vermögensübergänge von Todes wegen». Darunter fallen die Anteile der Erben am Nachlass, Vermächtnisse, Schenkungen auf den Todesfall sowie Vorsorge- und Versicherungsleistungen, die von der Einkommenssteuer befreit sind."
+      }
+    ]
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",

@@ -104,12 +104,6 @@ const SERVICE_CANON = [
   { key: ["immobil", "liegenschaft", "bewirtschaftung", "stockwerkeigentum", "vermietung"], title: "Immobilien", summary: "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand." },
   { key: ["erbrecht", "nachlass", "erbschaft", "willensvollstreck", "testament"], title: "Nachlass & Erbrecht", summary: "Nachlassplanung, Willensvollstreckung und Erbteilung – sorgfältig und diskret begleitet." },
 ];
-const SERVICE_BULLETS = [
-  "Laufende, termingerechte Betreuung",
-  "Digitale Belegerfassung & Echtzeit-Zahlen",
-  "Ein persönlicher Ansprechpartner",
-  "Transparente Pauschale ohne versteckte Kosten",
-];
 // Curated, service-SPECIFIC detail copy — used as the detail-page body when the scrape
 // has no usable per-service prose (or only a generic, repeated overview). Each text is
 // true for any Swiss Treuhänder (no fabricated firm specifics like client counts) and
@@ -162,7 +156,9 @@ function services() {
       // text (the user authorised writing these). It explains the topic in full and is
       // distinct from the short card summary, so the detail page never reads as a stub.
       body: r.body || SERVICE_DETAIL[s.title] || DEFAULT_DETAIL,
-      bullets: r.bullets ?? SERVICE_BULLETS,
+      // Only REAL scraped bullets — never the same generic checklist on every service
+      // (the detail aside then renders only when a service has its own selling points).
+      bullets: r.bullets,
       image: media.serviceImages?.[s.title],
     };
   });
@@ -1502,7 +1498,49 @@ function realValues(): SiteContent["values"]["items"] | undefined {
   }
   return items.length >= 3 ? items.slice(0, 4) : undefined;
 }
+/** REAL FAQ straight from FAQPage JSON-LD (mainEntity question + acceptedAnswer.text).
+ *  This is clean, correctly PAIRED and COMPLETE — unlike the heading→next-block HTML
+ *  heuristic, which clips answers to fragments ("für Gründungskosten rechnen …") and
+ *  pairs the wrong block. Preferred whenever the firm ships FAQ structured data. */
+function faqFromJsonLd(): { q: string; a: string }[] {
+  const LEGAL_Q = /datenschutzerkl|personendaten|cookies?|bearbeiten wir ihre daten|welche daten|ihre rechte|widerruf|tracking/i;
+  const out: { q: string; a: string }[] = [];
+  const seen = new Set<string>();
+  const clipAns = (raw: string): string => {
+    const t = stripTags(String(raw || ""));
+    if (t.length <= 320) return t;
+    const cut = t.slice(0, 320); const i = cut.lastIndexOf(". ");
+    return i > 120 ? cut.slice(0, i + 1) : cut.replace(/\s+\S*$/, "") + "…";
+  };
+  const add = (qRaw: any, aRaw: any) => {
+    const q = stripTags(String(qRaw || "")); const a = clipAns(aRaw);
+    if (q.length < 10 || q.length > 160 || a.length < 25) return;
+    if (LEGAL_Q.test(q) || SVC_BOILER.test(a) || looksFrench(q) || looksFrench(a)) return;
+    const k = q.toLowerCase().replace(/[^\wäöüéèàç\s]/g, "").split(/\s+/).filter(Boolean).slice(0, 6).join(" ");
+    if (!k || seen.has(k)) return; seen.add(k);
+    out.push({ q, a });
+  };
+  const ansText = (ans: any) => Array.isArray(ans) ? ans[0]?.text : ans?.text;
+  const walk = (o: any) => {
+    if (!o || typeof o !== "object") return;
+    if (Array.isArray(o)) { o.forEach(walk); return; }
+    if (o["@graph"]) walk(o["@graph"]);
+    const t = o["@type"]; const types = Array.isArray(t) ? t : [t];
+    if (types.some((x: any) => /FAQPage/i.test(String(x))) && Array.isArray(o.mainEntity)) {
+      for (const qn of o.mainEntity) add(qn?.name, ansText(qn?.acceptedAnswer));
+    } else if (types.some((x: any) => /Question/i.test(String(x)))) {
+      add(o.name, ansText(o.acceptedAnswer));
+    }
+    for (const k of Object.keys(o)) if (k !== "@graph" && typeof o[k] === "object") walk(o[k]);
+  };
+  for (const p of dePages) for (const j of (p.jsonld || [])) walk(j);
+  return out.slice(0, 8);
+}
+
 function realFaq(): SiteContent["faq"]["items"] | undefined {
+  // Prefer structured FAQ data (clean, paired, complete) over the HTML heuristic.
+  const fromLd = faqFromJsonLd();
+  if (fromLd.length >= 3) return fromLd;
   const scan = dePages.filter((p) => {
     const hay = `${decU(p.url)} ${p.title || ""}`;
     if (/datenschutz|impressum|cookie|privacy|agb|blog|news|ratgeber|magazin|aktuell|\/20\d\d\//i.test(hay)) return false;
@@ -1529,6 +1567,9 @@ function realFaq(): SiteContent["faq"]["items"] | undefined {
       if (looksFrench(q) || looksFrench(a)) continue;       // French Q/A on a mixed page
       // Reject truncated answers: must end on sentence punctuation/colon, unless long enough to stand alone.
       if (!/[.!?:]$/.test(a) && a.length < 60) continue;
+      // Reject MID-sentence fragments: a real answer opens a sentence (capital / quote /
+      // paren), never a clipped lowercase start like "für Gründungskosten …" / "lohnen –".
+      if (!/^[A-ZÄÖÜ»„"'(]/.test(a.trim())) continue;
       // Dedup similar questions by their first ~6 normalised words.
       const k = q.toLowerCase().replace(/[^\wäöüéèàç\s]/g, "").split(/\s+/).filter(Boolean).slice(0, 6).join(" ");
       if (!k || seen.has(k)) continue; seen.add(k);
@@ -1675,7 +1716,7 @@ function realProcess(): ProcessContent | undefined {
  *  Zielgruppen / Branchen" page. Needs ≥3. Omitted (→ generic default) otherwise. */
 // Whole-word audience nouns only — NO bare stems (e.g. "gen" would match any
 // German "-gen" plural like "Erklärungen"/"Augenhöhe" and mislabel it an audience).
-const AUDIENCE_HINT = /\b(kmu|unternehmen|firmen|selbst[äa]ndige?|selbstst[äa]ndige?|freiberufler?|einzelfirmen?|einzelunternehmen?|privatpersonen?|private?|vereine?|stiftungen?|startups?|start-ups?|gr[üu]nder(innen)?|gewerbe|gastronomie|gastronomen|[äa]rzte|mediziner|handwerker?|immobilien|landwirte?|expats?|holdings?|genossenschaften?|freelancer?|gmbh|ag)\b/i;
+const AUDIENCE_HINT = /\b(kmu|unternehmen|firmen|betriebe?n?|selbst[äa]ndige?|selbstst[äa]ndige?|freiberufler?|einzelfirmen?|einzelunternehmen?|privatpersonen?|privatkunden?|private?|familien?|pensionierte?|vereine?|stiftungen?|startups?|start-ups?|gr[üu]nder(innen)?|gewerbe|gewerbetreibende?|gastronomie|gastronomen|[äa]rzte|mediziner|handwerker?|immobilien|liegenschaften?|landwirte?|expats?|holdings?|genossenschaften?|freelancer?|gmbh|ag)\b/i;
 function realAudience(): AudienceContent | undefined {
   const scan = dePages.filter((p) => /fuer-wen|für-wen|zielgrupp|branchen|kundenkreis|wen-wir|for-whom|mandate|kundensegment/i.test(`${p.url || ""} ${p.title || ""}`));
   const pool = scan.length ? scan : (homeDe ? [home] : []);
@@ -2002,9 +2043,18 @@ const content: SiteContent = {
     titleAccent: heroHeadlineReal ? "" : "klar geführt.",
     lede: ledeReal ? desc : `Buchhaltung, Steuern und Beratung für KMU und Privatpersonen in ${c}. Persönlich, präzise und vorausschauend an Ihrer Seite.`,
     primaryCta: bookCta, secondaryCta: "Leistungen",
+    // The hero aside is a REAL-quote slot: a scraped testimonial, else empty (the hero
+    // then hides the aside). Never echo the lede/meta-description back as a "quote", and
+    // never a templated "Persönliche Treuhand-Betreuung in {Stadt}" — that's a fabricated
+    // firm voice. A real testimonial also shows in the Testimonials section, so the
+    // render layer drops the aside duplicate there.
+    // asideLabel is DUAL-PURPOSE: the quote-card label (Hero/Split — hidden with the card
+    // when there's no quote) AND a standalone trust chip (HeroCentered/Gradient, always
+    // shown). So it keeps a real value; only the QUOTE itself is emptied when there's no
+    // testimonial (no fake firm voice, no lede echo).
     asideLabel: testimonialItems ? "Mandantenstimme" : "Über uns",
-    asideQuote: testimonialItems ? testimonialItems[0].quote : (tagline ?? `Persönliche Treuhand-Betreuung für KMU und Private in ${c}.`),
-    asideAttribution: testimonialItems ? `— ${testimonialItems[0].person}${testimonialItems[0].company ? ", " + testimonialItems[0].company : ""}` : firm,
+    asideQuote: testimonialItems ? testimonialItems[0].quote : "",
+    asideAttribution: testimonialItems ? `— ${testimonialItems[0].person}${testimonialItems[0].company ? ", " + testimonialItems[0].company : ""}` : "",
     image: heroImage ?? media.hero,   // real hero, else CC stock fallback
   },
   services: { eyebrow: "Leistungen", heading: "Alles aus einer Hand.", items: serviceItems },

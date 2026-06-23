@@ -378,8 +378,8 @@
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "MRG Treuhand Aadorf: Digitale Buchhaltung, Lohnabrechnung & Steuerberatung für KMU in Thurgau, Zürich und St. Gallen. Swissdec-zertifiziert. Ab CHF 240/Monat.",
-    "asideAttribution": "MRG Treuhand",
+    "asideQuote": "",
+    "asideAttribution": "",
     "image": "/images/mrg-treuhand-ch/hero.jpg"
   },
   "services": {
@@ -389,69 +389,33 @@
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Klara (gratis Einstieg) oder Bexio (ab CHF 35/Mt.) – Cloud-basiert und intuitiv.\n\nProffix (ERP mit Buchhaltung, CRM, Aufträge) oder Topal (modulare Treuhänder-Lösung).\n\nWelche Buchhaltungssoftware ist die richtige für Ihr KMU? Diese Frage stellen sich Schweizer Unternehmer immer wieder – sei es bei der Gründung, beim Wechsel von Excel oder wenn die aktuelle Lösung an ihre Grenzen stösst. Die Auswahl ist gross, und jeder Anbieter verspricht, die beste Lösung zu sein. Ein vertieftes Verständnis zum Thema Umstieg von Excel finden Sie in unserem\n\nEinzelfirmen und kleine KMU (1–15 Mitarbeitende), die eine einfache, moderne Cloud-Lösung suchen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Klara (gratis Einstieg) oder Bexio (ab CHF 35/Mt.) – Cloud-basiert und intuitiv.\n\nProffix (ERP mit Buchhaltung, CRM, Aufträge) oder Topal (modulare Treuhänder-Lösung).\n\nWelche Buchhaltungssoftware ist die richtige für Ihr KMU? Diese Frage stellen sich Schweizer Unternehmer immer wieder – sei es bei der Gründung, beim Wechsel von Excel oder wenn die aktuelle Lösung an ihre Grenzen stösst. Die Auswahl ist gross, und jeder Anbieter verspricht, die beste Lösung zu sein. Ein vertieftes Verständnis zum Thema Umstieg von Excel finden Sie in unserem\n\nEinzelfirmen und kleine KMU (1–15 Mitarbeitende), die eine einfache, moderne Cloud-Lösung suchen."
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Buchhaltung, Löhne, Steuern, Gründung & Digitalisierung — persönlich erreichbar, digital aufgestellt, transparente Fixpreise.\n\nKeine Zeit mehr für Belege und MWST? Wir übernehmen Ihre laufende Buchhaltung, Löhne und Steuern — Sie konzentrieren sich auf Ihr Geschäft.\n\nSoftware einrichten, Prozesse automatisieren, KI sinnvoll einsetzen — wir zeigen Ihnen, was wirklich Zeit spart.\n\nGmbH oder AG? Stampa, Sozialversicherungen, Handelsregister — wir begleiten Sie von A bis Z und übernehmen danach die Buchhaltung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen."
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Buchhaltung, Löhne, Steuern, Gründung & Digitalisierung — persönlich erreichbar, digital aufgestellt, transparente Fixpreise.\n\nKeine Zeit mehr für Belege und MWST? Wir übernehmen Ihre laufende Buchhaltung, Löhne und Steuern — Sie konzentrieren sich auf Ihr Geschäft.\n\nSoftware einrichten, Prozesse automatisieren, KI sinnvoll einsetzen — wir zeigen Ihnen, was wirklich Zeit spart.\n\nGmbH oder AG? Stampa, Sozialversicherungen, Handelsregister — wir begleiten Sie von A bis Z und übernehmen danach die Buchhaltung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohn & HR Services für Schweizer KMU. Swissdec-zertifizierte Lohnabrechnung, Quellensteuer, Sozialversicherungen. MRG Treuhand Aadorf.",
         "body": "Löhne pünktlich am 25., Sozialversicherungen korrekt, Quellensteuer erledigt. Wir sind die Anlaufstelle für Ihre Mitarbeiter -- von der Anstellung bis zum Arbeitszeugnis.\n\nPräzise Berechnung aller Komponenten. Stundenlohn, Monatslohn, Überstunden, Spesen & Zulagen.\n\nWir übernehmen die komplette Korrespondenz und Abrechnung mit den Sozialversicherungen.\n\nBesonders wichtig bei ausländischen Mitarbeitern. Wir ermitteln den Tarif und melden direkt ans Amt.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/mrg-treuhand-ch/pool/72549974e5__epost-app-lohnabrechnung.png"
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Ab CHF 100’000 Jahresumsatz aus steuerbaren Leistungen im Inland sind Sie MWST-pflichtig.\n\nAnmeldung innert 30 Tagen nach Überschreiten der Grenze. Rückwirkende Pflicht!\n\n«Muss ich MWST abrechnen?» – diese Frage stellen sich Gründer, Freelancer und wachsende KMU gleichermassen. Die Antwort ist nicht immer so einfach, wie die magische Zahl CHF 100’000 vermuten lässt. Denn es gibt Ausnahmen, Sonderfälle und eine Frage, die mindestens genauso wichtig ist:\n\nim Inland erzielt (Art. 10 MWSTG). Die Pflicht gilt für alle Rechtsformen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Ab CHF 100’000 Jahresumsatz aus steuerbaren Leistungen im Inland sind Sie MWST-pflichtig.\n\nAnmeldung innert 30 Tagen nach Überschreiten der Grenze. Rückwirkende Pflicht!\n\n«Muss ich MWST abrechnen?» – diese Frage stellen sich Gründer, Freelancer und wachsende KMU gleichermassen. Die Antwort ist nicht immer so einfach, wie die magische Zahl CHF 100’000 vermuten lässt. Denn es gibt Ausnahmen, Sonderfälle und eine Frage, die mindestens genauso wichtig ist:\n\nim Inland erzielt (Art. 10 MWSTG). Die Pflicht gilt für alle Rechtsformen."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresabschluss für KMU: Bilanz, Erfolgsrechnung und Anhang termingerecht und revisionssicher. Ab CHF 1'200 oder im Buchhaltungspaket inklusive. MRG Treuhand Aadorf.",
-        "body": "Bilanz, Erfolgsrechnung und Anhang -- termingerecht, revisionssicher und verständlich aufbereitet. Sie konzentrieren sich auf Ihr Geschäft, wir liefern die Zahlen.\n\nFehler im Abschluss kosten nicht nur Nerven -- sie können teuer werden.\n\nWir prüfen alle Konten, stimmen Banksaldi ab und klären offene Posten.\n\nAbschreibungen, Rückstellungen, Abgrenzungen -- alles nach OR oder Swiss GAAP.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Bilanz, Erfolgsrechnung und Anhang -- termingerecht, revisionssicher und verständlich aufbereitet. Sie konzentrieren sich auf Ihr Geschäft, wir liefern die Zahlen.\n\nFehler im Abschluss kosten nicht nur Nerven -- sie können teuer werden.\n\nWir prüfen alle Konten, stimmen Banksaldi ab und klären offene Posten.\n\nAbschreibungen, Rückstellungen, Abgrenzungen -- alles nach OR oder Swiss GAAP."
       }
     ]
   },
@@ -512,11 +476,6 @@
       "eyebrow": "Leistung",
       "heading": "Lohnadministration",
       "body": "Lohn & HR Services für Schweizer KMU. Swissdec-zertifizierte Lohnabrechnung, Quellensteuer, Sozialversicherungen. MRG Treuhand Aadorf.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
       "cta": {
         "label": "Termin buchen"
       }
@@ -622,36 +581,36 @@
     "heading": "Häufige Fragen.",
     "items": [
       {
-        "q": "Welche Rechtsform ist die richtige für mich?",
-        "a": "Schnell und günstig, aber Sie haften persönlich mit Ihrem Privatvermögen."
+        "q": "Was kostet ein Treuhänder in der Schweiz für KMU?",
+        "a": "Die Kosten hängen vom Belegvolumen ab. Bei MRG Treuhand starten Pakete für KMU und Startups ab CHF 240 pro Monat für die Finanzbuchhaltung. Lohnbuchhaltung gibt es ab CHF 35 pro Mitarbeiter."
       },
       {
-        "q": "Was kostet eine GmbH-Gründung?",
-        "a": "für Gründungskosten rechnen (Notar, Handelsregister, Kapitalbestätigung, Dokumente)."
+        "q": "Bieten Sie Treuhand-Dienstleistungen auch digital an?",
+        "a": "Ja, MRG Treuhand arbeitet zu 100% digital. Belege können per App gescannt werden, die Beratung erfolgt persönlich oder via Video-Call. Wir betreuen Mandanten aus Zürich, Winterthur und der ganzen Ostschweiz komplett remote."
       },
       {
-        "q": "Brauche ich einen Notar für die Gründung?",
-        "a": "Wir koordinieren alle Unterlagen und organisieren den Notartermin für Sie."
+        "q": "Nutzen Sie Swissdec-zertifizierte Software?",
+        "a": "Ja, wir nutzen Swissdec-zertifizierte Software für korrekte und sichere Lohnabrechnungen nach Schweizer Standard. Alle Meldungen an AHV, Pensionskasse und Steuerbehörden erfolgen automatisch."
       },
       {
-        "q": "Wie lange dauert eine Firmengründung?",
-        "a": "Wir beschleunigen den Prozess, indem wir die Schritte parallel vorbereiten."
+        "q": "Muss ich für die Buchhaltung nach Aadorf kommen?",
+        "a": "Nein. Wir betreuen Kunden aus Zürich, Winterthur, St. Gallen und der ganzen Schweiz komplett digital. Sie laden Belege hoch, wir verbuchen. Natürlich sind Sie in unserem Büro in Aadorf jederzeit willkommen."
       },
       {
-        "q": "Muss ich mich bei AHV und MWST anmelden?",
-        "a": "Geschäftsführende gelten grundsätzlich als Angestellte der eigenen Firma."
+        "q": "Helfen Sie auch bei der Firmengründung?",
+        "a": "Absolut. Wir begleiten Sie von der Geschäftsidee bis zur Eintragung im Handelsregister. Wir beraten zur optimalen Rechtsform (GmbH vs. Einzelfirma vs. AG), erstellen Statuten und kümmern uns um alle Formalitäten."
       },
       {
-        "q": "Einzelfirma in GmbH umwandeln – wann lohnt sich das?",
-        "a": "lohnen – aber das hängt stark vom Kanton und der Lohn-/Dividendengestaltung ab."
+        "q": "Ab welchem Umsatz muss ich MWST abrechnen?",
+        "a": "Ab CHF 100'000 Jahresumsatz aus steuerbaren Leistungen im Inland sind Sie MWST-pflichtig. Die Pflicht entsteht, sobald absehbar ist, dass Sie die Grenze innerhalb von 12 Monaten überschreiten. Die Anmeldung muss innert 30 Tagen erfolgen."
       },
       {
-        "q": "Was ist bei ausländischen Gründern zu beachten?",
-        "a": "Je nach Herkunftsland gelten unterschiedliche Anforderungen (EU/EFTA meist einfacher)."
+        "q": "Lohnt sich die freiwillige MWST-Anmeldung?",
+        "a": "Ja, wenn Sie hohe Investitionen tätigen (Maschinen, Fahrzeuge, Einrichtung) oder überwiegend B2B-Kunden haben. Dann können Sie die Vorsteuer zurückfordern. Bei B2C-Kunden und geringen Einkäufen lohnt es sich eher nicht."
       },
       {
-        "q": "Was kostet Buchhaltung bei MRG Treuhand?",
-        "a": "Im kostenlosen Erstgespräch erhalten Sie einen klaren Fixpreis-Vorschlag."
+        "q": "Welche KMU-Prozesse lassen sich am schnellsten automatisieren?",
+        "a": "Rechnungseingang und Belegerfassung bieten den schnellsten ROI: Mit einer KI-gestützten Buchhaltungssoftware sparen Sie ab dem ersten Tag Zeit. Auch automatisches Mahnwesen und Lohnabrechnung sind schnell umgesetzt."
       }
     ]
   },
