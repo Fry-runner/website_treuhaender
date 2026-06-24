@@ -159,6 +159,8 @@ import {
   FeatureBandFull, FeatureCaption, FeatureTwoThirds, FeatureMinimal, FeatureChipOverlay,
   FeatureStatement,
 } from "../structures/FeatureExtended";
+// Variants ported from the 21st.dev component library (token-only rewrite).
+import { HeroStackedCards, ServicesCardDecorator, FeatureFloatingBadge, ProcessBadgeSteps, AboutSplitHighlights, StatsDecoratorGrid, CtaMaskedPanel } from "../structures/MagicSite";
 
 export interface VariantDef<P> {
   id: string;
@@ -200,6 +202,7 @@ export const heroVariants: VariantDef<HeroContent>[] = [
   { id: "hero/grid-bg",        component: HeroGridBg,        looks: ["swiss", "soft"],               note: "centered over masked dotted-grid background" },
   { id: "hero/chapter",        component: HeroChapter,       looks: ["editorial", "swiss"],          note: "numbered chapter opener with rule" },
   { id: "hero/aside-stat",     component: HeroAsideStat,     looks: ["warm", "editorial"],           note: "text left + single focal credential panel right" },
+  { id: "hero/magic-stacked",  component: HeroStackedCards,  looks: ["soft", "editorial", "warm"],   note: "21st.dev-ported: text-left + stacked media/credential cards (FinancialHero)" },
 ];
 
 /** Subpage header building blocks — ONE is picked per firm so every subpage shares
@@ -280,6 +283,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
     { id: "services/two-col-rows", component: ServicesTwoColRows, looks: ["editorial", "swiss"], min: 2 },     // 2-col compact rows
     { id: "services/banner-list", component: ServicesBannerList, looks: ["swiss", "soft"] },           // tinted checklist band
     { id: "services/zebra", component: ServicesZebra, looks: ["warm", "editorial"] },                  // striped rows
+    { id: "services/magic-decorator", component: ServicesCardDecorator, looks: ["soft", "swiss", "editorial"], min: 3 }, // 21st.dev-ported: monogram-in-box over masked grid
   ],
   cta: [
     { id: "cta/centered", component: CtaBand, looks: ["any"] },
@@ -305,6 +309,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
     { id: "cta/stacked-center", component: CtaStackedCenter, looks: ["soft", "swiss"] },  // oversized centered
     { id: "cta/sidebar", component: CtaSidebar, looks: ["swiss", "editorial"] },          // heading + bordered button cell
     { id: "cta/two-tone", component: CtaTwoTone, looks: ["warm", "soft"] },               // two-tone split panels
+    { id: "cta/magic-masked", component: CtaMaskedPanel, looks: ["swiss", "soft", "editorial"] }, // 21st.dev-ported: centered CTA on a masked-grid dark panel (InvertedTone)
   ],
   testimonials: [
     { id: "testimonials/grid", component: Testimonials, looks: ["editorial", "swiss", "warm"], min: 3 },
@@ -378,6 +383,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
     { id: "stats/plain-divide", component: StatsPlainDivide, looks: ["editorial", "swiss"] }, // vertical hairline cells
     { id: "stats/badge-pills", component: StatsBadgePills, looks: ["soft", "warm"] },         // bordered pills + dot
     { id: "stats/headline-pair", component: StatsHeadlinePair, looks: ["warm", "editorial"], min: 2 }, // number+label pairs
+    { id: "stats/magic-decorator", component: StatsDecoratorGrid, looks: ["soft", "swiss", "editorial"], min: 2 }, // 21st.dev-ported: big numerals over a masked grid
   ],
   team: [
     { id: "team/cards", component: Team, looks: ["soft", "warm"], min: 3 },                  // monogram cards
@@ -525,6 +531,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
     { id: "process/underline-numbers", component: ProcessUnderlineNumbers, looks: ["editorial", "swiss"], min: 2 }, // number + underline
     { id: "process/stacked-big", component: ProcessStackedBig, looks: ["editorial", "warm"] },          // big numbered stack
     { id: "process/photo-split", component: ProcessPhotoSplit, looks: ["soft", "warm", "editorial", "swiss"], needsImage: true }, // steps + framed scene photo (image-rhythm promotion target)
+    { id: "process/magic-steps", component: ProcessBadgeSteps, looks: ["soft", "swiss", "editorial"], min: 2 }, // 21st.dev-ported: numbered badge step cards
   ],
   audience: [
     { id: "audience/cards", component: AudienceCards, looks: ["soft", "warm"], min: 3 },                // persona card grid
@@ -575,6 +582,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
     { id: "about/lead-highlights-split", component: AboutLeadHighlightsSplit, looks: ["editorial", "warm"] }, // lead+highlights | body
     { id: "about/milestones", component: AboutMilestones, looks: ["swiss", "editorial"] },              // numbered paragraphs
     { id: "about/photo-frame", component: AboutPhotoFrame, looks: ["soft", "warm", "editorial", "swiss"], needsImage: true }, // text + framed scene photo (image-rhythm promotion target)
+    { id: "about/magic-highlights", component: AboutSplitHighlights, looks: ["editorial", "swiss", "soft"] }, // 21st.dev-ported: prose + hairline highlights panel
   ],
   history: [
     { id: "history/timeline", component: HistoryTimeline, looks: ["swiss", "editorial", "soft"] },      // vertical connector timeline
@@ -600,6 +608,7 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
     { id: "feature/minimal", component: FeatureMinimal, looks: ["soft", "swiss"], needsImage: true },             // minimal split
     { id: "feature/chip-overlay", component: FeatureChipOverlay, looks: ["soft", "warm"], needsImage: true },     // eyebrow chip overlay
     { id: "feature/statement", component: FeatureStatement, looks: ["editorial", "warm"], needsImage: true },     // statement + bullets
+    { id: "feature/magic-badge", component: FeatureFloatingBadge, looks: ["soft", "warm", "editorial"], needsImage: true }, // 21st.dev-ported: image + floating eyebrow chip + 2-col bullets
   ],
   gallery: [
     { id: "gallery/grid", component: GalleryGrid, looks: ["soft", "swiss"], min: 3 },                // uniform photo grid
