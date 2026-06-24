@@ -44,10 +44,10 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Epilogue\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "body": "\"Inter\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Manrope\", ui-sans-serif, system-ui, -apple-system, sans-serif",
         "headingRole": "display-geometric",
-        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
         "displayMax": "7xl",
@@ -61,7 +61,7 @@
         }
       },
       "radius": {
-        "base": "2xl",
+        "base": "lg",
         "pill": "full",
         "scale": "soft"
       },
@@ -71,7 +71,7 @@
       },
       "spacing": {
         "sectionY": "py-20",
-        "rhythm": "airy",
+        "rhythm": "normal",
         "containerMax": "1280px",
         "gutter": "1.5rem"
       },

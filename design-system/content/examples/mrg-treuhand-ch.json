@@ -44,10 +44,10 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Bricolage Grotesque\", ui-sans-serif, system-ui, -apple-system, sans-serif",
         "headingRole": "display-grotesk",
-        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
         "displayMax": "7xl",
@@ -61,7 +61,7 @@
         }
       },
       "radius": {
-        "base": "sm",
+        "base": "none",
         "pill": "full",
         "scale": "sharp"
       },

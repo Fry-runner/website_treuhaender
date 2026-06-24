@@ -47,9 +47,9 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Bricolage Grotesque\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "body": "\"Karla\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Hanken Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
         "headingRole": "display-grotesk"
       },
       "type": {
@@ -66,7 +66,7 @@
       "radius": {
         "base": "sm",
         "pill": "full",
-        "scale": "sharp"
+        "scale": "medium"
       },
       "shadow": {
         "elevation": "flat",
@@ -74,14 +74,14 @@
       },
       "spacing": {
         "sectionY": "py-24",
-        "rhythm": "airy",
+        "rhythm": "tight",
         "containerMax": "1280px",
         "gutter": "1.5rem"
       },
       "motion": {
         "durationMs": 600,
         "easing": "cubic-bezier(0.22,1,0.36,1)",
-        "intensity": "moderate"
+        "intensity": "subtle"
       },
       "background": {
         "treatment": "flat-white",

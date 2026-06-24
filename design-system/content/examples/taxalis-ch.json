@@ -62,9 +62,9 @@
         }
       },
       "radius": {
-        "base": "sm",
+        "base": "lg",
         "pill": "full",
-        "scale": "sharp"
+        "scale": "soft"
       },
       "shadow": {
         "elevation": "flat",
@@ -72,14 +72,14 @@
       },
       "spacing": {
         "sectionY": "py-24",
-        "rhythm": "airy",
+        "rhythm": "normal",
         "containerMax": "1200px",
         "gutter": "1.5rem"
       },
       "motion": {
         "durationMs": 200,
         "easing": "ease-out",
-        "intensity": "subtle"
+        "intensity": "moderate"
       },
       "background": {
         "treatment": "warm-paper",

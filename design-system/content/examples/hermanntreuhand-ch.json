@@ -47,9 +47,9 @@
       },
       "font": {
         "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
-        "headingRole": "display-grotesk"
+        "heading": "\"Be Vietnam Pro\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"DM Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "display-geometric"
       },
       "type": {
         "displayMax": "7xl",
@@ -63,9 +63,9 @@
         }
       },
       "radius": {
-        "base": "sm",
+        "base": "2xl",
         "pill": "full",
-        "scale": "sharp"
+        "scale": "soft"
       },
       "shadow": {
         "elevation": "subtle",
@@ -80,7 +80,7 @@
       "motion": {
         "durationMs": 400,
         "easing": "cubic-bezier(0.4,0,0.2,1)",
-        "intensity": "subtle"
+        "intensity": "moderate"
       },
       "background": {
         "treatment": "flat-white",

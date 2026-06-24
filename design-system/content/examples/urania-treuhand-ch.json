@@ -63,9 +63,9 @@
         }
       },
       "radius": {
-        "base": "sm",
+        "base": "md",
         "pill": "full",
-        "scale": "sharp"
+        "scale": "medium"
       },
       "shadow": {
         "elevation": "subtle",
@@ -73,7 +73,7 @@
       },
       "spacing": {
         "sectionY": "py-16",
-        "rhythm": "normal",
+        "rhythm": "airy",
         "containerMax": "1280px",
         "gutter": "1.5rem"
       },

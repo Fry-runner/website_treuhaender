@@ -50,6 +50,7 @@ export interface ApproveOverlayProps {
   onRegenerate: () => void;
   // shared control state + setters (owned by the studio)
   lookId: string; setLookId: (v: string) => void;
+  accentColor: string; setAccentColor: (v: string) => void;
   heroId: string; setHeroId: (v: string) => void;
   btn: string; setBtn: (v: string) => void;
   kitId: string; setKitId: (v: string) => void;
@@ -122,7 +123,7 @@ const sectionSlots = Object.keys(sectionVariants);
 
 export const ApproveOverlay: React.FC<ApproveOverlayProps> = ({
   open, onClose, firm, firmSlug, loadingFirm, onRegenerate,
-  lookId, setLookId, heroId, setHeroId, btn: btnId, setBtn, kitId, setKitId,
+  lookId, setLookId, accentColor, setAccentColor, heroId, setHeroId, btn: btnId, setBtn, kitId, setKitId,
   phId, setPhId, iconId, setIconId, moreId, setMoreId, motionId, setMotionId,
   secs, setSecs, seed, setSeed, pitchOn, setPitchOn, imageSeed, setImageSeed,
   firmSlugs, onPick,
@@ -358,6 +359,19 @@ export const ApproveOverlay: React.FC<ApproveOverlayProps> = ({
                 {presetList.map((p) => <option key={p.meta.id} value={p.meta.id}>{p.meta.name}</option>)}
               </select>
             </Field>
+            <Field label="Akzentfarbe · exakt">
+              <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+                <input type="color" aria-label="Akzentfarbe wählen"
+                  value={/^#[0-9a-fA-F]{6}$/.test(accentColor) ? accentColor : (firm.meta.look?.color?.primary || "#1E3A5F")}
+                  onChange={(e) => setAccentColor(e.target.value.toUpperCase())}
+                  style={{ width: 40, height: 32, padding: 0, border: `1px solid ${C.line}`, borderRadius: 6, background: "none", cursor: "pointer", flex: "0 0 auto" }} />
+                <input type="text" value={accentColor} placeholder={`Auto · ${firm.meta.look?.color?.primary || "#…"}`}
+                  onChange={(e) => { const v = e.target.value.trim(); setAccentColor(v && !v.startsWith("#") ? "#" + v : v); }}
+                  style={{ ...selectStyle, flex: 1, fontFamily: mono, textTransform: "uppercase" }} />
+                {accentColor && <button onClick={() => setAccentColor("")} title="Zurück zu Auto/Logo-Farbe"
+                  style={{ ...selectStyle, width: "auto", padding: "0 10px", cursor: "pointer" }}>Auto</button>}
+              </div>
+            </Field>
             <Field label="Hero">
               <select style={selectStyle} value={heroId} onChange={(e) => setHeroId(e.target.value)}>
                 <option value="auto">Auto · {plan.heroId.replace("hero/", "")}</option>
@@ -431,8 +445,8 @@ export const ApproveOverlay: React.FC<ApproveOverlayProps> = ({
             <div style={{ flex: 1, overflow: "auto", background: "#fff" }}>
               {loadingFirm
                 ? <div style={{ height: "100%", display: "grid", placeItems: "center", color: "#888", fontFamily: mono, fontSize: "0.8rem" }}>Firma wird neu generiert …</div>
-                : <SiteRouter key={`${firmSlug}|${seed}|${lookId}|${heroId}|${btnId}|${kitId}|${JSON.stringify(secs)}|${pitchOn}|${imageSeed}|${phId}|${iconId}|${moreId}|${motionId}`}
-                    content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary}
+                : <SiteRouter key={`${firmSlug}|${seed}|${lookId}|${accentColor}|${heroId}|${btnId}|${kitId}|${JSON.stringify(secs)}|${pitchOn}|${imageSeed}|${phId}|${iconId}|${moreId}|${motionId}`}
+                    content={firm} seed={seed} lookId={look} accentColor={accentColor || undefined} heroId={hero} primaryStyle={primary}
                     sectionOverrides={sectionOverrides} kitId={kitSel} pitch={pitchOn} imageSeed={imageSeed}
                     pageHeaderId={ph} iconSetId={icon} moreStyle={more} motionStyle={motion} />}
             </div>

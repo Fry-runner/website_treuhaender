@@ -10,18 +10,25 @@
 import type { CSSProperties } from "react";
 import type { DesignTokens } from "../tokens";
 import { radius, shadow, sectionY, weight, display, displayH2, headTracking, space, spaceBlock, gutter } from "./scales";
-import { ensureContrast, luminance, contrast } from "./color";
+import { ensureContrast, luminance, contrast, mix } from "./color";
 
 export type LookVars = CSSProperties & Record<string, string | number>;
 
 export function applyLook(t: DesignTokens): LookVars {
+  // SURFACE = full-bleed section bands + cards. A neutral off-the-shelf GREY rarely
+  // tones with a brand-coloured site, so on LIGHT looks we replace it with a very faint
+  // wash of the brand colour (≈6% toward primary) — subtle enough not to shout, but it
+  // always belongs to the palette instead of reading as a generic grey. Dark looks keep
+  // their panel (a brand-tinted near-black would erase card definition).
+  const bgLight = luminance(t.color.bg) > 0.6;
+  const surface = bgLight ? mix(t.color.bg, t.color.primary, 0.06) : t.color.surface;
   // Supporting text must clear WCAG AA on EVERY surface it can land on — the page bg,
-  // the neutral surface, AND the faint primary-soft tint that FAQ / feature bands paint.
+  // the surface band, AND the faint primary-soft tint that FAQ / feature bands paint.
   // Several presets ship a muted grey that fails on the tinted bands specifically
   // (e.g. #6A7378 ≈ 4.3:1 on a soft tint). Darken progressively against each candidate;
   // the darkest requirement wins, so it passes on all three.
   let textMuted = t.color.textMuted;
-  for (const b of [t.color.bg, t.color.surface, t.color.primarySoft].filter(Boolean) as string[]) {
+  for (const b of [t.color.bg, surface, t.color.primarySoft].filter(Boolean) as string[]) {
     textMuted = ensureContrast(textMuted, b, 4.5);
   }
   // The brand primary used AS TEXT / links on a page surface must stay legible too:
@@ -57,7 +64,7 @@ export function applyLook(t: DesignTokens): LookVars {
   return {
     // colors
     "--ds-bg": t.color.bg,
-    "--ds-surface": t.color.surface,
+    "--ds-surface": surface,
     "--ds-text": t.color.text,
     "--ds-text-muted": textMuted,
     "--ds-border": t.color.border,

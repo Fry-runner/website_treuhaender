@@ -44,10 +44,10 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Figtree\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Sora\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Schibsted Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
         "headingRole": "display-grotesk",
-        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
         "displayMax": "7xl",
@@ -63,7 +63,7 @@
       "radius": {
         "base": "sm",
         "pill": "full",
-        "scale": "sharp"
+        "scale": "medium"
       },
       "shadow": {
         "elevation": "flat",
@@ -71,7 +71,7 @@
       },
       "spacing": {
         "sectionY": "py-12",
-        "rhythm": "normal",
+        "rhythm": "tight",
         "containerMax": "1200px",
         "gutter": "1.5rem"
       },

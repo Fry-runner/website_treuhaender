@@ -42,9 +42,9 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Schibsted Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "headingRole": "display-grotesk",
+        "body": "\"Work Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Playfair Display\", Georgia, \"Times New Roman\", serif",
+        "headingRole": "serif-editorial",
         "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
@@ -76,7 +76,7 @@
       "motion": {
         "durationMs": 260,
         "easing": "cubic-bezier(0.4,0,0.2,1)",
-        "intensity": "moderate"
+        "intensity": "subtle"
       },
       "background": {
         "treatment": "flat-white",

@@ -7,6 +7,7 @@
  */
 import React, { useState } from "react";
 import { applyLook } from "../looks/applyLook";
+import { mix } from "../looks/color";
 import { type ArchetypeId } from "../blueprints";
 import { composeSite, resolvePages, slugify, pageTypes, type ResolvedPage } from "../pages";
 import { HOME_MAX_CONTENT, HOME_DROP_ORDER, PREVIEW, PREVIEW_PREF } from "../ia-rules";
@@ -83,9 +84,13 @@ export interface SiteRouterProps {
   moreStyle?: MoreStyle;
   /** Force the micro-interaction / motion family (else derived from the kit). */
   motionStyle?: MotionStyleId;
+  /** Exact accent colour (#RRGGBB) that overrides the look's primary — lets the studio
+   *  pick any colour instead of being limited to a preset palette. The dependent tokens
+   *  (primary-ink / fg / soft / secondary) are re-derived by applyLook. */
+  accentColor?: string;
 }
 
-export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, archetype, seed, lookId, heroId, primaryStyle, sectionOverrides, kitId, pitch, imageSeed, pageHeaderId, iconSetId, moreStyle, motionStyle }) => {
+export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, archetype, seed, lookId, heroId, primaryStyle, sectionOverrides, kitId, pitch, imageSeed, pageHeaderId, iconSetId, moreStyle, motionStyle, accentColor }) => {
   // No photo may appear twice across the site — hero/service/gallery/background
   // disjoint (team photos exempt). Applied once before planning/rendering.
   const content = React.useMemo(() => {
@@ -166,7 +171,12 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   // A forced lookId wins ONLY if it resolves to a real preset; an unknown id (e.g. a
   // published-plan record frozen against a since-renamed preset) falls back to the
   // brand/auto look instead of crashing the whole render with `undefined`.
-  const look = (lookId && presets[lookId]) ? presets[lookId] : (content.meta.look ?? presets[plan.lookId] ?? presets[content.meta.lookId]);
+  const baseLook = (lookId && presets[lookId]) ? presets[lookId] : (content.meta.look ?? presets[plan.lookId] ?? presets[content.meta.lookId]);
+  // Exact accent override (studio colour picker): swap the look's primary + the tokens
+  // derived from it; applyLook re-computes primary-ink/fg/contrast from the new value.
+  const look = (accentColor && /^#[0-9a-fA-F]{6}$/.test(accentColor))
+    ? { ...baseLook, color: { ...baseLook.color, primary: accentColor, primarySoft: mix(baseLook.color.bg, accentColor, 0.08), secondary: accentColor } }
+    : baseLook;
   const Hero = heroById(heroId ?? plan.heroId).component;
   const buttonStyle = primaryStyle ?? plan.primaryStyle;
   // Per-firm section framing (deterministic by domain+seed) so headings vary

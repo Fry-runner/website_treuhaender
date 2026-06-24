@@ -46,9 +46,9 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Karla\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Hanken Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Schibsted Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
         "headingRole": "display-grotesk"
       },
       "type": {
@@ -63,7 +63,7 @@
         }
       },
       "radius": {
-        "base": "sm",
+        "base": "none",
         "pill": "full",
         "scale": "sharp"
       },

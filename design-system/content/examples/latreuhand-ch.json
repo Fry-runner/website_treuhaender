@@ -44,9 +44,9 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"IBM Plex Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Sora\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "headingRole": "display-grotesk",
+        "body": "\"Lato\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"EB Garamond\", Georgia, \"Times New Roman\", serif",
+        "headingRole": "serif-editorial",
         "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
@@ -61,9 +61,9 @@
         }
       },
       "radius": {
-        "base": "sm",
+        "base": "md",
         "pill": "full",
-        "scale": "sharp"
+        "scale": "medium"
       },
       "shadow": {
         "elevation": "flat",
@@ -71,7 +71,7 @@
       },
       "spacing": {
         "sectionY": "py-12",
-        "rhythm": "normal",
+        "rhythm": "airy",
         "containerMax": "1200px",
         "gutter": "1.5rem"
       },

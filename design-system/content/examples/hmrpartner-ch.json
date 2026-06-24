@@ -45,10 +45,10 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Be Vietnam Pro\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "mono": "\"DM Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
-        "headingRole": "display-geometric"
+        "body": "\"Lato\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"EB Garamond\", Georgia, \"Times New Roman\", serif",
+        "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
+        "headingRole": "serif-editorial"
       },
       "type": {
         "displayMax": "7xl",
@@ -62,9 +62,9 @@
         }
       },
       "radius": {
-        "base": "sm",
+        "base": "md",
         "pill": "full",
-        "scale": "sharp"
+        "scale": "medium"
       },
       "shadow": {
         "elevation": "flat",

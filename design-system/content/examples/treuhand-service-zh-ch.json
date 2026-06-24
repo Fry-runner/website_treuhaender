@@ -44,10 +44,10 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Mulish\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Familjen Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "headingRole": "display-grotesk",
-        "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+        "body": "\"Figtree\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Outfit\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-geometric",
+        "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
         "displayMax": "7xl",
@@ -61,9 +61,9 @@
         }
       },
       "radius": {
-        "base": "sm",
+        "base": "2xl",
         "pill": "full",
-        "scale": "sharp"
+        "scale": "soft"
       },
       "shadow": {
         "elevation": "flat",
@@ -78,7 +78,7 @@
       "motion": {
         "durationMs": 300,
         "easing": "cubic-bezier(0.4,0,0.2,1)",
-        "intensity": "subtle"
+        "intensity": "moderate"
       },
       "background": {
         "treatment": "flat-white",

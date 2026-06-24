@@ -60,7 +60,7 @@
         }
       },
       "radius": {
-        "base": "lg",
+        "base": "md",
         "pill": "full",
         "scale": "medium"
       },

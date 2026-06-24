@@ -404,9 +404,19 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
     if (alt) sections[slot] = alt.id;
     else cardsUsed += 1; // no non-cards option in this slot/kit → keep it
   }
-  // No real person photos → force the tile-free text team layout, so employee
-  // cards never show empty placeholder image tiles (we never fake faces with stock).
-  if (sectionVariants.team && !(content.team?.members?.some((m) => m.photo))) sections.team = "team/plain";
+  // No real person photos (incl. pitch/Kaltakquise mode, where portraits are always
+  // stripped): the team variants ALL degrade gracefully to an initials monogram — so
+  // don't collapse every photo-less team to a single layout (that made every cold-
+  // acquisition site's team read identical). Only the BIG-photo-tile variants look empty
+  // as all-monogram; swap just those to a layout that wears monograms well, and keep the
+  // kit's pick otherwise for real variety.
+  const PHOTO_HEAVY_TEAM = new Set(["team/grid-photo", "team/polaroid", "team/duo", "team/strip", "team/overlay", "team/masonry", "team/cards"]);
+  const NO_PHOTO_TEAM = ["team/plain", "team/rows", "team/bordered", "team/minimal-grid", "team/circles", "team/badge-role", "team/numbered", "team/centered-bio", "team/two-col", "team/list-right", "team/circle-row", "team/compact-4"];
+  if (sectionVariants.team && !(content.team?.members?.some((m) => m.photo)) && PHOTO_HEAVY_TEAM.has(sections.team)) {
+    const noPhoto = sectionVariants.team.filter((v) => NO_PHOTO_TEAM.includes(v.id));
+    const alt = pick(compatible(noPhoto, affinity), base + hash("team-nophoto"));
+    if (alt) sections.team = alt.id;
+  }
   // A 1-2 person team in a multi-column grid reads as sparse (one lonely card). When
   // those few people DO have photos, feature them prominently: a centered solo bio, or
   // two large side-by-side cards. (No-photo small teams keep the clean text block above.)

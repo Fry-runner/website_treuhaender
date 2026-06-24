@@ -44,9 +44,9 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Karla\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Hanken Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "headingRole": "display-grotesk",
+        "body": "\"Inter\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Manrope\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-geometric",
         "mono": "\"Space Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
@@ -61,9 +61,9 @@
         }
       },
       "radius": {
-        "base": "sm",
+        "base": "lg",
         "pill": "full",
-        "scale": "sharp"
+        "scale": "soft"
       },
       "shadow": {
         "elevation": "flat",
@@ -78,7 +78,7 @@
       "motion": {
         "durationMs": 300,
         "easing": "cubic-bezier(0.4,0,0.2,1)",
-        "intensity": "subtle"
+        "intensity": "moderate"
       },
       "background": {
         "treatment": "flat-white",

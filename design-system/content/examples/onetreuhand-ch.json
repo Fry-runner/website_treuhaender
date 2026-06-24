@@ -43,8 +43,8 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Karla\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Lora\", Georgia, \"Times New Roman\", serif",
+        "body": "\"IBM Plex Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Source Serif 4\", Georgia, \"Times New Roman\", serif",
         "mono": "\"IBM Plex Mono\", ui-monospace, SFMono-Regular, Menlo, monospace",
         "headingRole": "serif-editorial"
       },
@@ -60,7 +60,7 @@
         }
       },
       "radius": {
-        "base": "lg",
+        "base": "md",
         "pill": "full",
         "scale": "medium"
       },

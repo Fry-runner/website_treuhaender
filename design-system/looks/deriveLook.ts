@@ -126,6 +126,41 @@ function generatedAccent(firmKey: string, seed: number, hintHue?: number): { pri
   return { primary, secondary };
 }
 
+/**
+ * DESIGN PERSONAS — a small set of trust-first identities. Each is a COHERENT bundle of
+ * shape (radius), type personality (font role), density (rhythm), motion and variant
+ * affinity. One is assigned per firm, so firms read DISTINCT from one another (different
+ * persona) yet INTERNALLY coherent (every look choice flows from one persona) — the fix
+ * for "all firms look the same" + "make each site feel more unified". Each value stays in
+ * the trust-first envelope (no expressive motion, no playful shapes-without-reason).
+ */
+export type PersonaId = "swiss-precise" | "editorial-heritage" | "modern-trust" | "warm-personal" | "establishment";
+export interface DesignPersona {
+  id: PersonaId;
+  radius: DesignTokens["radius"]["base"];
+  radiusScale: DesignTokens["radius"]["scale"];
+  rhythm: DesignTokens["spacing"]["rhythm"];
+  motion: DesignTokens["motion"]["intensity"];
+  fontRole: DesignTokens["font"]["headingRole"];
+  affinity: "editorial" | "swiss" | "soft" | "warm";
+}
+export const PERSONAS: DesignPersona[] = [
+  { id: "swiss-precise",      radius: "none", radiusScale: "sharp",  rhythm: "normal", motion: "subtle",   fontRole: "display-grotesk",   affinity: "swiss" },
+  { id: "editorial-heritage", radius: "md",   radiusScale: "medium", rhythm: "airy",   motion: "subtle",   fontRole: "serif-editorial",   affinity: "editorial" },
+  { id: "modern-trust",       radius: "2xl",  radiusScale: "soft",   rhythm: "normal", motion: "moderate", fontRole: "display-geometric", affinity: "soft" },
+  { id: "warm-personal",      radius: "lg",   radiusScale: "soft",   rhythm: "normal", motion: "moderate", fontRole: "display-geometric", affinity: "warm" },
+  { id: "establishment",      radius: "sm",   radiusScale: "medium", rhythm: "tight",  motion: "subtle",   fontRole: "display-grotesk",   affinity: "editorial" },
+];
+/** Assign a persona per firm — deterministic by firm key, nudged by accent warmth (a warm
+ *  brand colour leans to a warm/heritage persona). Stable + spread across the portfolio. */
+export function pickPersona(firmKey: string, accentHex: string): DesignPersona {
+  const h = hash(firmKey || "x");
+  const hu = hue(accentHex);
+  const warm = hu < 70 || hu >= 330;                 // red / orange / gold / terracotta
+  if (warm) return PERSONAS[h % 2 === 0 ? 3 : 1];    // warm-personal | editorial-heritage
+  return PERSONAS[h % PERSONAS.length];
+}
+
 export type ColourSource = "scraped" | "logo" | "generated";
 export interface DerivedLook {
   tokens: DesignTokens;
@@ -162,13 +197,16 @@ export function deriveLook(
   const basePresetId = pickBase({ serif: !!brand.heading?.serif, accentHue: hue(accentPrimary), firmKey: opts.firmKey, seed: opts.seed });
   notes.push(`base: ${basePresetId}`);
   const t: DesignTokens = structuredClone(presets[basePresetId]);
-  // Trust-first dial (UI/UX taste-skill): a fiduciary caps MOTION low — never the
-  // "expressive"/cinematic tier that reads as a SaaS/agency tell. (applyLook enforces
-  // the same cap at render for already-baked looks.)
-  if (t.motion.intensity === "expressive") t.motion.intensity = "moderate";
-  // Trust-first density (taste-skill dial: trust-first ≈ medium 4-5, not art-gallery-airy).
-  // A fiduciary should read substantive, not sparse — nudge an "airy" rhythm to "normal".
-  if (t.spacing.rhythm === "airy") t.spacing.rhythm = "normal";
+  // DESIGN PERSONA — a coherent per-firm bundle (shape · density · motion · type · affinity).
+  // It OVERRIDES the preset defaults so the whole look tells one story and firms differ
+  // from one another. Values stay trust-first (no expressive motion), so this supersedes
+  // the earlier blanket motion/density caps. Type personality is applied at the font step.
+  const persona = pickPersona(opts.firmKey || "x", accentPrimary);
+  t.radius.base = persona.radius;
+  t.radius.scale = persona.radiusScale;
+  t.spacing.rhythm = persona.rhythm;
+  t.motion.intensity = persona.motion;
+  notes.push(`persona: ${persona.id}`);
   const bg = t.color.bg;
 
   // 3) Tint the accent(s) in with proper contrast.
@@ -211,7 +249,10 @@ export function deriveLook(
   //    the preset's heading role (serif brand → editorial) for coherence. Mono is
   //    never a scraped brand signal, so it always comes from the inventory — that
   //    also varies the eyebrow/label face across firms.
-  const role = brand.heading?.serif ? "serif-editorial" : t.font.headingRole;
+  // Type PERSONALITY comes from the persona (not the preset's default role), so it varies
+  // across firms — some editorial-serif, some grotesk, some geometric — instead of the
+  // grotesk-monoculture. A genuinely scraped serif brand font still wins.
+  const role = brand.heading?.serif ? "serif-editorial" : persona.fontRole;
   const pair = pickPairing(role, opts.firmKey || basePresetId, opts.seed ?? 0);
   if (brand.heading) {
     t.font.heading = brand.heading.serif ? serifStack(brand.heading.family) : sansStack(brand.heading.family);

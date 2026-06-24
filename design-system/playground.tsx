@@ -80,6 +80,7 @@ const sectionSlots = Object.keys(sectionVariants);
 
 const VariantStudio = () => {
   const [lookId, setLookId] = useState<string>("auto");
+  const [accent, setAccent] = useState<string>("");   // exact accent override ("" = auto / logo / palette)
   const [heroId, setHeroId] = useState<string>("auto");
   const [btn, setBtn] = useState<string>("auto");
   const [kitId, setKitId] = useState<string>("auto");
@@ -98,7 +99,7 @@ const VariantStudio = () => {
   const [imageSeed, setImageSeed] = useState(0);
   const [approveOpen, setApproveOpen] = useState(false);
   const [sendOpen, setSendOpen] = useState(false);
-  const resetControls = () => { setSeed(0); setLookId("auto"); setHeroId("auto"); setBtn("auto"); setKitId("auto"); setSecs({}); setImageSeed(0); setPhId("auto"); setIconId("auto"); setMoreId("auto"); setMotionId("auto"); };
+  const resetControls = () => { setSeed(0); setLookId("auto"); setAccent(""); setHeroId("auto"); setBtn("auto"); setKitId("auto"); setSecs({}); setImageSeed(0); setPhId("auto"); setIconId("auto"); setMoreId("auto"); setMotionId("auto"); };
   // Generate a REAL, current version of ONE firm on demand (runs extract.ts via the
   // dev endpoint /__generate). Used automatically for stale firms + the 🔄 button.
   const generateFirm = (slug: string) => {
@@ -190,6 +191,19 @@ const VariantStudio = () => {
             {presetList.map((p) => <option key={p.meta.id} value={p.meta.id}>{p.meta.name}</option>)}
           </select>
         </Field>
+        <Field label="Akzentfarbe · exakt">
+          <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+            <input type="color" aria-label="Akzentfarbe wählen"
+              value={/^#[0-9a-fA-F]{6}$/.test(accent) ? accent : (firm.meta.look?.color?.primary || "#1E3A5F")}
+              onChange={(e) => setAccent(e.target.value.toUpperCase())}
+              style={{ width: 40, height: 30, padding: 0, border: "1px solid #d4d8dd", borderRadius: 6, background: "none", cursor: "pointer", flex: "0 0 auto" }} />
+            <input type="text" value={accent} placeholder={`Auto · ${firm.meta.look?.color?.primary || "#…"}`}
+              onChange={(e) => { const v = e.target.value.trim(); setAccent(v && !v.startsWith("#") ? "#" + v : v); }}
+              style={{ ...selectStyle, flex: 1, textTransform: "uppercase" }} />
+            {accent && <button onClick={() => setAccent("")} title="Zurück zu Auto/Logo-Farbe"
+              style={{ ...selectStyle, width: "auto", padding: "0 10px", cursor: "pointer" }}>Auto</button>}
+          </div>
+        </Field>
         <Field label="Hero">
           <select style={selectStyle} value={heroId} onChange={(e) => setHeroId(e.target.value)}>
             <option value="auto">Auto · {plan.heroId.replace("hero/", "")}</option>
@@ -246,12 +260,12 @@ const VariantStudio = () => {
         </div>
       </div>
       <Bar text={`Generierte Website · ${firm.meta.firm}`} sub={`${rLook} · ${rHero} · button:${rBtn}${pitchOn ? " · KALTAKQUISE" : ""}`} />
-      <SiteRouter key={`${firmSlug}|${seed}|${lookId}|${heroId}|${btn}|${kitId}|${JSON.stringify(secs)}|${pitchOn}|${imageSeed}|${phId}|${iconId}|${moreId}|${motionId}`} content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} sectionOverrides={sectionOverrides} kitId={kitSel} pitch={pitchOn} imageSeed={imageSeed} pageHeaderId={ph} iconSetId={icon} moreStyle={more} motionStyle={motion} />
+      <SiteRouter key={`${firmSlug}|${seed}|${lookId}|${accent}|${heroId}|${btn}|${kitId}|${JSON.stringify(secs)}|${pitchOn}|${imageSeed}|${phId}|${iconId}|${moreId}|${motionId}`} content={firm} seed={seed} lookId={look} accentColor={accent || undefined} heroId={hero} primaryStyle={primary} sectionOverrides={sectionOverrides} kitId={kitSel} pitch={pitchOn} imageSeed={imageSeed} pageHeaderId={ph} iconSetId={icon} moreStyle={more} motionStyle={motion} />
       <ApproveOverlay
         open={approveOpen} onClose={() => setApproveOpen(false)}
         firm={firm} firmSlug={firmSlug} loadingFirm={loadingFirm}
         onRegenerate={() => generateFirm(firmSlug)}
-        lookId={lookId} setLookId={setLookId} heroId={heroId} setHeroId={setHeroId}
+        lookId={lookId} setLookId={setLookId} accentColor={accent} setAccentColor={setAccent} heroId={heroId} setHeroId={setHeroId}
         btn={btn} setBtn={setBtn} kitId={kitId} setKitId={setKitId}
         secs={secs} setSecs={setSecs} seed={seed} setSeed={setSeed}
         phId={phId} setPhId={setPhId} iconId={iconId} setIconId={setIconId}
