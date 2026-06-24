@@ -184,11 +184,18 @@ function fixEncoding(s: string): string {
     return /[ÃÂ][-¿]/.test(r) ? s : r; // accept only if mojibake is gone
   } catch { return s; }
 }
+/** Emoji / decorative icon-glyphs that leak from scraped copy (☝ ✓ → ● ★ …). They are
+ *  never real content — every render-time glyph comes from <Icon> — so a finished site
+ *  must never show a stray symbol (caught by `npm run audit:design` D2). Deliberately
+ *  EXCLUDES General Punctuation (– — · … „ " etc.), which is legitimate German typography. */
+const GLYPH_RE = /[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2190}-\u{21FF}\u{2B00}-\u{2BFF}\u{25A0}-\u{25FF}\u{2713}-\u{2718}\u{FE0F}\u{200D}]/gu;
 /** Collapse decode/scrape punctuation artefacts: stray space before punctuation,
  *  doubled sentence marks, and 2-dot runs ("unterwegs.." -> "unterwegs.") while a
- *  real ellipsis ("...") is left intact. Whitespace is normalised last. */
+ *  real ellipsis ("...") is left intact. Emoji/icon-glyphs are stripped. Whitespace
+ *  is normalised last (so removed glyphs leave no double spaces). */
 function tidyText(s: string): string {
   return s
+    .replace(GLYPH_RE, " ")                // drop emoji/icon-glyphs (→ replaced by space)
     .replace(/ +([,.;:!?])/g, "$1")        // no space before punctuation
     .replace(/([,;:!?])\1+/g, "$1")        // collapse doubled , ; : ! ?
     .replace(/\.{4,}/g, "…")               // 4+ dots -> single ellipsis
@@ -868,7 +875,7 @@ function buildMedia(): MediaLibrary {
     if (!docMade) { mkdirSync(docDir, { recursive: true }); docMade = true; }
     const fn = a.file.split("/").pop()!;
     copyFileSync(srcPath, join(docDir, fn));
-    documents.push({ src: `/files/${slug}/${fn}`, title: linkText.get(norm(a.url || "")) || prettyDoc(orig), kind, bytes: a.bytes || 0 });
+    documents.push({ src: `/files/${slug}/${fn}`, title: tidyText(linkText.get(norm(a.url || "")) || prettyDoc(orig)), kind, bytes: a.bytes || 0 });
     if (documents.length >= 24) break;
   }
   documents.sort((a, b) => a.title.localeCompare(b.title, "de"));
@@ -1586,7 +1593,7 @@ function realFaq(): SiteContent["faq"]["items"] | undefined {
 function realTagline(): string | undefined {
   if (!homeDe) return undefined; // a French home gives no German tagline → scaffold
   if (desc && desc.length >= 20 && desc.length <= 160 && !looksFrench(desc) && !isCorrupted(desc)) return desc;
-  const h2s = (home.headings?.h2 || []).map((t: string) => fixEncoding(t));
+  const h2s = (home.headings?.h2 || []).map((t: string) => tidyText(fixEncoding(t)));
   return h2s.find((t: string) => t.length >= 15 && t.length <= 120 && /[a-zäöü]/.test(t) && !looksFrench(t) && !isCorrupted(t) && !/leistung|kontakt|team|news|blog|impressum|cookie/i.test(t));
 }
 
@@ -1867,8 +1874,8 @@ function realEmail(): string | undefined {
       ?? own.sort((a, b) => a.split("@")[0].length - b.split("@")[0].length)[0]; // shortest local = least personal
 }
 
-const h1: string = fixEncoding((home.headings?.h1 || [])[0] || "");
-const desc: string = fixEncoding(home.meta?.description || "");
+const h1: string = tidyText(fixEncoding((home.headings?.h1 || [])[0] || ""));
+const desc: string = tidyText(fixEncoding(home.meta?.description || ""));
 // Hero headline/lede come from the HOME page — only honoured when the home is German
 // (a French home → German scaffold defaults), and never when the text itself is French.
 const heroHeadlineReal = homeDe && h1 && h1.length > 8 && h1.length < 90 && h1.toLowerCase() !== firm.toLowerCase() && !looksFrench(h1) && !isCorrupted(h1);
