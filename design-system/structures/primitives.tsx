@@ -104,6 +104,15 @@ const MoreStyleCtx = React.createContext<MoreStyle>("underline");
 export const MoreStyleProvider = MoreStyleCtx.Provider;
 export const useMoreStyle = (): MoreStyle => React.useContext(MoreStyleCtx);
 
+/** Section-heading alignment, chosen ONCE per firm and supplied site-wide — so section
+ *  headings don't mix left & centre haphazardly from section to section (UX:
+ *  consistency / a stable vertical edge). <SectionHead> reads this instead of deciding
+ *  per-variant; it varies firm-to-firm, stays uniform within a site. */
+export type SectionAlign = "left" | "center";
+const SectionAlignCtx = React.createContext<SectionAlign>("left");
+export const SectionAlignProvider = SectionAlignCtx.Provider;
+export const useSectionAlign = (): SectionAlign => React.useContext(SectionAlignCtx);
+
 type BtnProps = React.PropsWithChildren<{ variant?: "primary" | "outline"; onClick?: () => void; to?: string; type?: "button" | "submit" }>;
 
 // De-telled button base: body face, normal case, normal tracking (was the

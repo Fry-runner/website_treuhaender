@@ -1,5 +1,5 @@
 import React from "react";
-import { Eyebrow, useMoreStyle } from "./primitives";
+import { Eyebrow, useMoreStyle, useSectionAlign } from "./primitives";
 import { useNavigate } from "../compose/nav-context";
 import { Icon } from "../icons/iconSets";
 
@@ -92,12 +92,16 @@ export const SectionMore: React.FC<{ link?: MoreLink; tone?: "default" | "onImag
 
 /** Shared section header: eyebrow + H2, with an optional "view all" link that
  *  routes to the matching subpage (teaser pattern). Token-only. */
-export const SectionHead: React.FC<{ eyebrow: string; heading: string; center?: boolean; more?: MoreLink }> = ({ eyebrow, heading, center, more }) => {
+export const SectionHead: React.FC<{ eyebrow: string; heading: string; center?: boolean; more?: MoreLink }> = ({ eyebrow, heading, more }) => {
   // A blanked heading (deduped against the page-header title) drops the whole head, so
   // a subpage never opens "Über uns" (H1) / "Über uns" (H2) — the section starts on its
   // body. With only a "more" link left, just that renders.
   const h = (heading ?? "").trim();
   if (!h && !more) return null;
+  // Alignment is a per-firm decision (SectionAlignProvider), NOT per-variant — so a site's
+  // section headings share one alignment instead of mixing left & centre. (The legacy
+  // `center` prop is intentionally ignored in favour of this site-wide policy.)
+  const center = useSectionAlign() === "center";
   const headingBlock = h ? (
     <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem", alignItems: center ? "center" : "flex-start", textAlign: center ? "center" : "left" }}>
       <Eyebrow>{eyebrow}</Eyebrow>

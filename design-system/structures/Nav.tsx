@@ -65,7 +65,7 @@ export const Nav: React.FC<{ content: NavContent; current?: string; variant?: He
     <nav className="ds-nav-links" data-open={open} data-navlink={navLink} style={{ display: "flex", gap: elevated ? "2rem" : "1.6rem", alignItems: "center", flex: 1, justifyContent: justify }}>
       {content.links.map((l) => (
         <a key={l.label} className="ds-nav-link" href={l.href} onClick={go(l.href)} aria-current={current === l.href ? "page" : undefined}
-           style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", color: "var(--ds-text-muted)", textDecoration: "none", cursor: "pointer", whiteSpace: "nowrap" }}>
+           style={{ display: "inline-flex", alignItems: "center", minHeight: "2.75rem", fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", color: "var(--ds-text-muted)", textDecoration: "none", cursor: "pointer", whiteSpace: "nowrap" }}>
           {l.label}
         </a>
       ))}

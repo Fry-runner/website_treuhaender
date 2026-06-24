@@ -13,7 +13,7 @@ import { HOME_MAX_CONTENT, HOME_DROP_ORDER, PREVIEW, PREVIEW_PREF } from "../ia-
 import { presets } from "../tokens";
 import { planSite, heroById, pageHeaderById, sectionComponent, decollideSections, spaciousTeamVariant } from "../variants/select";
 import { dedupeImages } from "../content/uniqueImages";
-import { PrimaryStyleProvider, MoreStyleProvider, type PrimaryStyle, type MoreStyle } from "../structures/primitives";
+import { PrimaryStyleProvider, MoreStyleProvider, SectionAlignProvider, type PrimaryStyle, type MoreStyle } from "../structures/primitives";
 import { IconSetProvider, iconSetById } from "../icons/iconSets";
 import { NavigationContext } from "./nav-context";
 import { Reveal } from "../motion/Reveal";
@@ -652,6 +652,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       <IconSetProvider value={iconSetById(plan.iconSetId)}>
       <PrimaryStyleProvider value={buttonStyle}>
       <MoreStyleProvider value={plan.moreStyle}>
+      <SectionAlignProvider value={plan.sectionAlign}>
         <NavigationContext.Provider value={navigate}>
           {rhythmSections.map((s, i) => {
             const node = renderSlot(s, i);
@@ -661,6 +662,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
             return <Reveal key={i}>{node}</Reveal>;
           })}
         </NavigationContext.Provider>
+      </SectionAlignProvider>
       </MoreStyleProvider>
       </PrimaryStyleProvider>
       </IconSetProvider>

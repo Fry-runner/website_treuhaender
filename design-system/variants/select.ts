@@ -10,7 +10,7 @@ import { heroVariants, primaryStyleVariants, presetAffinity, sectionVariants, pa
 import { kitById, kitsForAffinity } from "./kits";
 import { pickIconSet } from "../icons/iconSets";
 import type { StyleAffinity } from "../component-inventory";
-import type { PrimaryStyle, MoreStyle } from "../structures/primitives";
+import type { PrimaryStyle, MoreStyle, SectionAlign } from "../structures/primitives";
 import type { SiteContent } from "../content/types";
 
 function hash(s: string): number {
@@ -224,6 +224,9 @@ export interface SitePlan {
   /** the minimalist section→subpage "view all" link style — one per firm, supplied
    *  site-wide via MoreStyleProvider (consistent within a site, varied across firms). */
   moreStyle: MoreStyle;
+  /** section-heading alignment — one per firm so headings don't mix left & centre
+   *  across sections (consistency); supplied site-wide via SectionAlignProvider. */
+  sectionAlign: SectionAlign;
   affinity: StyleAffinity;
   /** the coherent style kit that constrained this plan */
   kitId: string;
@@ -399,7 +402,10 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
     sections.team = teamMembers.length === 1 ? "team/centered-bio" : "team/two-col";
   }
   const moreStyle = pickMoreStyle(affinity, content.meta.domain || content.meta.firm || "x", opts.seed ?? 0);
-  return { lookId, heroId, pageHeaderId, primaryStyle, moreStyle, affinity, kitId: kit.id, iconSetId, sections };
+  // One heading alignment per firm (≈1/3 centred, 2/3 left — left is the safer editorial
+  // default): keeps section headings consistent instead of mixing left & centre.
+  const sectionAlign: SectionAlign = hash((content.meta.domain || content.meta.firm || "x") + "·align") % 3 === 0 ? "center" : "left";
+  return { lookId, heroId, pageHeaderId, primaryStyle, moreStyle, sectionAlign, affinity, kitId: kit.id, iconSetId, sections };
 }
 
 /** Adjacency de-collision: walk a page's ACTUAL section order and, wherever two
