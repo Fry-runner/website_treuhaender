@@ -42,9 +42,13 @@ const monoStack = (f: string) => `"${f}", ui-monospace, SFMono-Regular, Menlo, m
  * moderate saturation and a confident mid-dark luminance, so every result reads
  * professional on a light neutral system — never neon or playful. `shift` derives
  * a harmonious companion (secondary) accent. Ordered loosely cool → warm.
+ * The navy+gold/bronze pairs are sourced from the UI/UX Pro Max finance/legal
+ * palette set ("Trust navy + premium gold") — a classic authority combination.
  */
-const GENERATED_ACCENTS: { h: number; s: number; l: number; shift: number }[] = [
+export const GENERATED_ACCENTS: { h: number; s: number; l: number; shift: number }[] = [
   { h: 215, s: 0.58, l: 0.30, shift: 22 },   // deep navy (classic finance trust)
+  { h: 216, s: 0.52, l: 0.28, shift: 180 },  // deep navy + premium gold (UI/UX Pro Max "Banking/Trust navy + gold")
+  { h: 226, s: 0.40, l: 0.25, shift: 174 },  // restrained authority navy + bronze (UI/UX Pro Max "Legal authority navy + gold")
   { h: 222, s: 0.55, l: 0.38, shift: -30 },  // royal blue → teal
   { h: 206, s: 0.40, l: 0.38, shift: 18 },   // steel / slate blue (swiss-precise)
   { h: 200, s: 0.58, l: 0.36, shift: 150 },  // azure + warm pop

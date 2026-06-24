@@ -14,7 +14,10 @@
  * endpoint / index.html), legible at text sizes, and tonally appropriate for a
  * Swiss Treuhänder (serious, precise, trustworthy — never novelty/display-only).
  * Pairings keep heading and body contrast sensible (grotesk display + neutral
- * sans, or serif display + clean sans).
+ * sans, or serif display + clean sans). Several finance/legal-trust pairings
+ * (Corporate Trust = Lexend·Source Sans 3, Financial Trust = IBM Plex Sans,
+ * Legal Professional = EB Garamond·Lato) are sourced from the UI/UX Pro Max
+ * typography database (finance/legal/professional moods).
  *
  * IMPORTANT: when you add a family here, also add it to the static <link> in
  * index.html (or it won't load in the playground/preview).
@@ -55,6 +58,8 @@ export const FONT_PAIRINGS: FontPairing[] = [
   { heading: "Epilogue",           body: "Public Sans",   mono: "JetBrains Mono", role: "display-geometric" },
   { heading: "Be Vietnam Pro",     body: "Mulish",        mono: "DM Mono",        role: "display-geometric" },
   { heading: "Lexend",             body: "Work Sans",     mono: "IBM Plex Mono",  role: "display-geometric" },
+  { heading: "Lexend",             body: "Source Sans 3", mono: "JetBrains Mono", role: "display-geometric" }, // UI/UX Pro Max "Corporate Trust" — finance/accessible
+  { heading: "IBM Plex Sans",      body: "IBM Plex Sans", mono: "IBM Plex Mono",  role: "display-geometric" }, // UI/UX Pro Max "Financial Trust" — banking/data
 
   // — serif-editorial: serif display headlines + a clean sans body (boutique) —
   { heading: "Fraunces",           body: "Inter",         mono: "JetBrains Mono", role: "serif-editorial", serif: true },
@@ -63,6 +68,7 @@ export const FONT_PAIRINGS: FontPairing[] = [
   { heading: "Spectral",           body: "Figtree",       mono: "JetBrains Mono", role: "serif-editorial", serif: true },
   { heading: "Lora",               body: "Karla",         mono: "IBM Plex Mono",  role: "serif-editorial", serif: true },
   { heading: "Playfair Display",   body: "Work Sans",     mono: "JetBrains Mono", role: "serif-editorial", serif: true },
+  { heading: "EB Garamond",        body: "Lato",          mono: "IBM Plex Mono",  role: "serif-editorial", serif: true }, // UI/UX Pro Max "Legal Professional" — authoritative/formal
 ];
 
 /** Every distinct family referenced above — handy for static font loading / QA. */
