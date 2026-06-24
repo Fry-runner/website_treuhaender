@@ -14,7 +14,7 @@ type Props = { content: FeatureContent };
 
 const sectionBase: React.CSSProperties = { background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" };
 const cover = (img: string): React.CSSProperties => ({ backgroundImage: `url("${img}")`, backgroundSize: "cover", backgroundPosition: "center" });
-const headingS = (light?: boolean): React.CSSProperties => ({ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display-h2, 1.9rem)", lineHeight: 1.15, color: light ? "#fff" : "var(--ds-text)", margin: 0 });
+const headingS = (light?: boolean): React.CSSProperties => ({ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display-h2, 1.9rem)", lineHeight: 1.15, color: light ? "var(--ds-bg)" : "var(--ds-text)", margin: 0 });
 const bodyS = (light?: boolean): React.CSSProperties => ({ fontFamily: "var(--ds-font-body)", fontSize: "1.02rem", lineHeight: 1.6, color: light ? "rgba(255,255,255,0.85)" : "var(--ds-text-muted)", margin: 0 });
 
 const Bullets: React.FC<{ items?: string[]; light?: boolean }> = ({ items, light }) => !items?.length ? null : (

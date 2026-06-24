@@ -23,7 +23,7 @@ const Highlights: React.FC<{ c: AboutContent; light?: boolean }> = ({ c, light }
   <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(c.highlights!.length, 4)}, minmax(0,1fr))`, gap: "1.2rem" }}>
     {c.highlights!.map((h, i) => (
       <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.2rem" }}>
-        <span style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "1.8rem", color: light ? "#fff" : "var(--ds-text)" }}>{h.value}</span>
+        <span style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "1.8rem", color: light ? "var(--ds-bg)" : "var(--ds-text)" }}>{h.value}</span>
         <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.78rem", color: light ? "rgba(255,255,255,0.7)" : "var(--ds-text-muted)" }}>{h.label}</span>
       </div>
     ))}
@@ -105,8 +105,8 @@ export const AboutBordered: React.FC<Props> = ({ content }) => (
 /** 8) Inverted dark band. */
 export const AboutDark: React.FC<Props> = ({ content }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)" }}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
-    <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "#fff", margin: "0 0 1.1rem" }}>{content.heading}</h2>
-    <p style={{ ...leadS, color: "#fff" }}>{content.lead}</p>
+    <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-bg)", margin: "0 0 1.1rem" }}>{content.heading}</h2>
+    <p style={{ ...leadS, color: "var(--ds-bg)" }}>{content.lead}</p>
     <div style={{ marginTop: "0.8rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}><Paras items={content.paragraphs} light /></div>
     {hasHi(content) && <div style={{ marginTop: "1.8rem", paddingTop: "1.6rem", borderTop: "1px solid rgba(255,255,255,0.18)" }}><Highlights c={content} light /></div>}
   </Container></section>

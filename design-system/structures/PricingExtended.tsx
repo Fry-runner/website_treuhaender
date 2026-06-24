@@ -19,7 +19,7 @@ const num = (i: number) => String(i + 1).padStart(2, "0");
 
 const Price: React.FC<{ t: PricingTier; light?: boolean; big?: boolean }> = ({ t, light, big }) => (
   <div style={{ display: "flex", alignItems: "baseline", gap: "0.3rem" }}>
-    <span style={{ ...priceS, fontSize: big ? "2.8rem" : "2rem", color: light ? "#fff" : "var(--ds-text)" }}>{t.price}</span>
+    <span style={{ ...priceS, fontSize: big ? "2.8rem" : "2rem", color: light ? "var(--ds-bg)" : "var(--ds-text)" }}>{t.price}</span>
     <span style={{ ...perS, color: light ? "rgba(255,255,255,0.7)" : "var(--ds-text-muted)" }}>{t.period}</span>
   </div>
 );
@@ -97,12 +97,12 @@ export const PricingDark: React.FC<Props> = ({ content, more }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)" }}>
     <Container>
       <div style={{ marginBottom: "2.2rem", textAlign: "center" }}>
-        <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "#fff", margin: 0 }}>{content.heading}</h2>
+        <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-bg)", margin: 0 }}>{content.heading}</h2>
       </div>
       <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.2rem" }}>
         {content.tiers.map((t, i) => (
           <div key={i} style={{ background: t.recommended ? "rgba(255,255,255,0.08)" : "transparent", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
-            {t.recommended && <RecoBadge />}<h3 style={{ ...nameS, color: "#fff" }}>{t.name}</h3><Price t={t} light /><Feats items={t.features} light />
+            {t.recommended && <RecoBadge />}<h3 style={{ ...nameS, color: "var(--ds-bg)" }}>{t.name}</h3><Price t={t} light /><Feats items={t.features} light />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
           </div>
         ))}
@@ -121,7 +121,7 @@ export const PricingGradientFeatured: React.FC<Props> = ({ content, more }) => (
           const g = t.recommended;
           return (
             <div key={i} className="ds-card" style={{ borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1rem", border: g ? "none" : "1px solid var(--ds-border)", backgroundImage: g ? "linear-gradient(150deg, var(--ds-primary), var(--ds-secondary))" : "none", background: g ? undefined : "var(--ds-bg)", boxShadow: g ? "var(--ds-shadow-card)" : "none" }}>
-              {g && <RecoBadge />}<h3 style={{ ...nameS, color: g ? "#fff" : "var(--ds-text)" }}>{t.name}</h3><Price t={t} light={g} /><Feats items={t.features} light={g} />
+              {g && <RecoBadge />}<h3 style={{ ...nameS, color: g ? "var(--ds-primary-fg)" : "var(--ds-text)" }}>{t.name}</h3><Price t={t} light={g} /><Feats items={t.features} light={g} />
               <Button variant={g ? "outline" : "primary"}>Auswählen</Button>
             </div>
           );

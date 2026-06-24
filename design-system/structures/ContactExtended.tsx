@@ -14,7 +14,7 @@ const sectionBase: React.CSSProperties = { background: "var(--ds-surface)", padd
 const fieldFor = (light?: boolean): React.CSSProperties => ({
   width: "100%", padding: "0.85rem 1rem", minHeight: "2.75rem", borderRadius: "var(--ds-radius)",
   border: light ? "1px solid rgba(255,255,255,0.45)" : "1px solid var(--ds-border)",
-  background: light ? "rgba(255,255,255,0.10)" : "var(--ds-bg)", color: light ? "#fff" : "var(--ds-text)",
+  background: light ? "rgba(255,255,255,0.10)" : "var(--ds-bg)", color: light ? "var(--ds-bg)" : "var(--ds-text)",
   fontFamily: "var(--ds-font-body)", fontSize: "0.95rem",
 });
 const labelFor = (light?: boolean): React.CSSProperties => ({
@@ -49,7 +49,7 @@ const InfoList: React.FC<{ info: ContactInfo; light?: boolean }> = ({ info, ligh
     {infoRows(info).map((r, i) => (
       <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.2rem" }}>
         <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem",   color: light ? "rgba(255,255,255,0.6)" : "var(--ds-text-muted)" }}>{r.l}</span>
-        <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.95rem", color: light ? "#fff" : "var(--ds-text)" }}>{r.v}</span>
+        <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.95rem", color: light ? "var(--ds-bg)" : "var(--ds-text)" }}>{r.v}</span>
       </div>
     ))}
   </div>
@@ -91,7 +91,7 @@ export const ContactSplitDark: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.4fr)", gap: "0", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
       <div style={{ background: "var(--ds-text)", padding: "2rem", display: "flex", flexDirection: "column", gap: "1.4rem" }}>
-        <div><h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.6rem", color: "#fff", margin: 0 }}>{content.heading}</h2></div>
+        <div><h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.6rem", color: "var(--ds-bg)", margin: 0 }}>{content.heading}</h2></div>
         <InfoList info={content.info} light />
       </div>
       <div style={{ background: "var(--ds-bg)", padding: "2rem" }}><Form cta={content.formCta} /></div>
@@ -199,7 +199,7 @@ export const ContactInfoCards: React.FC<Props> = ({ content }) => {
 /** 13) Inverted dark section with a light form. */
 export const ContactDarkForm: React.FC<Props> = ({ content }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)" }}><Container>
-    <div style={{ marginBottom: "1.8rem" }}><h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "#fff", margin: 0 }}>{content.heading}</h2></div>
+    <div style={{ marginBottom: "1.8rem" }}><h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-bg)", margin: 0 }}>{content.heading}</h2></div>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.6fr) minmax(0,1fr)", gap: "2rem", alignItems: "start" }}>
       <Form cta={content.formCta} light />
       <InfoList info={content.info} light />

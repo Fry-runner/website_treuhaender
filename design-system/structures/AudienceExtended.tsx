@@ -17,7 +17,7 @@ const bodyS: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize
 const cols = (n: number, cap = 4) => `repeat(${Math.min(n, cap)}, minmax(0,1fr))`;
 const initial = (s: string) => (s.trim()[0] ?? "•").toUpperCase();
 const Mark: React.FC<{ s: string; light?: boolean }> = ({ s, light }) => (
-  <span style={{ flex: "0 0 auto", width: "2.4rem", height: "2.4rem", borderRadius: "9999px", background: light ? "rgba(255,255,255,0.12)" : "var(--ds-primary-soft)", color: light ? "#fff" : "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "0.95rem" }}>{initial(s)}</span>
+  <span style={{ flex: "0 0 auto", width: "2.4rem", height: "2.4rem", borderRadius: "9999px", background: light ? "rgba(255,255,255,0.12)" : "var(--ds-primary-soft)", color: light ? "var(--ds-bg)" : "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "0.95rem" }}>{initial(s)}</span>
 );
 
 /** 1) Card grid. */
@@ -148,12 +148,12 @@ export const AudienceMinimal: React.FC<Props> = ({ content }) => (
 export const AudienceDark: React.FC<Props> = ({ content }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)" }}><Container>
     <div style={{ textAlign: "center", marginBottom: "2rem" }}>
-      <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "#fff", margin: 0 }}>{content.heading}</h2>
+      <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-bg)", margin: 0 }}>{content.heading}</h2>
     </div>
     <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.2rem" }}>
       {content.items.map((v, i) => (
         <div key={i} style={{ border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-          <Mark s={v.title} light /><h3 style={{ ...titleS, color: "#fff" }}>{v.title}</h3><p style={{ ...bodyS, color: "rgba(255,255,255,0.9)" }}>{v.body}</p>
+          <Mark s={v.title} light /><h3 style={{ ...titleS, color: "var(--ds-bg)" }}>{v.title}</h3><p style={{ ...bodyS, color: "rgba(255,255,255,0.9)" }}>{v.body}</p>
         </div>
       ))}
     </div>

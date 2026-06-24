@@ -17,7 +17,7 @@ const bodyS: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize
 const num = (i: number) => String(i + 1).padStart(2, "0");
 const cols = (n: number, cap = 4) => `repeat(${Math.min(n, cap)}, minmax(0,1fr))`;
 const Dot: React.FC<{ i: number; light?: boolean }> = ({ i, light }) => (
-  <span style={{ flex: "0 0 auto", width: "2.4rem", height: "2.4rem", borderRadius: "9999px", background: light ? "rgba(255,255,255,0.12)" : "var(--ds-primary-soft)", color: light ? "#fff" : "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", fontWeight: 700 }}>{num(i)}</span>
+  <span style={{ flex: "0 0 auto", width: "2.4rem", height: "2.4rem", borderRadius: "9999px", background: light ? "rgba(255,255,255,0.12)" : "var(--ds-primary-soft)", color: light ? "var(--ds-bg)" : "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", fontWeight: 700 }}>{num(i)}</span>
 );
 
 /** 1) Full-width numbered rows. */
@@ -218,12 +218,12 @@ export const ProcessMinimal: React.FC<Props> = ({ content }) => (
 export const ProcessDark: React.FC<Props> = ({ content }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)" }}><Container>
     <div style={{ textAlign: "center", marginBottom: "2rem" }}>
-      <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "#fff", margin: 0 }}>{content.heading}</h2>
+      <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-bg)", margin: 0 }}>{content.heading}</h2>
     </div>
     <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.2rem" }}>
       {content.steps.map((s, i) => (
         <div key={i} className="ds-card" style={{ border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-          <Dot i={i} light /><h3 style={{ ...titleS, color: "#fff" }}>{s.title}</h3><p style={{ ...bodyS, color: "rgba(255,255,255,0.9)" }}>{s.body}</p>
+          <Dot i={i} light /><h3 style={{ ...titleS, color: "var(--ds-bg)" }}>{s.title}</h3><p style={{ ...bodyS, color: "rgba(255,255,255,0.9)" }}>{s.body}</p>
         </div>
       ))}
     </div>
