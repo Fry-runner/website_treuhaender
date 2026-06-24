@@ -18,7 +18,7 @@ import { ICON_SETS } from "./icons/iconSets";
 import type { MoreStyle } from "./structures/primitives";
 import { MOTION_STYLE_IDS, type MotionStyleId } from "./motion/motionStyle";
 // Per-element option pools exposed in the studio / Durchwinken overlay.
-const MORE_STYLE_IDS: MoreStyle[] = ["underline", "arrow", "chip", "ghost", "boxed", "chevron"];
+const MORE_STYLE_IDS: MoreStyle[] = ["underline", "arrow", "chip", "ghost", "boxed", "chevron", "arrow-up", "dot", "arrow-box", "bracket", "pill-arrow"];
 import { kits } from "./variants/kits";
 import type { PrimaryStyle } from "./structures/primitives";
 import { composeSite, pageTypes } from "./pages";

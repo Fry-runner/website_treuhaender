@@ -27,6 +27,7 @@ export const SectionMore: React.FC<{ link?: MoreLink; tone?: "default" | "onImag
   let style: React.CSSProperties;
   let nudge = false;
   let trailing: React.ReactNode = null;
+  let leading: React.ReactNode = null;
   switch (variant) {
     case "arrow":
       style = { ...base, color: ink, paddingBottom: "0.2rem" }; nudge = true;
@@ -49,6 +50,34 @@ export const SectionMore: React.FC<{ link?: MoreLink; tone?: "default" | "onImag
         </span>
       );
       break;
+    case "arrow-up":
+      // diagonal "go to" arrow (distinct from the horizontal `arrow`)
+      style = { ...base, color: ink, paddingBottom: "0.2rem" }; nudge = true;
+      trailing = <Icon name="arrowUpRight" size={14} style={{ verticalAlign: "-0.1em" }} />;
+      break;
+    case "dot":
+      // a small primary dot leads the label — a quiet marker, no underline
+      style = { ...base, color: text };
+      leading = <span aria-hidden style={{ width: "0.5rem", height: "0.5rem", borderRadius: "9999px", background: ink, flex: "0 0 auto" }} />;
+      break;
+    case "arrow-box":
+      // the arrow sits in a small framed box that slides on hover (via .ds-arrow)
+      style = { ...base, color: text }; nudge = true;
+      trailing = (
+        <span className="ds-arrow" aria-hidden style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: "1.6rem", height: "1.6rem", borderRadius: "var(--ds-radius)", border: `1px solid ${onImg ? "rgba(255,255,255,0.6)" : "var(--ds-border)"}`, color: ink }}>
+          <Icon name="arrowRight" size={12} />
+        </span>
+      );
+      break;
+    case "bracket":
+      // a leading vertical accent rule (rule-led link), no underline
+      style = { ...base, color: strong, borderLeft: `2px solid ${ink}`, paddingLeft: "0.7rem" };
+      break;
+    case "pill-arrow":
+      // soft-tinted pill WITH a trailing arrow that nudges on hover
+      style = { ...base, color: ink, background: soft, borderRadius: "var(--ds-radius-pill, 9999px)", padding: "0.5rem 1.05rem" }; nudge = true;
+      trailing = <Icon name="arrowRight" size={13} style={{ verticalAlign: "-0.1em" }} />;
+      break;
     case "underline":
     default:
       style = { ...base, color: ink, borderBottom: `1.5px solid ${ink}`, paddingBottom: "0.28rem" };
@@ -56,7 +85,7 @@ export const SectionMore: React.FC<{ link?: MoreLink; tone?: "default" | "onImag
   }
   return (
     <a className={nudge ? "ds-nudge" : undefined} href={link.href} onClick={(e) => { e.preventDefault(); navigate(link.href); }} style={style}>
-      {link.label}{trailing}
+      {leading}{link.label}{trailing}
     </a>
   );
 };

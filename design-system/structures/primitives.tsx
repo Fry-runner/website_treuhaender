@@ -99,7 +99,7 @@ export const usePrimaryStyle = () => React.useContext(PrimaryStyleCtx);
  *  icon set — and supplied via context, so every forward link across the whole site
  *  shares one coherent minimalist treatment (consistency within a site), while it
  *  varies firm-to-firm (no single hardcoded "text + arrow" everywhere). */
-export type MoreStyle = "underline" | "arrow" | "chip" | "ghost" | "boxed" | "chevron";
+export type MoreStyle = "underline" | "arrow" | "chip" | "ghost" | "boxed" | "chevron" | "arrow-up" | "dot" | "arrow-box" | "bracket" | "pill-arrow";
 const MoreStyleCtx = React.createContext<MoreStyle>("underline");
 export const MoreStyleProvider = MoreStyleCtx.Provider;
 export const useMoreStyle = (): MoreStyle => React.useContext(MoreStyleCtx);

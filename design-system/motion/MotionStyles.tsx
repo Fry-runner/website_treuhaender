@@ -104,7 +104,9 @@ const CSS = `
     animation: ds-disclose calc(var(--ds-hover-dur,200ms) * 1.4) var(--ds-ease-hover,var(--ds-ease,ease-out));
   }
 
-  /* Header links: an animated underline that grows from the left on hover/current. */
+  /* Header links: the hover/current INDICATOR. The default is an underline that grows
+     from the left; a data-navlink attribute on .ds-nav-links swaps it per firm (set in
+     Nav.tsx) so the header links differ across sites instead of one global underline. */
   .ds-motion .ds-nav-link { position: relative; }
   .ds-motion .ds-nav-link::after {
     content: ""; position: absolute; left: 0; right: 0; bottom: -3px; height: 1.5px;
@@ -113,6 +115,27 @@ const CSS = `
   }
   .ds-motion .ds-nav-link:hover::after,
   .ds-motion .ds-nav-link[aria-current="page"]::after { transform: scaleX(1); }
+
+  /* ── per-firm indicator variants ── */
+  /* topbar: the same growing bar, but at the TOP edge */
+  .ds-motion .ds-nav-links[data-navlink="topbar"] .ds-nav-link::after { bottom: auto; top: -3px; }
+  /* color: no bar at all — the link just darkens (Responsive.tsx :hover/[aria-current]) */
+  .ds-motion .ds-nav-links[data-navlink="color"] .ds-nav-link::after { display: none; }
+  /* pill: a soft-tinted rounded highlight fades in instead of a bar */
+  .ds-motion .ds-nav-links[data-navlink="pill"] .ds-nav-link::after { display: none; }
+  .ds-motion .ds-nav-links[data-navlink="pill"] .ds-nav-link {
+    padding: 0.42rem 0.8rem; border-radius: var(--ds-radius-pill, 9999px);
+    transition: background-color var(--ds-hover-dur,200ms) var(--ds-ease-hover,var(--ds-ease,ease-out));
+  }
+  .ds-motion .ds-nav-links[data-navlink="pill"] .ds-nav-link:hover,
+  .ds-motion .ds-nav-links[data-navlink="pill"] .ds-nav-link[aria-current="page"] { background: var(--ds-primary-soft); }
+  /* dot: a small centred dot scales in below the link */
+  .ds-motion .ds-nav-links[data-navlink="dot"] .ds-nav-link::after {
+    left: 50%; right: auto; width: 5px; height: 5px; bottom: -6px; border-radius: 9999px;
+    transform: translateX(-50%) scale(0); transform-origin: center;
+  }
+  .ds-motion .ds-nav-links[data-navlink="dot"] .ds-nav-link:hover::after,
+  .ds-motion .ds-nav-links[data-navlink="dot"] .ds-nav-link[aria-current="page"]::after { transform: translateX(-50%) scale(1); }
 }
 `;
 

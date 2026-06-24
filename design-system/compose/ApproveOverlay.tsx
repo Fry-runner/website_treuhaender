@@ -24,7 +24,7 @@ import { heroVariants, primaryStyleVariants, sectionVariants, pageHeaderVariants
 import { kits } from "../variants/kits";
 import { ICON_SETS } from "../icons/iconSets";
 import { MOTION_STYLE_IDS, type MotionStyleId } from "../motion/motionStyle";
-const MORE_STYLE_IDS: MoreStyle[] = ["underline", "arrow", "chip", "ghost", "boxed", "chevron"];
+const MORE_STYLE_IDS: MoreStyle[] = ["underline", "arrow", "chip", "ghost", "boxed", "chevron", "arrow-up", "dot", "arrow-box", "bracket", "pill-arrow"];
 import {
   buildOutreachEmail, emlContent, mailtoHref, recipientFor,
   type OutreachEmail, type PublishedPlan,
