@@ -81,7 +81,7 @@
       "motion": {
         "durationMs": 600,
         "easing": "cubic-bezier(0.22,1,0.36,1)",
-        "intensity": "expressive"
+        "intensity": "moderate"
       },
       "background": {
         "treatment": "flat-white",
