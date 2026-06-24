@@ -178,6 +178,10 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   const genericVariant = genericHash(content.meta.domain || content.meta.firm || "x") + (seed ?? 0);
   const galleryContent = {
     ...heads.gallery,
+    // Pitch (cold-acquisition) fills this with licensed STOCK scenes — so never a heading
+    // that claims the firm's own premises ("Bei uns vor Ort." / "Impressionen aus {city}");
+    // a neutral, profession-generic label keeps the stock honest.
+    heading: pitch ? "Moderne Treuhand-Arbeit." : heads.gallery.heading,
     images: content.media?.photos ?? [],
     logo: content.media?.logo,
     badges: content.media?.badges ?? [],
@@ -346,11 +350,27 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   // the lede must not be echoed back as a "quote" — either case is two identical quotes.
   const heroContent = (() => {
     const h = content.hero;
-    const q = h.asideQuote?.trim();
-    if (!q) return h;
+    // (1) Headline quality: a title that is really just the firm name (± a legal suffix /
+    // location) or an all-lowercase brand string is no headline — use the benefit scaffold.
+    // Mirrors extract.ts; also repairs briefs frozen before that rule existed.
+    const brand = content.nav?.brand || "";
+    const full = [h.titleLead, h.titleAccent, h.titleTail].filter(Boolean).join(" ").trim();
+    const nz = (x: string) => x.toLowerCase().replace(/[^a-zäöü0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+    const hn = nz(full), fn = nz(brand);
+    const isName = !!fn && (hn === fn || (hn.includes(fn) && hn.replace(fn, " ").replace(/\b(ag|gmbh|kg|sa|sarl|gruppe|partner|treuhand|in|im|bei|zur|und|der|die|das|zh|be|lu|sg|tg|ar|sz|zg)\b/g, " ").replace(/\s+/g, " ").trim().split(" ").filter(Boolean).length <= 1));
+    const isLower = !!full && !/[A-ZÄÖÜ]/.test(full);
+    let hero = (isName || isLower) ? { ...h, titleLead: "Ihre Finanzen,", titleAccent: "klar geführt.", titleTail: "" } : h;
+    // (2) clip an over-long lede on a clean word boundary
+    if (hero.lede && hero.lede.length > 200) {
+      const w = hero.lede.slice(0, 180); const sp = w.lastIndexOf(" ");
+      hero = { ...hero, lede: (sp > 100 ? w.slice(0, sp) : w).replace(/[\s,;:–-]+$/, "") + "…" };
+    }
+    // (3) aside-quote dedup (a real testimonial / the lede must not be echoed as a quote)
+    const q = hero.asideQuote?.trim();
+    if (!q) return hero;
     const dupesTestimonial = (content.testimonials?.items ?? []).some((t) => normHead(t.quote) === normHead(q));
-    if (dupesTestimonial || normHead(q) === normHead(h.lede)) return { ...h, asideQuote: "", asideLabel: "", asideAttribution: "" };
-    return h;
+    if (dupesTestimonial || normHead(q) === normHead(hero.lede)) return { ...hero, asideQuote: "", asideLabel: "", asideAttribution: "" };
+    return hero;
   })();
 
   const renderSlot = (s: string, i: number): React.ReactNode => {

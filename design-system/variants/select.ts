@@ -91,6 +91,32 @@ function pickFit<T extends { id: string; looks: StyleAffinity[]; min?: number; n
   return pick(eligiblePool(list, allowed, aff, count, hasImage), seed);
 }
 
+/**
+ * Trust & Authority selection bias (the Zusammenspiel lever). The proof slots now sit
+ * in load-bearing roles — `partners` as the credibility band right under the hero,
+ * `stats`/`testimonials` as the social-proof cluster before the CTA — so prefer the
+ * AUTHORITATIVE / PERSUASIVE layouts for each over the showy or weak ones. Matched by
+ * variant-id suffix; intersected with the firm's eligible pool. Falls back to the full
+ * pool when a firm's kit/affinity offers none of the preferred set, so per-firm variety
+ * (a core goal) is preserved — this only biases WHICH eligible variant wins, never adds
+ * an ineligible one. Source: the UI/UX Pro Max "Trust & Authority" landing pattern.
+ */
+const TRUST_PREFER: Record<string, string[]> = {
+  // a tidy accreditation/logo WALL (Treuhand Suisse, Expert Suisse, GAAP …) — not a
+  // gimmicky auto-scroll marquee or a loud tinted/dark band
+  partners:     ["strip", "grid", "badges-large", "divided", "boxed", "left-label", "stacked", "columns", "checklist", "two-rows", "bordered", "heading"],
+  // bold, legible metric displays
+  stats:        ["big-numbers", "panel", "gradient-band", "telemetry", "ring", "divided", "leading", "cards", "bordered-cards", "headline-pair"],
+  // prominent, persuasive proof directly before the ask — not a thin minimal list
+  testimonials: ["spotlight", "big-quote", "split-rating", "feature-side", "panel", "rating-header", "two-col", "grid", "carousel", "avatar-cards"],
+};
+function preferTrust<T extends { id: string }>(pool: T[], slot: string): T[] {
+  const pref = TRUST_PREFER[slot];
+  if (!pref) return pool;
+  const narrowed = pool.filter((v) => pref.includes(v.id.split("/")[1] || ""));
+  return narrowed.length ? narrowed : pool;
+}
+
 /** A section variant's loud visual "treatment". The diversity pass below caps how
  *  many sections on one page may share a loud treatment, so a site never becomes
  *  dark-band-after-dark-band (or all zig-zag). Quiet textures (cards, lists,
@@ -213,11 +239,14 @@ export interface SitePlan {
  *  applied site-wide — so these links are consistent within a site but differ across
  *  firms (no single hardcoded "text + arrow"). */
 const MORE_STYLES_BY_AFF: Record<string, MoreStyle[]> = {
-  editorial: ["underline", "chevron", "arrow"],
-  swiss: ["boxed", "underline", "arrow"],
-  soft: ["ghost", "chip", "chevron"],
-  warm: ["underline", "ghost", "chip"],
-  any: ["underline", "arrow", "chip", "ghost", "boxed", "chevron"],
+  // 11 forward-link looks, spread per affinity. `underline` is deliberately NOT first
+  // anywhere (it had dominated, so every site showed the same animated line) — it's now
+  // just one editorial option among many.
+  editorial: ["bracket", "arrow-up", "dot", "underline", "arrow"],
+  swiss:     ["boxed", "arrow-box", "bracket", "chevron", "arrow"],
+  soft:      ["ghost", "pill-arrow", "chip", "dot", "chevron"],
+  warm:      ["pill-arrow", "arrow-up", "ghost", "dot", "chip"],
+  any:       ["arrow", "arrow-up", "dot", "bracket", "chip", "ghost", "boxed", "chevron", "arrow-box", "pill-arrow", "underline"],
 };
 function pickMoreStyle(aff: StyleAffinity, firmKey: string, seed: number): MoreStyle {
   const pool = MORE_STYLES_BY_AFF[aff] ?? MORE_STYLES_BY_AFF.any;
@@ -295,7 +324,10 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
     // `min` gates by real item count (sparse firms avoid half-empty multi-col
     // layouts); slotHasImage gates image-only section variants (e.g. services
     // media-cards only when every card has a photo — real or stock fallback).
-    sections[slot] = pickFit(list, kit.sections[slot], affinity, base + hash(slot), slotCount(content, slot), slotHasImage(content, slot)).id;
+    // preferTrust then biases the PROOF slots toward authoritative/persuasive
+    // layouts within that eligible pool (falls back to the full pool otherwise).
+    const pool = eligiblePool(list, kit.sections[slot], affinity, slotCount(content, slot), slotHasImage(content, slot));
+    sections[slot] = pick(preferTrust(pool, slot), base + hash(slot)).id;
   }
   // Tonal coherence: on a LIGHT site a very-dark inverted band (cta/inverted,
   // feature/dark, stats/dark …) reads as a jarring break in the otherwise light flow.
@@ -306,7 +338,7 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
     for (const slot of Object.keys(sectionVariants)) {
       const id = sections[slot];
       if (!id || !isInvertedSection(id)) continue;
-      const pool = eligiblePool(sectionVariants[slot], kit.sections[slot], affinity, slotCount(content, slot), slotHasImage(content, slot));
+      const pool = preferTrust(eligiblePool(sectionVariants[slot], kit.sections[slot], affinity, slotCount(content, slot), slotHasImage(content, slot)), slot);
       const alt = pickNonInverted(pool, base + hash(slot));
       if (alt) sections[slot] = alt.id;
     }
@@ -323,7 +355,7 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
     const cap = ARCHETYPE_CAP[tag];
     if (cap === undefined) continue;
     if ((tagCounts[tag] ?? 0) < cap) { tagCounts[tag] = (tagCounts[tag] ?? 0) + 1; continue; }
-    const pool = eligiblePool(sectionVariants[slot], kit.sections[slot], affinity, slotCount(content, slot), slotHasImage(content, slot));
+    const pool = preferTrust(eligiblePool(sectionVariants[slot], kit.sections[slot], affinity, slotCount(content, slot), slotHasImage(content, slot)), slot);
     const alt = pool.find((v) => {
       // On a light site, "dark" still has headroom after suppression (count 0), so the
       // generic swap below could pull an inverted band back in — forbid it explicitly.
@@ -351,7 +383,7 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
     const id = sections[slot];
     if (!id || familyOf(id) !== "cards") continue;
     if (cardsUsed < CARDS_CAP) { cardsUsed += 1; continue; }
-    const pool = eligiblePool(sectionVariants[slot], kit.sections[slot], affinity, slotCount(content, slot), slotHasImage(content, slot));
+    const pool = preferTrust(eligiblePool(sectionVariants[slot], kit.sections[slot], affinity, slotCount(content, slot), slotHasImage(content, slot)), slot);
     const alt = pool.find((v) => familyOf(v.id) !== "cards" && !(siteLight && isInvertedSection(v.id)));
     if (alt) sections[slot] = alt.id;
     else cardsUsed += 1; // no non-cards option in this slot/kit → keep it
@@ -359,6 +391,13 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
   // No real person photos → force the tile-free text team layout, so employee
   // cards never show empty placeholder image tiles (we never fake faces with stock).
   if (sectionVariants.team && !(content.team?.members?.some((m) => m.photo))) sections.team = "team/plain";
+  // A 1-2 person team in a multi-column grid reads as sparse (one lonely card). When
+  // those few people DO have photos, feature them prominently: a centered solo bio, or
+  // two large side-by-side cards. (No-photo small teams keep the clean text block above.)
+  const teamMembers = content.team?.members ?? [];
+  if (sectionVariants.team && teamMembers.some((m) => m.photo) && teamMembers.length <= 2) {
+    sections.team = teamMembers.length === 1 ? "team/centered-bio" : "team/two-col";
+  }
   const moreStyle = pickMoreStyle(affinity, content.meta.domain || content.meta.firm || "x", opts.seed ?? 0);
   return { lookId, heroId, pageHeaderId, primaryStyle, moreStyle, affinity, kitId: kit.id, iconSetId, sections };
 }
@@ -386,7 +425,7 @@ export function decollideSections(
     if (!list) continue;                                  // chrome/structure slot: no family
     let id = out[slot];
     if (id && prevFam && familyOf(id) === prevFam && !opts.locked?.has(slot)) {
-      let pool = eligiblePool(list, kit?.sections[slot], plan.affinity, slotCount(content, slot), slotHasImage(content, slot));
+      let pool = preferTrust(eligiblePool(list, kit?.sections[slot], plan.affinity, slotCount(content, slot), slotHasImage(content, slot)), slot);
       if (siteLight) { const nd = pool.filter((v) => !isInvertedSection(v.id)); if (nd.length) pool = nd; }
       const alt = pickAvoiding(pool, base + hash(slot), prevFam);
       if (alt) { id = alt.id; out[slot] = id; }

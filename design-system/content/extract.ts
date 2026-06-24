@@ -1878,7 +1878,24 @@ const h1: string = tidyText(fixEncoding((home.headings?.h1 || [])[0] || ""));
 const desc: string = tidyText(fixEncoding(home.meta?.description || ""));
 // Hero headline/lede come from the HOME page — only honoured when the home is German
 // (a French home → German scaffold defaults), and never when the text itself is French.
-const heroHeadlineReal = homeDe && h1 && h1.length > 8 && h1.length < 90 && h1.toLowerCase() !== firm.toLowerCase() && !looksFrench(h1) && !isCorrupted(h1);
+// A scraped H1 is only a USABLE hero headline when it reads like one — not the firm's
+// name (± a legal suffix / location), and not an all-lowercase unstyled brand string.
+// Otherwise fall back to the benefit scaffold. (Was: only an EXACT firm-name match was
+// rejected, so "aurora treuhand ag in Zumikon ZH" slipped through as the headline.)
+const headlineIsName = (() => {
+  if (!h1) return false;
+  const norm = (x: string) => x.toLowerCase().replace(/[^a-zäöü0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+  const hn = norm(h1), fn = norm(firm);
+  if (!fn) return false;
+  if (hn === fn) return true;
+  if (hn.includes(fn)) { // firm name present, and only legal/location filler remains
+    const rest = hn.replace(fn, " ").replace(/\b(ag|gmbh|kg|sa|sarl|gruppe|partner|treuhand|in|im|bei|zur|und|der|die|das|zh|be|lu|sg|tg|ar|sz|zg)\b/g, " ").replace(/\s+/g, " ").trim();
+    if (rest.split(" ").filter(Boolean).length <= 1) return true;
+  }
+  return false;
+})();
+const isLowercaseH1 = !!h1 && !/[A-ZÄÖÜ]/.test(h1); // an unstyled, all-lowercase brand string
+const heroHeadlineReal = homeDe && h1 && h1.length > 8 && h1.length < 90 && !headlineIsName && !isLowercaseH1 && !looksFrench(h1) && !isCorrupted(h1);
 const ledeReal = homeDe && desc && desc.length > 30 && !looksFrench(desc) && !isCorrupted(desc);
 
 // --- archetype (still drives variant affinity + per-page section sets) ---
@@ -2063,7 +2080,7 @@ const content: SiteContent = {
     eyebrow: `Treuhand · ${c}`,
     titleLead: heroHeadlineReal ? h1 : "Ihre Finanzen,",
     titleAccent: heroHeadlineReal ? "" : "klar geführt.",
-    lede: ledeReal ? desc : `Buchhaltung, Steuern und Beratung für KMU und Privatpersonen in ${c}. Persönlich, präzise und vorausschauend an Ihrer Seite.`,
+    lede: ledeReal ? clipProse(desc, 180) : `Buchhaltung, Steuern und Beratung für KMU und Privatpersonen in ${c}. Persönlich, präzise und vorausschauend an Ihrer Seite.`,
     primaryCta: bookCta, secondaryCta: "Leistungen",
     // The hero aside is a REAL-quote slot: a scraped testimonial, else empty (the hero
     // then hides the aside). Never echo the lede/meta-description back as a "quote", and

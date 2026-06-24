@@ -23,19 +23,28 @@ export interface BlueprintSection {
  * appear here; planned-but-unrendered slots (intro/profile/quote/article-body) are
  * intentionally kept out of the backbone (`map` stays as a gated optional).
  */
+// Order follows the UI/UX Pro Max "Trust & Authority + Conversion" landing pattern:
+// Hero → PROOF (credentials) → SOLUTION → supporting → SOCIAL PROOF → CTA. Hard
+// credibility (accreditation badges) sits right under the hero; the persuasive
+// proof (stats, named quotes) clusters directly before the conversion ask. Every
+// proof slot is still content-gated in plan.ts (kept only with REAL data), so a
+// firm without badges/quotes simply collapses that step.
 export const canonicalHomepage: BlueprintSection[] = [
   { slot: "nav",          presence: "always",   note: "logo L · nav C · 'Termin buchen' R + language switch" },
   { slot: "hero",         presence: "always",   note: "benefit headline + 2 CTAs + in-hero trust nibble (rating/clients)" },
+  // — Proof: immediate credibility under the hero —
+  { slot: "partners",     presence: "often",    note: "Treuhand Suisse, Expert Suisse, Swiss GAAP FER, software badges — accreditation up front" },
+  // — Solution overview —
   { slot: "services",     presence: "always",   note: "cards; inline 'ab CHF X/Monat' where the model allows" },
   { slot: "values",       presence: "always",   note: "4-6 pillars: digital · transparent · personal · compliant" },
   { slot: "audience",     presence: "often",    note: "industry pages or persona cards" },
-  { slot: "testimonials", presence: "always",   note: "named quotes (person·company·city) + aggregate metric/rating" },
-  { slot: "stats",        presence: "often",    note: "clients, cantons, languages, years" },
   { slot: "process",      presence: "often",    note: "3 steps; reduces switching anxiety" },
   { slot: "team",         presence: "often",    note: "real faces; central for boutique/owner-led" },
   { slot: "pricing",      presence: "often",    note: "tiers or calculator (doubles as lead tool)" },
-  { slot: "partners",     presence: "often",    note: "Treuhand Suisse, Expert Suisse, Swiss GAAP FER, software badges" },
   { slot: "faq",          presence: "always",   note: "5-8 objection-handling Q&A" },
+  // — Social proof directly before the conversion ask —
+  { slot: "stats",        presence: "often",    note: "clients, cantons, languages, years" },
+  { slot: "testimonials", presence: "always",   note: "named quotes (person·company·city) + aggregate metric/rating" },
   { slot: "map",          presence: "optional", note: "multi-location firms only" },
   { slot: "cta",          presence: "always",   note: "'Bereit? Termin buchen.'" },
   { slot: "contact",      presence: "always",   note: "form + office info + map; booking as primary path" },

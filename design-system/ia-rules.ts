@@ -15,13 +15,15 @@
 export const HOME_MAX_CONTENT = 8;
 
 /**
- * When the home exceeds the budget, drop the lowest-priority SUPPORTING sections —
- * generic/proof/secondary first. Never hero/services/cta/contact, never values/team
- * (those are not in this list, so they are never dropped). The renderer applies a
- * CONTENT-STRENGTH tie-break on top of this order (a section the firm has little real
- * material for is dropped before a richer one); this list is the priority baseline.
+ * When the home exceeds the budget, drop the lowest-priority SUPPORTING sections
+ * first. Aligned with the Trust & Authority pattern (blueprints.ts): generic framing
+ * (process / audience) and decorative gallery go FIRST; the credibility PROOF —
+ * stats, named testimonials, and especially the accreditation `partners` band — is
+ * protected and dropped LAST, so a trimmed home keeps its trust signals. Never
+ * hero/services/cta/contact, never values/team (absent here → never dropped). The
+ * renderer applies a CONTENT-STRENGTH tie-break on top; this list is the baseline.
  */
-export const HOME_DROP_ORDER: string[] = ["stats", "process", "audience", "testimonials", "gallery", "partners", "faq"];
+export const HOME_DROP_ORDER: string[] = ["process", "audience", "gallery", "faq", "stats", "testimonials", "partners"];
 
 export interface PreviewRule {
   /** owner subpage pageType this section belongs to */

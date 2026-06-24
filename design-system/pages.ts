@@ -11,7 +11,7 @@
  * The HOME page's section order still comes from blueprints.ts (composeHomepage);
  * every other page type carries its own section sequence here.
  */
-import { composeHomepage, archetypes, type ArchetypeId, type LayoutSlot, type Presence } from "./blueprints.ts";
+import { composeHomepage, archetypes, canonicalHomepage, type ArchetypeId, type LayoutSlot, type Presence } from "./blueprints.ts";
 import type { SiteContent } from "./content/types.ts";
 
 /** Section slots usable on a page — homepage slots plus a few page-only ones. */
@@ -68,7 +68,11 @@ export const pageTypes: Record<string, PageType> = {
     id: "about", name: "Über uns", slugBase: "/ueber-uns",
     // `history` (company timeline) sits right after the story prose; it only renders
     // when the scrape yielded ≥3 dated milestones (gated in SiteRouter), else dropped.
-    sections: ["nav", "page-header", "about", "history", "values", "stats", "team", "gallery", "cta", "footer"],
+    // `partners` (accreditation/credential band) is included so a firm WITHOUT real "Über
+    // uns" prose still has a substantive, honest /ueber-uns leaning on credentials —
+    // instead of a near-empty title+CTA shell. Each slot is content-gated, so it only
+    // shows when present (and is suppressed in pitch mode, where credentials are dropped).
+    sections: ["nav", "page-header", "about", "history", "values", "partners", "stats", "team", "gallery", "cta", "footer"],
     attributes: { purpose: "Trust + story", seoWeight: "medium", contentNeeds: ["about", "values", "team"] },
   },
   team: {
@@ -166,6 +170,12 @@ function pageHasRealContent(pageType: string, content?: SiteContent): boolean {
   }
 }
 
+/** Canonical homepage slot order (single source of truth in blueprints.ts). Used to
+ *  normalise the rendered home sequence so a section-order rule change takes effect
+ *  even on briefs whose slot order was frozen at an earlier extraction. */
+const HOME_ORDER: string[] = canonicalHomepage.map((s) => s.slot);
+const homeRank = (slot: string): number => { const i = HOME_ORDER.indexOf(slot); return i === -1 ? HOME_ORDER.length : i; };
+
 /**
  * Resolve a page-ref list into a full sitemap, expanding repeatable page types.
  * `homeSlots` is the homepage section sequence (from the content-driven brief,
@@ -194,9 +204,13 @@ export function resolvePages(
     if (!pt.repeat && pt.id !== "home" && !pageHasRealContent(pt.id, content)) continue;
 
     if (pt.id === "home") {
+      // Normalise to the canonical Trust & Authority order (blueprints.ts) regardless
+      // of the order frozen into an older brief — so a section-order rule change applies
+      // to every site without re-extraction. Stable sort; any unknown slot sinks last.
+      const sections = [...homeSlots].sort((a, b) => homeRank(a) - homeRank(b));
       out.push({
         pageType: "home", slug: "/", title: content?.meta.firm ?? "Home",
-        sections: [...homeSlots], presence: ref.presence,
+        sections, presence: ref.presence,
       });
     } else if (pt.repeat === "perService") {
       const items = content?.services.items ?? [];
