@@ -204,7 +204,24 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   // the owner page makes `sectionTeaser` render the home values/gallery in FULL (no
   // "Mehr über uns" link to an empty page) instead of as about-previews.
   const hasUeberUns = !!content.about || (content.team?.members?.length ?? 0) > 0 || !!content.history;
-  const pages = hasUeberUns ? allPages : allPages.filter((p) => p.pageType !== "about");
+  // Synthesise the /ueber-uns page when real story content exists but the frozen brief
+  // carried no about ref (the scrape found no dedicated about URL, yet prose/team/history
+  // WAS extracted — e.g. distilled from the home). Without this, that real content is
+  // stranded as a home-only block with no owner page and no nav entry. Realises the
+  // hasUeberUns intent above ("keep it whenever ANY of those is real").
+  const ensureAbout = (ps: ResolvedPage[]): ResolvedPage[] => {
+    if (ps.some((p) => p.pageType === "about")) return ps;
+    const pt = pageTypes.about;
+    const teamPg = ps.some((p) => p.pageType === "team");
+    const about: ResolvedPage = {
+      pageType: "about", slug: pt.slugBase, title: pt.name,
+      sections: teamPg ? pt.sections.filter((s) => s !== "team") : pt.sections,
+      presence: "always",
+    };
+    const at = ps.findIndex((p) => p.pageType === "contact" || p.pageType === "legal");
+    return at >= 0 ? [...ps.slice(0, at), about, ...ps.slice(at)] : [...ps, about];
+  };
+  const pages = hasUeberUns ? ensureAbout(allPages) : allPages.filter((p) => p.pageType !== "about");
   const [slug, setSlug] = useState("/");
   const navigate = (s: string) => { setSlug(s); if (typeof window !== "undefined") window.scrollTo(0, 0); };
   const page: ResolvedPage = pages.find((p) => p.slug === slug) ?? pages[0];
@@ -401,7 +418,20 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       case "stats": { const C = sectionComponent("stats", renderPlan) ?? Stats; return <C key={i} content={{ ...content.stats, items: statItems }} />; }
       case "process": { const C = sectionComponent("process", renderPlan); return C ? <C key={i} content={{ ...(content.process ?? defaultProcess(genericVariant)), image: sceneForSlot("process", i) }} /> : null; }
       case "audience": { const C = sectionComponent("audience", renderPlan); if (!C) return null; const a = content.audience ?? defaultAudience(genericVariant); return <C key={i} content={{ ...(isHome ? { ...a, items: a.items.slice(0, 3) } : a), image: sceneForSlot("audience", i) }} />; }
-      case "about": { const C = sectionComponent("about", renderPlan); if (!C) return null; const a = content.about ?? defaultAbout(); const heading = echoesPageTitle(a.heading) ? aboutAlt : a.heading; return <C key={i} content={{ ...a, heading, image: sceneForSlot("about", i) }} />; }
+      case "about": {
+        const C = sectionComponent("about", renderPlan); if (!C) return null;
+        const a = content.about ?? defaultAbout();
+        const heading = echoesPageTitle(a.heading) ? aboutAlt : a.heading;
+        // A 450+ char single-paragraph lead is a text wall. Split (don't truncate) so no
+        // content is lost: the first two sentences stay as the lead, the remainder becomes
+        // the leading body paragraph. Only fires on very long leads with sentence breaks.
+        let a2 = a;
+        if (a.lead && a.lead.length > 320) {
+          const m = a.lead.match(/^([\s\S]*?[.!?]\s+[\s\S]*?[.!?])\s+([\s\S]+)$/);
+          if (m) a2 = { ...a, lead: m[1], paragraphs: [m[2], ...(a.paragraphs ?? [])] };
+        }
+        return <C key={i} content={{ ...a2, heading, image: sceneForSlot("about", i) }} />;
+      }
       // Scrape-ONLY: rendered solely from real dated milestones, never scaffolded.
       case "history": { const C = sectionComponent("history", renderPlan); if (!C || !content.history) return null; return <C key={i} content={content.history} />; }
       case "feature": { const C = sectionComponent("feature", renderPlan); if (!C || !scenePool.length) return null; const ord = rhythmSections.slice(0, i).filter((x) => x === "feature").length; const img = isHome ? homeSceneAt(i) : featureImageAt(ord); if (!img) return null; return <C key={i} content={featureBand(img, ord, content.featureAngles)} />; }
