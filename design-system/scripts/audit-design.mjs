@@ -137,6 +137,15 @@ GENERATED_ACCENTS.forEach((a, idx) => {
   }
 });
 
+// ── D5: trust-first motion dial (UI/UX taste-skill) ────────────────────────────
+// A fiduciary is a trust-first industry; the taste-skill's dial table caps MOTION low.
+// No baked look may carry the "expressive" (cinematic) tier — deriveLook caps it to
+// "moderate" and applyLook enforces the same at render. Guards against regression.
+for (const f of exFiles) {
+  const c = JSON.parse(fs.readFileSync(path.join(exDir, f), "utf8"));
+  if (c.meta?.look?.motion?.intensity === "expressive") add("error", "D5", `content/examples/${f}`, 0, `look motion is "expressive" — a fiduciary (trust-first) caps motion to "moderate" (taste-skill dial)`);
+}
+
 // ── report ─────────────────────────────────────────────────────────────────────
 const errors = findings.filter((f) => f.severity === "error");
 const warns = findings.filter((f) => f.severity === "warn");

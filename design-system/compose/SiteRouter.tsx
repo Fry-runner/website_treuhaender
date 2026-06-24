@@ -377,10 +377,12 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
     const isName = !!fn && (hn === fn || (hn.includes(fn) && hn.replace(fn, " ").replace(/\b(ag|gmbh|kg|sa|sarl|gruppe|partner|treuhand|in|im|bei|zur|und|der|die|das|zh|be|lu|sg|tg|ar|sz|zg)\b/g, " ").replace(/\s+/g, " ").trim().split(" ").filter(Boolean).length <= 1));
     const isLower = !!full && !/[A-ZÄÖÜ]/.test(full);
     let hero = (isName || isLower) ? { ...h, titleLead: "Ihre Finanzen,", titleAccent: "klar geführt.", titleTail: "" } : h;
-    // (2) clip an over-long lede on a clean word boundary
-    if (hero.lede && hero.lede.length > 200) {
-      const w = hero.lede.slice(0, 180); const sp = w.lastIndexOf(" ");
-      hero = { ...hero, lede: (sp > 100 ? w.slice(0, sp) : w).replace(/[\s,;:–-]+$/, "") + "…" };
+    // (2) clip an over-long lede on a clean word boundary. Tightened to ~150 chars
+    // (≈ 22 words) — the UI/UX taste-skill caps hero subtext at ~20 words; the old
+    // 180-char bound still let some ledes run long (treuhandschmid hit 97 words).
+    if (hero.lede && hero.lede.length > 170) {
+      const w = hero.lede.slice(0, 150); const sp = w.lastIndexOf(" ");
+      hero = { ...hero, lede: (sp > 90 ? w.slice(0, sp) : w).replace(/[\s,;:–-]+$/, "") + "…" };
     }
     // (3) aside-quote dedup (a real testimonial / the lede must not be echoed as a quote)
     const q = hero.asideQuote?.trim();

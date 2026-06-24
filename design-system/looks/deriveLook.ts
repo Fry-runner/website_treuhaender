@@ -152,12 +152,23 @@ export function deriveLook(
   const hintHue = opts.logoColor ? hue(opts.logoColor) : (brand.primary ? hue(brand.primary) : undefined);
   const gen = generatedAccent(opts.firmKey || "x", opts.seed ?? 0, hintHue);
   const accentPrimary = logo ?? scraped ?? gen.primary;
-  const accentSecondary = scraped ? brand.secondary : (logo ? undefined : gen.secondary); // logo/scraped secondary may be undefined
+  // Single-accent discipline (UI/UX taste-skill: "max 1 accent, lock it"). Keep a REAL
+  // scraped second brand colour, but never INVENT a generated companion accent — a
+  // fabricated 2nd hue is exactly the inconsistency the skill warns against. Logo /
+  // generated firms stay single-accent (secondary falls back to primary below).
+  const accentSecondary = scraped ? brand.secondary : undefined;
 
   // 2) Frame it in a modern preset chosen for the effective accent hue.
   const basePresetId = pickBase({ serif: !!brand.heading?.serif, accentHue: hue(accentPrimary), firmKey: opts.firmKey, seed: opts.seed });
   notes.push(`base: ${basePresetId}`);
   const t: DesignTokens = structuredClone(presets[basePresetId]);
+  // Trust-first dial (UI/UX taste-skill): a fiduciary caps MOTION low — never the
+  // "expressive"/cinematic tier that reads as a SaaS/agency tell. (applyLook enforces
+  // the same cap at render for already-baked looks.)
+  if (t.motion.intensity === "expressive") t.motion.intensity = "moderate";
+  // Trust-first density (taste-skill dial: trust-first ≈ medium 4-5, not art-gallery-airy).
+  // A fiduciary should read substantive, not sparse — nudge an "airy" rhythm to "normal".
+  if (t.spacing.rhythm === "airy") t.spacing.rhythm = "normal";
   const bg = t.color.bg;
 
   // 3) Tint the accent(s) in with proper contrast.

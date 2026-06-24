@@ -49,7 +49,10 @@ export function applyLook(t: DesignTokens): LookVars {
   // look barely moves; an "expressive" one is livelier). Consumed by the global
   // MotionStyles classes (.ds-btn/.ds-card/.ds-nudge/.ds-img-zoom), all of which are
   // gated behind prefers-reduced-motion: no-preference.
-  const ix = t.motion.intensity;
+  // TRUST-FIRST DIAL (UI/UX taste-skill): a fiduciary is a trust-first industry — the
+  // skill's dial table caps MOTION at 2-3 (low). "expressive" (cinematic) reads as a
+  // SaaS/agency tell here, so cap it to "moderate" site-wide (calm, never static).
+  const ix = t.motion.intensity === "expressive" ? "moderate" : t.motion.intensity;
   const m3 = (s: string, m: string, e: string) => (ix === "subtle" ? s : ix === "expressive" ? e : m);
   return {
     // colors
@@ -80,16 +83,18 @@ export function applyLook(t: DesignTokens): LookVars {
     "--ds-shadow-card": shadow(t.shadow.card),
     // spacing & motion — section padding & gutter are fluid (clamp); --ds-space /
     // --ds-space-block carry the look's rhythm/density into intra-section spacing.
+    // Trust-first density (taste-skill): nudge an "airy" rhythm to "normal" so a fiduciary
+    // reads substantive, not art-gallery-sparse. Enforced here for already-baked looks too.
     "--ds-section-y": sectionY(t.spacing.sectionY),
-    "--ds-space": space(t.spacing.rhythm),
-    "--ds-space-block": spaceBlock(t.spacing.rhythm),
+    "--ds-space": space(t.spacing.rhythm === "airy" ? "normal" : t.spacing.rhythm),
+    "--ds-space-block": spaceBlock(t.spacing.rhythm === "airy" ? "normal" : t.spacing.rhythm),
     "--ds-container": t.spacing.containerMax,
     "--ds-gutter": gutter(t.spacing.gutter),
     "--ds-duration": `${t.motion.durationMs}ms`,
     "--ds-ease": t.motion.easing,
     // scroll-reveal distance/duration scale with the look's motion intensity
-    "--ds-reveal-dist": t.motion.intensity === "subtle" ? "10px" : t.motion.intensity === "expressive" ? "26px" : "18px",
-    "--ds-reveal-dur": t.motion.intensity === "subtle" ? "500ms" : t.motion.intensity === "expressive" ? "640ms" : "560ms",
+    "--ds-reveal-dist": ix === "subtle" ? "10px" : ix === "expressive" ? "26px" : "18px",
+    "--ds-reveal-dur": ix === "subtle" ? "500ms" : ix === "expressive" ? "640ms" : "560ms",
     // micro-interaction magnitudes (hover/press/zoom/nudge), intensity-scaled
     "--ds-hover-lift": m3("-2px", "-3px", "-5px"),
     "--ds-hover-dur": `${Math.round(t.motion.durationMs * 0.7)}ms`,

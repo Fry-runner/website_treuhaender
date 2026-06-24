@@ -66,9 +66,16 @@ function slotHasImage(content: SiteContent, slot: string): boolean {
  *  image-only variants when no real image exists, and variants whose `min` item
  *  count isn't met. Hard image gate widens kit→affinity; the `min` gate falls
  *  back to the closest (lowest-min) fit so a slot always renders something. */
+// Trust-first dial (UI/UX taste-skill): a fiduciary avoids GLOW-GRADIENT bands
+// (hero/gradient, cta/gradient(-split), stats/gradient-band, pricing/gradient-featured)
+// and AUTO-MARQUEES (testimonials/partners/gallery marquee) — both read as SaaS/agency
+// tells. Dropped industry-wide from EVERY pool (hero + sections). Scroll-snap "rail"/
+// "scroller" stay — they're user-driven, not endless auto-scroll.
+const TRUST_OFF_CONCEPT = /\/(gradient|marquee)(-|$)/;
 function eligiblePool<T extends { id: string; looks: StyleAffinity[]; min?: number; needsImage?: boolean }>(
   list: T[], allowed: string[] | undefined, aff: StyleAffinity, count: number, hasImage: boolean,
 ): T[] {
+  list = list.filter((v) => !TRUST_OFF_CONCEPT.test(v.id));
   const affPool = compatible(list, aff);
   let pool = affPool;
   if (allowed && allowed.length) {
@@ -320,7 +327,13 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
   const textHeaders = pageHeaderVariants.filter((v) => phFamily(v.id) !== heroFamily);
   const phPool = hasSubpageImg && photoHeaders.length ? photoHeaders : (textHeaders.length ? textHeaders : pageHeaderVariants);
   const pageHeaderId = pickFit(phPool, undefined, affinity, base + hash("page-header"), Infinity, hasSubpageImg).id;
-  const primaryStyle: PrimaryStyle = pickFrom(primaryStyleVariants, kit.button, affinity, base + 1).id;
+  // Trust-first dial (UI/UX taste-skill): a fiduciary never wears a glassmorphism or
+  // glow-gradient CTA — those read as SaaS/agency. Drop them from the button pool so the
+  // per-firm button style stays restrained. (Shape variety — offset / bevel / mono /
+  // bordered / pill — stays: that's coherent variety, not a slop tell.)
+  const TRUST_FIRST_EXCLUDE_BUTTON = new Set(["glass", "bloom", "gradient", "gradientPill", "gradientBorder"]);
+  const buttonPool = primaryStyleVariants.filter((b) => !TRUST_FIRST_EXCLUDE_BUTTON.has(b.id));
+  const primaryStyle: PrimaryStyle = pickFrom(buttonPool, kit.button, affinity, base + 1).id;
   const iconSetId = pickIconSet(affinity, content.meta.domain || content.meta.firm || "x", opts.seed ?? 0, kit.icons).id;
   const sections: Record<string, string> = {};
   for (const [slot, list] of Object.entries(sectionVariants)) {
