@@ -5,7 +5,7 @@
  * The recommended tier is highlighted consistently per layout (no AI-tell side-tabs).
  */
 import React, { useState } from "react";
-import { Container, Button } from "./primitives";
+import { Container, Button, InvertedTone } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import { SectionHead, type MoreLink } from "./SectionHead";
 import type { PricingContent, PricingTier } from "../content/types";
@@ -99,6 +99,9 @@ export const PricingDark: React.FC<Props> = ({ content, more }) => (
       <div style={{ marginBottom: "2.2rem", textAlign: "center" }}>
         <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-bg)", margin: 0 }}>{content.heading}</h2>
       </div>
+      {/* The whole band paints --ds-text as its ground → every CTA is on dark. Wrap the
+          grid so each Button flips to its inverted, ground-independent style. */}
+      <InvertedTone>
       <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.2rem" }}>
         {content.tiers.map((t, i) => (
           <div key={i} style={{ background: t.recommended ? "rgba(255,255,255,0.08)" : "transparent", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -107,6 +110,7 @@ export const PricingDark: React.FC<Props> = ({ content, more }) => (
           </div>
         ))}
       </div>
+      </InvertedTone>
     </Container>
   </section>
 );
@@ -122,7 +126,10 @@ export const PricingGradientFeatured: React.FC<Props> = ({ content, more }) => (
           return (
             <div key={i} className="ds-card" style={{ borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1rem", border: g ? "none" : "1px solid var(--ds-border)", backgroundImage: g ? "linear-gradient(150deg, var(--ds-primary), var(--ds-secondary))" : "none", background: g ? undefined : "var(--ds-bg)", boxShadow: g ? "var(--ds-shadow-card)" : "none" }}>
               {g && <RecoBadge />}<h3 style={{ ...nameS, color: g ? "var(--ds-primary-fg)" : "var(--ds-text)" }}>{t.name}</h3><Price t={t} light={g} /><Feats items={t.features} light={g} />
-              <Button variant={g ? "outline" : "primary"}>Auswählen</Button>
+              {/* Gradient-filled card: flip the button to a legible inverted solid. */}
+              {g
+                ? <InvertedTone><Button variant="primary">Auswählen</Button></InvertedTone>
+                : <Button variant="primary">Auswählen</Button>}
             </div>
           );
         })}
@@ -199,7 +206,10 @@ export const PricingOutline: React.FC<Props> = ({ content, more }) => (
             <div key={i} className="ds-card" style={{ borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1rem", border: "1.5px solid var(--ds-primary)", background: f ? "var(--ds-primary)" : "transparent" }}>
               {f && <RecoBadge />}<h3 style={{ ...nameS, color: f ? "var(--ds-primary-fg)" : "var(--ds-text)" }}>{t.name}</h3>
               <Price t={t} light={f} /><Feats items={t.features} light={f} />
-              <Button variant={f ? "outline" : "primary"}>Auswählen</Button>
+              {/* On the primary-filled (often dark) card a plain outline button is dark-on-dark; InvertedTone flips it to a legible --ds-bg solid. */}
+              {f
+                ? <InvertedTone><Button variant="primary">Auswählen</Button></InvertedTone>
+                : <Button variant="primary">Auswählen</Button>}
             </div>
           );
         })}

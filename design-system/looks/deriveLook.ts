@@ -17,7 +17,7 @@
  */
 import { presets, type DesignTokens } from "../tokens.ts";
 import type { BrandSignals } from "../content/brand.ts";
-import { luminance, mix, ensureContrast, rgb, hue, saturation, fromHsl } from "./color.ts";
+import { luminance, mix, ensureContrast, contrast, rgb, hue, saturation, fromHsl } from "./color.ts";
 import { pickPairing } from "./fontPairings.ts";
 
 /** Light, modern presets we dress brands in (dark-premium excluded by default). */
@@ -163,12 +163,15 @@ export function deriveLook(
   // 3) Tint the accent(s) in with proper contrast.
   const primary = ensureContrast(accentPrimary, bg, 3.2);
   t.color.primary = primary;
-  t.color.primaryFg = luminance(primary) < 0.5 ? "#FFFFFF" : t.color.text;
+  // Pick the label colour with the better REAL contrast against the fill (not a crude
+  // luminance split) — applyLook enforces the ≥4.5 floor at paint, this keeps the baked
+  // value consistent with it.
+  t.color.primaryFg = contrast("#FFFFFF", primary) >= contrast(t.color.text, primary) ? "#FFFFFF" : t.color.text;
   t.color.primarySoft = mix(bg, primary, 0.08);          // faint wash for highlight backgrounds
   if (accentSecondary) {
     const sec = ensureContrast(accentSecondary, bg, 3.0);
     t.color.secondary = sec;
-    t.color.secondaryFg = luminance(sec) < 0.5 ? "#FFFFFF" : t.color.text;
+    t.color.secondaryFg = contrast("#FFFFFF", sec) >= contrast(t.color.text, sec) ? "#FFFFFF" : t.color.text;
   } else {
     t.color.secondary = primary;
     t.color.secondaryFg = t.color.primaryFg;

@@ -10,19 +10,20 @@
 import type { CSSProperties } from "react";
 import type { DesignTokens } from "../tokens";
 import { radius, shadow, sectionY, weight, display, displayH2, headTracking, space, spaceBlock, gutter } from "./scales";
-import { ensureContrast, luminance } from "./color";
+import { ensureContrast, luminance, contrast } from "./color";
 
 export type LookVars = CSSProperties & Record<string, string | number>;
 
 export function applyLook(t: DesignTokens): LookVars {
-  // Supporting text must stay legible on whichever surface it lands on. Several
-  // presets ship a muted grey that fails WCAG AA on their own bg (e.g. boost
-  // #94A3B8 ≈ 2.8:1). Enforce ≥4.5:1 against the harder of bg/surface — the one
-  // whose luminance sits closest to the muted tone — so the other passes too.
-  const lm = luminance(t.color.textMuted);
-  const harderBg = Math.abs(luminance(t.color.surface) - lm) < Math.abs(luminance(t.color.bg) - lm)
-    ? t.color.surface : t.color.bg;
-  const textMuted = ensureContrast(t.color.textMuted, harderBg, 4.5);
+  // Supporting text must clear WCAG AA on EVERY surface it can land on — the page bg,
+  // the neutral surface, AND the faint primary-soft tint that FAQ / feature bands paint.
+  // Several presets ship a muted grey that fails on the tinted bands specifically
+  // (e.g. #6A7378 ≈ 4.3:1 on a soft tint). Darken progressively against each candidate;
+  // the darkest requirement wins, so it passes on all three.
+  let textMuted = t.color.textMuted;
+  for (const b of [t.color.bg, t.color.surface, t.color.primarySoft].filter(Boolean) as string[]) {
+    textMuted = ensureContrast(textMuted, b, 4.5);
+  }
   // The brand primary used AS TEXT / links on a page surface must stay legible too:
   // vibrant accents (lime, signal-red) fail AA as small text on white. `--ds-primary-ink`
   // is the primary corrected to >=4.5:1 against the harder of bg/surface for text/link
@@ -31,6 +32,18 @@ export function applyLook(t: DesignTokens): LookVars {
   const harderForPrimary = Math.abs(luminance(t.color.surface) - lp) < Math.abs(luminance(t.color.bg) - lp)
     ? t.color.surface : t.color.bg;
   const primaryInk = ensureContrast(t.color.primary, harderForPrimary, 4.5);
+  // A primary-FILLED button/CTA must clear AA between its label and the fill. The baked
+  // --ds-primary-fg used a crude luminance split (white when primary lum < 0.5), leaving
+  // white at ~3.9–4.3:1 on mid-luminance brand colours (a medium blue, a terracotta).
+  // Pick the label with the better REAL contrast; if a mid-tone accent leaves even the
+  // best below 4.5, darken the FILL just enough for white to clear AA. The brand hue is
+  // preserved for text/links via --ds-primary-ink; only genuine mid-tones shift the fill.
+  let primaryFill = t.color.primary;
+  let primaryFg = contrast("#FFFFFF", primaryFill) >= contrast(t.color.text, primaryFill) ? "#FFFFFF" : t.color.text;
+  if (contrast(primaryFg, primaryFill) < 4.5) {
+    primaryFill = ensureContrast(primaryFill, "#FFFFFF", 4.5);
+    primaryFg = "#FFFFFF";
+  }
   // Micro-interaction magnitudes scale with the look's motion intensity, so hover
   // lifts / presses / image zoom / arrow nudges stay COHERENT per firm (a "subtle"
   // look barely moves; an "expressive" one is livelier). Consumed by the global
@@ -45,9 +58,9 @@ export function applyLook(t: DesignTokens): LookVars {
     "--ds-text": t.color.text,
     "--ds-text-muted": textMuted,
     "--ds-border": t.color.border,
-    "--ds-primary": t.color.primary,
+    "--ds-primary": primaryFill,
     "--ds-primary-ink": primaryInk,
-    "--ds-primary-fg": t.color.primaryFg,
+    "--ds-primary-fg": primaryFg,
     "--ds-primary-soft": t.color.primarySoft,
     "--ds-secondary": t.color.secondary ?? t.color.primary,
     // type
