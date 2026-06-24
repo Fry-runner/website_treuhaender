@@ -12,18 +12,21 @@ const sectionBase: React.CSSProperties = { background: "var(--ds-bg)", paddingBl
 const label: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" };
 const big = (size: string, color = "var(--ds-text)"): React.CSSProperties => ({ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: size, color, lineHeight: 1 });
 
-/** 1) Number inside a static decorative ring (no data-driven fill). */
+/** 1) Number inside a thin decorative ring FRAME (a circular frame, not a progress
+ *  gauge — stat values aren't percentages, so a bold "full" stroke implied a 100% fill
+ *  it never had). A hairline track + a short primary tick read as a designed frame. */
 export const StatsRing: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.4rem" }}>
         {content.items.map((s, i) => (
-          <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.6rem", textAlign: "center" }}>
-            <div style={{ position: "relative", width: "7rem", height: "7rem" }}>
+          <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.7rem", textAlign: "center" }}>
+            <div style={{ position: "relative", width: "6.5rem", height: "6.5rem" }}>
               <svg viewBox="0 0 100 100" style={{ width: "100%", height: "100%" }} aria-hidden>
-                <circle cx="50" cy="50" r="44" fill="none" stroke="var(--ds-primary)" strokeWidth="6" />
+                <circle cx="50" cy="50" r="46" fill="none" stroke="var(--ds-border)" strokeWidth="2" />
+                <circle cx="50" cy="50" r="46" fill="none" stroke="var(--ds-primary)" strokeWidth="3" strokeLinecap="round" strokeDasharray="20 269" transform="rotate(-90 50 50)" />
               </svg>
-              <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", ...big("1.4rem", "var(--ds-primary)") }}><CountUp value={s.value} /></div>
+              <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", ...big("1.5rem", "var(--ds-text)") }}><CountUp value={s.value} /></div>
             </div>
             <div style={label}>{s.label}</div>
           </div>

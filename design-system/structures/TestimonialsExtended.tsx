@@ -188,16 +188,21 @@ export const TestimonialsRail: React.FC<Props> = ({ content }) => (
   </section>
 );
 
-/** 9) Hairline-divided quote list. */
+/** 9) Numbered quote list — a large mono index numeral (01, 02 …) leads each entry as
+ *  a left rail, delivering the "numbered" identity (was an UNnumbered hairline list,
+ *  visually a duplicate of minimal-list / panel). */
 export const TestimonialsNumbered: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container style={{ maxWidth: "min(var(--ds-container), 840px)" }}>
       <Head c={content} />
       <div>
         {content.items.map((t, i) => (
-          <figure key={i} style={{ margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem", padding: "1.4rem 0", borderTop: "1px solid var(--ds-border)" }}>
-            <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "1rem", lineHeight: 1.55, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
-            <figcaption style={capStyle}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaFull(t) && <> · {metaFull(t)}</>}</figcaption>
+          <figure key={i} style={{ margin: 0, display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.4rem", alignItems: "baseline", padding: "1.5rem 0", borderTop: "1px solid var(--ds-border)" }}>
+            <span aria-hidden style={{ fontFamily: "var(--ds-font-mono)", fontSize: "1.4rem", fontWeight: 700, color: "var(--ds-primary)", lineHeight: 1, fontVariantNumeric: "tabular-nums" }}>{String(i + 1).padStart(2, "0")}</span>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+              <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "1rem", lineHeight: 1.55, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
+              <figcaption style={capStyle}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaFull(t) && <> · {metaFull(t)}</>}</figcaption>
+            </div>
           </figure>
         ))}
       </div>

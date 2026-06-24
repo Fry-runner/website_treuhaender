@@ -184,14 +184,20 @@ export const FeatureMinimal: React.FC<Props> = ({ content }) => (
   </Container></section>
 );
 
-/** 15) Image with the eyebrow as a chip overlay + text beside. */
+/** 15) Image with the eyebrow rendered as an actual CHIP OVERLAY on the photo corner,
+ *  text beside (was a plain photo with NO chip + an inline text column — a worse-factored
+ *  clone of split-right). Chip is data-gated; reuses the shared <Text>. A solid --ds-bg
+ *  chip stays legible on any photo. */
 export const FeatureChipOverlay: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: "2.6rem", alignItems: "center" }}>
       <div style={{ position: "relative" }}>
         <Photo img={content.image} style={{ minHeight: "360px" }} />
+        {content.eyebrow && (
+          <span style={{ position: "absolute", top: "1rem", left: "1rem", padding: "0.45rem 0.9rem", borderRadius: "var(--ds-radius-pill)", background: "var(--ds-bg)", color: "var(--ds-primary-ink, var(--ds-primary))", fontFamily: "var(--ds-font-body)", fontSize: "0.72rem", fontWeight: 600, boxShadow: "var(--ds-shadow-card)" }}>{content.eyebrow}</span>
+        )}
       </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.1rem" }}><h2 style={headingS()}>{content.heading}</h2><p style={bodyS()}>{content.body}</p><Bullets items={content.bullets} />{content.cta && <div><Button variant="primary" to={content.cta.href}>{content.cta.label}</Button></div>}</div>
+      <Text c={content} />
     </div>
   </Container></section>
 );

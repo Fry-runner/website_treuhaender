@@ -245,13 +245,16 @@ export const AboutLeadHighlightsSplit: React.FC<Props> = ({ content }) => (
   </Container></section>
 );
 
-/** 22) Ruled paragraph milestones. */
+/** 22) Numbered milestone paragraphs — a mono index (01, 02 …) leads each story step
+ *  as a left rail, so the rhythm reads as deliberate milestones (was plain ruled prose
+ *  where nothing read as "milestones"). Honest: numbers index the steps, no fake dates. */
 export const AboutMilestones: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <p style={{ ...leadS, marginBottom: "1.4rem" }}>{content.lead}</p>
     <div>{content.paragraphs.map((p, i) => (
-      <div key={i} style={{ padding: "1rem 0", borderTop: "1px solid var(--ds-border)" }}>
+      <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.2rem", alignItems: "baseline", padding: "1.1rem 0", borderTop: "1px solid var(--ds-border)" }}>
+        <span aria-hidden style={{ fontFamily: "var(--ds-font-mono)", fontSize: "1.1rem", fontWeight: 700, color: "var(--ds-primary)", lineHeight: 1.4, fontVariantNumeric: "tabular-nums" }}>{String(i + 1).padStart(2, "0")}</span>
         <p style={paraS}>{p}</p>
       </div>
     ))}</div>

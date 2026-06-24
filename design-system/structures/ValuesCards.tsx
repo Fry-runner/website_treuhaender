@@ -11,7 +11,9 @@ export const ValuesCards: React.FC<{ content: ValuesContent; more?: MoreLink }> 
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.2rem" }}>
         {content.items.map((v, i) => (
           <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-            <div aria-hidden style={{ width: "2.4rem", height: "2.4rem", borderRadius: "var(--ds-radius)", background: "var(--ds-primary-soft)" }} />
+            {/* a short primary accent rule, not an empty placeholder box (which read as a
+                missing-icon tile / "AI-generated" filler) */}
+            <div aria-hidden style={{ width: "2rem", height: "3px", borderRadius: "2px", background: "var(--ds-primary)" }} />
             <h4 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.05rem", color: "var(--ds-text)", margin: 0 }}>{v.title}</h4>
             <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", lineHeight: 1.5, color: "var(--ds-text-muted)", margin: 0 }}>{v.body}</p>
           </div>

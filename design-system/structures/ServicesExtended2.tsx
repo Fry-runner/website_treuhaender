@@ -13,15 +13,17 @@ const titleS: React.CSSProperties = { fontFamily: "var(--ds-font-heading)", font
 const bodyS: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0 };
 const priceS: React.CSSProperties = { fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 600 };
 
-/** 1) Cards with a circular icon badge, centered. */
+/** 1) Cards led by a per-service monogram badge (the service's initial), left-aligned.
+ *  (Was an identical `check` glyph on every card — a meaningless, repetitive badge;
+ *  a monogram gives each service its own mark without faking a semantic icon.) */
 export const ServicesIconCards: React.FC<Props> = ({ content, more, onPick }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} center />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px,1fr))", gap: "1.2rem" }}>
         {content.items.map((s, i) => (
-          <article key={i} className="ds-card" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.7rem", cursor: onPick ? "pointer" : "default" }}>
-            <div style={{ width: "3rem", height: "3rem", borderRadius: "9999px", background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", display: "flex", alignItems: "center", justifyContent: "center" }}><Icon name="check" size={18} /></div>
+          <article key={i} className="ds-card" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "0.7rem", cursor: onPick ? "pointer" : "default" }}>
+            <div aria-hidden style={{ width: "2.8rem", height: "2.8rem", borderRadius: "9999px", background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "1.1rem" }}>{(s.title.trim()[0] || "•").toUpperCase()}</div>
             <h3 style={titleS}>{s.title}</h3>
             <p style={bodyS}>{s.summary}</p>
             {s.price && <span style={priceS}>{s.price}</span>}

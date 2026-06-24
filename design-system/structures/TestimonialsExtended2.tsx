@@ -24,6 +24,18 @@ const Rating: React.FC<{ c: TestimonialsContent }> = ({ c }) => (
     <span style={cap}>{c.reviewCount}</span>
   </div>
 );
+/** Five star glyphs filled to an AGGREGATE rating (0–5). Honest: the firm's overall
+ *  score (content.rating), NOT a fabricated per-testimonial rating. */
+const StarRow: React.FC<{ rating?: string | number; size?: number }> = ({ rating, size = 20 }) => {
+  const r = Math.max(0, Math.min(5, Math.round(Number(String(rating ?? "").replace(",", ".")) || 0)));
+  return (
+    <span aria-hidden style={{ display: "inline-flex", gap: "0.2rem" }}>
+      {Array.from({ length: 5 }, (_, i) => (
+        <span key={i} style={{ display: "inline-flex", color: i < r ? "var(--ds-primary)" : "var(--ds-border)" }}><Icon name="star" size={size} /></span>
+      ))}
+    </span>
+  );
+};
 const Head: React.FC<{ c: TestimonialsContent; rating?: boolean }> = ({ c, rating = true }) => (
   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "1rem", marginBottom: "2.2rem" }}>
     <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}><Eyebrow>{c.eyebrow}</Eyebrow><h2 style={headingStyle}>{c.heading}</h2></div>
@@ -193,11 +205,20 @@ export const TestimonialsMarquee: React.FC<Props> = ({ content }) => {
   );
 };
 
-/** 9) Quote cards (no per-item rating exists, so no fabricated star row). */
+/** 9) Quote cards under a prominent AGGREGATE star rating. Honest: the stars show the
+ *  firm's OVERALL score (content.rating) once, clearly labelled — not a fabricated
+ *  per-testimonial row (no per-item rating data exists). Delivers the "stars" identity
+ *  instead of being a plain duplicate of the avatar/quote-wall cards. */
 export const TestimonialsStars: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
-      <Head c={content} />
+      <Head c={content} rating={false} />
+      {content.rating && (
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem", marginBottom: "2rem" }}>
+          <StarRow rating={content.rating} size={24} />
+          <div style={cap}><strong style={{ color: "var(--ds-text)" }}>{content.rating}</strong> / 5{content.reviewCount ? <> · {content.reviewCount}</> : null}</div>
+        </div>
+      )}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.2rem" }}>
         {content.items.map((t, i) => (
           <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}>

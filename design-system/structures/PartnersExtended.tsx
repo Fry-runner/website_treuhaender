@@ -52,13 +52,25 @@ export const PartnersStacked: React.FC<Props> = ({ content }) => (
   </Container></section>
 );
 
-/** 4) Marks in a centered auto-fitting grid. */
-export const PartnersGrid: React.FC<Props> = ({ content }) => (
-  <section style={section}><Container>
-    <div style={{ textAlign: "center", marginBottom: "1.6rem" }}><span style={labelS}>{content.label}</span></div>
-    <div style={{ display: "flex", flexWrap: "wrap", gap: "1.6rem 2.4rem", justifyContent: "center", alignItems: "center" }}><Marks content={content} /></div>
-  </Container></section>
-);
+/** 4) Marks in a TRUE even auto-fitting grid — equal cell heights, hairline separators
+ *  via a 1px gap over a border-coloured backing (not a centered flex-wrap, which was
+ *  indistinguishable from `stacked`/`boxed`). */
+export const PartnersGrid: React.FC<Props> = ({ content }) => {
+  const marks = content.badges && content.badges.length ? content.badges : content.items;
+  const isImg = !!(content.badges && content.badges.length);
+  return (
+    <section style={section}><Container>
+      <div style={{ textAlign: "center", marginBottom: "1.6rem" }}><span style={labelS}>{content.label}</span></div>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))", gap: "1px", background: "var(--ds-border)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
+        {marks.map((m, i) => (
+          <div key={i} style={{ background: "var(--ds-surface)", padding: "1.5rem 1rem", display: "flex", alignItems: "center", justifyContent: "center", minHeight: "3.5rem" }}>
+            {isImg ? <img src={m} alt="" style={badgeS} /> : <span style={itemS}>{m}</span>}
+          </div>
+        ))}
+      </div>
+    </Container></section>
+  );
+};
 
 /** 5) Zero-gap bordered cells. */
 export const PartnersBordered: React.FC<Props> = ({ content }) => {
