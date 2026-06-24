@@ -17,7 +17,7 @@ export const Faq: React.FC<{ content: FaqContent }> = ({ content }) => (
               <span>{f.q}</span>
               <span className="ds-faq-chev" aria-hidden style={{ color: "var(--ds-text-muted)", display: "inline-flex", flexShrink: 0 }}><Icon name="chevronDown" size={18} /></span>
             </summary>
-            <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: "0.7rem 0 0" }}>{f.a}</p>
+            <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: "0.7rem 0 0", maxWidth: "62ch" }}>{f.a}</p>
           </details>
         ))}
       </div>

@@ -11,7 +11,10 @@ import type { FaqContent } from "../content/types";
 type Props = { content: FaqContent };
 const sectionBase: React.CSSProperties = { background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" };
 const q: React.CSSProperties = { fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", color: "var(--ds-text)", margin: 0 };
-const a: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0 };
+// Cap the answer to a readable measure (~65 chars). In a full-width 1-col layout an FAQ
+// answer otherwise runs 130+ chars/line; the cap keeps it within the 60–75 ch comfort
+// range (no effect inside the narrower 2-col layouts, which are already below it).
+const a: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0, maxWidth: "62ch" };
 const num = (i: number) => String(i + 1).padStart(2, "0");
 
 /** 1) Numbered Q&A rows. */

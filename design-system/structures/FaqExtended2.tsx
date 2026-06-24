@@ -10,7 +10,8 @@ import type { FaqContent } from "../content/types";
 type Props = { content: FaqContent };
 const sectionBase: React.CSSProperties = { background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" };
 const q: React.CSSProperties = { fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", color: "var(--ds-text)", margin: 0 };
-const a: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0 };
+// ~65-char comfort cap (no effect in the narrower 2-col layouts; tames the full-width ones).
+const a: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0, maxWidth: "62ch" };
 const num = (i: number) => String(i + 1).padStart(2, "0");
 
 /** 1) Each row with a circular "?" badge. */

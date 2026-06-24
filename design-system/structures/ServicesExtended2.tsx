@@ -10,7 +10,8 @@ import type { ServicesContent } from "../content/types";
 type Props = { content: ServicesContent; more?: MoreLink; onPick?: (title: string) => void };
 const sectionBase: React.CSSProperties = { background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" };
 const titleS: React.CSSProperties = { fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.1rem", color: "var(--ds-text)", margin: 0 };
-const bodyS: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0 };
+// ~65-char comfort cap — no effect inside narrow cards, tames the full-width list/row layouts.
+const bodyS: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0, maxWidth: "62ch" };
 const priceS: React.CSSProperties = { fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 600 };
 
 /** 1) Cards led by a per-service monogram badge (the service's initial), left-aligned.
