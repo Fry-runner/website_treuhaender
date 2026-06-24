@@ -37,7 +37,7 @@ export interface StyleKit {
 export const kits: StyleKit[] = [
   {
     id: "editorial-minimal",
-    icons: ["hairline"],
+    icons: ["hairline", "beveled"],
     name: "Editorial Minimal",
     description: "Ruhig, typografie-getrieben, Haarlinien statt Schatten, viel Weißraum. Serifige, redaktionelle Anmutung.",
     looks: ["editorial"],
@@ -61,7 +61,7 @@ export const kits: StyleKit[] = [
   },
   {
     id: "swiss-grid",
-    icons: ["geometric", "line"],
+    icons: ["geometric", "line", "heavy-square", "beveled"],
     name: "Swiss Grid",
     description: "Präzise, bordierte Raster und Haarlinien, Mono-Labels, eckige Kanten, klar strukturiert.",
     looks: ["swiss"],
@@ -85,7 +85,7 @@ export const kits: StyleKit[] = [
   },
   {
     id: "soft-rounded",
-    icons: ["bold", "duotone"],
+    icons: ["bold", "duotone", "fine-round", "glow"],
     name: "Soft Rounded",
     description: "Abgerundet, weiche Schattenkarten, freundlich, Pill-Buttons, getönte Panels.",
     looks: ["soft"],
@@ -109,7 +109,7 @@ export const kits: StyleKit[] = [
   },
   {
     id: "warm-editorial",
-    icons: ["hairline", "line"],
+    icons: ["hairline", "line", "fine-round"],
     name: "Warm Editorial",
     description: "Papierwarm, redaktionell-gemischt, alternierende Reihen, Pull-Quotes, dezente Ghost-Buttons.",
     looks: ["warm"],
@@ -133,7 +133,7 @@ export const kits: StyleKit[] = [
   },
   {
     id: "bold-dark",
-    icons: ["bold", "geometric"],
+    icons: ["bold", "geometric", "heavy-square", "glow"],
     name: "Bold Dark",
     description: "Hoher Kontrast, dunkle invertierte Bänder, Gradient-Akzente, dramatisch und plakativ.",
     looks: ["swiss", "soft"],
@@ -157,7 +157,7 @@ export const kits: StyleKit[] = [
   },
   {
     id: "premium-gradient",
-    icons: ["duotone", "bold"],
+    icons: ["duotone", "bold", "glow"],
     name: "Premium Gradient",
     description: "Stripe/Vercel-artig: Mesh-Gradients, Glas, animierte Akzente, runde Formen, modernes SaaS-Gefühl.",
     looks: ["soft", "swiss"],
@@ -181,7 +181,7 @@ export const kits: StyleKit[] = [
   },
   {
     id: "corporate-trust",
-    icons: ["line", "geometric"],
+    icons: ["line", "geometric", "heavy-square", "beveled"],
     name: "Corporate Trust",
     description: "Konservativ, seriös, Glaubwürdigkeit zuerst: bordierte Boxen, solide Buttons, Zertifizierungs-Logos, klassische Karten. Zurückhaltend und vertrauensbildend.",
     looks: ["swiss", "editorial"],
@@ -205,7 +205,7 @@ export const kits: StyleKit[] = [
   },
   {
     id: "boutique-luxe",
-    icons: ["hairline"],
+    icons: ["hairline", "fine-round"],
     name: "Boutique Luxe",
     description: "Premium und edel, viel Weißraum, gerahmte Porträts, Pull-Quotes, feine Link-/Ghost-Buttons. Hochwertige, kuratierte Boutique-Anmutung.",
     looks: ["editorial", "warm"],
@@ -229,7 +229,7 @@ export const kits: StyleKit[] = [
   },
   {
     id: "playful-soft",
-    icons: ["bold", "duotone"],
+    icons: ["bold", "duotone", "fine-round", "glow"],
     name: "Playful Soft",
     description: "Energiegeladen und freundlich: durchgehend runde Formen, Pill-/Bloom-Buttons, Bento, Kreis-Avatare, Chat-Bubbles, Sterne. Lebendig und nahbar.",
     looks: ["soft", "warm"],
@@ -253,7 +253,7 @@ export const kits: StyleKit[] = [
   },
   {
     id: "editorial-magazine",
-    icons: ["hairline", "line"],
+    icons: ["hairline", "line", "beveled", "fine-round"],
     name: "Editorial Magazine",
     description: "Ausdrucksstarke Redaktions-Ästhetik: große Typo-Hierarchie, Kapitel-Opener, Riesen-Quotes, nummerierte/alternierende Reihen, Wasserzeichen-Zahlen, Masonry.",
     looks: ["editorial", "warm"],
@@ -277,7 +277,7 @@ export const kits: StyleKit[] = [
   },
   {
     id: "modern-tech",
-    icons: ["geometric", "line"],
+    icons: ["geometric", "line", "heavy-square", "glow"],
     name: "Modern Tech",
     description: "Cleanes App-/Startup-Gefühl: Glas- und Ring-Buttons, Tabs/Stepper, Fortschrittsbalken, Grid-Hintergrund-Hero, abgerundete Raster. Modern, aber nicht gradientlastig.",
     looks: ["soft", "swiss"],
@@ -301,7 +301,7 @@ export const kits: StyleKit[] = [
   },
   {
     id: "mono-quiet",
-    icons: ["hairline", "line"],
+    icons: ["hairline", "line", "beveled"],
     name: "Mono Quiet",
     description: "Ultra-zurückhaltend und monochrom: Mono-Labels, Haarlinien, kein Schmuck, minimale Listen statt Karten. Maximal ruhig und sachlich.",
     looks: ["swiss", "editorial"],

@@ -70,6 +70,10 @@ export const ICON_SETS: IconSet[] = [
   { id: "geometric", looks: ["swiss", "soft"],       strokeWidth: 2,    linecap: "square", linejoin: "miter", note: "precise, squared — swiss/tech" },
   { id: "bold",      looks: ["soft", "warm"],        strokeWidth: 2.5,  linecap: "round",  linejoin: "round", note: "chunky, friendly — soft/playful" },
   { id: "duotone",   looks: ["soft", "warm"],        strokeWidth: 1.75, linecap: "round",  linejoin: "round", underlay: { width: 5.5, opacity: 0.16 }, note: "layered soft-glow duotone — premium/playful" },
+  { id: "fine-round",looks: ["warm", "soft", "editorial"], strokeWidth: 1.4, linecap: "round", linejoin: "round", note: "delicate but rounded — gentle/boutique" },
+  { id: "heavy-square", looks: ["swiss", "soft"],     strokeWidth: 2.75, linecap: "square", linejoin: "miter", note: "heaviest squared — industrial/precise" },
+  { id: "beveled",   looks: ["editorial", "swiss"],  strokeWidth: 2,    linecap: "butt",   linejoin: "bevel", note: "cut/beveled joins — technical" },
+  { id: "glow",      looks: ["soft", "warm"],        strokeWidth: 2,    linecap: "round",  linejoin: "round", underlay: { width: 7, opacity: 0.2 }, note: "bold soft-glow duotone — premium" },
 ];
 
 export const iconSetById = (id: string): IconSet => ICON_SETS.find((s) => s.id === id) ?? ICON_SETS[1];

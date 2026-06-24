@@ -123,3 +123,49 @@ export const PageHeaderPhotoCard: React.FC<PageHeaderProps> = ({ title, image })
       </Container>
     </section>
   ) : <PageHeaderTintWash title={title} />;
+
+/** Framed masthead — title between a top hairline and a short brand rule below. */
+export const PageHeaderRuleFrame: React.FC<PageHeaderProps> = ({ title }) => (
+  <section style={{ background: "var(--ds-bg)", borderBottom: "1px solid var(--ds-border)" }}>
+    <Container style={{ paddingBlock: "calc(var(--ds-section-y) * 1.1)" }}>
+      <div aria-hidden style={{ height: 1, background: "var(--ds-border)", marginBottom: "clamp(1.2rem, 3.5vw, 2.2rem)" }} />
+      <h1 style={titleS}>{title}</h1>
+      <div aria-hidden style={{ width: 64, height: 3, borderRadius: 2, background: "var(--ds-primary)", marginTop: "1.2rem" }} />
+    </Container>
+  </section>
+);
+
+/** Quiet centered masthead — flat surface, brand kicker above a centered title. */
+export const PageHeaderSoftCenter: React.FC<PageHeaderProps> = ({ title }) => (
+  <section style={{ background: "var(--ds-surface)", borderBottom: "1px solid var(--ds-border)", textAlign: "center" }}>
+    <Container style={{ maxWidth: "min(var(--ds-container), 720px)", paddingBlock: "calc(var(--ds-section-y) * 1.2)" }}>
+      <Accent align="center" />
+      <h1 style={titleS}>{title}</h1>
+    </Container>
+  </section>
+);
+
+/** Oversized editorial title — generous air, a small brand kicker, no rules. */
+export const PageHeaderOversize: React.FC<PageHeaderProps> = ({ title }) => (
+  <section style={{ background: "var(--ds-bg)", borderBottom: "1px solid var(--ds-border)" }}>
+    <Container style={{ paddingBlock: "calc(var(--ds-section-y) * 1.5)" }}>
+      <Accent />
+      <h1 style={{ ...titleS, fontSize: "clamp(2.8rem, 1.6rem + 5vw, 5rem)", maxWidth: "16ch" }}>{title}</h1>
+    </Container>
+  </section>
+);
+
+/** Framed photo left, title right (the mirror of photo-split).
+ *  Falls back to the framed masthead with no image. */
+export const PageHeaderPhotoLeft: React.FC<PageHeaderProps> = ({ title, image }) =>
+  image ? (
+    <section style={{ background: "var(--ds-surface)", borderBottom: "1px solid var(--ds-border)" }}>
+      <Container style={{ display: "grid", gridTemplateColumns: "minmax(0,0.95fr) minmax(0,1.05fr)", gap: "clamp(1.5rem, 4vw, 3.5rem)", alignItems: "center" }}>
+        <div aria-hidden style={{ minHeight: "clamp(220px, 30vw, 340px)", margin: "1.2rem 0", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", backgroundImage: `url("${image}")`, backgroundSize: "cover", backgroundPosition: "center" }} />
+        <div style={{ paddingBlock: "calc(var(--ds-section-y) * 1.05)" }}>
+          <Accent mb="1rem" />
+          <h1 style={titleS}>{title}</h1>
+        </div>
+      </Container>
+    </section>
+  ) : <PageHeaderRuleFrame title={title} />;

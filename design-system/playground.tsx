@@ -423,7 +423,7 @@ const BareSite = () => {
   const kitSel = params.get("kit") || undefined;
   // Per-slot variant overrides via URL (e.g. ?services=services/magic-decorator&cta=cta/magic-masked)
   // so a full site can be assembled from chosen variants for testing.
-  const OVERRIDE_SLOTS = ["services", "feature", "process", "about", "stats", "testimonials", "values", "cta", "gallery", "partners", "faq", "team", "pricing", "audience"];
+  const OVERRIDE_SLOTS = ["services", "feature", "process", "about", "stats", "testimonials", "values", "cta", "gallery", "partners", "faq", "team", "pricing", "audience", "history"];
   const sectionOverrides = Object.fromEntries(
     OVERRIDE_SLOTS.map((s) => [s, params.get(s)]).filter(([, v]) => !!v) as [string, string][],
   );
@@ -432,7 +432,7 @@ const BareSite = () => {
       {params.has("still") && (
         <style>{`*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}`}</style>
       )}
-      <SiteRouter content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} kitId={kitSel} sectionOverrides={sectionOverrides} pitch={params.has("pitch")} imageSeed={Number(params.get("imageSeed")) || 0} />
+      <SiteRouter content={firm} seed={seed} lookId={look} heroId={hero} primaryStyle={primary} kitId={kitSel} sectionOverrides={sectionOverrides} pitch={params.has("pitch")} imageSeed={Number(params.get("imageSeed")) || 0} pageHeaderId={params.get("ph") || undefined} iconSetId={params.get("icon") || undefined} />
     </>
   );
 };

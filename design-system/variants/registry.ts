@@ -25,6 +25,7 @@ import {
   type PageHeaderProps,
   PageHeaderBrandBand, PageHeaderEditorial, PageHeaderTintWash, PageHeaderDarkPanel,
   PageHeaderPhotoSignature, PageHeaderPhotoSplit, PageHeaderPhotoCard,
+  PageHeaderRuleFrame, PageHeaderSoftCenter, PageHeaderOversize, PageHeaderPhotoLeft,
 } from "../structures/PageHeaderVariants";
 import { Services } from "../structures/Services";
 import { ServicesBordered } from "../structures/ServicesBordered";
@@ -152,6 +153,7 @@ import {
 } from "../structures/AboutExtended";
 import {
   HistoryTimeline, HistoryRows, HistoryDotted, HistoryCards, HistorySidebar,
+  HistoryNumbered, HistoryRail, HistoryMilestone, HistoryBadgeGrid,
 } from "../structures/History";
 import {
   FeatureSplitLeft, FeatureSplitRight, FeatureWideImage, FeatureOverlapCard, FeatureBordered,
@@ -218,6 +220,10 @@ export const pageHeaderVariants: PageHeaderVariant[] = [
   { id: "page-header/photo-signature", component: PageHeaderPhotoSignature, looks: ["any"], needsImage: true },
   { id: "page-header/photo-split",     component: PageHeaderPhotoSplit,     looks: ["editorial", "warm", "soft", "swiss"], needsImage: true },
   { id: "page-header/photo-card",      component: PageHeaderPhotoCard,      looks: ["soft", "swiss", "warm"], needsImage: true },
+  { id: "page-header/rule-frame",      component: PageHeaderRuleFrame,      looks: ["editorial", "swiss", "soft"] },
+  { id: "page-header/soft-center",     component: PageHeaderSoftCenter,     looks: ["soft", "warm", "swiss"] },
+  { id: "page-header/oversize",        component: PageHeaderOversize,       looks: ["editorial", "swiss", "warm"] },
+  { id: "page-header/photo-left",      component: PageHeaderPhotoLeft,      looks: ["editorial", "warm", "soft", "swiss"], needsImage: true },
 ];
 
 /** Primary-button looks (rendered via PrimaryStyle context). */
@@ -590,6 +596,10 @@ export const sectionVariants: Record<string, SectionVariant[]> = {
     { id: "history/dotted", component: HistoryDotted, looks: ["editorial", "warm"] },                   // dashed line + markers
     { id: "history/cards", component: HistoryCards, looks: ["soft", "warm"], min: 3 },                  // year-headed cards grid
     { id: "history/sidebar", component: HistorySidebar, looks: ["editorial", "swiss"] },                // sticky heading + timeline
+    { id: "history/numbered", component: HistoryNumbered, looks: ["swiss", "editorial", "soft"] },      // enumerated journey steps
+    { id: "history/rail", component: HistoryRail, looks: ["soft", "warm", "editorial"] },               // horizontal scroll-snap cards
+    { id: "history/milestone", component: HistoryMilestone, looks: ["editorial", "warm", "swiss"], min: 3 }, // founding-year hero + list
+    { id: "history/badge-grid", component: HistoryBadgeGrid, looks: ["soft", "warm"] },                 // year-badge cards, top accent
   ],
   feature: [
     { id: "feature/split-left", component: FeatureSplitLeft, looks: ["soft", "warm"], needsImage: true },        // image left, text right
