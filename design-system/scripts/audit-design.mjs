@@ -26,7 +26,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { FONT_PAIRINGS } from "../looks/fontPairings.ts";
-import { GENERATED_ACCENTS } from "../looks/deriveLook.ts";
+import { GENERATED_ACCENTS, pickPersona } from "../looks/deriveLook.ts";
 import { luminance, fromHsl, ensureContrast, hue, saturation } from "../looks/color.ts";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -144,6 +144,23 @@ GENERATED_ACCENTS.forEach((a, idx) => {
 for (const f of exFiles) {
   const c = JSON.parse(fs.readFileSync(path.join(exDir, f), "utf8"));
   if (c.meta?.look?.motion?.intensity === "expressive") add("error", "D5", `content/examples/${f}`, 0, `look motion is "expressive" — a fiduciary (trust-first) caps motion to "moderate" (taste-skill dial)`);
+}
+
+// ── D6: persona coherence (the per-firm bundle stays intact) ───────────────────
+// Each firm's look should match its assigned DESIGN PERSONA on the bundled axes
+// (shape · density · motion), so a manual edit can't desync radius from the persona's
+// density/type and break the "one coherent identity per firm" guarantee. Font is exempt
+// — a real scraped brand font legitimately overrides the persona's role.
+for (const f of exFiles) {
+  if (f === "active.json") continue;   // transient studio working-copy, not a deliverable firm
+  const c = JSON.parse(fs.readFileSync(path.join(exDir, f), "utf8"));
+  const L = c.meta?.look; if (!L) continue;
+  const persona = pickPersona(c.meta.domain || c.meta.firm || "x", L.color?.primary || "#000");
+  const bad = [];
+  if (L.radius?.base !== persona.radius) bad.push(`radius ${L.radius?.base}≠${persona.radius}`);
+  if (L.spacing?.rhythm !== persona.rhythm) bad.push(`rhythm ${L.spacing?.rhythm}≠${persona.rhythm}`);
+  if (L.motion?.intensity !== persona.motion) bad.push(`motion ${L.motion?.intensity}≠${persona.motion}`);
+  if (bad.length) add("warn", "D6", `content/examples/${f}`, 0, `look drifted from persona "${persona.id}": ${bad.join(", ")}`);
 }
 
 // ── report ─────────────────────────────────────────────────────────────────────

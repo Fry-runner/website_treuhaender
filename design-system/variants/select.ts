@@ -8,6 +8,7 @@ import { presets } from "../tokens";
 import { archetypes, type ArchetypeId } from "../blueprints";
 import { heroVariants, primaryStyleVariants, presetAffinity, sectionVariants, pageHeaderVariants } from "./registry";
 import { kitById, kitsForAffinity } from "./kits";
+import { pickPersona } from "../looks/deriveLook";
 import { pickIconSet } from "../icons/iconSets";
 import type { StyleAffinity } from "../component-inventory";
 import type { PrimaryStyle, MoreStyle, SectionAlign } from "../structures/primitives";
@@ -277,7 +278,14 @@ export function planSite(content: SiteContent, opts: { seed?: number; lookId?: s
   const archetype = ((content.meta.archetype as ArchetypeId) || "boutique");
   const base = hash(content.meta.domain || content.meta.firm || "x") + (opts.seed ?? 0);
   const lookId = opts.lookId ?? pickPalette(archetype, base + 2);
-  const affinity = presetAffinity[lookId] ?? "any";
+  // The firm's DESIGN PERSONA (deriveLook) drives the variant AFFINITY too — so the chosen
+  // kit + section variants read in the same character as the persona's shape/type/density
+  // (a "swiss-precise" firm gets swiss-minimal layouts, "editorial-heritage" editorial ones).
+  // This is what makes the whole site cohere AND firms differ. Same inputs as the look's
+  // baked persona (domain + primary), so plan and look always agree. Preset affinity is the
+  // fallback when no look exists yet.
+  const persona = pickPersona(content.meta.domain || content.meta.firm || "x", content.meta.look?.color?.primary ?? "#000");
+  const affinity = persona.affinity ?? presetAffinity[lookId] ?? "any";
   const kit = (opts.kitId ? kitById(opts.kitId) : undefined) ?? pick(kitsForAffinity(affinity), base + 3);
   // Hero variants whose SIGNATURE element is a customer quote (an aside-quote card or a
   // pull-quote lead). Only pick one when the firm has a REAL testimonial — otherwise the
