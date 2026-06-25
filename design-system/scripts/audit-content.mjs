@@ -83,7 +83,8 @@ for (const file of files) {
   // service-detail pages that are thin (no body and no bullets)
   const thinSvc = (c.services?.items || []).filter((s) => !(s.body && s.body.trim()) && !((s.bullets || []).length));
   if (thinSvc.length) { issues.push({ cat: "thin", msg: `${thinSvc.length}/${c.services.items.length} Leistungs-Detailseiten ohne Body & ohne Bullets (nur Titel+Summary): ${thinSvc.slice(0,4).map(s=>short(s.title,18)).join(", ")}${thinSvc.length>4?" …":""}` }); bump("thin"); }
-  if ((c.team?.members || []).length && c.team.members.every((t) => !(t.bio && t.bio.trim()))) { issues.push({ cat: "thin", msg: `Team-Seite: kein einziges Bio (alle Mitglieder ohne Text)` }); bump("thin"); }
+  // (Bio-Thinness-Check entfernt — Team-Bios werden bewusst NICHT mehr fabriziert;
+  //  Karten zeigen Name + Rolle. Ein fehlendes Bio ist daher kein Mangel mehr.)
   if (!(c.values?.items || []).length) { issues.push({ cat: "thin", msg: `values leer (keine "Das macht uns aus"-Inhalte)` }); bump("thin"); }
   if (!(c.faq?.items || []).length) { issues.push({ cat: "thin", msg: `FAQ leer` }); bump("thin"); }
   if (!(c.testimonials?.items || []).length) { issues.push({ cat: "thin", msg: `keine Testimonials` }); bump("thin"); }

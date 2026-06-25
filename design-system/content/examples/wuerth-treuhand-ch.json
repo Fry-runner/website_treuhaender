@@ -594,20 +594,17 @@
       {
         "name": "Zugelassene Revisorin",
         "role": "Nadja Arpagaus ist Treuhänderin mit eidgenössischem",
-        "initials": "ZR",
-        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+        "initials": "ZR"
       },
       {
         "name": "Freier Mitarbeiter",
         "role": "Treuhänder mit eidg. Fachausweis",
-        "initials": "FM",
-        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+        "initials": "FM"
       },
       {
         "name": "Karoline Frehner",
         "role": "Sachbearbeiterin Treuhand",
-        "initials": "KF",
-        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+        "initials": "KF"
       }
     ]
   },

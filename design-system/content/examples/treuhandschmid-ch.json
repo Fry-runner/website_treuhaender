@@ -435,20 +435,17 @@
       {
         "name": "Catherine Schmid",
         "role": "Fachfrau im Finanz- und Rechnungswesen",
-        "initials": "CS",
-        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+        "initials": "CS"
       },
       {
         "name": "Franziska Sigg",
         "role": "Sachbearbeiterin Buchhaltung",
-        "initials": "FS",
-        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich."
+        "initials": "FS"
       },
       {
         "name": "Eliane Durand",
         "role": "Sachbearbeiterin Steuern",
-        "initials": "ED",
-        "bio": "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden."
+        "initials": "ED"
       }
     ]
   },

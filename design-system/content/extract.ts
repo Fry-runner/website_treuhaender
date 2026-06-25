@@ -471,20 +471,9 @@ function manifestFileFor(src: string): string | undefined {
     || manifest.find((a) => a.ok && a.file && norm(a.url || "").split("/").pop() === t.split("/").pop());
   return hit?.file;
 }
-function roleBio(role: string): string {
-  const r = role.toLowerCase();
-  if (/ceo|gesch[äa]ft|inhaber|gr[üu]nder|partner|leitung|leiter|direktor/.test(r))
-    return "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.";
-  if (/lohn|payroll|personal|administ/.test(r))
-    return "Kümmert sich um Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig und termingerecht.";
-  if (/revis|pr[üu]f|audit/.test(r))
-    return "Zugelassene Fachperson für eingeschränkte und ordentliche Revision sowie prüfungssichere Abschlüsse.";
-  if (/steuer/.test(r))
-    return "Begleitet Unternehmen und Privatpersonen bei Steuererklärungen, Optimierung und Vertretung gegenüber den Behörden.";
-  if (/buchhalt|finanz|rechnungswesen|treuh/.test(r))
-    return "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.";
-  return "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.";
-}
+// (roleBio removed — team bios are never fabricated from the role. The scraper has
+//  no real per-person bio source, so a member carries only the scraped name + role;
+//  the Team structures render name + role and show a bio paragraph only if one exists.)
 const NAME_RE = /^([A-ZÄÖÜ][a-zäöüéèàç]+)(?:\s+(?:[A-ZÄÖÜ]\.|[A-ZÄÖÜ][a-zäöüéèàç]+)){1,2}$/;
 // section headers / nav labels that look like a "First Last" pair but aren't people
 const NAME_STOP = new Set(["unsere", "unser", "ihre", "ihr", "weitere", "alle", "mehr", "extra", "unternehmen", "dienstleistungen", "dienstleistung", "kontakt", "team", "publikationen", "mitgliedschaften", "startseite", "aktuelles", "leistungen", "über", "ueber", "about", "services", "willkommen", "herzlich", "news", "blog", "standort", "öffnungszeiten", "oeffnungszeiten", "impressum", "datenschutz", "downloads", "links", "home", "english", "deutsch", "français", "francais", "partner", "partners", "treuhand", "treuhandbüro", "fiduciaire", "gmbh", "consulting", "filiale", "filialen", "standort", "standorte", "büro", "buero", "niederlassung", "office", "sitz", "hauptsitz"]);
@@ -590,7 +579,7 @@ function teamMembers() {
         }
       }
     }
-    return { name: m.name, role: m.role, initials, bio: roleBio(m.role), photo };
+    return { name: m.name, role: m.role, initials, photo };
   });
   return members;
 }
@@ -1950,10 +1939,49 @@ async function extractLogoColor(logoSrc?: string): Promise<string | undefined> {
     return toHex(Math.round(top.r / top.n), Math.round(top.g / top.n), Math.round(top.b / top.n));
   } catch { return undefined; }
 }
+/** Detect whether the logo sits on a SOLID NEAR-WHITE plate (an opaque raster logo whose
+ *  border pixels are uniformly white-ish) instead of a transparent canvas. When it does,
+ *  the header must wear that exact plate colour — otherwise the white box reads as a seam
+ *  on a brand-tinted off-white header (e.g. a #FAF9F6 page bg). Returns the averaged plate
+ *  hex (#RRGGBB) or undefined (transparent / coloured / dark / SVG logo → header keeps the
+ *  page bg). SVG logos are vector + transparent, so they always adapt and are skipped. */
+async function extractLogoBg(logoSrc?: string): Promise<string | undefined> {
+  if (!logoSrc || /\.svg$/i.test(logoSrc)) return undefined;
+  const file = join(import.meta.dirname, "..", "public", logoSrc.replace(/^\//, ""));
+  if (!existsSync(file)) return undefined;
+  let sharp: any; try { sharp = (await import("sharp")).default; } catch { return undefined; }
+  try {
+    const { data, info } = await sharp(file, { failOn: "none" }).resize(48, 48, { fit: "inside" }).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+    const ch = info.channels, W = info.width, H = info.height;
+    // "White" plate = high luminance + near-zero saturation (covers pure white AND faint
+    // off-whites/creams like #FAF9F6; a coloured or dark plate fails and is left alone).
+    let opaque = 0, transparent = 0, white = 0, r = 0, g = 0, b = 0;
+    const sample = (x: number, y: number) => {
+      const i = (y * W + x) * ch;
+      if ((ch >= 4 ? data[i + 3] : 255) < 128) { transparent++; return; }   // transparent pixel → no plate here
+      opaque++;
+      const cr = data[i], cg = data[i + 1], cb = data[i + 2], hex = toHex(cr, cg, cb);
+      if (luminance(hex) >= 0.9 && saturation(hex) <= 0.1) { white++; r += cr; g += cg; b += cb; }
+    };
+    for (let x = 0; x < W; x++) { sample(x, 0); sample(x, H - 1); }          // top + bottom edge
+    for (let y = 1; y < H - 1; y++) { sample(0, y); sample(W - 1, y); }      // left + right edge
+    const border = opaque + transparent;
+    if (!border || transparent / border > 0.25) return undefined;           // mostly transparent → adapts
+    if (!opaque || white / opaque < 0.9) return undefined;                   // border isn't a uniform white plate
+    return toHex(Math.round(r / white), Math.round(g / white), Math.round(b / white));
+  } catch { return undefined; }
+}
 const brand = extractBrand(slug, ROOT);
 const logoColor = await extractLogoColor(media.logo);
+const logoBg = await extractLogoBg(media.logo);
 const derived = deriveLook(brand, { firmKey: slug, archetype: arch, logoColor });
 const basePresetId = derived.basePresetId;
+// If the logo is on a near-white plate, the header adopts that exact colour so the logo
+// doesn't read as a white box seamed onto a brand-tinted off-white header. Only on LIGHT
+// looks (a dark look wants logoLight, not a forced-white bar) and only when it actually
+// differs from the page bg (otherwise the header already matches via --ds-bg).
+const headerBg = logoBg && luminance(derived.tokens.color.bg) > 0.6 && normHex(logoBg) !== normHex(derived.tokens.color.bg)
+  ? logoBg : undefined;
 
 const c: string = city();
 
@@ -2075,6 +2103,7 @@ const content: SiteContent = {
     links: [{ label: "Home", href: "#" }, { label: "Leistungen", href: "#services" }, { label: "Über uns", href: "#about" }],
     cta: bookCta,
     logo: media.logo, logoLight: media.logoLight,
+    ...(headerBg ? { logoBg: headerBg } : {}),
   },
   hero: {
     eyebrow: `Treuhand · ${c}`,

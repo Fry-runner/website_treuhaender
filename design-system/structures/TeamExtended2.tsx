@@ -23,7 +23,7 @@ export const TeamGridPhoto: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px,1fr))", gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px,1fr))", gap: "1.45rem" }}>
         {content.members.map((m, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { aspectRatio: "1 / 1", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", fontSize: "1.6rem" })}>{m.photo ? "" : m.initials}</div>
@@ -57,11 +57,11 @@ export const TeamDuo: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px,1fr))", gap: "1.6rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px,1fr))", gap: "1.85rem" }}>
         {content.members.map((m, i) => (
-          <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.4rem", alignItems: "center" }}>
+          <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.65rem", alignItems: "center" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { width: "8rem", height: "9rem", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", flexShrink: 0, fontSize: "2rem" })}>{m.photo ? "" : m.initials}</div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}><h3 style={{ ...name, fontSize: "1.2rem" }}>{m.name}</h3><span style={role}>{m.role}</span><p style={bio}>{m.bio}</p></div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}><h3 style={{ ...name, fontSize: "1.2rem" }}>{m.name}</h3><span style={role}>{m.role}</span>{m.bio && <p style={bio}>{m.bio}</p>}</div>
           </div>
         ))}
       </div>
@@ -73,7 +73,7 @@ export const TeamDuo: React.FC<Props> = ({ content, more }) => (
 export const TeamStrip: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container><SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} /></Container>
-    <div style={{ display: "flex", gap: "0.8rem", overflowX: "auto", paddingInline: "var(--ds-gutter)", scrollSnapType: "x mandatory" }}>
+    <div style={{ display: "flex", gap: "1.05rem", overflowX: "auto", paddingInline: "var(--ds-gutter)", scrollSnapType: "x mandatory" }}>
       {content.members.map((m, i) => (
         <div key={i} style={{ flex: "0 0 200px", scrollSnapAlign: "start", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <div role="img" aria-label={m.name} style={photoBg(m, { height: "230px", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", fontSize: "1.6rem" })}>{m.photo ? "" : m.initials}</div>
@@ -89,13 +89,13 @@ export const TeamBadgeRole: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px,1fr))", gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px,1fr))", gap: "1.45rem" }}>
         {content.members.map((m, i) => (
-          <div key={i} className="ds-card" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.7rem" }}>
+          <div key={i} className="ds-card" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.95rem" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { width: "5rem", height: "5rem", borderRadius: "9999px", fontSize: "1.3rem" })}>{m.photo ? "" : m.initials}</div>
             <h3 style={name}>{m.name}</h3>
             <span style={{ display: "inline-block", padding: "0.3rem 0.8rem", borderRadius: "9999px", background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", fontFamily: "var(--ds-font-body)", fontSize: "0.64rem" }}>{m.role}</span>
-            <p style={{ ...bio, fontSize: "0.85rem" }}>{m.bio}</p>
+            {m.bio && <p style={{ ...bio, fontSize: "0.85rem" }}>{m.bio}</p>}
           </div>
         ))}
       </div>
@@ -112,7 +112,7 @@ export const TeamCenteredBio: React.FC<Props> = ({ content, more }) => (
         {content.members.map((m, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.6rem", paddingTop: i ? "1.6rem" : 0, borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { width: "4.5rem", height: "4.5rem", borderRadius: "9999px", fontSize: "1.2rem" })}>{m.photo ? "" : m.initials}</div>
-            <h3 style={name}>{m.name}</h3><span style={role}>{m.role}</span><p style={bio}>{m.bio}</p>
+            <h3 style={name}>{m.name}</h3><span style={role}>{m.role}</span>{m.bio && <p style={bio}>{m.bio}</p>}
           </div>
         ))}
       </div>
@@ -127,11 +127,11 @@ export const TeamNumbered: React.FC<Props> = ({ content, more }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div>
         {content.members.map((m, i) => (
-          <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.2rem", alignItems: "center", padding: "1.2rem 0", borderTop: "1px solid var(--ds-border)" }}>
+          <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.45rem", alignItems: "center", padding: "1.2rem 0", borderTop: "1px solid var(--ds-border)" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { width: "3rem", height: "3rem", borderRadius: "9999px", fontSize: "0.85rem" })}>{m.photo ? "" : m.initials}</div>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.2rem" }}>
-              <div style={{ display: "flex", gap: "0.7rem", alignItems: "baseline", flexWrap: "wrap" }}><h3 style={name}>{m.name}</h3><span style={role}>{m.role}</span></div>
-              <p style={{ ...bio, fontSize: "0.85rem" }}>{m.bio}</p>
+              <div style={{ display: "flex", gap: "0.95rem", alignItems: "baseline", flexWrap: "wrap" }}><h3 style={name}>{m.name}</h3><span style={role}>{m.role}</span></div>
+              {m.bio && <p style={{ ...bio, fontSize: "0.85rem" }}>{m.bio}</p>}
             </div>
           </div>
         ))}
@@ -166,11 +166,11 @@ export const TeamSplitLead: React.FC<Props> = ({ content, more }) => {
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
         <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.4fr)", gap: "2rem", alignItems: "start" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem" }}>
             <div role="img" aria-label={first.name} style={photoBg(first, { width: "100%", aspectRatio: "4 / 5", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", fontSize: "2.6rem" })}>{first.photo ? "" : first.initials}</div>
-            <h3 style={{ ...name, fontSize: "1.3rem" }}>{first.name}</h3><span style={role}>{first.role}</span><p style={bio}>{first.bio}</p>
+            <h3 style={{ ...name, fontSize: "1.3rem" }}>{first.name}</h3><span style={role}>{first.role}</span>{first.bio && <p style={bio}>{first.bio}</p>}
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px,1fr))", gap: "1rem", alignContent: "start" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px,1fr))", gap: "1.25rem", alignContent: "start" }}>
             {rest.map((m, i) => (
               <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
                 <div role="img" aria-label={m.name} style={photoBg(m, { width: "100%", aspectRatio: "4 / 5", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", fontSize: "1.2rem" })}>{m.photo ? "" : m.initials}</div>

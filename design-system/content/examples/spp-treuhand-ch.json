@@ -747,39 +747,33 @@
       {
         "name": "Alexandra Schlunegger",
         "role": "Kundenbetreuerin & Partner",
-        "initials": "AS",
-        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+        "initials": "AS"
       },
       {
         "name": "Sona Park",
         "role": "Kundenbetreuerin & Partner",
-        "initials": "SP",
-        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen."
+        "initials": "SP"
       },
       {
         "name": "Aleandro Frautschi",
         "role": "Sachbearbeiter",
         "initials": "AF",
-        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist.",
         "photo": "/images/spp-treuhand-ch/team/2-frautschi.jpg"
       },
       {
         "name": "Alfa Poloni",
         "role": "Sachbearbeiterin Administration",
-        "initials": "AP",
-        "bio": "Kümmert sich um Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig und termingerecht."
+        "initials": "AP"
       },
       {
         "name": "Brigitte Lippuner",
         "role": "Sachbearbeiterin",
-        "initials": "BL",
-        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+        "initials": "BL"
       },
       {
         "name": "Jan Park",
         "role": "Sachbearbeiter",
-        "initials": "JP",
-        "bio": "Teil des Teams, das Ihre Zahlen kennt und persönlich für Sie da ist."
+        "initials": "JP"
       }
     ]
   },

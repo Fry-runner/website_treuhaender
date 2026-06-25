@@ -17,12 +17,15 @@ export type { ProcessContent, AudienceContent, AboutContent, FeatureContent, His
 export type FeatureAngle = Omit<FeatureContent, "image">;
 
 export interface NavLink { label: string; href: string; }
-export interface NavContent { brand: string; links: NavLink[]; cta: string; logo?: string; logoLight?: string; }
+/** logoBg: the logo's solid near-white plate colour — present ONLY when the logo is a
+ *  raster on a white-ish background AND the page bg is a (different) light tint. The
+ *  header adopts it so a white-plate logo doesn't read as a box on an off-white bar. */
+export interface NavContent { brand: string; links: NavLink[]; cta: string; logo?: string; logoLight?: string; logoBg?: string; }
 
 export interface ServiceItem { title: string; summary: string; price?: string; body?: string; bullets?: string[]; image?: string; }
 export interface ServicesContent { eyebrow: string; heading: string; items: ServiceItem[]; }
 
-export interface TeamMember { name: string; role: string; initials: string; bio: string; photo?: string; }
+export interface TeamMember { name: string; role: string; initials: string; bio?: string; photo?: string; }
 export interface TeamContent { eyebrow: string; heading: string; members: TeamMember[]; }
 
 export interface PricingTier { name: string; price: string; period: string; features: string[]; recommended?: boolean; }
@@ -43,7 +46,12 @@ export interface CtaContent { heading: string; sub: string; button: string; }
 export interface ContactInfo { address?: string; phone?: string; email?: string; hours?: string; }
 export interface ContactContent { eyebrow: string; heading: string; info: ContactInfo; formCta: string; }
 
-export interface FooterColumn { title: string; links: string[]; }
+/** A footer link is either a bare label (the Footer derives a slug from it, or treats it
+ *  as plain text / mailto / tel) or an explicit { label, href } pair. The latter lets the
+ *  "Sitemap" column carry the site's real resolved page routes (built per-firm in
+ *  SiteRouter) instead of guessing the route from the label text. */
+export type FooterLink = string | { label: string; href: string };
+export interface FooterColumn { title: string; links: FooterLink[]; }
 export interface FooterContent { brand: string; tagline: string; columns: FooterColumn[]; legal: string[]; year: number; logo?: string; logoLight?: string; imageCredits?: string[]; }
 
 /**

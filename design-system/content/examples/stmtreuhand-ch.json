@@ -906,21 +906,18 @@
         "name": "Peter Mettler",
         "role": "CEO | eidg. dipl. Steuerexperte",
         "initials": "PM",
-        "bio": "Verantwortlich für Mandatsführung und Strategie – Ihre erste Adresse für anspruchsvolle Treuhand- und Steuerfragen.",
         "photo": "/images/stmtreuhand-ch/team/0-mettler.jpg"
       },
       {
         "name": "Olivia Steinmeier",
         "role": "Treuhänderin FA",
         "initials": "OS",
-        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
         "photo": "/images/stmtreuhand-ch/team/1-steinmeier.jpg"
       },
       {
         "name": "Deborah Weber",
         "role": "Fachfrau im Finanz- und Rechnungswesen FA",
         "initials": "DW",
-        "bio": "Betreut die laufende Buchhaltung, Abschlüsse und das Reporting Ihrer Mandate – digital und übersichtlich.",
         "photo": "/images/stmtreuhand-ch/team/2-weber.jpg"
       }
     ]
@@ -1002,7 +999,7 @@
     "eyebrow": "Kontakt",
     "heading": "Sprechen wir.",
     "info": {
-      "address": "Softwares Ebenaustrasse 22, 6048 Horw",
+      "address": "Ebenaustrasse 22, 6048 Horw",
       "phone": "+41 (0)44 209 90 60",
       "email": "info@stmtreuhand.ch"
     },
@@ -1025,7 +1022,7 @@
       {
         "title": "Standort",
         "links": [
-          "Softwares Ebenaustrasse 22, 6048 Horw",
+          "Ebenaustrasse 22, 6048 Horw",
           "+41 (0)44 209 90 60",
           "info@stmtreuhand.ch"
         ]
