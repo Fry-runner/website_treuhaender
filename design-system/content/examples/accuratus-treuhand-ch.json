@@ -182,10 +182,8 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -637,13 +635,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Zürich",
-    "titleLead": "Ihre sensiblen Daten in sicheren Händen: Accuratus-Treuhand",
-    "titleAccent": "",
-    "lede": "Accuratus Treuhand – Ihr Partner für  Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision in Zürich.",
+    "titleLead": "Ihre Zahlen in",
+    "titleAccent": "sicheren Händen",
+    "lede": "Accuratus Treuhand ist Ihr Partner für Finanz- und Rechnungswesen, Steuerberatung und Revision in Zürich – genau, sorgfältig und ordentlich.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Accuratus Treuhand – Ihr Partner für  Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision in Zürich.",
+    "asideQuote": "«Accuratus» steht für unsere genaue, sorgfältige und ordentliche Arbeitsweise.",
     "asideAttribution": "Accuratus Treuhand",
     "image": "/images/accuratus-treuhand-ch/pool/stock-finance-577195.jpg"
   },
@@ -653,74 +651,38 @@
     "items": [
       {
         "title": "Steuerberatung",
-        "summary": "Die Dienstleistungen des Treuhandbüros Accuratus Treuhand in Zürich umfassen Finanzwesen und Rechnungswesen, Buchhaltung, Lohnbuchhaltung, Mehrwertsteuer, Steuerberatung, Wirtschaftsprüfung/Revision.",
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/accuratus-treuhand-ch/pool/stock-desk-5668471.jpg"
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/accuratus-treuhand-ch/pool/stock-desk-8580716.jpg"
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/accuratus-treuhand-ch/pool/stock-finance-590011.jpg"
       },
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
         "body": "Eine Revision schafft Vertrauen – bei Eigentümern, Verwaltungsrat, Banken und Geschäftspartnern. Als zugelassene Fachpersonen führen wir die eingeschränkte sowie die ordentliche Revision durch und prüfen Ihre Jahresrechnung auf Gesetzes- und Statutenkonformität. Wir stimmen den Prüfungsumfang auf Grösse und Risikoprofil Ihres Unternehmens ab und liefern neben dem Revisionsbericht auch konkrete Hinweise zur Verbesserung Ihres internen Kontrollsystems. So erfüllen Sie Ihre gesetzlichen Pflichten und gewinnen zugleich verlässliche Erkenntnisse über Ihr Rechnungswesen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/accuratus-treuhand-ch/pool/stock-laptop-3760368.jpg"
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
         "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/accuratus-treuhand-ch/pool/stock-desk-8872717.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
         "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/accuratus-treuhand-ch/pool/stock-office-36175674.jpg"
       }
     ]
@@ -760,37 +722,35 @@
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Firmengeschichte und Werte",
-      "body": "Seit mehr als 20 Jahren unterstützen wir unsere Kunden fair, zuverlässig und «akkurat». Accuratus-Treuhand GmbH wurde Ende 2001 gegründet. Ein Name für das Unternehmen war schnell gefunden.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "HR-Spezialistin",
-      "body": "Human Resources Fachfrau mit eidg. Fachausweis, Bachelor Psychomotoriktherapeutin",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Andrea Jenzer-Schoch",
-      "body": "Die Treuhandbranche ist für mich – auch nach langjähriger Berufserfahrung – ein sehr interessantes und abwechslungsreiches Tätigkeitsgebiet. Nebst den wiederkehrenden Arbeiten, bietet es immer wieder neue und spannende Herausforderungen.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Accuratus-Treuhand GmbH",
-      "body": "der mich versteht und den ich verstehe. Geldangelegenheiten & Treuhand sind Vertrauenssache – und meine Vertrauen hat Herr Herger bereits beim ersten Kontakt anhaltend gewonnen.",
+      "heading": "Genau. Sorgfältig. Ordentlich.",
+      "body": "Seit über 20 Jahren begleiten wir unsere Kundinnen und Kunden fair und «akkurat». Wo immer es sinnvoll ist, setzen wir auf effiziente, digitale Lösungen – und sind nach Mandatserteilung sofort einsatzbereit.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & GmbHs",
+        "body": "Laufende Buchhaltung, Lohn und Jahresabschluss – sauber geführt und termingerecht."
+      },
+      {
+        "title": "Revisionspflichtige Unternehmen",
+        "body": "Eingeschränkte und ordentliche Revision durch zugelassene Fachpersonen."
+      },
+      {
+        "title": "Selbstständige & Gründer",
+        "body": "Begleitung von der Firmengründung bis zur laufenden Betreuung Ihres Rechnungswesens."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung und Steuerfragen – persönlich betreut und sorgfältig erledigt."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -860,7 +820,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -875,7 +835,7 @@
   },
   "footer": {
     "brand": "Accuratus Treuhand",
-    "tagline": "Accuratus Treuhand – Ihr Partner für  Finanz- und Rechnungswesen, Steuerberatung, Wirtschaftsprüfung/Revision in Zürich.",
+    "tagline": "Finanz- und Rechnungswesen, Steuern und Revision in Zürich – akkurat und persönlich.",
     "logo": "/images/accuratus-treuhand-ch/pool/901d35a719__accuratus-logo.jpg",
     "columns": [
       {

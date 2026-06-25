@@ -178,11 +178,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "about (generic)",
       "media.stock (CC fallback)"
     ],
@@ -340,13 +338,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Zumikon",
-    "titleLead": "aurora treuhand ag in Zumikon ZH",
-    "titleAccent": "",
+    "titleLead": "Ihr Treuhandbüro in",
+    "titleAccent": "Zumikon",
     "lede": "Herzlich willkommen bei aurora treuhand ag, Ihr Treuhandbüro für Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Herzlich willkommen bei aurora treuhand ag, Ihr Treuhandbüro für Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
+    "asideQuote": "Steuern, Erbrecht und Rechnungswesen – persönlich begleitet, in der Region Meilen.",
     "asideAttribution": "aurora treuhand ag",
     "image": "/images/aurora-treuhand-ch/pool/stock-architecture-26238613.jpg"
   },
@@ -356,58 +354,28 @@
     "items": [
       {
         "title": "Steuerberatung",
-        "summary": "Auf dieser Seite finden sie aktuelle Informationen zu den Themen Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen von aurora treuhand ag.",
-        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "summary": "Steuererklärungen, Steuerplanung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus."
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen."
       },
       {
         "title": "Buchhaltung",
-        "summary": "Sie finden unter den Dienstleistungen des Treuhandbüros aurora treuhand ag Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
-        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren."
       },
       {
         "title": "Nachlass & Erbrecht",
         "summary": "Nachlassplanung, Willensvollstreckung und Erbteilung – sorgfältig und diskret begleitet.",
-        "body": "Eine vorausschauende Nachlassplanung erspart Ihren Angehörigen Unsicherheit und Streit. Wir unterstützen Sie bei der Strukturierung Ihres Vermögens, bei Testament und Erbvertrag sowie bei der steuerlich sinnvollen Übertragung zu Lebzeiten oder von Todes wegen. Im Erbfall übernehmen wir auf Wunsch die Willensvollstreckung, erstellen das Nachlassinventar und sorgen für eine faire, gesetzeskonforme Erbteilung. Mit der nötigen Sorgfalt und Diskretion begleiten wir Sie und Ihre Familie durch alle Schritte – sachlich, verständlich und vorausschauend.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine vorausschauende Nachlassplanung erspart Ihren Angehörigen Unsicherheit und Streit. Wir unterstützen Sie bei der Strukturierung Ihres Vermögens, bei Testament und Erbvertrag sowie bei der steuerlich sinnvollen Übertragung zu Lebzeiten oder von Todes wegen. Im Erbfall übernehmen wir auf Wunsch die Willensvollstreckung, erstellen das Nachlassinventar und sorgen für eine faire, gesetzeskonforme Erbteilung. Mit der nötigen Sorgfalt und Diskretion begleiten wir Sie und Ihre Familie durch alle Schritte – sachlich, verständlich und vorausschauend."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       }
     ]
   },
@@ -418,32 +386,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Auf dieser Seite finden sie aktuelle Informationen zu den Themen Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen von aurora treuhand ag.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Sie finden unter den Dienstleistungen des Treuhandbüros aurora treuhand ag Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Steuern, Erbrecht und Finanzen aus einer Hand",
+      "body": "Von der Steuerberatung über das Rechnungs- und Finanzwesen bis zur Nachlass- und Erbrechtsplanung begleiten wir Sie persönlich – als Ihr Treuhandbüro in Zumikon und der Region Meilen.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Selbstständige",
+        "body": "Buchhaltung, Abschluss und betriebswirtschaftliche Beratung – verlässlich begleitet."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung und persönliche Steuerfragen, sorgfältig erledigt."
+      },
+      {
+        "title": "Erbinnen & Erblasser",
+        "body": "Nachlassplanung, Willensvollstreckung und Erbteilung – diskret und vorausschauend."
+      },
+      {
+        "title": "Region Meilen",
+        "body": "Persönlich erreichbar für Mandantinnen und Mandanten am rechten Zürichseeufer."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -479,7 +451,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -494,7 +466,7 @@
   },
   "footer": {
     "brand": "aurora treuhand ag",
-    "tagline": "Herzlich willkommen bei aurora treuhand ag, Ihr Treuhandbüro für Steuerberatung, Erbrecht sowie Rechnungs- und Finanzwesen in der Region Meilen.",
+    "tagline": "Treuhand, Steuern und Erbrecht für die Region Meilen.",
     "logo": "/images/aurora-treuhand-ch/pool/0e26d8a0bd__auroratreuhand_281_29-1920w.png",
     "columns": [
       {

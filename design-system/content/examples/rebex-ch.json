@@ -180,10 +180,8 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -568,14 +566,14 @@
     "logo": "/images/rebex-ch/pool/5b4d70d8b0__ES_Logo_QL_rgb_pos-1920w.jpeg"
   },
   "hero": {
-    "eyebrow": "Treuhand · Dietikon",
+    "eyebrow": "Treuhand & Revision · Zürich",
     "titleLead": "Rebex AG seit 1997",
     "titleAccent": "",
-    "lede": "Wir übernehmen alle Treuhand-Arbeiten, damit Sie sich auf Ihr Hauptgeschäft konzentrieren können. Wir sind Ihre Treuhand- und Revisionsgesellschaft!",
+    "lede": "Wir übernehmen alle Treuhand- und Revisionsarbeiten, damit Sie sich auf Ihr Hauptgeschäft konzentrieren können. Persönlich, vertraulich und qualitätsbewusst.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Wir übernehmen alle Treuhand-Arbeiten, damit Sie sich auf Ihr Hauptgeschäft konzentrieren können. Wir sind Ihre Treuhand- und Revisionsgesellschaft!",
+    "asideQuote": "Als Generalisten mit langjähriger Erfahrung beraten wir Sie in allen Treuhandbelangen – eine langfristige Zusammenarbeit liegt uns am Herzen.",
     "asideAttribution": "Rebex AG",
     "image": "/images/rebex-ch/pool/stock-boardroom-6794965.jpg"
   },
@@ -585,69 +583,33 @@
     "items": [
       {
         "title": "Steuerberatung",
-        "summary": "Wir sind eine Treuhand- und Revisionsgesellschaft im schönen Limmattal. Besuchen Sie uns doch einmal und geniessen Sie unseren tollen Standort.",
-        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus."
       },
       {
         "title": "Revision",
         "summary": "Wir sind Ihr Treuhänder und Revisionsexperte seit März 1997. Dabei pflegen wir eine gute und langfristige Zusammenarbeit mit unseren Kunden.",
-        "body": "Die Rebex AG in Dietikon wird als Treuhand- und Revisionsexperte von Alfons Florian geführt. Unser Team besteht aus 7 Personen. Gemeinsam bieten wir Ihnen eine persönliche Beratung und massgeschneiderte Treuhand-Dienstleistungen an. Eine langfristige Zusammenarbeit mit unseren Kunden liegt uns am Herzen.\n\nAls Generalisten mit langjähriger Erfahrung und breiter, fundierter Ausbildung beraten wir Sie gerne in allen Treuhandbelangen.\n\nDie Rebex AG ist eine Treuhand- und Revisionsgesellschaft, die im März 1997 als Gesellschaft mit beschränkter Haftung (GmbH) gegründet wurde. Im März 2000 erfolgte die Umwandlung in eine Aktiengesellschaft.\n\nDie Rebex AG bietet verschiedene Dienstleistungen im Bereich des Treuhand- und Wirtschaftsprüfungssektors an, die auf die Bedürfnisse des Kunden zugeschnitten werden. Die Auftragsabwicklung erfolgt vertraulich, qualitätsbewusst und persönlich.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Rebex AG in Dietikon wird als Treuhand- und Revisionsexperte von Alfons Florian geführt. Unser Team besteht aus 7 Personen. Gemeinsam bieten wir Ihnen eine persönliche Beratung und massgeschneiderte Treuhand-Dienstleistungen an. Eine langfristige Zusammenarbeit mit unseren Kunden liegt uns am Herzen.\n\nAls Generalisten mit langjähriger Erfahrung und breiter, fundierter Ausbildung beraten wir Sie gerne in allen Treuhandbelangen.\n\nDie Rebex AG ist eine Treuhand- und Revisionsgesellschaft, die im März 1997 als Gesellschaft mit beschränkter Haftung (GmbH) gegründet wurde. Im März 2000 erfolgte die Umwandlung in eine Aktiengesellschaft.\n\nDie Rebex AG bietet verschiedene Dienstleistungen im Bereich des Treuhand- und Wirtschaftsprüfungssektors an, die auf die Bedürfnisse des Kunden zugeschnitten werden. Die Auftragsabwicklung erfolgt vertraulich, qualitätsbewusst und persönlich."
       },
       {
         "title": "Buchhaltung",
         "summary": "Wir übernehmen alles von der Buchführung bis zur Wirtschaftsprüfung. Zu unseren Kunden gehören sowohl private als auch juristische Personen.",
-        "body": "Die Rebex AG in Dietikon ist ihr kompetenter Partner für Treuhandarbeiten. Zudem sind wir zugelassene Revisionsexperten nach dem Revisionsaufsichtsgesetz.\n\nZu unseren Kunden gehören Privatpersonen und mehrheitlich juristische Personen wie kleinere bis grössere Familienbetriebe, KMUs, Kollektivgesellschaften und Einzelunternehmen.\n\nGerne unterstützen wir Sie in allen aufgeführten Belangen. Auf Anfrage stellen wir Ihnen eine Offerte aus. Vereinbaren Sie mit uns einen\n\nBegleitung im Verkehr mit den Handelsregistern, Notariaten, Grundbuchämtern und Banken (u.a.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Rebex AG ist Ihr kompetenter Partner für sämtliche Treuhandarbeiten und zugelassene Revisionsexpertin nach dem Revisionsaufsichtsgesetz. Zu unseren Kunden gehören Privatpersonen und mehrheitlich juristische Personen – von kleineren bis grösseren Familienbetrieben über KMU bis zu Kollektivgesellschaften und Einzelunternehmen. Wir übernehmen Ihre Buchführung und unterstützen Sie auch im Verkehr mit Handelsregister, Notariat, Grundbuchamt und Banken. Auf Anfrage erstellen wir Ihnen gerne eine unverbindliche Offerte."
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen."
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       }
     ]
   },
@@ -680,42 +642,35 @@
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Rebex AG in Dietikon und Zürich",
-      "body": "Verantwortungsvoll und gründlich übernimmt die Rebex AG alle Treuhandarbeiten - vom Zahlungsverkehr bis zur Nachfolgeregelung.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Wirtschaftsprüfung & -beratung",
-      "body": "Unabhängig, transparent und massgeschneidert - von der Revision über die Sanierung bis zur Liquidation.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Steuern & Rechnungswesen",
-      "body": "Verantwortungsvoll und gründlich übernimmt die Rebex AG Arbeiten in den Bereichen Steuern und Rechnungswesen.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Wir sind eine Treuhand- und Revisionsgesellschaft im schönen Limmattal. Besuchen Sie uns doch einmal und geniessen Sie unseren tollen Standort.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "heading": "Generalisten für alle Treuhandbelange",
+      "body": "Verantwortungsvoll und gründlich übernimmt die Rebex AG alle Treuhand- und Revisionsarbeiten – vom Zahlungsverkehr über die Wirtschaftsprüfung bis zur Nachfolgeregelung. Als zugelassene Revisionsexpertin arbeiten wir unabhängig, vertraulich und massgeschneidert.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Familienbetriebe",
+        "body": "Vom Einzelunternehmen bis zur grösseren Firma übernehmen wir Buchhaltung, Abschluss und Steuern – als verlässlicher Partner über viele Jahre."
+      },
+      {
+        "title": "Aktiengesellschaften & GmbH",
+        "body": "Als zugelassene Revisionsexpertin prüfen wir Ihre Jahresrechnung unabhängig und begleiten Sie in allen treuhänderischen Belangen."
+      },
+      {
+        "title": "Firmen in Veränderung",
+        "body": "Bei Gründung, Sanierung, Nachfolge oder Liquidation beraten wir Sie betriebswirtschaftlich und setzen die Schritte gemeinsam mit Ihnen um."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Wir erstellen Ihre Steuererklärung und unterstützen Sie im Verkehr mit Ämtern, Notariat und Banken."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -775,7 +730,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -790,7 +745,7 @@
   },
   "footer": {
     "brand": "Rebex AG",
-    "tagline": "Wir übernehmen alle Treuhand-Arbeiten, damit Sie sich auf Ihr Hauptgeschäft konzentrieren können. Wir sind Ihre Treuhand- und Revisionsgesellschaft!",
+    "tagline": "Ihre Treuhand- und Revisionsgesellschaft im Limmattal – seit 1997.",
     "logo": "/images/rebex-ch/pool/5b4d70d8b0__ES_Logo_QL_rgb_pos-1920w.jpeg",
     "columns": [
       {

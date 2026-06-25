@@ -186,10 +186,8 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "faq",
-      "process (generic)",
-      "audience (generic)"
+      "process (generic)"
     ],
     "real": [
       "meta.firm",
@@ -505,7 +503,7 @@
     "logo": "/images/zurichtaxtreuhand-ch/pool/406d11bb16__Logo_Schriftzug-800x231.png"
   },
   "hero": {
-    "eyebrow": "Treuhand · Zürich",
+    "eyebrow": "Treuhand · Regensdorf",
     "titleLead": "Zurich Tax und Treuhand",
     "titleAccent": "",
     "lede": "Ihre erste Anlaufstelle für Buchhaltung, Firmengründung und -Mutation, Personal-Administration und Steuererklärung – für KMU aus der Region.",
@@ -524,71 +522,35 @@
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/zurichtaxtreuhand-ch/pool/526abd63e3__steuern2-rescaled.jpg"
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Firmengründungen, Umwandlungen und Umstrukturierung, Businessplan und weitere Dientsleistungen. Gerne informieren wir Sie.",
-        "body": "Lassen Sie sich dabei von uns beraten und unterstützen! Dies sind unsere Dienstleistungen:\n\nProzess-Steuerung: Auf Wunsch übernehmen wir die Projektleitung und sorgen dafür, dass alles in Ihrem besten Interesse abgewickelt wird.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "summary": "Firmengründungen, Umwandlungen, Umstrukturierungen und Businesspläne – gerne beraten wir Sie.",
+        "body": "Bei Gründung, Umwandlung oder Umstrukturierung begleiten wir Sie von der ersten Idee bis zur Umsetzung. Auf Wunsch übernehmen wir die Projektleitung und sorgen dafür, dass alles in Ihrem besten Interesse abgewickelt wird.",
         "image": "/images/zurichtaxtreuhand-ch/pool/7a8ba0c189__Unternehmensberatung_543x505.png"
       },
       {
         "title": "Buchhaltung",
-        "summary": "Buchhaltung zum fairen Preis - umfassende Treuhandberatung Zürich Altstetten. - Mehr als 20 Jahre Erfahrung in Buchhaltung.",
+        "summary": "Umfassende Finanzbuchhaltung – korrekt, vollständig und termingerecht geführt.",
         "body": "Jedes Unternehmen muss seine Buchhaltung korrekt und vollständig führen. Das ist nicht nur eine gesetzliche Pflicht, sondern auch eine Vorsichtsmassnahme. Eine gut geführte Buchhaltung liefert im Streitfall wertvolle Beweismittel und stimmt die Steuerbehörden positiv.\n\nSie sehen: Das Führen der Buchhaltung stellt eine grosse Verantwortung dar. Legen Sie diese Aufgabe vertrauensvoll in unsere Hände. Sie können sich darauf verlassen, dass Ihre gesamte Finanzbuchhaltung stets in Ordnung ist und Sie vor unliebsamen Überraschungen sicher sein werden.\n\nWir sorgen dafür, dass Ihre alltäglichen Geschäftsfälle korrekt und pünktlich gebucht werden.\n\nKontrolle der bereits vorgenommenen Verbuchungen auf Vollständigkeit, Korrektheit, Konsistenz, usw.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/zurichtaxtreuhand-ch/pool/a39b6f426a__buchhaltung2-rescaled.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Wir übernehmen für Sie die Lohnadministration, Lohnbuchhaltung und diverse Abrechnung mit den Behörden. Arbeitsbewilligung für Status S.",
         "body": "In einer erfolgreichen Unternehmensführung ist die effektive Personalverwaltung unerlässlich. Wir von Zürich Tax & Treuhand GmbH wissen, dass Sie sich auf das Führen Ihres Teams konzentrieren müssen. Genau deshalb bieten wir Ihnen unsere Expertise an, um Ihnen den administrativen Teil abzunehmen und Ihnen den Rücken freizuhalten.\n\nWir behalten den Überblick über Ihre Lohnabrechnungen und sorgen für pünktliche und korrekte Zahlungen.\n\nDer administrative Verkehr mit Behörden wie der Sozialversicherungsanstalt (SVA) oder Ihrer Pensionskasse wird von uns sorgfältig abgewickelt.\n\nWir unterstützen Sie bei der Erstellung von Arbeitsverträgen, Kündigungsschreiben und Zeugnissen – alles rechtssicher und individuell angepasst.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/zurichtaxtreuhand-ch/pool/8f6ad650c8__personaladmin2-rescaled.jpg"
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       }
     ]
   },
@@ -616,15 +578,14 @@
     "lead": "Unsere Kundschaft schätzt die kompetente Beratung, die gewissenhafte Ausführung und die persönliche Betreuung.",
     "paragraphs": [
       "Zürich Tax & Treuhand GmbH hilft Schweizer KMU aus der Region Zürich und angrenzenden Kantonen bei allen Aufgaben rund um die Buchhaltung: Finanzbuchhaltung, Steuererklärungen, Personaladministration, Firmengründungen und Versicherungen.",
-      "Der persönliche Ansprechpartner, welcher jederzeit für Sie erreichbar ist und auf Sie eingeht.",
-      "Ich bin Fatih Özonar, Ihr Ansprechpartner für alle Treuhand-Dienstleistungen. Zwar trage ich einen ausländischen Namen, aber geboren und aufgewachsen bin ich in der Schweiz."
+      "Bei uns haben Sie einen persönlichen Ansprechpartner, der jederzeit für Sie erreichbar ist und auf Ihre Anliegen eingeht."
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
       "heading": "Wie wir arbeiten",
-      "body": "Weil jede Firma anders funktioniert und jede Buchhaltung anders organisiert ist, passen wir unsere Arbeitsweise individuell an Ihre Anforderungen an. Hier ist vieles möglich:",
+      "body": "Weil jede Firma anders funktioniert und jede Buchhaltung anders organisiert ist, passen wir unsere Arbeitsweise individuell an Ihre Anforderungen an – persönlich betreut und auf Sie zugeschnitten.",
       "cta": {
         "label": "Termin buchen"
       }
@@ -636,29 +597,30 @@
       "cta": {
         "label": "Termin buchen"
       }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Fatih Özonar",
-      "body": "Ich bin Fatih Özonar, Ihr Ansprechpartner für alle Treuhand-Dienstleistungen. Zwar trage ich einen ausländischen Namen, aber geboren und aufgewachsen bin ich in der Schweiz.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Firmengründungen, Umwandlungen und Umstrukturierung, Businessplan und weitere Dientsleistungen. Gerne informieren wir Sie.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Termin buchen"
-      }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU der Region",
+        "body": "Buchhaltung, Steuern und Personaladministration für Unternehmen aus Zürich und den angrenzenden Kantonen."
+      },
+      {
+        "title": "Gründerinnen & Gründer",
+        "body": "Firmengründung, Umwandlung und Umstrukturierung – auf Wunsch mit Projektleitung durch uns."
+      },
+      {
+        "title": "Arbeitgeber",
+        "body": "Lohnadministration, Lohnbuchhaltung und Abrechnungen mit den Behörden – inklusive Arbeitsverträgen und Zeugnissen."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung und persönliche Beratung von einem festen Ansprechpartner."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",

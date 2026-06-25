@@ -168,11 +168,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "about (generic)",
       "look.colors (generated)",
       "media.stock (CC fallback)"
@@ -516,74 +514,38 @@
     "items": [
       {
         "title": "Unternehmensberatung",
-        "summary": "Eine kontinuierliche Steuerberatung und Steuerplanung ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.",
-        "body": "verfügen. Beispielsweise stellt sich bei der Mehrwertsteuer oft die Frage, welche Abrechnungsmethode für Ihr Unternehmen besser geeignet ist.\n\n. Dabei legen wir besonderen Wert auf eine weitsichtige, nachhaltige Analyse und Beratung, welche über die Erzielung unmittelbarer Steuervorteile hinausgeht. Die Schnittstelle zu unserer\n\nin den Bereichen Rechnungswesen, Wirtschaftsprüfung und Unternehmensberatung garantiert Ihnen eine ganzheitliche Sicht auf Ihre Unternehmensprozesse und damit grösstmögliche Effizienz – auch in der interkantonalen und internationalen Steuerplanung.\n\nSelbstverständlich agieren wir ebenso als kompetente Vertretung gegenüber allen Finanzbehörden und Instanzen, etwa bei Einsprachen oder Rekursen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "summary": "Betriebswirtschaftliche Beratung mit ganzheitlichem Blick auf Rechnungswesen, Steuern und Wirtschaftsprüfung.",
+        "body": "Gute Entscheidungen brauchen verlässliche Zahlen und eine weitsichtige Perspektive. Wir beraten Sie zu Rechnungswesen, Steuerplanung und Finanzbehörden – von der Wahl der passenden Abrechnungsmethode bis zur Vertretung bei Einsprachen und Rekursen. Durch die enge Verzahnung mit unseren Bereichen Wirtschaftsprüfung und Treuhand erhalten Sie eine ganzheitliche Sicht auf Ihre Unternehmensprozesse – auch in der interkantonalen und internationalen Steuerplanung.",
         "image": "/images/wuerth-treuhand-ch/pool/stock-success-6289065.jpg"
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/wuerth-treuhand-ch/pool/stock-laptop-7948060.jpg"
       },
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
         "body": "Eine Revision schafft Vertrauen – bei Eigentümern, Verwaltungsrat, Banken und Geschäftspartnern. Als zugelassene Fachpersonen führen wir die eingeschränkte sowie die ordentliche Revision durch und prüfen Ihre Jahresrechnung auf Gesetzes- und Statutenkonformität. Wir stimmen den Prüfungsumfang auf Grösse und Risikoprofil Ihres Unternehmens ab und liefern neben dem Revisionsbericht auch konkrete Hinweise zur Verbesserung Ihres internen Kontrollsystems. So erfüllen Sie Ihre gesetzlichen Pflichten und gewinnen zugleich verlässliche Erkenntnisse über Ihr Rechnungswesen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/wuerth-treuhand-ch/pool/stock-meeting-7495291.jpg"
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/wuerth-treuhand-ch/pool/stock-success-5849583.jpg"
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/wuerth-treuhand-ch/pool/stock-desk-8872717.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
         "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/wuerth-treuhand-ch/pool/stock-advisory-7821543.jpg"
       }
     ]
@@ -595,45 +557,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Eine kontinuierliche Steuerberatung und Steuerplanung ist die beste Voraussetzung, um die Steuerbelastung Ihrer Firma nachhaltig zu reduzieren.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Revision",
-      "body": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand, Steuern und Revision aus einer Hand",
+      "body": "Als spezialisiertes Treuhandbüro an der Norastrasse in Zürich verbinden wir Steuerberatung, Revision und Treuhand. Das gibt Ihnen eine durchgängige Sicht auf Ihre Zahlen – mit einem persönlichen Ansprechpartner.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU in Zürich",
+        "body": "Buchhaltung, Steuern und Revision für Unternehmen aus der Stadt und Region – verlässlich und persönlich betreut."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Optimierung und Vertretung gegenüber den Steuerbehörden, damit Sie nicht mehr Steuern zahlen als nötig."
+      },
+      {
+        "title": "Prüfpflichtige Gesellschaften",
+        "body": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren – gesetzeskonform und auf Ihr Risikoprofil abgestimmt."
+      },
+      {
+        "title": "Arbeitgeber",
+        "body": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration zuverlässig abgewickelt."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -692,7 +645,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {

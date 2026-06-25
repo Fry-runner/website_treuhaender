@@ -42,9 +42,9 @@
         "secondaryFg": "#FFFFFF"
       },
       "font": {
-        "body": "\"Inter\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "heading": "\"Space Grotesk\", ui-sans-serif, system-ui, -apple-system, sans-serif",
-        "headingRole": "display-grotesk",
+        "body": "\"Public Sans\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "heading": "\"Epilogue\", ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "headingRole": "display-geometric",
         "mono": "\"JetBrains Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
       },
       "type": {
@@ -59,9 +59,9 @@
         }
       },
       "radius": {
-        "base": "md",
+        "base": "2xl",
         "pill": "full",
-        "scale": "medium"
+        "scale": "soft"
       },
       "shadow": {
         "elevation": "subtle",
@@ -69,7 +69,7 @@
       },
       "spacing": {
         "sectionY": "py-20",
-        "rhythm": "airy",
+        "rhythm": "normal",
         "containerMax": "1280px",
         "gutter": "1.5rem"
       },
@@ -185,9 +185,7 @@
       }
     },
     "placeholders": [
-      "hero.aside",
-      "process (generic)",
-      "audience (generic)"
+      "process (generic)"
     ],
     "real": [
       "meta.firm",
@@ -513,7 +511,7 @@
     "cta": "Termin buchen"
   },
   "hero": {
-    "eyebrow": "Treuhand · Zürich",
+    "eyebrow": "Treuhand · Bremgarten",
     "titleLead": "Ihre Treuhänderin in Zürich & im Freiamt – persönlich, digital, effizient",
     "titleAccent": "",
     "lede": "Buchhaltung, Steuererklärung & Lohn für KMU und Privatpersonen in Zürich (Kreis 3) und im Freiamt. Persönlich, digital, fair.",
@@ -548,7 +546,7 @@
       {
         "title": "Buchhaltung",
         "summary": "Digitale Buchhaltung für KMUs Sparen Sie Zeit und Kosten durch Outsourcing Ihrer Finanzprozesse an Treuhandbüro Ivanova.",
-        "body": "Einer der größten Vorteile der digitalen Buchhaltung ist die Automatisierung wiederkehrender Aufgaben. Mit modernen Softwarelösungen lassen sich:\n\nAnstelle stundenlanger manueller Arbeit können KMUs wertvolle Zeit sparen und sich auf ihr Kerngeschäft konzentrieren.\n\nFehler in der Buchhaltung können teuer werden. Mahngebühren, falsche Steuerzahlungen oder verpasste Fristen sind keine Seltenheit. Mit digitaler Buchhaltung werden solche Risiken minimiert. Zudem reduzieren sich die Kosten für Papier, Druck und Lagerung von physischen Dokumenten erheblich.\n\nDarüber hinaus ermöglicht die Digitalisierung, dass Buchhalter oder externe Treuhänder effizienter arbeiten, wodurch sich die Kosten für externe Dienstleistungen senken lassen."
+        "body": "Digitale Buchhaltung spart KMU Zeit und Kosten: Wiederkehrende Aufgaben laufen automatisiert, Belege werden papierlos erfasst und Auswertungen stehen jederzeit bereit. Wir richten die passenden Abläufe ein und führen Ihre Finanzbuchhaltung laufend – so vermeiden Sie Fehler, verpasste Fristen und unnötige Kosten und können sich auf Ihr Kerngeschäft konzentrieren."
       },
       {
         "title": "Lohnadministration",
@@ -590,44 +588,42 @@
     "lead": "Egal ob Sie eine digitale Lösung oder persönliche Beratung bevorzugen, wir passen uns Ihren Bedürfnissen an.",
     "paragraphs": [
       "Meine Arbeit vereint moderne Technologien mit individueller Betreuung – ein Ansatz, der nicht nur effizient, sondern auch vertrauensvoll ist.",
-      "Ich glaube daran, dass jedes Unternehmen einzigartig ist und individuelle Lösungen verdient. Deshalb ist es mein Ziel, meine Kunden nicht nur fachlich kompetent zu beraten, sondern auch ihre Geschäftsprozesse zu verstehen und maßgeschneiderte Strategien zu entwickeln. Bei mir stehen persönliche Betreuung und digitale Effizienz im Mittelpunkt.",
-      "Wissen ist die Grundlage – Erfahrung dIch verfüge über eine fundierte Ausbildung im Bereich Finanz- und Rechnungswesen sowie jahrelange praktische Erfahrung in der Buchhaltung, Steuerberatung und Treuhanddienstleistungen. Bevor ich mein eigenes Unternehmen gegründet habe, war ich in verschiedenen renommierten Treuhandbüros tätig, wo ich wertvolle Einblicke in die Herausforderungen und Bedürfnisse von KMUs gewinnen konnte.ie Garantie."
+      "Ich glaube daran, dass jedes Unternehmen einzigartig ist und individuelle Lösungen verdient. Deshalb ist es mein Ziel, meine Kunden nicht nur fachlich kompetent zu beraten, sondern auch ihre Geschäftsprozesse zu verstehen und massgeschneiderte Strategien zu entwickeln. Bei mir stehen persönliche Betreuung und digitale Effizienz im Mittelpunkt.",
+      "Ich verfüge über eine fundierte Ausbildung im Finanz- und Rechnungswesen sowie langjährige Praxis in Buchhaltung, Steuerberatung und Treuhand. Vor der Gründung meines eigenen Unternehmens war ich in verschiedenen Treuhandbüros tätig und habe dort die Herausforderungen und Bedürfnisse von KMU kennengelernt."
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Warum Sie mit uns zusammenarbeiten sollten",
-      "body": "Sie können sich darauf verlassen, dass Ihre Buchhaltung und Steuerangelegenheiten korrekt und pünktlich erledigt werden.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Unsere Fokus",
-      "body": "Präzise und digital – wir sorgen dafür, dass Ihre Zahlen immer stimmen.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Mitgliedschaft – Teil eines starken Netzwerks",
-      "body": ", dem schweizerischen Branchen- und Berufsverband der Treuhänder:innen mit Fokus auf KMU und Privatkundschaft. Die laufende fachliche Weiterbildung unterstützt eine fachlich korrekte und aktuelle Beratung.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Unsere Vision – Für die Zukunft der Treuhandbranche",
-      "body": "Die Treuhandwelt entwickelt sich ständig weiter, und wir davon überzeugt, dass Digitalisierung, Effizienz und persönliche Betreuung der Schlüssel zum Erfolg sind. Deshalb haben wir es uns zur Aufgabe gemacht, innovative Prozesse zu entwickeln und unseren Kunden stets den besten Service zu bieten.",
+      "heading": "Persönlich und digital",
+      "body": "Ob Sie eine digitale Lösung oder die persönliche Beratung bevorzugen – ich passe mich Ihren Bedürfnissen an und verbinde moderne Technologien mit individueller Betreuung für KMU und Privatpersonen in Zürich und im Freiamt.",
       "cta": {
         "label": "Termin buchen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Einzelunternehmen",
+        "body": "Digitale Buchhaltung, Lohn und Abschluss – damit Ihre Zahlen stimmen und Sie Zeit gewinnen."
+      },
+      {
+        "title": "Privatpersonen & Familien",
+        "body": "Steuererklärung und Steuerfragen, persönlich und verständlich begleitet."
+      },
+      {
+        "title": "Quellenbesteuerte",
+        "body": "Unterstützung bei Quellensteuer, Tarifwechsel und nachträglicher ordentlicher Veranlagung."
+      },
+      {
+        "title": "Digital-affine Kundschaft",
+        "body": "Belege papierlos einreichen und Beratung flexibel online – per Zoom, Telefon oder E-Mail."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -712,7 +708,7 @@
   },
   "footer": {
     "brand": "Treuhandbüro Ivanova / Adea",
-    "tagline": "Buchhaltung, Steuererklärung & Lohn für KMU und Privatpersonen in Zürich (Kreis 3) und im Freiamt. Persönlich, digital, fair.",
+    "tagline": "Treuhand für KMU und Privatpersonen in Zürich und im Freiamt.",
     "columns": [
       {
         "title": "Sitemap",

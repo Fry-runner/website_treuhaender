@@ -186,9 +186,7 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -629,13 +627,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Zürich",
-    "titleLead": "Wir übernehmen deine Treuhandaufgaben und schenken dir Zeit.",
-    "titleAccent": "",
-    "lede": "SPP - Treuhand AG Zürich: Treuhand-Support und Beratung in allen Bereichen für KMU, Rechnungswesen, Steuern, Lohnbuchhaltung, Firmengründung",
+    "titleLead": "Wir übernehmen Ihre Treuhandaufgaben",
+    "titleAccent": "und schenken Ihnen Zeit.",
+    "lede": "Treuhand-Support und Beratung für KMU in Zürich – von Rechnungswesen und Steuern über die Lohnbuchhaltung bis zur Firmengründung.",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "SPP - Treuhand AG Zürich: Treuhand-Support und Beratung in allen Bereichen für KMU, Rechnungswesen, Steuern, Lohnbuchhaltung, Firmengründung",
+    "asideQuote": "Die Ziele unserer Kunden machen wir zu unseren Zielen. Zufrieden sind wir erst, wenn wir diese gemeinsam erreicht haben.",
     "asideAttribution": "SPP Treuhand AG",
     "image": "/images/spp-treuhand-ch/pool/stock-desk-7792775.jpg"
   },
@@ -647,70 +645,34 @@
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/spp-treuhand-ch/pool/edadc7c2ab__SPP-buchhaltung-und-rechnungswesen.png"
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/spp-treuhand-ch/pool/a7eac76496__SPP-firmengruendung-und-unternehmensberatung.png"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus."
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Jährliche MWST-Abrechnung – sinnvoll oder riskant? - SPP Schlunegger Park & Partner Treuhand AG\n\nSeit dem 1. Januar 2025 können Unternehmen mit einem Jahresumsatz bis CHF 5’005’000 ihre MWST jährlich statt quartalsweise abrechnen – sofern die ESTV den Antrag bewilligt.\n\nDas klingt nach weniger Aufwand – doch die Umstellung will gut überlegt sein.\n\nBei SPP zeigt sich schnell: Fehler ziehen sich durchs ganze Jahr. Der Aufwand wird nicht kleiner – er verschiebt sich nur. Und mit jeder zusätzlichen Woche Abstand zum Buchungszeitpunkt wird die Nachvollziehbarkeit schwieriger. Belege von vor einem Jahr nachzuvollziehen kostet Zeit und Nerven – und führt am Ende oft zu mehr Aufwand statt weniger.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der ESTV. Auch bei Fragen wie der jährlichen statt quartalsweisen Abrechnung beraten wir Sie ehrlich: Oft wird der Aufwand dadurch nicht kleiner, sondern verschiebt sich nur – und je länger Belege zurückliegen, desto schwieriger die Nachvollziehbarkeit. So finden wir gemeinsam die Lösung, die für Ihr Unternehmen wirklich passt.",
         "image": "/images/spp-treuhand-ch/pool/223bbfc076__Jaehrliche_MwSt.png"
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir uns bei Ihnen melden können.\n\nWir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir uns bei Ihnen melden können.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei erläutern wir Ihnen die Ergebnisse verständlich, damit Sie eine belastbare Grundlage für Steuern, Finanzierung und Planung haben."
       }
     ]
   },
@@ -749,37 +711,35 @@
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Dein Treuhand. Digital gedacht, persönlich gemacht.",
-      "body": "Die Werte unseres Unternehmens und unseres Teams haben wir bewusst kurz gehalten. Wir sind überzeugt: Verständlich und umsetzbar bleibt nur, was sich klar und ohne Umwege formulieren lässt. Diese wenigen Worte stehen für das, was wir täglich leben – aus Überzeugung und mit Haltung.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Mit wenigen Klicks zu mehr Freiraum",
-      "body": "Wir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Mit wenigen Klicks zu zusätzlicher Kompetenz",
-      "body": "Wir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir Ihnen auf dem Punkt Ihrer Wünsche und Anforderungen ein unverbindliches Angebot ausarbeiten können.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "bexio Buchhaltung einrichten lassen",
-      "body": "Wir freuen uns über Ihr Interesse. Füllen Sie bitte das Formular unten aus, damit wir uns bei Ihnen melden können.",
+      "heading": "Digital gedacht, persönlich gemacht",
+      "body": "Wir sind gross genug, um ein umfassendes Leistungsspektrum effizient zu betreuen – und bewusst klein genug, dass Qualität, Sorgfalt und der persönliche Touch immer im Zentrum stehen. Bei uns hat jede Kundin und jeder Kunde eine feste Ansprechperson, die das Unternehmen kennt.",
       "cta": {
         "label": "Termin buchen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Unternehmen",
+        "body": "Rechnungswesen, MWST, Lohn und Jahresabschluss aus einer Hand – mit einer festen Kundenbetreuerin oder einem festen Kundenbetreuer für Ihre Firma."
+      },
+      {
+        "title": "Gründerinnen & Gründer",
+        "body": "Bei der Firmengründung und beim Aufbau Ihrer Buchhaltung begleiten wir Sie betriebswirtschaftlich von Anfang an."
+      },
+      {
+        "title": "bexio- & Online-Nutzer",
+        "body": "Sie erfassen Belege selbst und lassen den Rest erledigen? Wir richten Ihre digitale Buchhaltung ein und übernehmen, was Sie abgeben möchten."
+      },
+      {
+        "title": "Mitarbeitende & Angehörige unserer Kunden",
+        "body": "Für unsere Buchhaltungskunden sowie deren Mitarbeitende und Angehörige erstellen wir auch die private Steuererklärung."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -906,7 +866,7 @@
   },
   "footer": {
     "brand": "SPP Treuhand AG",
-    "tagline": "SPP - Treuhand AG Zürich: Treuhand-Support und Beratung in allen Bereichen für KMU, Rechnungswesen, Steuern, Lohnbuchhaltung, Firmengründung",
+    "tagline": "Treuhand für KMU in Zürich – digital gedacht, persönlich gemacht.",
     "logo": "/images/spp-treuhand-ch/pool/c6bbe31b0e__SPP-Rechnungswesen.svg",
     "columns": [
       {

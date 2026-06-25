@@ -191,11 +191,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
-      "process (generic)",
-      "audience (generic)"
+      "process (generic)"
     ],
     "real": [
       "meta.firm",
@@ -561,13 +559,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Wallisellen",
-    "titleLead": "Erfahren Sie, wo wir Sie bestens beraten können.",
-    "titleAccent": "",
-    "lede": "Monere Wallisellen – Persönliche und individuelle Treuhandberatung für Unternehmen und Privatpersonen.",
+    "titleLead": "Persönliche Treuhand-",
+    "titleAccent": "beratung in Wallisellen.",
+    "lede": "Monere begleitet Unternehmen und Privatpersonen in Wallisellen – persönlich, individuell und vorausschauend in allen Treuhand-, Steuer- und Immobilienfragen.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Monere Wallisellen – Persönliche und individuelle Treuhandberatung für Unternehmen und Privatpersonen.",
+    "asideQuote": "«Monere» steht für unsere Grundsätze: Vertraulichkeit, Objektivität, Fairness und fachliche Kompetenz.",
     "asideAttribution": "Monere Wallisellen",
     "image": "/images/monere-ch/hero.jpg"
   },
@@ -577,71 +575,35 @@
     "items": [
       {
         "title": "Unternehmensberatung",
-        "summary": "Persönliche Beratung für Unternehmen und Privatpersonen in Dietikon. Spezialisiert auf Nachfolgeregelungen und individuelle Lösungen.",
+        "summary": "Persönliche Beratung für Unternehmen und Privatpersonen – von der Firmengründung über den Businessplan bis zur Nachfolgeregelung.",
         "body": "Es bedeutet, die Bedürfnisse auf dem Markt und die eigenen Fähigkeiten zu kennen, um sich wettbewerbsfähig und erfolgreich zu positionieren. Einen Businessplan zu erstellen ist elementar und zwingt vor Firmengründung dazu, die Geschäftsidee sowie Ziele zu konkretisieren und Alleinstellungsmerkmale hervorzuheben. Damit wird die Strategie zur Umsetzung festgelegt und die wirtschaftlichen Ziele werden in messbaren Kennzahlen dargestellt. Ein Businessplan ist ein wertvolles Dokument in Gesprächen mit Banken, Investoren und Mitarbeitenden.\n\nDie Wahl der geeigneten Rechtsform basiert auf den im Businessplan definierten Entscheidungen und dem daraus resultierenden Kapitalbedarf.\n\nEine fundierte Planung ist die Basis in allen Phasen der Unternehmensführung, auch im Falle einer Nachfolgeregelung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/monere-ch/pool/27206c6d1a__Unternehmensberatung.jpeg"
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Damit Ihre Steuererklärung korrekt, reibungslos und termingerecht erledigt wird, tragen wir Sorge. Wir kennen die neueste Gesetzgebung und schöpfen alle Vorteile für Sie aus. Wir beraten Sie individuell, abgestimmt auf Ihre Lebens- und Arbeitssituation. Nehmen Sie es gelassen und sprechen Sie mit uns. Wir kümmern uns darum.\n\nFür Kapitalgesellschaften, wie beispielsweise eine Aktiengesellschaft oder GmbH, werden Steuern für juristische Personen erhoben. Diese basieren auf Gewinn und Kapital.\n\nDie optimale Steuerplanung beinhaltet nicht nur die Gewinnoptimierung, sondern berücksichtigt auch Ihre wirtschaftlichen Ziele.\n\nErstellen der Steuererklärung für natürliche und juristische Personen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/monere-ch/pool/e02a70f245__Steuerberater_in.jpeg"
       },
       {
         "title": "Immobilien",
-        "summary": "Erstes Treuhandunternehmen im neuen Stadtteil Limmatfeld in Dietikon. Wir beraten Sie als Unternehmen oder Privatperson, persönlich und individuell.",
-        "body": "Wir beraten Sie umfassend zu allen Möglichkeiten bei Vermietungen und Verkauf sowie bei sämtlichen finanziellen und steuerlichen Fragen, die sich dabei stellen.\n\nDie Vermietung einer Liegenschaft bietet verschiedene Vorteile. Regelmässige Einkünfte, eine solide Geldanlage oder die Diversifikation Ihres Portfolios können Ihre Entscheidung motivieren. In jedem Fall empfehlen wir eine sorgfältige Kostenkalkulation, damit Ihr Objekt auch nach Rücklagen für Renovationen eine attraktive Rendite einbringt.​\n\nDer Verkauf der eigenen Liegenschaft ist eine wichtige und nicht alltägliche Entscheidung. Der notwendige Aufwand wird meist unterschätzt und oft fehlt dem Eigentümer die emotionale Distanz, um einen marktgerechten Kaufpreis festzulegen. Wir beobachten und kennen die Entwicklungen im Immobilienmarkt. Damit es sich auch für Sie lohnt, ermitteln wir realistische Verkaufspreise.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "summary": "Wir beraten Sie bei Vermietung und Verkauf von Liegenschaften sowie bei allen finanziellen und steuerlichen Fragen rund um Ihre Immobilie.",
+        "body": "Wir beraten Sie umfassend zu allen Möglichkeiten bei Vermietungen und Verkauf sowie bei sämtlichen finanziellen und steuerlichen Fragen, die sich dabei stellen.\n\nDie Vermietung einer Liegenschaft bietet verschiedene Vorteile. Regelmässige Einkünfte, eine solide Geldanlage oder die Diversifikation Ihres Portfolios können Ihre Entscheidung motivieren. In jedem Fall empfehlen wir eine sorgfältige Kostenkalkulation, damit Ihr Objekt auch nach Rücklagen für Renovationen eine attraktive Rendite einbringt.​\n\nDer Verkauf der eigenen Liegenschaft ist eine wichtige und nicht alltägliche Entscheidung. Der notwendige Aufwand wird meist unterschätzt und oft fehlt dem Eigentümer die emotionale Distanz, um einen marktgerechten Kaufpreis festzulegen. Wir beobachten und kennen die Entwicklungen im Immobilienmarkt. Damit es sich auch für Sie lohnt, ermitteln wir realistische Verkaufspreise."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       }
     ]
   },
@@ -662,45 +624,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Persönliche Beratung für Unternehmen und Privatpersonen in Dietikon. Spezialisiert auf Nachfolgeregelungen und individuelle Lösungen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Immobilien",
-      "body": "Erstes Treuhandunternehmen im neuen Stadtteil Limmatfeld in Dietikon. Wir beraten Sie als Unternehmen oder Privatperson, persönlich und individuell.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Vorausschauend beraten, persönlich betreut",
+      "body": "«Monere» steht für unsere Grundsätze. Wir vertiefen uns mit aufrichtigem Interesse in Ihre Geschäftstätigkeit und lassen uns von Vertraulichkeit, Objektivität, Fairness und fachlicher Kompetenz leiten – für eine gewinnbringende Zusammenarbeit.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Unternehmen",
+        "body": "Von der Buchhaltung über Lohn und Steuern bis zum Jahresabschluss begleiten wir Sie in allen finanziellen und administrativen Belangen."
+      },
+      {
+        "title": "Gründerinnen & Gründer",
+        "body": "Vom Businessplan über die Wahl der Rechtsform bis zur Finanzierung – wir legen mit Ihnen das Fundament für den Start."
+      },
+      {
+        "title": "Immobilieneigentümer",
+        "body": "Bei Vermietung, Verkauf und allen steuerlichen Fragen rund um Ihre Liegenschaft ermitteln wir realistische Werte und behalten den Markt im Blick."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung und persönliche Beratung, abgestimmt auf Ihre Lebens- und Arbeitssituation."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -741,7 +694,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {

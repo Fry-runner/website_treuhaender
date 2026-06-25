@@ -185,12 +185,10 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "services.text",
       "process (generic)",
-      "audience (generic)",
       "about (generic)",
       "feature (generic)",
       "media.stock (CC fallback)"
@@ -594,13 +592,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Zürich",
-    "titleLead": "SBT Treuhand Im Hintergrund für Sie da. Standhaft, zuverlässig, tragend.",
-    "titleAccent": "",
-    "lede": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
+    "titleLead": "Im Hintergrund für Sie da.",
+    "titleAccent": "Standhaft, zuverlässig, tragend.",
+    "lede": "SBT Treuhand AG in Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung aus einer Hand.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
+    "asideQuote": "Wir arbeiten im Hintergrund, damit Sie sich auf Ihr Geschäft konzentrieren können – standhaft, zuverlässig und tragend.",
     "asideAttribution": "SBT Treuhand Zürich",
     "image": "/images/sbt-treuhand-ch/pool/stock-skyline-20768136.jpg"
   },
@@ -612,72 +610,36 @@
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/sbt-treuhand-ch/pool/stock-finance-577195.jpg"
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/sbt-treuhand-ch/pool/stock-office-159839.jpg"
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
         "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/sbt-treuhand-ch/pool/stock-office-36175676.jpg"
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/sbt-treuhand-ch/pool/stock-success-5849583.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
         "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/sbt-treuhand-ch/pool/stock-documents-8478387.jpg"
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/sbt-treuhand-ch/pool/stock-office-8453801.jpg"
       }
     ]
@@ -686,6 +648,28 @@
     "eyebrow": "Warum wir",
     "heading": "Ihr Vorteil.",
     "items": []
+  },
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Unternehmen",
+        "body": "Buchhaltung, MWST, Lohn und Jahresabschluss aus einer Hand – damit Sie sich auf Ihr Kerngeschäft konzentrieren können."
+      },
+      {
+        "title": "Gründerinnen & Gründer",
+        "body": "Bei Rechtsform, Budget und Aufbau begleiten wir Sie betriebswirtschaftlich von Anfang an."
+      },
+      {
+        "title": "Firmen in Veränderung",
+        "body": "Bei Wachstum, Nachfolge oder Umstrukturierung zeigen wir Handlungsoptionen auf und setzen die Schritte gemeinsam mit Ihnen um."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Wir erstellen Ihre Steuererklärung, prüfen Optimierungen und vertreten Sie gegenüber den Steuerbehörden."
+      }
+    ]
   },
   "team": {
     "eyebrow": "Team",
@@ -743,7 +727,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -758,7 +742,7 @@
   },
   "footer": {
     "brand": "SBT Treuhand Zürich",
-    "tagline": "SBT Treuhand AG, Zürich – verlässliche Buchhaltung, Steuerberatung, Mehrwertsteuerbetreuung und Unternehmensberatung.",
+    "tagline": "Ihr Treuhandpartner in Zürich – persönlich, verlässlich und breit aufgestellt.",
     "columns": [
       {
         "title": "Sitemap",

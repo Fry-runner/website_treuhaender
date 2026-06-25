@@ -177,11 +177,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
-      "process (generic)",
-      "audience (generic)"
+      "process (generic)"
     ],
     "real": [
       "meta.firm",
@@ -490,12 +488,12 @@
     "eyebrow": "Treuhand · Zürich",
     "titleLead": "Ihre Finanzen,",
     "titleAccent": "klar geführt.",
-    "lede": "Dienstleistungen der Schweizerischen Treuhandgesellschaft (Zürich) AG: Steuern, Treuhand, Trust & Gestion und Immobilien",
+    "lede": "Die Schweizerische Treuhandgesellschaft (Zürich) AG begleitet Sie in Steuern, Treuhand, Trust & Gestion und Immobilien – persönlich und mit langjähriger Erfahrung.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "",
-    "asideAttribution": "",
+    "asideQuote": "Mit Freude pflegen wir vertrauensvolle und meist langjährige Beziehungen zu unseren Kundinnen und Kunden.",
+    "asideAttribution": "STG Zürich",
     "image": "/images/stg-zuerich/hero.jpg"
   },
   "services": {
@@ -549,38 +547,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Lohnadministration",
-      "body": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+      "eyebrow": "Unser Ansatz",
+      "heading": "STG-Tradition, persönlich weitergeführt",
+      "body": "Steuern, Treuhand, Trust & Gestion und Immobilien aus einer Hand – ein eingespieltes Team pflegt vertrauensvolle und meist langjährige Beziehungen zu seinen Kundinnen und Kunden.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "Unternehmen & KMU",
+        "body": "Buchhaltung, Jahresabschluss, Revision und Steuern – damit Sie sich auf Ihr Geschäft konzentrieren können."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Optimierung und Vertretung gegenüber den Behörden – persönlich betreut."
+      },
+      {
+        "title": "Eigentümer & Immobilienhalter",
+        "body": "Rund um Ihre Immobilien stehen wir Ihnen mit Bewirtschaftung und Beratung zur Seite."
+      },
+      {
+        "title": "Trust & Gestion",
+        "body": "Wir betreuen Mandate im Bereich Trust und Gestion – diskret und mit langjähriger Erfahrung."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -663,7 +659,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -678,7 +674,7 @@
   },
   "footer": {
     "brand": "STG Zürich",
-    "tagline": "Dienstleistungen der Schweizerischen Treuhandgesellschaft (Zürich) AG: Steuern, Treuhand, Trust & Gestion und Immobilien",
+    "tagline": "Steuern, Treuhand, Trust & Gestion und Immobilien – aus einer Hand in Zürich.",
     "logo": "/images/stg-zuerich/pool/1657b164e5__logo.svg",
     "columns": [
       {

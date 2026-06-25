@@ -177,11 +177,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "about (generic)",
       "look.colors (generated)",
       "media.stock (CC fallback)"
@@ -303,7 +301,7 @@
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Günstige Steuerberatung in der Schweiz",
+    "asideQuote": "Komplexe steuerliche Themen verständlich erklärt – mit praktikablen Lösungen für Privatpersonen und Unternehmen.",
     "asideAttribution": "Steuerberatung Schweiz",
     "image": "/images/steuerberatung-schweiz-ch/pool/stock-office-4597993.jpg"
   },
@@ -314,69 +312,33 @@
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Wir übernehmen buchhaltung vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft."
       },
       {
         "title": "Steuerberatung",
         "summary": "steht seit über 15 Jahren für kompetente Beratung und individuelle Betreuung in der Finanz- und Versicherungsbranche.",
-        "body": "steht seit über 15 Jahren für kompetente Beratung und individuelle Betreuung in der Finanz- und Versicherungsbranche.\n\nUnsere langjährige Erfahrung und tiefgehende Fachkenntnis machen uns zu Ihrem verlässlichen Partner in allen steuerlichen Belangen – sowohl für Privatpersonen als auch für Unternehmen.\n\nUnser Anspruch ist es, komplexe steuerliche Themen verständlich zu erklären und Ihnen praktikable Lösungen anzubieten. Dabei legen wir grossen Wert auf Transparenz, Vertrauen und persönliche\n\nOb Steuererklärung, Optimierung, Unternehmensberatung oder Vorsorgeplanung – wir begleiten Sie persönlich und effizient durch den Schweizer Steuerdschungel.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Wir stehen seit über 15 Jahren für kompetente Beratung und individuelle Betreuung. Unsere langjährige Erfahrung und tiefgehende Fachkenntnis machen uns zu Ihrem verlässlichen Partner in allen steuerlichen Belangen – sowohl für Privatpersonen als auch für Unternehmen.\n\nUnser Anspruch ist es, komplexe steuerliche Themen verständlich zu erklären und Ihnen praktikable Lösungen anzubieten. Dabei legen wir grossen Wert auf Transparenz, Vertrauen und persönliche Betreuung. Ob Steuererklärung, Optimierung, Unternehmensberatung oder Vorsorgeplanung – wir begleiten Sie persönlich und effizient durch den Schweizer Steuerdschungel.",
         "image": "/images/steuerberatung-schweiz-ch/pool/8c3b963c33__steuerberater-kosten.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft."
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft."
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "steht seit über 15 Jahren für kompetente Beratung und individuelle Betreuung in der Finanz- und Versicherungsbranche.\n\nUnsere langjährige Erfahrung und tiefgehende Fachkenntnis machen uns zu Ihrem verlässlichen Partner in allen steuerlichen Belangen – sowohl für Privatpersonen als auch für Unternehmen.\n\nUnser Anspruch ist es, komplexe steuerliche Themen verständlich zu erklären und Ihnen praktikable Lösungen anzubieten. Dabei legen wir grossen Wert auf Transparenz, Vertrauen und persönliche\n\nOb Steuererklärung, Optimierung, Unternehmensberatung oder Vorsorgeplanung – wir begleiten Sie persönlich und effizient durch den Schweizer Steuerdschungel.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Bei Gründung, Budgetierung und Nachfolge stehen wichtige Weichenstellungen an. Wir beraten Sie betriebswirtschaftlich, analysieren Ihre Zahlen und zeigen Ihnen die passenden Schritte auf – damit Sie fundiert entscheiden können."
       }
     ]
   },
@@ -387,19 +349,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "steht seit über 15 Jahren für kompetente Beratung und individuelle Betreuung in der Finanz- und Versicherungsbranche.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Seit über 15 Jahren an Ihrer Seite",
+      "body": "Wir erklären komplexe steuerliche Themen verständlich und bieten praktikable Lösungen – für Privatpersonen wie für Unternehmen. Transparenz, Vertrauen und persönliche Betreuung stehen dabei im Mittelpunkt.",
       "cta": {
         "label": "Termin buchen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "Privatpersonen",
+        "body": "Von der Steuererklärung über die Optimierung bis zur Vorsorgeplanung – wir begleiten Sie durch den Schweizer Steuerdschungel."
+      },
+      {
+        "title": "KMU & Unternehmen",
+        "body": "Buchhaltung, Lohnadministration und Jahresabschluss aus einer Hand – verlässlich und termingerecht."
+      },
+      {
+        "title": "Gründerinnen & Gründer",
+        "body": "Wir beraten Sie bei Gründung, Budgetierung und Nachfolge und zeigen Ihnen die passenden Schritte auf."
+      },
+      {
+        "title": "Mehrwertsteuerpflichtige",
+        "body": "MWST-Abrechnungen und Korrespondenz mit der ESTV – korrekt und fristgerecht erledigt."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",

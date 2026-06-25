@@ -197,10 +197,8 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "faq",
-      "process (generic)",
-      "audience (generic)"
+      "process (generic)"
     ],
     "real": [
       "meta.firm",
@@ -690,7 +688,7 @@
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Dein Sparring-Partner für unternehmerischen Erfolg in den Bereichen Treuhand, Payroll, Unternehmensberatung, Steuern und Wirtschaftsprüfung.",
+    "asideQuote": "Seit 2013 begleiten wir Unternehmen durch alle Phasen – von der Gründung bis zur Nachfolge.",
     "asideAttribution": "Wespi & Partner AG",
     "image": "/images/wespipartner-ch/hero.jpg"
   },
@@ -701,68 +699,32 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Professionelle Beratung in allen Unternehmensphasen. Von der Idee bis zur Nachfolge. Treuhand, Unternehmensberatung, Steuerberatung und Wirtschaftsprüfung.",
-        "body": "Seit 2013 begleiten wir als Treuhänder ein vielfältiges Portfolio von Unternehmen durch alle Phasen des Unternehmertums – von der Gründung bis zur Nachfolgeplanung.\n\nMit umfassendem Know-how unterstützen wir dich bei der erfolgreichen Bewältigung unternehmerischer Herausforderungen. Unser Angebot umfasst interdisziplinäre Dienstleistungen in den Bereichen Treuhand, Unternehmensberatung, Steuerberatung und Wirtschaftsprüfung.\n\nWir begleiten dich dabei, deine Idee in eine Unternehmung zu verwandeln. Dabei unterstützen wir dich, die richtige Rechtsform zu wählen, deine Gesellschaft zu gründen, von Start weg effiziente Finanz- und Buchhaltungsprozesse zu etablieren, und die notwendigen Anmeldungen und Registrationen vorzunehmen.\n\nDein Unternehmen ist bereits erfolgreich am Markt etabliert und verfügt über das Potenzial, weiter zu wachsen?",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Seit 2013 begleiten wir als Treuhänder ein vielfältiges Portfolio von Unternehmen durch alle Phasen des Unternehmertums – von der Gründung bis zur Nachfolgeplanung.\n\nMit umfassendem Know-how unterstützen wir dich bei der erfolgreichen Bewältigung unternehmerischer Herausforderungen. Unser Angebot umfasst interdisziplinäre Dienstleistungen in den Bereichen Treuhand, Unternehmensberatung, Steuerberatung und Wirtschaftsprüfung.\n\nWir begleiten dich dabei, deine Idee in eine Unternehmung zu verwandeln. Dabei unterstützen wir dich, die richtige Rechtsform zu wählen, deine Gesellschaft zu gründen, von Start weg effiziente Finanz- und Buchhaltungsprozesse zu etablieren, und die notwendigen Anmeldungen und Registrationen vorzunehmen.\n\nDein Unternehmen ist bereits erfolgreich am Markt etabliert und verfügt über das Potenzial, weiter zu wachsen?"
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuerberatung und -planung. Wir unterstützen Unternehmen, deren Eigner und Anspruchsgruppen in allen Steuerfragen.",
-        "body": "Sei es bei der Steuerplanung oder bei Themen der direkten und indirekten Steuern sowie anderen Abgaben. Wir sorgen für eine korrekte und vollständige Deklaration, begleiten bei Steuerprüfungen und -revisionen und unterstützen dich mit Steuerchecks und Risikoanalysen.\n\nSteuererklärungen für juristische Personen (AGs, GmbHs, Vereine, etc.)\n\nSteuerliche Erfassung und Beratung i.S. Mitarbeiterbeteiligungsplänen (ESOPs, etc.)\n\nUnsere Dienstleistungen passen sich deinen Bedürfnisse an. Gerne zeigen wir dir die passende Lösung in einem persönlichen Gespräch auf.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Sei es bei der Steuerplanung oder bei Themen der direkten und indirekten Steuern sowie anderen Abgaben. Wir sorgen für eine korrekte und vollständige Deklaration, begleiten bei Steuerprüfungen und -revisionen und unterstützen dich mit Steuerchecks und Risikoanalysen.\n\nSteuererklärungen für juristische Personen (AGs, GmbHs, Vereine, etc.)\n\nSteuerliche Erfassung und Beratung i.S. Mitarbeiterbeteiligungsplänen (ESOPs, etc.)\n\nUnsere Dienstleistungen passen sich deinen Bedürfnisse an. Gerne zeigen wir dir die passende Lösung in einem persönlichen Gespräch auf."
       },
       {
         "title": "Revision",
         "summary": "Professionelle Revision für Startups, wachsende und etablierte KMUs. Wirtschaftsprüfung, die Vertrauen und Transparenz schafft.",
-        "body": "Eine unabhängige, objektive Revision unterstreicht die Glaubwürdigkeit deiner Unternehmenszahlen. Damit deine Eigentümer und weitere Stakeholder den Durchblick behalten.\n\nanalysieren wir den Abschluss und prüfen risikoorientiert wichtige Positionen sowie Transaktionen. Durch strukturierte Besprechungen erfragen wir Informationen, erläutern Auffälligkeiten und ziehen daraus Schlussfolgerungen.\n\nverschaffen wir uns ein Verständnis der Geschäftstätigkeit und prüfen risikoorientiert Finanzprozesse, interne Kontrollen, wesentliche Positionen, Transaktionen sowie Offenlegungen in Finanzberichten.\n\nPrüfung von Jahres- und Konzernrechnungen nach OR inkl.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine unabhängige, objektive Revision unterstreicht die Glaubwürdigkeit deiner Unternehmenszahlen. Damit deine Eigentümer und weitere Stakeholder den Durchblick behalten.\n\nanalysieren wir den Abschluss und prüfen risikoorientiert wichtige Positionen sowie Transaktionen. Durch strukturierte Besprechungen erfragen wir Informationen, erläutern Auffälligkeiten und ziehen daraus Schlussfolgerungen.\n\nverschaffen wir uns ein Verständnis der Geschäftstätigkeit und prüfen risikoorientiert Finanzprozesse, interne Kontrollen, wesentliche Positionen, Transaktionen sowie Offenlegungen in Finanzberichten.\n\nPrüfung von Jahres- und Konzernrechnungen nach OR inkl."
       },
       {
         "title": "Lohnadministration",
         "summary": "Payroll – digital, umfassend und zuverlässig. Wir unterstützen Unternehmen und deren Mitarbeitende in allen Belangen der Lohnadministration.",
-        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren."
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein."
       }
     ]
   },
@@ -793,45 +755,42 @@
     "heading": "Wir sind ein digitales, partnergeführtes Treuhandunternehmen",
     "lead": "Seit 2013 begleiten wir ein vielfältiges Portfolio von Unternehmen durch alle Phasen des Unternehmertums – von der Gründung bis zur Nachfolgeplanung. Unser Angebot umfasst interdisziplinäre Dienstleistungen in den Bereichen Treuhand, Unternehmensberatung, Steuerberatung und Wirtschaftsprüfung.",
     "paragraphs": [
-      "Wir umgeben uns mit Menschen, die mit Hingabe tun, was ihnen am Herzen liegt. Es motiviert uns, andere bei ihren Zielen zu unterstützen und gemeinsam Grosses zu erreichen.",
-      "Unsere Leidenschaft für Herausforderungen und die Suche nach den bestmöglichen Lösungen treiben uns an. Mit vollem Einsatz, Fachwissen und Erfahrung erbringen wir Höchstleistungen.",
-      "Unser Erfolg basiert auf einem Arbeitsumfeld, in dem jedes Teammitglied sein volles Potenzial entfalten kann."
+      "Als partnergeführtes Treuhandunternehmen verbinden wir Treuhand, Steuerberatung, Wirtschaftsprüfung und Lohnadministration unter einem Dach – mit einem festen Ansprechpartner, der Ihr Mandat kennt.",
+      "Ob Gründung, Wachstum oder Nachfolge: Wir arbeiten mit modernen, digitalen Abläufen und denken vorausschauend mit, damit Sie sich auf Ihr Unternehmen konzentrieren können."
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Leidenschaft",
-      "body": "Wir umgeben uns mit Menschen, die mit Hingabe tun, was ihnen am Herzen liegt. Es motiviert uns, andere bei ihren Zielen zu unterstützen und gemeinsam Grosses zu erreichen.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Nachhaltigkeit",
-      "body": "Nachhaltiges Handeln bildet die Grundlage für unsere Arbeit. Wir tragen Verantwortung dafür, dass unser unternehmerisches Wirken einen positiven Einfluss auf unser Umfeld hat.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Professionalität",
-      "body": "Professionalität bedeutet für uns das optimale Zusammenspiel von Fachwissen, individuellen Talenten und der Bereitschaft, sich kontinuierlich weiterzuentwickeln.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Huyen Nguyen",
-      "body": "Huyen stiess im Sommer 2018 als Treuhandsachbearbeiterin zum Team. Aufgrund ihrer ausgezeichneten Leistungen wurde sie im Januar 2023 zur Treuhänderin befördert.",
+      "heading": "Alle Disziplinen aus einer Hand",
+      "body": "Treuhand, Steuern, Wirtschaftsprüfung und Lohnadministration greifen bei uns ineinander. Das gibt Ihnen eine ganzheitliche Sicht auf Ihre Zahlen – und einen Ansprechpartner statt vieler Schnittstellen.",
       "cta": {
         "label": "Termin buchen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Unternehmer",
+        "body": "Von der Gründung über das Wachstum bis zur Nachfolge – mit Buchhaltung, Steuern und betriebswirtschaftlichem Rat aus einer Hand."
+      },
+      {
+        "title": "Startups",
+        "body": "Wir helfen bei Rechtsform, Gründung und effizienten Finanzprozessen, damit Sie von Beginn an auf solidem Fundament stehen."
+      },
+      {
+        "title": "Arbeitgeber mit Lohnadministration",
+        "body": "Lohnabrechnung, Sozialversicherungen und Jahresendarbeiten zuverlässig abgewickelt – Ihre Mitarbeitenden bleiben korrekt entlöhnt."
+      },
+      {
+        "title": "Prüfpflichtige Gesellschaften",
+        "body": "Eingeschränkte und ordentliche Revision durch zugelassene Fachpersonen – Transparenz für Eigentümer und Stakeholder."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",

@@ -192,11 +192,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
-      "process (generic)",
-      "audience (generic)"
+      "process (generic)"
     ],
     "real": [
       "meta.firm",
@@ -709,14 +707,14 @@
     "logo": "/images/stg-revision-ch/pool/aebf7024bf__Logo-STG-Revision-Treuhand.svg"
   },
   "hero": {
-    "eyebrow": "Treuhand · Bern",
-    "titleLead": "Willkommen bei uns",
-    "titleAccent": "",
-    "lede": "Willkommen - Die Schweizerische Treuhandgesellschaft bietet Ihnen umfassende Beratungsleistungen von höchster Qualität und das aus einer Hand.",
+    "eyebrow": "Treuhand & Revision · Naters",
+    "titleLead": "Treuhand und Revision",
+    "titleAccent": "aus einer Hand.",
+    "lede": "Die Schweizerische Treuhandgesellschaft Revision AG bietet Ihnen umfassende Beratungsleistungen von höchster Qualität – von der Buchhaltung über Steuern bis zur Revision.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Willkommen - Die Schweizerische Treuhandgesellschaft bietet Ihnen umfassende Beratungsleistungen von höchster Qualität und das aus einer Hand.",
+    "asideQuote": "Wir sind immer für Sie da und unterstützen Sie gerne, wo immer wir können.",
     "asideAttribution": "Schweizerische Treuhandgesellschaft Revision AG",
     "image": "/images/stg-revision-ch/hero.jpg"
   },
@@ -727,72 +725,36 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Ein etabliertes und erfolgreiches Familienunternehmen, das sich seit der Gründung als zuverlässiger und moderner Partner als Tabakwarengeschäft positioniert hat, steht aufgrund der geplanten Nachfolgeregelung zum Verkauf.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Bei Gründung, Budgetierung, Nachfolge und betriebswirtschaftlichen Fragen begleiten wir Sie mit fundiertem Rat. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden können."
       },
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
         "body": "Eine Revision schafft Vertrauen – bei Eigentümern, Verwaltungsrat, Banken und Geschäftspartnern. Als zugelassene Fachpersonen führen wir die eingeschränkte sowie die ordentliche Revision durch und prüfen Ihre Jahresrechnung auf Gesetzes- und Statutenkonformität. Wir stimmen den Prüfungsumfang auf Grösse und Risikoprofil Ihres Unternehmens ab und liefern neben dem Revisionsbericht auch konkrete Hinweise zur Verbesserung Ihres internen Kontrollsystems. So erfüllen Sie Ihre gesetzlichen Pflichten und gewinnen zugleich verlässliche Erkenntnisse über Ihr Rechnungswesen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/stg-revision-ch/pool/c701d8046b__Schweizerische-Treuhandgesellschaft-Revision-Kontakt.jpg"
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuerberatung für natürliche & juristische Personen - Es ist keine leichte Aufgabe, sich im Dickicht von Steuergesetzen zurechtzufinden.",
         "body": "Für Unternehmen und Privatpersonen ist es keine leichte Aufgabe, sich im Dickicht von Steuergesetzen und -Reglementen zurechtzufinden. Wir lotsen Sie hindurch. Eine umfassende Beratung unter Berücksichtigung Ihrer unternehmerischen oder persönlichen Pläne bildet die Grundlage für eine optimale Steuerberatung und Steuerplanung. Unsere langjährige Erfahrung in den Bereichen der Unternehmensberatung, Steuern und Finanzplanung gewährleistet Ihnen eine fachliche und professionelle sowie umfassende Betreuung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/stg-revision-ch/pool/53a60ecb74__Schweizerische-Treuhandgesellschaft-Revision-Steuerberatung.jpg"
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Die Finanzbuchhaltung ist der Kern für jedes gesunde Unternehmen und für uns das Herzstück, wenn es darum geht mit Ihnen neue Ziele zu erreichen. Gemeinsam erarbeiten wir mit Ihnen massgeschneiderte Lösungen, welche auf Ihre Bedürfnisse zugeschnitten sind. Angefangen mit der persönlichen Beratung bis hin zur kompletten Verwaltung Ihrer Buchhaltung. Wir begleiten Sie als treuer Partner durch den Finanzdschungel. Unser Ziel ist es mit Ihnen ein starkes Fundament zu legen und dank Digitalisierung die Prozesse zu optimieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/stg-revision-ch/pool/e36f08f234__Schweizerische-Treuhandgesellschaft-Revision-Finanzbuchhaltung.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Von Lohnabrechnungen über Quellensteuer bis zur Verbuchung der Versicherungen - wir begleiten Sie durch das Thema der Lohnadministration.",
         "body": "Von den Lohnabrechnungen über die Quellensteuer bis zur korrekten Verbuchung der Sozialversicherungen – wir begleiten Sie durch das komplexe Thema der Lohnadministration. So gewinnen Sie Zeit um sich auf Ihr Unternehmen zu fokussieren und wir kümmern uns um die steuerrelevanten Bestimmungen. Verlieren Sie keine Zeit und arbeiten Sie Hand in Hand mit uns zusammen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/stg-revision-ch/pool/6e1c1e5974__Schweizerische-Treuhandgesellschaft-Revision-Lohnadministration.jpg"
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       }
     ]
   },
@@ -805,62 +767,42 @@
     "eyebrow": "Über uns",
     "heading": "Wer wir sind",
     "lead": "Wir sind immer für Sie da und unterstützen Sie gerne wo immer wir können.",
-    "paragraphs": []
+    "paragraphs": [
+      "Als zugelassene Revisionsgesellschaft mit Sitz in Naters verbinden wir langjährige Erfahrung mit fachlicher Tiefe. Ein eingespieltes Team aus Wirtschaftsprüfern und Treuhandexperten betreut Ihre Mandate in den Bereichen Revision, Steuern, Buchhaltung und Lohnadministration – persönlich und aus einer Hand."
+    ]
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuerberatung für natürliche & juristische Personen - Es ist keine leichte Aufgabe, sich im Dickicht von Steuergesetzen zurechtzufinden.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Lohnadministration",
-      "body": "Von Lohnabrechnungen über Quellensteuer bis zur Verbuchung der Versicherungen - wir begleiten Sie durch das Thema der Lohnadministration.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Umfassende Beratung aus einer Hand",
+      "body": "Von der Revision über Steuern und Buchhaltung bis zur Lohnadministration – als zugelassene Revisionsgesellschaft betreuen wir Ihre Mandate mit fachlicher Tiefe und einem persönlichen Ansprechpartner.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Unternehmen",
+        "body": "Buchhaltung, Jahresabschluss und Steuern aus einer Hand – damit Sie sich auf Ihr Kerngeschäft konzentrieren können."
+      },
+      {
+        "title": "Revisionspflichtige Gesellschaften",
+        "body": "Eingeschränkte und ordentliche Revision durch zugelassene Fachpersonen – gesetzeskonform und prüfungssicher."
+      },
+      {
+        "title": "Unternehmer in der Nachfolge",
+        "body": "Bei Verkauf, Übergabe und Nachfolgeregelung begleiten wir Sie mit betriebswirtschaftlichem Rat."
+      },
+      {
+        "title": "Arbeitgeber",
+        "body": "Lohnabrechnungen, Quellensteuer und Sozialversicherungen – korrekt und termingerecht abgewickelt."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -929,7 +871,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -943,7 +885,7 @@
   },
   "footer": {
     "brand": "Schweizerische Treuhandgesellschaft Revision AG",
-    "tagline": "Willkommen - Die Schweizerische Treuhandgesellschaft bietet Ihnen umfassende Beratungsleistungen von höchster Qualität und das aus einer Hand.",
+    "tagline": "Treuhand, Steuern und Revision aus einer Hand – in Naters.",
     "logo": "/images/stg-revision-ch/pool/aebf7024bf__Logo-STG-Revision-Treuhand.svg",
     "columns": [
       {

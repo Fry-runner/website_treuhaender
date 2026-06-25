@@ -181,11 +181,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "about (generic)",
       "media.stock (CC fallback)"
     ],
@@ -350,14 +348,14 @@
     "logo": "/images/treuhandschmid-ch/pool/e78fa5ae95__logoNew.png"
   },
   "hero": {
-    "eyebrow": "Treuhand · Zürich",
-    "titleLead": "IHR TREUHANDUNTERNEHMEN IN ZÜRICH OERLIKON",
-    "titleAccent": "",
-    "lede": "Treuhand Catherine Schmid  Ihr Partner für Steuern, Buchhaltung und Gründungen in Oerlikon, ZürichTreuhand Schmid in Oerlikon, Zürich, ist Ihr verlässlicher Experte für Steuern, Buchhaltung und Treuhandservices. Mit langjähriger Erfahrung unterstützen wir Privatpersonen und Unternehmen bei der Optimierung ihrer Steuerangelegenheiten, der professionellen Buchführung sowie bei der erfolgreichen Gründung neuer Firmen. Unser Fokus liegt auf individuellen Lösungen, die Ihre finanziellen Ziele in den Mittelpunkt stellen. Vertrauen Sie auf unsere Expertise und profitieren Sie von einem persönlichen Service, der Sie entlastet und Ihnen Zeit für das Wesentliche gibt. Kontaktieren Sie Treuhand Schmid und bringen Sie Ihre Finanzen auf Erfolgskurs!",
+    "eyebrow": "Treuhand · Zürich-Oerlikon",
+    "titleLead": "Ihr Treuhandpartner in",
+    "titleAccent": "Zürich-Oerlikon.",
+    "lede": "Treuhand Catherine Schmid begleitet Privatpersonen und Unternehmen in Zürich-Oerlikon bei Steuern, Buchhaltung und Firmengründungen. Persönlich, verlässlich und mit individuellen Lösungen.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Treuhand Catherine Schmid GmbH",
+    "asideQuote": "Steuern, Buchhaltung und Gründungen – persönlich betreut, damit Sie Zeit für das Wesentliche haben.",
     "asideAttribution": "Treuhand Catherine Schmid GmbH",
     "image": "/images/treuhandschmid-ch/pool/stock-reception-28999494.jpg"
   },
@@ -368,68 +366,32 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Sie möchten bereits längere Zeit eine eigene Unternehmung gründen, sind jedoch unentschlossen, welche Form Sie bevorzugen sollen? Wir stehen Ihnen gerne beratend zur Seite. Wir kümmern uns um die Vorbereitungen aller Papiere, bis die Unternehmung notariell beglaubigt werden kann und im Handelsregister eingetragen wird.\n\nSie sind mit dem Preis-Leistungs-Verhältnis Ihrer bisherigen Versicherung unzufrieden? Oder hat Sie das leise Gefühl beschlichen, hoffnungslos überversichert zu sein? Wir beraten Sie gerne und arbeiten dabei Hand in Hand mit Versicherungsexperten.\n\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Sie möchten bereits längere Zeit eine eigene Unternehmung gründen, sind jedoch unentschlossen, welche Form Sie bevorzugen sollen? Wir stehen Ihnen gerne beratend zur Seite. Wir kümmern uns um die Vorbereitungen aller Papiere, bis die Unternehmung notariell beglaubigt werden kann und im Handelsregister eingetragen wird.\n\nSie sind mit dem Preis-Leistungs-Verhältnis Ihrer bisherigen Versicherung unzufrieden? Oder hat Sie das leise Gefühl beschlichen, hoffnungslos überversichert zu sein? Wir beraten Sie gerne und arbeiten dabei Hand in Hand mit Versicherungsexperten.\n\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!"
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Die alljährliche Steuererklärung ist ein aufwendiges Muss. Bestimmt sind Sie froh, wenn wir Ihnen diese Arbeit abnehmen würden, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.\n\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die alljährliche Steuererklärung ist ein aufwendiges Muss. Bestimmt sind Sie froh, wenn wir Ihnen diese Arbeit abnehmen würden, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.\n\nHaben Sie Fragen, wünschen Sie eine Offerte oder eine persönliche Beratung? Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir freuen uns, von Ihnen zu hören!"
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Buchhaltung erfordert Disziplin und Konzentration. Konzentriert zu sein und zu bleiben, ist gar nicht so einfach, wenn man an mehreren Orten gleichzeitig sein sollte oder ständig neue Kundenanfragen eingehen. Damit Sie sich ruhigen Gewissens auf das Kerngeschäft konzentrieren können, nehmen wir Ihnen folgende Arbeiten auf Wunsch ab:\n\nZufriedene Mitarbeiter sind gute Mitarbeiter. Eine transparente und zuverlässige Lohnabrechnung ist ein Parameter der Zufriedenheit, der Sie keinen zeitlichen Aufwand kosten muss.\n\nKoordination und Abklärungen mit Sozialversicherungen und Behörden (Ausgleichskassen, Versicherungen, Quellensteuern usw.)\n\nWir setzen uns gerne mit Ihnen zusammen, um den Abschluss zu analysieren und zu kommentieren, mit dem Ziel, Ihr Unternehmen effizient zu optimieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Buchhaltung erfordert Disziplin und Konzentration. Konzentriert zu sein und zu bleiben, ist gar nicht so einfach, wenn man an mehreren Orten gleichzeitig sein sollte oder ständig neue Kundenanfragen eingehen. Damit Sie sich ruhigen Gewissens auf das Kerngeschäft konzentrieren können, nehmen wir Ihnen folgende Arbeiten auf Wunsch ab:\n\nZufriedene Mitarbeiter sind gute Mitarbeiter. Eine transparente und zuverlässige Lohnabrechnung ist ein Parameter der Zufriedenheit, der Sie keinen zeitlichen Aufwand kosten muss.\n\nKoordination und Abklärungen mit Sozialversicherungen und Behörden (Ausgleichskassen, Versicherungen, Quellensteuern usw.)\n\nWir setzen uns gerne mit Ihnen zusammen, um den Abschluss zu analysieren und zu kommentieren, mit dem Ziel, Ihr Unternehmen effizient zu optimieren."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein."
       }
     ]
   },
@@ -440,45 +402,32 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Alles aus einer Hand",
+      "body": "Von der Buchhaltung über die Steuererklärung bis zur Firmengründung erhalten Sie alle Treuhand-Leistungen aus einer Hand – mit einer festen Ansprechpartnerin, die Ihre Zahlen kennt.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Unternehmen",
+        "body": "Laufende Buchhaltung, Abschlüsse und Lohnadministration – damit Sie sich auf Ihr Kerngeschäft konzentrieren können."
+      },
+      {
+        "title": "Gründerinnen & Gründer",
+        "body": "Begleitung bei Rechtsform, Vorbereitung der Unterlagen und Eintrag ins Handelsregister."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Optimierung und Vertretung gegenüber den Behörden – verständlich erklärt."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -532,7 +481,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -547,7 +496,7 @@
   },
   "footer": {
     "brand": "Treuhand Catherine Schmid GmbH",
-    "tagline": "Treuhand Catherine Schmid GmbH",
+    "tagline": "Ihr Treuhandpartner in Zürich-Oerlikon – Steuern, Buchhaltung und Gründungen.",
     "logo": "/images/treuhandschmid-ch/pool/e78fa5ae95__logoNew.png",
     "columns": [
       {

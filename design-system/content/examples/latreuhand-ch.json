@@ -177,11 +177,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -666,13 +664,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Zürich",
-    "titleLead": "Betriebsferien vom 28.07.2025 – 10.08.2025",
-    "titleAccent": "",
-    "lede": "Ihre Partner für Treuhand und Steuerberater in Zürich – individuelle Beratung und umfassende Unterstützung für Ihre Steuern und Finanzen.",
+    "titleLead": "Treuhand und Steuern",
+    "titleAccent": "aus einer Hand.",
+    "lede": "Ihre Partner für Treuhand und Steuern in Zürich – von der Buchhaltung über die Steuererklärung bis zu Immobilien und Nachlass. Persönlich und verlässlich.",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Ihre Partner für Treuhand und Steuerberater in Zürich – individuelle Beratung und umfassende Unterstützung für Ihre Steuern und Finanzen.",
+    "asideQuote": "Ein festes Team, das Ihre Zahlen kennt und Sie über Jahre begleitet.",
     "asideAttribution": "L+A Treuhand",
     "image": "/images/latreuhand-ch/pool/stock-documents-7841478.jpg"
   },
@@ -683,68 +681,32 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut dolore magna aliquyam erat, sed diam Eos et accusam et justo duo dolores et ea rebum.\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Eos et accusam et justo duo dolores et ea rebum.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Unternehmerische Weichenstellungen – Gründung, Wachstum, Nachfolge oder Umstrukturierung – haben langfristige finanzielle Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: von der Wahl der Rechtsform über Budget- und Liquiditätsplanung bis zu Finanzierungs- und Investitionsentscheiden. Gemeinsam analysieren wir Ihre Zahlen und setzen die nötigen Schritte um, damit Sie fundiert entscheiden."
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Eine korrekte, fristgerechte und strategisch optimierte Steuererklärung ist wichtig, um unnötige Nachzahlungen, Verzugszinsen oder gar rechtliche Probleme zu vermeiden. Wir übernehmen diesen Prozess für Sie mit höchster Sorgfalt und unter Berücksichtigung aller aktuellen gesetzlichen Änderungen. Dabei prüfen wir genau, welche ABzüge und steuerlichen Vorsteile für Sie in Frage kommen, um Ihre Steueralst maximal zu reduzieren. Egal, ob Einkommenssteuer oder Gewinnsteuer wir kümmern uns um alle Details, damit Sie sich um nichts sorgen müssen.\n\nSollten Steuerprüfungen, Nachfragen oder Auseinandersetzungen mit den Steuerbörden auftreten, ist es wichtig, einen kompetenten Partner an Ihrer Seite zu haben.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine korrekte, fristgerechte und strategisch optimierte Steuererklärung ist wichtig, um unnötige Nachzahlungen, Verzugszinsen oder gar rechtliche Probleme zu vermeiden. Wir übernehmen diesen Prozess für Sie mit höchster Sorgfalt und unter Berücksichtigung aller aktuellen gesetzlichen Änderungen. Dabei prüfen wir genau, welche ABzüge und steuerlichen Vorsteile für Sie in Frage kommen, um Ihre Steueralst maximal zu reduzieren. Egal, ob Einkommenssteuer oder Gewinnsteuer wir kümmern uns um alle Details, damit Sie sich um nichts sorgen müssen.\n\nSollten Steuerprüfungen, Nachfragen oder Auseinandersetzungen mit den Steuerbörden auftreten, ist es wichtig, einen kompetenten Partner an Ihrer Seite zu haben."
       },
       {
         "title": "Immobilien",
         "summary": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
-        "body": "Der Immobilienbereich erfordert fundierte Kenntnisse und sorgfältige Planung. Ganz gleich, ob Sie eine Immobilie kaufen, verkaufen oder verwalten möchten, wir stehen Ihnen mit unserer langjährigen Erfahrung und unserem Fachwissen zur Seite. Unser umfassendes Dienstleistungsangebot begleitet Sie in jeder Phase Ihres Immobilienprojekts und sorgt dafür, dass Sie stets dies besten Entscheidungen treffen.\n\nDer Kauf oder Verkauf einer Immobilie ist eine bedeutende Entscheidung, die gut überlegt sein sollte. Unser Team begleitet Sie dabei Schritt für Schritt, von der ersten Marktanalyse über die Preisverhandlung bis hin zum erfolgreichen Abschluss des Geschäfts. Wir helfen Ihnen, den bestmöglichen Preis zu erzielen und unterstützen Sie bei allen vertraglichen sowie administrativen Angelegenheiten.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Immobilienbereich erfordert fundierte Kenntnisse und sorgfältige Planung. Ganz gleich, ob Sie eine Immobilie kaufen, verkaufen oder verwalten möchten, wir stehen Ihnen mit unserer langjährigen Erfahrung und unserem Fachwissen zur Seite. Unser umfassendes Dienstleistungsangebot begleitet Sie in jeder Phase Ihres Immobilienprojekts und sorgt dafür, dass Sie stets dies besten Entscheidungen treffen.\n\nDer Kauf oder Verkauf einer Immobilie ist eine bedeutende Entscheidung, die gut überlegt sein sollte. Unser Team begleitet Sie dabei Schritt für Schritt, von der ersten Marktanalyse über die Preisverhandlung bis hin zum erfolgreichen Abschluss des Geschäfts. Wir helfen Ihnen, den bestmöglichen Preis zu erzielen und unterstützen Sie bei allen vertraglichen sowie administrativen Angelegenheiten."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Eine reibungslose und professionelle Personaladministration ist das Fundament eines erfolgreichen Unternehmens. Wir sind Ihr verlässlicher Partner in Zürich und übernehmen sämtliche administrativen Aufgaben im Personalwesen mit höchster Sorgfalt und Fachkompetenz. Unsere Dienstleistungen entlasten Sie von komplexen bürokratischen Anforderungen, sodass Sie sich voll und ganz auf Ihr Kerngeschäft konzentrieren können.\n\nSo erstellen wir Ihre Lohnabrechnungen und Lohnausweise. Wir sorgen für die pünktliche Auszahlung der Gehälter und garantieren eine effiziente Abwicklung unter Berücksichtigung aller sozialversicherungsrechtlichen Vorgaben. Dabei übernehmen wir nicht nur die Berechnung der Löhne, sondern auch die Anmeldung und Abführung der Sozialversicherungsbeiträge sodass Sie rechtlich stets auf der sicheren Seiten sind.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine reibungslose und professionelle Personaladministration ist das Fundament eines erfolgreichen Unternehmens. Wir sind Ihr verlässlicher Partner in Zürich und übernehmen sämtliche administrativen Aufgaben im Personalwesen mit höchster Sorgfalt und Fachkompetenz. Unsere Dienstleistungen entlasten Sie von komplexen bürokratischen Anforderungen, sodass Sie sich voll und ganz auf Ihr Kerngeschäft konzentrieren können.\n\nSo erstellen wir Ihre Lohnabrechnungen und Lohnausweise. Wir sorgen für die pünktliche Auszahlung der Gehälter und garantieren eine effiziente Abwicklung unter Berücksichtigung aller sozialversicherungsrechtlichen Vorgaben. Dabei übernehmen wir nicht nur die Berechnung der Löhne, sondern auch die Anmeldung und Abführung der Sozialversicherungsbeiträge sodass Sie rechtlich stets auf der sicheren Seiten sind."
       },
       {
         "title": "Nachlass & Erbrecht",
         "summary": "Nachlassplanung, Willensvollstreckung und Erbteilung – sorgfältig und diskret begleitet.",
-        "body": "Die rechtliche und finanzielle Absicherung ist eine der wichtigsten Vorsorgemassnahmen für Sie und Ihre Familie. Wir stehen Ihnen mit umfassender Expertise und persönlicher Beratung zur Seite, um Ihre privaten Angelegenheiten rechtssicher und nach Ihren individuellen Vorstellungen zu gestalten. Ob Ehevertrag, Nachlassregelung oder Vorsorgedokument, wir unterstützen Sie dabei, langfristige Klarheit und Sicherheit zu schaffen.\n\nJede Ehe ist einzigartig, also wie die finanziellen und rechtlichen Rahmenbedingungen, die mit ihr einhergehen. Ein Ehevertrag kann helfen, finanzielle Unklarheiten zu vermeiden und für beide Partner faire Regelungen zu schaffen. Wir beraten Sie kompetent zu den verschiedenen Güterständen, wie Gütertrennung oder Gütergemeinschaft und erarbeiten gemeinsam mit Ihnen eine rechtssichere Lösung, die Ihren individuellen Bedürfnissen entspricht.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die rechtliche und finanzielle Absicherung ist eine der wichtigsten Vorsorgemassnahmen für Sie und Ihre Familie. Wir stehen Ihnen mit umfassender Expertise und persönlicher Beratung zur Seite, um Ihre privaten Angelegenheiten rechtssicher und nach Ihren individuellen Vorstellungen zu gestalten. Ob Ehevertrag, Nachlassregelung oder Vorsorgedokument, wir unterstützen Sie dabei, langfristige Klarheit und Sicherheit zu schaffen.\n\nJede Ehe ist einzigartig, also wie die finanziellen und rechtlichen Rahmenbedingungen, die mit ihr einhergehen. Ein Ehevertrag kann helfen, finanzielle Unklarheiten zu vermeiden und für beide Partner faire Regelungen zu schaffen. Wir beraten Sie kompetent zu den verschiedenen Güterständen, wie Gütertrennung oder Gütergemeinschaft und erarbeiten gemeinsam mit Ihnen eine rechtssichere Lösung, die Ihren individuellen Bedürfnissen entspricht."
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Unser umfassendes Dienstleistungsangebot im Bereich Treuhand ist darauf ausgerichtet, Ihnen den Rücken freizuhalten, damit Sie sich uneingeschränkt auf Ihr Kerngeschäft konzentrieren können. Wir unterstützen Sie mit fundiertem Fachwissen, langjähriger Erfahrung und modernen Lösungen, um Ihre finanziellen und administrativen Prozesse effizient und gesetzeskonform zu gestalten.\n\nEine ordnungsgemässe Buchhaltung ist wichtig für den nachhaltigen Erfolg Ihres Unternehmens. Wir bieten Ihnen eine vollumfängliche Betreuung im Finanz- und Rechnungswesen, sodass Sie stets einen klaren Überblick über Ihre finanzielle Situation haben. Unsere Leistungen umfassen:\n\nDurch unsere professionelle Betreuung können Sie sicher sein, dass Ihre Buchhaltung stets korrekt, aktuell und transparent geführt wird.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Unser umfassendes Dienstleistungsangebot im Bereich Treuhand ist darauf ausgerichtet, Ihnen den Rücken freizuhalten, damit Sie sich uneingeschränkt auf Ihr Kerngeschäft konzentrieren können. Wir unterstützen Sie mit fundiertem Fachwissen, langjähriger Erfahrung und modernen Lösungen, um Ihre finanziellen und administrativen Prozesse effizient und gesetzeskonform zu gestalten.\n\nEine ordnungsgemässe Buchhaltung ist wichtig für den nachhaltigen Erfolg Ihres Unternehmens. Wir bieten Ihnen eine vollumfängliche Betreuung im Finanz- und Rechnungswesen, sodass Sie stets einen klaren Überblick über Ihre finanzielle Situation haben. Unsere Leistungen umfassen:\n\nDurch unsere professionelle Betreuung können Sie sicher sein, dass Ihre Buchhaltung stets korrekt, aktuell und transparent geführt wird."
       }
     ]
   },
@@ -759,64 +721,41 @@
     "lead": "Die L+A Steuerberatung & Treuhand AG wurde 1981 in Dietikon gegründet und hat sich seither zu einem etablierten Unternehmen in der Treuhandbranche entwickelt. Seit 1992 befindet sich unser Firmensitz an der Badenerstrasse 745 in Zürich-Altstetten. Mit einem engagierten Team betreuen wir heute rund 450 zufriedene Kunden aus dem In- und Ausland.",
     "paragraphs": [
       "Unsere Philosophie basiert auf der kontinuierlichen Weiterentwicklung unserer Fachkompetenzen. Gleichzeitig unterstützen wir unsere Mitarbeitenden aktiv bei der Erlangung anerkannter Fachausweise und eidgenössischer Diplome. Diese Kombination aus erstklassiger Aus- und Weiterbildung und langjähriger Berufserfahrung bildet das Fundament für die hohe Qualität unserer Kundenbetreuung.",
-      "Als Mitglied des Schweizerischen Treuhänderverbandes (STV) sind wir höchsten ethischen Standards verpflichtet. Zudem unterstehen wir den gesetzlichen Vorgaben des Geldwäschereigesetzes, was für zusätzliche Sicherheit und Transparenz sorgt.",
-      ". Diese Werte prägen unser Handeln und garantieren, dass Sie bei uns nicht nur fachlich, sondern auch menschlich gut aufgehoben sind."
+      "Als Mitglied des Schweizerischen Treuhänderverbandes (STV) sind wir höchsten ethischen Standards verpflichtet. Zudem unterstehen wir den gesetzlichen Vorgaben des Geldwäschereigesetzes, was für zusätzliche Sicherheit und Transparenz sorgt. Diese Werte prägen unser Handeln und sorgen dafür, dass Sie bei uns nicht nur fachlich, sondern auch menschlich gut aufgehoben sind."
     ]
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Immobilien",
-      "body": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Lohnadministration",
-      "body": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand, Steuern und Immobilien aus einer Hand",
+      "body": "Buchhaltung, Steuern, Lohn, Immobilien und Nachlass – bei uns laufen alle Fäden bei einem festen Ansprechpartner zusammen. Das spart Schnittstellen und sorgt dafür, dass Ihre Anliegen ganzheitlich betrachtet werden.",
       "cta": {
         "label": "Termin buchen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Selbstständige",
+        "body": "Von der laufenden Buchhaltung über die Lohnadministration bis zum Abschluss – wir halten Ihnen den Rücken frei, damit Sie sich aufs Kerngeschäft konzentrieren können."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Optimierung und Vertretung gegenüber den Behörden – persönlich begleitet, mit einem festen Ansprechpartner."
+      },
+      {
+        "title": "Immobilien­eigentümer",
+        "body": "Beim Kauf, Verkauf oder bei der Bewirtschaftung Ihrer Liegenschaft begleiten wir Sie von der Marktanalyse bis zum Abschluss."
+      },
+      {
+        "title": "Familien & Erbengemeinschaften",
+        "body": "Nachlassplanung, Willensvollstreckung und Erbteilung – sorgfältig, diskret und mit Blick auf das Ganze."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",

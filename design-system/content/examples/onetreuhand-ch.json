@@ -193,7 +193,6 @@
     },
     "placeholders": [
       "process (generic)",
-      "audience (generic)",
       "about (generic)",
       "media.stock (CC fallback)"
     ],
@@ -597,7 +596,7 @@
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Alle Unterlagen, Schritte und Tipps, damit Ihre Steuererklärung vollständig, korrekt und stressfrei eingereicht werden kann.\n\nRodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH. Als\n\nbegleitet er Unternehmerinnen und Unternehmer in der ganzen Schweiz mit klaren Zahlen, digitalen Prozessen und persönlicher Beratung auf Augenhöhe.\n\nDer Abschluss „eidg. diplomierter Experte in Rechnungslegung und Controlling“ entspricht dem Qualifikationsniveau NQR 8 und liegt damit auf dem höchsten Bildungsniveau – vergleichbar mit einem Doktorat in Bezug auf fachliche Tiefe und Verantwortung."
+        "body": "Wir begleiten Sie Schritt für Schritt durch Ihre Steuererklärung – damit sie vollständig, korrekt und stressfrei eingereicht wird. Für Unternehmen wie für Privatpersonen prüfen wir Optimierungsmöglichkeiten, vertreten Sie gegenüber den Steuerbehörden und sorgen dafür, dass Sie nicht mehr Steuern zahlen als nötig."
       },
       {
         "title": "Unternehmensberatung",
@@ -608,7 +607,7 @@
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Mit unserer digitalen Buchhaltung in Zürich übernehmen wir Ihre laufenden Zahlen – effizient, persönlich und ohne Papierkram. So gewinnen Sie Zeit fürs Wesentliche und behalten Ihre Finanzen jederzeit im Blick.\n\nEine saubere Buchhaltung ist die Grundlage jeder erfolgreichen Unternehmung – und gleichzeitig eine der zeitintensivsten Aufgaben im Geschäftsalltag. Genau hier setzt ONE! Treuhand an: Wir übernehmen Ihre komplette Finanzbuchhaltung, digital, effizient und zuverlässig – damit Sie sich auf Ihr Unternehmen konzentrieren können.\n\nUnser Buchhaltungsbüro in Zürich sorgt für klare Zahlen, strukturierte Abläufe und korrekte Abschlüsse.\n\n, der Ihre Buchhaltung führt, Ihre Fragen beantwortet und Sie steuerlich auf Kurs hält – verständlich, persönlich und ohne unnötige Komplexität."
+        "body": "Mit unserer digitalen Buchhaltung übernehmen wir Ihre laufenden Zahlen – effizient, persönlich und ohne Papierkram. So gewinnen Sie Zeit fürs Wesentliche und behalten Ihre Finanzen jederzeit im Blick.\n\nEine saubere Buchhaltung ist die Grundlage jeder erfolgreichen Unternehmung – und gleichzeitig eine der zeitintensivsten Aufgaben im Geschäftsalltag. Genau hier setzt ONE! Treuhand an: Wir übernehmen Ihre komplette Finanzbuchhaltung, digital und zuverlässig, und halten Sie mit klaren Zahlen, strukturierten Abläufen und korrekten Abschlüssen steuerlich auf Kurs – verständlich, persönlich und ohne unnötige Komplexität."
       },
       {
         "title": "Mehrwertsteuer",
@@ -618,12 +617,12 @@
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Lohnabrechnung ist ein wichtiger Aspekt der Finanzverwaltung, der nicht nur für angestellte Arbeitnehmer, sondern auch zu den Aufgaben von Selbstständige gehört. Selbständige, welche Mitarbeiter beschäftigen, müssen eine korrekte und rechtzeitige Lohnabrechnung durchführen, um die Gehälter ihrer Angestellten zu berechnen und alle gesetzlichen Verpflichtungen zu erfüllen.\n\nRodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH. Als\n\nbegleitet er Unternehmerinnen und Unternehmer in der ganzen Schweiz mit klaren Zahlen, digitalen Prozessen und persönlicher Beratung auf Augenhöhe.\n\nDer Abschluss „eidg. diplomierter Experte in Rechnungslegung und Controlling“ entspricht dem Qualifikationsniveau NQR 8 und liegt damit auf dem höchsten Bildungsniveau – vergleichbar mit einem Doktorat in Bezug auf fachliche Tiefe und Verantwortung."
+        "body": "Wer Mitarbeitende beschäftigt, muss die Löhne korrekt und fristgerecht abrechnen und sämtliche gesetzlichen Verpflichtungen erfüllen. Wir übernehmen Ihre Lohnbuchhaltung, die Abrechnungen mit den Sozialversicherungen und die laufende Personaladministration – zuverlässig, pünktlich und regelkonform, damit Sie sich auf Ihr Team und Ihr Geschäft konzentrieren können."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Bilanz und Erfolgsrechnung verständlich erklärt: Aufbau, Aussagekraft, Unterschiede & Rolle für Unternehmen und Geschäftsleitung.",
-        "body": "Das sind zwei der wichtigsten Finanzdokumente, die jedes Unternehmen regelmässig erstellen muss.\n\nSie bieten einen detaillierten Überblick über die finanzielle Situation einer Firma und sind daher für Stakeholder, Investoren und die Geschäftsleitung von entscheidender Bedeutung.\n\nAls Treuhänder ist es unsere Aufgabe, sicherzustellen, dass diese Dokumente korrekt, transparent und gemäss den geltenden Rechnungslegungsvorschriften erstellt werden.\n\nRodolfo Intaglietta ist Gründer und Geschäftsführer der ONE! Treuhand GmbH."
+        "body": "Bilanz und Erfolgsrechnung gehören zu den wichtigsten Finanzdokumenten, die jedes Unternehmen regelmässig erstellen muss. Sie geben einen detaillierten Überblick über die finanzielle Lage Ihrer Firma und sind damit für Geschäftsleitung, Banken und Investoren entscheidend. Als Treuhänder sorgen wir dafür, dass diese Dokumente korrekt, transparent und nach den geltenden Rechnungslegungsvorschriften erstellt werden."
       }
     ]
   },
@@ -652,37 +651,35 @@
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Deutliche Kostensenkung",
-      "body": "Viele Unternehmen, insbesondere KMU oder Start-ups, stehen ständig vor der Herausforderung, ihre Ausgaben zu optimieren. Die Einstellung eines Vollzeit-CFOs kann teuer sein.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Flexibilität und Anpassungsfähigkeit",
-      "body": "In der heutigen schnelllebigen Geschäftswelt ist Anpassungsfähigkeit ein Schlüssel zum Erfolg. Externe CFOs können flexibel auf die ständig wechselnden Bedingungen und Anforderungen von Unternehmen reagieren.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Objektive Beratung und Perspektive",
-      "body": "Interne CFOs sind oft tief in die Unternehmenskultur und -politik eingebettet. Ein externer CFO hingegen kann einen unvoreingenommenen Überblick über die Finanzen und Prozesse eines Unternehmens bieten.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Ihr externer CFO mit Weitsicht",
-      "body": "Saubere finanzielle Entscheidungen und Planung aus der Perspektive Dritter!",
+      "heading": "Digital arbeiten, persönlich betreut",
+      "body": "Bei ONE! Treuhand verbinden wir digitale, effiziente Prozesse mit einem festen Ansprechpartner. Geführt von einem eidg. diplomierten Experten in Rechnungslegung und Controlling begleiten wir Unternehmen schweizweit – mit klaren Zahlen und Beratung auf Augenhöhe.",
       "cta": {
         "label": "Termin buchen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Unternehmen",
+        "body": "Von der laufenden Buchhaltung über MWST und Lohn bis zum Jahresabschluss – wir entlasten Sie im Finanzalltag, damit Sie Zeit fürs Geschäft haben."
+      },
+      {
+        "title": "Gründerinnen & Selbständige",
+        "body": "Bei Rechtsform, Budget und Aufbau Ihrer Buchhaltung begleiten wir Sie von Anfang an mit klaren Zahlen und persönlicher Beratung."
+      },
+      {
+        "title": "Firmen in Veränderung",
+        "body": "Bei Wachstum, Nachfolge oder Umstrukturierung zeigen wir Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Wir erstellen Ihre Steuererklärung, prüfen Optimierungen und vertreten Sie gegenüber den Steuerbehörden."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -800,7 +797,7 @@
   },
   "footer": {
     "brand": "One Treuhand",
-    "tagline": "Treuhand Zürich für KMU: Buchhaltung, klare Zahlen und persönliche Betreuung durch eidg. diplomierten Experten – schweizweit & effizient.",
+    "tagline": "Buchhaltung, Steuern und Lohn für KMU – digital, persönlich und schweizweit.",
     "logo": "/images/onetreuhand-ch/pool/8a1f832586__Logo-OneTreuhand.webp",
     "columns": [
       {

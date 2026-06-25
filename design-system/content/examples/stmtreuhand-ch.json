@@ -173,10 +173,8 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -803,14 +801,14 @@
     "logo": "/images/stmtreuhand-ch/pool/8680b47fa7__logo_transparent.png"
   },
   "hero": {
-    "eyebrow": "Treuhand · Zürich",
+    "eyebrow": "Treuhand · Horw",
     "titleLead": "Ihre Finanzen,",
     "titleAccent": "klar geführt.",
-    "lede": "Steuerberatung, Wirtschaftsprüfung und vieles mehr. Ihre STM Steuerberatung und Treuhand Mettler AG ist für Sie da. Vereinbaren Sie heute noch ein Gespräch!",
+    "lede": "Steuerberatung, Wirtschaftsprüfung, Buchhaltung und Unternehmensberatung – alles aus einer Hand. Persönlich und verlässlich an Ihrer Seite.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "",
+    "asideQuote": "Ein festes Team aus eidgenössisch geprüften Experten für Finanz- und Rechnungswesen, Treuhand und Steuern.",
     "asideAttribution": "",
     "image": "/images/stmtreuhand-ch/pool/stock-office-8092458.jpg"
   },
@@ -833,13 +831,13 @@
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "\"Die Buchhaltung extern machen lassen? Das ist doch viel zu kostspielig, richtig? Nicht ganz.\n\nDie Buchhaltung ist eine wichtige unternehmerische Aufgabe, welche Zeit und vor allem fundiertes Fachwissen benötigt. Gerade für Selbstständige, Start-ups und für KMU kann es zeitintensiv und fehleranfällig sein, die Buchhaltung inhouse zu machen.\n\nNachfolgend finden Sie daher drei wirklich gute Gründe, welche fürs Outsourcing Ihrer Buchhaltung sprechen, präsentiert von STM Steuerberatung & Treuhand Mettler AG, Ihrem kompetenten Ansprechpartner für Buchhaltung in Zürich.\"\n\nBei den Investitionen in Fortbildungen allein wird es nicht bleiben, auch Software-Lizenzen werden benötigt. Wenn Sie nach Fachpersonal suchen, kommen auch da Zeit- und Geldinvests auf Sie zu, die nicht zu unterschätzen sind.",
+        "body": "Die Buchhaltung ist eine wichtige unternehmerische Aufgabe, die Zeit und fundiertes Fachwissen verlangt. Gerade für Selbstständige, Start-ups und KMU ist sie inhouse oft zeitintensiv und fehleranfällig. Wir übernehmen Ihre laufende Finanzbuchhaltung, Debitoren und Kreditoren sowie die periodischen Abschlüsse – sauber, termingerecht und nachvollziehbar. So gewinnen Sie Zeit für Ihr Kerngeschäft und behalten Ihre Zahlen jederzeit im Griff.",
         "image": "/images/stmtreuhand-ch/pool/d03bb0a209__buchhaltung.jpg"
       },
       {
         "title": "Revision",
-        "summary": "STM Steuerberatung und Treuhand Mettler ist Ihr Partner für professionelle Wirtschaftsprüfung. Profitiern Sie von unserem Expertenwissen und vereinbaren ein Gespräch!",
-        "body": "Wirtschaftlichkeit ist für jedes Unternehmen die Basis des Erfolgs. Genau deshalb gilt es, die\n\ngelegen, im Herzen der Stadt Zürich. Unser mehrköpfiges Expertenteam steht hier für all\n\nPersönliches Gespräch und vertrauensvoller Kontakt gehören für uns zum guten Ton. Unsere\n\nKunden stammen aus allen Bereichen der Wirtschaft.",
+        "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+        "body": "Als zugelassene Revisoren prüfen wir Ihren Jahresabschluss zuverlässig und unabhängig – ob eingeschränkte oder ordentliche Revision. Wir kennen die gesetzlichen Anforderungen, erkennen Risiken frühzeitig und liefern Ihnen einen belastbaren Bericht. So schaffen Sie Vertrauen gegenüber Bank, Behörden und Geschäftspartnern. Persönliches Gespräch und vertrauensvoller Kontakt gehören für uns dabei zum guten Ton.",
         "image": "/images/stmtreuhand-ch/pool/dafb0e56ea__revision.jpg"
       },
       {
@@ -862,43 +860,44 @@
   "about": {
     "eyebrow": "Über uns",
     "heading": "Wer wir sind",
-    "lead": "Treuhandbereichen, wodurch wir für unsere Kunden einen Mehrwert schaffen.",
-    "paragraphs": []
+    "lead": "Wir sind ein eingespieltes Team aus eidgenössisch geprüften Fachleuten für Finanz- und Rechnungswesen, Treuhand und Steuern.",
+    "paragraphs": [
+      "Bei der STM Treuhand Mettler AG erhalten Unternehmen und Privatpersonen Buchhaltung, Steuern, Unternehmensberatung und Revision aus einer Hand. Wir denken vorausschauend, halten uns an Fristen und erklären Ihnen Ihre Zahlen verständlich.",
+      "Persönliches Gespräch und vertrauensvoller Kontakt gehören für uns zum guten Ton. Sie haben einen festen Ansprechpartner, der Ihre Situation kennt und langfristig mit Ihnen plant."
+    ]
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Revision",
-      "body": "STM Steuerberatung und Treuhand Mettler ist Ihr Partner für professionelle Wirtschaftsprüfung. Profitiern Sie von unserem Expertenwissen und vereinbaren ein Gespräch!",
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand, Steuern und Prüfung aus einer Hand",
+      "body": "Buchhaltung, Steuern, Unternehmensberatung und Revision – bei uns greift alles ineinander. Ein eingespieltes Team eidgenössisch geprüfter Experten begleitet Sie vorausschauend und mit festem Ansprechpartner.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU und Unternehmen",
+        "body": "Buchhaltung, Lohn, Abschluss und Steuern – wir halten Ihrem Betrieb den Rücken frei."
+      },
+      {
+        "title": "Selbstständige und Gründer",
+        "body": "Von der Rechtsform über die laufende Buchhaltung bis zur Steuerplanung begleiten wir Sie."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Optimierung und Vertretung – persönlich und verständlich erklärt."
+      },
+      {
+        "title": "Revisionspflichtige Gesellschaften",
+        "body": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -996,7 +995,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -1011,7 +1010,7 @@
   },
   "footer": {
     "brand": "STM Treuhand Mettler AG",
-    "tagline": "Steuerberatung, Wirtschaftsprüfung und vieles mehr. Ihre STM Steuerberatung und Treuhand Mettler AG ist für Sie da. Vereinbaren Sie heute noch ein Gespräch!",
+    "tagline": "Treuhand, Steuern und Revision aus einer Hand – persönlich und verlässlich.",
     "logo": "/images/stmtreuhand-ch/pool/8680b47fa7__logo_transparent.png",
     "columns": [
       {

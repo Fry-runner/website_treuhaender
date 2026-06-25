@@ -184,11 +184,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -835,11 +833,11 @@
     "eyebrow": "Treuhand · Zürich",
     "titleLead": "Ihre Finanzen,",
     "titleAccent": "klar geführt.",
-    "lede": "Umfassende Betreuung und Unterstützung in allen Treuhandfragen. «Ihnen dienen zu dürfen» – dieser Leitsatz begleitet uns seit unserer Gründung.",
+    "lede": "Seit 1942 begleiten wir Unternehmen und Privatpersonen in Zürich – von der Buchhaltung über Steuern und Mehrwertsteuer bis zu Revision und Nachfolge. Persönlich und verlässlich, aus einer Hand.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Umfassende Betreuung und Unterstützung in allen Treuhandfragen. «Ihnen dienen zu dürfen» – dieser Leitsatz begleitet uns seit unserer Gründung.",
+    "asideQuote": "«Ihnen dienen zu dürfen» – dieser Leitsatz begleitet uns seit unserer Gründung.",
     "asideAttribution": "Budliger Treuhand AG",
     "image": "/images/budliger-ch/pool/stock-documents-7567600.jpg"
   },
@@ -851,70 +849,34 @@
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Wer Liegenschaften im Ausland besitzt, muss diese in der Schweizer Steuererklärung deklarieren. Sie werden in der Schweiz zwar nicht direkt besteuert, sind aber für die Bestimmung des anwendbaren Steuersatzes massgebend.\n\nSteuerpflichtige in der Schweiz haben ihr weltweites Einkommen und Vermögen in ihrer Steuererklärung zu deklarieren. Liegenschaften sind grundsätzlich an dem Ort, wo sie liegen, zu besteuern, d.h., sie unterliegen für Steuerzwecke der Steuerordnung vor Ort. Sie werden aber für die Zwecke der schweizerischen Einkommens- und Vermögenssteuer satzbestimmend herangezogen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/budliger-ch/pool/f3ba17d07c__Unliebsame-Steuerfolgen-bei-verdeckten-Gewinnausschuettungen-von-Gesellschaften-"
       },
       {
-        "title": "Unternehmensberatung",
-        "summary": "Erbrechtliche Beratung. Nehmen Sie die Nachlassplanung frühzeitig in Angriff – wir unterstützen Sie gerne mit einer individuellen Beratung.",
-        "body": "Die persönliche Lebensplanung schliesst eine sinnvolle Nachlassplanung mit ein. Nehmen Sie diese frühzeitig in Angriff – wir unterstützen Sie gerne mit einer individuellen Beratung.\n\nMit einem öffentlich beurkundeten Ehevertrag besteht die Möglichkeit, innerhalb des gesetzlichen Güterstandes der Errungenschaftsbeteiligung Änderungen vorzunehmen. Häufig wird vereinbart, dass bei einem Todesfall der überlebende Ehegatte das gesamte gemeinsam erarbeitete Vermögen erhalten soll und die gemeinsamen Kinder keinen Anspruch daran haben. Durch einen Ehevertrag kann zudem die Gütergemeinschaft oder die Gütertrennung vereinbart werden.\n\nIm eigenhändig verfassten oder öffentlich beurkundeten Testament legen Sie fest, wie Ihr Vermögen letztwillig verteilt werden soll.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "title": "Nachlass & Erbrecht",
+        "summary": "Nachlassplanung, Ehe- und Erbverträge sowie Testamente – frühzeitig und individuell beraten.",
+        "body": "Die persönliche Lebensplanung schliesst eine sinnvolle Nachlassplanung mit ein. Nehmen Sie diese frühzeitig in Angriff – wir unterstützen Sie gerne mit einer individuellen Beratung.\n\nMit einem öffentlich beurkundeten Ehevertrag besteht die Möglichkeit, innerhalb des gesetzlichen Güterstandes der Errungenschaftsbeteiligung Änderungen vorzunehmen. Häufig wird vereinbart, dass bei einem Todesfall der überlebende Ehegatte das gesamte gemeinsam erarbeitete Vermögen erhalten soll und die gemeinsamen Kinder keinen Anspruch daran haben. Durch einen Ehevertrag kann zudem die Gütergemeinschaft oder die Gütertrennung vereinbart werden.\n\nIm eigenhändig verfassten oder öffentlich beurkundeten Testament legen Sie fest, wie Ihr Vermögen letztwillig verteilt werden soll."
       },
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
         "body": "Über die Wirtschaftsprüfung hinaus verstehen wir unsere Rolle darin, Ihnen umfassend, unabhängig und unkompliziert zur Seite zu stehen.\n\nProfitieren Sie von fundiertem Wissen und einem breiten Erfahrungsschatz.\n\nGezielte Befragungen und Analysen geben uns ein gründliches Verständnis Ihres Geschäftsmodells und Ihrer internen Organisation. Darauf aufbauend entwickeln wir einen auf Ihr Unternehmen angepassten, risikoorientierten Prüfungsansatz der den nationalen und internationalen Standards entspricht.\n\nEin erfolgreiches Unternehmen befindet sich im permanenten Wandel. Wir unterstützen Sie mit Reviews und Prozessanalysen, beraten Sie in der Entscheidungsfindung und begleiten Sie professionell in der Umsetzung. Gerne nehmen wir freiwillige Konzernprüfungen und Reviews nach anerkannten Standards vor, nehmen im Auftrag interne Revisionen vor und beraten Sie beim Kauf oder Verkauf von Firmen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/budliger-ch/pool/dd509f6b18__BT_DL_Wirtschaftspruefung_970x560px.jpg"
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "Mehrwertsteuersatzerhöhung per 1. Januar 2024 - Budliger Treuhand AG Zürich\n\nAb dem 1. Januar 2024 ändern in der Schweiz und in Liechtenstein die Steuersätze.\n\nBei Bau- bzw. Montageleistungen ist der Zeitpunkt der Arbeitsausführung vor Ort massgebend. Werden Aufträge in Arbeit per 31. Dezember 2023 mit einem detaillierten Situationsetat oder Teilzahlungsgesuch (Zwischenrechnung) abgegrenzt, unterliegen die bis zu diesem Datum erbrachten Leistungen dem alten Steuersatz.\n\nVorauszahlungen für ab dem 1. Januar 2024 zu erbringende Leistungen dürfen bereits im Jahr 2023 zum höheren Satz in Rechnung gestellt werden. Dies trifft regelmässig z.B. bei Abonnementen für periodische Leistungen zu, bei denen eine Aufteilung pro rata temporis erfolgen muss.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/budliger-ch/pool/5926f25cce__Mehrwertsteuersatzerhoehung-per-1.-Januar-2024_Budliger.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Mit dem am 1. Juli 1996 in Kraft getretenen Bundesgesetz über die Gleichstellung von Frau und Mann (Gleichstellungsgesetz, GlG) soll der verfassungsrechtliche Anspruch auf gleichen Lohn für gleichwertige Arbeit auf Gesetzesstufe verankert und umgesetzt werden.\n\nArt. 3 Abs. 1 und 2 GlG hält fest, dass Arbeitnehmerinnen und Arbeitnehmer aufgrund ihres Geschlechts weder direkt noch indirekt benachteiligt werden dürfen. Um sicherzustellen, dass Unternehmen diesen Grundsatz beachten, wurde eine Pflicht für die periodische Lohngleichheitsanalyse eingeführt. Wir erklären, worum es geht – und was dabei zu beachten ist.\n\nDie Pflicht zur Durchführung besteht seit dem 1. Juli 2020 für Unternehmen, die zu Beginn des Kalenderjahres mindestens 100 Arbeitnehmende beschäftigen (Art. 13a Abs. 1 GlG).",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Mit dem am 1. Juli 1996 in Kraft getretenen Bundesgesetz über die Gleichstellung von Frau und Mann (Gleichstellungsgesetz, GlG) soll der verfassungsrechtliche Anspruch auf gleichen Lohn für gleichwertige Arbeit auf Gesetzesstufe verankert und umgesetzt werden.\n\nArt. 3 Abs. 1 und 2 GlG hält fest, dass Arbeitnehmerinnen und Arbeitnehmer aufgrund ihres Geschlechts weder direkt noch indirekt benachteiligt werden dürfen. Um sicherzustellen, dass Unternehmen diesen Grundsatz beachten, wurde eine Pflicht für die periodische Lohngleichheitsanalyse eingeführt. Wir erklären, worum es geht – und was dabei zu beachten ist.\n\nDie Pflicht zur Durchführung besteht seit dem 1. Juli 2020 für Unternehmen, die zu Beginn des Kalenderjahres mindestens 100 Arbeitnehmende beschäftigen (Art. 13a Abs. 1 GlG)."
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Wir unterstützen Ihre Organisation effizient und transparent. Wir entlasten Sie nachhaltig und garantieren ein Rechnungswesen nach aktuellem Standard.\n\nWir organisieren Ihr Rechnungswesen oder unterstützen Sie in Teilbereichen – sowohl vor Ort wie auch in der Beratung bei uns. Wir führen Ihre Buchhaltung und erstellen die MWST-Abrechnungen oder Ihre Zwischen-, Jahres- und Konzernabschlüsse. In allen Belangen rund um die Buchführung können Sie auf unser Knowhow und unsere IT-Infrastruktur zurückgreifen.\n\nEin objektiver Massstab für Ihren Erfolg: Wir erarbeiten mit Ihnen firmenspezifische Hilfsmittel zur Steuerung Ihres Unternehmens. Sie erkennen, welche Betriebsteile oder Dienstleistungen gewinnbringend und welche Optimierungen möglich sind.\n\nBei der Weiterentwicklung des Rechnungswesens sind betriebswirtschaftliche, rechtliche und technische Anforderungen zu berücksichtigen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/budliger-ch/pool/49dae8b45c__BT_DL_Rechnungswesen_970x560px.jpg"
       }
     ]
@@ -936,58 +898,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Erbrechtliche Beratung. Nehmen Sie die Nachlassplanung frühzeitig in Angriff – wir unterstützen Sie gerne mit einer individuellen Beratung.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Revision",
-      "body": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Mehrwertsteuer",
-      "body": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand aus einer Hand – seit 1942",
+      "body": "Buchhaltung, Steuern, Mehrwertsteuer, Revision und Nachlass: Sie haben einen festen Ansprechpartner, der Ihre Situation kennt und über alle Bereiche hinweg mitdenkt. Dem Leitsatz «Ihnen dienen zu dürfen» bleiben wir bis heute treu.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Unternehmen",
+        "body": "Buchhaltung, Mehrwertsteuer, Lohn und Abschluss – wir entlasten Sie und halten Ihr Rechnungswesen termingerecht aktuell."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Optimierung und Vertretung gegenüber den Behörden – verständlich begleitet."
+      },
+      {
+        "title": "Immobilienbesitzer",
+        "body": "Steuerliche Fragen rund um Liegenschaften im In- und Ausland, sauber deklariert und beraten."
+      },
+      {
+        "title": "Erben & Nachfolge",
+        "body": "Nachlassplanung, Ehe- und Erbverträge sowie Testamente – frühzeitig und individuell geregelt."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -1084,7 +1024,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -1099,7 +1039,7 @@
   },
   "footer": {
     "brand": "Budliger Treuhand AG",
-    "tagline": "Umfassende Betreuung und Unterstützung in allen Treuhandfragen. «Ihnen dienen zu dürfen» – dieser Leitsatz begleitet uns seit unserer Gründung.",
+    "tagline": "Umfassende Betreuung in allen Treuhandfragen – persönlich und verlässlich seit 1942.",
     "columns": [
       {
         "title": "Sitemap",

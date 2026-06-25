@@ -197,9 +197,7 @@
       }
     },
     "placeholders": [
-      "hero.aside",
-      "process (generic)",
-      "audience (generic)"
+      "process (generic)"
     ],
     "real": [
       "meta.firm",
@@ -378,8 +376,8 @@
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "",
-    "asideAttribution": "",
+    "asideQuote": "Bei uns kennen Sie Ihre Ansprechpartner persönlich – keine Sachbearbeiter-Rotation, kein Callcenter.",
+    "asideAttribution": "MRG Treuhand",
     "image": "/images/mrg-treuhand-ch/hero.jpg"
   },
   "services": {
@@ -389,7 +387,7 @@
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Klara (gratis Einstieg) oder Bexio (ab CHF 35/Mt.) – Cloud-basiert und intuitiv.\n\nProffix (ERP mit Buchhaltung, CRM, Aufträge) oder Topal (modulare Treuhänder-Lösung).\n\nWelche Buchhaltungssoftware ist die richtige für Ihr KMU? Diese Frage stellen sich Schweizer Unternehmer immer wieder – sei es bei der Gründung, beim Wechsel von Excel oder wenn die aktuelle Lösung an ihre Grenzen stösst. Die Auswahl ist gross, und jeder Anbieter verspricht, die beste Lösung zu sein. Ein vertieftes Verständnis zum Thema Umstieg von Excel finden Sie in unserem\n\nEinzelfirmen und kleine KMU (1–15 Mitarbeitende), die eine einfache, moderne Cloud-Lösung suchen."
+        "body": "Klara (gratis Einstieg) oder Bexio (ab CHF 35/Mt.) – Cloud-basiert und intuitiv.\n\nProffix (ERP mit Buchhaltung, CRM, Aufträge) oder Topal (modulare Treuhänder-Lösung).\n\nWelche Buchhaltungssoftware ist die richtige für Ihr KMU? Diese Frage stellen sich Schweizer Unternehmer immer wieder – sei es bei der Gründung, beim Wechsel von Excel oder wenn die aktuelle Lösung an ihre Grenzen stösst. Die Auswahl ist gross, und jeder Anbieter verspricht, die beste Lösung zu sein. Wir helfen Ihnen, die richtige Software für Ihr KMU zu finden und sauber einzurichten – besonders für Einzelfirmen und kleine KMU (1–15 Mitarbeitende), die eine einfache, moderne Cloud-Lösung suchen."
       },
       {
         "title": "Unternehmensberatung",
@@ -444,43 +442,41 @@
     "paragraphs": [
       "IT-Enthusiast mit Leidenschaft für Zahlen. Roger verbindet technisches Know-how mit Treuhand-Expertise und sorgt dafür, dass bei MRG alles digital und effizient läuft.",
       "Die Zahlenflüsterin im Team. Melanie hat den Überblick über Buchhaltung und Löhne und kümmert sich darum, dass bei unseren Kunden alles stimmt – ruhig, präzis und zuverlässig.",
-      "Keine Warteschleifen, keine Ticket-Systeme. Bei uns erreichen Sie immer einen echten Menschen."
+      "Wir verbinden Treuhand-Expertise mit moderner, digitaler Arbeitsweise – damit Sie Ihre Belege einfach hochladen und wir den Rest übernehmen, von der Buchhaltung über den Lohn bis zur Steuer."
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Direkte Kommunikation",
-      "body": "Keine Warteschleifen, keine Ticket-Systeme. Bei uns erreichen Sie immer einen echten Menschen.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Innovation",
-      "body": "Wir mögen Technologie und setzen auf moderne Tools, die Ihnen Zeit und Nerven sparen.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Partnerschaft",
-      "body": "Wir sind nicht nur Dienstleister, sondern Partner. Ihr Erfolg ist unser Erfolg.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Lohnadministration",
-      "body": "Lohn & HR Services für Schweizer KMU. Swissdec-zertifizierte Lohnabrechnung, Quellensteuer, Sozialversicherungen. MRG Treuhand Aadorf.",
+      "heading": "Digitale Treuhand mit echtem Ansprechpartner",
+      "body": "Wir verbinden moderne, digitale Tools mit persönlicher Betreuung: Belege laden Sie einfach hoch, wir verbuchen – und wenn Sie eine Frage haben, erreichen Sie immer einen echten Menschen statt einer Warteschleife.",
       "cta": {
         "label": "Termin buchen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Einzelfirmen",
+        "body": "Von der laufenden Buchhaltung über den Lohn bis zum Jahresabschluss – mit transparenten Monatspauschalen und einem festen Ansprechpartner."
+      },
+      {
+        "title": "Startups & Gründer",
+        "body": "Wir begleiten Sie von der Geschäftsidee über die Wahl der Rechtsform bis zur Eintragung im Handelsregister."
+      },
+      {
+        "title": "Digital-affine Mandate",
+        "body": "Belege per App hochladen, Beratung persönlich oder per Video-Call: Wir betreuen Kundinnen und Kunden in Zürich, Winterthur, St. Gallen und der Ostschweiz komplett digital."
+      },
+      {
+        "title": "Arbeitgeber mit Lohn & HR",
+        "body": "Swissdec-zertifizierte Lohnabrechnung, Quellensteuer und Sozialversicherungen – von der Anstellung bis zum Arbeitszeugnis."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -632,7 +628,7 @@
   },
   "footer": {
     "brand": "MRG Treuhand",
-    "tagline": "MRG Treuhand Aadorf: Digitale Buchhaltung, Lohnabrechnung & Steuerberatung für KMU in Thurgau, Zürich und St. Gallen. Swissdec-zertifiziert. Ab CHF 240/Monat.",
+    "tagline": "Digitale Treuhand aus Aadorf – Buchhaltung, Lohn und Steuern für KMU in Thurgau, Zürich und der Ostschweiz.",
     "logo": "/images/mrg-treuhand-ch/pool/71511be62c__mrg-logo.webp",
     "columns": [
       {

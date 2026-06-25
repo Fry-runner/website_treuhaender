@@ -186,10 +186,8 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "about (generic)"
     ],
     "real": [
@@ -618,13 +616,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Wallisellen",
-    "titleLead": "Treuhand & Steuerberatung in Zürich Wallisellen",
-    "titleAccent": "",
-    "lede": "Divisia Treuhand AG: Treuhand, Steuerberatung, Revision in der Region Zürich Wallisellen. Umfassend, ganzheitlich und partnerschaftlich. Kontakt 044 811 00 99",
+    "titleLead": "Treuhand & Steuerberatung",
+    "titleAccent": "in Wallisellen.",
+    "lede": "Treuhand, Steuerberatung und Revision für Unternehmen und Privatpersonen in der Region Zürich. Umfassend, ganzheitlich und partnerschaftlich begleitet.",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Divisia Treuhand AG: Treuhand, Steuerberatung, Revision in der Region Zürich Wallisellen. Umfassend, ganzheitlich und partnerschaftlich. Kontakt 044 811 00 99",
+    "asideQuote": "Umfassend, ganzheitlich und partnerschaftlich – wir nehmen Ihnen die Administration ab, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.",
     "asideAttribution": "Divisia Treuhand AG",
     "image": "/images/divisia-treuhand-ch/hero.jpg"
   },
@@ -636,70 +634,34 @@
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/divisia-treuhand-ch/pool/05e91d0ae5__Unternehmensberatung.jpg"
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/divisia-treuhand-ch/pool/1cbb17ec8e__Divisia-Treuhand-1200x675-Kryptowaehrung-steuerpflichtig-Gewinnversteuerung.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Beschäftigung von Personal ist für ein Unternehmen eine vielschichtige soziale und administrative Herausforderung. Mit der monatlichen Überweisung des Lohnes alleine ist es nicht getan. Vielmehr ist eine ganzheitliche Betrachtung von Gesetzen, Versicherungen, Verträgen und Lohnmodellen notwendig, um die Ressourcen gezielt und flexibel einzusetzen – für erfolgreiches Operieren am Markt.\n\nWir wickeln Ihre Lohnbuchhaltung und Personaladministration umfassend und vertraulich ab, beraten Sie in Fragen des Arbeitsrechts und der Sozialversicherungen, erstellen Personal- und Spesenreglemente und informieren Sie über Gesetzesänderungen, die für Ihre Anstellungsverhältnisse relevant sind.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Beschäftigung von Personal ist für ein Unternehmen eine vielschichtige soziale und administrative Herausforderung. Mit der monatlichen Überweisung des Lohnes alleine ist es nicht getan. Vielmehr ist eine ganzheitliche Betrachtung von Gesetzen, Versicherungen, Verträgen und Lohnmodellen notwendig, um die Ressourcen gezielt und flexibel einzusetzen – für erfolgreiches Operieren am Markt.\n\nWir wickeln Ihre Lohnbuchhaltung und Personaladministration umfassend und vertraulich ab, beraten Sie in Fragen des Arbeitsrechts und der Sozialversicherungen, erstellen Personal- und Spesenreglemente und informieren Sie über Gesetzesänderungen, die für Ihre Anstellungsverhältnisse relevant sind."
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Die Tagfertigkeit des gesamten Finanz- und Rechnungswesens Ihrer Unternehmung stellt für Sie ein nicht zu unterschätzendes Kontrollinstrument dar. Die Aktualität der Buchhaltung ist Basis für fristgerechte Auswertungen und eine monatliche Budgetkontrolle. So können positive wie negative Entwicklungen des Geschäftsverlaufes frühzeitig erkannt und die notwendigen Massnahmen rechtzeitig ergriffen werden – eine zentrale Voraussetzung für Ihren Unternehmenserfolg.\n\nWir führen Ihre komplette Finanzbuchhaltung sowie den Zahlungsverkehr, bewirtschaften Ihre Debitoren und bearbeiten Inkassofälle. Wir erstellen Ihren Jahresabschluss und beraten Sie strategisch. Von Ihnen benötigen wir lediglich periodisch die entsprechenden Belege, welche wir nach der Verarbeitung entweder an Sie retournieren, oder auf Wunsch in unseren Büros ablegen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Tagfertigkeit des gesamten Finanz- und Rechnungswesens Ihrer Unternehmung stellt für Sie ein nicht zu unterschätzendes Kontrollinstrument dar. Die Aktualität der Buchhaltung ist Basis für fristgerechte Auswertungen und eine monatliche Budgetkontrolle. So können positive wie negative Entwicklungen des Geschäftsverlaufes frühzeitig erkannt und die notwendigen Massnahmen rechtzeitig ergriffen werden – eine zentrale Voraussetzung für Ihren Unternehmenserfolg.\n\nWir führen Ihre komplette Finanzbuchhaltung sowie den Zahlungsverkehr, bewirtschaften Ihre Debitoren und bearbeiten Inkassofälle. Wir erstellen Ihren Jahresabschluss und beraten Sie strategisch. Von Ihnen benötigen wir lediglich periodisch die entsprechenden Belege, welche wir nach der Verarbeitung entweder an Sie retournieren, oder auf Wunsch in unseren Büros ablegen."
       },
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
         "body": "Seit den Änderungen des Obligationen- und Aktienrechts ist die Revisionspflicht nicht mehr von der Rechtsform sondern von der Grösse Ihres Unternehmens abhängig. Die Einführung der eingeschränkten Revision und der Möglichkeit des „opting out“ kommt den Bedürfnissen von KMU mit Sicherheit entgegen.\n\nDie freiwillige Durchführung einer Revision signalisiert ein gewisses Verantwortungsbewusstsein. Dank einer besseren Qualität der Jahresrechnung werden die Sicherheit erhöht beziehungsweise die Risiken reduziert – ein Mehrwert für Ihr Unternehmen.\n\nWir stimmen den Umfang unserer Revisionstätigkeit mit Ihnen ab und finden eine Lösung, die Ihren Anforderungen und der Grösse Ihres Unternehmens gerecht wird.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/divisia-treuhand-ch/pool/521b170517__Divisia-Treuhand-Wallisellen-Revision-1920x600-1.jpg"
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       }
     ]
   },
@@ -728,37 +690,35 @@
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Treuhand",
-      "body": "Konzentrieren Sie Ihre zeitlichen Ressourcen ganz auf Ihr Kerngeschäft und übergeben Sie uns die zeitraubenden administrativen Arbeiten in der Buchführung, im Rechnungswesen und in der Personaladministration.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Unternehmens­beratung",
-      "body": "Aussergewöhnliche Veränderungen Ihrer Geschäftstätigkeit – Gründung, Kauf- und Verkauf, Umstrukturierung oder Fusion – erfordern besondere Massnahmen.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Revision",
-      "body": "Wir stimmen den Umfang unserer Revisionstätigkeit mit Ihnen ab und finden eine Lösung, die Ihren Anforderungen und der Grösse Ihres Unternehmens gerecht wird.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Digitaler Treuhänder",
-      "body": "Das Treuhandportal ist ein einfaches und effizientes Kommunikationstool zwischen Ihnen und Ihrem Treuhänder. Das Portal funktioniert als webbasierte Lösung und via Mobile App.",
+      "heading": "Mehr Zeit fürs Kerngeschäft",
+      "body": "Übergeben Sie uns die zeitraubenden administrativen Arbeiten in Buchführung, Rechnungswesen und Personaladministration. Über das Treuhandportal arbeiten wir webbasiert und via Mobile App zusammen – einfach und effizient.",
       "cta": {
         "label": "Termin buchen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Unternehmen",
+        "body": "Buchhaltung, Lohn, Jahresabschluss und Revision – wir übernehmen die Administration, damit Sie sich auf Ihr Kerngeschäft konzentrieren können."
+      },
+      {
+        "title": "Gründer & Nachfolge",
+        "body": "Wahl der Rechtsform, Budget- und Liquiditätsplanung, Kauf, Verkauf oder Übergabe – wir begleiten unternehmerische Weichenstellungen."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Optimierung und Vertretung gegenüber den Behörden – verständlich begleitet."
+      },
+      {
+        "title": "Immobilienbesitzer",
+        "body": "Steuerliche und administrative Fragen rund um Liegenschaften, sauber geregelt."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -810,7 +770,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Buchen Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Termin buchen"
   },
   "contact": {
@@ -824,7 +784,7 @@
   },
   "footer": {
     "brand": "Divisia Treuhand AG",
-    "tagline": "Divisia Treuhand AG: Treuhand, Steuerberatung, Revision in der Region Zürich Wallisellen. Umfassend, ganzheitlich und partnerschaftlich. Kontakt 044 811 00 99",
+    "tagline": "Treuhand, Steuerberatung und Revision für die Region Zürich – umfassend und partnerschaftlich.",
     "logo": "/images/divisia-treuhand-ch/pool/3c98504da9__Logo_Divisia_treuhand.svg",
     "columns": [
       {

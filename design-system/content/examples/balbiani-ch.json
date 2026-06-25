@@ -178,11 +178,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -548,13 +546,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Dietikon",
-    "titleLead": "Balbiani Treuhand GmbH Dietikon",
-    "titleAccent": "",
+    "titleLead": "Balbiani Treuhand in",
+    "titleAccent": "Dietikon",
     "lede": "Unsere persönliche Beratung hilft Ihnen schnell Ihre Problem- und Fragestellungen zu lösen bei Ihrer Buchhaltung, den Steuern, Personaladministration und mehr.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Unsere persönliche Beratung hilft Ihnen schnell Ihre Problem- und Fragestellungen zu lösen bei Ihrer Buchhaltung, den Steuern, Personaladministration und mehr.",
+    "asideQuote": "Buchhaltung, Steuern, Lohn und Revision – persönlich und aus einer Hand.",
     "asideAttribution": "Treuhandbüro Balbiani",
     "image": "/images/balbiani-ch/pool/stock-reception-11719831.jpg"
   },
@@ -566,72 +564,36 @@
         "title": "Steuerberatung",
         "summary": "Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen u.v.m.",
         "body": "Albert Einstein sagte einst, warum er einen Steuerberater beschäftigte: \"Das ist für einen Mathematiker zu schwierig, dazu muss man Philosoph sein\".\n\nWenn es um Steuerfragen geht, sind wir gerne Ihre Philosophen. Bei uns sparen Sie Zeit und Steuern und können sich als Privatperson oder juristische Person bei uns melden. Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen und vieles mehr.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/balbiani-ch/pool/stock-meeting-7433869.jpg"
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
         "body": "Sie haben eine Geschäftsidee und sind auf der Suche nach einem kompetenten Partner, welcher Sie bis zur Gründung begleitet? Dank jahrelanger Erfahrung in der Materie sind wir der ideale Partner für Ihre Bedürfnisse.\n\nGerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/balbiani-ch/pool/stock-advisory-7821543.jpg"
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/balbiani-ch/pool/stock-finance-7580854.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Wir unterstützen Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.",
-        "body": "Wir unterstützen Sie in der Pflege Ihrer wertvollsten Investition, dem Personal.\n\nKlare Verhältnisse mit Ihren Mitarbeiterinnen und Mitarbeiter sind eine wichtige Investition für den Erfolg Ihres Unternehmens. Genau deshalb unterstützen wir Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.\n\nvon Balbiani tatkräftig unterstützen. Sie sind uns genauso wichtig, wie Ihre Mitarbeitenden Ihnen wichtig sind.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Wir unterstützen Sie in der Pflege Ihrer wertvollsten Investition, dem Personal.\n\nKlare Verhältnisse mit Ihren Mitarbeiterinnen und Mitarbeitern sind eine wichtige Investition für den Erfolg Ihres Unternehmens. Genau deshalb unterstützen wir Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.",
         "image": "/images/balbiani-ch/pool/stock-documents-7876037.jpg"
       },
       {
         "title": "Revision",
         "summary": "Wir prüfen Ihre Bilanz- und Jahresrechnung gemäss den schweiz. Prüfungsstandards zur eingeschränkten Revision. Dank unserem Revisor RAB, Jean-Pierre Balbiani.",
-        "body": "Gerne prüfen wir Ihre Bilanz- und Jahresrechnung gemäss den schweizerischen Prüfungsstandards zur eingeschränkten Revision. Dank unserem zugelassenen\n\n, Jean-Pierre Balbiani (Zulassungs-Nr. 106 509), können Sie auf eine fachgerechte Revision zählen und nicht zuletzt an Sicherheit gewinnen.\n\nPrüfung der Bilanz- und Jahresrechnung gemäss den schweiz.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Gerne prüfen wir Ihre Bilanz- und Jahresrechnung gemäss den schweizerischen Prüfungsstandards zur eingeschränkten Revision. Dank unserem zugelassenen Revisor Jean-Pierre Balbiani (Zulassungs-Nr. 106 509) können Sie auf eine fachgerechte Revision zählen und gewinnen zusätzliche Sicherheit.",
         "image": "/images/balbiani-ch/pool/stock-success-6289065.jpg"
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/balbiani-ch/pool/stock-office-8453801.jpg"
       }
     ]
@@ -645,62 +607,43 @@
     "eyebrow": "Über uns",
     "heading": "Über das Balbiani Treuhand GmbH",
     "lead": "Wir gewähren die Einhaltung der Richtlinien und Standards unseres Berufsstandes.",
-    "paragraphs": []
+    "paragraphs": [
+      "Das Treuhandbüro Balbiani in Dietikon begleitet Unternehmen und Privatpersonen in allen Treuhandfragen – von der Buchhaltung über Steuern und Lohn bis zur Unternehmensberatung.",
+      "Mit unserem zugelassenen Revisor Jean-Pierre Balbiani (RAB) bieten wir Ihnen auch die eingeschränkte Revision aus einer Hand. Als Mitglied von TREUHAND|SUISSE arbeiten wir nach den Richtlinien und Standards unseres Berufsstandes."
+    ]
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Gerne erstellen wir für Sie die Steuererklärung, prüfen Steuerveranlagungen und Einschätzungsentscheide, vertreten Sie bei Einsprachen und Rekursen u.v.m.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Gerne beraten wir Sie bei Firmengründungen, stehen Ihnen zur Seite, wenn Sie die Rechtsform der Firma umwandeln möchten oder einen Businessplan benötigen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Lohnadministration",
-      "body": "Wir unterstützen Sie zielgerichtet beim Führen der Lohnbuchhaltung, beim Erstellen der Lohnausweise, bei Quellensteuerabrechnungen und vielem mehr.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand und Revision aus einer Hand",
+      "body": "Von der Steuererklärung über Buchhaltung und Lohn bis zur eingeschränkten Revision durch unseren zugelassenen Revisor – wir begleiten Sie persönlich und mit jahrelanger Erfahrung in Dietikon.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Gewerbe",
+        "body": "Buchhaltung, Lohn und Abschluss – sauber geführt und termingerecht."
+      },
+      {
+        "title": "Revisionspflichtige Firmen",
+        "body": "Eingeschränkte Revision durch unseren zugelassenen Revisor (RAB)."
+      },
+      {
+        "title": "Gründerinnen & Gründer",
+        "body": "Begleitung bei Firmengründung, Rechtsformwahl und Businessplan."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Einsprachen und Steuerfragen – persönlich betreut."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -738,7 +681,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -753,7 +696,7 @@
   },
   "footer": {
     "brand": "Treuhandbüro Balbiani",
-    "tagline": "Unsere persönliche Beratung hilft Ihnen schnell Ihre Problem- und Fragestellungen zu lösen bei Ihrer Buchhaltung, den Steuern, Personaladministration und mehr.",
+    "tagline": "Persönliche Treuhandberatung in Dietikon – von der Buchhaltung bis zur Revision.",
     "logo": "/images/balbiani-ch/pool/358fecb2e4__Balbiani_Logo-1920w.png",
     "columns": [
       {

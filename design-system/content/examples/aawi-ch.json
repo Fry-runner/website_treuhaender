@@ -203,12 +203,10 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "services.text",
       "process (generic)",
-      "audience (generic)",
       "feature (generic)",
       "media.stock (CC fallback)"
     ],
@@ -579,13 +577,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Wetzikon",
-    "titleLead": "Seit 1989 - Ihr Treuhand-Partner",
-    "titleAccent": "",
-    "lede": "aawi treuhand ag in Wetzikon Treuhandfirma mit dem Hauptfokus Steuerberatung, Online-/Buchhaltung und Unternehmensberatung.",
+    "titleLead": "Ihr Treuhand-Partner",
+    "titleAccent": "in Wetzikon",
+    "lede": "Die aawi treuhand ag in Wetzikon betreut Unternehmen und Privatpersonen rund um Steuerberatung, Buchhaltung und Unternehmensberatung – persönlich und verlässlich.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "aawi treuhand ag in Wetzikon Treuhandfirma mit dem Hauptfokus Steuerberatung, Online-/Buchhaltung und Unternehmensberatung.",
+    "asideQuote": "Von der Buchhaltung über die Steuern bis zur Unternehmensberatung – alles aus einer Hand, mit einem festen Ansprechpartner.",
     "asideAttribution": "aawi treuhand ag",
     "image": "/images/aawi-ch/pool/stock-desk-7821716.jpg"
   },
@@ -597,72 +595,36 @@
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/aawi-ch/pool/26a25b69e6__unternehmensberatung-1.jpg"
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/aawi-ch/pool/1d7608f6c4__buchhaltung-2.jpg"
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/aawi-ch/pool/3e5799df2a__steuerberatung.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
         "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/aawi-ch/pool/bb8d8e8fcc__lohnuchhaltung.jpg"
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
         "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/aawi-ch/pool/stock-laptop-8091204.jpg"
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/aawi-ch/pool/stock-documents-13431445.jpg"
       }
     ]
@@ -675,10 +637,32 @@
   "about": {
     "eyebrow": "Über uns",
     "heading": "Wer wir sind",
-    "lead": "Wir empfangen Sie sehr gerne zu einem persönlichen Gespräch in unserem Büro. Bitte vereinbaren Sie einen Termin.",
+    "lead": "Wir empfangen Sie gerne zu einem persönlichen Gespräch in unserem Büro in Wetzikon.",
     "paragraphs": [
-      "Wenn Sie vertrauliche Mitteilungen machen, beachten Sie bitte, dass E-Mails unter Umständen von Drittpersonen gelesen werden könnten.",
-      ". Auch positives Feedback ist willkommen! Für fehlerhaften Inhalt dieser Website oder für Inhalte von anderen Websites, welche Sie über diese Website erreichen, wird keine Verantwortung übernommen."
+      "Die aawi treuhand ag begleitet Unternehmen und Privatpersonen in der Region Wetzikon in allen Treuhandfragen – von der laufenden Buchhaltung über die Steuerberatung bis zur Lohn- und Unternehmensberatung.",
+      "Sie haben bei uns einen festen Ansprechpartner, der Ihre Zahlen kennt und mitdenkt. Verständliche Auswertungen und klare Absprachen schaffen die Grundlage für gute Entscheidungen."
+    ]
+  },
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Gewerbe",
+        "body": "Laufende Buchhaltung, Lohn und Abschluss – damit Sie sich auf Ihr Geschäft konzentrieren können."
+      },
+      {
+        "title": "Gründerinnen & Gründer",
+        "body": "Begleitung bei Rechtsform, Budget und den ersten Schritten in die Selbstständigkeit."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung und persönliche Steuerfragen – verständlich erklärt und sorgfältig erledigt."
+      },
+      {
+        "title": "Arbeitgeber mit Personal",
+        "body": "Lohnadministration und Sozialversicherungen, korrekt und termingerecht abgewickelt."
+      }
     ]
   },
   "team": {
@@ -739,7 +723,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -754,7 +738,7 @@
   },
   "footer": {
     "brand": "aawi treuhand ag",
-    "tagline": "aawi treuhand ag in Wetzikon Treuhandfirma mit dem Hauptfokus Steuerberatung, Online-/Buchhaltung und Unternehmensberatung.",
+    "tagline": "Treuhand für Unternehmen und Privatpersonen in Wetzikon.",
     "logo": "/images/aawi-ch/pool/29a44f761c__Logo_200px.png",
     "columns": [
       {

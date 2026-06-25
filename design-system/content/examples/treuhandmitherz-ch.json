@@ -197,12 +197,10 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "footer.tagline",
       "process (generic)",
-      "audience (generic)",
       "about (generic)",
       "media.stock (CC fallback)"
     ],
@@ -600,68 +598,32 @@
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Steuererklärung Winterthur – welche Tipps und Tricks gibt es? Als Treuhandbüro in Winterthur beschäftigen wir uns seit Jahren mit dem Thema Steuererklärung. Wir haben für Sie einige Tipps zusammengestellt: 1. Vorausplanung: Stellen Sie sicher, dass Sie genügend...\n\nSteuerklärung selber ausfüllen oder einen Treuhänder engagieren? In der Regel kann man die Steuererklärung selbst ausfüllen. Ein Treuhänder kann jedoch hilfreich sein, wenn man sich mit steuerlichen Fragen nicht auskennt oder komplexe finanzielle Verhältnisse hat. Ein...\n\nSteuererklärung 2022 im Kanton Zürich – worauf muss ich achten? 1. Frist zur Einreichung: Stellen Sie sicher, dass Sie die Steuererklärung innerhalb der geltenden Frist einreichen. Die Frist ist auf der Steuererklärung vermerkt. 2. Korrekte Angaben: Überprüfen...",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eigenheim, Selbstständigkeit, Erbschaften, Schenkungen oder Quellensteuer – Steuerfragen können vielfältig und komplex sein. Als Treuhandbüro beschäftigen wir uns seit Jahren mit dem Thema Steuererklärung und beraten Sie bei allen Fragen, damit Sie keine Fristen verpassen und keine Abzüge liegen lassen. Ihre Steuererklärung übernehmen wir gerne für Sie – oder wir unterstützen Sie dabei, diese selbst auszufüllen."
       },
       {
         "title": "Buchhaltung",
         "summary": "Wir sind das Treuhandbüro in Winterthur für jedes Budget. Wir beraten Sie zu allen Fragen rund um Buchhaltung, Steuern oder Versicherungen.",
-        "body": "Wir beraten und unterstützen Start-ups, Einzelfirmen und KMU-Betriebe, Vereine wie auch Privatpersonen. Von der Firmengründung über das gesamte Rechnungswesen bis zur Pensionsplanung. Wir schaffen Ordnung, damit Sie sich auf Ihre Arbeit konzentrieren können.\n\nDie Buchhaltung ist ein wesentliches Instrument, um in Ihrem Unternehmen die Kontrolle und Übersicht über die finanzielle Lage zu behalten. Sie entscheiden selbst, ob wir die gesamte Buchhaltung für Sie übernehmen, oder ob Sie nur einzelne Teilgebiete auslagern wollen.\n\nEigenheim, Selbstständigkeit, Erbschaften, Schenkungen oder Quellensteuer – Steuerfragen können vielfältig und komplex sein. Wir beraten Sie bei allen Fragen und finden Optimierungen. Ihre Steuererklärungen übernehmen wir gerne für Sie, oder unterstützen Sie dabei, diese selbst auszufüllen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Wir beraten und unterstützen Start-ups, Einzelfirmen und KMU-Betriebe, Vereine wie auch Privatpersonen. Von der Firmengründung über das gesamte Rechnungswesen bis zur Pensionsplanung. Wir schaffen Ordnung, damit Sie sich auf Ihre Arbeit konzentrieren können.\n\nDie Buchhaltung ist ein wesentliches Instrument, um in Ihrem Unternehmen die Kontrolle und Übersicht über die finanzielle Lage zu behalten. Sie entscheiden selbst, ob wir die gesamte Buchhaltung für Sie übernehmen, oder ob Sie nur einzelne Teilgebiete auslagern wollen.\n\nEigenheim, Selbstständigkeit, Erbschaften, Schenkungen oder Quellensteuer – Steuerfragen können vielfältig und komplex sein. Wir beraten Sie bei allen Fragen und finden Optimierungen. Ihre Steuererklärungen übernehmen wir gerne für Sie, oder unterstützen Sie dabei, diese selbst auszufüllen."
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein."
       }
     ]
   },
@@ -672,32 +634,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Wir sind das Treuhandbüro in Winterthur für jedes Budget. Wir beraten Sie zu allen Fragen rund um Buchhaltung, Steuern oder Versicherungen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand mit Herz – für jedes Budget",
+      "body": "Wir beraten und unterstützen Start-ups, Einzelfirmen, KMU, Vereine und Privatpersonen – von der Firmengründung über das Rechnungswesen bis zur Pensionsplanung. Wir schaffen Ordnung, damit Sie sich auf Ihre Arbeit konzentrieren können.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "Start-ups & Gründer",
+        "body": "Von der Firmengründung über das Rechnungswesen bis zur Planung begleiten wir Sie persönlich beim Aufbau."
+      },
+      {
+        "title": "Einzelfirmen & KMU",
+        "body": "Buchhaltung, Lohn und Abschluss für jedes Budget – Sie entscheiden, ob wir alles übernehmen oder nur Teilbereiche."
+      },
+      {
+        "title": "Vereine",
+        "body": "Ordentliche Buchführung und Abschlüsse, damit Ihr Vorstand entlastet ist und die Zahlen stimmen."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Optimierung und Beratung bei Eigenheim, Erbschaft oder Vorsorge – verständlich und persönlich."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -737,7 +703,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {

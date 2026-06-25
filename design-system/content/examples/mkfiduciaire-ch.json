@@ -190,12 +190,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
-      "footer.tagline",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -443,74 +440,38 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Das Obligationenrecht (OR Art. 957-963) regelt die Buchführungspflicht. Jedes im Handelsregister eingetragene Unternehmen muss Bücher führen.",
-        "body": "Das Obligationenrecht (OR Art. 957-963) regelt die Buchführungspflicht. Jedes im Handelsregister eingetragene Unternehmen muss Bücher führen.\n\nEinzelfirmen mit weniger als CHF 500'000 Umsatz: Einnahmen-/Ausgabenrechnung und Vermögensübersicht genügen.\n\nPflicht für AG, GmbH und Einzelfirmen über CHF 500'000: Bilanz, Erfolgsrechnung, Anhang nach Schweizer Kontenrahmen KMU.\n\nPflicht ab CHF 100'000 weltweitem Umsatz. Normalsatz 8.1%, reduzierter Satz 2.6%. Wahl zwischen effektiver Methode und Saldosteuersätzen — die Saldosteuersatz-Methode ist für viele KMU einfacher.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
+        "body": "Eine saubere Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Ob Einzelfirma, GmbH oder AG: Wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht und nach den Vorgaben des Obligationenrechts aktuell, damit Sie sich auf Ihr Kerngeschäft konzentrieren können.",
         "image": "/images/mkfiduciaire-ch/pool/stock-desk-7821716.jpg"
       },
       {
         "title": "Steuerberatung",
-        "summary": "gehören zu den wichtigsten Wirtschaftsstandorten der Schweiz. Ihre Steuersysteme unterscheiden sich jedoch deutlich.",
-        "body": "gehören zu den wichtigsten Wirtschaftsstandorten der Schweiz. Ihre Steuersysteme unterscheiden sich jedoch deutlich.\n\nBasel-Stadt hat den Steuersatz in den letzten Jahren massiv gesenkt und ist nun einer der kompetitivsten Kantone für Unternehmen. Zürich kompensiert mit seinem einzigartigen Zugang zu Fachkräften, Kapital und internationalem Netzwerk.\n\n: Gemeindesteuerfuss variiert stark — Zug, Schwyz oder Nidwalden als Alternative prüfen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig.",
         "image": "/images/mkfiduciaire-ch/pool/stock-laptop-8091204.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Wir übernehmen Ihre Lohnadministration vollständig und termingerecht – von der monatlichen Lohnabrechnung über die Sozialversicherungen bis zu Lohnausweisen und Jahresendarbeiten. Digital, transparent und persönlich betreut, damit Ihre Mitarbeitenden korrekt entlöhnt sind und Sie jederzeit regelkonform bleiben.",
         "image": "/images/mkfiduciaire-ch/pool/stock-desk-7792775.jpg"
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Wir erstellen Ihren Jahresabschluss nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Wir erläutern Ihnen die Ergebnisse verständlich, sodass Ihnen ein belastbarer Abschluss als Grundlage für Steuern, Finanzierung und Planung vorliegt.",
         "image": "/images/mkfiduciaire-ch/pool/stock-office-5483051.jpg"
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Wir übernehmen mehrwertsteuer vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Ob effektive Methode oder Saldosteuersatz – wir sorgen dafür, dass Ihre Abrechnungen jederzeit korrekt und fristgerecht eingereicht werden.",
         "image": "/images/mkfiduciaire-ch/pool/stock-finance-577195.jpg"
       },
       {
         "title": "Unternehmensberatung",
-        "summary": "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In",
-        "body": "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In\n\n3-7 Tage. Die Notarkosten sind in der Deutschschweiz generell etwas tiefer als in der Romandie.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "summary": "Gründung, Rechtsform, Budgetierung und betriebswirtschaftliche Beratung.",
+        "body": "Ob Gründung, Wachstum oder Nachfolge – unternehmerische Weichenstellungen haben langfristige Folgen. Wir begleiten Sie bei der Wahl der Rechtsform, der Budget- und Liquiditätsplanung sowie bei Finanzierungs- und Investitionsentscheiden. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um.",
         "image": "/images/mkfiduciaire-ch/pool/stock-success-6289026.jpg"
       }
     ]
@@ -523,53 +484,40 @@
   "about": {
     "eyebrow": "Über uns",
     "heading": "Gründungsschritte einer GmbH",
-    "lead": "Firmengründung in der Schweiz 2026: GmbH, AG oder Einzelfirma? | MK Treuhand",
+    "lead": "MK Treuhand begleitet KMU und Privatpersonen in Zürich in allen Treuhandfragen – von der Buchhaltung über die Steuern bis zur Unternehmensberatung.",
     "paragraphs": [
-      "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In",
-      "3-7 Tage. Die Notarkosten sind in der Deutschschweiz generell etwas tiefer als in der Romandie."
+      "Wir nehmen uns Zeit für Ihre Situation, denken vorausschauend mit und erklären verständlich, worauf es ankommt. Persönlich, präzise und mit einem festen Ansprechpartner an Ihrer Seite.",
+      "Ob Buchhaltung, Lohn, Mehrwertsteuer, Jahresabschluss oder die Beratung bei einer Firmengründung – bei uns laufen die Fäden zusammen, damit Sie sich auf Ihr Kerngeschäft konzentrieren können."
     ]
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Das Obligationenrecht (OR Art. 957-963) regelt die Buchführungspflicht. Jedes im Handelsregister eingetragene Unternehmen muss Bücher führen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "gehören zu den wichtigsten Wirtschaftsstandorten der Schweiz. Ihre Steuersysteme unterscheiden sich jedoch deutlich.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Die Gründungskosten und Bearbeitungszeiten variieren je nach Kanton. In",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand für KMU und Private aus einer Hand",
+      "body": "Buchhaltung, Steuern, Lohn, Mehrwertsteuer und Beratung – bei MK Treuhand laufen alle Fäden bei einem festen Ansprechpartner zusammen. Persönlich, präzise und vorausschauend an Ihrer Seite.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Selbstständige",
+        "body": "Von der laufenden Buchhaltung über Lohn und MWST bis zum Jahresabschluss – wir halten Ihnen den administrativen Rücken frei."
+      },
+      {
+        "title": "Gründerinnen & Gründer",
+        "body": "Bei Rechtsform, Budgetierung und den ersten Schritten einer Firmengründung beraten wir Sie betriebswirtschaftlich und konkret."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Optimierung und Vertretung gegenüber den Steuerbehörden – persönlich und vorausschauend begleitet."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -606,7 +554,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {

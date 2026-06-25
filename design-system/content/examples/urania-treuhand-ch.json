@@ -194,12 +194,10 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "services.text",
       "process (generic)",
-      "audience (generic)",
       "about (generic)",
       "feature (generic)",
       "media.stock (CC fallback)"
@@ -392,13 +390,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Uzwil",
-    "titleLead": "„Bring deine Skills ein – wir pushen den Rest.“",
-    "titleAccent": "",
-    "lede": "Willkommen bei der Urania Treuhand AG dein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung Ob Start-up, KMU, Verein oder",
+    "titleLead": "Ihr Partner für Treuhand in",
+    "titleAccent": "Uzwil.",
+    "lede": "Die Urania Treuhand AG begleitet Start-ups, KMU, Vereine und Privatpersonen in Uzwil – bei Steuern, Buchhaltung, Liegenschaften und Nachfolgeplanung. Persönlich und verlässlich.",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Willkommen bei der Urania Treuhand AG dein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung Ob Start-up, KMU, Verein oder",
+    "asideQuote": "Steuern, Buchhaltung, Liegenschaften und Nachfolge – breit aufgestellt und nah an Ihren Anliegen.",
     "asideAttribution": "Urania Treuhand AG",
     "image": "/images/urania-treuhand-ch/pool/stock-architecture-7424584.jpg"
   },
@@ -409,68 +407,32 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen."
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren."
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus."
       },
       {
         "title": "Immobilien",
         "summary": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
-        "body": "Liegenschaften sind werthaltige, aber betreuungsintensive Vermögenswerte. Wir übernehmen die kaufmännische und administrative Bewirtschaftung Ihrer Immobilien – von der Vermietung und der Mietzinsverwaltung über die Nebenkostenabrechnung bis zur Koordination von Unterhalt und Handwerkern. Bei Kauf, Verkauf oder Bewertung stehen wir Ihnen mit Marktkenntnis und einer sauberen Aufbereitung der Zahlen zur Seite. So bleibt Ihre Liegenschaft werterhaltend bewirtschaftet, und Sie behalten jederzeit den Überblick über Erträge und Kosten.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Liegenschaften sind werthaltige, aber betreuungsintensive Vermögenswerte. Wir übernehmen die kaufmännische und administrative Bewirtschaftung Ihrer Immobilien – von der Vermietung und der Mietzinsverwaltung über die Nebenkostenabrechnung bis zur Koordination von Unterhalt und Handwerkern. Bei Kauf, Verkauf oder Bewertung stehen wir Ihnen mit Marktkenntnis und einer sauberen Aufbereitung der Zahlen zur Seite. So bleibt Ihre Liegenschaft werterhaltend bewirtschaftet, und Sie behalten jederzeit den Überblick über Erträge und Kosten."
       },
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-        "body": "Eine Revision schafft Vertrauen – bei Eigentümern, Verwaltungsrat, Banken und Geschäftspartnern. Als zugelassene Fachpersonen führen wir die eingeschränkte sowie die ordentliche Revision durch und prüfen Ihre Jahresrechnung auf Gesetzes- und Statutenkonformität. Wir stimmen den Prüfungsumfang auf Grösse und Risikoprofil Ihres Unternehmens ab und liefern neben dem Revisionsbericht auch konkrete Hinweise zur Verbesserung Ihres internen Kontrollsystems. So erfüllen Sie Ihre gesetzlichen Pflichten und gewinnen zugleich verlässliche Erkenntnisse über Ihr Rechnungswesen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine Revision schafft Vertrauen – bei Eigentümern, Verwaltungsrat, Banken und Geschäftspartnern. Als zugelassene Fachpersonen führen wir die eingeschränkte sowie die ordentliche Revision durch und prüfen Ihre Jahresrechnung auf Gesetzes- und Statutenkonformität. Wir stimmen den Prüfungsumfang auf Grösse und Risikoprofil Ihres Unternehmens ab und liefern neben dem Revisionsbericht auch konkrete Hinweise zur Verbesserung Ihres internen Kontrollsystems. So erfüllen Sie Ihre gesetzlichen Pflichten und gewinnen zugleich verlässliche Erkenntnisse über Ihr Rechnungswesen."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       }
     ]
   },
@@ -478,6 +440,28 @@
     "eyebrow": "Warum wir",
     "heading": "Ihr Vorteil.",
     "items": []
+  },
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "Start-ups & KMU",
+        "body": "Buchhaltung, Steuern und Lohn – damit Sie sich auf den Aufbau Ihres Unternehmens konzentrieren können."
+      },
+      {
+        "title": "Vereine",
+        "body": "Verlässliche Buchführung und Jahresrechnung, abgestimmt auf die Anforderungen von Vereinen."
+      },
+      {
+        "title": "Liegenschaftsbesitzer",
+        "body": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – werterhaltend und transparent."
+      },
+      {
+        "title": "Privatpersonen & Nachfolge",
+        "body": "Steuererklärung sowie Begleitung bei Nachfolge- und Vermögensplanung."
+      }
+    ]
   },
   "team": {
     "eyebrow": "Team",
@@ -544,7 +528,7 @@
   },
   "footer": {
     "brand": "Urania Treuhand AG",
-    "tagline": "Willkommen bei der Urania Treuhand AG dein Partner für Steuerberatung, Buchhaltung, Liegenschaften und Nachfolgeplanung Ob Start-up, KMU, Verein oder",
+    "tagline": "Treuhand in Uzwil – Steuern, Buchhaltung, Liegenschaften und Nachfolgeplanung.",
     "logo": "/images/urania-treuhand-ch/pool/cf48162133__cropped-Logo_urania_treuhand_cmyk-1024x550.png",
     "columns": [
       {

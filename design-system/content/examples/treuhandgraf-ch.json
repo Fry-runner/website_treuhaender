@@ -186,11 +186,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -379,7 +377,7 @@
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Das Treuhandbüro Graf ist Ihr kompetenter Treuhänder in Zürich. Wir helfen Ihnen bei allen Ihren kaufmännischen Pflichten unter die Arme.",
+    "asideQuote": "Ein kleines, engagiertes Team mit Fokus auf die praktische Seite Ihres Betriebs.",
     "asideAttribution": "Treuhandbüro Graf AG",
     "image": "/images/treuhandgraf-ch/pool/stock-office-20314954.jpg"
   },
@@ -389,69 +387,33 @@
     "items": [
       {
         "title": "Unternehmensberatung",
-        "summary": "Graf Treuhandbüro. Können Sie bei steuerrelevanten und rechtlichen Fragen bezüglich ihrer Buchhaltung auf unseren profunden Rat zählen.",
-        "body": "Sie fühlen sich unsicher, wenn es um das Ausfüllen Ihrer Steuererklärung oder um die Buchhaltung Ihres Unternehmens geht? Sie fragen sich, welche Vorgaben Sie erfüllen und welche Fristen Sie einhalten müssen? Keine Sorge, wir sind für Sie da! Wir sind bestens mit den Gegebenheiten und Anforderungen im Bereich Steuerrecht und Buchhaltung vertraut und bieten Ihnen gerne unsere Expertise an. Setzen Sie sich mit uns in Verbindung und vereinbaren Sie einen Termin für eine umfassende Beratung.\n\nIn einem ausführlichen Gespräch erhalten Sie alle relevanten Informationen, die Sie benötigen. Auch wenn Sie Ihre Steuererklärung und Buchhaltung komplett in die Hände der Profis legen möchten, sind Sie hier richtig. Das Treuhandbüro Graf unterstützt Sie gerne und nimmt Ihnen diese zeitaufwendige Last ab.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "summary": "Profunder Rat bei steuerrelevanten und rechtlichen Fragen rund um Ihre Buchhaltung und Ihr Unternehmen.",
+        "body": "Sie fühlen sich unsicher, wenn es um das Ausfüllen Ihrer Steuererklärung oder um die Buchhaltung Ihres Unternehmens geht? Sie fragen sich, welche Vorgaben Sie erfüllen und welche Fristen Sie einhalten müssen? Keine Sorge, wir sind für Sie da! Wir sind bestens mit den Anforderungen im Bereich Steuerrecht und Buchhaltung vertraut und bieten Ihnen gerne unsere Expertise an. Setzen Sie sich mit uns in Verbindung und vereinbaren Sie einen Termin für eine umfassende Beratung.\n\nIn einem ausführlichen Gespräch erhalten Sie alle relevanten Informationen, die Sie benötigen. Auch wenn Sie Ihre Steuererklärung und Buchhaltung komplett in die Hände der Profis legen möchten, sind Sie hier richtig. Das Treuhandbüro Graf unterstützt Sie gerne und nimmt Ihnen diese zeitaufwendige Last ab."
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Das Treuhandbüro Graf ist Ihr zuverlässiger Partner für die Erstellung Ihrer privaten und geschäftlichen Steuererklärung. Hier haben Sie die Gewissheit, dass Sie eine fundierte Beratung erhalten und all Ihre Steuerangelegenheiten schnell und sorgfältig erledigt werden. Ihre Steuerveranlagungen und -rechnungen werden gewissenhaft durch unser Team geprüft und bei Bedarf auch kompetent vor den Steuerbehörden vertreten.\n\nEine durchdachte Steuerplanung ist sowohl für Privatpersonen als auch Unternehmen unerlässlich, um das eigene Vermögen zu bewahren. Wir nehmen Ihre Steuerlast genau unter die Lupe und identifizieren mögliche Stellschrauben, mit deren Hilfe wir Ihre Steuerquote effektiv senken können.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Das Treuhandbüro Graf ist Ihr zuverlässiger Partner für die Erstellung Ihrer privaten und geschäftlichen Steuererklärung. Hier haben Sie die Gewissheit, dass Sie eine fundierte Beratung erhalten und all Ihre Steuerangelegenheiten schnell und sorgfältig erledigt werden. Ihre Steuerveranlagungen und -rechnungen werden gewissenhaft durch unser Team geprüft und bei Bedarf auch kompetent vor den Steuerbehörden vertreten.\n\nEine durchdachte Steuerplanung ist sowohl für Privatpersonen als auch Unternehmen unerlässlich, um das eigene Vermögen zu bewahren. Wir nehmen Ihre Steuerlast genau unter die Lupe und identifizieren mögliche Stellschrauben, mit deren Hilfe wir Ihre Steuerquote effektiv senken können."
       },
       {
         "title": "Immobilien",
         "summary": "Das Treuhandbüro Graf kümmert sich zuverlässig um alle anfallenden Aufgaben rund um Ihre Liegenschaft.",
-        "body": "Eine oder sogar mehrere Immobilien zu verwalten, kann insbesondere für Laien zeitaufwendig und stressig sein. Vertrauen Sie uns diese Aufgabe an – wir kümmern uns gewissenhaft um alles. Wir sorgen dafür, dass Ihre Immobilie stets von passenden Mietern bewohnt wird und beschäftigen uns mit deren Anliegen. In diesem Kontext kümmern wir uns um die Mietzahlungen, Mietzinsanpassungen, Heiz- und Nebenkostenabrechnungen sowie die technische Betreuung.\n\nMit uns an Ihrer Seite können Sie sich darauf verlassen, dass Sie allen Verpflichtungen als Eigentümer Ihrer Liegenschaft ordnungsgemäss und termingerecht nachkommen. Wir gewährleisten ein reibungsloses Tagesgeschäft und behalten im Rahmen dessen auch den Zahlungsverkehr und alle Abrechnungen zu Ihrer Immobilie genauestens im Blick.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine oder sogar mehrere Immobilien zu verwalten, kann insbesondere für Laien zeitaufwendig und stressig sein. Vertrauen Sie uns diese Aufgabe an – wir kümmern uns gewissenhaft um alles. Wir sorgen dafür, dass Ihre Immobilie stets von passenden Mietern bewohnt wird und beschäftigen uns mit deren Anliegen. In diesem Kontext kümmern wir uns um die Mietzahlungen, Mietzinsanpassungen, Heiz- und Nebenkostenabrechnungen sowie die technische Betreuung.\n\nMit uns an Ihrer Seite können Sie sich darauf verlassen, dass Sie allen Verpflichtungen als Eigentümer Ihrer Liegenschaft ordnungsgemäss und termingerecht nachkommen. Wir gewährleisten ein reibungsloses Tagesgeschäft und behalten dabei auch den Zahlungsverkehr und alle Abrechnungen zu Ihrer Immobilie genauestens im Blick."
       },
       {
         "title": "Buchhaltung",
         "summary": "Das Treuhandbüro Graf ist Ihr kompetenter Treuhänder in Zürich. Wir erledigen für Sie alle anfallenden Arbeiten rund um Ihre Buchhaltung.",
-        "body": "Sie suchen einen zuverlässigen und vertrauensvollen Buchhalter in Zürich? Dann sind Sie bei uns genau richtig. Wir kümmern uns um alle notwendigen Schritte – vom Zahlungsverkehr bis zum Jahresabschluss – und entlasten Sie somit in Ihrem Alltag als Unternehmer. Unsere Dienstleistungen ermöglichen es Ihnen, sich voll und ganz auf Ihr Kernbusiness zu fokussieren. Auf Wunsch können Sie auch selbst Teile der Buchhaltung übernehmen und wir stellen sicher, dass am Ende alles stimmt.\n\nUnter Berücksichtigung Ihrer branchenspezifischen Anforderungen übernehmen wir für Sie die regelmässige Kontierung, Erfassung und Auswertung Ihrer Buchhaltungsdaten. Dafür verwenden wir eine fortschrittliche Software, die stets den aktuellen handels- und steuerrechtlichen Anforderungen entspricht.\n\nIhr vertrauenswürdiger Partner in Sachen Treuhand, Steuerberatung und Immobilienverwaltung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Sie suchen einen zuverlässigen und vertrauensvollen Buchhalter in Zürich? Dann sind Sie bei uns genau richtig. Wir kümmern uns um alle notwendigen Schritte – vom Zahlungsverkehr bis zum Jahresabschluss – und entlasten Sie somit in Ihrem Alltag als Unternehmer. Unsere Dienstleistungen ermöglichen es Ihnen, sich voll und ganz auf Ihr Kerngeschäft zu fokussieren. Auf Wunsch können Sie auch selbst Teile der Buchhaltung übernehmen und wir stellen sicher, dass am Ende alles stimmt.\n\nUnter Berücksichtigung Ihrer branchenspezifischen Anforderungen übernehmen wir für Sie die regelmässige Kontierung, Erfassung und Auswertung Ihrer Buchhaltungsdaten. Dafür verwenden wir eine Software, die stets den aktuellen handels- und steuerrechtlichen Anforderungen entspricht."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       }
     ]
   },
@@ -472,58 +434,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Graf Treuhandbüro. Können Sie bei steuerrelevanten und rechtlichen Fragen bezüglich ihrer Buchhaltung auf unseren profunden Rat zählen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Immobilien",
-      "body": "Das Treuhandbüro Graf kümmert sich zuverlässig um alle anfallenden Aufgaben rund um Ihre Liegenschaft.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Das Treuhandbüro Graf ist Ihr kompetenter Treuhänder in Zürich. Wir erledigen für Sie alle anfallenden Arbeiten rund um Ihre Buchhaltung.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand, Steuern und Immobilien aus einer Hand",
+      "body": "Als kleines, engagiertes Treuhandbüro in Zürich begleiten wir Sie von der Steuererklärung über die Buchhaltung bis zur Verwaltung Ihrer Liegenschaften – persönlich, präzise und langfristig.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "Kleine & mittelgrosse Betriebe",
+        "body": "Wir entlasten Sie bei Buchhaltung, Abschluss und den kaufmännischen Pflichten – damit Sie sich auf Ihr Kerngeschäft konzentrieren können."
+      },
+      {
+        "title": "Liegenschaftseigentümer",
+        "body": "Von Mietzahlungen und Nebenkostenabrechnungen bis zur technischen Betreuung kümmern wir uns zuverlässig um Ihre Immobilie."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Wir erstellen Ihre private Steuererklärung und finden mit durchdachter Planung Wege, Ihre Steuerlast zu senken."
+      },
+      {
+        "title": "Selbstständige",
+        "body": "Steuern, Buchhaltung und rechtliche Fragen – ein persönlicher Ansprechpartner für Ihren Betrieb."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -583,7 +523,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -598,7 +538,7 @@
   },
   "footer": {
     "brand": "Treuhandbüro Graf AG",
-    "tagline": "Das Treuhandbüro Graf ist Ihr kompetenter Treuhänder in Zürich. Wir helfen Ihnen bei allen Ihren kaufmännischen Pflichten unter die Arme.",
+    "tagline": "Ihr Partner in Zürich für Treuhand, Steuern und Immobilienverwaltung.",
     "logo": "/images/treuhandgraf-ch/pool/4457ab85dc__Treuhandburo-Graf-AG-1-1024x80.png",
     "columns": [
       {

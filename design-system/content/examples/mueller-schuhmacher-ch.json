@@ -201,11 +201,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
-      "process (generic)",
-      "audience (generic)"
+      "process (generic)"
     ],
     "real": [
       "meta.firm",
@@ -608,14 +606,14 @@
     "logo": "/images/mueller-schuhmacher-ch/pool/8b371d9207__logo_ms.svg"
   },
   "hero": {
-    "eyebrow": "Treuhand · Durchschnittliche",
-    "titleLead": "Ihre Finanzen,",
-    "titleAccent": "klar geführt.",
-    "lede": "Suchen Sie Unterstützung beim Verkauf, in der Bewirtschaftung oder in Treuhandfragen rund um Ihre Immobilie? Unser erfahrenes Team begleitet Sie persönlich",
+    "eyebrow": "Treuhand & Immobilien · Winterthur",
+    "titleLead": "Treuhand und Immobilien,",
+    "titleAccent": "in Winterthur zuhause.",
+    "lede": "Seit 1987 begleiten wir Unternehmen und Privatpersonen in Winterthur – von der Buchhaltung über Steuern bis rund um die Immobilie. Persönlich und verlässlich, mit einem festen Ansprechpartner.",
     "primaryCta": "Kontakt aufnehmen",
-    "secondaryCta": "Leistungen",
+    "secondaryCta": "Leistungen ansehen",
     "asideLabel": "Über uns",
-    "asideQuote": "Suchen Sie Unterstützung beim Verkauf, in der Bewirtschaftung oder in Treuhandfragen rund um Ihre Immobilie? Unser erfahrenes Team begleitet Sie persönlich",
+    "asideQuote": "In Winterthur verwurzelt und fachlich breit aufgestellt – ein Team, das Ihre Zahlen und Ihre Liegenschaft gleichermassen kennt.",
     "asideAttribution": "Müller & Schuhmacher AG",
     "image": "/images/mueller-schuhmacher-ch/hero.jpg"
   },
@@ -626,68 +624,32 @@
       {
         "title": "Immobilien",
         "summary": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
-        "body": "Ein verlässlicher Partner, der organisiert handelt, Menschen versteht und die lokalen Märkte kennt. Als führende STWEG-Verwaltung in der Region betreuen wir Privatkundschaft vom Einzeleigentum bis hin zum gesamten Immobilienportfolio mit Routine, Transparenz und einem offenen Ohr.\n\nAls einer der führenden Anbieter im Raum Winterthur begleiten wir Stockwerkeigentümergemeinschaften mit langjähriger Erfahrung, persönlichem Engagement und einem starken Netzwerk.\n\nOb administrative, technische oder finanzielle Aufgaben: Wir kümmern uns um alle Belange Ihrer Liegenschaft.\n\nEine Erstvermietung verlangt Marktkenntnis, Fingerspitzengefühl und vollen Einsatz.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Ein verlässlicher Partner, der organisiert handelt, Menschen versteht und die lokalen Märkte kennt. Als führende STWEG-Verwaltung in der Region betreuen wir Privatkundschaft vom Einzeleigentum bis hin zum gesamten Immobilienportfolio mit Routine, Transparenz und einem offenen Ohr.\n\nAls einer der führenden Anbieter im Raum Winterthur begleiten wir Stockwerkeigentümergemeinschaften mit langjähriger Erfahrung, persönlichem Engagement und einem starken Netzwerk.\n\nOb administrative, technische oder finanzielle Aufgaben: Wir kümmern uns um alle Belange Ihrer Liegenschaft.\n\nEine Erstvermietung verlangt Marktkenntnis, Fingerspitzengefühl und vollen Einsatz."
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus."
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen."
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       }
     ]
   },
@@ -701,26 +663,30 @@
     "heading": "Wer wir sind",
     "lead": "Wir sind Müller Schuhmacher. In Winterthur verwurzelt, persönlich engagiert und fachlich breit aufgestellt. Seit 1987 begleiten wir unsere Kunden in Treuhand- und Immobilienfragen mit Erfahrung, Weitblick und einem Team aus über 30 verlässlichen Persönlichkeiten, die wissen, worauf es wirklich ankommt.",
     "paragraphs": [
-      "Gemeinsam im Team das Beste für unsere Kundinnen und Kunden zu geben. Vertrauen, Respekt, Kommunikation und gemeinsame Ziele bilden das Fundament dazu.",
-      "Ich wohne fürs Leben gerne. Zudem geniesse ich Gespräche mit Familie oder Freunden bei einem guten Essen und bin gerne am oder auf dem Wasser.",
-      "Tatsächlich verbindet mich die Arbeit mit Winterthur, da sich mein Lebensmittelpunkt in ländlicher Region befindet. Es ist immer wieder schön, wenn sich langjährige Eigentümer freuen mich an der Versammlung wieder zu sehen und für einen kurzen Schwatz zu haben sind."
+      "Unsere Stärke ist die Breite: Buchhaltung, Steuern und Unternehmensberatung gehen bei uns Hand in Hand mit der Bewirtschaftung, Vermietung und dem Verkauf von Liegenschaften – für Sie heisst das einen Ansprechpartner statt vieler Schnittstellen.",
+      "Was uns trägt, sind Vertrauen, Respekt und offene Kommunikation – im Team wie gegenüber unseren Kundinnen und Kunden. So entstehen Beziehungen, die über Jahre Bestand haben."
     ]
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Immobilien",
-      "body": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand und Immobilien – aus einer Hand",
+      "body": "Buchhaltung, Steuern und Unternehmensberatung gehen bei uns Hand in Hand mit der Bewirtschaftung und dem Verkauf von Liegenschaften. Sie haben einen Ansprechpartner für beide Welten – ohne Reibungsverluste an den Schnittstellen.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      { "title": "KMU & Unternehmen", "body": "Buchhaltung, Löhne, Abschluss und Steuern – damit Sie sich auf Ihr Geschäft konzentrieren können." },
+      { "title": "Privatpersonen", "body": "Steuererklärung, Vorsorge und persönliche Finanzfragen – klar erklärt und sorgfältig erledigt." },
+      { "title": "Immobilien- & Stockwerkeigentümer", "body": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften sowie die Verwaltung von Stockwerkeigentum." },
+      { "title": "Vereine & Stiftungen", "body": "Ordentliche Rechnungslegung und Revision für gemeinnützige Organisationen." }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -799,7 +765,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -814,7 +780,7 @@
   },
   "footer": {
     "brand": "Müller & Schuhmacher AG",
-    "tagline": "Suchen Sie Unterstützung beim Verkauf, in der Bewirtschaftung oder in Treuhandfragen rund um Ihre Immobilie? Unser erfahrenes Team begleitet Sie persönlich",
+    "tagline": "Treuhand und Immobilien aus einer Hand – seit 1987 in Winterthur.",
     "logo": "/images/mueller-schuhmacher-ch/pool/8b371d9207__logo_ms.svg",
     "columns": [
       {

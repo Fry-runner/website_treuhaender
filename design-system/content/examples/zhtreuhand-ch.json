@@ -197,11 +197,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -575,15 +573,15 @@
     "cta": "Kontakt aufnehmen"
   },
   "hero": {
-    "eyebrow": "Treuhand · Warth",
+    "eyebrow": "Ärztetreuhand · Wila",
     "titleLead": "Ihr Treuhänder in Zürich für KMU und Ärzte",
     "titleAccent": "",
     "lede": "Unser erfahrenes Team unterstützt Sie bei Finanzangelegenheiten wie Buchhaltung, Steueroptimierung und eingeschränkter Revision.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "",
-    "asideAttribution": "",
+    "asideQuote": "Familiengeführtes Treuhandbüro mit Fokus auf Ärztinnen und Ärzte – für gesunde Praxisfinanzen.",
+    "asideAttribution": "ZH Treuhand",
     "image": "/images/zhtreuhand-ch/pool/stock-city-29148085.jpg"
   },
   "services": {
@@ -632,43 +630,42 @@
     "heading": "Vertrauen ist die beste Medizin – \nlernen Sie uns kennen",
     "lead": "ZH Ärzte & Revisionstreuhand ist ein familiengeführtes Treuhandbüro mit Fokus auf Ärztetreuhand. Dank unserer spezifischen Weiterbildungen und unseres Know-hows über die finanziellen Besonderheiten von Arztpraxen bieten wir eine optimale 360-Grad-Betreuung an. Nur mit gesunden Finanzen können Sie sich voll und ganz auf Ihre Patientinnen und Patienten konzentrieren.",
     "paragraphs": [
-      "Diese Kombination ist optimal, um Sie und Ihre Praxis bestens zu beraten."
+      "Als familiengeführtes Büro kennen wir die finanziellen Besonderheiten von Arztpraxen genau – von der Leistungsabrechnung mit Krankenkassen bis zu den steuerlichen Fragen im Gesundheitswesen.",
+      "Mit spezifischen Weiterbildungen und langjähriger Erfahrung übernehmen wir Buchhaltung, Steuern und Revision, damit Sie sich voll auf Ihre Patientinnen und Patienten konzentrieren können."
     ]
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Revision",
-      "body": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
+      "eyebrow": "Unser Ansatz",
+      "heading": "Spezialisiert auf Arztpraxen",
+      "body": "Buchhaltung, Steuern und Revision speziell für das Gesundheitswesen – mit Wissen über die finanziellen Besonderheiten von Arztpraxen. So bleiben Ihre Praxisfinanzen gesund, während Sie sich auf Ihre Patientinnen und Patienten konzentrieren.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "Arztpraxen",
+        "body": "Buchhaltung, Abschlüsse und Steuern speziell für das Gesundheitswesen – inklusive der Abrechnung medizinischer Leistungen."
+      },
+      {
+        "title": "KMU",
+        "body": "Steuerberatung, Buchhaltung und Jahresabschluss für Unternehmen in der Region – sauber und termingerecht."
+      },
+      {
+        "title": "Prüfpflichtige Gesellschaften",
+        "body": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren."
+      },
+      {
+        "title": "Arbeitgeber",
+        "body": "Lohnadministration und Sozialversicherungen zuverlässig abgewickelt."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -714,7 +711,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {

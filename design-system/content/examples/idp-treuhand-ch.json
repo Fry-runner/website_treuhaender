@@ -199,7 +199,6 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "process (generic)",
       "media.stock (CC fallback)"
     ],
@@ -870,15 +869,15 @@
     "logo": "/images/idp-treuhand-ch/pool/a2e834e8d5__IDP-Treuhand-Logo-blue-dark.svg"
   },
   "hero": {
-    "eyebrow": "Treuhand · Zürich",
+    "eyebrow": "Steuern & Erbrecht · Zürich",
     "titleLead": "Ihre Finanzen,",
     "titleAccent": "klar geführt.",
-    "lede": "Ihr starker Partner für Steuern, Erbschaftsberatung, Willensvollstreckung, Nachfolgeregelung und Firmengründung in Zürich Nord. Seit bald 30 Jahren.",
+    "lede": "Seit 1992 Ihr Partner für Steuern, Erbschaftsberatung, Nachfolgeregelung und Firmengründung in Zürich. Persönlich und verlässlich.",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "",
-    "asideAttribution": "",
+    "asideQuote": "Unabhängig, flexibel und vertrauenswürdig – seit 1992.",
+    "asideAttribution": "Dr. Iten, Dudli + Partner",
     "image": "/images/idp-treuhand-ch/pool/stock-landscape-30131128.jpg"
   },
   "services": {
@@ -887,7 +886,7 @@
     "items": [
       {
         "title": "Steuerberatung",
-        "summary": "Ein Erbvorbezug kann Steuerplanungspotenzial haben. Im Beitrag wird erläutert welche Vorteile und Risiken eine Erbvorbezugsgemeinschaft hat.",
+        "summary": "Steuererklärungen, Steuerplanung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Viele Eltern überlegen, ob und wann sie ihre Liegenschaften auf die Nachkommen übertragen sollen. Bei einem Erbvorbezug kann es sinnvoll sein, Liegenschaften zu Gesamteigentum statt zu Miteigentum zuzuweisen. Eine Erbvorbezugsgemeinschaft kann sich vor allem eignen, um eine Rendite-Liegenschaft auf mehrere Nachkommen zu übertragen, um ihnen zusätzliches Einkommen zu verschaffen und gleichzeitig sicherzustellen, dass sie im Familienbesitz bleibt.\n\nAls Schenkung gilt jede Zuwendung unter Lebenden, mit der jemand einen anderen ohne entsprechende Gegenleistung bereichert. Für die Besteuerung sind drei oder vier Elemente relevant, nämlich die Vermögenszuwendung, die Bereicherung, die fehlende Gegenleistung und in einigen Kantonen – wie bspw. Zürich – der Schenkungswille. Bei Schenkungen wird die Grundstückgewinnsteuer aufgeschoben.\n\nEin Erbvorbezug ist eine ausgleichungspflichtige Schenkung."
       },
       {
@@ -897,18 +896,18 @@
       },
       {
         "title": "Nachlass & Erbrecht",
-        "summary": "Diese Dissertation zeigt auf, welchen Anforderungen Willensvollstrecker genügen müssen, um vor Schadenersatzforderungen geschützt zu sein.",
-        "body": "Wir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.\n\nWir unterstützen Sie von der Gründung bis zur Weitergabe Ihre Unternehmen.\n\nWir kümmern uns um die Organisation, Verwaltung oder den Verkauf Ihrer Liegenschaft."
+        "summary": "Erbschaftsberatung, Testament, Willensvollstreckung und Nachfolgeregelung – sorgfältig begleitet.",
+        "body": "Eine vorausschauende Nachlassplanung schafft Klarheit und beugt Streit in der Familie vor. Wir beraten Sie beim Aufsetzen von Testament und Erbvertrag, bei Erbvorbezug und Schenkung sowie bei der steuerlich optimalen Gestaltung Ihres Nachlasses.\n\nAls Willensvollstrecker und Berater begleiten wir Sie und Ihre Angehörigen durch alle Schritte – kompetent in Steuer- und Erbschaftsfragen und mit dem nötigen Fingerspitzengefühl."
       },
       {
         "title": "Immobilien",
         "summary": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
-        "body": "Bei der Übertragung einer Liegenschaft von den Eltern an die Kinder sind die steuerlichen und erbrechtlichen Folgen genau abzuklären. Sonst droht Streit in der Familie.\n\nWir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge.\n\nWir unterstützen Sie von der Gründung bis zur Weitergabe Ihre Unternehmen.\n\nWir kümmern uns um die Organisation, Verwaltung oder den Verkauf Ihrer Liegenschaft."
+        "body": "Bei der Übertragung einer Liegenschaft von den Eltern an die Kinder sind die steuerlichen und erbrechtlichen Folgen genau abzuklären. Sonst droht Streit in der Familie.\n\nWir kümmern uns um die Organisation, Verwaltung oder den Verkauf Ihrer Liegenschaft – und denken dabei Steuern und Nachfolge von Anfang an mit."
       },
       {
         "title": "Lohnadministration",
         "summary": "Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.",
-        "body": "Die monatliche Lohnabrechnung macht Ihnen Sorgen? Sie sind unsicher, ob Ihre Lohnausweise gesetzeskonform sind? Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.\n\nBeratung für den Bezug von Renten und anderen Leistungen, Rentenberechnung, etc.\n\nSie suchen Unterstützung für Ihre Lohn- und Personal-Administration? Wir kümmern uns gerne darum, damit Sie den Kopf frei haben für Ihr Kerngeschäft.\n\nWir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge."
+        "body": "Die monatliche Lohnabrechnung macht Ihnen Sorgen? Sie sind unsicher, ob Ihre Lohnausweise gesetzeskonform sind? Wir erledigen die Abrechnung Ihrer Löhne und Sozialversicherungen sowie die Lohnbuchhaltung und sorgen auch für pünktliche Lohnzahlungen.\n\nBeratung für den Bezug von Renten und anderen Leistungen, Rentenberechnung, etc.\n\nSie suchen Unterstützung für Ihre Lohn- und Personal-Administration? Wir kümmern uns gerne darum, damit Sie den Kopf frei haben für Ihr Kerngeschäft."
       },
       {
         "title": "Buchhaltung",
@@ -954,48 +953,28 @@
     "heading": "Für wen wir arbeiten",
     "items": [
       {
-        "title": "Immobilien",
-        "body": "«Es ist mein Ziel und meine tägliche Motivation zugleich, dass Sie sich bei uns in besten händen fühlen.»"
-      },
-      {
         "title": "Privatpersonen",
-        "body": "Wir unterstützen Sie bei Ihren Steuern, Erbschaften und der Altersvorsorge."
+        "body": "Wir unterstützen Sie bei Steuern, Erbschaften und der Altersvorsorge – mit einem festen Ansprechpartner."
       },
       {
-        "title": "KMU",
-        "body": "Wir unterstützen Sie von der Gründung bis zur Weitergabe Ihres Unternehmens."
+        "title": "KMU & Gründer",
+        "body": "Von der Firmengründung über Buchhaltung und Löhne bis zur Nachfolgeregelung begleiten wir Ihr Unternehmen."
+      },
+      {
+        "title": "Erben & Familien",
+        "body": "Bei Nachlass, Testament und Willensvollstreckung sorgen wir für klare, faire Lösungen."
+      },
+      {
+        "title": "Liegenschaftseigentümer",
+        "body": "Wir kümmern uns um Verwaltung, Übertragung und Verkauf Ihrer Liegenschaft – steuerlich vorausgedacht."
       }
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Immobilien",
-      "body": "Mit unserer Beratung und unseren Treuhand-Dienstleistungen helfen wir, dass Ihr Vorhaben gelingt.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Kontinuität",
-      "body": "Wir pflegen langjährige, partnerschaftliche Kundenbeziehungen und unterstützen Sie in guten wie in schlechten Zeiten.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Verwirklichung",
-      "body": "Egal was Sie vorhaben, wir helfen Ihnen dabei, Ihr Vorhaben erfolgreich umzusetzen.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Ethik",
-      "body": "Wir handeln ethisch einwandfrei und halten uns an die Richtlinien unseres Berufsstands.",
+      "heading": "Steuern, Erbrecht und Immobilien unter einem Dach",
+      "body": "Bei uns greifen Steuerberatung, Nachlassplanung und Immobilien ineinander. So denken wir Ihre Liegenschaft, Ihr Unternehmen und Ihre Nachfolge gemeinsam – und Sie haben für alles einen festen Ansprechpartner.",
       "cta": {
         "label": "Termin buchen"
       }
@@ -1123,7 +1102,7 @@
   },
   "footer": {
     "brand": "Dr. Iten, Dudli + Partner",
-    "tagline": "Ihr starker Partner für Steuern, Erbschaftsberatung, Willensvollstreckung, Nachfolgeregelung und Firmengründung in Zürich Nord. Seit bald 30 Jahren.",
+    "tagline": "Steuern, Erbrecht und Immobilien aus einer Hand – persönlich beraten in Zürich.",
     "logo": "/images/idp-treuhand-ch/pool/a2e834e8d5__IDP-Treuhand-Logo-blue-dark.svg",
     "columns": [
       {

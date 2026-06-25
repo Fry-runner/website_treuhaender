@@ -189,12 +189,10 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "footer.tagline",
       "process (generic)",
-      "audience (generic)",
       "about (generic)"
     ],
     "real": [
@@ -756,71 +754,35 @@
       {
         "title": "Immobilien",
         "summary": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
-        "body": "Am Dorfrand von Saland, an sonniger Lage bietet dieser Neubau 8 Eigentumswohnungen, sowie 16 Mietwohnungen. Wohnluxus pur in der Naturoase Saland. Der Wohnungsmix besteht aus grosszügigen 4.5- und 5.5-Zimmer-Wohnungen. Über die Tiefgarage gelangt man direkt per Lift oder Treppe ins Haus. Die nach dem neusten Stand der Technik geplanten Wohnungen bieten Ihnen und Ihrer Familie ein perfektes Zuhause. Lassen Sie sich von der sonnigen Lage und dem modernen Ausbau sowie dem grosszügigen, offenen Grundriss überzeugen.\n\nDie Erstvermietung sowie die Verwaltung der Gebäude wird von uns abgewickelt. Füllen Sie jetzt das\n\naus, um alsdann die Informationen zu erhalten. Mit der Erstvermietung (inkl. Mitteilung Mietzinsen und weitere Informationen) werden wir September 2025 starten.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Rund um Ihre Liegenschaft begleiten wir Sie umfassend: von der Erstvermietung über die laufende Bewirtschaftung bis zum Verkauf. Wir kümmern uns um Mieterinnen und Mieter, Mietzinse und die Verwaltung der Gebäude – sorgfältig und mit Blick auf den Werterhalt. Auch die steuerlichen Fragen rund um Immobilien decken wir mit ab, damit alles aus einer Hand stimmt.",
         "image": "/images/taxalis-ch/pool/df6ca78b92__Immobilienverkauf-Webseite1.jpg"
       },
       {
         "title": "Nachlass & Erbrecht",
         "summary": "Nachlassplanung, Willensvollstreckung und Erbteilung – sorgfältig und diskret begleitet.",
-        "body": "Mit unserem jahrelangen Fachwissen können wir Sie individuell beraten. Wünschen Sie Erstellung entsprechender Entwürfe oder Klärung von Fragen? Wir bieten Hand…(\n\nWer soll Ihr Vermögen nach Ihrem Tod erben? Welchen Gestaltungsspielraum haben Sie (z.B. für Vermächtnisse)? Wie können Sie Ihren Ehepartner meistbegünstigen? Diese Fragen können bereits vor dem Tod mittels Testament, Ehe- oder Erbvertrag geklärt werden.\n\nMit dem Vorsorgeauftrag können Sie heute bestimmen, wer sich im Falle einer eintretenden Urteilsunfähigkeit (u.a. Demenz/Folge eines Unfalls) um ihre persönlichen und finanziellen Angelegenheiten kümmern soll. Der Vorsorgeauftrag tritt erst in Kraft, wenn der Zustand der Urteilsunfähigkeit eintritt und berücksichtigt dabei die von Ihnen gewünschte/n Person/en.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Wer soll Ihr Vermögen einmal erhalten, und welchen Gestaltungsspielraum haben Sie dabei? Solche Fragen lassen sich frühzeitig mit Testament, Ehe- oder Erbvertrag klären. Wir beraten Sie individuell, erstellen die nötigen Entwürfe und begleiten Sie bei der Nachlassplanung und Erbteilung.\n\nMit dem Vorsorgeauftrag bestimmen Sie zudem, wer sich im Fall einer Urteilsunfähigkeit um Ihre persönlichen und finanziellen Angelegenheiten kümmert. Auch hier unterstützen wir Sie sorgfältig und diskret.",
         "image": "/images/taxalis-ch/pool/3b44e056f0__Taxalis_News_November_Erbrecht_718x313px.jpg"
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Der Regierungsrat des Kantons Zürich hat die bislang geltende Weisung zur Neubewertung von Liegenschaften aus dem Jahr 2009 überarbeitet, um mit der Entwicklung der Immobilienpreise Schritt zu halten und Ungerechtigkeiten zu beseitigen. Doch was sind die konkreten Folgen?\n\nZuerst gilt es, sich einen Überblick zu verschaffen, worüber wir eigentlich abstimmen. Welches sind die wichtigsten Elemente der geplanten Reform? Was ist die jeweilige Idee dahinter? Inwieweit sind Sie überhaupt betroffen?\n\nDie modernisierte Alters- und Hinterlassenenversicherung tritt am 1. Januar 2024 in Kraft. Neue Mehrwertsteuersätze ergänzen die AHV-Finanzierung. Was geändert wurde und was diese Anpassungen für Sie heissen, erfahren Sie hier.\n\nBewahren Sie Ihre Unterlagen lieber in digitaler Form auf? Taxalis hat gute Neuigkeiten für Sie: Wir bieten Ihnen auch die digitale Einreichung Ihrer Steuererklärung an.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Das Schweizer Steuerrecht ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Behörden. Vor allem aber denken wir vorausschauend und nutzen legale Optimierungsmöglichkeiten, damit Sie nicht mehr Steuern zahlen als nötig.\n\nBewahren Sie Ihre Unterlagen lieber digital auf? Bei Taxalis ist auch die digitale Einreichung Ihrer Steuererklärung möglich.",
         "image": "/images/taxalis-ch/pool/12cb4eff28__Immobilien-und-Steuern-Webseite.jpg"
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Unsere engagierten Experten nehmen sich gerne für Sie Zeit, sich Ihren Steuerangelegenheiten anzunehmen und diese für Sie optimal umzusetzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Unsere engagierten Experten nehmen sich gerne für Sie Zeit, sich Ihren Steuerangelegenheiten anzunehmen und diese für Sie optimal umzusetzen."
       },
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-        "body": "Befinden sich Ehegatten oder eingetragene Partner in einem Scheidungsverfahren, so bleibt nach aktueller gesetzlicher Grundlage der Pflichtteilsanspruch des Ehegatten resp. des eingetragenen Partners:in während des Verfahrens weiter bestehen. Eine Änderung ist bis heute nicht möglich.\n\nDieser Pflichtteilsschutz fällt gemäss der neuen Gesetzgebung dahin. Neu kann der Ehegatte resp. der/die eingetragene Partner:in, unter gewissen Voraussetzungen, von der Erbfolge ausgeschlossen und der Pflichtteilsschutz mittels letztwilliger Verfügung entzogen werden.\n\nWird der Wunsch nicht letztwillig verfügt, so greift weiterhin das gesetzliche Erbrecht und somit der Anspruch des Partners:in.\n\nNach dem neuen Recht kann eine Person nach Abschluss eines Erbvertrages lediglich Gelegenheitsgeschenke ausrichten. Weitere Schenkungen sind nicht möglich.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Als zugelassene Revisoren prüfen wir Ihren Jahresabschluss unabhängig und zuverlässig – ob eingeschränkte oder ordentliche Revision. Wir kennen die gesetzlichen Anforderungen, erkennen Risiken frühzeitig und liefern Ihnen einen belastbaren Bericht. So schaffen Sie Vertrauen gegenüber Bank, Behörden und Geschäftspartnern und erfüllen Ihre Revisionspflicht termingerecht."
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "Mit Konsum Steuereinnahmen generieren – das Konzept der Mehrwertsteuer lässt sich in einem Satz erklären. Seit 1995 zahlt man in der Schweiz auf fast jedes Produkt und auf fast jede Dienstleistung eine Mehrwertsteuer. Unternehmen geben diese im Anschluss an den Staat weiter. Die Mehrheit der KMU in der Schweiz überschreiten die Umsatzgrenze von CHF 100'000 pro Jahr und sind im Normalfall umsatzsteuerpflichtig.\n\nDie Mehrwertsteuern sind eine der essenziellsten Einnahmequellen des Bundes: Mit über 24 Milliarden Franken bilden sie 2022 mehr als 30 Prozent der Gesamteinnahmen – Tendenz steigend. Denn per 1. Januar gelten neue Mehrwertsteuersätze.\n\nIm nächsten Jahr bezahlt man für Produkte wie digitale Geräte oder Dienstleistungen wie ein Fitnessabonnement 0.4 Prozent mehr – so hoch fällt die Differenz des angepassten MWST-Normalsatzes aus – von 7.7 Prozent auf 8.1 Prozent.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/taxalis-ch/pool/9adfcb6712__Taxalis_News_August_MWST_Erhoehung_Website_718x313px.jpg"
       }
     ]
@@ -832,58 +794,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Immobilien",
-      "body": "Bewirtschaftung, Vermietung und Verkauf von Liegenschaften – professionell aus einer Hand.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Nachlass & Erbrecht",
-      "body": "Nachlassplanung, Willensvollstreckung und Erbteilung – sorgfältig und diskret begleitet.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand, Steuern und Immobilien aus einer Hand",
+      "body": "Von Buchhaltung und Steuern über Revision bis zu Immobilien und Nachlassplanung – bei Taxalis greift alles ineinander. Persönlich, präzise und vorausschauend an Ihrer Seite in Winterthur.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU und Unternehmen",
+        "body": "Buchhaltung, Steuern, Revision und Beratung – wir halten Ihrem Betrieb in Winterthur den Rücken frei."
+      },
+      {
+        "title": "Immobilien- und Liegenschaftseigentümer",
+        "body": "Bewirtschaftung, Vermietung und Verkauf sowie die steuerlichen Fragen rund um Ihre Liegenschaft."
+      },
+      {
+        "title": "Privatpersonen und Familien",
+        "body": "Steuererklärung, Nachlassplanung und Vorsorgeauftrag – sorgfältig und diskret begleitet."
+      },
+      {
+        "title": "Gründerinnen und Gründer",
+        "body": "Von der Wahl der Rechtsform bis zur laufenden Betreuung Ihres jungen Unternehmens."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -922,7 +862,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {

@@ -188,11 +188,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -605,13 +603,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Wetzikon",
-    "titleLead": "Unsere neue Webseite ist online!",
-    "titleAccent": "",
-    "lede": "Ihr Partner für Steuern und Unternehmensberatung mit Sitz in Wetzikon. Wir machen wir Treuhand sympathisch und verschaffen Ihnen Freiräume.",
+    "titleLead": "Treuhand,",
+    "titleAccent": "sympathisch gemacht.",
+    "lede": "Ihr Partner für Steuern und Unternehmensberatung mit Sitz in Wetzikon. Wir machen Treuhand sympathisch und verschaffen Ihnen Freiräume.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Ihr Partner für Steuern und Unternehmensberatung mit Sitz in Wetzikon. Wir machen wir Treuhand sympathisch und verschaffen Ihnen Freiräume.",
+    "asideQuote": "Seit über drei Jahrzehnten Ihr verlässlicher Partner in Wetzikon.",
     "asideAttribution": "Langhart & Partner Treuhand AG",
     "image": "/images/langhart-partner-ch/hero.jpg"
   },
@@ -623,72 +621,36 @@
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/langhart-partner-ch/pool/stock-office-4597993.jpg"
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Wir begleiten und unterstützen Sie auf dem Weg zur Firmengründung. Wir sind dabei Ihr Ansprechpartner für jegliche rechtlichen Fragen.",
         "body": "Wir helfen Ihnen, sich im Dschungel der Bürokratie zurechtzufinden. Über das Schreiben von Statuten bis zum definitiven Handelsregistereintrag begleiten wir Sie auf diesem spannenden Weg.\n\nFirmengründungen sind komplex und mit einer Vielzahl von rechtlichen Vorschriften verbunden.\n\nWir beraten Sie vorausschauend und unter Berücksichtigung der aktuellen Gesetzgebung in allen Steuerfragen, und erledigen Ihre Steuererklärung inkl. Nachbearbeitung.\n\nErsparen Sie sich die zeitraubende Arbeit und geniessen Sie Ihre Freizeit.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/langhart-partner-ch/pool/stock-laptop-7948060.jpg"
       },
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
         "body": "Eine Revision schafft Vertrauen – bei Eigentümern, Verwaltungsrat, Banken und Geschäftspartnern. Als zugelassene Fachpersonen führen wir die eingeschränkte sowie die ordentliche Revision durch und prüfen Ihre Jahresrechnung auf Gesetzes- und Statutenkonformität. Wir stimmen den Prüfungsumfang auf Grösse und Risikoprofil Ihres Unternehmens ab und liefern neben dem Revisionsbericht auch konkrete Hinweise zur Verbesserung Ihres internen Kontrollsystems. So erfüllen Sie Ihre gesetzlichen Pflichten und gewinnen zugleich verlässliche Erkenntnisse über Ihr Rechnungswesen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/langhart-partner-ch/pool/stock-office-159839.jpg"
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
         "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/langhart-partner-ch/pool/stock-finance-577195.jpg"
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
         "body": "Eine saubere, tagesaktuelle Buchhaltung ist das Fundament jeder unternehmerischen Entscheidung. Wir führen Ihre Finanzbuchhaltung vollständig – von der laufenden Verbuchung der Belege über die Debitoren- und Kreditorenbewirtschaftung bis zum Zahlungsverkehr. Sie übergeben uns Ihre Unterlagen digital oder physisch, wir richten die passenden Abläufe ein und halten Ihre Zahlen termingerecht aktuell. Regelmässige, verständliche Auswertungen zeigen Ihnen jederzeit, wo Ihr Unternehmen steht – so erkennen Sie Entwicklungen früh und können sich auf Ihr Kerngeschäft konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/langhart-partner-ch/pool/stock-finance-590020.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
         "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/langhart-partner-ch/pool/stock-finance-590022.jpg"
       }
     ]
@@ -710,45 +672,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Wir begleiten und unterstützen Sie auf dem Weg zur Firmengründung. Wir sind dabei Ihr Ansprechpartner für jegliche rechtlichen Fragen.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Mehrwertsteuer",
-      "body": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Treuhand sympathisch gemacht",
+      "body": "Aus dem Treuhandbüro von Urs Langhart ist über die Jahre eine eingespielte Aktiengesellschaft geworden. Geblieben ist die persönliche Betreuung: Wir nehmen Ihnen Steuern und Administration ab und verschaffen Ihnen Freiräume.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Gewerbe",
+        "body": "Buchhaltung, Löhne und Abschlüsse aus einer Hand – damit Sie sich auf Ihren Betrieb konzentrieren können."
+      },
+      {
+        "title": "Gründer",
+        "body": "Vom Schreiben der Statuten bis zum Handelsregistereintrag begleiten wir Ihre Firmengründung."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Ihre Steuererklärung inklusive Nachbearbeitung – persönlich betreut in Wetzikon."
+      },
+      {
+        "title": "Revisionspflichtige Unternehmen",
+        "body": "Eingeschränkte und ordentliche Revision durch zugelassene Fachpersonen."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -821,7 +774,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -836,7 +789,7 @@
   },
   "footer": {
     "brand": "Langhart & Partner Treuhand AG",
-    "tagline": "Ihr Partner für Steuern und Unternehmensberatung mit Sitz in Wetzikon. Wir machen wir Treuhand sympathisch und verschaffen Ihnen Freiräume.",
+    "tagline": "Treuhand und Steuern aus Wetzikon – sympathisch, persönlich und seit über drei Jahrzehnten verlässlich.",
     "columns": [
       {
         "title": "Sitemap",

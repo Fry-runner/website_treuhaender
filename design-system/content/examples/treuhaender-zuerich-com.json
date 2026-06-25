@@ -173,11 +173,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "about (generic)"
     ],
     "real": [
@@ -403,13 +401,13 @@
   },
   "hero": {
     "eyebrow": "Treuhand · Zürich",
-    "titleLead": "Treuhänder Zürich. Das erfahrene schweizer Treuhandbüro.",
-    "titleAccent": "",
-    "lede": "Treuhandfinanz© ist Ihr erfahrenes Treuhandbüro Schweiz. Ihr kompetenter Treuhänder Zürich ... Buchhaltung, Jahresabschluss, Steuern & Löhne",
+    "titleLead": "Treuhänder Zürich.",
+    "titleAccent": "Ihr Treuhandbüro in der Schweiz.",
+    "lede": "Buchhaltung, Jahresabschluss, Steuern und Löhne für KMU in Zürich und der ganzen Schweiz. Persönlich betreut, mit einem festen Ansprechpartner.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Treuhandfinanz© ist Ihr erfahrenes Treuhandbüro Schweiz. Ihr kompetenter Treuhänder Zürich ... Buchhaltung, Jahresabschluss, Steuern & Löhne",
+    "asideQuote": "Ihr kompetenter Treuhänder in Zürich – wir kümmern uns um Ihre Zahlen, Sie um Ihr Geschäft.",
     "asideAttribution": "Treuhandfinanz / Treuhänder Zürich",
     "image": "/images/treuhaender-zuerich-com/hero.jpeg"
   },
@@ -420,71 +418,35 @@
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Deshalb profitieren KMU in der Schweiz … wenn Sie Ihre Buchhaltung auslagern. Wenn Sie ein eigenes Unternehmen führen, wissen Sie: Buchhaltung auszulagern, spart Kosten sowie Zeit und Nerven.\n\nBuchhaltung ist weit mehr als Zahlen abtippen. Es geht um gesetzliche Vorgaben, Fristen, korrekte Mehrwertsteuer-Abrechnungen, seriöse Steueroptimierung und die lückenlose Dokumentation aller Geschäftsvorgänge. Fehler können schnell teuer werden.\n\nEin professioneller Treuhänder kennt die aktuellen Vorschriften und sorgt dafür, dass Ihre Buchhaltung jederzeit korrekt und effizient erledigt wird.\n\n: Statt Stunden mit Rechnungen zu verbringen, können Sie sich auf Ihre Kunden und Ihr Wachstum konzentrieren.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Wenn Sie ein eigenes Unternehmen führen, wissen Sie: Die Buchhaltung auszulagern spart Kosten, Zeit und Nerven. Buchhaltung ist weit mehr als Zahlen abtippen – es geht um gesetzliche Vorgaben, Fristen, korrekte Mehrwertsteuer-Abrechnungen und die lückenlose Dokumentation aller Geschäftsvorgänge. Fehler können schnell teuer werden.\n\nWir kennen die aktuellen Vorschriften und sorgen dafür, dass Ihre Buchhaltung jederzeit korrekt und effizient erledigt wird. Statt Stunden mit Rechnungen zu verbringen, konzentrieren Sie sich auf Ihre Kunden und Ihr Wachstum.",
         "image": "/images/treuhaender-zuerich-com/pool/2394c3c940__Buchhaltung-auslagern-scaled.jpeg"
       },
       {
         "title": "Steuerberatung",
-        "summary": "Neuigkeiten, Tipps und Fachwissen zu Buchhaltung, Jahresabschluss und Steuern in der Schweiz. Bleiben Sie mit Treuhandfinanz© immer auf dem neuesten Stand!",
-        "body": "Ihr Treuhänder in Zürich: So finden Sie den passenden Partner für Ihr Unternehmen … Wer ein Unternehmen in Zürich führt, weiss: Vertrauen, Genauigkeit und Fachwissen sind unerlässlich, wenn es um Buchhaltung, Steuern und Finanzen geht. Ein professioneller Treuhänder in Zürich bzw. ein erfahrenes Treuhandunternehmen ist dabei mehr als nur ein Zahlenverwalter – er ist strategischer Partner, […]\n\nDas Treuhandunternehmen – die Treuhandfinanz AG in Zürich: Ihr professioneller Partner für effiziente Buchhaltung und Steuerberatung für Unternehmen in der Schweiz. In der dynamischen Finanzlandschaft der Schweiz sind professionelle Treuhandlösungen wichtiger denn je. Ob in Zürich, Küsnacht, Zug, Basel, Bern, Luzern oder anderen Kantonen: Unternehmen jeder Grösse profitieren von einem erfahrenen Treuhandunternehmen, das Buchhaltung, Steuern […]\n\nSteueroptimierung für KMU: Tipps vom Treuhänder …",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
+        "body": "Vertrauen, Genauigkeit und Fachwissen sind unerlässlich, wenn es um Steuern und Finanzen geht. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Behörden – für Unternehmen wie für Privatpersonen.\n\nVor allem aber denken wir vorausschauend: Mit seriöser Steueroptimierung nutzen wir die legalen Möglichkeiten, damit Sie nicht mehr Steuern zahlen als nötig. So sind wir mehr als ein Zahlenverwalter – wir sind Ihr strategischer Partner.",
         "image": "/images/treuhaender-zuerich-com/pool/4cb129976c__Steueroptimierung-scaled.jpeg"
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/treuhaender-zuerich-com/pool/1c96264a68__Jahresabschluss-Unternehmen-scaled.jpeg"
       },
       {
         "title": "Lohnadministration",
-        "summary": "Entdecken Sie die Kompetenzen von Treuhandfinanz©: Buchhaltung, Steuern, Jahresabschluss & mehr. Ihr erfahrenes Treuhandbüro in Zürich...",
-        "body": "Jeder Unternehmer weiß: Ein Unternehmen zu gründen ist nicht immer einfach. Treuhandfinanz unterstützt Gründer auf ihrem Weg zur Firma. Damit später auch die Finanzen stimmen, bieten wir Neu- & Altfirmen unsere Finanzbuchhaltungsservices an – so gewinnen Sie Zeit & Geld.\n\nDie Finanz- oder Lohnbuchhaltung macht den wenigsten von uns Freude. Zum Glück gibt es dafür Lohnbuchhalter, die immer den Überblick haben.\n\nDamit Sie sich jeden Tag aufs Neue auf und über Ihr Unternehmen freuen können, übernimmt Treuhandfinanz Ihre Lohn- und Finanzbuchhaltung.\n\nDamit stellen wir für Sie sicher, dass alle Abrechnungen immer pünktlich und fristgerecht erstellt und eingereicht werden. Ausserdem übernehmen wir für Sie professionell & kompetent die Erstellung der Jahresabschlüsse.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
+        "body": "Die Finanz- und Lohnbuchhaltung macht den wenigsten Freude – zum Glück gibt es dafür uns. Treuhandfinanz übernimmt Ihre Lohn- und Finanzbuchhaltung, damit Sie sich auf Ihr Unternehmen konzentrieren können.\n\nWir stellen sicher, dass alle Abrechnungen pünktlich und fristgerecht erstellt und eingereicht werden. Auch Gründerinnen und Gründer unterstützen wir auf ihrem Weg zur Firma, damit von Anfang an die Finanzen stimmen."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Die Mehrwertsteuer, kurz MWST: Wir alle kennen sie, wir alle zahlen sie. Und zwar auf alles, was wir täglich kaufen. Also auch auf Dienstleistungen und Produkte, die beispielsweise Ihr Unternehmen anbietet und vertreibt. Für Sie als Chef heisst das: Diese MWST müssen Sie irgendwann auch wieder abführen.\n\nEinfach gesagt: Die Mehrwertsteuer ist eine allgemeine Verbrauchs- und Konsumsteuer. Ausschliesslich vom Bund erhoben, dient sie v.a. der Decking der sog. allgemeinen Bundesausgaben.\n\nDefinition hin oder her: Wenn Sie ein Unternehmen führen, müssen Sie diese Mehrwertsteuer Ihren Kunden für die in Anspruch genommenen Dienstleistungen nicht nur in Rechnung stellen.\n\nSie müssen diese auch in der Steuererklärung wieder abführen. Beim Wort “Steuererklärung” bekommt der ein oder andere von Ihnen nun vielleicht Kopfschmerzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Mehrwertsteuer, kurz MWST: Wir alle kennen sie, wir alle zahlen sie. Und zwar auf alles, was wir täglich kaufen. Also auch auf Dienstleistungen und Produkte, die beispielsweise Ihr Unternehmen anbietet und vertreibt. Für Sie als Chef heisst das: Diese MWST müssen Sie irgendwann auch wieder abführen.\n\nEinfach gesagt: Die Mehrwertsteuer ist eine allgemeine Verbrauchs- und Konsumsteuer. Ausschliesslich vom Bund erhoben, dient sie v.a. der Deckung der allgemeinen Bundesausgaben.\n\nDefinition hin oder her: Wenn Sie ein Unternehmen führen, müssen Sie diese Mehrwertsteuer Ihren Kunden für die in Anspruch genommenen Dienstleistungen nicht nur in Rechnung stellen.\n\nSie müssen diese auch in der Steuererklärung wieder abführen. Beim Wort “Steuererklärung” bekommt der ein oder andere von Ihnen nun vielleicht Kopfschmerzen."
       }
     ]
   },
@@ -495,58 +457,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Neuigkeiten, Tipps und Fachwissen zu Buchhaltung, Jahresabschluss und Steuern in der Schweiz. Bleiben Sie mit Treuhandfinanz© immer auf dem neuesten Stand!",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Unternehmensberatung",
-      "body": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Lohnadministration",
-      "body": "Entdecken Sie die Kompetenzen von Treuhandfinanz©: Buchhaltung, Steuern, Jahresabschluss & mehr. Ihr erfahrenes Treuhandbüro in Zürich...",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Ihr Treuhandbüro in Zürich",
+      "body": "Buchhaltung, Jahresabschluss, Steuern und Löhne – wir kümmern uns um Ihre Zahlen, damit Sie sich auf Ihr Geschäft konzentrieren können. Persönlich, genau und mit festem Ansprechpartner.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU in Zürich und der Schweiz",
+        "body": "Buchhaltung, Löhne, Abschluss und Steuern – ausgelagert spart das Kosten, Zeit und Nerven."
+      },
+      {
+        "title": "Gründerinnen und Gründer",
+        "body": "Wir begleiten Sie auf dem Weg zur Firma, damit von Anfang an die Finanzen stimmen."
+      },
+      {
+        "title": "Unternehmen mit Wachstum",
+        "body": "Von der Budgetierung über die Finanzierung bis zur Nachfolge stehen wir Ihnen zur Seite."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Optimierung und Vertretung gegenüber den Steuerbehörden."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -581,7 +521,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -595,7 +535,7 @@
   },
   "footer": {
     "brand": "Treuhandfinanz / Treuhänder Zürich",
-    "tagline": "Treuhandfinanz© ist Ihr erfahrenes Treuhandbüro Schweiz. Ihr kompetenter Treuhänder Zürich ... Buchhaltung, Jahresabschluss, Steuern & Löhne",
+    "tagline": "Ihr Treuhandbüro in Zürich – Buchhaltung, Jahresabschluss, Steuern und Löhne.",
     "logo": "/images/treuhaender-zuerich-com/pool/25d4b48eda__Logo.svg",
     "columns": [
       {

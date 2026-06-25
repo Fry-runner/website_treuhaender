@@ -186,8 +186,7 @@
     },
     "placeholders": [
       "faq",
-      "process (generic)",
-      "audience (generic)"
+      "process (generic)"
     ],
     "real": [
       "meta.firm",
@@ -522,7 +521,7 @@
     "eyebrow": "Treuhand · Zürich",
     "titleLead": "TREUHAND MIT UNTERNEHMERISCHER SICHTWEISE",
     "titleAccent": "",
-    "lede": "Treuhand und Buchhaltung\r\n\r\n\r\n\r\nEffiziente und schnelle Abwicklungen ohne unnötige Zusätze. Dies sagen unsere Kunden über unsere Tätigkeit im Treuhandwesen. Wir betreuen Kunden aus Zürich resp. der ganzen Schweiz, Deutschland, Österreich und anderen EU Ländern.\r\n\r\nMehr Erfahren",
+    "lede": "Treuhand und Buchhaltung mit unternehmerischer Sichtweise – effizient und ohne unnötige Zusätze. Wir betreuen Kunden aus Zürich und der ganzen Schweiz sowie aus Deutschland, Österreich und weiteren EU-Ländern.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Mandantenstimme",
@@ -537,69 +536,33 @@
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Sie möchten eine GmbH oder Aktiengesellschaft in der Schweiz gründen? Oder überlegen Sie, ob eine Einzelfirma die richtige Wahl ist? Die\n\nist Ihr verlässlicher Partner für Unternehmensgründungen in der Schweiz. Unser Team übernimmt alle administrativen Aufgaben und unterstützt Sie bei der Wahl der passenden Rechtsform – unkompliziert, effizient und individuell auf Ihre Bedürfnisse abgestimmt.\n\nErstellung von Statuten, Anmeldung beim Handelsregister und Behördengänge.\n\nauf Wunsch übernehmen wir Ihre Buchhaltung, Jahresabschlüsse, Lohnabrechnungen und Steuerberatung nach der Gründung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Sie möchten eine GmbH oder Aktiengesellschaft in der Schweiz gründen? Oder überlegen Sie, ob eine Einzelfirma die richtige Wahl ist? Wir sind Ihr verlässlicher Partner für Unternehmensgründungen in der Schweiz. Unser Team übernimmt alle administrativen Aufgaben – von der Erstellung der Statuten über die Anmeldung beim Handelsregister bis zu den Behördengängen – und unterstützt Sie bei der Wahl der passenden Rechtsform. Auf Wunsch übernehmen wir nach der Gründung auch Ihre Buchhaltung, Jahresabschlüsse, Lohnabrechnungen und Steuerberatung."
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
         "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/treuhandsiegrist-ch/pool/ed07e47992__Steuererklaerung-einfach-und-effizient-abwickeln.jpg"
       },
       {
         "title": "Buchhaltung",
         "summary": "Laufende Finanzbuchhaltung, Debitoren/Kreditoren und Abschlüsse – sauber und termingerecht.",
-        "body": "Als erfahrener Partner für Privatpersonen, Klein- und Mittelunternehmen (KMU) in den Kerngebieten Firmengründung, Buchhaltung und Übernahme von Verwaltungsratsmandaten finden Sie bei uns die nötige Sicherheit um sich auf IHR Kerngebiet zu konzentieren – die Zielsetzungen Ihres Unternehmens.\n\nUnsere 25-jährige Erfahrung im erfolgreichen Führen von Unternehmen mit bis zu 150 Mitarbeitern erlaubt es uns, Sie in jeder Hinsicht kompetent und zielgerichtet zu unterstützen.\n\nUnser Klientel bewegt sich vom Autohändler über Restaurantbetriebe, Einzelunternehmen in den verschiedensten Bereichen bis hin zur Immobilienbranche. Sie sind bei uns in guten Händen – kontaktieren Sie uns um genauere Informationen zu erhalten.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Als erfahrener Partner für Privatpersonen, Klein- und Mittelunternehmen (KMU) in den Kerngebieten Firmengründung, Buchhaltung und Übernahme von Verwaltungsratsmandaten finden Sie bei uns die nötige Sicherheit um sich auf IHR Kerngebiet zu konzentieren – die Zielsetzungen Ihres Unternehmens.\n\nUnsere 25-jährige Erfahrung im erfolgreichen Führen von Unternehmen mit bis zu 150 Mitarbeitern erlaubt es uns, Sie in jeder Hinsicht kompetent und zielgerichtet zu unterstützen.\n\nUnser Klientel bewegt sich vom Autohändler über Restaurantbetriebe, Einzelunternehmen in den verschiedensten Bereichen bis hin zur Immobilienbranche. Sie sind bei uns in guten Händen – kontaktieren Sie uns um genauere Informationen zu erhalten."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       },
       {
         "title": "Revision",
         "summary": "Eingeschränkte und ordentliche Revision durch zugelassene Revisoren.",
-        "body": "Eine Revision schafft Vertrauen – bei Eigentümern, Verwaltungsrat, Banken und Geschäftspartnern. Als zugelassene Fachpersonen führen wir die eingeschränkte sowie die ordentliche Revision durch und prüfen Ihre Jahresrechnung auf Gesetzes- und Statutenkonformität. Wir stimmen den Prüfungsumfang auf Grösse und Risikoprofil Ihres Unternehmens ab und liefern neben dem Revisionsbericht auch konkrete Hinweise zur Verbesserung Ihres internen Kontrollsystems. So erfüllen Sie Ihre gesetzlichen Pflichten und gewinnen zugleich verlässliche Erkenntnisse über Ihr Rechnungswesen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine Revision schafft Vertrauen – bei Eigentümern, Verwaltungsrat, Banken und Geschäftspartnern. Als zugelassene Fachpersonen führen wir die eingeschränkte sowie die ordentliche Revision durch und prüfen Ihre Jahresrechnung auf Gesetzes- und Statutenkonformität. Wir stimmen den Prüfungsumfang auf Grösse und Risikoprofil Ihres Unternehmens ab und liefern neben dem Revisionsbericht auch konkrete Hinweise zur Verbesserung Ihres internen Kontrollsystems. So erfüllen Sie Ihre gesetzlichen Pflichten und gewinnen zugleich verlässliche Erkenntnisse über Ihr Rechnungswesen."
       }
     ]
   },
@@ -638,37 +601,35 @@
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Treuhand und Buchhaltung",
-      "body": "Effiziente und schnelle Abwicklungen ohne unnötige Zusätze. Dies sagen unsere Kunden über unsere Tätigkeit im Treuhandwesen. Wir betreuen Kunden aus Zürich resp. der ganzen Schweiz, Deutschland, Österreich und anderen EU Ländern.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Steuererklärung",
-      "body": "Ob Privatperson oder Unternehmen, ob von Zürich oder aus der Schweiz – wir erledigen Ihre Steuererklärung kompetent und schnell.",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Firmengründung",
-      "body": "Eine Firma zu gründen ist nicht unbedingt schwierig. Alle Aspekte dabei zu berücksichtigen schon…",
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "MEINUNGEN UNSERER KUNDEN",
-      "body": "Wir arbeiten seit der Gründung anfangs 2011 mit der STS GmbH (ehem. MCS, Siegrist & Partner) zusammen. Man wird gut betreut, kompetent geführt und nebst einer tadellosen Buchführung erhalten wir auch sehr nützliche Tipps hinsichtlich Frimenstruktur, -leitung u.ä.",
+      "heading": "Treuhand mit unternehmerischer Sichtweise",
+      "body": "Firmengründung, Buchhaltung, Verwaltungsratsmandate und Steuern – wir denken unternehmerisch mit und wickeln effizient ab, ohne unnötige Zusätze.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Einzelunternehmen",
+        "body": "Vom Restaurantbetrieb über den Autohandel bis zum Einzelunternehmen – laufende Buchhaltung, Abschlüsse und Steuern aus einer Hand."
+      },
+      {
+        "title": "Gründerinnen & Gründer",
+        "body": "Begleitung bei der Wahl der Rechtsform, Statuten, Handelsregister und allen Behördengängen."
+      },
+      {
+        "title": "Verwaltungsräte",
+        "body": "Übernahme und Begleitung von Verwaltungsratsmandaten mit unternehmerischer Sichtweise."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung kompetent und schnell – für Steuerpflichtige in Zürich und der übrigen Schweiz."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -735,7 +696,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Vereinbaren Sie ein unverbindliches Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {

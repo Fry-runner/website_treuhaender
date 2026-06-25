@@ -193,11 +193,9 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "values",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "about (generic)",
       "media.stock (CC fallback)"
     ],
@@ -464,14 +462,14 @@
     "logo": "/images/treuhandbuero24-ch/pool/339997af6e__treuhandbuero24-logo-400.png"
   },
   "hero": {
-    "eyebrow": "Treuhand · Aargau",
-    "titleLead": "Herzlich Willkommen bei Treuhandbüro24!",
-    "titleAccent": "",
-    "lede": "Bei Treuhandbüro24 findest Du günstige Dienstleistungen im Bereich Steuererklärung Ausfüllen Lassen, Steuerberatung und Buchhaltung Schweiz!",
+    "eyebrow": "Treuhand · Aarau",
+    "titleLead": "Treuhand, Steuern und Buchhaltung",
+    "titleAccent": "für Ihre Region.",
+    "lede": "Treuhandbüro24 unterstützt Sie bei Steuererklärung, Steuerberatung und Buchhaltung – mit einem Treuhänder aus Ihrer Region. Persönlich und unkompliziert.",
     "primaryCta": "Kontakt aufnehmen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Bei Treuhandbüro24 findest Du günstige Dienstleistungen im Bereich Steuererklärung Ausfüllen Lassen, Steuerberatung und Buchhaltung Schweiz!",
+    "asideQuote": "Ein Treuhänder aus Ihrer Region – für Steuern, Buchhaltung und das Tagesgeschäft.",
     "asideAttribution": "Treuhandbüro24 Zürich",
     "image": "/images/treuhandbuero24-ch/pool/stock-laptop-574089.jpg"
   },
@@ -481,62 +479,32 @@
     "items": [
       {
         "title": "Buchhaltung",
-        "summary": "Du brauchst Hilfe bei der Buchhaltung in Aarau Aarau, 47.392540, 8.044220, Aargau, AG, aargau, aarau? Wir helfen Dir weiter! Hol Dir jetzt kostenlos und unverbindlich eine Offerte für externe Buchführung von einem Treuhänder aus Deiner Region und überlasse die Zahlen-Schieberei k",
-        "body": "Du brauchst Hilfe bei der Buchhaltung in Aarau Aarau, 47.392540, 8.044220, Aargau, AG, aargau, aarau? Wir helfen Dir weiter! Hol Dir jetzt kostenlos und unverbindlich eine Offerte für externe Buchführung von einem Treuhänder aus Deiner Region und überlasse die Zahlen-Schieberei künftig einem Profi!\n\nin Anspruch nimmst hat dies für Dich diverse Vorteile. Hier die grössten drei in der Übersicht:\n\nfür Deine selbstständigen Tätigkeiten? Dann überlasse die Verantwortung unseren Buchhaltungsprofis!\n\nNebst der Buchhaltung überlässt Du dem Buchhalter natürlich auch das Ausfüllen der Steuererklärung. Da dieser alle Optimierungsmöglichkeiten kennt, kannst Du",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "summary": "Externe Buchführung für Selbstständige und KMU – die laufenden Zahlen übernimmt ein Profi aus Ihrer Region.",
+        "body": "Sie brauchen Hilfe bei Ihrer Buchhaltung? Wir übernehmen die externe Buchführung für Selbstständige und Unternehmen und halten Ihre Zahlen laufend aktuell. So überlassen Sie die Zahlen-Schieberei einem Profi aus Ihrer Region und gewinnen Zeit für Ihr Kerngeschäft. Auf Wunsch erstellen wir auch gleich Ihre Steuererklärung – mit Blick auf mögliche Optimierungen.",
         "image": "/images/treuhandbuero24-ch/pool/stock-documents-13431445.jpg"
       },
       {
         "title": "Steuerberatung",
-        "summary": "Du bist auf der Suche nach günstiger Steuerberatung in Aarau? Dann bist Du hier genau richtig! Fülle einfach unser Anfrageformular aus und Du erhältst kostenlos und unverbindlich eine Offerte von einem professionellen Steuerberater aus Deiner Region!",
-        "body": "Du bist auf der Suche nach günstiger Steuerberatung in Aarau? Dann bist Du hier genau richtig! Fülle einfach unser Anfrageformular aus und Du erhältst kostenlos und unverbindlich eine Offerte von einem professionellen Steuerberater aus Deiner Region!\n\naus Deiner Region beraten zu lassen hat viele Vorteile für Dich. Hier sind die drei Wichtigsten:\n\nund helfen Dir von diesen zu profitieren. So kannst auch Du dieses Jahr Steuern sparen!\n\nIm Bereich Immobilien kannst mit der richtigen Planung besonders viel erreichen. Unsere Steuerprofis zeigen Dir, wie Du",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "summary": "Steuererklärung und Steuerberatung von einem Steuerberater aus Ihrer Region – persönlich und unverbindlich.",
+        "body": "Sie suchen Unterstützung bei Steuererklärung und Steuerberatung? Bei uns sind Sie richtig. Wir kennen die Optimierungsmöglichkeiten und helfen Ihnen, davon zu profitieren – damit Sie nicht mehr Steuern zahlen als nötig. Gerade im Bereich Immobilien lässt sich mit der richtigen Planung viel erreichen. Fragen Sie unverbindlich an, wir beraten Sie persönlich.",
         "image": "/images/treuhandbuero24-ch/pool/stock-documents-7821684.jpg"
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Wir übernehmen lohnadministration vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Wir übernehmen Ihre Lohnadministration vollständig und termingerecht – von der Lohnabrechnung über die Sozialversicherungen bis zu den Jahresendarbeiten. Digital, transparent und persönlich betreut, damit Ihre Mitarbeitenden korrekt entlöhnt sind und Sie Zeit für Ihr Kerngeschäft gewinnen.",
         "image": "/images/treuhandbuero24-ch/pool/stock-documents-8478387.jpg"
       },
       {
         "title": "Jahresabschluss",
-        "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Wir übernehmen jahresabschluss vollständig und termingerecht – digital, transparent und persönlich betreut. So behalten Sie jederzeit den Überblick über Ihre Zahlen und gewinnen Zeit für Ihr Kerngeschäft.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "summary": "Jahresrechnung nach OR – prüfungssicher und termingerecht aufbereitet.",
+        "body": "Wir erstellen Ihren Jahresabschluss vollständig und termingerecht – mit Bilanz, Erfolgsrechnung und Anhang nach Obligationenrecht. Digital, transparent und persönlich betreut, damit Ihnen ein belastbarer Abschluss als Grundlage für Steuern, Finanzierung und Planung vorliegt.",
         "image": "/images/treuhandbuero24-ch/pool/stock-office-159839.jpg"
       },
       {
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
-        "body": "Du bist auf der Suche nach günstiger Steuerberatung in Aarau? Dann bist Du hier genau richtig! Fülle einfach unser Anfrageformular aus und Du erhältst kostenlos und unverbindlich eine Offerte von einem professionellen Steuerberater aus Deiner Region!\n\naus Deiner Region beraten zu lassen hat viele Vorteile für Dich. Hier sind die drei Wichtigsten:\n\nund helfen Dir von diesen zu profitieren. So kannst auch Du dieses Jahr Steuern sparen!\n\nIm Bereich Immobilien kannst mit der richtigen Planung besonders viel erreichen. Unsere Steuerprofis zeigen Dir, wie Du",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
+        "body": "Ob Gründung, Wachstum oder Nachfolge – unternehmerische Entscheidungen haben langfristige Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Budget- und Liquiditätsplanung sowie bei Finanzierungs- und Investitionsfragen. So entscheiden Sie fundiert und nutzen Chancen rechtzeitig.",
         "image": "/images/treuhandbuero24-ch/pool/stock-desk-7821540.jpg"
       }
     ]
@@ -548,32 +516,36 @@
   },
   "featureAngles": [
     {
-      "eyebrow": "Leistung",
-      "heading": "Buchhaltung",
-      "body": "Du brauchst Hilfe bei der Buchhaltung in Aarau Aarau, 47.392540, 8.044220, Aargau, AG, aargau, aarau? Wir helfen Dir weiter! Hol Dir jetzt kostenlos und unverbindlich eine Offerte für externe Buchführung von einem Treuhänder aus Deiner Region und überlasse die Zahlen-Schieberei k",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
-      "cta": {
-        "label": "Kontakt aufnehmen"
-      }
-    },
-    {
-      "eyebrow": "Leistung",
-      "heading": "Steuerberatung",
-      "body": "Du bist auf der Suche nach günstiger Steuerberatung in Aarau? Dann bist Du hier genau richtig! Fülle einfach unser Anfrageformular aus und Du erhältst kostenlos und unverbindlich eine Offerte von einem professionellen Steuerberater aus Deiner Region!",
-      "bullets": [
-        "Laufende, termingerechte Betreuung",
-        "Digitale Belegerfassung & Echtzeit-Zahlen",
-        "Ein persönlicher Ansprechpartner"
-      ],
+      "eyebrow": "Unser Ansatz",
+      "heading": "Ein Treuhänder aus Ihrer Region",
+      "body": "Steuern, Buchhaltung und Beratung aus einer Hand – persönlich betreut und unkompliziert. Fragen Sie unverbindlich an, und wir zeigen Ihnen, wie wir Sie im Tagesgeschäft entlasten.",
       "cta": {
         "label": "Kontakt aufnehmen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "Selbstständige",
+        "body": "Externe Buchführung und Steuererklärung für Ihre selbstständige Tätigkeit – damit Sie sich auf Ihre Arbeit konzentrieren können."
+      },
+      {
+        "title": "KMU & Unternehmen",
+        "body": "Buchhaltung, Lohn und Jahresabschluss aus einer Hand, persönlich betreut und termingerecht."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Wir füllen Ihre Steuererklärung aus und zeigen Ihnen, wo sich legal Steuern sparen lassen."
+      },
+      {
+        "title": "Immobilienbesitzer",
+        "body": "Rund um Liegenschaften lässt sich mit der richtigen Steuerplanung viel erreichen – wir beraten Sie dazu persönlich."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
@@ -619,7 +591,7 @@
   },
   "cta": {
     "heading": "Bereit, Ihre Finanzen abzugeben?",
-    "sub": "Buchen Sie ein kostenloses Erstgespräch – wir zeigen Ihnen den nächsten Schritt.",
+    "sub": "Fragen Sie unverbindlich an – wir zeigen Ihnen den nächsten Schritt.",
     "button": "Kontakt aufnehmen"
   },
   "contact": {
@@ -634,7 +606,7 @@
   },
   "footer": {
     "brand": "Treuhandbüro24 Zürich",
-    "tagline": "Bei Treuhandbüro24 findest Du günstige Dienstleistungen im Bereich Steuererklärung Ausfüllen Lassen, Steuerberatung und Buchhaltung Schweiz!",
+    "tagline": "Steuern, Buchhaltung und Beratung – ein Treuhänder aus Ihrer Region.",
     "logo": "/images/treuhandbuero24-ch/pool/339997af6e__treuhandbuero24-logo-400.png",
     "columns": [
       {

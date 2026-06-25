@@ -196,10 +196,8 @@
       }
     },
     "placeholders": [
-      "hero.aside",
       "faq",
       "process (generic)",
-      "audience (generic)",
       "media.stock (CC fallback)"
     ],
     "real": [
@@ -667,14 +665,14 @@
     "logoLight": "/images/maurer-treuhand-ch/pool/1430e63a40__LOGO_maurer-treuhand-white.svg"
   },
   "hero": {
-    "eyebrow": "Treuhand · Zürich",
-    "titleLead": "Wir sind Ihre qualifizierten Finanz-Teamworker .",
-    "titleAccent": "",
+    "eyebrow": "Treuhand · Dübendorf",
+    "titleLead": "Ihre qualifizierten",
+    "titleAccent": "Finanz-Teamworker.",
     "lede": "Wir beraten Sie umfassend zu Ihren Finanz- und Rechnungsfragen, führen Ihre Buchhaltung, erstellen die Jahresabschlüsse und agieren als Fiskalvertretung.",
     "primaryCta": "Termin buchen",
     "secondaryCta": "Leistungen",
     "asideLabel": "Über uns",
-    "asideQuote": "Wir beraten Sie umfassend zu Ihren Finanz- und Rechnungsfragen, führen Ihre Buchhaltung, erstellen die Jahresabschlüsse und agieren als Fiskalvertretung.",
+    "asideQuote": "Vom Lernenden bis zum Chef verbindet uns die Leidenschaft für Zahlen und das offene Ohr für unsere Kunden.",
     "asideAttribution": "Maurer Treuhand",
     "image": "/images/maurer-treuhand-ch/pool/stock-laptop-7948060.jpg"
   },
@@ -686,68 +684,32 @@
         "title": "Unternehmensberatung",
         "summary": "Gründung, Budgetierung, Nachfolge und betriebswirtschaftliche Beratung.",
         "body": "Ob Gründung, Wachstum, Nachfolge oder Umstrukturierung – unternehmerische Weichenstellungen haben langfristige finanzielle und rechtliche Folgen. Wir begleiten Sie mit betriebswirtschaftlichem Rat: bei der Wahl der Rechtsform, der Erstellung von Budget- und Liquiditätsplänen, bei Finanzierung und Investitionsentscheiden sowie bei Kauf, Verkauf oder Übergabe Ihres Unternehmens. Wir analysieren Ihre Zahlen, zeigen Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um – damit Sie fundiert entscheiden und Chancen rechtzeitig nutzen.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ],
         "image": "/images/maurer-treuhand-ch/pool/1dea5e0ae6__Unternehmensberatung.jpg"
       },
       {
         "title": "Buchhaltung",
         "summary": "Damit Sie den Überblick behalten, unterstützen wir Sie bei der Investitions- und Finanzplanung, bei Analysen und bei der Budgetierung.",
-        "body": "Eine gesunde finanzielle Basis ist Voraussetzung für den langfristigen Geschäftserfolg. Damit Sie Ihre Finanzen im Griff haben, stehen wir Ihnen in allen Bereichen des Finanzmanagements zur Seite. Transparent, nachhaltig und zuverlässig.\n\nDie Anforderungen an Buchhaltung, Rechnungswesen und Controlling verändern sich laufend. Damit Sie dennoch den Überblick behalten unterstützen wir Sie bei der Investitions- und Finanzplanung, bei Analysen und bei der Budgetierung.\n\nKunde von Maurer Treuhand im Bereich Finanz- und Lohnbuchhaltung inkl. Steuererklärung. Mit Maurer Treuhand haben wir nicht nur einen\n\nBereits seit 2007 ist Maurer Treuhand ein zuverlässiger und kompetenter Partner der FC Wil 1900 AG. Wir werden sehr gut betreut und bei Fragen aller Art steht uns der Inhaber Mischa Sammer persönlich zur Verfügung.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Eine gesunde finanzielle Basis ist Voraussetzung für den langfristigen Geschäftserfolg. Damit Sie Ihre Finanzen im Griff haben, stehen wir Ihnen in allen Bereichen des Finanzmanagements zur Seite – transparent, nachhaltig und zuverlässig.\n\nDie Anforderungen an Buchhaltung, Rechnungswesen und Controlling verändern sich laufend. Damit Sie dennoch den Überblick behalten, unterstützen wir Sie bei der Investitions- und Finanzplanung, bei Analysen und bei der Budgetierung."
       },
       {
         "title": "Steuerberatung",
         "summary": "Steuererklärungen, Optimierung und Vertretung für Unternehmen und Privatpersonen.",
-        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Das Schweizer Steuerrecht ist komplex und ändert sich laufend – auf Ebene von Bund, Kanton und Gemeinde. Wir erstellen Ihre Steuererklärung, prüfen die Veranlagungen und vertreten Sie gegenüber den Steuerbehörden. Vor allem aber denken wir vorausschauend: Mit gezielter Steuerplanung nutzen wir legale Optimierungsmöglichkeiten, vermeiden Doppelbelastungen und sorgen dafür, dass Sie als Unternehmen oder Privatperson nicht mehr Steuern zahlen als nötig. So gewinnen Sie Planungssicherheit und schöpfen Ihren finanziellen Spielraum aus."
       },
       {
         "title": "Lohnadministration",
         "summary": "Lohnbuchhaltung, Sozialversicherungen und Personaladministration – zuverlässig abgewickelt.",
-        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Lohnadministration ist anspruchsvoll: Quellensteuer, AHV/IV/EO, BVG, Unfall- und Krankentaggeldversicherungen sowie laufende Gesetzesänderungen müssen korrekt abgebildet werden. Wir übernehmen Ihre gesamte Lohnbuchhaltung – von der monatlichen Lohnabrechnung über die Sozialversicherungsabrechnungen bis zu Lohnausweisen und Jahresendarbeiten. Wir melden Ein- und Austritte, korrespondieren mit Ausgleichskasse und Versicherern und beraten Sie in arbeitsrechtlichen Fragen. So sind Ihre Mitarbeitenden pünktlich und korrekt entlöhnt – und Sie bleiben jederzeit regelkonform."
       },
       {
         "title": "Jahresabschluss",
         "summary": "Jahresrechnung nach OR und Swiss GAAP FER – prüfungssicher aufbereitet.",
-        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Der Jahresabschluss ist mehr als eine gesetzliche Pflicht – er ist die Visitenkarte Ihres Unternehmens gegenüber Bank, Investoren und Steuerbehörden. Wir erstellen Ihre Jahresrechnung nach Obligationenrecht und auf Wunsch nach Swiss GAAP FER, mit Bilanz, Erfolgsrechnung und Anhang – prüfungssicher und termingerecht. Dabei nutzen wir den vorhandenen Spielraum bei Bewertung und Abschreibungen sinnvoll und erläutern Ihnen die Ergebnisse verständlich. So liegt Ihnen ein belastbarer Abschluss vor, der als Grundlage für Steuern, Finanzierung und Planung dient."
       },
       {
         "title": "Mehrwertsteuer",
         "summary": "MWST-Abrechnungen, Abklärungen und Korrespondenz mit der ESTV.",
-        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein.",
-        "bullets": [
-          "Laufende, termingerechte Betreuung",
-          "Digitale Belegerfassung & Echtzeit-Zahlen",
-          "Ein persönlicher Ansprechpartner",
-          "Transparente Pauschale ohne versteckte Kosten"
-        ]
+        "body": "Die Mehrwertsteuer birgt zahlreiche Stolpersteine – von der Wahl der Abrechnungsmethode (effektiv oder Saldosteuersatz) über die korrekte Behandlung der Vorsteuern bis zu Bezugsteuer und grenzüberschreitenden Sachverhalten. Wir übernehmen Ihre periodischen MWST-Abrechnungen, prüfen die Vorsteuerabzüge, klären Zweifelsfälle ab und korrespondieren mit der Eidgenössischen Steuerverwaltung. Bei einer MWST-Kontrolle stehen wir Ihnen zur Seite. So vermeiden Sie kostspielige Aufrechnungen und reichen Ihre Abrechnungen jederzeit korrekt und fristgerecht ein."
       }
     ]
   },
@@ -779,44 +741,41 @@
     "lead": "Wir lösen die Probleme unserer Kunden indem wir auf Sie eingehen, Ihre Anliegen ernst nehmen und eine hohe Qualität erbringen. Dank unserer Genauigkeit, der transparenten Kommunikation und unserer Offenheit haben wir viele zufriedene und langjährige Kunden.",
     "paragraphs": [
       "Unser Team lebt von der Individualität und vom Know-how unserer Mitarbeitenden. Was uns vereint – von der Lernenden bis hin zum Chef – ist die Leidenschaft für Zahlen und das offene Ohr für unsere Kunden.",
-      "«Spiele aller Art, mit meiner Familie im Freien unterwegs sein, Golfen oder Tennisspielen – dabei tanke ich auf.»",
-      "«Zuverlässigkeit und eine offene Kommunikation sind für mich das Kernstück in der Kundenbeziehung.»"
+      "Wir lösen die Anliegen unserer Kunden, indem wir auf Sie eingehen, sie ernst nehmen und eine hohe Qualität erbringen. Dank Genauigkeit, transparenter Kommunikation und Offenheit dürfen wir auf viele zufriedene und langjährige Kundinnen und Kunden zählen."
     ]
   },
   "featureAngles": [
     {
       "eyebrow": "Unser Ansatz",
-      "heading": "Ansprechpartner",
-      "body": "Wir lösen die Probleme unserer Kunden indem wir auf Sie eingehen, Ihre Anliegen ernst nehmen und eine hohe Qualität erbringen. Dank unserer Genauigkeit, der transparenten Kommunikation und unserer Offenheit haben wir viele zufriedene und langjährige Kunden.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Kompetenz hat viele Namen",
-      "body": "Unser Team lebt von der Individualität und vom Know-how unserer Mitarbeitenden. Was uns vereint – von der Lernenden bis hin zum Chef – ist die Leidenschaft für Zahlen und das offene Ohr für unsere Kunden.",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Lea Hofer",
-      "body": "«Freundlichkeit, Hilfsbereitschaft und das lösungsorientierte Arbeiten ist mein Schlüssel zum Erfolg.»",
-      "cta": {
-        "label": "Termin buchen"
-      }
-    },
-    {
-      "eyebrow": "Unser Ansatz",
-      "heading": "Yanik Kunz",
-      "body": "«Offenheit, Ehrlichkeit und Freundlichkeit prägen mein tägliches Handeln – ich bin stets hilfsbereit und zuverlässig.»",
+      "heading": "Ein fester Ansprechpartner, der zuhört",
+      "body": "Wir gehen auf Ihre Anliegen ein, nehmen sie ernst und erbringen eine hohe Qualität. Dank Genauigkeit, transparenter Kommunikation und Offenheit entstehen langjährige Kundenbeziehungen – von der Buchhaltung bis zur Steuer- und Unternehmensberatung.",
       "cta": {
         "label": "Termin buchen"
       }
     }
   ],
+  "audience": {
+    "eyebrow": "Für wen",
+    "heading": "Für wen wir arbeiten",
+    "items": [
+      {
+        "title": "KMU & Unternehmen",
+        "body": "Von der laufenden Buchhaltung über Lohn und MWST bis zum prüfungssicheren Jahresabschluss – wir betreuen Sie in allen Finanz- und Rechnungsfragen."
+      },
+      {
+        "title": "Gründerinnen & Gründer",
+        "body": "Bei Rechtsform, Budget- und Liquiditätsplanung sowie Finanzierung begleiten wir Sie betriebswirtschaftlich von der ersten Idee an."
+      },
+      {
+        "title": "Privatpersonen",
+        "body": "Steuererklärung, Optimierung und Vertretung gegenüber den Steuerbehörden – persönlich und vorausschauend."
+      },
+      {
+        "title": "Nachfolge & Übergabe",
+        "body": "Bei Kauf, Verkauf oder Übergabe Ihres Unternehmens zeigen wir Handlungsoptionen auf und setzen die nötigen Schritte gemeinsam mit Ihnen um."
+      }
+    ]
+  },
   "team": {
     "eyebrow": "Team",
     "heading": "Menschen, die Ihre Zahlen kennen.",
