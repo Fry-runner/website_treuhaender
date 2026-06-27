@@ -497,6 +497,23 @@ const looksLikePersonName = (nm: string) => {
   if (nm === nm.toUpperCase()) return false;            // ALL-CAPS = label/heading, not a name
   return parts.every((w) => /^[A-ZÄÖÜ][a-zäöüéèàçA-ZÄÖÜ.]*$/.test(w) && !/\d/.test(w));
 };
+// A heading that is merely a PERSON NAME — used to keep team-roster names off SECTION
+// titles (about pages list people as headings). Deliberately MORE permissive than the
+// strict team detector above: it also accepts a hyphenated/accented surname ("Jasna
+// Florian-Obrez") and a middle initial ("Alfons G. Florian"), which NAME_RE/looksLike
+// miss. NAME_STOP + NAME_TOPIC keep genuine German headings ("Unsere Geschichte",
+// "Persönliche Beratung") from being mistaken for a name.
+// A token is a NAME token: a single-letter initial ("G.") OR a Capitalised word (with an
+// optional hyphen/apostrophe surname part), but NOT a whole word ending in a period — a
+// trailing dot there is sentence punctuation, so "Gründer." / "Versprechen." (the slogan
+// "Zwei Gründer. Ein Versprechen.") are excluded while "Alfons G. Florian" is not.
+const NAME_TOKEN = /^(?:[A-ZÄÖÜ]\.|[A-ZÄÖÜ][a-zäöüéèàçA-ZÄÖÜ]*(?:['’-][A-ZÄÖÜ]?[a-zäöüéèàçA-ZÄÖÜ]+)*)$/;
+const looksLikePersonHeading = (h: string): boolean => {
+  const parts = h.trim().split(/\s+/);
+  if (parts.length < 2 || parts.length > 4 || h === h.toUpperCase()) return false;
+  if (NAME_TOPIC.test(h) || h.toLowerCase().replace(/\./g, "").split(/\s+/).some((w) => NAME_STOP.has(w))) return false;
+  return parts.every((w) => NAME_TOKEN.test(w));
+};
 function teamMembers() {
   // (name, role) pairs from ONE page: a person-name line immediately followed by a
   // role line. NB: a name contained in the firm name is NOT skipped — that wrongly
@@ -1630,7 +1647,12 @@ function realAbout(): AboutContent | undefined {
     if (!lead) continue;
     const rest = paras.filter((t) => t !== lead).slice(0, 3);
     const heads = [...(p.headings?.h1 || []), ...(p.headings?.h2 || [])].map((h: string) => fixEncoding(h).trim())
-      .filter((h) => h.length >= 6 && h.length <= 70 && !/\?$/.test(h) && !/\s[|·]\s/.test(h) && !VALUE_STOP.test(h) && !/^\d/.test(h) && /[a-zäöü]/i.test(h) && !looksFrench(h) && !isCorrupted(h));
+      // …and NEVER a PERSON NAME. About pages list the team, so a member-name heading
+      // ("Alfons G. Florian") sits right above the prose and was being harvested as the
+      // section title. Reject any known team name AND the canonical person-name shape
+      // (NAME_STOP/NAME_TOPIC keep real German headings like "Unsere Geschichte").
+      .filter((h) => h.length >= 6 && h.length <= 70 && !/\?$/.test(h) && !/\s[|·]\s/.test(h) && !VALUE_STOP.test(h) && !/^\d/.test(h) && /[a-zäöü]/i.test(h) && !looksFrench(h) && !isCorrupted(h)
+        && !teamNameSet.has(h.toLowerCase().trim()) && !looksLikePersonHeading(h));
     // Heading must NOT echo the page-header title ("Über uns"); fall back to a distinct
     // sub-headline when the page exposes no usable own heading.
     return { eyebrow: "Über uns", heading: heads[0] || "Wer wir sind", lead, paragraphs: rest };

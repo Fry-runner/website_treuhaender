@@ -254,7 +254,20 @@
       "Bash(node -e \"require\\('./content/examples/adea-treuhand-ch.json'\\); console.log\\('adea-treuhand-ch OK \\(final\\)'\\)\")",
       "Bash(node -e \"const j=require\\('./content/examples/stg-zuerich.json'\\); console.log\\('stg-zuerich OK; audience before team:', Object.keys\\(j\\).indexOf\\('audience'\\) < Object.keys\\(j\\).indexOf\\('team'\\)\\)\")",
       "Bash(node --experimental-strip-types content/stock_fetch.ts)",
-      "Bash(echo \"EXIT=$?\")"
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(timeout 300 node --experimental-strip-types content/extract.ts rebex-ch)",
+      "Bash(node -e 'const j=require\\(\"./content/examples/rebex-ch.json\"\\); console.log\\(\"about.heading =\", JSON.stringify\\(j.about && j.about.heading\\)\\); console.log\\(\"about.lead =\", \\(j.about&&j.about.lead||\"\"\\).slice\\(0,60\\)\\);')",
+      "Bash(node -e 'const j=require\\(\"./content/examples/rebex-ch.json\"\\); console.log\\(\"about.heading =\", JSON.stringify\\(j.about&&j.about.heading\\)\\); console.log\\(\"team names =\", JSON.stringify\\(\\(j.team&&j.team.members||[]\\).map\\(m=>m.name\\)\\)\\);')",
+      "Bash(node _scan_about.mjs)",
+      "Bash(echo \"---exit:$?---\")",
+      "Bash(npx --no-install tsc --noEmit --jsx react-jsx --esModuleInterop --skipLibCheck structures/PricingExtended.tsx)",
+      "Bash(npx --no-install tsc --noEmit --jsx react-jsx --esModuleInterop --skipLibCheck --target es2017 --moduleResolution bundler --allowImportingTsExtensions structures/PricingExtended.tsx structures/grid.ts)",
+      "Bash(node -e \"const s=require\\('fs'\\).readFileSync\\('C:/Users/Oliver/Documents/Personal/Sonstiges/Web-Projects/websites_treuhand/design-system/structures/TeamExtended.tsx','utf8'\\); for\\(const [o,c] of [['{','}'],['\\(','\\)'],['[',']']]\\){const a=\\(s.split\\(o\\).length-1\\),b=\\(s.split\\(c\\).length-1\\); console.log\\(o+c, a, b, a===b?'OK':'MISMATCH'\\);}\")",
+      "Bash(grep -iE '\\\\.pexels-key|\\\\.vercel-token|\\\\.env$|\\\\.env\\\\.')",
+      "Bash(git diff *)",
+      "Bash(echo \"--- exit $? ---\")",
+      "Bash(echo \"--- commit2 exit $? ---\")",
+      "Bash(echo \"--- commit3 exit $? ---\")"
     ]
   }
 }

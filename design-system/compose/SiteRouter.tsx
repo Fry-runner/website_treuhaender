@@ -371,6 +371,10 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   };
 
   const isHome = page.pageType === "home";
+  // The dedicated contact page carries little content (form + info), so it must be made
+  // to fill the viewport — the contact section grows to occupy the space between the
+  // sticky header and the footer, content optically centred (see .ds-contact-fill).
+  const isContactPage = page.pageType === "contact";
 
   // Service cards deep-link only where the target exists: detail page > overview > inert.
   const hasServiceDetail = pages.some((p) => p.pageType === "service-detail");
@@ -513,7 +517,11 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       case "about": {
         const C = sectionComponent("about", renderPlan); if (!C) return null;
         const a = content.about ?? defaultAbout();
-        const heading = echoesPageTitle(a.heading) ? aboutAlt : a.heading;
+        // Guard: an about heading that is just a PERSON NAME — a team member harvested from
+        // the about page's roster ("Alfons G. Florian") — is no section title. Fall back to
+        // the neutral alt (also covers a heading that echoes the page title).
+        const headingIsName = !!a.heading && content.team?.members?.some((m) => normHead(m.name) === normHead(a.heading));
+        const heading = (echoesPageTitle(a.heading) || headingIsName) ? aboutAlt : a.heading;
         // A 450+ char single-paragraph lead is a text wall. Split (don't truncate) so no
         // content is lost: the first two sentences stay as the lead, the remainder becomes
         // the leading body paragraph. Only fires on very long leads with sentence breaks.
@@ -533,7 +541,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       case "cta": { const C = sectionComponent("cta", renderPlan); const cta = { ...content.cta, ...heads.cta }; return C ? <C key={i} content={cta} /> : <CtaBand key={i} content={cta} bgImage={content.media?.sectionBackgrounds?.[0]} />; }
       // Contact renders only on pages WITHOUT a CTA band (i.e. /kontakt) — pages that
       // carry a CTA drop the contact slot earlier (one contact affordance per page).
-      case "contact": { const C = sectionComponent("contact", renderPlan) ?? Contact; return <C key={i} content={{ ...content.contact, ...heads.contact }} />; }
+      case "contact": { const C = sectionComponent("contact", renderPlan) ?? Contact; const node = <C content={{ ...content.contact, ...heads.contact }} />; return isContactPage ? <div key={i} className="ds-contact-fill">{node}</div> : <React.Fragment key={i}>{node}</React.Fragment>; }
       case "partners": { const C = sectionComponent("partners", renderPlan); const tc = { label: content.trust.label, items: content.trust.items, badges: content.media?.badges }; return C ? <C key={i} content={tc} /> : <TrustBar key={i} label={tc.label} items={tc.items} badges={tc.badges} />; }
       case "downloads": return content.media?.documents?.length ? <Downloads key={i} documents={content.media.documents} /> : null;
       case "legal-body": return <LegalBody key={i} doc={page.item ?? "Impressum"} firm={content.meta.firm} contact={content.contact} />;
@@ -738,7 +746,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
     /\/(photo|image)/.test(renderPlan.sections[slot] ?? "") ? (isHome ? homeSceneAt(i) : serviceHeaderImage) : undefined;
 
   return (
-    <div className="ds-motion" data-motion={motionStyle ?? motionStyleForKit(plan.kitId)} style={{ ...applyLook(look), ["--ds-nav-h" as string]: navHeightRem(navContent.brand) } as React.CSSProperties}>
+    <div className="ds-motion" data-motion={motionStyle ?? motionStyleForKit(plan.kitId)} data-fill={isContactPage ? "contact" : undefined} style={{ ...applyLook(look), ["--ds-nav-h" as string]: navHeightRem(navContent.brand) } as React.CSSProperties}>
       <ResponsiveStyles />
       <MotionStyles />
       <IconSetProvider value={iconSetById(plan.iconSetId)}>
@@ -752,7 +760,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
             // nav is sticky and the home hero pulls itself up under it — a transform
             // ancestor would break sticky positioning AND the negative-margin overlay,
             // so both (plus the footer) render raw. The hero is in view at once anyway.
-            if (s === "nav" || s === "footer" || s === "hero") return <React.Fragment key={i}>{node}</React.Fragment>;
+            if (s === "nav" || s === "footer" || s === "hero" || (s === "contact" && isContactPage)) return <React.Fragment key={i}>{node}</React.Fragment>;
             // --ds-section-gap is the guaranteed MINIMUM separation between sections (incl.
             // the first one under the full-bleed hero) — see applyLook.
             return <Reveal key={i} style={{ marginTop: "var(--ds-section-gap)" }}>{node}</Reveal>;
