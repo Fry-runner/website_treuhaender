@@ -46,18 +46,13 @@ export function applyLook(t: DesignTokens): LookVars {
   const harderForPrimary = Math.abs(luminance(t.color.surface) - lp) < Math.abs(luminance(t.color.bg) - lp)
     ? t.color.surface : t.color.bg;
   const primaryInk = ensureContrast(t.color.primary, harderForPrimary, 4.5);
-  // A primary-FILLED button/CTA label must clear AA against its fill. Pick pure WHITE or
-  // near-BLACK — whichever contrasts MORE with the actual fill — so the CTA text flips
-  // cleanly between the two extremes (the user's rule) and stays readable on ANY brand or
-  // hand-picked accent. Because every colour clears AA against at least one of black/white,
-  // the FILL is kept as-is (brand hue preserved); only a near-perfect mid-grey would force
-  // a tiny lightness nudge on the fill. (--ds-primary-ink carries the hue for text/links.)
+  // CTA LABEL only: the brand FILL is NEVER altered — we just pick the label colour that
+  // reads best on it. Pure WHITE on darker fills, near-BLACK on lighter ones (whichever
+  // has the higher contrast against the actual fill). Works for any baked brand colour or
+  // a hand-picked accent. (--ds-primary-ink still carries the brand hue for text/links.)
   const DARK_LABEL = "#111111";
-  let primaryFill = t.color.primary;
-  let primaryFg = contrast("#FFFFFF", primaryFill) >= contrast(DARK_LABEL, primaryFill) ? "#FFFFFF" : DARK_LABEL;
-  if (contrast(primaryFg, primaryFill) < 4.5) {
-    primaryFill = ensureContrast(primaryFill, primaryFg, 4.5);  // nudge fill lightness toward the chosen label
-  }
+  const primaryFill = t.color.primary;
+  const primaryFg = contrast("#FFFFFF", primaryFill) >= contrast(DARK_LABEL, primaryFill) ? "#FFFFFF" : DARK_LABEL;
   // Micro-interaction magnitudes scale with the look's motion intensity, so hover
   // lifts / presses / image zoom / arrow nudges stay COHERENT per firm (a "subtle"
   // look barely moves; an "expressive" one is livelier). Consumed by the global
