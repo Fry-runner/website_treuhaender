@@ -8,6 +8,7 @@ import React from "react";
 import { Container, Eyebrow } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import type { TestimonialsContent } from "../content/types";
+import { balancedColumns, fillGrid } from "./grid";
 
 type Props = { content: TestimonialsContent };
 type Item = TestimonialsContent["items"][number];
@@ -56,7 +57,7 @@ export const TestimonialsTwoCol: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
       <Head c={content} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: "1.65rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 2), "1.65rem")}>
         {content.items.map((t, i) => (
           <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "1.05rem", lineHeight: 1.55, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
@@ -88,7 +89,7 @@ export const TestimonialsStacked: React.FC<Props> = ({ content }) => (
 
 /** 4) Zero-gap hairline-divided grid. */
 export const TestimonialsBordered: React.FC<Props> = ({ content }) => {
-  const cols = Math.min(content.items.length, 3);
+  const cols = balancedColumns(content.items.length, 3);
   return (
     <section style={sectionBase}>
       <Container>
@@ -112,7 +113,7 @@ export const TestimonialsQuoteWall: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
       <Head c={content} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1.25rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 3), "1.25rem")}>
         {content.items.map((t, i) => (
           <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.2rem", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", lineHeight: 1.5, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>

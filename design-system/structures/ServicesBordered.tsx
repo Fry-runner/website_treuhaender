@@ -1,12 +1,13 @@
 import React from "react";
 import { Container } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
+import { balancedColumns } from "./grid";
 import { Icon } from "../icons/iconSets";
 import type { ServicesContent } from "../content/types";
 
 /** Services variant: zero-gap hairline-divided grid (editorial/swiss feel). */
 export const ServicesBordered: React.FC<{ content: ServicesContent; more?: MoreLink; onPick?: (title: string) => void }> = ({ content, more, onPick }) => {
-  const cols = Math.min(content.items.length, 3);
+  const cols = balancedColumns(content.items.length, 3);
   return (
     <section style={{ background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
       <Container>

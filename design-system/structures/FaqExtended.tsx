@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import { Container } from "./primitives";
 import { SectionHead } from "./SectionHead";
 import { Icon } from "../icons/iconSets";
+import { balancedColumns, fillGrid } from "./grid";
 import type { FaqContent } from "../content/types";
 
 type Props = { content: FaqContent };
@@ -101,7 +102,7 @@ export const FaqCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 3), "1.45rem")}>
         {content.items.map((f, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
             <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontFamily: "var(--ds-font-mono)", fontWeight: 700 }}>?</span>

@@ -6,6 +6,7 @@ import React from "react";
 import { Container, Eyebrow } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import type { TestimonialsContent } from "../content/types";
+import { balancedColumns, fillGrid } from "./grid";
 
 type Props = { content: TestimonialsContent };
 type Item = TestimonialsContent["items"][number];
@@ -69,7 +70,7 @@ export const TestimonialsAvatarCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
       <Head c={content} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 3), "1.45rem")}>
         {content.items.map((t, i) => (
           <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.98rem", lineHeight: 1.55, color: "var(--ds-text)", flex: 1 }}>“{t.quote}”</blockquote>
@@ -109,7 +110,7 @@ export const TestimonialsDark: React.FC<Props> = ({ content }) => (
         <h2 style={{ ...headingStyle, color: "var(--ds-bg)" }}>{content.heading}</h2>
         <span style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", color: "var(--ds-primary)", fontWeight: 700 }}><Icon name="star" size={15} /> {content.rating} <span style={{ ...cap, color: "var(--ds-bg)", opacity: 0.75 }}>{content.reviewCount}</span></span>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 3), "1.45rem")}>
         {content.items.map((t, i) => (
           <figure key={i} style={{ margin: 0, background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.16)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1.15rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.98rem", lineHeight: 1.55, color: "var(--ds-bg)" }}>“{t.quote}”</blockquote>
@@ -146,7 +147,7 @@ export const TestimonialsRatingHeader: React.FC<Props> = ({ content }) => (
         <div style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "2.4rem", color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 1 }}><Icon name="star" size={30} /> {content.rating}</div>
         <div style={cap}>{content.reviewCount} · {content.heading}</div>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px,1fr))", gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 3), "1.45rem")}>
         {content.items.map((t, i) => (
           <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.95rem", lineHeight: 1.55, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
@@ -219,7 +220,7 @@ export const TestimonialsStars: React.FC<Props> = ({ content }) => (
           <div style={cap}><strong style={{ color: "var(--ds-text)" }}>{content.rating}</strong> / 5{content.reviewCount ? <> · {content.reviewCount}</> : null}</div>
         </div>
       )}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 3), "1.45rem")}>
         {content.items.map((t, i) => (
           <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.96rem", lineHeight: 1.55, color: "var(--ds-text)", flex: 1 }}>“{t.quote}”</blockquote>

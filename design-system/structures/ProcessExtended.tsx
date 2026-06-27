@@ -8,6 +8,7 @@ import React, { useState } from "react";
 import { Container } from "./primitives";
 import { SectionHead } from "./SectionHead";
 import { Icon } from "../icons/iconSets";
+import { balancedColumns, fillGrid } from "./grid";
 import type { ProcessContent } from "../content/sectionContent";
 
 type Props = { content: ProcessContent };
@@ -15,7 +16,7 @@ const sectionBase: React.CSSProperties = { background: "var(--ds-surface)", padd
 const titleS: React.CSSProperties = { fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.1rem", color: "var(--ds-text)", margin: 0 };
 const bodyS: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", lineHeight: 1.5, color: "var(--ds-text-muted)", margin: 0 };
 const num = (i: number) => String(i + 1).padStart(2, "0");
-const cols = (n: number, cap = 4) => `repeat(${Math.min(n, cap)}, minmax(0,1fr))`;
+const cols = (n: number, cap = 4) => `repeat(${balancedColumns(n, cap)}, minmax(0,1fr))`;
 const Dot: React.FC<{ i: number; light?: boolean }> = ({ i, light }) => (
   <span style={{ flex: "0 0 auto", width: "2.4rem", height: "2.4rem", borderRadius: "9999px", background: light ? "rgba(255,255,255,0.12)" : "var(--ds-primary-soft)", color: light ? "var(--ds-bg)" : "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", fontWeight: 700 }}>{num(i)}</span>
 );
@@ -55,7 +56,7 @@ export const ProcessTimeline: React.FC<Props> = ({ content }) => (
 export const ProcessHorizontal: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.25rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.steps.length, 4), "1.25rem")}>
       {content.steps.map((s, i) => (
         <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.95rem" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}><Dot i={i} />{i < content.steps.length - 1 && <span style={{ flex: 1, height: "2px", background: "var(--ds-border)" }} />}</div>
@@ -70,7 +71,7 @@ export const ProcessHorizontal: React.FC<Props> = ({ content }) => (
 export const ProcessCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.45rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.steps.length, 4), "1.45rem")}>
       {content.steps.map((s, i) => (
         <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
           <Dot i={i} /><h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.body}</p>
@@ -121,7 +122,7 @@ export const ProcessZigzag: React.FC<Props> = ({ content }) => (
 export const ProcessBigIndex: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.65rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.steps.length, 4), "1.65rem")}>
       {content.steps.map((s, i) => (
         <div key={i} className="ds-card" style={{ position: "relative", overflow: "hidden", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <span aria-hidden style={{ position: "absolute", top: "-0.6rem", right: "0.4rem", fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "4rem", color: "var(--ds-primary-soft)", lineHeight: 1 }}>{num(i)}</span>
@@ -136,7 +137,7 @@ export const ProcessBigIndex: React.FC<Props> = ({ content }) => (
 export const ProcessStepperBar: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ position: "relative", display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.25rem" }}>
+    <div className="ds-fill-grid" style={{ ...fillGrid(balancedColumns(content.steps.length, 4), "1.25rem"), position: "relative" }}>
       <div aria-hidden style={{ position: "absolute", top: "1.2rem", left: "10%", right: "10%", height: "2px", background: "var(--ds-border)" }} />
       {content.steps.map((s, i) => (
         <div key={i} style={{ position: "relative", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.6rem" }}>
@@ -203,7 +204,7 @@ export const ProcessSplitIntro: React.FC<Props> = ({ content }) => (
 export const ProcessMinimal: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "2rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.steps.length, 4), "2rem")}>
       {content.steps.map((s, i) => (
         <div key={i} style={{ borderTop: "2px solid var(--ds-text)", paddingTop: "1rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.8rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>{num(i)}</span>
@@ -220,7 +221,7 @@ export const ProcessDark: React.FC<Props> = ({ content }) => (
     <div style={{ textAlign: "center", marginBottom: "2rem" }}>
       <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-bg)", margin: 0 }}>{content.heading}</h2>
     </div>
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.45rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.steps.length, 4), "1.45rem")}>
       {content.steps.map((s, i) => (
         <div key={i} className="ds-card" style={{ border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <Dot i={i} light /><h3 style={{ ...titleS, color: "var(--ds-bg)" }}>{s.title}</h3><p style={{ ...bodyS, color: "rgba(255,255,255,0.9)" }}>{s.body}</p>
@@ -234,7 +235,7 @@ export const ProcessDark: React.FC<Props> = ({ content }) => (
 export const ProcessChips: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.45rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.steps.length, 4), "1.45rem")}>
       {content.steps.map((s, i) => (
         <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.95rem", alignItems: "center", textAlign: "center" }}>
           <span style={{ border: "1px solid var(--ds-primary)", color: "var(--ds-primary-ink, var(--ds-primary))", borderRadius: "var(--ds-radius-pill)", padding: "0.3rem 0.9rem", fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem", fontWeight: 700 }}>Schritt {num(i)}</span>
@@ -279,12 +280,15 @@ export const ProcessBordered: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
-      {content.steps.map((s, i) => (
-        <div key={i} style={{ borderLeft: i % Math.min(content.steps.length, 4) ? "1px solid var(--ds-border)" : "none", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+      {content.steps.map((s, i) => {
+        const C = balancedColumns(content.steps.length, 4);
+        return (
+        <div key={i} style={{ borderLeft: i % C ? "1px solid var(--ds-border)" : "none", borderTop: i >= C ? "1px solid var(--ds-border)" : "none", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>{num(i)}</span>
           <h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.body}</p>
         </div>
-      ))}
+        );
+      })}
     </div>
   </Container></section>
 );
@@ -293,7 +297,7 @@ export const ProcessBordered: React.FC<Props> = ({ content }) => (
 export const ProcessTinted: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length), gap: "1.45rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.steps.length, 4), "1.45rem")}>
       {content.steps.map((s, i) => (
         <div key={i} className="ds-card" style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <Dot i={i} /><h3 style={titleS}>{s.title}</h3><p style={{ ...bodyS, color: "var(--ds-text)" }}>{s.body}</p>
@@ -342,7 +346,7 @@ export const ProcessRail: React.FC<Props> = ({ content }) => (
 export const ProcessUnderlineNumbers: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 860px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.steps.length, 3), gap: "1.8rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.steps.length, 3), "1.8rem")}>
       {content.steps.map((s, i) => (
         <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <span style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "1.8rem", color: "var(--ds-text)", borderBottom: "3px solid var(--ds-primary)", alignSelf: "flex-start", paddingBottom: "0.2rem" }}>{num(i)}</span>

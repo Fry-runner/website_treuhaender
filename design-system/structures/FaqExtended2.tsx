@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import { Container } from "./primitives";
 import { SectionHead } from "./SectionHead";
 import { Icon } from "../icons/iconSets";
+import { balancedColumns, fillGrid } from "./grid";
 import type { FaqContent } from "../content/types";
 
 type Props = { content: FaqContent };
@@ -70,7 +71,7 @@ export const FaqThreeCol: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.8rem 2rem" }}>
+      <div className="ds-fill-grid" style={{ ...fillGrid(balancedColumns(content.items.length, 3), "2rem"), gap: "1.8rem 2rem" }}>
         {content.items.map((f, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
             <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.7rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>{num(i)}</span>
@@ -87,7 +88,7 @@ export const FaqCardsBordered: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px,1fr))", gap: "1.25rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 3), "1.25rem")}>
         {content.items.map((f, i) => (
           <div key={i} className="ds-card" style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
             <h3 style={q}>{f.q}</h3><p style={a}>{f.a}</p>
@@ -120,7 +121,7 @@ export const FaqNumberedCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 3), "1.45rem")}>
         {content.items.map((f, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
             <div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "1.6rem", color: "var(--ds-primary-ink, var(--ds-primary))" }}>{num(i)}</div>

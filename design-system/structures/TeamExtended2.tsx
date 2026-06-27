@@ -5,6 +5,7 @@
 import React from "react";
 import { Container, PORTRAIT_FOCUS } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
+import { balancedColumns, fillGrid } from "./grid";
 import type { TeamContent, TeamMember } from "../content/types";
 
 type Props = { content: TeamContent; more?: MoreLink };
@@ -23,7 +24,7 @@ export const TeamGridPhoto: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px,1fr))", gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.members.length, 4), "1.45rem")}>
         {content.members.map((m, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { aspectRatio: "1 / 1", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", fontSize: "1.6rem" })}>{m.photo ? "" : m.initials}</div>
@@ -57,7 +58,7 @@ export const TeamDuo: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px,1fr))", gap: "1.85rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.members.length, 3), "1.85rem")}>
         {content.members.map((m, i) => (
           <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.65rem", alignItems: "center" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { width: "8rem", height: "9rem", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", flexShrink: 0, fontSize: "2rem" })}>{m.photo ? "" : m.initials}</div>
@@ -89,7 +90,7 @@ export const TeamBadgeRole: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px,1fr))", gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.members.length, 3), "1.45rem")}>
         {content.members.map((m, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.95rem" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { width: "5rem", height: "5rem", borderRadius: "9999px", fontSize: "1.3rem" })}>{m.photo ? "" : m.initials}</div>
@@ -170,7 +171,7 @@ export const TeamSplitLead: React.FC<Props> = ({ content, more }) => {
             <div role="img" aria-label={first.name} style={photoBg(first, { width: "100%", aspectRatio: "4 / 5", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", fontSize: "2.6rem" })}>{first.photo ? "" : first.initials}</div>
             <h3 style={{ ...name, fontSize: "1.3rem" }}>{first.name}</h3><span style={role}>{first.role}</span>{first.bio && <p style={bio}>{first.bio}</p>}
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px,1fr))", gap: "1.25rem", alignContent: "start" }}>
+          <div className="ds-fill-grid" style={{ ...fillGrid(balancedColumns(rest.length, 3), "1.25rem"), alignContent: "start" }}>
             {rest.map((m, i) => (
               <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
                 <div role="img" aria-label={m.name} style={photoBg(m, { width: "100%", aspectRatio: "4 / 5", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", fontSize: "1.2rem" })}>{m.photo ? "" : m.initials}</div>

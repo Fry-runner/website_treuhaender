@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
+import { balancedColumns, fillGrid } from "./grid";
 import { Icon } from "../icons/iconSets";
 import type { ServicesContent } from "../content/types";
 
@@ -9,7 +10,7 @@ export const Services: React.FC<{ content: ServicesContent; more?: MoreLink; onP
   <section style={{ background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 3), "1.45rem")}>
         {content.items.map((s, i) => (
           <article
             key={i}

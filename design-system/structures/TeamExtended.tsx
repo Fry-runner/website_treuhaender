@@ -6,6 +6,7 @@
 import React from "react";
 import { Container, PORTRAIT_FOCUS } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
+import { balancedColumns, fillGrid } from "./grid";
 import type { TeamContent, TeamMember } from "../content/types";
 
 type Props = { content: TeamContent; more?: MoreLink };
@@ -24,7 +25,7 @@ export const TeamCircles: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} center />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.members.length, 4)}, minmax(0,1fr))`, gap: "1.85rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.members.length, 4), "1.85rem")}>
         {content.members.map((m, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.6rem" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { width: "6.5rem", height: "6.5rem", borderRadius: "9999px", fontSize: "1.6rem" })}>{m.photo ? "" : m.initials}</div>
@@ -42,7 +43,7 @@ export const TeamMinimalGrid: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.members.length, 4)}, minmax(0,1fr))`, gap: "1.65rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.members.length, 4), "1.65rem")}>
         {content.members.map((m, i) => (
           <div key={i} style={{ display: "flex", alignItems: "center", gap: "1.15rem", borderTop: "2px solid var(--ds-text)", paddingTop: "1rem" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { width: "3rem", height: "3rem", borderRadius: "var(--ds-radius)", flexShrink: 0, fontSize: "0.9rem" })}>{m.photo ? "" : m.initials}</div>
@@ -67,7 +68,7 @@ export const TeamSpotlight: React.FC<Props> = ({ content, more }) => {
             <div role="img" aria-label={first.name} style={photoBg(first, { width: "7rem", height: "7rem", borderRadius: "var(--ds-radius)", flexShrink: 0, fontSize: "1.8rem" })}>{first.photo ? "" : first.initials}</div>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}><h3 style={{ ...name, fontSize: "1.3rem" }}>{first.name}</h3><span style={role}>{first.role}</span>{first.bio && <p style={bio}>{first.bio}</p>}</div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(rest.length, 2) || 1}, minmax(0,1fr))`, gap: "1.25rem" }}>
+          <div className="ds-fill-grid" style={fillGrid(balancedColumns(rest.length, 2), "1.25rem")}>
             {rest.map((m, i) => (
               <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
                 <div role="img" aria-label={m.name} style={photoBg(m, { width: "3rem", height: "3rem", borderRadius: "9999px", fontSize: "0.85rem" })}>{m.photo ? "" : m.initials}</div>
@@ -83,7 +84,7 @@ export const TeamSpotlight: React.FC<Props> = ({ content, more }) => {
 
 /** 4) Zero-gap hairline grid. */
 export const TeamBordered: React.FC<Props> = ({ content, more }) => {
-  const cols = Math.min(content.members.length, 3);
+  const cols = balancedColumns(content.members.length, 3);
   return (
     <section style={sectionBase}>
       <Container>
@@ -106,7 +107,7 @@ export const TeamOverlay: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.members.length, 4)}, minmax(0,1fr))`, gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.members.length, 4), "1.45rem")}>
         {content.members.map((m, i) => (
           <div key={i} className="ds-card" role="img" aria-label={m.name} style={{ position: "relative", aspectRatio: "4 / 5", borderRadius: "var(--ds-radius)", overflow: "hidden", border: "1px solid var(--ds-border)", ...photoBg(m, { alignItems: "center", justifyContent: "center", fontSize: "2.4rem" }) }}>
             {!m.photo && <span>{m.initials}</span>}
@@ -180,7 +181,7 @@ export const TeamCompact4: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: "1.25rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.members.length, 4), "1.25rem")}>
         {content.members.map((m, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.2rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.5rem" }}>
             <div role="img" aria-label={m.name} style={photoBg(m, { width: "4rem", height: "4rem", borderRadius: "9999px", fontSize: "1.1rem" })}>{m.photo ? "" : m.initials}</div>
@@ -197,7 +198,7 @@ export const TeamQuoteCard: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.members.length, 3)}, minmax(0,1fr))`, gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.members.length, 3), "1.45rem")}>
         {content.members.map((m, i) => (
           <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {/* Only a real bio becomes a quote; without one the card is a plain name+role

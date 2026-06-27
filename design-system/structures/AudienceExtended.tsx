@@ -8,13 +8,14 @@ import React, { useState } from "react";
 import { Container } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import { SectionHead } from "./SectionHead";
+import { balancedColumns, fillGrid } from "./grid";
 import type { AudienceContent } from "../content/sectionContent";
 
 type Props = { content: AudienceContent };
 const sectionBase: React.CSSProperties = { background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" };
 const titleS: React.CSSProperties = { fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.1rem", color: "var(--ds-text)", margin: 0 };
 const bodyS: React.CSSProperties = { fontFamily: "var(--ds-font-body)", fontSize: "0.9rem", lineHeight: 1.5, color: "var(--ds-text-muted)", margin: 0 };
-const cols = (n: number, cap = 4) => `repeat(${Math.min(n, cap)}, minmax(0,1fr))`;
+const cols = (n: number, cap = 4) => `repeat(${balancedColumns(n, cap)}, minmax(0,1fr))`;
 const initial = (s: string) => (s.trim()[0] ?? "•").toUpperCase();
 const Mark: React.FC<{ s: string; light?: boolean }> = ({ s, light }) => (
   <span style={{ flex: "0 0 auto", width: "2.4rem", height: "2.4rem", borderRadius: "9999px", background: light ? "rgba(255,255,255,0.12)" : "var(--ds-primary-soft)", color: light ? "var(--ds-bg)" : "var(--ds-primary)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "0.95rem" }}>{initial(s)}</span>
@@ -24,7 +25,7 @@ const Mark: React.FC<{ s: string; light?: boolean }> = ({ s, light }) => (
 export const AudienceCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.45rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "1.45rem")}>
       {content.items.map((v, i) => (
         <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
           <Mark s={v.title} /><h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p>
@@ -40,7 +41,7 @@ export const AudienceBordered: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
       {content.items.map((v, i) => (
-        <div key={i} style={{ borderLeft: i % Math.min(content.items.length, 4) ? "1px solid var(--ds-border)" : "none", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+        <div key={i} style={{ borderLeft: i % balancedColumns(content.items.length, 4) === 0 ? "none" : "1px solid var(--ds-border)", borderTop: i >= balancedColumns(content.items.length, 4) ? "1px solid var(--ds-border)" : "none", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p>
         </div>
       ))}
@@ -92,7 +93,7 @@ export const AudienceSplitIntro: React.FC<Props> = ({ content }) => (
 export const AudienceBigLetter: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.65rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "1.65rem")}>
       {content.items.map((v, i) => (
         <div key={i} className="ds-card" style={{ position: "relative", overflow: "hidden", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <span aria-hidden style={{ position: "absolute", top: "-0.8rem", right: "0.4rem", fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "4.2rem", color: "var(--ds-primary-soft)", lineHeight: 1 }}>{initial(v.title)}</span>
@@ -136,7 +137,7 @@ export const AudienceTwoCol: React.FC<Props> = ({ content }) => (
 export const AudienceMinimal: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "2rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "2rem")}>
       {content.items.map((v, i) => (
         <div key={i} style={{ borderTop: "2px solid var(--ds-text)", paddingTop: "1rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}><h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p></div>
       ))}
@@ -150,7 +151,7 @@ export const AudienceDark: React.FC<Props> = ({ content }) => (
     <div style={{ textAlign: "center", marginBottom: "2rem" }}>
       <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-bg)", margin: 0 }}>{content.heading}</h2>
     </div>
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.45rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "1.45rem")}>
       {content.items.map((v, i) => (
         <div key={i} style={{ border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <Mark s={v.title} light /><h3 style={{ ...titleS, color: "var(--ds-bg)" }}>{v.title}</h3><p style={{ ...bodyS, color: "rgba(255,255,255,0.9)" }}>{v.body}</p>
@@ -164,7 +165,7 @@ export const AudienceDark: React.FC<Props> = ({ content }) => (
 export const AudienceTinted: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.45rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "1.45rem")}>
       {content.items.map((v, i) => (
         <div key={i} className="ds-card" style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <h3 style={titleS}>{v.title}</h3><p style={{ ...bodyS, color: "var(--ds-text)" }}>{v.body}</p>
@@ -178,7 +179,7 @@ export const AudienceTinted: React.FC<Props> = ({ content }) => (
 export const AudiencePillHeaders: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.45rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "1.45rem")}>
       {content.items.map((v, i) => (
         <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.95rem", alignItems: "flex-start" }}>
           <span style={{ background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", borderRadius: "var(--ds-radius-pill)", padding: "0.4rem 0.9rem", fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "0.92rem" }}>{v.title}</span>
@@ -214,7 +215,7 @@ export const AudienceColumns: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
     <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden", background: "var(--ds-bg)" }}>
       {content.items.map((v, i) => (
-        <div key={i} style={{ borderLeft: i % Math.min(content.items.length, 4) ? "1px solid var(--ds-border)" : "none", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "0.5rem", textAlign: "center", alignItems: "center" }}>
+        <div key={i} style={{ borderLeft: i % balancedColumns(content.items.length, 4) === 0 ? "none" : "1px solid var(--ds-border)", borderTop: i >= balancedColumns(content.items.length, 4) ? "1px solid var(--ds-border)" : "none", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "0.5rem", textAlign: "center", alignItems: "center" }}>
           <Mark s={v.title} /><h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p>
         </div>
       ))}
@@ -294,7 +295,7 @@ export const AudienceRail: React.FC<Props> = ({ content }) => (
 export const AudienceDots: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.65rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "1.65rem")}>
       {content.items.map((v, i) => (
         <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.95rem" }}>
           <span style={{ width: "0.9rem", height: "0.9rem", borderRadius: "9999px", background: "var(--ds-primary)" }} />
@@ -327,7 +328,7 @@ export const AudienceQuote: React.FC<Props> = ({ content }) => (
 export const AudienceTopAccent: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.45rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "1.45rem")}>
       {content.items.map((v, i) => (
         <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderTop: "3px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p>

@@ -4,6 +4,7 @@
 import React from "react";
 import { Container } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
+import { balancedColumns, fillGrid } from "./grid";
 import type { ValuesContent } from "../content/types";
 
 type Props = { content: ValuesContent; more?: MoreLink };
@@ -16,7 +17,7 @@ export const ValuesIconCircle: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.65rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "1.65rem")}>
         {content.items.map((v, i) => (
           <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.6rem" }}>
             <div style={{ width: "3rem", height: "3rem", borderRadius: "9999px", background: "var(--ds-primary-soft)", display: "flex", alignItems: "center", justifyContent: "center" }}><span style={{ width: "0.7rem", height: "0.7rem", borderRadius: "9999px", background: "var(--ds-primary)" }} /></div>
@@ -48,7 +49,7 @@ export const ValuesTimeline: React.FC<Props> = ({ content, more }) => (
 
 /** 3) Zero-gap hairline grid. */
 export const ValuesBorderedGrid: React.FC<Props> = ({ content, more }) => {
-  const cols = Math.min(content.items.length, 3);
+  const cols = balancedColumns(content.items.length, 3);
   return (
     <section style={sectionBase}>
       <Container>
@@ -88,7 +89,7 @@ export const ValuesBanner: React.FC<Props> = ({ content, more }) => (
   <section style={{ background: "var(--ds-primary-soft)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.85rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "1.85rem")}>
         {content.items.map((v, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.5rem", textAlign: "center", alignItems: "center" }}>
             <span aria-hidden style={{ width: "0.55rem", height: "0.55rem", borderRadius: "9999px", background: "var(--ds-primary)" }} />
@@ -162,7 +163,7 @@ export const ValuesPillHeaders: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.65rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "1.65rem")}>
         {content.items.map((v, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.95rem" }}>
             <span style={{ display: "inline-block", padding: "0.45rem 1rem", borderRadius: "9999px", background: "var(--ds-primary)", color: "var(--ds-primary-fg)", fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "0.95rem" }}>{v.title}</span>
@@ -179,7 +180,7 @@ export const ValuesTopAccent: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 4), "1.45rem")}>
         {content.items.map((v, i) => (
           <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden", display: "flex", flexDirection: "column" }}>
             <div aria-hidden style={{ height: "3px", background: "var(--ds-primary)" }} />

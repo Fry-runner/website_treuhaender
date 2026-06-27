@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import { SectionHead } from "./SectionHead";
+import { balancedColumns, fillGrid } from "./grid";
 import type { DocAsset } from "../content/types";
 
 const KIND_LABEL: Record<string, string> = { pdf: "PDF", doc: "DOC", xls: "XLS", other: "DATEI" };
@@ -73,7 +74,7 @@ const RowsLayout: React.FC<{ items: DocAsset[] }> = ({ items }) => (
 // ── 1 · CARDS — responsive card grid; each card stacks a file icon, the title
 //    and a kind + size footer. ─────────────────────────────────────────────
 const CardsLayout: React.FC<{ items: DocAsset[] }> = ({ items }) => (
-  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1.25rem" }}>
+  <div className="ds-fill-grid" style={fillGrid(balancedColumns(items.length, 4), "1.25rem")}>
     {items.map((d, i) => (
       <a key={i} {...linkProps(d.src)} style={{
         display: "flex", flexDirection: "column", gap: "1.1rem", padding: "1.3rem", textDecoration: "none",

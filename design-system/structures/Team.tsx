@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, PORTRAIT_FOCUS } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
+import { balancedColumns, fillGrid } from "./grid";
 import type { TeamContent } from "../content/types";
 
 /** Team grid with monogram avatars + role + bio. Token-only. */
@@ -8,7 +9,7 @@ export const Team: React.FC<{ content: TeamContent; more?: MoreLink }> = ({ cont
   <section style={{ background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.members.length, 3), "1.45rem")}>
         {content.members.map((m, i) => (
           <div key={i} className={m.photo ? "ds-card ds-img-zoom" : "ds-card"} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", overflow: "hidden", display: "flex", flexDirection: "column" }}>
             <div role="img" aria-label={m.name} className={m.photo ? "ds-zoom" : undefined} style={{ aspectRatio: "4 / 5", background: "var(--ds-primary-soft)", display: "flex", alignItems: "center", justifyContent: "center", ...(m.photo ? { backgroundImage: `url("${m.photo}")`, backgroundSize: "cover", backgroundPosition: PORTRAIT_FOCUS } : {}) }}>

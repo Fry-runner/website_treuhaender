@@ -7,6 +7,7 @@ import React, { useState } from "react";
 import { Container } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import { SectionHead, type MoreLink } from "./SectionHead";
+import { balancedColumns, fillGrid } from "./grid";
 import type { ServicesContent } from "../content/types";
 
 type Props = { content: ServicesContent; more?: MoreLink; onPick?: (title: string) => void };
@@ -109,7 +110,7 @@ export const ServicesChecklist: React.FC<Props> = ({ content, more: m, onPick })
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={m} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: "1.65rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 2), "1.65rem")}>
         {content.items.map((s, i) => (
           <article key={i} className="ds-card" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.15rem", cursor: onPick ? "pointer" : "default" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1.25rem" }}>

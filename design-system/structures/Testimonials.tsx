@@ -6,6 +6,7 @@
 import React from "react";
 import { Container, Eyebrow } from "./primitives";
 import { Icon } from "../icons/iconSets";
+import { balancedColumns, fillGrid } from "./grid";
 
 export interface Testimonial {
   quote: string;
@@ -41,7 +42,7 @@ export const Testimonials: React.FC<{ content: TestimonialsContent }> = ({ conte
         </div>
       </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.items.length, 3), "1.45rem")}>
         {content.items.map((t, i) => (
           <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.98rem", lineHeight: 1.55, color: "var(--ds-text)" }}>

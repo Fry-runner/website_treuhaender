@@ -49,6 +49,15 @@ header[data-nav-tone="dark"] .ds-nav-link[aria-current="page"] { color: #fff; }
 .ds-home-hero { margin-top: calc(-1 * var(--ds-nav-h, 4.5rem)); }
 .ds-home-hero > section { min-height: 90vh; display: flex; flex-direction: column; justify-content: center; }
 
+/* Contact page fills the viewport: the page is a >=100vh flex column (footer pinned to
+   the bottom), and the contact section grows to occupy the space between the sticky
+   header and the footer with its content optically centred — so a sparse contact page
+   never ends mid-screen with a sea of empty space below the footer. The section keeps
+   its own padding as minimum breathing room, so it stays balanced (not stretched). */
+.ds-motion[data-fill="contact"] { min-height: 100vh; display: flex; flex-direction: column; }
+.ds-motion[data-fill="contact"] > .ds-contact-fill { flex: 1 0 auto; display: flex; flex-direction: column; }
+.ds-motion[data-fill="contact"] > .ds-contact-fill > section { flex: 1 0 auto; display: flex; flex-direction: column; justify-content: center; }
+
 /* Mobile navigation: collapse the inline link cluster into a toggle + dropdown.
    The toggle is hidden on wider screens; .ds-nav-links is an inline row there
    and an absolutely-positioned panel (shown only when data-open) on phones. */
@@ -71,18 +80,29 @@ header[data-nav-tone="dark"] .ds-nav-link[aria-current="page"] { color: #fff; }
   header[data-nav-tone="dark"] .ds-nav-links .ds-nav-link { color: var(--ds-text-muted) !important; }
 }
 
+/* Always-"filled" card grids (balancedColumns + fillGrid): a flex-wrap row whose full
+   rows fill the width exactly and whose PARTIAL last row is CENTRED — so a list never ends
+   on a left-stuck orphan ("three on top, one underneath"). Cards size to --ds-fill-basis
+   (set inline from the balanced column count); flex-grow:0 keeps the remainder at its real
+   width so justify-content:center can pull it to the middle. Collapses to 2 / 1 columns at
+   the same breakpoints as the rest of the site's grids below. */
+.ds-fill-grid { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; }
+.ds-fill-grid > * { flex: 0 1 var(--ds-fill-basis, 100%); min-width: 0; }
+
 /* Tablet: thin 3+ column content grids down to 2 columns. */
 @media (max-width: 900px) {
   [style*="grid-template-columns"][style*="repeat(3,"],
   [style*="grid-template-columns"][style*="repeat(4,"],
   [style*="grid-template-columns"][style*="repeat(5,"],
   [style*="grid-template-columns"][style*="repeat(6,"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .ds-fill-grid > * { flex-basis: calc((100% - var(--ds-fill-gap, 0px)) / 2); }
 }
 /* Phone: content grids become a single column (1fr-auto toolbars keep their layout). */
 @media (max-width: 560px) {
   [style*="grid-template-columns"][style*="repeat("],
   [style*="grid-template-columns"][style*="1fr 1fr"],
   [style*="grid-template-columns"][style*="fr) minmax("] { grid-template-columns: 1fr !important; }
+  .ds-fill-grid > * { flex-basis: 100%; }
   /* Bento/mosaic/collage tiles: an item with "grid-area/column: span N" keeps spanning
      even after the grid collapses to one column — the extra span spills into an implicit,
      content-sized auto column (→ horizontal overflow). Drop every explicit span on phones

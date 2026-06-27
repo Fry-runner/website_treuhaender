@@ -8,6 +8,7 @@ import React, { useState } from "react";
 import { Container, Button, InvertedTone } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import { SectionHead, type MoreLink } from "./SectionHead";
+import { balancedColumns, fillGrid } from "./grid";
 import type { PricingContent, PricingTier } from "../content/types";
 
 type Props = { content: PricingContent; more?: MoreLink };
@@ -38,7 +39,7 @@ const RecoBadge: React.FC = () => (
   <div style={{ alignSelf: "flex-start", fontFamily: "var(--ds-font-body)", fontSize: "0.62rem",   color: "var(--ds-primary-fg)", background: "var(--ds-primary)", padding: "0.2rem 0.6rem", borderRadius: "var(--ds-radius-pill)" }}>Empfohlen</div>
 );
 
-const cols = (n: number, cap = 4) => `repeat(${Math.min(n, cap)}, minmax(0,1fr))`;
+const cols = (n: number, cap = 4) => `repeat(${balancedColumns(n, cap)}, minmax(0,1fr))`;
 
 /** 1) Horizontal rows — name+price left, features centre, CTA right. */
 export const PricingRows: React.FC<Props> = ({ content, more }) => (
@@ -63,7 +64,7 @@ export const PricingMinimal: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "2.4rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.tiers.length, 4), "2.4rem")}>
         {content.tiers.map((t, i) => (
           <div key={i} style={{ borderTop: t.recommended ? "2px solid var(--ds-primary)" : "2px solid var(--ds-text)", paddingTop: "1.1rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <h3 style={nameS}>{t.name}</h3><Price t={t} /><Feats items={t.features} />
@@ -80,7 +81,7 @@ export const PricingCenterFeatured: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem", alignItems: "center" }}>
+      <div className="ds-fill-grid" style={{ ...fillGrid(balancedColumns(content.tiers.length, 4), "1.45rem"), alignItems: "center" }}>
         {content.tiers.map((t, i) => (
           <div key={i} style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: t.recommended ? "2.2rem 1.8rem" : "1.6rem", boxShadow: t.recommended ? "var(--ds-shadow-card)" : "none", display: "flex", flexDirection: "column", gap: "1.25rem", transform: t.recommended ? "scale(1.04)" : "none" }}>
             {t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} big={t.recommended} /><Feats items={t.features} />
@@ -102,7 +103,7 @@ export const PricingDark: React.FC<Props> = ({ content, more }) => (
       {/* The whole band paints --ds-text as its ground → every CTA is on dark. Wrap the
           grid so each Button flips to its inverted, ground-independent style. */}
       <InvertedTone>
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.tiers.length, 4), "1.45rem")}>
         {content.tiers.map((t, i) => (
           <div key={i} style={{ background: t.recommended ? "rgba(255,255,255,0.08)" : "transparent", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {t.recommended && <RecoBadge />}<h3 style={{ ...nameS, color: "var(--ds-bg)" }}>{t.name}</h3><Price t={t} light /><Feats items={t.features} light />
@@ -120,7 +121,7 @@ export const PricingGradientFeatured: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem", alignItems: "stretch" }}>
+      <div className="ds-fill-grid" style={{ ...fillGrid(balancedColumns(content.tiers.length, 4), "1.45rem"), alignItems: "stretch" }}>
         {content.tiers.map((t, i) => {
           const g = t.recommended;
           return (
@@ -143,14 +144,16 @@ export const PricingBordered: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
+      {(() => { const C = balancedColumns(content.tiers.length, 4); return (
       <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} style={{ borderLeft: i ? "1px solid var(--ds-border)" : "none", background: t.recommended ? "var(--ds-primary-soft)" : "var(--ds-bg)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+          <div key={i} style={{ borderLeft: i % C === 0 ? "none" : "1px solid var(--ds-border)", borderTop: i >= C ? "1px solid var(--ds-border)" : "none", background: t.recommended ? "var(--ds-primary-soft)" : "var(--ds-bg)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} /><Feats items={t.features} />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
           </div>
         ))}
       </div>
+      ); })()}
     </Container>
   </section>
 );
@@ -161,7 +164,7 @@ export const PricingPanel: React.FC<Props> = ({ content, more }) => (
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
       <div style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "2.2rem" }}>
-        <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
+        <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.tiers.length, 4), "1.45rem")}>
           {content.tiers.map((t, i) => (
             <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", borderRadius: "var(--ds-radius)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", padding: "1.7rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
               {t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} /><Feats items={t.features} />
@@ -199,7 +202,7 @@ export const PricingOutline: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.tiers.length, 4), "1.45rem")}>
         {content.tiers.map((t, i) => {
           const f = t.recommended;
           return (
@@ -223,7 +226,7 @@ export const PricingRibbon: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.tiers.length, 4), "1.45rem")}>
         {content.tiers.map((t, i) => (
           <div key={i} className="ds-card" style={{ position: "relative", overflow: "hidden", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {t.recommended && <span style={{ position: "absolute", top: "0.9rem", right: "-2.4rem", transform: "rotate(45deg)", background: "var(--ds-primary)", color: "var(--ds-primary-fg)", fontFamily: "var(--ds-font-body)", fontSize: "0.6rem",   padding: "0.25rem 2.4rem" }}>Top</span>}
@@ -241,7 +244,7 @@ export const PricingNumbered: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.tiers.length, 4), "1.45rem")}>
         {content.tiers.map((t, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "1.4rem", fontWeight: 700, color: "var(--ds-primary-ink, var(--ds-primary))" }}>{num(i)}</span>
@@ -259,7 +262,7 @@ export const PricingHeadlinePrice: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.65rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.tiers.length, 4), "1.65rem")}>
         {content.tiers.map((t, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", gap: "1.15rem", padding: "1.6rem 0", borderTop: "1px solid var(--ds-border)" }}>
             <Price t={t} big />
@@ -305,7 +308,7 @@ export const PricingCompact: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.25rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.tiers.length, 4), "1.25rem")}>
         {content.tiers.map((t, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.4rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1.05rem" }}><h3 style={{ ...nameS, fontSize: "1rem" }}>{t.name}</h3><span style={{ ...priceS, fontSize: "1.4rem" }}>{t.price}</span></div>
@@ -342,7 +345,7 @@ export const PricingTwoColFeatures: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length, 3), gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.tiers.length, 3), "1.45rem")}>
         {content.tiers.map((t, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} />
@@ -405,7 +408,7 @@ export const PricingPills: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.tiers.length, 4), "1.45rem")}>
         {content.tiers.map((t, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.25rem" }}>
             <h3 style={nameS}>{t.name}</h3>
@@ -423,7 +426,7 @@ export const PricingSoftCards: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.65rem" }}>
+      <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.tiers.length, 4), "1.65rem")}>
         {content.tiers.map((t, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", borderRadius: "1rem", padding: "2rem", boxShadow: t.recommended ? "0 18px 40px -16px var(--ds-primary)" : "var(--ds-shadow-card)", border: "1px solid var(--ds-border)", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} /><Feats items={t.features} />
@@ -440,9 +443,10 @@ export const PricingTable: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container style={{ maxWidth: "min(var(--ds-container), 960px)" }}>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
+      {(() => { const C = balancedColumns(content.tiers.length, 4); return (
       <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "0", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} style={{ borderLeft: i ? "1px solid var(--ds-border)" : "none", display: "flex", flexDirection: "column" }}>
+          <div key={i} style={{ borderLeft: i % C === 0 ? "none" : "1px solid var(--ds-border)", borderTop: i >= C ? "1px solid var(--ds-border)" : "none", display: "flex", flexDirection: "column" }}>
             <div style={{ padding: "1.5rem", background: t.recommended ? "var(--ds-primary)" : "var(--ds-primary-soft)", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
               <h3 style={{ ...nameS, color: t.recommended ? "var(--ds-primary-fg)" : "var(--ds-text)" }}>{t.name}</h3>
               <Price t={t} light={t.recommended} />
@@ -454,6 +458,7 @@ export const PricingTable: React.FC<Props> = ({ content, more }) => (
           </div>
         ))}
       </div>
+      ); })()}
     </Container>
   </section>
 );

@@ -8,6 +8,7 @@
 import React from "react";
 import { Container } from "./primitives";
 import { SectionHead } from "./SectionHead";
+import { balancedColumns, fillGrid } from "./grid";
 import type { HistoryContent } from "../content/sectionContent";
 
 type Props = { content: HistoryContent };
@@ -79,7 +80,7 @@ export const HistoryDotted: React.FC<Props> = ({ content }) => (
 export const HistoryCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow="" heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.entries.length, 4)}, minmax(0,1fr))`, gap: "1.45rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.entries.length, 4), "1.45rem")}>
       {content.entries.map((e, i) => (
         <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
           <span style={yearBig}>{e.year}</span>
@@ -168,7 +169,7 @@ export const HistoryMilestone: React.FC<Props> = ({ content }) => {
 export const HistoryBadgeGrid: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow="" heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1.45rem" }}>
+    <div className="ds-fill-grid" style={fillGrid(balancedColumns(content.entries.length, 3), "1.45rem")}>
       {content.entries.map((e, i) => (
         <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderTop: "3px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
           <span style={{ ...yearChip, alignSelf: "flex-start" }}>{e.year}</span>

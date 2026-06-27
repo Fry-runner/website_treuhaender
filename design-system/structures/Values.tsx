@@ -1,16 +1,20 @@
 import React from "react";
 import { Container } from "./primitives";
 import { SectionHead, type MoreLink } from "./SectionHead";
+import { balancedColumns } from "./grid";
 import type { ValuesContent } from "../content/types";
 
-/** Why-us pillars in a divided column band (briefing §3 values). */
-export const Values: React.FC<{ content: ValuesContent; more?: MoreLink }> = ({ content, more }) => (
+/** Why-us pillars in a divided column band (briefing §3 values). Balanced column count
+ *  so the band never wraps to a lone orphan cell; the hairlines stay row-aware. */
+export const Values: React.FC<{ content: ValuesContent; more?: MoreLink }> = ({ content, more }) => {
+  const cols = balancedColumns(content.items.length, 4);
+  return (
   <section style={{ background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: 0, border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden", background: "var(--ds-bg)" }}>
+      <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, minmax(0,1fr))`, gap: 0, border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden", background: "var(--ds-bg)" }}>
         {content.items.map((v, i) => (
-          <div key={i} style={{ padding: "1.6rem", borderLeft: i === 0 ? "none" : "1px solid var(--ds-border)", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
+          <div key={i} style={{ padding: "1.6rem", borderLeft: i % cols === 0 ? "none" : "1px solid var(--ds-border)", borderTop: i >= cols ? "1px solid var(--ds-border)" : "none", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
             <div style={{ width: "0.55rem", height: "0.55rem", borderRadius: "9999px", background: "var(--ds-primary)" }} />
             <h4 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.05rem", color: "var(--ds-text)", margin: 0 }}>{v.title}</h4>
             <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.88rem", lineHeight: 1.5, color: "var(--ds-text-muted)", margin: 0 }}>{v.body}</p>
@@ -19,7 +23,8 @@ export const Values: React.FC<{ content: ValuesContent; more?: MoreLink }> = ({ 
       </div>
     </Container>
   </section>
-);
+  );
+};
 
 /** Image-bearing values: the pillars beside a framed scene photo. The image-rhythm
  *  pass promotes THIS already-needed section to carry the picture, instead of inserting
