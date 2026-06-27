@@ -113,7 +113,7 @@ const SectionAlignCtx = React.createContext<SectionAlign>("left");
 export const SectionAlignProvider = SectionAlignCtx.Provider;
 export const useSectionAlign = (): SectionAlign => React.useContext(SectionAlignCtx);
 
-type BtnProps = React.PropsWithChildren<{ variant?: "primary" | "outline"; onClick?: () => void; to?: string; type?: "button" | "submit" }>;
+type BtnProps = React.PropsWithChildren<{ variant?: "primary" | "outline"; onClick?: () => void; to?: string; type?: "button" | "submit"; cta?: boolean }>;
 
 // De-telled button base: body face, normal case, normal tracking (was the
 // mono + UPPERCASE + wide-tracking "AI button"). Per-style overrides below may
@@ -124,6 +124,16 @@ export const btnBase: React.CSSProperties = {
   borderRadius: "var(--ds-radius)", cursor: "pointer",
   transition: "all var(--ds-duration) var(--ds-ease)", display: "inline-flex",
   alignItems: "center", gap: "0.5rem", lineHeight: 1,
+};
+
+/** The unmistakable SOLID brand FILL of the primary CTA — flat primary, primary-fg label,
+ *  no border. Shared by the sticky-nav "Kontakt aufnehmen" CTA AND the page CTA-band
+ *  sections (via <Button cta>) so a firm's header CTA and its final CTA band are the SAME
+ *  affordance, independent of the firm's body button style. The SILHOUETTE (radius/clip)
+ *  is added per call site via buttonShape(ps) so both still read as the firm's family
+ *  (pill site → pill CTA); sizing is per call site too (compact in the bar, full in band). */
+export const solidCtaFill: React.CSSProperties = {
+  background: "var(--ds-primary)", color: "var(--ds-primary-fg, #fff)", border: "none",
 };
 
 /** Token-driven look for each primary-button style. Exported so chrome that can't
@@ -169,7 +179,21 @@ export function primaryStyleProps(s: PrimaryStyle): React.CSSProperties {
   }
 }
 
-export const Button: React.FC<BtnProps> = ({ children, variant = "primary", onClick, to, type = "button" }) => {
+/** The SHAPE-defining subset of the firm's primary button — its corner radius, any
+ *  clip-path silhouette (notch/bevel) and signature tracking — WITHOUT the fill, border
+ *  or shadow. Secondary (outline), inverted (dark/colored-ground) and the nav CTA borrow
+ *  this so EVERY button across a site shares one silhouette and only the FILL changes with
+ *  role/ground — instead of a pill primary sitting next to a square secondary, or a
+ *  bespoke band/hero button that matches nothing. */
+export function buttonShape(s: PrimaryStyle): React.CSSProperties {
+  const p = primaryStyleProps(s);
+  const out: React.CSSProperties = { borderRadius: p.borderRadius ?? "var(--ds-radius)" };
+  if (p.clipPath) out.clipPath = p.clipPath;
+  if (p.letterSpacing) out.letterSpacing = p.letterSpacing;
+  return out;
+}
+
+export const Button: React.FC<BtnProps> = ({ children, variant = "primary", onClick, to, type = "button", cta }) => {
   const ps = usePrimaryStyle();
   const tone = useTone();
   const navigate = useNavigate();
@@ -183,11 +207,27 @@ export const Button: React.FC<BtnProps> = ({ children, variant = "primary", onCl
   // CTA and a --ds-bg hairline for the secondary. Both invert with the look, so
   // they read on dark AND on vivid/gradient grounds. (See ToneContext above.)
   if (tone === "inverted") {
+    // A `cta` affordance (nav / final CTA band) keeps the FIXED solid shape on dark/colored
+    // grounds too, so it reads identically to its light-ground twin (solidCtaFill) — the
+    // conversion button is the same everywhere. Body buttons instead keep the firm's
+    // SILHOUETTE (radius/clip); on either, only the FILL flips for contrast.
+    const shape = cta ? { borderRadius: "var(--ds-radius)" } : buttonShape(ps);
     const inv: React.CSSProperties = variant === "primary"
-      ? { background: "var(--ds-bg)", color: "var(--ds-text)", border: "none", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)" }
-      : { background: "transparent", color: "var(--ds-bg)", border: "1px solid var(--ds-bg)" };
+      ? { background: "var(--ds-bg)", color: "var(--ds-text)", border: "none", boxShadow: "var(--ds-shadow-card)", ...shape }
+      : { background: "transparent", color: "var(--ds-bg)", border: "1px solid var(--ds-bg)", ...shape };
     return (
       <button className="ds-btn" type={type} onClick={handle} style={{ ...btnBase, ...inv }}>
+        {children}
+      </button>
+    );
+  }
+  // A CTA-band button mirrors the sticky-header "Kontakt aufnehmen" EXACTLY: always the
+  // solid brand fill, independent of the firm's body button style — so a page's final CTA
+  // and its header CTA read as one affordance (design rule). Only on a default (light)
+  // ground; the inverted branch above already handles colored/dark CTA bands.
+  if (cta && variant === "primary") {
+    return (
+      <button className="ds-btn" type={type} onClick={handle} style={{ ...btnBase, ...solidCtaFill }}>
         {children}
       </button>
     );
@@ -199,8 +239,10 @@ export const Button: React.FC<BtnProps> = ({ children, variant = "primary", onCl
       </button>
     );
   }
+  // Secondary = the firm's primary SILHOUETTE (radius/clip) with a quiet outline fill, so
+  // a primary + secondary pair always reads as one matched set (pill next to pill, etc.).
   return (
-    <button className="ds-btn" type={type} onClick={handle} style={{ ...btnBase, background: "transparent", color: "var(--ds-text)", border: "1px solid var(--ds-text)" }}>
+    <button className="ds-btn" type={type} onClick={handle} style={{ ...btnBase, background: "transparent", color: "var(--ds-text)", border: "1px solid var(--ds-text)", ...buttonShape(ps) }}>
       {children}
     </button>
   );

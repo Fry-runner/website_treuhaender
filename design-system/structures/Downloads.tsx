@@ -54,7 +54,7 @@ const RowsLayout: React.FC<{ items: DocAsset[] }> = ({ items }) => (
   <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
     {items.map((d, i) => (
       <a key={i} {...linkProps(d.src)} style={{
-        display: "flex", alignItems: "center", gap: "1rem", padding: "0.95rem 1.3rem", textDecoration: "none",
+        display: "flex", alignItems: "center", gap: "1.25rem", padding: "0.95rem 1.3rem", textDecoration: "none",
         borderTop: i ? "1px solid var(--ds-border)" : "none", background: "var(--ds-surface)",
       }}>
         <span style={{
@@ -73,14 +73,14 @@ const RowsLayout: React.FC<{ items: DocAsset[] }> = ({ items }) => (
 // ── 1 · CARDS — responsive card grid; each card stacks a file icon, the title
 //    and a kind + size footer. ─────────────────────────────────────────────
 const CardsLayout: React.FC<{ items: DocAsset[] }> = ({ items }) => (
-  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1rem" }}>
+  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1.25rem" }}>
     {items.map((d, i) => (
       <a key={i} {...linkProps(d.src)} style={{
-        display: "flex", flexDirection: "column", gap: "0.85rem", padding: "1.3rem", textDecoration: "none",
+        display: "flex", flexDirection: "column", gap: "1.1rem", padding: "1.3rem", textDecoration: "none",
         background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)",
         boxShadow: "var(--ds-shadow-card)", minWidth: 0,
       }}>
-        <span style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "0.75rem" }}>
+        <span style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "1rem" }}>
           <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex", flex: "0 0 auto" }}><Icon name="document" size={28} /></span>
           <span aria-hidden style={{ color: "var(--ds-text-muted)", display: "inline-flex", flex: "0 0 auto" }}><Icon name="download" size={18} /></span>
         </span>
@@ -101,7 +101,7 @@ const SplitLayout: React.FC<{ items: DocAsset[] }> = ({ items }) => (
   <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "0.6rem 1.4rem" }}>
     {items.map((d, i) => (
       <a key={i} {...linkProps(d.src)} style={{
-        display: "flex", alignItems: "center", gap: "0.9rem", padding: "0.9rem 0.4rem", textDecoration: "none",
+        display: "flex", alignItems: "center", gap: "1.15rem", padding: "0.9rem 0.4rem", textDecoration: "none",
         borderBottom: "1px solid var(--ds-border)", minWidth: 0,
       }}>
         <span style={{

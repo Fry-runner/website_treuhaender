@@ -30,7 +30,7 @@ export const TestimonialsCarousel: React.FC<{ content: TestimonialsContent }> = 
           onMouseLeave={() => setPaused(false)}
           onFocus={() => setPaused(true)}
           onBlur={() => setPaused(false)}
-          style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.4rem", textAlign: "center" }}
+          style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.65rem", textAlign: "center" }}
         >
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>
@@ -42,7 +42,7 @@ export const TestimonialsCarousel: React.FC<{ content: TestimonialsContent }> = 
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.74rem",   color: "var(--ds-text-muted)" }}>
             <strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{meta(t) && <> · {meta(t)}</>}
           </div>
-          <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginTop: "0.4rem" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "1.25rem", marginTop: "0.4rem" }}>
             <button onClick={() => go(idx - 1)} aria-label="prev" style={navBtn}>‹</button>
             <div style={{ display: "flex", gap: "0.4rem" }}>
               {items.map((_, i) => (

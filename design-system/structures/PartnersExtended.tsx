@@ -26,7 +26,7 @@ const Marks: React.FC<{ content: TrustContent; item?: React.CSSProperties; badge
 /** 1) Centered single-line chip/logo strip (the quiet default). */
 export const PartnersStrip: React.FC<Props> = ({ content }) => (
   <section style={band}><Container>
-    <div style={{ display: "flex", alignItems: "center", gap: "1.5rem", flexWrap: "wrap", justifyContent: "center" }}>
+    <div style={{ display: "flex", alignItems: "center", gap: "1.75rem", flexWrap: "wrap", justifyContent: "center" }}>
       <span style={labelS}>{content.label}</span><Marks content={content} />
     </div>
   </Container></section>
@@ -37,7 +37,7 @@ export const PartnersLeftLabel: React.FC<Props> = ({ content }) => (
   <section style={band}><Container>
     <div style={{ display: "flex", alignItems: "center", gap: "2rem", flexWrap: "wrap", justifyContent: "space-between" }}>
       <span style={labelS}>{content.label}</span>
-      <div style={{ display: "flex", alignItems: "center", gap: "1.6rem", flexWrap: "wrap" }}><Marks content={content} /></div>
+      <div style={{ display: "flex", alignItems: "center", gap: "1.85rem", flexWrap: "wrap" }}><Marks content={content} /></div>
     </div>
   </Container></section>
 );
@@ -45,7 +45,7 @@ export const PartnersLeftLabel: React.FC<Props> = ({ content }) => (
 /** 3) Centered label above a row of marks. */
 export const PartnersStacked: React.FC<Props> = ({ content }) => (
   <section style={band}><Container>
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.1rem" }}>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.35rem" }}>
       <span style={labelS}>{content.label}</span>
       <div style={{ display: "flex", alignItems: "center", gap: "1.8rem", flexWrap: "wrap", justifyContent: "center" }}><Marks content={content} /></div>
     </div>
@@ -113,7 +113,7 @@ export const PartnersCards: React.FC<Props> = ({ content }) => {
   return (
     <section style={section}><Container>
       <div style={{ textAlign: "center", marginBottom: "1.6rem" }}><span style={labelS}>{content.label}</span></div>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", justifyContent: "center" }}>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: "1.25rem", justifyContent: "center" }}>
         {marks.map((m, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1rem 1.4rem", display: "flex", alignItems: "center", justifyContent: "center", minWidth: "8rem", minHeight: "3.4rem" }}>
             {isImg ? <img src={m} alt="" style={badgeS} /> : <span style={itemS}>{m}</span>}
@@ -144,7 +144,7 @@ export const PartnersTwoRows: React.FC<Props> = ({ content }) => (
 /** 10) Text credentials as bordered pills (logos if present). */
 export const PartnersPills: React.FC<Props> = ({ content }) => (
   <section style={band}><Container>
-    <div style={{ display: "flex", alignItems: "center", gap: "1rem", flexWrap: "wrap", justifyContent: "center" }}>
+    <div style={{ display: "flex", alignItems: "center", gap: "1.25rem", flexWrap: "wrap", justifyContent: "center" }}>
       <span style={labelS}>{content.label}</span>
       {content.badges && content.badges.length
         ? content.badges.map((src, i) => <img key={i} src={src} alt="" style={badgeS} />)
@@ -182,7 +182,7 @@ export const PartnersHeading: React.FC<Props> = ({ content }) => (
 /** 13) Compact inline with bullet separators. */
 export const PartnersInline: React.FC<Props> = ({ content }) => (
   <section style={{ ...band, paddingBlock: "1.3rem" }}><Container>
-    <div style={{ display: "flex", alignItems: "center", gap: "0.9rem", flexWrap: "wrap", justifyContent: "center" }}>
+    <div style={{ display: "flex", alignItems: "center", gap: "1.15rem", flexWrap: "wrap", justifyContent: "center" }}>
       <span style={labelS}>{content.label}</span>
       {content.badges && content.badges.length
         ? content.badges.map((src, i) => <img key={i} src={src} alt="" style={{ ...badgeS, height: "1.8rem" }} />)
@@ -242,7 +242,7 @@ export const PartnersColumns: React.FC<Props> = ({ content }) => {
   return (
     <section style={section}><Container>
       <div style={{ textAlign: "center", marginBottom: "1.4rem" }}><span style={labelS}>{content.label}</span></div>
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(marks.length, 5)}, minmax(0,1fr))`, gap: "1.6rem", alignItems: "center", justifyItems: "center" }}>
+      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(marks.length, 5)}, minmax(0,1fr))`, gap: "1.85rem", alignItems: "center", justifyItems: "center" }}>
         {marks.map((m, i) => isImg ? <img key={i} src={m} alt="" style={badgeS} /> : <span key={i} style={{ ...itemS, textAlign: "center", whiteSpace: "normal" }}>{m}</span>)}
       </div>
     </Container></section>
@@ -266,7 +266,7 @@ export const PartnersScroller: React.FC<Props> = ({ content }) => {
 /** 20) Very quiet tiny mono items. */
 export const PartnersMinimal: React.FC<Props> = ({ content }) => (
   <section style={{ ...band, paddingBlock: "1.2rem" }}><Container>
-    <div style={{ display: "flex", alignItems: "center", gap: "1.4rem", flexWrap: "wrap", justifyContent: "center" }}>
+    <div style={{ display: "flex", alignItems: "center", gap: "1.65rem", flexWrap: "wrap", justifyContent: "center" }}>
       <span style={labelS}>{content.label}</span>
       {content.badges && content.badges.length
         ? content.badges.map((src, i) => <img key={i} src={src} alt="" style={{ ...badgeS, height: "1.6rem", opacity: 0.6 }} />)
@@ -278,7 +278,7 @@ export const PartnersMinimal: React.FC<Props> = ({ content }) => (
 /** 21) Bordered box containing centered marks. */
 export const PartnersBoxed: React.FC<Props> = ({ content }) => (
   <section style={section}><Container>
-    <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "2rem", display: "flex", flexDirection: "column", alignItems: "center", gap: "1.2rem" }}>
+    <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "2rem", display: "flex", flexDirection: "column", alignItems: "center", gap: "1.45rem" }}>
       <span style={labelS}>{content.label}</span>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "1.6rem 2.4rem", justifyContent: "center", alignItems: "center" }}><Marks content={content} /></div>
     </div>
@@ -288,9 +288,9 @@ export const PartnersBoxed: React.FC<Props> = ({ content }) => (
 /** 22) Label as a small tag chip, marks beside it. */
 export const PartnersTagLabel: React.FC<Props> = ({ content }) => (
   <section style={band}><Container>
-    <div style={{ display: "flex", alignItems: "center", gap: "1.4rem", flexWrap: "wrap", justifyContent: "center" }}>
+    <div style={{ display: "flex", alignItems: "center", gap: "1.65rem", flexWrap: "wrap", justifyContent: "center" }}>
       <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.62rem",   color: "var(--ds-primary-ink, var(--ds-primary))", background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius-pill)", padding: "0.3rem 0.8rem" }}>{content.label}</span>
-      <div style={{ display: "flex", alignItems: "center", gap: "1.6rem", flexWrap: "wrap" }}><Marks content={content} /></div>
+      <div style={{ display: "flex", alignItems: "center", gap: "1.85rem", flexWrap: "wrap" }}><Marks content={content} /></div>
     </div>
   </Container></section>
 );

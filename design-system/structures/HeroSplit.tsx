@@ -34,14 +34,14 @@ export const HeroSplit: React.FC<{ content: HeroContent }> = ({ content }) => {
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: showAside ? "minmax(0,2fr) minmax(0,1fr)" : "minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
         {/* LEFT — content column */}
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.6rem", maxWidth: showAside ? undefined : "60ch" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.85rem", maxWidth: showAside ? undefined : "60ch" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading>
             {content.titleLead} <Accent>{content.titleAccent}</Accent>
             {content.titleTail ? <> {content.titleTail}</> : null}
           </Heading>
           <Lede>{content.lede}</Lede>
-          <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", marginTop: "0.4rem" }}>
+          <div style={{ display: "flex", gap: "1.15rem", flexWrap: "wrap", marginTop: "0.4rem" }}>
             <Button variant="primary">{content.primaryCta}</Button>
             <Button variant="outline">{content.secondaryCta}</Button>
           </div>
@@ -52,7 +52,7 @@ export const HeroSplit: React.FC<{ content: HeroContent }> = ({ content }) => {
         <aside style={{
           background: "var(--ds-surface)", border: "1px solid var(--ds-border)",
           borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)",
-          padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1rem",
+          padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.25rem",
         }}>
           <div style={{
             fontFamily: "var(--ds-font-body)", fontSize: "0.66rem",

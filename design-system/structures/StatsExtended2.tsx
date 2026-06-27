@@ -18,9 +18,9 @@ const big = (size: string, color = "var(--ds-text)"): React.CSSProperties => ({ 
 export const StatsRing: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.4rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.65rem" }}>
         {content.items.map((s, i) => (
-          <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.7rem", textAlign: "center" }}>
+          <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.95rem", textAlign: "center" }}>
             <div style={{ position: "relative", width: "6.5rem", height: "6.5rem" }}>
               <svg viewBox="0 0 100 100" style={{ width: "100%", height: "100%" }} aria-hidden>
                 <circle cx="50" cy="50" r="46" fill="none" stroke="var(--ds-border)" strokeWidth="2" />
@@ -40,7 +40,7 @@ export const StatsRing: React.FC<Props> = ({ content }) => (
 export const StatsBorderedCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.45rem" }}>
         {content.items.map((s, i) => (
           <div key={i} className="ds-card" style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.8rem", textAlign: "center", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
             <div style={big("2.4rem")}><CountUp value={s.value} /></div>
@@ -75,7 +75,7 @@ export const StatsProgress: React.FC<Props> = ({ content }) => (
     <Container style={{ maxWidth: "min(var(--ds-container), 720px)" }}>
       <div style={{ display: "flex", flexDirection: "column" }}>
         {content.items.map((s, i) => (
-          <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1.4rem", padding: "1.1rem 0", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
+          <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1.65rem", padding: "1.1rem 0", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
             <span style={label}>{s.label}</span>
             <span style={big("1.8rem", "var(--ds-primary)")}><CountUp value={s.value} /></span>
           </div>
@@ -91,7 +91,7 @@ export const StatsStackedBig: React.FC<Props> = ({ content }) => (
     <Container style={{ maxWidth: "min(var(--ds-container), 720px)" }}>
       <div style={{ display: "flex", flexDirection: "column" }}>
         {content.items.map((s, i) => (
-          <div key={i} style={{ display: "flex", alignItems: "baseline", gap: "1.2rem", padding: "1rem 0", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
+          <div key={i} style={{ display: "flex", alignItems: "baseline", gap: "1.45rem", padding: "1rem 0", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
             <div style={big("calc(var(--ds-display) * 0.6)", "var(--ds-primary)")}><CountUp value={s.value} /></div>
             <div style={{ ...label, fontSize: "0.8rem" }}>{s.label}</div>
           </div>
@@ -105,7 +105,7 @@ export const StatsStackedBig: React.FC<Props> = ({ content }) => (
 export const StatsTintCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.45rem" }}>
         {content.items.map((s, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "1.8rem", textAlign: "center", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
             <div style={big("2.4rem", "var(--ds-primary)")}><CountUp value={s.value} /></div>
@@ -121,7 +121,7 @@ export const StatsTintCards: React.FC<Props> = ({ content }) => (
 export const StatsOutlineNumbers: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.4rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.65rem" }}>
         {content.items.map((s, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.4rem", textAlign: "center" }}>
             <div style={{ ...big("calc(var(--ds-display) * 0.62)"), color: "transparent", WebkitTextStroke: "1.5px var(--ds-primary)" } as React.CSSProperties}><CountUp value={s.value} /></div>
@@ -153,9 +153,9 @@ export const StatsPlainDivide: React.FC<Props> = ({ content }) => (
 export const StatsBadgePills: React.FC<Props> = ({ content }) => (
   <section style={{ ...sectionBase, paddingBlock: "1.8rem" }}>
     <Container>
-      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "0.9rem" }}>
+      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1.15rem" }}>
         {content.items.map((s, i) => (
-          <div key={i} style={{ display: "inline-flex", alignItems: "center", gap: "0.7rem", padding: "0.7rem 1.3rem", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius-pill)", background: "var(--ds-surface)" }}>
+          <div key={i} style={{ display: "inline-flex", alignItems: "center", gap: "0.95rem", padding: "0.7rem 1.3rem", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius-pill)", background: "var(--ds-surface)" }}>
             <span style={{ width: "0.5rem", height: "0.5rem", borderRadius: "9999px", background: "var(--ds-primary)" }} />
             <span style={big("1.2rem", "var(--ds-primary)")}><CountUp value={s.value} /></span>
             <span style={label}>{s.label}</span>
@@ -172,7 +172,7 @@ export const StatsHeadlinePair: React.FC<Props> = ({ content }) => (
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 2)}, minmax(0,1fr))`, gap: "1.2rem 3rem" }}>
         {content.items.map((s, i) => (
-          <div key={i} style={{ display: "flex", alignItems: "baseline", gap: "1rem", padding: "0.9rem 0", borderBottom: "1px solid var(--ds-border)" }}>
+          <div key={i} style={{ display: "flex", alignItems: "baseline", gap: "1.25rem", padding: "0.9rem 0", borderBottom: "1px solid var(--ds-border)" }}>
             <div style={big("2.2rem", "var(--ds-primary)")}><CountUp value={s.value} /></div>
             <div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", color: "var(--ds-text)" }}>{s.label}</div>
           </div>

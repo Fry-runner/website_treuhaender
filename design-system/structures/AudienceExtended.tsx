@@ -24,9 +24,9 @@ const Mark: React.FC<{ s: string; light?: boolean }> = ({ s, light }) => (
 export const AudienceCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.2rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.45rem" }}>
       {content.items.map((v, i) => (
-        <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.7rem" }}>
+        <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
           <Mark s={v.title} /><h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p>
         </div>
       ))}
@@ -52,7 +52,7 @@ export const AudienceBordered: React.FC<Props> = ({ content }) => (
 export const AudienceTiles: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.2rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.45rem" }}>
       {content.items.map((v, i) => (
         <div key={i} className="ds-card" style={{ gridColumn: i === 0 ? "span 2" : "span 1", background: i === 0 ? "var(--ds-primary-soft)" : "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: i === 0 ? "2rem" : "1.5rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <h3 style={{ ...titleS, fontSize: i === 0 ? "1.4rem" : "1.1rem" }}>{v.title}</h3><p style={{ ...bodyS, color: "var(--ds-text)" }}>{v.body}</p>
@@ -66,9 +66,9 @@ export const AudienceTiles: React.FC<Props> = ({ content }) => (
 export const AudienceRows: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-    <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
       {content.items.map((v, i) => (
-        <div key={i} className="ds-card" style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.1rem", alignItems: "start", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem" }}>
+        <div key={i} className="ds-card" style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.35rem", alignItems: "start", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem" }}>
           <Mark s={v.title} /><div style={{ display: "flex", flexDirection: "column", gap: "0.35rem" }}><h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p></div>
         </div>
       ))}
@@ -92,7 +92,7 @@ export const AudienceSplitIntro: React.FC<Props> = ({ content }) => (
 export const AudienceBigLetter: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.4rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.65rem" }}>
       {content.items.map((v, i) => (
         <div key={i} className="ds-card" style={{ position: "relative", overflow: "hidden", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <span aria-hidden style={{ position: "absolute", top: "-0.8rem", right: "0.4rem", fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "4.2rem", color: "var(--ds-primary-soft)", lineHeight: 1 }}>{initial(v.title)}</span>
@@ -109,7 +109,7 @@ export const AudienceChecklist: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
     <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 2)}, minmax(0,1fr))`, gap: "1.2rem 2.4rem" }}>
       {content.items.map((v, i) => (
-        <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "0.9rem", alignItems: "start", padding: "0.6rem 0" }}>
+        <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.15rem", alignItems: "start", padding: "0.6rem 0" }}>
           <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700, fontSize: "1.1rem", lineHeight: 1.3 }}><Icon name="check" size={16} /></span>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.3rem" }}><h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p></div>
         </div>
@@ -124,7 +124,7 @@ export const AudienceTwoCol: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: "1.2rem 2.4rem" }}>
       {content.items.map((v, i) => (
-        <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1rem", alignItems: "start", padding: "0.6rem 0" }}>
+        <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.25rem", alignItems: "start", padding: "0.6rem 0" }}>
           <Mark s={v.title} /><div style={{ display: "flex", flexDirection: "column", gap: "0.3rem" }}><h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p></div>
         </div>
       ))}
@@ -150,7 +150,7 @@ export const AudienceDark: React.FC<Props> = ({ content }) => (
     <div style={{ textAlign: "center", marginBottom: "2rem" }}>
       <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-bg)", margin: 0 }}>{content.heading}</h2>
     </div>
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.2rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.45rem" }}>
       {content.items.map((v, i) => (
         <div key={i} style={{ border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <Mark s={v.title} light /><h3 style={{ ...titleS, color: "var(--ds-bg)" }}>{v.title}</h3><p style={{ ...bodyS, color: "rgba(255,255,255,0.9)" }}>{v.body}</p>
@@ -164,7 +164,7 @@ export const AudienceDark: React.FC<Props> = ({ content }) => (
 export const AudienceTinted: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.2rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.45rem" }}>
       {content.items.map((v, i) => (
         <div key={i} className="ds-card" style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <h3 style={titleS}>{v.title}</h3><p style={{ ...bodyS, color: "var(--ds-text)" }}>{v.body}</p>
@@ -178,9 +178,9 @@ export const AudienceTinted: React.FC<Props> = ({ content }) => (
 export const AudiencePillHeaders: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.2rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.45rem" }}>
       {content.items.map((v, i) => (
-        <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.7rem", alignItems: "flex-start" }}>
+        <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.95rem", alignItems: "flex-start" }}>
           <span style={{ background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", borderRadius: "var(--ds-radius-pill)", padding: "0.4rem 0.9rem", fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "0.92rem" }}>{v.title}</span>
           <p style={bodyS}>{v.body}</p>
         </div>
@@ -196,8 +196,8 @@ export const AudienceFeatureFirst: React.FC<Props> = ({ content }) => {
   return (
     <section style={sectionBase}><Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-      <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.1fr) minmax(0,1fr)", gap: "1.6rem", alignItems: "start" }}>
-        <div className="ds-card" style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "2rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.1fr) minmax(0,1fr)", gap: "1.85rem", alignItems: "start" }}>
+        <div className="ds-card" style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "2rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}>
           <Mark s={first.title} /><h3 style={{ ...titleS, fontSize: "1.4rem" }}>{first.title}</h3><p style={{ ...bodyS, color: "var(--ds-text)" }}>{first.body}</p>
         </div>
         <div>{rest.map((v, i) => (
@@ -232,7 +232,7 @@ export const AudienceAccordion: React.FC<Props> = ({ content }) => {
       <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
         {content.items.map((v, i) => (
           <div key={i} style={{ borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
-            <button type="button" aria-expanded={open === i} aria-controls={`${uid}-p${i}`} onClick={() => setOpen(open === i ? -1 : i)} style={{ width: "100%", textAlign: "left", background: open === i ? "var(--ds-bg)" : "transparent", border: "none", cursor: "pointer", padding: "1.1rem 1.4rem", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
+            <button type="button" aria-expanded={open === i} aria-controls={`${uid}-p${i}`} onClick={() => setOpen(open === i ? -1 : i)} style={{ width: "100%", textAlign: "left", background: open === i ? "var(--ds-bg)" : "transparent", border: "none", cursor: "pointer", padding: "1.1rem 1.4rem", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1.25rem" }}>
               <span style={titleS}>{v.title}</span><span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 1, display: "inline-flex" }}>{open === i ? <Icon name="minus" size={18} /> : <Icon name="plus" size={18} />}</span>
             </button>
             {open === i && <p id={`${uid}-p${i}`} role="region" style={{ ...bodyS, padding: "0 1.4rem 1.2rem" }}>{v.body}</p>}
@@ -247,7 +247,7 @@ export const AudienceAccordion: React.FC<Props> = ({ content }) => {
 export const AudienceAlternating: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 900px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-    <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.45rem" }}>
       {content.items.map((v, i) => {
         const right = i % 2 === 1;
         return (
@@ -266,7 +266,7 @@ export const AudienceAlternating: React.FC<Props> = ({ content }) => (
 export const AudienceBanner: React.FC<Props> = ({ content }) => (
   <section style={{ background: "var(--ds-primary-soft)", paddingBlock: "var(--ds-section-y)" }}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", justifyContent: "center" }}>
+    <div style={{ display: "flex", flexWrap: "wrap", gap: "1.25rem", justifyContent: "center" }}>
       {content.items.map((v, i) => (
         <div key={i} className="ds-card" style={{ flex: "1 1 14rem", maxWidth: "20rem", background: "var(--ds-bg)", borderRadius: "var(--ds-radius)", padding: "1.4rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p>
@@ -280,7 +280,7 @@ export const AudienceBanner: React.FC<Props> = ({ content }) => (
 export const AudienceRail: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-    <div style={{ display: "flex", gap: "1.2rem", overflowX: "auto", scrollSnapType: "x mandatory", paddingBottom: "0.6rem" }}>
+    <div style={{ display: "flex", gap: "1.45rem", overflowX: "auto", scrollSnapType: "x mandatory", paddingBottom: "0.6rem" }}>
       {content.items.map((v, i) => (
         <div key={i} className="ds-card" style={{ flex: "0 0 74%", maxWidth: "300px", scrollSnapAlign: "start", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <Mark s={v.title} /><h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p>
@@ -294,9 +294,9 @@ export const AudienceRail: React.FC<Props> = ({ content }) => (
 export const AudienceDots: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.4rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.65rem" }}>
       {content.items.map((v, i) => (
-        <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.7rem" }}>
+        <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.95rem" }}>
           <span style={{ width: "0.9rem", height: "0.9rem", borderRadius: "9999px", background: "var(--ds-primary)" }} />
           <h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p>
         </div>
@@ -312,7 +312,7 @@ export const AudienceQuote: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
       {content.items.map((v, i) => (
-        <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1rem", alignItems: "start", paddingBlock: "1.4rem", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
+        <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.25rem", alignItems: "start", paddingBlock: "1.4rem", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
           <Mark s={v.title} />
           <div style={{ display: "flex", flexDirection: "column", gap: "0.3rem" }}>
             <h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p>
@@ -327,7 +327,7 @@ export const AudienceQuote: React.FC<Props> = ({ content }) => (
 export const AudienceTopAccent: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.2rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: cols(content.items.length), gap: "1.45rem" }}>
       {content.items.map((v, i) => (
         <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderTop: "3px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
           <h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p>
@@ -343,7 +343,7 @@ export const AudienceInlineList: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <dl style={{ margin: 0 }}>
       {content.items.map((v, i) => (
-        <div key={i} style={{ display: "grid", gridTemplateColumns: "minmax(0,0.6fr) minmax(0,1fr)", gap: "1.4rem", padding: "1rem 0", borderTop: "1px solid var(--ds-border)" }}>
+        <div key={i} style={{ display: "grid", gridTemplateColumns: "minmax(0,0.6fr) minmax(0,1fr)", gap: "1.65rem", padding: "1rem 0", borderTop: "1px solid var(--ds-border)" }}>
           <dt style={{ ...titleS, fontSize: "1rem" }}>{v.title}</dt><dd style={{ ...bodyS, margin: 0 }}>{v.body}</dd>
         </div>
       ))}
@@ -359,11 +359,11 @@ export const AudiencePhotoSplit: React.FC<Props> = ({ content }) =>
     <section style={sectionBase}><Container>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,0.95fr) minmax(0,1.05fr)", gap: "clamp(1.8rem, 4vw, 3.4rem)", alignItems: "center" }}>
         <div aria-hidden style={{ minHeight: "clamp(280px, 34vw, 440px)", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", boxShadow: "var(--ds-shadow-card)", backgroundImage: `url("${content.image}")`, backgroundSize: "cover", backgroundPosition: "center" }} />
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.45rem" }}>
           <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-          <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {content.items.map((v, i) => (
-              <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1rem", alignItems: "start" }}>
+              <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.25rem", alignItems: "start" }}>
                 <Mark s={v.title} />
                 <div style={{ display: "flex", flexDirection: "column", gap: "0.3rem" }}><h3 style={titleS}>{v.title}</h3><p style={bodyS}>{v.body}</p></div>
               </div>

@@ -27,7 +27,7 @@ import { firmHeadings } from "../content/sectionHeads";
 import { stockPick, STOCK_TOPICS } from "./pitchStock";
 import type { SiteContent } from "../content/types";
 
-import { Nav } from "../structures/Nav";
+import { Nav, navHeightRem } from "../structures/Nav";
 import { TrustBar } from "../structures/TrustBar";
 import { Services } from "../structures/Services";
 import { Values } from "../structures/Values";
@@ -52,6 +52,48 @@ const genericHash = (s: string): number => { let h = 0; for (let i = 0; i < s.le
 /** Drop a redundant bilingual role echo ("Geschäftsführer | CEO" → "Geschäftsführer").
  *  Splits on " | " only — legitimate slash roles ("RAB/zugel. Revisor") stay intact. */
 const cleanRole = (r?: string): string => { const v = (r ?? "").trim(); return v.split(" | ")[0].trim() || v; };
+
+/** Cold-acquisition PLACEHOLDER trust strip: the firm's real association/regulator
+ *  badges are stripped (asserting unverified credentials in their name on an unsolicited
+ *  mock), but the section shouldn't vanish — so it shows generic professional STANDARDS
+ *  (true for any compliant Treuhänder, not a specific membership claim) as text marks. */
+const PITCH_TRUST = { label: "Standards & Compliance", items: ["Abschluss nach OR", "Swiss GAAP FER", "MWST · ESTV-konform", "nDSG-konform", "Treuhand-Qualität"] };
+
+// ─── Price removal (user rule: prices are never published) ───────────────────────────
+// A QUOTE of what the firm CHARGES — "ab CHF 240/Monat", "CHF 35/Mt.", "ab CHF 150.–",
+// "CHF 160 pro Monat". Deliberately NOT a tax/legal threshold ("CHF 100'000 Jahresumsatz")
+// or a rhetorical figure ("mit CHF 0 bewertet"): those carry no per-period / .– charge
+// suffix, so they're kept as real information.
+const PRICE_QUOTE = /(?:ab\s+)?(?:CHF|Fr\.?)\s?\d[\d'’.\s–-]*(?:\.\s?[–-]|\s?\/\s?(?:Monat|Mt\.?|Jahr|Std\.?|Stunde|h)\b|\s?pro\s+(?:Monat|Jahr|Stunde))/i;
+const PRICE_PAREN = /\s*\([^)]*(?:CHF|Fr\.)\s?\d[^)]*\)/gi; // inline "(ab CHF 35/Mt.)"
+
+/** Strip price quotes from prose: drop a parenthetical price, then any whole SENTENCE that
+ *  quotes a price, then tidy whitespace/punctuation. Tax thresholds are left untouched. */
+function stripPriceText(s?: string): string {
+  if (!s) return s ?? "";
+  const t = s.replace(PRICE_PAREN, "")
+    .split(/(?<=[.!?])\s+/).filter((sent) => !PRICE_QUOTE.test(sent)).join(" ");
+  return t.replace(/\s{2,}/g, " ").replace(/\s+([.,;:])/g, "$1").trim();
+}
+
+/** Remove every published price from a brief: pricing tiers, per-service price tags + price
+ *  bullets, and price quotes woven into hero/service/audience prose and FAQ (a whole FAQ item
+ *  is dropped when its question or answer quotes a price). */
+function scrubPrices(c: SiteContent): SiteContent {
+  return {
+    ...c,
+    hero: { ...c.hero, lede: stripPriceText(c.hero?.lede) },
+    services: { ...c.services, items: (c.services?.items ?? []).map((s) => ({
+      ...s, price: undefined,
+      summary: stripPriceText(s.summary),
+      body: s.body ? stripPriceText(s.body) : s.body,
+      bullets: (s.bullets ?? []).filter((b) => !PRICE_QUOTE.test(b)),
+    })) },
+    audience: c.audience ? { ...c.audience, items: (c.audience.items ?? []).map((a) => ({ ...a, body: a.body ? stripPriceText(a.body) : a.body })) } : c.audience,
+    faq: { ...c.faq, items: (c.faq?.items ?? []).filter((q) => !PRICE_QUOTE.test(q.a ?? "") && !PRICE_QUOTE.test(q.q ?? "")) },
+    pricing: { ...c.pricing, tiers: [] },
+  };
+}
 
 export interface SiteRouterProps {
   content: SiteContent;
@@ -95,6 +137,12 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   // disjoint (team photos exempt). Applied once before planning/rendering.
   const content = React.useMemo(() => {
     let c = dedupeImages(rawContent);
+    // Prices are never published (user rule — Treuhänder don't list prices, and any
+    // scraped tier is generic/fabricated): drop pricing tiers (→ pricing section & /preise
+    // page dropped), per-service price tags + price bullets, and price quotes woven into
+    // hero/service/audience prose and FAQ. Tax thresholds (CHF without a charge suffix) stay.
+    // Applied before the pitch/real branch so it holds in both modes.
+    c = scrubPrices(c);
     const k = imageSeed ?? 0;
     if (!pitch) {
       // Real-image re-roll: rotate the firm's own photo pools so a different photo
@@ -134,11 +182,12 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
       // a missing pick leaves it undefined (no image) — never a real firm photo.
       services: { ...c.services, items: (c.services?.items ?? []).map((s) => ({ ...s, image: svcImgs[s.title] })) },
       team: { ...c.team, members: (c.team?.members ?? []).map((m) => ({ ...m, photo: undefined })) },
-      // Cold-acquisition: also drop the TEXT trust items (association memberships,
-      // RAB/revisor admissions, third-party software brands) — on an unsolicited
-      // mock these assert unverified credentials in the firm's name. The image
-      // badges are cleared below too, so the partners slot then drops entirely.
-      trust: { ...c.trust, items: [], label: "" },
+      // Cold-acquisition: swap the firm's REAL trust items (association memberships,
+      // RAB/revisor admissions, third-party software brands) — which would assert
+      // unverified credentials in their name — for GENERIC placeholder standards, so
+      // the references/partners strip stays populated instead of vanishing. The image
+      // badges are cleared below (no fabricated logos); the placeholders render as text.
+      trust: { ...c.trust, items: PITCH_TRUST.items, label: PITCH_TRUST.label },
       media: {
         ...c.media,
         logo: undefined, logoLight: undefined, hero: heroImg,
@@ -287,15 +336,30 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   // Home feature bands draw from the scene pool PAST the header range AND the reserved
   // service-detail slot, so a band never reuses a subpage header image (until it wraps).
   const featureImageAt = (ord: number): string | undefined => sceneAt(sceneHeaderPages.length + 1 + ord);
-  const imageHeroIds = ["hero/image-centered", "hero/image-split", "hero/image-full"];
   const resolvedHeroId = heroId ?? plan.heroId;
+  const isHomePage = page.pageType === "home";
+  // The HOME hero must ALWAYS be a full-FRAME image hero — the image fills the ENTIRE hero
+  // (full height AND width, as the section background), never a text-only / small-image-card
+  // / half-width-split hero. Only the full-bleed variants qualify; keep the planned hero when
+  // it is one of those AND a photo exists, otherwise force the full-bleed HeroImageFull. A
+  // half-width split leaves vertical gaps from the section padding, so it is deliberately NOT
+  // accepted here. content.hero.image is always set in pitch mode (stock) and by extract in
+  // real mode; only a truly image-less firm falls through to HeroImageFull's own gradient.
+  const FULLBLEED_HEROES = new Set(["hero/image-full", "hero/image-centered"]);
+  const homeFullImageHero = FULLBLEED_HEROES.has(resolvedHeroId) && !!content.hero.image;
   const homeImaged =
-    (imageHeroIds.includes(resolvedHeroId) && !!content.hero.image)
+    homeFullImageHero
     || content.services.items.some((x) => x.image)
     || content.team.members.some((m) => m.photo)
     || (content.media?.badges?.length ?? 0) > 0
     || (content.media?.photos?.length ?? 0) >= 2;
-  const HeroComp = (page.pageType === "home" && !homeImaged) ? HeroImageFull : Hero;
+  const HeroComp = (isHomePage && !homeFullImageHero) ? HeroImageFull : Hero;
+  // Tone of the home hero behind the transparent floating header — a DARK hero (full-bleed
+  // image under a black scrim) needs light header text. NB: "image-centered" is NOT here —
+  // it renders a near-WHITE scrim with DARK text, so the header must stay dark over it.
+  // A tone-matched scrim in Nav guarantees legibility even if a hero is mis-toned.
+  const DARK_HOME_HEROES = new Set(["hero/gradient", "hero/image-full", "hero/spotlight", "hero/dark-split"]);
+  const homeHeroDark = isHomePage && (HeroComp === HeroImageFull || DARK_HOME_HEROES.has(resolvedHeroId));
 
   // top-level nav links (exclude legal + repeatable detail pages). "contact" is
   // dropped too: the nav CTA button already routes to /kontakt, so a separate
@@ -363,14 +427,27 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   const bioFreq: Record<string, number> = {};
   (content.team?.members ?? []).forEach((m) => { if (m.bio?.trim()) bioFreq[normHead(m.bio)] = (bioFreq[normHead(m.bio)] ?? 0) + 1; });
   const dedupMembers = <T extends { bio?: string }>(members: T[]): T[] => members.map((m) => (m.bio && bioFreq[normHead(m.bio)] >= 2 ? { ...m, bio: "" } : m));
-  // The footer tagline cloned the hero lede on most firms — replace that echo with a
-  // concise, real service line (Buchhaltung · Steuern · …).
   const footerContent = (() => {
     const f = content.footer;
-    if (f.tagline && normHead(f.tagline) === normHead(content.hero?.lede)) {
-      return { ...f, tagline: svcItems.slice(0, 3).map((s) => s.title).filter(Boolean).join(" · ") };
-    }
-    return f;
+    // The "Sitemap" column must mirror the ACTUAL resolved page set — not the list
+    // extract.ts baked in at scrape time. Pages are synthesised (/ueber-uns) or dropped
+    // (no team, no about, or the never-existing "Offene Stellen" jobs page) per firm, so
+    // the static list could link a missing page or omit a real one. Rebuild it from
+    // `pages` (the same authority the nav uses): every navigable top-level page with its
+    // real slug. Legal lives in its own "Rechtliches" column; service-detail pages are
+    // children of /leistungen; the home is reached via the brand mark, not the list.
+    // Kontakt IS listed here (the footer is the one place we surface it — the nav drops it
+    // because its CTA button already routes there).
+    const sitemapLinks = pages
+      .filter((p) => !["home", "legal", "service-detail"].includes(p.pageType))
+      .map((p) => ({ label: pageTypes[p.pageType]?.name ?? p.title, href: p.slug }));
+    const columns = f.columns.map((col) => (col.title === "Sitemap" ? { ...col, links: sitemapLinks } : col));
+    // The footer tagline cloned the hero lede on most firms — replace that echo with a
+    // concise, real service line (Buchhaltung · Steuern · …).
+    const tagline = f.tagline && normHead(f.tagline) === normHead(content.hero?.lede)
+      ? svcItems.slice(0, 3).map((s) => s.title).filter(Boolean).join(" · ")
+      : f.tagline;
+    return { ...f, columns, tagline };
   })();
   // The hero aside is a quote slot. Don't show a quote there that the page already shows
   // elsewhere: the Testimonials section is the canonical home for a real testimonial, and
@@ -386,7 +463,10 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
     const hn = nz(full), fn = nz(brand);
     const isName = !!fn && (hn === fn || (hn.includes(fn) && hn.replace(fn, " ").replace(/\b(ag|gmbh|kg|sa|sarl|gruppe|partner|treuhand|in|im|bei|zur|und|der|die|das|zh|be|lu|sg|tg|ar|sz|zg)\b/g, " ").replace(/\s+/g, " ").trim().split(" ").filter(Boolean).length <= 1));
     const isLower = !!full && !/[A-ZÄÖÜ]/.test(full);
-    let hero = (isName || isLower) ? { ...h, titleLead: "Ihre Finanzen,", titleAccent: "klar geführt.", titleTail: "" } : h;
+    // A generic CMS section/nav label scraped as the headline ("Unsere Dienstleistungen",
+    // "Willkommen", "Home", "Über uns" …) is no headline either — swap in the benefit scaffold.
+    const isGeneric = /^(herzlich\s+willkommen|willkommen|home|start(seite)?|unsere\s+(dienstleistungen|leistungen|angebote?|services|kompetenzen|tätigkeiten)|dienstleistungen|leistungen|angebote?|services|kompetenzen|über\s+uns|aktuelles?|news|kontakt|treuhand|ihre\s+treuhand)$/i.test(full.trim());
+    let hero = (isName || isLower || isGeneric) ? { ...h, titleLead: "Ihre Finanzen,", titleAccent: "klar geführt.", titleTail: "" } : h;
     // (2) clip an over-long lede on a clean word boundary. Tightened to ~150 chars
     // (≈ 22 words) — the UI/UX taste-skill caps hero subtext at ~20 words; the old
     // 180-char bound still let some ledes run long (treuhandschmid hit 97 words).
@@ -404,9 +484,9 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
 
   const renderSlot = (s: string, i: number): React.ReactNode => {
     switch (s) {
-      case "nav": return <Nav key={i} content={navContent} current={page.slug} />;
+      case "nav": return <Nav key={i} content={navContent} current={page.slug} overHero={isHome} heroTone={homeHeroDark ? "dark" : "light"} />;
       case "footer": return <Footer key={i} content={footerContent} />;
-      case "hero": return <HeroComp key={i} content={heroContent} />;
+      case "hero": return <div key={i} className="ds-home-hero"><HeroComp content={heroContent} /></div>;
       case "page-header": { const PH = pageHeaderById(plan.pageHeaderId).component; return <PH key={i} title={page.title} image={headerImageFor(page)} />; }
       case "services": { const C = sectionComponent("services", renderPlan) ?? Services; const { items, more } = sectionTeaser("services", content.services.items); return <C key={i} content={{ ...content.services, ...heads.services, heading: ddh(heads.services.heading), items }} more={more} onPick={servicePick} />; }
       case "service-body": {
@@ -593,7 +673,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
   const isImageSection = (slot: string, secs: Record<string, string> = activePlan.sections): boolean => {
     switch (slot) {
       case "feature": case "gallery": return true;
-      case "hero": return !!content.hero?.image && (imageHeroIds.includes(resolvedHeroId) || !homeImaged);
+      case "hero": return !!content.hero?.image;   // the home hero is now always a full-height image hero when a photo exists
       case "page-header": return /image-/.test(plan.pageHeaderId) && !!headerImageFor(page);
       case "team": return content.team.members.some((m) => m.photo) && secs.team !== "team/plain";
       case "services": return secs.services === "services/media-cards";
@@ -658,7 +738,7 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
     /\/(photo|image)/.test(renderPlan.sections[slot] ?? "") ? (isHome ? homeSceneAt(i) : serviceHeaderImage) : undefined;
 
   return (
-    <div className="ds-motion" data-motion={motionStyle ?? motionStyleForKit(plan.kitId)} style={applyLook(look)}>
+    <div className="ds-motion" data-motion={motionStyle ?? motionStyleForKit(plan.kitId)} style={{ ...applyLook(look), ["--ds-nav-h" as string]: navHeightRem(navContent.brand) } as React.CSSProperties}>
       <ResponsiveStyles />
       <MotionStyles />
       <IconSetProvider value={iconSetById(plan.iconSetId)}>
@@ -669,9 +749,13 @@ export const SiteRouter: React.FC<SiteRouterProps> = ({ content: rawContent, arc
           {rhythmSections.map((s, i) => {
             const node = renderSlot(s, i);
             if (!node) return null;
-            // nav is sticky — wrapping it in a transform would break sticky; render raw
-            if (s === "nav" || s === "footer") return <React.Fragment key={i}>{node}</React.Fragment>;
-            return <Reveal key={i}>{node}</Reveal>;
+            // nav is sticky and the home hero pulls itself up under it — a transform
+            // ancestor would break sticky positioning AND the negative-margin overlay,
+            // so both (plus the footer) render raw. The hero is in view at once anyway.
+            if (s === "nav" || s === "footer" || s === "hero") return <React.Fragment key={i}>{node}</React.Fragment>;
+            // --ds-section-gap is the guaranteed MINIMUM separation between sections (incl.
+            // the first one under the full-bleed hero) — see applyLook.
+            return <Reveal key={i} style={{ marginTop: "var(--ds-section-gap)" }}>{node}</Reveal>;
           })}
         </NavigationContext.Provider>
       </SectionAlignProvider>

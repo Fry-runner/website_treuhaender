@@ -13,7 +13,7 @@ export const Faq: React.FC<{ content: FaqContent }> = ({ content }) => (
       <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
         {content.items.map((f, i) => (
           <details key={i} className="ds-faq-d" style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", background: "var(--ds-surface)", padding: "1rem 1.2rem" }}>
-            <summary style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "1rem", fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", color: "var(--ds-text)", cursor: "pointer", listStyle: "none" }}>
+            <summary style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "1.25rem", fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", color: "var(--ds-text)", cursor: "pointer", listStyle: "none" }}>
               <span>{f.q}</span>
               <span className="ds-faq-chev" aria-hidden style={{ color: "var(--ds-text-muted)", display: "inline-flex", flexShrink: 0 }}><Icon name="chevronDown" size={18} /></span>
             </summary>

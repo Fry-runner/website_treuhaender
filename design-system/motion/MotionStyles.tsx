@@ -136,6 +136,19 @@ const CSS = `
   }
   .ds-motion .ds-nav-links[data-navlink="dot"] .ds-nav-link:hover::after,
   .ds-motion .ds-nav-links[data-navlink="dot"] .ds-nav-link[aria-current="page"]::after { transform: translateX(-50%) scale(1); }
+
+  /* ── Floating over the home hero (pre-scroll): suppress the per-firm link INDICATOR so no
+     stray brand-colour block — the pill's soft fill, a coloured under/top-bar, the dot —
+     sits on the transparent header. The subpage links read as quiet, see-through text and
+     only gain their indicator (+ full opacity) once the header turns solid on scroll, when
+     Nav drops data-floating. The CTA is a .ds-btn (not a .ds-nav-link), so it stays the
+     solid brand button throughout. :not([data-open]) exempts the mobile dropdown — a solid
+     panel that should keep showing the current-page indicator normally. */
+  .ds-motion .ds-nav-links[data-floating="true"]:not([data-open="true"]) .ds-nav-link { opacity: 0.6; transition: opacity var(--ds-hover-dur,200ms) var(--ds-ease-hover,var(--ds-ease,ease)); }
+  .ds-motion .ds-nav-links[data-floating="true"]:not([data-open="true"]) .ds-nav-link::after { opacity: 0; }
+  .ds-motion .ds-nav-links[data-floating="true"]:not([data-open="true"]) .ds-nav-link:hover { opacity: 1; }
+  .ds-motion .ds-nav-links[data-floating="true"]:not([data-open="true"]) .ds-nav-link:hover,
+  .ds-motion .ds-nav-links[data-floating="true"]:not([data-open="true"]) .ds-nav-link[aria-current="page"] { background: transparent; }
 }
 `;
 

@@ -27,8 +27,8 @@ const meta = (t: Testimonial) => [t.company, t.city].filter(Boolean).join(" · "
 export const Testimonials: React.FC<{ content: TestimonialsContent }> = ({ content }) => (
   <section style={{ background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "1rem", marginBottom: "2.2rem" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "1.25rem", marginBottom: "2.2rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <h2 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display-h2, 2rem)", letterSpacing: "var(--ds-headline-tracking)", color: "var(--ds-text)", margin: 0 }}>
             {content.heading}
@@ -41,9 +41,9 @@ export const Testimonials: React.FC<{ content: TestimonialsContent }> = ({ conte
         </div>
       </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.45rem" }}>
         {content.items.map((t, i) => (
-          <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.98rem", lineHeight: 1.55, color: "var(--ds-text)" }}>
               “{t.quote}”
             </blockquote>

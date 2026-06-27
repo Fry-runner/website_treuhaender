@@ -32,7 +32,7 @@ export const HistoryTimeline: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow="" heading={content.heading} />
     <div>
       {content.entries.map((e, i) => (
-        <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.2rem" }}>
+        <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.45rem" }}>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <span style={yearChip}>{e.year}</span>
             {i < content.entries.length - 1 && <span aria-hidden style={{ flex: 1, width: 2, background: "var(--ds-border)", minHeight: "1.4rem" }} />}
@@ -50,7 +50,7 @@ export const HistoryRows: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow="" heading={content.heading} />
     <div>
       {content.entries.map((e, i) => (
-        <div key={i} style={{ display: "grid", gridTemplateColumns: "minmax(0,0.32fr) minmax(0,1.68fr)", gap: "1.6rem", alignItems: "baseline", padding: "1.3rem 0", borderTop: "1px solid var(--ds-border)" }}>
+        <div key={i} style={{ display: "grid", gridTemplateColumns: "minmax(0,0.32fr) minmax(0,1.68fr)", gap: "1.85rem", alignItems: "baseline", padding: "1.3rem 0", borderTop: "1px solid var(--ds-border)" }}>
           <span style={yearBig}>{e.year}</span>
           <Body e={e} />
         </div>
@@ -79,9 +79,9 @@ export const HistoryDotted: React.FC<Props> = ({ content }) => (
 export const HistoryCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow="" heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.entries.length, 4)}, minmax(0,1fr))`, gap: "1.2rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.entries.length, 4)}, minmax(0,1fr))`, gap: "1.45rem" }}>
       {content.entries.map((e, i) => (
-        <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.7rem" }}>
+        <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
           <span style={yearBig}>{e.year}</span>
           <Body e={e} />
         </div>
@@ -97,7 +97,7 @@ export const HistorySidebar: React.FC<Props> = ({ content }) => (
       <div style={{ position: "sticky", top: "6rem" }}><SectionHead eyebrow="" heading={content.heading} /></div>
       <div>
         {content.entries.map((e, i) => (
-          <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.1rem", alignItems: "baseline", padding: "0.9rem 0", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
+          <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.35rem", alignItems: "baseline", padding: "0.9rem 0", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
             <span style={yearChip}>{e.year}</span>
             <Body e={e} />
           </div>
@@ -111,9 +111,9 @@ export const HistorySidebar: React.FC<Props> = ({ content }) => (
 export const HistoryNumbered: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
     <SectionHead eyebrow="" heading={content.heading} />
-    <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.75rem" }}>
       {content.entries.map((e, i) => (
-        <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.4rem", alignItems: "start" }}>
+        <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.65rem", alignItems: "start" }}>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
             <span aria-hidden style={{ width: "2.6rem", height: "2.6rem", borderRadius: "9999px", background: "var(--ds-primary)", color: "var(--ds-primary-fg, #fff)", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "1.05rem", flexShrink: 0 }}>{i + 1}</span>
             <span style={{ ...yearChip, padding: "0.2rem 0.55rem", fontSize: "0.74rem" }}>{e.year}</span>
@@ -129,9 +129,9 @@ export const HistoryNumbered: React.FC<Props> = ({ content }) => (
 export const HistoryRail: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow="" heading={content.heading} />
-    <div style={{ display: "flex", gap: "1.2rem", overflowX: "auto", scrollSnapType: "x mandatory", paddingBottom: "0.9rem", WebkitOverflowScrolling: "touch" }}>
+    <div style={{ display: "flex", gap: "1.45rem", overflowX: "auto", scrollSnapType: "x mandatory", paddingBottom: "0.9rem", WebkitOverflowScrolling: "touch" }}>
       {content.entries.map((e, i) => (
-        <div key={i} style={{ flex: "0 0 min(280px, 80%)", scrollSnapAlign: "start", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.7rem" }}>
+        <div key={i} style={{ flex: "0 0 min(280px, 80%)", scrollSnapAlign: "start", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
           <span style={yearBig}>{e.year}</span>
           <Body e={e} />
         </div>
@@ -147,13 +147,13 @@ export const HistoryMilestone: React.FC<Props> = ({ content }) => {
     <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 920px)" }}>
       <SectionHead eyebrow="" heading={content.heading} />
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.5fr)", gap: "2.6rem", alignItems: "start" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "0.7rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "0.95rem" }}>
           <div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "3.2rem", color: "var(--ds-primary)", lineHeight: 1 }}>{first?.year}</div>
           {first && <Body e={first} />}
         </div>
         <div>
           {rest.map((e, i) => (
-            <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.1rem", alignItems: "baseline", padding: "0.95rem 0", borderTop: "1px solid var(--ds-border)" }}>
+            <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.35rem", alignItems: "baseline", padding: "0.95rem 0", borderTop: "1px solid var(--ds-border)" }}>
               <span style={yearChip}>{e.year}</span>
               <Body e={e} />
             </div>
@@ -168,9 +168,9 @@ export const HistoryMilestone: React.FC<Props> = ({ content }) => {
 export const HistoryBadgeGrid: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow="" heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1.2rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1.45rem" }}>
       {content.entries.map((e, i) => (
-        <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderTop: "3px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.7rem" }}>
+        <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderTop: "3px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
           <span style={{ ...yearChip, alignSelf: "flex-start" }}>{e.year}</span>
           <Body e={e} />
         </div>

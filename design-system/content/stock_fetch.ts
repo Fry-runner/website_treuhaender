@@ -23,12 +23,12 @@ const STOCK = join(import.meta.dirname, "..", "stock");
 const TOPICS: Record<string, { queries: string[]; cap: number; keep: number }> = {
   // --- HERO / full-bleed grade (the four allowed hero motifs) — enlarged so 50 firms
   //     draw distinct hero images instead of recycling the same three shots ---
-  city:        { queries: ["Zurich Switzerland city", "Zurich skyline aerial", "Zurich Limmat river", "Zurich old town", "Zurich Bahnhofstrasse street", "Zurich lake waterfront", "Zurich financial district", "Zurich Grossmunster", "Zurich tram street", "Geneva Switzerland city"], cap: 1920, keep: 14 },
-  skyline:     { queries: ["financial district skyscrapers", "business district skyline", "city skyline dusk", "modern city skyline", "downtown skyline evening"],            cap: 1920, keep: 8 },
-  architecture:{ queries: ["glass office building facade", "modern architecture facade", "corporate building exterior", "contemporary glass building", "geometric architecture facade", "office tower exterior"],   cap: 1920, keep: 10 },
-  landscape:   { queries: ["Swiss Alps lake panorama", "Switzerland mountains landscape", "lake Zurich panorama", "Swiss Alps mountains", "Switzerland nature panorama", "alpine lake reflection", "Swiss countryside hills"],         cap: 1920, keep: 12 },
-  swiss:       { queries: ["Swiss village town", "Bern old town street", "Lucerne Switzerland old town", "Swiss town panorama", "Zurich Switzerland street", "Basel old town"],                  cap: 1920, keep: 8 },
-  office:      { queries: ["modern office interior", "bright office workspace", "minimal office design", "contemporary office space", "empty office interior", "scandinavian office interior", "open plan office"],                  cap: 1920, keep: 12 },
+  // city/skyline are kept BUSINESS-only (financial district, not touristy old-town/tram)
+  // in case they're re-enabled; the Alpine "landscape" topic is gone (not a Treuhänder motif).
+  city:        { queries: ["Zurich financial district buildings", "Zurich business district", "Zurich Paradeplatz banking district", "Zurich modern office towers", "Zurich Bahnhofstrasse business", "Swiss financial district city", "Zurich downtown skyscrapers", "modern Swiss business district"], cap: 1920, keep: 12 },
+  skyline:     { queries: ["financial district skyscrapers", "business district skyline", "corporate office towers skyline", "modern downtown business district", "glass towers financial district"],            cap: 1920, keep: 8 },
+  architecture:{ queries: ["glass office building facade", "modern corporate building exterior", "corporate headquarters building", "contemporary glass office tower", "geometric office facade", "office tower exterior", "modern business building"],   cap: 1920, keep: 12 },
+  office:      { queries: ["modern office interior", "bright corporate office workspace", "professional office interior", "contemporary open plan office", "minimal corporate office", "empty modern office interior", "scandinavian office workspace", "business meeting room office", "elegant office reception area"], cap: 1920, keep: 16 },
   reception:   { queries: ["modern office reception lobby", "company office entrance interior", "office lobby design", "corporate reception desk"],     cap: 1920, keep: 6 },
   boardroom:   { queries: ["conference room boardroom", "modern meeting room interior", "empty boardroom table"],                                   cap: 1920, keep: 6 },
   desk:        { queries: ["accounting desk calculator", "tax documents desk", "office desk laptop coffee", "desk paperwork pen", "workspace desk top view", "accountant desk numbers"],               cap: 1920, keep: 10 },
@@ -112,6 +112,11 @@ async function run() {
   }
   mkdirSync(STOCK, { recursive: true });
   writeFileSync(join(STOCK, "credits.json"), JSON.stringify(credits, null, 2));
+  // Regenerate compose/stockManifest.json (topic -> [filenames]) that pitchStock reads,
+  // so the fetched files and the manifest never drift out of sync after a re-fetch.
+  const manifest: Record<string, string[]> = {};
+  for (const k of Object.keys(credits)) { const i = k.indexOf("/"); const topic = k.slice(0, i), fn = k.slice(i + 1); (manifest[topic] ??= []).push(fn); }
+  writeFileSync(join(import.meta.dirname, "..", "compose", "stockManifest.json"), JSON.stringify(manifest));
   console.log(`Stock pack: ${total} images across ${Object.keys(TOPICS).length} topics -> ${STOCK}`);
 }
 run();

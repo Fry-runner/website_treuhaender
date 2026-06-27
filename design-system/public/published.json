@@ -1,1 +1,13 @@
-{}
+{
+  "taxalis-ch": {
+    "slug": "taxalis-ch",
+    "firm": "Taxalis Treuhand AG",
+    "domain": "taxalis.ch",
+    "sourceUrl": "https://www.taxalis.ch/",
+    "contactEmail": "info@taxalis.ch",
+    "seed": 0,
+    "pitch": true,
+    "prototypeUrl": "https://treuhand-taxalis-ch.vercel.app",
+    "approvedAt": "2026-06-25T14:48:33.281Z"
+  }
+}

@@ -20,7 +20,7 @@ const Paras: React.FC<{ items: string[]; light?: boolean }> = ({ items, light })
   <>{items.map((p, i) => <p key={i} style={{ ...paraS, ...(light ? { color: "rgba(255,255,255,0.9)" } : {}) }}>{p}</p>)}</>
 );
 const Highlights: React.FC<{ c: AboutContent; light?: boolean }> = ({ c, light }) => !hasHi(c) ? null : (
-  <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(c.highlights!.length, 4)}, minmax(0,1fr))`, gap: "1.2rem" }}>
+  <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(c.highlights!.length, 4)}, minmax(0,1fr))`, gap: "1.45rem" }}>
     {c.highlights!.map((h, i) => (
       <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.2rem" }}>
         <span style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "1.8rem", color: light ? "var(--ds-bg)" : "var(--ds-text)" }}>{h.value}</span>
@@ -34,12 +34,12 @@ const Highlights: React.FC<{ c: AboutContent; light?: boolean }> = ({ c, light }
 export const AboutSplit: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.5fr) minmax(0,1fr)", gap: "2.6rem", alignItems: "start" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.1rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.35rem" }}>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
         <p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} />
       </div>
       {hasHi(content)
-        ? <div style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.2rem" }}>{content.highlights!.map((h, i) => <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.2rem" }}><span style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "2rem", color: "var(--ds-text)" }}>{h.value}</span><span style={{ fontSize: "0.82rem", color: "var(--ds-text-muted)" }}>{h.label}</span></div>)}</div>
+        ? <div style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.45rem" }}>{content.highlights!.map((h, i) => <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.2rem" }}><span style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "2rem", color: "var(--ds-text)" }}>{h.value}</span><span style={{ fontSize: "0.82rem", color: "var(--ds-text-muted)" }}>{h.label}</span></div>)}</div>
         : <p style={{ ...leadS, fontStyle: "italic", color: "var(--ds-text-muted)" }}>{content.lead}</p>}
     </div>
   </Container></section>
@@ -48,7 +48,7 @@ export const AboutSplit: React.FC<Props> = ({ content }) => (
 /** 2) Centered, narrow column. */
 export const AboutCentered: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 720px)" }}>
-    <div style={{ display: "flex", flexDirection: "column", gap: "1.1rem", alignItems: "center", textAlign: "center" }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.35rem", alignItems: "center", textAlign: "center" }}>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
       <p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} />
     </div>
@@ -68,7 +68,7 @@ export const AboutTwoColParagraphs: React.FC<Props> = ({ content }) => (
 export const AboutHighlightsBar: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-    <p style={leadS}>{content.lead}</p><div style={{ marginTop: "0.8rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}><Paras items={content.paragraphs} /></div>
+    <p style={leadS}>{content.lead}</p><div style={{ marginTop: "0.8rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}><Paras items={content.paragraphs} /></div>
     {hasHi(content) && <div style={{ marginTop: "1.8rem", paddingTop: "1.6rem", borderTop: "1px solid var(--ds-border)" }}><Highlights c={content} /></div>}
   </Container></section>
 );
@@ -78,7 +78,7 @@ export const AboutLeadQuote: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 880px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <p style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.6rem", lineHeight: 1.4, color: "var(--ds-text)", margin: "0 0 1.4rem" }}>{content.lead}</p>
-    <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem", maxWidth: "62ch" }}><Paras items={content.paragraphs} /></div>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem", maxWidth: "62ch" }}><Paras items={content.paragraphs} /></div>
   </Container></section>
 );
 
@@ -86,8 +86,8 @@ export const AboutLeadQuote: React.FC<Props> = ({ content }) => (
 export const AboutSidebar: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.6fr)", gap: "3rem", alignItems: "start" }}>
-      <div style={{ position: "sticky", top: "6rem", display: "flex", flexDirection: "column", gap: "1rem" }}><SectionHead eyebrow={content.eyebrow} heading={content.heading} /><p style={paraS}>{content.lead}</p></div>
-      <div style={{ display: "flex", flexDirection: "column", gap: "0.9rem" }}><Paras items={content.paragraphs} />{hasHi(content) && <div style={{ marginTop: "1rem" }}><Highlights c={content} /></div>}</div>
+      <div style={{ position: "sticky", top: "6rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}><SectionHead eyebrow={content.eyebrow} heading={content.heading} /><p style={paraS}>{content.lead}</p></div>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.15rem" }}><Paras items={content.paragraphs} />{hasHi(content) && <div style={{ marginTop: "1rem" }}><Highlights c={content} /></div>}</div>
     </div>
   </Container></section>
 );
@@ -95,7 +95,7 @@ export const AboutSidebar: React.FC<Props> = ({ content }) => (
 /** 7) Bordered box. */
 export const AboutBordered: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 880px)" }}>
-    <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "2.2rem", display: "flex", flexDirection: "column", gap: "1.1rem" }}>
+    <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "2.2rem", display: "flex", flexDirection: "column", gap: "1.35rem" }}>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
       <p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} />
     </div>
@@ -107,7 +107,7 @@ export const AboutDark: React.FC<Props> = ({ content }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)" }}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
     <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 2rem)", color: "var(--ds-bg)", margin: "0 0 1.1rem" }}>{content.heading}</h2>
     <p style={{ ...leadS, color: "var(--ds-bg)" }}>{content.lead}</p>
-    <div style={{ marginTop: "0.8rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}><Paras items={content.paragraphs} light /></div>
+    <div style={{ marginTop: "0.8rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}><Paras items={content.paragraphs} light /></div>
     {hasHi(content) && <div style={{ marginTop: "1.8rem", paddingTop: "1.6rem", borderTop: "1px solid rgba(255,255,255,0.18)" }}><Highlights c={content} light /></div>}
   </Container></section>
 );
@@ -116,8 +116,8 @@ export const AboutDark: React.FC<Props> = ({ content }) => (
 export const AboutTinted: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "2.2rem", display: "grid", gridTemplateColumns: hasHi(content) ? "minmax(0,1.6fr) minmax(0,1fr)" : "1fr", gap: "2rem", alignItems: "start" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}><SectionHead eyebrow={content.eyebrow} heading={content.heading} /><p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} /></div>
-      {hasHi(content) && <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>{content.highlights!.map((h, i) => <div key={i}><div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "1.8rem", color: "var(--ds-text)" }}>{h.value}</div><div style={{ fontSize: "0.8rem", color: "var(--ds-text-muted)" }}>{h.label}</div></div>)}</div>}
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}><SectionHead eyebrow={content.eyebrow} heading={content.heading} /><p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} /></div>
+      {hasHi(content) && <div style={{ display: "flex", flexDirection: "column", gap: "1.45rem" }}>{content.highlights!.map((h, i) => <div key={i}><div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "1.8rem", color: "var(--ds-text)" }}>{h.value}</div><div style={{ fontSize: "0.8rem", color: "var(--ds-text-muted)" }}>{h.label}</div></div>)}</div>}
     </div>
   </Container></section>
 );
@@ -126,7 +126,7 @@ export const AboutTinted: React.FC<Props> = ({ content }) => (
 export const AboutMinimal: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 780px)" }}>
     <p style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.7rem", lineHeight: 1.35, color: "var(--ds-text)", margin: "0.8rem 0 1.4rem" }}>{content.lead}</p>
-    <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}><Paras items={content.paragraphs} /></div>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem" }}><Paras items={content.paragraphs} /></div>
   </Container></section>
 );
 
@@ -136,7 +136,7 @@ export const AboutEyebrowRule: React.FC<Props> = ({ content }) => (
     <div style={{ borderTop: "2px solid var(--ds-text)", paddingTop: "1.2rem" }}>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.4fr)", gap: "2.4rem", alignItems: "start" }}>
         <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display-h2, 1.9rem)", lineHeight: 1.15, color: "var(--ds-text)", margin: 0 }}>{content.heading}</h2>
-        <div style={{ display: "flex", flexDirection: "column", gap: "0.9rem" }}><p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} /></div>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.15rem" }}><p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} /></div>
       </div>
     </div>
   </Container></section>
@@ -147,7 +147,7 @@ export const AboutColumns: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
     <p style={{ ...leadS, textAlign: "center", maxWidth: "60ch", margin: "0 auto 1.8rem" }}>{content.lead}</p>
-    <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.paragraphs.length, 3) || 1}, minmax(0,1fr))`, gap: "1.6rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.paragraphs.length, 3) || 1}, minmax(0,1fr))`, gap: "1.85rem" }}>
       {content.paragraphs.map((p, i) => <div key={i} style={{ borderTop: "2px solid var(--ds-primary)", paddingTop: "1rem" }}><p style={paraS}>{p}</p></div>)}
     </div>
   </Container></section>
@@ -157,11 +157,11 @@ export const AboutColumns: React.FC<Props> = ({ content }) => (
 export const AboutHighlightsCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 880px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    {hasHi(content) && <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.highlights!.length, 4)}, minmax(0,1fr))`, gap: "1rem", marginBottom: "1.8rem" }}>
+    {hasHi(content) && <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.highlights!.length, 4)}, minmax(0,1fr))`, gap: "1.25rem", marginBottom: "1.8rem" }}>
       {content.highlights!.map((h, i) => <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.2rem", textAlign: "center" }}><div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "1.6rem", color: "var(--ds-text)" }}>{h.value}</div><div style={{ fontSize: "0.78rem", color: "var(--ds-text-muted)" }}>{h.label}</div></div>)}
     </div>}
     <p style={{ ...leadS, textAlign: "center", maxWidth: "62ch", margin: "0 auto 1rem" }}>{content.lead}</p>
-    <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem", maxWidth: "62ch", marginInline: "auto" }}><Paras items={content.paragraphs} /></div>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem", maxWidth: "62ch", marginInline: "auto" }}><Paras items={content.paragraphs} /></div>
   </Container></section>
 );
 
@@ -173,7 +173,7 @@ export const AboutFeatureLead: React.FC<Props> = ({ content }) => {
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: "2rem", alignItems: "start" }}>
         <div style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "1.8rem" }}><p style={leadS}>{content.lead}</p>{p0 && <p style={{ ...paraS, marginTop: "0.8rem" }}>{p0}</p>}</div>
-        <div style={{ display: "flex", flexDirection: "column", gap: "0.9rem" }}><Paras items={rest} />{hasHi(content) && <Highlights c={content} />}</div>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.15rem" }}><Paras items={rest} />{hasHi(content) && <Highlights c={content} />}</div>
       </div>
     </Container></section>
   );
@@ -182,7 +182,7 @@ export const AboutFeatureLead: React.FC<Props> = ({ content }) => {
 /** 15) Centered + highlights row beneath. */
 export const AboutCenteredHighlights: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 760px)" }}>
-    <div style={{ display: "flex", flexDirection: "column", gap: "1rem", alignItems: "center", textAlign: "center" }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem", alignItems: "center", textAlign: "center" }}>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
       <p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} />
     </div>
@@ -194,7 +194,7 @@ export const AboutCenteredHighlights: React.FC<Props> = ({ content }) => (
 export const AboutOffset: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <h2 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "var(--ds-display)", lineHeight: 1.05, color: "var(--ds-text)", margin: "0 0 1.6rem", maxWidth: "16ch" }}>{content.heading}</h2>
-    <div style={{ marginLeft: "auto", maxWidth: "60ch", display: "flex", flexDirection: "column", gap: "0.9rem" }}><p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} /></div>
+    <div style={{ marginLeft: "auto", maxWidth: "60ch", display: "flex", flexDirection: "column", gap: "1.15rem" }}><p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} /></div>
   </Container></section>
 );
 
@@ -212,7 +212,7 @@ export const AboutStackedBig: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
     <h2 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "var(--ds-display)", lineHeight: 1.05, color: "var(--ds-text)", margin: "0.6rem 0 1.2rem" }}>{content.heading}</h2>
     <p style={leadS}>{content.lead}</p>
-    <div style={{ marginTop: "0.8rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}><Paras items={content.paragraphs} /></div>
+    <div style={{ marginTop: "0.8rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}><Paras items={content.paragraphs} /></div>
   </Container></section>
 );
 
@@ -221,8 +221,8 @@ export const AboutInlineStats: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <p style={leadS}>{content.lead}</p>
-    <div style={{ marginTop: "0.8rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}><Paras items={content.paragraphs} /></div>
-    {hasHi(content) && <div style={{ marginTop: "1.4rem", display: "flex", gap: "0.8rem", flexWrap: "wrap" }}>{content.highlights!.map((h, i) => <span key={i} style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius-pill)", padding: "0.45rem 1rem", fontSize: "0.82rem", color: "var(--ds-text)" }}><strong>{h.value}</strong> {h.label}</span>)}</div>}
+    <div style={{ marginTop: "0.8rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}><Paras items={content.paragraphs} /></div>
+    {hasHi(content) && <div style={{ marginTop: "1.4rem", display: "flex", gap: "1.05rem", flexWrap: "wrap" }}>{content.highlights!.map((h, i) => <span key={i} style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius-pill)", padding: "0.45rem 1rem", fontSize: "0.82rem", color: "var(--ds-text)" }}><strong>{h.value}</strong> {h.label}</span>)}</div>}
   </Container></section>
 );
 
@@ -230,7 +230,7 @@ export const AboutInlineStats: React.FC<Props> = ({ content }) => (
 export const AboutQuietProse: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 680px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-    <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}><p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} /></div>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}><p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} /></div>
   </Container></section>
 );
 
@@ -239,8 +239,8 @@ export const AboutLeadHighlightsSplit: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.3fr)", gap: "2.4rem", alignItems: "start" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}><p style={leadS}>{content.lead}</p>{hasHi(content) && <Highlights c={content} />}</div>
-      <div style={{ display: "flex", flexDirection: "column", gap: "0.9rem" }}><Paras items={content.paragraphs} /></div>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.45rem" }}><p style={leadS}>{content.lead}</p>{hasHi(content) && <Highlights c={content} />}</div>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.15rem" }}><Paras items={content.paragraphs} /></div>
     </div>
   </Container></section>
 );
@@ -253,7 +253,7 @@ export const AboutMilestones: React.FC<Props> = ({ content }) => (
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
     <p style={{ ...leadS, marginBottom: "1.4rem" }}>{content.lead}</p>
     <div>{content.paragraphs.map((p, i) => (
-      <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.2rem", alignItems: "baseline", padding: "1.1rem 0", borderTop: "1px solid var(--ds-border)" }}>
+      <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.45rem", alignItems: "baseline", padding: "1.1rem 0", borderTop: "1px solid var(--ds-border)" }}>
         <span aria-hidden style={{ fontFamily: "var(--ds-font-mono)", fontSize: "1.1rem", fontWeight: 700, color: "var(--ds-primary)", lineHeight: 1.4, fontVariantNumeric: "tabular-nums" }}>{String(i + 1).padStart(2, "0")}</span>
         <p style={paraS}>{p}</p>
       </div>
@@ -269,7 +269,7 @@ export const AboutPhotoFrame: React.FC<Props> = ({ content }) =>
   content.image ? (
     <section style={sectionBase}><Container>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.1fr) minmax(0,0.9fr)", gap: "clamp(1.8rem, 4vw, 3.4rem)", alignItems: "center" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.1rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.35rem" }}>
           <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
           <p style={leadS}>{content.lead}</p><Paras items={content.paragraphs} />
           {hasHi(content) && <div style={{ marginTop: "0.4rem" }}><Highlights c={content} /></div>}

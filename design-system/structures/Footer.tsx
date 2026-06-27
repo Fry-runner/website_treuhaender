@@ -65,6 +65,9 @@ export const Footer: React.FC<{ content: FooterContent }> = ({ content }) => {
     <div key={c.title} style={{ display: "flex", flexDirection: "column", gap: "0.6rem", alignItems: center ? "center" : "flex-start" }}>
       <div style={colTitle}>{c.title}</div>
       {c.links.map((l) => {
+        // Structured links (the dynamic sitemap column) carry an explicit, already-resolved
+        // route — navigate straight to it instead of re-deriving a slug from the label.
+        if (typeof l === "object") return <a key={l.href} href={l.href} onClick={(e) => { e.preventDefault(); navigate(l.href); }} style={{ ...linkBase, cursor: "pointer" }}>{l.label}</a>;
         const t = hrefFor(l);
         if (t.kind === "mailto" || t.kind === "tel") return <a key={l} href={t.href} style={{ ...linkBase, cursor: "pointer" }}>{l}</a>;
         if (t.kind === "page") return <a key={l} href={t.href} onClick={(e) => { e.preventDefault(); navigate(t.href); }} style={{ ...linkBase, cursor: "pointer" }}>{l}</a>;

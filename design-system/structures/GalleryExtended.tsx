@@ -35,7 +35,7 @@ export const GalleryGrid: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "0.8rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "1.05rem" }}>
           {imgs.map((src, i) => <div key={i} aria-hidden style={{ aspectRatio: "1 / 1", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", ...cover(src) }} />)}
         </div>
       </Container>
@@ -51,7 +51,7 @@ export const GalleryMosaic: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gridAutoRows: "140px", gap: "0.8rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gridAutoRows: "140px", gap: "1.05rem" }}>
           {imgs.map((src, i) => (
             <div key={i} aria-hidden style={{ gridColumn: i === 0 ? "span 2" : "span 1", gridRow: i === 0 ? "span 2" : "span 1", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", ...cover(src) }} />
           ))}
@@ -67,7 +67,7 @@ export const GalleryCarousel: React.FC<Props> = ({ content, more }) => {
   return (
     <section style={sectionBase}>
       <Container><SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} /></Container>
-      <div style={{ display: "flex", gap: "1rem", overflowX: "auto", paddingInline: "var(--ds-gutter)", scrollSnapType: "x mandatory", paddingBottom: "0.6rem" }}>
+      <div style={{ display: "flex", gap: "1.25rem", overflowX: "auto", paddingInline: "var(--ds-gutter)", scrollSnapType: "x mandatory", paddingBottom: "0.6rem" }}>
         {content.images.slice(0, 12).map((src, i) => (
           <div key={i} aria-hidden style={{ flex: "0 0 min(70%, 320px)", height: "240px", scrollSnapAlign: "start", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", ...cover(src) }} />
         ))}
@@ -99,7 +99,7 @@ export const GallerySplitMedia: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.1fr)", gap: "2.6rem", alignItems: "center" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem" }}>
             <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
             {content.images[1] && <div aria-hidden style={{ height: "120px", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", ...cover(content.images[1]) }} />}
           </div>
@@ -133,7 +133,7 @@ export const GalleryLogoStrip: React.FC<Props> = ({ content }) => {
   return (
     <section style={{ background: "var(--ds-surface)", paddingBlock: "calc(var(--ds-section-y) * 0.7)", borderBottom: "1px solid var(--ds-border)" }}>
       <Container>
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.4rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.65rem" }}>
           <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>{content.heading}</span>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "center", gap: "2.4rem" }}>
             {logos.map((src, i) => <img key={i} src={src} alt="" style={{ height: "44px", width: "auto", objectFit: "contain", filter: "grayscale(1)", opacity: 0.8 }} />)}
@@ -173,7 +173,7 @@ export const GalleryDuo: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-        <div style={{ display: "grid", gridTemplateColumns: imgs.length > 1 ? "1fr 1fr" : "1fr", gap: "1rem", height: "340px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: imgs.length > 1 ? "1fr 1fr" : "1fr", gap: "1.25rem", height: "340px" }}>
           {imgs.map((src, i) => <div key={i} aria-hidden style={{ borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", ...cover(src) }} />)}
         </div>
       </Container>
@@ -190,10 +190,10 @@ export const GalleryFeature: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-        <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem" }}>
           <div aria-hidden style={{ height: "380px", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", ...cover(hero) }} />
           {thumbs.length > 0 && (
-            <div style={{ display: "grid", gridTemplateColumns: `repeat(${thumbs.length}, 1fr)`, gap: "0.8rem", height: "110px" }}>
+            <div style={{ display: "grid", gridTemplateColumns: `repeat(${thumbs.length}, 1fr)`, gap: "1.05rem", height: "110px" }}>
               {thumbs.map((src, i) => <div key={i} aria-hidden style={{ borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", ...cover(src) }} />)}
             </div>
           )}

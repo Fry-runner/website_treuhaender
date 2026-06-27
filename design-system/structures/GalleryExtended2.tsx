@@ -38,7 +38,7 @@ export const GalleryCollage: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gridAutoRows: "130px", gap: "0.8rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gridAutoRows: "130px", gap: "1.05rem" }}>
           {imgs.map((src, i) => <div key={i} aria-hidden style={{ ...span(i), borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", ...cover(src) }} />)}
         </div>
       </Container>
@@ -54,7 +54,7 @@ export const GalleryCircles: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1.4rem" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1.65rem" }}>
           {imgs.map((src, i) => <div key={i} aria-hidden style={{ width: "8rem", height: "8rem", borderRadius: "9999px", border: "1px solid var(--ds-border)", boxShadow: "var(--ds-shadow-card)", ...cover(src) }} />)}
         </div>
       </Container>
@@ -70,7 +70,7 @@ export const GalleryPolaroid: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1.4rem" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1.65rem" }}>
           {imgs.map((src, i) => (
             <div key={i} className="ds-img-zoom" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", boxShadow: "var(--ds-shadow-card)", padding: "0.6rem 0.6rem 1.4rem", transform: `rotate(${i % 2 ? 2 : -2}deg)` }}>
               <div className="ds-zoom" aria-hidden style={{ width: "180px", height: "180px", ...cover(src) }} />
@@ -107,7 +107,7 @@ export const GalleryMarquee: React.FC<Props> = ({ content, more }) => {
     <section style={{ ...sectionBase, overflow: "hidden" }}>
       <style>{css}</style>
       <Container><SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} /></Container>
-      <div className="ds-gal-row" style={{ display: "flex", gap: "0.8rem", animation: "ds-gal-marquee 38s linear infinite", willChange: "transform" }}>
+      <div className="ds-gal-row" style={{ display: "flex", gap: "1.05rem", animation: "ds-gal-marquee 38s linear infinite", willChange: "transform" }}>
         {row.map((src, i) => <div key={i} aria-hidden style={{ flex: "0 0 280px", height: "200px", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", ...cover(src) }} />)}
       </div>
     </section>
@@ -122,10 +122,10 @@ export const GalleryShowcase: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-        <div style={{ display: "grid", gridTemplateColumns: imgs.length > 1 ? "minmax(0,1.6fr) minmax(0,1fr)" : "1fr", gap: "0.8rem", height: "420px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: imgs.length > 1 ? "minmax(0,1.6fr) minmax(0,1fr)" : "1fr", gap: "1.05rem", height: "420px" }}>
           <div aria-hidden style={{ borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", ...cover(imgs[0]) }} />
           {imgs.length > 1 && (
-            <div style={{ display: "grid", gridTemplateRows: `repeat(${Math.min(imgs.length - 1, 2)}, 1fr)`, gap: "0.8rem" }}>
+            <div style={{ display: "grid", gridTemplateRows: `repeat(${Math.min(imgs.length - 1, 2)}, 1fr)`, gap: "1.05rem" }}>
               {imgs.slice(1, 3).map((src, i) => <div key={i} aria-hidden style={{ borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", ...cover(src) }} />)}
             </div>
           )}
@@ -147,7 +147,7 @@ export const GalleryFrameSingle: React.FC<Props> = ({ content, more }) => {
           <div aria-hidden style={{ position: "absolute", top: 0, left: 0, width: "70%", height: "70%", border: "1px solid var(--ds-primary)", borderRadius: "var(--ds-radius)" }} />
           <div aria-hidden style={{ position: "relative", height: "420px", borderRadius: "var(--ds-radius)", border: "1px solid var(--ds-border)", boxShadow: "var(--ds-shadow-card)", ...cover(src) }} />
         </div>
-        <div style={{ textAlign: "center", marginTop: "1.2rem", display: "flex", flexDirection: "column", alignItems: "center", gap: "0.9rem" }}>
+        <div style={{ textAlign: "center", marginTop: "1.2rem", display: "flex", flexDirection: "column", alignItems: "center", gap: "1.15rem" }}>
           <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   color: "var(--ds-text-muted)" }}>{content.heading}</span>
           {more && <SectionMore link={more} />}
         </div>
@@ -164,7 +164,7 @@ export const GalleryRoundedGrid: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px,1fr))", gap: "1rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px,1fr))", gap: "1.25rem" }}>
           {imgs.map((src, i) => <div key={i} aria-hidden style={{ aspectRatio: "4 / 3", borderRadius: "1.4rem", border: "1px solid var(--ds-border)", ...cover(src) }} />)}
         </div>
       </Container>

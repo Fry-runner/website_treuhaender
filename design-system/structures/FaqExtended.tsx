@@ -24,7 +24,7 @@ export const FaqNumbered: React.FC<Props> = ({ content }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
       <div>
         {content.items.map((f, i) => (
-          <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.2rem", padding: "1.3rem 0", borderTop: "1px solid var(--ds-border)" }}>
+          <div key={i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.45rem", padding: "1.3rem 0", borderTop: "1px solid var(--ds-border)" }}>
             <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "1rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}>{num(i)}</span>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}><h3 style={q}>{f.q}</h3><p style={a}>{f.a}</p></div>
           </div>
@@ -83,7 +83,7 @@ export const FaqControlled: React.FC<Props> = ({ content }) => {
         <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
           {content.items.map((f, i) => (
             <div key={i} style={{ borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
-              <button aria-expanded={open === i} aria-controls={`${uid}-p${i}`} onClick={() => setOpen(open === i ? -1 : i)} style={{ width: "100%", textAlign: "left", background: open === i ? "var(--ds-surface)" : "var(--ds-bg)", border: "none", cursor: "pointer", padding: "1.1rem 1.4rem", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
+              <button aria-expanded={open === i} aria-controls={`${uid}-p${i}`} onClick={() => setOpen(open === i ? -1 : i)} style={{ width: "100%", textAlign: "left", background: open === i ? "var(--ds-surface)" : "var(--ds-bg)", border: "none", cursor: "pointer", padding: "1.1rem 1.4rem", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1.25rem" }}>
                 <span style={q}>{f.q}</span>
                 <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 1, display: "inline-flex" }}>{open === i ? <Icon name="minus" size={18} /> : <Icon name="plus" size={18} />}</span>
               </button>
@@ -101,7 +101,7 @@ export const FaqCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.45rem" }}>
         {content.items.map((f, i) => (
           <div key={i} className="ds-card" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
             <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontFamily: "var(--ds-font-mono)", fontWeight: 700 }}>?</span>
@@ -136,7 +136,7 @@ export const FaqInlineDl: React.FC<Props> = ({ content }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
       <dl style={{ margin: 0 }}>
         {content.items.map((f, i) => (
-          <div key={i} style={{ display: "grid", gridTemplateColumns: "minmax(0,0.8fr) minmax(0,1.2fr)", gap: "1.6rem", padding: "1.1rem 0", borderTop: "1px solid var(--ds-border)" }}>
+          <div key={i} style={{ display: "grid", gridTemplateColumns: "minmax(0,0.8fr) minmax(0,1.2fr)", gap: "1.85rem", padding: "1.1rem 0", borderTop: "1px solid var(--ds-border)" }}>
             <dt style={q}>{f.q}</dt><dd style={{ ...a, margin: 0 }}>{f.a}</dd>
           </div>
         ))}
@@ -150,7 +150,7 @@ export const FaqBubble: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container style={{ maxWidth: "min(var(--ds-container), 760px)" }}>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.65rem" }}>
         {content.items.map((f, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
             <div style={{ alignSelf: "flex-start", maxWidth: "85%", background: "var(--ds-primary-soft)", color: "var(--ds-text)", borderRadius: "1rem 1rem 1rem 0.2rem", padding: "0.8rem 1.1rem" }}><span style={q}>{f.q}</span></div>
@@ -169,7 +169,7 @@ export const FaqBigQuestions: React.FC<Props> = ({ content }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
       <div style={{ display: "flex", flexDirection: "column", gap: "2.2rem" }}>
         {content.items.map((f, i) => (
-          <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.7rem" }}>
+          <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.95rem" }}>
             <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.5rem", lineHeight: 1.25, color: "var(--ds-text)", margin: 0 }}>{f.q}</h3>
             <p style={{ ...a, fontSize: "1rem", maxWidth: "62ch" }}>{f.a}</p>
           </div>
@@ -190,14 +190,14 @@ export const FaqTwoColAccordion: React.FC<Props> = ({ content }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: "1rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: "1.25rem" }}>
           {cols.map((col, ci) => (
             <div key={ci} style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
               {col.map((f) => {
                 idx += 1; const i = idx;
                 return (
                   <div key={i} style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", background: "var(--ds-surface)", overflow: "hidden" }}>
-                    <button aria-expanded={open === i} aria-controls={`${uid}-p${i}`} onClick={() => setOpen(open === i ? -1 : i)} style={{ width: "100%", textAlign: "left", background: "transparent", border: "none", cursor: "pointer", padding: "0.95rem 1.2rem", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "0.8rem" }}>
+                    <button aria-expanded={open === i} aria-controls={`${uid}-p${i}`} onClick={() => setOpen(open === i ? -1 : i)} style={{ width: "100%", textAlign: "left", background: "transparent", border: "none", cursor: "pointer", padding: "0.95rem 1.2rem", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1.05rem" }}>
                       <span style={q}>{f.q}</span><span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 1, display: "inline-flex" }}>{open === i ? <Icon name="minus" size={16} /> : <Icon name="plus" size={16} />}</span>
                     </button>
                     {open === i && <p id={`${uid}-p${i}`} role="region" style={{ ...a, padding: "0 1.2rem 1.1rem" }}>{f.a}</p>}

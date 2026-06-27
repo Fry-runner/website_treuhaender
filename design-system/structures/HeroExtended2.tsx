@@ -9,7 +9,7 @@ import { Icon } from "../icons/iconSets";
 import type { HeroContent } from "../content/types";
 
 const sectionBase: React.CSSProperties = { background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" };
-const ctaRow: React.CSSProperties = { display: "flex", gap: "0.9rem", flexWrap: "wrap", marginTop: "0.4rem" };
+const ctaRow: React.CSSProperties = { display: "flex", gap: "1.15rem", flexWrap: "wrap", marginTop: "0.4rem" };
 const Title: React.FC<{ c: HeroContent }> = ({ c }) => (<>{c.titleLead} <Accent>{c.titleAccent}</Accent>{c.titleTail ? <> {c.titleTail}</> : null}</>);
 const photo = (src: string): React.CSSProperties => ({ backgroundImage: `url("${src}")`, backgroundSize: "cover", backgroundPosition: "center" });
 
@@ -17,7 +17,7 @@ const photo = (src: string): React.CSSProperties => ({ backgroundImage: `url("${
 export const HeroCenteredCard: React.FC<{ content: HeroContent }> = ({ content }) => (
   <section style={{ background: "var(--ds-primary-soft)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container style={{ maxWidth: "min(var(--ds-container), 860px)" }}>
-      <div style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "clamp(2rem, 5vw, 3.4rem)", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.4rem" }}>
+      <div style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "clamp(2rem, 5vw, 3.4rem)", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.65rem" }}>
         <Eyebrow>{content.eyebrow}</Eyebrow>
         <Heading><Title c={content} /></Heading>
         <Lede style={{ maxWidth: "50ch" }}>{content.lede}</Lede>
@@ -38,14 +38,14 @@ export const HeroSplitReverse: React.FC<{ content: HeroContent }> = ({ content }
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: showAside ? "minmax(0,1fr) minmax(0,2fr)" : "minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
         {showAside && (
-        <aside style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1rem", order: 0 }}>
+        <aside style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.25rem", order: 0 }}>
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem",   color: "var(--ds-text-muted)" }}>{content.asideLabel}</div>
           <p style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.15rem", lineHeight: 1.4, color: "var(--ds-text)", margin: 0, fontStyle: "italic" }}>“{content.asideQuote}”</p>
           <div style={{ height: "2px", width: "2.5rem", background: "var(--ds-primary)" }} />
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.85rem", color: "var(--ds-text-muted)" }}>{content.asideAttribution}</div>
         </aside>
         )}
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem", maxWidth: showAside ? undefined : "62ch" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.65rem", maxWidth: showAside ? undefined : "62ch" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading><Title c={content} /></Heading>
           <Lede>{content.lede}</Lede>
@@ -61,7 +61,7 @@ export const HeroSplitReverse: React.FC<{ content: HeroContent }> = ({ content }
 export const HeroTwoLine: React.FC<{ content: HeroContent }> = ({ content }) => (
   <section style={{ ...sectionBase, paddingBlock: "calc(var(--ds-section-y) * 1.25)" }}>
     <Container style={{ maxWidth: "min(var(--ds-container), 1000px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.75rem" }}>
         <Eyebrow>{content.eyebrow}</Eyebrow>
         <Heading style={{ fontSize: "calc(var(--ds-display) * 1.25)", lineHeight: 1.0 }}>
           {content.titleLead}<br /><Accent>{content.titleAccent}</Accent>{content.titleTail ? ` ${content.titleTail}` : ""}
@@ -77,11 +77,11 @@ export const HeroTwoLine: React.FC<{ content: HeroContent }> = ({ content }) => 
 export const HeroStackedCta: React.FC<{ content: HeroContent }> = ({ content }) => (
   <section style={sectionBase}>
     <Container style={{ maxWidth: "min(var(--ds-container), 600px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.4rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.65rem" }}>
         <Eyebrow>{content.eyebrow}</Eyebrow>
         <Heading><Title c={content} /></Heading>
         <Lede style={{ maxWidth: "44ch" }}>{content.lede}</Lede>
-        <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem", width: "100%", maxWidth: "320px", marginTop: "0.4rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem", width: "100%", maxWidth: "320px", marginTop: "0.4rem" }}>
           <Button variant="primary">{content.primaryCta}</Button>
           <Button variant="outline">{content.secondaryCta}</Button>
         </div>
@@ -95,12 +95,12 @@ export const HeroBanner: React.FC<{ content: HeroContent }> = ({ content }) => (
   <section style={{ ...sectionBase, paddingBlock: "calc(var(--ds-section-y) * 0.8)" }}>
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) auto", gap: "2.4rem", alignItems: "center" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading style={{ fontSize: "calc(var(--ds-display) * 0.6)" }}><Title c={content} /></Heading>
           <Lede style={{ maxWidth: "54ch" }}>{content.lede}</Lede>
         </div>
-        <div style={{ display: "flex", flexDirection: "column", gap: "0.7rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "0.95rem" }}>
           <Button variant="primary">{content.primaryCta}</Button>
           <Button variant="outline">{content.secondaryCta}</Button>
         </div>
@@ -114,7 +114,7 @@ export const HeroPortraitFrame: React.FC<{ content: HeroContent }> = ({ content 
   <section style={sectionBase}>
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.2fr) minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.65rem" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading><Title c={content} /></Heading>
           <Lede>{content.lede}</Lede>
@@ -136,7 +136,7 @@ export const HeroDarkSplit: React.FC<{ content: HeroContent }> = ({ content }) =
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: showAside ? "minmax(0,1.4fr) minmax(0,1fr)" : "minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.3rem", maxWidth: showAside ? undefined : "60ch" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.55rem", maxWidth: showAside ? undefined : "60ch" }}>
           <h1 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display)", letterSpacing: "var(--ds-headline-tracking)", lineHeight: 1.05, color: "var(--ds-bg)", margin: 0 }}>
             {content.titleLead} <span style={{ color: "var(--ds-primary)" }}>{content.titleAccent}</span>{content.titleTail ? ` ${content.titleTail}` : ""}
           </h1>
@@ -152,7 +152,7 @@ export const HeroDarkSplit: React.FC<{ content: HeroContent }> = ({ content }) =
           </InvertedTone>
         </div>
         {showAside && (
-        <aside style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "0.9rem" }}>
+        <aside style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.15rem" }}>
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem",   color: "var(--ds-primary)" }}>{content.asideLabel}</div>
           <p style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.1rem", lineHeight: 1.4, color: "var(--ds-bg)", margin: 0, fontStyle: "italic" }}>“{content.asideQuote}”</p>
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.82rem", color: "var(--ds-bg)", opacity: 0.8 }}>{content.asideAttribution}</div>
@@ -169,7 +169,7 @@ export const HeroGridBg: React.FC<{ content: HeroContent }> = ({ content }) => (
   <section style={{ position: "relative", overflow: "hidden", paddingBlock: "calc(var(--ds-section-y) * 1.15)", borderBottom: "1px solid var(--ds-border)", background: "var(--ds-bg)" }}>
     <div aria-hidden style={{ position: "absolute", inset: 0, opacity: 0.5, backgroundImage: "radial-gradient(var(--ds-border) 1px, transparent 1px)", backgroundSize: "22px 22px", maskImage: "radial-gradient(ellipse at center, #000 35%, transparent 75%)", WebkitMaskImage: "radial-gradient(ellipse at center, #000 35%, transparent 75%)" }} />
     <Container style={{ position: "relative", maxWidth: "min(var(--ds-container), 860px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.4rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.65rem" }}>
         <Eyebrow>{content.eyebrow}</Eyebrow>
         <Heading><Title c={content} /></Heading>
         <Lede style={{ maxWidth: "52ch" }}>{content.lede}</Lede>
@@ -185,7 +185,7 @@ export const HeroChapter: React.FC<{ content: HeroContent }> = ({ content }) => 
     <Container style={{ maxWidth: "min(var(--ds-container), 920px)" }}>
       <div style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "2rem", alignItems: "start" }}>
         <div style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 800, fontSize: "calc(var(--ds-display) * 0.9)", color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 0.9 }}>01</div>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.45rem" }}>
           <div style={{ height: "2px", width: "100%", background: "var(--ds-border)" }} />
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading><Title c={content} /></Heading>
@@ -202,7 +202,7 @@ export const HeroAsideStat: React.FC<{ content: HeroContent }> = ({ content }) =
   <section style={sectionBase}>
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.4fr) minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.65rem" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading><Title c={content} /></Heading>
           <Lede>{content.lede}</Lede>

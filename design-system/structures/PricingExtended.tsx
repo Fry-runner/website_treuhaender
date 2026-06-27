@@ -45,9 +45,9 @@ export const PricingRows: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container style={{ maxWidth: "min(var(--ds-container), 920px)" }}>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} className="ds-card" style={{ display: "grid", gridTemplateColumns: "minmax(0,0.9fr) minmax(0,1.6fr) auto", gap: "1.6rem", alignItems: "center", background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem 1.7rem" }}>
+          <div key={i} className="ds-card" style={{ display: "grid", gridTemplateColumns: "minmax(0,0.9fr) minmax(0,1.6fr) auto", gap: "1.85rem", alignItems: "center", background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem 1.7rem" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>{t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} /></div>
             <Feats items={t.features} max={4} />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
@@ -65,7 +65,7 @@ export const PricingMinimal: React.FC<Props> = ({ content, more }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
       <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "2.4rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} style={{ borderTop: t.recommended ? "2px solid var(--ds-primary)" : "2px solid var(--ds-text)", paddingTop: "1.1rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div key={i} style={{ borderTop: t.recommended ? "2px solid var(--ds-primary)" : "2px solid var(--ds-text)", paddingTop: "1.1rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <h3 style={nameS}>{t.name}</h3><Price t={t} /><Feats items={t.features} />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
           </div>
@@ -80,9 +80,9 @@ export const PricingCenterFeatured: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.2rem", alignItems: "center" }}>
+      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem", alignItems: "center" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: t.recommended ? "2.2rem 1.8rem" : "1.6rem", boxShadow: t.recommended ? "var(--ds-shadow-card)" : "none", display: "flex", flexDirection: "column", gap: "1rem", transform: t.recommended ? "scale(1.04)" : "none" }}>
+          <div key={i} style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: t.recommended ? "2.2rem 1.8rem" : "1.6rem", boxShadow: t.recommended ? "var(--ds-shadow-card)" : "none", display: "flex", flexDirection: "column", gap: "1.25rem", transform: t.recommended ? "scale(1.04)" : "none" }}>
             {t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} big={t.recommended} /><Feats items={t.features} />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
           </div>
@@ -102,9 +102,9 @@ export const PricingDark: React.FC<Props> = ({ content, more }) => (
       {/* The whole band paints --ds-text as its ground → every CTA is on dark. Wrap the
           grid so each Button flips to its inverted, ground-independent style. */}
       <InvertedTone>
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} style={{ background: t.recommended ? "rgba(255,255,255,0.08)" : "transparent", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div key={i} style={{ background: t.recommended ? "rgba(255,255,255,0.08)" : "transparent", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {t.recommended && <RecoBadge />}<h3 style={{ ...nameS, color: "var(--ds-bg)" }}>{t.name}</h3><Price t={t} light /><Feats items={t.features} light />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
           </div>
@@ -120,11 +120,11 @@ export const PricingGradientFeatured: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.2rem", alignItems: "stretch" }}>
+      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem", alignItems: "stretch" }}>
         {content.tiers.map((t, i) => {
           const g = t.recommended;
           return (
-            <div key={i} className="ds-card" style={{ borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1rem", border: g ? "none" : "1px solid var(--ds-border)", backgroundImage: g ? "linear-gradient(150deg, var(--ds-primary), var(--ds-secondary))" : "none", background: g ? undefined : "var(--ds-bg)", boxShadow: g ? "var(--ds-shadow-card)" : "none" }}>
+            <div key={i} className="ds-card" style={{ borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1.25rem", border: g ? "none" : "1px solid var(--ds-border)", backgroundImage: g ? "linear-gradient(150deg, var(--ds-primary), var(--ds-secondary))" : "none", background: g ? undefined : "var(--ds-bg)", boxShadow: g ? "var(--ds-shadow-card)" : "none" }}>
               {g && <RecoBadge />}<h3 style={{ ...nameS, color: g ? "var(--ds-primary-fg)" : "var(--ds-text)" }}>{t.name}</h3><Price t={t} light={g} /><Feats items={t.features} light={g} />
               {/* Gradient-filled card: flip the button to a legible inverted solid. */}
               {g
@@ -145,7 +145,7 @@ export const PricingBordered: React.FC<Props> = ({ content, more }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} style={{ borderLeft: i ? "1px solid var(--ds-border)" : "none", background: t.recommended ? "var(--ds-primary-soft)" : "var(--ds-bg)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div key={i} style={{ borderLeft: i ? "1px solid var(--ds-border)" : "none", background: t.recommended ? "var(--ds-primary-soft)" : "var(--ds-bg)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} /><Feats items={t.features} />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
           </div>
@@ -161,9 +161,9 @@ export const PricingPanel: React.FC<Props> = ({ content, more }) => (
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
       <div style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "2.2rem" }}>
-        <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.2rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
           {content.tiers.map((t, i) => (
-            <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", borderRadius: "var(--ds-radius)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", padding: "1.7rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+            <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", borderRadius: "var(--ds-radius)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", padding: "1.7rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
               {t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} /><Feats items={t.features} />
               <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
             </div>
@@ -179,14 +179,14 @@ export const PricingStacked: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container style={{ maxWidth: "min(var(--ds-container), 760px)" }}>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.45rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "grid", gridTemplateColumns: "minmax(0,1fr) auto", gap: "1.4rem", alignItems: "center" }}>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: "0.8rem", flexWrap: "wrap" }}><h3 style={nameS}>{t.name}</h3>{t.recommended && <RecoBadge />}</div>
+          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "grid", gridTemplateColumns: "minmax(0,1fr) auto", gap: "1.65rem", alignItems: "center" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "1.05rem", flexWrap: "wrap" }}><h3 style={nameS}>{t.name}</h3>{t.recommended && <RecoBadge />}</div>
               <Feats items={t.features} max={4} />
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem", alignItems: "flex-end" }}><Price t={t} /><Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button></div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem", alignItems: "flex-end" }}><Price t={t} /><Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button></div>
           </div>
         ))}
       </div>
@@ -199,11 +199,11 @@ export const PricingOutline: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
         {content.tiers.map((t, i) => {
           const f = t.recommended;
           return (
-            <div key={i} className="ds-card" style={{ borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1rem", border: "1.5px solid var(--ds-primary)", background: f ? "var(--ds-primary)" : "transparent" }}>
+            <div key={i} className="ds-card" style={{ borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1.25rem", border: "1.5px solid var(--ds-primary)", background: f ? "var(--ds-primary)" : "transparent" }}>
               {f && <RecoBadge />}<h3 style={{ ...nameS, color: f ? "var(--ds-primary-fg)" : "var(--ds-text)" }}>{t.name}</h3>
               <Price t={t} light={f} /><Feats items={t.features} light={f} />
               {/* On the primary-filled (often dark) card a plain outline button is dark-on-dark; InvertedTone flips it to a legible --ds-bg solid. */}
@@ -223,9 +223,9 @@ export const PricingRibbon: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} className="ds-card" style={{ position: "relative", overflow: "hidden", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div key={i} className="ds-card" style={{ position: "relative", overflow: "hidden", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {t.recommended && <span style={{ position: "absolute", top: "0.9rem", right: "-2.4rem", transform: "rotate(45deg)", background: "var(--ds-primary)", color: "var(--ds-primary-fg)", fontFamily: "var(--ds-font-body)", fontSize: "0.6rem",   padding: "0.25rem 2.4rem" }}>Top</span>}
             <h3 style={nameS}>{t.name}</h3><Price t={t} /><Feats items={t.features} />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
@@ -241,9 +241,9 @@ export const PricingNumbered: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "1.4rem", fontWeight: 700, color: "var(--ds-primary-ink, var(--ds-primary))" }}>{num(i)}</span>
             <h3 style={nameS}>{t.name}</h3><Price t={t} /><Feats items={t.features} />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
@@ -259,11 +259,11 @@ export const PricingHeadlinePrice: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.4rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.65rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.9rem", padding: "1.6rem 0", borderTop: "1px solid var(--ds-border)" }}>
+          <div key={i} style={{ display: "flex", flexDirection: "column", gap: "1.15rem", padding: "1.6rem 0", borderTop: "1px solid var(--ds-border)" }}>
             <Price t={t} big />
-            <div style={{ display: "flex", alignItems: "center", gap: "0.7rem", flexWrap: "wrap" }}><h3 style={nameS}>{t.name}</h3>{t.recommended && <RecoBadge />}</div>
+            <div style={{ display: "flex", alignItems: "center", gap: "0.95rem", flexWrap: "wrap" }}><h3 style={nameS}>{t.name}</h3>{t.recommended && <RecoBadge />}</div>
             <Feats items={t.features} />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
           </div>
@@ -281,15 +281,15 @@ export const PricingSplitFeature: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.2fr) minmax(0,1fr)", gap: "1.4rem", alignItems: "start" }}>
-          <div className="ds-card" style={{ background: "var(--ds-primary-soft)", border: "2px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", padding: "2.2rem", display: "flex", flexDirection: "column", gap: "1.1rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.2fr) minmax(0,1fr)", gap: "1.65rem", alignItems: "start" }}>
+          <div className="ds-card" style={{ background: "var(--ds-primary-soft)", border: "2px solid var(--ds-primary)", borderRadius: "var(--ds-radius)", padding: "2.2rem", display: "flex", flexDirection: "column", gap: "1.35rem" }}>
             <RecoBadge /><h3 style={{ ...nameS, fontSize: "1.4rem" }}>{lead.name}</h3><Price t={lead} big /><Feats items={lead.features} />
             <Button variant="primary">Auswählen</Button>
           </div>
-          <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {rest.map((t, i) => (
-              <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.7rem" }}>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1rem" }}><h3 style={nameS}>{t.name}</h3><Price t={t} /></div>
+              <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1.25rem" }}><h3 style={nameS}>{t.name}</h3><Price t={t} /></div>
                 <Feats items={t.features} max={3} /><Button variant="outline">Auswählen</Button>
               </div>
             ))}
@@ -305,10 +305,10 @@ export const PricingCompact: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.25rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.4rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "0.8rem" }}><h3 style={{ ...nameS, fontSize: "1rem" }}>{t.name}</h3><span style={{ ...priceS, fontSize: "1.4rem" }}>{t.price}</span></div>
+          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.4rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1.05rem" }}><h3 style={{ ...nameS, fontSize: "1rem" }}>{t.name}</h3><span style={{ ...priceS, fontSize: "1.4rem" }}>{t.price}</span></div>
             <Feats items={t.features} max={3} /><Button variant={t.recommended ? "primary" : "outline"}>Wählen</Button>
           </div>
         ))}
@@ -324,9 +324,9 @@ export const PricingChecklistRows: React.FC<Props> = ({ content, more }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} style={{ borderTop: i ? "1px solid var(--ds-border)" : "none", background: t.recommended ? "var(--ds-primary-soft)" : "transparent", padding: "1.5rem 1.7rem", display: "grid", gridTemplateColumns: "minmax(0,1fr) auto", gap: "1.2rem", alignItems: "center" }}>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.7rem" }}>
-              <div style={{ display: "flex", alignItems: "baseline", gap: "0.9rem", flexWrap: "wrap" }}><h3 style={nameS}>{t.name}</h3><Price t={t} /></div>
+          <div key={i} style={{ borderTop: i ? "1px solid var(--ds-border)" : "none", background: t.recommended ? "var(--ds-primary-soft)" : "transparent", padding: "1.5rem 1.7rem", display: "grid", gridTemplateColumns: "minmax(0,1fr) auto", gap: "1.45rem", alignItems: "center" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.95rem" }}>
+              <div style={{ display: "flex", alignItems: "baseline", gap: "1.15rem", flexWrap: "wrap" }}><h3 style={nameS}>{t.name}</h3><Price t={t} /></div>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem 1.4rem" }}>{t.features.slice(0, 5).map((f, j) => <span key={j} style={{ fontSize: "0.84rem", color: "var(--ds-text-muted)" }}><span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}><Icon name="check" size={15} style={{ verticalAlign: "-0.15em" }} /></span> {f}</span>)}</div>
             </div>
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
@@ -342,9 +342,9 @@ export const PricingTwoColFeatures: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length, 3), gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length, 3), gap: "1.45rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} />
             <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.5rem 1rem", flex: 1 }}>
               {t.features.map((f, j) => <li key={j} style={{ display: "flex", gap: "0.4rem", fontSize: "0.84rem", color: "var(--ds-text)" }}><span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700 }}><Icon name="check" size={15} style={{ verticalAlign: "-0.15em" }} /></span>{f}</li>)}
@@ -362,9 +362,9 @@ export const PricingRail: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "flex", gap: "1.2rem", overflowX: "auto", scrollSnapType: "x mandatory", paddingBottom: "0.6rem" }}>
+      <div style={{ display: "flex", gap: "1.45rem", overflowX: "auto", scrollSnapType: "x mandatory", paddingBottom: "0.6rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} className="ds-card" style={{ flex: "0 0 76%", maxWidth: "300px", scrollSnapAlign: "start", background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div key={i} className="ds-card" style={{ flex: "0 0 76%", maxWidth: "300px", scrollSnapAlign: "start", background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} /><Feats items={t.features} />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
           </div>
@@ -382,16 +382,16 @@ export const PricingTabs: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,0.8fr) minmax(0,1.6fr)", gap: "1.6rem", alignItems: "start" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,0.8fr) minmax(0,1.6fr)", gap: "1.85rem", alignItems: "start" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
             {content.tiers.map((x, i) => (
-              <button key={i} onClick={() => setSel(i)} style={{ textAlign: "left", cursor: "pointer", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1rem 1.2rem", background: i === sel ? "var(--ds-primary-soft)" : "var(--ds-bg)", color: "var(--ds-text)", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "0.8rem", fontFamily: "var(--ds-font-heading)", fontWeight: 600 }}>
+              <button key={i} onClick={() => setSel(i)} style={{ textAlign: "left", cursor: "pointer", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1rem 1.2rem", background: i === sel ? "var(--ds-primary-soft)" : "var(--ds-bg)", color: "var(--ds-text)", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1.05rem", fontFamily: "var(--ds-font-heading)", fontWeight: 600 }}>
                 <span>{x.name}</span><span style={{ ...perS }}>{x.price}</span>
               </button>
             ))}
           </div>
-          <div style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1.1rem" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "0.9rem", flexWrap: "wrap" }}><h3 style={{ ...nameS, fontSize: "1.3rem" }}>{t.name}</h3>{t.recommended && <RecoBadge />}</div>
+          <div style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", gap: "1.35rem" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "1.15rem", flexWrap: "wrap" }}><h3 style={{ ...nameS, fontSize: "1.3rem" }}>{t.name}</h3>{t.recommended && <RecoBadge />}</div>
             <Price t={t} big /><Feats items={t.features} /><Button variant="primary">Auswählen</Button>
           </div>
         </div>
@@ -405,9 +405,9 @@ export const PricingPills: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.45rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1rem" }}>
+          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", border: t.recommended ? "2px solid var(--ds-primary)" : "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.9rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.25rem" }}>
             <h3 style={nameS}>{t.name}</h3>
             <div style={{ display: "inline-flex", alignItems: "baseline", gap: "0.3rem", background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", borderRadius: "var(--ds-radius-pill)", padding: "0.5rem 1.2rem" }}><span style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "1.6rem" }}>{t.price}</span><span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.72rem" }}>{t.period}</span></div>
             <Feats items={t.features} /><Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
@@ -423,9 +423,9 @@ export const PricingSoftCards: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.4rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: cols(content.tiers.length), gap: "1.65rem" }}>
         {content.tiers.map((t, i) => (
-          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", borderRadius: "1rem", padding: "2rem", boxShadow: t.recommended ? "0 18px 40px -16px var(--ds-primary)" : "var(--ds-shadow-card)", border: "1px solid var(--ds-border)", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div key={i} className="ds-card" style={{ background: "var(--ds-bg)", borderRadius: "1rem", padding: "2rem", boxShadow: t.recommended ? "0 18px 40px -16px var(--ds-primary)" : "var(--ds-shadow-card)", border: "1px solid var(--ds-border)", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             {t.recommended && <RecoBadge />}<h3 style={nameS}>{t.name}</h3><Price t={t} /><Feats items={t.features} />
             <Button variant={t.recommended ? "primary" : "outline"}>Auswählen</Button>
           </div>

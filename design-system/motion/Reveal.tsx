@@ -20,7 +20,7 @@ export function usePrefersReducedMotion(): boolean {
 }
 
 /** Fade + rise into view once. `index` adds a small stagger for grids. */
-export const Reveal: React.FC<React.PropsWithChildren<{ index?: number }>> = ({ children, index = 0 }) => {
+export const Reveal: React.FC<React.PropsWithChildren<{ index?: number; style?: React.CSSProperties }>> = ({ children, index = 0, style }) => {
   const ref = useRef<HTMLDivElement>(null);
   const reduced = usePrefersReducedMotion();
   const [shown, setShown] = useState(false);
@@ -49,6 +49,7 @@ export const Reveal: React.FC<React.PropsWithChildren<{ index?: number }>> = ({ 
         transition: reduced ? "none"
           : `opacity var(--ds-reveal-dur, 560ms) var(--ds-reveal-ease, var(--ds-ease, ease-out)) ${delay}, transform var(--ds-reveal-dur, 560ms) var(--ds-reveal-ease, var(--ds-ease, ease-out)) ${delay}`,
         willChange: shown ? "auto" : "opacity, transform",
+        ...style,
       }}
     >
       {children}

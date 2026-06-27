@@ -2,8 +2,7 @@
  * CTA STRUCTURES — batch 2. Same CtaContent ({heading, sub, button}); token-only.
  */
 import React from "react";
-import { Container, Button, ActionButton } from "./primitives";
-import { Icon } from "../icons/iconSets";
+import { Container, Button, InvertedTone } from "./primitives";
 import type { CtaContent } from "../content/types";
 
 type Props = { content: CtaContent };
@@ -20,7 +19,9 @@ export const CtaGradientSplit: React.FC<Props> = ({ content }) => (
           <h2 style={{ ...h2, color: "var(--ds-primary-fg)" }}>{content.heading}</h2>
           <p style={{ ...sub, color: "var(--ds-primary-fg)", opacity: 0.92 }}>{content.sub}</p>
         </div>
-        <ActionButton to="/kontakt" style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.8rem",   fontWeight: 600, padding: "0.95rem 1.8rem", borderRadius: "var(--ds-radius-pill)", background: "var(--ds-bg)", color: "var(--ds-text)", border: "none", cursor: "pointer", whiteSpace: "nowrap" }}>{content.button} <Icon name="arrowRight" size={14} style={{ verticalAlign: "-0.1em" }} /></ActionButton>
+        {/* Colored gradient ground → InvertedTone gives the firm's button in the
+            contrast-safe inverted fill, consistent with every other section CTA. */}
+        <InvertedTone><Button variant="primary" cta>{content.button}</Button></InvertedTone>
       </div>
     </Container>
   </section>
@@ -35,7 +36,9 @@ export const CtaDarkSplit: React.FC<Props> = ({ content }) => (
           <h2 style={{ ...h2, color: "var(--ds-bg)" }}>{content.heading}</h2>
           <p style={{ ...sub, color: "var(--ds-bg)", opacity: 0.9 }}>{content.sub}</p>
         </div>
-        <Button variant="primary">{content.button}</Button>
+        {/* Dark (--ds-text) ground → InvertedTone keeps the button readable AND in the
+            firm's silhouette, matching the gradient/dark CTAs elsewhere. */}
+        <InvertedTone><Button variant="primary" cta>{content.button}</Button></InvertedTone>
       </div>
     </Container>
   </section>
@@ -45,10 +48,10 @@ export const CtaDarkSplit: React.FC<Props> = ({ content }) => (
 export const CtaElevatedCard: React.FC<Props> = ({ content }) => (
   <section style={{ ...sectionBase, background: "var(--ds-bg)" }}>
     <Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
-      <div style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "0 30px 60px -24px rgba(0,0,0,0.45)", padding: "clamp(2rem, 5vw, 3.4rem)", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.1rem" }}>
+      <div style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "0 30px 60px -24px rgba(0,0,0,0.45)", padding: "clamp(2rem, 5vw, 3.4rem)", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.35rem" }}>
         <h2 style={h2}>{content.heading}</h2>
         <p style={sub}>{content.sub}</p>
-        <div style={{ marginTop: "0.4rem" }}><Button variant="primary">{content.button}</Button></div>
+        <div style={{ marginTop: "0.4rem" }}><Button variant="primary" cta>{content.button}</Button></div>
       </div>
     </Container>
   </section>
@@ -60,7 +63,7 @@ export const CtaMinimalLine: React.FC<Props> = ({ content }) => (
     <Container>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "2rem", flexWrap: "wrap" }}>
         <h2 style={{ ...h2, fontSize: "1.7rem" }}>{content.heading}</h2>
-        <Button variant="primary">{content.button}</Button>
+        <Button variant="primary" cta>{content.button}</Button>
       </div>
     </Container>
   </section>
@@ -72,14 +75,14 @@ export const CtaCornerFrame: React.FC<Props> = ({ content }) => {
   return (
     <section style={{ ...sectionBase, background: "var(--ds-bg)" }}>
       <Container style={{ maxWidth: "min(var(--ds-container), 760px)" }}>
-        <div style={{ position: "relative", padding: "2.6rem 1rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.1rem" }}>
+        <div style={{ position: "relative", padding: "2.6rem 1rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.35rem" }}>
           <span aria-hidden style={{ ...corner, top: 0, left: 0, borderTop: "2px solid", borderLeft: "2px solid" }} />
           <span aria-hidden style={{ ...corner, top: 0, right: 0, borderTop: "2px solid", borderRight: "2px solid" }} />
           <span aria-hidden style={{ ...corner, bottom: 0, left: 0, borderBottom: "2px solid", borderLeft: "2px solid" }} />
           <span aria-hidden style={{ ...corner, bottom: 0, right: 0, borderBottom: "2px solid", borderRight: "2px solid" }} />
           <h2 style={h2}>{content.heading}</h2>
           <p style={sub}>{content.sub}</p>
-          <div style={{ marginTop: "0.3rem" }}><Button variant="primary">{content.button}</Button></div>
+          <div style={{ marginTop: "0.3rem" }}><Button variant="primary" cta>{content.button}</Button></div>
         </div>
       </Container>
     </section>
@@ -90,11 +93,11 @@ export const CtaCornerFrame: React.FC<Props> = ({ content }) => {
 export const CtaEyebrowBand: React.FC<Props> = ({ content }) => (
   <section style={{ ...sectionBase, background: "var(--ds-primary-soft)" }}>
     <Container style={{ maxWidth: "min(var(--ds-container), 760px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.25rem" }}>
         <div style={{ height: "2px", width: "3rem", background: "var(--ds-primary)" }} />
         <h2 style={h2}>{content.heading}</h2>
         <p style={sub}>{content.sub}</p>
-        <div style={{ marginTop: "0.4rem" }}><Button variant="primary">{content.button}</Button></div>
+        <div style={{ marginTop: "0.4rem" }}><Button variant="primary" cta>{content.button}</Button></div>
       </div>
     </Container>
   </section>
@@ -104,13 +107,13 @@ export const CtaEyebrowBand: React.FC<Props> = ({ content }) => (
 export const CtaBadge: React.FC<Props> = ({ content }) => (
   <section style={{ ...sectionBase, background: "var(--ds-bg)" }}>
     <Container style={{ maxWidth: "min(var(--ds-container), 720px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.1rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.35rem" }}>
         <span style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", padding: "0.45rem 0.9rem", borderRadius: "9999px", background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)", fontFamily: "var(--ds-font-body)", fontSize: "0.68rem",   color: "var(--ds-primary-ink, var(--ds-primary))" }}>
           <span style={{ width: "0.4rem", height: "0.4rem", borderRadius: "9999px", background: "var(--ds-primary)" }} /> Jetzt starten
         </span>
         <h2 style={h2}>{content.heading}</h2>
         <p style={sub}>{content.sub}</p>
-        <div style={{ marginTop: "0.4rem" }}><Button variant="primary">{content.button}</Button></div>
+        <div style={{ marginTop: "0.4rem" }}><Button variant="primary" cta>{content.button}</Button></div>
       </div>
     </Container>
   </section>
@@ -120,10 +123,10 @@ export const CtaBadge: React.FC<Props> = ({ content }) => (
 export const CtaStackedCenter: React.FC<Props> = ({ content }) => (
   <section style={{ ...sectionBase, background: "var(--ds-bg)", paddingBlock: "calc(var(--ds-section-y) * 1.3)" }}>
     <Container style={{ maxWidth: "min(var(--ds-container), 880px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.5rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.75rem" }}>
         <h2 style={{ ...h2, fontSize: "calc(var(--ds-display) * 0.85)", lineHeight: 1.08, maxWidth: "16ch" }}>{content.heading}</h2>
         <p style={sub}>{content.sub}</p>
-        <div style={{ marginTop: "0.5rem" }}><Button variant="primary">{content.button}</Button></div>
+        <div style={{ marginTop: "0.5rem" }}><Button variant="primary" cta>{content.button}</Button></div>
       </div>
     </Container>
   </section>
@@ -139,7 +142,7 @@ export const CtaSidebar: React.FC<Props> = ({ content }) => (
           <p style={{ ...sub, fontSize: "1rem" }}>{content.sub}</p>
         </div>
         <div style={{ padding: "2rem", display: "flex", alignItems: "center", justifyContent: "center", borderLeft: "1px solid var(--ds-border)", background: "var(--ds-surface)" }}>
-          <Button variant="primary">{content.button}</Button>
+          <Button variant="primary" cta>{content.button}</Button>
         </div>
       </div>
     </Container>
@@ -154,9 +157,9 @@ export const CtaTwoTone: React.FC<Props> = ({ content }) => (
         <div style={{ background: "var(--ds-primary-soft)", padding: "2.2rem", display: "flex", flexDirection: "column", justifyContent: "center", gap: "0.6rem" }}>
           <h2 style={{ ...h2, fontSize: "1.8rem" }}>{content.heading}</h2>
         </div>
-        <div style={{ background: "var(--ds-surface)", padding: "2.2rem", display: "flex", flexDirection: "column", justifyContent: "center", gap: "1rem", alignItems: "flex-start" }}>
+        <div style={{ background: "var(--ds-surface)", padding: "2.2rem", display: "flex", flexDirection: "column", justifyContent: "center", gap: "1.25rem", alignItems: "flex-start" }}>
           <p style={{ ...sub, fontSize: "1rem" }}>{content.sub}</p>
-          <Button variant="primary">{content.button}</Button>
+          <Button variant="primary" cta>{content.button}</Button>
         </div>
       </div>
     </Container>

@@ -13,7 +13,7 @@ import type { HeroContent } from "../content/types";
 const sectionBase: React.CSSProperties = {
   background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)",
 };
-const ctaRow: React.CSSProperties = { display: "flex", gap: "0.9rem", flexWrap: "wrap", marginTop: "0.4rem" };
+const ctaRow: React.CSSProperties = { display: "flex", gap: "1.15rem", flexWrap: "wrap", marginTop: "0.4rem" };
 const Title: React.FC<{ c: HeroContent }> = ({ c }) => (
   <>{c.titleLead} <Accent>{c.titleAccent}</Accent>{c.titleTail ? <> {c.titleTail}</> : null}</>
 );
@@ -22,7 +22,7 @@ const Title: React.FC<{ c: HeroContent }> = ({ c }) => (
 export const HeroFactband: React.FC<{ content: HeroContent }> = ({ content }) => (
   <section style={sectionBase}>
     <Container style={{ maxWidth: "min(var(--ds-container), 880px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.4rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.65rem" }}>
         <Eyebrow>{content.eyebrow}</Eyebrow>
         <Heading><Title c={content} /></Heading>
         <Lede style={{ maxWidth: "52ch" }}>{content.lede}</Lede>
@@ -49,7 +49,7 @@ export const HeroFactband: React.FC<{ content: HeroContent }> = ({ content }) =>
 export const HeroSpotlight: React.FC<{ content: HeroContent }> = ({ content }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "calc(var(--ds-section-y) * 1.2)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container style={{ maxWidth: "min(var(--ds-container), 860px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.4rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.65rem" }}>
         <h1 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display)", letterSpacing: "var(--ds-headline-tracking)", lineHeight: 1.05, color: "var(--ds-bg)", margin: 0 }}>
           {content.titleLead} <span style={{ color: "var(--ds-primary)" }}>{content.titleAccent}</span>{content.titleTail ? ` ${content.titleTail}` : ""}
         </h1>
@@ -58,7 +58,7 @@ export const HeroSpotlight: React.FC<{ content: HeroContent }> = ({ content }) =
             ground-independent inverted buttons instead of the firm's primary
             style (which is often transparent + --ds-primary-ink for a LIGHT bg). */}
         <InvertedTone>
-          <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", justifyContent: "center", marginTop: "0.3rem" }}>
+          <div style={{ display: "flex", gap: "1.15rem", flexWrap: "wrap", justifyContent: "center", marginTop: "0.3rem" }}>
             <Button variant="primary">{content.primaryCta}</Button>
             <Button variant="outline" to="/leistungen">{content.secondaryCta}</Button>
           </div>
@@ -73,7 +73,7 @@ export const HeroSideMeta: React.FC<{ content: HeroContent }> = ({ content }) =>
   <section style={sectionBase}>
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.4fr) minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.65rem" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading><Title c={content} /></Heading>
           <Lede>{content.lede}</Lede>
@@ -85,7 +85,7 @@ export const HeroSideMeta: React.FC<{ content: HeroContent }> = ({ content }) =>
         <aside style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", overflow: "hidden" }}>
           <div style={{ height: "3px", background: "var(--ds-primary)" }} />
           {[["Auszeichnung", content.asideLabel], ["Referenz", content.asideAttribution]].map(([k, v], i) => (
-            <div key={i} style={{ display: "flex", justifyContent: "space-between", gap: "1rem", padding: "1rem 1.4rem", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
+            <div key={i} style={{ display: "flex", justifyContent: "space-between", gap: "1.25rem", padding: "1rem 1.4rem", borderTop: i ? "1px solid var(--ds-border)" : "none" }}>
               <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem",   color: "var(--ds-text-muted)" }}>{k}</span>
               <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.85rem", color: "var(--ds-text)", textAlign: "right" }}>{v}</span>
             </div>
@@ -105,7 +105,7 @@ export const HeroOverline: React.FC<{ content: HeroContent }> = ({ content }) =>
       <Heading style={{ textAlign: "center", marginTop: "1.2rem", fontSize: "calc(var(--ds-display) * 1.05)" }}><Title c={content} /></Heading>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.3fr) minmax(0,1fr)", gap: "2.4rem", alignItems: "end", marginTop: "2.4rem", paddingTop: "1.6rem", borderTop: "1px solid var(--ds-border)" }}>
         <Lede style={{ maxWidth: "48ch" }}>{content.lede}</Lede>
-        <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", justifyContent: "flex-end" }}>
+        <div style={{ display: "flex", gap: "1.15rem", flexWrap: "wrap", justifyContent: "flex-end" }}>
           <Button variant="primary">{content.primaryCta}</Button>
           <Button variant="outline">{content.secondaryCta}</Button>
         </div>
@@ -119,11 +119,11 @@ export const HeroColumnsDivider: React.FC<{ content: HeroContent }> = ({ content
   <section style={sectionBase}>
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.45rem" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading><Title c={content} /></Heading>
         </div>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.3rem", paddingLeft: "3rem", borderLeft: "1px solid var(--ds-border)" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.55rem", paddingLeft: "3rem", borderLeft: "1px solid var(--ds-border)" }}>
           <Lede>{content.lede}</Lede>
           <div style={ctaRow}>
             <Button variant="primary">{content.primaryCta}</Button>
@@ -143,16 +143,16 @@ export const HeroFramed: React.FC<{ content: HeroContent }> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
       <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden", background: "var(--ds-surface)" }}>
-        <div style={{ padding: "clamp(1.8rem, 5vw, 3.4rem)", display: "flex", flexDirection: "column", gap: "1.3rem", maxWidth: "62ch" }}>
+        <div style={{ padding: "clamp(1.8rem, 5vw, 3.4rem)", display: "flex", flexDirection: "column", gap: "1.55rem", maxWidth: "62ch" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading><Title c={content} /></Heading>
           <Lede>{content.lede}</Lede>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr auto", alignItems: "center", gap: "1rem", padding: "1.2rem clamp(1.8rem, 5vw, 3.4rem)", borderTop: "1px solid var(--ds-border)", background: "var(--ds-bg)" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr auto", alignItems: "center", gap: "1.25rem", padding: "1.2rem clamp(1.8rem, 5vw, 3.4rem)", borderTop: "1px solid var(--ds-border)", background: "var(--ds-bg)" }}>
           <div style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.7rem",   color: "var(--ds-text-muted)" }}>
             <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex", verticalAlign: "-0.12em" }}><Icon name="star" size={14} /></span> {content.asideLabel}
           </div>
-          <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap" }}>
+          <div style={{ display: "flex", gap: "1.15rem", flexWrap: "wrap" }}>
             <Button variant="primary">{content.primaryCta}</Button>
             <Button variant="outline">{content.secondaryCta}</Button>
           </div>
@@ -166,7 +166,7 @@ export const HeroFramed: React.FC<{ content: HeroContent }> = ({ content }) => (
 export const HeroMinimalType: React.FC<{ content: HeroContent }> = ({ content }) => (
   <section style={{ ...sectionBase, paddingBlock: "calc(var(--ds-section-y) * 1.35)" }}>
     <Container style={{ maxWidth: "min(var(--ds-container), 1040px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.6rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.85rem" }}>
         <Eyebrow>{content.eyebrow}</Eyebrow>
         <Heading style={{ fontSize: "calc(var(--ds-display) * 1.35)", lineHeight: 1.0, maxWidth: "16ch" }}><Title c={content} /></Heading>
         <Lede style={{ maxWidth: "44ch" }}>{content.lede}</Lede>
@@ -185,7 +185,7 @@ export const HeroOffsetAside: React.FC<{ content: HeroContent }> = ({ content })
   <section style={sectionBase}>
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: showAside ? "minmax(0,1.3fr) minmax(0,1fr)" : "minmax(0,1fr)", gap: "3.2rem", alignItems: "center" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem", maxWidth: showAside ? undefined : "62ch" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.65rem", maxWidth: showAside ? undefined : "62ch" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading><Title c={content} /></Heading>
           <Lede>{content.lede}</Lede>
@@ -197,7 +197,7 @@ export const HeroOffsetAside: React.FC<{ content: HeroContent }> = ({ content })
         {showAside && (
         <div style={{ position: "relative", paddingTop: "1.2rem", paddingRight: "1.2rem" }}>
           <div aria-hidden style={{ position: "absolute", top: 0, right: 0, width: "78%", height: "82%", background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)" }} />
-          <blockquote style={{ position: "relative", margin: 0, background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <blockquote style={{ position: "relative", margin: 0, background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem",   color: "var(--ds-text-muted)" }}>{content.asideLabel}</span>
             <p style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.2rem", lineHeight: 1.4, color: "var(--ds-text)", margin: 0, fontStyle: "italic" }}>“{content.asideQuote}”</p>
             <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.85rem", color: "var(--ds-text-muted)" }}>{content.asideAttribution}</span>
@@ -221,11 +221,11 @@ export const HeroRibbon: React.FC<{ content: HeroContent }> = ({ content }) => {
     <section style={{ ...sectionBase, paddingBottom: 0, overflow: "hidden" }}>
       <style>{css}</style>
       <Container style={{ maxWidth: "min(var(--ds-container), 880px)" }}>
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.4rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.65rem" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading><Title c={content} /></Heading>
           <Lede style={{ maxWidth: "52ch" }}>{content.lede}</Lede>
-          <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", justifyContent: "center", marginTop: "0.3rem" }}>
+          <div style={{ display: "flex", gap: "1.15rem", flexWrap: "wrap", justifyContent: "center", marginTop: "0.3rem" }}>
             <Button variant="primary">{content.primaryCta}</Button>
             <Button variant="outline">{content.secondaryCta}</Button>
           </div>
@@ -259,11 +259,11 @@ export const HeroQuoteLead: React.FC<{ content: HeroContent }> = ({ content }) =
           “{bigQuote}”
         </p>
         <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: "2.4rem", alignItems: "end", paddingTop: "1.4rem", borderTop: "1px solid var(--ds-border)" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem" }}>
             <h1 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.6rem", lineHeight: 1.15, color: "var(--ds-text)", margin: 0 }}><Title c={content} /></h1>
             {distinctQuote && <Lede>{content.lede}</Lede>}
           </div>
-          <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", justifyContent: "flex-end" }}>
+          <div style={{ display: "flex", gap: "1.15rem", flexWrap: "wrap", justifyContent: "flex-end" }}>
             <Button variant="primary">{content.primaryCta}</Button>
             <Button variant="outline">{content.secondaryCta}</Button>
           </div>

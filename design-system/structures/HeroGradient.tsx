@@ -23,14 +23,14 @@ export const HeroGradient: React.FC<{ content: HeroContent }> = ({ content }) =>
       animation: "ds-grad-drift 16s ease-in-out infinite",
     }} />
     <Container style={{ position: "relative", maxWidth: "min(var(--ds-container), 880px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.5rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.75rem" }}>
         <Eyebrow>{content.eyebrow}</Eyebrow>
         <Heading>
           {content.titleLead} <Accent>{content.titleAccent}</Accent>
           {content.titleTail ? <> {content.titleTail}</> : null}
         </Heading>
         <Lede style={{ maxWidth: "54ch" }}>{content.lede}</Lede>
-        <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", justifyContent: "center", marginTop: "0.3rem" }}>
+        <div style={{ display: "flex", gap: "1.15rem", flexWrap: "wrap", justifyContent: "center", marginTop: "0.3rem" }}>
           <Button variant="primary">{content.primaryCta}</Button>
           <Button variant="outline">{content.secondaryCta}</Button>
         </div>

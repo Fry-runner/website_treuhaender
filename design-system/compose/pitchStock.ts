@@ -26,11 +26,15 @@ export function stockPick(topics: string[], key: string, n = 1, seed = 0): strin
   return out;
 }
 
-/** Topic groups by slot purpose (hero = wide/impressive, scene = office/people,
- *  work = accounting-activity, wide = full-bleed backgrounds). */
+/** Topic groups by slot purpose, kept to clearly BUSINESS/office imagery — a Treuhänder
+ *  reads as professional, not touristy or scenic. Heroes/backgrounds use offices + modern
+ *  corporate buildings + receptions/boardrooms; the generic "city"/"skyline" (often
+ *  touristy) and "landscape" (Swiss Alps/nature) topics are deliberately NOT picked.
+ *  (hero = wide/impressive, scene = office/people, work = accounting activity,
+ *  wide = full-bleed backgrounds.) */
 export const STOCK_TOPICS = {
-  hero: ["city", "architecture", "office", "skyline", "reception", "boardroom"],
+  hero: ["architecture", "office", "reception", "boardroom"],
   scene: ["office", "desk", "meeting", "consultation", "advisory", "boardroom", "reception", "documents", "laptop"],
   work: ["desk", "documents", "laptop", "finance", "meeting", "advisory", "office"],
-  wide: ["city", "architecture", "office", "landscape", "skyline"],
+  wide: ["architecture", "office", "reception", "boardroom"],
 };

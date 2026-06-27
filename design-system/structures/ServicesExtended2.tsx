@@ -21,9 +21,9 @@ export const ServicesIconCards: React.FC<Props> = ({ content, more, onPick }) =>
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} center />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px,1fr))", gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px,1fr))", gap: "1.45rem" }}>
         {content.items.map((s, i) => (
-          <article key={i} className="ds-card" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "0.7rem", cursor: onPick ? "pointer" : "default" }}>
+          <article key={i} className="ds-card" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "0.95rem", cursor: onPick ? "pointer" : "default" }}>
             <div aria-hidden style={{ width: "2.8rem", height: "2.8rem", borderRadius: "9999px", background: "var(--ds-primary-soft)", color: "var(--ds-primary-ink, var(--ds-primary))", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "1.1rem" }}>{(s.title.trim()[0] || "•").toUpperCase()}</div>
             <h3 style={titleS}>{s.title}</h3>
             <p style={bodyS}>{s.summary}</p>
@@ -42,7 +42,7 @@ export const ServicesListArrow: React.FC<Props> = ({ content, more, onPick }) =>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div>
         {content.items.map((s, i) => (
-          <div key={i} className="ds-nudge" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: "1.4rem", alignItems: "center", padding: "1.3rem 0", borderTop: "1px solid var(--ds-border)", cursor: onPick ? "pointer" : "default" }}>
+          <div key={i} className="ds-nudge" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: "1.65rem", alignItems: "center", padding: "1.3rem 0", borderTop: "1px solid var(--ds-border)", cursor: onPick ? "pointer" : "default" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.3rem" }}><h3 style={titleS}>{s.title}</h3><p style={bodyS}>{s.summary}</p></div>
             <span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex" }}><Icon name="arrowRight" size={20} /></span>
           </div>
@@ -57,7 +57,7 @@ export const ServicesGrid4: React.FC<Props> = ({ content, more, onPick }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px,1fr))", gap: "1rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px,1fr))", gap: "1.25rem" }}>
         {content.items.map((s, i) => (
           <article key={i} className="ds-card" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem", display: "flex", flexDirection: "column", gap: "0.5rem", cursor: onPick ? "pointer" : "default" }}>
             <h3 style={{ ...titleS, fontSize: "1rem" }}>{s.title}</h3>
@@ -82,7 +82,7 @@ export const ServicesPillTabs: React.FC<Props> = ({ content, more, onPick }) => 
             <button key={i} role="tab" aria-selected={i === active} onClick={() => setActive(i)} style={{ border: "1px solid var(--ds-border)", cursor: "pointer", borderRadius: "9999px", padding: "0.55rem 1.1rem", fontFamily: "var(--ds-font-body)", fontSize: "0.72rem",   background: i === active ? "var(--ds-primary)" : "transparent", color: i === active ? "var(--ds-primary-fg)" : "var(--ds-text-muted)" }}>{s.title}</button>
           ))}
         </div>
-        <div role="tabpanel" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "2rem", display: "flex", flexDirection: "column", gap: "0.9rem", maxWidth: "640px", marginInline: "auto", textAlign: "center" }}>
+        <div role="tabpanel" style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "2rem", display: "flex", flexDirection: "column", gap: "1.15rem", maxWidth: "640px", marginInline: "auto", textAlign: "center" }}>
           <h3 style={{ ...titleS, fontSize: "1.4rem" }}>{sel.title}</h3>
           <p style={{ ...bodyS, fontSize: "0.95rem" }}>{sel.body ?? sel.summary}</p>
           {onPick && <button className="ds-nudge" onClick={() => onPick(sel.title)} style={{ alignSelf: "center", background: "none", border: "none", cursor: "pointer", ...priceS, color: "var(--ds-text-muted)" }}>Mehr erfahren <Icon name="arrowRight" size={13} style={{ verticalAlign: "-0.1em" }} /></button>}
@@ -97,7 +97,7 @@ export const ServicesStepper: React.FC<Props> = ({ content, more, onPick }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ position: "relative", display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.2rem" }}>
+      <div style={{ position: "relative", display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.45rem" }}>
         <div aria-hidden style={{ position: "absolute", top: "0.85rem", left: "8%", right: "8%", height: "1px", background: "var(--ds-border)" }} />
         {content.items.map((s, i) => (
           <div key={i} role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ position: "relative", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.6rem", cursor: onPick ? "pointer" : "default" }}>
@@ -116,7 +116,7 @@ export const ServicesMediaCards: React.FC<Props> = ({ content, more, onPick }) =
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px,1fr))", gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px,1fr))", gap: "1.45rem" }}>
         {content.items.map((s, i) => (
           <article key={i} className={s.image ? "ds-card ds-img-zoom" : "ds-card"} role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden", display: "flex", flexDirection: "column", cursor: onPick ? "pointer" : "default" }}>
             <div aria-hidden className={s.image ? "ds-zoom" : undefined} style={{ height: "11rem", ...(s.image ? { backgroundImage: `url("${s.image}")`, backgroundSize: "cover", backgroundPosition: "center" } : { backgroundImage: "linear-gradient(135deg, var(--ds-primary-soft), var(--ds-surface))" }) }} />
@@ -139,7 +139,7 @@ export const ServicesWatermark: React.FC<Props> = ({ content, more, onPick }) =>
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-        <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, minmax(0,1fr))`, gap: "1.2rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, minmax(0,1fr))`, gap: "1.45rem" }}>
           {content.items.map((s, i) => (
             <article key={i} className="ds-card" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "0.6rem", cursor: onPick ? "pointer" : "default" }}>
               <h3 style={titleS}>{s.title}</h3>
@@ -175,7 +175,7 @@ export const ServicesBannerList: React.FC<Props> = ({ content, more, onPick }) =
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "0.9rem 2rem" }}>
         {content.items.map((s, i) => (
-          <div key={i} role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "0.8rem", alignItems: "start", cursor: onPick ? "pointer" : "default" }}>
+          <div key={i} role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "1.05rem", alignItems: "start", cursor: onPick ? "pointer" : "default" }}>
             <span style={{ color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700, fontSize: "1.1rem", lineHeight: 1.3 }}><Icon name="check" size={16} /></span>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.2rem" }}><h3 style={{ ...titleS, fontSize: "1.02rem" }}>{s.title}</h3><p style={{ ...bodyS, fontSize: "0.85rem" }}>{s.summary}</p></div>
           </div>
@@ -192,7 +192,7 @@ export const ServicesZebra: React.FC<Props> = ({ content, more, onPick }) => (
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
       <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
         {content.items.map((s, i) => (
-          <div key={i} role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: "1.2rem", alignItems: "center", padding: "1.2rem 1.5rem", background: i % 2 ? "var(--ds-surface)" : "var(--ds-bg)", cursor: onPick ? "pointer" : "default" }}>
+          <div key={i} role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: "1.45rem", alignItems: "center", padding: "1.2rem 1.5rem", background: i % 2 ? "var(--ds-surface)" : "var(--ds-bg)", cursor: onPick ? "pointer" : "default" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.25rem" }}><h3 style={{ ...titleS, fontSize: "1.05rem" }}>{s.title}</h3><p style={{ ...bodyS, fontSize: "0.85rem" }}>{s.summary}</p></div>
             {s.price && <span style={priceS}>{s.price}</span>}
           </div>

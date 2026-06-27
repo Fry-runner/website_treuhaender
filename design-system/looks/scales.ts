@@ -46,8 +46,8 @@ const SECTION_Y: Record<string, string> = {
 // token — every section shared one stride). `space` is the base unit (gaps),
 // `spaceBlock` the section-header→body rhythm; an "airy" look now genuinely breathes
 // more than a "tight" one without a single fixed value baked into components.
-const SPACE: Record<string, string> = { tight: "0.7rem", normal: "1rem", airy: "1.35rem" };
-const SPACE_BLOCK: Record<string, string> = { tight: "1.8rem", normal: "2.4rem", airy: "3.1rem" };
+const SPACE: Record<string, string> = { tight: "0.9rem", normal: "1.2rem", airy: "1.55rem" };
+const SPACE_BLOCK: Record<string, string> = { tight: "2.1rem", normal: "2.7rem", airy: "3.4rem" };
 
 export const sectionY = (py: string) => SECTION_Y[py] ?? SECTION_Y["py-20"];
 export const space = (r: string) => SPACE[r] ?? SPACE.normal;

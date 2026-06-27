@@ -22,7 +22,7 @@ export const ServicesNumberedList: React.FC<Props> = ({ content, more: m, onPick
         {content.items.map((s, i) => (
           <div key={i} role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ padding: "1.5rem 0", borderTop: "1px solid var(--ds-border)", cursor: onPick ? "pointer" : "default" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-              <div style={{ display: "flex", justifyContent: "space-between", gap: "1rem", flexWrap: "wrap" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", gap: "1.25rem", flexWrap: "wrap" }}>
                 <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.3rem", color: "var(--ds-text)", margin: 0 }}>{s.title}</h3>
                 {s.price && <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.8rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 600 }}>{s.price}</span>}
               </div>
@@ -40,7 +40,7 @@ export const ServicesAlternating: React.FC<Props> = ({ content, more: m, onPick 
   <section style={sectionBase}>
     <Container style={{ maxWidth: "min(var(--ds-container), 900px)" }}>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={m} />
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.65rem" }}>
         {content.items.map((s, i) => {
           const right = i % 2 === 1;
           return (
@@ -62,7 +62,7 @@ export const ServicesBento: React.FC<Props> = ({ content, more: m, onPick }) => 
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={m} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gridAutoRows: "1fr", gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gridAutoRows: "1fr", gap: "1.45rem" }}>
         {content.items.map((s, i) => {
           const feature = i === 0;
           return (
@@ -70,7 +70,7 @@ export const ServicesBento: React.FC<Props> = ({ content, more: m, onPick }) => 
               gridColumn: feature ? "span 2" : "span 1", gridRow: feature ? "span 2" : "span 1",
               background: feature ? "var(--ds-primary-soft)" : "var(--ds-surface)", border: "1px solid var(--ds-border)",
               borderRadius: "var(--ds-radius)", padding: feature ? "2rem" : "1.5rem", cursor: onPick ? "pointer" : "default",
-              display: "flex", flexDirection: "column", gap: "0.7rem",
+              display: "flex", flexDirection: "column", gap: "0.95rem",
             }}>
               <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: feature ? "1.6rem" : "1.1rem", color: "var(--ds-text)", margin: 0 }}>{s.title}</h3>
               <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.55, color: "var(--ds-text-muted)", margin: 0, flex: 1 }}>{s.summary}</p>
@@ -109,10 +109,10 @@ export const ServicesChecklist: React.FC<Props> = ({ content, more: m, onPick })
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={m} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: "1.4rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: "1.65rem" }}>
         {content.items.map((s, i) => (
-          <article key={i} className="ds-card" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "0.9rem", cursor: onPick ? "pointer" : "default" }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1rem" }}>
+          <article key={i} className="ds-card" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ background: "var(--ds-surface)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.8rem", display: "flex", flexDirection: "column", gap: "1.15rem", cursor: onPick ? "pointer" : "default" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1.25rem" }}>
               <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.25rem", color: "var(--ds-text)", margin: 0 }}>{s.title}</h3>
               {s.price && <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.78rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 600 }}>{s.price}</span>}
             </div>
@@ -137,15 +137,15 @@ export const ServicesTabs: React.FC<Props> = ({ content, more: m, onPick }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={m} />
-        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.6fr)", gap: "1.4rem", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.6fr)", gap: "1.65rem", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
           <div role="tablist" style={{ borderRight: "1px solid var(--ds-border)", background: "var(--ds-surface)" }}>
             {content.items.map((s, i) => (
-              <button key={i} role="tab" aria-selected={i === active} onClick={() => setActive(i)} style={{ width: "100%", textAlign: "left", border: "none", borderTop: i ? "1px solid var(--ds-border)" : "none", cursor: "pointer", padding: "1.1rem 1.3rem", background: i === active ? "var(--ds-bg)" : "transparent", color: i === active ? "var(--ds-primary)" : "var(--ds-text)", fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", display: "flex", gap: "0.7rem", alignItems: "center" }}>
+              <button key={i} role="tab" aria-selected={i === active} onClick={() => setActive(i)} style={{ width: "100%", textAlign: "left", border: "none", borderTop: i ? "1px solid var(--ds-border)" : "none", cursor: "pointer", padding: "1.1rem 1.3rem", background: i === active ? "var(--ds-bg)" : "transparent", color: i === active ? "var(--ds-primary)" : "var(--ds-text)", fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", display: "flex", gap: "0.95rem", alignItems: "center" }}>
                 {s.title}
               </button>
             ))}
           </div>
-          <div role="tabpanel" style={{ padding: "2rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div role="tabpanel" style={{ padding: "2rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.4rem", color: "var(--ds-text)", margin: 0 }}>{sel.title}</h3>
             <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.95rem", lineHeight: 1.6, color: "var(--ds-text-muted)", margin: 0 }}>{sel.body ?? sel.summary}</p>
             {sel.bullets?.length ? (
@@ -211,12 +211,12 @@ export const ServicesPriceList: React.FC<Props> = ({ content, more: m, onPick })
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={m} />
       <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
         {content.items.map((s, i) => (
-          <div key={i} role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: "1.2rem", alignItems: "center", padding: "1.2rem 1.5rem", borderTop: i ? "1px solid var(--ds-border)" : "none", cursor: onPick ? "pointer" : "default" }}>
+          <div key={i} role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(s.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(s.title); } } : undefined} style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: "1.45rem", alignItems: "center", padding: "1.2rem 1.5rem", borderTop: i ? "1px solid var(--ds-border)" : "none", cursor: onPick ? "pointer" : "default" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.3rem" }}>
               <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.1rem", color: "var(--ds-text)", margin: 0 }}>{s.title}</h3>
               <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.88rem", lineHeight: 1.5, color: "var(--ds-text-muted)", margin: 0 }}>{s.summary}</p>
             </div>
-            <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.95rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700, whiteSpace: "nowrap" }}>{s.price ?? "auf Anfrage"}</span>
+            {s.price && <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.95rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 700, whiteSpace: "nowrap" }}>{s.price}</span>}
           </div>
         ))}
       </div>
@@ -232,8 +232,8 @@ export const ServicesFeatureSplit: React.FC<Props> = ({ content, more: m, onPick
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={m} />
-        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.1fr) minmax(0,1fr)", gap: "1.4rem", alignItems: "stretch" }}>
-          <article className="ds-card" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(first.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(first.title); } } : undefined} style={{ background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "2rem", display: "flex", flexDirection: "column", gap: "0.9rem", cursor: onPick ? "pointer" : "default" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.1fr) minmax(0,1fr)", gap: "1.65rem", alignItems: "stretch" }}>
+          <article className="ds-card" role={onPick ? "button" : undefined} tabIndex={onPick ? 0 : undefined} onClick={onPick ? () => onPick(first.title) : undefined} onKeyDown={onPick ? (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onPick(first.title); } } : undefined} style={{ background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "2rem", display: "flex", flexDirection: "column", gap: "1.15rem", cursor: onPick ? "pointer" : "default" }}>
             <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.7rem", color: "var(--ds-text)", margin: 0 }}>{first.title}</h3>
             <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.95rem", lineHeight: 1.6, color: "var(--ds-text-muted)", margin: 0 }}>{first.body ?? first.summary}</p>
             {first.price && <span style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.82rem", color: "var(--ds-primary-ink, var(--ds-primary))", fontWeight: 600 }}>{first.price}</span>}

@@ -16,7 +16,7 @@ export const ValuesIconCircle: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.4rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.65rem" }}>
         {content.items.map((v, i) => (
           <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.6rem" }}>
             <div style={{ width: "3rem", height: "3rem", borderRadius: "9999px", background: "var(--ds-primary-soft)", display: "flex", alignItems: "center", justifyContent: "center" }}><span style={{ width: "0.7rem", height: "0.7rem", borderRadius: "9999px", background: "var(--ds-primary)" }} /></div>
@@ -88,7 +88,7 @@ export const ValuesBanner: React.FC<Props> = ({ content, more }) => (
   <section style={{ background: "var(--ds-primary-soft)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.6rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.85rem" }}>
         {content.items.map((v, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.5rem", textAlign: "center", alignItems: "center" }}>
             <span aria-hidden style={{ width: "0.55rem", height: "0.55rem", borderRadius: "9999px", background: "var(--ds-primary)" }} />
@@ -105,7 +105,7 @@ export const ValuesStepper: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-      <div style={{ position: "relative", display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.2rem" }}>
+      <div style={{ position: "relative", display: "grid", gridTemplateColumns: `repeat(${content.items.length}, minmax(0,1fr))`, gap: "1.45rem" }}>
         <div aria-hidden style={{ position: "absolute", top: "0.85rem", left: "8%", right: "8%", height: "1px", background: "var(--ds-border)" }} />
         {content.items.map((v, i) => (
           <div key={i} style={{ position: "relative", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.5rem" }}>
@@ -126,8 +126,8 @@ export const ValuesFeature: React.FC<Props> = ({ content, more }) => {
     <section style={sectionBase}>
       <Container>
         <SectionHead eyebrow={content.eyebrow} heading={content.heading} more={more} />
-        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.1fr) minmax(0,1fr)", gap: "1.4rem", alignItems: "stretch" }}>
-          <div style={{ background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "2rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.1fr) minmax(0,1fr)", gap: "1.65rem", alignItems: "stretch" }}>
+          <div style={{ background: "var(--ds-primary-soft)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "2rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}>
             <h4 style={{ ...titleS, fontSize: "1.6rem" }}>{first.title}</h4><p style={bodyS}>{first.body}</p>
           </div>
           <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
@@ -162,9 +162,9 @@ export const ValuesPillHeaders: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.4rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.65rem" }}>
         {content.items.map((v, i) => (
-          <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.7rem" }}>
+          <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "0.95rem" }}>
             <span style={{ display: "inline-block", padding: "0.45rem 1rem", borderRadius: "9999px", background: "var(--ds-primary)", color: "var(--ds-primary-fg)", fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "0.95rem" }}>{v.title}</span>
             <p style={bodyS}>{v.body}</p>
           </div>
@@ -179,7 +179,7 @@ export const ValuesTopAccent: React.FC<Props> = ({ content, more }) => (
   <section style={sectionBase}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center more={more} />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(content.items.length, 4)}, minmax(0,1fr))`, gap: "1.45rem" }}>
         {content.items.map((v, i) => (
           <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden", display: "flex", flexDirection: "column" }}>
             <div aria-hidden style={{ height: "3px", background: "var(--ds-primary)" }} />

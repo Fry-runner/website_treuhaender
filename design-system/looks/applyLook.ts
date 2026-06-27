@@ -10,7 +10,7 @@
 import type { CSSProperties } from "react";
 import type { DesignTokens } from "../tokens";
 import { radius, shadow, sectionY, weight, display, displayH2, headTracking, space, spaceBlock, gutter } from "./scales";
-import { ensureContrast, luminance, contrast, mix } from "./color";
+import { ensureContrast, luminance, contrast } from "./color";
 
 export type LookVars = CSSProperties & Record<string, string | number>;
 
@@ -20,8 +20,15 @@ export function applyLook(t: DesignTokens): LookVars {
   // wash of the brand colour (≈6% toward primary) — subtle enough not to shout, but it
   // always belongs to the palette instead of reading as a generic grey. Dark looks keep
   // their panel (a brand-tinted near-black would erase card definition).
+  // SURFACE = section bands + cards. Avoids BOTH a generic grey (clashes with a coloured
+  // brand) AND a pastel WASH of the accent (any perceptible accent tint at this lightness
+  // reads as "light blue/peach of the brand"; no tint reads as grey — there is no middle).
+  // So we drop the FILL distinction entirely: surface = bg, and elements are separated by
+  // the structures' existing hairline borders, shadows and spacing (the skill: "group with
+  // border / divide / negative space, not a fill"). Genuine accent moments stay on
+  // --ds-primary-soft (sparse, intentional). Dark looks keep their distinct panel.
   const bgLight = luminance(t.color.bg) > 0.6;
-  const surface = bgLight ? mix(t.color.bg, t.color.primary, 0.06) : t.color.surface;
+  const surface = bgLight ? t.color.bg : t.color.surface;
   // Supporting text must clear WCAG AA on EVERY surface it can land on — the page bg,
   // the surface band, AND the faint primary-soft tint that FAQ / feature bands paint.
   // Several presets ship a muted grey that fails on the tinted bands specifically
@@ -39,17 +46,17 @@ export function applyLook(t: DesignTokens): LookVars {
   const harderForPrimary = Math.abs(luminance(t.color.surface) - lp) < Math.abs(luminance(t.color.bg) - lp)
     ? t.color.surface : t.color.bg;
   const primaryInk = ensureContrast(t.color.primary, harderForPrimary, 4.5);
-  // A primary-FILLED button/CTA must clear AA between its label and the fill. The baked
-  // --ds-primary-fg used a crude luminance split (white when primary lum < 0.5), leaving
-  // white at ~3.9–4.3:1 on mid-luminance brand colours (a medium blue, a terracotta).
-  // Pick the label with the better REAL contrast; if a mid-tone accent leaves even the
-  // best below 4.5, darken the FILL just enough for white to clear AA. The brand hue is
-  // preserved for text/links via --ds-primary-ink; only genuine mid-tones shift the fill.
+  // A primary-FILLED button/CTA label must clear AA against its fill. Pick pure WHITE or
+  // near-BLACK — whichever contrasts MORE with the actual fill — so the CTA text flips
+  // cleanly between the two extremes (the user's rule) and stays readable on ANY brand or
+  // hand-picked accent. Because every colour clears AA against at least one of black/white,
+  // the FILL is kept as-is (brand hue preserved); only a near-perfect mid-grey would force
+  // a tiny lightness nudge on the fill. (--ds-primary-ink carries the hue for text/links.)
+  const DARK_LABEL = "#111111";
   let primaryFill = t.color.primary;
-  let primaryFg = contrast("#FFFFFF", primaryFill) >= contrast(t.color.text, primaryFill) ? "#FFFFFF" : t.color.text;
+  let primaryFg = contrast("#FFFFFF", primaryFill) >= contrast(DARK_LABEL, primaryFill) ? "#FFFFFF" : DARK_LABEL;
   if (contrast(primaryFg, primaryFill) < 4.5) {
-    primaryFill = ensureContrast(primaryFill, "#FFFFFF", 4.5);
-    primaryFg = "#FFFFFF";
+    primaryFill = ensureContrast(primaryFill, primaryFg, 4.5);  // nudge fill lightness toward the chosen label
   }
   // Micro-interaction magnitudes scale with the look's motion intensity, so hover
   // lifts / presses / image zoom / arrow nudges stay COHERENT per firm (a "subtle"
@@ -93,6 +100,11 @@ export function applyLook(t: DesignTokens): LookVars {
     // Trust-first density (taste-skill): nudge an "airy" rhythm to "normal" so a fiduciary
     // reads substantive, not art-gallery-sparse. Enforced here for already-baked looks too.
     "--ds-section-y": sectionY(t.spacing.sectionY),
+    // Guaranteed MINIMUM gap between adjacent sections — added as margin-top on every
+    // section block (incl. the first one under the hero), so two sections can never sit
+    // tight against each other even when one carries little padding (a thin trust strip,
+    // or the full-bleed hero with no bottom padding). Fluid: gentler on phones.
+    "--ds-section-gap": "clamp(1rem, 0.5rem + 1.5vw, 1.75rem)",
     "--ds-space": space(t.spacing.rhythm === "airy" ? "normal" : t.spacing.rhythm),
     "--ds-space-block": spaceBlock(t.spacing.rhythm === "airy" ? "normal" : t.spacing.rhythm),
     "--ds-container": t.spacing.containerMax,

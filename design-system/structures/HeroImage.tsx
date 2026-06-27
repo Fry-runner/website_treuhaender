@@ -4,8 +4,7 @@
  * when present; otherwise falls back to a token-driven gradient placeholder.
  */
 import React from "react";
-import { Container, Eyebrow, Heading, Accent, Lede, Button, ActionButton } from "./primitives";
-import { Icon } from "../icons/iconSets";
+import { Container, Eyebrow, Heading, Accent, Lede, Button, ActionButton, usePrimaryStyle, buttonShape } from "./primitives";
 import type { HeroContent } from "../content/types";
 
 const gradientLight: React.CSSProperties = {
@@ -27,11 +26,11 @@ export const HeroImageCentered: React.FC<{ content: HeroContent }> = ({ content 
   <section style={{ position: "relative", overflow: "hidden", paddingBlock: "calc(var(--ds-section-y) * 1.3)", borderBottom: "1px solid var(--ds-border)", ...(content.image ? photo(content.image) : gradientLight) }}>
     {content.image && <div aria-hidden style={{ position: "absolute", inset: 0, background: "rgba(255,255,255,0.88)" }} />}
     <Container style={{ position: "relative", maxWidth: "min(var(--ds-container), 820px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.5rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.75rem" }}>
         <Eyebrow>{content.eyebrow}</Eyebrow>
         <Heading>{content.titleLead} <Accent>{content.titleAccent}</Accent>{content.titleTail ? <> {content.titleTail}</> : null}</Heading>
         <Lede style={{ maxWidth: "52ch", color: "var(--ds-text)" }}>{content.lede}</Lede>
-        <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", justifyContent: "center" }}>
+        <div style={{ display: "flex", gap: "1.15rem", flexWrap: "wrap", justifyContent: "center" }}>
           <Button variant="primary">{content.primaryCta}</Button>
           <Button variant="outline">{content.secondaryCta}</Button>
         </div>
@@ -45,11 +44,11 @@ export const HeroImageSplit: React.FC<{ content: HeroContent }> = ({ content }) 
   <section style={{ background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.1fr) minmax(0,1fr)", gap: "3rem", alignItems: "center" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.3rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.55rem" }}>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <Heading>{content.titleLead} <Accent>{content.titleAccent}</Accent></Heading>
           <Lede>{content.lede}</Lede>
-          <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap" }}>
+          <div style={{ display: "flex", gap: "1.15rem", flexWrap: "wrap" }}>
             <Button variant="primary">{content.primaryCta}</Button>
             <Button variant="outline">{content.secondaryCta}</Button>
           </div>
@@ -61,20 +60,27 @@ export const HeroImageSplit: React.FC<{ content: HeroContent }> = ({ content }) 
 );
 
 /** 3) Full-bleed photo with scrim, light text bottom-left. */
-export const HeroImageFull: React.FC<{ content: HeroContent }> = ({ content }) => (
+export const HeroImageFull: React.FC<{ content: HeroContent }> = ({ content }) => {
+  // The scrim is an ABSOLUTE-dark overlay (literal rgba black, not a token), so the
+  // buttons must be absolute-light on EVERY look — InvertedTone's token fill would go
+  // dark-on-dark on a dark look. We keep the fixed light fill but borrow the firm's
+  // SILHOUETTE (radius/clip) so these still read as the same button family as the body.
+  const shape = buttonShape(usePrimaryStyle());
+  return (
   <section style={{ position: "relative", overflow: "hidden", borderBottom: "1px solid var(--ds-border)", ...(content.image ? photo(content.image) : { backgroundImage: "linear-gradient(120deg, var(--ds-primary), var(--ds-secondary))" }) }}>
     <div aria-hidden style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.78), rgba(0,0,0,0.48))" }} />
     <Container style={{ position: "relative", paddingBlock: "calc(var(--ds-section-y) * 1.8)" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.3rem", maxWidth: "60ch" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.55rem", maxWidth: "60ch" }}>
         <h1 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display)", letterSpacing: "var(--ds-headline-tracking)", lineHeight: 1.05, color: "#fff", margin: 0 }}>
           {content.titleLead} {content.titleAccent} {content.titleTail ?? ""}
         </h1>
         <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "1.1rem", lineHeight: 1.6, color: "rgba(255,255,255,0.92)", maxWidth: "50ch", margin: 0 }}>{content.lede}</p>
-        <div style={{ display: "flex", gap: "0.9rem", flexWrap: "wrap", marginTop: "0.3rem" }}>
-          <ActionButton to="/kontakt" style={{ ...lightBtn, background: "#fff", color: "#111", border: "none" }}>{content.primaryCta} <Icon name="arrowRight" size={14} style={{ verticalAlign: "-0.1em" }} /></ActionButton>
-          <ActionButton to="/leistungen" style={{ ...lightBtn, background: "transparent", color: "#fff", border: "1px solid rgba(255,255,255,0.7)" }}>{content.secondaryCta}</ActionButton>
+        <div style={{ display: "flex", gap: "1.15rem", flexWrap: "wrap", marginTop: "0.3rem" }}>
+          <ActionButton to="/kontakt" style={{ ...lightBtn, ...shape, background: "#fff", color: "#111", border: "none" }}>{content.primaryCta}</ActionButton>
+          <ActionButton to="/leistungen" style={{ ...lightBtn, ...shape, background: "transparent", color: "#fff", border: "1px solid rgba(255,255,255,0.7)" }}>{content.secondaryCta}</ActionButton>
         </div>
       </div>
     </Container>
   </section>
-);
+  );
+};

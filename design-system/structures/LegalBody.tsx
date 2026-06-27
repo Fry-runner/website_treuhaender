@@ -8,7 +8,7 @@ export const LegalBody: React.FC<{ doc: string; firm: string; contact: ContactCo
   return (
     <section style={{ background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)" }}>
       <Container style={{ maxWidth: "min(var(--ds-container), 760px)" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "1.1rem" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.35rem" }}>
           {doc === "Impressum" ? (
             <>
               <p style={p}>

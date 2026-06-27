@@ -166,6 +166,9 @@ function pageHasRealContent(pageType: string, content?: SiteContent): boolean {
   if (!content) return true;
   switch (pageType) {
     case "team": return content.team.members.length >= TEAM_PAGE_MIN_MEMBERS;
+    // No price page without real tiers — and prices are stripped site-wide (SiteRouter),
+    // so /preise is dropped for every firm (no empty "Preise" page, no nav link).
+    case "pricing": return content.pricing.tiers.length > 0;
     default: return true;
   }
 }

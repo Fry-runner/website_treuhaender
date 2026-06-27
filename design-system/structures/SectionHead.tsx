@@ -103,7 +103,7 @@ export const SectionHead: React.FC<{ eyebrow: string; heading: string; center?: 
   // `center` prop is intentionally ignored in favour of this site-wide policy.)
   const center = useSectionAlign() === "center";
   const headingBlock = h ? (
-    <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem", alignItems: center ? "center" : "flex-start", textAlign: center ? "center" : "left" }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem", alignItems: center ? "center" : "flex-start", textAlign: center ? "center" : "left" }}>
       <Eyebrow>{eyebrow}</Eyebrow>
       <h2 style={{
         fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number,
@@ -113,8 +113,11 @@ export const SectionHead: React.FC<{ eyebrow: string; heading: string; center?: 
       </h2>
     </div>
   ) : null;
+  // The "view all" link STACKS UNDER the heading and SHARES its alignment — never pushed
+  // to the opposite edge (the old space-between put a left heading over a right-aligned
+  // link). A button-ish affordance always matches the elements above it.
   return (
-    <div style={{ display: "flex", alignItems: "flex-end", justifyContent: h ? "space-between" : "flex-end", gap: "1rem", flexWrap: "wrap", marginBottom: h ? "var(--ds-space-block, 2.2rem)" : "1.2rem" }}>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: center ? "center" : "flex-start", gap: "1.15rem", marginBottom: h ? "var(--ds-space-block, 2.2rem)" : "1.2rem" }}>
       {headingBlock}
       {more && <SectionMore link={more} />}
     </div>

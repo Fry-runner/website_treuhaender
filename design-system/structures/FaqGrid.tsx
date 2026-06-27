@@ -8,7 +8,7 @@ export const FaqGrid: React.FC<{ content: FaqContent }> = ({ content }) => (
   <section style={{ background: "var(--ds-bg)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: "1.6rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: "1.85rem" }}>
         {content.items.map((f, i) => (
           <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
             <h3 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1rem", color: "var(--ds-text)", margin: 0 }}>{f.q}</h3>

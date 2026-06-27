@@ -36,6 +36,19 @@ input:focus, textarea:focus, select:focus { border-color: var(--ds-primary); }
 .ds-nav-link:hover { color: var(--ds-text); }
 .ds-nav-link[aria-current="page"] { color: var(--ds-text); font-weight: 600; }
 
+/* Header floating over a DARK home hero → light link text (the quiet default above
+   would be invisible). On phones the links live in a SOLID dropdown panel, so the
+   media block below forces them back to dark there. */
+header[data-nav-tone="dark"] .ds-nav-link { color: rgba(255,255,255,0.82); }
+header[data-nav-tone="dark"] .ds-nav-link:hover,
+header[data-nav-tone="dark"] .ds-nav-link[aria-current="page"] { color: #fff; }
+
+/* Home hero: a full-height immersive opener (90vh), pulled up under the sticky header
+   so the transparent-at-top header floats over it (overlay = negative margin). The
+   section centres its own content vertically within that height. */
+.ds-home-hero { margin-top: calc(-1 * var(--ds-nav-h, 4.5rem)); }
+.ds-home-hero > section { min-height: 90vh; display: flex; flex-direction: column; justify-content: center; }
+
 /* Mobile navigation: collapse the inline link cluster into a toggle + dropdown.
    The toggle is hidden on wider screens; .ds-nav-links is an inline row there
    and an absolutely-positioned panel (shown only when data-open) on phones. */
@@ -53,6 +66,9 @@ input:focus, textarea:focus, select:focus { border-color: var(--ds-primary); }
     opacity: 0; visibility: hidden; transform: translateY(-8px); pointer-events: none;
   }
   .ds-nav-links[data-open="true"] { opacity: 1; visibility: visible; transform: none; pointer-events: auto; }
+  /* The open dropdown is a solid light panel → keep its links dark even when the bar
+     above floats over a dark hero (overrides the inline light colour). */
+  header[data-nav-tone="dark"] .ds-nav-links .ds-nav-link { color: var(--ds-text-muted) !important; }
 }
 
 /* Tablet: thin 3+ column content grids down to 2 columns. */

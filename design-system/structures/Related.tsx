@@ -43,7 +43,7 @@ export const Related: React.FC<{
           <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr)", gap: "0.6rem" }}>
             {items.map((s, i) => (
               <button key={i} className="ds-nudge" onClick={() => onPick?.(s.title)} style={{
-                display: "flex", alignItems: "center", justifyContent: "space-between", gap: "1rem",
+                display: "flex", alignItems: "center", justifyContent: "space-between", gap: "1.25rem",
                 textAlign: "left", cursor: "pointer", background: "var(--ds-bg)",
                 border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.05rem 1.3rem",
                 fontFamily: "var(--ds-font-heading)", fontWeight: 600, fontSize: "1.05rem", color: "var(--ds-text)",
@@ -82,7 +82,7 @@ export const Related: React.FC<{
       <section style={{ background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
         <Container>
           <SectionHead eyebrow="Weitere Leistungen" heading={heading} />
-          <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, minmax(0,1fr))`, gap: "1.2rem" }}>
+          <div style={{ display: "grid", gridTemplateColumns: `repeat(${cols}, minmax(0,1fr))`, gap: "1.45rem" }}>
             {featured.map((s, i) => (
               <button key={i} className="ds-nudge" onClick={() => onPick?.(s.title)} style={{
                 display: "flex", flexDirection: "column", justifyContent: "space-between", gap: "2.5rem",
@@ -125,7 +125,7 @@ export const Related: React.FC<{
     <section style={{ background: "var(--ds-surface)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
       <Container>
         <SectionHead eyebrow="Weitere Leistungen" heading={heading} />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0,1fr))", gap: "1.25rem" }}>
           {items.map((s, i) => (
             <button key={i} onClick={() => onPick?.(s.title)} style={{
               textAlign: "left", cursor: "pointer", background: "var(--ds-bg)",

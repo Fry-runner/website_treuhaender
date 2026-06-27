@@ -3,8 +3,7 @@
  * White text over a primary→secondary gradient. Reduced-motion safe.
  */
 import React from "react";
-import { Container, ActionButton } from "./primitives";
-import { Icon } from "../icons/iconSets";
+import { Container, Button, InvertedTone } from "./primitives";
 import type { CtaContent } from "../content/types";
 
 const css = `
@@ -20,17 +19,17 @@ export const CtaGradient: React.FC<{ content: CtaContent }> = ({ content }) => (
   }}>
     <style>{css}</style>
     <Container style={{ maxWidth: "min(var(--ds-container), 760px)" }}>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.1rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "1.35rem" }}>
         <h2 style={{ fontFamily: "var(--ds-font-heading)", fontWeight: "var(--ds-headline-weight)" as unknown as number, fontSize: "var(--ds-display-h2, 2.2rem)", letterSpacing: "var(--ds-headline-tracking)", color: "var(--ds-primary-fg)", margin: 0 }}>
           {content.heading}
         </h2>
         <p style={{ fontFamily: "var(--ds-font-body)", fontSize: "1.05rem", lineHeight: 1.55, color: "var(--ds-primary-fg)", opacity: 0.92, maxWidth: "46ch", margin: 0 }}>{content.sub}</p>
-        <ActionButton to="/kontakt" style={{
-          marginTop: "0.4rem", fontFamily: "var(--ds-font-body)", fontSize: "0.8rem",
-           fontWeight: 600, padding: "0.9rem 1.8rem", borderRadius: "var(--ds-radius-pill)",
-          background: "var(--ds-bg)", color: "var(--ds-text)", border: "none", cursor: "pointer" }}>
-          {content.button} <Icon name="arrowRight" size={14} style={{ verticalAlign: "-0.1em" }} />
-        </ActionButton>
+        {/* Colored (primary→secondary) ground: InvertedTone makes <Button> render the
+            firm's silhouette with the contrast-safe inverted fill — same button family as
+            the rest of the site, not a bespoke pill. */}
+        <div style={{ marginTop: "0.4rem" }}>
+          <InvertedTone><Button variant="primary" cta>{content.button}</Button></InvertedTone>
+        </div>
       </div>
     </Container>
   </section>

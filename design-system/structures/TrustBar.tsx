@@ -9,7 +9,7 @@ import { Container } from "./primitives";
 export const TrustBar: React.FC<{ label: string; items: string[]; badges?: string[] }> = ({ label, items, badges }) => (
   <section style={{ background: "var(--ds-bg)", paddingBlock: "1.6rem", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
-      <div style={{ display: "flex", alignItems: "center", gap: "1.5rem", flexWrap: "wrap", justifyContent: "center" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: "1.75rem", flexWrap: "wrap", justifyContent: "center" }}>
         <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.8rem", fontWeight: 600, color: "var(--ds-text-muted)" }}>
           {label}
         </span>

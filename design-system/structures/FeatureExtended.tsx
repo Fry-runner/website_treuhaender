@@ -6,7 +6,7 @@
  * registry), so they only render where a picture is actually available.
  */
 import React from "react";
-import { Container, Button } from "./primitives";
+import { Container, Button, InvertedTone } from "./primitives";
 import { Icon } from "../icons/iconSets";
 
 type FeatureContent = { eyebrow: string; heading: string; body: string; bullets?: string[]; image: string; cta?: { label: string; href?: string } };
@@ -28,11 +28,15 @@ const Bullets: React.FC<{ items?: string[]; light?: boolean }> = ({ items, light
 );
 
 const Text: React.FC<{ c: FeatureContent; light?: boolean }> = ({ c, light }) => (
-  <div style={{ display: "flex", flexDirection: "column", gap: "1.1rem" }}>
+  <div style={{ display: "flex", flexDirection: "column", gap: "1.35rem" }}>
     <h2 style={headingS(light)}>{c.heading}</h2>
     <p style={bodyS(light)}>{c.body}</p>
     <Bullets items={c.bullets} light={light} />
-    {c.cta && <div style={{ marginTop: "0.3rem" }}><Button variant="primary" to={c.cta.href}>{c.cta.label}</Button></div>}
+    {/* `light` ⇒ the band sits on a dark (--ds-text) ground → InvertedTone keeps the CTA
+        legible and in the firm's silhouette, matching every other dark-ground button. */}
+    {c.cta && <div style={{ marginTop: "0.3rem" }}>{light
+      ? <InvertedTone><Button variant="primary" to={c.cta.href}>{c.cta.label}</Button></InvertedTone>
+      : <Button variant="primary" to={c.cta.href}>{c.cta.label}</Button>}</div>}
   </div>
 );
 
@@ -90,7 +94,7 @@ export const FeatureBordered: React.FC<Props> = ({ content }) => (
 /** 6) Text on a tinted panel beside the image. */
 export const FeatureTinted: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
-    <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: "1.6rem", alignItems: "stretch" }}>
+    <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: "1.85rem", alignItems: "stretch" }}>
       <div style={{ background: "var(--ds-primary-soft)", borderRadius: "var(--ds-radius)", padding: "2.2rem", display: "flex", alignItems: "center" }}><Text c={content} /></div>
       <Photo img={content.image} style={{ minHeight: "360px" }} />
     </div>
@@ -102,8 +106,8 @@ export const FeatureImageTop: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 900px)" }}>
     <Photo img={content.image} style={{ minHeight: "300px", marginBottom: "1.8rem" }} />
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.3fr) minmax(0,1fr)", gap: "2rem", alignItems: "start" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "0.9rem" }}><h2 style={headingS()}>{content.heading}</h2><p style={bodyS()}>{content.body}</p></div>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}><Bullets items={content.bullets} />{content.cta && <Button variant="primary" to={content.cta.href}>{content.cta.label}</Button>}</div>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.15rem" }}><h2 style={headingS()}>{content.heading}</h2><p style={bodyS()}>{content.body}</p></div>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}><Bullets items={content.bullets} />{content.cta && <Button variant="primary" to={content.cta.href}>{content.cta.label}</Button>}</div>
     </div>
   </Container></section>
 );
@@ -144,7 +148,7 @@ export const FeatureBandFull: React.FC<Props> = ({ content }) => (
   <section style={{ position: "relative", overflow: "hidden", borderBottom: "1px solid var(--ds-border)", ...cover(content.image) }}>
     <div aria-hidden style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg, rgba(0,0,0,0.72), rgba(0,0,0,0.30))" }} />
     <Container style={{ position: "relative", paddingBlock: "calc(var(--ds-section-y) * 1.4)" }}>
-      <div style={{ maxWidth: "44ch", display: "flex", flexDirection: "column", gap: "1.1rem" }}>
+      <div style={{ maxWidth: "44ch", display: "flex", flexDirection: "column", gap: "1.35rem" }}>
         <h2 style={{ ...headingS(true), fontSize: "var(--ds-display-h2, 2.2rem)" }}>{content.heading}</h2>
         <p style={bodyS(true)}>{content.body}</p>
         <Bullets items={content.bullets} light />
@@ -158,7 +162,7 @@ export const FeatureBandFull: React.FC<Props> = ({ content }) => (
 export const FeatureCaption: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div aria-hidden style={{ minHeight: "360px", borderRadius: "var(--ds-radius) var(--ds-radius) 0 0", ...cover(content.image) }} />
-    <div style={{ border: "1px solid var(--ds-border)", borderTop: "none", borderRadius: "0 0 var(--ds-radius) var(--ds-radius)", padding: "1.8rem 2rem", display: "grid", gridTemplateColumns: "minmax(0,1.5fr) minmax(0,1fr)", gap: "1.6rem", alignItems: "center" }}>
+    <div style={{ border: "1px solid var(--ds-border)", borderTop: "none", borderRadius: "0 0 var(--ds-radius) var(--ds-radius)", padding: "1.8rem 2rem", display: "grid", gridTemplateColumns: "minmax(0,1.5fr) minmax(0,1fr)", gap: "1.85rem", alignItems: "center" }}>
       <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}><h2 style={{ ...headingS(), fontSize: "1.5rem" }}>{content.heading}</h2><p style={bodyS()}>{content.body}</p></div>
       {content.cta && <div style={{ justifySelf: "end" }}><Button variant="primary" to={content.cta.href}>{content.cta.label}</Button></div>}
     </div>
@@ -206,7 +210,7 @@ export const FeatureChipOverlay: React.FC<Props> = ({ content }) => (
 export const FeatureStatement: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1.1fr) minmax(0,1fr)", gap: "2.6rem", alignItems: "center" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.45rem" }}>
         <h2 style={{ ...headingS(), fontSize: "var(--ds-display-h2, 2.2rem)", lineHeight: 1.2 }}>{content.heading}</h2>
         <Bullets items={content.bullets} />
         {content.cta && <div><Button variant="primary" to={content.cta.href}>{content.cta.label}</Button></div>}

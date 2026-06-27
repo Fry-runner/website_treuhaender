@@ -37,8 +37,8 @@ const StarRow: React.FC<{ rating?: string | number; size?: number }> = ({ rating
   );
 };
 const Head: React.FC<{ c: TestimonialsContent; rating?: boolean }> = ({ c, rating = true }) => (
-  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "1rem", marginBottom: "2.2rem" }}>
-    <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}><Eyebrow>{c.eyebrow}</Eyebrow><h2 style={headingStyle}>{c.heading}</h2></div>
+  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "1.25rem", marginBottom: "2.2rem" }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.05rem" }}><Eyebrow>{c.eyebrow}</Eyebrow><h2 style={headingStyle}>{c.heading}</h2></div>
     {rating && <Rating c={c} />}
   </div>
 );
@@ -53,7 +53,7 @@ export const TestimonialsBigQuote: React.FC<Props> = ({ content }) => {
   return (
     <section style={sectionBase}>
       <Container style={{ maxWidth: "min(var(--ds-container), 860px)" }}>
-        <div style={{ position: "relative", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", gap: "1.4rem" }}>
+        <div style={{ position: "relative", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", gap: "1.65rem" }}>
           <span aria-hidden style={{ position: "absolute", top: "-2.5rem", left: "50%", transform: "translateX(-50%)", fontFamily: "var(--ds-font-heading)", fontSize: "8rem", color: "var(--ds-primary-soft)", lineHeight: 1 }}>“</span>
           <Eyebrow>{content.eyebrow}</Eyebrow>
           <blockquote style={{ position: "relative", margin: 0, fontFamily: "var(--ds-font-heading)", fontSize: "2rem", lineHeight: 1.3, color: "var(--ds-text)" }}>{t.quote}</blockquote>
@@ -69,11 +69,11 @@ export const TestimonialsAvatarCards: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container>
       <Head c={content} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.45rem" }}>
         {content.items.map((t, i) => (
-          <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.98rem", lineHeight: 1.55, color: "var(--ds-text)", flex: 1 }}>“{t.quote}”</blockquote>
-            <figcaption style={{ display: "flex", alignItems: "center", gap: "0.8rem", borderTop: "1px solid var(--ds-border)", paddingTop: "0.9rem" }}>
+            <figcaption style={{ display: "flex", alignItems: "center", gap: "1.05rem", borderTop: "1px solid var(--ds-border)", paddingTop: "0.9rem" }}>
               <Avatar name={t.person} />
               <div style={{ display: "flex", flexDirection: "column" }}><strong style={{ fontFamily: "var(--ds-font-heading)", fontSize: "0.92rem", color: "var(--ds-text)" }}>{t.person}</strong>{metaCompany(t) && <span style={cap}>{metaCompany(t)}</span>}</div>
             </figcaption>
@@ -105,13 +105,13 @@ export const TestimonialsMasonry: React.FC<Props> = ({ content }) => (
 export const TestimonialsDark: React.FC<Props> = ({ content }) => (
   <section style={{ background: "var(--ds-text)", paddingBlock: "var(--ds-section-y)", borderBottom: "1px solid var(--ds-border)" }}>
     <Container>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "1rem", marginBottom: "2.2rem" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "1.25rem", marginBottom: "2.2rem" }}>
         <h2 style={{ ...headingStyle, color: "var(--ds-bg)" }}>{content.heading}</h2>
         <span style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", color: "var(--ds-primary)", fontWeight: 700 }}><Icon name="star" size={15} /> {content.rating} <span style={{ ...cap, color: "var(--ds-bg)", opacity: 0.75 }}>{content.reviewCount}</span></span>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.45rem" }}>
         {content.items.map((t, i) => (
-          <figure key={i} style={{ margin: 0, background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.16)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.9rem" }}>
+          <figure key={i} style={{ margin: 0, background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.16)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1.15rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.98rem", lineHeight: 1.55, color: "var(--ds-bg)" }}>“{t.quote}”</blockquote>
             <figcaption style={{ ...cap, color: "var(--ds-bg)", opacity: 0.75 }}><strong style={{ color: "var(--ds-bg)" }}>{t.person}</strong>{metaCompany(t) && <> · {metaCompany(t)}</>}</figcaption>
           </figure>
@@ -146,9 +146,9 @@ export const TestimonialsRatingHeader: React.FC<Props> = ({ content }) => (
         <div style={{ display: "inline-flex", alignItems: "center", gap: "0.4rem", fontFamily: "var(--ds-font-heading)", fontWeight: 700, fontSize: "2.4rem", color: "var(--ds-primary-ink, var(--ds-primary))", lineHeight: 1 }}><Icon name="star" size={30} /> {content.rating}</div>
         <div style={cap}>{content.reviewCount} · {content.heading}</div>
       </div>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px,1fr))", gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px,1fr))", gap: "1.45rem" }}>
         {content.items.map((t, i) => (
-          <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+          <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.95rem", lineHeight: 1.55, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
             <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaCity(t) && <> · {metaCity(t)}</>}</figcaption>
           </figure>
@@ -163,12 +163,12 @@ export const TestimonialsZigzagAvatar: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}>
     <Container style={{ maxWidth: "min(var(--ds-container), 880px)" }}>
       <Head c={content} />
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.4rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.65rem" }}>
         {content.items.map((t, i) => {
           const right = i % 2 === 1;
           return (
             <div key={i} style={{ display: "flex", justifyContent: right ? "flex-end" : "flex-start" }}>
-              <figure className="ds-card" style={{ margin: 0, maxWidth: "72%", display: "flex", gap: "1rem", flexDirection: right ? "row-reverse" : "row", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem" }}>
+              <figure className="ds-card" style={{ margin: 0, maxWidth: "72%", display: "flex", gap: "1.25rem", flexDirection: right ? "row-reverse" : "row", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem 1.5rem" }}>
                 <Avatar name={t.person} />
                 <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", textAlign: right ? "right" : "left" }}>
                   <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.96rem", lineHeight: 1.55, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
@@ -191,10 +191,10 @@ export const TestimonialsMarquee: React.FC<Props> = ({ content }) => {
     <section style={{ ...sectionBase, overflow: "hidden" }}>
       <style>{css}</style>
       <Container><Head c={content} /></Container>
-      <div style={{ display: "flex", gap: "1.2rem", whiteSpace: "normal" }} className="ds-tm-row-wrap">
-        <div className="ds-tm-row" style={{ display: "flex", gap: "1.2rem", animation: "ds-tm-marquee 40s linear infinite", willChange: "transform" }}>
+      <div style={{ display: "flex", gap: "1.45rem", whiteSpace: "normal" }} className="ds-tm-row-wrap">
+        <div className="ds-tm-row" style={{ display: "flex", gap: "1.45rem", animation: "ds-tm-marquee 40s linear infinite", willChange: "transform" }}>
           {row.map((t, i) => (
-            <figure key={i} style={{ margin: 0, flex: "0 0 320px", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.4rem", display: "flex", flexDirection: "column", gap: "0.7rem" }}>
+            <figure key={i} style={{ margin: 0, flex: "0 0 320px", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.4rem", display: "flex", flexDirection: "column", gap: "0.95rem" }}>
               <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.92rem", lineHeight: 1.5, color: "var(--ds-text)" }}>“{t.quote}”</blockquote>
               <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaCity(t) && <> · {metaCity(t)}</>}</figcaption>
             </figure>
@@ -219,9 +219,9 @@ export const TestimonialsStars: React.FC<Props> = ({ content }) => (
           <div style={cap}><strong style={{ color: "var(--ds-text)" }}>{content.rating}</strong> / 5{content.reviewCount ? <> · {content.reviewCount}</> : null}</div>
         </div>
       )}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px,1fr))", gap: "1.45rem" }}>
         {content.items.map((t, i) => (
-          <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+          <figure key={i} className="ds-card" style={{ margin: 0, background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.6rem", display: "flex", flexDirection: "column", gap: "1.05rem" }}>
             <blockquote style={{ margin: 0, fontFamily: "var(--ds-font-body)", fontSize: "0.96rem", lineHeight: 1.55, color: "var(--ds-text)", flex: 1 }}>“{t.quote}”</blockquote>
             <figcaption style={cap}><strong style={{ color: "var(--ds-text)" }}>{t.person}</strong>{metaCompany(t) && <> · {metaCompany(t)}</>}</figcaption>
           </figure>

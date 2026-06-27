@@ -4,7 +4,7 @@
  * All forms are inert (onSubmit prevented) — the same contract as the base Contact.
  */
 import React from "react";
-import { Container, Button } from "./primitives";
+import { Container, Button, InvertedTone } from "./primitives";
 import { Icon } from "../icons/iconSets";
 import { SectionHead } from "./SectionHead";
 import type { ContactContent, ContactInfo } from "../content/types";
@@ -26,13 +26,17 @@ const Req = () => <span aria-hidden="true"> *</span>;
 const Form: React.FC<{ cta: string; light?: boolean }> = ({ cta, light }) => {
   const id = React.useId();
   return (
-  <form onSubmit={(e) => e.preventDefault()} style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
+  <form onSubmit={(e) => e.preventDefault()} style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.25rem" }}>
       <div><label style={labelFor(light)} htmlFor={`${id}-name`}>Name<Req /></label><input id={`${id}-name`} name="name" type="text" autoComplete="name" required style={fieldFor(light)} /></div>
       <div><label style={labelFor(light)} htmlFor={`${id}-email`}>E-Mail<Req /></label><input id={`${id}-email`} name="email" type="email" autoComplete="email" required style={fieldFor(light)} /></div>
     </div>
     <div><label style={labelFor(light)} htmlFor={`${id}-msg`}>Nachricht<Req /></label><textarea id={`${id}-msg`} name="message" required style={{ ...fieldFor(light), minHeight: "7rem", resize: "vertical" }} /></div>
-    <div><Button variant="primary" type="submit">{cta}</Button></div>
+    {/* `light` ⇒ the form sits on a dark (--ds-text) ground → InvertedTone keeps the submit
+        button legible and in the firm's silhouette, like every other dark-ground CTA. */}
+    <div>{light
+      ? <InvertedTone><Button variant="primary" type="submit">{cta}</Button></InvertedTone>
+      : <Button variant="primary" type="submit">{cta}</Button>}</div>
   </form>
   );
 };
@@ -45,7 +49,7 @@ const infoRows = (info: ContactInfo): { l: string; v: string }[] => [
 ].filter(Boolean) as { l: string; v: string }[];
 
 const InfoList: React.FC<{ info: ContactInfo; light?: boolean }> = ({ info, light }) => (
-  <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+  <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
     {infoRows(info).map((r, i) => (
       <div key={i} style={{ display: "flex", flexDirection: "column", gap: "0.2rem" }}>
         <span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.66rem",   color: light ? "rgba(255,255,255,0.6)" : "var(--ds-text-muted)" }}>{r.l}</span>
@@ -79,7 +83,7 @@ export const ContactInfoLeft: React.FC<Props> = ({ content }) => (
 export const ContactCardForm: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "flex", flexWrap: "wrap", gap: "0.8rem", justifyContent: "center", marginBottom: "1.6rem" }}>
+    <div style={{ display: "flex", flexWrap: "wrap", gap: "1.05rem", justifyContent: "center", marginBottom: "1.6rem" }}>
       {infoRows(content.info).map((r, i) => <span key={i} style={{ fontFamily: "var(--ds-font-mono)", fontSize: "0.74rem", color: "var(--ds-text-muted)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius-pill)", padding: "0.4rem 0.9rem" }}>{r.v}</span>)}
     </div>
     <div style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", boxShadow: "var(--ds-shadow-card)", padding: "1.9rem" }}><Form cta={content.formCta} /></div>
@@ -90,7 +94,7 @@ export const ContactCardForm: React.FC<Props> = ({ content }) => (
 export const ContactSplitDark: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.4fr)", gap: "0", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", overflow: "hidden" }}>
-      <div style={{ background: "var(--ds-text)", padding: "2rem", display: "flex", flexDirection: "column", gap: "1.4rem" }}>
+      <div style={{ background: "var(--ds-text)", padding: "2rem", display: "flex", flexDirection: "column", gap: "1.65rem" }}>
         <div><h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.6rem", color: "var(--ds-bg)", margin: 0 }}>{content.heading}</h2></div>
         <InfoList info={content.info} light />
       </div>
@@ -140,7 +144,7 @@ export const ContactInfoGrid: React.FC<Props> = ({ content }) => {
   return (
     <section style={sectionBase}><Container>
       <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(rows.length, 4)}, minmax(0,1fr))`, gap: "1rem", marginBottom: "2rem" }}>
+      <div style={{ display: "grid", gridTemplateColumns: `repeat(${Math.min(rows.length, 4)}, minmax(0,1fr))`, gap: "1.25rem", marginBottom: "2rem" }}>
         {rows.map((r, i) => <div key={i} style={{ background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.3rem", display: "flex", flexDirection: "column", gap: "0.3rem" }}><span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.64rem",   color: "var(--ds-text-muted)" }}>{r.l}</span><span style={{ fontSize: "0.9rem", color: "var(--ds-text)" }}>{r.v}</span></div>)}
       </div>
       <div style={{ maxWidth: "680px", marginInline: "auto" }}><Form cta={content.formCta} /></div>
@@ -173,7 +177,7 @@ export const ContactTinted: React.FC<Props> = ({ content }) => (
 export const ContactBigHeading: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1.3fr)", gap: "2.4rem", alignItems: "start" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "1.45rem" }}>
         <h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "var(--ds-display)", lineHeight: 1.05, color: "var(--ds-text)", margin: 0 }}>{content.heading}</h2>
         <InfoList info={content.info} />
       </div>
@@ -211,7 +215,7 @@ export const ContactDarkForm: React.FC<Props> = ({ content }) => (
 export const ContactTwoCol: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: "1.4rem", alignItems: "start" }}>
+    <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(0,1fr)", gap: "1.65rem", alignItems: "start" }}>
       <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.8rem" }}><Form cta={content.formCta} /></div>
       <div style={{ border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "1.8rem", background: "var(--ds-bg)" }}><InfoList info={content.info} /></div>
     </div>
@@ -222,7 +226,7 @@ export const ContactTwoCol: React.FC<Props> = ({ content }) => (
 export const ContactRail: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 760px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} />
-    <div style={{ display: "flex", gap: "1rem", overflowX: "auto", paddingBottom: "0.6rem", marginBottom: "1.6rem" }}>
+    <div style={{ display: "flex", gap: "1.25rem", overflowX: "auto", paddingBottom: "0.6rem", marginBottom: "1.6rem" }}>
       {infoRows(content.info).map((r, i) => <div key={i} style={{ flex: "0 0 auto", background: "var(--ds-bg)", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "0.9rem 1.2rem", display: "flex", flexDirection: "column", gap: "0.2rem", minWidth: "10rem" }}><span style={{ fontFamily: "var(--ds-font-body)", fontSize: "0.62rem",  color: "var(--ds-text-muted)" }}>{r.l}</span><span style={{ fontSize: "0.88rem", color: "var(--ds-text)" }}>{r.v}</span></div>)}
     </div>
     <Form cta={content.formCta} />
@@ -271,7 +275,7 @@ export const ContactLocation: React.FC<Props> = ({ content }) => (
 export const ContactQuickActions: React.FC<Props> = ({ content }) => (
   <section style={sectionBase}><Container style={{ maxWidth: "min(var(--ds-container), 820px)" }}>
     <SectionHead eyebrow={content.eyebrow} heading={content.heading} center />
-    <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", justifyContent: "center", marginBottom: "1.8rem" }}>
+    <div style={{ display: "flex", gap: "1.25rem", flexWrap: "wrap", justifyContent: "center", marginBottom: "1.8rem" }}>
       {content.info.phone && <a href={`tel:${content.info.phone}`} style={{ display: "inline-flex", alignItems: "center", gap: "0.55rem", textDecoration: "none", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "0.9rem 1.4rem", color: "var(--ds-text)", fontFamily: "var(--ds-font-body)", fontSize: "0.92rem" }}><span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex" }}><Icon name="phone" size={16} /></span>{content.info.phone}</a>}
       {content.info.email && <a href={`mailto:${content.info.email}`} style={{ display: "inline-flex", alignItems: "center", gap: "0.55rem", textDecoration: "none", border: "1px solid var(--ds-border)", borderRadius: "var(--ds-radius)", padding: "0.9rem 1.4rem", color: "var(--ds-text)", fontFamily: "var(--ds-font-body)", fontSize: "0.92rem" }}><span aria-hidden style={{ color: "var(--ds-primary-ink, var(--ds-primary))", display: "inline-flex" }}><Icon name="mail" size={16} /></span>{content.info.email}</a>}
     </div>
@@ -283,7 +287,7 @@ export const ContactQuickActions: React.FC<Props> = ({ content }) => (
 export const ContactInlineForm: React.FC<Props> = ({ content }) => (
   <section style={{ ...sectionBase, paddingBlock: "calc(var(--ds-section-y) * 0.8)" }}><Container style={{ maxWidth: "min(var(--ds-container), 760px)" }}>
     <div style={{ textAlign: "center", marginBottom: "1.4rem" }}><h2 style={{ fontFamily: "var(--ds-font-heading)", fontSize: "1.7rem", color: "var(--ds-text)", margin: 0 }}>{content.heading}</h2></div>
-    <form onSubmit={(e) => e.preventDefault()} style={{ display: "flex", gap: "0.8rem", flexWrap: "wrap", justifyContent: "center" }}>
+    <form onSubmit={(e) => e.preventDefault()} style={{ display: "flex", gap: "1.05rem", flexWrap: "wrap", justifyContent: "center" }}>
       <label htmlFor="inline-contact-email" style={{ position: "absolute", width: 1, height: 1, padding: 0, margin: -1, overflow: "hidden", clip: "rect(0 0 0 0)", whiteSpace: "nowrap", border: 0 }}>Ihre E-Mail-Adresse</label>
       <input id="inline-contact-email" name="email" type="email" autoComplete="email" required placeholder="Ihre E-Mail" style={{ ...fieldFor(), width: "auto", flex: "1 1 16rem" }} />
       <Button variant="primary" type="submit">{content.formCta}</Button>
